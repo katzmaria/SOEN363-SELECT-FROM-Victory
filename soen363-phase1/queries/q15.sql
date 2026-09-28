@@ -1,0 +1,7 @@
+-- Query 15
+-- Count the total number of transfers between hospital units for each patient. The
+-- patient's first unit placement is not considered a transfer; each subsequent unit stay
+-- within the same admission represents one transfer.
+--
+-- Owner: TBD
+-- Status: not started

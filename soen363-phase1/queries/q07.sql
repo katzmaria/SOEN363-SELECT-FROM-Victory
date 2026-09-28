@@ -1,0 +1,6 @@
+-- Query 7
+-- List all patients who entered the hospital through the Emergency Department and
+-- were later transferred to an ICU or CCU during the same admission.
+--
+-- Owner: TBD
+-- Status: not started

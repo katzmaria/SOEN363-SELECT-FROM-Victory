@@ -1,0 +1,6 @@
+-- Query 9
+-- Calculate the average length of stay for each critical care unit type, such as MICU,
+-- SICU, ICU, and CCU. Display the unit type and its average length of stay.
+--
+-- Owner: TBD
+-- Status: not started

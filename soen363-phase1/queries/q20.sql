@@ -1,0 +1,7 @@
+-- Query 20
+-- Find all patients who underwent a surgical procedure and a radiology examination on
+-- the same calendar day during the same admission. Display the patient name, admission
+-- identifier, procedure type, radiology examination type, and the common date.
+--
+-- Owner: TBD
+-- Status: not started

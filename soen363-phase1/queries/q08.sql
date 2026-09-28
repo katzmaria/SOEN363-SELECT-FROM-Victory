@@ -1,0 +1,7 @@
+-- Query 8
+-- Retrieve the most frequently assigned primary ICD-9 diagnosis among admissions that
+-- included at least one ICU or CCU stay. Display the ICD-9 code, its official
+-- description, and the number of times it was assigned.
+--
+-- Owner: TBD
+-- Status: not started

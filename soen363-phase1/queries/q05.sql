@@ -1,0 +1,6 @@
+-- Query 5
+-- Find all ICU or CCU unit stays that lasted more than seven days. Display the
+-- patient name, unit type, unit entry time, unit exit time, and calculated length of stay.
+--
+-- Owner: TBD
+-- Status: not started

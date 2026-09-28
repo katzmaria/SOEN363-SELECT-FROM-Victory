@@ -1,0 +1,6 @@
+-- Query 13
+-- List all admissions in which the patient had at least one radiology examination but
+-- had no recorded ICU or CCU stay.
+--
+-- Owner: TBD
+-- Status: not started

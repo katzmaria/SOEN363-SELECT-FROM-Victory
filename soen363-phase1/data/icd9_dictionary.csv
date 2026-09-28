@@ -1,0 +1,34 @@
+icd9_code,official_title,description,disease_category
+038.9,Unspecified septicemia,Bloodstream infection with a systemic response; organism not specified,Infectious and parasitic diseases
+244.9,Unspecified acquired hypothyroidism,Underactive thyroid gland that was not present from birth,"Endocrine, nutritional and metabolic diseases, and immunity disorders"
+250.00,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",Type 2 diabetes with no recorded complications,"Endocrine, nutritional and metabolic diseases, and immunity disorders"
+272.4,Other and unspecified hyperlipidemia,Elevated blood cholesterol or triglycerides,"Endocrine, nutritional and metabolic diseases, and immunity disorders"
+276.51,Dehydration,Loss of body water leading to a fluid deficit,"Endocrine, nutritional and metabolic diseases, and immunity disorders"
+285.9,"Anemia, unspecified",Low hemoglobin with the cause not specified,Diseases of the blood and blood-forming organs
+305.1,Tobacco use disorder,Ongoing dependence on tobacco,Mental disorders
+401.9,Unspecified essential hypertension,High blood pressure with no identified secondary cause,Diseases of the circulatory system
+410.9,"Acute myocardial infarction, unspecified site",Heart attack; affected area of the heart wall not specified,Diseases of the circulatory system
+414.01,Coronary atherosclerosis of native coronary artery,Plaque narrowing the patient's own coronary arteries,Diseases of the circulatory system
+415.19,Other pulmonary embolism and infarction,Blood clot blocking an artery in the lungs,Diseases of the circulatory system
+427.31,Atrial fibrillation,Irregular and often rapid heart rhythm originating in the atria,Diseases of the circulatory system
+428.0,"Congestive heart failure, unspecified",Heart unable to pump effectively with fluid build-up,Diseases of the circulatory system
+434.91,"Cerebral artery occlusion, unspecified with cerebral infarction",Ischemic stroke caused by a blocked brain artery,Diseases of the circulatory system
+486,"Pneumonia, organism unspecified",Lung infection with the causative organism not identified,Diseases of the respiratory system
+491.21,Obstructive chronic bronchitis with (acute) exacerbation,COPD flare-up with worsening breathlessness,Diseases of the respiratory system
+493.92,"Asthma, unspecified type, with (acute) exacerbation",Asthma attack,Diseases of the respiratory system
+518.81,Acute respiratory failure,Sudden inability of the lungs to maintain adequate oxygenation,Diseases of the respiratory system
+530.81,Esophageal reflux,Stomach acid flowing back into the esophagus,Diseases of the digestive system
+540.9,Acute appendicitis without mention of peritonitis,Inflamed appendix without infection of the abdominal lining,Diseases of the digestive system
+574.00,"Calculus of gallbladder with acute cholecystitis, without mention of obstruction",Gallstones with acute inflammation of the gallbladder,Diseases of the digestive system
+574.20,"Calculus of gallbladder without mention of cholecystitis, without mention of obstruction",Gallstones without inflammation of the gallbladder,Diseases of the digestive system
+577.0,Acute pancreatitis,Sudden inflammation of the pancreas,Diseases of the digestive system
+578.9,"Hemorrhage of gastrointestinal tract, unspecified",Bleeding somewhere in the digestive tract,Diseases of the digestive system
+584.9,"Acute kidney failure, unspecified",Sudden loss of kidney function,Diseases of the genitourinary system
+585.9,"Chronic kidney disease, unspecified",Long-term loss of kidney function; stage not specified,Diseases of the genitourinary system
+599.0,"Urinary tract infection, site not specified",Infection of the urinary tract,Diseases of the genitourinary system
+715.35,"Osteoarthrosis, localized, not specified whether primary or secondary, pelvic region and thigh",Degenerative arthritis of the hip,Diseases of the musculoskeletal system and connective tissue
+780.2,Syncope and collapse,Temporary loss of consciousness,"Symptoms, signs, and ill-defined conditions"
+780.39,Other convulsions,Seizure not classified as epilepsy,"Symptoms, signs, and ill-defined conditions"
+786.50,"Chest pain, unspecified",Chest pain without a determined cause,"Symptoms, signs, and ill-defined conditions"
+820.8,Closed fracture of unspecified part of neck of femur,Hip fracture without an open wound,Injury and poisoning
+850.9,"Concussion, unspecified",Mild traumatic brain injury,Injury and poisoning

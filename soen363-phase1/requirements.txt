@@ -1,0 +1,2 @@
+# Pinned: this exact version reproduces the committed db/hospital.db row-for-row
+faker==40.39.0

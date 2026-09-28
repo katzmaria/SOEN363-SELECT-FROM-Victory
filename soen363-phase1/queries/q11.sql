@@ -1,0 +1,7 @@
+-- Query 11
+-- Retrieve the name of each patient and the total number of radiology examinations
+-- received across all admissions. Include patients who have not received any radiology
+-- examinations and display zero for their examination count.
+--
+-- Owner: TBD
+-- Status: not started

@@ -1,0 +1,6 @@
+-- Query 18
+-- Retrieve the latest clinical note for each patient. Display the patient name, note
+-- type, note creation date and time, and note contents.
+--
+-- Owner: TBD
+-- Status: not started
