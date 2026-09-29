@@ -20,10 +20,7 @@ dataset, and the 20 Task 3 queries.
 │   ├── run_queries.py        # runs the queries, saves results to output/
 │   └── check_data.py         # checks the dataset against the handout's data rules
 ├── docs/
-│   ├── handout/              # assignment PDF
 │   ├── er-diagram/           # Task 1 — export the diagram here (PNG/PDF + source file)
-│   ├── report/               # Task 4 — final PDF report
-│   └── contributions/        # individual write-ups
 └── output/                   # generated query results (git-ignored)
 ```
 
