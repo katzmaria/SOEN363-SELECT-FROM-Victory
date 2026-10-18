@@ -286,7 +286,7 @@ def mark_deaths(cur, admissions, deceased):
         if pid in deceased and (pid not in latest or adm["admit"] > latest[pid]["admit"]):
             latest[pid] = adm
     for adm in latest.values():
-        if adm["discharge"] is None:
+        if adm["discharge"] is None or adm["type"] == "outpatient":
             continue  # still admitted; no time of death to record
         adm["died"] = True
         cur.execute("UPDATE Admission SET final_admission_status = 'deceased' WHERE admission_id = ?", (adm["id"],))
