@@ -15,4 +15,5 @@ GROUP BY
     p.patient_id,
     p.full_name,
     a.admission_id
-HAVING COUNT(DISTINCT us.unit_type) > 1;
+HAVING COUNT(DISTINCT us.unit_type) > 1
+ORDER BY p.full_name ASC;

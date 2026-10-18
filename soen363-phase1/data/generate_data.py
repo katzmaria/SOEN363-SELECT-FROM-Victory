@@ -10,7 +10,7 @@ reproducibility. No real patient or personnel information is used.
 
 import random
 import sqlite3
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from faker import Faker
 
@@ -24,7 +24,13 @@ SCHEMA_PATH = REPO_ROOT / "db" / "schema.sql"
 
 N_PROFESSIONALS = 25
 N_PATIENTS = 60
-TRIAGE_PRIORITIES = ["low", "medium", "high"]
+TRIAGE_BY_ADMISSION_TYPE = {
+    "emergency":  ["high", "high", "medium"],
+    "urgent":     ["high", "medium", "medium", "low"],
+    "elective":   ["low", "low", "medium"],
+    "outpatient": ["low", "low", "medium"],
+    "newborn":    ["low", "medium"],
+}
 ADMISSION_TYPES = ["emergency", "urgent", "elective", "outpatient", "newborn"]
 ADMISSION_SOURCES = ["self-referral", "physician referral", "transfer from another facility", "walk-in"]
 UNIT_TYPES = ["Emergency Department", "ICU", "CCU", "MICU", "SICU", "General Ward"]
@@ -65,7 +71,7 @@ def build_patients(cur):
     after each patient was actually born."""
     patients = []
     for _ in range(N_PATIENTS):
-        dob = fake.date_of_birth(minimum_age=0, maximum_age=95)
+        dob = fake.date_between(start_date=date(1931, 1, 1), end_date=date(2026, 8, 31))
         life_status = "deceased" if random.random() < 0.05 else "alive"
         cur.execute(
             """INSERT INTO Patient
@@ -117,7 +123,6 @@ def build_admissions(cur, patients, professional_ids):
             is_last_planned = i == n_admissions - 1
             is_discharged = True if not is_last_planned else random.random() < 0.85
             discharge_dt = admit_dt + timedelta(hours=random.randint(3, 240)) if is_discharged else None
-            status = "discharged" if is_discharged else "active"
 
             # Decide up front whether this admission contains a critical care
             # stay of more than seven days. If it does, the admission window
@@ -130,6 +135,13 @@ def build_admissions(cur, patients, professional_ids):
             days_since_birth = (admit_dt - dob_by_patient[pid]).total_seconds() / 86400
             type_choices = ADMISSION_TYPES if days_since_birth <= 28 else [t for t in ADMISSION_TYPES if t != "newborn"]
             admission_type = random.choice(type_choices)
+
+            # Outpatients are seen and sent home the same day, without a bed (Step 4).
+            if admission_type == "outpatient":
+                has_long_critical_stay = False
+                discharge_dt = admit_dt + timedelta(hours=random.randint(1, 8))
+
+            status = "discharged" if discharge_dt else "active"
 
             cur.execute(
                 """INSERT INTO Admission
@@ -160,8 +172,11 @@ def build_admissions(cur, patients, professional_ids):
 
 
 def build_triage(cur, admission_ids_by_patient, nurse_ids):
+    priority_by_admission = {}
     for pid, admissions in admission_ids_by_patient.items():
-        for admission_id, admit_dt, *_ in admissions:
+        for admission_id, admit_dt, _, admission_type, _ in admissions:
+            priority = random.choice(TRIAGE_BY_ADMISSION_TYPE[admission_type])
+            priority_by_admission[admission_id] = priority
             cur.execute(
                 """INSERT INTO TriageAssessment
                    (admission_id, performing_professional_id, blood_pressure,
@@ -181,30 +196,28 @@ def build_triage(cur, admission_ids_by_patient, nurse_ids):
                     fake.sentence(nb_words=8),
                     random.choice(["none", "penicillin", "latex", "peanuts", "none"]),
                     random.choice(["none", "aspirin", "metformin", "lisinopril", "none"]),
-                    random.choice(TRIAGE_PRIORITIES),
+                    priority,
                 ),
             )
+    return priority_by_admission
 
 
-def plan_unit_sequence(n_stays, admission_type, has_long_critical_stay):
+def plan_unit_sequence(n_stays, admission_type, priority, has_long_critical_stay):
     """Pick the ordered list of units for one admission.
 
     The Emergency Department can only ever be the first unit (patients enter
     through it, they are never transferred back into it). Two consecutive
     stays never use the same unit. Returns (units, index_of_long_stay).
     """
-    if admission_type == "emergency":
-        starts_in_ed = True
-    elif admission_type == "urgent":
-        starts_in_ed = random.random() < 0.5
-    else:
-        starts_in_ed = False
+    # First unit follows triage (Step 4): high/emergency -> ED, low -> General Ward.
+    starts_in_ed = priority == "high" or admission_type == "emergency"
+    starts_in_ward = priority == "low" and not starts_in_ed
 
-    # A long critical care stay needs a non-ED slot to live in.
-    if has_long_critical_stay and starts_in_ed and n_stays < 2:
-        n_stays = 2
+    # A long critical care stay needs a slot after the ED / low-priority ward.
+    first_inpatient = 1 if (starts_in_ed or starts_in_ward) else 0
+    if has_long_critical_stay and n_stays <= first_inpatient:
+        n_stays = first_inpatient + 1
 
-    first_inpatient = 1 if starts_in_ed else 0
     long_idx = random.randint(first_inpatient, n_stays - 1) if has_long_critical_stay else None
 
     units = []
@@ -212,6 +225,8 @@ def plan_unit_sequence(n_stays, admission_type, has_long_critical_stay):
         prev = units[-1] if units else None
         if i == 0 and starts_in_ed:
             unit = "Emergency Department"
+        elif i == 0 and starts_in_ward:
+            unit = "General Ward"
         elif i == long_idx:
             unit = random.choice([u for u in CRITICAL_CARE_UNITS if u != prev])
         else:
@@ -256,7 +271,7 @@ def transfer_reason(prev_unit, unit):
     return "condition improved, stepped down"
 
 
-def build_unit_stays(cur, admission_ids_by_patient, professional_ids):
+def build_unit_stays(cur, admission_ids_by_patient, priority_by_admission, physician_ids):
     """Build each admission's unit timeline inside the admission window.
 
     Discharged admissions: the window from admission to discharge is split
@@ -267,8 +282,10 @@ def build_unit_stays(cur, admission_ids_by_patient, professional_ids):
     """
     for pid, admissions in admission_ids_by_patient.items():
         for admission_id, admit_dt, discharge_dt, admission_type, has_long in admissions:
+            if admission_type == "outpatient":
+                continue  # discharged without a hospital bed
             n_stays = random.randint(1, 3)
-            units, long_idx = plan_unit_sequence(n_stays, admission_type, has_long)
+            units, long_idx = plan_unit_sequence(n_stays, admission_type, priority_by_admission[admission_id], has_long)
             n_stays = len(units)
 
             if discharge_dt:
@@ -295,7 +312,7 @@ def build_unit_stays(cur, admission_ids_by_patient, professional_ids):
                        VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
                     (
                         admission_id,
-                        random.choice(professional_ids),
+                        random.choice(physician_ids),
                         unit,
                         f"Ward {random.randint(1,9)}, Room {random.randint(100,399)}",
                         str(random.randint(1, 40)),
@@ -323,10 +340,11 @@ def main():
 
     professional_ids, professional_roles = build_professionals(cur)
     nurse_ids = [pid for pid in professional_ids if professional_roles[pid] in ("Nurse", "Triage Nurse")]
+    physician_ids = [pid for pid in professional_ids if professional_roles[pid] == "Physician"]
     patients = build_patients(cur)
     admission_ids_by_patient = build_admissions(cur, patients, professional_ids)
-    build_triage(cur, admission_ids_by_patient, nurse_ids or professional_ids)
-    build_unit_stays(cur, admission_ids_by_patient, professional_ids)
+    priority_by_admission = build_triage(cur, admission_ids_by_patient, nurse_ids or professional_ids)
+    build_unit_stays(cur, admission_ids_by_patient, priority_by_admission, physician_ids)
     # SurgicalProcedure is generated by generate_clinical_data.py
 
     conn.commit()

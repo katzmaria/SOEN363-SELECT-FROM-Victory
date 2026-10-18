@@ -5,9 +5,9 @@
 
 SELECT
     p.full_name,
-    SUM(t.transfers) AS total_transfers
+    COALESCE(SUM(t.transfers), 0) AS total_transfers
 FROM Patient p
-INNER JOIN (
+LEFT JOIN (
     SELECT
         a.patient_id,
         COUNT(us.unit_stay_id) - 1 AS transfers
@@ -21,4 +21,5 @@ INNER JOIN (
     ON p.patient_id = t.patient_id
 GROUP BY
     p.patient_id,
-    p.full_name;
+    p.full_name
+ORDER BY total_transfers DESC;
