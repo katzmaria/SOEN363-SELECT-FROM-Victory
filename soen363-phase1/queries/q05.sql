@@ -10,7 +10,7 @@ SELECT
     ROUND(
         JULIANDAY(us.exit_date_time) - JULIANDAY(us.entry_date_time),
         1
-    ) AS length_of_stay
+    ) AS length_of_stay_days
 FROM UnitStay us
 INNER JOIN Admission a
     ON us.admission_id = a.admission_id
@@ -18,4 +18,5 @@ INNER JOIN Patient p
     ON a.patient_id = p.patient_id
 WHERE us.unit_type IN ('ICU', 'CCU')
     AND us.exit_date_time IS NOT NULL
-    AND (JULIANDAY(us.exit_date_time) - JULIANDAY(us.entry_date_time)) > 7;
+    AND (JULIANDAY(us.exit_date_time) - JULIANDAY(us.entry_date_time)) > 7
+ORDER BY length_of_stay_days ASC;
