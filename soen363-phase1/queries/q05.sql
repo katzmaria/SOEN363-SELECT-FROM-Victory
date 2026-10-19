@@ -16,7 +16,7 @@ INNER JOIN Admission a
     ON us.admission_id = a.admission_id
 INNER JOIN Patient p
     ON a.patient_id = p.patient_id
-WHERE us.unit_type IN ('ICU', 'CCU')
+WHERE us.unit_type IN ('ICU', 'CCU', 'MICU', 'SICU')
     AND us.exit_date_time IS NOT NULL
     AND (JULIANDAY(us.exit_date_time) - JULIANDAY(us.entry_date_time)) > 7
 ORDER BY length_of_stay_days ASC;
