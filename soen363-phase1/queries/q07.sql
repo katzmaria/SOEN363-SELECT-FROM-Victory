@@ -12,6 +12,6 @@ INNER JOIN UnitStay us1
 INNER JOIN UnitStay us2
     ON a.admission_id = us2.admission_id
 WHERE us1.unit_type = 'Emergency Department'
-    AND us2.unit_type IN ('ICU', 'CCU')
+    AND us2.unit_type IN ('ICU', 'CCU', 'MICU', 'SICU')
     AND us2.entry_date_time > us1.entry_date_time
 ORDER BY p.full_name;
