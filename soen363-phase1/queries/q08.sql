@@ -16,7 +16,7 @@ AND EXISTS (
     FROM UnitStay u
               
     WHERE u.admission_id = d.admission_id
-    AND u.unit_type IN ('ICU', 'CCU')
+    AND u.unit_type IN ('ICU', 'CCU', 'MICU', 'SICU')
 )
 
 GROUP BY d.icd9_code, i.official_title
