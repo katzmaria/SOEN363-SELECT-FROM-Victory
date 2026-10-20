@@ -17,5 +17,5 @@ AND NOT EXISTS (
     FROM UnitStay u
     
     WHERE u.admission_id = a.admission_id
-    AND u.unit_type IN ('ICU', 'CCU')
+    AND u.unit_type IN ('ICU', 'CCU', 'MICU', 'SICU')
 );
