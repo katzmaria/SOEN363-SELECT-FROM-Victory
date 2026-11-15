@@ -1,0 +1,196 @@
+ExamID,AdmissionNo,RequestNo,ReferringDr,Radiographer,Modality,ExamDateTime,BodyPart,ExamStatus,PACSLink,Findings
+1,7,6,10,63, X-Ray,03/02/2022 08:52,Chest,Done,,No acute cardiopulmonary abnormality.
+2,13,9,60,58,X-Ray,13/02/2022 10:15,Chest,Done,http://pacs.unh.local/viewer?acc=UNH900696,No acute cardiopulmonary abnormality.
+3,20,14,44,54,CT Scan,18/02/2022 19:41,Head,Done,http://pacs.unh.local/viewer?acc=UNH299069,No intracranial haemorrhage. No skull fracture.
+4,21,15,44,58,X-Ray,20/02/2022 12:30,Chest,Done,null,No acute cardiopulmonary abnormality.
+5,26,18,78,63,X-Ray,26/02/2022 20:35,Chest,Done,http://pacs.unh.local/viewer?acc=UNH221320,No acute cardiopulmonary abnormality.
+6,29,23,28,54, USS,01/03/2022 15:52,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH878488,Gallstones with gallbladder wall thickening.
+7,30,21,78,58,Ultrasound,03/03/2022 02:03,Kidneys,Reported,http://pacs.unh.local/viewer?acc=UNH342308,"Normal sized kidneys, no hydronephrosis."
+8,28,22,65,11,X-Ray,03/03/2022 07:25,Chest,  Done,http://pacs.unh.local/viewer?acc=UNH402240,
+9,33,25,10,58,Ultrasound,03/03/2022 10:54,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH522155,Gallstones with gallbladder wall thickening.
+10,35,28,39,54,Ultrasound,11/03/2022 18:56,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH123108,Small echogenic kidneys bilaterally.
+11,41,31,49,30,Ultrasound,19/03/2022 11:50,Abdomen,Done,,"Multiple gallstones, no wall thickening."
+12,49,37,19,58,X-Ray,31/03/2022 20:18,?,Done,http://pacs.unh.local/viewer?acc=UNH421864,"Joint space narrowing and osteophytes, medial compartment."
+8,28,22,65,11,X-Ray,03/03/2022 07:25,Chest,  Done,http://pacs.unh.local/viewer?acc=UNH402240,
+13,51,38,18,54,Ultrasound,03/04/2022 00:14,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH410505,"Normal sized kidneys, no hydronephrosis."
+14,50,40,78,11,Ultrasound,2022-04-05 16:44:00,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH204181,"Normal sized kidneys, no hydronephrosis."
+15,57,45,39,30,Ultrasound,09/04/2022 14:57,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH553956,Gallstones with gallbladder wall thickening.
+16,61,49,46,58,USS,22/04/2022 22:31,Abdomen,Booked,,
+17,63,52,78,58,U/S,22/04/2022 05:00,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH392838,Gallstones with gallbladder wall thickening.
+18,69,61,78,11,X-Ray,21/05/2022 03:15,Chest,Done,http://pacs.unh.local/viewer?acc=UNH223231,Bilateral diffuse opacities.
+19,73,66,18,63,CT Scan,24/05/2022 08:09,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH804509,"Peripancreatic fat stranding, no necrosis."
+20,79,75,73,11,X-Ray,02/06/2022 22:39,Chest,Completed,http://pacs.unh.local/viewer?acc=UNH667374,"Hyperinflated lungs, no focal consolidation."
+21,83,79,39,11,X-Ray,08/06/2022 01:45,Chest,Done,http://pacs.unh.local/viewer?acc=UNH336532,Bilateral diffuse opacities.
+22,90,86,70,54,Ultrasound,09/06/2022 23:34,Abdomen,Completed,http://pacs.unh.local/viewer?acc=UNH423597,Gallstones with gallbladder wall thickening.
+23,92,87,46,11,X-Ray,15/06/2022 10:44,Chest,DNA,http://pacs.unh.local/viewer?acc=UNH122017,No acute cardiopulmonary abnormality.
+24,95,89,39,30,CT Scan,17/06/2022 09:02,Head,Done,http://pacs.unh.local/viewer?acc=UNH849523,No intracranial haemorrhage. No skull fracture.
+25,100,94,,54,Ultrasound,29/06/2022 01:26,Kidneys,Done,,"Normal sized kidneys, no hydronephrosis."
+26,112,104,25,54,CT Scan,12/07/2022 00:24,Head,Cancelled,,
+27,118,108,73,54,CT Scan,23/07/2022 17:15,Chest,Done,http://pacs.unh.local/viewer?acc=UNH890626,Filling defects in segmental pulmonary arteries consistent with PE.
+28,123,111,43,11,X-Ray,06/08/2022 21:36,Chest,Done,http://pacs.unh.local/viewer?acc=UNH990665,Cardiomegaly with bilateral pleural effusions.
+29,127,115,18,54,X-Ray,09/08/2022 06:50,Chest,Done,http://pacs.unh.local/viewer?acc=UNH158508,No acute cardiopulmonary abnormality.
+30,129,117,70,5,X-Ray,12/08/2022 18:57,,Done,http://pacs.unh.local/viewer?acc=UNH197955, Right lower lobe consolidation consistent with pneumonia.
+31,136,123,80,58,X-Ray,21/08/2022 14:11,Chest,Reported,http://pacs.unh.local/viewer?acc=UNH474649,Right lower lobe consolidation consistent with pneumonia.
+32,143,127,39,54,Ultrasound,09/09/2022 07:09,?,Done,http://pacs.unh.local/viewer?acc=UNH892618,Gallstones with gallbladder wall thickening.
+33,144,128,60,58,CT Scan,11/09/2022 04:03,Chest,Done,http://pacs.unh.local/viewer?acc=UNH337891,Filling defects in segmental pulmonary arteries consistent with PE.
+34,150,,44,11,Ultrasound,12/09/2022 15:12,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH680151,-
+35,148,135,43,63,X-Ray,14/09/2022 00:45,Chest,Done,http://pacs.unh.local/viewer?acc=UNH717731,Right lower lobe consolidation consistent with pneumonia.
+36,155,141,74,54,Ultrasound,10/01/2022 03:26 AM,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH721724,"Multiple gallstones, no wall thickening."
+37,160,,78,5,Sonography,20/09/2022 06:02,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH373518,null
+38,165,148,69,30,CT Scan,17/10/2022 29:13,Head,Done,http://pacs.unh.local/viewer?acc=UNH628283,No intracranial haemorrhage. No skull fracture.
+39,175,155,38,54,X-Ray,08/11/2022 06:41,Chest,Done,http://pacs.unh.local/viewer?acc=UNH816195,Right lower lobe consolidation consistent with pneumonia.
+40,184,158,38,11,Ultrasound,30/11/2022 15:23,Abdomen,Done,?,non-compressible appendix 9 mm with free fluid.
+41,186,160,3,11,Ultrasound,05/12/2022 08:15,Kidneys,Completed,http://pacs.unh.local/viewer?acc=UNH540324,Small echogenic kidneys bilaterally.
+42,187,161,25,11,CT Scan,07/12/2022 01:15,-,Done,http://pacs.unh.local/viewer?acc=UNH420186,No intracranial haemorrhage. No skull fracture.
+43,191,165,19,58,X-Ray,11/12/2022 20:35,Chest,DONE,http://pacs.unh.local/viewer?acc=UNH255584,No acute cardiopulmonary abnormality.
+44,203,,44,58,CT Scan,05/01/2023 17:43,Head,Done,http://pacs.unh.local/viewer?acc=UNH572780,No acute intracranial abnormality.
+45,209,180,42,11,X-Ray,09/01/2023 06:26,Chest,Completed,http://pacs.unh.local/viewer?acc=UNH463022,No acute cardiopulmonary abnormality.
+46,210,,40,58,X-Ray,12/01/2023 02:41,Chest,Done,http://pacs.unh.local/viewer?acc=UNH628389,No acute cardiopulmonary abnormality.
+47,212,184,17,54,Ultrasound,15/01/2023 11:31,Kidneys, CANCELLED  ,,
+48,224,199,70,54,USS,29/01/2023 15:54,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH613486,"Normal sized kidneys, no hydronephrosis."
+49,232,208,60,54,CT  Scan,12/02/2023 06:26,Head,Done,http://pacs.unh.local/viewer?acc=UNH298547,No acute intracranial abnormality.
+50,232,207,60,11,MRI Scan,12/02/2023 11:50,Brain,Done,http://pacs.unh.local/viewer?acc=UNH496760,No structural lesion identified.
+51,234,210,43,63,X-Ray,14/02/2023 23:29,Chest,Done,http://pacs.unh.local/viewer?acc=UNH621646,Right lower lobe consolidation consistent with pneumonia.
+52,237,,65,30,X-Ray,24/02/2023 18:52,Chest,Done,http://pacs.unh.local/viewer?acc=UNH337984,Bilateral diffuse opacities.
+53,236,211,70,11,X-Ray,25/02/2023 10:43,Chest,Done,http://pacs.unh.local/viewer?acc=UNH604168,Cardiomegaly with bilateral pleural effusions.
+54,249,219,71,54,Ultrasound,13/03/2023 23:20,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH649899,Small echogenic kidneys bilaterally.
+55,255,223,46,58,X-Ray,22/03/2023 16:35,Chest,Done,http://pacs.unh.local/viewer?acc=UNH970730,No acute cardiopulmonary abnormality.
+56,262,232,7,54,Ultrasound,06/04/2023 08:41,,Done,http://pacs.unh.local/viewer?acc=UNH690006,"Multiple gallstones, no wall thickening."
+57,268,237,25,54,CT Scan,13/04/2023 07:20,Head,Reported,?,No intracranial haemorrhage. No skull fracture.
+58,266,236,65,54,X-Ray,2023-04-13T18:44,Chest,Done,http://pacs.unh.local/viewer?acc=UNH668393,No acute cardiopulmonary abnormality.
+59,270,239,73,54,X-Ray,15/04/2023 23:49,Chest,Done,http://pacs.unh.local/viewer?acc=UNH585003,No acute cardiopulmonary abnormality.
+60,269,245,44,11,Ultrasound,17/04/2023 20:22,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH618330,?
+61,273,246,80,11,X-Ray,18/04/2023 17:39,Chest,Done,http://pacs.unh.local/viewer?acc=UNH634693,No acute cardiopulmonary abnormality.
+62,271,240,19,11,X-Ray,19/04/2023 15:40,Chest,Done,http://pacs.unh.local/viewer?acc=UNH236783,Bilateral diffuse opacities.
+63,277,247,40,58,Ultrasound,26/04/2023 18:53,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH271626,Small echogenic kidneys bilaterally.
+64,281,251,7,54,Ultrasound,02/05/2023 15:23,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH634593,Small echogenic kidneys bilaterally.
+65,289,260,39,11,  Ultrasound,05/16/2023 01:57 PM,Abdomen,Reported,http://pacs.unh.local/viewer?acc=UNH778626,Bulky oedematous pancreas.
+66,292,268,7,58,Ultrasound,24/05/2023 02:42, KIDNEYS  ,Done,http://pacs.unh.local/viewer?acc=UNH660015,"Normal sized kidneys, no hydronephrosis."
+67,316,283,4,11,X-Ray,20/06/2023 18:09,Chest,Done,http://pacs.unh.local/viewer?acc=UNH232745,No acute cardiopulmonary abnormality.
+68,320,289,40,54,X-Ray,03/07/2023 07:33,Chest,done,http://pacs.unh.local/viewer?acc=UNH178404,No acute cardiopulmonary abnormality.
+69,323,294,4,30,XR,09/07/2023 14:13,Chest,Done,http://pacs.unh.local/viewer?acc=UNH717342,No acute cardiopulmonary abnormality.
+70,324,295,40,63,CT Scan,11/07/2023 13:38,Head,Done,http://pacs.unh.local/viewer?acc=UNH479797,No intracranial haemorrhage. No skull fracture.
+71,335,305,115,58,MRI,04/08/2023 13:54,Brain,Done,http://pacs.unh.local/viewer?acc=UNH257730,No structural lesion identified.
+72,336,308,44,58,U/S,05/08/2023 04:36,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH478374,Non-compressible appendix 9 mm with free fluid.
+73,353,324,43,30,X-Ray,31/08/2023 12:50,Chest,Done,-,Right lower lobe consolidation consistent with pneumonia.
+74,355,,43,54,Ultrasound,01/09/2023 15:38,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH933054,Gallstones with gallbladder wall thickening.
+75,354,326,4,58,U/S,01/09/2023 21:41,Kidneys,DONE,http://pacs.unh.local/viewer?acc=UNH919429,"Normal sized kidneys, no hydronephrosis."
+76,359,328,42,130,C.T.,06/09/2023 01:28,Head,Done,http://pacs.unh.local/viewer?acc=UNH728823,No intracranial haemorrhage. No skull fracture.
+77,365,333,60,54,CT Scan,18/09/2023 02:11,Chest,Done,http://pacs.unh.local/viewer?acc=UNH236563,Filling defects in segmental pulmonary arteries consistent with PE.
+78,370,335,39,58,Ultrasound,26/09/2023 21:55,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH221347,Small echogenic kidneys bilaterally.
+79,381,345,66,5,X-Ray,19/10/2023 17:26,Chest,Done,http://pacs.unh.local/viewer?acc=UNH909464,
+80,385,352,65,54,X-Ray,27/10/2023 13:42,Knee,Done,-,"Joint space narrowing and osteophytes, medial compartment."
+81,391,359,25,54,Ultrasound,07/11/2023 21:44,N/A,Completed,http://pacs.unh.local/viewer?acc=UNH682051,Small echogenic kidneys bilaterally.
+82,393,361,71,58,Ultrasound,11/11/2023 17:38,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH653451,"Multiple gallstones, no wall thickening."
+83,418,384,78,11,Ultrasound,30/12/2023 11:51,kidneys,Done,http://pacs.unh.local/viewer?acc=UNH654548,"Normal sized kidneys, no hydronephrosis."
+84,424,389,60,54,CT Scan,03/01/2024 21:51,Head,Done,http://pacs.unh.local/viewer?acc=UNH591693,No intracranial haemorrhage. No skull fracture.
+85,430,396,4,58,X-Ray,12/01/2024 12:01,Chest,Done,http://pacs.unh.local/viewer?acc=UNH714824,  No acute cardiopulmonary abnormality.
+86,432,,39,5,CT Scan,14/01/2024 20:35,Head,Done,http://pacs.unh.local/viewer?acc=UNH165707,Hypodensity in the left MCA territory consistent with acute infarct.
+87,433,399,80,54,Ultrasound,18/01/2024 14:46,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH486335,Small echogenic kidneys bilaterally.
+88,434,398,69,30,X-Ray,19/01/2024 04:08,Chest,Done,http://pacs.unh.local/viewer?acc=UNH507744,Cardiomegaly with bilateral pleural effusions.
+89,443,409,46,58,Ultrasound,04/02/2024 20:48,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH805032,"Multiple gallstones, no wall thickening."
+90,451,418,51,58,X-Ray,14/02/2024 00:41, Chest,Done,http://pacs.unh.local/viewer?acc=UNH449754,Bilateral diffuse opacities.
+91,450,419,18,54,MRI,16/02/2024 02:22,Brain,Completed,http://pacs.unh.local/viewer?acc=UNH492798,No structural lesion identified.
+92,453,423,69,11,Ultrasound,20/02/2024 11:39,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH503316,null
+93,457,425,19,30,MRI,28/02/2024 05:05,Brain,Done,http://pacs.unh.local/viewer?acc=UNH176444,No structural lesion identified.
+94,460,430,69,63,Ultrasound,02/03/2024 08:19,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH170731,Bulky oedematous pancreas.
+95,460,431,44,11,CT Scan,03/03/2024 06:37,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH711607,"Peripancreatic fat stranding, no necrosis."
+96,461,432,60,30,Plain Film,2024-03-03T16:22,Chest,Completed,http://pacs.unh.local/viewer?acc=UNH330144,No acute cardiopulmonary abnormality.
+97,463,433,7,58,CT Scan,13/03/2024 01:19,Head,Done,http://pacs.unh.local/viewer?acc=UNH447285,No intracranial haemorrhage. No skull fracture.
+98,471,438,40,58,X-Ray,24/03/2024 05:32,Chest,Done,http://pacs.unh.local/viewer?acc=UNH453411,"Hyperinflated lungs, no focal consolidation."
+99,476,,51,5,X-Ray,08/04/2024 16:51,Chest,Done,http://pacs.unh.local/viewer?acc=UNH605692,Bilateral diffuse opacities.
+100,478,442,28,11,X-Ray,09/04/2024 13:11,Chest,Done,http://pacs.unh.local/viewer?acc=UNH807394,No acute cardiopulmonary abnormality.
+101,479,445,60,11,X-Ray,10/04/2024 13:25,Chest,Done,http://pacs.unh.local/viewer?acc=UNH387025,"Hyperinflated lungs, no focal consolidation."
+102,480,447,43,58,X-Ray,11/04/2024 06:35,Chest,Done,http://pacs.unh.local/viewer?acc=UNH966152,No acute cardiopulmonary abnormality.
+103,482,449,42,11,X-Ray,2024-04-11T06:50,Chest,Done,http://pacs.unh.local/viewer?acc=UNH900098,Right lower lobe consolidation consistent with pneumonia.
+104,493,460,77,11,X-Ray,05/05/2024 10:52 AM,Chest,Done,http://pacs.unh.local/viewer?acc=UNH516037,Right lower lobe consolidation consistent with pneumonia.
+105,494,461,10,11,X-Ray,07/05/2024 12:51,Chest,Done,http://pacs.unh.local/viewer?acc=UNH171023,No acute cardiopulmonary abnormality.
+106,503,474,40,58,X-Ray,19/05/2024 01:49,Chest,Done,http://pacs.unh.local/viewer?acc=UNH939063,No acute cardiopulmonary abnormality.
+107,509,480,10,11,X-Ray,28/05/2024 10:57,Chest,done,http://pacs.unh.local/viewer?acc=UNH543978,No acute cardiopulmonary abnormality.
+108,514,483,73,58,XRAY,02/06/2024 14:43,Chest,Done,http://pacs.unh.local/viewer?acc=UNH779472,No acute cardiopulmonary abnormality.
+109,513,484,38,-,X-Ray,03/06/2024 17:44,Knee,Done,http://pacs.unh.local/viewer?acc=UNH736025,"Joint space narrowing and osteophytes, medial compartment."
+110,518,489,7,58,Ultrasound,08/06/2024 07:58,Abdomen,Canceled,,
+111,519,490,25,11,Sonography,10/06/2024 09:39,,Done,http://pacs.unh.local/viewer?acc=UNH213773,Bulky oedematous pancreas.
+112,520,491,4,58,CT Scan,13/06/2024 01:29,Head,Done,http://pacs.unh.local/viewer?acc=UNH500452,No intracranial haemorrhage. No skull fracture.
+113,530,500,7,54,Plain Film,02/07/2024 19:32,Chest,Done,http://pacs.unh.local/viewer?acc=UNH663041,No acute cardiopulmonary abnormality.
+114,531,501,39,5,CT Scan,04/07/2024 22:01,Chest, Booked,,
+115,536,509,38,58,X-Ray,11/07/2024 05:08,Chest,Done,http://pacs.unh.local/viewer?acc=UNH284268,Cardiomegaly with bilateral pleural effusions.
+116,538,510,39,54,CT Scan,12/07/2024 15:27,Chest,Done,http://pacs.unh.local/viewer?acc=UNH571476,?
+117,550,525,49,54,Ultrasound,31/09/2024 05:50,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH988199,Small echogenic kidneys bilaterally.
+118,558,534,7,5,Ultrasound,18/08/2024 22:31,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH443840,Bulky oedematous pancreas.
+119,557,532,70,58,Ultrasound,19/08/2024 00:50,Abdomen,Cancelled,,
+62,271,240,19,11,X-Ray,19/04/2023 15:40,Chest,Done,http://pacs.unh.local/viewer?acc=UNH236783,Bilateral diffuse opacities.
+120,559,,80,11,CT Scan,2024-08-20 23:51:00,Head,Done,http://pacs.unh.local/viewer?acc=UNH401207,No acute intracranial abnormality.
+121,559,535,47,54,MRI,08/24/2024 04:31 AM,Brain,Done,http://pacs.unh.local/viewer?acc=UNH868910,No structural lesion identified.
+122,567,542,46,11,Ultrasound,03/09/2024 19:30,abdomen,Done,http://pacs.unh.local/viewer?acc=UNH699196,Gallstones with gallbladder wall thickening.
+123,570,545,66,30,X-Ray,10/09/2024 21:13,Pelvis/Hip,Done,http://pacs.unh.local/viewer?acc=UNH348771,Displaced fracture of the right femoral neck.
+124,576,547,42,11,CT Scan,20/09/2024 03:05,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH999210,"Peripancreatic fat stranding, no necrosis."
+125,581,551,39,54,Ultrasound,30/09/2024 11:53,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH342502,Non-compressible appendix 9 mm with free fluid.
+126,590,559,74,54,X-Ray,14/10/2024 17:17,Knee,Done,http://pacs.unh.local/viewer?acc=UNH934907,"Joint space narrowing and osteophytes, medial compartment."
+127,600,570,66,30,Ultrasound,24/10/2024 19:11,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH387244,Bulky oedematous pancreas.
+128,608,572,22,63,Ultrasound,04/11/2024 16:05,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH881180,Gallstones with gallbladder wall thickening.
+129,625,584,43,5,Ultrasound,29/11/2024 15:40,Abdomen,Done ,http://pacs.unh.local/viewer?acc=UNH748200,Non-compressible appendix 9 mm with free fluid.
+130,626,587,80,58,Plain Film,02/12/2024 10:12,Chest,Done,http://pacs.unh.local/viewer?acc=UNH516929,Bilateral diffuse opacities.
+131,629,590,78,58,Ultrasound,05/12/2024 01:34,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH996938,Bulky oedematous pancreas.
+132,1090,592,38,58,X-Ray,05/12/2024 12:01,Chest,Done,http://pacs.unh.local/viewer?acc=UNH968541,null
+133,632,594,45,5, U/S,07/12/2024 05:13,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH423134,Bulky oedematous pancreas.
+134,634,,46,11,CT Scan,11/12/2024 16:49,Head,Done,http://pacs.unh.local/viewer?acc=UNH727991,Hypodensity in the left MCA territory consistent with acute infarct.
+135,635,596,25,58,Ultrasound,2024-12-16 01:00:00,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH868243,N/A
+136,636,598,77,54,Ultrasound,21/12/2024 11:13,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH318349,"Normal sized kidneys, no hydronephrosis."
+137,639,600,78,11,X-Ray,22/12/2024 16:41,Chest,Done,http://pacs.unh.local/viewer?acc=UNH597312,No acute cardiopulmonary abnormality.
+138,643,603,25,63,X-Ray,06/01/2025 15:43,Chest,Done,http://pacs.unh.local/viewer?acc=UNH961110,No acute cardiopulmonary abnormality.
+139,646,607,66,30,XRAY,09/01/2025 09:57,Chest,-,http://pacs.unh.local/viewer?acc=UNH750448,Bilateral diffuse opacities.
+140,648,610,60,5,X-Ray,11/01/2025 15:33,Chest,Done,http://pacs.unh.local/viewer?acc=UNH960499,No acute cardiopulmonary abnormality.
+141,649,611,21,63,Ultrasound,14/01/2025 03:05,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH396203,"  Multiple gallstones, no wall thickening."
+142,651,613,19,54,X-Ray,2025-01-21 11:57:00,Chest,Done,http://pacs.unh.local/viewer?acc=UNH999193,Cardiomegaly with bilateral pleural effusions.
+143,652,614,22,54,CT Scan,21/01/2025 13:09,Head,Done,?,No intracranial haemorrhage. No skull fracture.
+144,654,615,18,58,X-Ray,22/01/2025 15:30,Chest,Cancelled,,
+145,655,,70,30,CT Scan,24/01/2025 15:06,Chest,Done,http://pacs.unh.local/viewer?acc=UNH108767,Filling defects in segmental pulmonary arteries consistent with PE.
+146,668,631,28,58,X-Ray,10/02/2025 19:46,Chest,Done,http://pacs.unh.local/viewer?acc=UNH523969,No acute cardiopulmonary abnormality.
+147,667,632,39,54,MRI,12-02-2025 11:46,BRAIN,Done,http://pacs.unh.local/viewer?acc=UNH273782,No structural lesion identified.
+148,676,639,46,63,XR,27/02/2025 14:17,Chest,Done,?,No acute cardiopulmonary abnormality.
+149,680,641,45,58,Ultrasound,13/03/2025 02:06,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH946057,"Normal sized kidneys, no hydronephrosis."
+150,692,649,46,58,Ultrasound,03/04/2025 15:04,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH572183,N/A
+151,694,650,73,11,Ultrasound,08/04/2025 09:40,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH552491,Bulky oedematous pancreas.
+152,698,656,39,11,X-Ray,15/04/2025 12:58,Chest,Done,N/A,No acute cardiopulmonary abnormality.
+153,703,661,70,54,X-Ray,19/04/2025 23:30,Chest,Cancelled,,
+154,704,662,109,58,CT Scan,21/04/2025 14:49,Head,Done,http://pacs.unh.local/viewer?acc=UNH568353,No   intracranial haemorrhage. No skull fracture.
+155,710,669,19,11,Ultrasound,28/04/2025 12:38,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH539718,Gallstones with gallbladder wall thickening.
+156,717,678,43,54,X-Ray,04-05-2025 19:55,Chest,Reported,http://pacs.unh.local/viewer?acc=UNH798559,Right lower lobe consolidation consistent with pneumonia.
+157,723,684,10,54,X-Ray,12/05/2025 09:17,Knee,Done,http://pacs.unh.local/viewer?acc=UNH651000,"Joint space narrowing and osteophytes, medial compartment."
+158,722,681,22,58,X-Ray,12/05/2025 14:28,,Done,http://pacs.unh.local/viewer?acc=UNH259228,No acute cardiopulmonary abnormality.
+159,739,698,60,63,X-Ray,03/06/2025 22:44,Chest,Done,http://pacs.unh.local/viewer?acc=UNH725841,No acute cardiopulmonary abnormality.
+160,744,702,25,63,Ultrasound,15/06/2025 16:49,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH369509,Gallstones with gallbladder wall thickening.
+161,745,703,70,58,X-Ray,16/06/2025 20:21,Chest,Done,http://pacs.unh.local/viewer?acc=UNH903896,Cardiomegaly with bilateral pleural effusions.
+162,746,706,7,54,Ultrasound,17/06/2025 17:44,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH176704,Gallstones with gallbladder wall thickening.
+163,747,708,70,30,Ultrasound,19/06/2025 01:37,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH302644,"Normal sized kidneys, no hydronephrosis."
+164,752,,17,30,X-Ray,06/23/2025 06:16 AM,Chest,Done,http://pacs.unh.local/viewer?acc=UNH531889,No acute cardiopulmonary abnormality.
+165,753,711,39,54,Sonography,26/06/2025 14:40,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH804466,Small echogenic kidneys bilaterally.
+163,747,708,70,30,Ultrasound,19/06/2025 01:37,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH302644,"Normal sized kidneys, no hydronephrosis."
+166,758,716,78,11,X-Ray,05/07/2025 15:13,Chest,Completed,http://pacs.unh.local/viewer?acc=UNH912215,No acute cardiopulmonary abnormality.
+167,759,718,28,63,Ultrasound,11/07/2025 03:19,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH242821,Gallstones with gallbladder wall thickening.
+168,760,,77,63,U/S,11/07/2025 16:45,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH450911,"Normal sized kidneys, no hydronephrosis."
+169,771,,38,58,Ultrasound,30/07/2025 08:45,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH782365,Bulky oedematous pancreas.
+170,781,734,42,54,CT Scan,11/08/2025 06:33,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH858025,"Peripancreatic fat stranding, no necrosis."
+171,789,744,25,11,CT Scan,22/08/2025 13:57,Head,Done,http://pacs.unh.local/viewer?acc=UNH195875,No intracranial haemorrhage. No skull fracture.
+172,790,746,39,63,X-Ray,24/08/2025 04:05,Chest,Done,http://pacs.unh.local/viewer?acc=UNH584017,No acute cardiopulmonary abnormality.
+137,639,600,78,11,X-Ray,22/12/2024 16:41,Chest,Done,http://pacs.unh.local/viewer?acc=UNH597312,No acute cardiopulmonary abnormality.
+173,792,748,10,58,XR,08-27-2025 14:10,Chest,Done,http://pacs.unh.local/viewer?acc=UNH598431,NO ACUTE cardiopulmonary ABNORMALITY.
+174,793,750,3,11,Ultrasound,28/08/2025 18:59,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH159351,"Multiple gallstones, no wall thickening."
+175,794,751,60,54,Ultrasound,30/08/2025 13:55,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH612151,"Normal sized kidneys, no hydronephrosis."
+176,795,753,40,54,X-Ray,30/08/2025 19:16,Chest,Done,http://pacs.unh.local/viewer?acc=UNH395540,No acute cardiopulmonary abnormality.
+177,797,,65,54,X-Ray,null,Chest,Done,http://pacs.unh.local/viewer?acc=UNH987510,No acute cardiopulmonary abnormality.
+178,800,756,21,58,Ultrasound,08/09/2025 22:58,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH317125,"Multiple gallstones, no wall thickening."
+179,802,757,69,11,X-Ray,13/09/2025 01:39,Chest,Done,http://pacs.unh.local/viewer?acc=UNH140724,"Hyperinflated lungs, no focal consolidation."
+180,806,,43,63,CT Scan,21/09/2025 02:58,Chest,Done,http://pacs.unh.local/viewer?acc=UNH227858,Filling defects in segmental pulmonary arteries consistent with PE.
+181,810,767,66,30,CT Scan,02/10/2025 16:56,Head,Done,http://pacs.unh.local/viewer?acc=UNH374863,Hypodensity in the left MCA territory consistent with acute infarct.
+182,817,773,66,30,Ultrasound,09/10/2025 16:57,N/A,Done,http://pacs.unh.local/viewer?acc=UNH764377,Gallstones with gallbladder wall thickening.
+183,822,776,43,58,Ultrasound,25/10/2025 04:06,N/A,Booked,,
+184,826,779,60,58,X-Ray,26/10/2025 19:54,Chest,Completed,,No acute cardiopulmonary abnormality.
+185,829,,80,54,Ultrasound,27/10/2025 02:58,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH864259,Non-compressible appendix 9 mm with free fluid.
+186,834,785,46,54,CT Scan,30/10/2025 03:13,Head,Booked,,
+187,834,785,46,54,CT Scan,10/30/2025 03:13 AM,Head,Booked,,
+188,26,18,78,63,X-Ray,26/02/2022 20:35,chest,Done,http://pacs.unh.local/viewer?acc=UNH221320,
+189,643,603,25,63,X-Ray,06/01/2025 15:43,Chest,Done,http://pacs.unh.local/viewer?acc=UNH961110,No acute cardiopulmonary abnormality.
+190,698,656,39,11,X-Ray,15/04/2025 12:58,Chest,Done,http://pacs.unh.local/viewer?acc=UNH360997,No acute cardiopulmonary abnormality.
+191,13,9,60,58,X-RAY,13/02/2022 10:15,Chest,Done,,No acute cardiopulmonary abnormality.

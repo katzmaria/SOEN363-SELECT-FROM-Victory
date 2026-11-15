@@ -1,0 +1,125 @@
+OpID,AdmissionNo,SurgeonID,Operation,OpDateTime,Outcome
+1,2,3,Laparoscopic appendicectomy,09/01/2022 22:12,"Successful, no complications"
+2,6,21,Coronary angiography and PCI,29/01/2022 11:21,null
+3,28,3,Primary PCI,01/03/2022 20:08,"Post-op fever, treated"
+4,31,74,Upper GI endoscopy with haemostasis,02/03/2022 07:36,null
+5,38,76,Diagnostic upper GI endoscopy,13/03/2022 14:03,"Successful, no complications"
+6,41,3,Laparoscopic cholecystectomy,17/03/2022 12:29,Uneventful recovery
+7,42,74,Laparoscopic cholecystectomy,19/03/2022 14:19,-
+8,49,74,Total knee replacement,29/03/2022 11:05,null
+9,57,3,Laparoscopic cholecystectomy,09/04/2022 07:22,"Successful, no complications"
+10,63,71,Laparoscopic cholecystectomy,23/04/2022 18:42,null
+11,64,3,Coronary angiography and PCI,03-05-2022 12:49,
+12,71,74,Coronary angiography and PCI,20/05/2022 13:07,"Successful, no complications"
+13,74,3,Hemiarthroplasty of hip,25/05/2022 20:14,"Minor bleeding, controlled"
+14,76,21,Laparoscopic cholecystectomy,26/05/2022 13:59,"Post-op fever, treated"
+15,85,31,Upper GI endoscopy with haemostasis,08/06/2022 00:14,"Post-op fever, treated"
+16,106,74,Laparoscopic cholecystectomy,02/07/2022 12:17,"Post-op fever, treated"
+17,108,71,AV fistula creation,05/07/2022 12:22,"SUCCESSFUL, NO complications"
+18,125,74,Laparoscopic cholecystectomy,07/08/2022 18:40,"Successful, no complications    "
+19,126,49, INCISION AND DRAINAGE OF ABSCESS  ,09/08/2022 04:54,Uneventful recovery
+20,143,71,Laparoscopic cholecystectomy,09/08/2022 04:51 AM,Uneventful recovery
+21,145,74,Laparoscopic appendicectomy,11/09/2022 07:43,"Minor bleeding, controlled"
+22,155,3,Laparoscopic cholecystectomy,30/09/2022 13:29,Uneventful recovery
+23,?,71,Coronary angiography and PCI,10/10/2022 15:12,Uneventful recovery
+24,165,3,Suturing of scalp laceration,17/10/2022 10:10,"Successful, no complications"
+25,168,3,Laparoscopic cholecystectomy,25/10/2022 13:39,Uneventful recovery
+26,171,31,Laparoscopic cholecystectomy,01/11/2022 13:32,"Successful, no complications"
+27,177,3,Coronary angiography and PCI,12/11/2022 14:49,"Post-op fever, treated"
+28,179,3,Incision and drainage of abscess,18/11/2022 15:43,"Successful, no complications"
+29,186,74,AV fistula creation,02/12/2022 12:18,"Successful, no complications"
+30,190,49,Total knee replacement,10/12/2022 13:00,Uneventful recovery
+31,194,31,Primary PCI,15/12/2022 17:12,"Successful, no complications"
+32,198,74,AV fistula creation,24/12/2022 12:12,"Post-op fever, treated"
+33,204,74,laparoscopic cholecystectomy,05/01/2023 17:07,"Successful, no complications"
+34,207,3,  Laparoscopic cholecystectomy,06/01/2023 11:35,"Successful, no complications"
+35,216,71,Laparoscopic cholecystectomy,20/01/2023 14:33,Uneventful recovery
+36,220,3,Upper GI endoscopy with haemostasis,24-01-2023 20:28,"Minor bleeding, controlled"
+37,225,74,CORONARY ANGIOGRAPHY AND PCI,27/01/2023 13:11,"Successful, no complications"
+38,239,3,Laparoscopic cholecystectomy,27/02/2023 19:35,"Wound infection, on antibiotics"
+39,249,71,av fistula creation,12/03/2023 12:59,"Minor bleeding, controlled"
+40,250,3,Laparoscopic cholecystectomy,15/03/2023 10:35,"Post-op fever, treated"
+41,254,3,Laparoscopic cholecystectomy,21/03/2023 11:03,Uneventful recovery
+42,253,21,Diagnostic upper GI endoscopy,21/03/2023 13:29,?
+43,264,3,Diagnostic upper GI endoscopy,06/04/2023 14:23,"Successful, no complications"
+44,269,49,Open appendicectomy,16/04/2023 01:14,"Successful, no complications"
+45,302,74,Diagnostic upper GI endoscopy,31/05/2023 12:21,?
+46,304,74,AV fistula creation,03/06/2023 15:10,"Post-op fever, treated"
+47,317,3,total knee replacement,24/06/2023 14:02,?
+48,332,21,LAPAROSCOPIC CHOLECYSTECTOMY,28/07/2023 10:57,
+49,336,74,Laparoscopic appendicectomy,03/08/2023 14:59,Uneventful recovery
+50,338,74,AV fistula creation,08/08/2023 12:32,"Successful, no complications"
+51,340,76,Laparoscopic cholecystectomy,14/08/2023 13:07,"Minor bleeding, controlled"
+52,355,31,Laparoscopic cholecystectomy,01/09/2023 23:30,"Successful, no complications"
+53,361,3,Coronary angiography and PCI,09/09/2023 13:13,"Successful, no complications"
+54,370,74,AV fistula creation,24/09/2023 12:08,"Post-op fever, treated"
+55,374,3,Open appendicectomy,10/04/2023 10:49 PM,"Successful, no complications"
+56,377,74,Laparoscopic appendicectomy,09/10/2023 23:53,"Successful, no complications"
+57,-,49,Laparoscopic cholecystectomy,10/13/2023 12:15 PM,"Post-op fever, treated"
+58,385,3,Total knee replacement,26/10/2023 15:50,"Wound infection, on antibiotics"
+59,393,21,Laparoscopic cholecystectomy,09/11/2023 12:08,"Successful, no complications"
+60,400,71,Diagnostic upper GI endoscopy,28/14/2023 14:32,"Minor bleeding, controlled"
+43,264,3,Diagnostic upper GI endoscopy,06/04/2023 14:23,"Successful, no complications"
+61,411,3,Open appendicectomy,14/12/2023 20:29,"Successful, no complications"
+62,424,3,Suturing of scalp laceration,02/01/2024 08:08,"Successful, no complications"
+63,428,74,Total knee replacement  ,10/01/2024 14:39,"Successful, no complications"
+64,429,71,Coronary angiography and PCI,11/01/2024 13:06,"Successful, no complications"
+65,433,21,AV fistula creation,16/01/2024 14:40,"Successful, no complications"
+66,441,3, Laparoscopic cholecystectomy,28/01/2024 10:56,N/A
+67,449,3,Diagnostic upper GI endoscopy,10/02/2024 15:17,"Successful, no complications"
+68,452,3,Upper GI endoscopy with haemostasis,17/02/2024 02:02,"Successful, no complications"
+69,453,74, AV FISTULA CREATION  ,18/02/2024 13:49,"Successful, no complications"
+70,456,74,Upper GI endoscopy with haemostasis,26/02/2024 23:36,
+71,476,3,Tracheostomy,09/04/2024 13:13,"Successful, no complications"
+72,497,31,Laparoscopic cholecystectomy,08/05/2024 09:54,Uneventful recovery
+73,505,76,Diagnostic upper GI endoscopy,22/05/2024 10:32,"Wound infection, on antibiotics"
+74,508,74,Coronary angiography and PCI,07/05/2024 04:24,"Successful, no complications"
+75,523,71,AV fistula creation,17/06/2024 15:47,"Successful, no complications"
+76,539,3,Laparoscopic cholecystectomy,12/07/2024 14:57,"Successful, no complications"
+77,543,74,Upper GI endoscopy with haemostasis,18/07/2024 07:45,"Successful, no complications"
+78,550,3,AV fistula creation,04/08/2024 13:37,"Successful, no complications"
+79,552,31,Diagnostic upper GI endoscopy,06/08/2024 12:40,null
+80,553,74,Total knee replacement,07/08/2024 14:14,"Wound infection, on antibiotics"
+81,557,74,Laparoscopic cholecystectomy,19/08/2024 01:54,"Successful, no complications"
+82,573,3,Diagnostic upper GI endoscopy,16/09/2024 12:28,"Successful, no complications"
+83,575,74,Laparoscopic cholecystectomy,10/22/2024 08:47 AM,"Successful, no complications"
+84,586,74,DIAGNOSTIC upper GI ENDOSCOPY,06/10/2024 12:38,-
+85,590,3,Total knee replacement,12/10/2024 13:57,Uneventful recovery
+86,605,3,Upper GI endoscopy with haemostasis,01/11/2024 02:10,
+87,646,3,Tracheostomy,08/01/2025 11:25,Uneventful recovery
+88,649,71,Laparoscopic cholecystectomy,12/01/2025 12:19,"Successful, no complications"
+89,659,74,Laparoscopic appendicectomy,04/02/2025 17:53,null
+90,661,3,Laparoscopic cholecystectomy,07/02/2025 00:58,"Successful, no complications"
+91,662,3,Laparoscopic cholecystectomy,07/02/2025 11:23,"Wound infection, on antibiotics"
+92,670,71,Coronary   angiography and PCI,17/02/2025 14:26,Uneventful recovery
+93,681,3,Coronary angiography and PCI,10/03/2025 15:12,"Post-op fever, treated"
+94,684,74,AV fistula creation,15/03/2025 13:52,-
+95,904,21,Laparoscopic appendicectomy,01/04/2025 09:28,"Successful, no complications"
+96,696,74,Diagnostic upper GI endoscopy,10/04/2025 14:12,"Successful, no complications"
+97,698,31,Incision and drainage of abscess,15/04/2025 00:06,"Successful, no complications"
+98,704,71,Suturing of scalp laceration,21/04/2025 16:20,"Successful, no complications"
+99,707,3, PRIMARY PCI  ,27/04/2025 04:10,"Successful, no complications"
+100,714,71,AV fistula creation,30/04/2025 16:11,"Successful, no complications"
+101,716,74,Laparoscopic cholecystectomy,03/05/2025 07:13,Uneventful recovery
+102,723,3,Total knee replacement,11/05/2025 11:37,Uneventful recovery
+103,733,3,Diagnostic upper GI endoscopy,21/05/2025 12:12,"Successful, no complications"
+104,735,3,Laparoscopic cholecystectomy,22/05/2025 14:04,"Successful, no complications"
+105,740,71,Dynamic hip screw fixation,09/06/2025 08:17,"Minor bleeding, controlled"
+106,746,3,Laparoscopic cholecystectomy,16/06/2025 07:54,"Successful, no complications"
+107,750,3,Laparoscopic cholecystectomy,20/06/2025 07:29,"Minor bleeding, controlled"
+108,763,21,Total knee replacement,14/07/2025 11:12,"Minor bleeding, controlled"
+109,767,3,Laparoscopic cholecystectomy,26/07/2025 15:30,"Successful, no complications"
+110,772,21,Laparoscopic appendicectomy,01/08/2025 00:41,
+111,793,31,Laparoscopic cholecystectomy,28/08/2025 11:35,
+112,800,3,Laparoscopic cholecystectomy,08/09/2025 14:04,"Successful, no complications"
+113,809,3,AV fistula creation,27/09/2025 12:50,"Successful, no complications"
+114,821,71,Diagnostic upper GI endoscopy,12/10/2025 12:55,"Wound infection, on antibiotics"
+115,1162,31,Open appendicectomy,20/10/2025 11:08,"Minor bleeding, controlled"
+116,824,21,Laparoscopic cholecystectomy,23/10/2025 12:43,"Minor bleeding, controlled"
+117,829,3,Laparoscopic appendicectomy,28/10/2025 04:42,N/A
+118,834,49,Suturing of scalp laceration,2025-10-29 08:26:00,"Successful, no complications"
+108,763,21,Total knee replacement  ,14/07/2025 11:12,"Minor bleeding, controlled"
+119,302,74,DIAGNOSTIC UPPER GI ENDOSCOPY,31/05/2023 12:21,
+120,433,21,AV fistula creation  ,16/01/2024 14:40,"Successful, no complications"
+121,497,31,Laparoscopic cholecystectomy,08/05/2024 09:54,Uneventful recovery
+122,550,3,AV fistula creation,04/08/2024 13:37,"successful, no complications"

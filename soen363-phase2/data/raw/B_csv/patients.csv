@@ -1,0 +1,694 @@
+PatientNo,PatientName,DOB,Sex,Address,PhoneNo,NextOfKin,Status
+1,Joan Mwesigwa,14/12/1942,F,"Plot 227, Zone G, Lira",0759 800807,Immaculate Nyakato (Sister) 0756 523462,A
+2,Prossy Ssali,08/11/1957,F,"Plot 5, Zone D, Arua",0704 214470,Prossy Kasozi (Mother) 0755 304602,Alive
+3,Robert Ainembabazi,10/01/2022,M,,,Ruth Byamukama (Mother) 0762 649702,Alive
+4,Emmanuel Auma,08/03/1935,M,"Plot 212, Zone E, Fort Portal",0742 869702,Fred Mukasa (Son) 0743 207282,Alive
+5,Collins Kemigisha,1985-08-04,M,"Plot 76, Zone B, Mukono",0717 169994,Harriet Achieng (Sister) 0720 518008,Alive
+6,Edward Kisakye,26/01/1959,M,"Plot 132, Zone A, Iganga",0727 229912,Joseph Akello (Son) 0784 759575,Alive
+7,Grace Adong,13/02/1930,F,"Plot 198, Zone C, Lira",+256 788 016856,Immaculate Tugume (Aunt) 0771 484044,Alive
+8,Robert Tugume,02/07/2015,M,"Plot 45, Zone E, Arua",,Juliet Kyomuhendo (Mother) 0762 652042,Alive
+9,Brian Tugume,05/01/1972,M,"Plot 8, Zone H, Lira",0777 553510,Gloria Lubega (Aunt) 0782 807825,Alive
+10,Rose Prossy Bwambale,18/02/1960,F,"Plot 71, Zone A, Mityana",0750 188169,Richard Wasswa (Uncle) 0719 284013,Alive
+11,Richard Kemigisha,15/06/1985,M,"Plot 113, Zone F, Mityana",0724 367294,Robert Acen (Brother) 0741 152669,Alive
+12,Harriet Ssali,08/05/1966,F,N/A,0710 013484,Isaac Kiggundu (Brother) 0756 722192,Alive
+13,Denis Henry Byamukama,13/09/1999,M,"Plot 254, Zone G, Entebbe",0725 557010,Brian Tumusiime (Uncle) 0759 948042,Alive
+14,Julius Byaruhanga,12/04/2001,Male,"Plot 179, Zone H, Wakiso",0744 190498,Musa Byamukama (Father) 0758 596473,Alive
+15,Sylvia Kemigisha,04/06/1943,F,"Plot 71, Zone B, Mbale",0744 158056,Irene Nsubuga (Guardian) 0748 544878,Alive
+16,Joseph Amongi,10/11/1974,M,"Plot 217, Zone E, Mbale",0764 709971,Ronald Auma (Brother) 0721 133800,Alive
+17,Florence Kato,30/03/1970,F,"Plot 73, Zone H, Mukono",0761 394285,Godfrey Atwine (Brother) 0752 801840,Alive
+18,,13/08/1929,F,"Plot 156, Zone G, Mukono",0777 254778,Collins Tugume (Brother) 0725 895558,Alive
+19,Collins Tumusiime,12/06/1980,M,"Plot 124, Zone D, Fort Portal",0750 261289,Patience Byamukama (Mother) 0780 098970,Alive
+20,Richard Ouma,27/07/1929,M,"Plot 57, Zone H, Gulu",N/A,irene ouma (AUNT) 0742 547460,Alive
+21,Hassan Ekwaru,16/07/1930,M,"Plot 86, Zone B, Fort Portal",0776 867227,Rebecca Ochieng (Sister) 0765 873440,Alive
+22,Christine Kemigisha,15/10/1945,Female,"Plot 128, Zone A, Masaka",0751 457451,Doreen Nakato (Aunt) 0778 933236,Alive
+23,Edward Muhindo,14/04/1993,M,"Plot 225, Zone F, Iganga",0706 353948,Irene Muhindo (Mother) 0786 289503,Alive
+24,Immaculate Ochieng,29/01/2017,  F,"Plot 54, Zone A, Hoima",,Harriet Kemigisha (Mother) 0743 734058,Alive
+25,Brenda Ssekandi,02/07/2008,F,"Plot 219, Zone A, Gulu",0762 651469,Betty Odongo (Mother) 0701 288429,Alive
+26,Patience Otim,11/08/1967,F,"Plot 209, Zone F, Arua",0777 874695,Charles Bukenya (Son) 0745 123850,Alive
+27,Moses Acen,29/01/1959,M,"Plot 240, Zone E, Masaka",0742 199441,Isaac Namubiru (Son) 0779 827079,A
+28,Samuel Tumusiime,26/08/2015,M,null,,Shamim Okot (Mother) 0706 217979,Alive
+29,Martha Mukasa,04/10/1978,F,"Plot 134, Zone H, Mbale",0777 740484,Ruth Odongo (Guardian) 0700 213967,Alive
+30,Ronald Okot,30/07/1939,M,"Plot 85, Zone C, Entebbe",0749 720705,Julius Nyakato (Father) 0706 561857,Alive
+31,Edward Atwine,02/03/2022,M,"Plot 59, Zone C, Gulu",,Immaculate Byaruhanga (Mother) 0740 499391,Alive
+32,Joan Turyasingura,30/06/2017,Female,"Plot 136, Zone A, Mityana",,Josephine Acen (Mother) 0783 361547,Alive
+33,Rebecca Adong,21/04/1934,F,"Plot 208, Zone B, Kabale",0759 699410,Sarah Ochieng (Aunt) 0788 411000,Alive
+34,Henry Akello,22/09/1943,Male,"Plot 154, Zone E, Entebbe",0743 591957,Juliet Acen (Aunt) 0717 799468,Alive
+35,Aisha Namubiru,15 Mar 2005,F,"Plot 181, Zone C, Masaka",,Moses Akello (Guardian) 0715 148603,Alive
+36,Rebecca Ssempala,23/02/1959,F,"Plot 109, Zone F, Mbarara",0759 865493,Emmanuel Oryem (Brother) 0748 596494,Alive
+37,Julius Ouma,16/04/1993,M,"Plot 186, Zone C, Luweero",0700 358502,Lydia Nakato (Aunt) 0707 078254,Alive
+38,Peter Ssempala,06/12/2010,M,"Plot 244, Zone D, Hoima",256779700171,Esther Mugisha (Mother) 0768 186496,Alive
+39,Brian Julius Namubiru,20/11/1972,M,"Plot 127, Zone D, Mbarara",0700 383631,Mercy Namatovu (Sister) 0767 060170,Alive
+40,Rebecca Irene Akello,17/03/2014,F,"Plot 95, Zone B, Hoima",,Immaculate Namubiru (Mother) 0782 464181,Alive
+41,Fred Edward Kizza,2022-03-19,M,"plot 93, zone e, wakiso",,Agnes Kemigisha (Mother) 0762 488244,Alive
+42,Godfrey Adong,10/06/1939,M,"Plot 86, Zone G, Mbarara",0726 607924,Joseph Bwambale (Guardian) 0763 991632,Living
+43,Esther Kato,19/01/2019,F,"Plot 114, Zone F, Soroti",,Mercy Opio (Mother) 0746 750973,Alive
+44,Godfrey Mukasa,13/10/1947,M,"Plot 183, Zone F, Mbale",0751 639422,Collins Kule (Brother) 0723 474190,Alive
+45,Christine Bukenya,06/02/2000,F,"Plot 200, Zone F, Mbale",,Florence Natukunda (Daughter) 0768 140717,Living
+46,Brian Fred Okello,19/10/1986,M,"Plot 53, Zone G, Hoima",0773 792121,Godfrey Otim (Father) 0772 189968,Alive
+47,Annet Kule,06/02/1940,F,"Plot 220, Zone A, Masaka",0707669614,Musa Namatovu (Brother) 0746 759780,Alive
+48,Florence Grace Nankya,27/05/1994,F,"Plot 154, Zone D, Arua",0747 649613,Juliet Byaruhanga (Sister) 0705 076172,-
+49,Godfrey Muhindo,29/01/1988,M,"Plot 218, Zone B, Luweero",0717 466243,Lydia Ssekandi (Spouse) 0708 459235,Alive
+50,Ruth Bwambale,10/04/1994,F,"Plot 46, Zone E, Kampala",0747 156687,Doreen Kansiime (Spouse) 0709 093306,Alive
+51,Geoffrey Kabugo,05/05/1974,M,"Plot 37, Zone H, Lira",0729 225357,Josephine Babirye (Spouse) 0711 821120,Alive
+52,Joan Amongi,19/08/1970,F,"Plot 77, Zone A, Soroti",0706 991442,Ibrahim Tumusiime (Guardian) 0718 919473,Alive
+53,Sylvia Mwesigwa,04/02/1987,F,"Plot 243, Zone H, Mityana",0766 856344,Geoffrey Bwambale (Father) 0711 268497,Alive
+54,Prossy Ssali,1948-03-08,F,"Plot 94, Zone E, Iganga",?,John Nantongo (Brother) 0747 494397,Alive
+55,Isaac Namubiru,07/07/1934,null,"Plot 31, Zone H, Entebbe",0708 802452,Florence Wasswa (Sister) 0744 646249,A
+56,Harriet Achieng,12/09/1947,F,"Plot 217, Zone F, Mbarara",0746 538730,Immaculate Kansiime (Sister) 0745 861746,Alive
+57,Rose Acen,12/10/1948,F,"Plot 13, Zone G, Kabale",0709 687961,Musa Namubiru (Father) 256750303686,Alive
+58,Fred Robert Atwine,28/05/2002,M,"Plot 137, Zone F, Luweero",0773292598,Juliet Kansiime (Spouse) 0752 771703,Alive
+59,Moses Asiimwe,13/03/2010,M,"Plot 162, Zone D, Hoima",0718 609989,Ruth Byaruhanga (Mother) 0720-186-297,Alive
+60,Julius Adong,26/02/1964,M,"PLOT 141, ZONE D, JINJA",0749 472437,Musa Nabukeera (Father) 0788 261179,Alive
+61,Geoffrey Byamukama,13/02/1942,M,"Plot 222, Zone F, Arua",256745889146,Aisha Kisakye (Aunt) 0746 181394,?
+62,Josephine Nantongo,23/02/1963,F,"Plot 36, Zone C, Fort Portal",0720 656551,Rebecca Nabukeera (Guardian) 0768 411949,Alive
+63,Sylvia Masika,28/03/2015,F,"Plot 28, Zone H, Mityana",,Immaculate Okot (Mother) 0717 023364,Alive
+64,Denis Byamukama,05/01/2007,M,,0720 039876,John Lamwaka (Uncle) 256746908724,Alive
+65,Lydia Nantongo,14/02/1969,F,"Plot 164, Zone B, Mbale",0702-916-214,Joseph Kiggundu (Spouse) 0774 428709,Alive
+66,Andrew Fred Auma,03/12/1998,Male,"Plot 210, Zone F, Arua",0705 364171,Shamim Opio (Aunt) 0757622544,Alive
+67,Aisha Tumusiime,01-19-1930,Female,"Plot 7, Zone B, Mukono",0786 199313,John Kabugo (Son) 0719 305360,A
+68,Edward Mwesigwa,13/11/1976,M,"Plot 252, Zone H, Arua",0777 423248,Geoffrey Achieng (Spouse) 0719 656343,Alive
+69,Sylvia Asiimwe,04/04/2003,F,"Plot 34, Zone D, Iganga",0728 798105,Rebecca Kato (Guardian) 256743157201,
+70,Doreen Kisakye,24/01/1949,F,"Plot 41, Zone C, Kampala",0789 873728,Geoffrey Tugume (Guardian) 0769 917623,Alive
+71,Grace Asiimwe,01/04/2010,F,"Plot 65, Zone E, Wakiso",0720 195992,Rebecca Ainembabazi (Mother) 0718 423073,Alive
+72,Musa Atwine,24/01/1981,M,"Plot 255, Zone H, Lira",0709 867406,Winnie Otim (Aunt) 0709 390030,Alive
+73,Florence Lydia Kabugo,1961-05-25,F,"Plot 98, Zone B, Entebbe",0758 623655,Geoffrey Mukasa (Son) 0717 345788,Alive
+74,Shamim Adong,27/04/1995,F,"Plot 53, Zone E, Kampala",0757 767511,Emmanuel Kasozi (Son) 0773 940508,Alive
+75,Martin Kisakye,28/06/1953,M,"Plot 84, Zone D, Hoima",0703 940447,Lydia Mwesigwa (Mother) 0775 908606,Alive 
+76,Charles Wasswa,03/03/2002,M,"Plot 242, Zone C, Kampala",0765 185563,Charles Nankya (Uncle) 0764 390234,Alive
+77,Shamim Mwesigwa,12/01/1948,F,"Plot 219, Zone G, Luweero",0722 687530,Hassan Kule (Brother) +256 750 248857,Alive
+78,Ruth Byaruhanga,9 Apr 1966,Female,"Plot 212, Zone E, Arua",0758 505637,Robert Okello (Brother) 0742 016396,Deceased
+79,Brenda Kansiime,28/10/1960,F,"Plot 137, Zone E, Iganga",0725 286604,Collins Mukasa (Father) 0774 398375,Alive
+80,Moses Joseph Kisakye,2010-03-04,M,"Plot 122, Zone F, Lira",0759 435957,Brenda Ssekandi (Mother) 0722 894334,Alive
+81,Edward Wasswa,30/04/1944,M,"Plot 165, Zone C, Iganga",0760 872873,Rebecca Ochieng (Spouse) 0778 992481,Alive
+82,Hassan Natukunda,27/07/1933,Male,"Plot 52, Zone H, Luweero",0722 845075,Christine Adong (Sister) 0761 287264,Alive
+83,Aisha Tumusiime,14/01/2016,F,"Plot 144, Zone H, Iganga  ",,Immaculate Mugisha (Mother) 0768 869295,Alive
+84,Hassan Kansiime,08/06/2022,M,"Plot 210, Zone H, Soroti",,Grace Mwesigwa (Mother) 0769 666431,Deceased
+85,Martha Adong,02/02/2004,F,"Plot 5, Zone H, Mbarara",0706 000752,Julius Namubiru (Guardian) 0724 860942,Alive
+86,Moses Ojok,21/04/1943,M,"Plot 114, Zone E, Wakiso",0747 720276,Ruth Okot (Spouse) 0707 089816,Alive
+87,Samuel Okello,25/12/1990,M,"Plot 157, Zone H, Gulu",0712 814784,Samuel Muhindo (Spouse) 0784 815204,Alive
+88,Simon Paul Tugume,09/03/1997,M,"plot 107, zone g, wakiso",0703 481136,Denis Nantongo (Guardian) 0774 771325,Alive
+89,Rose Nakato,27 Dec 1975,F,"Plot 41, Zone F, Kabale",0764 872687,Ivan Nyakato (Brother) 0748-103-402,?
+90,Moses Nyakato,21/02/1981,?,"Plot 60, Zone B, Masaka",0741 832940,Brian Achieng (Father) 0712 858505,Alive
+91,Lydia Achieng,18/04/2019,F,"Plot 31, Zone A, Soroti",,Annet Ssekandi (Mother) 0712 326860,Alive
+92,Grace Nalubega,9 Feb 1970,F,"Plot 68, Zone F, Mukono",0767 199602,Moses Babirye (Uncle) 0789 949293,Alive
+93,Harriet Acen,02/05/1983,F,"Plot 49, Zone A, Soroti",0771 906282,Rose Okot (Guardian) 0741 875422,A
+94,Richard Bukenya,20/08/2018,M,"Plot 222, Zone F, Kabale",,Immaculate Arinaitwe (Mother) 0774278813,-
+95,Ruth Ojok,1968-05-06,F,"Plot 193, Zone E, Jinja",0763 823100,Josephine Asiimwe (Mother) 0776 573353,N/A
+96,Isaac Bwambale,13-03-2013,M,"Plot 84, Zone A, Kampala",,N/A,ALIVE
+97,Hassan Nantongo,01/07/2022,M,"Plot 153, Zone G, Masaka",,Doreen Nakato (Mother) 0784 995190,Alive
+98,Ronald Ariong,14/02/0202,M,"Plot 62, Zone G, Wakiso",0767 036465,Prossy Masika (Mother) 0787 223805,Alive
+99,Shamim Ssali,02/07/2022,F,"Plot 92, Zone H, Iganga",,Winnie Kyomuhendo (Mother) 0742 263510,Alive
+100,Collins Opio,05/09/1980,M,"Plot 103, Zone C, Luweero",0742 164304,Christine Ainembabazi (Aunt) 0744 742044,Alive
+101,Ruth Namatovu,05/06/2013,F,"Plot 240, Zone F, Lira",,Brenda Natukunda (Mother) 0714 023085,Alive
+102,Godfrey Asiimwe,19/04/1992,Male,"Plot 137, Zone C, Mbale",0778 859274,Patrick Nantongo (Son) 0706 964393,Alive
+103,Esther Kabugo,06/11/2020,F,"Plot 10, Zone D, Wakiso",,Sarah Nyakato (Mother) 0772 248424,Alive
+104,Florence Nalubega,16/04/2014,F,"Plot 133, Zone G, Wakiso",,Shamim Adong (Mother) 0724 096963,Alive
+105,Agnes Kule,07/09/1990,F,"Plot 119, Zone A, Masaka",0749 377335,Mercy Wasswa (Mother) 0744 274938,Alive
+106,Brenda Tugume,03/06/1946,Female,"Plot 258, Zone D, Kabale",0777 271198,Henry Tugume (Father) 0781 092283,Alive
+107,Annet Turyasingura,07/02/2020,Female,"Plot 241, Zone F, Masaka",,Shamim Bwambale (Mother) 0754 849383,Alive
+108,  Hassan Nantongo,27/04/2015,M,"Plot 249, Zone E, Lira",,Juliet Okot (Mother) 0754 010071,Alive
+109,Brian Byamukama,21/08/1999,M,"Plot 1, Zone F, Lira",0756 234663,Gloria  Mwesigwa (Sister) 0703 492225,Alive
+110,David Andrew Mwesigwa,11/04/2016,null,"Plot 120, Zone F, Kabale",,Betty Ojok (Mother) 0770 361972,Alive
+111,Joseph Byaruhanga,29/03/1946,Male,"Plot 217, Zone E, Masaka",0747 965075,Martin Adong (Uncle) 0772-659-814,Living
+112,Ibrahim Nakato,25/11/1986,null,"Plot 98, Zone F, Mityana",0784 546825,Doreen Nalubega (Spouse) 0705 250517,Alive
+113,Martin Kisakye,15/11/2014,M,"Plot 141, Zone G, Jinja",,martha natukunda (mother) 0750 969576,Alive
+114,Annet Masika,31/07/2022,F,"Plot 22, Zone E, Wakiso",,Florence Babirye (Mother) 0713 640872,Alive
+115,Immaculate Oryem,18/04/1930,F,"Plot 173, Zone B, Hoima",,Prossy Kyomuhendo (Guardian) 0749 473746,Alive
+116,Musa Robert Tugume,28/12/1984,M,"Plot 88, Zone F, Wakiso",0784 651060,Ivan Auma (Spouse) 0707 547518,Alive
+117,Immaculate Kato,06/03/1940,Female,"Plot 121, Zone A, Mityana",0716 631782,Andrew Atwine (Guardian) 0756 212539,Alive
+118,Brenda Doreen Tumusiime,20/06/2021,F,"Plot 47, Zone E, Arua",,Annet Auma (Mother) 0787 174986,RIP
+119,Martin Kizza,05/05/2008,M,"Plot 87, Zone E, Luweero",0701 128951,Sylvia Namubiru (Mother) 0728 274667,Alive
+120,Ruth Nalubega,29/07/1935,F,"Plot 122, Zone H, Soroti",0728 361598,Prossy Nakato (Daughter) 0704 539082,Alive
+121,Florence Lydia Akello,10/04/1997,F,"Plot 143, Zone D, Lira",0700 573807,Musa Kansiime (Son) 0770 145935,Alive
+122,Edward Lubega,20/08/2022,M,"Plot 151, Zone C, Mukono",,Rebecca Bukenya (Mother) 0715 179530,Alive
+123,Ibrahim Brian Oryem,05/02/2007,M,"Plot 21, Zone G, Fort Portal",256700341140,Brenda Nabukeera (Daughter) +256 771 174082,Alive
+124,Martha Patience Okello,17/11/2008,Female,"Plot 91, Zone A, Mukono",?,Christine Kabugo (Mother) 0740 282432,Alive
+125,Grace Okello,16/03/1982,F,"Plot 222, Zone G, Lira",0760 426938,Grace Mugisha (Sister) 0720 803948,Alive
+126,Julius Kisakye,27/06/1955,M,"Plot 149, Zone B, Luweero",0701 735969,Doreen Turyasingura (Mother) 0752 938483,Alive
+127,Harriet Kato,21/01/1975,F,"Plot 128, Zone B, Jinja",0744 186611,Geoffrey Ainembabazi (Brother) 0785 602538,  Alive
+128,Musa Achieng,2022-09-04,M,"Plot 140, Zone G, Arua",,Immaculate Atwine (Mother) 0729 252794,Alive
+129,Ruth Otim,20/03/1991,F,"Plot 112, Zone C, Mbarara",0700 540773,Fred Kabugo (Son) 0765 730481,Alive
+114,Annet Masika,31/07/2022,F," Plot 22, Zone E, Wakiso",,Florence Babirye (Mother) 0713 640872,Alive
+130,Robert Nalubega,25/12/2002,M,"Plot 213, Zone B, Mbale",0762 437294,Prossy Bwambale (Sister) 0764 915823,Alive
+131,Doreen Ssali,31/05/1999,F,"Plot 59, Zone F, Kabale",0721 172500,Harriet Nalubega (Sister) 0705903178,Deceased
+132,Harriet Oryem,21/07/1994,Female,"Plot 108, Zone G, Mbarara",0711 945451,Immaculate Ssali (Daughter) 0715 796151,Alive
+133,Brenda Kansiime,28/02/1941,F,"Plot 43, Zone F, Arua",0762 594794,Esther Babirye (Sister) 0726 839128,Alive
+134,Ronald Tugume,2018-03-01,Male,"Plot 245, Zone A, Jinja",,Mercy Nakato (Mother) 0769 267954,A
+135,Musa Muhindo,08/11/1994,M,"Plot 221, Zone H, Kabale",N/A,Godfrey Mukasa (Spouse) 0763 311979,Alive
+136,Ibrahim Adong,23/01/1999,M,"Plot 171, Zone E, Hoima",0750 704625,Doreen   Byamukama (Aunt) 0713678479,Living
+137,Julius Ariong,22/07/1944,M,"Plot 81, Zone D, Wakiso",0717 007493,Henry Atwine (Brother) 0770 985181,Deceased
+138,Paul  Auma,03/04/2005,M,"Plot 26, Zone F, Iganga",0757 601565,Martha Wasswa (Spouse) 256752553456,Alive
+139,Josephine Ouma,27/07/1980,F,"PLOT 216, zone f, mityana",0770 622083,Samuel Auma (Guardian) 0702 277577,Alive
+140,Martha Aisha Otim,24/01/2005,F,-,0752 372901,Musa Ekwaru (Son) 0786 406641,Alive
+141,Irene Bwambale,12/10/1966,F,"Plot 241, Zone C, Entebbe",0776 459623,Mercy Kule (Spouse) 0771 613494,Alive
+142,Rose Asiimwe,22/10/1956,F,"Plot 195, Zone H, Kabale",0772 022451,Ronald Kabugo (Uncle) 0708 066883,Alive
+143,Richard Nabukeera,31/07/1952,M,"Plot 184, Zone C, Gulu",0752 198487,Betty Kemigisha (Sister) 0702 095934,Alive
+144,Emmanuel Isaac Ojok,21/05/1972,M,"Plot 139, Zone G, Hoima",0702 261377,Josephine Lamwaka (Mother) 0715 020127,Alive
+145,Isaac Opio,16/11/2008,M,"Plot 47, Zone C, Kabale",0720 837436,,Alive
+146,Fatuma Mukasa,19/03/1979,F,"Plot 92, Zone G, Mbarara",256728455954,Mercy Byamukama (Daughter) 0715 477392,?
+147,Harriet Okello,09/04/1973,F,"Plot 131, Zone F, Arua",0762 730350, Irene Kisakye (Daughter) 0741 297508,Alive
+148,Geoffrey Denis Kasozi,19/05/1943,M,"Plot 145, Zone C, Fort Portal",0741 536554,Patrick Mukasa (Brother) 0724 680351,Alive
+149,Hassan Ariong,10/10/2022,M,"Plot 244, Zone F, Luweero",,Rebecca Mwesigwa (Mother) 0700 386499,Alive
+150,Godfrey Kato,06/07/1992,M,"Plot 254, Zone B, Lira",0763 885002,Hassan Tugume (Uncle) 0761 675568,Alive
+151,Ruth Opio,20/10/2022,F,"Plot 121, Zone F, Jinja",,Ruth Atwine (Mother) 0714 020366,Alive
+152,Doreen Brenda Lamwaka,29/05/2012,F,"Plot 57, Zone H, Mukono",,Immaculate Ainembabazi (Mother) 0770 310144,Deceased
+153,Sarah Otim,19/08/1955,F,"Plot 7, Zone C, Iganga",0768 608986,Martha Auma (Aunt) 0701 737300,Alive
+154,Prossy Otim,24 Aug 1930,F,"Plot 29, Zone A, Mbale",0757 028032,Denis Nantongo (Brother) 0724 608038,Alive
+155,Lydia Achieng,13/04/1962,F,"plot 210, zone g, iganga",0744 827054,Juliet Nakato (Sister) 0772 972717,Living
+156,Geoffrey Nantongo,05-23-1944,M,"Plot 189, Zone E, Wakiso",0764 949441,Christine Arinaitwe (Daughter) 0771 524350,Alive
+157,Doreen Bwambale,09/10/1963,Female,"Plot 63, Zone B, Wakiso",0715 003753,Martin Lamwaka (Brother) 0741 491103,A
+158,Charles Joseph Kansiime,29/11/1994,m,N/A,0782 277192,Grace Ojok (Daughter) 0700 248766,Alive
+159,Ivan Ssali,06/11/2022,M,"Plot 71, Zone C, Jinja",,Joan Asiimwe (Mother) 0782908504,Living
+160,Sarah Muhindo,07/07/1956,F,"Plot 70, Zone A, Entebbe",0778 514334,?,Alive
+161,Fred Godfrey Kansiime,29/07/1949,M,"Plot 81, Zone C, Fort Portal",0770 829045,Christine Mwesigwa (Sister) 0726 864064,Alive
+162,Martha Ekwaru,15/11/2022,F,"Plot 13, Zone A, Luweero",,Josephine Namubiru (Mother) 0714 287078,Alive
+163,Denis Okot,09/10/1993,Male,"Plot 18, Zone G, Kampala",256713165833,Patience Akello (Spouse) 0741 225130,Alive
+164,Irene Ssali,03/08/1958,F,"Plot 109, Zone F, Mityana",0723 276283,Charles Lubega (Guardian) 0717 158613,Alive
+165,Edward Moses Ojok,02/12/1938,M,"Plot 13, Zone B, Mityana",0711 306107,Ronald Ojok (Uncle) 0722 329534,Alive
+166,Samuel Lamwaka,03/07/1995,M,"Plot 78, Zone D, Wakiso",?,Christine Ariong (Sister) 0718 409213,Alive
+167,Fred Tugume,02/12/1947,m,"Plot 66, Zone D, Gulu",0748 211529,Edward Amongi (Father) 0750 692232,Alive
+168,Lydia Kansiime,21/03/1971,F,"Plot 137, Zone E, Lira",256764652503,Robert Ssempala (Guardian) 0742 088771,Alive
+169,Rose Kemigisha,3 Jan 1977,F,"Plot 34, Zone C, Mityana",0729 696610,Mercy Kiggundu (Aunt) 0743 534795,Alive
+170,Denis Ronald Otim,09/10/1957,M,"Plot 170, Zone F, Iganga",0704 979293,Florence Ojok (Aunt) 0777 670274,Alive
+171,Fatuma Kasozi,20/03/1957,F,"Plot 60, Zone H, Lira",0757 506237,John Acen (Father) 0766 801865,Alive
+172,Patience Adong,01/01/1982,F,"Plot 201, Zone F, Fort Portal",0783 819583,Musa Okello (Son) 0747 223176,Alive
+173,Esther Nakato,22/11/1931,Female,"Plot 39, Zone A, Masaka",0715 161521,Andrew Ssempala (Father) 0725 294659,A
+174,Ronald Masika,1958-02-14,M,"Plot 231, Zone H, Hoima",0729 616346,Henry Ochieng (Son) 0722 534648,Living
+175,Gloria Tugume,24/10/1929,F,"Plot 17, Zone A, Mityana",0745 534084,John Ochieng (Guardian) 256705349601,Alive
+176,Musa Okello,16/06/1985,M,"Plot 190, Zone D, Soroti",0712 123608,Godfrey Wasswa (Son) 0700 440062,Alive
+177,Simon Kiggundu,03/06/1976,M,"Plot 193, Zone G, Fort Portal",0787 145826,?,Living
+178,Rose Achieng,7 Jul 1973,F,"Plot 33, Zone H, Kabale",0705 912569,Henry Arinaitwe (Uncle) 0709 402722,Alive
+179,Ronald Ochieng,13/07/2010,M,"Plot 4, Zone F, Entebbe",0761 902156,Annet Bukenya (Mother) 0704 056846,Alive
+180,Peter Amongi,23/12/2022,M,?,,Aisha Muhindo (Mother) 0701 486793,Alive
+181,Brian Mukasa,25/04/1930,M,"Plot 67, Zone A, Fort Portal",-,Richard Nantongo (Uncle) 0753104023,Alive
+182,Agnes Mukasa,15/12/1930,F,?,0714 987781,Juliet Nyakato (Daughter) 0714 188307,Alive
+183,Immaculate Ainembabazi,20/03/2001,F,"Plot 252, Zone H, Entebbe",0752 200430,Geoffrey Achieng (Father) 0741 776463,Living
+184,Esther Mwesigwa,04/01/2023,F,"Plot 217, Zone F, Mbale",,Juliet Muhindo (Mother) 0782 477271,Alive
+185,Florence Turyasingura,14 May 2016,F,N/A,,Patience Akello (Mother) 0718 738649,Alive
+186,Emmanuel Byamukama,31/05/1960,M,"Plot 98, Zone H, Kampala",0741 523566,Josephine Amongi (Guardian) 0758 322479,Alive
+187,Irene Ekwaru,7 Oct 1971,F,"Plot 217, Zone G, Mbale",0765 259375,Moses Byamukama (Brother) 0777 286307,Alive
+188,Ruth Babirye,23/11/1935,F,"Plot 32, Zone G, Mukono",0751 732085,Rebecca Achieng (Sister) 0777 144569,Alive
+189,Joseph Namatovu,1944-06-24,M,"Plot 20, Zone E, Mukono",0765 008978,Joan Akello (Sister) 0718 844436,Alive
+190,Juliet Acen,2002-09-24,F,"Plot 98, Zone B, Masaka",0783 331481,Florence Mukasa (Mother) 0772 236205,Alive
+191,Rebecca Nsubuga,28/03/1958,F,"Plot 22, Zone G, Kampala",,Simon Ojok (Uncle) 0750 509034,Alive
+192,Gloria Esther Mwesigwa,20 Apr 2007,F,"Plot 253, Zone A, Wakiso",0713 703485,Prossy Ssali (Daughter) 0747 543552,Alive
+193,Joseph Kisakye,23/11/1996,M,"Plot 214, Zone H, Mbarara",0705 985622,Sarah Kasozi (Mother) 0748 010565,Alive 
+194,Paul Achieng,18/09/1943,M,"Plot 94, Zone B, Mityana",0744 802837,Patience Bukenya (Mother) 0751 005763,Alive
+195,Mercy Acen,14/07/1929,F,"Plot 78, Zone B, Mityana",0727 836286,Musa Lamwaka (Brother) 0772 526711,Alive
+196,Paul Nankya,19/02/1982,M,"Plot 213, Zone F, Lira",0708 985603,Ruth Tugume (Daughter) 0789 583582,Alive
+197,Isaac Kabugo,19/09/1989,M,"Plot 225, Zone G, Fort Portal",0704 548689,Esther Atwine (Daughter) 0710918316,Living
+198,Geoffrey Masika,01/11/1932,M,"Plot 107, Zone G, Fort Portal",0757 758420,Patience Nabukeera (Guardian) 0787-413-742,Alive
+41,Fred Edward Kizza,2022-03-19,M,"plot 93, zone e, wakiso",,Agnes Kemigisha (Mother) 0762 488244,Alive
+199,Julius Lamwaka,13/12/2006,M,"Plot 160, Zone E, Mbarara",0785-979-630,Robert Mwesigwa (Guardian) 0701-344-247,Alive
+200,Joseph Tugume,22/03/1959,M,"Plot 92, Zone F, Kabale",0729 283384, JOHN AUMA (SPOUSE) 0759 319838  ,Alive
+201,Joseph Ojok,28/01/1997,M,"Plot 30, Zone D, Kabale",0770 202114,N/A,Alive
+202,Harriet Bukenya,13/12/2003,F,"Plot 141, Zone B, Hoima",0704 965785,Prossy Amongi (Sister) 0746 705488,Alive
+203,Juliet Ssali,22/11/1938,F,"Plot 94, Zone A, Luweero",0757 933212,John Mugisha (Father) 0714 675222,Deceased
+204,Ibrahim Nabukeera,23/09/1979,M,"Plot 103, Zone G, Kampala",+256 766 600240,Fred Ariong (Spouse) 0769-281-171,Living
+205,Gloria Ssempala,09/10/2006,F,"Plot 247, Zone F, Masaka",0756 747608,Robert Nsubuga (Uncle) 0714 037080,Alive
+206,Edward Natukunda,09/01/2007,M,"Plot 35, Zone C, Fort Portal",0724 181179,Joan Adong (Daughter) 0778 355876,Alive
+207,Christine Otim,30/07/1971,Female,"Plot 133, Zone D, Masaka",0773 887584,Andrew Odongo (Father) 0741 800059,Alive
+208,Agnes Byamukama,01/01/1931,F,-,0763 510140,Julius Tumusiime (Spouse) 0723 129915,Alive
+209,Agnes Okello,01/02/1961,F,"Plot 95, Zone F, Iganga",0781 765994,Denis Okello (Son) 0751 533142,Alive
+210,Harriet Odongo,11/04/1987,F,"Plot 134, Zone F, Mbale",0788 133261,Patrick Nantongo (Son) 0777 351438,Alive
+211,Irene  Ariong,13/05/1946,F,"Plot 189, Zone H, Arua",0743 038514,Aisha Otim (Guardian) 0765056266,Alive
+212,Betty Nsubuga,26/06/1945,F  ,"Plot 105, Zone B, Wakiso",0771 860256,Emmanuel Kyomuhendo (Father) 0766 534115,Alive
+213,Joseph Otim,22/11/1952,Male,"Plot 21, Zone E, Wakiso",0764 108416,Ruth Byamukama (Sister) 0723 184669,Alive
+214,Harriet Tumusiime,2010-04-05,F,"Plot 117, Zone C, Lira",?,Doreen Ainembabazi (Mother) 0719 392530,Alive
+215,Betty Ariong,10/12/2005,F,"Plot 54, Zone G, Hoima",N/A,Harriet Akello (Guardian) 0723 326548,Alive
+216,Robert Bukenya,18/10/2000,M,"Plot 113, Zone B, Luweero",0760 972197,Ivan Ariong (Father) 0720 622982,A
+217,Joan Oryem,14/10/1930,F,"Plot 32, Zone D, Mityana",0760 979294,Rebecca Kansiime (Daughter) 0766 813739,Alive
+218,Geoffrey Namubiru,29/10/1956,M,"Plot 68, Zone C, Soroti",0775 627536,Robert Kizza (Brother) 0715 028613,Alive
+219,Moses Simon Ojok,06/09/2003,M,"Plot 101, Zone H, Arua",0763 012024,Paul Nankya (Guardian) 0776 546658,Alive
+220,Mercy Nakato,18/03/2023,Female,"Plot 109, Zone G, Kabale",,Shamim Amongi (Mother) 0709 183493,Alive
+221,Martin Charles Atwine,31/05/1964,null,"Plot 162, Zone H, Jinja",0780 705139,David Oryem (Father) 0712 801749,Alive
+222,Brian Kabugo,31/12/1994,M,"Plot 228, Zone B, Kampala",+256 786 879091,Richard Bwambale (Spouse) 0722 113100,Alive
+223,Henry Tugume,30/07/1965,M,"Plot 118, Zone G, Luweero",0779 049972,Winnie Tumusiime (Daughter) 0776 304896,Living
+224,Patience Nankya,10/11/1935,F,"Plot 54, Zone A, Fort Portal",0783 211660,David Ssekandi (Uncle) 0783 217551,Alive
+225,Martin Nantongo,15/10/1935,M,"Plot 23, Zone F, Lira",0757 754135,Ronald Byamukama (Son) 0721-000-170,Alive
+226,Patience Muhindo,23/01/1958,F,"Plot 257, Zone A, Gulu",0720 885156,Ibrahim Otim (Uncle) 0774 437709,?
+227,Christine Turyasingura,01/05/2003,F,"Plot 42, Zone D, Gulu",0784 371942,Shamim Okello (Sister) 0727 304033,Alive
+228,John Acen,7 Jun 2016,M,"Plot 202, Zone E, Masaka",,Juliet Akello (Mother) +256 787 972962,Alive
+229,Ruth Tugume,1947-11-31,F,"Plot 54, Zone B, Entebbe",0754 675549,Gloria Ojok (Daughter) 0789 619197,Alive
+230,Agnes Namatovu,05/01/1933,F,"Plot 26, Zone H, Kampala",0757 626260,David Kansiime (Brother) 0712 885519,Alive
+231,Shamim Ojok,11/12/1939,F,"plot 194, zone h, wakiso",0742 876650,Moses Muhindo (Guardian) 0719 395522,Alive
+232,Juliet Brenda Namubiru,27/01/1971,F,"Plot 103, Zone B, Wakiso",0753 205661,Martha Atwine (Aunt) 0719 108470,alive
+233,Irene Namubiru,26/12/1955,F,"Plot 166, Zone G, Fort Portal",0710576276,Fred Odongo (Son) 0746 048297,Alive
+234,David Kasozi,27/09/2019,Male,"Plot 198, Zone B, Jinja",,Josephine Opio (Mother) 0712 799190,Alive
+235,Josephine Bwambale,1946-01-07,  F,"Plot 43, Zone G, Wakiso",0714 397323,John Kemigisha (Son) 0781 447545,Alive
+236,Martha Gloria Ariong,17/02/1950,F,"Plot 225, Zone A, Luweero",,Mercy Nankya (Daughter) 0725 515515,ALIVE
+237,Brenda Wasswa,26/01/1972,F,"Plot 6, Zone H, Gulu",256762204992,Moses Kabugo (Spouse) 0713 119097,Alive
+238,Christine Natukunda,12/06/1984,F,"Plot 204, Zone G, Mityana",0740 087666,N/A,Alive
+239,immaculate nsubuga,15/02/1944,F,"Plot 8, Zone A, Masaka",0709 270024,Geoffrey Kisakye (Father) 0785 378288,Alive
+240,Julius Kisakye,15/06/1942,M,"Plot 65, Zone G, Arua",0753 648139,Winnie Lamwaka (Sister) 0752 140105,Alive
+241,Rose Opio,09/06/2016,  F,"Plot 208, Zone C, Kabale",,Lydia Natukunda (Mother) 0706 499106,Alive
+242,Christine Akello,24/07/1943,F,"Plot 99, Zone H, Luweero",0716 237794,Winnie Ssekandi (Mother) 0779 243721,Alive
+243,David Mugisha,14/11/1956,M,"Plot 41, Zone A, Masaka",0702 484338,N/A,Alive
+244,Peter Byaruhanga,06/06/1997,M,"Plot 93, Zone E, Iganga",0770 312428,Harriet Kisakye (Aunt) 0705 006999,Alive
+245,fatuma kiggundu,06/09/1951,F,"Plot 213, Zone E, Wakiso",0767 281383,Paul Bukenya (Father) 0700 493085,Alive
+246,Esther Kizza,17 Oct 1962,F,"Plot 196, Zone H, Iganga",0756 345022,Winnie Kato (Aunt) 0776 770220,Alive
+247,Andrew Okello,07/02/2013,M,"Plot 64, Zone G, Mukono",,Rebecca Ojok (Mother) +256 709 297501,Living
+248,Musa Arinaitwe,05/02/1964,M,"Plot 38, Zone A, Arua",0758 584108,Josephine Wasswa (Daughter) 0768 694365,Alive
+249,Juliet Amongi,22/03/2011,F,"Plot 148, Zone B, Entebbe",0769 874243,Sylvia Lubega (Mother) 0763 192563,Alive
+250,Simon Fred Mwesigwa,28/10/2012,M,"Plot 70, Zone G, Mbale",,Florence Kizza (Mother) 0778 464195,Alive
+251,Collins Byamukama,03/07/1978,M,"Plot 166, Zone H, Kabale",0752 360203,?,Alive
+252,Doreen Christine Kemigisha,31/07/2017,F,"Plot 129, Zone G, Mukono",,Fatuma Mukasa (Mother) 0771 699854,ALIVE
+117,Immaculate Kato,06/03/1940,Female,"Plot 121, Zone A, Mityana",0716 631782,Andrew Atwine (Guardian) 0756 212539,Alive
+253,Florence Otim,19/04/1992,F,"Plot 201, Zone F, Masaka",0720 381572,David Asiimwe (Spouse) 0700 857694,Alive
+254,Julius Lubega,24/09/1934,M,"Plot 195, Zone G, Mukono",0704 903396,Henry Namubiru (Son) 0786 810080,Alive
+255,Geoffrey Acen,07/07/1992,M,"Plot 97, Zone A, Iganga",0770 396938,Samuel Kizza (Son) 0711 634244,Alive
+256,Ronald Bukenya,02/02/1987,M,"Plot 181, Zone E, Lira",0762 511362,Collins Kyomuhendo (Uncle) 0759 946470,Alive
+257,Moses Adong,09/01/1950,-,"Plot 255, Zone G, Mbarara",0751 528748,Annet Kizza (Daughter) 0748 617468,Living
+258,Betty Kasozi,09/08/1990,F,"Plot 180, Zone F, Lira",0772 310202,Joan Nantongo (Daughter) +256 754 552638,Alive
+259,Sarah Otim,25/03/1992,  F,"Plot 30, Zone G, Mukono",0750 920447,Martha Turyasingura (Aunt) 0765 012087,Alive
+260,Robert Bukenya,01/05/1954,M,"Plot 61, Zone G, Mukono",0753 970175,Julius Nyakato (Son) 0763 652959,Alive
+261,Shamim Bwambale,30/06/1961,F,"Plot 214, Zone H, Gulu",0719 307012,Ronald Nabukeera (Uncle) +256 756 189980,Alive
+262,Henry Byaruhanga,23/08/1978,Male,"Plot 28, Zone F, Mityana",0771 697218,Ivan Ouma (Spouse) 0769 568606,Alive
+263,Harriet Nabukeera,26/12/2005,F,"Plot 84, Zone D, Hoima",0780 826351,Simon Babirye (Brother) 0760342355,Alive
+264,Sylvia Kato,22/07/2016,F,"Plot 140, Zone G, Mityana",,Immaculate Tugume (Mother) 0703 520930,Alive
+265,David Lubega,26/10/1984,M,"Plot 162, Zone H, Hoima",0749 984388,Juliet Turyasingura (Guardian) 0746 570892,Alive
+266,Irene Kabugo,18/12/1936,F,"Plot 235, Zone E, Jinja",0709 622140,Fred Nyakato (Son) 0759 366601,Alive
+267,Josephine Akello,4 Jun 1955,F,"Plot 140, Zone D, Lira",+256 768 685556,Joan Kato (Mother) 0789 176061,Alive
+268,Hassan Kizza,07/04/1947,M,"Plot 187, Zone G, Kabale",0714 273223,Sylvia Bukenya (Aunt) 0782 480455,Alive
+269,Rebecca Namatovu,25/07/1990,F,"Plot 189, Zone G, Masaka",0781533322,David Nalubega (Father) 0726 220706,Alive
+270,Lydia Kasozi,31/08/1943,F,"Plot 180, Zone E, Jinja",0759 299958,Betty Ojok (Sister) 0719 768294,Alive
+271,Ivan Akello,16/07/2023,M,"Plot 115, Zone C, Lira",,Christine Kato (Mother) 0776 295877,Alive
+272,Ivan Natukunda,28/09/1948,M,"Plot 18, Zone A, Entebbe",0780 693011,Brian Adong (Uncle) 0745 344485,Alive
+273,David Andrew Ekwaru,31/08/2002,M,"Plot 206, Zone H, Soroti",0767 641492,Ibrahim Atwine (Father) 0758 192227,Alive
+274,Martha Nantongo,01/06/2018,F,"Plot 48, Zone G, Wakiso",,Patience Bwambale (Mother) 0724 537223,Alive
+275,Sylvia Irene Kabugo,17/11/1992,F,"Plot 180, Zone C, Wakiso",0744 510548,Josephine Kizza (Sister) 0750 250153,Alive
+276,Patience Ochieng,05/08/2004,F,"Plot 161, Zone A, Mbale",0771 888909,Hassan Kiggundu (Uncle) 0787 008494,Alive
+277,Sarah Atwine,17 Sep 1986,F,"Plot 184, Zone E, Mukono",0714 329336,Prossy Kasozi (Spouse) 0783 996723,Alive
+278,Rose Kabugo,28/03/2002,F,"Plot 229, Zone E, Arua",0763 937070,Annet Byamukama (Mother) 0777 744097,Alive
+279,Mercy Babirye,30/05/1996,F,"Plot 166, Zone D, Entebbe",0715 650815,Prossy Mugisha (Daughter) 0740 797719,Alive
+280,Aisha Mwesigwa,14/09/1940,F,"Plot 86, Zone D, Iganga",0758 912126,Henry Arinaitwe (Father) 0753 753186,Alive
+281,Hassan Kato,23/06/1933,M,"Plot 111, Zone F, Lira",256769117969,Rebecca Adong (Sister) 0726 356415,Alive
+282,Robert Nyakato,02/12/1973,Male,?,0743 407029,Henry Kansiime (Uncle) +256 761 119756,Alive
+283,Patience Babirye,14/11/1999,F,,0750 087362,Prossy Masika (Daughter) 0781 367621,Alive
+284,Rose Atwine,03/05/1965,F,"Plot 147, Zone B, Wakiso",0712 194151,Juliet Masika (Aunt) +256 773 298854,Alive
+285,Annet Nabukeera,18/03/1942,F,"Plot 114, Zone C, Mbarara",0705 124483,Martha Kasozi (Guardian) 0764 827482,Alive
+286,Fred Okot,25/08/2023,M,"Plot 15, Zone G, Kampala",,Brenda Lamwaka (Mother) 0722 024755,Alive
+287,Isaac Atwine,25/05/1954,M,"Plot 235, Zone G, Gulu",0763 323471,Doreen Ouma (Daughter) 0720 168868,Alive
+288,Samuel Kiggundu,26/05/2011,M,"Plot 10, Zone G, Lira",0740 173310,Sylvia Wasswa (Mother) 0759 216494,Deceased
+289,Robert Lubega,30/08/2023,M,"Plot 67, Zone H, Mbarara",,Winnie Turyasingura (Mother) 0754 794315,Alive
+290,Mercy Lamwaka,03/04/2021,F,"Plot 62, Zone D, Lira",,Florence Ainembabazi (Mother) 0712 018393,Alive
+291,Martin Byaruhanga,25 Feb 2017,M,"Plot 217, Zone B, Mbale",,N/A,Alive
+292,Fatuma Ainembabazi,02/05/1970,F,"Plot 202, Zone H, Mityana",0747 235351,Julius Kemigisha (Brother) 0744 778991,Alive
+293,Immaculate Immaculate Kule,09/02/2021,F,"Plot 45, Zone G, Mityana",,Rebecca Ouma (Mother) 0768 616663,Alive
+294,Lydia Ochieng,07/09/1962,F,"Plot 191, Zone F, Mityana",0708 323048,Esther Nantongo (Sister) 0760 833838,Alive
+295,Aisha Kyomuhendo,16/05/2015,F,"Plot 233, Zone H, Mukono",,Prossy Otim (Mother) 0779 347027,Alive
+296,Edward Kasozi,20/03/2015,M,"Plot 87, Zone A, Gulu",,Immaculate Nsubuga (Mother) 0767 546291,Deceased
+297,Martha Bukenya,1977-01-02,?,"Plot 138, Zone H, Wakiso",0712 908894,Joan   Nankya (Mother) 0720 983368,Alive
+298,John Odongo,21/02/2001,M,N/A,0729 450179,Immaculate Kisakye (Aunt) 0721 094915,Deceased
+299,David Nankya,03/06/2013,M,"Plot 114, Zone G, Mityana",,Christine Kansiime (Mother) 0745 842713,Alive
+300,Simon Amongi,28/07/2008,M,"Plot 171, Zone H, Jinja",,Irene Mukasa (Mother) 0728 087271,Alive
+301,Henry Kule,17/12/2018,M,"Plot 121, Zone B, Luweero",,Patience Kyomuhendo (Mother) 0706 270914,Living
+302,Florence Kasozi,1976-07-16,F,"Plot 116, Zone D, Mityana",+256 769 103005,Lydia Ojok (Daughter) 0717-738-873,Alive
+303,Julius  Ssempala,02/03/1980,M,"Plot 79, Zone D, Soroti",0764 247244,John Namatovu (Father) 0701 083394,Alive
+304,Martin Namatovu,04/11/1956,M,"Plot 159, Zone G, Iganga",0754 224354,John Nsubuga (Brother) 0756 849724,Alive
+305,Rose Mukasa,15/06/1968,F,"Plot 144, Zone A, Kampala",256725394410,Emmanuel Kyomuhendo (Uncle) 0781 276526,Alive
+306,Martha Ojok,17/11/2021,F,"Plot 109, Zone B, Mbale",,Prossy Lamwaka (Mother) 0716 213754,Alive
+307,Doreen Wasswa,09/10/2023,F,"Plot 106, Zone F, Kampala",,BETTY mwesigwa (mother) 0748 590467,Alive
+308,Emmanuel Okot,16/12/1980,M,"Plot 173, Zone F, Gulu",0718 080858,Emmanuel Kizza (Son) 0728 867884,Alive
+309,Paul Ariong,16/07/1975,M,"Plot 245, Zone F, Masaka",0721 752397,Charles Masika (Guardian) 0765 184377,Alive
+310,Godfrey Ssekandi,25/01/2003,M,"Plot 86, Zone F, Lira",0719 145614,Julius Okot (Spouse) +256 774 660692,alive
+311,Godfrey Natukunda,07/12/1953,M,"Plot 29, Zone A, Hoima",0782 378234,Harriet Bwambale (Aunt) 0740 169240,Alive
+312,Rose Ssali,30/10/1947,F,"Plot 202, Zone E, Entebbe",0720 823417,N/A,Alive
+313,Patrick Richard Nankya,29 Aug 1963,M,"Plot 46, Zone H, Mbale",0779 024136,Godfrey Wasswa (Son) 0763 729127,Alive
+314,Josephine Mwesigwa,20/11/1982,Female,"Plot 146, Zone E, Luweero",?,Winnie Auma (Sister) 0703 054671,Alive
+315,Rose Nsubuga,23/04/1961,F,"Plot 149, Zone C, Arua",0768 734573,Peter Nakato (Son) 0751-628-258,Alive
+122,Edward Lubega,20/08/2022,M,"PLOT 151, ZONE C, MUKONO",,Rebecca Bukenya (Mother) 0715 179530,Alive
+316,Rose Byamukama,14/11/1990,F,"Plot 92, Zone G, Soroti",0755 628925,Sylvia Nabukeera (Mother) 0745 638518,Alive
+317,Brian Tugume,16/03/1990,M,"Plot 159, Zone C, Mbale",0708764827,Musa Mwesigwa (Father) +256 725 559515,Alive
+318,Geoffrey Ssekandi,10/10/1973,M,"Plot 69, Zone A, Masaka",0754 368703,Grace Ariong (Daughter) 0744 035182,A
+319,Brenda Betty Bwambale,28/02/1998,F,"Plot 120, Zone C, Iganga",0787 027274,Fred Muhindo (Brother) 0782 117874,Alive
+320,Edward Asiimwe,06/01/1964,M,"Plot 59, Zone H, Kampala",0701 607376,Collins Ainembabazi (Uncle) 0751 190665,Alive
+321,Shamim Masika,01/10/1972,F,"Plot 257, Zone D, Gulu",0751 178396,David Atwine (Son) 0784 485699,Alive
+322,Fred Odongo,09/12/1996,M,"Plot 245, Zone A, Arua",0782 449275,Agnes Byamukama (Mother) 0759 550250,Alive
+323,Ronald Ainembabazi,03/06/1982,M,"Plot 156, Zone H, Kampala",0703 835873,   Simon Natukunda (Brother) 0774 320968,Alive
+324,Charles Tumusiime,11/08/1947,M,"Plot   107, Zone B, Mbale",0726 502425,Brian Ainembabazi (Spouse) 0755 979440,Alive
+325,Gloria Ojok,15/03/1980,F,"Plot 232, Zone C, Fort Portal",+256 786 190898,Henry Ssempala (Father) 0787 234259,Alive
+326,Edward Kato,29/10/1979,M,"Plot 114, Zone G, Mityana",0752 287824,Esther Kyomuhendo (Guardian) 0785 505545,Alive
+327,Samuel Lubega,26/09/1961,M,"Plot 191, Zone D, Luweero",0744 509038,Florence Ssali (Aunt) 0745 649293,Alive
+328,Gloria Nsubuga,30/08/2004,F,"Plot 45, Zone F, Kabale",0748 942309,Andrew Nantongo (Son) 0776 044038,Alive
+329,Shamim Muhindo,27/07/1938,Female,"Plot 4, Zone F, Kabale",0780 717729,Agnes Kisakye (Mother) 0718 632750,Alive
+330,Brenda Oryem,19/03/1994,F,"Plot 197, Zone D, Gulu",0783 384233,Esther Masika (Guardian) 0787 825929,Alive
+331,Sylvia Okello,13/08/1931,F,"Plot 136, Zone C, Kampala",0710 073684,moses ssali (spouse) 0700 141551,Alive
+332,Joseph Bwambale,01/12/2021,Male,"Plot 9, Zone A, Luweero",,Irene Nabukeera (Mother) 0706 089890,Alive
+23,Edward Muhindo,14/04/1993,M,"Plot 225, Zone F, Iganga",0706 353948,Irene Muhindo (Mother) 0786 289503,Alive
+333,Agnes Odongo,13/11/1961,F,"Plot 219, Zone E, Iganga",0712 666999,Aisha Ojok (Mother) 0784 866822,Alive
+334,Ibrahim Ssekandi,09/12/2023,M,"Plot 105, Zone A, Masaka",,Joan Ariong (Mother) 0704 755980,Alive
+335,Musa Nantongo,25/09/1984,M,"Plot 243, Zone G, Hoima",256761921141,Sylvia Mwesigwa (Daughter) 0709 418707,Alive
+336,Esther Okello,17/01/1984,F,"Plot 171, Zone D, Gulu",null,Henry Odongo (Son) 0771 640268,Alive
+337,Julius Kizza,18/02/1974,Male,"Plot 193, Zone H, Wakiso",0746 785862,Samuel Tumusiime (Father) 0746-571-726,Alive
+338,Annet Akello,05/05/1972, F  ,"Plot 213, Zone C, Hoima",0728 995900,Lydia Bwambale (Guardian) 0758 330910,Alive
+339,Gloria Odongo,30/04/1931,f,"Plot 55, Zone F, Soroti",+256 782 837021,Brenda Nyakato (Daughter) 0704 960408,Living
+340,Andrew  Nakato,25/12/2023,M,"Plot 26, Zone D, Lira",,Rose Kasozi (Mother) 0768-599-179,Alive
+341,Robert Bwambale,17/08/1939,M,"Plot 221, Zone B, Gulu",+256 720 865204,Julius Okot (Son) 0789 502716,null
+342,Shamim Mukasa,04/02/1988,F,"Plot  191, Zone C, Kabale",0789 099407,Fatuma Asiimwe (Daughter) 0725 354459,Alive
+343,Richard Turyasingura,29/12/2023,M,"Plot 206, Zone H, Wakiso",,-,Alive
+344,Brenda Ouma,10/05/1968,F,"Plot 59, Zone F, Luweero",0702 192265,Sylvia Asiimwe (Sister) 0716 075182,Alive
+345,Charles Bwambale,23/04/2003,M,"Plot 220, Zone D, Kabale",0719 257238,Gloria Adong (Mother) +256 771 370024,Alive
+346,Andrew Tugume,1962-08-26,M,"Plot 35, Zone G, Mbarara",256774320280,Fatuma Akello (Mother) 0707-053-726,Alive
+347,Rose Turyasingura,11 Apr 1992,F,"Plot 30, Zone B, Entebbe",0780 019402,Rose Atwine (Aunt) 0767 836914,Alive
+348,Hassan Adong,04/08/1940,M,"Plot 230, Zone A, Iganga",0749 776190,Collins Achieng (Son) 0722 710758,Alive
+349,Robert Lamwaka ,29/08/1984,M,"Plot 145, Zone B, Lira",0705 135396,Rebecca Atwine (Daughter) 0747 559226,null
+350,Fatuma Namatovu,1967-08-31,Female,"Plot 5, Zone B, Entebbe",0766 700574,Paul Kemigisha (Son) 0756 568046,Alive
+351,Brenda Irene Babirye,25/03/1985,F,"Plot 11, Zone A, Gulu",0774 607244,Grace Ssali (Daughter) 0773 826436,Alive
+352,Josephine Natukunda,19/04/1937,F,"Plot 97, Zone H, Mbarara",0748-258-061,Henry Bwambale (Son) 0705 943603,ALIVE
+353,Geoffrey Kabugo,10 Apr 1987,M,"Plot 150, Zone A, Mityana",0700 538486,Lydia Adong (Spouse) +256 711 587503,Alive
+354,Sylvia Ekwaru,17/09/1976,F,"Plot 166, Zone F, Wakiso",0789 641198,Charles Ariong (Spouse) 0760 296478,Alive
+355,Annet Okot,28/03/1931,F,"Plot 248, Zone A, Luweero",0716 922386,Fred Nankya (Brother) 0773 974710,Alive
+356,Annet Kabugo,23/01/2024,F,"Plot 207, Zone A, Jinja",,Sarah Ssali (Mother) 256765236530,Alive
+357,Godfrey Okello,21/01/1982,M,"Plot 42, Zone E, Masaka",0789 704645,David Kiggundu (Uncle) 0714 920568,Alive
+358,Fred Edward Bwambale,20/01/2017,M,"Plot 141, Zone B, Entebbe",,Christine Mwesigwa (Mother) 0752 021002,Alive
+359,Martin Ojok,N/A,M,"Plot 11, Zone F, Mukono",0709 054930,Robert Wasswa (Brother) 0755 923794,
+360,Doreen Asiimwe,10/04/1931,F,"Plot 51, Zone H, Wakiso",0744 022843,Hassan Mukasa (Father) 0708 375627,Alive
+361,Richard Nalubega,17/03/2021,M,"Plot 217, Zone D, Luweero",,Gloria Kyomuhendo (Mother) 0740 832499,Alive
+362,Charles Robert Kato,0000-00-00,M,"Plot 209, Zone D, Gulu",0763 957054,Shamim Kato (Aunt) 0724 703259,Living
+363,Prossy Kizza,26/08/1994,F,"Plot 249, Zone F, Mbarara",0769 698871,Rose Otim (Mother) 0700 338975,Alive
+364,David Nsubuga,10/05/1940,M,"Plot 32, Zone D, Kabale",0707 047251,Rose Kasozi (Sister) 256756284480,Deceased
+365,Mercy Tugume,1997-07-31,F,"Plot 168, Zone C, Fort Portal",0777 151305,Juliet Kyomuhendo (Daughter) 256787242303,Alive
+366,Robert Achieng,06/11/1934,M,"PLOT 76, ZONE C, MUKONO",0746 037369,Patience Lamwaka (Aunt) 0764 636201,Alive
+367,Peter Nantongo,24/01/1974,M,"Plot 165, Zone F, Wakiso",0741 510609,Sylvia Kiggundu (Spouse) 0716 163568,Alive
+368,John Ivan Nsubuga,29/09/1949,M,"plot 6, zone a, iganga",0745 123208,Joseph Namatovu (Uncle) 0785 785794,Alive
+369,Ruth Tumusiime,07/03/2008,F,"Plot 188, Zone D, Lira",0745 210665,Joan Kisakye (Mother) 0700 785030,Alive
+370,Annet Tumusiime,23/04/2018,F,"Plot 53, Zone D, Wakiso",,REBECCA NABUKEERA (MOTHER) 0758 677778,Alive
+371,Robert Wasswa,22/03/1937,M,"Plot 116, Zone G, Mbarara",0788 016085,Ivan Ssekandi (Son) 0774 269538,Alive
+372,Agnes Nalubega,28/09/1985,F,"Plot 218, Zone E, Kabale",0788 763561,Isaac Nantongo (Son) 0771 560201,Alive
+373,Sarah Kyomuhendo,26/12/1977,F,"Plot 50, Zone D, Masaka",0789 701363,Peter Masika (Uncle) 0766 324373,Alive
+374,Hassan Charles Kato,2024-03-06,M,"Plot 154, Zone D, Entebbe",,Gloria Byamukama (Mother) 0722 664111,Alive
+375,Juliet Atwine,19/07/1935,F,"Plot 259, Zone B, Wakiso",0724 837994,Josephine Nyakato (Guardian) 256701915966,Alive
+376,Godfrey John Kato,29/12/1974,M,"Plot 199, Zone B, Kabale",0724 384093,Julius Atwine (Uncle) 0754 424052,Living
+377,Sarah Nabukeera,27/06/1977,F,"Plot 22, Zone H, Kampala",0727 930152,Isaac Ekwaru (Son) 0775 542675,Alive
+378,Aisha Tugume,11/01/1971,F,"Plot 249, Zone H, Jinja",0789 923535,Samuel Lubega (Father) 0763 715549, Alive
+379,Julius Bukenya,2024-03-18,Male,"Plot 33, Zone D, Kabale",,Brenda Masika (Mother) 0745 025639,Alive
+380,Ivan Okello,19/03/2024,M,"Plot 27, Zone B, Kabale",,CHRISTINE TURYASINGURA (MOTHER) 0763 123313,Alive
+381,Doreen Acen,19/03/2024,Female,"Plot 222, Zone E, Mityana",,FATUMA TURYASINGURA (MOTHER) 0768 513531,Alive
+382,Esther Amongi,25/07/1945,F,"Plot 60, Zone A, Arua",0778 011454,Collins Amongi (Son) 256752172148,Alive
+383,Brenda Nalubega,26/03/2024,F,"Plot 175, Zone G, Lira",,Fatuma Masika (Mother) 0728238510, ALIVE  
+384,Lydia Bwambale,02/06/1935,F,"Plot 26, Zone E, Gulu",0711 350655,Immaculate Kabugo (Aunt) 0788 102756,Alive
+385,Geoffrey Masika,20/05/1994,M,"Plot 14, Zone H, Fort Portal",0788 189855,Sarah Ssempala (Sister) 0771 234099,Alive
+386,Martin Robert Namatovu,11/10/1963,M,"Plot 39, Zone A, Jinja",0716 173524,Fred Nalubega (Brother) 0705 954873,Alive
+387,Brian David Arinaitwe,11/12/1938,M,"Plot 70, Zone B, Wakiso",0785 832223,Fred Ssekandi (Brother) 0787 122698,Alive
+388,David Nankya,30/01/1995,M,"Plot 4, Zone H, Gulu",256721616314,Martha Natukunda (Aunt) 0768 576394,Alive
+389,Juliet Odongo,04/02/1951,F,"Plot 97, Zone A, Entebbe",0716 961127,Joseph Nankya (Guardian) 0754 663837,Alive
+390,Annet Nakato,04/06/1952,Female,"Plot 30, Zone D, Iganga",0726 815429,Juliet Auma (Daughter) 0722 985997,Alive
+391,Martin Adong,17/01/2016,M,"Plot 230, Zone D, Mbarara",,Lydia Ariong (Mother) 0771 232244,N/A
+392,Hassan Joseph Atwine,30/09/2002,M,"Plot 192, Zone D, Hoima",0725 193058,Hassan Kasozi (Uncle) 0729241460,Alive
+393,Fred Kiggundu,1968-05-10,M,"Plot 200, Zone E, Jinja",0714 922190,Musa Kemigisha (Uncle) 0752 981382,Alive
+394,Mercy Auma,22/05/1976,F,"Plot 86, Zone F, Wakiso",0743 810347,Prossy Acen (Mother) 0788 263368,Alive
+395,Rose Mugisha,09/12/2020,F,"Plot 10, Zone C, Kampala",,Esther Lubega (Mother) 0704 802488,Alive
+396,Edward Byaruhanga,14/02/1941,M,"Plot 212, Zone D, Luweero",0774 597385,Geoffrey Nantongo (Spouse) 0719662763,Alive
+397,Collins Kyomuhendo,1942-12-05,Male,"Plot 102, Zone A, Mbarara",0782-709-156,Prossy Kato (Sister) 0710 526430,Alive
+398,Harriet Nyakato,23 Feb 1998,F,"Plot 210, Zone A, Mukono",0770 221202,Betty Okello (Aunt) 0745 624360,Alive
+392,Hassan Joseph Atwine,30/09/2002,M,"PLOT 192, ZONE D, HOIMA",0725 193058,Hassan Kasozi (Uncle) 0729241460,Alive
+399,Charles Collins Mukasa,17/01/1932,M,"Plot 40, Zone A, Mityana",0710 485232,Emmanuel Ssekandi (Uncle) 256758635832,Alive
+400,Andrew Amongi,26/04/2019,M,"Plot 139, Zone F, Arua",,Brenda Acen (Mother) 0707 572960,Alive
+401,Lydia Kasozi,24/05/2000,F,"Plot 65, Zone D, Mbale",0762 467919,-,Alive
+402,Brian Acen,18/06/2018,M,"Plot 63, Zone B, Mukono",,Prossy Byamukama (Mother) 0719 175627,Alive
+403,Moses Ouma,16/07/1987,M,"Plot 34, Zone G, Fort Portal",0749 922948,Collins Mukasa (Spouse) 0761 921907,A
+404,Florence Turyasingura,13/05/2024,F,"Plot 188, Zone G, Soroti",,Rebecca Nankya (Mother) 0729 828745,Alive
+405,Emmanuel Paul Ainembabazi,06/08/1987,M,"Plot 86, Zone F, Gulu",0722 773380,Brian Amongi (Spouse) 0786 237986,?
+406,Brenda Ojok,30/01/2004,F,"Plot 141, Zone G, Wakiso",0715 007943,Henry Kasozi (Brother) 0762 232523,Alive
+407,Geoffrey Babirye,18/04/1951,M,"Plot 234, Zone E, Luweero",0715 720685,Gloria Nsubuga (Sister) 0745 484952,Alive
+408,Florence Kabugo,10/05/1954,F,"Plot 90, Zone H, Lira",0713 690299,Winnie Tumusiime (Spouse) 0708-798-429,Deceased
+409,Samuel Isaac Namubiru,14/05/1953,M,"Plot 86, Zone A, Mukono",0772 182472,Ibrahim Akello (Brother) 0785 847380,A
+410,Aisha Namatovu,25/02/2006,F,"PLOT 177, ZONE H, ENTEBBE",0705 003328,Mercy Muhindo (Mother) +256 775 862226,Alive
+411,Prossy Achieng,25/02/2001, F  ,"Plot 81, Zone E, Mbale",0759 788308,Florence Mukasa (Aunt) 0741 118853,Alive
+412,John Ssempala,30/03/2016,M,"Plot 249, Zone A, Kampala",,Lydia Mwesigwa (Mother) 0779 008587,Alive
+413,Robert Oryem,19/08/1968,M,"Plot 49, Zone H, Lira",0704 829211,Mercy Nsubuga (Daughter) 0775 212306,Alive
+414,Joan Kabugo,15/07/1984,F,"Plot 152, Zone H, Masaka",0723 772008,Charles Nakato (Father) 0752 126290,Alive
+415,Henry Charles Namubiru,05/02/1953,M,"Plot 82, Zone F, Masaka",0780 462267,Isaac Lubega (Brother) 0711 937681,Alive
+416,Aisha Babirye,10/01/1979,Female,"Plot 199, Zone D, Kampala",0756 290017,,Alive    
+417,Samuel Okello,17/03/1972,M,"Plot 83, Zone F, Wakiso",0781 199648,Irene Kansiime (Mother) 0700 119310,Alive
+418,Doreen Nakato,11/02/2011,F,"Plot 233, Zone D, Soroti",0714 678940,Martha Arinaitwe (Mother) 0764 298076,null
+419,Musa Peter Atwine,16/04/1953,M,"Plot 54, Zone H, Wakiso",0761 459682,Fred Mwesigwa (Father) 0746 271811,Alive
+420,Shamim Natukunda,15/01/2023,F,"Plot 162, Zone H, Lira",,Doreen Odongo (Mother) 0751 190899,Alive
+421,Isaac Ariong,20/09/1997,M,"Plot 146, Zone D, Mityana",0715-921-649,?,Alive
+422,Doreen Fatuma Kemigisha,25 Apr 1995,F,"Plot 10, Zone H, Mbarara",0701 492287,Ruth Ariong (Daughter) 0727 646329,Alive
+423,Godfrey Ochieng,27/11/1957,M,"Plot 240, Zone F, Gulu",0784 485999,Gloria Ekwaru (Mother) 0759 204297,ALIVE
+424,Charles Ekwaru,21/02/1966,M,"Plot 77, Zone F, Mityana",0741 887524,Denis Nakato (Father) 0774 174136,Alive
+425,Collins Oryem,02/08/2001,M,"Plot 182, Zone H, Iganga",0756 851728,Irene Mukasa (Mother) 0770 110384,Alive
+426,Simon Tugume,15/01/1989,Male,"Plot 159, Zone A, Kabale",0753 294648,Peter Byamukama (Brother) 0729 342227,Alive
+427,Patience Ainembabazi,14/10/1968,F,"Plot 83, Zone F, Mbarara",0722 923315,Gloria Kemigisha (Guardian) 0778 713426,Alive
+428,Musa Acen,09/07/1967,M,"Plot 190, Zone D, Kampala",256771960457,John Byaruhanga (Spouse) 0764 479492,Alive
+429,Winnie Nyakato,16/10/1980,F,"Plot 193, Zone A, Gulu",,Josephine Nantongo (Daughter) 0779 694754,Alive
+430,Denis Kabugo,29/03/1944,M,"Plot 62, Zone E, Hoima",0752 122052,Lydia Ssekandi (Daughter) 0761 791542,Alive
+431,Annet Natukunda,18/01/1971,F,"Plot 112, Zone C, Jinja",0745 684278,Ronald Byamukama (Brother) 0744 203545,Alive
+432,Florence Ruth Amongi,12 May 1996,F,"Plot 89, Zone A, Entebbe",0782 902357,Martha Nantongo (Guardian) 256783088721,Alive
+433,John Opio,23 Sep 1958,M,"PLOT 126, zone c, HOIMA",0772 801058,Josephine Bwambale (Daughter) 0727 276267,Alive
+434,Irene Ouma,06/06/1948,F,"Plot 154, Zone E, Mbale",0784 241204,Moses Lubega (Father) 0707 061703,   Alive
+435,Juliet Arinaitwe,15/03/1994,F,"Plot 45, Zone F, Jinja ",0769 465565,Edward Adong (Spouse) +256 758 073759,Alive
+436,Christine Tumusiime,27/09/1962,  F,"Plot 51, Zone F, Soroti",0773 901711,Peter Adong (Father) 0786 684218,Alive
+437,Ibrahim Kabugo,25/09/1981,M,"Plot 89, Zone C, Mbarara",0708 801510,Josephine Nakato (Aunt) 0716 962763,Alive
+438,Mercy Ochieng,30/09/2003,F,"Plot 161, Zone B, Masaka",0700 177277,Esther Amongi (Sister) 0726 349276,Alive
+439,Brian Babirye,1994-04-21,M,"Plot 213, Zone F, Wakiso",0752 934309,Ronald Nabukeera (Guardian) 0776 342596,Alive
+440,Harriet Adong,30/09/2019, F  ,"Plot 163, Zone D, Arua",,Lydia Muhindo (Mother) 0742 516769,Alive
+441,Agnes Odongo,30/05/1961,F,"Plot 22, Zone D, Lira",0757 889175,Richard Nyakato (Spouse) 0757 801542,Living
+442,Joseph Okot,14/08/2007,M,"Plot 40, Zone A, Gulu",0770 251619,Musa Ekwaru (Brother) 0743 636028,Alive
+443,Fatuma Acen,05/08/2018,  F,"Plot 181, Zone B, Mbale",,Esther Ssempala (Mother) 0771 594608,Alive
+444,Patrick Nakato,03/03/1952,?,"Plot 94, Zone C, Mbale",0728 619762,John Okello (Uncle) 0781 402952,Alive
+445,Collins Atwine,23/10/1937,Male,"Plot 37, Zone F, Iganga",0708 935855,Doreen Mugisha (Daughter) 0758 038443,Alive
+446,Musa Ainembabazi,26/06/2000,M,"Plot 97, Zone D, Mityana",0782 563609,Grace Kisakye (Aunt) 0765656707,Alive
+447,Brenda Betty Amongi,16/08/2024,F,"Plot 140, Zone D, Jinja",,Doreen Ainembabazi (Mother) 0764 622377,Alive
+448,Brenda Ochieng,1982-09-18,F,"Plot 5, Zone D, Hoima",0745 326308,Paul Acen (Guardian) 0726558442,Alive
+449,Florence Natukunda,30/01/1980,F,"Plot 196, Zone G, Kabale",0786 019496,Fatuma Kiggundu (Sister) 0771 190279,Alive
+450,Sarah Odongo,13/03/1976,F,"Plot 223, Zone A, Soroti",0746 268102,?,Alive
+451,Brian Tumusiime,19/10/1944,M,"Plot 128, Zone D, Hoima",0782 954117,Hassan Kyomuhendo (Guardian) 0709 679782,Alive
+452,Richard Isaac Otim,11/12/1981,M,"Plot 61, Zone A, Masaka",0712 958870,Isaac Muhindo (Uncle) 256774240097,Alive
+453,David Masika,18/01/1971,N/A,"Plot 24, Zone H, Kabale",0777 275013,Christine Kato (Sister) 0703 565958,Alive
+454,Sylvia Atwine,23/11/1959,F,"Plot   229, Zone G, Arua",0704 125654,Edward Ekwaru (Father) 0704 122103,Alive
+455,Andrew Oryem,25/08/2024,M," PLOT 73, ZONE E, ARUA  ",,N/A,Alive
+456,Gloria Ssali,10/02/1989,F,"Plot 187, Zone B, Jinja",0768 083280,Doreen Byamukama (Mother) 0745 004938,Alive
+457,Charles Ssali,28/10/1938,M,"Plot 126, Zone D, Soroti",0745 580482,null,ALIVE
+458,Collins Namatovu,29/06/1940,M,"Plot 258, Zone A, Arua",0748 760591,Patrick Opio (Father) 0722907851,Alive
+459,Sarah Okello,15/10/1938,F,"Plot 136, Zone B, Mukono",0756 438058,BRIAN MUKASA (son) 0740 872674,Alive
+460,Robert Mukasa,23/04/1948,M,"Plot 216, Zone C, Mbarara",N/A,Annet Byaruhanga (Mother) 0714 232782,Alive
+461,Josephine Oryem,29/04/1973,F,"Plot 225, Zone B, Jinja",0729 653112,Moses Wasswa (Spouse) 0718 181218,Alive
+462,Musa Akello,17/06/2014,M,"Plot 60, Zone A, Mityana",,Esther Asiimwe (Mother) 0764 408314,Alive
+463,Brenda Ainembabazi,16 Mar 2006,F,"Plot 140, Zone C, Wakiso",0788 317854,Moses Oryem (Guardian) 0710 401256,Alive
+464, GEOFFREY NABUKEERA  ,29/11/1961,,"Plot 111, Zone D, Lira",0771 654784,Grace Atwine (Sister) 0723 979052,Alive
+465,Josephine Masika,15/11/1931,F,"Plot 119, Zone B, Kampala",0724 634192,Juliet Mukasa (Sister) 0720 366098,Alive
+466,Doreen Namatovu  ,25/07/1939,Female,"Plot 246, Zone G, Entebbe",0729 385654,Godfrey Mugisha (Son) 0760 234884,Alive
+467,David Kasozi,26/02/2018,M,"Plot 65, Zone D, Mbale",,Patience Muhindo (Mother) 0766 260484,Deceased
+468,Patrick Oryem,24/09/2024,M,"Plot 125, Zone G, Mityana",,Annet Bwambale (Mother) 0750 672362,Alive
+469,Winnie Kasozi,08/12/2012,Female,"Plot 101, Zone A, Mukono",,Agnes Kansiime (Mother) +256 761 793686,ALIVE
+470,Doreen Babirye,23/12/1936,F,"Plot 232, Zone E, Kabale",0767 474511,Rebecca Tumusiime (Spouse) 256762958095,Alive
+471,Josephine Opio,08/01/1980,F,"Plot 238, Zone E, Gulu",0779 641002,Robert Kemigisha (Father) 0715 513206,Alive
+472,Richard Akello,1965-06-16,M,"Plot 95, Zone E, Masaka",0745 156566,Musa Auma (Spouse) 0775 215709,Alive
+473,Fatuma Ojok,05/12/1941,F,"Plot 43, Zone A, Hoima",0757 259865,Collins Kiggundu (Uncle) 0784 884135,  Alive
+474,Martin Acen,1949-01-17,M,"Plot 181, Zone E, Kampala",0762 105628,?,Deceased
+475,Doreen Bukenya,29/12/1995,N/A,"Plot 195, Zone G, Arua",0757 122778,Prossy Okot (Sister) 0710 400192,Alive
+476,Lydia Kato,09/04/1980,F,"Plot 171, Zone F, Jinja",0722 006260,Brenda Okot (Mother) 0780 218028,Alive
+477,Martin Byamukama,01/09/1988,M,"Plot 233, Zone H, Lira",0774 854873,Samuel Kizza (Father) 0754 177903,Alive
+478,Ronald Ojok,02/10/1968,M,"Plot 170, Zone F, Mbale",0740 798555,Martha Mugisha (Daughter) 0782 386695,Alive
+479,Isaac Kasozi,28/10/1999,M,"Plot 144, Zone G, Mityana",0783 271268,Fred Ouma (Guardian) 0747 847593,Alive
+480,Esther Kemigisha,04/07/1995,F,"Plot 98, Zone H, Wakiso",0789 288409,Martin Byaruhanga (Brother) 0722-864-642,Alive
+481,Isaac Kyomuhendo,17/05/1982,M,"Plot 143, Zone B, Kabale",0714 332598,Prossy Ssali (Spouse) 0701 811218,A
+482,Rose Winnie Turyasingura,17/08/1949,F,"Plot 236, Zone B, Masaka",0776 176405,Henry Wasswa (Son) 0770-978-394,  Alive
+483,Annet Acen,17/08/2018,F,"Plot 92, Zone G, Gulu",,Aisha Otim (Mother) 0786 285203,Alive
+484,Patrick Samuel Kansiime,01/11/2024,M,"Plot 244, Zone C, Iganga",,Christine Mukasa (Mother) 0783 173663,A
+485,Collins Byaruhanga,26/11/1990,M,null,0704 562643,Grace Ojok (Mother) 0713 371915,Alive
+486,Aisha Ouma,07/08/1947,F,"Plot 241, Zone B, Mityana",0710 978781,Lydia Byamukama (Guardian) 0704 261862,Alive
+487,Harriet Okello,1968-08-16,F,"Plot 20, Zone E, Jinja",0772 671698,Fatuma Arinaitwe (Aunt) 0723 073134,A
+488,Grace Babirye,10/05/1938,Female,"Plot 94, Zone C, Masaka",0719-930-972,Martin Kizza (Guardian) 0786 216795,Alive
+489,Brian Nakato,11/07/2009,M,"Plot 112, Zone D, Fort Portal",0746 596360,Winnie Masika (Mother) 0718 637763,Alive
+490,Martin Ainembabazi,08/06/2004,M,"Plot 195, Zone E, Arua",0763120767,Emmanuel Bukenya (Brother) 0771 577009,Alive
+491,Paul Kisakye,14/12/1984,Male,"Plot 90, Zone A, Lira",0741 282494,Charles Ochieng (Father) 0766 654418,Alive
+492,Irene Bwambale,13/01/1992,F,"Plot 230, Zone B, Mukono",0719 797876,Juliet Byaruhanga (Daughter) 0747 116446,Alive
+493,Ibrahim Byamukama,19/01/1937,M,"Plot 210, Zone F, Mbale",0707 198608,Brenda Mwesigwa (Sister) 0713 161129,Living
+494,Fred Kiggundu,19/11/1993,Male,"Plot 94, Zone B, Mbarara",0745 811500,Lydia Ekwaru (Aunt) 0713 254288,Alive
+495,Rose Patience Atwine,25/02/2002,F,"Plot 31, Zone D, Arua",0781 238504,Aisha Auma (Daughter) 256788994771,Alive
+496,Sylvia Nantongo,01/03/2015,F,"Plot 129, Zone D, Entebbe",,Sylvia Acen (Mother) 0785 595428,Alive
+497,Grace Ssekandi,1933-10-06,F,null,+256 716 487850,Edward Ariong (Son) 0747 187270,Alive
+498,Charles Nalubega,04/07/1998,M,"Plot 112, Zone D, Mbale",0756 373491,Henry Kansiime (Brother) 0719093732,Alive
+499,Betty Tumusiime,22/04/1956,F,"Plot 4, Zone C, Soroti",0719 046875,Edward Kansiime (Son) 0776 068734,Alive
+500,Harriet Ariong,18/04/1985,F,"Plot 184, Zone H, Gulu",?,Harriet Turyasingura (Spouse) 0770 247183,Alive
+501,Esther Agnes Babirye,01/12/2024,F,"Plot 194, Zone B, Jinja",,?,Alive
+502,Irene Adong,06/09/2006,F    ,"Plot 197, Zone F, Mityana",0753 868845,Irene Opio (Daughter) 0717 272506,Alive
+503,Isaac Ojok,01/10/1931,M,"Plot 157, Zone A, Gulu",0712 706775,Christine Nyakato (Mother) 0722 667338,Alive
+504,Christine Nabukeera,07/02/1983,F,"Plot 253, Zone F, Wakiso",0765 897889,Henry Mwesigwa (Brother) 0786 434788,Alive
+505,Josephine Kansiime,18/08/1943,F,"Plot 253, Zone E, Fort Portal",0746 146270,Hassan Ssekandi (Son) 0786 746483,Alive
+506,John Kabugo,10/03/2010,M,"Plot 171, Zone E, Lira",0711 005224,Joan Byaruhanga (Mother) 0770 753776,Alive
+507,Fatuma Kule,2 Jan 1986,F,"Plot 216, Zone B, Wakiso",0743 545761,Josephine Kasozi (Mother) 0700 865828,Alive
+508,Fred Turyasingura,01/07/1936,M,"Plot 51, Zone C, Mbale",0786 192536,Josephine Ssali (Daughter) 0713 472843,Alive
+509,Moses Nabukeera,25/02/1967,M,"Plot 147, Zone C, Masaka",0789 506938,Agnes Tugume (Daughter) 0758 990248,Alive
+510,Doreen Kato,21/12/1955,f,"Plot 30, Zone A, Masaka",0722 775029,Joan Nankya (Mother) 0717 062094,Alive
+511,Peter Kizza,1931-10-13,M,"Plot 126, Zone C, Kabale",0718 363837,Fred Kansiime (Father) 256765418301,alive
+512,David Odongo,02/01/2010,M,"Plot 152, Zone F, Kampala",0761 843860,Harriet Nankya (Mother) 0782 597668,null
+513,Ivan Godfrey Ssempala,02/01/1944,M,"Plot 52, Zone H, Mukono",0720 096033,Godfrey Nankya (Brother) 0755 923740,Alive
+514,Gloria Byamukama,25/12/1953,null,"Plot 240, Zone C, Mukono",0769 177623,Fatuma Kizza (Mother) 0755 003533,Alive
+515,Winnie Kansiime,03/01/1970,F,"Plot 29, Zone G, Wakiso",0777 238871,Rose Okello (Daughter) +256 746 187717,Alive
+516,Ibrahim Turyasingura,03/07/1940,M,"Plot 185, Zone B, Jinja",0767 503169,Esther Babirye (Sister) 0744 052368,null
+517,  Betty Esther Byaruhanga,28/08/1993,F,"Plot 226, Zone D, Soroti",0744 502279,Doreen Opio (Daughter) 0749 554102,Living
+518,Martha Ojok,27/01/2025,F,"Plot 154, Zone D, Mbarara",,Doreen Kyomuhendo (Mother) 0707 644750,Alive
+519,Julius Achieng,31/01/2025,M,"Plot 188, Zone C, Iganga",,Aisha Akello (Mother) 256741960490,Alive
+520,Ronald Otim,25/11/2009,M,"Plot 174, Zone C, Entebbe",+256 717 065082,Gloria Akello (Mother) 0728-602-922,Alive
+521,Richard Natukunda,1992-01-09,M,"Plot 86, Zone C, Luweero",0715 527206,Gloria Nabukeera (Sister) 0762 260275,Alive
+522,Rebecca Odongo,1949-06-16,F,"Plot 161, Zone B, Mbale",0772 375481,Julius Masika (Uncle) 0727 747347,Alive
+523,Paul Nakato,18/04/1950,M,"Plot 63, Zone E, Mbale",0780 753652,John Mwesigwa (Brother) 0724 249133,Alive
+524,Richard Achieng,24/05/2021,M,"Plot 212, Zone E, Lira",,Doreen Otim (Mother) 0748 869784,Alive
+525,Paul Namatovu,25 May 1955,M,"Plot 58, Zone E, Mbale",0705 156758,Richard Ainembabazi (Father) 0757 894351,Alive
+526,Doreen Oryem,23/08/2016,F,"Plot 51, Zone D, Jinja",,Brenda Kiggundu (Mother) 0748 503725,Alive
+527,Paul Nantongo,24/01/1954,M,"Plot 201, Zone F, Mbarara",0717 032030,Moses Ssempala (Father) 0789 010755,Alive
+528,Julius Ssekandi,09/09/2023,M,"Plot 96, Zone E, Mbale",,Agnes Kule (Mother) 0756 963961,Living
+529,Juliet Atwine,04/01/2011,F,"Plot 199, Zone E, Kabale",0755 622918,Annet Ochieng (Mother) 0700 863625,Alive
+530,Christine Oryem,20/02/2000,F,"Plot 228, Zone G, Mbale",+256 749 587698,Edward Kizza (Guardian) 256723099072,Alive
+531,Peter Ssekandi,16/11/1976,M,"Plot 57, Zone B, Hoima",0723 934639,Martin Ssali (Son) 0710 754957,Alive
+532,Josephine Namubiru,29/02/1940,F,"Plot 6, Zone G, Gulu",0751 077623,Charles Otim (Son) 0720 339099,Alive
+533,Florence Kiggundu,08/03/2025,F,"Plot 39, Zone A, Kabale",,Patience Kyomuhendo (Mother) 0704 472527,Alive
+534,Esther Kabugo,1964-01-02,F,"Plot 128, Zone A, Masaka",null,Patience Nantongo (Daughter) 0779 771522,Alive
+535,Grace Otim,1934-10-16,F,"Plot 58, Zone D, Kampala",0776 304932,Grace Wasswa (Aunt) 0752 118840,Alive
+536,Lydia Kasozi,19/03/1987,Female,"Plot 247, Zone G, Mukono",0700 886521,Sylvia Adong (Mother) 0718 086186,Alive
+537,Samuel Nsubuga,19/05/1975,M,"Plot 259, Zone B, Mityana",0712 215866,John Namatovu (Brother) 0771 240093,Alive
+538,Prossy Kyomuhendo,-,F,"Plot 218, Zone A, Gulu",0767 204571,Moses Ariong (Guardian) 0702 095207,Deceased
+539,Simon Ariong,2025-03-24,M,"Plot 239, Zone C, Hoima",,Winnie Wasswa (Mother) 0786 560080,Alive
+540,Josephine Kiggundu,21/05/2015,F,"Plot 24, Zone C, Wakiso",,Shamim Kato (Mother) 0779 979056,Alive
+541,Ibrahim Wasswa,21/12/2011,M,"Plot 152, Zone G, Mukono",,Sylvia Ouma (Mother) 0716 487581,Alive
+542,Aisha Gloria Amongi,15/06/1962,F,"Plot 103, Zone F, Mityana",0783 365886,Shamim Nabukeera (Mother) 0742 292524,Alive
+543,Henry Ojok,22/06/1979,M,"Plot 34, Zone H, Iganga",+256 768 077727,Christine Mukasa (Spouse) 0725 499006,Alive
+544,Annet Adong,15 Mar 1999,F,"Plot 99, Zone G, Kampala",0770 264932,Esther Atwine (Daughter) 0752 833156,Alive
+545,Joan Achieng,24 Jan 1991,Female,"Plot 58, Zone E, Iganga",0712 707074,null,Alive
+546,Ibrahim Mukasa,15/02/2001,M,"Plot 50, Zone B, Fort Portal",0745 142546,Brenda Byaruhanga (Spouse) 0728 405542,Alive
+547,Martin Bukenya,22/01/2013,M,"Plot 175, Zone A, Entebbe",,Rebecca Ouma (Mother) 0746 096705,Alive
+548,Gloria Harriet Lamwaka,07/06/1983,N/A,"Plot 177, Zone G, Mityana",0760 773247,Ruth Mukasa (Sister) 0716 558824,Alive
+549,   Shamim Aisha Acen,12/04/2025,F,"Plot 118, Zone B, Lira",,Annet Opio (Mother) 0780 523549,Alive
+397,Collins Kyomuhendo,1942-12-05,Male,"Plot 102, Zone A, Mbarara",0782-709-156,Prossy Kato (Sister) 0710 526430,Alive
+506,John Kabugo,10/03/2010,M,"Plot 171, Zone E, Lira",0711 005224,Joan Byaruhanga (Mother) 0770 753776,Alive
+550,Fred Oryem,11/03/2012,M,"Plot 91, Zone F, Kabale    ",,Patience Achieng (Mother) 0747 507432,Alive
+551,Samuel Tumusiime,09/02/1939,M,"Plot 147, Zone D, Arua",0772 410178,John Nyakato (Son) 0750 997911,Alive
+552,Harriet Namatovu,1980-11-04,F,"Plot 144, Zone E, Luweero",0711 743533,Irene Ssempala (Daughter) 0724 218759,Alive
+553,Ibrahim Auma,26/03/1975,M,"Plot 7, Zone F, Kabale",0764 743589,Henry Byamukama (Father) 0780 894629,Alive
+554,Immaculate Kasozi,23/09/1977,F,"Plot 252, Zone E, Wakiso",0721 491314,Moses Masika (Son) 0746 731433,Alive
+555,Rebecca Kabugo,10/02/1934,F,"Plot 46, Zone E, Jinja",0747 502364,Prossy Ssekandi (Guardian) 0754 146932,Alive
+556,Ruth Kisakye,1 Jul 1936,F,"Plot 244, Zone E, Fort Portal",0757 594097,Grace Ssali (Spouse) 0714 418213,Alive
+557,Lydia Okot,31/03/1966,F,"Plot 135, Zone E, Mityana",0742 817439,Sylvia Nalubega (Daughter) 0788 362242,Living
+558,Florence Nalubega,5 Jun 1957,F,"Plot 173, Zone C, Lira",0788 675589,Annet Otim (Sister) 0721 148094,Alive
+559,MERCY KISAKYE,09/10/2000,F,"Plot 70, Zone C, Arua",0758 920140,Rose Ainembabazi (Sister) 0715 756276,Alive
+560,Florence Nalubega,28/02/1991,F,"Plot 1, Zone F, Gulu",null,Hassan Amongi (Brother) 0724 323203,Alive
+561,Moses Nyakato,2004-03-02,M,"Plot 209, Zone D, Mbale",0774 151019,Ivan Ouma (Uncle) 0771 302921,Alive
+562,Joseph Oryem,19/09/1962,M,"Plot 66, Zone D, Kampala",0783 988567,Irene Tugume (Mother) 256719803293,Alive
+563,Emmanuel Lamwaka,16/01/2013,M,,,Martha Amongi (Mother) 0788 697694,Alive
+564,David Nabukeera,27/01/1933,M,"Plot 235, Zone D, Soroti",N/A,Julius Bwambale (Father) 0789 008022,Alive
+565,Ronald Ojok,27/12/1960,M,"Plot 215, Zone H, Iganga",0703 270490,Joan Kasozi (Mother) 0708 005600,Alive
+125,Grace Okello,16/03/1982,F,"Plot 222, Zone G, Lira",0760 426938,Grace Mugisha (Sister) 0720 803948,Alive
+566,Prossy Adong,04/05/2025,F,"Plot 190, Zone G, Soroti",,Esther Lubega (Mother) 0747 673085,Alive
+567,John Ssempala,6 Mar 2010,M,"Plot 39, Zone A, Entebbe",0768 115561,Gloria Nyakato (Mother) 0780 976376,Alive
+568,Joan Kasozi,04/11/1984,F,"Plot 239, Zone B, Fort Portal",0743 694094,Prossy Kule (Aunt) 0721 041967,Alive
+569,Robert Mugisha,04/12/2015,Male,"Plot 99, Zone D, Kampala",,Ruth Amongi (Mother) 0713 421025,Alive
+570,Immaculate Ariong,26/04/1949,Female,"Plot 53, Zone E, Fort Portal",+256 750 160556,Samuel Namatovu (Brother) 0744 474822,Alive
+571,Esther Martha Nalubega,02/04/1995,F,-,0763 613655,Aisha Kato (Mother) 0759 019611,Alive
+572,Brenda Asiimwe,01/12/1949,F,"Plot 224, Zone E, Kabale",0749 535457,Gloria Turyasingura (Guardian) 0760 197991,Alive
+573,Robert Kansiime,25/06/2010,M,"Plot 118, Zone H, Mbarara",0780 760087,Annet Auma (Mother) 0773 837682,Living
+574,Agnes Kasozi,11/04/1934,F,"Plot 162, Zone H, Mukono",0723 311867,Sylvia Okello (Guardian) 0776 617496,Alive
+568,Joan Kasozi,04/11/1984,F,"Plot 239, Zone B, Fort Portal",0743 694094,Prossy Kule (Aunt) 0721 041967,Alive
+575,Edward Kemigisha,26/05/1976,M,"Plot 6, Zone F, Hoima",0708 025387,John Lubega (Uncle) 0759-675-787,Alive
+576,Ruth Atwine,03/01/1993,Female,"Plot 146, Zone C, Mukono",0767 400479,Ronald Nsubuga (Uncle) 256778049709,Alive
+577,Denis Kizza,26/09/1969,M,"Plot 200, Zone F, Masaka",0767 323354,Joseph Acen (Father) 0705 639830,Alive
+233,Irene Namubiru,26/12/1955,F,"Plot 166, Zone G, Fort Portal  ",0710576276,Fred Odongo (Son) 0746 048297,Alive
+578,Florence Mugisha,29/09/1946,F,"Plot 259, Zone C, Gulu",0785 057446,null,Alive
+579,Sarah Ekwaru,29/08/1932,F,"plot 62, zone f, luweero",0703 844359,Winnie Nankya (Mother) 0761 819160,Alive
+580,Samuel Masika,02/01/2022,M,"Plot 157, Zone A, Kabale",,Rebecca Ainembabazi (Mother) 0710 576923,Alive
+581,Geoffrey Ssekandi,03/12/1990,M,?,0720016649,Ronald Ochieng (Uncle) 0727 495132,Alive
+582,Sylvia Byamukama,14/02/1949,F,"Plot 32, Zone E, Masaka",0702 026227,Brenda Kizza (Sister) 0780 845844,Alive
+583,Ronald Geoffrey Kule,09/06/2025,M,"Plot 195, Zone D, Hoima",,Mercy Kabugo (Mother) 0728 536312,Alive
+584,Ibrahim Lubega,07/09/1963,M,"Plot 138, Zone F, Luweero",N/A,Brian Kato (Guardian) 0759 910829,Alive
+585,Godfrey Okello,23/04/2003,M,"Plot 218, Zone G, Iganga",N/A,Andrew Mukasa (Spouse) 0743 102971,Alive
+586,Robert Masika,9 Jun 1941,?,"Plot 247, Zone E, Hoima",0757 690112,Lydia Nyakato (Aunt) 0711 951232,Alive
+587,Prossy Esther Otim,31/05/1989,F,"Plot 180, Zone E, Wakiso",0755 005160,Ronald Ainembabazi (Brother) 0786 798120,Alive
+588,Joan Ekwaru,18/11/2010,F,"Plot 81, Zone A, Luweero",0749 364341,Florence Ssali (Mother) 0763 026147,Alive
+589,Agnes Ojok,20/03/1956,F,"Plot 54, Zone A, Mukono",0708 961179,Geoffrey Akello (Guardian) 0764 749503,null
+590,Christine Kasozi,08/01/1989,null,"Plot 192, Zone H, Lira",0773 057560,Rose Amongi (Daughter) 0767 704468,Alive
+591,Harriet Patience Otim,27/08/2001,F,"Plot 179, Zone A, Kampala",0741 872774,Isaac Amongi (Spouse) 0778 105634,Alive
+592,Samuel Kizza,29/06/2013,M,"Plot 225, Zone A, Lira",,Betty Byaruhanga (Mother) 0786097519,Alive
+593,Brian Isaac Opio,19/11/1942,M,"Plot 223, Zone A, Soroti",,Brian Kizza (Uncle) 0760 784789,Alive
+594,Florence Ariong,16/01/1997,F,"Plot 22, Zone D, Lira",null,Grace Turyasingura (Sister) 0701 212738,Alive
+595,Simon Akello,22/03/1951,M,"Plot 24, Zone H, Masaka",?,Edward Lubega (Son) 0778 949694,Alive
+596,Annet Mercy Nakato,08/07/1967,F,"Plot 33, Zone D, Iganga",0742 610079,-,Deceased
+597,Josephine Asiimwe,31/03/2004,F,"Plot 66, Zone C, Luweero",0742 930615,Josephine Akello (Sister) 0765 341511,Alive
+598,Godfrey Ochieng,12/11/2000,N/A,"Plot 175, Zone F, Fort Portal",0754 038154,John Lamwaka (Uncle) 0752 444971 ,Alive
+599,Moses Ouma,24/07/1961,M,"plot 20, zone c, luweero",null,Paul Namubiru (Brother) 0782 670107,Alive
+600,Fred Byaruhanga,15/05/1943,M,"Plot 123, Zone F, Arua",0710 750014,?,Alive
+601,Rebecca Nankya,16/01/1962,Female,"Plot 211, Zone C, Mityana",0752 070803,Annet Lamwaka (Aunt) 0789 455830,Alive
+602,andrew acen,18/10/1953,M,"Plot 2, Zone E, Masaka",0725 551039,Henry Otim (Brother) 0755-035-132,Alive
+603,Richard Namatovu,27/08/1948,M,"Plot 154, Zone D, Iganga",0771 584818,Samuel Oryem (Brother) 0705 644618,Alive
+604,Rebecca Opio,21/07/2025,F,"Plot 74, Zone B, Luweero",,Immaculate Asiimwe (Mother) 0712 049637,Alive
+605,Esther Martha Okello,09/01/1986,   F,"Plot 66, Zone D, Kampala",0710 124467,Fatuma Nantongo (Daughter) 0713-870-479,Alive
+606,Fatuma Namubiru,31/03/1964,F,"Plot 48, Zone C, Mityana",0784 360979,Patrick Muhindo (Guardian) 0773 668290,Alive
+607,Patience Ojok,1932-12-04,f,"Plot 175, Zone A, Mbale",,Rebecca Lubega (Guardian) 0766 456198,Alive
+608,Ruth Ssali,05/09/2003,Female,"Plot 71, Zone F, Kabale",0710 184868,Simon Kato (Son) 0718 558800,Alive
+609,Ibrahim Turyasingura,14/04/2024,M,"Plot 175, Zone H, Hoima",,Ruth Lamwaka (Mother) 0711 371149,A
+610,Prossy Nalubega,27/08/1987,F,"Plot 139, Zone G, Mbarara",0724 278029,Sylvia Mugisha (Mother) 0711 450209,Alive
+611,Esther Ssempala,1932-04-03,F,"Plot 190, Zone D, Entebbe",0705-962-253,John Tumusiime (Brother) 0710 015433,Alive
+612,Rose Opio,31/07/2025,-,"Plot 59, Zone H, Kabale",,Harriet Masika (Mother) 0714 510895,Alive
+613,Godfrey Amongi,3 Nov 1974,M,"Plot 110, Zone B, Lira",0776 068816,Fatuma Asiimwe (Mother) 0767 082344, Alive
+614,Mercy Kule,16/09/1976,F,"Plot 118, Zone E, Lira",0705 515911,Sylvia Arinaitwe (Daughter) 0709 622637,A
+615,Grace Bukenya,16/06/1966,F,"Plot 3, Zone H, Mbarara",0743 823503,Ivan Arinaitwe (Spouse) 0764 763541,Alive
+616,Grace Okot,08/05/2011,F,"Plot 165, Zone H, Hoima",0728 153928,Betty Kansiime (Mother) 0728-344-337,Alive
+422,Doreen Fatuma Kemigisha,25 Apr 1995,F,"Plot 10, Zone H, Mbarara",0701 492287,Ruth Ariong (Daughter) 0727 646329,Alive
+617,Florence Auma,31/06/2003,F,-,0787 179971,Harriet Oryem (Guardian) 0780 351619,Alive
+618,Ronald Amongi,05/08/2025,M,"Plot 91, Zone D, Entebbe",,N/A,Alive
+619,Martha Kemigisha,22/07/1971,F,"Plot 68, Zone H, Jinja",0758 260699,John Nankya (Uncle) 0756 992722,Alive
+620,Charles Kizza,08/11/2007,M,"Plot 166, Zone C, Soroti",0764 361160,Rose Kasozi (Mother) 0746 508739,Alive
+621,Simon Amongi,20/07/1942,M,"Plot 170, Zone A, Mityana",256776486829,Peter Kiggundu (Brother) 0789 131317,Alive
+622,Gloria Irene Mukasa,06/08/1948,F,"Plot 232, Zone B, Mukono",0713 571447,Musa Okello (Guardian) 0772 242125,Alive
+623,Doreen Ochieng,15/07/2009,F,"Plot 60, Zone C, Lira",0741240675,Winnie Bukenya (Mother) 0704 402060,
+624,Ronald Ssali,25 Feb 1945,M,"Plot 10, Zone B, Wakiso",0713 424406,Patience Babirye (Aunt) 0789 001930,Alive
+625,Richard Muhindo,22/01/1954,Male,"Plot 231, Zone G, Soroti",0755 907989,Lydia Kabugo (Daughter) 0716 459839,Alive
+626,Grace Babirye,11/05/1999,F,"Plot 170, Zone C, Arua",null,Aisha Achieng (Daughter) 0778 297381,Alive  
+627,Ibrahim Ainembabazi,7 Jul 1966,M,"Plot 180, Zone A, Luweero",0700525166,Lydia Mwesigwa (Mother) 0753 795551,Living
+628,Juliet Nsubuga,11/10/1932,N/A,"Plot 226, Zone E, Jinja",0716 586901,Sylvia Ssempala (Daughter) 0776 767211,Alive
+629,Simon Ouma,15/08/2010,M,"Plot 115, Zone G, Iganga",0753 495733,Irene Mwesigwa (Mother) 0742 583784,Alive
+630,Denis Masika,06/11/1936,M,"Plot 250, Zone C, Arua",0757303838,Martin Adong (Spouse) 0713 545441,Living
+631,Grace Lamwaka,01/04/1971,F,"Plot 242, Zone H, Hoima",0769 554546,Samuel Asiimwe (Uncle) 0759 043638,Alive
+632,Patience Opio,11/08/1962,F,"Plot 61, Zone E, Masaka",0781 118699,Ronald Otim (Uncle) 0752 994241,Alive
+633,Paul Joseph Nantongo,30/01/1993,M,"Plot 163, Zone B, Mityana",256701320385,Shamim Nalubega (Aunt) 0783 891201,Alive
+634,David Otim,6 Nov 1934,M,"Plot 101, Zone H, Lira",0762 607037,Mercy Kule (Sister) 0780 236267,A
+635,Robert Atwine,23/12/1953,M,"Plot 182, Zone B, Iganga",0741 960057,Paul Lubega (Son) 0781 283297,-
+636,Annet Akello,14/06/1997,F,"Plot 83, Zone D, Kabale",0754 423744,Rose Lubega (Spouse) 0728 357965,null
+637,Esther Turyasingura,03/10/1976,F,"Plot 126, Zone B, Arua",0723 822251,Collins Namubiru (Father) 0741 532648,Alive
+638,Rebecca Okot,09/07/2010,F,"Plot 134, Zone G, Entebbe",0763 387544,Winnie Ojok (Mother) 0727 513026,Alive
+639,Hassan Mukasa,15/06/1982,M,"Plot 224, Zone G, Arua",0720 140324,Shamim Lubega (Aunt) 0746 686224,Alive
+640,Juliet Ariong,18/09/2025,Female,"Plot 35, Zone A, Hoima",,Joan Achieng (Mother) 0706 657849,Alive
+641,Emmanuel Okot,16/05/2011,M,"Plot 109, Zone E, Fort Portal",0743 909164,Sylvia Ojok (Mother) 0703 923988,Alive
+642,Ibrahim Otim,26/01/1965,M,"Plot 9, Zone G, Arua",0711 868677,Ibrahim Kemigisha (Guardian) 256729629874,Alive
+643,Immaculate Atwine,01/07/1990,F,"Plot 80, Zone E, Arua",0704 028356,Esther Ainembabazi (Mother) 0720 288586,Deceased
+644,David Byamukama,27/11/1937,M,"Plot 182, Zone C, Hoima",0766 766550,Sylvia Opio (Aunt) 0775 602836,Alive
+645,Brian Nalubega,25/04/2000,M,"Plot 26, Zone C, Entebbe",0707 994836,Shamim Nantongo (Daughter) 0746 852046,Alive
+228,John Acen,7 Jun 2016,M,"Plot 202, Zone E, Masaka",,Juliet Akello (Mother) +256 787 972962,Alive
+646,Grace Ssempala,16/02/1943,F,"Plot 107, Zone F, Jinja",0757 286251,Collins Turyasingura (Uncle) 0707 673393,Alive
+647,Winnie Bukenya,16/07/1961,F,"Plot 186, Zone G, Soroti",0764 469532,Geoffrey Kansiime (Father) 0704 695918,Alive
+648,Moses Ouma,04/03/2023,M,"Plot 229, Zone F, Mbale",,Florence Ekwaru (Mother) 0781 494598,Alive
+649,Richard Joseph Byaruhanga,25/05/1997,M,null,0789-455-385,Martin Bukenya (Guardian) 0757 679925,A
+650,Immaculate Mugisha,05/09/1946,F,"Plot 82, Zone A, Luweero",0775 614274,Paul Ssekandi (Uncle) 0769 605324,Alive
+651,Mercy Opio,07/10/1947,F,"Plot 178, Zone G, Mbale",0785 231189,Andrew Namatovu (Father) 0785 227675,Alive
+652,Aisha Opio,21/10/2025,F,"Plot 157, Zone H, Mbarara",,Rebecca Odongo (Mother) 0713 995209,Alive
+653,Brenda Lamwaka,12/01/2012,F,"Plot 180, Zone A, Mityana",,Aisha Kato (Mother) 0743 405550,Alive
+654,Hassan Kyomuhendo,03/09/1998,Male,"Plot 241, Zone A, Hoima",0766 264179,Patrick Odongo (Uncle) 0702 895105,Alive
+655,Immaculate Lamwaka,19/03/2001,F,"Plot 39, Zone E, Fort Portal",0756092174,Samuel Ochieng (Son) 0719 578515,Alive
+656,Moses Nantongo,25/10/2025,M,"Plot 196, Zone F, Kampala",,Ruth Ainembabazi (Mother) 0748 734527,Alive
+657,Godfrey Ssekandi,22/06/1988,Male,"Plot 130, Zone F, Wakiso",0763 082714,Julius Lamwaka (Brother) 0782 994558,Alive
+658,Doreen Kule,04/05/1936,F,"Plot 41, Zone H, Entebbe",0768 334990,Immaculate Ochieng (Daughter) 0771 040266,Alive
+659,Collins Kule,28/05/1947,Male,"Plot 221, Zone E, Hoima",+256 789 398497,Ronald Nakato (Father) 0753 034039,Alive
+660,Ibrahim Kansiime,03/09/2016,M,"Plot 248, Zone H, Luweero",,Brenda Nakato (Mother) 0778 145180,Alive
+661,Doreen Bwambale,09/10/1963,Female,"Plot 63, Zone B, Wakiso",0715 003753,Martin Lamwaka (Brother) 0741 491103,Alive
+662,Rose Atwine,03/05/1965,F,"Plot 147, Zone B, Wakiso    ",0712 194151,Juliet Masika (Aunt) 0773 298854,Alive
+663,Ibrahim Nakato,25/11/1986,M,"Plot 98, Zone F, Mityana",0784 546825,Doreen Nalubega (Spouse) +256 705 250517,Living
+664,Florence Otim,19/04/1992,F,"Plot 201, Zone F, Masaka",0720 381572,,Alive
+665,Agnes Odongo,30/05/1961,F,"Plot 22, Zone D, Lira",0757 889175,Richard Nyakato (Spouse) 0757 801542,Alive
+666,Brenda Tugume,03/06/1946,F,"Plot 258, Zone D, Kabale",0777 271198,Henry Tugume (Father) 0781 092283,Alive
+667, Rose Byamukama,14/11/1990,F,"Plot 92, Zone G, Soroti",0755 628925,Sylvia Nabukeera (Mother) 0745 638518,Living
+668,Grace Nalubega,09/02/1970,F,"Plot 68, Zone F, Mukono",0767 199602,Moses Babirye (Uncle) 0789 949293,Alive
+669,Irene Ouma,1948-06-06,F," PLOT 154, ZONE E, MBALE  ",0784 241204,Moses Lubega (Father) 0707 061703,Alive
+670,Edward Kisakye,26 Jan 1959,M,"Plot 132, Zone A, Iganga",0727 229912,Joseph Akello (Son) 0784 759575,
+671,Joseph Kisakye,23/11/1996,M,"Plot 214, Zone H, Mbarara",0705 985622,Sarah Kasozi (Mother) 0748 010565,Alive
+672,Emmanuel Paul Ainembabazi,06/08/1987,M,"   Plot 86, Zone F, Gulu",0722 773380,Brian Amongi (Spouse) +256 786 237986,Alive
+673,Julius Byaruhanga,12/04/2001,M,"Plot 179, Zone H, Wakiso",0744 190498,Musa Byamukama (Father) 0758 596473,
+674,Musa Nantongo,25/09/1984,M,"Plot 243, Zone G, Hoima",0761 921141,Sylvia Mwesigwa (Daughter) 0709 418707,Alive
+675,Ibrahim Kabugo,25/09/1981,M,"Plot 89, Zone C, Mbarara",0708 801510,Josephine Nakato (Aunt) 256716962763,Alive
+676,Collins Namatovu,29/06/1940,M,"Plot 258, Zone A, Arua",0748 760591,Patrick Opio (Father) 0722 907851,Alive
+677,Esther Okello,17 Jan 1984, F,"Plot 171, Zone D, Gulu",0773 564895,Henry Odongo (Son) 0771 640268,Alive
+678,Musa Robert Tugume,28 Dec 1984,M,"Plot 88, Zone F, Wakiso",0784 651060,Ivan Auma (Spouse) 0707 547518,Alive
+679,Harriet Oryem,21/07/1994,F,"Plot 108, Zone G, Mbarara",0711 945451,Immaculate Ssali (Daughter) 0715 796151,Alive
+680,Joseph Amongi,10/11/1974,M,"Plot 217, Zone E, Mbale",0764 709971,Ronald Auma (Brother) 0721 133800,Alive

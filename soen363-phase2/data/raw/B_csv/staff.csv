@@ -1,0 +1,85 @@
+StaffID,Title,StaffName,Cadre,Department
+1,Ms,Fatuma Ekwaru,Enrolled Nurse,Nursing
+2,Mr,Geoffrey Ainembabazi,Enrolled Nurse,Nursing
+3,Dr,Sarah Kyomuhendo,Surgeon,Surgery
+4,Dr,Samuel Adong,Medical Officer,Internal Medicine
+5,Mr,Charles Byamukama,Radiographer,Radiology
+6,Sr,Harriet Ssempala,Nursing Officer,Nursing
+7,Dr,Fatuma Ssali,Medical Officer,Internal Medicine
+8,Mr,Joseph Lubega,Nursing Officer,Nursing
+9,Sr,Gloria Otim,Nursing Officer,Nursing
+10,Dr,Winnie Muhindo,Intern Doctor,Internal Medicine
+11,Mr,David Masika,Radiographer,Radiology
+12,Mr,Isaac Arinaitwe,Laboratory Technologist,Laboratory
+13,Ms,Florence Byamukama,Records Officer,MEDICAL RECORDS
+14,Mr,Richard Akello,Enrolled Nurse,Nursing
+15,Ms,Shamim Akello,Enrolled Nurse,Nursing
+16,Mr,David Ariong,Enrolled Nurse,Nursing
+17,Dr,Esther Kizza,Medical Officer,Paediatrics
+18,Dr,Samuel Kasozi,Medical Officer,Emergency Medicine
+19,Dr,Irene Nsubuga,Clinical Officer,Emergency Medicine
+20,Mr,Moses Nankya,Midwife,Maternity
+21,Dr,Julius Tugume,Consultant Surgeon,Surgery
+22,Dr,Emmanuel Nantongo,Clinical Officer,Emergency Medicine
+23,Mr,Joseph Muhindo,Enrolled Nurse,Nursing
+24,Mr,Ronald Odongo,Nursing Officer,Nursing
+25,Dr,Patience Turyasingura,Medical Officer,Emergency Medicine
+26,Ms,Prossy Muhindo,Laboratory Technologist,Laboratory
+27,Sr,Christine Akello,Enrolled Nurse,Nursing
+28,Dr,Christine Nankya,Intern Doctor,Internal Medicine
+29,Mr,Geoffrey Tumusiime,Nursing Officer,Nursing
+30,Ms,Fatuma Arinaitwe,Radiographer,Radiology
+31,Dr,Annet Nankya,Surgeon,Orthopaedics
+32,Mr,Patrick Kisakye,Laboratory Technologist,Laboratory
+33,Dr,Henry Mukasa,Radiologist,Radiology
+34,Mr,Collins Namatovu,Nursing Officer,Nursing
+35,Ms,Christine Kizza,Nursing Officer,Nursing
+36,Mr,Patrick Otim,Nursing Officer,Nursing
+29,Mr,Geoffrey Tumusiime,Nursing Officer,Nursing
+10,Dr,Winnie Muhindo,Intern Doctor,INTERNAL MEDICINE
+37,Mr,Hassan Nyakato,Nursing Officer,Nursing
+38,Dr,Martha Nakato,Intern Doctor,Emergency Medicine
+39,Dr,Ronald Kyomuhendo,Intern Doctor,Emergency Medicine
+40,Dr,Josephine Ariong,Medical Officer,Internal Medicine
+41,Dr,?,Radiologist,Radiology
+42,Dr,Hassan Byaruhanga,Medical Officer,Emergency Medicine
+43,Dr,Julius Lamwaka,Medical Officer,Internal Medicine 
+44,Dr,Fatuma Lamwaka,Consultant Physician,Cardiology
+45,Dr,Godfrey Kemigisha,Medical Officer,Emergency Medicine
+46,Dr,Rebecca Atwine,Medical Officer,Paediatrics
+47,Dr,Denis Ochieng,Clinical Officer,Outpatients
+48,Dr,Andrew Nankya,Consultant Physician,Cardiology
+49,Dr,David Nantongo,Surgeon,Orthopaedics
+50,Dr,Brenda Kisakye,Radiologist,Radiology
+51,Dr,Denis Ssempala,Medical Officer,internal medicine
+52,Sr,Josephine Tugume,Nursing Officer,Nursing
+53,Sr,Harriet Tumusiime,Enrolled Nurse,Nursing
+54,Ms,rebecca kyomuhendo,Radiographer,Radiology
+55,Sr,BRENDA asiimwe,Nursing Officer,Nursing
+56,Sr,Prossy Kizza,Midwife,Maternity
+57,Mr,Ronald Nakato,  Midwife,Maternity
+58,Ms,Joan Adong,Radiographer,Radiology
+59,Sr,Martha Acen,Nursing Officer,Nursing
+60,Dr,Martin Nakato,Medical Officer,Emergency Medicine
+61,Ms,Immaculate Nalubega,NURSING OFFICER,Nursing
+62,Mr,Fred Kule,RECORDS OFFICER,Medical Records
+63,Ms,Patience Tugume,Radiographer,Radiology
+64,Mr,Fred Nantongo,Enrolled Nurse,Nursing
+65,Dr,Ruth Lubega,Consultant Physician,Internal Medicine
+66,Dr,Joan Tumusiime,Consultant Physician,Internal Medicine
+67,Ms,Esther Bwambale,Nursing Officer,Nursing
+68,Mr,Musa  Ekwaru,N/A,Medical Records
+69,Dr,Geoffrey Auma,Clinical Officer,Outpatients
+70,Dr,Moses Ainembabazi,Clinical Officer,Outpatients
+71,Dr,Godfrey Okello,Surgeon,Surgery
+72,Mr,Brian Lamwaka,Midwife,Maternity
+73,Dr,Betty Ssekandi,Consultant Physician ,Cardiology
+74,Dr,Emmanuel Byamukama,Consultant Surgeon,Surgery
+75,Mr,Richard Kasozi,Laboratory Technologist,Laboratory
+76,Dr,Emmanuel Bukenya,Consultant Surgeon,Surgery
+77,Dr,Denis Kasozi,Medical Officer,Emergency Medicine
+78,Dr,Joan Namubiru,Medical Officer,Internal Medicine
+79,Mr,Ronald Bwambale,Enrolled Nurse,Nursing
+80,Dr,Godfrey Atwine,Consultant Physician,Internal Medicine
+81,Dr,Irene Nsubuga,Clinical Officer,Emergency Medicine
+82,Mr,David Ariong,Enrolled Nurse,Nursing

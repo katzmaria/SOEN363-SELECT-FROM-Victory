@@ -1,0 +1,877 @@
+AdmissionNo,PatientNo,AdmittingDoctorID,AdmitDateTime,AdmissionCategory,PresentingComplaint,ReferredFrom,PayerScheme,DischargeDateTime,AdmStatus
+1,1,69,02/01/2022 21:54,Urgent Care,Elevated BP at clinic,Self-referral,?,04/01/2022 21:52,Discharged
+2,2,19,08/01/2022 03:28,Emergency,Abdominal pain moving to the right side,Health Centre IV referral,Private Insurance (Plan A),14/01/2022 03:03,Discharged
+3,3,42,10/01/2022 22:50,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Private Insurance (Plan B),14/01/2022 12:11,Discharged
+4,4,40,12/01/2022 11:13,OPD,"Fatigue and weight gain, known hypothyroid",Self-referral,Government (free care),2022-01-12T18:59,Discharged
+5,5,42,13/01/2022 17:43,Urgent Care,Weakness and pallor,Self-referral,UNH Staff Scheme,14/01/2022 07:17,Discharged
+6,6,3,2022-01-29T08:45,Elective,"Exertional chest pain, planned angiography",OPD clinic,  Government (free care),30/01/2022 14:45,DISCH
+7,7,10,31/01/2022 14:26,Emergency,High fever with low blood pressure,Health Centre IV referral,Self-pay,08/02/2022 13:37,Discharged
+8,8,46,03/02/2022 06:58,Emergency,Dehydration after diarrhoea,SELF-REFERRAL,Employer Scheme,07/02/2022 02:31,DISCH
+9,9,45,06/02/2022 13:42,Urgent,Low haemoglobin on routine test,Health Centre IV referral,Private Insurance (Plan A),11/02/2022 03:15,Discharged
+10,10,42,10/02/2022 12:08,Emergency,Palpitations and dizziness,Private clinic referral,Employer Scheme,12/02/2022 09:42,Discharged
+11,11,44,11/02/2022 08:24,Urgent,Central chest discomfort,Self-referral,Employer Scheme,15/02/2022 09:47,Discharged
+12,12,48,11/02/2022 09:07,EMERG,Vomiting blood,Self-referral,Private Insurance (Plan B),19/02/2022 10:54,Discharged
+13,13,40,12/02/2022 08:33,Urgent,Acute asthma attack,Private clinic referral,Employer Scheme,16/02/2022 02:00,Discharged
+14,670,40,14/02/2022 07:40,Emergency,Acute  asthma attack,Ambulance,Self-pay,16/02/2022 02:04,Discharged
+15,14,46,14/02/2022 22:20,Urgent,SEVERE wheeze not relieved by INHALER,-,Private Insurance (Plan B),18/02/2022 15:58,DISCH
+16,15,73,15/02/2022 03:00,Emergency,Breathlessness after long bus journey,Self-referral,Self-pay,19/02/2022 22:13,Discharged
+17,16,65,15/02/2022 15:05,OPD,Headache with high blood pressure,Self-referral,Self-pay,15/02/2022 18:39,Discharged
+18,17,43,17/02/2022 08:38,OPD,"Diabetes review, high glucose readings",OPD clinic,Government (free care),17/02/2022 11:04,Discharged
+19,18,42,18/02/2022 03:47,Emergency Dept,"Fever, rigors and confusion",Ambulance,Government (free care),01/03/2022 18:26,Discharged
+20,19,44,2022-02-18T07:17,Emergency,"Hit head, brief loss of consciousness",  Health Centre IV referral,Self-pay,22/02/2022 06:47,DISCH
+21,20,10,20/02/2022 10:01,OPD,Smoking cessation review,OPD clinic,Employer Scheme,20/02/2022 14:53,Discharged
+22,21,80,21/02/2022 01:23,urgent,Lower abdominal pain and frequent urination,Health Centre IV referral,Self-pay,2022-02-21 18:18:00,Discharged
+23,22,43,22/02/2022 12:28,OPD,Low haemoglobin on routine test,OPD clinic,Government (free care),2022-02-22T18:06,Discharged
+24,23,19,22/02/2022 15:53,Emergency,Central chest discomfort,Private clinic referral,Self-pay,25/02/2022 21:23,Discharged
+25,24,80,24/02/2022 15:22,OPD,Heartburn and acid reflux,-,Government (free care),24/02/2022 18:45,Discharged
+26,25,78,26/02/2022 04:04,Urgent Care,Acute asthma attack,Health Centre III referral,UNH Staff Scheme,28/02/2022 00:01,Discharged
+27,26,43,26/02/2022 11:10,OPD,Lower abdominal pain and frequent urination,OPD clinic,Employer Scheme,26/02/2022 15:34,Discharged
+28,27,65,27/02/2022 21:26,Emergency,Severe central chest pain radiating to left arm,Private clinic referral,Self-pay,07/03/2022 20:56,Discharged
+29,28,38,28/02/2022 13:14,Emergency,Right upper abdominal pain and fever,Ambulance,Employer Scheme,-,Discharged
+30,29,78,28/02/2022 13:59,Emergency,Raised creatinine and vomiting,Private clinic referral,Self-pay ,09/03/2022 18:53,Discharged
+31,30,45,01/03/2022 16:30,Emergency,Vomiting blood,Self-referral,UNH Staff Scheme,05/03/2022 20:17,DISCH
+32,31,40,02/03/2022 15:55,Newborn,"Newborn feeding poorly, dehydrated",Born at UNH,Self-pay,04/03/2022 11:36,Discharged
+33,32,25,03/02/2022 04:09 PM,Urgent,Right upper abdominal pain and fever,Private clinic referral,Self-pay,07/03/2022 10:38,Discharged
+34,33,77,06/03/2022 08:00,Elective,"Diabetes review, high glucose readings",OPD clinic,Community Health Fund,09/03/2022 23:10,D/C
+35,34,10,09/03/2022 10:45,Elective,"CKD review, for fistula creation",Specialist clinic referral,Self-pay,14/03/2022 12:44,D/C
+36,35,66,12/03/2022 08:26,OPD,Heartburn and acid reflux,Self-referral,UNH Staff Scheme,12/03/2022 13:08,Discharged
+37,36,70,13/03/2022 06:39,Emergency,Respiratory distress,Self-referral,Community Health Fund,19/03/2022 14:22,Discharged
+38,37,3,13/03/2022 09:30,Elective,Heartburn and acid reflux,OPD clinic,Self-pay,17/03/2022 11:16,Discharged
+39,38,10,14/03/2022 00:52,Urgent,"Vomiting and diarrhoea, unable to keep fluids",Private clinic referral,null,03/17/2022 02:52 PM,Discharged
+40,39,70,14/03/2022 11:22,  Outpatient,"Diabetes review, high glucose readings",Self-referral,Self-pay,2022-03-14T13:38,Discharged
+41,40,49,17/03/2022 07:00,Elective,"Recurrent biliary colic, for cholecystectomy",OPD clinic,N/A,21/03/2022 00:56,Discharged
+42,42,71,19/03/2022 09:45,Planned,"Recurrent biliary colic, for cholecystectomy",Specialist clinic referral,Government (free care),23/03/2022 00:44,Discharged
+43,41,73,19/03/2022 18:07,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Community Health Fund,23/03/2022 17:43,Discharged
+44,43,65,19/03/2022 23:32,Emergency,Fainting episode,Police,Employer Scheme,20/03/2022 23:56,Discharged
+45,44,70,25/03/2022 09:02,OPD,Weakness and pallor,OPD clinic,Private Insurance (Plan A),25/03/2022 15:24,Discharged
+46,45,40,26/03/2022 11:05,OPD,Headache with high blood pressure,Self-referral,Self-pay,26/03/2022 17:56,Discharged
+47,23,19,27/03/2022 10:09,Emergency,Fainting episode,Health Centre IV referral,Self-pay,01/04/2022 01:12,Discharged
+48,46,60,28/03/2022 00:28,Emergency,Palpitations and dizziness,Self-referral,Self-pay,01/04/2022 03:32,Discharged
+49,47,3,29/03/2022 08:00,Elective,"Osteoarthritis of knee, planned surgery",null,Self-pay,03/04/2022 07:54,Discharged
+50,48,70,31/03/2022 21:46,Emergency,Raised creatinine and vomiting,Self-referral,Self-pay,12/04/2022 05:01,Discharged    
+51,49,40,04/01/2022 01:54 AM,Emergency,Raised creatinine and vomiting,Health Centre IV referral,Community Health Fund,07/04/2022 17:53,Discharged
+52,50,28,01/04/2022 14:24,OPD,Review of thyroid replacement,Self-referral,N/A,01/04/2022 16:31,Discharged
+53,51,38,03/04/2022 17:52,Emergency,Raised creatinine and vomiting,Ambulance,Self-pay,15/04/2022 16:57,Discharged
+54,52,39,04/04/2022 18:17,Urgent,Fainting episode,Health Centre III referral,Community Health Fund,07/04/2022 07:13,Discharged
+55,55,28,08/04/2022 08:00,Elective,"Recurrent biliary colic, for cholecystectomy",Specialist clinic referral,Government (free care),11/04/2022 09:11,Discharged
+56,53,39,04/08/2022 12:41 PM,OPD,Elevated BP at clinic,N/A,Government (free care),08/04/2022 18:20,Discharged
+57,54,39,08/04/2022 17:44,Emergency,Right upper abdominal pain and fever,Self-referral,Employer Scheme,11/04/2022 14:03,Discharged
+58,56,60,09/04/2022 15:24,OPD,Weakness and pallor,OPD clinic,Self-pay,09/04/2022 19:08,D/C
+59,57,42,13/04/2022 12:01,OPD,"Epigastric burning, planned endoscopy",opd clinic,Self-pay,13/04/2022 19:40,Discharged
+60,58,42,18/04/2022 03:05,Urgent,Headache with high blood pressure,Health Centre III referral,Self-pay,20/04/2022 14:27,Discharged
+61,59,46,18/04/2022 09:05,Emergency,Epigastric pain and vomiting,Health Centre IV referral,Community Health Fund,28/04/2022 10:45,Discharged
+62,44,42,20/04/2022 10:10,OPD,"Epigastric burning, planned endoscopy",Self-referral,Government (free care),20/04/2022 15:31,Discharged
+63,60,78,23/04/2022 09:24,Emergency,Right upper abdominal pain and fever,Health Centre IV referral,Employer Scheme,25/04/2022 12:24,Discharged
+64,61,74,03/05/2022 09:45,Elective,"Exertional chest pain, planned angiography",Specialist clinic referral,Community Health Fund,04/05/2022 23:27,Discharged
+65,28,48,13/05/2022 01:12,Urgent,Weakness and pallor,Health Centre III referral,Self-pay ,,Discharged
+66,62,22,13/05/2022 11:43,Urgent,Elevated BP at clinic,Health Centre III referral,Self-pay,14/05/2022 16:37,Discharged
+67,63,43,13/05/2022 15:58,Urgent,Collapsed at home,Health Centre III referral,,17/05/2022 17:13,Discharged
+68,64,60,13/05/2022 17:17,Urgent Care,"Chest pain, cause unclear",Health Centre III referral,Private Insurance (Plan B),16/05/2022 13:12,Discharged
+69,65,78,17/05/2022 13:47,Emergency,"Severe difficulty breathing, drowsy",Health Centre IV referral,null,27/05/2022 00:38,Discharged
+70,66,28,19/05/2022 10:30,Elective,"Diabetes review, high glucose readings",Specialist clinic referral,Self-pay,23/05/2022 22:02,Discharged
+71,68,71,20/05/2022 08:45,Elective,"Exertional chest pain, planned angiography",Specialist clinic referral,Self-pay,24/05/2022 21:16,Discharged
+72,67,25,20/05/2022 10:45,Elective,Poorly controlled blood sugar,Specialist clinic referral,GOVERNMENT (FREE CARE),22/05/2022 04:20,Discharged
+73,69,18,22/05/2022 21:58,Emergency,Epigastric pain and vomiting,Health Centre IV referral,Employer Scheme,25/05/2022 09:58,Discharged
+74,70,43,24/05/2022 13:39,Emergency,"Fall at home with hip pain, unable to walk",Self-referral,Government (free care),31/05/2022 20:19,Discharged
+75,71,70,25/05/2022 08:40,OPD,Lower abdominal pain and frequent urination,OPD clinic,Government (free care),25/05/2022 12:01,Discharged
+76,72,21,26/05/2022 09:00,Elective,"Gallstones, planned surgery",OPD clinic,Government (free care),31/05/2022 03:00,Discharged
+77,73,46,29/05/2022 03:40,Urgent,Palpitations and dizziness,Health Centre III referral,Government (free care),N/A,Discharged
+78,74,18,05/31/2022 10:15 AM,Elective,"Diabetes review, high glucose readings",OPD clinic,Employer Scheme,06/06/2022 08:19,Discharged
+79,75,73,01/06/2022 08:21,Emergency,"Breathlessness, COPD flare",Health Centre IV referral,Private Insurance (Plan A),06/06/2022 07:44,Discharged
+80,76,46,01/06/2022 14:07,Emergency,Severe upper abdominal pain radiating to back,Police,Government (free care),10/06/2022 19:43,Discharged
+81,11,4,01/06/2022 19:57,Emergency,Palpitations and dizziness,Health Centre IV referral,Private Insurance (Plan B),03/06/2022 03:31,Discharged
+82,77,25,02/06/2022 01:46,Emergency,Chest pain and sweating,Self-referral,UNH Staff Scheme,06/06/2022 04:03,Discharged
+83,78,46,04/06/2022 19:21,Emergency,Respiratory distress,null,Self-pay,13/06/2022 21:10,Died
+84,79,65,06/06/2022 06:36,Urgent,Painful urination and fever,Health Centre III referral,Self-pay,07/06/2022 12:42,Discharged
+85,80,77,06/07/2022 05:44 AM,Emergency,Vomiting blood,Self-referral,Private Insurance (Plan B),15/06/2022 17:39,Discharged
+86,81,43,08/06/2022 01:03,Emergency,Fainting episode,Health Centre IV referral,Self-pay,10/06/2022 18:13,Discharged
+87,83,18,08/06/2022 08:36,Emergency,Severe wheeze not relieved by inhaler,Ambulance,Self-pay,11/06/2022 07:15,Discharged
+88,82,69,08/06/2022 10:51,OPD,High cholesterol on screening,Self-referral,Community Health Fund,08/06/2022 15:33,Discharged
+89,84,46,06/08/2022 01:11 PM,Newborn,Newborn with fever and poor feeding,Born at UNH,Government (free care),10/06/2022 09:36,Died
+90,10,73,09/06/2022 08:58,Urgent,Severe pain under right ribs after meals,Health Centre III referral,Self-pay,2022-06-10T16:58,Discharged
+91,85,39,10/06/2022 06:51,Emergency,"Vomiting and diarrhoea, unable to keep fluids",Self-referral,Self-pay,0000-00-00,DISCH
+92,86,43,11/06/2022 11:55,emergency,Chest pain and sweating,Ambulance,Community Health Fund,22/06/2022 11:23,Discharged
+93,87,73,15/06/2022 14:50,OPD,Lower abdominal pain and frequent urination,Self-referral,UNH Staff Scheme,15/06/2022 19:47,Discharged
+94,88,39,16/06/2022 10:11,URG,Central chest discomfort,Self-referral,Private Insurance (Plan B),17/06/2022 09:23,D/C
+95,89,47,16/06/2022 19:15,Emergency,Head injury after road traffic accident,Self-referral,Employer Scheme,20/06/2022 12:35,Discharged
+96,90,80,21/06/2022 07:01,Emergency,Chest pain and sweating,Self-referral,null,03/07/2022 05:49,Discharged
+97,91,65,23/06/2022 11:19,Urgent,Raised creatinine and vomiting,Private clinic referral,?,25/06/2022 16:49,DISCH
+98,3,65,25/06/2022 07:52,Emergency,High fever with low blood pressure,Private clinic referral,Private Insurance (Plan B),01/07/2022 13:30,Discharged
+99,92,65,25/06/2022 14:38,OPD,LOWER ABDOMINAL PAIN AND FREQUENT URINATION,OPD clinic,Self-pay,25/06/2022 22:18,Discharged
+100,93,60,26/06/2022 18:43,Emergency,Raised creatinine and vomiting,Health Centre IV referral,Government (free care),07/07/2022 11:53,Discharged
+85,80,77,06/07/2022 05:44 AM,Emergency,Vomiting blood,Self-referral,Private Insurance (Plan B),15/06/2022 17:39,Discharged
+101,95,78,30/06/2022 08:15,Elective,"Diabetes review, high glucose readings",Specialist clinic referral,UNH Staff Scheme,05/07/2022 06:58,Discharged
+102,94,4,30/06/2022 16:44,Emergency,High fever with low blood pressure,N/A,Self-pay,06/07/2022 14:26,Discharged
+103,96,69,01/07/2022 12:56,OPD,"Fatigue and weight gain, known hypothyroid",OPD clinic,-,01/07/2022 18:42,Discharged
+104,97,44,01/07/2022 18:12,Newborn,Newborn pallor,Born at UNH  ,Government (free care),03/07/2022 06:41,Discharged
+105,99,39,02/07/2022 02:08,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Private Insurance (Plan B),05/07/2022 08:57,Discharged
+106,98,74,02/07/2022 09:30,Elective,"Recurrent biliary colic, for cholecystectomy",OPD clinic,Self-pay,07/07/2022 19:34,discharged
+107,100,10,03/07/2022 17:07,Urgent,"Cough, fever and difficulty breathing",Self-referral,Private Insurance (Plan A),07/07/2022 13:02,Discharged
+108,102,71,05/07/2022 07:00,ELECTIVE,Worsening kidney function,OPD clinic,Self-pay,06/07/2022 22:10,Discharged
+109,101,78,05/07/2022 10:18,Emergency,Fainting episode,Private clinic referral,Private Insurance (Plan A),07/07/2022 18:47,Discharged
+110,103,39,06/07/2022 09:45,OPD,"Epigastric burning, planned endoscopy",Self-referral,Government (free care),06/07/2022 15:34,Discharged
+111,104,40,06/07/2022 16:56,Emergency,"Cough, fever and difficulty breathing",Self-referral,Self-pay,2022-07-11 09:45:00,Discharged
+112,105,40,09/07/2022 07:32, EMERGENCY  ,Head injury after road traffic accident,Self-referral,Self-pay,07/13/2022 07:54 PM,Discharged
+113,106,70,09/07/2022 11:33,Urgent,Right upper abdominal pain and fever,Health Centre III referral,Private Insurance (Plan B),11/07/2022 08:36,Discharged
+114,107,60,11/07/2022 04:49,Emergency,Dehydration after diarrhoea,Private clinic referral,UNH Staff Scheme,13/07/2022 14:19,Discharged
+115,108,46,15/07/2022 17:53,Emergency,Head injury after road traffic accident,Self-referral,Self-pay,N/A,Discharged
+116,109,60,16/07/2022 18:02,Emergency,"Cough, fever and difficulty breathing",Health Centre IV referral,UNH Staff Scheme,2022-07-18T06:51,Discharged
+117,110,22,21/07/2022 19:23,Emergency,Fainting episode,Self-referral,Community Health Fund,26/07/2022 03:42,Discharged
+118,111,73,22/07/2022 19:53,Emergency,Sudden shortness of breath and chest pain,Private clinic referral,Private Insurance (Plan A),25/07/2022 18:43,discharged
+119,112,44,28/07/2022 09:13,OPD,Poorly controlled blood sugar,Self-referral,Government (free care),-,Discharged
+120,113,17,28/07/2022 19:37,Emergency,"Fever, rigors and confusion",Health Centre IV referral,Private Insurance (Plan A),01/08/2022 14:02,Discharged
+121,114,73,31/07/2022 20:01,newborn,Newborn pallor,Born at UNH,Employer Scheme,,Discharged
+122,115,19,05/08/2022 05:11,Emergency,Acute asthma attack,Private clinic referral,Government (free care),07/08/2022 07:15,Discharged
+123,116,43,06/08/2022 00:07,Emergency,"Worsening shortness of breath, cannot lie flat",Health Centre IV referral,Government (free care),08/08/2022 12:07,Discharged
+124,117,69,08/06/2022 08:30 AM,Elective,"CKD review, for fistula creation",Specialist clinic referral,Government (free care),08/08/2022 10:02,Discharged
+125,97,40,07/08/2022 09:58,Urgent,Right upper abdominal pain and fever,Private clinic referral,Government (free care),10/08/2022 05:21,Discharged
+126,118,19,08/08/2022 09:01,Emergency,High fever with low blood pressure,Self-referral,Community Health Fund,17/08/2022 01:27,Died
+127,119,19,09/08/2022 02:44,Urgent,Severe wheeze not relieved by inhaler,Self-referral,Self-pay,10/08/2022 10:45,Discharged
+128,12,73,09/08/2022 11:59,OPD,Review of thyroid replacement,Self-referral,,09/08/2022 19:27,Discharged
+129,32,77,11-08-2022 03:10,Urgent,Productive cough and chest pain,Health Centre IV referral,UNH Staff Scheme,N/A,Discharged
+130,56,4,12/08/2022 02:33,Emergency,Raised creatinine and vomiting,Self-referral,UNH Staff Scheme,14/08/2022 04:34,Discharged
+131,120,39,12/08/2022 13:10,Urgent,Palpitations and dizziness,Private clinic referral,Private Insurance (Plan B),,Discharged
+132,5,19,18/08/2022 14:04,OPD,Poorly controlled blood sugar,Self-referral,Self-pay,18/08/2022 16:11,Discharged
+133,96,77,19/08/2022 18:04,Emergency,Epigastric pain and vomiting,Ambulance,UNH Staff Scheme,27/08/2022 21:15,Discharged
+134,121,45,19/08/2022 19:25,Emergency,Seizure at home,Private clinic referral,Government (free care),08/29/2022 04:34 AM, Discharged
+135,122,10,2022-08-20 13:57:00,Newborn,"Newborn feeding poorly, dehydrated",Born at UNH,Self-pay,22/08/2022 06:05,Discharged
+136,123,60,20/08/2022 19:20,Emergency,"Cough, fever and difficulty breathing",Self-referral,Government (free care),22/08/2022 05:38,Discharged
+137,124,39,26/08/2022 12:07,OPD,Heartburn and acid reflux,,Community Health Fund,08/26/2022 04:03 PM,Discharged
+138,125,48,27/08/2022 09:30,Elective,Poorly controlled blood sugar,Specialist clinic referral,Private Insurance (Plan B),01/09/2022 22:14,Discharged
+139,126,46,28/08/2022 00:22,Emergency,Sudden shortness of breath and chest pain,Self-referral,Self-pay,05/09/2022 01:28,Discharged
+140,129,28,04/09/2022 08:06,OPD,Heartburn and acid reflux,OPD clinic,Self-pay,04/09/2022 11:50,Discharged
+141,127,38,04/09/2022 13:45,OPD,Lower abdominal pain and frequent urination,Self-referral,Self-pay,04/09/2022 17:01,discharged
+142,128,69,04/09/2022 13:50,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,07/09/2022 15:44,Discharged
+143,130,66,08/09/2022 01:56,Emergency,Severe pain under right ribs after meals,Self-referral,Private Insurance (Plan B),10/09/2022 02:31,Discharged
+144,131,25,09/09/2022 17:52,Emergency,Breathlessness after long bus journey,Police,Self-pay,13/09/2022 23:14,Died
+145,132,22,10/09/2022 07:59,Emergency,Right lower abdominal pain and vomiting,Self-referral,UNH Staff Scheme,14/09/2022 14:51,Discharged
+146,133,42,10/09/2022 16:09,Emergency,Palpitations and dizziness,Police,UNH Staff Scheme,15/09/2022 00:05,Discharged
+147,77,70,11/09/2022 08:52,Urgent,"Vomiting and diarrhoea, unable to keep fluids",Private clinic referral,Self-pay,-,Discharged
+148,134,43,11/09/2022 10:41,Urgent,Productive cough and chest pain,?,Community Health Fund,16/09/2022 03:31,Discharged
+149,135,28,11/09/2022 10:51,OPD,Tobacco use counselling,Self-referral,Government (free care),11/09/2022 14:52,Discharged
+150,136,44,12/09/2022 12:29,Urgent,Severe pain under right ribs after meals,Self-referral,Employer Scheme,N/A,Discharged
+151,137,65,14/09/2022 22:29,Emergency,Vomiting blood,Police,UNH Staff Scheme,23/09/2022 15:23,Died
+152,138,42,20/09/2022 21:17,Emergency,Black tarry stools and dizziness,N/A,Community Health Fund,02/10/2022 17:19,Discharged
+153,139,65,27/09/2022 03:29,Emergency,Severe wheeze not relieved by inhaler,Private clinic referral,Private Insurance (Plan A),28/09/2022 19:58,Discharged    
+154,140,28,29/09/2022 19:04,Emergency,Central chest discomfort,Self-referral,Private Insurance (Plan A),02/10/2022 11:14,Discharged
+155,141,74,30/09/2022 08:00,Elective,"Recurrent biliary colic, for cholecystectomy",OPD clinic,UNH Staff Scheme,03/10/2022 03:53,Discharged
+156,142,80,02/10/2022 08:00,Emergency,Irregular heartbeat,Ambulance,Self-pay,04/10/2022 20:23,Discharged
+157,143,60,03/10/2022 13:20,OPD,"Epigastric burning, planned endoscopy",OPD clinic,Self-pay,03/10/2022 17:05,Discharged
+158,144,38,2022-10-07 05:49:00,Urgent,Headache with high blood pressure,Self-referral,Self-pay,11/10/2022 05:41,Discharged
+159,145,19,07/10/2022 09:42,Urgent,Collapsed at home,Self-referral,Self-pay,11/10/2022 15:16,Discharged
+160,146,78,08/10/2022 08:46,Emergency,Raised creatinine and vomiting,Police,Employer Scheme,10/10/2022 12:19 PM,Discharged
+161,147,28,09/10/2022 07:15,Elective,"Epigastric burning, planned endoscopy",OPD clinic,Self-pay,12/10/2022 01:11,Discharged
+162,148,71,10/10/2022 09:45,Elective,Known CAD for elective angiogram,Specialist clinic referral,Self-pay,16/10/2022 01:50,Discharged
+163,149,65,10/10/2022 12:59,Newborn,Newborn with fever and poor feeding,Born at UNH,Private Insurance (Plan B),null,Discharged
+164,150,43,12/10/2022 08:51,OPD,Weakness and pallor,Self-referral,Private Insurance (Plan A),12/10/2022 13:37,Discharged
+165,122,69,17/10/2022 01:13,Emergency,"Hit head, brief loss of consciousness",Ambulance,Self-pay,18/10/2022 17:11,Discharged
+166,151,4,20/10/2022 11:12,Newborn,"Newborn feeding poorly, dehydrated",Born at UNH,Self-pay,22/10/2022 22:06,Discharged
+167,152,28,24/10/2022 13:56,Emergency,High fever with low blood pressure,Private clinic referral,Employer Scheme,02/11/2022 17:45,Died
+168,153,73,25/10/2022 10:26,Urgent,Severe pain under right ribs after meals,Self-referral,UNH Staff Scheme,27/10/2022 10:00,Discharged
+169,125,4,31/10/2022 08:30,Elective,"Chronic knee pain, for knee replacement",OPD clinic,UNH Staff Scheme,05/11/2022 21:27,Discharged
+170,154,28,31/10/2022 19:29,Emergency,"Cough, fever and difficulty breathing",Private clinic referral,Self-pay,2022-11-05 12:40:00,Discharged
+171,155,21,01/11/2022 10:00,Elective,"Recurrent biliary colic, for cholecystectomy",Specialist clinic referral,Community Health Fund,05/11/2022 06:16,Discharged
+172,156,45,03/11/2022 18:09,Transfer In,Low haemoglobin on routine test,-,Self-pay,04/11/2022 06:49,Discharged
+173,157,43,04/11/2022 14:46,OPD,High cholesterol on screening,OPD clinic,Private Insurance (Plan B),04/11/2022 21:01,Discharged
+174,158,44,05/11/2022 07:15,Elective,Heartburn and acid reflux,Specialist clinic referral,Self-pay,07/11/2022 08:10,Discharged
+175,159,38,06/11/2022 21:27,Newborn,Newborn with fast breathing,Born at UNH,Private Insurance (Plan A),09/11/2022 20:19,Discharged
+176,160,39,12/11/2022 09:05,OPD,"Fatigue and weight gain, known hypothyroid",Self-referral,Private Insurance (Plan B),null,Discharged
+177,161,71,12/11/2022 09:30,Elective,"Exertional chest pain, planned angiography",Specialist clinic referral,Self-pay,17/11/2022 13:01,Discharged
+178,162,73,15/11/2022 14:49,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Employer Scheme,17/11/2022 03:45,Discharged
+179,163,38,16/11/2022 14:28,Emergency,"Fever, rigors and confusion",Ambulance,Self-pay,26/11/2022 22:29,Discharged
+180,164,46,20/11/2022 11:41,Emergency,Collapsed at home,Self-referral,-,24/11/2022 11:28,Discharged
+181,165,44,20/11/2022 21:37,Urgent,Fainting episode,Health Centre III referral,Self-pay,25/11/2022 13:06,Discharged
+182,166,73,11/24/2022 08:39 PM,Emergency,Convulsions,Ambulance,Community Health Fund,27/11/2022 02:23,Discharged
+183,167,19,27/11/2022 21:40,Urgent,"Cough, fever and difficulty breathing",Health   Centre III referral,Self-pay,28/11/2022 14:12,Discharged
+184,168,28,29/11/2022 14:41,Emergency,Abdominal pain moving to the right side,Self-referral,Employer Scheme,02/12/2022 14:03,Discharged
+185,169,40,01/12/2022 10:00,Elective,"Gallstones, planned surgery",Specialist clinic referral,Self-pay,04/12/2022 14:38,Discharged
+186,170,3,02/12/2022 09:45,Elective,Worsening kidney function,OPD clinic,Private Insurance (Plan A),08/12/2022 04:51,Discharged
+187,29,78,05/12/2022 05:41,Emergency,Head injury after road traffic accident,Ambulance,Government (free care),2022-12-10 02:09:00,Discharged
+188,171,65,07/12/2022 04:30,Emergency,Sudden weakness of right side and slurred speech,Self-referral,Government (free care),2022-12-12 02:25:00,Discharged
+189,172,4,09/12/2022 11:43,Emergency,"Worsening shortness of breath, cannot lie flat",-,Self-pay,14/12/2022 10:12,Discharged
+190,173,3,10/12/2022 09:15,elective,"Chronic knee pain, for knee replacement",-,Self-pay,13/12/2022 06:41,Discharged
+191,174,22,11/12/2022 11:48,Emergency,"Chest pain, cause unclear",Self-referral    ,Self-pay,13/12/2022 03:39,Discharged
+192,175,38,12/12/2022 03:31,Emergency,Right upper abdominal pain and fever,Police,Self-pay,14/12/2022 06:43,Discharged
+193,176,69,13/12/2022 07:45,Planned,"Exertional chest pain, planned angiography",Specialist clinic referral,Self-pay,17/12/2022 04:33,Discharged
+194,177,38,15/12/2022 02:55,Emergency,Chest pain and sweating,Private clinic referral,Self-pay,25/12/2022 23:37,Discharged
+195,178,66,15/12/2022 07:45,Elective,"Gallstones, planned surgery",Specialist clinic referral,Employer Scheme,16/12/2022 12:48,Discharged
+196,179,70,16/12/2022 09:12,OPD,Heartburn and acid reflux,-,Self-pay,16/12/2022 12:58,Discharged
+197,180,42,23/12/2022 22:14,Newborn,"Newborn feeding poorly, dehydrated",Born at UNH,UNH Staff Scheme,26/12/2022 10:31,Discharged
+198,181,3,24/12/2022 08:00,Elective,"CKD review, for fistula creation",Specialist clinic referral,Employer Scheme,N/A,Discharged
+199,182,43,24/12/2022 13:12,Urgent,Weakness and pallor,Health Centre III referral,Community Health Fund,25/12/2022 15:44,Discharged
+200,183,4,28/12/2022 01:30,Urgent,Fainting episode,Private clinic referral,Employer Scheme,31/12/2022 21:45,Discharged
+201,680,60,29/12/2022 15:54,OPD,Elevated BP at clinic,Self-referral,-,29/12/2022 23:48,Discharged
+202,184,28,04/01/2023 08:48,Newborn,Newborn pallor,Born at UNH,Self-pay,07/01/2023 00:03,Discharged
+203,3,44,04/01/2023 19:37,Emergency,Convulsions,Health Centre IV referral,Self-pay,11/01/2023 04:39,Discharged
+204,186,45,05/01/2023 06:31,Casualty,Right upper abdominal pain and fever,Police,Private Insurance (Plan A),09/01/2023 19:32,Discharged
+205,187,10,05/01/2023 12:10,OPD,Lower abdominal pain and frequent urination,OPD clinic,Community Health Fund,05/01/2023 14:22,Discharged
+206,185,18,05/01/2023 14:53,Day Case,"Fatigue and weight gain, known hypothyroid",Self-referral,Self-pay,05/01/2023 17:28,DISCH
+207,188,31,06/01/2023 07:30,Elective,"Gallstones, planned surgery",Specialist clinic referral,null,07/01/2023 23:06,Discharged
+208,45,78,06/01/2023 23:58,Urgent,Headache with high blood pressure,Self-referral,Government (free care),09/01/2023 23:52,Discharged
+209,151,80,07/01/2023 20:51,Urgent,Severe wheeze not relieved by inhaler,Private clinic referral,Self-pay,10/01/2023 12:51,Discharged
+210,110,40,11/01/2023 20:13,EMERGENCY,"Fever, rigors and confusion",Ambulance,Self-pay,14/01/2023 14:58,Discharged
+211,189,40,14/01/2023 00:57,Emergency,Palpitations and dizziness,Ambulance,Government (free care),16/01/2023 12:57,Discharged
+212,190,17,15/01/2023 05:20,Urgent,Reduced urine output and swelling,Health Centre III referral,Government (free care),15/01/2023 20:23,Discharged
+213,147,10,15/01/2023 09:30,Elective,"Diabetes review, high glucose readings",Specialist clinic referral,Self-pay,17/01/2023 17:17,Discharged
+214,191,39,19/01/2023 06:42,Emergency,"Fall at home with hip pain, unable to walk",Self-referral,UNH Staff Scheme,22/01/2023 15:17,Discharged
+215,192,10,19/01/2023 13:10,Emergency,Convulsions,Ambulance,Government (free care),23/01/2023 14:59,Discharged
+216,193,46,20/01/2023 08:14,Emergency,Severe pain under right ribs after meals,Self-referral,Government (free care),25/01/2023 00:01,Discharged
+217,73,60,21/01/2023 00:44,  Emergency,Palpitations and dizziness,Self-referral,Self-pay,23/01/2023 12:44,Discharged
+218,194,73,21/01/2023 18:19,Urgent,Weakness and pallor,Health Centre IV referral,,26/01/2023 13:20,Discharged
+219,111,43,22/01/2023 08:00,Elective,Worsening kidney function,Specialist clinic referral,Private Insurance (Plan A),24/01/2023 03:42,Discharged
+220,41,77,22/01/2023 23:23,Emergency,Black tarry stools and dizziness,Self-referral,Self-pay,03/02/2023 07:46,Discharged
+221,116,73,23/01/2023 16:20,Emergency,Fainting episode,Self-referral,Private Insurance (Plan B),26/01/2023 01:19,Discharged
+222,195,39,25/01/2023 00:07,Emergency,Reduced urine output and swelling,Self-referral,Community Health Fund,31/01/2023 03:07,Discharged
+223,196,78,25/01/2023 18:26,Emergency,Breathlessness after long bus journey,Police,Self-pay,28/01/2023 03:28,Discharged
+224,197,22,27/01/2023 01:58,Emergency,Reduced urine output and swelling,Self-referral,Government (free care),02/02/2023 18:16,Discharged
+225,198,49,27/01/2023 08:30,Elective,Known CAD for elective angiogram,Specialist clinic referral,Self-pay,28/01/2023 14:30,DISCH
+226,199,43,31/01/2023 01:59,Emergency,Reduced urine output and swelling,Police,Self-pay,06/02/2023 03:45,Discharged
+227,200,46,02/02/2023 20:54,Emergency,Right upper abdominal pain and fever,Health Centre IV referral,Employer Scheme,04/02/2023 11:10,Discharged
+228,130,22,04/02/2023 13:02,OPD,Review of thyroid replacement,OPD clinic,Community Health Fund,02/04/2023 07:18 PM,Discharged
+229,201,28,07/02/2023 10:33,Emergency,Raised creatinine and vomiting,Self-referral,Self-pay,11/02/2023 08:48,Discharged
+230,202,46,09/02/2023 03:09,Emergency,Dehydration after diarrhoea,Private clinic referral,Self-pay,12/02/2023 06:40,Discharged
+231,203,38,10/02/2023 02:09,Emergency,Fever and lethargy for 3 days,Police,Government (free care),21/02/2023 04:40,Died
+232,204,60,10/02/2023 19:24,Emergency,Convulsions,Private clinic referral,Community Health Fund,15/02/2023 13:26,Discharged
+233,205,80,13/02/2023 05:40,Emergency,Right upper abdominal pain and fever,,Self-pay,14/02/2023 22:51,Discharged
+234,206,43,14/02/2023 09:57,Emergency,"Cough, fever and difficulty breathing",Self-referral,Community Health Fund,18/02/2023 19:03,Discharged
+235,207,25,18/02/2023 10:08,OPD,Lower abdominal pain and frequent urination,Self-referral,Community Health Fund,18/02/2023 14:36,Discharged
+236,208,43,21/02/2023 03:15,Emergency,Breathlessness and leg swelling,Self-referral,Self-pay,04/03/2023 01:41,Discharged
+237,209,65,23/02/2023 16:27,Emergency,Respiratory distress,Ambulance,Community Health Fund,02/03/2023 10:40,DISCH
+238,210,65,26/02/2023 11:53,Emergency,Severe wheeze not relieved by inhaler,Self-referral,Government (free care),28/02/2023 01:36,  Discharged
+239,211,73,27/02/2023 06:05,Emergency,Severe pain under right ribs after meals,Health Centre IV referral,Self-pay,02/03/2023 23:50,Discharged
+240,212,28,27/02/2023 08:48,Emergency,"Vomiting and diarrhoea, unable to keep fluids",Private clinic referral,Self-pay,01/03/2023 19:13,Discharged
+241,201,51,04/03/2023 12:48,Emergency,"Vomiting and diarrhoea, unable to keep fluids",Police,Government (free care),08/03/2023 07:40,Discharged
+242,213,77,05/03/2023 11:46,Urgent Care,Elevated BP at clinic,Self-referral,Employer Scheme,07/03/2023 09:59,Discharged
+243,12,77,07/03/2023 08:31,Emergency,Irregular heartbeat,Self-referral,Employer Scheme,11/03/2023 16:29,Discharged
+244,214,28,07/03/2023 13:43,Emergency,Severe pain under right ribs after meals,Health Centre IV referral,Private Insurance (Plan A),08/03/2023 17:40,Discharged
+245,215,28,07/03/2023 21:20,Emergency,Fainting episode,Police,Employer Scheme,12/03/2023 09:40,Discharged
+246,216,10,11/03/2023 10:45,Booked,Poorly controlled blood sugar,Specialist clinic referral,Self-pay,15/03/2023 02:08,Discharged
+247,217,46,11/03/2023 14:29,Emergency,Seizure at home,Health Centre IV referral,Government (free care),17/03/2023 09:48,Discharged
+248,218,48,11/03/2023 21:31,Emergency,Reduced urine output and swelling,Health Centre IV referral,Private Insurance (Plan A),19/03/2023 18:06,Discharged
+249,157,71,12/03/2023 08:00,Elective,"CKD review, for fistula creation",Specialist clinic referral,UNH Staff Scheme,15/03/2023 23:25,Discharged
+250,219,21,15/03/2023 08:15,Booked,"Gallstones, planned surgery",OPD clinic,Self-pay,17/03/2023 17:57,Discharged
+251,96,7,16/03/2023 03:29,Urgent,Dehydration after diarrhoea,Private clinic referral,Self-pay,19/03/2023 01:56,Discharged
+252,220,4,18/03/2023 07:18,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Government (free care),22/03/2023 00:06,Discharged
+253,673,21,21/03/2023 08:45,Elective,"Epigastric burning, planned endoscopy",OPD clinic,Self-pay,27/03/2023 04:09,Discharged
+254,221,74,21/03/2023 09:00,Elective,"Gallstones, planned surgery",OPD clinic,Self-pay,24/03/2023 19:47,Discharged
+255,222,46,29/11/1992 11:16,Urgent,Central chest discomfort,Health Centre IV referral,Employer Scheme,23/03/2023 16:20,Discharged
+256,85,81,25/03/2023 23:39,Urgent,Collapsed at home,Health Centre IV referral,Government (free care),29/03/2023 06:50,discharged
+257,223,65,27/03/2023 07:12,emergency,Breathlessness and leg swelling,Ambulance,Government (free care),31/03/2023 12:50,Discharged
+258,224,60,28/03/2023 19:39,Emergency,"Vomiting and diarrhoea, unable to keep fluids",Self-referral,Employer Scheme,01/04/2023 08:36,Discharged
+259,225,60,01/04/2023 09:15,Elective,"Diabetes review, high glucose readings",Specialist clinic referral,Employer Scheme,04/04/2023 08:50,discharged
+260,132,77,03/04/2023 19:59,Emergency,"Vomiting and diarrhoea, unable to keep fluids",Ambulance,Private Insurance (Plan A),08/04/2023 19:18,Discharged
+261,226,7,05/04/2023 01:49,Emergency,Productive cough and chest pain,Self-referral,Community Health Fund,08/04/2023 11:44,Discharged
+262,227,7,05/04/2023 10:00,Elective,"Gallstones, planned surgery",OPD clinic,Community Health Fund,07/04/2023 04:25,Discharged
+263,24,77,06/04/2023 08:40,OPD,Painful urination and fever,Self-referral,UNH Staff Scheme,06/04/2023 11:50,Discharged
+264,10,3,06/04/2023 09:30,Elective,"Epigastric burning, planned endoscopy",Specialist clinic referral,Self-pay,09/04/2023 12:31,DISCH
+265,228,65,09/04/2023 16:56,Urgent,"Cough, fever and difficulty breathing",Health Centre IV referral,Government (free care),11/04/2023 11:34,Discharged
+266,229,65,2023-04-12 05:33:00,Emergency,Central chest discomfort,Police,Government (free care),-,Discharged
+267,230,80,12/04/2023 20:01,Emergency,Severe wheeze not relieved by inhaler,Self-referral,null,17/04/2023 02:35,Discharged
+268,189,25,12/04/2023 21:13,Emergency,"Hit head, brief loss of consciousness",Police,Self-pay,14/04/2023 18:07,Discharged
+269,231,44,14/04/2023 15:34,Emergency,Right lower abdominal pain and vomiting,Ambulance,Self-pay,23/04/2023 05:46,Discharged
+270,178,73,15/04/2023 09:37,Urgent Care,Central chest discomfort,Private clinic referral,Employer Scheme,19/04/2023 23:51,Discharged
+271,232,4,16/04/2023 00:58,Emergency,Respiratory distress,Private clinic referral,Private Insurance (Plan B),27/04/2023 04:58,Discharged
+272,233,78,16/04/2023 08:45,Planned,"Epigastric burning, planned endoscopy",OPD clinic,Government (free care),20/04/2023 11:12,Discharged
+273,151,80,17/04/2023 02:18,Emergency,Severe wheeze not relieved by inhaler,Health Centre IV referral,Self-pay,21/04/2023 09:34,Discharged
+274,234,44,17/04/2023 02:48,Emergency,"Vomiting and diarrhoea, unable to keep fluids",Ambulance,Self-pay,18-04-2023 09:15,Discharged
+275,236,46,24/04/2023 09:41,OPD,Hypertension review,OPD clinic,Employer Scheme,24/04/2023 12:51,Discharged
+276,235,22,24/04/2023 17:16,Emergency,Irregular heartbeat,Police,Employer Scheme,26/04/2023 21:49,Discharged
+277,237,40,26/04/2023 10:15,Elective,"CKD review, for fistula creation",OPD clinic,UNH Staff Scheme,28/04/2023 06:03,Discharged
+278,238,73,27-04-2023 10:23,Emergency,Productive cough and chest pain,Self-referral,Self-pay,01/05/2023 02:01,Discharged
+279,239,46,28/04/2023 09:00,Elective,"Epigastric burning, planned endoscopy",OPD clinic,Employer Scheme,29/04/2023 11:20,Discharged
+280,219,40,29/04/2023 07:05,Urgent,"Chest pain, cause unclear",Health Centre IV referral,Self-pay,2023-05-01T03:37,Discharged
+281,240,65,30/04/2023 07:45,Elective,Worsening kidney function,OPD clinic,Employer Scheme,04/05/2023 13:22,Discharged
+282,202,70,04/05/2023 09:07,Urgent,Productive cough and chest pain,Self-referral,Self-pay,06/05/2023 22:59,Discharged
+283,241,43,04/05/2023 11:29,OPD,Review of thyroid replacement,OPD clinic,Community Health Fund,04/05/2023 16:53,DISCH
+284,76,22,06/05/2023 08:22,Emergency,Collapsed at home,Health Centre IV referral,Government (free care),09/05/2023 15:00,Discharged
+285,242,44,08/05/2023 00:39,Emergency,Raised creatinine and vomiting,Private clinic referral,Employer Scheme,15/05/2023 04:17,D/C
+286,97,28,09/05/2023 01:16,Emergency,Seizure at home,Police,Government (free care),20/05/2023 08:28,Discharged
+287,243,80,10/05/2023 11:33,Urgent,"Cough, fever and difficulty breathing",Health Centre III referral,Self-pay,14/05/2023 19:21,Discharged
+288,196,70,14/05/2023 08:50,OPD,Review of thyroid replacement,OPD clinic,Government (free care),14/05/2023 15:44,Discharged
+289,244,44,15/05/2023 00:38,Emergency,Epigastric pain and vomiting,Police,Self-pay,17/05/2023 13:06,Discharged
+290,106,40,15/05/2023 10:45,Elective,"Exertional chest pain, planned angiography",Specialist clinic referral,Self-pay,17/05/2023 02:39,Discharged
+291,245,66,15/05/2023 16:19,Emergency,Collapsed at home,Private clinic referral,Self-pay,19/05/2023 23:55,Discharged
+292,246,40,18/05/2023 21:47,Emergency,Reduced urine output and swelling,Health Centre IV referral,Self-pay,30/05/2023 15:27,D/C
+293,247,78,2023-05-19 06:45:00,Urgent,LOW HAEMOGLOBIN ON ROUTINE TEST,null,Self-pay,23/05/2023 17:42,Discharged
+294,100,38,19/05/2023 10:45,Elective,Poorly controlled blood sugar,OPD clinic,Community Health Fund,20/05/2023 13:49,Discharged
+295,248,73,20/05/2023 14:18,Emergency,Fainting episode,Ambulance,Self-pay,21/05/2023 15:25,Discharged
+296,663,28,21/05/2023 08:15,Planned,"CKD review, for fistula creation",OPD clinic,Government (free care),26/05/2023 09:24,Discharged
+297,117,22,21/05/2023 22:39,Urgent,"Cough, fever and difficulty breathing",  Self-referral,Self-pay,-,Discharged
+209,151,80,07/01/2023 20:51,URGENT,Severe wheeze not relieved by inhaler,Private clinic referral,Self-pay,10/01/2023 12:51,Discharged
+298,249,39,22/05/2023 17:31,Emergency,Seizure at home,Self-referral,Private Insurance (Plan B),02/06/2023 17:41,Discharged
+299,250,48,26/05/2023 12:44,Day Case,"Fatigue and weight gain, known hypothyroid",OPD clinic,Private Insurance (Plan B),26/05/2023 19:50,Discharged
+300,144,42,27/05/2023 10:45,Elective,"Epigastric burning, planned endoscopy",OPD clinic,null,2023-05-29T22:48,Discharged
+301,101,60,29/05/2023 16:58,Emergency,Seizure at home,Health Centre IV referral,UNH Staff Scheme,08/06/2023 19:34,Discharged
+302,251,76,31/05/2023 08:15,Elective,"Epigastric burning, planned endoscopy",Specialist clinic referral,Government (free care),0000-00-00,Discharged
+303,252,28,03/06/2023 08:00,Emergency,"HIT HEAD, BRIEF LOSS OF CONSCIOUSNESS",Ambulance,Self-pay,07/06/2023 04:27,Discharged
+304,253,3,03/06/2023 10:30,Elective,"CKD review, for fistula creation",Specialist clinic referral,Self-pay,09/06/2023 03:40,Discharged
+305,254,39,06/06/2023 09:43,Urgent,Right upper abdominal pain and fever,SELF-REFERRAL,Self-pay,N/A,Discharged
+306,668,19,06/06/2023 18:54,Emergency,Seizure at home,Private clinic referral,Employer Scheme,16/06/2023 10:14,Discharged
+307,255,70,2023-06-07T03:02,Emergency,"Chest pain, cause unclear",Police    ,Self-pay,09/06/2023 19:45,Discharged
+308,243,18,08/06/2023 20:00,Emergency,Chest pain and sweating,Ambulance,Government (free care),14/06/2023 11:51,Discharged
+309,256,25,09/06/2023 10:00,Booked,Heartburn and acid reflux,Specialist clinic referral,Private Insurance (Plan B),N/A,Discharged
+310,257,77,11/06/2023 00:46,Emergency,Collapsed at home,Self-referral,Self-pay,14/06/2023 06:32,Discharged
+311,258,80,12/06/2023 08:38,OPD,Painful urination and fever,OPD clinic,Self-pay,12/06/2023 15:11,Discharged
+312,259,48,14/06/2023 13:27,Emergency,Fainting episode,Police,Government (free care),18/06/2023 10:23,Discharged
+313,193,46,14/06/2023 17:17,Emergency,Raised creatinine and vomiting,PRIVATE CLINIC referral,Self-pay,25/06/2023 08:03,Discharged
+314,260,25,15/06/2023 06:33,Urgent,Fainting episode,Self-referral,Government (free care),N/A,Discharged
+315,75,70,17/06/2023 12:00,OPD,Weakness   and pallor,OPD clinic,Self-pay,17/06/2023 18:02,Discharged
+316,261,19,20/06/2023 09:51,Emergency,Acute asthma attack,Health Centre IV referral,,21/06/2023 21:42,Discharged
+317,195,3,2023-06-24 08:45:00,Elective,"Chronic knee pain, for knee replacement",OPD clinic,Self-pay,29/06/2023 14:24,discharged
+318,262,4,25/06/2023 09:42,Urgent,Dehydration after diarrhoea,Self-referral,Self-pay,26/06/2023 15:39,Discharged
+319,263,45,01/07/2023 10:00,Elective,"Epigastric burning, planned endoscopy",Specialist clinic referral,self-pay,02/07/2023 10:51,Discharged
+320,74,40,02/07/2023 15:32,Emergency,Severe wheeze not relieved by inhaler,Self-referral,Employer Scheme,04/07/2023 01:24,Discharged
+321,264,66,03/07/2023 05:16,Emergency,Collapsed at home,Self-referral,Self-pay,07/07/2023 10:31,Discharged
+322,265,46,06/07/2023 10:07,OPD,Lipid review,Self-referral,Self-pay,06/07/2023 16:18,Discharged
+323,266,4,08/07/2023 15:03,Emergency,"Chest pain, cause unclear",Self-referral,Self-pay,11/07/2023 15:08,Discharged
+324,267,19,10/07/2023 16:56,Emergency,"Hit head, brief loss of consciousness",Ambulance,Government (free care),12/07/2023 13:53,Discharged
+325,268,22,11/07/2023 11:04,Emergency,Sudden weakness of right side and slurred speech,Health Centre IV referral,Community Health Fund,22/07/2023 08:00,Discharged
+326,269,60,13/07/2023 06:09,Emergency,Black tarry stools and dizziness,Health Centre IV referral,Government (free care),24/07/2023 02:11,Discharged
+327,130,38,13/07/2023 15:10,URG,Fainting episode,Health Centre IV referral,  Self-pay,14/07/2023 12:54,Discharged
+328,270,44,13/07/2023 17:03,Emergency,Right upper abdominal pain and fever,Self-referral,Private Insurance (Plan A),16/07/2023 21:38,Discharged
+329,271,78,16/07/2023 09:16,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,null,18/07/2023 11:33,Discharged
+330,147,4,21/07/2023 09:03,OPD,Painful urination and fever,OPD clinic,Private Insurance (Plan B),21/07/2023 14:35,Discharged
+331,114,43,25/07/2023 09:08,OPD,Painful urination and fever,Self-referral,Self-pay,25/07/2023 16:29,Discharged
+332,139,3,28/07/2023 08:00,Elective,"Recurrent biliary colic, for cholecystectomy",OPD CLINIC,-,01/08/2023 18:27,Discharged
+333,272,18,01/08/2023 04:17,Casualty,Chest pain and sweating,Private clinic referral,UNH Staff Scheme,-,Discharged
+334,273,60,01/08/2023 07:47,Emergency,DEHYDRATION AFTER DIARRHOEA,Private clinic referral,Government (free care),03/08/2023 08:33,Discharged
+335,220,80,02/08/2023 06:57,Emergency,Seizure at home,Self-referral,Community Health Fund,07/08/2023 02:52,Discharged
+336,24,39,02/08/2023 08:00,Emergency,Right lower abdominal pain and vomiting,Ambulance,Government (free care),null,Discharged
+337,274,65,03/08/2023 14:39,Emergency,Dehydration after diarrhoea,Police,Self-pay,05/08/2023 07:47,Discharged
+338,275,3,08/08/2023 10:30,Elective,Worsening kidney function,OPD clinic,Employer Scheme,N/A,DISCH
+339,276,22,null,OPD,Smoking cessation review,OPD clinic,Employer Scheme,08/08/2023 16:35,Discharged
+340,278,21,14/08/2023 09:30,Elective,"Gallstones, planned surgery",Specialist clinic referral,Government (free care),18/08/2023 14:47,Discharged
+341,277,43,2023-08-14T11:20,Emergency,Sudden shortness of breath and chest pain,police,Employer Scheme,21/08/2023 20:07,Discharged
+342,280,60,15/08/2023 10:27,OPD,Review of thyroid replacement,OPD clinic,Self-pay,15/08/2023 14:12,Discharged
+343,279,70,15/08/2023 12:51,EMERG,Dehydration after diarrhoea,Health Centre IV referral,Self-pay,19/08/2023 07:38,Discharged
+344,281,39,18/08/2023 11:32,OPD,"Fatigue and weight gain, known hypothyroid",Self-referral,Community Health Fund,18/08/2023 14:10,Discharged
+345,282,10,23/08/2023 00:59,A&E  ,Irregular heartbeat,Ambulance,Government (free care),25-08-2023 05:42,Discharged
+346,284,42,23/08/2023 09:00,Elective,"Epigastric burning, planned endoscopy",Specialist clinic referral,Self-pay,null,Discharged
+347,283,7,23/08/2023 11:16,Urgent Care,Elevated BP at clinic,Private clinic referral,Government (free care),26/08/2023 05:33,DISCH
+348,264,66,24/08/2023 19:47,Urgent,"Chest pain, cause unclear",Self-referral,Government (free care),28/08/2023 11:19,Discharged
+349,286,28,25/08/2023 06:01,Newborn,Newborn with fever and poor feeding,Born at UNH,Self-pay,29/08/2023 05:13,Discharged
+350,285,7,25/08/2023 10:50,OPD,"Fatigue and weight gain, known hypothyroid",?,Self-pay,25/08/2023 15:26,Discharged
+351,287,65,27/08/2023 18:11,Urgent,Hypertension review,Self-referral,Government (free care),29/08/2023 01:34,DISCH
+352,288,47,29/08/2023 21:15,Emergency,High fever with low blood pressure,null,UNH Staff Scheme,09/09/2023 01:40,Deceased
+353,289,38,30/08/2023 18:49,Born in Hospital,Newborn with fast breathing,Born at UNH,Self-pay,02/09/2023 19:28,Discharged
+354,290,4,31/08/2023 16:09,Emergency,Raised creatinine and vomiting,Self-referral,Self-pay,02/09/2023 22:13,Discharged
+355,253,43,01/09/2023 11:55,Urgent,Severe pain under right ribs after meals,Self-referral,Government (free care),05/09/2023 14:46,Discharged
+356,291,60,02/09/2023 10:41,OPD,Review of thyroid replacement,Self-referral,Private Insurance (Plan A),02/09/2023 17:12,Discharged
+357,208,69,03/09/2023 08:26,OPD,"Epigastric burning, planned endoscopy",Self-referral,Employer Scheme,03/09/2023 16:11,Discharged
+358,292,73,03/09/2023 10:00,Elective,"CKD review, for fistula creation",Specialist clinic referral,Self-pay,06/09/2023 05:25,Discharged
+359,293,7,09/04/2023 08:56 PM,Emergency,Head injury after road traffic accident,Police,Community Health Fund,07/09/2023 03:17,Discharged
+360,116,69,05/09/2023 08:45,Elective,Poorly controlled blood sugar,OPD clinic,UNH Staff Scheme,10/09/2023 18:16,DISCHARGED
+361,294,3,09/09/2023 09:00,Elective,"Exertional chest pain, planned angiography",null,Self-pay,14/09/2023 10:38,Discharged
+362,295,48,10/09/2023 08:21,OPD,Weakness and pallor,OPD clinic,Government (free care),10/09/2023 10:58,Discharged
+363,296,65,11/09/2023 23:29,Emergency,Fever and lethargy for 3 days,Self-referral,Employer Scheme,18/09/2023 05:50,Died
+364,297,10,11/09/2023 23:32,Emergency,Fainting episode,Police,UNH Staff Scheme,09/16/2023 01:04 AM,DISCH
+365,298,65,16/09/2023 14:57,Emergency,Sudden shortness of breath and chest pain,Private clinic referral,Community Health Fund,19/09/2023 06:31,Died
+366,299,46,17/09/2023 18:41,Urgent,Severe wheeze not relieved by inhaler,Health Centre IV referral,Self-pay,18/09/2023 23:38,Discharged
+367,300,44,20/09/2023 02:51,Emergency,Reduced urine output and swelling,Private clinic referral,Private Insurance (Plan B),24/09/2023 05:55,Discharged
+368,301,60,20/09/2023 08:42,opd,"Epigastric burning, planned endoscopy",Self-referral,Private Insurance (Plan B),20/09/2023 16:02,Discharged
+369,302,47,21/09/2023 11:31,Emergency,Sudden weakness of right side and slurred speech,Self-referral,Self-pay,02/10/2023 17:43,Discharged
+370,303,21,24/09/2023 08:30,Elective,Worsening kidney function,Specialist clinic referral,Self-pay,29/09/2023 22:41,Discharged
+371,304,65,28/09/2023 21:31,Emergency,Collapsed at home,Health Centre IV referral,Self-pay,02/10/2023 09:37,Discharged
+372,141,48,30/09/2023 12:39,Urgent,Low haemoglobin on routine test,Health Centre IV referral,Self-pay,01/10/2023 01:28,Discharged
+373,305,7,02/10/2023 10:44,Emergency Dept,Breathlessness after long bus journey,Ambulance,Self-pay,06/10/2023 19:24,Discharged
+374,306,22,03/10/2023 14:22,Emergency,Abdominal pain moving to the right side,Self-referral, SELF-PAY  ,10/10/2023 02:40,Discharged
+375,297,65,06/10/2023 23:49,Emergency,Dehydration after diarrhoea,?,Self-pay,2023-10-11 19:35:00,Discharged
+376,307,73,09/10/2023 02:08,Transfer In,"Healthy newborn, delivered at UNH",Born at UNH,Private Insurance (Plan B),12/10/2023 05:52,Discharged
+377,126,69,09/10/2023 03:07,Emergency,Abdominal pain moving to the right side,Ambulance,UNH Staff Scheme,19/10/2023 11:22,Discharged
+378,308,43,12/10/2023 09:27,Urgent,fainting episode,Health Centre IV referral,Government (free care),14/10/2023 00:35,Discharged
+379,309,3,13/10/2023 08:15,Elective,"Gallstones, planned surgery",Specialist clinic referral,Self-pay,16/10/2023 10:55,Discharged
+380,310,73,14/10/2023 10:22,OPD,"Epigastric burning, planned endoscopy",Self-referral,Government (free care),14/10/2023 16:39,Discharged
+381,312,42,10/19/2023 01:59 PM,OPD,Tobacco use counselling,Self-referral,Community Health Fund,19/10/2023 20:14,Discharged
+382,311,60,2023-10-19 15:48:00,OPD,Review of thyroid replacement,Self-referral,Government (free care),19/10/2023 20:03,Discharged
+383,313,25,22/10/2023 06:45,Emergency,Productive cough and chest pain,Police,Self-pay,26/10/2023 23:32,Discharged
+384,314,45,26/10/2023 01:27,EMERG,Black tarry stools and dizziness,Ambulance,Employer Scheme,28/10/2023 23:32,Discharged
+385,315,76,26/10/2023 10:00,Elective,"Chronic knee pain, for knee replacement",Specialist clinic referral,Self-pay,29/10/2023 02:36,Discharged
+386,316,65,27/10/2023 12:33,OPD,Review of thyroid replacement,Self-referral,Self-pay,,Discharged
+387,317,22,29/10/2023 15:42,Urgent,Raised creatinine and vomiting,Health Centre III referral,Employer Scheme,30/10/2023 14:46,D/C
+388,318,80,30/10/2023 17:36,Emergency,Respiratory distress,Police,UNH Staff Scheme,11/08/2023 12:59 PM,Discharged
+389,319,48,30/10/2023 19:20,Urgent Care,Fainting episode,Self-referral,Private Insurance (Plan B),03/11/2023 11:16,Discharged
+390,320,60,02/11/2023 02:43,Emergency,Productive cough and chest pain,Ambulance, SELF-PAY  ,04/11/2023 05:45,Discharged
+391,321,39,05/11/2023 09:30,Elective,Worsening kidney function,OPD clinic,UNH Staff Scheme,10/11/2023 14:28,Discharged
+392,322,70,08/11/2023 17:27,Urgent,Hypertension review,Private clinic referral,N/A,10/11/2023 23:17,Discharged
+393,323,71,09/11/2023 10:00,Elective,"Recurrent biliary colic, for cholecystectomy",OPD clinic,Private Insurance (Plan A),11/14/2023 10:00 PM,Discharged
+394,324,39,11/11/2023 11:14,OPD,Review of thyroid replacement,OPD clinic,Self-pay,11/11/2023 14:53,Discharged
+395,325,60,2023-11-11 17:29:00,Emergency,Chest pain and sweating,Health Centre IV referral,Government (free care),21/11/2023 01:19,Discharged
+396,326,44,15/11/2023 13:46,OPD,Poorly controlled blood sugar,OPD clinic,Government (free care),15/11/2023 19:55,Discharged
+397,225,66,16/11/2023 21:10,Casualty,Productive cough and chest pain,Ambulance,-,19/11/2023 18:53,Discharged
+398,303,66,19/11/2023 23:47,Emergency,Chest pain and sweating,Health Centre IV referral,Community Health Fund,27/11/2023 15:55,Discharged
+399,164,17,27/11/2023 09:56,Urgent,"Vomiting and diarrhoea, unable to keep fluids",N/A,UNH Staff Scheme,2023-12-01 07:22:00,Discharged
+400,327,74,28/11/2023 09:15,Elective,"Epigastric burning, planned endoscopy",Specialist clinic referral,Self-pay,30/11/2023 19:13,Discharged
+401,328,80,28/11/2023 10:17,Emergency Dept,Raised creatinine and vomiting,Self-referral,UNH Staff Scheme,09/12/2023 05:22,Discharged
+402,329,4,29/11/2023 19:43,Emergency,Palpitations and dizziness,Self-referral,UNH Staff Scheme,03/12/2023 01:31,Discharged
+403,330,43,30/11/2023 12:50,OPD,"Fatigue and weight gain, known hypothyroid",Self-referral,Self-pay,2023-11-30 18:27:00,DISCH
+404,331,39,05/12/2023 13:54,OPD,Weakness and pallor,Self-referral,employer scheme,05/12/2023 21:44,Discharged
+405,332,28,05/12/2023 15:26,OPD,Heartburn and acid reflux,Self-referral,Employer Scheme,05/12/2023 18:41,Discharged
+406,333,77,08/12/2023 10:45,Elective,Heartburn and acid reflux,OPD clinic,?,12/12/2023 14:09,Discharged
+407,73,19,09/12/2023 10:15,OPD,Headache with high blood pressure,Self-referral,Self-pay,-,Discharged
+408,334,66,09/12/2023 10:47,Newborn,Newborn with fever and poor feeding,Born at UNH,Government (free care),10/12/2023 13:24,Discharged
+409,335,10,13/12/2023 08:26,Emergency,Breathlessness and leg swelling,Ambulance,Private Insurance (Plan B),17/12/2023 23:59,D/C
+410,336,65,13/12/2023 18:24,Urgent,"Chest pain, cause unclear",Health Centre IV referral,Government (free care),17/12/2023 15:33,Discharged
+411,176,10,14/12/2023 07:41,Emergency,Right lower abdominal pain and vomiting,,Employer Scheme,16/12/2023 17:24,Discharged
+412,221,25,17/12/2023 08:30, Elective,Poorly controlled blood sugar,-,Community Health Fund,20/12/2023 03:19,Discharged
+413,337,7,22/12/2023 13:18,OPD,Low haemoglobin on routine test,opd clinic,Self-pay,22/12/2023 19:30,Discharged
+414,338,40,23/12/2023 02:07,Emergency,Hip injury after fall,Self-referral,Government (free care),03/01/2024 06:40,Discharged
+415,339,65,23/12/2023 10:49,OPD,"Diabetes review, high glucose readings",OPD clinic,?,23/12/2023 13:30,Discharged
+416,340,43,25/12/2023 01:01,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,28/12/2023 09:02,Discharged
+417,230,4,28/12/2023 05:34,Emergency,Reduced urine output and swelling,Health Centre IV referral,UNH Staff Scheme,01/01/2024 02:12,Discharged
+418,341,66,28/12/2023 16:32,Emergency,Raised creatinine and vomiting,Self-referral,Private Insurance (Plan B),04/01/2024 06:59,Discharged
+419,342,10,29/12/2023 00:51,Emergency,Fainting episode,Self-referral,Private Insurance (Plan B),30/12/2023 03:35,Discharged
+420,226,39,29/12/2023 15:09,Urgent,Severe wheeze not relieved by inhaler,Health Centre IV referral ,Community Health Fund,12/30/2023 04:57 PM,Discharged
+406,333,77,08/12/2023 10:45,Elective,Heartburn and acid reflux,OPD clinic,?,12/12/2023 14:09,Discharged  
+421,343,43,29/12/2023 21:23,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,31/12/2023 06:26,Discharged
+422,345,39,01/01/2024 08:45,Elective,"Diabetes review, high glucose readings",OPD clinic,Community Health Fund,04/01/2024 07:01,Discharged
+423,344,43,01/01/2024 09:30,Booked,Known CAD for elective angiogram,Specialist clinic referral,Private Insurance (Plan B),07/01/2024 08:14,Discharged
+424,346,60,02/01/2024 01:20,Casualty,"Hit head, brief loss of consciousness",Health Centre IV referral, SELF-PAY  ,05/01/2024 15:20,Discharged
+425,141,60,02/01/2024 10:43,Emergency,Breathlessness and leg swelling,Self-referral,Community Health Fund,11/01/2024 13:33,Discharged
+426,347,48,05/01/2024 13:26,Day Case,Lower abdominal pain and frequent urination,Self-referral,N/A,05/01/2024 20:04,Discharged
+427,348,44,06/01/2024 12:41,OPD,Weakness and pallor,OPD clinic,Employer Scheme,06/01/2024 19:59,Discharged
+428,281,71,10/01/2024 09:45,Elective,"Osteoarthritis of knee, planned surgery",Specialist clinic referral,UNH Staff Scheme,11/01/2024 15:45,Discharged
+429,349,74,11/01/2024 10:30,Elective,"Exertional chest pain, planned angiography",OPD clinic,Self-pay,14/01/2024 05:52,Discharged
+430,322,4,12/01/2024 10:45,OPD,Tobacco use counselling,OPD clinic,UNH Staff Scheme,12/01/2024 16:09,Discharged
+431,350,44,13/15/2024 10:47,Emergency,Fainting episode,Health Centre IV referral,Employer Scheme,17/01/2024 06:44,Discharged
+432,667,39,14/01/2024 16:28,Emergency,Facial droop and arm weakness,Ambulance,Employer Scheme,17/01/2024 21:25,Discharged
+433,351,74,16/01/2024 09:00,Elective,"CKD review, for fistula creation",Specialist clinic referral,Self-pay,2024-01-22 05:37:00,Discharged
+434,352,73,16/01/2024 18:20,emergency,Breathlessness and leg swelling,Ambulance,Self-pay,21/01/2024 06:13,Discharged
+435,353,78,18/01/2024 15:21,OPD,Weakness and pallor,Self-referral,Private Insurance (Plan A),18/01/2024 21:03,Discharged
+436,354,39,20/01/2024 09:10,OPD,Heartburn and acid reflux,OPD clinic,Private Insurance (Plan B),20/01/2024 16:02,Discharged
+437,355,7,21/01/2024 09:00,Elective,Poorly controlled blood sugar,OPD clinic,Private Insurance (Plan A),24/01/2024 22:36,Discharged
+438,356,28,23/01/2024 06:51,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Community Health Fund,-,Discharged
+439,357,65,23/01/2024 13:16,Urgent,Hypertension review,Health Centre III referral,Self-pay,25/01/2024 21:21,Discharged
+440,358,73,25/01/2024 05:32,URG,Weakness and pallor,Health Centre III referral,?,27/01/2024 08:26,Discharged
+441,359,3,28/01/2024 08:00,Elective,"Gallstones, planned surgery",OPD clinic,UNH Staff Scheme,-,Discharged
+442,360,40,01/02/2024 09:16,Emergency,Reduced urine output and swelling,?,Self-pay,06/02/2024 19:15,Discharged
+443,309,10,04/02/2024 09:15,Elective,"Gallstones, planned surgery",Specialist clinic referral,UNH Staff Scheme,05/02/2024 13:22,Discharged
+444,361,18,04/02/2024 18:31,Urgent,Central chest discomfort,Self-referral,Employer Scheme,06/02/2024 21:10,Discharged
+445,362,69,05/02/2024 14:59,OPD,Hypertension review,OPD clinic,Private Insurance (Plan B),05/02/2024 21:37,Discharged
+446,303,60,07/02/2024 09:30,OPD,"Epigastric burning, planned endoscopy",OPD clinic,Self-pay,07/02/2024 13:48,Discharged
+447,363,28,07/02/2024 23:42,URG,"Vomiting and diarrhoea, unable to keep fluids",Private clinic referral,N/A,10/02/2024 09:53,Discharged
+448,364,60,02/10/2024 12:05 AM,Emergency,Severe central chest pain radiating to left arm,Private clinic referral,Self-pay,13/02/2024 04:05,Died
+449,201,71,10/02/2024 10:00,Elective,"Epigastric burning, planned endoscopy",Specialist clinic referral,Self-pay,15/02/2024 21:06,Discharged
+450,365,48,12/02/2024 02:42,Emergency,Convulsions,Self-referral,Self-pay,24/02/2024 01:50,Discharged
+451,336,43,12/02/2024 09:56,Emergency,Respiratory distress,Self-referral,UNH Staff Scheme,16/02/2024 08:55,Discharged
+452,366,39,02/14/2024 12:01 AM,Emergency,Vomiting blood,Health Centre IV referral,self-pay,24/02/2024 08:45,Discharged
+453,367,74,18/02/2024 08:30,Elective,"CKD review, for fistula creation",OPD clinic,Private Insurance (Plan A),2024-02-23T16:46,  Discharged
+454,368,70,19/02/2024 03:39,Emergency,Collapsed at home,Private clinic referral,Government (free care),20/02/2024 08:52,Discharged
+455,238,80,23/02/2024 06:15,Emergency,"Chest pain, cause unclear",Self-referral,Community Health Fund,24/02/2024 08:15,Discharged
+456,369,80,24/02/2024 19:44,Emergency,Vomiting blood,Private clinic referral,  Self-pay,07/03/2024 06:40,Discharged
+457,343,19,25/02/2024 04:52,Emergency,Seizure at home,Ambulance,Self-pay,05/03/2024 15:08,Discharged
+458,370,78,26/02/2024 13:21,Urgent,Dehydration after diarrhoea,Self-referral,Self-pay,28/02/2024 00:03,Discharged
+459,371,127,27/02/2024 17:18,Emergency,"Fever, rigors and confusion",Health Centre IV referral,UNH Staff Scheme,,Discharged
+460,372,73,01/03/2024 09:37,Emergency,Severe upper abdominal pain radiating to back,Private clinic referral,Government (free care),04/03/2024 09:13,Discharged
+461,373,28,03/03/2024 15:47,OPD,Tobacco use counselling,Self-referral,Self-pay,03/03/2024 21:50,Discharged
+462,374,25,06/03/2024 03:24,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Private Insurance (Plan B),08/03/2024 22:45,Discharged
+463,233,7,10/03/2024 19:06,Emergency,"Hit head, brief loss of consciousness",Self-referral,UNH Staff Scheme,15/03/2024 02:06,Discharged
+464,375,46,13/03/2024 12:27,Emergency,Raised creatinine and vomiting,Ambulance,Private Insurance (Plan A),24/03/2024 18:38,Discharged
+465,376,78,15/03/2024 08:15,Urgent,"Cough, fever and difficulty breathing",Health Centre IV referral,Self-pay,19/03/2024 05:24,DISCH
+466,377,73,2024-03-15 20:39:00,Emergency,Palpitations and dizziness,Private clinic referral,Self-pay,2024-03-17T06:45,Discharged
+467,378,78,18/03/2024 10:04,Emergency,Severe pain under right ribs after meals,Police,UNH Staff Scheme,-,Discharged
+468,379,70,18/03/2024 21:38,Newborn,"Healthy newborn, delivered at UNH",null,Self-pay,19/03/2024 23:39,Discharged
+469,380,73,19/03/2024 13:16,Newborn,Newborn pallor,Born at UNH,  Self-pay,21/03/2024 08:57,DISCH
+470,381,39,19/03/2024 20:04,Newborn,Newborn with fast breathing,Born at UNH,Government (free care),22-03-2024 20:04,Discharged
+471,382,40,23/03/2024 11:53,Emergency,"Worsening cough and wheeze, known COPD",Police,Community Health Fund,26/03/2024 17:59,Discharged
+472,383,4,03/26/2024 10:34 PM,Newborn,Newborn pallor,Born   at UNH,Private Insurance (Plan B),28/03/2024 04:33,Discharged
+473,384,22,29/03/2024 00:10,Emergency,Severe wheeze not relieved by inhaler,Health Centre IV referral,Government (free care),02/04/2024 03:55,Discharged
+474,281,73,01/04/2024 13:25,OPD,Poorly controlled blood sugar,OPD clinic,UNH Staff Scheme,01/04/2024 18:36,Discharged
+475,385,51,05/04/2024 09:30,Elective,Worsening kidney function,Specialist clinic referral,Self-pay,08/04/2024 09:07,Discharged
+476,386,51,04/07/2024 09:21 PM,Emergency,Respiratory distress,Private clinic referral,,13/04/2024 23:24,Discharged
+477,387,38,2024-04-08 08:19:00,Emergency,Reduced urine output and swelling,Police,Self-pay,14/04/2024 15:12,DISCH
+478,388,28,09/04/2024 11:50,OPD,Smoking cessation review,OPD clinic,Self-pay,0000-00-00,Discharged
+393,323,71,09/11/2023 10:00,Elective,"recurrent biliary colic, for cholecystectomy",OPD clinic,Private Insurance (Plan A),11/14/2023 10:00 PM,Discharged
+64,61,74,03/05/2022 09:45,ELECTIVE,"Exertional chest pain, planned angiography",Specialist clinic referral,Community Health Fund,04/05/2022 23:27,Discharged
+479,389,60,09/04/2024 17:12,Emergency,"Breathlessness, COPD flare",Self-referral,Government (free care),-,Discharged
+480,390,38,09/04/2024 19:54,Emergency,High fever with low blood pressure,Ambulance,Private Insurance (Plan B),13/04/2024 07:20,Discharged
+481,391,18,10/04/2024 09:45,OPD,"Epigastric burning, planned endoscopy",OPD clinic,Government (free care),10/04/2024 13:35,Discharged
+482,392,42,11/04/2024 13:55,Urgent,Productive cough and chest pain,Private clinic referral,Self-pay  ,14/04/2024 01:26,Discharged
+483,393,40,15/04/2024 14:16,OPD,Headache with high blood pressure,Self-referral,Self-pay,15/04/2024 19:11,Discharged
+484,394,60,17/04/2024 14:16,OPD,"Diabetes review, high glucose readings",Self-referral,Self-pay,17/04/2024 16:24,Discharged
+485,395,66,18/04/2024 14:04,Emergency,Raised   creatinine and vomiting,Self-referral,Government (free care),24/04/2024 02:48,Discharged
+486,396,80,19/04/2024 20:45,Urgent,Painful urination and fever,Private clinic referral,Self-pay,,D/C
+487,397,44,21/04/2024 07:00,Elective,"Recurrent biliary colic, for cholecystectomy",OPD clinic,,04-25-2024 21:47,Discharged
+488,348,25,29/04/2024 10:45,Elective,Poorly controlled blood sugar,Specialist clinic referral,Government (free care),04/05/2024 23:03,Discharged
+489,228,48,02/05/2024 09:52,Urgent,Raised creatinine and vomiting,Private clinic referral,Community Health Fund,N/A,Discharged
+490,232,69,03/05/2024 07:38,Emergency,"Cough, fever and difficulty breathing",Self-referral,Self-pay,2024-05-04T20:33,Discharged
+491,286,22,03/05/2024 17:24,Emergency,"Cough, fever and difficulty breathing",Self-referral,Private Insurance (Plan B),07/05/2024 10:41,Discharged
+492,346,25,04/05/2024 10:45,Elective,"Exertional chest pain, planned angiography",Specialist clinic referral,Private Insurance (Plan B),2024-05-09 23:41:00,Discharged
+493,398,77,05/05/2024 06:32,Urgent,"Cough, fever and difficulty breathing",Self-referral,Self-pay,05/06/2024 04:09 AM,Discharged
+494,399,10,05/05/2024 20:10,Urgent,Acute asthma attack,null,Self-pay,09/05/2024 03:49,D/C
+495,400,39,07/05/2024 00:14,Emergency,Fever and lethargy for 3 days,Private clinic referral,Self-pay,14/05/2024 11:30,Discharged
+496,401,65,07/05/2024 17:45,Emergency,Epigastric pain and vomiting,Self-referral,Self-pay,05/14/2024 03:30 PM,Discharged
+497,402,73,07/05/2024 20:33,Urgent,Severe pain under right ribs after meals,Private clinic referral,Self-pay,10/05/2024 09:15,Discharged
+498,403,39,08/05/2024 21:40,Urgent,Irregular heartbeat,Private clinic referral,Self-pay,13/05/2024 00:12,Discharged
+499,404,80,13/05/2024 14:08,Newborn,"Newborn feeding poorly, dehydrated",Born at UNH,Community Health Fund,16/05/2024 14:08,Discharged
+500,405,18,14/05/2024 16:18,Urgent,Low haemoglobin on routine test,?,Private Insurance (Plan A),18/05/2024 02:18,Discharged
+501,406,78,15/05/2024 15:53,OPD,Low haemoglobin on routine test,Self-referral,Private Insurance (Plan B),15/05/2024 22:50,Discharged
+502,407,42,16/05/2024 07:01,Urgent,Hypertension review,Private clinic referral,Self-pay,17/05/2024 18:16,Discharged    
+503,408,73,17/05/2024 04:48,EMERG,High fever with low blood pressure,Self-referral, COMMUNITY HEALTH FUND  ,22/05/2024 23:28,Discharged
+504,409,77,21/05/2024 22:12,Urgent,Painful urination and fever,Private clinic referral,Employer Scheme,26/05/2024 21:11,Discharged
+505,410,91,22/05/2024 08:00,ELECTIVE,"Epigastric burning, planned endoscopy",OPD clinic,Private Insurance (Plan B),27/05/2024 03:52,Discharged
+506,411,25,22/05/2024 08:48,OPD,Weakness and pallor,Self-referral,Government (free care),22/05/2024 15:49,DISCHARGED
+507,412,7,2024-05-25T08:00,Elective,"Gallstones, planned surgery",Specialist clinic referral,Government (free care),30/05/2024 16:27,Discharged
+508,413,49,26/05/2024 09:30,Elective,Known CAD for elective angiogram,Specialist clinic referral,Community Health Fund,28/05/2024 15:13,Discharged
+509,227,43,26/05/2024 22:08,Emergency,Severe wheeze not relieved by inhaler,Health Centre IV referral,Self-pay,29/05/2024 18:46,Discharged
+510,239,40,2024-05-27T15:29,OPD,Poorly controlled blood sugar,Self-referral,Employer Scheme,27/05/2024 23:23,Discharged
+511,414,65,28/05/2024 23:35,Emergency,Productive cough and chest pain,Self-referral,Community Health Fund,30/05/2024 15:25,Discharged    
+512,415,39,29/05/2024 16:07,Emergency,Raised creatinine and vomiting,Self-referral,null,03/06/2024 12:57,Discharged
+513,417,38,02/06/2024 07:45,Elective,"Osteoarthritis of knee, planned surgery",Specialist clinic referral,Self-pay,06/06/2024 02:17,Discharged
+514,416,80,02/06/2024 12:11,OPD,Smoking cessation review,Self-referral,Self-pay,01/06/2024 05:11,Discharged
+515,418,46,03/06/2024 14:24,Urgent,Collapsed at home,Self-referral,Community Health Fund,0000-00-00,D/C
+516,662,65,04/06/2024 09:45,Elective,"Epigastric burning, planned endoscopy",Specialist clinic referral,?,07/06/2024 06:18,Discharged
+517,419,65,05/06/2024 17:16,Emergency,Vomiting blood,Ambulance,Employer Scheme,14/06/2024 12:02,Discharged
+518,395,7,07/06/2024 14:56,Emergency,Right upper abdominal pain and fever,Self-referral,Self-pay,09/06/2024 16:09,Discharged
+519,256,25,08/06/2024 17:37,Emergency,Epigastric pain and vomiting,Self-referral,Self-pay,16/06/2024 12:18,Discharged
+520,420,42,10/06/2024 12:08,Emergency,Head injury after road traffic accident,Health Centre IV referral,Private Insurance (Plan B),15/06/2024 09:03,Discharged
+521,202,28,13/06/2024 08:15,Elective,Heartburn and acid reflux,OPD clinic,Employer Scheme,18/06/2024 20:22,Discharged
+522,421,44,14/06/2024 18:03,Emergency,  Convulsions,Self-referral,Employer Scheme,19/06/2024 12:42,Discharged
+523,422,21,17/06/2024 10:30,Elective,Worsening kidney function,OPD clinic,UNH Staff Scheme,20/06/2024 13:22,Discharged
+524,423,65,18/06/2024 08:45,Planned,"Diabetes review, high glucose readings",OPD clinic,Community Health Fund,23/06/2024 23:00,Discharged
+525,425,7,21/06/2024 10:00,Elective,Poorly controlled blood sugar,OPD clinic,,27/06/2024 05:53,Discharged
+526,424,17,21/06/2024 15:15,OPD,Poorly controlled blood sugar,Self-referral, UNH STAFF SCHEME  ,21/06/2024 22:41,Discharged
+527,426,77,25/06/2024 18:23,Emergency,Collapsed at home,Health Centre IV referral,Self-pay,30/06/2024 18:16,Discharged
+528,427,43,28/06/2024 01:50,Emergency,Sudden shortness of breath and chest pain,Self-referral,Private Insurance (Plan A),10/07/2024 01:08,Discharged
+529,428,40,28/06/2024 08:15,Elective,"Gallstones, planned surgery",,Government (free care),03/07/2024 00:24,Discharged
+530,429,28,07/02/2024 03:42 PM,OPD,Smoking cessation review,Self-referral,Self-pay,02/07/2024 22:24,Discharged
+531,430,39,07/03/2024 12:30 PM,Emergency,Breathlessness after long bus journey,Police,Community Health Fund,2024-07-12 04:22:00,Discharged
+532,431,60,04/07/2024 10:00,Urgent Care,Collapsed at home,Health Centre IV referral,Self-pay,08/07/2024 08:56,Discharged
+533,432,42,04/07/2024 10:34,OPD,"Fatigue and weight gain, known hypothyroid",Self-referral,Government (free care),04/07/2024 04:34,Discharged
+534,433,4,06/07/2024 08:15,Elective,Worsening kidney function,Specialist clinic referral,,09/07/2024 08:22,Discharged
+535,434,73,06/07/2024 10:51,Day Case,"Diabetes review, high glucose readings",N/A,Private Insurance (Plan A),06/07/2024 18:27,Discharged
+536,435,38,07/07/2024 17:47,Emergency,"Worsening shortness of breath, cannot lie flat",Self-referral,Self-pay,15/07/2024 04:18,Discharged
+537,436,28,07/07/2024 10:07 PM,Urgent,Raised creatinine and vomiting,Health Centre IV referral,Self-pay,09/07/2024 10:31,Discharged
+538,437,39,11/07/2024 00:21,Emergency,sudden SHORTNESS of BREATH and CHEST pain,Ambulance,Self-pay,14/07/2024 14:19,Discharged
+539,438,3,12/07/2024 09:45,Elective,"Recurrent biliary colic, for cholecystectomy",Specialist clinic referral,Private Insurance (Plan B),13/07/2024 22:22,Discharged
+540,439,73,14/07/2024 03:24,Emergency,Irregular heartbeat,Police,Self-pay,16/07/2024 15:24,  Discharged
+541,441,19,16/07/2024 08:16,OPD,Headache with high blood pressure,OPD clinic,   Government (free care),16/07/2024 12:38,Discharged
+542,176,73,16/07/2024 09:00,Elective,Poorly controlled blood sugar,Specialist clinic referral,Employer Scheme,18/07/2024 18:52,Discharged
+543,440,80,16/07/2024 13:37,Emergency,Vomiting blood,Health Centre IV referral,Employer Scheme,2024-07-28 06:37:00,Discharged
+544,376,18,18/07/2024 05:05,Emergency,Severe central chest pain radiating to left arm,Self-referral,Employer Scheme,28/07/2024 10:50,Discharged
+545,442,42,22/07/2024 11:17,OPD,Review of thyroid replacement,Self-referral,,22/07/2024 18:41,Discharged
+546,443,70,25/07/2024 01:52,Urgent,"Vomiting and diarrhoea, unable to keep fluids",Private clinic referral,Self-pay,28/07/2024 07:46,Discharged
+547,444,60,29/07/2024 10:23,Urgent,Low haemoglobin on routine test,Self-referral,Self-pay,01/08/2024 21:12,Discharged
+548,338,43,30/07/2024 05:13,Urgent,Lower abdominal pain and frequent urination,Health Centre III referral,UNH Staff Scheme,-,Discharged
+549,258,43,03/08/2024 23:00,Emergency,"Worsening shortness of breath, cannot lie flat",Health Centre IV referral,Employer Scheme,11/08/2024 05:14,  Discharged
+550,366,49,08/04/2024 09:15 AM,Elective,"CKD review, for fistula creation",Specialist clinic referral,Government (free care),06/08/2024 02:30,Discharged
+551,332,7,04/08/2024 10:38,OPD,Painful urination and fever,Self-referral,Self-pay,04/08/2024 13:14,Discharged
+552,445,21,06/08/2024 10:30,Elective,Heartburn and acid reflux,Specialist clinic referral,?,10/08/2024 07:36,Discharged
+553,312,31,07/08/2024 08:45,Elective,"Chronic knee pain, for knee replacement",OPD clinic,Government (free care),08/08/2024 17:40,Discharged
+554,446,70,15/08/2024 15:43,OPD,"Epigastric burning, planned endoscopy",OPD clinic,Self-pay,15/08/2024 23:13,Discharged
+555,448,70,16/08/2024 10:25,OPD,High cholesterol on screening,OPD clinic,Self-pay,16/08/2024 15:25,Discharged
+556,447,19,16/08/2024 19:34,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,20/08/2024 06:40,Discharged
+557,449,73,17/08/2024 22:36,Urgent,Right upper abdominal pain and fever,Health Centre IV referral,Self-pay,0000-00-00,Discharged
+558,450,25,2024-08-18T09:22,Emergency,Severe upper abdominal pain radiating to back,Police,Self-pay,22/08/2024 01:17,Discharged
+222,195,39,25/01/2023 00:07,Emergency,Reduced urine output and swelling,Self-referral,Community Health Fund,31/01/2023 03:07,Discharged
+559,451,80,08/19/2024 08:35 AM,Emergency,Convulsions,Self-referral,Community Health Fund,30/08/2024 00:59,Discharged
+560,453,46,23/08/2024 07:07,Emergency,Irregular heartbeat,Health Centre IV referral,Self-pay,25/08/2024 19:07,Discharged
+561,452,65,23/08/2024 07:30,Elective," EPIGASTRIC BURNING, PLANNED ENDOSCOPY  ",Specialist clinic referral,Employer Scheme,26/08/2024 13:03,Discharged
+562,232,10,23/08/2024 08:43,OPD,High cholesterol on screening,Self-referral,Self-pay,23/08/2024 13:55,discharged
+563,454,46,25/08/2024 11:03,OPD,Poorly controlled blood sugar,Self-referral,Self-pay,25/08/2024 15:14,Discharged
+564,455,48,25/08/2024 18:37,Newborn,Newborn with fast breathing,Born at UNH,UNH Staff Scheme,28/08/2024 18:37,Discharged
+43,41,73,19/03/2022 18:07,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Community Health Fund,23/03/2022 17:43,Discharged
+565,456,7,27/08/2024 12:24,Emergency,Productive cough and chest pain,Police,Self-pay,01/09/2024 02:03,D/C
+566,457,69,28/08/2024 08:57,Urgent,Low haemoglobin on routine test,Self-referral,Self-pay,01/09/2024 05:20,Discharged
+567,458,60,02/09/2024 14:07, URGENT  ,Right upper abdominal pain and fever,Self-referral,Private Insurance (Plan B),05/09/2024 10:40,Discharged
+568,305,18,04/09/2024 02:44,emergency dept,Facial droop and arm weakness,Police,Employer Scheme,10/09/2024 00:24,Discharged
+569,459,42,2024-09-04 10:00:00,Elective,"CKD review, for fistula creation",OPD clinic,Self-pay,05/09/2024 11:16,Discharged
+570,460,66,05/09/2024 14:39,Emergency Dept,Hip injury after fall,Ambulance,Self-pay,13/09/2024 21:16,Discharged
+571,461,44,2024-09-07T07:04,Emergency,"Fall at home with hip pain, unable to walk",Private clinic referral,Private Insurance (Plan B),13/09/2024 16:06,DISCH
+572,462,51,10/09/2024 12:04,OPD,Heartburn and acid reflux,Self-referral,Employer Scheme,09/10/2024 07:45 PM,Discharged
+573,463,3,16/09/2024 07:00,Elective,"Epigastric burning, planned endoscopy",OPD clinic,,20/09/2024 14:01,Discharged
+574,464,69,16/09/2024 17:59,Urgent,Collapsed at home,Health Centre III referral,Private Insurance (Plan A),20/09/2024 04:51,Discharged
+575,285,71,17/09/2024 10:00,Elective,"Gallstones, planned surgery",OPD clinic,Private Insurance (Plan B),23/09/2024 00:46,D/C
+576,465,19,18/09/2024 06:30,Emergency,Epigastric pain and vomiting,Self-referral,null,22/09/2024 16:59,Discharged
+577,466,47,18/09/2024 09:25,OPD,Lower abdominal pain and frequent urination,Self-referral,Private Insurance (Plan B),18/09/2024 16:33,Discharged
+578,467,80,20/09/2024 05:33,Emergency,Respiratory distress,Ambulance,Community Health Fund,25/09/2024 14:13,Died
+579,675,25,22/09/2024 22:46,Emergency,Sudden weakness of right side and slurred speech,Self-referral,UNH Staff Scheme,28/09/2024 07:51,Discharged
+580,468,43,24/09/2024 22:37,Newborn,Newborn pallor,Born at UNH,Community Health Fund,27/09/2024 14:07,Discharged
+581,469,66,27/09/2024 18:08,Emergency,Abdominal pain moving to the right side,Self-referral,Self-pay,05/10/2024 04:07,Discharged
+582,470,66,2024-09-28 07:45:00,Elective,"Diabetes review, high glucose readings",Specialist clinic referral,Self-pay,03/10/2024 00:49,Discharged
+583,471,28,04/10/2024 08:15,Elective,Known CAD for elective angiogram,OPD clinic,N/A,06/10/2024 04:46,Discharged
+584,472,44,05/10/2024 07:24,Urgent,Painful urination and fever,Private clinic referral,Self-pay,08/10/2024 20:50,Discharged
+585,473,28,05/10/2024 11:18,opd,Hypertension review,Self-referral,UNH Staff Scheme,05/10/2024 15:19,Discharged
+586,474,71,06/10/2024 08:30,Elective,Heartburn and acid reflux,Specialist clinic referral,Private Insurance (Plan B),null,DISCH
+587,312,46,09/10/2024 01:03,Emergency,Right upper abdominal pain and fever,Police,Self-pay,11/10/2024 14:57,Discharged
+588,446,80,11/10/2024 10:46,OPD,Elevated BP at clinic,Self-referral,-,11/10/2024 18:25,Discharged
+589,475,42,11/10/2024 13:35,OPD,Low haemoglobin on routine test,OPD clinic,Private Insurance (Plan A),11/10/2024 15:43,Discharged
+590,476,74,12/10/2024 10:15,Elective,"Osteoarthritis of knee, planned surgery",OPD clinic,Government (free care),2024-10-16T06:46,Discharged
+591,287,77,13/10/2024 08:32,Emergency,Dehydration after diarrhoea,,Government (free care),11/10/2024 17:32,Discharged
+183,167,19,27/11/2022 21:40,URGENT,"Cough, fever and difficulty breathing",Health   Centre III referral,Self-pay,28/11/2022 14:12,Discharged
+592,477,25,2024-10-13 11:19:00,Emergency,Central chest discomfort,Ambulance,UNH Staff Scheme,18/10/2024 10:27,Discharged
+593,478,73,14/10/2024 18:35,Emergency,Palpitations and dizziness,Police,?,18/10/2024 11:04,Discharged
+594,333,80,16/10/2024 00:04,Emergency,Severe central chest pain radiating to left arm,Self-referral,Community Health Fund,25/10/2024 21:28,Discharged
+595,308,70,18/10/2024 11:37,OPD,Low haemoglobin on routine test,Self-referral,UNH Staff Scheme,18/10/2024 15:48,Discharged
+596,479,40,20/10/2024 05:44,Emergency,"Vomiting and diarrhoea, unable to keep fluids",Police,Self-pay,22/10/2024 11:39,Discharged
+597,392,25,21/10/2024 09:45,Elective,"Diabetes review, high glucose readings",OPD clinic,Self-pay,25/10/2024 21:38,Discharged
+598,480,40,21/10/2024 10:12,OPD,Headache with high blood pressure,OPD clinic,Self-pay,21/10/2024 16:12,Discharged
+599,430,78,22/10/2024 13:32,OPD,Lipid review,Self-referral,Community Health Fund,10/22/2024 09:30 PM,Discharged
+600,285,44,23/10/2024 20:39,Emergency,Epigastric pain and vomiting,Private clinic referral,Employer Scheme,26/10/2024 02:08,D/C
+601,450,19,24/10/2024 11:08,OPD,Poorly controlled blood sugar,OPD clinic,-,24/10/2024 17:57,Discharged
+602,481,81,27/10/2024 10:00,Elective,"CKD review, for fistula creation",OPD clinic,Community Health Fund,29/10/2024 10:19,Discharged
+603,482,19,28/10/2024 17:09,Emergency,Reduced urine output and swelling,Health Centre IV referral,N/A,02/11/2024 08:24,Discharged
+604,674,77,30/10/2024 09:51,OPD,Painful urination and fever,OPD clinic,Community Health Fund,30/10/2024 12:16,Discharged
+605,483,65,31/10/2024 00:06,Emergency,Black tarry stools and dizziness,?,Government (free care),04/11/2024 06:12,Discharged
+606,484,39,01/11/2024 10:42,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,03/11/2024 19:21,Discharged
+607,485,28,02/11/2024 13:20,OPD,Headache with high blood pressure,OPD clinic,Self-pay,02/11/2024 20:27,Discharged
+608,486,60,03/11/2024 00:05,Emergency,Right upper abdominal pain and fever,Self-referral,Community Health Fund,11/05/2024 11:24 PM,Discharged
+609,487,4,04/11/2024 08:30,Elective,"Diabetes review, high glucose readings",OPD clinic,Private Insurance (Plan A),09/11/2024 07:21,Discharged
+610,669,40,04/11/2024 08:47,OPD,Elevated BP at clinic,Self-referral,Government (free care),04/11/2024 14:17,Discharged
+611,488,77,05/11/2024 17:43,Urgent,Weakness and pallor,Health Centre III referral,Self-pay,10/11/2024 05:36,Discharged
+612,391,28,06/11/2024 04:37,Emergency,Epigastric pain and vomiting,Self-referral,Employer Scheme,10/11/2024 20:43,Discharged
+613,489,25,07/11/2024 14:11,Outpatient,Weakness and pallor,Self-referral,Self-pay,07/11/2024 20:24,Discharged
+614,490,60,09/11/2024 14:26,OPD,Poorly controlled blood sugar,Self-referral,N/A,09/11/2024 17:04,Discharged
+615,491,19,10/11/2024 15:38,OPD,"Epigastric burning, planned endoscopy",Self-referral,UNH Staff Scheme,10/11/2024 19:55,Discharged
+616,493,28,14/11/2024 05:35,Emergency,Respiratory distress,  Ambulance,Self-pay,24/11/2024 19:08,Discharged
+617,492,25,14/11/2024 14:29,Outpatient,HIGH CHOLESTEROL ON SCREENING,OPD clinic,Private Insurance (Plan B),14/11/2024 20:15,Discharged
+618,450,25,16/11/2024 15:46,OPD,Tobacco use counselling,Self-referral,Self-pay,16/11/2024 20:20,Discharged
+619,494,19,19/11/2024 05:27,Urgent,Painful urination and fever,Health Centre III referral,UNH Staff Scheme,22/11/2024 21:01,Discharged
+620,495,25,19/11/2024 18:59,Emergency,Dehydration after diarrhoea,Health Centre IV referral,N/A,21/11/2024 15:54,Discharged
+621,368,66,20/11/2024 02:52,Emergency,Fainting episode,Health Centre IV referral,Self-pay,22/11/2024 20:04,Discharged
+622,496,7,20/11/2024 10:22,Emergency,Convulsions,Ambulance,Employer Scheme,24/11/2024 05:21,Discharged
+623,497,19,20/11/2024 15:49,Emergency,Severe upper abdominal pain radiating to back,Police,Community Health Fund,23/11/2024 03:49,DISCH
+624,498,39,22/11/2024 21:41,Casualty,Fainting episode,Self-referral,Employer Scheme,27/11/2024 11:12,Discharged
+625,499,43,26/11/2024 17:38,Emergency ,Right lower abdominal pain and vomiting,Ambulance,Self-pay,04/12/2024 18:43,Discharged
+587,312,46,09/10/2024 01:03,Emergency,RIGHT UPPER ABDOMINAL PAIN AND FEVER,Police,Self-pay,11/10/2024 14:57,Discharged
+626,441,60,28/11/2024 09:00,Emergency,"Severe difficulty breathing, drowsy",Self-referral, GOVERNMENT (FREE CARE)  ,05/12/2024 22:24,Discharged
+627,500,38,29/11/2024 08:15,Elective,Poorly controlled blood sugar,Specialist clinic referral,Community Health Fund,30/11/2024 13:00,Discharged
+628,501,77,01/12/2024 22:49,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,12/04/2024 05:05 PM,Discharged
+629,422,42,02/12/2024 11:49,EMERGENCY,Severe upper abdominal pain radiating to back,Self-referral,Self-pay,07/12/2024 00:42,Discharged
+630,405,80,03/12/2024 08:03,OPD,Headache with high blood pressure,OPD clinic,Government (free care),03/12/2024 11:23,Discharged
+631,502,66,12/04/2024 06:20 AM,Urgent,Central chest discomfort,Private clinic referral,-,07/12/2024 15:13,Discharged
+632,228,45,04/12/2024 07:24,Emergency,Severe upper abdominal pain radiating to back,Self-referral,Self-pay,12/12/2024 08:53,Discharged
+633,503,65,07/12/2024 04:31,Urgent,Weakness and pallor,Self-referral,UNH Staff Scheme,09/12/2024 04:04,D/C
+634,474,46,11/12/2024 14:16,Emergency,Sudden weakness of right side and slurred speech,Police,Self-pay,13/12/2024 16:58,Died
+635,238,25,13/12/2024 20:10,Emergency,Reduced urine output and swelling,Private clinic referral,Community Health Fund,17/12/2024 21:13,Discharged
+636,504,77,19/12/2024 13:59,Urgent,Raised creatinine and vomiting,Health Centre IV referral,Private Insurance (Plan B),24/12/2024 11:34,Discharged
+637,505,60,20/12/2024 13:04,OPD,"Epigastric burning, planned endoscopy",?,Government (free care),20/12/2024 17:51,Discharged
+638,436,4,21/12/2024 12:32,OPD,Heartburn and acid reflux,OPD clinic,UNH Staff Scheme,21/12/2024 14:54,Discharged
+639,347,7,22/12/2024 13:41,OPD,Smoking cessation review,OPD clinic,Self-pay,22/12/2024 18:28,Discharged
+640,506,25,29/12/2024 07:29,Urgent,Dehydration after diarrhoea,Private clinic referral,Government (free care),,Discharged
+491,286,22,03/05/2024 17:24,Emergency,"Cough, fever and difficulty breathing",Self-referral,Private Insurance (Plan B),07/05/2024 10:41,Discharged
+641,507,19,04/01/2025 05:23,Urgent,"Chest pain, cause unclear",?,Self-pay,08/01/2025 06:04,Discharged
+642,508,78,05/01/2025 15:51,Day Case,Painful urination and fever,OPD clinic,Self-pay,,Discharged
+643,509,25,06/01/2025 14:41,Day Case,Tobacco use counselling,Self-referral,Employer Scheme,06/01/2025 20:30,Discharged
+644,444,44,07/01/2025 10:45,Emergency, Fainting episode,Health Centre IV referral,Community Health Fund,10/01/2025 17:30,Discharged
+645,510,4,07/01/2025 11:42,Urgent,Palpitations and dizziness,Health Centre III referral,Self-pay,10/01/2025 02:03,Discharged
+646,511,4,07/01/2025 23:03,Emergency,"Severe difficulty breathing, drowsy",Ambulance,,13/01/2025 07:56,Discharged
+647,512,70,09/01/2025 12:22,Outpatient,"Epigastric burning, planned endoscopy",Self-referral,Self-pay,09/01/2025 20:00,Discharged
+343,279,70,15/08/2023 12:51,EMERG,Dehydration after diarrhoea,Health Centre IV referral,Self-pay,19/08/2023 07:38,Discharged
+648,452,44,10/01/2025 17:56,Emergency,Acute asthma attack,Health Centre IV referral,Self-pay,13/01/2025 00:21,D/C
+649,513,21,12/01/2025 09:15,Elective,"Gallstones, planned surgery",N/A,Self-pay,16/01/2025 14:13,Discharged
+650,514,4,17/01/2025 14:27,OPD,"Epigastric burning, planned endoscopy",OPD clinic,Self-pay,17/01/2025 19:53,Discharged
+651,472,19,19/01/2025 00:41,A&E,"Worsening shortness of breath, cannot lie flat",Self-referral,UNH Staff Scheme,30/01/2025 10:26,Discharged
+652,515,60,20/01/2025 10:56,Emergency,"Hit head, brief loss of consciousness",Self-referral,Government (free care),22/01/2025 20:40,DISCHARGED
+653,332,25,22/01/2025 04:34,Emergency,Abdominal pain moving to the right side,Self-referral,Self-pay,30/01/2025 20:41,Discharged
+654,516,18,22/01/2025 12:03,OPD,Tobacco use counselling,OPD clinic,Self-pay,22/01/2025 19:30,Discharged
+655,517,70,2025-01-22T14:32,Emergency,Sudden shortness of breath and chest pain,Private clinic referral,Self-pay,02/02/2025 05:42,Discharged
+656,491,66,25/01/2025 08:25,OPD,Smoking cessation review,OPD clinic,Self-pay,25/01/2025 15:26,Discharged
+657,518,28,27/01/2025 22:34,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,UNH Staff Scheme,30/01/2025 04:40,Discharged
+658,519,22,31/01/2025 22:40,Newborn,Newborn pallor,Born at UNH,Government (free care),,Discharged
+659,520,4,03/02/2025 16:54,Emergency,Right lower abdominal pain and vomiting,Self-referral,Self-pay,13/02/2025 11:07,Discharged
+660,401,65,04/02/2025 09:51,OPD,Elevated BP at clinic,Self-referral,Self-pay,04/02/2025 17:11,DISCH
+661,521,69,06/02/2025 10:43,Emergency,Severe pain under right ribs after meals,Self-referral,Self-pay,09/02/2025 08:02,Discharged
+662,522,4,07/02/2025 05:15,Emergency,Severe pain under right ribs after meals,Health Centre IV referral,Government (free care),10/02/2025 00:34,Discharged
+663,523,44,07/02/2025 07:26,Urgent,Elevated BP at clinic,Private clinic referral,Self-pay,10/02/2025 04:36,Discharged
+664,524,38,07/02/2025 23:15,Emergency,"Chest pain, cause unclear",Self-referral,Self-pay,12/02/2025 19:00,Discharged
+665,525,39,09/02/2025 12:30,Urgent,Reduced urine output and swelling,Self-referral,Private Insurance (Plan A),10/02/2025 15:41,Discharged
+666,526,44,02/09/2025 04:26 PM,Emergency,"Hit head, brief loss of consciousness",Self-referral,Government (free care),13/02/2025 00:11,Discharged
+667,458,38,10/02/2025 03:52,Emergency,Seizure at home,Health Centre IV referral,Private Insurance (Plan A),2025-02-17 17:51:00,Discharged
+100,93,60,26/06/2022 18:43,Emergency,Raised creatinine and vomiting,Health Centre IV referral,Government (free care),07/07/2022 11:53,Discharged
+668,513,51,10/02/2025 04:00,Emergency,"Chest pain, cause unclear",Self-referral,Employer Scheme,2025-02-13T06:47,Discharged
+669,527,60,14/02/2025 14:44,Urgent,Weakness and pallor,Self-referral,Government (free care),19/02/2025 04:00,Discharged
+670,397,31,17/02/2025 09:00,Elective,Known CAD for elective angiogram,Specialist clinic referral,UNH Staff Scheme,18/02/2025 19:46,Discharged
+671,528,4,18/02/2025 20:19,Emergency,"Severe difficulty breathing, drowsy",Self-referral,Government (free care),2025-02-21 00:43:00,Discharged
+672,529,7,23/02/2025 12:45,OPD,Heartburn and acid reflux,Self-referral,Self-pay,23/02/2025 18:11,Discharged
+673,522,44,24/02/2025 10:17,OPD,Hypertension review,Self-referral,Employer Scheme,24/02/2025 14:12,Discharged
+674,523,10,27/02/2025 08:40,OPD,Low haemoglobin on routine test,OPD clinic,Government (free care),27/02/2025 12:36,Discharged
+675,357,73,27/02/2025 12:24,OPD,Elevated BP at clinic,-,UNH Staff Scheme,27/02/2025 18:28,Discharged
+676,530,65,27/02/2025 13:08,OPD,Tobacco use counselling,OPD clinic,Community Health Fund,27/02/2025 17:53,Discharged
+677,531,42,04/03/2025 01:36,Emergency,"Cough, fever and difficulty breathing",Ambulance,Self-pay,08/03/2025 23:43, DISCHARGED  
+678,532,7,05/03/2025 13:02,OPD,Review of thyroid replacement,OPD clinic,Employer Scheme,05/03/2025 20:30,Discharged
+679,533,10,08/03/2025 21:04,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Government (free care),10/03/2025 07:47,Discharged
+680,534,45,09/03/2025 15:15,Emergency,Raised creatinine and vomiting,Health Centre IV referral,Self-pay,20/03/2025 16:07,Discharged
+681,535,74,10-03-2025 10:45,Elective,Known CAD for elective angiogram,Specialist clinic referral,Employer Scheme,16/03/2025 04:20,Discharged
+682,536,69,13/03/2025 16:35,Emergency,Irregular   heartbeat,Health Centre IV referral,,15/03/2025 12:07,Discharged
+683,506,43,14/03/2025 15:51,OPD,"Diabetes review, high glucose readings",OPD clinic,UNH Staff Scheme,14/03/2025 19:24,Discharged
+684,537,74,15/03/2025 10:15,Elective,"CKD review, for fistula creation",OPD clinic,Community Health Fund,19/03/2025 14:32,Discharged
+685,538,70,18/03/2025 17:12,Emergency,"Fever, rigors and confusion",Health Centre IV referral,Self-pay,22/03/2025 22:49,Died
+686,539,70,24/03/2025 08:34,Born in Hospital,Newborn with fast breathing,Born at UNH,UNH Staff Scheme,0000-00-00,Discharged
+687,381,66,25/03/2025 17:16,Emergency,severe upper abdominal pain radiating to back,Self-referral,Self-pay,31/03/2025 18:32,Discharged
+688,540,28,26/03/2025 08:08,Urgent,Productive cough and chest pain,Private clinic referral,Private Insurance (Plan B),31/03/2025 01:39,Discharged
+689,541,40,26/03/2025 10:49,OPD,Low haemoglobin on routine test,Self-referral,Self-pay,26/03/2025 16:16,Discharged
+690,543,78,28/03/2025 11:03,OPD,N/A,Self-referral,Self-pay,28/03/2025 18:17,Discharged
+691,542,42,28/03/2025 14:43,Urgent,Elevated BP at clinic,Health Centre IV referral,Private Insurance (Plan A),01/04/2025 03:27,Discharged    
+692,545,46,29/03/2025 07:46,Emergency,Abdominal pain moving to the right side,Police,Employer Scheme,2025-04-09 16:26:00,Discharged
+693,544,25,29/03/2025 09:05,OPD,Review of thyroid replacement,Self-referral,Self-pay,29/03/2025 15:05,Discharged
+694,546,22,2025-04-03T11:15,Emergency,Severe upper abdominal pain radiating to back,Self-referral,UNH Staff Scheme,13/04/2025 13:29,D/C
+695,547,77,06/04/2025 00:09,Emergency,Productive cough and chest pain,Self-referral,UNH Staff Scheme,10/04/2025 23:37,Discharged
+696,548,3,10/04/2025 09:45,Elective,"Epigastric burning, planned endoscopy",OPD clinic,Private Insurance (Plan A),N/A,Discharged
+697,549,42,12/04/2025 15:35,Newborn,Newborn pallor,Born at UNH,Government (free care),16/04/2025 07:51,Discharged
+698,550,46,14/04/2025 09:18,Emergency,High fever with low blood pressure,Self-referral,Self-pay,17/04/2025 02:40,Discharged
+699,551,17,15/04/2025 03:36,Emergency,Irregular heartbeat,Private clinic referral,UNH Staff Scheme,18/04/2025 23:02,D/C
+700,400,77,15/04/2025 04:24,Emergency,Convulsions,Ambulance,Self-pay,23/04/2025 17:41,Discharged
+701,552,10,15/04/2025 11:32,Urgent,Weakness and pallor,Private clinic referral,UNH Staff Scheme,18/04/2025 00:51,Discharged
+702,553,78,16/04/2025 13:03,OPD,Heartburn and acid reflux,OPD clinic,Self-pay,16/04/2025 16:56,Discharged
+703,554,25,18/04/2025 09:47,Emergency,Central chest discomfort,Health Centre IV referral,Self-pay,22/04/2025 22:54,Discharged
+704,524,28,20/04/2025 22:02,Emergency,"Hit head, brief loss of consciousness",Self-referral,Self-pay,24/04/2025 03:50,Discharged
+438,356,28,23/01/2024 06:51,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Community Health Fund,-,Discharged
+131,120,39,12/08/2022 13:10,Urgent,Palpitations and dizziness,Private clinic referral,Private Insurance (Plan B)  ,,Discharged
+705,555,7,24/04/2025 09:15,Elective,"Diabetes review, high glucose readings",OPD clinic,Employer Scheme,null,Discharged
+706,556,44,25/04/2025 11:03,OPD,Review of thyroid replacement,OPD clinic,  Self-pay,,Discharged
+707,408,73,26/04/2025 04:45,Emergency,Chest pain and sweating,Private clinic referral,Employer Scheme,03/05/2025 01:02,Died
+708,557,10,26/04/2025 06:38,Urgent,Collapsed at home,Health Centre IV referral,UNH Staff Scheme,28/04/2025 02:42,Discharged
+709,558,78,26/04/2025 12:53,Emergency,Chest pain and sweating,Ambulance,Self-pay,05/01/2025 04:48 PM,Discharged
+710,559,25,27/04/2025 18:59,Urgent,Severe pain under right ribs after meals,Health Centre III referral,Self-pay,01/05/2025 11:08,Discharged
+711,560,28,28/04/2025 20:00,Urgent,Collapsed at home,Health Centre III referral,Self-pay,01/05/2025 13:26,Discharged
+712,561,43,29/04/2025 04:52,URGENT,Reduced urine output and swelling,Self-referral,Self-pay,30/04/2025 21:06,Discharged
+713,562,38,30/04/2025 09:27,Emergency,Dehydration after diarrhoea,Health Centre IV referral,Government (free care),04/05/2025 15:13,Discharged
+714,426,71,30/04/2025 10:45,Elective,Worsening kidney function,OPD clinic,Self-pay,,Discharged
+715,563,46,01/05/2025 11:34,OPD,Lower abdominal pain and frequent urination,Self-referral,Government (free care),01/05/2025 14:02,Discharged
+716,435,60,02/05/2025 23:06,A&E,Severe pain under right ribs after meals,Self-referral,  Employer Scheme,05/04/2025 05:06 AM,Discharged
+717,564,66,03/05/2025 00:45,Urgent,Productive cough and chest pain,Health Centre IV referral,Employer Scheme,06/05/2025 05:28,Discharged
+718,565,19,03/05/2025 10:36,URG,"Vomiting and diarrhoea, unable to keep fluids",Self-referral,Self-pay,08/05/2025 08:57,Discharged
+719,566,44,04/05/2025 20:02,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,08/05/2025 17:41,Discharged
+720,567,42,07/05/2025 09:43,OPD,Weakness and pallor,Self-referral,UNH Staff Scheme,07/05/2025 12:08,Discharged
+721,568,46,2025-05-08 18:50:00,Urgent,hypertension REVIEW,Health Centre III referral,Employer Scheme,09/05/2025 15:56,Discharged
+722,569,22,10/05/2025 23:31,Urgent,Acute asthma attack,Health Centre III referral,Private Insurance (Plan B),14/05/2025 01:25,Discharged
+723,570,3,11/05/2025 08:15,Elective,"Chronic knee pain, for knee replacement",?,Self-pay,15/05/2025 05:58,Discharged
+724,548,78,2025-05-11 09:47:00,OPD,Hypertension review, OPD clinic,Self-pay,11/05/2025 11:59,Discharged
+725,571,19,11/05/2025 10:45,Elective,"CKD review, for fistula creation",OPD clinic,Self-pay,13/05/2025 05:43,Discharged
+726,404,39,13/05/2025 21:09,Emergency,Fainting episode,Self-referral,Employer Scheme,,Discharged
+727,572,45,14/05/2025 09:31,OPD,Heartburn and acid reflux,Self-referral,UNH Staff Scheme,2025-05-14 17:22:00,Discharged
+728,573,28,15/05/2025 13:58,Outpatient,Low haemoglobin on routine test,OPD clinic,UNH Staff Scheme,15/05/2025 17:38,Discharged
+729,346,69,2025-05-18 17:24:00,Emergency,Vomiting blood,Ambulance,Employer Scheme,23/05/2025 04:36,Discharged
+730,575,65,05-19-2025 00:55,URGENT,Dehydration after diarrhoea,Health Centre IV referral,Self-pay,23/05/2025 11:32,Discharged
+731,574,25,19/05/2025 08:06,OPD,Weakness and pallor,Self-referral,Self-pay,19/05/2025 13:57,Discharged
+732,576,69,20/05/2025 22:56,Emergency,Severe wheeze not relieved by inhaler,Private clinic referral,Self-pay,25/05/2025 05:19,Discharged
+733,577,49,05/21/2025 08:30 AM,Elective,?,Specialist clinic referral,Self-pay,26/05/2025 20:51,Discharged
+734,579,39,22/05/2025 05:17,Urgent,Severe pain under right ribs after meals,Health Centre III referral,Employer Scheme,25/05/2025 02:21,Discharged
+735,578,71,22/05/2025 09:45,Elective,"Recurrent biliary colic, for cholecystectomy",Specialist clinic referral,Government (free care),24/05/2025 15:51,Discharged
+736,580,44,26/05/2025 08:03,OPD,"Fatigue and weight gain, known hypothyroid",Self-referral,Government (free care),26/05/2025 11:03,Discharged
+737,256,39,2025-05-26 13:20:00,OPD,"Epigastric burning, planned endoscopy",Self-referral,Self-pay,26/05/2025 19:08,Discharged
+738,581,65,28/05/2025 09:15,Elective,Heartburn and acid reflux,OPD clinic,Government (free care),01/06/2025 16:23,Discharged
+739,429,60,03/06/2025 00:53,Emergency,Central chest discomfort,Ambulance,Employer Scheme,04/06/2025 17:54,DISCH
+740,582,44,08/06/2025 19:36,Emergency,Hip injury after fall,Private clinic referral,Self-pay,11/06/2025 08:27,Discharged
+741,583,73,09/06/2025 11:21,Newborn,"Healthy newborn, delivered at UNH",null,Self-pay,11/06/2025 07:15,Discharged
+742,584,73,12/06/2025 08:00,Elective,Heartburn and acid reflux,Specialist clinic referral,N/A,15/06/2025 16:02,Discharged
+743,585,28,13/06/2025 12:54, URGENT  ,Painful urination and fever,Health Centre III referral,Self-pay,15/06/2025 22:28,Discharged
+744,586,78,14/06/2025 04:25,EMERGENCY,Severe pain under right ribs after meals,Police,Government (free care),17/06/2025 04:53,Discharged
+745,587,70,15/06/2025 16:25,Emergency,"Worsening shortness of breath, cannot lie flat",Police,Community Health Fund,2025-06-18T20:26,Discharged
+746,588,65,16/06/2025 01:49,Urgent,Severe pain under right ribs after meals,Self-referral,Self-pay,-,Discharged
+747,589,73,17/06/2025 00:01,Urgent,Reduced urine output and swelling,Health Centre III referral,Self-pay,21/06/2025 05:45,Discharged
+748,590,69,18/06/2025 17:17,Emergency,"Worsening shortness of breath, cannot lie flat",Ambulance,Self-pay,null,Discharged
+749,591,60,19/06/2025 07:29,Emergency,"Cough, fever and difficulty breathing",Self-referral,UNH Staff Scheme,22/06/2025 18:25,Discharged
+750,592,38,20/06/2025 03:46,Urgent,Severe pain under right ribs after meals,Health Centre IV referral,Community Health Fund,2025-06-21T09:46,DISCH
+751,461,19,20/06/2025 15:57,OPD,Headache with high blood pressure,OPD clinic,Self-pay,20/06/2025 22:29,Discharged
+752,593,17,22/06/2025 23:57,Emergency,Severe wheeze not relieved by inhaler,Ambulance,Community Health Fund,26/06/2025 14:13,Discharged
+753,594,73,23/06/2025 10:00,Elective,Worsening kidney function,Specialist clinic referral,Private Insurance (Plan A),29/06/2025 01:39,Discharged
+754,595,66,25/06/2025 11:18,EMERG,"Fever, rigors and confusion",Self-referral,UNH Staff Scheme,30/06/2025 00:00,Discharged
+755,413,40,26/06/2025 18:28,Urgent,Severe pain under right ribs after meals,Self-referral,Self-pay,29/06/2025 08:37,Discharged
+756,596,44,06/30/2025 02:19 AM,Emergency,"Fever, rigors and confusion",Ambulance,Self-pay,06/07/2025 00:27,Died
+757,597,7,03/07/2025 16:12,Emergency,Respiratory distress,Police,Self-pay,13/07/2025 04:18,Discharged
+758,598,19,05/07/2025 04:43,Emergency,"Chest pain, cause unclear",Private clinic referral,Self-pay,07/07/2025 12:21,Discharged
+759,599,28,10/07/2025 20:15,Urgent,Severe pain under right ribs after meals,Private clinic referral,Government (free care),11/07/2025 16:29,DISCH
+760,600,77,07/11/2025 11:02 AM,Urgent,Reduced urine output and swelling,Health Centre IV referral,Self-pay,15/07/2025 20:54,Discharged
+761,601,10,12/07/2025 08:34,Emergency,Breathlessness after long bus journey,,Self-pay,17/07/2025 07:36,Discharged
+762,602,40,12/07/2025 14:48,OPD,High cholesterol on screening,OPD clinic,Government (free care),12/07/2025 19:09,Discharged
+763,819,31,14/07/2025 08:15,Elective,"Chronic knee pain, for knee replacement",Specialist clinic referral,Government (free care),18/07/2025 18:55,Discharged
+764,604,39,21/07/2025 01:22,Newborn,"Healthy newborn, delivered at UNH",Born at UNH, UNH Staff Scheme,23/07/2025 06:42,Discharged
+765,605,25,21/07/2025 17:22,Emergency,Fainting episode,Self-referral,Self-pay,23/07/2025 21:08,D/C
+766,606,43,24/07/2025 05:30,Emergency,Collapsed at home,Ambulance,Self-pay,28/07/2025 04:28,Discharged
+767,454,3,26/07/2025 10:00,Booked,"Recurrent biliary colic, for cholecystectomy",Specialist clinic referral,?,29/07/2025 01:16,Discharged
+768,607,19,27/07/2025 17:28,Emergency,Seizure at home,Health Centre IV referral,Government (free care),29/07/2025 18:09,Discharged
+769,441,25,28/07/2025 11:01,Urgent,Central chest discomfort,Private clinic referral,UNH Staff Scheme,29/07/2025 04:05,Discharged
+770,608,60,29/07/2025 04:06,Emergency,Productive cough and chest pain,Private clinic referral,Self-pay,30/07/2025 10:23,Discharged
+771,609,38,29/07/2025 20:04,Emergency,Epigastric pain and vomiting,Police,Community Health Fund,02/08/2025 13:09,Discharged
+772,610,48,31/07/2025 00:12,Emergency,Abdominal pain moving to the right side,Ambulance,Self-pay,06/08/2025 23:04,Discharged
+773,611,25,2025-07-31 10:18:00,Urgent,Raised creatinine and vomiting,Private clinic referral,Government (free care),03/08/2025 06:36,Discharged
+774,612,60,31/07/2025 14:10,Newborn,Newborn pallor,Born at UNH,Private Insurance (Plan B),04/08/2025 09:16,DISCH
+775,613,69,07/31/2025 03:29 PM,Urgent,Severe pain under right ribs after meals,Self-referral,N/A,08/03/2025 06:21 PM,Discharged
+776,614,65,31/07/2025 21:36,Emergency,"Fever, rigors and confusion",  Self-referral,-,10/08/2025 07:25,Discharged
+777,615,80,02/08/2025 23:36,Urgent,Severe pain under right ribs after meals,Health Centre IV referral,Self-pay,05/08/2025 06:08,Discharged
+778,616,22,03/08/2025 08:47,Urgent,Central chest discomfort,Health Centre III referral,UNH Staff Scheme,04/08/2025 18:14,Discharged
+779,617,28,04/08/2025 00:55,Urgent,Severe wheeze not relieved by inhaler,Private clinic referral,Self-pay,04/08/2025 16:29,Discharged
+780,618,80,05/08/2025 21:54,Transfer In,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,0000-00-00,Discharged
+781,619,78,07/08/2025 23:40,Emergency,Epigastric pain and vomiting,Self-referral,Private Insurance (Plan A),13/08/2025 17:07,D/C  
+782,620,22,09/08/2025 13:35,OPD,Lower abdominal pain and frequent urination,Self-referral,UNH Staff Scheme,09/08/2025 15:48,Discharged
+783,622,73,10/08/2025 10:01,OPD,Low haemoglobin on routine test,OPD clinic,Self-pay,2025-08-10 16:46:00,Discharged
+784,621,46,10/08/2025 12:54,OPD,Weakness and pallor,Self-referral,Community Health Fund,10/08/2025 16:02,Discharged
+785,623,44,14/08/2025 11:26,OPD,Weakness and pallor,Self-referral,Government (free care),14/08/2025 19:07,Discharged  
+786,624,46,16/08/2025 07:00,Elective,Poorly controlled blood sugar,OPD clinic,Employer Scheme,19/08/2025 23:24,Discharged
+352,288,47,29/08/2023 21:15,Emergency,High fever with low blood pressure,null,UNH Staff Scheme,09/09/2023 01:40,Deceased
+787,625,10,19/08/2025 10:15,Elective,Known CAD for elective angiogram,Specialist clinic referral,Private Insurance (Plan B),20/08/2025 20:30,Discharged
+788,565,51,20/08/2025 11:56,Urgent,Lower abdominal pain and frequent urination,Self-referral,Private Insurance (Plan B),21/08/2025 23:43,Discharged
+789,404,25,21/08/2025 06:36,Emergency,Head injury after road traffic accident,Self-referral,Private Insurance (Plan B),23/08/2025 18:20,   Discharged
+790,626,65,22/08/2025 10:09,Urgent,Acute asthma attack,Health Centre IV referral,Government (free care),2025-08-27T08:19,Discharged
+791,627,60,25/08/2025 11:24,Urgent,Elevated BP at clinic,Self-referral,Employer Scheme,28/08/2025 19:21,Discharged
+792,583,65,26/08/2025 11:32,Emergency,Severe wheeze not relieved by inhaler,Ambulance,Self-pay,30/08/2025 08:14,Discharged
+793,628,3,28/08/2025 07:30,Elective,"Recurrent biliary colic, for cholecystectomy",Specialist clinic referral,Self-pay,29/08/2025 19:58,Discharged
+794,629,60,28/08/2025 21:35,Emergency,Reduced urine output and swelling,Self-referral,Self-pay,01/09/2025 08:13,Discharged
+795,630,40,29/08/2025 04:11,Emergency,Severe wheeze not relieved by inhaler,Private clinic referral,Government (free care),02/09/2025 03:33,Discharged
+796,631,44,08/29/2025 10:21 AM,Urgent,Low haemoglobin on routine test,Health Centre III referral,Self-pay,01/09/2025 07:39,Discharged    
+797,632,65,31/08/2025 13:41,Urgent,"Chest pain, cause unclear",Private clinic referral,Government (free care),01/09/2025 22:55,Discharged
+798,633,22,09/02/2025 07:46 PM,Urgent,"Cough, fever and difficulty breathing",Private clinic referral,Self-pay,06/09/2025 11:12,Discharged
+799,634,45,07/09/2025 10:45,Elective,Poorly controlled blood sugar,Specialist clinic referral,Private Insurance (Plan A),11/09/2025 06:51,Discharged
+800,635,21,08/09/2025 09:30,,"Recurrent biliary colic, for cholecystectomy",Specialist clinic referral,Self-pay,10/09/2025 02:49,Discharged
+801,636,19,10/09/2025 00:44,Emergency,Raised creatinine and vomiting,Police,Community Health Fund,12/09/2025 01:22,Discharged
+802,637,69,12/09/2025 07:08,Emergency,"Worsening cough and wheeze, known COPD",Self-referral,Community Health Fund,13/09/2025 20:19,D/C
+803,638,60,16/09/2025 08:57,OPD,Low haemoglobin on routine test,OPD clinic,Self-pay,16/09/2025 12:44,Discharged
+804,639,39,17/09/2025 08:41,OPD,Weakness and pallor,,Self-pay,17/09/2025 10:56,Discharged
+805,640,65,18/09/2025 16:11,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,20/09/2025 23:08,Discharged
+806,459,43,20/09/2025 22:08,Emergency,Breathlessness after long bus journey,Private clinic referral,Government (free care),25/09/2025 14:09,Discharged
+807,561,73,24/09/2025 02:25,Emergency,Head injury after road traffic accident,Self-referral,Self-pay,26/09/2025 13:58,Discharged
+808,641,70,25/09/2025 11:18,Emergency,Reduced urine output and swelling,Private clinic referral,Self-pay,0000-00-00,Discharged
+809,642,21,27/09/2025 08:00,Elective,"CKD review, for fistula creation",Specialist clinic referral,Self-pay,03/10/2025 00:38,Discharged
+810,643,39,29/09/2025 22:24,Emergency,Sudden weakness of right side and slurred speech,Police,Employer Scheme,05/10/2025 09:58,RIP
+811,644,77,30/09/2025 16:36,Emergency,Breathlessness after long bus journey,Police,Government (free care),05/10/2025 05:26,Discharged
+57,54,39,08/04/2022 17:44,Emergency,Right upper abdominal pain and fever,Self-referral,Employer Scheme,11/04/2022 14:03,Discharged
+812,645,43,05/10/2025 19:28,Emergency,"Cough,  fever and difficulty breathing",Health Centre IV referral,N/A,06/10/2025 21:34,Discharged
+813,646,46,05/10/2025 22:29,Urgent,"Vomiting and diarrhoea, unable to keep fluids",Health Centre IV referral,Community Health Fund,07/10/2025 23:49,Discharged
+814,578,46,06/10/2025 13:14,Emergency,High fever with low blood pressure,Private clinic referral,Private Insurance (Plan A),15/10/2025 21:21,Discharged
+815,647,19,06/10/2025 13:26,OPD,"Fatigue and weight gain, known hypothyroid",OPD clinic,Self-pay,06/10/2025 20:46,Discharged    
+816,648,28,10/06/2025 02:44 PM,OPD,Low haemoglobin on routine test,Self-referral,Self-pay,2025-10-06 17:47:00,Discharged
+817,550,65,09/10/2025 20:57,Emergency,Right upper abdominal pain and fever,Police,Self-pay,11/10/2025 09:05,Discharged
+818,576,10,11/10/2025 08:13,Urgent,  Headache with high blood pressure,Health Centre IV referral,Community Health Fund,,D/C
+819,649,43,11/10/2025 08:32,Emergency,Dehydration after diarrhoea,Ambulance,Self-pay,13/10/2025 13:52,Discharged
+820,650,28,12/10/2025 02:29,Emergency,Dehydration after diarrhoea,Police,Employer Scheme,15/10/2025 06:51,Discharged
+821,552,3,12/10/2025 09:45,Elective,Heartburn and acid reflux,Specialist clinic referral,Self-pay,17/10/2025 23:29,Discharged
+793,628,3,28/08/2025 07:30,Elective,"Recurrent biliary colic, for cholecystectomy",Specialist clinic referral,Self-pay,29/08/2025 19:58,Discharged
+822,651,43,19/10/2025 20:33,Casualty,Right lower abdominal pain and vomiting,Ambulance,Self-pay,,Admitted
+823,652,42,21/10/2025 01:17,Newborn,Newborn pallor,Born at UNH,Private Insurance (Plan A),,Admitted
+824,653,31,23/10/2025 08:15,Elective,"Gallstones, planned surgery",Specialist clinic referral,Private Insurance (Plan B),,Admitted
+825,577,69,24/10/2025 08:56,Emergency,Epigastric pain and vomiting,Police,Self-pay,,Still Admitted
+826,654,44,24/10/2025 23:29,Urgent,"Chest pain, cause unclear",Private clinic referral,-,28/10/2025 16:22,Discharged
+827,655,80,25/10/2025 09:29,Emergency,Epigastric pain and vomiting,Ambulance,Employer Scheme,29/10/2025 05:55,Discharged
+828,656,25,25/10/2025 23:28,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Private Insurance (Plan A),2025-10-27 06:26:00,Discharged
+829,640,80,26/10/2025 23:30,Emergency,Abdominal pain moving to the right side,Self-referral,Self-pay,,Admitted
+830,568,43,27/10/2025 11:45,OPD,Weakness and pallor,OPD clinic,Self-pay,27/10/2025 17:38,Discharged
+831,657,25,27/10/2025 15:04,OPD,Poorly controlled blood sugar,Self-referral,UNH Staff Scheme,,Admitted
+832,658,65,27/10/2025 19:27,Emergency,Collapsed at home,Health Centre IV referral,Employer Scheme,31/10/2025 07:43,Discharged
+833,659,44,28/10/2025 08:15,Elective,Poorly controlled blood sugar,Specialist clinic referral,Community Health Fund,31/10/2025 09:45,Discharged
+834,660,46,28/10/2025 10:56,Emergency,Head injury after road traffic accident,Self-referral,Government (free care),,Admitted
+835,495,25,19/11/2024 18:59,Emergency,Dehydration after diarrhoea,Health Centre IV referral,Government (free care),21/11/2024 15:54,Discharged
+836,98,74,02/07/2022 09:30,Elective,"Recurrent biliary colic, for cholecystectomy",,Self-pay,07/07/2022 19:34,Discharged
+837,658,65,27/10/2025 19:27,Emergency,Collapsed at home,,Employer Scheme,31/10/2025 07:43,Discharged
+838,52,39,04/04/2022 18:17,urgent,Fainting episode,Health Centre III referral,Community Health Fund,07/04/2022 07:13,Discharged
+839,536,69,13/03/2025 16:35,Emergency,Irregular heartbeat,,Employer Scheme,03/15/2025 12:07 PM,Discharged
+840,388,28,09/04/2024 11:50,OPD,Smoking cessation review,OPD clinic,Self-pay,,  Discharged
+841,614,65,31/07/2025 21:36,Emergency,"FEVER, RIGORS and CONFUSION",Self-referral,,10/08/2025 07:25,Discharged
+842,315,76,26/10/2023 10:00,Elective,"Chronic knee pain, for knee replacement",Specialist clinic referral,Self-pay,29/10/2023 02:36,  Discharged
+843,157,43,04/11/2022 14:46,OPD,High cholesterol on screening,OPD clinic,Private Insurance (Plan B),,Discharged
+844,38,10,14/03/2022 00:52,URGENT,"Vomiting and diarrhoea, unable to keep fluids",Private clinic referral,Private Insurance (Plan A),,Discharged
+845,588,65,16/06/2025 01:49,URGENT,Severe pain under right ribs after meals,Self-referral,Self-pay,20/06/2025 05:41,Discharged
+846,484,39,01/11/2024 10:42,Newborn,"Healthy newborn, delivered at UNH",Born at UNH,Self-pay,03/11/2024 19:21,Discharged
+847,582,44,08/06/2025 19:36,Emergency,Hip injury after fall,Private clinic referral,Self-pay,11/06/2025 08:27,Discharged
+848,144,42,27/05/2023 10:45,Elective,"Epigastric burning, planned endoscopy",OPD clinic,SELF-PAY,29/05/2023 22:48,Discharged
+849,530,65,27/02/2025 13:08,OPD,Tobacco use counselling,,Community Health Fund,27/02/2025 17:53,Discharged
+850,465,19,18/09/2024 06:30,Emergency Dept,Epigastric pain and vomiting,Self-referral,Self-pay,22/09/2024 16:59,Discharged
+851,332,7,04/08/2024 10:38,Day Case,Painful urination and fever,Self-referral,Self-pay,04/08/2024 13:14,Discharged
+852,487,4,04/11/2024 08:30,Elective,"DIABETES review, HIGH glucose READINGS",OPD clinic,Private Insurance (Plan A),,Discharged
+853,249,39,2023-05-22 17:31:00,A&E,Seizure at home,Self-referral ,Private Insurance (Plan B),02/06/2023 17:41,Discharged
+854,382,40,23/03/2024 11:53,Emergency,"Worsening cough and wheeze, known COPD",Police,Community Health Fund,26/03/2024 17:59,Discharged  
+855,259,48,14/06/2023 13:27,Emergency,  Fainting episode,Police,Government (free care),18/06/2023 10:23,Discharged
+856,73,19,09/12/2023 10:15,OPD,Headache with high blood pressure,Self-referral,Self-pay    ,,Discharged
+857,626,65,22/08/2025 10:09,URG,Acute asthma attack,Health Centre IV referral,Government (free care),27/08/2025 08:19,Discharged
+858,240,65,30/04/2023 07:45,Elective,Worsening kidney function,OPD clinic,employer SCHEME,04/05/2023 13:22,Discharged
+859,228,65,09/04/2023 16:56,Urgent,"Cough, fever and difficulty breathing",Health Centre IV referral,Government (free care),11/04/2023 11:34,DISCH

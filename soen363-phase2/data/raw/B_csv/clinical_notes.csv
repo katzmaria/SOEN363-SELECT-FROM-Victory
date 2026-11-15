@@ -1,0 +1,1690 @@
+NoteID,AdmissionNo,AuthorID,NoteCategory,NoteDate,NoteText
+1,1,65,Admission Note,02/01/2022 21:58," ADMITTED WITH HEADACHE, DIZZINESS. IMPRESSION: HYPERTENSION. BP BETTER CONTROLLED AT 138/86.  "
+2,2,19,Admission Note,08/01/2022 17:35,"Admitted with abdominal pain, loss of appetite. Impression: appendicitis. Surgical review done, booked for theatre."
+3,3,78,Admission Note,11/01/2022 02:20,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+4,4,18,Admission Note,12/01/2022 11:23,"Admitted with tiredness, cold intolerance. Impression: hypothyroidism. Symptoms improving on current dose."
+5,2,19,Ward Round Note,12/01/2022 17:12,"Reviewed on ward round, comfortable. Surgical review done, booked for theatre. Plan: continue current management."
+6,6,73,Admission Note,29/01/2022 11:07,Admitted with chest tightness on exertion. Impression: coronary artery disease. Pre-procedure checks done.
+7,7,39,Admission Note,31/01/2022 18:11,"S: fever, vomiting, drowsiness
+O: obs stable
+A: sepsis
+P: Afebrile for 24h, switched to oral antibiotics."
+8,8,19,Admission Note,03-02-2022 07:51,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. IV fluids running, tolerating sips."
+9,7,64,Nursing Note,13/03/2022 20:29," IV LINE RESITED, FLUIDS RUNNING.  "
+10,7,4,Discharge Note,06/02/2022 09:23,"Clinically improved. Remains febrile, BP improved on fluids. Fit for discharge, counselled on medication."
+11,9,80,Admission Note,06/02/2022 18:33,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+12,9,57,Nursing Note,10/02/2022 01:06,"Observations done 4-hourly, no concerns."
+13,12,19,Admission Note,11/02/2022 13:23,"Admitted with haematemesis, dizziness. Impression: GI bleed. 2 units of blood crossmatched, IV PPI started."
+14,11,25,Admission Note,11/02/2022 14:05,"Admitted with chest discomfort, anxiety. Impression: chest pain. Serial troponins negative."
+15,13,28,Admission Note,12/02/2022 11:06,"Admitted with breathlessness, night cough. Impression: acute asthma. Back-to-back nebs given, improving."
+16,11,44,Progress Note,12/02/2022 15:02,"S: chest discomfort, anxiety
+O: obs stable
+A: chest pain
+P: Serial troponins negative."
+17,11,43,Discharge Note,14/02/2022 14:08,"Clinically improved. Serial troponins negative. Fit for discharge, counselled on medication."
+18,12,73,Progress   Note,15/02/2022 02:40,"2 units of blood crossmatched, IV PPI started."
+19,15,69,Admission Note,15/02/2022 05:25,"Admitted with breathlessness, night cough. Impression: acute asthma. Back-to-back nebs given, improving."
+20,16,10,Admission Note,15/02/2022 07:07,"Admitted with sudden breathlessness, pleuritic chest pain. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+21,13,66,Progress Note,15/02/2022 12:07,"Reviewed  on ward round, comfortable. Peak flow 80% of predicted. Plan: continue current management."
+22,12,1,Nursing Note,15/02/2022 23:18,"   Patient says ""I feel better today"", eating well."
+23,15,29,Nursing Note,18/02/2022 02:01,
+24,20,7,Admission Note,18/02/2022 12:15,"Admitted with head injury, vomiting once. Impression: concussion. Headache improving, no new deficits."
+25,19,18,Admission Note,02/18/2022 02:58 PM,"Admitted with fever, chills, confusion. Impression: sepsis. Remains febrile, BP improved on fluids."
+26,16,65,Progress Note,18/02/2022 16:00,"Reviewed on ward round, comfortable. Started anticoagulation. Plan: continue current management."
+27,12,43,Discharge Note,19/02/2022 01:59,"Clinically improved. No further bleeding, Hb stable. Fit for discharge, counselled on medication."
+28,20,19,Ward Round Note,21/02/2022 03:47,"GCS 15/15, neuro obs 2-hourly."
+29,19,1,Nursing Note,02/21/2022 05:22 PM,"Observations done 4-hourly, no concerns."
+30,24,45,Admission Note,22/02/2022 17:44,"Admitted with chest discomfort, anxiety. Impression: chest pain. Serial troponins negative."
+31,25,60,Admission Note,24/02/2022 15:38,Admitted with epigastric pain after meals. Impression: reflux disease. Symptoms improving on omeprazole.
+32,19,39,Progress Note,24/02/2022 20:53,"Started IV antibiotics and fluids, blood cultures sent."
+33,27,25,Admission Note,26/02/2022 11:33,"Admitted with burning urine, lower abdominal pain. Impression: urinary tract infection. Urine dipstick positive, antibiotics started."
+34,28,46,Admission Note,28/02/2022 02:11,"S:   chest pain, shortness of breath, nausea
+O: obs stable
+A: myocardial infarction
+P: ECG shows ST elevation, loaded with aspirin and clopidogrel."
+35,29,43,Admission Note,02/28/2022 02:02 PM,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+36,30,69,Admission Note,28/02/2022 19:55,"S: reduced urine, leg swelling
+O: obs stable
+A: acute kidney injury
+P: Fluid balance chart started, nephrotoxins stopped."
+37,19,69,Discharge Note,28/02/2022 22:04,"Clinically improved. Afebrile for 24h, switched to oral antibiotics. Fit for discharge, counselled on medication."
+38,31,65,Admission Note,01/03/2022 18:58,"Admitted with melaena, weakness. Impression: GI bleed. No further bleeding, Hb stable."
+39,1028,60,Admission Note,02/03/2022 16:59,"Admitted with watery stools, dry mouth. Impression: dehydration. Rehydrated, passing urine well."
+40,33,48,Admission Note,02/03/2022 19:14,"admitted with pain after fatty meals, vomiting. impression: acute cholecystitis. iv antibiotics, nil by mouth."
+41,28,4,Progress Note,03/03/2022 00:39,"Chest pain settled, troponin trending down."
+42,31,25,Ward Round Note,04/03/2022 18:51,"No further bleeding, Hb stable."
+43,28,39,Progress  Note,05/03/2022 08:24,"Reviewed on ward round, comfortable. ECG shows ST elevation, loaded with aspirin and clopidogrel. Plan: continue current management."
+44,28,28,Discharge Note,05/03/2022 15:48,
+45,30,4,Progress Note,05/03/2022 20:05,Creatinine improving.
+46,33,56,Nursing Note,06/03/2022 00:39,"IV line resited, fluids running."
+47,34,7,Admission Note,06/03/2022 08:21,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Diabetic education given."
+48,34,61,Nursing Note,08/03/2022 03:11,"Observations done 4-hourly, no concerns."
+49,30,22,Discharge Note,08/03/2022 18:06,"Clinically  improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+50,35,39,Admission Note,09/03/2022 13:30,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+51,35,73,Ward Round Note,12/03/2022 11:20,"Renal team review, fistula planned."
+52,35,48,Discharge Note,13/03/2022 13:17,"Clinically improved. Renal team review, fistula planned. Fit for discharge, counselled on medication."
+53,38,44,Admission Note,13/03/2022 16:49,"Admitted with epigastric pain after meals. Impression: reflux disease. Started PPI, lifestyle advice given."
+54,37,46,Admission Note,13/03/2022 21:05,"S: severe breathlessness, drowsiness
+O: obs stable
+A: respiratory failure
+P: On high-flow oxygen, ABG repeated."
+55,844,60,Admission Note,14/03/2022 03:48,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. IV fluids running, tolerating sips."
+56,37,29,Nursing Note,15/03/2022 05:17,"IV line resited, fluids running."
+57,38,65,Ward Round Note,15/03/2022 09:46,"Reviewed on ward round, comfortable. Started PPI, lifestyle advice given. Plan: continue current management."
+58,39,36,Nursing Note,17/03/2022 03:38,"Observations done 4-hourly, no concerns."
+59,41,25,Admission Note,17/03/2022 07:19,"S: intermittent right upper quadrant pain
+O: obs stable
+A: gallstones
+P: Consented for laparoscopic cholecystectomy."
+60,38,38,Discharge  Note,17/03/2022 07:38,"Clinically improved. Started PPI, lifestyle advice given. Fit for discharge, counselled on medication."
+61,37,80,Discharge Note,19/03/2022 09:03,"Clinically improved. On high-flow oxygen, ABG repeated. Fit for discharge, counselled on medication."
+62,42,77,Admission Note,19/03/2022 16:44,"Admitted with intermittent right upper quadrant pain. Impression: gallstones. Post-op, wounds clean."
+63,41,40,Progress Note,20/03/2022 00:20,"Reviewed on ward round, comfortable. Consented for laparoscopic cholecystectomy. Plan: continue current management."
+64,43,48,ADMISSION NOTE,20/03/2022 02:55,"S: feeding well
+O: obs stable
+A: well baby
+P: Baby feeding well, mother counselled on breastfeeding."
+65,42,53,Nursing Note,22/03/2022 11:26,"IV line resited, fluids running."
+66,43,40,Progress Note,23/03/2022 11:02,"Baby feeding well, mother counselled on breastfeeding."
+67,47,69,Admission Note,27/03/2022 15:21,Admitted with dizziness then fainted. Impression: syncope. No further episodes overnight.
+68,48,69,Admission Note,28-03-2022 09:59,"Admitted with palpitations, dizziness. Impression: atrial fibrillation. Remains in AF, rate in the 80s."
+69,49,46,Admission Note,29/03/2022 15:10,"Admitted with knee pain, stiffness. Impression: osteoarthritis of knee. Post-op day 2, mobilising with physio."
+70,47,66,Progress Note,29/03/2022 21:16,"S: dizziness then fainted
+O: obs stable
+A: syncope
+P: No further episodes overnight."
+71,47,25,Discharge Note,30/03/2022 17:39,"S: brief loss of consciousness
+O: obs stable
+A: syncope
+P: ECG normal, observe on monitor."
+72,48,22,Ward Round Note,30/03/2022 23:45,"S: palpitations, dizziness
+O: obs stable
+A: atrial fibrillation
+P: Rate controlled on bisoprolol."
+73,50,39,Admission Note,01/04/2022 09:36,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+74,51,60,Admission Note,04/01/2022 01:10 PM,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+75,49,18,Ward Round Note,01/04/2022 19:57,Pre-op assessment complete.
+76,51,56,Nursing Note,04/04/2022 08:07,"Patient says ""I feel better today"", eating well."
+77,53,78,Admission Note,04/04/2022 16:09,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+78,838,44,Admission Note,04/04/2022 23:40,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+79,50,43,Progress Note,05/04/2022 01:11,"S: reduced urine, leg swelling
+O: obs stable
+A: acute kidney injury
+P: Fluid balance chart started, nephrotoxins stopped."
+80,51,77,Progress Note,05/04/2022 12:02,Creatinine improving.
+81,53,7,Ward Round Note,07/04/2022 03:07,"Reviewed on ward round, comfortable. Creatinine improving. Plan: continue current management."
+82,838,38,Ward Round Note,07/04/2022 04:44,"Reviewed on ward round, comfortable. ECG normal, observe on monitor. Plan: continue current management."
+83,51,38,Discharge Note,07/04/2022 09:14,"S: reduced urine, leg swelling
+O: obs stable
+A: acute kidney injury
+P: Fluid balance chart started, nephrotoxins stopped."
+84,50,65,Ward Round Note,07/04/2022 22:52,"Reviewed on ward round, comfortable. Creatinine improving. Plan: continue current management."
+85,55,22,Admission Note,08/04/2022 11:26,"Admitted with bloating after meals. Impression: gallstones. Post-op, wounds clean."
+86,56,43,Admission Note,08/04/2022 13:01, ADMITTED WITH NO COMPLAINTS. IMPRESSION: HYPERTENSION. BP BETTER CONTROLLED AT 138/86.  
+87,57,25,Admission Note,08/04/2022 20:43,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+88,57,25,Ward Round Note,10/04/2022 05:45,"Reviewed on ward round, comfortable. Pain improving, diet reintroduced. Plan: continue current management."
+89,55,18,Ward Round Note,2022-04-11 00:38:00,"Reviewed on ward round, comfortable. Consented for laparoscopic cholecystectomy. Plan: continue current management."
+90,891,70,Discharge Note,11/04/2022 14:54,"Clinically improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+91,53,53,Nursing Note,12/04/2022 02:20,"Patient says ""I feel better today"", eating well."
+92,53,17,Discharge Note,12/04/2022 15:40,"Clinically improved. Creatinine improving. Fit for discharge, counselled on medication."
+93,59,44,Admission Note,13/04/2022 12:25,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+94,60,19,Admission Note,18/04/2022 06:30,Admitted with no complaints. Impression: hypertension. BP better controlled at 138/86.
+95,61,46, ADMISSION NOTE  ,18/04/2022 10:16,"Admitted with abdominal pain radiating to back. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+96,61,72,Nursing Note,22/04/2022 06:15,"Observations done 4-hourly, no concerns."
+97,63,46,Admission Note,23/04/2022 13:12,"admitted WITH PAIN after fatty MEALS, VOMITING. impression: ACUTE CHOLECYSTITIS. iv antibiotics, nil by mouth."
+98,61,10,Ward Round Note,24/04/2022 16:46,"Reviewed on ward round, comfortable. Amylase falling, tolerating clear fluids. Plan: continue current management."
+99,61,4,Discharge Note,2022-04-27 21:42:00,"Clinically improved. Amylase falling, tolerating clear fluids. Fit for discharge, counselled on medication."
+100,64,25,Admission Note,03/05/2022 12:34,"S: chest tightness on exertion
+O: obs stable
+A: coronary artery disease
+P: Pre-procedure checks done."
+101,65,78,Admission Note,13/05/2022 26:55,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+102,67,66,Admission Note,31/11/2022 22:20,Admitted with dizziness then fainted. Impression: syncope. No further episodes overnight.
+103,68,39,Admission Note,13/05/2022 22:53,"Admitted with chest discomfort, anxiety. Impression: chest pain. Serial troponins negative."
+104,65,18,Ward Round Note,15/05/2022 01:07,Hb improved post transfusion.
+105,67,20,Nursing Note,17/05/20025 02:59,"IV line resited, fluids running."
+106,69,73,Admission Note,-,"Admitted with laboured breathing, confusion. Impression: respiratory failure. On high-flow oxygen, ABG repeated."
+107,70,70,Admission Note,19/05/2022 16:57,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+108,71,4,Admission Note,20/05/2022 13:24,"Admitted with chest tightness on exertion. Impression: coronary artery disease. Post angiography, groin site clean and dry."
+109,72,4,admission note,20/05/2022 14:22,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Diabetic education given."
+110,70,29,Nursing Note,21/05/2022 11:30,"Patient says ""I feel better today"", eating well."
+111,69,69,Ward Round Note,21/05/2022 15:54,"Reviewed on ward round, comfortable. On high-flow oxygen, ABG repeated. Plan: continue current management."
+112,70,69,Discharge Note,23/05/2022 02:17,"Clinically improved. Glucose readings 8-12 mmol/L, metformin continued. Fit for discharge, counselled on medication.    "
+113,73,28,Admission Note,23/05/2022 02:48,"S: severe epigastric pain, vomiting
+O: obs stable
+A: pancreatitis
+P: Amylase falling, tolerating clear fluids."
+114,69,78,Discharge Note,23/05/2022 20:32,"clinically improved. weaned to nasal prongs, more alert. fit for discharge, counselled on medication."
+115,71,8,Nursing Note,24/05/2022 14:23,"Observations done 4-hourly, no concerns."
+116,73,22,Progress Note,24/05/2022 16:45,"Aggressive IV fluids, analgesia."
+117,74,40,Admission Note,25/05/2022 03:06,"Admitted with pain in right hip after fall. Impression: hip fracture. Skin traction applied, listed for theatre."
+118,76,60,Admission Note,26/05/2022 09:23,"Admitted with bloating after meals. Impression: gallstones. Post-op, wounds clean."
+119,76,34,Nursing Note,29/05/2022 01:41,"Observations done 4-hourly, no concerns."
+120,74,65,Ward Round Note,29/05/2022 03:00,"Post-op, mobilising with frame."
+121,77,46,Admission Note,29/05/2022 10:35,"Admitted with palpitations, dizziness. Impression: atrial fibrillation. Rate controlled on bisoprolol."
+122,74,39,Discharge Note,30/05/2022 03:47,"Clinically improved. Post-op, mobilising with frame. Fit for discharge, counselled on medication."
+123,77,39,Progress Note,30/05/2022 20:50,"Remains in AF, rate in the 80s."
+124,78,42,Admission Note,31/05/2022 16:56,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Diabetic education given."
+125,79,70,Admission Note,06/01/2022 08:44 AM,"Admitted with increased sputum, breathlessness. Impression: COPD exacerbation. Nebulised salbutamol given, steroids started."
+126,81,40,Admission Note,01/06/2022 20:44,"Admitted with racing heart, breathlessness. Impression: atrial fibrillation. Remains in AF, rate in the 80s."
+127,82,60,Admission Note,02-06-2022 10:43,"Admitted with crushing chest pain, sweating. Impression: myocardial infarction. ECG shows ST elevation, loaded with aspirin and clopidogrel."
+128,80,18,Admission Note,02/06/2022 11:48,"S: abdominal pain radiating to back
+O: obs stable
+A: pancreatitis
+P: Amylase falling, tolerating clear fluids."
+129,1217,79,Nursing Note,03/06/2022 09:02,"Vitals stable, patient comfortable, slept well."
+130,80,N/A,Progress Note,04/06/2022 20:12,"Amylase falling, tolerating clear fluids."
+131,83,4,Admission Note,04/06/2022 23:55,"Admitted with severe breathlessness, drowsiness. Impression: respiratory failure. On high-flow oxygen, ABG repeated."
+132,79,69,Ward Round Note,05/06/2022 05:40,"Wheeze reduced, mobilising on ward."
+133,78,80,Discharge Note,05/06/2022 17:08,"S: tiredness, frequent urination
+O: obs stable
+A: uncontrolled diabetes
+P: Diabetic education given."
+134,82,1,Nursing Note,05/06/2022 22:07,"patient says ""i feel better today"", eating well."
+135,84,80,Admission Note,17/06/2022 22:18,"Admitted with dysuria, frequency, fever. Impression: urinary tract infection. Urine dipstick positive, antibiotics started."
+136,85,60,Admission Note,07/06/2022 06:35,"Admitted with melaena, weakness. Impression: GI bleed. No further bleeding, Hb stable."
+137,86,46,Admission Note,08/06/2022 01:42,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+138,83,45,Progress Note,08/06/2022 10:08,"On high-flow oxygen, ABG repeated."
+139,88,25,Admission Note,08/06/2022 10:53,Admitted with routine check. Impression: hyperlipidaemia. Diet advice given.
+140,87,19,Admission  Note,08/06/2022 14:03,"Admitted with wheeze, tight chest. Impression: acute asthma. Back-to-back nebs given, improving."
+141,89,44,Admission Note,08/06/2022 15:00,"Admitted with fever, vomiting, drowsiness. Impression: sepsis. Started IV antibiotics and fluids, blood cultures sent."
+142,80,39,Discharge Note,08/06/2022 16:09,"S: abdominal pain radiating to back
+O: obs stable
+A: pancreatitis
+P: Aggressive IV fluids, analgesia."
+143,91,45,Admission Note,10/06/2022 08:30,"Admitted with watery stools, dry mouth. Impression: dehydration. Rehydrated, passing urine well."
+144,83,2,Nursing Note,11/06/2022 15:47,"Vitals stable, patient comfortable, slept well."
+145,85,16,Nursing Note,11/06/2022 18:09,"Observations done 4-hourly, no concerns."
+146,91,9,Nursing Note,11/06/2022 22:42,"Vitals stable, patient comfortable, slept well."
+147,92,80,Admission Note,12/06/2022 11:52,"Admitted with chest pain, shortness of breath, nausea. Impression: myocardial infarction. ECG shows ST elevation, loaded with aspirin and clopidogrel."
+148,85,66,Discharge Note,12/06/2022 19:07,"Clinically improved. 2 units of blood crossmatched, IV PPI started. Fit for discharge, counselled on medication."
+149,94,46,Admission Note,16/06/2022 12:29,Admitted with chest pain. Impression: chest pain. Serial troponins negative.
+150,95,70,Admission Note,16/06/2022 20:51,"Admitted with headache, brief loss of consciousness. Impression: concussion. Headache improving, no new deficits."
+151,?,59,Nursing Note,16/06/2022 23:09,"Patient says ""I feel better today"", eating well."
+152,95,8,Nursing Note,20/06/2022 04:40,"Observations done 4-hourly, no concerns."
+153,92,10,Discharge Note,21/06/2022 07:04,"Clinically improved. ECG shows ST elevation, loaded with aspirin and clopidogrel. Fit for discharge, counselled on medication.    "
+154,96,10,  Admission Note,21/06/2022 13:38,"Admitted with crushing chest pain, sweating. Impression: myocardial infarction. Chest pain settled, troponin trending down."
+155,97,28,Admission Note,23/06/2022 15:30,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+156,96,73,Progress Note,24/06/2022 00:22,"S: crushing chest pain, sweating
+O: obs stable
+A: myocardial infarction
+P: Chest pain settled, troponin trending down."
+157,99,28,Admission Note,25/06/2022 14:55,"Admitted with burning urine, lower abdominal pain. Impression: urinary tract infection. Afebrile, symptoms resolving."
+158,98,19,Admission Note,25/06/2022 19:13,"Admitted with high fever, rigors, weakness. Impression: sepsis. Afebrile for 24h, switched to oral antibiotics."
+159,96,69,Ward Round Note,26/06/2022 16:49,"Chest pain settled, troponin trending down."
+160,1206,65,Admission Note,27/06/2022 04:41," Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+161,98,67,Nursing Note,28/06/2022 06:00,"S: high fever, rigors, weakness
+O: obs stable
+A: sepsis
+P: Remains febrile, BP improved on fluids."
+162,98,52,Nursing Note,29/06/2022 01:34,"Vitals stable, patient comfortable, slept well."
+163,101,18,Admission Note,30/06/2022 10:38,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+164,100,65,Progress Note,30/06/2022 16:36,"Fluid balance chart started, nephrotoxins stopped."
+165,102,43,Admission Note,0000-00-00,"Admitted with high fever, rigors, weakness. Impression: sepsis. Started IV antibiotics and fluids, blood cultures sent."
+166,98,65,Discharge Note,06/30/2022 09:56 PM,"Clinically improved. Afebrile for 24h, switched to oral antibiotics. Fit for discharge, counselled on medication."
+167,104,38,Admission Note,01/07/2022 20:47,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+168,105,66,Admission Note,02/07/2022 02:24,"  S: feeding well
+O: obs stable
+A: well baby
+P: Baby feeding well, mother counselled on breastfeeding."
+169,106,4,Admission Note,02/07/2022 15:07,Admitted with bloating after meals. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+170,96,25,Discharge Note,02/07/2022 15:41,"Clinically improved. ECG shows ST elevation, loaded with aspirin and clopidogrel. Fit for discharge, counselled on medication."
+171,107,45,admission note,03/07/2022 20:35,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+172,100,36,Nursing Note,04/07/2022 00:56,"Observations done 4-hourly, no concerns."
+173,102,60,Progress Note,04/07/2022 03:16,"S: high fever, rigors, weakness
+O: obs stable
+A: sepsis
+P: Remains febrile, BP improved on fluids."
+174,101,44,Ward Round Note,04/07/2022 13:49,Diabetic education given.
+175,106,37,Nursing Note,04/07/2022 16:58,"IV line resited, fluids running."
+176,100,22,Discharge Note,04/07/2022 22:12,"Clinically improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+177,102,46,Discharge Note,05/07/2022 06:29,"Clinically improved. Remains febrile, BP improved on fluids. Fit for discharge, counselled on medication."
+178,109,73,Admission Note,05/07/2022 10:28,Admitted with dizziness then fainted. Impression: syncope. No further episodes overnight.
+179,107,28,Progress Note,06/07/2022 02:37,"Fever settling, cough improving."
+180,106,28,Discharge Note,06/07/2022 04:58,"Clinically improved. Consented for laparoscopic cholecystectomy. Fit for discharge, counselled on medication."
+181,111,80,Admission Note,2022-07-07T03:21,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Fever settling, cough improving."
+182,111,19,Ward Round Note,09-07-2022 10:41,"Fever settling, cough improving."
+183,112,19,Admission Note,09/07/2022 18:07,"Admitted with headache, brief loss of consciousness. Impression: concussion. Headache improving, no new deficits."
+184,111,28,Discharge Note,10/07/2022 16:02,"S: productive cough, chest pain, fever
+O: obs stable
+A: pneumonia
+P: Fever settling, cough improving."
+185,112,24,Nursing Note,11/07/2022 00:12," Vitals stable, patient comfortable, slept well."
+186,114,10,Admission Note,2022-08-02T22:38,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. IV fluids running, tolerating sips. "
+187,112,42,Discharge Note,07/13/2022 02:25 PM,"Clinically improved. Headache improving, no new deficits. Fit for discharge, counselled on medication."
+188,115,60,ADMISSION NOTE,15/07/2022 20:06,"S: headache, brief loss of consciousness
+O: obs stable
+A: concussion
+P: Headache improving, no new deficits."
+189,116,28,Admission Note,16/07/2022 18:27,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+190,117,65,Admission Note,22/07/2022 01:03,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+191,118,69,Admission Note,22/07/2022 23:48,"Admitted with shortness of breath, leg swelling. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+192,117,48,Progress Note,23/07/2022 18:41,No further episodes overnight.
+193,117,10,Discharge Note,2022-07-24T13:11,"Clinically improved. No further episodes overnight. Fit for discharge, counselled on medication."
+194,120,7,Admission Note,28/07/2022 20:45,"Admitted with fever, vomiting, drowsiness. Impression: sepsis. Afebrile for 24h, switched to oral antibiotics."
+195,121,77,Admission Note,01/08/2022 00:20,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb improved post transfusion."
+196,121,46,Ward Round Note,02/08/2022 00:50,"S: fatigue, dizziness, pallor
+O: obs stable
+A: anaemia
+P: Hb improved post transfusion."
+197,122,17,Admission Note,05/08/2022 07:56,"Admitted with wheeze, tight chest. Impression: acute asthma. Back-to-back nebs given, improving."
+198,123,4,Admission Note,06/08/2022 03:51,"S: cough, swollen legs
+O: obs stable
+A: heart failure
+P: Weight down 2kg, less breathless."
+199,124,47,Admission Note,06/08/2022 13:06,"Admitted with fatigue, itching. Impression: chronic kidney disease. Renal team review, fistula planned."
+200,122,56,Nursing Note,07/08/2022 04:08,"Vitals stable, patient comfortable, slept well."
+201,125,39,Admission Note,07/08/2022 12:00,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+202,124,25,Ward Round Note,07/08/2022 21:32,"Reviewed on ward round, comfortable. Electrolytes stable. Plan: continue current management."
+203,126,42,Admission Note,08/08/2022 11:53,"S: fever, vomiting, drowsiness
+O: obs stable
+A: sepsis
+P: Afebrile for 24h, switched to oral antibiotics."
+204,125,9,Nursing Note,09/08/2022 01:57,"Vitals stable, patient comfortable, slept well."
+205,127,28,Admission Note,09/08/2022 04:42,"S: breathlessness, night cough
+O: obs stable
+A: acute asthma
+P: Back-to-back nebs given, improving."
+206,128,65,Admission Note,09/08/2022 12:00,"Admitted with weight gain, constipation. Impression: hypothyroidism. TSH elevated, levothyroxine dose increased."
+207,129,51,admission NOTE,11/08/2022 08:59,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Fever settling, cough improving."
+208,130,17,Admission Note,12/08/2022 02:49,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+209,126,22,Progress Note,08/12/2022 10:35 AM,"Reviewed on ward round, comfortable. Afebrile for 24h, switched to oral antibiotics. Plan: continue current management."
+210,131,60,Admission Note,12/08/2022 16:23,"Admitted with racing heart, breathlessness. Impression: atrial fibrillation. Rate controlled on bisoprolol."
+211,130,46,Ward Round Note,00/08/2022 15:26,Creatinine improving.
+212,126,4,Ward Round Note,15/08/2022 22:49,"S: high fever, rigors, weakness
+O: obs stable
+A: sepsis
+P: Afebrile for 24h, switched to oral antibiotics."
+213,133,60,Admission Note,20/08/2022 02:41,"Admitted with severe epigastric pain, vomiting. Impression: pancreatitis. Amylase falling, tolerating clear fluids."
+214,134,25,Admission Note,20/08/2022 04:19,"Admitted with seizure, confusion afterwards. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+215,133,28,Ward Round Note,24/08/2022 03:27,"Amylase falling, tolerating clear fluids."
+216,134,60,Progress Note,19/09/2022 05:00,"Reviewed on ward round, comfortable. No further seizures, alert and oriented. Plan: continue current management."
+217,134,19,Discharge Note,25/08/2022 17:13,"S: seizure, confusion afterwards
+O: obs stable
+A: seizure
+P: Loaded with anticonvulsant, seizure precautions."
+218,133,60,Discharge Note,08/26/2022 11:23 AM,"Clinically improved. Aggressive IV fluids, analgesia. Fit for discharge, counselled on medication."
+219,138,44,Admission Note,27/08/2022 14:02,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+220,139,44,Admission Note,28/08/2022 06:24,"S: sudden breathlessness, pleuritic chest pain
+O: obs stable
+A: pulmonary embolism
+P: Breathing easier, SpO2 96% on room air."
+221,138,25,Progress Note,30/08/2022 06:33,"Glucose readings 8-12 mmol/L, metformin continued."
+222,139,70,Ward Round Note,2022-08-30 09:46:00,"Reviewed on ward round, comfortable. Breathing easier, SpO2 96% on room air. Plan: continue current management."
+223,138,44,Discharge Note,2022-09-01T17:32,"Clinically improved. Glucose readings 8-12 mmol/L, metformin continued. Fit for discharge, counselled on medication."
+224,139,65,Ward Round Note,02/09/2022 21:24,Started anticoagulation.
+225,139,78,Discharge Note,03/09/2022 15:28,"Clinically improved. Started anticoagulation. Fit for discharge, counselled on medication."
+226,141,73,Admission Note,04/09/2022 13:56,"Admitted with dysuria, frequency, fever. Impression: urinary tract infection. Urine dipstick positive, antibiotics started."
+227,142,43,Admission Note,31/06/2022 19:12,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+228,142,7,Ward Round Note,07/09/2022 07:14,"Baby feeding well, mother counselled on breastfeeding."
+229,143,19,Admission Note,08/09/2022 05:47,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+230,144,39,Admission Note,10/09/2022 03:46,"Admitted with shortness of breath, leg swelling. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+231,145,46,Admission Note,10/09/2022 15:03,"Admitted with abdominal pain, loss of appetite. Impression: appendicitis. Post-op day 1, tolerating fluids."
+232,146,65,Admission Note,10/09/2022 18:34,"Admitted with racing heart, breathlessness. Impression: atrial fibrillation. Remains in AF, rate in the 80s."
+233,147,28,Admission Note,11/09/2022 12:07,"Admitted with watery stools, dry mouth. Impression: dehydration. IV fluids running, tolerating sips."
+234,148,4,Admission Note,13/10/2022 11:04,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+235,144,66,Progress Note,12/09/2022 09:38,"Reviewed on ward round, comfortable. Started anticoagulation. Plan: continue current management."
+236,150,60,Admission Note,12/09/2022 13:28,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+198,123,4,Admission Note,06/08/2022 03:51,"S: COUGH, SWOLLEN LEGS
+O: OBS STABLE
+A: HEART FAILURE
+P: WEIGHT DOWN 2KG, LESS BREATHLESS."
+237,145,65,Ward Round Note,13/09/2022 03:43,"Reviewed on ward round, comfortable. Surgical review done, booked for theatre. Plan: continue current management."
+238,145,66,Discharge Note,13/09/2022 11:30,"Clinically improved. Post-op day 1, tolerating fluids. Fit for discharge, counselled on medication."
+239,144,15,Nursing Note,13/09/2022 15:54,"IV line resited, fluids running."
+240,146,43,ward round note,14/09/2022 09:28,"S: palpitations, dizziness
+O: obs stable
+A: atrial fibrillation
+P: Remains in AF, rate in the 80s."
+241,148,39,Ward Round Note,14/09/2022 13:39,"Reviewed on ward round, comfortable. Started IV antibiotics, oxygen via nasal prongs. Plan: continue current management."
+242,148,45,Discharge Note,15/09/2022 07:33,"Clinically improved. Fever settling, cough improving. Fit for discharge, counselled on medication."
+243,151,66,Admission Note,15/09/2022 14:05,"Admitted with melaena, weakness. Impression: GI bleed. 2 units of blood crossmatched, IV PPI started."
+244,151,35,Nursing Note,17/09/2022 16:45,"Observations done 4-hourly, no concerns."
+245,151,28,Ward Round Note,20/09/2022 01:25,"2 units of blood crossmatched, IV PPI started."
+246,151,43,Progress Note,21/09/2022 02:11,"2 units of blood crossmatched, IV PPI started."
+247,152,73,Admission Note,21/09/2022 19:01,"Admitted with haematemesis, dizziness. Impression: GI bleed. No further bleeding, Hb stable."
+248,152,44,Ward Round Note,28/09/2022 12:18,"2 units of blood crossmatched, IV PPI started."
+249,152,39,Discharge Note,29/09/2022 03:13,"Clinically improved. 2 units of blood crossmatched, IV PPI started. Fit for discharge, counselled on medication."
+250,154,10,Admission Note,30/09/2022 01:04,"Admitted with chest discomfort, anxiety. Impression: chest pain. Serial troponins negative."
+251,155,39,Admission Note,24/09/2022 04:29,Admitted with bloating after meals. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+252,155,97,Nursing Note,01/10/2022 17:45,"Patient says ""I feel better today"", eating well."
+253,156,25,Admission Note,02/10/2022 12:50,"Admitted with palpitations, dizziness. Impression: atrial fibrillation. Rate controlled on bisoprolol."
+254,157,7,Admission Note,03/10/2022 13:21,Admitted with epigastric pain after meals. Impression: reflux disease. Symptoms improving on omeprazole.
+255,156,65,Ward Round Note,04/10/2022 05:09,"Reviewed on ward round, comfortable. Remains in AF, rate in the 80s. Plan: continue current management."
+256,158,69,Admission Note,07/10/2022 08:14,"Admitted with headache, dizziness. Impression: hypertension. BP 168/102, amlodipine increased."
+257,159,40,Admission Note,07/10/2022 18:40,Admitted with brief loss of consciousness. Impression: syncope. No further episodes overnight.
+258,160,25,Admission Note,08/10/2022 11:58,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+259,161,28,Admission Note,09/10/2022 13:31,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+260,163,7,Admission Note,10/10/2022 13:27,"Admitted with high fever, rigors, weakness. Impression: sepsis. Afebrile for 24h, switched to oral antibiotics."
+261,162,80,Admission Note,10/10/2022 14:36,Admitted with exertional angina. Impression: coronary artery disease. Pre-procedure checks done.
+262,159,57,Nursing Note,11/10/2022 04:12,"S: BRIEF LOSS OF CONSCIOUSNESS
+O: OBS STABLE
+A: SYNCOPE
+P: ECG NORMAL, OBSERVE ON MONITOR."
+263,161,10,Progress Note,11/10/2022 13:06,"Reviewed on ward round, comfortable. Started PPI, lifestyle advice given. Plan: continue current management."
+264,162,73,Progress Note,15/10/2022 07:14,Pre-procedure checks done.
+265,165,38, ADMISSION NOTE  ,17/10/2022 04:28,"Admitted with headache, brief loss of consciousness. Impression: concussion. Headache improving, no new deficits."
+266,166,40,Admission Note,20/10/2022 11:13,"Admitted with watery stools, dry mouth. Impression: dehydration. IV fluids running, tolerating sips."
+267,167,46,Admission Note,25/10/2022 02:25,"Admitted with high fever, rigors, weakness. Impression: sepsis. Remains febrile, BP improved on fluids."
+268,167,57,Nursing Note,07/12/2022 20:26,"IV line resited, fluids running."
+269,169,78,Admission Note,31/10/2022 15:29,"Admitted with difficulty walking, knee pain. Impression: osteoarthritis of knee. Post-op day 2, mobilising with physio."
+270,170,10,Admission Note,01/11/2022 06:07,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+271,171,4,Admission Note,08/12/2022 16:00,"Admitted with intermittent right upper quadrant pain. Impression: gallstones. Post-op, wounds clean."
+272,167,28,Ward Round Note,02/11/2022 05:13,"Started IV antibiotics and fluids, blood cultures sent."
+273,170,19,Ward Round Note,02/11/2022 23:57,"STARTED iv ANTIBIOTICS, oxygen via nasal PRONGS."
+274,169,38,Ward Round Note,03/11/2022 17:20,"Reviewed on ward round, comfortable. Pre-op assessment complete. Plan: continue current management."
+275,171,80,Progress Note,09/12/2022 12:47,"S: bloating after meals
+O: obs stable
+A: gallstones
+P: Post-op, wounds clean."
+276,169,46,Discharge Note,04/11/2022 03:45,"Clinically improved. Pre-op assessment complete. Fit for discharge, counselled on medication."
+277,170,17,Discharge Note,04/11/2022 06:47,"Clinically improved. Fever settling, cough improving. Fit for discharge, counselled on medication."
+278,174,65,Admission Note,05/11/2022 08:06,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+279,174,39,Progress Note,06/11/2022 10:03,"S: epigastric pain after meals
+O: obs stable
+A: reflux disease
+P: Started PPI, lifestyle advice given."
+280,175,51,Admission Note,02/12/2022 21:29,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+281,177,46,Admission Note,12/11/2022 21:12,Admitted with exertional angina. Impression: coronary artery disease. Pre-procedure checks done.
+282,177,70,Progress Note,15/11/2022 17:09,"Post angiography, groin site clean and dry."
+283,177,28,Discharge Note,15/11/2022 17:13,"Clinically improved. Post angiography, groin site clean and dry. Fit for discharge, counselled on medication."
+284,179,22,Admission Note,17/11/2022 01:28,"Admitted with high fever, rigors, weakness. Impression: sepsis. Started IV antibiotics and fluids, blood cultures sent."
+285,179,25,Progress Note,19/11/2022 14:50,"Reviewed on ward round, comfortable. Afebrile for 24h, switched to oral antibiotics. Plan: continue current management."
+286,180,44,Admission Note,20/11/2022 13:54,Admitted with brief loss of consciousness. Impression: syncope. No further episodes overnight.
+287,181,66,Admission Note,21/11/2022 02:44,"admitted with dizziness then fainted. impression: syncope. ecg normal, observe on monitor."
+288,181,19,Progress Note,23/11/2022 06:55, No further episodes overnight.
+289,?,39,Discharge Note,23/11/2022 16:14,"Clinically improved. Started IV antibiotics and fluids, blood cultures sent. Fit for discharge, counselled on medication."
+290,179,77,Ward Round Note,24/11/2022 03:50,"  Started IV antibiotics and fluids, blood cultures sent."
+291,182,69,Admission Note,24/11/2022 21:51,"Admitted with seizure, confusion afterwards. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+292,184,18, ADMISSION NOTE  ,29/11/2022 19:48,"Admitted with right iliac fossa pain, vomiting, fever. Impression: appendicitis. Post-op day 1, tolerating fluids."
+293,185,60,Admission Note,01/12/2022 17:29,"Admitted with intermittent right upper quadrant pain. Impression: gallstones. Post-op, wounds clean."
+294,186,70,Admission Note,02/12/2022 12:46,null
+295,185,39,Progress Note,03/12/2022 14:52,"Reviewed on ward round, comfortable. Consented for laparoscopic cholecystectomy. Plan: continue current management."
+296,187,19,Admission Note,05/12/2022 07:13,"Admitted with headache, brief loss of consciousness. Impression: concussion. Headache improving, no new deficits."
+297,186,69,Progress Note,06/12/2022 09:05,"Renal team review, fistula planned."
+298,188,10,Admission Note    ,07/12/2022 10:28,"Admitted with facial droop, confusion. Impression: stroke. CT done, no bleed. Aspirin started."
+299,187,45,Ward Round Note,09/12/2022 01:12,"Headache improving, no new deficits."
+300,189,4,Admission Note,09/12/2022 14:13,"Admitted with cough, swollen legs. Impression: heart failure. IV furosemide given, good diuresis."
+301,188,73,Ward Round Note,09/12/2022 16:32,"Reviewed on ward round, comfortable. Speech improving, physiotherapy started. Plan: continue current management."
+302,190,40,Admission Note,10/12/2022 14:12,"Admitted with difficulty walking, knee pain. Impression: osteoarthritis of knee. Post-op day 2, mobilising with physio."
+303,188,78,Discharge Note,11/12/2022 13:16,"Clinically improved. CT done, no bleed. Aspirin started. Fit for discharge, counselled on medication."
+304,189,57,Nursing Note,12/11/2022 03:20 PM,"Patient says ""I feel better today"", eating well."
+305,192,80,Admission Note,12/12/2022 06:10,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+306,189,39,Discharge Note,13/12/2022 00:37,"Clinically improved. IV furosemide given, good diuresis. Fit for discharge, counselled on medication."
+307,193,47, ADMISSION NOTE  ,13/12/2022 08:00,Admitted with chest tightness on exertion. Impression: coronary artery disease. Pre-procedure checks done.
+308,194,39,Admission Note,15/12/2022 03:06,"Admitted with crushing chest pain, sweating. Impression: myocardial infarction. ECG shows ST elevation, loaded with aspirin and clopidogrel."
+309,195,77,Admission Note,15/12/2022 09:28,Admitted with intermittent right upper quadrant pain. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+310,193,80,Ward Round Note,16/12/2022 11:32,"Reviewed on ward round, comfortable. Post angiography, groin site clean and dry. Plan: continue current management."
+311,194,44,Progress Note,18/12/2022 11:22,"S: chest pain, shortness of breath, nausea
+O: obs stable
+A: myocardial infarction
+P: Chest pain settled, troponin trending down."
+312,194,78,Ward Round Note,12/21/2022 05:25 AM,"ECG shows ST elevation, loaded with aspirin and clopidogrel."
+313,197,28,Admission Note,24/12/2022 03:12,"Admitted with watery stools, dry mouth. Impression: dehydration. IV fluids running, tolerating sips."
+314,198,78,Admission Note,24/12/2022 18:13,"Admitted with fatigue, itching. Impression: chronic kidney disease. Renal team review, fistula planned."
+315,194,78,Discharge Note,25/12/2022 04:25,"Clinically improved. Chest pain settled, troponin trending down. Fit for discharge, counselled on medication."
+316,198,39,Ward Round Note,26/12/2022 07:51,Electrolytes stable.
+317,198,19,Discharge Note,27/12/2022 21:12,"Clinically improved. Electrolytes stable. Fit for discharge, counselled on medication."
+318,200,51,Admission Note,28/12/2022 04:03,Admitted with brief loss of consciousness. Impression: syncope. No further episodes overnight.
+319,202,4,Admission Note,04/01/2023 13:28,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+320,203,44,Admission Note,05/01/2023 04:10,"S: jerking movements, tongue bite
+O: obs stable
+A: seizure
+P: No further seizures, alert and oriented."
+321,204,73,Admission Note,05/01/2023 10:33,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+322,205,48,Admission Note,05/01/2023 12:14,"Admitted with burning urine, lower abdominal pain. Impression: urinary tract infection. Afebrile, symptoms resolving."
+323,206,28,Admission Note,05/01/2023 15:05,"Admitted with weight gain, constipation. Impression: hypothyroidism. Symptoms improving on current dose."
+324,208,60,Admission Note,07/01/2023 02:15,"Admitted with blurred vision, headache. Impression: hypertension. BP better controlled at 138/86."
+325,203,10,Ward Round Note,07/01/2023 07:17,"Reviewed on ward round, comfortable. Loaded with anticonvulsant, seizure precautions. Plan: continue current management."
+326,209,28,,08/01/2023 01:11,"admitted with WHEEZE, tight CHEST. IMPRESSION: ACUTE ASTHMA. BACK-TO-BACK NEBS GIVEN, improving."
+327,203,44,Ward Round Note,31/11/2023 08:12,"NO further SEIZURES, ALERT and ORIENTED."
+328,208,10,PROGRESS NOTE,08/01/2023 12:22,"Reviewed on ward round, comfortable. BP better controlled at 138/86. Plan: continue current management."
+329,204,80,Progress Note,08/01/2023 14:09,"S: pain after fatty meals, vomiting
+O: obs stable
+A: acute cholecystitis
+P: Pain improving, diet reintroduced."
+330,209,23,Nursing Note,09/01/2023 18:06,"Patient says ""I feel better today"", eating well."
+331,203,65,Discharge Note,10/01/2023 19:59,"Clinically improved. Loaded with anticonvulsant, seizure precautions. Fit for discharge, counselled on medication."
+332,210,46,Admission Note,11/01/2023 23:04,"Admitted with fever, chills, confusion. Impression: sepsis. Started IV antibiotics and fluids, blood cultures sent."
+333,211,44,Admission Note,14/01/2023 02:44,"Admitted with racing heart, breathlessness. Impression: atrial fibrillation. Rate controlled on bisoprolol."
+334,212,80,Admission Note,15/01/2023 06:49,"S: nausea, reduced urine output
+O: obs stable
+A: acute kidney injury
+P: Fluid balance chart started, nephrotoxins stopped. "
+335,213,46,Admission Note,15/01/2023 13:27,"S: tiredness, frequent urination
+O: obs stable
+A: uncontrolled diabetes
+P: Diabetic education given."
+336,214,10,Admission Note,19/01/2023 08:54,"Admitted with pain in right hip after fall. Impression: hip fracture. Post-op, mobilising with frame."
+337,215,43,Admission Note,19/01/2023 15:13,"Admitted with seizure, confusion afterwards. Impression: seizure. No further seizures, alert and oriented."
+338,216,65,Admission Note,20/01/2023 08:55,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+339,217,73,Admission Note,21/01/2023 04:27,"S: racing heart, breathlessness
+O: obs stable
+A: atrial fibrillation
+P: Rate controlled on bisoprolol."
+340,215,46,Progress Note,21/01/2023 20:11,"Loaded with anticonvulsant, seizure precautions."
+341,217,29,Nursing Note,22/01/2023 03:47,"Observations done 4-hourly, no concerns."
+342,218,28,Admission Note,22/01/2023 03:56,"admitted with fatigue, dizziness, pallor. impression: anaemia. hb improved post transfusion."
+343,215,73,Discharge Note,22/01/2023 04:54,"Clinically improved. No further seizures, alert and oriented. Fit for discharge, counselled on medication."
+344,220,7,Admission Note,23/01/2023 17:29,"Admitted with haematemesis, dizziness. Impression: GI bleed. 2 units of blood crossmatched, IV PPI started."
+345,221,48,Admission Note,23/01/2023 20:36,"admitted with dizziness then fainted. impression: syncope. ecg normal, observe on monitor."
+346,218,23,Nursing Note,23/01/2023 23:45,"Vitals stable, patient comfortable, slept well."
+347,216,43,Ward Round Note,23/01/2023 23:54,"Pain improving, diet reintroduced."
+348,221,48,Ward Round Note,25/01/2023 03:43,"ECG normal, observe on monitor."
+349,222,43,Admission Note,25/01/2023 09:44,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+350,223,73,Admission Note,25/01/2023 19:36,"Admitted with sudden breathlessness, pleuritic chest pain. Impression: pulmonary embolism. Started anticoagulation."
+351,220,19,Ward Round Note,27/01/2023 03:42,"Reviewed on ward round, comfortable. No further bleeding, Hb stable. Plan: continue current management."
+352,224,4,Admission Note,27/01/2023 09:19,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+353,223,29,Nursing Note,27/01/2023 19:06,"Vitals stable, patient comfortable, slept well."
+354,222,28,Progress Note,28/01/2023 07:00,Creatinine improving.
+355,222,38,Discharge Note,28/01/2023 18:03,"CLINICALLY IMPROVED. CREATININE IMPROVING. FIT FOR DISCHARGE, COUNSELLED ON MEDICATION."
+356,224,42,Progress Note,29/01/2023 12:45,Creatinine improving.
+357,224,19,Discharge Note,31/01/2023 02:28,"Clinically improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+358,220,44,Progress Note,31/01/2023 08:45,"Reviewed on ward round, comfortable. 2 units of blood crossmatched, IV PPI started. Plan: continue current management."
+359,226,60,Admission Note,31/01/2023 12:48,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+360,220,46,Discharge Note,31/01/2023 22:51,"Clinically improved. 2 units of blood crossmatched, IV PPI started. Fit for discharge, counselled on medication."
+361,226,70,Progress Note,02/02/2023 22:11,"S: reduced urine, leg swelling
+O: obs stable
+A: acute kidney injury
+P: Fluid balance chart started, nephrotoxins stopped."
+362,227,46,Admission Note,02/02/2023 22:17,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+363,226,39,Discharge Note,04/02/2023 03:45,"Clinically improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+364,229,28,Admission Note,07/02/2023 16:39,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+365,230,7,Admission Note,09/02/2023 04:26,"Admitted with watery stools, dry mouth. Impression: dehydration. IV fluids running, tolerating sips."
+366,923,44,Admission Note,10/02/2023 19:41,"S: seizure, confusion afterwards
+O: obs stable
+A: seizure
+P: No further seizures, alert and oriented."
+367,231,22,Admission Note,10/02/2023 19:46,"Admitted with fever, chills, confusion. Impression: sepsis. Started IV antibiotics and fluids, blood cultures sent."
+368,229,78,Progress Note,11/02/2023 00:04,Creatinine improving.
+369,233,78,Admission Note,13/02/2023 08:13,"S:  pain after fatty meals, vomiting
+O: obs stable
+A: acute cholecystitis
+P: IV antibiotics, nil by mouth."
+370,232,44,Ward Round Note,13/02/2023 15:07,"No further seizures, alert and oriented."
+371,231,60,Progress Note,2023-02-14 14:20:00,"Remains febrile, BP improved on fluids."
+372,234,46,Admission Note,14/02/2023 19:24,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Fever settling, cough improving."
+373,231,55,Nursing Note    ,16/02/2023 13:03,"IV line resited, fluids running."
+374,234,65,Progress Note,17/02/2023 23:25,"Started IV antibiotics, oxygen via nasal prongs."
+375,235,19,Admission Note,18/02/2023 10:24,"Admitted with dysuria, frequency, fever. Impression: urinary tract infection. Urine dipstick positive, antibiotics started."
+376,231,1,Nursing Note,18/02/2023 10:34,"Observations  done 4-hourly, no concerns."
+377,236,28,Admission Note,21/02/2023 07:49,"Admitted with breathlessness, orthopnoea, leg swelling. Impression: heart failure. IV furosemide given, good diuresis. "
+378,237,7,Admission Note,24/02/2023 04:59,"Admitted with severe breathlessness, drowsiness. Impression: respiratory failure. On high-flow oxygen, ABG repeated."
+379,236,28,Progress Note,25/02/2023 11:10,"Reviewed on ward round, comfortable. Weight down 2kg, less breathless. Plan: continue current management."
+380,237,46,   Ward Round Note,26/02/2023 23:12,"On high-flow oxygen, ABG repeated."
+381,237,44,Progress Note,27/02/2023 01:01,"On high-flow oxygen, ABG repeated."
+382,239,19,Admission Note,27/02/2023 11:54,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+383,240,40,Admission Note,08/03/2023 04:34,"ADMITTED WITH WATERY STOOLS, DRY MOUTH. IMPRESSION: DEHYDRATION. IV FLUIDS RUNNING, TOLERATING SIPS."
+384,236,10,Progress Note,01/03/2023 00:11,"Reviewed on ward round, comfortable. IV furosemide given, good diuresis. Plan: continue current management."
+385,236,101,Discharge Note,01/03/2023 13:24,"Clinically improved. IV furosemide given, good diuresis. Fit for discharge, counselled on medication."
+386,237,45,Discharge Note,01-03-2023 19:31,"Clinically improved. Weaned to nasal prongs, more alert. Fit for discharge, counselled on medication."
+387,241,103,Admission Note,04/03/2023 13:54,"  Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. IV fluids running, tolerating sips."
+388,242,65,Admission Note,05/03/2023 13:21,"S: no complaints
+O: obs stable
+A: hypertension
+P: BP 168/102, amlodipine increased."
+389,243,51,Admission Note,07/03/2023 11:59,"Admitted with racing heart, breathlessness. Impression: atrial fibrillation. Rate controlled on bisoprolol."
+390,244,47,Admission Note,07/03/2023 13:45,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+391,245,73,Admission Note,08/03/2023 01:44,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+392,243,10,Progress Note,09/03/2023 19:49,"Remains in AF, rate in the 80s."
+393,245,22,Progress Note,09/03/2023 21:43,No further episodes overnight.
+394,1077,4,Discharge Note,10/03/2023 16:50,"Clinically improved. Remains in AF, rate in the 80s. Fit for discharge, counselled on medication."
+395,245,28,Discharge Note,10/03/2023 17:54,"Clinically improved. ECG normal, observe on monitor. Fit for discharge, counselled on medication."
+396,246,65,Admission Note,11/03/2023 12:43,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+397,247,22,Admission Note,11/03/2023 17:33,"Admitted with jerking movements, tongue bite. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+398,248,65,Admission Note,12/03/2023 06:52,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+399,249,43,Admission Note,12/03/2023 16:19,"Admitted with fatigue, itching. Impression: chronic kidney disease. Electrolytes stable."
+400,246,69,Ward Round Note,14/03/2023 19:13,"Reviewed on ward round, comfortable. Diabetic education given. Plan: continue current management."
+401,1149,40,Admission Note,2023-03-15 13:05:00,"Admitted with intermittent right upper quadrant pain. Impression: gallstones. Post-op, wounds clean."
+402,249,89,Nursing Note,15/03/2023 14:53,"Observations done 4-hourly, no concerns."
+403,248,46,Ward Round Note,16/03/2023 03:58,Creatinine improving.
+404,251,80,Admission Note,16/03/2023 06:34,"Admitted with watery stools, dry mouth. Impression: dehydration. Rehydrated, passing urine well."
+405,247,19,Progress Note,16/03/2023 10:14,"No further seizures, alert and oriented."
+406,250,53,nursing note,17/03/2023 04:12,"Patient says ""I feel better today"", eating well."
+407,248,38,Discharge Note,17/03/2023 14:02,"Clinically improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+408,252,7,Admission Note,18/03/2023 14:40,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+409,253,48,Admission Note,21/03/2023 13:37,"S: epigastric pain after meals
+O: obs stable
+A: reflux disease
+P: Started PPI, lifestyle advice given."
+410,254,44,Admission Note,21/03/2023 14:27,Admitted with bloating after meals. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+411,254,24,Nursing Note,23/03/2023 18:33,"IV line resited, fluids running."
+412,253,69,Progress Note,23/03/2023 23:53,Symptoms improving on omeprazole.
+413,253,78,Discharge Note,25/03/2023 15:32,"CLINICALLY IMPROVED. SYMPTOMS IMPROVING ON OMEPRAZOLE. FIT FOR DISCHARGE, COUNSELLED ON MEDICATION."
+414,256,28,Admission Note,03/26/2023 04:36 AM,"Admitted with brief loss of consciousness. Impression: syncope. ECG normal, observe on monitor."
+415,257,19,Admission Note,27/03/2023 13:25,"Admitted with breathlessness, orthopnoea, leg swelling. Impression: heart failure. IV furosemide given, good diuresis."
+416,256,60,Progress Note,27/03/2023 23:18,No further episodes overnight.  
+417,258,73,Admission Note,29/03/2023 01:05,"S: watery stools, dry mouth
+O: obs stable
+A: dehydration
+P: IV fluids running, tolerating sips."
+418,257,16,Nursing Note,30/03/2023 17:15,"Vitals stable, patient comfortable, slept well."
+419,258,61,Nursing Note,31/03/2023 18:00,"patient says ""i feel better today"", eating well."
+420,259,73,Admission Note,04/01/2023 12:57 PM,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+421,260,43,Admission Note,04/04/2023 05:05,"Admitted   with vomiting, diarrhoea, dizziness. Impression: dehydration. IV fluids running, tolerating sips."
+422,261,69,Admission Note,05/04/2023 06:57,"admitted with productive cough, chest pain, fever. impression: pneumonia. fever settling, cough improving."
+423,262,60,Admission Note,05/04/2023 11:43,"Admitted with bloating after meals. Impression: gallstones. Post-op, wounds clean."
+424,264,65,Admission Note,06/04/2023 16:53,"Admitted with epigastric pain after meals. Impression: reflux disease. Started PPI, lifestyle advice given."
+425,260,42,Progress Note,06/04/2023 23:34,"Rehydrated, passing urine well."
+426,260,65,Discharge Note,07/04/2023 12:10,"S: vomiting, diarrhoea, dizziness
+O: obs stable
+A: dehydration
+P: Rehydrated, passing urine well."
+427,264,28,Ward Round Note,07-04-2023 22:53,"Reviewed on ward round, comfortable. Symptoms improving on omeprazole. Plan: continue current management."
+428,266,65,Admission Note,12/04/2023 07:20,"Admitted with chest pain. Impression: chest pain. Pain settled, likely musculoskeletal."
+429,267,44,ADMISSION NOTE,13/04/2023 04:07,"Admitted with wheeze, tight chest. Impression: acute asthma. Peak flow 80% of predicted."
+430,269,28,Admission Note,14/04/2023 16:26,"Admitted with right iliac fossa pain, vomiting, fever. Impression: appendicitis. Post-op day 1, tolerating fluids."
+431,266,73,Ward Round Note,14/04/2023 17:28,"Reviewed on ward round, comfortable. Serial troponins negative. Plan: continue current management."
+432,270,42,Admission Note,15/04/2023 11:41,"Admitted with chest pain. Impression: chest pain. Pain settled, likely musculoskeletal."
+433,267,65,Progress Note,16/04/2023 01:13,"Back-to-back nebs given, improving."
+434,272,70,Admission Note,16/04/2023 17:51,"S: heartburn, regurgitation
+O: obs stable
+A: reflux disease
+P: Started PPI, lifestyle advice given."
+435,271,69,Admission Note,17/04/2023 02:04,"Admitted with laboured breathing, confusion. Impression: respiratory failure. On high-flow oxygen, ABG repeated."
+436,273,80,Admission Note,17/04/2023 03:14,"Admitted with breathlessness, night cough. Impression: acute asthma. Peak flow 80% of predicted."
+437,269,78, Progress Note,17/04/2023 13:11,"Post-op day 1, tolerating fluids."
+438,270,56,Nursing Note,18/04/2023 10:30,"Patient says ""I feel better today"", eating well."
+439,272,2,Nursing Note,18/04/2023 11:04,N/A
+440,273,73,Progress Note,18/04/2023 23:43,"Reviewed on ward round, comfortable. Peak flow 80% of predicted. Plan: continue current management."
+441,269,60,Progress Note,19/04/2023 02:32,"Reviewed on ward round, comfortable. Surgical review done, booked for theatre. Plan: continue current management."
+442,272,65,Discharge Note,19/04/2023 10:52,"Clinically improved. Started PPI, lifestyle advice given. Fit for discharge, counselled on medication."
+443,269,40,Discharge Note,20/04/2023 18:00,"S: abdominal pain, loss of appetite
+O: obs stable
+A: appendicitis
+P: Post-op day 1, tolerating fluids."
+444,273,39,Discharge Note,20/04/2023 22:25,"Clinically improved. Peak flow 80% of predicted. Fit for discharge, counselled on medication."
+445,271,22,Progress Note,21/04/2023 14:40,"Reviewed on ward round, comfortable. Weaned to nasal prongs, more alert. Plan: continue current management."
+446,276,73,Admission Note,24/04/2023 18:26,"S: palpitations, dizziness
+O: obs stable
+A: atrial fibrillation
+P: Rate controlled on bisoprolol."
+447,271,44,Discharge Note,2023-04-24T21:52,"Clinically improved. Weaned to nasal prongs, more alert. Fit for discharge, counselled on medication."
+448,276,39,Ward Round Note,25/04/2023 19:57,"Reviewed on ward round, comfortable. Rate controlled on bisoprolol. Plan: continue current management."
+449,278,47,Admission Note,27/04/2023 17:28,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+450,279,7,Admission Note,28/04/2023 10:38,"admitted with heartburn, regurgitation. impression: reflux disease. started ppi, lifestyle advice given."
+451,281,60,Admission Note,30/04/2023 08:55,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+452,281,4,ward ROUND NOTE,02/05/2023 17:11,"Reviewed on ward round, comfortable. Renal team review, fistula planned. Plan: continue current management."
+453,282,65,Admission Note,04/05/2023 12:15,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+454,284,4,Admission Note,06/05/2023 10:58,Admitted with brief loss of consciousness. Impression: syncope. No further episodes overnight.
+455,285,78,Admission Note,08/05/2023 08:31,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+456,285,22,Progress Note,09/05/2023 20:06,Creatinine improving.
+457,286,66,Admission Note,09/05/2023 21:52,"Admitted with seizure, confusion afterwards. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+458,287,66,Admission Note,10/05/2023 14:00,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Fever settling, cough improving."
+459,287,37,Nursing Note,13/05/2023 00:24,"Observations done 4-hourly, no concerns."
+460,285,56,Nursing Note,13/05/2023 03:06,"Vitals stable, patient comfortable, slept well."
+461,1217,40,Discharge Note,05/13/2023 08:16 AM,"Clinically improved. Creatinine improving. Fit for discharge, counselled on medication."
+462,286,61,Nursing Note,13/05/2023 18:41,"Vitals stable, patient comfortable, slept well."
+463,286,7,Progress Note,14/05/2023 10:27,"Loaded with anticonvulsant, seizure precautions."
+464,289,18,Admission Note,15/05/2023 03:25,"Admitted with abdominal pain radiating to back. Impression: pancreatitis. Amylase falling, tolerating clear fluids."
+465,290,78,Admission Note,15/05/2023 10:58,Admitted with exertional angina. Impression: coronary artery disease. Pre-procedure checks done.
+466,291,73,Admission Note,15/05/2023 21:44,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+467,291,61,Nursing Note,18/05/2023 13:09,"IV line resited, fluids running."
+468,286,10,Discharge Note,2023-00-12 15:13,"Clinically improved. Loaded with anticonvulsant, seizure precautions. Fit for discharge, counselled on medication."
+469,291,28,Discharge Note,19/05/2023 00:54,"S: dizziness then fainted
+O: obs stable
+A: syncope
+P: No further episodes overnight."
+470,292,43,Admission Note,2023-05-19T12:04,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+471,293,44,Admission Note ,19/05/2023 15:00,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+472,295,28,Admission Note,20/05/2023 14:25,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+473,293,73,Ward Round Note,21/05/2023 13:55,"Hb 7.2 g/dL, 1 unit of blood transfused."
+474,296,60,Admission Note,2023-05-21 16:55:00,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+475,297,43,Admission Note,22/05/2023 03:40,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Fever settling, cough improving."
+476,296,19,Progress Note,23/05/2023 15:31,"Reviewed on ward round, comfortable. Electrolytes stable. Plan: continue current management."
+477,853,25,Admission Note,23/05/2023 16:25,"Admitted with jerking movements, tongue bite. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+478,297,48,Ward Round Note,23/05/2023 19:05,"Started IV antibiotics, oxygen via nasal prongs."
+479,292,27,Nursing Note,24/05/2023 23:17,"Observations done 4-hourly, no concerns."
+480,296,28,Discharge Note,25/05/2023 19:50,"Clinically improved. Renal team review, fistula planned. Fit for discharge, counselled on medication.  "
+481,848,28,Admission Note,27/05/2023 14:47,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+482,853,28,Ward Round Note,27/05/2023 16:49,"Reviewed on ward round, comfortable. Loaded with anticonvulsant, seizure precautions. Plan: continue current management."
+483,292,73,Discharge Note,27/05/2023 19:09,"S: reduced urine, leg swelling
+O: obs stable
+A: acute kidney injury
+P: Creatinine improving."
+484,301,7,Admission Note,30/05/2023 06:31,"Admitted with jerking movements, tongue bite. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+485,302,65,Admission Note,31/05/2023 13:14,Admitted with epigastric pain after meals. Impression: reflux disease. Symptoms improving on omeprazole.
+486,298,69,Discharge Note,02/06/2023 10:26,"Clinically improved. Loaded with anticonvulsant, seizure precautions. Fit for discharge, counselled on medication."
+487,302,25,Progress Note,02/06/2023 11:13,"REVIEWED ON WARD round, COMFORTABLE. SYMPTOMS IMPROVING ON omeprazole. PLAN: CONTINUE CURRENT MANAGEMENT."
+488,302,65,Discharge Note,03/06/2023 05:37,"Clinically improved. Symptoms improving on omeprazole. Fit for discharge, counselled on medication."
+489,304,46,Admission Note,06/03/2023 10:39 AM,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+490,303,60,Admission Note,03/06/2023 10:52,"Admitted with head injury, vomiting once. Impression: concussion. GCS 15/15, neuro obs 2-hourly."
+491,301,78,Progress Note,05/06/2023 01:19,"Loaded with anticonvulsant, seizure precautions."
+492,303,19,Progress Note,05-06-2023 21:08,"GCS 15/15, neuro obs 2-hourly."
+493,305,42,Admission Note,06/06/2023 10:34 AM,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+494,301,19,Discharge Note,07/06/2023 07:07,"Clinically improved. No further seizures, alert and oriented. Fit for discharge, counselled on medication."
+495,307,47,Admission Note,07/06/2023 07:07,"Admitted with chest discomfort, anxiety. Impression: chest pain. Pain settled, likely musculoskeletal."
+496,306,19,admission note,07/06/2023 14:35,"Admitted with jerking movements, tongue bite. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+497,304,73,Ward Round Note,08/06/2023 03:44,Electrolytes stable.
+498,308,78,Admission Note,09/06/2023 03:01,"Admitted with crushing chest pain, sweating. Impression: myocardial infarction. ECG shows ST elevation, loaded with aspirin and clopidogrel."
+499,309,38,Admission Note,09/06/2023 11:52,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+500,306,10,Progress Note,11/06/2023 02:07,"Loaded with anticonvulsant, seizure precautions."
+501,310,39,Admission Note,11/06/2023 07:56,"Admitted with brief loss of consciousness. Impression: syncope. ECG normal, observe on monitor."
+502,1038,44,Ward Round Note,12/06/2023 13:07,"Reviewed on ward round, comfortable. Chest pain settled, troponin trending down. Plan: continue current management."
+503,308,39,Discharge Note,12/06/2023 17:55,"Clinically improved. Chest pain settled, troponin trending down. Fit for discharge, counselled on medication."
+504,312,4,Admission Note,14/06/2023 17:22,Admitted with dizziness then fainted. Impression: syncope. No further episodes overnight.
+505,313,44,Admission Note,2023-06-15T01:12,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+506,314,7,Admission Note,15/06/2023 10:50,Admitted with brief loss of consciousness. Impression: syncope. No further episodes overnight.
+507,306,78,Discharge Note,15/06/2023 20:07,"Clinically improved. No further seizures, alert and oriented. Fit for discharge, counselled on medication."
+508,312,70,Progress Note,06/16/2023 01:17 PM,"Reviewed on ward round, comfortable. No further episodes overnight. Plan: continue current management."
+509,314,19,Progress Note,17/06/2023 00:20,No further episodes overnight.
+510,313,28,Ward Round Note,20/06/2023 23:58,"Reviewed on ward round, comfortable. Creatinine improving. Plan: continue current management."
+511,317,19,Admission Note,24/06/2023 10:48,"Admitted with knee pain, stiffness. Impression: osteoarthritis of knee. Pre-op assessment complete."
+512,313,60,Discharge Note,24/06/2023 13:25,"Clinically improved. Creatinine improving. Fit for discharge, counselled on medication."
+513,318,73,Admission Note,25/06/2023 11:53,"Admitted with watery stools, dry mouth. Impression: dehydration. Rehydrated, passing urine well."
+514,317,22,Ward Round Note,27/06/2023 07:48,"Post-op day 2, mobilising with physio."
+515,317,65,Discharge Note,29/06/2023 01:33,"Clinically improved. Post-op day 2, mobilising with physio. Fit for discharge, counselled on medication."
+516,320,28,Admission Note,02/07/2023 17:57,"Admitted with wheeze, tight chest. Impression: acute asthma. Peak flow 80% of predicted."
+517,321,4,Admission Note,03/07/2023 08:15,Admitted with brief loss of consciousness. Impression: syncope. No further episodes overnight.
+518,321,70,Ward Round Note,07/07/2023 00:38,"ECG normal, observe on monitor."
+519,323,78,Admission Note,08/07/2023 21:36,"Admitted with chest pain. Impression: chest pain. Pain settled, likely musculoskeletal."
+520,325,7,Admission Note,11/07/2023 13:43,"Admitted with right sided weakness, slurred speech. Impression: stroke. CT done, no bleed. Aspirin started."
+521,328,69,Admission Note,23/07/2023 03:34,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+522,326,44,Admission Note,14/07/2023 00:13,"Admitted with haematemesis, dizziness. Impression: GI bleed. 2 units of blood crossmatched, IV PPI started."
+523,329,42,Admission Note,16/07/2023 13:03,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+524,328,60,Progress Note,16/07/2023 18:47,"Pain improving, diet reintroduced."
+525,325,43,Ward Round Note,17/07/2023 07:21,"Speech improving, physiotherapy started."
+526,326,43,Ward Round Note,17/07/2023 12:30,"Reviewed on ward round, comfortable. 2 units of blood crossmatched, IV PPI started. Plan: continue current management."
+527,329,59,Nursing Note,17/07/2023 15:33,"IV line resited, fluids running."
+528,325,45,Discharge Note,18/07/2023 15:37,"Clinically improved. CT done, no bleed. Aspirin started. Fit for discharge, counselled on medication."
+529,326,46,Progress Note,19/08/2023 06:03,"Reviewed on ward round, comfortable. 2 units of blood crossmatched, IV PPI started. Plan: continue current management."
+530,326,25,Discharge Note,22/07/2023 19:39,"Clinically improved. 2 units of blood crossmatched, IV PPI started. Fit for discharge, counselled on medication."
+531,332,19,Admission Note,28/07/2023 15:05,Admitted with bloating after meals. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+532,332,46,ward round note,29/07/2023 23:26,"Reviewed on ward round, comfortable. Consented for laparoscopic cholecystectomy. Plan: continue current management."
+533,332,73,Discharge Note,31/07/2023 04:03,"Clinically improved. Consented for laparoscopic cholecystectomy. Fit for discharge, counselled on medication."
+534,334,10,Admission Note,01/08/2023 10:30,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. Rehydrated, passing urine well."
+535,333,80,ADMISSION NOTE,01/08/2023 12:47,"Admitted with crushing chest pain, sweating. Impression: myocardial infarction. ECG shows ST elevation, loaded with aspirin and clopidogrel."
+536,335,19,Admission Note,2023-08-02T15:14,"Admitted with seizure, confusion afterwards. Impression: seizure. No further seizures, alert and oriented."
+537,336,65,Admission Note,02/08/2023 20:56,"Admitted with abdominal pain, loss of appetite. Impression: appendicitis. Surgical review done, booked for theatre."
+538,337,22,Admission Note,03/08/2023 18:13,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. Rehydrated, passing urine well."
+539,333,4,Ward Round Note,03/08/2023 18:36,"ECG shows ST elevation, loaded with aspirin and clopidogrel."
+540,335,44,Progress Note,04/08/2023 18:32,"No further seizures, alert and oriented."
+541,333,67,Nursing Note,04/08/2023 19:48,"S: chest pain, shortness of breath, nausea
+O: obs stable
+A: myocardial infarction
+P: Chest pain settled, troponin trending down."
+542,336,43,   Progress Note,06/08/2023 01:52,"Surgical review done, booked for theatre."
+543,333,25,Discharge Note,06/08/2023 15:58,"Clinically improved. Chest pain settled, troponin trending down. Fit for discharge, counselled on medication."
+544,338,65,Admission Note,08/08/2023 13:12,"Admitted with fatigue, itching. Impression: chronic kidney disease. Renal team review, fistula planned."
+545,339,39,Admission Note,08/08/2023 13:19,Admitted with no complaints. Impression: tobacco use. Counselled on smoking cessation.
+546,336,53,Nursing Note,08/08/2023 15:28,"IV line resited, fluids running."
+547,338,14,Nursing Note,11/08/2023 01:55,"Observations done 4-hourly, no concerns."
+548,336,17,Discharge Note,11/08/2023 16:23,"Clinically improved. Post-op day 1, tolerating fluids. Fit for discharge, counselled on medication."
+549,341,60,Admission Note,14/08/2023 11:28,"Admitted with shortness of breath, leg swelling. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+550,340,44,Admission Note,14/08/2023 19:24,Admitted with intermittent right upper quadrant pain. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+551,342,65,Admission Note,18/08/2023 22:58,"Admitted with weight gain, constipation. Impression: hypothyroidism. Symptoms improving on current dose."
+552,343,46,Admission Note,15/08/2023 14:40,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. Rehydrated, passing urine well."
+553,340,60,Progress Note,15/08/2023 19:37,"Reviewed on ward round, comfortable. Post-op, wounds clean. Plan: continue current management."
+554,340,10,Discharge Note,17/08/2023 17:15,"Clinically improved. Consented for laparoscopic cholecystectomy. Fit for discharge, counselled on medication."
+555,341,8,Nursing Note,18/08/2023 08:55,"S: shortness of breath, leg swelling
+O: obs stable
+A: pulmonary embolism
+P: Started anticoagulation."
+556,341,7,Discharge Note,20/08/2023 05:39,"S: shortness of breath, leg swelling
+O: obs stable
+A: pulmonary embolism
+P: Breathing easier, SpO2 96% on room air."
+557,345,69,Admission Note,23/08/2023 03:26,"Admitted with racing heart, breathlessness. Impression: atrial fibrillation. Rate controlled on bisoprolol."
+558,347,22,Admission Note,23/08/2023 11:54,"Admitted with blurred vision, headache. Impression: hypertension. BP 168/102, amlodipine increased."
+559,346,10,Admission Note,23/08/2023 14:04,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+560,345,20,Nursing Note,24/08/2023 18:04,"Vitals stable, patient comfortable, slept well."
+561,348,10,Admission Note,25/08/2023 01:47,"Admitted with chest discomfort, anxiety. Impression: chest pain. Pain settled, likely musculoskeletal."
+562,349,125,Admission Note,25/08/2023 11:55,"Admitted with fever, chills, confusion. Impression: sepsis. Afebrile for 24h, switched to oral antibiotics."
+563,349,28,Ward Round Note,27/08/2023 03:02,"Started IV antibiotics and fluids, blood cultures sent."
+564,352,65,Admission Note,30/08/2023 19:46,"Admitted with high fever, rigors, weakness. Impression: sepsis. Started IV antibiotics and fluids, blood cultures sent."
+565,353,38,Admission Note,08/30/2023 08:14 PM,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+566,354,78,Admission Note,08/31/2023 09:10 PM,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+567,355,69,Admission Note,01/09/2023 17:25,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+568,356,38,Admission Note,02/09/2023 11:08,"Admitted with tiredness, cold intolerance. Impression: hypothyroidism. TSH elevated, levothyroxine dose increased."
+569,355,72,Nursing Note,03/09/2023 10:55,"Observations done 4-hourly, no concerns."
+570,358,70,Admission Note,2023-09-03T15:46,"Admitted with fatigue, itching. Impression: chronic kidney disease. Electrolytes stable."
+571,352,52,Nursing Note,03/09/2023 21:44,"IV line resited, fluids running."
+572,359,19,Admission Note,05/09/2023 00:28,"Admitted with head injury, vomiting once. Impression: concussion. GCS 15/15, neuro obs 2-hourly."
+573,360,40,Admission Note,05/09/2023 19:28,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Diabetic education given."
+574,352,18,Ward Round Note,07/09/2023 06:48,"Reviewed on ward round, comfortable. Started IV antibiotics and fluids, blood cultures sent. Plan: continue current management."
+575,360,44,Ward Round Note,08/09/2023 05:15,Diabetic education given.
+576,360,44,   Discharge Note,09/09/2023 15:05,"Clinically improved. Glucose readings 8-12 mmol/L, metformin continued. Fit for discharge, counselled on medication."
+577,361,77,Admission Note,09/09/2023 19:10,Admitted with exertional angina. Impression: coronary artery disease. Pre-procedure checks done.
+578,362,44,Admission Note,10/09/2023 08:31,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+579,364,78,Admission Note,12/09/2023 06:13,Admitted with dizziness then fainted. Impression: syncope. No further episodes overnight.
+580,363,10,Admission Note,12/09/2023 08:18,"Admitted with fever, chills, confusion. Impression: sepsis. Started IV antibiotics and fluids, blood cultures sent."
+581,364,46,Progress Note,14/09/2023 01:15,"ECG normal, observe on monitor."
+582,363,70,Progress Note,14/09/2023 02:22,"REVIEWED on WARD round, comfortable. REMAINS febrile, BP improved ON FLUIDS. plan: continue CURRENT MANAGEMENT."
+583,,70,Ward Round Note,14/09/2023 05:31,PRE-PROCEDURE CHECKS DONE.
+584,363,28,Ward Round Note,15/09/2023 08:23,"S: fever, chills, confusion
+O: obs stable
+A: sepsis
+P: Started IV antibiotics and fluids, blood cultures sent."
+585,363,51,Progress Note,22/08/2023 16:02,"Reviewed on ward round, comfortable. Remains febrile, BP improved on fluids. Plan: continue current management."
+586,365,65,Admission Note,16/09/2023 19:09,"Admitted with sudden breathlessness, pleuritic chest pain. Impression: pulmonary embolism. Started anticoagulation."
+587,367,19,Admission Note,20/09/2023 12:15,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+588,369,69,Admission Note,22/09/2023 14:02,"Admitted with right sided weakness, slurred speech. Impression: stroke. Speech improving, physiotherapy started."
+589,367,43,Ward Round Note,22/09/2023 14:50,"Reviewed on ward round, comfortable. Creatinine improving. Plan: continue current management."
+590,367,39,Discharge Note,23/09/2023 06:03,"Clinically improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+591,369,73,Progress Note,24/09/2023 00:54,"CT done, no bleed. Aspirin started."
+592,370,25,Admission Note,24/09/2023 18:22,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+593,370,59,Nursing Note,27/09/2023 07:30,"Observations done 4-hourly, no concerns."
+594,371,7,Admission Note,29/09/2023 01:39,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+595,369,52,Nursing Note,29/09/2023 06:34,"Observations done 4-hourly, no concerns."
+596,372,70,Admission Note,30/09/2023 13:03,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+597,371,40,Ward Round Note,01/10/2023 13:07,No further episodes overnight.
+598,369,46,DISCHARGE NOTE,01/10/2023 13:16,"Clinically improved. Speech improving, physiotherapy started. Fit for discharge, counselled on medication."
+599,373,39,Admission Note,02/10/2023 19:24,"Admitted with sudden breathlessness, pleuritic chest pain. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+600,374,18,Admission  Note,04/10/2023 05:48,"Admitted with right iliac fossa pain, vomiting, fever. Impression: appendicitis. Post-op day 1, tolerating fluids."
+601,373,44,Progress Note,04/10/2023 10:25,"Reviewed on ward round, comfortable. Breathing easier, SpO2 96% on room air. Plan: continue current management."
+602,374,43,Ward Round Note,06/10/2023 10:27,"Post-op day 1, tolerating fluids."
+603,375,77,Admission Note,06/10/2023 23:53,"Admitted with watery stools, dry mouth. Impression: dehydration. IV fluids running, tolerating sips."
+604,374,80,Discharge  Note,07/10/2023 13:02,"Clinically improved. Surgical review done, booked for theatre. Fit for discharge, counselled on medication."
+605,376,22, ADMISSION NOTE  ,09/10/2023 07:59,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+606,377,46,Admission Note,10/10/2023 02:43,"Admitted with right iliac fossa pain, vomiting, fever. Impression: appendicitis. Post-op day 1, tolerating fluids."
+607,375,16,Nursing Note,10/10/2023 04:18,"Patient says ""I feel better today"", eating well."
+608,375,60,Discharge Note,13/14/2023 15:02,"Clinically improved. Rehydrated, passing urine well. Fit for discharge, counselled on medication."
+609,376,37,Nursing Note,12/10/2023 00:14,"Patient says ""I feel better today"", eating well."
+490,303,60,Admission Note,03/06/2023 10:52,"Admitted with head injury, vomiting once. Impression: concussion. GCS 15/15, neuro obs 2-hourly."
+610,377,65,Progress Note,12/10/2023 21:11,"Post-op day 1, tolerating fluids."
+611,379,10,Admission Note,13/10/2023 10:04,Admitted with bloating after meals. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+612,377,19,Ward Round Note,14/10/2023 02:22,"S: right iliac fossa pain, vomiting, fever
+O: obs stable
+A: appendicitis
+P: Surgical review done, booked for theatre."
+613,377,80,Discharge Note,16/10/2023 09:47,"Clinically improved. Surgical review done, booked for theatre. Fit for discharge, counselled on medication."
+517,321,4,Admission Note,03/07/2023 08:15,Admitted with brief loss of consciousness. Impression: syncope. No further episodes overnight.
+614,383,43,Admission Note,22/10/2023 10:18,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Fever settling, cough improving."
+615,384,51,Admission Note,26/10/2023 08:15,"Admitted with melaena, weakness. Impression: GI bleed. 2 units of blood crossmatched, IV PPI started."
+616,385,10,Admission Note,26/10/2023 12:19,"Admitted with knee pain, stiffness. Impression: osteoarthritis of knee. Post-op day 2, mobilising with physio."
+617,383,65,Progress Note,26/10/2023 14:21,"Reviewed on ward round, comfortable. Fever settling, cough improving. Plan: continue current management."
+618,385,28,Ward Round Note,28/10/2023 11:18,Pre-op assessment complete.
+619,387,66,Admission Note,29/10/2023 16:54,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Creatinine improving."
+620,388,44,Admission Note,30/10/2023 22:04,"Admitted with laboured breathing, confusion. Impression: respiratory failure. On high-flow oxygen, ABG repeated."
+621,389,65,Admission Note,30/10/2023 22:43,Admitted with dizziness then fainted. Impression: syncope. No further episodes overnight.
+622,959,44,Admission Note,02/11/2023 06:39,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Fever settling, cough improving."
+623,388,60,Progress Note,02/11/2023 19:52,
+624,390,22,Ward Round Note,03/11/2023 20:42,"Fever settling, cough improving."
+625,388,43,Progress Note,05/11/2023 11:56,"Reviewed on ward round, comfortable. On high-flow oxygen, ABG repeated. Plan: continue current management."
+626,391,48,Admission Note,05/11/2023 12:44,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+627,388,66,Discharge Note,06/11/2023 04:10,"Clinically improved. Weaned to nasal prongs, more alert. Fit for discharge, counselled on medication."
+628,391,7,Ward Round Note,08/11/2023 07:25,"S: fatigue, itching
+O: obs stable
+A: chronic kidney disease
+P: Renal team review, fistula planned."
+629,392,,Admission Note,08/11/2023 20:08,Admitted with no complaints. Impression: hypertension. BP better controlled at 138/86.
+630,393,25,Admission Note,26/10/2023 09:23,"Admitted with intermittent right upper quadrant pain. Impression: gallstones. Post-op, wounds clean."
+631,391,38,Discharge Note,09/11/2023 23:53,"Clinically improved. Renal team review, fistula planned. Fit for discharge, counselled on medication."
+632,393,18,Progress Note,11/11/2023 06:06 PM,"Reviewed on ward round, comfortable. Post-op, wounds clean. Plan: continue current management."
+633,1062,65,Admission Note,12/11/2023 14:02,"Admitted with chest pain, shortness of breath, nausea. Impression: myocardial infarction. Chest pain settled, troponin trending down."
+634,393,80,Discharge Note,12/11/2023 23:10,"Clinically improved. Post-op, wounds clean. Fit for discharge, counselled on medication."
+635,395,57,Nursing Note,15/11/2023 08:58,"Vitals stable, patient comfortable, slept well."
+636,397,4,Admission Note,11/16/2023 09:48 PM,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Fever settling, cough improving."
+637,395,43,Discharge Note,11/18/2023 08:07 PM,"Clinically improved. ECG shows ST elevation, loaded with aspirin and clopidogrel. Fit for discharge, counselled on medication."
+638,398,66,Admission Note,20/11/2023 00:25,"Admitted with crushing chest pain, sweating. Impression: myocardial infarction. ECG shows ST elevation, loaded with aspirin and clopidogrel."
+639,398,36,Nursing  Note,22/11/2023 02:55,"Vitals stable, patient comfortable, slept well."
+640,398,80,Ward Round Note,25/11/2023 17:40,"ECG shows ST elevation, loaded with aspirin and clopidogrel."
+641,398,7,Discharge Note,27/11/2023 07:54,"Clinically improved. Chest pain settled, troponin trending down. Fit for discharge, counselled on medication."
+642,399,69,Admission Note,11-27-2023 19:11,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. Rehydrated, passing urine well."
+643,400,60,Admission Note,28/11/2023 11:36,"Admitted with epigastric pain after meals. Impression: reflux disease. Started PPI, lifestyle advice given."
+644,401,60,Admission Note,2023-11-19 04:24:00,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+645,399,51,Ward Round Note,29/11/2023 05:58,"Reviewed on ward round, comfortable. Rehydrated, passing urine well. Plan: continue current management."
+646,402,43,Admission Note ,11/30/2023 12:31 AM,"S: racing heart, breathlessness
+O: obs stable
+A: atrial fibrillation
+P: Rate controlled on bisoprolol."
+647,400,78,Progress Note,30/11/2023 16:08,"Started PPI, lifestyle advice given."
+648,401,48,Ward Round Note,02/12/2023 16:40,"Reviewed on ward round, comfortable. Creatinine improving. Plan: continue current management."
+649,401,60,Discharge Note,06/12/2023 12:06,"Clinically improved. Creatinine improving. Fit for discharge, counselled on medication."
+650,406,17,Admission Note,08/12/2023 14:38,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+651,408,38,Admission Note,09/12/2023 10:48,"Admitted with fever, vomiting, drowsiness. Impression: sepsis. Remains febrile, BP improved on fluids."
+652,406,28,Progress Note,11/12/2023 21:27,"Reviewed on ward round, comfortable. Symptoms improving on omeprazole. Plan: continue current management."
+653,409,70,Admission Note,2023-12-13T14:34,"Admitted with breathlessness, orthopnoea, leg swelling. Impression: heart failure. Weight down 2kg, less breathless."
+654,410,65,Admission Note,14/12/2023 00:12,"Admitted with chest pain. Impression: chest pain. Pain settled, likely musculoskeletal."
+655,411,78,Admission Note,14/12/2023 13:22,"Admitted with abdominal pain, loss of appetite. Impression: appendicitis. Surgical review done, booked for theatre."
+656,409,48,Progress Note,17/12/2023 06:16,"Reviewed on ward round, comfortable. IV furosemide given, good diuresis. Plan: continue current management."
+657,412,25,Admission Note,17/12/2023 11:59,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Diabetic education given."
+658,412,40,Progress Note,19/12/2023 09:38,"Glucose readings 8-12 mmol/L, metformin continued."
+659,413,38,Admission Note,22/12/2023 13:24,Admitted with shortness of breath on exertion. Impression: anaemia. Hb improved post transfusion.
+660,415,60,Admission Note,23/12/2023 11:04,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Diabetic education given."
+661,414,77,Admission Note,23/12/2023 14:21,"  Admitted with pain in right hip after fall. Impression: hip fracture. Post-op, mobilising with frame."
+662,416,10,Admission Note,25/12/2023 01:41,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+663,414,66,Progress Note,27/12/2023 06:50,"Reviewed on ward round, comfortable. Post-op, mobilising with frame. Plan: continue current management."
+664,416,7,Progress Note,27/12/2023 14:11," BABY FEEDING WELL, MOTHER COUNSELLED ON BREASTFEEDING.  "
+665,417,43,Admission Note,28/12/2023 14:45,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Creatinine improving."
+666,418,44,Admission Note,28/12/2023 17:23,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Creatinine improving."
+667,421,40,Admission Note,29/12/2023 21:25,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+668,414,28,Discharge Note,12/30/2023 03:47 PM,"Clinically improved. Skin traction applied, listed for theatre. Fit for discharge, counselled on medication."
+669,418,78,Progress Note,31/12/2023 08:49,Creatinine improving.
+546,336,53,Nursing Note,08/08/2023 15:28,"IV line resited, fluids running."
+670,423,17,Admission Note,01/01/2024 11:38,"Admitted with exertional angina. Impression: coronary artery disease. Post angiography, groin site clean and dry."
+671,422,43,Admission Note,01/01/2024 15:18,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+672,424,17,Admission Note,02/01/2024 03:43,"Admitted with head injury, vomiting once. Impression: concussion. Headache improving, no new deficits."
+673,418,28,Discharge Note    ,01/02/2024 07:42 AM,"Clinically improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+674,425,25,Admission Note,03/01/2024 05:47,"Admitted with breathlessness, orthopnoea, leg swelling. Impression: heart failure. Weight down 2kg, less breathless."
+675,422,39,Progress Note,03/01/2024 23:28,"Glucose readings 8-12 mmol/L, metformin continued."
+676,424,46,Progress Note,05/01/2024 07:37,"GCS 15/15, neuro obs 2-hourly."
+677,423,72,Nursing Note,06/01/2024 00:48,"Observations done 4-hourly, no concerns."
+678,425,72,Nursing Note,06/01/2024 18:19,"Patient says ""I feel better today"", eating well."
+679,425,25,Discharge Note,10/01/2024 21:58,"S: breathlessness, orthopnoea, leg swelling
+O: obs stable
+A: heart failure
+P: Weight down 2kg, less breathless."
+680,429,48,Admission Note,11/01/2024 16:24,Admitted with chest tightness on exertion. Impression: coronary artery disease. Pre-procedure checks done.
+681,431,44,Admission Note,13/01/2024 15:22,Admitted with dizziness then fainted. Impression: syncope. No further episodes overnight.
+682,432,28,Admission Note,14/01/2024 21:43,"Admitted with facial droop, confusion. Impression: stroke. Speech improving, physiotherapy started."
+683,431,77,Progress Note,16/01/2024 15:52,"ECG normal, observe on monitor."
+684,433,48,Admission Note,16/01/2024 18:24,"Admitted with fatigue, itching. Impression: chronic kidney disease. Electrolytes stable."
+685,432,56,Nursing Note,16/01/2024 21:23,"Patient says ""I feel better today"", eating well."
+686,434,65,Admission Note,17/01/2024 00:14," ADMITTED WITH BREATHLESSNESS, ORTHOPNOEA, LEG SWELLING. IMPRESSION: HEART FAILURE. IV FUROSEMIDE GIVEN, GOOD DIURESIS.  "
+687,434,19,Ward Round Note,18/01/2024 23:51,"Weight down 2kg, less breathless."
+688,434,10,Discharge Note,19/01/2024 11:52,"Clinically improved. IV furosemide given, good diuresis. Fit for discharge, counselled on medication."
+689,436,28,Admission Note,20/01/2024 09:38,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+690,433,48,Ward Round Note,20/01/2024 10:31,Electrolytes stable.
+691,437,7,Admission Note  ,21/01/2024 15:19,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Diabetic education given."
+692,438,38,Admission Note,23/01/2024 12:51,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+693,439,69,Admission Note,23/01/2024 17:15,Admitted with no complaints. Impression: hypertension. BP better controlled at 138/86.
+694,437,60,Ward Round Note,23/01/2024 20:47,"Reviewed on ward round, comfortable. Glucose readings 8-12 mmol/L, metformin continued. Plan: continue current management."
+695,440,10,Admission Note,25/01/2024 10:01,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb improved post transfusion."
+696,439,44,Progress Note,25/01/2024 12:53,"S: blurred vision, HEADACHE
+O: OBS stable
+a: hypertension
+p: BP 168/102, AMLODIPINE INCREASED."
+697,440,44,Progress Note,26/01/2024 14:41,"Reviewed on ward round, comfortable. Hb 7.2 g/dL, 1 unit of blood transfused. Plan: continue current management."
+698,442,44,admission note,01/02/2024 20:58,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+699,442,39,Progress Note,04/02/2024 11:53,"Reviewed on ward round, comfortable. Creatinine improving. Plan: continue current management."
+700,443,25,Admission Note,04/02/2024 11:53,Admitted with intermittent right upper quadrant pain. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+701,444,28,Admission Note,04/02/2024 23:02,"S: chest discomfort, anxiety
+O: obs stable
+A: chest pain
+P: Serial troponins negative."
+702,442,7,Discharge Note,05/02/2024 06:08,"Clinically improved. Creatinine improving. Fit for discharge, counselled on medication."
+703,444,43,Ward Round Note,05/02/2024 20:16,Serial troponins negative.
+704,447,22,Admission Note,08/02/2024 02:42,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. Rehydrated, passing urine well."
+705,448,78,Admission Note,02/10/2024 02:35 AM,"Admitted with crushing chest pain, sweating. Impression: myocardial infarction. Chest pain settled, troponin trending down."
+706,449,10,Admission Note,10/02/2024 21:44,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+707,451,78,Admission Note,12/02/2024 13:27,"Admitted with laboured breathing, confusion. Impression: respiratory failure. Weaned to nasal prongs, more alert."
+708,450,73,Admission Note,12/02/2024 17:25,"Admitted with jerking movements, tongue bite. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+709,448,67,Nursing Note,13/02/2024 00:36,"Vitals stable, patient comfortable, slept well."
+710,1129,60,Admission Note,14/02/2024 09:26,"Admitted with haematemesis, dizziness. Impression: GI bleed. 2 units of blood crossmatched, IV PPI started."
+711,449,7,Ward Round Note,15/02/2024 16:09,"Started PPI, lifestyle advice given."
+712,451,77,Ward Round Note,15/02/2024 21:02,"Weaned to nasal prongs, more alert."
+713,452,65,Progress Note,18/02/2024 04:21,"2 units of blood crossmatched, IV PPI started."
+714,453,70,Admission Note,18/02/2024 08:54,"Admitted with fatigue, itching. Impression: chronic kidney disease. Renal team review, fistula planned."
+715,454,65,ADMISSION NOTE,19/02/2024 04:47,Admitted with brief loss of consciousness. Impression: syncope. No further episodes overnight.
+716,450,10,Ward Round Note,19/02/2024 14:01,"Loaded with anticonvulsant, seizure precautions."
+717,450,45,Discharge Note,20/02/2024 02:56,"S: jerking movements, tongue bite
+O: obs stable
+A: seizure
+P: Loaded with anticonvulsant, seizure precautions."
+718,452,44,Discharge Note,20/02/2024 22:36,"Clinically improved. No further bleeding, Hb stable. Fit for discharge, counselled on medication."
+719,453,70,Progress Note,2024-02-21 16:20:00,"Reviewed on ward round, comfortable. Electrolytes stable. Plan: continue current management."
+720,453,48,Discharge Note,2024-02-22 22:18:00,"Clinically  improved. Electrolytes stable. Fit for discharge, counselled on medication."
+721,457,43,Admission Note,25/02/2024 19:45,"Admitted with jerking movements, tongue bite. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+722,456,19,Admission Note,02/25/2024 09:09 PM,"Admitted with melaena, weakness. Impression: GI bleed. No further bleeding, Hb stable."
+723,458,60,Admission Note,26/02/2024 14:59,"S: vomiting, diarrhoea, dizziness
+O: obs stable
+A: dehydration
+P: Rehydrated, passing urine well."
+724,459,73,Admission Note,28/02/2024 12:11,"Admitted with fever, vomiting, drowsiness. Impression: sepsis. Started IV antibiotics and fluids, blood cultures sent."
+725,457,45,Ward Round Note,28/02/2024 16:31,"Loaded with anticonvulsant, seizure precautions."
+726,456,60,Ward Round Note,01/03/2024 09:52,"Reviewed on ward round, comfortable. 2 units of blood crossmatched, IV PPI started. Plan: continue current management."
+727,460,19,Admission Note,01/03/2024 13:57,"Admitted with severe epigastric pain, vomiting. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+728,456,46,Discharge Note,03/03/2024 13:21,"Clinically improved. No further bleeding, Hb stable. Fit for discharge, counselled on medication.    "
+729,456,24,Nursing Note,03/03/2024 22:15,"Observations done 4-hourly, no concerns."
+730,460,56,Nursing Note,2024-03-03 23:50:00,"Vitals stable, patient comfortable, slept well."
+731,457,70,DISCHARGE note,04/03/2024 18:10,"Clinically improved. No further seizures, alert and oriented. Fit for discharge, counselled on medication."
+732,459,43,Ward Round Note,05-03-2024 15:51,"Remains febrile, BP improved on fluids."
+733,462,66,Admission Note,06/03/2024 09:01,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+734,459,46,Discharge Note,08/03/2024 02:23,"Clinically improved. Remains febrile, BP improved on fluids. Fit for discharge, counselled on medication."
+735,462,28,Ward Round Note,03/08/2024 10:27 AM,"Reviewed on ward round, comfortable. Baby feeding well, mother counselled on breastfeeding. Plan: continue current management."
+736,463,60,Admission Note,11/03/2024 00:58,"Admitted with headache, brief loss of consciousness. Impression: concussion. GCS 15/15, neuro obs 2-hourly."
+737,463,25,WARD ROUND NOTE,13/03/2024 03:28,"Headache improving, no new deficits."
+738,464,28,Admission Note,14/03/2024 13:28,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+739,463,70,Discharge Note,14/03/2024 22:10,"Clinically improved. Headache improving, no new deficits. Fit for discharge, counselled on medication."
+740,465,4,Admission Note,15/03/2024 16:59,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Fever settling, cough improving."
+741,464,4,Progress Note,16/03/2024 23:28,Creatinine improving.
+742,467,77,Admission Note,18/03/2024 16:06,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+743,468,43,Admission Note,18/03/2024 22:21,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+744,470,40,Admission Note,20/03/2024 00:16,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Fever settling, cough improving."
+745,464,66,Progress Note,21/03/2024 02:40,Creatinine improving.
+746,470,8,Nursing Note,21/03/2024 21:50,"Patient says ""I feel better today"", eating well."
+747,464,46,Discharge Note,23/03/2024 04:10,"Clinically improved. Creatinine improving. Fit for discharge, counselled on medication."
+748,471,89,Admission Note,23/03/2024 15:49,"Admitted with wheeze, cough, breathlessness. Impression: COPD exacerbation. Wheeze reduced, mobilising on ward."
+749,471,46,Progress Note,25/03/2024 23:52,"Reviewed on ward round, comfortable. Wheeze reduced, mobilising on ward. Plan: continue current management."
+750,472,43,Admission Note,27/03/2024 01:05,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb improved post transfusion."
+751,473,25,Admission Note,29/03/2024 08:26,"Admitted with wheeze, tight chest. Impression: acute asthma. Back-to-back nebs given, improving."
+752,473,19,Ward Round Note,01/04/2024 22:11,"Reviewed on ward round, comfortable. Peak flow 80% of predicted. Plan: continue current management."
+753,475,18,Admission Note,05/04/2024 12:46,"Admitted with fatigue, itching. Impression: chronic kidney disease. Renal team review, fistula planned."
+754,476,19,Admission Note,08/04/2024 05:12,"Admitted with severe breathlessness, drowsiness. Impression: respiratory failure. Weaned to nasal prongs, more alert."
+755,477,25,Admission Note,08/04/2024 14:10,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+756,478,77,Admission Note,09/04/2024 11:53,"Admitted with morning cough. Impression: tobacco use. Motivated to quit, NRT started."
+757,479,73,Admission Note,09/04/2024 19:18,"Admitted with increased sputum, breathlessness. Impression: COPD exacerbation. Wheeze reduced, mobilising on ward."
+675,422,39,Progress Note,03/01/2024 23:28,"Glucose readings 8-12 mmol/L, metformin continued."
+758,480,46,Admission Note,10/04/2024 03:25,"Admitted with high fever, rigors, weakness. Impression: sepsis. Remains febrile, BP improved on fluids."
+507,306,78,Discharge Note,15/06/2023 20:07,"Clinically improved. No further seizures, alert and oriented. Fit for discharge, counselled on medication."
+759,476,18,Progress Note,11/04/2024 00:07,"Reviewed on ward round, comfortable. On high-flow oxygen, ABG repeated. Plan: continue current management."
+760,477,10,Ward Round Note,11/04/2024 10:30,"Fluid balance chart started, nephrotoxins stopped."
+761,482,39,Admission Note,11/04/2024 17:41,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Fever settling, cough improving."
+762,476,19,Discharge Note,12/04/2024 17:33,"Clinically improved. Weaned to nasal prongs, more alert. Fit for discharge, counselled on medication."
+763,477,28,Ward Round Note,12/04/2024 21:19,"Fluid balance chart started, nephrotoxins stopped."
+764,482,6,   Nursing Note,13/04/2024 02:31,"IV line resited, fluids running."
+765,477,69,Discharge Note,13/04/2024 05:54,"Clinically improved. Creatinine improving. Fit for discharge, counselled on medication."
+766,483,19,ADMISSION NOTE,15/04/2024 28:19,"Admitted with blurred vision, headache. Impression: hypertension. BP better controlled at 138/86."
+767,485,44,Admission Note,18/04/2024 19:08,"S: nausea, reduced urine output
+O: obs stable
+A: acute kidney injury
+P: Creatinine improving."
+768,486,66,Admission Note,19/04/2024 21:25,"Admitted with dysuria, frequency, fever. Impression: urinary tract infection. Urine dipstick positive, antibiotics started."
+769,485,38,ward round note,04/20/2024 02:52 PM,"Reviewed on ward round, comfortable. Fluid balance chart started, nephrotoxins stopped. Plan: continue current management."
+770,487,25,Admission Note,21/04/2024 11:46,"Admitted with bloating after meals. Impression: gallstones. Post-op, wounds clean."
+771,485,60,Discharge Note,22/04/2024 16:04,"Clinically improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+772,487,57,Nursing Note,24/04/2024 14:49,"Patient says ""I feel better today"", eating well."
+773,488,73,Admission Note,29/04/2024 16:56,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+774,488,67,Nursing Note,02/05/2024 16:41,"Observations done 4-hourly, no concerns."
+775,488,65,Discharge Note,03/05/2024 00:07,"Clinically improved. Diabetic education given. Fit for discharge, counselled on medication."
+776,490,19,Admission Note,03/05/2024 08:11,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Fever settling, cough improving."
+777,491,60,Admission Note,03/05/2024 18:21,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+778,492,4,Admission Note,29/05/2024 01:34,Admitted with exertional angina. Impression: coronary artery disease. Pre-procedure checks done.
+779,493,38,Admission Note,05/05/2024 06:44,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+780,494,28,Admission Note,05/06/2024 12:10 AM,"Admitted with breathlessness, night cough. Impression: acute asthma. Peak flow 80% of predicted."
+781,495,17,Admission Note,07/05/2024 02:13,"Admitted with fever, chills, confusion. Impression: sepsis. Started IV antibiotics and fluids, blood cultures sent. "
+682,432,28,Admission Note,14/01/2024 21:43,"Admitted with facial droop, confusion. Impression: stroke. Speech improving, physiotherapy started."
+782,492,53,Nursing Note,07/05/2024 19:49,"Vitals stable, patient comfortable, slept well."
+783,497,80,Admission Note,07/05/2024 22:47,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+784,496,60,Admission Note,05/08/2024 01:38 AM,"Admitted with abdominal pain radiating to back. Impression: pancreatitis. Amylase falling, tolerating clear fluids."
+785,494,65,Progress Note,08/05/2024 15:54,"Reviewed on ward round, comfortable. Back-to-back nebs given, improving. Plan: continue current management."
+786,495,79,Nursing Note,09/05/2024 07:10,"Observations done 4-hourly, no concerns."
+787,950,60,Admission Note,09/05/2024 07:22,"   Admitted with racing heart, breathlessness. Impression: atrial fibrillation. Remains in AF, rate in the 80s."
+788,492,44,Discharge Note,09/05/2024 18:19,"Clinically   improved. Pre-procedure checks done. Fit for discharge, counselled on medication."
+789,496,59,Nursing Note,10/05/2024 08:31,"Patient says ""I feel better today"", eating well."
+790,495,47,Discharge Note,12/05/2024 13:14,"Clinically improved. Started IV antibiotics and fluids, blood cultures sent. Fit for discharge, counselled on medication."
+791,495,70,Ward Round Note,12/05/2024 14:01,"Afebrile for 24h, switched to oral antibiotics."
+792,498,28,Progress Note,12/05/2024 20:57,"Remains in AF, rate in the 80s."
+793,496,19,Discharge Note,13/05/2024 08:34,"Clinically improved. Aggressive IV fluids, analgesia. Fit for discharge, counselled on medication."
+794,499,28,Admission Note,13/05/2024 15:30,"Admitted with watery stools, dry mouth. Impression: dehydration. IV fluids running, tolerating sips."
+795,500,18,Admission Note,14/05/2024 23:50,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+796,502,78,Admission Note,16/05/2024 09:21,"Admitted with blurred vision, headache. Impression: hypertension. BP better controlled at 138/86."
+797,503,null,Admission Note,2024-05-17 16:39:00,"Admitted with high fever, rigors, weakness. Impression: sepsis. Remains febrile, BP improved on fluids."
+798,503,70,Ward Round Note,20/05/2024 22:04,"Reviewed on ward round, comfortable. Afebrile for 24h, switched to oral antibiotics. Plan: continue current management."
+799,503,18,Discharge Note,05/21/2024 09:51 PM,"CLINICALLY IMPROVED. STARTED IV ANTIBIOTICS AND FLUIDS, BLOOD CULTURES SENT. FIT FOR DISCHARGE, COUNSELLED ON MEDICATION."
+800,504,66,Admission Note,21/05/2024 22:18,"Admitted with burning urine, lower abdominal pain. Impression: urinary tract infection. Afebrile, symptoms resolving."
+801,505,60,Admission Note,22/05/2024 12:18,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+802,505,73,Progress Note,24/05/2024 01:30,"S: epigastric pain after meals
+O: obs stable
+A: reflux disease
+P: Started PPI, lifestyle advice given."
+803,504,77,Ward Round Note,25/05/2024 07:06,"Urine dipstick positive, antibiotics started."
+804,507,28,Admission Note,25/05/2024 16:21,"Admitted with intermittent right upper quadrant pain. Impression: gallstones. Post-op, wounds clean."
+805,508,17,Admission Note,26/05/2024 09:36,Admitted with exertional angina. Impression: coronary artery disease. Pre-procedure checks done.
+806,505,18,Discharge Note,26/05/2024 15:43,"Clinically improved. Started PPI, lifestyle advice given. Fit for discharge, counselled on medication."
+807,509,22,Admission Note,26/05/2024 22:16,"Admitted with wheeze, tight chest. Impression: acute asthma. Back-to-back nebs given, improving."
+808,508,16,Nursing Note,27/05/2024 17:17,"Patient says ""I feel better today"", eating well."
+809,507,34,Nursing Note,13/05/2024 05:53,"Patient says ""I feel better today"", eating well."
+810,512,43,admission note,29/05/2024 16:59,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+811,513,44,Admission Note,02/06/2024 12:53,"Admitted with knee pain, stiffness. Impression: osteoarthritis of knee. Pre-op assessment complete."
+812,512,60,Ward Round Note,02/06/2024 14:42,"Reviewed on ward round, comfortable. Creatinine improving. Plan: continue current management.  "
+813,515,44,Admission Note,03/06/2024 15:21,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+814,516,39,Admission Note,2024-06-04 13:20:00,"ADMITTED with HEARTBURN, regurgitation. IMPRESSION: REFLUX disease. started ppi, lifestyle advice GIVEN."
+815,517,44,Admission Note,06/06/2024 08:21,"Admitted with haematemesis, dizziness. Impression: GI bleed. 2 units of blood crossmatched, IV PPI started."
+816,518,19,ADMISSION NOTE,07/06/2024 17:25,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+817,519,4,Admission Note,08/06/2024 20:51,"Admitted with abdominal pain radiating to back. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+818,517,42,Progress Note,09/06/2024 22:24,"Reviewed on ward round, comfortable. 2 units of blood crossmatched, IV PPI started. Plan: continue current management."
+819,520,39,Admission Note,10-06-2024 16:27,"Admitted with head injury, vomiting once. Impression: concussion. GCS 15/15, neuro obs 2-hourly."
+820,519,23,Nursing Note,11/06/2024 14:34,"IV line resited, fluids running."
+821,517,60,Ward Round Note,11/06/2024 16:55,"Reviewed on ward round, comfortable. No further bleeding, Hb stable. Plan: continue current management."
+822,521,28,Admission Note,13/06/2024 15:47,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+823,517,66,Discharge Note,13/06/2024 22:35,"Clinically improved. No further bleeding, Hb stable. Fit for discharge, counselled on medication."
+824,520,77,Progress Note,14/06/2024 05:15,"GCS 15/15, neuro obs 2-hourly."
+825,522,48,Admission Note,15/06/2024 04:56,"Admitted with seizure, confusion afterwards. Impression: seizure. No further seizures, alert and oriented."
+826,519,44,Discharge Note,15/06/2024 07:01,"Clinically improved. Amylase falling, tolerating clear fluids. Fit for discharge, counselled on medication."
+827,522,36,Nursing Note,16/06/2024 19:20,"Patient says ""I feel better today"", eating well."
+828,523,47,Admission Note,17/06/2024 14:13,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+829,521,60,Ward Round Note,17/06/2024 21:37,SYMPTOMS IMPROVING ON OMEPRAZOLE.
+830,522,25,Discharge Note,17/06/2024 23:32,"Clinically improved. No further seizures, alert and oriented. Fit for discharge, counselled on medication."
+831,524,73,Admission Note,18/06/2024 14:35,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+832,526,28,admission note,21/06/2024 15:33,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Diabetic education given."
+833,525,17,Admission Note,21/06/2024 16:45,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+834,524,65,Ward Round Note,22/06/2024 02:11,"Reviewed on ward round, comfortable. Glucose readings 8-12 mmol/L, metformin continued. Plan: continue current management."
+835,525,37,Nursing Note,24/06/2024 12:15,"Patient says ""I feel better today"", eating well."
+836,527,28,Admission Note,26/06/2024 05:31,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+837,527,66,Ward Round Note,2024-06-28 05:14:00,"S: brief loss of consciousness
+O: obs stable
+A: syncope
+P: ECG normal, observe on monitor."
+838,529,48,Admission Note,06/28/2024 10:16 AM,"Admitted with intermittent right upper quadrant pain. Impression: gallstones. Post-op, wounds clean."
+839,528,80,Admission Note,28/06/2024 23:33,"Admitted with sudden breathlessness, pleuritic chest pain. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+840,529,7,Ward Round Note,29/06/2024 19:35,"Reviewed on ward round, comfortable. Post-op, wounds clean. Plan: continue current management."
+841,529,77,Discharge Note,01/07/2024 15:34,"Clinically improved. Consented for laparoscopic cholecystectomy. Fit for discharge, counselled on medication."
+842,528,10,Progress Note,01/07/2024 20:05,"Reviewed on ward round, comfortable. Started anticoagulation. Plan: continue current management."
+843,531,25,Admission  Note,2024-07-04T05:51,"Admitted with sudden breathlessness, pleuritic chest pain. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+844,532,44,Admission Note,21/06/2024 06:24,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+845,531,39,Ward Round Note,06/07/2024 07:50,"Reviewed on ward round, comfortable. Breathing easier, SpO2 96% on room air. Plan: continue current management."
+846,534,44,Admission Note,06/07/2024 12:53,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Renal team review, fistula planned."
+847,536,19,Admission Note,08/07/2024 05:08,"Admitted with breathlessness, orthopnoea, leg swelling. Impression: heart failure. Weight down 2kg, less breathless."
+848,528,65,Discharge Note,08/07/2024 11:57,"Clinically improved. Started anticoagulation. Fit for discharge, counselled on medication."
+849,534,27,Nursing Note,08/07/2024 17:08,"Vitals stable, patient comfortable, slept well."
+850,531,44,Progress Note,09/07/2024 00:28,"S: shortness of breath, leg swelling
+O: obs stable
+A: pulmonary embolism
+P: Breathing easier, SpO2 96% on room air."
+851,536,1,Nursing Note,2024-07-09 12:16:00,"Vitals stable, patient comfortable, slept well."
+852,531,40,Discharge Note,10/07/2024 05:18,"   Clinically improved. Started anticoagulation. Fit for discharge, counselled on medication."
+853,538,19,Admission Note,11/07/2024 08:05,"Admitted with shortness of breath, leg swelling. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+854,536,44,Ward Round Note,11/07/2024 21:43,"IV furosemide given, good diuresis."
+855,540,65,Admission Note,14/07/2024 05:07,"Admitted with racing heart, breathlessness. Impression: atrial fibrillation. Remains in AF, rate in the 80s."
+856,536,73,Discharge Note,14/07/2024 07:51,"S: breathlessness, orthopnoea, leg swelling
+O: obs stable
+A: heart failure
+P: Weight down 2kg, less breathless."
+857,540,10,Progress Note,16/07/2024 08:33,"S: racing heart, breathlessness
+O: obs stable
+A: atrial fibrillation
+P: Rate controlled on bisoprolol."
+858,542,43,Admission Note,16/07/2024 10:12,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Diabetic education given."
+859,543,73,Admission Note,16/07/2024 14:18,"Admitted with haematemesis, dizziness. Impression: GI bleed. No further bleeding, Hb stable."
+860,544,39,Admission Note,18/07/2024 23:46,"Admitted with chest pain, shortness of breath, nausea. Impression: myocardial infarction. ECG shows ST elevation, loaded with aspirin and clopidogrel."
+861,544,28,Progress Note,20/07/2024 12:37,"Reviewed on ward round, comfortable. ECG shows ST elevation, loaded with aspirin and clopidogrel. Plan: continue current management."
+862,543,73,  Progress Note,21/07/2024 06:35,"No further bleeding, Hb stable."
+863,544,39,Progress Note,22/07/2024 22:00,"Chest pain settled, troponin trending down."
+864,543,18,Progress Note,23/07/2024 10:02,"Reviewed on ward round, comfortable. No further bleeding, Hb stable. Plan: continue current management."
+865,544,60,Discharge Note,25/07/2024 05:54,"Clinically improved. Chest pain settled, troponin trending down. Fit for discharge, counselled on medication."
+866,546,38,Admission Note,25/07/2024 07:12,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. IV fluids running, tolerating sips."
+867,543,10,Discharge Note,27/07/2024 20:41,"S: haematemesis, dizziness
+O: obs stable
+A: GI bleed
+P: No further bleeding, Hb stable."
+868,547,45,Admission Note,29/07/2024 13:42,"S: fatigue, dizziness, pallor
+O: obs stable
+A: anaemia
+P: Hb improved post transfusion."
+869,548,17,Admission Note,30/07/2024 06:01,"Admitted with burning urine, lower abdominal pain. Impression: urinary tract infection. Urine dipstick positive, antibiotics started."
+870,549,18,Admission Note,04-08-2024 06:05,"Admitted with breathlessness, orthopnoea, leg swelling. Impression: heart failure. Weight down 2kg, less breathless."
+871,552,44,Admission Note,06/08/2024 13:57,"Admitted with epigastric pain after meals. Impression: reflux disease. Started PPI, lifestyle advice given."
+872,549,28,Progress Note,06/08/2024 19:44,"Reviewed on ward round, comfortable. Weight down 2kg, less breathless. Plan: continue current management."
+873,553,43,Admission Note,07/08/2024 10:02,"Admitted with knee pain, stiffness. Impression: osteoarthritis of knee. Post-op day 2, mobilising with physio."
+874,552,39,Progress Note,08/08/2024 11:29,"Started PPI, lifestyle advice given."
+875,549,79,Nursing Note,09/08/2024 00:19,"Vitals stable, patient comfortable, slept well."
+876,549,10,Discharge Note,09/08/2024 09:26,"Clinically improved. Weight down 2kg, less breathless. Fit for discharge, counselled on medication."
+877,556,65,Admission Note,16/08/2024 20:16,"S: feeding well
+O: obs stable
+A: well baby
+P: Baby feeding well, mother counselled on breastfeeding."
+878,557,42,admission note,18/08/2024 06:17,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+879,558,25,Admission Note,18/08/2024 11:15,"S: abdominal pain radiating to back
+O: obs stable
+A: pancreatitis
+P: Aggressive IV fluids, analgesia."
+880,556,39,Ward Round Note,19/08/2024 09:16,"Reviewed on ward round, comfortable. Baby feeding well, mother counselled on breastfeeding. Plan: continue current management."
+881,559,48,Admission Note,20/08/2024 02:52,"Admitted with seizure, confusion afterwards. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+882,560,60,Admission Note,23/08/2024 09:49,"Admitted with racing heart, breathlessness. Impression: atrial fibrillation. Remains in AF, rate in the 80s."
+883,561,80,Admission Note,23/08/2024 10:34,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+884,559,48,Progress Note,24/08/2024 08:43,"No further seizures, alert and oriented."
+885,560,25,Ward Round Note,24/08/2024 18:52,"Remains in AF, rate in the 80s."
+886,559,10,Ward Round Note,24/08/2024 20:05,"Loaded with anticonvulsant, seizure precautions."
+887,1110,38,Admission Note,25/08/2024 20:01,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+888,561,78,Ward Round Note,26/08/2024 06:46,"Reviewed on ward round, comfortable. Symptoms improving on omeprazole. Plan: continue current management."
+889,564,10,Ward Round Note,27/08/2024 15:26,"Started IV antibiotics, oxygen via nasal prongs."
+890,565,44,Admission Note,27/08/2024 20:22,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Fever settling, cough improving."
+891,559,38,Discharge Note,28/08/2024 11:49,"S: seizure, confusion afterwards
+O: obs stable
+A: seizure
+P: Loaded with anticonvulsant, seizure precautions."
+892,566,60,Admission Note,28/08/2024 15:28,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb improved post transfusion."
+893,565,56,Nursing Note,29/08/2024 18:40,"Observations done 4-hourly, no concerns."
+894,567,45,   Admission Note,02/09/2024 17:49,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+895,568,77,Admission Note,2024-09-04 05:28:00,"Admitted with facial droop, confusion. Impression: stroke. Speech improving, physiotherapy started."
+896,570,38,Admission Note,06/09/2024 06:36,"Admitted with pain in right hip after fall. Impression: hip fracture. Skin traction applied, listed for theatre."
+897,571,46,Admission Note,09/07/2024 05:24 PM,"Admitted with pain in right hip after fall. Impression: hip fracture. Post-op, mobilising with frame."
+898,568,44,Progress Note,07/09/2024 18:01,"Reviewed on ward round, comfortable. CT done, no bleed. Aspirin started. Plan: continue current management."
+899,570,86,Ward Round Note,08/09/2024 17:21,"Reviewed on ward round, comfortable. Skin traction applied, listed for theatre. Plan: continue current management."
+900,571,25,Progress Note,09/09/2024 14:32,"Post-op, mobilising with frame."
+901,570,61,Nursing Note  ,10/09/2024 15:24,"Patient says ""I feel better today"", eating well."
+902,571,69,discharge note,13/09/2024 08:51,"Clinically improved. Skin traction applied, listed for theatre. Fit for discharge, counselled on medication."
+903,570,80,Discharge Note,13/09/2024 13:05,"Clinically improved. Post-op, mobilising with frame. Fit for discharge, counselled on medication."
+904,573,47,Admission Note,16/09/2024 14:20,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+485,302,65,Admission Note,31/05/2023 13:14,Admitted with epigastric pain after meals. Impression: reflux disease. Symptoms improving on omeprazole.
+905,574,80,Admission Note,16/09/2024 22:33,"   Admitted with brief loss of consciousness. Impression: syncope. ECG normal, observe on monitor."
+873,553,43, Admission Note,07/08/2024 10:02,"Admitted with knee pain, stiffness. Impression: osteoarthritis of knee. Post-op day 2, mobilising with physio."
+906,575,65,Admission Note,17/09/2024 16:58,Admitted with intermittent right upper quadrant pain. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+907,850,39,Admission Note,18/09/2024 12:29,"Admitted with severe epigastric pain, vomiting. Impression: pancreatitis. Amylase falling, tolerating clear fluids."
+908,573,44,Progress Note,19/09/2024 05:11,"Started PPI, lifestyle advice given."
+909,575,46,Progress Note,19/09/2024 19:29,"S: bloating after meals
+O: obs stable
+A: gallstones
+P: Consented for laparoscopic cholecystectomy."
+910,578,38,Admission Note,20/09/2024 10:41,"Admitted with laboured breathing, confusion. Impression: respiratory failure. Weaned to nasal prongs, more alert."
+911,850,7,Progress Note,20/09/2024 12:38,"Amylase falling, tolerating clear fluids."
+912,575,22,Discharge Note,22/09/2024 02:57,"Clinically improved. Post-op, wounds clean. Fit for discharge, counselled on medication."
+913,576,44,Discharge Note,22/09/2024 13:26,"Clinically improved. Aggressive IV fluids, analgesia. Fit for discharge, counselled on medication."
+914,579,17,Admission Note,23/09/2024 08:40,"Admitted with right sided weakness, slurred speech. Impression: stroke. CT done, no bleed. Aspirin started."
+915,580,65,Admission Note,25/09/2024 00:39,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+916,578,40,   Progress Note,25/09/2024 10:22,"Weaned to nasal prongs, more alert."
+917,579,28,Progress Note,25/09/2024 23:24,"CT done, no bleed. Aspirin started."
+918,579,65,Discharge Note,26/09/2024 07:40,"Clinically improved. CT done, no bleed. Aspirin started. Fit for discharge, counselled on medication."
+919,580,77,Ward Round Note,27/09/2024 09:48,Hb improved post transfusion.
+920,581,39,Admission Note,28/09/2024 04:05,"Admitted with right iliac fossa pain, vomiting, fever. Impression: appendicitis. Surgical review done, booked for theatre."
+921,582,46,Admission Note,28/09/2024 10:50,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+922,582,36,Nursing Note,30/09/2024 22:51,"Vitals stable, patient comfortable, slept well."
+923,581,44,Ward Round Note,02/10/2024 02:09,"Surgical review done, booked for theatre."
+924,581,10,Discharge Note,02/10/2024 16:18,"Clinically improved. Surgical review done, booked for theatre. Fit for discharge, counselled on medication."
+925,584,46,Admission Note,05/10/2024 11:29,"Admitted with dysuria, frequency, fever. Impression: urinary tract infection. Afebrile, symptoms resolving."
+926,586,10,Admission Note,06/10/2024 09:36,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+927,587,60,Admission Note,09/10/2024 06:25,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+928,587,44,Progress Note    ,11/10/2024 03:09,"Pain improving, diet reintroduced."
+929,588,44,Admission Note,2024-10-11T11:15,Admitted with no complaints. Impression: hypertension. BP better controlled at 138/86.
+930,590,73,Admission Note,12/10/2024 16:01," Admitted with difficulty walking, knee pain. Impression: osteoarthritis of knee. Post-op day 2, mobilising with physio."
+931,591,66,Admission Note,13/10/2024 09:10,"Admitted with watery stools, dry mouth. Impression: dehydration. Rehydrated, passing urine well."
+932,592,44,Admission Note,13/10/2024 20:16,"Admitted with chest discomfort, anxiety. Impression: chest pain. Serial troponins negative."
+933,590,77,Ward Round Note,14/10/2024 07:13,Pre-op assessment complete.
+934,593,66,Admission Note,15/10/2024 02:53,"Admitted with palpitations, dizziness. Impression: atrial fibrillation. Remains in AF, rate in the 80s."
+935,594,60,Admission Note,16/10/2024 01:10,"Admitted with crushing chest pain, sweating. Impression: myocardial infarction. Chest pain settled, troponin trending down."
+936,592,67,Nursing Note,17/10/2024 08:13,"Observations done 4-hourly, no concerns."
+937,593,35,Nursing Note,18/10/2024 01:25,"IV line resited, fluids running."
+938,596,78,Admission Note,20/10/2024 08:49,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. Rehydrated, passing urine well."
+939,?,77,Admission Note,21/10/2024 10:29,"Admitted with headache, dizziness. Impression: hypertension. BP better controlled at 138/86."
+940,597,44,Admission Note,21/10/2024 20:02,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+941,594,48,   Ward Round Note,12/10/2024 16:37,"ECG shows ST elevation, loaded with aspirin and clopidogrel."
+942,594,39,Discharge Note,26/09/2024 20:45,"Clinically improved. ECG shows ST elevation, loaded with aspirin and clopidogrel. Fit for discharge, counselled on medication."
+943,600,77,Admission Note ,23/10/2024 21:13,"Admitted with severe epigastric pain, vomiting. Impression: pancreatitis. Amylase falling, tolerating clear fluids."
+110,70,29,Nursing Note,21/05/2022 11:30,"Patient says ""I feel better today"", eating well."
+944,597,42,Progress Note,24/10/2024 04:21,Diabetic education given.
+945,601,66,Admission Note,24/10/2024 11:38,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Diabetic education given."
+946,597,43,Discharge Note,24/10/2024 16:22,"Clinically improved. Diabetic education given. Fit for discharge, counselled on medication."
+947,602,17,Admission Note,27/10/2024 13:05,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+948,603,73,Admission Note,28/10/2024 17:59,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+949,605,39,Admission Note,31/10/2024 06:49,"Admitted with haematemesis, dizziness. Impression: GI bleed. 2 units of blood crossmatched, IV PPI started."
+950,603,61,Nursing Note,01/11/2024 01:45,"IV line resited, fluids running."
+951,606,25,Admission Note,01/11/2024 13:27,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+952,605,39,Progress Note,02/11/2024 07:01,"Reviewed on ward round, comfortable. 2 units of blood crossmatched, IV PPI started. Plan: continue current management."
+953,605,38,Discharge Note,02/11/2024 19:05,"Clinically improved. 2 units of blood crossmatched, IV PPI started. Fit for discharge, counselled on medication."
+954,608,69,Admission Note,03/11/2024 00:35,"S: right upper quadrant pain, fever
+O: obs stable
+A: acute cholecystitis
+P: IV antibiotics, nil by mouth."
+955,610,45,Admission Note,04/11/2024 09:05,"Admitted with blurred vision, headache. Impression: hypertension. BP better controlled at 138/86."
+956,609,43,Admission Note,04/11/2024 09:25,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+957,608,38,Ward Round Note,05/11/2024 10:23,"Reviewed on ward round, comfortable. IV antibiotics, nil by mouth. Plan: continue current management."
+958,611,73,Admission Note,05/11/2024 23:48,Admitted with shortness of breath on exertion. Impression: anaemia. Hb improved post transfusion.
+959,612,69,Admission Note,06/11/2024 13:37,"Admitted with abdominal pain radiating to back. Impression: pancreatitis. Amylase falling, tolerating clear fluids."
+960,609,53,Nursing Note,07/11/2024 12:32,"Patient says ""I feel better today"", eating well."
+961,612,43,Progress Note,07/11/2024 19:05,"Reviewed on ward round, comfortable. Aggressive IV fluids, analgesia. Plan: continue current management."
+962,611,18,Progress Note,09/11/2024 05:52,HB IMPROVED POST TRANSFUSION.
+963,614,10,Admission Note,11/09/2024 02:37 PM,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Diabetic education given."
+964,612,43,Discharge Note,09/11/2024 19:54,"Clinically improved. Aggressive IV fluids, analgesia. Fit for discharge, counselled on medication."
+965,616,17,Admission Note,14/11/2024 23:18,"Admitted with laboured breathing, confusion. Impression: respiratory failure. Weaned to nasal prongs, more alert."
+966,619,46,Admission Note,19/11/2024 10:28,"Admitted with burning urine, lower abdominal pain. Impression: urinary tract infection. Afebrile, symptoms resolving."
+967,616,44,Progress  Note,19/11/2024 14:26,"Weaned to nasal prongs, more alert."
+968,835,28,Admission Note,19/11/2024 21:11,"Admitted with watery stools, dry mouth. Impression: dehydration. Rehydrated, passing urine well."
+969,621,69,Admission Note,20/11/2024 09:12,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+970,622,48,Admission Note,20/11/2024 16:25,"Admitted with seizure, confusion afterwards. Impression: seizure. No further seizures, alert and oriented."
+971,623,25,Admission Note,20/11/2024 17:28,"Admitted with severe epigastric pain, vomiting. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+972,621,25,Progress Note,21/11/2024 19:08,"ECG normal, observe on monitor."
+973,616,25,Discharge Note,22/11/2024 20:53,"Clinically improved. On high-flow oxygen, ABG repeated. Fit for discharge, counselled on medication."
+974,624,51,Admission Note,23/11/2024 02:43," Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+975,624,60,ward ROUND NOTE,26/11/2024 23:53,"S: dizziness then fainted
+O: obs stable
+A: syncope
+P: No further episodes overnight."
+862,543,73,  Progress Note,21/07/2024 06:35,"No further bleeding, Hb stable."
+976,625,46,Admission Note,27/11/2024 07:45,null
+977,626,10,Admission Note,28/11/2024 21:57,"Admitted with severe breathlessness, drowsiness. Impression: respiratory failure. Weaned to nasal prongs, more alert."
+978,627,22,Admission Note,29/11/2024 08:36,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+979,625,40,Ward Round Note,30/11/2024 22:28,"Post-op day 1, tolerating fluids."
+980,626,78,Ward Round Note,01/12/2024 09:44,"On high-flow oxygen, ABG repeated."
+981,628,10,Admission Note,02/12/2024 05:06,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+982,629,17,Admission Note,20/12/2024 06:50,"Admitted with severe epigastric pain, vomiting. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+983,625,28,Discharge Note,02/12/2024 16:25,"Clinically improved. Post-op day 1, tolerating fluids. Fit for discharge, counselled on medication."
+984,626,19,Discharge Note,03/12/2024 05:33,"Clinically improved. Weaned to nasal prongs, more alert. Fit for discharge, counselled on medication."
+443,269,40,Discharge Note,20/04/2023 18:00,"S: abdominal pain, loss of appetite
+O: obs stable
+A: appendicitis
+P: Post-op day 1, tolerating fluids."
+985,628,44,WARD ROUND NOTE,04/12/2024 05:13,"S: feeding well
+O: obs stable
+A: well baby
+P: Baby feeding well, mother counselled on breastfeeding."
+986,631,60,Admission Note,04/12/2024 13:38,"S: chest discomfort, anxiety
+O: obs stable
+A: chest pain
+P: Serial troponins negative."
+987,632,78,Admission   Note,04/12/2024 14:08,"Admitted with severe epigastric pain, vomiting. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+988,?,35,Nursing Note,06/12/2024 12:29,"Observations done 4-hourly, no concerns."
+989,631,73,Ward Round Note  ,06/12/2024 22:38,"Pain settled, likely musculoskeletal."
+990,633,45,Admission Note,07/12/2024 06:47,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+991,632,23,Nursing Note,08/12/2024 06:52,"IV line resited, fluids running."
+992,632,36,Nursing Note,08/12/2024 15:41,"Vitals stable, patient comfortable, slept well."
+993,634,60,Admission Note,11/12/2024 18:17,"Admitted with right sided weakness, slurred speech. Impression: stroke. CT done, no bleed. Aspirin started."
+994,632,43,Discharge Note,12/12/2024 04:31,"Clinically improved. Aggressive IV fluids, analgesia. Fit for discharge, counselled on medication."
+995,635,18,Admission Note,13/12/2024 23:38,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+996,635,7,Ward Round Note,16/12/2024 06:29,"Fluid balance chart started, nephrotoxins stopped."
+997,635,43,Discharge Note,16/12/2024 19:20,
+998,636,40,Admission Note,20/12/2024 00:08,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+999,638,78,Admission Note,21/12/2024 12:33,"Admitted with epigastric pain after meals. Impression: reflux disease. Started PPI, lifestyle advice given."
+1000,636,44,Ward Round Note,21/12/2024 16:39,Creatinine improving.
+1001,639,19,Admission Note,22/12/2024 13:59,"Admitted with morning cough. Impression: tobacco use. Motivated to quit, NRT started."
+1002,636,65,Discharge Note,22/12/2024 19:53,"Clinically improved. Creatinine improving. Fit for discharge, counselled on medication."
+1003,640,73,Admission Note,29/12/2024 13:51,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. IV fluids running, tolerating sips."
+1004,640,128,Progress Note,31/12/2024 23:31,"IV fluids running, tolerating sips."
+1005,641,44,Admission Note,04/01/2025 07:42,"Admitted with chest discomfort, anxiety. Impression: chest pain. Pain settled, likely musculoskeletal."
+1006,643,10,Admission Note,06/01/2025 14:54,Admitted with no complaints. Impression: tobacco use. Counselled on smoking cessation.
+1007,645,65,Admission Note,2025-01-07T13:23,"Admitted with palpitations, dizziness. Impression: atrial fibrillation. Remains in AF, rate in the 80s."
+1008,644,77,Admission Note,07/01/2025 17:30,"Admitted with brief loss of consciousness. Impression: syncope. ECG normal, observe on monitor."
+1009,641,70,Progress Note,07/01/2025 23:09,Serial troponins negative.
+1010,646,60,  Admission Note,08/01/2025 11:24,"Admitted with severe breathlessness, drowsiness. Impression: respiratory failure. Weaned to nasal prongs, more alert."
+1011,647,65,Admission Note,09/01/2025 12:27,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+1012,645,73,Progress Note,09/01/2025 16:57,"Reviewed on ward round, comfortable. Remains in AF, rate in the 80s. Plan: continue current management."
+1013,648,48,Admission Note,10/01/2025 18:45,"Admitted with breathlessness, night cough. Impression: acute asthma. Back-to-back nebs given, improving."
+1014,646,4,Ward Round Note,11/01/2025 04:58,"Reviewed on ward round, comfortable. On high-flow oxygen, ABG repeated. Plan: continue current management."
+1015,649,28, ADMISSION NOTE  ,12/01/2025 10:48,Admitted with intermittent right upper quadrant pain. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+1016,649,53,Nursing Note,14/01/2025 17:43,"Vitals stable, patient comfortable, slept well."
+1017,649,47,Discharge Note,16/01/2025 11:42,"Clinically improved. Consented for laparoscopic cholecystectomy. Fit for discharge, counselled on medication."
+1018,651,43,,19/01/2025 07:37,"S: cough, swollen legs
+O: obs stable
+A: heart failure
+P: Weight down 2kg, less breathless."
+1019,652,18,Admission Note,20/01/2025 16:21,"admitted with head injury, vomiting once. impression: concussion. headache improving, no new deficits."
+1020,652,34,Nursing Note,22/01/2025 10:07,"Vitals stable, patient comfortable, slept well."
+1021,653,42,Admission Note,2025-01-22 12:50:00,"Admitted with abdominal pain, loss of appetite. Impression: appendicitis. Surgical review done, booked for theatre."
+1022,655,44,Admission Note,00/01/2025 17:14,"Admitted with shortness of breath, leg swelling. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+1023,651,55,Nursing Note,23/01/2025 07:50,"Patient says ""I feel better today"", eating well."
+1024,656,17,admission note,25/01/2025 08:44,"Admitted with no complaints. Impression: tobacco use. Motivated to quit, NRT started."
+1025,653,17,Ward Round Note,25/01/2025 17:00,"Surgical review done, booked for theatre."
+1026,651,19,Discharge Note,26/01/2025 04:59,"Clinically improved. IV furosemide given, good diuresis. Fit for discharge, counselled on medication."
+1027,655,66,Progress Note,27/01/2025 08:09,"Breathing easier, SpO2 96% on room air."
+1028,657,70,Admission Note    ,28/01/2025 01:47,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+1029,653,28,Discharge Note,30/01/2025 05:56,"Clinically improved. Post-op day 1, tolerating fluids. Fit for discharge, counselled on medication."
+1030,655,44,Discharge Note,31-01-2025 00:53,"Clinically improved. Breathing easier, SpO2 96% on room air. Fit for discharge, counselled on medication."
+1031,659,45,Admission Note,04/02/2025 10:29,"S: abdominal pain, loss of appetite
+O: obs stable
+A: appendicitis
+P: Post-op day 1, tolerating fluids."
+1032,661,38,Admission Note,06/02/2025 11:41,"S: right upper quadrant pain, fever
+O: obs stable
+A: acute cholecystitis
+P: Pain improving, diet reintroduced."
+1033,662,46,Admission Note,07/02/2025 09:40,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+1034,663,44,Admission Note,07/02/2025 11:28,"Admitted with headache, dizziness. Impression: hypertension. BP better controlled at 138/86."
+1035,659,34,Nursing Note,07/02/2025 16:36,"Patient says ""I feel better today"", eating well."
+1036,661,57,Nursing Note,07/02/2025 22:13,"Observations done 4-hourly, no concerns."
+1037,664,18,Admission Note,08/02/2025 04:31,Admitted with chest pain. Impression: chest pain. Serial troponins negative.
+1038,659,56,Nursing Note,09/02/2025 07:19,"Observations done 4-hourly, no concerns."
+1039,664,60,Progress Note,09/02/2025 13:34,"S: chest pain
+O: obs stable
+A: chest pain
+P: Pain settled, likely musculoskeletal."
+1040,666,25,Admission Note,09/02/2025 17:43,"Admitted with headache, brief loss of consciousness. Impression: concussion. Headache improving, no new deficits."
+1041,668,18,Admission Note,10/02/2025 05:38,Admitted with chest pain. Impression: chest pain. Serial troponins negative.
+1042,667,48,Admission Note,2025-02-10T16:09,"Admitted with seizure, confusion afterwards. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+1043,659,44,Discharge Note,12/02/2025 08:07,"Clinically improved. Post-op day 1, tolerating fluids. Fit for discharge, counselled on medication."
+1044,664,10,Discharge Note,12/02/2025 12:52,"Clinically improved. Pain settled, likely musculoskeletal. Fit for discharge, counselled on medication."
+1045,668,4,Ward Round Note,12/02/2025 18:59,Serial troponins negative.
+1046,667,38,Progress Note,2025-02-13 08:21:00,"Reviewed on ward round, comfortable. No further seizures, alert and oriented. Plan: continue current management."
+1047,669,39,Admission Note,14/02/2025 23:56,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb improved post transfusion."
+1048,667,70,Ward Round Note,15/02/2025 10:01,"No further seizures, alert and oriented."
+1049,667,19, DISCHARGE NOTE  ,16/02/2025 19:00,"Clinically improved. No further seizures, alert and oriented. Fit for discharge, counselled on medication."
+1050,670,44,admission note,17/02/2025 10:33,Admitted with chest tightness on exertion. Impression: coronary artery disease. Pre-procedure checks done.
+1051,669,65,Ward Round Note,18/02/2025 13:30,"Reviewed on ward round, comfortable. Hb improved post transfusion. Plan: continue current management."
+1052,671,65,Admission Note,18/02/2025 22:43," ADMITTED WITH LABOURED BREATHING, CONFUSION. IMPRESSION: RESPIRATORY FAILURE. ON HIGH-FLOW OXYGEN, ABG REPEATED.  "
+1053,671,70,Ward Round Note,20/02/2025 08:21,"Reviewed on ward round, comfortable. On high-flow oxygen, ABG repeated. Plan: continue current management."
+1054,677,43,Admission Note  ,04/03/2025 07:14,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+1055,677,70,Ward Round Note,05/03/2025 16:01,"Reviewed on ward round, comfortable. Fever settling, cough improving. Plan: continue current management."
+1056,677,18,Discharge Note,07/03/2025 06:32,"Clinically improved. Started IV antibiotics, oxygen via nasal prongs. Fit for discharge, counselled on medication."
+1057,680,40,Admission Note,10/03/2025 00:57,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped.  "
+1058,681,25,Admission Note,10/03/2025 11:32, ADMITTED WITH CHEST TIGHTNESS ON EXERTION. IMPRESSION: CORONARY ARTERY DISEASE. PRE-PROCEDURE CHECKS DONE.  
+1059,681,25,Progress Note,15/03/2025 17:28,"Reviewed on ward round, comfortable. Post angiography, groin site clean and dry. Plan: continue current management."
+1060,684,7,Admission Note,15/03/2025 19:17,"Admitted with fatigue, itching. Impression: chronic kidney disease. Renal team review, fistula planned."
+1061,680,39,Discharge Note,00/03/2025 10:52,"Clinically improved. Fluid balance chart started, nephrotoxins stopped. Fit for discharge, counselled on medication."
+1062,680,79,NURSING NOTE,16/03/2025 17:10,"Vitals stable, patient comfortable, slept well."
+1063,684,28,Progress Note,17/03/2025 18:27,"Renal team review, fistula planned."
+1064,685,69,Admission Note,18/03/2025 22:56,"Admitted with fever, chills, confusion. Impression: sepsis. Remains febrile, BP improved on fluids.  "
+1065,685,18,Progress Note,20/03/2025 01:59,"S: high fever, rigors, weakness
+O: obs stable
+A: sepsis
+P: Started IV antibiotics and fluids, blood cultures sent."
+1066,685,7,Progress Note,03/21/2025 10:08 AM,"Started IV antibiotics and fluids, blood cultures sent."
+1067,686,4, ADMISSION NOTE  ,24/03/2025 14:16,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+1068,687,22,Admission Note,26/03/2025 04:02,"Admitted with abdominal pain radiating to back. Impression: pancreatitis. Amylase falling, tolerating clear fluids."
+1069,688,73,Admission Note,26/03/2025 08:57,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Fever settling, cough improving."
+1070,687,66,Progress Note,28/03/2025 00:35,"Amylase falling, tolerating clear fluids."
+1071,690,38,Admission Note,28-03-2025 11:30,"Admitted with burning urine, lower abdominal pain. Impression: urinary tract infection. Urine dipstick positive, antibiotics started."
+1072,691,10,Admission Note,28/03/2025 16:01,Admitted with no complaints. Impression: hypertension. BP better controlled at 138/86.
+1073,688,73,Progress Note,29/03/2025 06:16,"Fever   settling, cough improving."
+1074,687,40,Progress Note,29/03/2025 12:23,"Amylase falling, tolerating clear fluids."
+1075,692,69,  Admission Note,2025-03-29 20:44:00,"Admitted with right iliac fossa pain, vomiting, fever. Impression: appendicitis. Surgical review done, booked for theatre."
+1076,688,66,Discharge Note,31/06/2025 11:16,"Clinically improved. Started IV antibiotics, oxygen via nasal prongs. Fit for discharge, counselled on medication."
+1067,686,4, ADMISSION NOTE  ,24/03/2025 14:16,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+1077,687,69,Discharge Note,31/03/2025 00:12,"Clinically improved. Amylase falling, tolerating clear fluids. Fit for discharge, counselled on medication."
+1078,692,65,Ward Round Note,03/04/2025 09:16,"Surgical review done, booked for theatre."
+810,512,43, admission note,29/05/2024 16:59,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+1079,694,42,Admission Note,2025-04-04T05:34,"Admitted with abdominal pain radiating to back. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+1080,692,43,Progress Note,05/04/2025 15:18,"Post-op day 1, tolerating fluids."
+1081,692,22,Discharge Note,06/04/2025 02:44,"Clinically improved. Post-op day 1, tolerating fluids. Fit for discharge, counselled on medication."
+1082,695,80,Admission Note,06/04/2025 06:18,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Fever settling, cough improving."
+1083,695,44,Ward Round Note,07/04/2025 21:56,"Started IV antibiotics, oxygen via nasal prongs."
+1084,694,61,Nursing Note,08/04/2025 04:46,"IV line resited, fluids running."
+1085,695,40,Discharge Note    ,09/04/2025 13:09,"Clinically improved. Started IV antibiotics, oxygen via nasal prongs. Fit for discharge, counselled on medication."
+1086,694,28,Discharge Note,04/10/2025 11:04 AM,"Clinically improved. Amylase falling, tolerating clear fluids. Fit for discharge, counselled on medication."
+1087,694,36,Nursing Note,10/04/2025 15:24,"IV line resited, fluids running."
+1088,696,25,Admission Note,10/04/2025 18:04,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+1089,696,27,Nursing Note,12/04/2025 19:39,"Vitals stable, patient comfortable, slept well."
+1090,697,N/A,ADMISSION note,12/04/2025 21:10,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+1091,698,60,Admission Note,14/04/2025 14:00,"Admitted with fever, vomiting, drowsiness. Impression: sepsis. Remains febrile, BP improved on fluids."
+1092,699,38,Admission Note,15/04/2025 10:59,"Admitted with palpitations, dizziness. Impression: atrial fibrillation. Rate controlled on bisoprolol."
+1093,700,43,ADMISSION NOTE,15/04/2025 13:22,"Admitted with jerking movements, tongue bite. Impression: seizure. No further seizures, alert and oriented."
+1094,701,43,Admission Note,15-04-2025 16:50,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb improved post transfusion."
+1095,699,51,Ward Round Note,17/04/2025 02:06,Rate controlled on bisoprolol.    
+1096,701,10,Ward Round Note,17/04/2025 13:09,"Reviewed on ward round, comfortable. Hb improved post transfusion. Plan: continue current management."
+1097,703,69,Admission Note,18/04/2025 16:23,"Admitted with chest discomfort, anxiety. Impression: chest pain. Pain settled, likely musculoskeletal."
+1098,700,48,Ward Round Note,20/04/2025 07:39,"   S: seizure, confusion afterwards
+O: obs stable
+A: seizure
+P: No further seizures, alert and oriented."
+1099,700,39,Discharge   Note,20/04/2025 20:58,"Clinically improved. Loaded with anticonvulsant, seizure precautions. Fit for discharge, counselled on medication."
+1100,704,19,Admission Note,21/04/2025 02:57,"Admitted with headache, brief loss of consciousness. Impression: concussion. GCS 15/15, neuro obs 2-hourly."
+1101,704,19,Progress Note,22/04/2025 13:01,"GCS 15/15, neuro obs 2-hourly."
+1102,703,48,Progress Note,22/04/2025 16:53,Serial troponins negative.
+1103,705,39,Admission Note,24/04/2025 09:49,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+1104,709,46,Admission Note,26/04/2025 19:10,"Admitted with crushing chest pain, sweating. Impression: myocardial infarction. ECG shows ST elevation, loaded with aspirin and clopidogrel."
+1105,707,77,Admission Note,26/04/2025 20:18,"Admitted with chest pain, shortness of breath, nausea. Impression: myocardial infarction. Chest pain settled, troponin trending down."
+1106,710,69,Admission Note,27/04/2025 21:13,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+1107,711,28,Admission Note,29/04/2025 02:02,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+1108,707,44,Progress Note,29/04/2025 06:09,"Reviewed on ward round, comfortable. Chest pain settled, troponin trending down. Plan: continue current management."
+1109,709,59,Nursing Note,29/04/2025 08:24,"IV line resited, fluids running."
+1110,714,44,Admission Note,30/04/2025 11:38,"Admitted with fatigue, itching. Impression: chronic kidney disease. Renal team review, fistula planned."
+1111,713,69,Admission Note,30/04/2025 11:49,"Admitted with watery stools, dry mouth. Impression: dehydration. Rehydrated, passing urine well."
+1112,707,70,Progress Note,01/05/2025 00:06,"Reviewed on ward round, comfortable. Chest pain settled, troponin trending down. Plan: continue current management."
+1113,707,6,NURSING NOTE,01-05-2025 01:18,"IV line resited, fluids running."
+1114,715,43,Admission Note,01/05/2025 11:38,"Admitted with burning urine, lower abdominal pain. Impression: urinary tract infection. Urine dipstick positive, antibiotics started."
+1115,713,51,Progress Note,02/05/2025 06:35,"Rehydrated, passing urine well."
+1116,716,17,Admission Note,03/05/2025 00:47,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+1117,717,39,Admission Note,12/06/2025 10:33,"S: productive cough, chest pain, fever
+O: obs stable
+A: pneumonia
+P: Fever settling, cough improving."
+1118,718,22,  Admission Note,03/05/2025 16:28,"Admitted with watery stools, dry mouth. Impression: dehydration. Rehydrated, passing urine well."
+1107,711,28,Admission Note,29/04/2025 02:02,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+1119,714,1,Nursing Note,03/05/2025 23:02,"Vitals stable, patient comfortable, slept well."
+1120,713,69,Discharge Note,04/05/2025 06:58,"Clinically improved. IV fluids running, tolerating sips. Fit for discharge, counselled on medication."
+1121,719,46,Admission Note,05/05/2025 04:54,"S: feeding well
+O: obs stable
+A: well baby
+P: Baby feeding well, mother counselled on breastfeeding."
+1122,718,39,Progress Note,06/05/2025 00:33,"Reviewed on ward round, comfortable. IV fluids running, tolerating sips. Plan: continue current management."
+1123,722,10,Admission Note,11/05/2025 03:25,"Admitted with wheeze, tight chest. Impression: acute asthma. Peak flow 80% of predicted. "
+1124,725,45,Admission Note,11/05/2025 14:46,"Admitted with fatigue, itching. Impression: chronic kidney disease. Renal team review, fistula planned."
+1125,723,25,Admission Note,11/05/2025 15:03,"ADMITTED WITH DIFFICULTY WALKING, KNEE PAIN. IMPRESSION: OSTEOARTHRITIS OF KNEE. POST-OP DAY 2, MOBILISING WITH PHYSIO."
+1126,722,78,Ward Round Note,12/05/2025 15:12,peak FLOW 80% of predicted.
+1127,726,42,Admission Note,13/05/2025 23:42,"S: dizziness then fainted
+O: obs stable
+A: syncope
+P: ECG normal, observe on monitor."
+1128,727,40,Admission Note,14/05/2025 10:09,Admitted with epigastric pain after meals. Impression: reflux disease. Symptoms improving on omeprazole.
+1129,726,39,Progress Note,15/05/2025 00:03,"ECG normal, observe on monitor."
+1130,729,73,Admission Note,08/06/2025 05:33,"Admitted with melaena, weakness. Impression: GI bleed. No further bleeding, Hb stable."
+1131,731,42,-,19/05/2025 08:11,Admitted with shortness of breath on exertion. Impression: anaemia. Hb improved post transfusion.
+1132,730,7,Admission Note,19/05/2025 09:15,"Admitted with watery stools, dry mouth. Impression: dehydration. IV fluids running, tolerating sips."
+1133,729,4,Ward Round Note,20/05/2025 14:37,"No  further bleeding, Hb stable."
+1134,732,70,Admission Note,21/05/2025 01:07,"Admitted with wheeze, tight chest. Impression: acute asthma. Peak flow 80% of predicted."
+1135,733,38,Admission Note,21/05/2025 16:35,"Admitted with heartburn, regurgitation. Impression: reflux disease. Started PPI, lifestyle advice given."
+1136,729,60,Discharge Note,22/05/2025 05:42,"Clinically improved. No further bleeding, Hb stable. Fit for discharge, counselled on medication."
+1137,734,19,Admission Note,22/05/2025 09:28,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+1138,735,38,Admission Note,22/05/2025 11:05,"Admitted with intermittent right upper quadrant pain. Impression: gallstones. Post-op, wounds clean."
+1139,730,20,Nursing Note,22/05/2025 17:33,"Vitals stable, patient comfortable, slept well."
+1140,733,24,Nursing Note,23/05/2025 05:20,"Patient says ""I feel better today"", eating well."
+1141,732,46,?,23/05/2025 23:31,"Back-to-back nebs given, improving."
+1122,718,39,Progress Note,06/05/2025 00:33,"Reviewed on ward round, comfortable. IV fluids running, tolerating sips. Plan: continue current management."
+1142,734,7,Progress Note,24/05/2025 15:27,"Reviewed on ward round, comfortable. Pain improving, diet reintroduced. Plan: continue current management."
+1143,733,43,Discharge Note,25/05/2025 08:13,"Clinically   improved. Symptoms improving on omeprazole. Fit for discharge, counselled on medication."
+1144,738,28,Admission Note,28/05/2025 12:00,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+1145,738,60,Ward Round Note    ,30/05/2025 23:30,"Reviewed on ward round, comfortable. Started PPI, lifestyle advice given. Plan: continue current management."
+1146,847,69,Admission Note,08/06/2025 20:11,"Admitted with pain in right hip after fall. Impression: hip fracture. Skin traction applied, listed for theatre."
+1147,847,55,Nursing Note,10/06/2025 10:51,"Vitals stable, patient comfortable, slept well."
+1148,742,25,Admission Note,12/06/2025 09:36,"S: epigastric pain after meals
+O: obs stable
+A: reflux disease
+P: Started PPI, lifestyle advice given."
+1149,743,25,Admission Note,13/06/2025 16:24,"ADMITTED WITH BURNING URINE, LOWER ABDOMINAL PAIN. IMPRESSION: URINARY TRACT INFECTION. AFEBRILE, SYMPTOMS RESOLVING."
+1150,744,45,Admission Note,14/06/2025 09:38,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+1151,743,60,Progress Note,15/06/2025 07:30,"S: dysuria, frequency, fever
+O: obs stable
+A: urinary tract infection
+P: Afebrile, symptoms resolving."
+1152,744,36,Nursing Note,06-15-2025 14:30,"Observations done 4-hourly, no concerns."
+1153,745,43,Admission Note,15/06/2025 18:25,"Admitted with cough, swollen legs. Impression: heart failure. IV furosemide given, good diuresis."
+1154,746,45,Admission Note,16/06/2025 03:28,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+1155,747,69,Admission Note,17/06/2025 06:59,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Creatinine improving."
+1156,745,35,Nursing Note,18/06/2025 04:00,"Patient says ""I feel better today"", eating well."
+1157,748,48,Admission Note,18/06/2025 23:04,"Admitted with cough, swollen legs. Impression: heart failure. Weight down 2kg, less breathless."
+1158,747,79,Nursing Note,19/06/2025 11:25,"S: nausea, reduced urine output
+O: obs stable
+A: acute kidney injury
+P: Creatinine improving."
+1159,749,42,Admission Note,19/06/2025 11:49,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+1160,746,25,Progress Note,19/06/2025 23:41,"Pain improving, diet reintroduced."
+1161,750,7,admission note,20/06/2025 04:08,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. IV antibiotics, nil by mouth."
+1162,748,80,Ward Round Note,20/06/2025 05:29,"S: cough, swollen legs
+O: obs stable
+A: heart failure
+P: IV furosemide given, good diuresis."
+1163,751,44,Admission Note,20/06/2025 16:01,"Admitted with blurred vision, headache. Impression: hypertension. BP 168/102, amlodipine increased."
+1164,749,23,Nursing Note,21/06/2025 17:55,"Patient says ""I feel better today"", eating well."
+1165,748,52,Nursing Note,22/06/2025 16:32,"Observations done 4-hourly, no concerns."
+1166,752,65,Admission Note,00/06/2025 00:19,"S: breathlessness, night cough
+O: obs stable
+A: acute asthma
+P: Back-to-back nebs given, improving."
+1167,753,25,Admission Note,23/06/2025 19:10,"S: leg swelling, tiredness
+O: obs stable
+A: chronic kidney disease
+P: Electrolytes stable."
+283,177,28,Discharge Note,15/11/2022 17:13,"Clinically improved. Post angiography, groin site clean and dry. Fit for discharge, counselled on medication."
+1168,748,66,Discharge Note,23/06/2025 20:05,"Clinically improved. IV furosemide given, good diuresis. Fit for discharge, counselled on medication."
+1169,752,39,Progress Note,25/06/2025 04:12,"Reviewed on ward round, comfortable. Back-to-back nebs given, improving. Plan: continue current management."
+1170,754,73,Admission Note,25/06/2025 25:48,"Admitted with high fever, rigors, weakness. Impression: sepsis. Afebrile for 24h, switched to oral antibiotics."
+1171,755,28,Admission Note,26/06/2025 22:07,"Admitted with pain after fatty meals, vomiting. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+1172,753,15,Nursing Note,27/06/2025 20:17,"Observations done 4-hourly, no concerns."
+1173,754,42,Progress Note,28/06/2025 04:28,"Reviewed on ward round, comfortable. Started IV antibiotics and fluids, blood cultures sent. Plan: continue current management."
+1174,754,69,Discharge Note,28/06/2025 05:58,"S: high fever, rigors, weakness
+O: obs stable
+A: sepsis
+P: Afebrile for 24h, switched to oral antibiotics."
+1175,755,69,Ward Round Note,28/06/2025 19:49,"Pain improving, diet reintroduced."
+1176,756,25,Admission Note,30/06/2025 07:32,"Admitted with high fever, rigors, weakness. Impression: sepsis. Remains febrile, BP improved on fluids."
+1177,757,22,Admission Note,03/07/2025 19:27,"Admitted with laboured breathing, confusion. Impression: respiratory failure. On high-flow oxygen, ABG repeated."
+1178,756,43,Progress Note,07/04/2025 05:58 PM,"Reviewed on ward round, comfortable. Afebrile for 24h, switched to oral antibiotics. Plan: continue current management."
+1179,758,39,Admission Note,05/07/2025 08:00,"Admitted with chest discomfort, anxiety. Impression: chest pain. Pain settled, likely musculoskeletal."
+1180,757,9,Nursing Note,06/07/2025 13:12,"Patient says ""I feel better today"", eating well."
+1181,757,44,Discharge Note,10/07/2025 05:43,"Clinically improved. Weaned to nasal prongs, more alert. Fit for discharge, counselled on medication."
+1182,760,73,Admission Note,07/11/2025 01:45 PM,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Creatinine improving."
+1183,761,38,Admission Note,07/12/2025 06:53 PM,"Admitted with sudden breathlessness, pleuritic chest pain. Impression: pulmonary embolism. Started anticoagulation."
+1184,763,-,Admission Note    ,14/07/2025 10:41,"Admitted with difficulty walking, knee pain. Impression: osteoarthritis of knee. Pre-op assessment complete."
+1185,761,1,Nursing Note,14/07/2025 21:36,"S: sudden breathlessness, pleuritic chest pain
+O: obs stable
+A: pulmonary embolism
+P: Started anticoagulation."
+1186,760,65,Progress Note,14/07/2025 22:14,"Reviewed on ward round, comfortable. Creatinine improving. Plan: continue current management."
+1187,763,38,,16/07/2025 19:57,"Post-op day 2, mobilising with physio."
+1188,763,39,Discharge Note,18/07/2025 15:25,"Clinically improved. Pre-op assessment complete. Fit for discharge, counselled on medication."
+1189,764,60,Admission Note,21/07/2025 03:03,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+1190,765,18,Admission Note,21/07/2025 21:38,"Admitted with brief loss of consciousness. Impression: syncope. ECG normal, observe on monitor."
+1191,766,46,Admission Note,24/07/2025 13:27,"Admitted with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+1192,767,43,Admission Note,26/07/2025 13:54,"Admitted with intermittent right upper quadrant pain. Impression: gallstones. Post-op, wounds clean."
+956,609,43,Admission Note,04/11/2024 09:25,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+1193,768,25,Admission Note,27/07/2025 20:41,"Admitted with seizure, confusion afterwards. Impression: seizure. No further seizures, alert and oriented."
+1194,767,23,Nursing Note,28/07/2025 11:07,"IV line resited, fluids running."
+1195,769,10,Admission Note,28/07/2025 11:51,Admitted with chest pain. Impression: chest pain. Serial troponins negative.
+1196,770,65,Admission Note,07/29/2025 05:22 AM,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Fever settling, cough improving."
+1197,902,25,Admission Note,30/07/2025 04:09,"S: severe epigastric pain, vomiting
+O: obs stable
+A: pancreatitis
+P: Aggressive IV fluids, analgesia."
+1198,772,4,Admission Note,31/07/2025 11:24,"Admitted with right iliac fossa pain, vomiting, fever. Impression: appendicitis. Post-op day 1, tolerating fluids."
+1199,773,43,Admission Note,31/07/2025 14:54,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+1200,775,44,Admission Note,31/07/2025 19:41,"Admitted with right upper quadrant pain, fever. Impression: acute cholecystitis. Pain improving, diet reintroduced."
+1201,774,25,Admission Note,31/07/2025 21:27,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+1202,776,4,Admission Note,01/08/2025 00:36,"Admitted with fever, vomiting, drowsiness. Impression: sepsis. Remains febrile, BP improved on fluids."
+1203,771,51,Progress Note,02/08/2025 00:30,"Aggressive IV fluids, analgesia."
+1204,775,46,Progress Note,02/08/2025 14:35,"S: right upper quadrant pain, fever
+O: obs stable
+A: acute cholecystitis
+P: Pain improving, diet reintroduced."
+1205,773,34,NURSING note,02/08/2025 18:43,"Patient says ""I feel better today"", eating well."
+1206,777,77,Admission Note,03/08/2025 01:51,"S: right upper quadrant pain, fever
+O: obs stable
+A: acute cholecystitis
+P: Pain improving, diet reintroduced."
+1207,772,1,Nursing Note,08/03/2025 04:28 AM,"Vitals stable, patient comfortable, slept well."
+1208,778,25,Admission Note,2025-08-03T09:55,"Admitted with chest discomfort, anxiety. Impression: chest pain. Serial troponins negative."
+566,354,78,Admission Note,08/31/2023 09:10 PM,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+1209,841,44,Ward Round Note,2025-08-04 05:07:00,"Remains febrile, BP improved on fluids."
+1210,772,44,Discharge Note,04/08/2025 08:05,"Clinically improved. Surgical review done, booked for theatre. Fit for discharge, counselled on medication."
+1211,777,8,Nursing Note,04/08/2025 08:28,"Vitals stable, patient comfortable, slept well."
+1212,780,40,Admission Note,06/08/2025 04:03,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+1213,781,69,Admission Note,08/08/2025 09:20,"Admitted with abdominal pain radiating to back. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+1214,780,28,Ward   Round Note,08/08/2025 13:55,"Reviewed on ward round, comfortable. Baby feeding well, mother counselled on breastfeeding. Plan: continue current management."
+1215,841,10,Discharge Note,09/08/2025 16:09,"S: high fever, rigors, weakness
+O: obs stable
+A: sepsis
+P: Afebrile for 24h, switched to oral antibiotics."
+1216,784,44,Admission Note,10/08/2025 13:10,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+1217,781,55,Nursing Note,08/12/2025 12:57 PM,"IV line resited, fluids running."
+1218,785,65,Admission Note,14/08/2025 11:57,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb improved post transfusion."
+1219,786,77,Admission Note,16/08/2025 11:00,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+1220,786,39,Ward Round Note,19/08/2025 17:32,Diabetic education given.
+1221,788,73,Admission Note,20/08/2025 12:35,"S: dysuria, frequency, fever
+O: obs stable
+A: urinary tract infection
+P: Urine dipstick positive, antibiotics started."
+1222,789,77,Admission Note,21/08/2025 06:57,"Admitted with head injury, vomiting once. Impression: concussion. GCS 15/15, neuro obs 2-hourly."
+1223,790,65,Admission Note,22/08/2025 21:26,"Admitted with breathlessness, night cough. Impression: acute asthma. Peak flow 80% of predicted."
+1224,791,46,Admission Note,25/08/2025 14:59,"Admitted with no complaints. Impression: hypertension. BP 168/102, amlodipine increased."
+1225,790,25,Ward Round Note,26/08/2025 02:23,Peak flow 80% of predicted.
+1226,792,45,Admission Note,26/08/2025 11:40,"Admitted with wheeze, tight chest. Impression: acute asthma. Peak flow 80% of predicted."
+1227,793,70,Admission Note,28/08/2025 07:41,"Admitted with bloating after meals. Impression: gallstones. Post-op, wounds clean."
+1228,791,60,Ward Round Note,28/08/2025 14:03," BP 168/102, AMLODIPINE INCREASED.  "
+1011,647,65,Admission Note,09/01/2025 12:27,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+1229,794,113,Admission Note,08/29/2025 04:54 AM,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+1230,795,10,Admission Note,29/08/2025 10:14,"admitted with breathlessness, night cough. impression: acute asthma. peak flow 80% of predicted."
+1231,796,60,Admission Note,29/08/2025 16:49,"Admitted with shortness of breath on exertion. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+1232,794,7,Progress Note,31/08/2025 04:00,"Reviewed on ward round, comfortable. Creatinine improving. Plan: continue current management."
+1233,795,60,Ward Round Note,31/08/2025 04:14,"Reviewed on ward round, comfortable. Back-to-back nebs given, improving. Plan: continue current management."
+1234,798,65,Admission Note,03/09/2025 00:16,"Admitted with productive cough, chest pain, fever. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+1235,798,39,Ward Round Note,04/09/2025 23:31," Reviewed on ward round, comfortable. Started IV antibiotics, oxygen via nasal prongs. Plan: continue current management."
+1236,799,60,Admission Note,07/09/2025 18:58,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Diabetic education given."
+1237,801,7,Admission Note,10/09/2025 03:37,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Creatinine improving."
+1238,801,25,Ward Round Note,09/11/2025 06:46 PM,"S: reduced urine, leg swelling
+O: obs stable
+A: acute kidney injury
+P: Fluid balance chart started, nephrotoxins stopped."
+1239,803,73,Admission Note,16/09/2025 09:17," ADMITTED WITH FATIGUE, DIZZINESS, PALLOR. IMPRESSION: ANAEMIA. HB 7.2 G/DL, 1 UNIT OF BLOOD TRANSFUSED.  "
+1240,805,46,Admission Note,18/09/2025 16:25,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+1241,806,78,Admission Note,21/09/2025 06:17,"Admitted with sudden breathlessness, pleuritic chest pain. Impression: pulmonary embolism. Breathing easier, SpO2 96% on room air."
+1242,806,43,Ward Round Note,23/09/2025 14:59,"Reviewed on ward round, comfortable. Started anticoagulation. Plan: continue current management."
+1243,807,43,Admission Note,24/09/2025 06:52,"Admitted with headache, brief loss of consciousness. Impression: concussion. GCS 15/15, neuro obs 2-hourly."
+1205,773,34,NURSING note,02/08/2025 18:43," Patient says ""I feel better today"", eating well."
+1244,808,60,Admission Note,25/09/2025 12:45,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+1245,981,60,Ward Round Note,26/09/2025 02:35,"Reviewed on ward round, comfortable. GCS 15/15, neuro obs 2-hourly. Plan: continue current management."
+1246,809,39,Admission Note,27/09/2025 18:06,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+1247,808,1,Nursing Note,29/09/2025 07:45,"  Patient says ""I feel better today"", eating well."
+314,198,78,Admission Note,24/12/2022 18:13,"Admitted with fatigue, itching. Impression: chronic kidney disease. Renal team review, fistula planned.  "
+1248,810,43,Admission Note,30/09/2025 08:10,"S: facial droop, confusion
+O: obs stable
+A: stroke
+P: Speech improving, physiotherapy started."
+1249,811,44,Admission Note,30/09/2025 18:47,"Admitted with sudden breathlessness, pleuritic chest pain. Impression: pulmonary embolism. Started anticoagulation."
+1250,809,8,Nursing Note,30/09/2025 22:55,"IV line resited, fluids running."
+1251,810,43,Progress Note,02/10/2025 17:19,"  CT done, no bleed. Aspirin started."
+1252,N/A,39,Progress Note,02/10/2025 17:56,"Reviewed on ward round, comfortable. Breathing easier, SpO2 96% on room air. Plan: continue current management."
+1253,810,38,Ward Round Note,10/03/2025 01:37 PM,"Reviewed on ward round, comfortable. Speech improving, physiotherapy started. Plan: continue current management."
+1254,811,66,Discharge Note,04/10/2025 02:07,"Clinically improved. Started anticoagulation. Fit for discharge, counselled on medication."
+1255,812,60,Admission Note,05/10/2025 19:37,"Admitted with cough, fever, breathlessness. Impression: pneumonia. Started IV antibiotics, oxygen via nasal prongs."
+1256,813,43,Admission Note,06/10/2025 01:36,"Admitted with vomiting, diarrhoea, dizziness. Impression: dehydration. IV fluids running, tolerating sips."
+1195,769,10,Admission Note,28/07/2025 11:51, Admitted with chest pain. Impression: chest pain. Serial troponins negative.
+1257,815,46,Admission Note,06/10/2025 13:36,"Admitted with weight gain, constipation. Impression: hypothyroidism. Symptoms improving on current dose."
+1258,814,60,Admission Note,07/10/2025 05:52,"Admitted with fever, chills, confusion. Impression: sepsis. Afebrile for 24h, switched to oral antibiotics."
+1259,813,27,Nursing Note,07/10/2025 19:19,"Vitals stable, patient comfortable, slept well."
+1260,817,38,Admission Note,09/10/2025 23:02,"S: right upper quadrant pain, fever
+O: obs stable
+A: acute cholecystitis
+P: Pain improving, diet reintroduced."
+1261,814,25,Ward Round Note,00/10/2025 10:37,"Remains febrile, BP improved on fluids."
+1262,819,65,Admission Note,11/10/2025 13:01,"S: vomiting, diarrhoea, dizziness
+O: obs stable
+A: dehydration
+P: Rehydrated, passing urine well."
+1263,818,19,Admission Note,11/10/2025 15:55,admitted with no complaints. impression: hypertension. bp better controlled at 138/86.
+1264,820,43,Admission Note,12/10/2025 04:41,"Admitted with watery stools, dry mouth. Impression: dehydration. Rehydrated, passing urine well."
+1265,821,78,Admission   Note,12/10/2025 11:28,"Admitted with heartburn, regurgitation. Impression: reflux disease. Symptoms improving on omeprazole."
+1266,814,17,Discharge Note,14/10/2025 22:16,"Clinically improved. Started IV antibiotics and fluids, blood cultures sent. Fit for discharge, counselled on medication."
+1267,821,78,Ward Round Note,16/10/2025 02:34,"S: heartburn, regurgitation
+O: obs stable
+A: reflux disease
+P: Started PPI, lifestyle advice given."
+1268,822,19,Admission Note,20/10/2025 12:39,"Admitted with abdominal pain, loss of appetite. Impression: appendicitis. Post-op day 1, tolerating fluids."
+1269,823,22,Admission Note,21/10/2025 05:38,Admitted with shortness of breath on exertion. Impression: anaemia. Hb improved post transfusion.
+1270,822,42, PROGRESS NOTE  ,23/10/2025 20:02,"Reviewed on ward round, comfortable. Post-op day 1, tolerating fluids. Plan: continue current management."
+1271,824,25,Admission Note,23/10/2025 20:27,Admitted with intermittent right upper quadrant pain. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+1272,825,69,Admission Note,24/10/2025 11:44,"Admitted with abdominal pain radiating to back. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+1273,826,46,Admission Note,25/10/2025 06:49,"Admitted with chest discomfort, anxiety. Impression: chest pain. Serial troponins negative."
+1274,827,7,Admission Note,25/10/2025 11:03,"Admitted with severe epigastric pain, vomiting. Impression: pancreatitis. Aggressive IV fluids, analgesia."
+1275,822,42,Ward Round Note,25/10/2025 11:31,"Surgical review done, booked for theatre."
+1276,824,69,Progress Note,25/10/2025 12:29,"POST-OP, wounds clean."
+1271,824,25,Admission Note,23/10/2025 20:27,Admitted with intermittent right upper quadrant pain. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+1277,828,28,Admission Note,10/26/2025 12:48 AM,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+1202,776,4,Admission Note,01/08/2025 00:36,"Admitted with fever, vomiting, drowsiness. Impression: sepsis. Remains febrile, BP improved on fluids."
+1278,829,78,Admission Note,27/10/2025 03:19,"Admitted with right iliac fossa pain, vomiting, fever. Impression: appendicitis. Surgical review done, booked for theatre."
+1279,823,19,Progress Note,27/10/2025 16:37,"Reviewed on ward round, comfortable. Hb 7.2 g/dL, 1 unit of blood transfused. Plan: continue current management."
+1278,829,78,Admission Note,27/10/2025 03:19,"Admitted with right iliac fossa pain, vomiting, fever. Impression: appendicitis. Surgical review done, booked for theatre."
+1280,825,45,Ward Round Note,27/10/2025 18:01,"Amylase falling, tolerating clear fluids."
+1281,832,80,Admission Note,28/10/2025 00:06,Admitted with dizziness then fainted. Impression: syncope. No further episodes overnight.
+1282,825,29,Nursing Note,28/10/2025 01:03,"IV line resited, fluids running."
+1283,822,80,Progress Note,28/10/2025 05:41,"Surgical review done, booked for theatre."
+1284,834,22,Admission Note,28/10/2025 13:04,"Admitted with headache, brief loss of consciousness. Impression: concussion. GCS 15/15, neuro obs 2-hourly."
+1285,833,28,Admission Note,28/10/2025 14:09,"Admitted with polyuria, thirst. Impression: uncontrolled diabetes. Glucose readings 8-12 mmol/L, metformin continued."
+1286,824,22,Progress Note,29/10/2025 07:54,"Reviewed on ward round, comfortable. Consented for laparoscopic cholecystectomy. Plan: continue current management."
+1287,825,43,Progress Note,29/10/2025 14:45,"Amylase falling, tolerating clear fluids."
+1288,834,53,Nursing Note,30/10/2025 05:38,"Observations done 4-hourly, no concerns."
+1289,829,48,Ward Round Note,30/10/2025 20:44,"Reviewed on ward round, comfortable. Post-op day 1, tolerating fluids. Plan: continue current management."
+1290,823,48,Ward Round Note,31/10/2025 04:39,"Reviewed on ward round, comfortable. Hb 7.2 g/dL, 1 unit of blood transfused. Plan: continue current management."
+1291,824,36,Nursing Note,31/10/2025 11:59,"Vitals stable, patient comfortable, slept well."
+1292,453,70,progress note,02/21/2024 04:20 PM,"Reviewed on ward round, comfortable. Electrolytes stable. Plan: continue current management."
+1293,222,28,Progress Note,28/01/2023 07:00,Creatinine improving.
+1294,822,42,Ward Round Note,25/10/2025 11:31,"Surgical review done, booked for theatre."
+1295,270,56,Nursing Note,18/04/2023 10:30,"patient says ""i feel better today"", eating well."
+1296,31,65,Admission Note,01/03/2022 18:58,"Admitted   with melaena, weakness. Impression: GI bleed. No further bleeding, Hb stable."
+1297,600,77,Admission Note,23/10/2024 21:13,"Admitted with severe epigastric pain, vomiting. Impression: pancreatitis. Amylase falling, tolerating clear fluids."
+1298,402,43,Admission Note,30/11/2023 00:31,"S: racing heart, breathlessness
+O: obs stable
+A: atrial fibrillation
+P: Rate controlled on bisoprolol."
+1299,823,48,Ward Round Note,31/10/2025 04:39,"Reviewed on ward round, comfortable. Hb 7.2 g/dL, 1 unit of blood transfused. Plan: continue current management."
+1300,166,40,Admission Note,20/10/2022 11:13,"Admitted with watery stools, dry mouth. Impression: dehydration. IV fluids running, tolerating sips."
+1301,271,44,Discharge Note,24/04/2023 21:52,"Clinically improved. Weaned to nasal prongs, more alert. Fit for discharge, counselled on medication."
+1302,35,48,Discharge Note,13/03/2022 13:17,"Clinically improved. Renal team review, fistula planned. Fit for discharge, counselled on medication."
+1303,853,25,Admission Note,23/05/2023 16:25,"Admitted with jerking movements, tongue bite. Impression: seizure. Loaded with anticonvulsant, seizure precautions."
+1304,352,52,NURSING NOTE,2023-09-03T21:44,"IV line resited, fluids running."
+1305,701,43,Admission Note,15/04/2025 16:50,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb improved post transfusion."
+1306,534,44,Admission Note,06/07/2024 12:53,"admitted WITH leg SWELLING, TIREDNESS. IMPRESSION: CHRONIC KIDNEY DISEASE. RENAL TEAM REVIEW, fistula planned."
+1307,696,27,Nursing Note,12/04/2025 19:39,"Vitals stable, patient comfortable, slept well."
+1308,125,39,Admission Note,07/08/2022 12:00," ADMITTED WITH RIGHT UPPER QUADRANT PAIN, FEVER. IMPRESSION: ACUTE CHOLECYSTITIS. IV ANTIBIOTICS, NIL BY MOUTH.  "
+1309,645,73,Progress Note,09/01/2025 16:57,"reviewed on ward round, comfortable. remains IN af, RATE IN THE 80s. PLAN: CONTINUE current MANAGEMENT."
+1310,296,60,Admission Note,21/05/2023 16:55,"Admitted with leg swelling, tiredness. Impression: chronic kidney disease. Electrolytes stable."
+1311,376,22,Admission Note,09/10/2023 07:59,"Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding."
+1312,559,48,Progress Note,24/08/2024 08:43,"No further seizures, alert and oriented."
+1313,332,19,Admission Note,28/07/2023 15:05,Admitted with bloating after meals. Impression: gallstones. Consented for laparoscopic cholecystectomy.
+1314,202,4,Admission Note,04/01/2023 13:28,"Admitted  with fatigue, dizziness, pallor. Impression: anaemia. Hb 7.2 g/dL, 1 unit of blood transfused."
+1315,37,29,Nursing Note,15/03/2022 05:17,"IV line resited, fluids running."
+1316,638,78,Admission Note,21/12/2024 12:33,"admitted with epigastric pain after meals. impression: reflux disease. started ppi, lifestyle advice given."
+1317,373,44,Progress Note    ,04/10/2023 10:25,"Reviewed on ward round, comfortable. Breathing easier, SpO2 96% on room air. Plan: continue current management."
+1318,526,28,Admission Note,21/06/2024 15:33,"Admitted with tiredness, frequent urination. Impression: uncontrolled diabetes. Diabetic education given."
+1319,117,65,Admission Note,22/07/2022 01:03,"Admitted   with dizziness then fainted. Impression: syncope. ECG normal, observe on monitor."
+1320,636,40, ADMISSION NOTE  ,20/12/2024 00:08,"Admitted with nausea, reduced urine output. Impression: acute kidney injury. Fluid balance chart started, nephrotoxins stopped."
+1321,410,65,admission note,14/12/2023 00:12,"Admitted with chest pain. Impression: chest pain. Pain settled, likely musculoskeletal."
+1322,220,46,Discharge Note,01/31/2023 10:51 PM,"Clinically improved. 2 units of blood crossmatched, IV PPI started. Fit for discharge, counselled on medication."
+1323,822,42,   Progress Note,23/10/2025 20:02,"Reviewed on ward round, comfortable. Post-op day 1, tolerating fluids. Plan: continue current management."
+1324,98,52,Nursing Note  ,29/06/2022 01:34,"Vitals stable, patient comfortable, slept well."
+1325,395,43,Discharge Note,18/11/2023 20:07,"Clinically improved. ECG shows ST elevation, loaded with aspirin and clopidogrel. Fit for discharge, counselled on medication."
+1326,218,28,Admission Note,22/01/2023 03:56,"Admitted with fatigue, dizziness, pallor. Impression: anaemia. Hb improved post transfusion."
+1327,215,43, ADMISSION NOTE  ,19/01/2023 15:13,"Admitted with seizure, confusion afterwards. Impression: seizure. No further seizures, alert and oriented."
+1328,24,45,Admission Note,22/02/2022 17:44,"Admitted with chest discomfort, anxiety. Impression: chest pain. Serial troponins negative."
+1329,248,65,Admission Note,12/03/2023 06:52,"Admitted with reduced urine, leg swelling. Impression: acute kidney injury. Creatinine improving."
+1330,505,73,progress note,24/05/2024 01:30,"S: epigastric pain after meals
+O: obs stable
+A: reflux disease
+P: Started PPI, lifestyle advice given."

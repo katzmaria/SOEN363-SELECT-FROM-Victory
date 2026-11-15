@@ -1,0 +1,826 @@
+RequestNo,AdmissionNo,RequestedBy,RequestDateTime,TestRequested,IndicationForTest,RequestStatus,Urgency
+1,1,69,02/01/2022 23:48,ECG,Assess hypertension,Completed,Routine
+2,895,70,03/01/2022 00:56,Urinalysis,"Known hypertension, baseline",Completed,Routine
+3,4,40,12/01/2022 12:54,Free T4,Suspected hypothyroidism,Completed,Routine
+4,5,65,13/01/2022 20:10,Full Blood Count,Assess anaemia,Completed,STAT
+5,6,3,29/01/2022 09:15,ECG,?coronary artery disease,Completed,Urgent
+6,7,10,01/02/2022 09:36,Chest X-ray,Assess sepsis,Completed,Urgent
+7,7,65,01/02/2022 14:04,Malaria RDT,?sepsis,Completed,STAT
+8,8,46,04/02/2022 10:08,Serum electrolytes,Suspected dehydration,Completed,R
+9,13,60,2022-02-12 09:44:00,Chest X-ray,Rule out acute asthma,Completed,Urgent
+10,12,39,12/02/2022 19:14,Liver function tests,Rule out GI bleed,Completed,STAT
+11,15,25,15/02/2022 18:55,Peak flow,Rule out acute asthma,Done,Urgent
+12,16,25,16/02/2022 15:42,D-dimer,?pulmonary embolism,Cancelled,Urgent
+13,18,73,17/02/2022 09:10,Random blood sugar,Suspected uncontrolled diabetes,Completed,Routine
+14,20,44,18/02/2022 07:18,CT head,"Known concussion, baseline",Completed,Routine
+15,21,44,20/02/2022 11:43,Chest X-ray,Suspected tobacco use,Completed,Urgent
+16,23,43,2022-02-22 12:33:00,Iron studies,Monitoring - anaemia,Completed,URG
+17,24,69,23/02/2022 16:30,Troponin I,"KNOWN CHEST PAIN, BASELINE",Completed,Routine
+18,26,78,26/02/2022 16:03,Chest X-ray,Suspected acute asthma,Completed,Urgent
+19,26,39,26/02/2022 17:53,Peak flow,Assess acute asthma,Pending,Routine
+20,29,38,28/02/2022 19:40,Full Blood Count,Monitoring - acute cholecystitis,Cancelled,STAT
+21,30,78,28/02/2022 21:50,Renal ultrasound,Rule out acute kidney injury,Completed,STAT
+22,28,65,28/02/2022 23:26,Chest X-ray,Rule out myocardial infarction,Completed,Routine
+23,29,28,01/03/2022 08:16,Abdominal ultrasound,"Known acute cholecystitis, baseline",Completed,Routine
+24,1124,44,01/03/2022 23:17,Full Blood Count,Suspected GI bleed,Completed,Urgent
+25,33,10,02/03/2022 17:02,Abdominal ultrasound,Rule out acute cholecystitis,Completed,STAT
+26,34,66,07/03/2022 04:53,HbA1c,?uncontrolled diabetes,In Progress,Routine
+27,35,43,10/03/2022 05:51,Renal function tests,Assess chronic kidney disease,Completed,STAT
+28,35,39,11/03/2022 02:04,Renal ultrasound,Assess chronic kidney disease,Completed,STAT
+29,38,3,14/03/2022 15:56,H. pylori stool antigen,Assess reflux disease,Completed,Routine
+30,39,10,14/03/2022 21:39,Serum electrolytes,"Known dehydration, baseline",Completed,Routine
+31,41,49,18/03/2022 05:22,Abdominal ultrasound,Rule out gallstones,Completed,Routine
+32,42,39,19/03/2022 16:13,Liver function tests,Assess gallstones,Completed,Routine
+33,44,65,03/20/2022 12:38 AM,ECG,"Known syncope, baseline",Completed,Urgent
+34,44,69,2022-03-20 01:36:00,Full Blood Count,Suspected syncope,Completed,  Routine
+35,45,70,25/03/2022 10:19,Blood smear for MPs,Rule out anaemia,Completed,Routine
+36,49,3,29/03/2022 15:06,Full Blood Count,Monitoring - osteoarthritis of knee,Resulted,U
+37,49,19,30/03/2022 23:50,X-ray knee,"Known osteoarthritis of knee, baseline",Completed,Routine  
+38,51,18,01/04/2022 12:26,Renal ultrasound,Assess acute kidney injury,Completed,Urgent
+39,52,43,01/04/2022 14:58,TSH,Suspected hypothyroidism,Pending,Routine
+40,50,78,02/04/2022 03:10,Renal ultrasound,Assess acute kidney injury,Done,R
+41,51,66,02/04/2022 04:06,Renal function tests,"Known acute kidney injury, baseline",Completed,Routine
+42,54,7,05/04/2022 00:05,Full Blood Count,?syncope,Completed,STAT
+43,838,39,05/04/2022 07:41,ECG,?syncope,Cancelled,Urgent
+44,56,46,08/04/2022 13:49,Urinalysis,Assess hypertension,Completed,Routine
+45,57,39,13/15/2022 06:35,Abdominal ultrasound,Assess acute cholecystitis,Resulted,  Urgent
+46,58,60,09/04/2022 15:56,  Blood smear for MPs,Suspected anaemia,Completed,Routine
+47,59,42,13/04/2022 13:35,H. pylori stool antigen,Suspected reflux disease,Cancelled,Routine
+48,60,78,18/04/2022 18:12,Renal function tests,Monitoring - hypertension,Cancelled,Routine
+49,61,46,19/04/2022 03:14,Abdominal ultrasound,"Known pancreatitis, baseline",In Progress,STAT
+50,62,43,20/04/2022 11:36,H. pylori stool antigen,?reflux disease,Completed,Routine
+51,61,51,06/05/2022 16:11,Serum amylase,Assess pancreatitis,Completed,Urgent
+52,63,78,24/04/2022 00:53,Abdominal ultrasound,Suspected acute cholecystitis,Completed,Urgent
+53,64,74,03/05/2022 16:58,Lipid profile,"Known coronary artery disease, baseline",Cancelled,Urgent
+54,64,74,03/05/2022 18:15,Renal function tests,"Known coronary artery disease, baseline",Completed,Urgent
+55,65,48,13/05/2022 03:23,Blood smear for MPs,"Known anaemia, baseline",Completed,Routine
+56,65,70,13/05/2022 05:17,Full Blood Count,Monitoring - anaemia,Completed,Urgent
+57,66,80,13/05/2022 14:11,Renal function tests,Monitoring - hypertension,In Progress,Routine
+58,66,22,13/05/2022 14:35,Urinalysis,?hypertension,completed,Routine
+59,67,69,14/05/2022 12:51,ECG,Monitoring - syncope,Completed,Urgent
+60,69,80,18/05/2022 07:08,Arterial blood gas,"Known respiratory failure, baseline",Completed,Stat
+61,69,78,18/05/2022 15:23,Chest X-ray,"Known respiratory failure, baseline",Completed,STAT
+62,72,80,20/05/2022 13:10,HbA1c,Suspected uncontrolled diabetes,Completed,Routine
+63,72,60,20/05/2022 22:21,Renal function tests,Monitoring - uncontrolled diabetes,Completed,Routine
+64,71,45,21/05/2022 08:32,ECG,?coronary artery disease,Resulted,Urgent
+65,73,18,23/05/2022 07:09,Serum amylase,?pancreatitis,Completed,STAT
+66,73,18,23/05/2022 10:07,CT abdomen,Rule out pancreatitis,Completed,URGENT
+67,75,25,04/07/2022 18:26,Urinalysis,Monitoring - urinary tract infection,completed,R
+68,74,19,25/05/2022 11:44,Full Blood Count,Assess hip fracture,Completed,STAT
+69,76,21,26/05/2022 09:29,Liver function tests,Monitoring - gallstones,Completed,Routine 
+70,77,46,29/05/2022 17:48,ECG,?atrial fibrillation,Completed,U
+71,77,46,29/05/2022 23:59,Serum electrolytes,?atrial fibrillation,Completed,Urgent
+72,78,80,01/06/2022 09:52,Renal function tests,"Known uncontrolled diabetes, baseline",Pending,Routine
+73,81,4,01/06/2022 21:02,Serum electrolytes,"Known atrial fibrillation, baseline",Completed,Urgent
+74,81,25,2022-06-01 23:22:00,ECG,Rule out atrial fibrillation,Completed,Routine
+75,79,73,02/06/2022 09:19,Chest X-ray,?COPD exacerbation,COMPLETED,Normal
+76,79,22,02/06/2022 16:04,Arterial blood gas,Rule out COPD exacerbation,Cancelled,Urgent
+77,80,46,26/06/2022 03:48,Serum amylase,Assess pancreatitis,Completed,STAT
+78,84,65,06/06/2022 09:40,Urine culture,?urinary tract infection,Completed,  R
+79,83,39,06/06/2022 10:03,Chest X-ray,Monitoring - respiratory failure,Resulted,Urgent
+80,83,46,06/06/2022 14:19,Arterial blood gas,Monitoring - respiratory failure,Resulted,Urgent
+81,86,43,08/06/2022 01:21,Random blood sugar,?syncope,On Hold,Urgent
+82,87,18,08/06/2022 09:17,Peak flow,Rule out acute asthma,Completed,Urgent
+83,88,69,08/06/2022 11:02,Lipid profile,Assess hyperlipidaemia,Completed,Routine
+84,87,44,08/06/2022 13:19,Chest X-ray,Suspected acute asthma,Cancelled,Urgent
+85,85,44,09/06/2022 18:51,Blood grouping and crossmatch,"Known GI bleed, baseline",Completed,STAT
+86,90,70,09/06/2022 19:23,Abdominal ultrasound,Suspected acute cholecystitis,Completed,STAT
+87,92,46,13/06/2022 02:35,Chest X-ray,Assess myocardial infarction,Resulted,  Urgent
+88,92,77,10/06/2022 08:15,ECG,Suspected myocardial infarction,Completed,STAT
+89,95,39,16/06/2022 20:12,CT head,Assess concussion,Completed,Routine
+90,96,80,21/06/2022 15:13,Troponin I,?myocardial infarction,Completed,urgent
+91,97,28,24/06/2022 03:46,Urinalysis,?acute kidney injury,Cancelled,STAT
+92,96,18,24/06/2022 23:29,ECG,assess myocardial infarction,Completed,STAT
+93,98,65,25/06/2022 08:55,Serum lactate,RULE out SEPSIS,Completed,STAT
+94,100,78,28/06/2022 07:32,Renal ultrasound,Rule out acute kidney injury,Completed,Routine
+95,100,70,29/06/2022 18:06,Renal function tests,Assess acute kidney injury,Completed,Urgent
+96,101,78,30/06/2022 10:14,HbA1c,Monitoring - uncontrolled diabetes,Completed,Urgent
+97,104,44,02/07/2022 04:15,Blood culture,Monitoring - anaemia,Completed,Urgent
+98,107,44,03/07/2022 23:50,Sputum culture,"Known pneumonia, baseline",Done,Routine
+99,107,28,04/07/2022 06:58,Full Blood Count,Suspected pneumonia,Completed,Urgent
+100,109,78,06/07/2022 01:03,Random blood sugar,Monitoring - syncope,Completed,Routine
+101,111,40,07/07/2022 16:21,Malaria RDT,"Known pneumonia, baseline",Resulted,STAT
+102,113,70,09/07/2022 22:49,Full Blood Count,?acute cholecystitis,Completed,Routine
+103,113,80,20/08/2022 15:01,Liver function tests,Assess acute cholecystitis,Completed,Urgent
+104,112,25,03/07/2022 22:14,CT head,Assess concussion,Pending,Routine
+105,114,43,11/07/2022 05:06,Renal function tests,Assess dehydration,Completed,Urgent
+106,116,60,16/07/2022 23:27,Full Blood Count,Suspected pneumonia,Completed,Urgent
+107,117,78,22/07/2022 19:07,ECG,Monitoring - syncope, PENDING  ,STAT
+108,118,73,23/07/2022 07:59,CT pulmonary angiogram,"Known pulmonary embolism, baseline",Completed,Routine
+109,121,73,31/07/2022 21:23,Full Blood Count,Monitoring - anaemia,Completed,Urgent
+110,122,19,05/08/2022 18:32,Peak flow,Assess acute asthma,Completed,Urgent
+111,123,43,06/08/2022 01:47,Chest X-ray,Monitoring - heart failure,Completed,Routine
+112,123,48,06/08/2022 03:02,Renal function tests,"Known heart failure, baseline",Completed,N/A
+113,124,65,06/08/2022 09:09,Renal function tests,Monitoring - chronic kidney disease,Completed,Urgent
+114,124,38,06/08/2022 16:33,Full Blood Count,Monitoring - chronic kidney disease,Completed,Urgent
+115,127,18,09/08/2022 03:42,Chest X-ray,Assess acute asthma,Completed,STAT
+116,126,44,11/08/2022 07:51,Blood culture,Assess sepsis,Completed,Urgent
+117,129,70,08/12/2022 02:07 AM,Chest X-ray,Rule out pneumonia,Done,Routine
+118,131,10,12/08/2022 18:46,TSH,Assess atrial fibrillation,Completed,Routine
+119,131,51,12/08/2022 18:49,ECG,Assess atrial fibrillation,Completed,Urgent
+120,132,28,18/08/2022 14:37, RANDOM BLOOD SUGAR  ,Monitoring - uncontrolled diabetes,Completed,Routine
+121,134,45,2022-08-20 00:05:00,Random blood sugar,"Known seizure, baseline",Completed,STAT
+122,136,60,20/08/2022 21:13,Full Blood Count,Rule out pneumonia,Pending,Urgent
+123,136,80,21/08/2022 02:59,Chest X-ray,?,Completed,Urgent
+124,137,69,26/08/2022 13:29,H. pylori stool antigen,Rule out reflux disease,Completed,Urgent
+125,138,78,28/08/2022 13:56,HbA1c,Suspected uncontrolled diabetes,?,Routine
+126,138,48,28/08/2022 14:45,Random blood sugar,"Known uncontrolled diabetes, baseline",Completed,Routine
+127,143,-,08/09/2022 13:31,Abdominal ultrasound,Assess acute cholecystitis,Completed,Routine
+128,144,60,10/09/2022 10:05,CT pulmonary angiogram,"Known pulmonary embolism, baseline",Completed,STAT
+129,146,42,10/09/2022 17:40,ECG,Rule out atrial fibrillation,In Progress,Urgent
+130,145,22,11/09/2022 00:18,Urinalysis,Suspected appendicitis,Completed,STAT
+131,146,42,11/09/2022 09:49,Serum electrolytes,Assess atrial fibrillation,Completed,Routine
+132,147,66,11/09/2022 11:32,Stool analysis,Rule out dehydration,Completed,Routine
+133,145,77,11/09/2022 14:00,Full Blood Count,Rule out appendicitis,Completed,STAT
+134,147,18,09/12/2022 02:11 AM,Serum electrolytes,Assess dehydration,Completed,U
+135,148,43,12/09/2022 09:06,Chest X-ray,"Known pneumonia, baseline",Completed,Routine
+136,150,10,13/09/2022 01:45,Liver function tests,Suspected acute cholecystitis,Completed,Urgent
+137,150,44,13/09/2022 11:47,Full Blood Count,Rule out acute cholecystitis,Completed,R
+138,151,65,15/09/2022 16:56,Liver function tests,Monitoring - GI bleed,Completed,STAT
+139,154,28,30/09/2022 09:44,ECG,Monitoring - chest pain,Completed,Routine
+140,154,25,30/09/2022 15:07, TROPONIN I  ,Monitoring - chest pain,Completed,Routine
+141,155,74,30/09/2022 19:04,Abdominal ultrasound,Monitoring - gallstones,Completed,Routine
+142,156,80,03/10/2022 01:30,TSH,"Known atrial fibrillation, baseline",Completed,Urgent
+143,158,65,07/10/2022 10:15,Renal function tests,Suspected hypertension,Completed,Routine
+144,159,65,07/10/2022 18:26,Random blood sugar,?syncope,Completed,Urgent
+19,26,39,26/02/2022 17:53,Peak flow,Assess acute asthma,Pending,Routine
+145,1111,44,07/10/2022 21:37,ECG,Suspected hypertension,Completed,Routine
+146,159,19,08-10-2022 11:15,Full Blood Count,Suspected syncope,Completed,Urgent
+147,162,25,10/10/2022 22:08,ecg,"Known coronary artery disease, baseline",Resulted,Routine
+148,165,69,17/10/2022 11:31,CT head,"Known concussion, baseline",Completed,Routine
+149,166,4,20/10/2022 17:07,Blood culture,Suspected dehydration,Completed,Routine
+150,168,25,25/10/2022 14:39,Full Blood Count,Rule out acute cholecystitis,Pending,Routine
+151,167,28,25/10/2022 16:12,Full Blood Count,Suspected sepsis,Completed,STAT
+152,167,45,27/19/2022 11:19,Malaria RDT,Monitoring - sepsis,Pending,STAT
+153,172,77,03/11/2022 21:53,Blood smear for MPs,?anaemia,Completed,Routine
+154,175,38,07/11/2022 02:22,Full Blood Count,Assess pneumonia,Completed,Urgent
+155,175,38,07/11/2022 04:48,Chest X-ray,"Known pneumonia, baseline",Completed,Urgent
+156,176,19,12/11/2022 11:12,TSH,Monitoring - hypothyroidism,Completed,Routine
+157,179,43,17/11/2022 12:43,Full Blood Count,Monitoring - sepsis,Completed,Urgent
+158,184,38,11/29/2022 03:40 PM,Abdominal ultrasound,Assess appendicitis,Completed,Urgent
+159,185,48,01/12/2022 15:03,Liver function tests,?gallstones,Completed,Routine
+160,186,3,03/12/2022 09:20,Renal ultrasound,"Known chronic kidney disease, baseline",Completed,Urgent
+161,187,25,05/12/2022 23:40,CT head,Rule out concussion,Completed,urgent
+162,188,66,08/12/2022 02:41,Random blood sugar,Monitoring - stroke,Completed,STAT
+163,189,4,09/12/2022 21:12,BNP,Assess heart failure,Completed,STAT
+164,189,73,11/12/2022 01:35,Serum electrolytes,Rule out heart failure,In Progress,STAT
+165,191,19,11/12/2022 14:23,Chest X-ray,?chest pain,Completed,Routine
+166,192,38,12/12/2022 05:37,Full Blood Count,Rule out acute cholecystitis,Pending,N/A
+167,193,69,14/12/2022 11:03,Lipid profile,Suspected coronary artery disease,Completed,Urgent
+168,194,60,18/12/2022 15:42,Troponin I,"Known myocardial infarction, baseline",Completed,STAT
+169,198,3,24/12/2022 14:26,Full Blood Count,Assess chronic kidney disease,Done,Urgent
+170,199,66,24/12/2022 15:08,Blood smear for MPs,Monitoring - anaemia,Pending,Urgent
+171,198,3,25/12/2022 02:24,Renal function tests,"Known chronic kidney disease, baseline",Completed,STAT
+172,200,60,28/12/2022 07:10,Full Blood Count,Rule out syncope,Completed,Routine
+173,201,60,29/12/2022 16:56,ECG,?hypertension,Completed,Routine
+174,201,7,29/12/2022 17:42,Urinalysis,Assess hypertension,Completed,Routine
+175,202,78,04/01/2023 22:14,Blood culture,Monitoring - anaemia,Resulted,Urgent
+176,205,28,05/01/2023 12:18,Urine culture,"Known urinary tract infection, baseline",In Progress,Routine
+177,206,60,05/01/2023 15:04,TSH,Rule out hypothyroidism,Completed,Routine
+178,206,18,05/01/2023 15:09,Free T4,Assess hypothyroidism,Completed,Urgent
+179,208,78,07/01/2023 09:35,Urinalysis,Assess hypertension,Completed,Routine
+180,209,42,08/01/2023 18:28,Chest X-ray,"Known acute asthma, baseline",Done,Routine
+181,210,40,12/01/2023 07:15,Full Blood Count, SUSPECTED SEPSIS  ,Completed,Urgent
+182,210,40,12/01/2023 12:08,Malaria RDT,?sepsis,Completed,Urgent
+183,212,78,15/01/2023 08:19,Serum electrolytes,Rule out acute kidney injury,Completed,STAT
+184,212,17,15/01/2023 09:34,Renal ultrasound,"Known acute kidney injury, baseline",Cancelled,U
+185,213,10,15/01/2023 13:27,HbA1c,Rule out uncontrolled diabetes,Completed,Routine
+186,213,66,16/01/2023 02:05,Renal function tests,Monitoring - uncontrolled diabetes,Completed,Routine
+187,214,7,20/01/2023 04:25,Full Blood Count,Assess hip fracture,Completed,Urgent
+188,215,10,20/01/2023 09:10,Malaria RDT,Monitoring - seizure,Completed,Urgent
+189,217,60,21/01/2023 12:35,Serum electrolytes,Assess atrial fibrillation,Completed,Urgent
+190,975,60,21/01/2023 18:51,ECG,Assess atrial fibrillation,Completed,Urgent
+191,218,73,21/01/2023 20:51,Full Blood Count,Suspected anaemia,Completed,Routine
+192,219,7,22/01/2023 11:19,Renal function tests,?chronic kidney disease,Completed,STAT
+193,218,73,23/01/2023 01:00,Blood smear for MPs,?anaemia,Completed,Urgent
+194,221,73,23/01/2023 18:16,ECG,Suspected syncope,Completed,Urgent
+195,220,46,23/01/2023 18:38,Full Blood Count,Suspected GI bleed,Completed,STAT
+196,220,77,25/01/2023 13:39,Blood grouping and crossmatch,Assess GI bleed,Completed,Urgent
+197,223,78,26/01/2023 09:52,ECG,"Known pulmonary embolism, baseline",Completed,STAT
+198,225,49,27/01/2023 14:40,Renal function tests,Monitoring - coronary artery disease,Completed,Urgent
+199,224,70,27/01/2023 15:06,Renal ultrasound,Rule out acute kidney injury,Completed,U
+200,225,49,27/01/2023 17:41,ECG,Suspected coronary artery disease,Completed,Urgent
+201,224,43,28/01/2023 03:12,Renal function tests, SUSPECTED ACUTE KIDNEY INJURY  ,Completed,Urgent
+202,226,39,02/02/2023 01:04,Renal function tests,?acute kidney injury,Done,Urgent
+203,227,46,03/02/2023 03:25,Liver function tests,"Known acute cholecystitis, baseline",Done,Urgent
+204,227,7,03/02/2023 03:35,Abdominal ultrasound,Suspected acute cholecystitis,Pending,Routine
+205,229,70,08/02/2023 00:39,Renal ultrasound,Suspected acute kidney injury,Pending,URG
+206,230,46,09/02/2023 05:01,Renal function tests,"Known dehydration, baseline",Completed,Routine
+207,232,60,11/02/2023 01:56,MRI brain,Monitoring - seizure,Completed,STAT
+208,232,60,11/02/2023 23:44,CT head,Rule out seizure,Completed,Urgent
+209,233,80,13/02/2023 08:22,Liver function tests,Suspected acute cholecystitis,Completed,Urgent
+210,234,43,14/02/2023 11:13,Chest X-ray,Assess pneumonia,Completed,Routine
+211,236,70,2023-02-23 06:57:00,Chest X-ray,Suspected heart failure,Completed,STAT
+212,237,65,24/02/2023 19:13,Full Blood Count,Rule out respiratory failure,Completed,Urgent
+213,238,18,26/02/2023 14:47,Peak flow,Monitoring - acute asthma,Requested,Routine
+214,240,78,27/02/2023 14:17,Stool analysis,Rule out dehydration,Completed,Routine
+215,240,19,02/27/2023 06:34 PM,Renal function tests,?dehydration,Completed,Routine
+216,241,51,04/03/2023 23:54,Renal function tests,Suspected dehydration,Completed,Urgent
+217,242,18,2023-03-05 14:24:00,Urinalysis,Monitoring - hypertension,Completed,Routine
+218,243,77,07/03/2023 21:35,TSH,Monitoring - atrial fibrillation,Completed,STAT
+219,249,138,12/03/2023 14:56,Renal ultrasound,"Known chronic kidney disease, baseline",Completed,Routine
+220,249,71,13/03/2023 10:24,Full Blood Count,Assess chronic kidney disease,Cancelled,Urgent
+221,248,48,2023-03-14T04:49,Serum electrolytes,Rule out acute kidney injury,Done,STAT
+222,251,7,16/03/2023 20:33,Serum electrolytes,"Known dehydration, baseline",Completed,Routine
+223,255,46,22/03/2023 13:02,Chest X-ray,Monitoring - chest pain,Completed,Urgent
+224,253,46,22/03/2023 21:43,H. pylori stool antigen,Assess reflux disease,Pending,Routine
+225,257,38,27/03/2023 08:18,BNP,Rule out heart failure,Completed,STAT
+226,257,60,28/03/2023 16:31,Chest X-ray,Suspected heart failure,Cancelled,STAT
+227,258,60,30/03/2023 00:08,Renal function tests,Assess dehydration,Completed,STAT
+228,259,80,01/04/2023 17:25,Renal function tests,Assess uncontrolled diabetes,Completed,Normal
+229,259,60,01/04/2023 20:51,Random blood sugar,"Known uncontrolled diabetes, baseline",Completed,Routine
+230,260,77,04/04/2023 17:36,Stool analysis,"Known dehydration, baseline",Completed,Routine
+231,262,45,05/04/2023 10:25,Liver function tests,Monitoring - gallstones,Completed,Routine
+232,262,7,05/04/2023 18:38,Abdominal ultrasound,Rule out gallstones,Completed,Routine
+233,264,44,09/05/2023 19:00,H. pylori stool antigen,Assess reflux disease,Completed,Routine
+234,265,4,09/04/2023 23:08,Sputum culture,"Known pneumonia, baseline",Resulted,Urgent
+235,265,65,10/04/2023 00:02,Malaria RDT,?pneumonia,Completed,Urgent
+236,266,65,12/04/2023 14:15,Chest X-ray,Assess chest pain,Completed,Normal
+237,268,25,12/04/2023 21:44,CT head,"Known concussion, baseline",Completed,Routine
+9,13,60,2022-02-12 09:44:00,Chest X-ray,Rule out acute asthma,Completed,Urgent
+238,266,19,12/04/2023 22:33,ECG,Suspected chest pain,Completed,Routine
+239,270,73,15/04/2023 11:43,Chest X-ray,?chest pain,Completed,Urgent
+240,271,19,16/04/2023 11:11,Chest X-ray,Assess respiratory failure,Completed,Urgent
+241,271,77,16/04/2023 12:14,Full Blood Count,"Known respiratory failure, baseline",Completed,Urgent
+242,272,78,17/04/2023 00:06,H. pylori stool antigen,?reflux disease,Completed,Routine
+243,274,44,17/04/2023 04:39,Renal function tests,Monitoring - dehydration,Completed,STAT
+244,274,44,17/04/2023 09:35,serum electrolytes,Assess dehydration,Completed,Urgent
+245,269,44,04/17/2023 12:39 PM,Abdominal ultrasound,?appendicitis,Completed,Routine
+246,273,80,18/04/2023 03:12,Chest X-ray,Assess acute asthma,Done,Urgent
+247,277,40,26/04/2023 14:03,Renal ultrasound, MONITORING - CHRONIC KIDNEY DISEASE  ,Completed,Routine
+248,277,40,26/04/2023 23:19,Full Blood Count,?chronic kidney disease,Completed,Urgent
+249,278,73,27/04/2023 11:37,Full Blood Count,Rule out pneumonia,Pending,Urgent
+250,280,40,29/04/2023 13:57,Troponin I,"Known chest pain, baseline", COMPLETED  ,STAT
+251,281,7,01/05/2023 05:25,Renal ultrasound,"Known chronic kidney disease, baseline",Completed,Routine
+252,281,80,01/05/2023 11:23,Renal function tests,Suspected chronic kidney disease,Completed,Urgent
+253,283,43,04/05/2023 12:09,Free T4,?hypothyroidism,Completed,Urgent
+254,282,69,04/05/2023 16:23,Sputum culture,Rule out pneumonia,Completed,Urgent
+255,284,22,03/05/2023 23:28,ECG,Assess syncope,Completed,Urgent
+256,285,44,09/05/2023 19:55,Serum electrolytes,?acute kidney injury,Completed,STAT
+257,287,80,11/05/2023 17:21,Sputum culture,Assess pneumonia,Completed,Urgent
+258,288,65,14/05/2023 09:54,TSH,Monitoring - hypothyroidism,Completed,Routine
+259,291,78,15/05/2023 17:54,Full Blood Count,Rule out syncope,Completed,Urgent
+260,289,39,2023-05-15 19:49:00,Abdominal ultrasound,Monitoring - pancreatitis,Completed,STAT
+261,290,40,15/05/2023 21:49,ECG,Assess coronary artery disease,Completed,Routine
+262,290,40,16/14/2023 00:33,Lipid profile,Suspected coronary artery disease,Completed,Urgent
+263,294,17,19/05/2023 12:19,Random blood sugar,Monitoring - uncontrolled diabetes,Completed,Routine
+264,294,39,19/05/2023 16:54,HbA1c,Monitoring - uncontrolled diabetes,Completed,U
+265,295,73,20/05/2023 16:26,Full Blood Count,Rule out syncope,CXL,U
+266,295,66,20/05/2023 21:02,ECG,Monitoring - syncope,Cancelled,Urgent
+267,296,10,21/05/2023 20:12,Renal function tests,Rule out chronic kidney disease,Completed,Routine
+268,292,7,21/05/2023 21:24,Renal ultrasound,Rule  out acute kidney injury,Completed,ASAP
+269,853,7,23/05/2023 17:17,Serum electrolytes,Assess seizure,Completed,STAT
+270,300,69,27/05/2023 18:56,H. pylori stool antigen,Rule out reflux disease,Completed,urgent
+271,301,60,30/05/2023 04:07,Serum electrolytes,Rule out seizure,Completed,asap
+272,302,42,31/05/2023 13:26,H. pylori stool antigen,Suspected reflux disease,Completed,Normal
+273,301,39,31/05/2023 23:40,Malaria RDT,"Known seizure, baseline",Resulted,Routine
+274,307,70,07/06/2023 23:38,ECG,Monitoring - chest pain,Completed,Urgent
+275,306,19,08/06/2023 15:25,Malaria RDT,"Known seizure, baseline",Completed,STAT
+276,309,60,09/06/2023 17:15,H. pylori stool antigen,"Known reflux disease, baseline",Completed,Urgent
+277,310,39,11/06/2023 14:16,Full Blood Count,Assess syncope,,Routine
+278,312,46,15/06/2023 01:28,Random blood sugar,?syncope,Completed,Urgent
+279,313,42,15/06/2023 08:05,Urinalysis,Monitoring - acute kidney injury,Pending,   URG
+280,312,25,15/06/2023 19:20,ECG,"Known syncope, baseline",Completed,Immediate
+281,314,60,15/06/2023 22:57,Full Blood Count,?syncope,completed,URG
+282,314,25,16/06/2023 00:11,ECG,Monitoring - syncope,Completed,Urgent
+283,316,4,23-07-2023 22:48,Chest X-ray,Assess acute asthma,Completed,Routine
+284,316,19,20/06/2023 15:05,Peak flow,"Known acute asthma, baseline",Cancelled,Routine
+285,317,3,24/06/2023 23:22,Full Blood Count,?osteoarthritis of knee,Completed,Routine
+286,318,4,25/06/2023 11:06,Stool analysis,Assess dehydration,In Progress,Urgent
+287,318,4,25/06/2023 17:18,Serum electrolytes,"Known dehydration, baseline",Completed,Routine
+288,320,40,02/07/2023 19:20,Peak flow,Monitoring - acute asthma,Completed,Urgent
+289,320,40,03/07/2023 00:13,Chest X-ray,Monitoring - acute asthma,Completed,Urgent
+290,321,125,04/07/2023 04:59,Full Blood Count,"Known syncope, baseline",Completed,Urgent
+291,321,66,04/07/2023 07:33,Random blood sugar,Suspected syncope,In Progress,Routine
+292,322,46,06/07/2023 11:57,Lipid profile,"Known hyperlipidaemia, baseline",Completed,Routine
+293,323,4,08/07/2023 21:35,ECG,"Known chest pain, baseline",Completed,U
+294,323,4,09/07/2023 09:55,Chest X-ray,Monitoring - chest pain,Resulted,Urgent
+295,324,40,11/07/2023 01:47,CT head,Assess concussion,Completed,normal
+296,327,38,13/07/2023 17:46,Full Blood Count,?syncope,In Progress,Urgent
+297,327,7,13/07/2023 19:18,ECG,Suspected syncope,Completed,U
+298,328,28,14/07/2023 14:41,Liver function tests,Suspected acute cholecystitis,Cancelled,Urgent
+299,326,42,16/07/2023 15:59,Liver function tests,?GI bleed,Completed,STAT
+300,330,60,21/07/2023 09:59,Urinalysis,Suspected urinary tract infection,Completed,Routine
+301,1009,77,25/07/2023 11:41,Urinalysis, MONITORING - URINARY TRACT INFECTION  ,Completed,Routine
+302,334,60,01/08/2023 14:11,Serum electrolytes,Assess dehydration,Completed,Urgent
+303,334,7,18/07/2023 23:34,Stool analysis,Rule out dehydration,Pending,STAT
+304,333,18,02/08/2023 06:17,Lipid profile,Rule out myocardial infarction,Canceled,STAT
+305,335,60,02/08/2023 12:11,MRI brain,"Known seizure, baseline",Completed,Urgent
+306,337,65,03/08/2023 20:03,Stool analysis,Monitoring - dehydration,Completed,Urgent
+307,337,65,2023-08-04 03:56:00,Serum electrolytes,Rule out dehydration,Pending,Routine
+308,336,44,04/08/2023 11:42,Abdominal ultrasound,?appendicitis,Completed,STAT
+309,341,43,14/08/2023 21:01,ECG,Monitoring - pulmonary embolism,Completed,Routine
+310,343,70,16/08/2023 00:07,Stool analysis,Assess dehydration,Resulted,Urgent
+311,341,43,16/08/2023 02:29,D-dimer,Assess pulmonary embolism,Completed,Routine
+312,344,39,18/08/2023 12:27,TSH,Rule out hypothyroidism,Completed,Routine
+313,345,10,23/08/2023 05:16,Serum electrolytes,Assess atrial fibrillation,   Completed,Urgent
+314,346,42,23/08/2023 15:00,H. pylori stool antigen,"Known reflux disease, baseline",Completed, ROUTINE  
+315,345,45,23/08/2023 16:36,TSH,Rule out atrial fibrillation,Completed,STAT
+316,347,7,24/08/2023 00:11,ECG,Rule out hypertension,Pending,R
+317,347,10,24/08/2023 08:37,Urinalysis,Assess hypertension,Completed,Routine
+318,348,,25/08/2023 10:48,Troponin I,Suspected chest pain,Completed,Urgent
+319,350,66,25/08/2023 11:40,TSH,Suspected hypothyroidism,Completed,Routine
+320,348,77,25/08/2023 22:36,Chest X-ray,  ?chest pain,Cancelled,Urgent
+321,349,78,25/08/2023 23:14,Blood culture,?sepsis,Completed,STAT
+322,349,70,26/08/2023 11:34,Full Blood Count,Suspected sepsis,Completed,STAT
+323,353,42,30/08/2023 21:06,Full Blood Count,Monitoring - pneumonia,Completed,Urgent
+324,353,43,31/08/2023 06:28,Chest X-ray,Monitoring - pneumonia,Completed,Urgent
+325,352,22,31/08/2023 15:19,Full Blood Count,monitoring - sepsis,Cancelled,STAT
+326,354,4,31/08/2023 23:04,Renal ultrasound,Assess acute kidney injury,Completed,STAT
+327,354,28,01/09/2023 10:11,Renal function tests,"Known acute kidney injury, baseline",Completed,Stat
+328,359,42,05/09/2023 13:46,CT head,Suspected concussion,Done,-
+329,361,3,09/09/2023 12:02,Lipid profile,Assess coronary artery disease,Completed,Routine
+330,363,65,12/09/2023 03:11,Full Blood Count,Suspected sepsis,Completed,Routine
+331,364,10,12/09/2023 17:10,Random blood sugar,Suspected syncope,COMPLETED,U
+332,363,65,13/09/2023 07:04,Malaria RDT,"Known sepsis, baseline",Completed,Urgent
+333,365,60,2023-09-17T05:23,CT pulmonary angiogram,Suspected pulmonary embolism,Completed,STAT
+334,367,45,20/09/2023 04:35,Serum electrolytes,Suspected acute kidney injury,Completed,Urgent
+335,370,39,25/09/2023 04:00,Renal ultrasound,"Known chronic kidney disease, baseline",Completed,Urgent
+336,370,65,25/09/2023 10:04,Renal function tests,?chronic kidney disease,Pending,Routine
+337,372,25,30/09/2023 14:02,Iron studies,Assess anaemia,In Progress,Urgent
+338,373,7,02/10/2023 20:44,ECG,Monitoring - pulmonary embolism,Completed,Urgent
+339,374,22,05/10/2023 13:32,Full Blood Count,Suspected   appendicitis,Completed,STAT
+340,375,65,07/10/2023 23:57,Renal function tests,"Known dehydration, baseline",  Completed,STAT
+341,884,39,11/10/2023 10:57,Full Blood Count,Assess appendicitis,Completed,Urgent
+342,377,77,11/10/2023 11:09,Urinalysis,Assess appendicitis,Completed,Urgent
+343,378,43,12/10/2023 20:54,Full Blood Count,Suspected syncope,Completed,Routine
+344,379,44,13/10/2023 23:13,Liver function tests,?gallstones,Cancelled,Routine
+345,381,66,19/10/2023 15:15,Chest X-ray,Rule out tobacco use,Completed,Urgent
+346,382,60,19/10/2023 16:06,TSH,Rule out hypothyroidism,In Progress,Routine
+347,382,39,19/10/2023 17:08,Free T4,Assess hypothyroidism,Completed,Routine
+348,383,25,23/10/2023 21:39,Malaria RDT,Rule out pneumonia,Completed,Routine
+349,384,45,26/10/2023 03:20,Full Blood Count,?GI bleed,Completed,Urgent
+350,384,38,26/10/2023 10:58,Blood grouping and crossmatch,"Known GI bleed, baseline",Cancelled,STAT
+351,385,76,26/10/2023 11:27,FULL blood count,Monitoring - osteoarthritis of knee,Completed,Routine
+352,385,65,2023-10-26T21:10,X-ray knee,?osteoarthritis of knee,Completed,Routine
+353,387,22,29/10/2023 23:25,Urinalysis,Assess acute kidney injury,  Completed,STAT
+354,389,48,31/10/2023 07:41,Random blood sugar,Rule out syncope,Pending,STAT
+355,388,46,31/10/2023 21:42,Arterial blood gas,?respiratory failure,Completed,Urgent
+356,936,60,02/11/2023 08:41,Full Blood Count,?pneumonia,Cancelled,Urgent
+40,50,78,02/04/2022 03:10,Renal ultrasound,Assess acute kidney injury,Done, R
+357,390,45,02/11/2023 11:19,Sputum culture,Suspected pneumonia,Done,Urgent
+358,391,10,05/11/2023 23:49,Renal function tests,"Known chronic kidney disease, baseline",Completed,Urgent
+359,391,25,07/11/2023 00:53,Renal ultrasound,Monitoring - chronic kidney disease,Completed,U
+360,393,19,10/11/2023 14:56,Liver function tests,Assess gallstones,Completed,Routine
+361,393,71,11/11/2023 02:40,Abdominal ultrasound,Suspected gallstones,Completed,Routine
+362,395,60,30/02/2023 16:08,Troponin I,Rule out myocardial infarction,Completed,Stat
+363,396,44,15/11/2023 14:27,Random blood sugar,"Known uncontrolled diabetes, baseline ",Completed,Routine
+364,397,66,2023-11-17T17:23,Malaria RDT,Monitoring - pneumonia,Completed,?
+365,398,66,22/11/2023 04:12,ECG,Suspected myocardial infarction,Completed,Routine
+366,400,25,28/11/2023 17:06,H. pylori stool antigen,Monitoring - reflux disease,Completed,Routine
+367,402,19,30/11/2023 09:24,TSH,Monitoring - atrial fibrillation,Completed,Urgent
+368,403,43,30/11/2023 14:02,Free T4,Assess hypothyroidism,Completed,Routine
+369,401,80,01-12-2023 17:13,Renal function tests,"Known acute kidney injury, baseline",Completed,Urgent
+370,408,4,12/09/2023 01:12 PM,Full Blood Count,"Known sepsis, baseline",Completed,STAT
+371,408,66,09/12/2023 17:53,Blood culture,Rule out sepsis,Completed,Urgent
+372,409,10,13/12/2023 08:37,Renal function tests,Rule out heart failure,Cancelled,STAT
+373,411,10,14/12/2023 15:24,Full Blood Count,"Known appendicitis, baseline",Completed,STAT
+374,410,-,14/12/2023 19:23,Troponin I,"Known chest pain, baseline",Completed,Urgent
+375,412,25,18/12/2023 05:38,Renal function tests,Assess uncontrolled diabetes,Completed,Routine
+376,413,7,22/12/2023 14:25,Full Blood Count,Assess anaemia,In Progress,Routine
+377,413,7,22/12/2023 15:02,Iron studies,Suspected anaemia,Completed,Urgent
+378,414,73,2023-12-24 16:28:00,Full Blood Count,Suspected hip fracture, COMPLETED  ,Urgent
+379,414,73,25/12/2023 23:30,Blood grouping and crossmatch,Monitoring - hip fracture,Done,STAT
+380,417,44,28/12/2023 08:25,Serum electrolytes,Rule out acute kidney injury,Completed,STAT
+381,417,39,29/12/2023 03:53,Renal   function tests,Suspected acute kidney injury,Completed,STAT
+382,419,19,29/12/2023 05:43,ECG,"Known syncope, baseline",Completed,Urgent
+383,419,17,29/12/2023 09:33,Random blood sugar,Monitoring - syncope,Completed,Urgent
+384,418,78,29/12/2023 15:57,Renal ultrasound,Assess acute kidney injury,Completed,STAT
+385,420,43,29/12/2023 21:26,Peak flow,?acute asthma,Pending,Routine
+386,418,28,29/12/2023 21:54,Serum electrolytes,Assess acute kidney injury,Completed,routine
+387,422,39,01/01/2024 20:57,HbA1c,?uncontrolled diabetes,Resulted,Urgent
+388,423,78,01/01/2024 21:24,Lipid profile,"Known coronary artery disease, baseline",Completed,Urgent
+389,424,60,03/01/2024 05:58,CT head,Assess concussion,Completed,Routine
+390,425,60,04/01/2024 01:25,Renal function tests,"Known heart failure, baseline",Completed,URG
+391,426,48,05/01/2024 14:12,Urinalysis,Monitoring - urinary tract infection,Completed,Routine
+392,427,66,06/01/2024 12:49,Iron studies,Assess anaemia,Done,Normal
+393,427,40,06/01/2024 14:24,Blood smear for MPs,RULE OUT ANAEMIA,Completed,Routine
+394,428,71,10/01/2024 15:13,Full Blood Count,Assess osteoarthritis of knee,In Progress,Routine
+395,429,74,12/01/2024 01:50,ECG,"Known coronary artery disease, baseline",Completed,Routine
+396,430,4,12/01/2024 11:15,Chest X-ray,Suspected tobacco use,Completed,Urgent
+397,432,73,01/15/2024 07:13 PM,Random blood sugar,Rule out stroke,Completed,STAT
+398,434,69,17/01/2024 07:40,Chest X-ray,Monitoring - heart failure,,STAT
+399,433,80,18/01/2024 02:07,Renal ultrasound,?chronic kidney disease,Completed,Routine
+400,434,73,18/01/2024 04:46,Renal function tests,Assess heart failure,Completed,STAT
+401,435,51,18/01/2024 15:57,Full Blood Count,"Known anaemia, baseline",Completed,Normal
+402,436,39,20/01/2024 11:32,H. pylori stool antigen,Monitoring - reflux disease,Completed,Urgent
+403,437,7,22/01/2024 02:54,Renal function tests,Assess uncontrolled diabetes,Completed,Routine
+404,439,43,23/01/2024 21:00,Renal function tests,Suspected hypertension,Completed,Urgent
+405,439,46,24/01/2024 01:58,ECG,?hypertension,Completed,Routine
+406,N/A,73,25/01/2024 12:16,Blood smear for MPs,?anaemia,Cancelled,Urgent
+407,440,43,25/01/2024 13:39,Iron studies,Assess anaemia,Completed,Urgent
+408,442,19,02/02/2024 17:20,Renal function tests,?acute kidney injury,Completed,Urgent
+409,443,46,04/02/2024 13:15,Abdominal ultrasound,Rule out gallstones,Completed,Routine
+410,444,65,05/02/2024 11:02,Troponin I,?chest pain,Cancelled,Urgent
+411,445,69,05/02/2024 17:02,Renal function tests,Assess hypertension,Completed,Urgent
+412,446,4,07/02/2024 09:45,H. pylori stool antigen,Rule out reflux disease,Completed,Routine
+413,447,28,08/02/2024 06:01,Renal function tests,Rule out dehydration,Completed,Routine
+414,449,71,10-02-2024 12:35,H. pylori stool antigen,?reflux disease,Pending,Routine
+415,448,77,10/02/2024 22:12,Lipid profile,Suspected myocardial infarction,Completed,STAT
+416,448,60,2024-02-11 01:40:00,Troponin I,?myocardial infarction,Completed,STAT
+417,450,48,12/02/2024 02:44,Serum electrolytes,Monitoring - seizure,Completed,Normal
+418,451,51,12/02/2024 11:03,Chest X-ray,"Known respiratory failure, baseline",Completed,Routine
+419,450,18,15/02/2024 13:19,MRI brain,Suspected seizure,Completed,Urgent
+420,452,39,17/02/2024 07:36,Full Blood Count,?GI bleed,Completed,Urgent
+421,454,46,19/02/2024 11:33,ECG,Rule out syncope,Completed,STAT
+422,454,70,19-02-2024 11:50,Full Blood Count,Rule out syncope,Completed,Routine
+423,453,127,19/02/2024 19:20,Renal ultrasound,"Known chronic kidney disease, baseline",Completed,Routine
+215,240,19,02/27/2023 06:34 PM,Renal function tests,?dehydration,Completed,Routine
+424,455,80,23/02/2024 08:23,Troponin I,Suspected chest pain,Completed,Urgent
+425,457,19,25/02/2024 12:13,MRI brain,?seizure,Completed,STAT
+426,458,78,26/02/2024 17:49,Renal function tests,Monitoring - dehydration,Pending,STAT
+427,458,78,26/02/2024 18:17,Stool analysis,Suspected dehydration,Completed,Urgent
+428,457,25,27/02/2024 15:47,Serum electrolytes,Monitoring - seizure,Completed,   STAT
+429,459,44,29/02/2024 03:12,Full Blood Count,"Known sepsis, baseline",Completed,Routine
+430,460,69,02/03/2024 00:07,Abdominal ultrasound,?pancreatitis,Completed,Urgent
+431,460,44,02/03/2024 06:53,CT abdomen,MONITORING - PANCREATITIS,Completed,STAT
+136,150,10,13/09/2022 01:45,Liver function tests,Suspected acute cholecystitis,Completed,Urgent
+432,461,60,03/03/2024 16:03,Chest X-ray, ?TOBACCO USE  ,Completed,Urgent
+433,463,7,11/03/2024 02:38,CT head,Assess concussion,Completed,Urgent
+434,466,28,16/03/2024 00:10,Serum electrolytes,Suspected atrial fibrillation,Completed,Routine
+435,467,78,18/03/2024 16:46,Liver function tests,Suspected acute cholecystitis,Completed,Routine
+436,469,77,19/03/2024 18:37,Blood culture,Suspected anaemia,Completed,Urgent
+437,470,39,20/03/2024 16:05,Full Blood Count,Assess pneumonia,Completed,Routine
+438,471,40,03/23/2024 01:17 PM,Chest X-ray,"Known COPD exacerbation, baseline",Completed,Urgent
+439,471,60,24/03/2024 04:32,Full Blood Count,Monitoring - COPD exacerbation,Completed,Urgent
+440,472,73,27/03/2024 07:53,Full Blood Count,Rule out anaemia,Completed,Routine
+441,477,39,09/04/2024 11:10,Renal function tests,"Known acute kidney injury, baseline",Completed,Urgent
+442,840,28,09/04/2024 12:53,Chest X-ray,Suspected tobacco use,Completed,Routine
+443,476,73,09/04/2024 17:21,Arterial blood gas,Monitoring - respiratory failure,Completed,urgent
+444,480,25,09/04/2024 20:28,Full Blood Count,?sepsis,Completed,Urgent
+445,479,60,09/04/2024 23:07,Chest X-ray,   Assess COPD exacerbation,Completed,Routine
+446,479,60,10/04/2024 04:27,Arterial blood gas,?COPD exacerbation,Done,URG
+447,480,43,10/04/2024 15:50,Chest X-ray,?sepsis,Completed,Urgent  
+448,482,22,11/04/2024 23:47,Malaria RDT,Suspected pneumonia,Cancelled,Routine
+228,259,80,01/04/2023 17:25, Renal function tests,Assess uncontrolled diabetes,Completed,Normal
+449,482,42,11/04/2024 23:50,Chest X-ray,Assess pneumonia,Completed,Urgent
+450,483,78,15/04/2024 14:32,Urinalysis,"Known  hypertension, baseline",Completed,Routine
+451,483,28,15/04/2024 15:01,RENAL FUNCTION TESTS,?hypertension,Completed,Routine
+452,484,60,17/04/2024 14:31,Random blood sugar,Monitoring - uncontrolled diabetes,Completed,Routine
+453,485,40,19/04/2024 13:56,Renal function tests,?acute kidney injury,Completed  ,STAT
+454,485,4,19/04/2024 18:45,Urinalysis,RULE OUT ACUTE KIDNEY INJURY,Completed,STAT
+455,486,46,20/04/2024 03:56,Urinalysis,Monitoring - urinary tract infection,Completed,Routine
+456,488,73,01/05/2024 07:19,Random blood sugar,?uncontrolled diabetes,In Progress,Routine
+457,489,48,02-05-2024 14:28,Renal function tests,Rule out acute kidney injury,Resulted,STAT
+458,490,69,03/05/2024 14:58,Full Blood Count,?pneumonia,Completed,Urgent
+459,491,22,05/04/2024 07:53 AM,Sputum culture,Assess pneumonia,Completed,Routine
+460,493,77,05/05/2024 07:50,Chest X-ray,"Known pneumonia, baseline",Completed,STAT
+461,1162,10,05/06/2024 05:11 AM,Chest X-ray,?acute asthma,Completed,Urgent
+462,897,25,06/05/2024 05:22,Lipid profile,?coronary artery disease,Completed,Urgent
+463,494,78,06/05/2024 17:51,Peak flow,Assess acute asthma,Completed,Routine    
+464,496,65,07/05/2024 19:02,Serum amylase,Assess pancreatitis,Done,Urgent
+465,495,39,05/08/2024 07:05 AM,Full Blood Count,Suspected sepsis,Completed,STAT
+466,497,43,08/05/2024 11:47,Liver function tests,?acute cholecystitis,Completed,Routine
+467,497,73,08/05/2024 12:47,Full Blood Count,Assess acute cholecystitis,In Progress,Urgent
+468,495,39,08/05/2024 16:01,Malaria RDT,?sepsis,Completed,Urgent
+469,498,39,09/05/2024 02:59,ECG,Rule out atrial fibrillation,Resulted,Routine
+470,496,44,09/05/2024 23:35,Liver function tests,Monitoring - pancreatitis,Completed,STAT
+471,498,39,10/05/2024 07:00,Serum electrolytes,Rule out atrial fibrillation,Completed,Routine
+472,499,80,13/05/2024 16:18,Full Blood Count,Monitoring - dehydration,Pending,Urgent
+473,500,69,15/05/2024 07:36,Blood smear for MPs,Monitoring - anaemia,Completed,Urgent
+474,503,40,17/05/2024 21:01,Chest X-ray,?sepsis,Completed,STAT
+475,506,25,22/05/2024 10:28,Full Blood Count  ,Monitoring - anaemia,Completed,Routine
+476,505,48,23/05/2024 12:24, H. PYLORI STOOL ANTIGEN  ,Rule out reflux disease,Completed,Routine
+477,507,22,26/05/2024 14:11,Liver function tests,"Known gallstones, baseline",Completed,Routine
+478,508,49,26/05/2024 19:02,ECG,Assess coronary artery disease,Completed,Urgent
+479,508,38,26/05/2024 19:13,Renal function tests,Monitoring - coronary artery disease,Completed,Urgent
+480,509,10,27/05/2024 06:34,Chest X-ray,Rule out acute asthma,Completed,Routine
+481,510,45,27/05/2024 17:53,Renal function tests,Monitoring - uncontrolled diabetes,Completed,Routine
+482,512,39,29/05/2024 17:18,Urinalysis,Monitoring - acute kidney injury,Completed,STAT
+483,514,73,02/06/2024 13:58,Chest X-ray,  Suspected tobacco use,Completed,Routine
+484,513,38,02/06/2024 17:04,x-ray KNEE,Assess osteoarthritis of knee,Completed,Routine
+485,513,38,03/06/2024 14:24,Full Blood Count,Suspected osteoarthritis of knee,Completed,Routine
+486,515,44,03/06/2024 16:57,Full Blood Count,Monitoring - syncope,Completed,Routine
+487,516,65,04/06/2024 14:17,H. pylori stool antigen,Monitoring - reflux disease,Cancelled,Routine
+488,517,66,06/06/2024 22:30,Full Blood Count,?GI bleed,Completed,Urgent
+489,518,7,07/06/2024 16:47,Abdominal ultrasound,Monitoring - acute cholecystitis,Cancelled,Urgent
+490,519,25,09/06/2024 18:18,Abdominal ultrasound,Assess pancreatitis,Completed,STAT
+491,520,4,11/06/2024 01:32,CT head,Monitoring - concussion,Completed,Urgent
+492,521,28,14/06/2024 04:05,H. pylori stool antigen,MONITORING - REFLUX DISEASE,Pending,Routine
+493,522,44,16/06/2024 09:14,Serum electrolytes,"Known seizure, baseline",Completed,Immediate
+494,523,21,17/06/2024 21:10,Full Blood Count,?chronic kidney disease,Completed,Urgent
+495,525,7,21/06/2024 21:32,HbA1c,Rule out uncontrolled diabetes,Done,Routine
+496,527,77,26/06/2024 00:28,Random blood sugar,"Known syncope, baseline",Done,Routine
+497,527,39,27/06/2024 04:46,Full Blood Count,?syncope,Completed,R
+498,529,28,28/06/2024 14:40,Liver function tests,Assess gallstones,Completed,Routine
+499,529,40,29/15/2024 09:45,Abdominal ultrasound,Monitoring - gallstones,Cancelled,R
+500,530,7,02/07/2024 17:53,Chest X-ray,Suspected tobacco use,Completed,Routine
+501,531,39,03/07/2024 22:32,CT pulmonary angiogram,Assess pulmonary embolism,In Progress,Urgent
+502,533,42,04/07/2024 10:41,Free T4,Assess hypothyroidism,Completed,Routine
+503,531,7,04/07/2024 14:09,ECG,Suspected pulmonary embolism,Completed,Urgent
+504,532,10,2024-07-05 07:46:00,ECG,"Known syncope, baseline",Completed,Urgent
+505,898,4,06/07/2024 10:42,Renal function tests,Assess chronic kidney disease,Completed,Routine
+506,535,73,06/07/2024 11:02,Random blood sugar,"Known uncontrolled diabetes, baseline",Completed,Urgent
+507,535,73,06/07/2024 12:48,HbA1c,Assess uncontrolled diabetes,Completed,Routine
+508,534,7,07/07/2024 07:24,Renal ultrasound,"Known chronic kidney disease, baseline",Cancelled,STAT
+509,536,38,09/07/2024 05:09,Chest X-ray,?heart failure,Completed,STAT
+510,538,39,19/08/2024 20:31,CT pulmonary angiogram,"Known pulmonary embolism, baseline", COMPLETED  ,Urgent
+511,538,39,12/07/2024 01:57,ECG,?pulmonary embolism,Resulted,STAT
+512,540,22,14/07/2024 20:15,Serum electrolytes,Monitoring - atrial fibrillation,Pending,Routine
+513,541,65,16/07/2024 08:32,Renal function tests,Assess hypertension,Completed,Routine
+514,542,80,16/07/2024 10:58,Renal function tests,?uncontrolled diabetes,Completed,Routine
+515,542,19,16/07/2024 13:47,HbA1c,Assess uncontrolled diabetes,Completed,Routine
+516,543,46,17/07/2024 16:52,Blood grouping and crossmatch,"Known GI bleed, baseline",Resulted,Urgent
+517,544,18,20/07/2024 17:06,ECG,Rule out myocardial infarction,Completed,Urgent
+518,544,65,20/07/2024 23:49,Lipid profile,Rule out myocardial infarction,Completed,URG
+519,545,42,22/07/2024 11:56,Free T4,Monitoring - hypothyroidism,Completed,Routine
+520,545,42,22/07/2024 12:18,TSH,Suspected hypothyroidism,Completed,Routine
+521,546,38,25/07/2024 11:26,Renal function tests,Suspected dehydration,Resulted,Routine
+522,546,70,26/07/2024 01:59,Serum electrolytes,  Rule out dehydration,Completed,Urgent
+523,547,60,30/07/2024 12:09,Blood smear for MPs,?anaemia,Done,Urgent
+524,548,44,30/07/2024 18:37,Urine culture,"Known urinary tract infection, baseline",pending,Routine
+525,550,49,2024-08-04 09:37:00,Renal ultrasound,"Known chronic kidney disease, baseline",Completed,Routine
+526,551,44,04/08/2024 11:23,Full Blood Count,?urinary tract infection,Completed,Routine
+527,550,49,04/08/2024 19:01,Renal function tests,?chronic kidney disease,Completed,STAT
+528,549,43,05/08/2024 20:10,Serum electrolytes,Rule out heart failure,Completed,Urgent    
+529,553,28,2024-08-07T15:10,Full Blood Count,Suspected osteoarthritis of knee,Completed,Routine
+530,554,70,15/08/2024 16:38,H. pylori stool antigen,Suspected reflux disease,Awaiting,Routine
+531,555,70,16/08/2024 11:46,Lipid profile,Monitoring - hyperlipidaemia,Cancelled,Routine
+532,557,70,17/08/2024 23:49,Abdominal ultrasound,Rule out acute cholecystitis,Cancelled,Routine
+533,557,73,18/08/2024 11:58,Full   Blood Count,Rule out acute cholecystitis,Completed,Urgent
+534,558,7,18/08/2024 18:26,Abdominal ultrasound,"Known pancreatitis, baseline",Completed,Routine
+535,559,47,19/08/2024 22:11,MRI brain,Rule out seizure,Completed,STAT
+536,559,80,20/13/2024 02:24,Random blood sugar,Rule out seizure,Completed,Urgent
+537,561,65,23/08/2024 14:25,H. pylori stool antigen,Monitoring - reflux disease,Completed,Routine
+538,560,46,23/08/2024 21:25,ECG,Monitoring - atrial fibrillation,Completed,Routine
+539,566,19,28/08/2024 19:12,Blood smear for MPs,"Known anaemia, baseline",Completed,Urgent
+540,566,22,00/08/2024 01:41,Iron studies,Monitoring - anaemia,Completed,Urgent
+541,567,18,02/09/2024 20:37,Liver function tests,Assess acute cholecystitis,Resulted,Urgent
+542,567,46,03/09/2024 08:49,Abdominal ultrasound,Suspected acute cholecystitis,Completed,Routine
+543,570,66,06/09/2024 01:02,Blood grouping and crossmatch,Suspected hip fracture,Completed,ASAP
+544,571,44,07/09/2024 15:01,Blood grouping and crossmatch,Assess hip fracture,Completed,Immediate
+545,570,66,07/09/2024 23:58,X-ray pelvis,Rule out hip fracture,Completed,STAT
+546,850,48,18/09/2024 17:23,Serum amylase,?pancreatitis,Done,Urgent
+547,850,42,19/09/2024 02:33,CT abdomen,?pancreatitis,Completed,Urgent
+548,578,86,20/09/2024 22:37,Arterial blood gas,Suspected respiratory failure,Completed,STAT
+549,579,25,24/09/2024 02:14,Lipid profile,?stroke,Completed,Urgent
+550,582,44,29/09/2024 04:00,Renal function tests,?uncontrolled diabetes,Completed,Normal
+551,581,39,29/09/2024 06:01,Abdominal ultrasound,Assess appendicitis,Completed,STAT
+552,581,66,03/09/2024 16:26,Urinalysis,Suspected appendicitis,Completed,STAT
+553,582,46,29/09/2024 12:42,Random blood sugar,"Known uncontrolled diabetes, baseline",In Progress,Normal
+554,583,28,04/10/2024 12:27,Renal function tests, ?CORONARY ARTERY DISEASE  ,Completed,STAT
+555,584,44,05/10/2024 23:46,Urinalysis,"Known urinary tract infection, baseline",Completed,Routine
+556,586,28,06/10/2024 16:14,H. pylori stool antigen,"Known reflux disease, baseline",Pending,Routine
+557,587,46,09/10/2024 20:11,Liver function tests,Monitoring - acute cholecystitis,Completed,Urgent
+558,591,77,13/10/2024 09:17,Stool analysis,Suspected dehydration,Completed,Routine
+559,590,74,13/10/2024 15:59,X-ray knee,?osteoarthritis of knee,Completed,Urgent
+560,591,70,2024-10-13 20:07:00,Serum electrolytes,Suspected dehydration,Completed,Urgent
+561,593,78,10/15/2024 09:45 AM,Serum electrolytes,Assess atrial fibrillation,Completed,Routine
+562,594,39,17/10/2024 21:52,ECG, Suspected myocardial infarction,In Progress,Urgent
+563,594,28,31/10/2024 01:14,Troponin I,?myocardial infarction,Completed,Urgent
+564,595,70,18/10/2024 12:11,Full Blood Count,Monitoring - anaemia,Done,Urgent
+565,596,40,20/10/2024 14:55,Stool analysis,"Known dehydration, baseline",Completed,Routine
+566,596,65,21/10/2024 00:13,Serum electrolytes,"Known dehydration, baseline",In Progress,Urgent
+567,597,19,21/10/2024 10:59,Random blood sugar,Monitoring - uncontrolled diabetes,Completed, ROUTINE  
+568,597,25,22/10/2024 11:40,Renal function tests,Assess uncontrolled diabetes,Completed,R
+569,599,78,22/10/2024 13:34,Lipid profile,Suspected hyperlipidaemia,Completed,Urgent
+570,600,66,2024-10-24T14:25,Abdominal ultrasound,"Known pancreatitis, baseline",Completed,STAT
+571,607,65,02/11/2024 15:13,Urinalysis,Suspected hypertension,Completed,Routine
+572,608,22,11/03/2024 01:25 PM,Abdominal ultrasound,Assess acute cholecystitis,Completed,Urgent
+573,608,60,03/11/2024 13:30,Liver function tests,Monitoring - acute cholecystitis,completed,Routine
+574,610,40,04/11/2024 09:11,Renal function tests,Rule out hypertension,Resulted,routine
+575,609,4,05/11/2024 18:40,HbA1c,Suspected uncontrolled diabetes,Completed,Routine
+576,611,69,05/11/2024 23:28,Blood smear for MPs,Monitoring - anaemia,Resulted,Routine
+577,611,77,06/11/2024 04:29,Iron studies,Monitoring - anaemia,Completed,Urgent
+578,612,28,2024-11-07 09:03:00,Liver function tests,Monitoring - pancreatitis,Completed,Urgent
+579,616,77,15/11/2024 12:33,Chest X-ray,Rule out respiratory failure,Cancelled,STAT
+506,535,73,06/07/2024 11:02,Random blood sugar,"Known uncontrolled diabetes, baseline",Completed  ,Urgent
+580,616,28,16/11/2024 14:46,Arterial blood gas,"Known respiratory failure, baseline",Cancelled,Urgent
+581,621,66,20/11/2024 03:51,ECG,Rule out syncope,Completed,Urgent
+582,623,19,20/11/2024 19:36,Liver function tests,Assess pancreatitis,In Progress,Urgent
+583,621,66,20/11/2024 20:34,Full Blood Count,?syncope,Cancelled,Urgent
+584,625,43,27/11/2024 17:35,Abdominal ultrasound,?appendicitis,Completed,STAT
+585,625,60,28/11/2024 15:32,Full Blood Count,"Known appendicitis, baseline",Completed, STAT  
+586,627,38,31/09/2024 14:10,HbA1c,Assess uncontrolled diabetes,Completed,Routine
+587,626,80,30/11/2024 11:19, Chest X-ray,Suspected respiratory failure,Resulted,Level 2
+588,626,46,30/11/2024 21:45,Arterial blood gas,Monitoring - respiratory failure,Completed,Urgent
+589,630,46,03/12/2024 08:30,ECG,Suspected hypertension,Completed,Routine
+590,629,78,12/03/2024 03:41 PM,Abdominal ultrasound,"Known pancreatitis, baseline",Completed,Urgent
+591,629,42,03-12-2024 23:40,Serum amylase,"Known pancreatitis, baseline",Completed,Urgent
+592,631,38,04/12/2024 14:24,Chest X-ray,"Known chest pain, baseline",Completed,Urgent
+593,631,7,05/12/2024 10:27,ECG,Rule out chest pain,Cancelled,Routine
+594,632,45,05/12/2024 23:32,Abdominal ultrasound,Assess pancreatitis,Completed,Urgent
+595,633,38,07/12/2024 15:45,Blood smear for MPs,Monitoring - anaemia,Completed,Routine
+596,635,25,14/12/2024 08:19,Renal ultrasound,Rule out acute kidney injury,Completed    ,Routine
+597,636,44,19/12/2024 20:39,Serum electrolytes,Monitoring - acute kidney injury,Completed,Urgent
+598,636,77,20/12/2024 18:12,Renal ultrasound,Monitoring - acute kidney injury,Completed,Routine
+599,638,4,21/12/2024 12:35,H. pylori stool antigen,Monitoring - reflux disease  ,Completed,Routine
+211,236,70,2023-02-23 06:57:00,Chest X-ray,Suspected heart failure,Completed,STAT
+600,639,78,22/12/2024 15:00,chest x-ray,"Known tobacco use, baseline",Completed,Routine
+601,640,80,30/12/2024 00:22,Renal function tests,"Known dehydration, baseline",Pending,  Routine
+602,641,19,04/01/2025 19:09,ECG,?chest pain,Completed,Normal
+603,643,25,06/01/2025 15:10,Chest X-ray,"Known tobacco use, baseline",Completed,Routine
+604,644,44,07/01/2025 11:13,Full Blood Count,Rule out syncope,Completed,Urgent
+605,645,60,07/01/2025 20:41,Serum electrolytes,Assess atrial fibrillation,Completed,Urgent
+606,645,4,08/01/2025 07:12,TSH,Rule out atrial fibrillation,  Completed,Urgent
+573,608,60,03/11/2024 13:30,Liver function tests,Monitoring - acute cholecystitis,completed,Routine
+607,646,66,08/01/2025 07:23,Chest X-ray,Monitoring - respiratory failure,Sent,Routine
+608,646,42,08/01/2025 13:33,Full Blood Count,Suspected respiratory failure,Resulted,STAT
+609,647,25,09/01/2025 13:29,H. pylori stool antigen,RULE OUT REFLUX DISEASE,Completed,Routine
+610,648,60,11/01/2025 02:21,Chest X-ray,Rule out acute asthma,Resulted,Routine
+611,649,21,12/01/2025 16:30,Abdominal ultrasound,Assess gallstones,Completed,Routine
+612,649,77,12/01/2025 19:30,Liver function tests,Suspected gallstones,Completed,Routine
+613,651,19,19/01/2025 22:44,Chest X-ray,"Known heart failure, baseline",Completed,Routine
+614,652,22,20/01/2025 13:07,CT head,?concussion,Completed,Routine
+615,654,18,22/01/2025 13:52,Chest X-ray,"Known tobacco use, baseline",Cancelled,Routine
+616,651,73,23/01/2025 00:02, BNP,Monitoring - heart failure,Completed,Normal
+617,658,19,01/02/2025 05:29,Full Blood Count,?anaemia,Completed,Urgent
+618,658,22,01/02/2025 07:40,Blood culture,Rule out anaemia,Completed,Urgent
+619,659,4,04/02/2025 00:41,Full Blood Count,?appendicitis,Completed,Urgent
+620,660,65,04-02-2025 10:40,Renal function tests,Suspected hypertension,Resulted,Routine
+621,660,65,04/02/2025 10:53,ECG,"Known hypertension, baseline",Completed,URG
+622,659,null,05/02/2025 21:48,Urinalysis,Monitoring - appendicitis,Completed,Urgent
+623,661,69,07/02/2025 05:15,Liver function tests,?acute cholecystitis,Completed,Urgent
+624,661,4,07/02/2025 07:24,Full Blood Count,Monitoring - acute cholecystitis,Completed,Routine
+625,663,19,07/02/2025 20:30,Urinalysis,?hypertension,Cancelled,Routine
+626,663,44,08/02/2025 01:12,ECG,Assess hypertension,Completed,Routine
+627,662,4,08-02-2025 01:34,Liver function tests,Rule out acute cholecystitis,Completed,Routine
+628,664,38,08/02/2025 06:35,ECG,Rule out chest pain,Completed,Urgent
+629,664,39,06/02/2025 17:45,Troponin I,?chest pain,Cancelled,Urgent
+630,665,25,09/02/2025 13:35,Serum electrolytes,"Known acute kidney injury, baseline",Completed,Urgent
+631,668,28,10/02/2025 14:51,Chest X-ray,Monitoring - chest pain,Completed,Routine
+632,667,39,11/02/2025 20:08,MRI brain,?seizure,Completed,STAT
+633,669,60,14/02/2025 23:47,Iron studies,Rule out anaemia,Completed,Routine
+634,669,60,16/02/2025 03:54,Full Blood Count,Assess anaemia,Completed,Routine
+635,670,77,17/02/2025 12:03,Renal function tests,Suspected coronary artery disease,  Completed,Urgent
+636,671,4,19/02/2025 13:02,Arterial blood gas,Assess respiratory failure,Completed,Urgent
+637,672,7,23/02/2025 13:27,H. pylori stool antigen,Monitoring - reflux disease,Completed,Routine
+638,673,80,24/02/2025 11:05,Urinalysis,?hypertension,Completed,Routine
+639,676,46,27/02/2025 13:19,Chest X-ray,Assess tobacco use,Completed,Routine
+640,680,45,10/03/2025 00:05,Serum electrolytes,Rule out acute kidney injury,Completed,STAT
+641,680,45,11/03/2025 15:11,Renal ultrasound,Rule out acute kidney injury,Completed,STAT
+642,681,74,12/03/2025 06:25,Renal function tests,Monitoring - coronary artery disease,Completed,STAT
+643,839,69,14/03/2025 06:17,TSH,Assess atrial fibrillation,Pending,STAT
+644,683,43,14/03/2025 16:27,Random blood sugar,Monitoring - uncontrolled diabetes,Completed,Routine
+645,684,74,16/03/2025 07:53,Full Blood Count,Suspected chronic kidney disease,Pending,Routine
+646,689,40,26/03/2025 12:43,Iron studies,Rule out anaemia,Completed,Urgent
+647,690,78,28/03/2025 12:00,Urinalysis,?urinary tract infection,Completed,Routine
+648,693,25,29/03/2025 10:40,TSH,Suspected hypothyroidism,Completed,Routine
+649,692,46,30/03/2025 19:13,Abdominal ultrasound,Rule out appendicitis,Completed,Immediate
+650,694,73,04/04/2025 07:01,Abdominal ultrasound,?pancreatitis,Completed,STAT
+651,695,77,06/04/2025 06:20,Malaria RDT,"Known pneumonia, baseline",Completed,Urgent
+652,696,77,11/04/2025 14:34,H. pylori stool antigen,"Known reflux disease, baseline",Completed,Urgent
+653,697,43,13/04/2025 06:40,  Blood culture,Assess anaemia,Completed,Routine
+654,697,42,13/04/2025 18:12,Full Blood Count,Monitoring - anaemia,Completed,STAT
+655,966,46,14/04/2025 23:55,Malaria RDT,"Known sepsis, baseline",Completed,STAT
+656,698,39,15/04/2025 01:33,Chest X-ray,Assess sepsis,Completed,  Urgent
+657,699,66,15/04/2025 06:17,TSH,Assess atrial fibrillation,Completed    ,Routine
+658,699,44,15/04/2025 11:07,ECG,Assess atrial fibrillation,Completed,Urgent
+659,700,77,15/04/2025 12:14,Malaria RDT,Rule out seizure,Completed,STAT
+660,701,10,16/04/2025 08:33,Iron studies,Rule out anaemia,Completed,Routine
+661,703,70,19/04/2025 03:48,Chest X-ray,?chest pain,Cancelled,Urgent
+662,704,73,21/04/2025 04:34,CT head,Rule out concussion,Completed,R
+663,705,38,24/04/2025 14:59,HbA1c,Rule out uncontrolled diabetes,Completed,Routine
+664,706,39,25/04/2025 11:46,TSH,"Known hypothyroidism, baseline",Completed,Urgent
+665,708,10,26/04/2025 07:09,ECG,Suspected syncope,Completed,Routine
+666,708,10,26/04/2025 20:12,Random blood sugar,Rule out syncope,Completed,Routine
+667,709,48,27/04/2025 01:19,ECG,Rule out myocardial infarction,COMPLETED,Urgent
+668,707,44,27/04/2025 13:08,Lipid profile,"Known myocardial infarction, baseline",Completed,Urgent
+669,710,19,28/04/2025 01:41,Abdominal ultrasound,?acute cholecystitis,Completed,Routine
+670,711,28,28/04/2025 22:18,ECG,Assess syncope,Completed,Routine
+671,710,73,29/04/2025 01:39,Liver function tests,"Known acute cholecystitis, baseline",Completed,routine
+672,711,22,29/04/2025 09:03,Random blood sugar,ASSESS SYNCOPE,Completed,Urgent
+673,712,77,29/04/2025 15:21,Serum electrolytes,Monitoring - acute kidney injury,Completed,STAT
+674,712,70,29/04/2025 18:31,Urinalysis,Monitoring - acute kidney injury,Completed,STAT
+675,713,80,30/04/2025 15:24,Stool analysis,Monitoring - dehydration,Completed,Urgent
+676,714,25,01/05/2025 14:15,Renal function tests,Suspected chronic kidney disease,Completed,Urgent
+677,716,60,2025-05-03 08:53:00,Full Blood Count,Assess acute cholecystitis,Completed,Routine
+678,717,43,04/05/2025 02:36,Chest X-ray, MONITORING - PNEUMONIA  ,Completed,U
+679,717,66,04/05/2025 03:06,Malaria RDT,Assess pneumonia,Completed,STAT
+680,722,25,11/05/2025 04:17,Peak flow,Assess acute asthma,Completed,Urgent
+681,722,22,11/05/2025 09:56,Chest X-ray,Rule out acute asthma,Completed,Routine
+682,723,65,11/05/2025 12:55,Full Blood Count,Rule out osteoarthritis of knee,Completed,Routine
+683,725,19,11/05/2025 15:07,Renal function tests,Monitoring - chronic kidney disease,Completed,Urgent
+684,723,10,11/05/2025 21:25,X-ray knee,Assess osteoarthritis of knee,Completed,Routine
+685,726,39,14/05/2025 08:13,Random blood sugar,"Known syncope, baseline",Completed,Routine
+686,727,45,14/05/2025 10:44,H. pylori stool antigen,"Known reflux disease, baseline",Completed,Urgent
+687,728,28,15/05/2025 14:41,Iron studies,"Known anaemia, baseline",Completed,Routine
+688,729,77,18/05/2025 18:53,Liver function tests,Monitoring - GI bleed,Completed,STAT
+689,730,65,19/05/2025 01:15,Renal function tests,Monitoring - dehydration,Completed,U
+690,731,46,19/05/2025 10:06,Blood smear for MPs,Assess anaemia,Completed,STAT
+691,731,4,19/05/2025 10:07,Iron studies,"Known anaemia, baseline",Pending,Routine
+692,730,65,19/05/2025 14:25,Serum electrolytes,Rule out dehydration,Completed,ASAP
+693,732,19,21/05/2025 12:38,Peak flow,"Known acute asthma, baseline",Done,Routine
+694,733,78,21/05/2025 23:02,H. pylori stool antigen,Monitoring   - reflux disease,In Progress,Routine
+695,734,18,23/05/2025 01:45,Liver function tests,Suspected acute cholecystitis,Pending,Urgent
+696,736,44,26/05/2025 08:29,TSH,Suspected hypothyroidism,Completed,Routine
+697,738,25,28/05/2025 17:31,H. pylori stool antigen,"Known reflux disease, baseline",Completed,Routine
+698,739,60,03/06/2025 14:31,Chest X-ray,Assess chest pain,Completed,Urgent
+699,847,44,08/06/2025 21:49,Blood grouping and crossmatch,Rule out hip fracture,Completed,Urgent
+700,742,22,06/13/2025 12:14 AM,H. pylori stool antigen,?reflux disease,Completed,Urgent
+701,743,28,13/06/2025 17:20,Full Blood Count,Assess urinary tract infection,Completed,Normal
+702,744,25,14/06/2025 08:18,Abdominal ultrasound,Suspected acute cholecystitis,Completed,Urgent
+703,745,70,16/06/2025 10:37,Chest X-ray,"Known heart failure, baseline",Completed,STAT
+704,746,28,16/06/2025 14:23,Liver function tests,Suspected acute cholecystitis,Completed,Urgent
+705,745,19,16/06/2025 16:26,BNP,Assess heart failure, PENDING  ,Urgent
+706,746,7,16/06/2025 16:52,Abdominal ultrasound,Rule out acute cholecystitis,Completed,Urgent
+707,747,73,18/06/2025 03:46,Serum electrolytes,?acute kidney injury,Completed,STAT
+708,747,70,18/06/2025 06:57,Renal ultrasound,"Known acute kidney injury, baseline",Completed,Urgent
+709,751,4,20/06/2025 16:49,Urinalysis,Suspected hypertension,Completed,Routine
+710,752,80,23/06/2025 18:37,Peak flow,Monitoring - acute asthma,Pending,STAT
+711,753,39,2025-06-24T15:05,Renal ultrasound,?chronic kidney disease,Completed,Urgent
+712,754,66,25/06/2025 19:29,Blood culture,"Known sepsis, baseline",Completed,STAT
+713,755,10,27/06/2025 06:36,Liver function tests,Assess acute cholecystitis,Completed,STAT
+714,756,25,30/06/2025 05:56,Blood culture,Suspected sepsis,Completed,Urgent
+715,757,7,03/07/2025 17:39,Arterial blood gas,Assess respiratory failure,Completed,U
+716,758,78,05/07/2025 10:56,Chest X-ray,?chest pain,Completed,Urgent
+717,759,28,11/07/2025 01:51,Liver function tests,Assess acute cholecystitis,Completed,Routine
+718,759,28,11/07/2025 02:23,Abdominal ultrasound,?acute cholecystitis,Completed,Urgent
+719,762,40,12/07/2025 15:30,Lipid profile,Monitoring - hyperlipidaemia,Completed,Routine
+720,763,31,15/07/2025 00:39,Full Blood Count,Assess osteoarthritis of knee,Completed,Routine  
+721,765,39,22/07/2025 08:42,FULL BLOOD COUNT,Monitoring - syncope,Completed,URG
+722,766,43,24/07/2025 20:49,Random blood sugar,"Known syncope, baseline",Completed,Urgent
+723,767,4,2025-07-26 15:59:00,Liver function tests,?gallstones,Completed,Routine
+724,768,-,27/07/2025 23:04,Random blood sugar,Suspected seizure,Completed,STAT
+725,768,19,28/07/2025 07:29,   MRI brain,?seizure,Pending,Urgent
+664,706,39,25/04/2025 11:46,TSH,"Known hypothyroidism, baseline",Completed,Urgent
+726,769,10,28/07/2025 15:02,Troponin I,Suspected chest pain,Completed,Routine
+727,770,4,29/07/2025 09:31,Sputum culture,Rule out pneumonia,Completed,Routine
+728,770,60,29/07/2025 13:16,Full Blood Count,Suspected pneumonia,Completed,Urgent
+729,771,38,30/07/2025 01:22,Serum amylase,"Known pancreatitis, baseline",Completed,Urgent
+730,776,65,08/01/2025 06:56 AM,Serum lactate,?sepsis,Completed,Stat
+731,775,69,01/08/2025 11:51,Full Blood Count,"Known acute cholecystitis, baseline",Completed,Urgent
+732,777,80,03/08/2025 05:08,full blood count,Monitoring - acute cholecystitis,Completed,Urgent
+733,781,22,08/08/2025 10:35,Serum amylase,?pancreatitis,Cancelled,STAT
+734,781,null,09/08/2025 09:36,CT abdomen,Rule out pancreatitis,Completed,STAT
+644,683,43,14/03/2025 16:27,Random blood sugar,Monitoring - uncontrolled diabetes,Completed,Routine
+735,782,44,09/08/2025 14:00,Urine culture,Monitoring - urinary tract infection,In Progress,Routine
+736,782,18,09/08/2025 14:15,Urinalysis,?urinary tract infection,Completed,Urgent
+657,699,66,15/04/2025 06:17,TSH,Assess atrial fibrillation,completed    ,Routine
+737,783,73,2025-08-10T10:41,Full Blood Count,Rule out anaemia,Pending,Urgent
+738,784,65,10/08/2025 13:58,blood SMEAR for MPS,Rule out anaemia,Completed,Urgent
+739,785,44,14/08/2025 12:16,Blood smear for MPs,Assess anaemia,COMPLETED,Routine
+740,786,46,17/08/2025 10:07,HbA1c,?uncontrolled diabetes,  Completed,Routine
+741,787,19,19/08/2025 14:02,ECG,Suspected coronary artery disease,Completed,STAT
+742,787,40,19/08/2025 14:36,Renal function tests,Assess coronary artery disease,Completed,Urgent
+676,714,25,01/05/2025 14:15,Renal function tests,Suspected chronic kidney disease,Completed,Urgent
+743,788,43,21/08/2025 00:09,Urinalysis,Monitoring - urinary tract infection,Completed,Routine
+744,789,25,21/08/2025 17:14,CT head,Rule out concussion,Completed,Routine
+745,790,43,22/08/2025 15:06,Peak flow,Monitoring - acute asthma,Completed,Routine
+746,790,39,23/08/2025 23:34,Chest X-ray,Monitoring - acute asthma,Completed,Routine
+747,791,60,26/08/2025 13:29,Urinalysis,"Known hypertension, baseline",In Progress,Urgent
+748,792,10,26/08/2025 17:28,Chest X-ray,?acute asthma,Completed,Urgent
+749,792,65,26/08/2025 19:49,Peak flow,Rule out acute asthma,Cancelled,Urgent
+750,793,3,28/08/2025 12:46,Abdominal ultrasound,"Known gallstones, baseline",completed,Routine
+751,794,60,28/08/2025 22:24,Renal ultrasound,?acute kidney injury,Completed,Urgent
+752,796,7,29/08/2025 13:24,Blood smear for MPs,Rule out anaemia,Completed,Routine
+753,795,40,30/08/2025 13:21,Chest X-ray,Rule out acute asthma,Completed,Routine
+754,797,73,31/08/2025 16:36,Troponin I,Rule out chest pain,Completed,Routine
+755,797,65,31/08/2025 22:17,ECG,"Known chest pain, baseline",Completed,STAT
+756,800,21,08/09/2025 19:55,Abdominal ultrasound,Assess gallstones ,Completed,Routine
+757,802,69,12/09/2025 15:44,Chest X-ray,"Known COPD exacerbation, baseline",Completed,Urgent
+758,803,60,2025-09-16T09:36,Iron studies,Suspected anaemia,Pending,Urgent
+759,804,39,17/09/2025 08:54,Blood smear for MPs,Suspected anaemia,Awaiting,Urgent
+712,754,66,25/06/2025 19:29,Blood culture,"Known sepsis, baseline",Completed,STAT
+760,806,66,21/09/2025 14:33,D-dimer,?pulmonary embolism,Completed,STAT
+761,806,7,22/09/2025 12:38,ECG,?pulmonary embolism,Completed,Routine
+762,807,73,24/09/2025 06:23,CT head,rule out concussion,Cancelled,Urgent
+763,808,70,29/08/2025 10:32,Renal function tests,Monitoring - acute kidney injury,Completed,Urgent
+764,809,21,28/09/2025 09:59,Full Blood Count,Monitoring - chronic kidney disease,Completed,Routine
+765,811,70,01/10/2025 10:38,ECG,Rule out pulmonary embolism,Completed,Urgent
+766,810,44,01/10/2025 13:27,Full Blood Count,"Known stroke, baseline",Completed,Urgent
+767,810,66,01/10/2025 15:18,CT head,Suspected stroke,Completed,STAT
+765,811,70,01/10/2025 10:38,ECG,Rule out pulmonary embolism,Completed,Urgent
+768,812,43,05/10/2025 19:39,Full Blood Count,Suspected pneumonia,Resulted,STAT
+769,814,40,06/10/2025 14:44,Full Blood Count,"Known sepsis, baseline",Completed,STAT
+770,815,77,06/10/2025 14:55,Free T4,Suspected hypothyroidism,Completed,Routine
+771,816,28,06/10/2025 15:25,Blood smear for MPs,Suspected anaemia,Completed,Urgent
+772,814,46,09/10/2025 10:36,Blood culture,Assess sepsis,Completed,Urgent
+773,817,66,10/10/2025 03:57,Abdominal   ultrasound,Suspected acute cholecystitis,Completed,Urgent
+754,797,73,31/08/2025 16:36,Troponin I,Rule out chest pain,Completed,Routine
+774,817,65,10/10/2025 05:33 AM,Full Blood Count,Monitoring - acute cholecystitis,Completed,Routine
+775,823,42,21/10/2025 06:06,Full Blood Count,Suspected anaemia,In Progress,Routine
+776,822,43,22/10/2025 04:24,Abdominal ultrasound,Suspected appendicitis,Pending,Urgent
+777,822,46,22/10/2025 11:51,Full Blood Count,Rule out appendicitis,Pending,Urgent
+778,825,66,24/10/2025 17:54,Serum amylase,Rule out pancreatitis,Completed,STAT
+779,826,60,25/10/2025 03:10,Chest X-ray,Rule out chest pain,Completed,Urgent
+780,825,42,25/10/2025 05:09,Liver function tests,Rule out pancreatitis,Completed,ASAP
+781,827,60,26/10/2025 14:59,Liver function tests,"Known pancreatitis, baseline",Cancelled,Urgent
+782,830,43,27/10/2025 12:14,Blood smear for MPs,Rule out anaemia,Completed,Urgent
+783,831,25,28/10/2025 04:37,HbA1c,Suspected uncontrolled diabetes,In Progress,Urgent
+784,833,10,28/10/2025 08:19,Random blood sugar,Rule out uncontrolled diabetes,Completed,Urgent
+785,834,46,28/10/2025 11:47,CT head,?concussion,In Progress,Routine
+786,833,44,29/10/2025 05:55,Renal function tests,?uncontrolled diabetes,Pending,Routine
+787,155,74,30/09/2022 19:04,Abdominal ultrasound,Monitoring - gallstones,Completed,  Routine
+788,39,10,14/03/2022 21:39,serum electrolytes,"Known dehydration, baseline",Completed,Routine
+789,823,42,21/10/2025 06:06,Full Blood Count,Suspected anaemia,In Progress,R
+790,770,4,07/29/2025 09:31 AM,SPUTUM CULTURE,Rule out pneumonia,Completed,Routine
+791,520,4,11/06/2024 01:32,CT head,Monitoring - concussion,Completed,Urgent    
+792,67,69,14/05/2022 12:51,ECG,monitoring - syncope,Completed,U
+793,71,45,21/05/2022 08:32,ECG,?coronary artery disease,Completed,Urgent
+794,349,78,25/08/2023 23:14,Blood culture,?sepsis,Completed,STAT
+795,694,73,04/04/2025 07:01,Abdominal ultrasound,?pancreatitis,Completed,STAT
+796,731,46,19/05/2025 10:06,Blood smear for MPs,Assess anaemia,Completed,STAT
+797,728,28,15/05/2025 14:41,Iron studies,"Known anaemia, baseline",Completed,Routine
+798,795,40,30/08/2025 13:21,Chest X-ray,Rule out acute asthma,Completed,Routine
+799,433,80,18/01/2024 02:07,Renal ultrasound,?chronic kidney disease,Completed,Routine
+800,658,19,02/01/2025 05:29 AM,Full Blood Count,?anaemia,Completed,Urgent
+801,470,39,20/03/2024 16:05,Full Blood Count,Assess pneumonia,Completed,Routine
+802,499,80,13/05/2024 16:18,Full Blood Count,Monitoring - dehydration,Pending,Urgent
+803,44,69,20/03/2022 01:36,Full Blood Count,Suspected syncope,Completed,Routine
+804,367,45,09/20/2023 04:35 AM,Serum electrolytes,Suspected acute kidney injury,Completed,Urgent
+805,187,25,05/12/2022 23:40,  CT head,Rule out concussion,Completed,Urgent
+806,792,10,26/08/2025 17:28,Chest X-ray,?acute asthma,Completed  ,URG
+807,522,44,16/06/2024 09:14,Serum electrolytes,"known seizure, BASELINE",Completed,STAT
+808,593,78,15/10/2024 09:45,Serum electrolytes,Assess atrial fibrillation,Completed,Routine
+809,312,25,15/06/2023 19:20,ecg,"Known syncope, baseline",Completed,STAT

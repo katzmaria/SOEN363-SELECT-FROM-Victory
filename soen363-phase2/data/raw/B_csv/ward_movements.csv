@@ -1,0 +1,1170 @@
+MovementID,AdmissionNo,ResponsibleClinician,Unit,WardRoom,BedNo,TimeIn,TimeOut,TransferReason
+1,1,10,General Ward,"Ward 3B, Rm 4",18,02/01/2022 22:04,04/01/2022 21:52,
+2,2,43,General Ward,"Ward 3A, Rm 16",null,08/01/2022 03:36,10/01/2022 16:33,
+3,2,19,SICU,null,Bed 18,10/01/2022 16:33,11/01/2022 13:57,Post-operative monitoring
+4,3,43,General Ward,"Ward Postnatal, Rm 1",1,10/01/2022 23:01,14/01/2022 12:11,
+5,2,46,General Ward,"Ward 4A, Rm 9",Bed 6,11/01/2022 13:57,2022-01-14 03:03:00,"Stepped down, clinically stable"
+6,4,66,General Ward,"Ward 4A, Rm 21",B10,12/01/2022 11:15,12/01/2022 18:59,
+7,5,66,General Ward,"Ward 4B, Rm 14",20,13/01/2022 17:54,14/01/2022 07:17,Initial placement
+8,6,38,General Ward,"Ward 4B, Rm 12",Bed 9,29/01/2022 08:47,30/01/2022 14:45,
+9,7,80,Emergency Dept,Casualty Bay 2,3,31/01/2022 14:37,01/02/2022 04:35,Initial placement
+10,7,78,General Ward,"Ward 5B, Rm 3",1,01/02/2022 04:35,N/A,Stable for ward
+11,1120,60,Emergency Dept,Casualty Bay 5,B05,03/02/2022 07:06,03/02/2022 13:44,Initial placement
+12,8,73,General Ward,null,B08,03/02/2022 13:44,07/02/2022 02:31,Admitted to ward for ongoing care
+13,9,4,General Ward,"Ward 3B, Rm 18",Bed 10,06/02/2022 13:45,11/02/2022 03:15,Initial placement
+14,10,69,Emergency Dept,Casualty Bay 6,Bed 12,10/02/2022 12:09,10/02/2022 15:30,Initial placement
+15,10,4,General Ward,"Ward 3A, Rm 2",28,10/02/2022 15:30,12/02/2022 09:42,Stable for ward
+16,11,46,General Ward,"Ward 4A, Rm 6",B11,11/02/2022 08:26,15/02/2022 09:47,Initial placement
+17,12,10,Emergency Dept,,26,11/02/2022 09:15,11/02/2022 23:28,
+18,12,43,General Ward,"Ward 5B, Rm 19",B29,11-02-2022 23:28,19/02/2022 10:54,Stable for ward
+19,13,46,Casualty,Casualty Bay 1,Bed 28,12/02/2022 08:43,02/12/2022 03:10 PM,initial PLACEMENT
+20,13,7,General Ward,"Ward 6, Rm 21",Bed 28,02/12/2022 03:10 PM,16/02/2022 02:00,Stable for ward
+21,14,19,Emergency Dept,Casualty Bay 6,B11,14/02/2022 07:42,14/02/2022 10:48,Initial placement
+22,14,70,General Ward,"Ward 6, Rm 23",B16,14/02/2022 10:48,16/02/2022 02:04,Stable for ward
+23,15,46,General Ward,,Bed 28,14/02/2022 22:21,18/02/2022 15:58,
+24,16,73,Emergency Dept,Casualty Bay 3,,15/02/2022 03:08,15/02/2022 11:32,
+25,16,46,Surgical Ward,"Ward 4A, Rm 16",10,15/02/2022 11:32,14/02/2022 09:32,Stable for ward
+26,19,10,Emergency Dept,Casualty Bay 7,B02,18/02/2022 03:54,18/02/2022 19:22,Initial placement
+27,20,73,Emergency Dept,Casualty Bay 7,B16,18/02/2022 07:26,18/02/2022 14:21,Initial placement
+28,20,60,General Ward,"Ward 4B, Rm 21",B27,18/02/2022 14:21,,Stable for ward
+29,19,39,MICU,MICU Bay 6,5,18/02/2022 19:22,21/02/2022 15:34,"Deteriorated, needs close monitoring"
+30,22,65,Emergency Dept,Casualty Bay 2,Bed 27,21/02/2022 01:31,21/02/2022 02:38,
+31,22,46,General Ward,"Ward 6, Rm 12",11,21/02/2022 02:38,21/02/2022 18:18,Stable for ward
+32,19,66,General Ward,"WARD 6, RM 18",11,21/02/2022 15:34,01/03/2022 18:26,"Improving, transferred to ward"
+33,24,43,General Ward,"Ward 5B, Rm 12",Bed 21,22/02/2022 16:01,25/02/2022 21:23,Initial placement
+34,26,19,General Ward,"Ward 3A, Rm 8",-,26/02/2022 04:11,28/02/2022 00:01,
+35,28,25, EMERGENCY DEPT  ,Casualty Bay 1,B22,27/02/2022 21:33,0000-00-00,
+36,28,39,HDU,"Ward 5A, Rm 8",B10,28/02/2022 11:37,07/03/2022 20:56,Admitted to ward for ongoing care
+37,29,38,Emergency Dept,Casualty Bay 2,B29,28/02/2022 13:20,28/02/2022 17:54,Initial placement
+38,30,39,Emergency Dept,Casualty Bay 2,?,2022-00-12 14:10,01/03/2022 06:20,
+39,29,60,General Ward,"Ward 3A, Rm 23",Bed 20,28/02/2022 17:54,03/03/2022 04:14,Stable   for ward
+40,30,19,General Ward,"Ward 4A, Rm 13",B17,01/03/2022 06:20,09/03/2022 18:53,Admitted to ward for ongoing care
+41,31,10,Emergency Dept,Casualty Bay 6,22,01/03/2022 16:31,01/03/2022 22:04,Initial placement
+42,31,69,MICU,MICU Bay 2,Bed 29,01/03/2022 22:04,02/03/2022 22:30,Requires ventilatory support
+43,32,65,General Ward,"Ward Postnatal, Rm 13",B05,02/03/2022 15:58,04/03/2022 11:36,
+44,33,69,General Ward,"Ward 6, Rm 23",Bed 5,02/03/2022 16:13,07/03/2022 10:38,Initial placement
+45,31,44,General Ward,"Ward 6, Rm 23",23,03/02/2022 10:30 PM,2022-03-05T20:17,"Stepped down, clinically stable"
+46,34,25,General Ward,"Ward 5A, Rm 16",Bed 22,03/06/2022 08:08 AM,05/03/2022 19:08,
+47,35,65,General Ward,"Ward 6, Rm 4",Bed 15,09/03/2022 10:50,03/14/2022 12:44 PM,
+48,36,46,General Ward,"Ward 3A, Rm 5",21,12/03/2022 08:27,12/03/2022 13:08,Admitted from OPD
+49,37,65,Emergency Dept,Casualty Bay 8,Bed 2,13/03/2022 06:44,13/03/2022 17:53,
+50,38,40,General Ward,"Ward 4B, Rm 10",3,13/03/2022 09:33,17/03/2022 11:16,Admitted from OPD
+51,37,77,General Ward,null,10,13/03/2022 17:53,19/03/2022 14:22,Admitted to ward for ongoing care
+52,844,48,General Ward,"Ward 5A, Rm 8",B01,14/03/2022 00:58,0000-00-00,
+53,41,65,General Ward,"Ward 3B, Rm 10",Bed 28,17/03/2022 07:03,18/03/2022 21:16,
+54,41,48,SICU,SICU Bay 3,B03,18/03/2022 21:16,19/03/2022 10:39,Post-operative monitoring
+55,42,78,General Ward,"Ward 5B, Rm 9",B13,19/03/2022 09:53,20/03/2022 22:45,Admitted from OPD
+56,41,28,General Ward,"Ward 4B, Rm 3",9,19/03/2022 10:39,21/03/2022 00:56,"Stepped down, clinically stable"
+57,43,22,General Ward,"Ward Postnatal, Rm 13",B14,19/03/2022 18:10,-,Initial placement
+58,44,10,Ward,"Ward 3A, Rm 11",Bed 20,19/03/2022 23:37,20/03/2022 23:56,
+59,42,40,SICU,SICU Bay 2,11,20/03/2022 22:45,21/03/2022 11:43,Post-operative monitoring
+60,42,60,General Ward,"Ward 5A, Rm 11",5,21/03/2022 11:43,23/03/2022 00:44,"Improving, transferred to ward"
+61,47,40,General Ward,"Ward 3B, Rm 20",B30,27/03/2022 10:16,01/04/2022 01:12,
+62,48,40,Emergency Dept,?,18,28/03/2022 00:31,28/03/2022 07:48,
+63,48,73,General Ward,"Ward 6, Rm 8",21,28/03/2022 07:48,01/04/2022 03:32,Admitted to ward for ongoing care
+64,49,25,General Ward,"Ward 5B, Rm 5",B30,29/03/2022 08:11,03/04/2022 07:54,
+65,50,78,Emergency Dept,Casualty Bay 4,B21,31/03/2022 21:53,01/04/2022 17:51,Initial placement
+66,51,28,Emergency Dept,Casualty Bay 5,30,01/04/2022 01:58,01/04/2022 13:45,Initial placement
+67,51,38,General Ward,"Ward 3B, Rm 21",Bed 21,01/04/2022 13:45,07/04/2022 17:53,Admitted to ward for ongoing care
+68,50,43,General Ward,"Ward 3B, Rm 10",15,01/04/2022 17:51,12/04/2022 05:01,Admitted to ward for ongoing care
+69,53,4,Emergency Dept,Casualty Bay 1,?,03/04/2022 17:57,04/04/2022 15:07,
+70,53,60,General Ward,"Ward 5A, Rm 10",B23,04/04/2022 15:07,15/04/2022 16:57,Stable for ward
+71,54,73,Emergency Dept,Casualty Bay 1,B06,00/04/2022 18:19,04/04/2022 22:47,
+72,838,78,General Ward,"Ward 3B, Rm 9",Bed 15,04/04/2022 22:47,null,Stable for ward
+73,55,44,General Ward,"Ward 4B, Rm 20",27,08/04/2022 08:07,11/04/2022 09:11,
+74,57,38,Emergency Dept,Casualty Bay 7,B20,08/04/2022 17:44,2022-04-08 22:47:00,Initial placement
+75,57,39,General Ward,"Ward 3B, Rm 18",Bed 17,08/04/2022 22:47,11/04/2022 14:03,?
+76,60,44,General Ward,N/A,B05,-,20/04/2022 14:27,INITIAL PLACEMENT
+77,61,78,Emergency Dept,Casualty Bay 3,B28,18/04/2022 09:12,19/04/2022 02:59,Initial placement
+78,61,65,General Ward,"Ward 5A, Rm 19",,19/04/2022 02:59,28/04/2022 10:45,Stable for ward
+79,63,40,Emergency Dept,Casualty Bay 8,28,23/04/2022 09:33,23/04/2022 11:04,
+32,19,66,General Ward,"WARD 6, RM 18",11,21/02/2022 15:34,01/03/2022 18:26,"Improving, transferred to ward"
+80,63,77,Medical Ward,"Ward 4A, Rm 22",B01,23/04/2022 11:04,24/04/2022 08:04,Stable for ward
+81,63,28,Surgical ICU,SICU Bay 4,3,24/04/2022 08:04,24/04/2022 15:24,Post-operative monitoring
+82,63,45,General Ward,N/A,Bed 29,24/04/2022 15:24,25/04/2022 12:24,"Improving, transferred to ward"
+83,64,65,General Ward,"Ward 5A, Rm 1",Bed 30,03/05/2022 09:52,04/05/2022 23:27,Admitted from OPD
+84,65,39,General Ward,"Ward 3A, Rm 13",23,13/05/2022 01:16,16/05/2022 23:30,Initial placement
+85,66,28,Emergency Dept,Casualty Bay 3,9,N/A,13/05/2022 13:51,
+86,66,51,Medical Ward,"Ward 3B, Rm 20",Bed 13,13/05/2022 13:51,14/05/2022 16:37,Admitted to ward for ongoing care
+87,67,19,Emergency Dept,Casualty Bay 3,B02,13/05/2022 16:04,13/05/2022 23:10,
+88,68,38,General Ward,"Ward 6, Rm 15",4,13/05/2022 17:24,16/05/2022 13:12,initial placement
+89,67,7,General Ward,"Ward 5A, Rm 11",27,13/05/2022 23:10,17/05/2022 17:13,STABLE FOR WARD
+90,69,60,Emergency Dept,Casualty Bay 1,Bed 20,17/05/2022 13:50,18/05/2022 02:28,
+91,69,80,MICU,MICU Bay 1,Bed 13,18/05/2022 02:28,20/05/2022 09:59, HAEMODYNAMICALLY UNSTABLE  
+92,70,4,General Ward,"Ward 4B, Rm 20",B05,19/05/2022 10:38,23/05/2022 22:02,
+93,71,28,General Ward,"Ward 3B, Rm 23",2,20/05/2022 08:48,24/05/2022 21:16,Admitted from OPD
+94,69,45,General Ward,"Ward 6, Rm 16",B20,20/05/2022 09:59,27/05/2022 00:38,"Stepped down, clinically stable"
+95,72,40,General Ward,"   Ward 3B, Rm 23",9,20/05/2022 10:49,22/05/2022 04:20,
+96,73,18,ICU,ICU Bay 4,null,22/05/2022 22:05,23/05/2022 13:31,
+97,73,70,General Ward,"Ward 6, Rm 18",Bed 20,23/05/2022 13:31,25/05/2022 09:58,"Stepped down, clinically stable"
+98,74,77,Emergency Dept,Casualty Bay 5,Bed 10,24/05/2022 13:51,25/05/2022 02:35,Initial placement
+99,74,60,General Ward,"Ward 4A, Rm 2",Bed 28,25/05/2022 02:35,31/05/2022 20:19,Stable for ward
+100,76,43,General Ward,"Ward 6, Rm 22",23,26/05/2022 09:12,28/05/2022 09:30,Admitted from OPD
+101,76,46,SICU,SICU Bay 4,Bed 8,28/05/2022 09:30,29/05/2022 02:29,Post-operative monitoring
+102,76,25,General Ward,"Ward 5B, Rm 8",N/A,29/05/2022 02:29,31/05/2022 03:00,"Stepped down, clinically stable"
+103,77,42,Emergency Dept,Casualty Bay 2,Bed 6,2022-05-29 03:42:00,29/05/2022 09:18,Initial placement
+104,77,43,General Ward,"Ward 5A, Rm 1",23,29/05/2022 09:18,01/06/2022 07:47,Stable for ward    
+105,78,39,General Ward,"Ward 3A, Rm 19",18,31/05/2022 10:19,06/06/2022 08:19,
+106,79,22,General Ward,"Ward 4B, Rm 19",3,06/01/2022 08:24 AM,06/06/2022 07:44,
+107,80,19,Emergency Dept,Casualty Bay 4,1,01/06/2022 14:16,02/06/2022 02:30,
+108,81,28,General Ward,"Ward 4B, Rm 21",19,01/06/2022 19:57,03/06/2022 03:31,Initial placement
+109,82,48,General Ward,"Ward 3A, Rm 10",Bed 20,02/06/2022 01:56,06/06/2022 04:03,Initial placement
+110,80,65,ICU,N/A,Bed 3,02/06/2022 02:30,04/06/2022 08:45,Requires ventilatory support
+111,80,60,General Ward,"Ward 5B, Rm 20",17,04/06/2022 08:45,10/06/2022 19:43,"Stepped down, clinically stable"
+112,83,73,MICU,MICU Bay 1,B20,04/06/2022 19:32,07/06/2022 03:49,
+113,84,44,General Ward,"Ward 4A, Rm 18",10,06/06/2022 06:41 AM,2022-06-07T12:42,Initial placement
+114,83,70,General Ward,"Ward 5B, Rm 3",Bed 5,07/06/2022 03:49,13/06/2022 21:10,"Improving, transferred to ward"
+115,85,69,MICU,MICU Bay 2,29,07/06/2022 05:55,09/06/2022 10:36,
+116,86,73,Emergency Dept,Casualty Bay 4,11,08/06/2022 01:09,08/06/2022 05:52,
+117,86,28,General Ward,"Ward 3A, Rm 11",B26,08/06/2022 05:52,06/10/2022 06:13 PM,Stable for ward
+118,87,39,General Ward,"Ward 6, Rm 19",19,08/06/2022 08:36,11/06/2022 07:15,Initial placement
+119,88,60,General Ward,"Ward 6, Rm 3",B12,13/14/2022 10:54,08/06/2022 15:33,Admitted from OPD
+120,89,60,General Ward,"Ward Postnatal, Rm 19",28,08/06/2022 13:22,10/06/2022 09:36,Initial placement
+121,90,78,General Ward,"Ward 5B, Rm 15",B20,09/06/2022 09:06,10/06/2022 16:58,
+122,85,4,Surgical Ward,"Ward 4A, Rm 16",B06,09/06/2022 10:36,15/06/2022 17:39,"Stepped down, clinically stable"
+123,91,48,Emergency Dept,Casualty Bay 6,Bed 6,11/05/2022 22:11,10/06/2022 12:34,Initial placement
+124,91,65,General Ward,"Ward 4B, Rm 4",Bed 4,06/10/2022 12:34 PM,13/06/2022 12:05,Admitted to ward for ongoing care
+125,92,77,Emergency Dept,Casualty Bay 7,Bed 11,11/06/2022 12:05,12/06/2022 07:25,Initial placement
+126,92,60,General Ward,"Ward 4A, Rm 15",Bed 12,12/06/2022 07:25,22/06/2022 11:23,Stable   for ward
+127,93,69,General Ward," WARD 4B, RM 11  ",B07,15/06/2022 14:56,15/06/2022 19:47,Admitted from OPD
+128,94,19,General Ward,"Ward 3A, Rm 20",Bed 15,31/06/2022 10:19,17/06/2022 09:23,
+129,95,10,Emergency Dept,Casualty Bay 4,Bed 28,16/06/2022 19:25,2022-06-17 01:52:00,
+130,95,38,General Ward,"Ward 5B, Rm 5",Bed 10,17/06/2022 01:52,20/06/2022 12:35,Admitted to ward for ongoing care
+131,96,51,General   Ward,"Ward 5B, Rm 4",Bed 12,21/06/2022 07:04,03/07/2022 05:49,
+132,97,25,General Ward,"Ward 6, Rm 13",30,23/06/2022 11:31,25/06/2022 16:49,Initial placement
+133,98,60,MICU,MICU Bay 6,7,25/06/2022 07:59,26/06/2022 22:39,
+134,99,42,General Ward,"Ward 5A, Rm 5",Bed 18,25/06/2022 14:50,25/06/2022 22:18,
+135,100,80,General Ward,"Ward 6, Rm 23",25,26/06/2022 18:54,07/07/2022 11:53,Initial placement
+136,98,10,General Ward,"Ward 5B, Rm 20",Bed 29,26/06/2022 22:39,01/07/2022 13:30,"Stepped down, clinically stable"
+137,101,28,N/A,"Ward 4A, Rm 21",B28,30/06/2022 08:26,N/A,
+138,,65,General Ward,"Ward 3B, Rm 9",27,30/06/2022 16:46,06/07/2022 14:26,INITIAL PLACEMENT
+139,104,7,general ward,"Ward Postnatal, Rm 14",B24,01/07/2022 18:18,03/07/2022 06:41,
+140,105,40,General Ward,"Ward Postnatal, Rm 14",Bed 6,02/07/2022 02:13,05/07/2022 08:57,
+141,106,70,Gen Ward,"Ward 5A, Rm 9",20,02/07/2022 09:36,07/07/2022 19:34,Admitted from OPD
+142,107,60,Emergency Dept,Casualty Bay 1,B23,03/07/2022 17:16,03/07/2022 23:55,
+143,107,78,General Ward,"Ward 4A, Rm 19",17,03/07/2022 23:55,0000-00-00,Admitted to ward for ongoing care
+144,108,25,General Ward,"Ward 4A, Rm 23",B06,05-07-2022 07:12,05/07/2022 23:40,
+145,109,38,Emergency Dept, CASUALTY BAY 8  ,Bed 28,05/07/2022 10:30,05/07/2022 14:29,
+146,109,38,General Ward,"Ward 5A, Rm 13",6,05/07/2022 14:29,07/07/2022 18:47,Admitted to ward for ongoing care
+147,108,46,SICU,SICU Bay 1,11,05/07/2022 23:40,06/07/2022 05:30,Post-operative monitoring
+148,108,51,General Ward,"Ward 3B, Rm 2",27,06/07/2022 05:30,06/07/2022 22:10,"Improving, transferred to ward"
+149,111,46,?,Casualty Bay 1,B08,06/07/2022 17:08,07/07/2022 01:17,Initial placement
+150,111,60,General Ward,"Ward 5A, Rm 13",B30,07/07/2022 01:17,11/07/2022 09:45,Stable for ward
+151,112,60,Emergency Dept,Casualty Bay 4,2,09/07/2022 07:41,09/07/2022 15:33,
+152,113,19,General Ward,"Ward 5A, Rm 9",14,09/07/2022 11:40,07/11/2022 08:36 AM,
+153,112,25,Medical Ward,"Ward 4A, Rm 16",Bed 19,09/07/2022 15:33,13/07/2022 19:54,Stable for ward
+154,114,44,Emergency Dept,Casualty Bay 8,Bed 17,11/07/2022 04:54,11/07/2022 09:04,
+155,114,48,General Ward,"Ward 6, Rm 12",B05,11/07/2022 09:04,13/07/2022 14:19,Admitted to ward for ongoing care
+156,115,73,General Ward,,Bed 27,15/07/2022 17:54,18/07/2022 23:17,initial placement
+157,116,4,Emergency Dept,Casualty Bay 3,3,16/07/2022 18:02,16/07/2022 20:45,
+158,116,43,General Ward,"Ward 5B, Rm 13",24,16/07/2022 20:45,18/07/2022 06:51,Stable for ward
+159,117,69,Emergency Dept,-,B22,21/07/2022 19:24,22/07/2022 03:06,Initial placement
+160,117,43,General Ward,"Ward 5B, Rm 7",B28,22/07/2022 03:06,26/07/2022 03:42,Stable for ward
+161,118,66,Emergency Dept,?,B15,22/07/2022 20:02,22/07/2022 23:50,
+162,118,17,ICU,ICU Bay 6,8,22/07/2022 23:50,23/07/2022 17:10,Haemodynamically unstable
+163,118,40,General Ward,"Ward 3B, Rm 11",B17,23/07/2022 17:10,25/07/2022 18:43,"Stepped down, clinically stable"
+164,120,80,Emergency Dept,Casualty Bay 2,Bed 14,28/07/2022 19:44,07/29/2022 12:40 AM,
+165,120,45,MICU,MICU Bay 1,23,29/07/2022 00:40,29/07/2022 22:48,Requires ventilatory support
+166,120,46,General Ward,"Ward 4B, Rm 2",B10,29/07/2022 22:48,01/08/2022 14:02,"Improving, transferred to ward"
+167,121,7,General Ward,"Ward Postnatal, Rm 21",B01,31/07/2022 20:01,03/08/2022 00:14,
+168,122,44,General Ward,"Ward 4A, Rm 1",11,05/08/2022 05:19,07/08/2022 07:15,Initial placement
+169,123,46,Emergency Dept,Casualty Bay 7,?,06/08/2022 00:19,06/08/2022 03:28,
+170,123,25,CCU,CCU Bay 2,21,06/08/2022 03:28,06/08/2022 18:09,Haemodynamically unstable
+171,124,69,General Ward,"Ward 6, Rm 12",Bed 13,2022-08-06T08:32,-,ADMITTED FROM opd
+172,123,28,General Ward,"Ward 5A, Rm 5",Bed 3,06/08/2022 18:09,08/08/2022 12:07,"Improving, transferred to ward"
+173,125,38,General Ward,"Ward 3B, Rm 11",Bed 26,07/08/2022 10:03,10/08/2022 05:21,Initial  placement
+174,126,10,Emergency Dept,Casualty Bay 4,Bed 4,08/08/2022 09:06,08/08/2022 20:40,
+175,126,70,MICU,MICU Bay 3,Bed 27,08/08/2022 08:40 PM,10/08/2022 23:41,Haemodynamically unstable
+176,127,43,Gen Ward,"Ward 3A, Rm 8",Bed 19,09/08/2022 02:55,10/08/2022 10:45,Initial placement
+177,128,4,Ward,"Ward 3A, Rm 8",Bed 19,09/08/2022 12:04,09/08/2022 19:27,Admitted from OPD
+178,1125,70,General Ward,"Ward 5A, Rm 5",Bed 29,10/08/2022 23:41,17/08/2022 01:27,"Stepped down, clinically stable"
+179,129,19,General Ward,"Ward 3A, Rm 24",B13,11/08/2022 03:16,null,
+180,130,78,Emergency Dept,Casualty Bay 4,B26,12/08/2022 02:40,12/08/2022 06:15,
+181,130,22,General Ward,"Ward 6, Rm 18",B26,12/08/2022 06:15,14/08/2022 04:34,Admitted to ward for ongoing care
+182,131,66,Emergency Dept,Casualty Bay 7,B27,08/12/2022 01:20 PM,12/08/2022 18:27,
+183,131,25,General Ward,"Ward 4B, Rm 16",27,12/08/2022 18:27,15/08/2022 12:37,Admitted to ward for ongoing care
+184,133,7,General Ward,"Ward 5A, Rm 8",20,2022-08-19T18:10,27/08/2022 21:15,Initial placement
+185,134,10,Emergency Dept,Casualty Bay 2,27,19/08/2022 19:31,20/08/2022 12:05,
+186,134,46,General Ward,"Ward 3B, Rm 9",23,20/08/2022 12:05,29/08/2022 04:34,?
+187,135,78,General Ward,"Ward Postnatal, Rm 14",28,2022-08-20T14:05,08/22/2022 06:05 AM,
+188,136,66,Emergency Dept,Casualty Bay 3,Bed 16,20/08/2022 19:21,-,
+189,136,80,General Ward,"Ward 3B, Rm 22",B28,20/08/2022 21:52,22/08/2022 05:38,
+190,137,22,GENERAL WARD,"Ward 5B, Rm 10",B23,26/08/2022 12:18,26/08/2022 16:03,
+191,138,4,general WARD,"Ward 6, Rm 17",Bed 17,27/08/2022 09:32,01/09/2022 22:14,-
+192,139,73,Emergency Dept,Casualty Bay 1,7,28/08/2022 00:34,null,Initial placement
+193,139,39,ICU,ICU Bay 6,Bed 8,28/08/2022 11:10,30/08/2022 10:25,Haemodynamically unstable
+194,139,28,General Ward,"Ward 5B, Rm 16",B13,30/08/2022 10:25,05/09/2022 01:28,"Stepped down, clinically stable"
+195,140,77,General Ward,"Ward 4A, Rm 5",Bed 22,09/04/2022 08:11 AM,04/09/2022 11:50,
+196,142,39,General Ward,"Ward Postnatal, Rm 6",9,04/09/2022 14:02,07/09/2022 15:44,Initial placement
+197,143,40,Emergency Dept,Casualty Bay 2,7,08/09/2022 02:04,08/09/2022 05:31,Initial placement
+198,143,25,General Ward,"Ward 5B, Rm 14",Bed 4,08/09/2022 05:31,10/09/2022 02:31,Admitted to ward for ongoing care
+199,144,44,Emergency Dept,Casualty Bay 8,Bed 6,09/09/2022 17:58,10/09/2022 01:22,
+200,144,18,General Ward,"Ward 3A, Rm 1",Bed 17,10/09/2022 01:22,13/09/2022 23:14,Stable for ward
+201,145,65,General Ward,"Ward 3B, Rm 7",Bed 9,2022-09-10T08:08,14/09/2022 14:51,
+202,146,80,Emergency Dept,Casualty Bay 4,28,10/09/2022 16:15,10/09/2022 21:57,
+203,146,48,ccu,CCU Bay 1,12,09/10/2022 09:57 PM,11/09/2022 23:24,Requires ventilatory support
+204,147,46,General Ward,"Ward 5A, Rm 24",B11,11/09/2022 08:53,14/09/2022 15:53,
+205,148,22,General Ward,"Ward 3A, Rm 1",Bed 12,11/09/2022 10:46,16/09/2022 03:31,
+206,146,60,General Ward," Ward 5A, Rm 7",B19,11/09/2022 23:24,15/09/2022 00:05,"Improving, transferred to ward"
+207,150,65,General Ward,"Ward 5B, Rm 1",3,12/09/2022 12:37,15/09/2022 19:49,Initial placement
+208,151,73,Emergency Dept,Casualty Bay 5,4,2022-09-14T22:31,15/09/2022 13:57,
+209,151,18,General Ward,"Ward 4B, Rm 12",29,15/09/2022 13:57,23/09/2022 15:23,Admitted to ward for ongoing care
+210,null,66,General Ward,"Ward 3B, Rm 11",7,20/09/2022 21:23,02/10/2022 17:19,
+211,153,28,General Ward,"Ward 5A, Rm 10",15,27/09/2022 03:31,28/09/2022 19:58,
+212,993,39,Emergency Dept,Casualty Bay 7,B25,29/09/2022 19:10,29/09/2022 23:49,Initial placement
+213,154,44,General Ward,N/A,Bed 25,29/09/2022 23:49,10/02/2022 11:14 AM,Stable for ward
+214,155,45,General Ward,"Ward 3A, Rm 10",Bed 21,30/09/2022 08:07,03/10/2022 03:53,
+215,156,73,Emergency Dept,Casualty Bay 2,B13,02/10/2022 08:12,02/10/2022 11:22,
+216,156,7, CCU  ,CCU Bay 5,B01,02/10/2022 11:22,03/10/2022 02:09,N/A
+217,156,60,General Ward,"Ward 3B, Rm 10",Bed 8,03/10/2022 02:09,04/10/2022 20:23,"stepped DOWN, CLINICALLY stable"
+218,1096,38,General Ward,"Ward 5A, Rm 3",Bed 11,07/10/2022 06:01,11/10/2022 05:41,
+219,159,10,General Ward,"Ward 5A, Rm 23",5,07/10/2022 09:50,11/10/2022 15:16,
+220,160,70,Emergency Dept,Casualty Bay 2,B03,08/10/2022 08:49,08/10/2022 12:35,
+221,160,60,General Ward,"Ward 4B, Rm 12",Bed 3,08/10/2022 12:35,10/10/2022 12:19,Admitted to ward for ongoing care
+222,161,10,General Ward,"Ward 3A, Rm 4",Bed 10,09/10/2022 07:27,12/10/2022 01:11,
+223,162,17,General Ward,"Ward 5B, Rm 18",Bed 29,10/10/2022 09:47,16/10/2022 01:50,Admitted from OPD
+224,163,73,General Ward,"ward POSTNATAL, rm 24",4,10/10/2022 13:04,13/10/2022 01:33,
+225,164,43,General Ward,"Ward 6, Rm 18",B21,12/10/2022 09:00,12/10/2022 13:37,
+226,163,42,I.C.U,ICU Bay 1,6,13/10/2022 01:33,13/10/2022 22:45,Requires ventilatory support
+227,165,28,General Ward,"Ward 4B, Rm 19",B16,10/17/2022 01:13 AM,N/A,Initial placement
+228,166,39,General Ward,"Ward Postnatal, Rm 8",Bed 28,20/10/2022 11:19,22/10/2022 22:06,
+229,167,18,General Ward,"   Ward 4A, Rm 20",Bed 10,24/10/2022 13:58,02/11/2022 17:45,
+230,168,42,General Ward,N/A,B30,25/10/2022 10:27,27/10/2022 10:00,Initial placement
+231,169,80,General Ward,"Ward 4A, Rm 17",Bed 26,31-10-2022 08:35,11/05/2022 09:27 PM,
+232,170,77,General Ward,"Ward 3A, Rm 4",B11,31/10/2022 19:41,11/05/2022 12:40 PM,Initial placement
+233,171,47,Ward,"Ward 5A, Rm 3",-,01/11/2022 10:06,05/11/2022 06:16,
+234,172,66,General Ward,?,Bed 24,03/11/2022 18:11,11/04/2022 06:49 AM,
+235,173,43,General Ward,"Ward 5B, Rm 12",14,04/11/2022 14:57,04/11/2022 21:01,
+236,174,28,General Ward,"Ward 3A, Rm 20",Bed 1,05/11/2022 07:26,07/11/2022 08:10,
+237,175,22,General Ward,"Ward Postnatal, Rm 21",,06/11/2022 21:33,09/11/2022 20:19,Initial placement
+238,177,73,General Ward,"Ward 5B, Rm 24",19,12/11/2022 09:40,17/11/2022 13:01,
+239,178,73,General Ward,"Ward Postnatal, Rm 4",B07,15/11/2022 14:59,17/11/2022 03:45,
+240,179,44,Emergency Dept,Casualty Bay 7,B16,16/11/2022 14:32,16/11/2022 22:37,
+241,179,44,General Ward,"Ward 6, Rm 1",Bed 20,16/11/2022 22:37,,Stable for ward
+242,180,22,Emergency Dept,Casualty Bay 2,?,20/11/2022 11:42,20/11/2022 18:46,
+243,180,66,General Ward,"Ward 4B, Rm 2",B04,11/20/2022 06:46 PM,24/11/2022 11:28,
+244,181,65,General Ward,"Ward 5A, Rm 14",B01,20/11/2022 21:48,2022-11-25 13:06:00,
+245,179,65,SICU,null,Bed 30,06/12/2022 00:32,22/11/2022 16:25,Post-operative monitoring
+246,179,40,General Ward,"Ward 6, Rm 4",B24,22/11/2022 16:25,N/A,"Improving, transferred to ward"
+247,182,69,Emergency Dept,Casualty Bay 1,Bed 29,24/11/2022 20:51,25/11/2022 00:37,
+248,182,38,General Ward,"Ward 3A, Rm 5",Bed 7,2022-11-25 00:37:00,27/11/2022 02:23,   Stable for ward
+249,183,46,General Ward,"Ward 5B, Rm 11",Bed 18,11/27/2022 09:49 PM,28/11/2022 14:12,
+250,184,44,Emergency Dept,Casualty Bay 3,19,29/11/2022 14:43,29/11/2022 19:58,
+251,184,38,General Ward,"Ward 3B, Rm 19",6,29/11/2022 19:58,02/12/2022 14:03,Stable for ward
+252,185,10,General Ward,"Ward 6, Rm 9  ",Bed 9,01/12/2022 10:12,04/12/2022 14:38,Admitted from OPD
+253,186,43,General Ward,"Ward 4A, Rm 19",4,02/12/2022 09:45,08/12/2022 04:51,Admitted from OPD
+254,187,7, GENERAL WARD  ,"Ward 6, Rm 6",10,05/12/2022 05:42,10/12/2022 02:09,Initial placement
+255,188,43,ICU,ICU Bay 6,B17,07/12/2022 04:41,08/12/2022 11:04,
+256,188,7,General Ward,"Ward 6, Rm 1",B27,08/12/2022 11:04,12/12/2022 02:25,"improving, transferred to ward"
+257,189,80,CCU,CCU Bay 5,?,09/12/2022 11:47,10/12/2022 18:26,
+258,190,28,Theatre Recovery,"Ward 5A, Rm 1",17,10/12/2022 09:18,13/12/2022 06:41,
+259,189,77,General Ward,"Ward 3B, Rm 14",29,10/12/2022 18:26,14/12/2022 10:12,"Stepped down, clinically stable"
+260,191,28,General  Ward,"Ward 6, Rm 14",1,11/12/2022 11:58,13/12/2022 03:39,Initial placement
+261,192,60,Emergency Dept,Casualty Bay 2,Bed 5,12/12/2022 03:34,12/12/2022 07:18,
+262,192,46,General Ward,"Ward 5A, Rm 2",19,12/12/2022 07:18,-,Stable for ward
+263,193,22,General Ward,"Ward 3A, Rm 5",Bed 9,08/12/2022 03:25,17/12/2022 04:33,Admitted from OPD
+264,194,22,Emergency Dept,Casualty Bay 2,Bed 3,15/12/2022 02:57,15/12/2022 17:30,Initial placement
+265,195,43,General Ward,"Ward 3A, Rm 11",30,15/12/2022 07:51,16/12/2022 12:48,Admitted from OPD
+266,194,25,CCU,CCU Bay 5,-,15/12/2022 17:30,18/12/2022 09:18,"Deteriorated, needs close monitoring"
+267,194,38,General Ward,"Ward 4A, Rm 18",Bed 17,18/12/2022 09:18,25/12/2022 23:37,"Improving, transferred to ward"
+268,197,80,General Ward,"Ward Postnatal, Rm 1",2,23/12/2022 22:22,2022-12-26 10:31:00,
+269,198,65,General Ward,"Ward 3A, Rm 7",B14,24/12/2022 08:10,29/12/2022 10:14,Admitted from OPD
+270,199,7,General Ward,"Ward 4A, Rm 13",N/A,24/12/2022 13:19,25/12/2022 15:44,Initial placement
+271,200,18,General Ward,"Ward 3A, Rm 15",Bed 15,28/12/2022 01:30,31/12/2022 21:45,
+272,201,40,Medical Ward,"Ward 4A, Rm 3",26,29/12/2022 16:06,29/12/2022 23:48,
+273,202,73,General Ward,"Ward Postnatal, Rm 9",15,04/01/2023 08:58,07/01/2023 00:03,
+274,203,38,Emergency Dept,Casualty Bay 2,B27,04/01/2023 19:41,2023-01-05 06:57:00,Initial placement
+275,204,65,General Ward,"Ward 3A, Rm 23",12,05/01/2023 06:38,09/01/2023 19:32,
+276,203,43,General Ward,"Ward 4B, Rm 18",B17,05/01/2023 06:57,11/01/2023 04:39,Stable for ward
+277,205,48,General Ward,"Ward 5A, Rm 13",Bed 15,05/01/2023 12:14,05/01/2023 14:22,
+278,207,43,General Ward,"Ward 5A, Rm 2",B09,01/06/2023 07:37 AM,06/01/2023 01:37,
+279,208,40,General Ward,"Ward 6, Rm 17",B27,07/01/2023 00:00,09/01/2023 23:52,
+280,209,7,General Ward,"Ward 5A, Rm 17",3,2023-01-07T20:55,-,
+281,210,18,Emergency Dept,Casualty Bay 2,4,01/11/2023 08:22 PM,12/01/2023 01:09,
+282,210,51,General Ward,"Ward 3A, Rm 24",6,12/01/2023 01:09,14/01/2023 14:58,STABLE FOR WARD
+283,211,48,Emergency Dept,Casualty Bay 2,15,14/01/2023 01:01,14/01/2023 04:18,
+284,211,10,CCU,CCU Bay 4,20,14/01/2023 04:18,14/01/2023 18:59,Requires ventilatory support
+285,211,25,General Ward,"Ward 5B, Rm 21",1,14/01/2023 18:59,01/16/2023 12:57 PM,"Stepped down, clinically stable"
+286,212,70,Emergency Dept,Casualty Bay 3,B19,15/01/2023 05:21,15/01/2023 06:26,
+287,212,7,General Ward,"Ward 4A, Rm 2",Bed 24,15/01/2023 06:26,01/15/2023 08:23 PM,Stable for ward
+288,213,44,General Ward,"Ward 4A, Rm 8",B05,15/01/2023 09:39,17/01/2023 17:17,
+289,214,66,Emergency Dept,Casualty Bay 6,B19,19/01/2023 06:48,-,
+290,214,80,General Ward,"Ward 4B, Rm 10",Bed 3,19/01/2023 12:40,22/01/2023 15:17,Admitted to ward for ongoing care
+291,215,73,Emergency Dept,Casualty Bay 7,N/A,19/01/2023 13:17,19/01/2023 20:24,
+292,215,45,General Ward,"Ward 5B, Rm 14",B24,19/01/2023 20:24,23/01/2023 14:59,Admitted to ward for ongoing care
+293,216,70,emergency dept,Casualty Bay 4,13,20/01/2023 08:17,20/01/2023 16:30,
+294,216,39,Ward,"Ward 4B, Rm 24",Bed 24,2023-01-20T16:30,25/01/2023 00:01,Admitted to ward for ongoing care
+295,217,38,Emergency Dept,Casualty Bay 1,12,21/01/2023 00:47,21/01/2023 04:05,
+296,217,44,CCU,CCU Bay 1,Bed 26,21/01/2023 04:05,21/01/2023 18:46,"Deteriorated, needs close monitoring"
+297,218,22,Emergency Dept,Casualty Bay 8,Bed 12,21/01/2023 18:29,22/01/2023 02:50,Initial placement
+298,217,38,General Ward,"Ward 4B, Rm 19",Bed 24,21/01/2023 18:46,23/01/2023 12:44,"Improving, transferred to ward"
+299,218,10,General Ward,"Ward 4A, Rm 13",16,22/01/2023 02:50,26/01/2023 13:20,Admitted to ward for ongoing care
+300,219,4,General Ward,"Ward 6, Rm 10",B07,22/01/2023 08:01,24/01/2023 03:42,
+301,1157,48,General Ward,"Ward 3A, Rm 12",B17,22/01/2023 23:27,27/01/2023 19:17,
+302,221,28,Emergency Dept,Casualty Bay 3,25,23/01/2023 16:20,23/01/2023 20:33,
+303,221,60,General Ward,"Ward 3B, Rm 15",B05,23/01/2023 20:33,26/01/2023 01:19,Stable for ward
+304,222,28,General Ward,"Ward 3B, Rm 18",B11,25/01/2023 00:13,31/01/2023 03:07,
+305,223,28,Emergency Dept, CASUALTY BAY 3  ,25,2023-01-25 18:31:00,25/01/2023 12:31,
+306,223,65,General Ward,"Ward 4B, Rm 13",Bed 26,31/06/2023 22:39,28/01/2023 03:28,Admitted to ward for ongoing care
+307,224,77,General Ward,"WARD 4A, RM 2",B26,27/01/2023 02:01,02/02/2023 18:16,
+308,225,60,General Ward,"Ward 3B, Rm 13",1,27/01/2023 08:40,28/01/2023 14:30,
+309,220,69,SICU,SICU Bay 1,Bed 23,27/01/2023 19:17,29/01/2023 11:51,Post-operative monitoring
+310,220,80,General Ward    ,"Ward 6, Rm 17",Bed 10,29/01/2023 11:51,03/02/2023 07:46,"Stepped down, clinically stable"
+311,226,65,General Ward,"Ward   4A, Rm 24",B24,22/01/2023 17:31,06/02/2023 03:45,Initial placement
+312,227,60,Emergency Dept,Casualty Bay 2,B01,02/02/2023 21:06,02/02/2023 23:44,
+313,227,70,-,"Ward 4B, Rm 15",Bed 21,02/02/2023 23:44,,Admitted to ward for ongoing care
+314,229,69,Emergency Dept,Casualty Bay 1,15,07/02/2023 10:34,07/02/2023 17:31,Initial placement
+315,229,69,General Ward,"Ward 3B, Rm 10",13,07/02/2023 17:31,2023-02-11 08:48:00,Stable for ward
+316,230,38,Emergency Dept,Casualty Bay 7,Bed 24,09/02/2023 03:15,09/02/2023 08:44,Initial placement
+317,230,73,General Ward,"Ward 4B, Rm 12",26,09/02/2023 08:44,12/02/2023 06:40,Admitted to ward for ongoing care
+318,231,65,Emergency Dept,?,11,10/02/2023 02:17,10/02/2023 21:53,Initial placement
+319,232,7,Emergency Dept,null,B08,10/02/2023 19:34,02/11/2023 03:50 AM,
+320,231,28,General Ward,"Ward 3A, Rm 22",Bed 28,10/02/2023 21:53,21/02/2023 04:40,ADMITTED TO WARD FOR ONGOING CARE
+321,232,38,General Ward,"Ward 5B, Rm 16",Bed 26,11/02/2023 03:50,15/02/2023 13:26,Stable for ward
+322,233,69,Emergency Dept,Casualty Bay 5,7,13/02/2023 05:42,13/02/2023 08:43,Initial placement
+323,233,19,General Ward,"Ward 6, Rm 24",18,13/02/2023 08:43,14/02/2023 22:51,Stable for ward
+324,234,78,Casualty,Casualty Bay 1,3,14/02/2023 10:00,14/02/2023 17:44,
+325,234,25,General Ward,"Ward 5A, Rm 24",B15,14/02/2023 17:44,2023-02-18T19:03,Stable for ward
+326,236,18,Emergency Dept,Casualty Bay 4,B18,21/02/2023 03:24,21/02/2023 17:55,
+327,236,38,CCU,null,B28,21/02/2023 17:55,24/02/2023 10:09,Requires ventilatory support
+328,237,4,Emergency Dept,Casualty Bay 4,Bed 28,23/02/2023 16:34,24/02/2023 04:27,Initial placement
+329,237,70,General Ward,"Ward 3A, Rm 13",B04,24/02/2023 04:27,02/03/2023 10:40,Stable for ward
+330,236,19,General Ward,"Ward 3B, Rm 18",11,24/02/2023 10:09,04/03/2023 01:41,"Improving, transferred to ward"
+331,238,25,Emergency Dept,Casualty Bay 5,Bed 23,26/02/2023 12:03,26/02/2023 14:40,Initial placement
+332,238,43,General Ward,"Ward 3B, Rm 14",B13,26/02/2023 14:40,28/02/2023 01:36,Stable for ward
+333,239,39,General Ward    ,"Ward 6, Rm 10",B03,27/02/2023 06:06,02/03/2023 23:50,Initial placement
+334,240,40,Emergency Dept,Casualty Bay 7,Bed 21,27/02/2023 08:49,27/02/2023 13:07,
+335,240,47,General Ward,"Ward 6, Rm 9",B02,2023-02-27T13:07,01/03/2023 19:13,Stable for ward
+336,241,60,Emergency Dept,Casualty Bay 5,Bed 6,04/03/2023 12:53,04/03/2023 19:31,
+337,241,4,General Ward,"Ward 5B, Rm 6",Bed 24,04/03/2023 19:31,N/A,Stable for ward
+338,242,4,General Ward,"Ward 5B, Rm 15",29,05/03/2023 11:49,07/03/2023 09:59,Initial placement
+339,243,46,Emergency Dept,Casualty Bay 1,B15,07/03/2023 08:38,07/03/2023 16:13,
+340,244,18,General Ward,"Ward 5A, Rm 8",Bed 14,07/03/2023 13:48,08/03/2023 17:40,
+341,243,18,General Ward,"Ward 3B, Rm 21",Bed 15,07/03/2023 16:13,11/03/2023 16:29,Admitted to ward for ongoing care
+342,245,44,Emergency Dept,Casualty Bay 5,B05,07/03/2023 21:31,08/03/2023 05:21,?
+343,245,66,General Ward,"Ward 5B, Rm 7",Bed 26,08/03/2023 05:21,12/03/2023 09:40,Stable for ward
+344,246,44,General Ward,"Ward 4B, Rm 6",Bed 3,11/03/2023 10:56,15/03/2023 02:08,
+345,247,44,Emergency Dept,Casualty Bay 5,Bed 26,11/03/2023 14:34,-,Initial placement
+346,248,48,Emergency Dept,Casualty Bay 3,4,11/03/2023 21:42,12/03/2023 11:29,
+347,247,47,Surgical Ward,"Ward 3A, Rm 2",Bed 10,12/03/2023 00:48,03/17/2023 09:48 AM,Admitted to ward for ongoing care
+348,249,69,General Ward,"Ward 5A, Rm 5",Bed 3,12/03/2023 08:05,15/03/2023 23:25,Admitted from OPD
+349,248,60,General Ward,"Ward 3B, Rm 22",Bed 14,12/03/2023 11:29,19/03/2023 18:06,Admitted to ward for ongoing care
+350,250,60,General Ward,"Ward 5A, Rm 19",Bed 4,15/03/2023 08:19,17/03/2023 17:57,
+351,251,4,Emergency Dept,Casualty Bay 8,6,16/03/2023 03:36,16/03/2023 08:42,Initial placement
+352,251,25,General Ward,"Ward 3A, Rm 12",22,16/03/2023 08:42,19/03/2023 01:56,Stable for ward
+353,252,46,general WARD,"Ward Postnatal, Rm 13",Bed 19,18-03-2023 07:30,22/03/2023 00:06,
+354,253,78,General Ward,"Ward 4A, Rm 17",B11,21/03/2023 08:54,23/03/2023 20:04,
+355,254,48,General Ward,"Ward 6, Rm 20",Bed 30,21/03/2023 09:11,24/03/2023 19:47,
+356,255,43,General Ward,"Ward 4B, Rm 19",Bed 21,22/03/2023 12:30,23/03/2023 16:20,
+357,253,47,SICU,SICU Bay 2,9,23/03/2023 20:04,24/03/2023 16:49,Post-operative monitoring
+358,253,80,General Ward,"Ward 6, Rm 3",B30,24/03/2023 16:49,27/03/2023 04:09,"Improving, transferred to ward"
+359,256,65,Emergency Dept,Casualty Bay 7,B13,25/03/2023 23:40,26/03/2023 05:30,Initial placement
+360,256,28,Medical Ward,"Ward 3A, Rm 21",Bed 16,26/03/2023 05:30,29/03/2023 06:50,Admitted to ward for ongoing care
+361,257,69,Emergency Dept,Casualty Bay 2,B24,27/03/2023 07:20,27/03/2023 14:43,
+362,257,65,General Ward,"Ward 5A, Rm 19",Bed 22,27/03/2023 14:43,31/03/2023 12:50,Admitted to ward for ongoing care
+363,258,25,Emergency Dept,Casualty Bay 4,19,28/03/2023 19:44,29/03/2023 01:56,
+364,258,65,General Ward,"Ward 4B, Rm 23",B21,29/03/2023 01:56,01/04/2023 08:36,Admitted to ward for ongoing care
+365,259,73,General Ward,"Ward 3B, Rm 3",21,01/04/2023 09:24,04/04/2023 08:50,
+366,260,42,General Ward,"Ward 5A, Rm 19",8,03/04/2023 20:11,08/04/2023 19:18,
+367,261,22,Casualty,Casualty Bay 6,B28,05/04/2023 01:50,05/04/2023 07:53,
+368,261,43,General Ward,"Ward 4B, Rm 15",B26,05/04/2023 07:53,08/04/2023 11:44,Stable for ward
+369,262,73,General Ward,"Ward 4A, Rm 11",18,05/04/2023 10:00,07/04/2023 04:25,
+370,264,44,General Ward,-,16,06/04/2023 09:37,04/07/2023 05:25 PM,
+371,264,10,Surgical ICU,null,Bed 17,07/04/2023 17:25,08/04/2023 04:35,Post-operative monitoring
+372,264,44,General Ward,"Ward 6, Rm 21",Bed 1,08/04/2023 04:35,09/04/2023 12:31,"Stepped down, clinically stable"
+373,265,60,Emergency Dept,Casualty Bay 3,Bed 15,2023-04-09T16:56,09/04/2023 20:05,
+374,265,25,General Ward,"Ward 3A, Rm 5",Bed 15,09/04/2023 20:05,11/04/2023 11:34,Stable for ward
+375,266,87,General Ward,N/A,Bed 17,12/04/2023 05:45,15/04/2023 13:37,
+376,267,44,General Ward,"Ward 3A, Rm 3",-,12/04/2023 20:09,2023-04-17 02:35:00,Initial placement
+377,268,60,Casualty,Casualty Bay 4,Bed 19,12/04/2023 21:23,13/04/2023 00:32,
+378,268,43,General Ward,"Ward 5B, Rm 22",Bed 17,13/04/2023 00:32,14/04/2023 18:07,Admitted to ward for ongoing care
+379,269,44,Emergency Dept,Casualty Bay 1,Bed 8,2023-04-14 15:41:00,15/04/2023 06:50,
+380,269,69,General Ward,"Ward 6, Rm 13",13,15/04/2023 06:50,23/04/2023 05:46,Stable for ward
+381,270,46,HDU,"Ward 5B, Rm 5",?,04/15/2023 09:38 AM,19/04/2023 23:51,
+382,271,73,Emergency Dept,casualty bay 6,20,16/04/2023 01:09,16/04/2023 20:49,
+383,272,43,General Ward,"Ward 4A, Rm 7",Bed 3,16/04/2023 08:48,20/04/2023 11:12,
+384,271,44,General Ward,"Ward 4B, Rm 23",Bed 19,16/13/2023 20:49,27/04/2023 04:58,Stable for ward
+385,273,19,Emergency Dept,Casualty Bay 8,B26,17/04/2023 02:30,17/04/2023 09:56,
+386,274,7,Emergency Dept,,B29,17/04/2023 02:54,17/04/2023 05:03,
+387,274,28,General Ward,"Ward 5A, Rm 2",27,17/04/2023 05:03,null,Admitted to ward for ongoing care
+388,273,44,General Ward,"Ward 5A, Rm 11",B21,17/04/2023 09:56,21/04/2023 09:34,Stable for ward
+389,276,17,General Ward,"Ward 5A, Rm 5",Bed 8,24/04/2023 17:17,0000-00-00,
+390,277,43,General Ward,null,B21,26/04/2023 10:19,28/04/2023 06:03,
+391,278,25,  Surgical Ward,"Ward 5A, Rm 22",23,27/04/2023 10:24,01/05/2023 02:01,
+392,279,65,General Ward,"Ward 6, Rm 15",Bed 6,28/04/2023 09:11,29/04/2023 11:20,
+393,280,38,General Ward,"Ward 3A, Rm 24",1,29/04/2023 07:09,01/05/2023 03:37,
+394,281,44,General Ward,"Ward 6, Rm 12",1,30/04/2023 07:54,04/05/2023 13:22,
+395,282,60,General Ward,"Ward 3B, Rm 8",Bed 12,04/05/2023 09:13,06/05/2023 22:59,Initial placement
+396,283,43,General Ward,"Ward 6, Rm 7",B02,04/05/2023 11:33,04/05/2023 16:53,
+397,284,44,General Ward,"Ward 4B, Rm 4",5,06/05/2023 08:34,09/05/2023 15:00,Initial placement
+398,285,69,Emergency Dept,Casualty Bay 2,B17,19/04/2023 23:09,08/05/2023 13:21,Initial placement
+399,285,18,General Ward,"Ward 4B, Rm 18",,08/05/2023 13:21,15/05/2023 04:17,Stable for ward
+400,286,78,Emergency Dept,Casualty Bay 3,B17,09/05/2023 01:22,2023-05-09T21:21,
+401,286,65,General Ward,"Ward 4B, Rm 2",B04,09/05/2023 21:21,20/05/2023 08:28,Admitted to ward for ongoing care
+107,80,19,Emergency Dept,Casualty Bay 4  ,1,01/06/2022 14:16,02/06/2022 02:30,
+402,287,28,General Ward,"Ward 5B, Rm 5",B17,10/05/2023 11:43,14/05/2023 19:21,
+403,288,137,General Ward,"Ward 5B, Rm 18",30,14/05/2023 08:55,14/05/2023 15:44,
+404,289,43,Emergency Dept,Casualty Bay 3,B19,15/05/2023 00:46,2023-05-15 05:06:00,Initial placement
+405,289,69,General Ward,"Ward 5A, Rm 12",Bed 8,15/05/2023 05:06,17/05/2023 13:06,Stable for ward
+406,290,65,General Ward,,19,15/05/2023 10:53,17/05/2023 02:39,Admitted from OPD
+407,291,69,Casualty,Casualty Bay 7,22,15/05/2023 16:25,15/05/2023 23:59,
+408,291,39,General Ward,"Ward 4A, Rm 2",B05,15/05/2023 23:59,19/05/2023 23:55,?
+409,292,18,Emergency Dept,Casualty Bay 8,B09,18/05/2023 21:57,19/05/2023 18:38,Initial placement
+410,293,10,Emergency Dept,-,B30,19/05/2023 06:53,19/05/2023 14:40,
+411,294,78,General Ward,"Ward 3A, Rm 13",Bed 17,19/05/2023 10:57,20/05/2023 13:49,
+412,293,19,General Ward,"Ward 5B, Rm 6",Bed 26,19/05/2023 14:40,23/05/2023 17:42,Admitted to ward for ongoing care
+413,292,65,General Ward,"Ward 4A, Rm 10",,19/05/2023 18:38,30/05/2023 15:27,Admitted to ward for ongoing care
+414,295,60,General Ward,"Ward 3A, Rm 17",Bed 22,20/05/2023 14:25,21/05/2023 15:25,Initial placement
+415,296,38,GENERAL ward,"Ward 4B, Rm 2",Bed 30,21/05/2023 08:20,26/05/2023 09:24,
+416,297,70,General Ward,"Ward 3A, Rm 14",9,,05/24/2023 02:44 PM,
+417,853,38,General Ward,,B23,22/05/2023 17:33,02/06/2023 17:41,
+418,300,78,General Ward,"Ward 3A, Rm 11",null,27/05/2023 10:45,29/05/2023 22:48,
+419,301,10,General Ward,"Ward 3A, Rm 17",Bed 13,29/05/2023 17:08,08/06/2023 19:34,
+420,302,80,General Ward,"Ward 5B, Rm 22",8,31/05/2023 08:26,02/06/2023 05:10,
+421,302,17,SICU,SICU Bay 4,Bed 4,02/06/2023 05:10,02/06/2023 20:54,Post-operative monitoring
+422,302,60,General Ward,"Ward 5A, Rm 1",Bed 11,02/06/2023 20:54,04/06/2023 17:50,"Stepped down, clinically stable"
+423,303,77,Emergency Dept,Casualty Bay 5,B18,03/06/2023 08:08,03/06/2023 14:50,
+424,304,25,General  Ward,"Ward 4A, Rm 10",Bed 14,03/06/2023 10:38,09/06/2023 03:40,
+425,303,46,General Ward,null,Bed 15,03/06/2023 14:50,07/06/2023 04:27,Stable for ward
+426,305,25,General Ward,"Ward 4B, Rm 18",B20,06/06/2023 09:47,10/06/2023 01:42,
+427,306,38,General Ward,"Ward 5B, Rm 11",B06,06/06/2023 18:55,16/06/2023 10:14,
+428,307,39,General Ward,"Ward 3A, Rm 3",12,07/06/2023 03:03,09/06/2023 19:45,Initial placement
+429,308,43,CCU  ,CCU Bay 1,Bed 30,08/06/2023 20:05,10/06/2023 07:13,
+430,309,22,General Ward,"Ward 5A, Rm 3",Bed 12,09/06/2023 10:09,10/06/2023 10:29,Admitted from OPD
+431,308,44,General Ward,"Ward 4A, Rm 14",B22,10/06/2023 07:13,14/06/2023 11:51,"Improving, transferred to ward"
+432,310,65,Emergency Dept,Casualty Bay 7,Bed 26,11/06/2023 00:47,11/06/2023 06:31,?
+433,310,19,General Ward,"Ward 4A, Rm 14",B23,11/06/2023 06:31,06/14/2023 06:32 AM,Admitted to ward for ongoing care
+434,312,7,General Ward,"Ward 3A, Rm 10",B11,14/06/2023 13:39,18/06/2023 10:23,
+435,313,77,EMERGENCY DEPT,Casualty Bay 2,B26,14/06/2023 17:21,15/06/2023 12:09,
+436,314,69,A&E,Casualty Bay 6,Bed 2,06/15/2023 06:42 AM,06/15/2023 10:21 AM,
+437,314,77,General Ward,"Ward 3B, Rm 1",Bed 10,15/06/2023 10:21,17/06/2023 09:52,Admitted to ward for ongoing care
+438,313,40,General Ward,"Ward 5B, Rm 8",23,15/06/2023 12:09,25/06/2023 08:03,Stable for ward
+439,315,25,General Ward,"Ward 6, Rm 13",B13,17/06/2023 12:07,17/06/2023 18:02,Admitted from OPD    
+440,316,48,  Emergency Dept,Casualty Bay 1,16,20/06/2023 09:56,20/06/2023 12:30,
+441,316,78,General Ward,"ward 4a, rm 6",29,20/06/2023 12:30,21/06/2023 21:42,Admitted to ward for ongoing care
+442,317,10,General Ward,"Ward 5B, Rm 20",B14,24/06/2023 08:55,26/06/2023 14:13,
+443,318,78,Emergency Dept,Casualty Bay 5,B24,2023-06-25T09:49,06/25/2023 11:55 AM,
+444,318,46,General Ward,"Ward 5B, Rm 5",27,25/06/2023 11:55,26/06/2023 15:39,Admitted to ward for ongoing care
+445,317,48,Surgical ICU,SICU Bay 2,17,26/06/2023 14:13,27/06/2023 08:55,Post-operative   monitoring
+446,317,10,General Ward,"Ward 3B, Rm 21",B19,27/06/2023 08:55,29/06/2023 14:24,"Stepped down, clinically stable"
+447,979,43,Gen Ward,"Ward 4B, Rm 17",Bed 24,01/07/2023 10:12,02/07/2023 10:51,Admitted from OPD
+448,320,28,General Ward,"Ward 6, Rm 8",18,02/07/2023 15:44,04/07/2023 01:24,Initial placement
+449,321,38,Emergency Dept, Casualty Bay 7,Bed 26,03/07/2023 05:27,03/07/2023 12:46,
+450,321,25,General Ward,"Ward 3B, Rm 18",B02,2023-07-03 12:46:00,07/07/2023 10:31,Stable for ward
+451,323,51,Emergency Dept,Casualty Bay 1,B17,08/07/2023 15:14,08/07/2023 20:23,Initial placement
+452,323,46,General Ward,"Ward 3B, Rm 6",B02,08/07/2023 20:23,0000-00-00,STABLE FOR ward
+453,324,25,Emergency Dept,Casualty Bay 5,B27,10/07/2023 17:08,N/A,Initial placement
+454,324,46,General Ward,"Ward 3B, Rm 1",Bed 22,10/07/2023 20:15,12/07/2023 13:53,Stable for ward
+455,325,66,Emergency Dept, Casualty Bay 8,B19,11/07/2023 11:11,12/07/2023 01:39,
+456,325,43,ICU,ICU Bay 5,Bed 16,12/07/2023 01:39,14/07/2023 17:31,haemodynamically UNSTABLE
+457,326,51,MICU,MICU Bay 3,B13,13/07/2023 06:18,16/07/2023 01:33,Initial placement
+458,327,73,Emergency Dept,Casualty Bay 7,7,13/07/2023 15:21,13/07/2023 16:46,
+459,327,73,General Ward,"Ward 3B, Rm 24",Bed 26,13/07/2023 16:46,14/07/2023 12:54,Stable for ward
+460,328,10,General Ward,"Ward 3B, Rm 11",Bed 12,13/07/2023 17:04,16/07/2023 21:38,
+461,325,25,General Ward,"Ward 6, Rm 20",B06,14/07/2023 17:31,22/07/2023 08:00,"  Stepped down, clinically stable"
+462,326,70,General Ward,"Ward 5B, Rm 4",25,16/07/2023 01:33,24/07/2023 02:11,"Improving, transferred to ward"
+463,329,78,General Ward,null,B08,16/07/2023 09:19,18/07/2023 11:33,
+464,330,28,General Ward,"Ward 3A, Rm 19",Bed 25,21/07/2023 09:10,21/07/2023 14:35,Admitted from OPD
+465,331,43,General Ward,"Ward 4A, Rm 9",Bed 21,25/07/2023 09:17,25/07/2023 16:29,
+466,332,7,General Ward,"Ward 6, Rm 19",B13,28/07/2023 08:09,01/08/2023 18:27,
+355,254,48,General Ward,"Ward 6, Rm 20",Bed 30,21/03/2023 09:11,24/03/2023 19:47,
+467,333,38,A&E,Casualty Bay 4,7,01/08/2023 04:18,01/08/2023 18:09,
+468,334,66,Emergency Dept,Casualty Bay 6,Bed 3,01/08/2023 07:53,01/08/2023 11:23,
+469,334,44,General Ward,,Bed 15,01/08/2023 11:23,03/08/2023 08:33,Admitted to ward for ongoing care
+470,333,39,General Ward,"Ward 6, Rm 15",B26,01/08/2023 18:09,08/08/2023 23:30,Stable for ward
+471,335,69,Emergency Dept,Casualty Bay 5,B13,02/08/2023 07:01,02/08/2023 15:32,Initial placement
+472,336,78,Emergency Dept,Casualty Bay 6,Bed 3,02/08/2023 08:08,03/08/2023 03:15,
+473,335,25,General Ward,"Ward 6, Rm 6",30,02/08/2023 15:32,2023-08-07 02:52:00,Stable for ward
+474,336,73,  General Ward,"Ward 4A, Rm 14",1,03-08-2023 03:15,13/08/2023 03:57,Stable for ward
+475,337,60,Emergency Dept,Casualty Bay 2,Bed 16,03/08/2023 14:41,N/A,Initial placement
+476,337,28,General Ward,"Ward 3B, Rm 12",12,03/08/2023 17:41,05/08/2023 07:47,Stable for ward
+477,338,47,General Ward,"Ward 3B, Rm 1",7,08/08/2023 10:37,11/08/2023 07:06,Admitted from OPD
+478,339,48,General Ward,"Ward 5A, Rm 12",B16,08/08/0202 13:08,08/08/2023 16:35,
+479,340,43,General Ward,"Ward 3B, Rm 14",20,14/08/2023 09:31,08/16/2023 04:35 AM,
+480,341,80,General Ward,"Ward 5A, Rm 18",B22,14/08/2023 11:30,21/08/2023 20:07,
+481,343,43,General Ward,"Ward 4A, Rm 5",Bed 21,15/08/2023 12:57,null,
+482,340,4,SICU,SICU Bay 1,Bed 24,16/08/2023 04:35,16/08/2023 19:41,Post-operative monitoring
+483,340,38,General Ward,"Ward 3A, Rm 7",19,16/08/2023 19:41,18/08/2023 14:47,?
+484,345,18,General Ward,"Ward 4A, Rm 3",18,23/08/2023 01:04,25/08/2023 05:42,
+485,346,73,General Ward,"Ward 4B, Rm 17",B04,31/06/2023 09:11,-,
+486,347,45,General Ward,"ward 4a, rm 6",Bed 10,23/08/2023 11:28,26/08/2023 05:33,Initial placement
+487,348,65,General Ward,"Ward 5A, Rm 14",Bed 14,24/08/2023 19:50,28/08/2023 11:19,
+488,349,17,GENERAL WARD,"Ward Postnatal, Rm 16",Bed 5,25/08/2023 06:13,29/08/2023 05:13,Initial placement
+489,351,39,Casualty,Casualty Bay 3,B19,27/08/2023 18:17,27/08/2023 20:30,
+490,?,80,General Ward,"Ward 4A, Rm 16",B26,27/08/2023 20:30,29/08/2023 01:34,Admitted to ward for ongoing care
+491,352,7,Emergency Dept,Casualty Bay 3,B17,29/08/2023 21:19,30/08/2023 10:55,-
+492,352,10,MICU,MICU Bay 3,Bed 7,30/08/2023 10:55,01/09/2023 22:44,Requires ventilatory support
+493,353,28,General Ward,"Ward Postnatal, Rm 1",23,30/08/2023 18:53,09/02/2023 07:28 PM,
+494,354,43,Emergency Dept,Casualty Bay 3,Bed 3,31/08/2023 16:15,31/08/2023 20:09,
+495,354,77,General Ward,"Ward 4A, Rm 11",5,31/08/2023 20:09,02/09/2023 22:13,Stable for ward
+496,355,18,General Ward,"Ward 4A, Rm 20",Bed 5,01/09/2023 12:02,05/09/2023 14:46,Initial placement
+497,352,44,General Ward,"Ward 4B, Rm 23",B14,2023-09-01T22:44,09/09/2023 01:40,"Improving, transferred to ward"
+498,356,22,General Ward,"Ward 3A, Rm 4",Bed 23,02/09/2023 10:43,02/09/2023 17:12,Admitted from OPD
+499,357,46,General Ward,"Ward 5B, Rm 11",B24,2023-09-03T08:38,09/03/2023 04:11 PM,Admitted from OPD
+500,358,22,General Ward,"Ward 6, Rm 23",-,03/09/2023 10:01,06/09/2023 05:25,
+501,359,46,General Ward,"Ward 5B, Rm 4",B08,04/09/2023 21:08,07/09/2023 03:17,
+502,360,66,General Ward,"Ward 4A, Rm 1",25,05/09/2023 08:46,2023-09-10T18:16,
+503,361,25,General Ward,"Ward 6, Rm 24",6,09/09/2023 09:07,11/09/2023 12:45,
+504,361,39,SICU,SICU Bay 6,B15,11/09/2023 12:45,12/09/2023 06:52,Post-operative monitoring
+505,364,78,Emergency Dept,Casualty Bay 4,21,11/09/2023 23:39,12/09/2023 06:45,
+506,363,73,Emergency Dept,Casualty Bay 3,B01,11/09/2023 23:40,12/09/2023 10:37,
+507,364,43,General Ward,"Ward 5A, Rm 8",B09,12/09/2023 06:45,16/09/2023 01:04,Stable for ward
+508,361,43,General Ward,"Ward 3A, Rm 5",20,12/09/2023 06:52,14/09/2023 10:38,"Improving, transferred to ward"
+509,363,25,General Ward,"Ward 4B, Rm 22",3,12/09/2023 10:37,18/09/2023 05:50,Admitted to ward for ongoing care
+510,365,69,Emergency Dept,Casualty Bay 5  ,8,16/09/2023 14:59,N/A,
+511,365,44,General Ward,"Ward 6, Rm 14",30,16/09/2023 19:39,,Stable for ward
+512,366,47,General Ward,"Ward 3A, Rm 20",Bed 12,17/09/2023 18:47,N/A,
+513,367,38,Emergency Dept,Casualty Bay 1,Bed 7,20/09/2023 02:55,20/09/2023 10:11,
+514,368,70,General Ward,"Ward 5B, Rm 5",28,20/09/2023 08:42,20/09/2023 16:02,
+515,367,101,General Ward,"Ward 4B, Rm 9",Bed 1,09/20/2023 10:11 AM,24/09/2023 05:55,Admitted to ward for ongoing care
+516,369,60,EMERGENCY DEPT,Casualty Bay 2,B28,2023-09-21T11:43,22/09/2023 07:31,
+517,369,10,General Ward,"Ward 3B, Rm 11",B12,09/22/2023 07:31 AM,02/10/2023 17:43,Stable for ward
+518,370,80,General Ward,"Ward 5B, Rm 6",Bed 11,24/09/2023 08:41,29/09/2023 22:41,
+519,371,18,Emergency Dept,Casualty Bay 7,Bed 3,28/09/2023 21:36,29/09/2023 03:44,
+520,371,44,General Ward,"Ward 4A, Rm 13",Bed 30,29/09/2023 03:44,02/10/2023 09:37,Admitted to ward for ongoing care
+521,372,47,Emergency Dept,Casualty Bay 2,24,30/09/2023 12:39,30/09/2023 13:35,Initial placement
+522,372,78,General Ward,"Ward 4A, Rm 17",Bed 14,30/09/2023 13:35,01/10/2023 01:28,Admitted to ward for ongoing care
+523,373,65,,"Ward 3B, Rm 4",24,02/10/2023 10:51,06/10/2023 19:24,
+524,374,40,Emergency Dept,casualty BAY 3,13,03/10/2023 14:24,03/10/2023 19:30,
+525,374,73,GENERAL WARD,"Ward 6, Rm 7",Bed 30,03/10/2023 19:30,06/10/2023 11:50,Stable for ward
+526,374,114,SICU,SICU Bay 6,Bed 8,06/10/2023 11:50,07/10/2023 10:20,Post-operative monitoring 
+527,375,60,General Ward,"Ward 3B, Rm 12",Bed 18,2023-10-06 23:58:00,11/10/2023 19:35,
+528,374,28,General Ward,"Ward 4B, Rm 9",15,07/10/2023 10:20,10/10/2023 02:40,"Stepped down, clinically stable"
+529,961,60,General Ward,"Ward Postnatal, Rm 23",B07,09/10/2023 02:11,12/10/2023 05:52,Initial placement
+530,377,43,Emergency Dept,Casualty Bay 5,Bed 17,09/10/2023 03:15,09/10/2023 21:30,
+531,377,28,General Ward,"Ward 5B, Rm 5",Bed 17,09/10/2023 21:30,19/10/2023 11:22,Admitted to ward for ongoing care
+532,378,69,General Ward,"Ward 3A, Rm 22",22,12/10/2023 09:30,14/10/2023 00:35,Initial placement
+533,379,73,General Ward,"Ward 6, Rm 3",4,13/10/2023 08:17,16/10/2023 10:55,
+534,383,28,Emergency Dept,Casualty Bay 6,Bed 16,22/10/2023 06:45,22/10/2023 15:06,Initial placement
+535,383,18,General Ward,"Ward 5A, Rm 4",B20,22/10/2023 15:06,10/26/2023 11:32 PM,Stable for ward
+536,384,39,Emergency Dept,Casualty Bay 2,22,26/10/2023 01:30,26/10/2023 05:22,Initial placement
+537,384,25,MICU, MICU BAY 5  ,Bed 3,26/10/2023 05:22,26/10/2023 22:31,Requires ventilatory support
+538,385,46,General Ward,"Ward 5B, Rm 24",B19,15/10/2023 05:32,29/10/2023 02:36,
+539,384,25,General Ward,"Ward 4B, Rm 4",Bed 3,2023-10-26 22:31:00,28/10/2023 23:32,"Stepped down, clinically stable"
+540,387,66,Emergency Dept,Casualty Bay 5,Bed 27,29/10/2023 15:47,29/10/2023 17:24,
+541,387,19,General Ward,"Ward 3A, Rm 21",Bed 12,29/10/2023 17:24,30/10/2023 14:46,Stable for ward
+542,388,10,MICU,MICU Bay 5,null,30/10/2023 17:44,02/11/2023 00:24,
+543,389,43,Emergency Dept,Casualty Bay 6,26,30/10/2023 19:22,31/10/2023 01:50,Initial placement
+544,389,60,General Ward,N/A,20,31/10/2023 01:50,03/11/2023 11:16,Stable for ward
+545,388,25,General Ward,"Ward 5B, Rm 6  ",null,02/11/2023 00:24,08/11/2023 12:59,"Stepped down, clinically stable"
+546,390,66,Emergency Dept,Casualty Bay 2,Bed 24,02/11/2023 02:53,02/11/2023 06:29,
+547,390,77,General Ward,"Ward 3B, Rm 15",null,02/11/2023 06:29,04/11/2023 05:45,Stable for ward
+548,391,80,Gen Ward,"ward 5a, RM 4",26,2023-11-05T09:30,10/11/2023 14:28,
+549,392,44,General Ward,"Ward 5A, Rm 19",B25,08/11/2023 17:34,10/11/2023 23:17,Initial placement
+550,393,66,General Ward,"Ward 5B, Rm 23",B16,09/11/2023 10:04,14/11/2023 22:00,
+551,395,73,Gen Ward,"Ward 4B, Rm 23",N/A,11/11/2023 17:33,21/11/2023 01:19,
+552,397,44,Emergency Dept  ,Casualty Bay 7,Bed 1,16/11/2023 21:18,17/11/2023 02:19,
+553,397,80,General Ward,"Ward 5B, Rm 4",Bed 15,17/11/2023 02:19,19/11/2023 18:53,Admitted   to ward for ongoing care
+554,398,69,Emergency Dept,Casualty Bay 1,15,19/11/2023 23:53,20/11/2023 13:25,
+555,398,7,General Ward,"Ward 3A, Rm 22",Bed 9,20/11/2023 13:25,27/11/2023 15:55,Admitted to ward for ongoing care
+556,399,43,general ward,null,B12,27/11/2023 10:08,01/12/2023 07:22,Initial placement
+557,400,65,General Ward,"ward 3a, rm 17",Bed 16,28/11/2023 09:16,30/11/2023 19:13,
+558,401,46,Emergency Dept,Casualty Bay 1  ,B20,11/28/2023 10:25 AM,29/11/2023 05:28,N/A
+559,401,22,General Ward,"Ward 4B, Rm 6",Bed 5,29/11/2023 05:28,09/12/2023 05:22,Stable for ward
+560,402,73,EMERGENCY DEPT,,B07,29/11/2023 19:48,30/11/2023 00:04,Initial placement
+561,402,60,CCU,CCU Bay 5,12,30/11/2023 00:04,30/11/2023 19:06,null
+562,403,66,General Ward,"Ward 3B, Rm 23",16,30/11/2023 13:00,30/11/2023 18:27,Admitted from OPD
+563,402,19,General Ward,"Ward 6, Rm 12",Bed 11,30/11/2023 19:06,03/12/2023 01:31,"Stepped down, clinically stable"
+564,406,44,General Ward,"Ward 3A, Rm 16",B21,08/12/2023 10:47,12/12/2023 14:09,
+565,408,65,General Ward,"Ward Postnatal, Rm 1",B29,09/12/2023 10:55,10/12/2023 13:24,
+566,409,44,EMERGENCY DEPT,Casualty Bay 7,Bed 6,13/12/2023 08:27,13/12/2023 14:40,Initial placement
+567,409,19,CCU,CCU Bay 1,B08,13/12/2023 14:40,14/12/2023 17:58,Requires ventilatory support
+568,410,25,General Ward,"Ward 6, Rm 14",B01,13/12/2023 18:26,17/12/2023 15:33,Initial placement
+569,411,39,Emergency Dept,Casualty Bay 4  ,B11,00/12/2023 07:45,14/12/2023 11:57,
+570,411,60,General Ward,"Ward 3B, Rm 11",21,14/12/2023 11:57,16/12/2023 17:24,Admitted to ward for ongoing care
+571,409,42,General Ward,"Ward 5A, Rm 20",2,14/12/2023 17:58,17/12/2023 23:59,"Stepped down, clinically stable"
+572,412,10,General Ward,"Ward 5B, Rm 12",Bed 28,17/12/2023 08:31,20/12/2023 03:19,
+573,413,78,General Ward,"Ward 5B, Rm 8",Bed 21,22/12/2023 13:30,22/12/2023 19:30,
+574,970,70,General Ward,"Ward 5A, Rm 16",Bed 25,23/12/2023 02:17,N/A,
+575,416,40,General Ward,"Ward Postnatal, Rm 12",Bed 7,25/12/2023 01:13,,
+576,417,46,General Ward,"Ward 5B, Rm 5",Bed 20,12/28/2023 05:43 AM,01/01/2024 02:12,Initial placement
+577,418,43,General Ward,"Ward 4A, Rm 5",B13,28/12/2023 16:44,04/01/2024 06:59,Initial placement
+578,419,44,Emergency Dept,CASUALTY BAY 4,Bed 18,29/12/2023 00:57,12/29/2023 02:49 AM,
+309,220,69,SICU,SICU Bay 1,Bed 23,27/01/2023 19:17,29/01/2023 11:51,Post-operative monitoring
+579,419,39,General Ward,"Ward 3B, Rm 14",Bed 11,29/12/223 02:49,30/12/2023 03:35,Stable for ward
+580,420,73,Emergency Dept,Casualty Bay 3,Bed 30,2023-12-29 15:18:00,29/12/2023 17:03,
+581,420,22,General Ward,"Ward 5A, Rm 7",8,29/12/2023 17:03,30/12/2023 16:57,Admitted to ward for ongoing care
+582,421,39,General Ward,"Ward Postnatal, Rm 9",B02,29/12/2023 21:26,31/12/2023 06:26,Initial placement
+583,422,66,General Ward,"Ward 4B, Rm 16",B08,01/01/2024 08:47,04/01/2024 07:01,ADMITTED FROM OPD
+584,423,39,General Ward,"Ward 4B, Rm 19",15,01/01/2024 09:41,07/01/2024 08:14,
+585,424,39,Emergency Dept,Casualty  Bay 4,Bed 27,02/01/2024 01:32,02/01/2024 07:42,Initial placement
+586,424,39,General Ward,"Ward 3B, Rm 6",Bed 17,02/01/2024 07:42,,Admitted to ward for ongoing care
+587,425,38,Casualty,Casualty Bay 5,Bed 9,02/01/2024 10:53,03/01/2024 02:55,
+588,425,80,General Ward,"Ward 3B, Rm 14",B16,03/01/2024 02:55,11/01/2024 13:33,Admitted to ward for ongoing care
+589,427,4,General Ward,"Ward 3A, Rm 22",24,06/01/2024 12:51,06/01/2024 19:59,
+590,428,19,General Ward,"Ward 3B, Rm 16",B13,10/01/2024 09:55,11/01/2024 15:45,
+591,429,7,General Ward,"Ward 3A, Rm 21",4,11/01/2024 10:37,14/01/2024 05:52, Admitted from OPD
+592,430,28,General Ward,"Ward 4B, Rm 10",20,12/01/2024 10:53,12/01/2024 16:09,
+593,431,51,General Ward,"Ward 5B, Rm 20",B12,13/01/2024 10:59,17/01/2024 06:44,Initial placement
+594,432,46,Emergency Dept,Casualty Bay 2,19,14/01/2024 16:34,14/01/2024 20:46,
+595,432,18,ICU,null,B12,14/01/2024 20:46,15/01/2024 15:36,Haemodynamically unstable
+596,432,38,General Ward,"Ward 5A, Rm 21",Bed 13,15/01/2024 15:36,17/01/2024 21:25,"Improving, transferred to ward"
+597,433,48,   General Ward,"Ward 3A, Rm 19",27,16/01/2024 09:01,22/01/2024 05:37,Admitted from OPD
+598,434,78,Emergency Dept,,B10,16/01/2024 18:24,17/01/2024 00:22,Initial placement
+599,434,44,CCU,CCU Bay 1,B09,05/02/2024 06:39,18/01/2024 02:46,"Deteriorated, needs close monitoring"
+600,434,42,General Ward,"Ward 3B, Rm 16",B10,18/01/2024 02:46,21/01/2024 06:13,N/A
+601,435,70,   General Ward,"Ward 5A, Rm 4",17,18/01/2024 15:30,18/01/2024 21:03,
+602,437,60,General Ward,"Ward 5B, Rm 14",Bed 19,21/01/2024 09:08,24/01/2024 22:36,Admitted from OPD
+603,438,10,General Ward,"Ward Postnatal, Rm 14",Bed 30,23/01/2024 06:53,2024-01-26 22:12:00,
+604,439,80,General Ward,"Ward 4B, Rm 9",29,23/01/2024 13:26,25/01/2024 21:21,-
+605,440,78,General Ward,"Ward 5B, Rm 16",Bed 9,25/01/2024 05:36,27/01/2024 08:26,Initial placement
+606,441,25,General Ward,"Ward 3A, Rm 14",B22,28/01/2024 08:01,28/01/2024 20:45,
+607,441,4,SICU,SICU Bay 1,4,28/01/2024 20:45,-,Post-operative monitoring
+500,358,22,General Ward,"Ward 6, Rm 23",-,03/09/2023 10:01,06/09/2023 05:25,
+608,441,70,General Ward,"Ward 4B, Rm 7",10,29/01/2024 01:14,29/01/2024 14:00,"Improving, transferred to ward"
+609,442,44,Emergency Dept,?,B02,01/02/2024 09:24,02/01/2024 06:53 PM,
+610,442,38,General Ward,"Ward 3A, Rm 2",B30,01/02/2024 18:53,06/02/2024 19:15,Admitted to ward for ongoing care
+611,443,69,General Ward,"Ward 5B, Rm 18",7,04/02/2024 09:24,05/02/2024 13:22,
+612,444,78,General Ward,?,Bed 16,04/02/2024 18:34,06/02/2024 21:10,Initial placement
+613,446,51,General Ward,"Ward  3A, Rm 18",Bed 14,07/02/2024 09:35,07/02/2024 13:48,
+614,447,48,Emergency Dept,Casualty Bay 1,Bed 6,07/02/2024 23:54,08/02/2024 04:00,
+615,447,44,GENERAL WARD,"Ward 3B, Rm 20",Bed 17,08/02/2024 04:00,10/02/2024 09:53,Stable for ward
+616,448,77,Emergency Dept,Casualty Bay 7,Bed 18,10/02/2024 00:08,10/02/2024 05:42,
+617,448,73,General Ward,"Ward 3B, Rm 11",B14,10/02/2024 05:42,02/13/2024 04:05 AM,Admitted to ward for ongoing care
+618,449,28,General Ward,"Ward 3B, Rm 12",8,10/02/2024 10:01,12/02/2024 17:47,
+190,137,22,GENERAL WARD,"Ward 5B, Rm 10",B23,26/08/2022 12:18,26/08/2022 16:03,
+619,450,17,General Ward,"Ward 5A, Rm 21",Bed 12,12/02/2024 02:44,24/02/2024 01:50,
+620,451,19,General Ward,"Ward 5B, Rm 18",B10,12/02/2024 09:57,16/02/2024 08:55,Initial placement
+621,449,48,SICU,?,14,12/02/2024 17:47,13/02/2024 13:18,Post-operative monitoring
+622,449,77,Ward,"Ward 4A, Rm 15",23,13/02/2024 13:18,15/02/2024 21:06,"Improving, transferred to ward"
+623,452,18,Emergency Dept,-,B20,14/02/2024 00:12,14/02/2024 13:55,
+624,452,39,MICU,MICU Bay 4,Bed 21,14/02/2024 13:55,17/02/2024 02:48,N/A
+625,452,25,General Ward,"Ward 6, Rm 24",25,17/02/2024 02:48,24/02/2024 08:45,"Improving, transferred to ward"
+626,453,44,Medical Ward,"Ward 5A, Rm 4",Bed 14,18/02/2024 08:35,23/02/2024 16:46,
+627,454,17,Emergency Dept,Casualty Bay 7,Bed 6,19/02/2024 03:41,19/02/2024 05:48,
+628,454,19,General Ward,"Ward 6, Rm 1",Bed 2,2024-02-19T05:48,20/02/2024 08:52,Stable for ward
+629,455,70,General Ward,"Ward 5B, Rm 2",2,02/23/2024 06:15 AM,24/02/2024 08:15,
+630,456,66,Emergency   Dept,Casualty Bay 7,26,24/02/2024 19:48,25/02/2024 11:06,
+631,457,28,Emergency Dept,Casualty Bay 3,Bed 23,25/02/2024 05:01,25/02/2024 21:37,
+632,456,65,MICU,MICU Bay 1,B29,25/02/2024 11:06,28/02/2024 06:24,Requires ventilatory support
+633,457,80,General Ward,"Ward 3A, Rm 17",10,25/02/2024 21:37,05/03/2024 15:08,Admitted to ward for ongoing care
+634,458,65,Emergency Dept,Casualty Bay 3,Bed 23,26/02/2024 13:29,26/02/2024 15:55,
+635,458,28,General Ward,N/A,B30,26/02/2024 15:55,28/02/2024 00:03,Admitted to ward for ongoing care
+636,459,48,General Ward,"Ward 6, Rm 24",6,27/02/2024 17:30,09/03/2024 10:40,
+637,456,39,General Ward,"Ward 3A, Rm 4",12,28/02/2024 06:24,07/03/2024 06:40,"Improving, transferred to ward"
+638,460,60,Emergency Dept, Casualty Bay 6,Bed 5,2024-03-01T09:37,01/03/2024 14:55,Initial placement
+639,460,44,Ward,"Ward 4B, Rm 16",B20,01/03/2024 14:55,04/03/2024 09:13,Stable for ward
+640,461,18,General Ward,"Ward 4A, Rm 2",26,03/03/2024 15:53,03/03/2024 21:50,
+641,462,18,General Ward,"Ward Postnatal, Rm 21",18,06/03/2024 03:33,08/03/2024 22:45,
+642,463,66,Emergency Dept,Casualty Bay 5,Bed 22,10/03/2024 19:09,11/03/2024 02:43,
+643,463,66,Surgical Ward,"Ward 5B, Rm 15",2,2024-11-31 02:43,15/03/2024 02:06,Admitted to ward for ongoing care
+644,464,69, Emergency Dept,Casualty Bay 6,Bed 29,13/03/2024 12:30,14/03/2024 08:27,
+645,464,60,General Ward,"Ward 4A, Rm 13",18,14/03/2024 08:27,24/03/2024 18:38,Stable for ward
+646,465,60,General Ward,"Ward 5A, Rm 9",23,2024-03-15T08:24,19/03/2024 05:24,
+647,466,10,General Ward,"Ward 3A, Rm 15",Bed 20,15/03/2024 20:40,17/03/2024 06:45,
+648,467,17,Casualty,Casualty Bay 7,17,18/03/2024 10:06,18/03/2024 17:06,
+649,467,4,General Ward,"Ward 4B, Rm 12",30,18/03/2024 17:06,22/03/2024 09:14,Stable for ward
+650,468,19,General Ward,-,Bed 15,18/03/2024 21:39,19/03/2024 23:39,Initial placement
+651,469,40,General Ward,"Ward Postnatal, Rm 4",Bed 9,19/03/2024 13:28,21/03/2024 08:57,Initial placement
+652,470,4,Surgical Ward,"Ward Postnatal, Rm 21",23,19/03/2024 20:11,22/03/2024 01:24,
+653,470,25,HDU,ICU Bay 4,6,22/03/2024 01:24,22/03/2024 20:04,"Deteriorated, needs close monitoring"
+654,471,4,Emergency Dept,Casualty Bay 3,15,23/03/2024 12:00,2024-03-23 17:40:00,Initial placement
+655,471,19,General Ward,"Ward 3B, Rm 16",Bed 15,23/03/2024 17:40,26/03/2024 17:59,Admitted to ward for ongoing care
+656,472,22,General Ward,"Ward Postnatal, Rm 2",23,26/03/2024 22:44,28/03/2024 04:33,
+657,473,10,Emergency Dept,Casualty Bay 7,13,29/03/2024 00:19,29/03/2024 07:33,
+484,345,18, General Ward,"Ward 4A, Rm 3",18,23/08/2023 01:04,25/08/2023 05:42,
+658,473,42,General Ward,"WARD 4B, RM 17",Bed 20,29/03/2024 07:33,02/04/2024 03:55,Stable for ward
+659,475,17,General Ward,"Ward 4A, Rm 3",Bed 15,05/04/2024 09:40,08/04/2024 09:07,
+660,476,39,Emergency Dept,Casualty Bay 4,6,07/04/2024 21:31,08/04/2024 08:10,
+661,476,78,General Ward,"Ward 3A, Rm 7",Bed 8,08/04/2024 08:10,13/04/2024 23:24,null
+662,477,73,General Ward,"  Ward 5A, Rm 15",B30,08/04/2024 08:19,14/04/2024 15:12,
+663,840,69,General Ward,"Ward 5A, Rm 16",Bed 15,15/03/2024 03:32,09/04/2024 15:11,Admitted from OPD
+664,479,47,General Ward,N/A,B27,09/04/2024 17:14,11/04/2024 07:17,
+665,480,69,Emergency Dept,Casualty Bay 3,1,09/04/2024 19:59,10/04/2024 02:04,Initial placement
+666,480,46,General Ward,"Ward 5B, Rm 23",B10,10/04/2024 02:04,13/04/2024 07:20,Admitted to ward for ongoing care
+667,482,65,General Ward,"Ward 3A, Rm 23",Bed 15,11/04/2024 14:01,14/04/2024 01:26,Initial placement
+668,485,40,Emergency Dept,Casualty Bay 8,18,18/04/2024 14:08,18/04/2024 23:53,Initial placement
+669,485,18,General Ward,"Ward 4B, Rm 7",1,18/04/2024 23:53,24/04/2024 02:48,Admitted to ward for ongoing care
+670,486,7,Emergency Dept,Casualty Bay 3,B02,04/19/2024 08:46 PM,04/19/2024 02:46 PM,
+671,486,7,General Ward,"Ward 3A, Rm 18",B21,19/04/2024 22:38,20/04/2024 22:15,Admitted to ward for ongoing care
+672,487,140,General Ward,"Ward 5A, Rm 13",,21/04/2024 07:11,25/04/2024 21:47,
+673,488,10,General Ward,"Ward 6, Rm 15",5,29/04/2024 10:50,04/05/2024 23:03,
+674,489,135,General Ward,"Ward 6, Rm 3",Bed 17,02/05/2024 09:59,03/05/2024 16:47,
+675,490,43,General Ward,"Ward 4A, Rm 19",null,03/05/2024 07:48,04/05/2024 20:33,Initial placement
+676,491,73,Emergency Dept,Casualty Bay 2,B07,03/05/2024 17:34,04/05/2024 00:00,Initial placement
+677,491,43,General Ward,"Ward 5A, Rm 3",Bed 17,04/05/2024 00:00,07/05/2024 10:41,Admitted to ward for ongoing care
+678,492,40,General Ward,"Ward 6, Rm 2",Bed 8,04/05/2024 10:57,09/05/2024 23:41,
+679,493,73,Emergency Dept,Casualty Bay 2,20,05/05/2024 06:35 AM,05/05/2024 08:08,
+680,493,28,General Ward,"Ward 4A, Rm 18",Bed 9,05/05/2024 08:08,06/05/2024 04:09,Admitted to ward for ongoing care
+681,494,73,General Ward,"Ward 6, Rm 19",8,05/05/2024 20:13,09/05/2024 03:49,Initial placement
+682,495,80, CASUALTY  ,,27,07/05/2024 00:21,07/05/2024 13:30,
+683,495,39,General Ward,"Ward 4A, Rm 22",B27,07/05/2024 13:30,14/05/2024 11:30,Admitted to ward for ongoing care
+684,496,28,  ICU,,B22,07/05/2024 17:53,09/05/2024 12:43,
+685,497,4,Medical Ward,"Ward 6, Rm 20",1,07/05/2024 20:43,10/05/2024 09:15,
+686,N/A,40,General Ward,"Ward 5B, Rm 11",B09,08/05/2024 21:51,13/05/2024 00:12,
+687,496,65,General Ward,"Ward 3A, Rm 12",Bed 10,09/05/2024 12:43,14/05/2024 15:30,"Stepped down, clinically stable"
+688,499,39,General Ward,"Ward Postnatal, Rm 17",B29,13/05/2024 14:08,null,Initial placement
+689,500,40,Ward,"Ward 6, Rm 20",Bed 18,14/05/2024 16:21,18/05/2024 02:18,
+690,502,45,Emergency Dept,Casualty Bay 4,11,16/05/2024 07:03,16/05/2024 09:37,
+691,502,39,General Ward,"Ward 5A, Rm 6",Bed 5,16/05/2024 09:37,17/05/2024 18:16,Admitted to ward for ongoing care
+692,503,66,Emergency Dept,Casualty Bay 1,12,17/05/2024 04:58,17/05/2024 12:33,
+693,503,77,MICU,MICU Bay 4,17,17/05/2024 12:33,18/05/2024 22:29,Requires ventilatory support
+694,503,78,General Ward,"Ward 4A, Rm 14",30,18/05/2024 22:29,22/05/2024 23:28,"Stepped down, clinically stable"
+695,504,65,General Ward,"Ward 4B, Rm 1",Bed 10,21/05/2024 22:17,26/05/2024 21:11,
+696,505,60,General Ward,"Ward 4A, Rm 24",8,22/05/2024 08:00,24/05/2024 09:18,
+697,505,65,SICU,SICU Bay 6,B05,24/05/2024 09:18,25/05/2024 02:33,Post-operative monitoring
+698,505,80,  General Ward,"Ward 6, Rm 13",B27,25/05/2024 02:33,27/05/2024 03:52,"Improving, transferred to ward"
+699,507,78,General Ward,"Ward 4A, Rm 8",Bed 10,25/05/224 08:12,,Admitted from OPD
+700,508,73,General Ward,"Ward 5A, Rm 22",Bed 25,26/05/2024 09:32,28/05/2024 15:13,Admitted from OPD
+701,509,39,General Ward,"Ward 5B, Rm 14",Bed 8,26/05/2024 22:20,29/05/2024 18:46,
+702,510,77,Gen Ward,"Ward 5A, Rm 21",16,27/05/2024 15:38,27/05/2024 23:23,Admitted from OPD
+703,511,39,Emergency Dept,Casualty Bay 1,29,2024-05-28 23:43:00,2024-05-29 02:32:00,Initial placement
+704,511,65,General Ward,"Ward 3B, Rm 4",Bed 25,29/05/2024 02:32,30/05/2024 15:25,Stable for ward
+705,512,45,Casualty,Casualty Bay 1,7,29/05/2024 16:12,30/05/2024 00:46,
+706,512,28,General Ward,"Ward 3B, Rm 10",B14,30/05/2024 00:46,,Stable for ward
+707,513,78,General Ward,"Ward 4B, Rm 16",Bed 6,02/06/2024 07:49,06/06/2024 02:17,
+708,515,46,General Ward,"   Ward 5B, Rm 13",Bed 13,03/06/2024 14:28,04/06/2024 08:47,
+709,516,45,General Ward,"Ward 3A, Rm 17",3,04/06/2024 09:50,07/06/2024 06:18,Admitted from OPD
+710,517,77,N/A,Casualty Bay 8,6,05/06/2024 17:19,06/06/2024 08:52,
+711,517,38,General Ward,"Ward 3A, Rm 22",B29,06/06/2024 08:52,14/06/2024 12:02,Stable for ward
+712,518,70,Emergency Dept,null,11,07/06/2024 15:00,2024-06-07T18:34,
+713,518,42,General Ward,"Ward 6, Rm 2",Bed 25,07/06/2024 18:34,09/06/2024 16:09,null
+714,519,46,General Ward,"Ward 4A, Rm 14",2,08/06/2024 17:47,16/06/2024 12:18,Initial placement
+715,520,70,General Ward,"Ward 4A, Rm 7",11,10/06/2024 12:19,2024-06-15 09:03:00,
+716,521,80,General Ward,null,7,13/06/2024 08:17,18/06/2024 20:22,
+717,522,19,Emergency Dept,Casualty Bay 4,-,14/06/2024 18:10,15/06/2024 02:32,
+718,522,43,General Ward,"Ward 3A, Rm 10",7,06/15/2024 02:32 AM,19/06/2024 12:42,Stable for ward
+719,523,78,General Ward,"Ward 3B, Rm 20",11,17/06/2024 10:32,20/06/2024 13:22,
+720,524,4,GENERAL WARD,"Ward 5A, Rm 4",Bed 30,18/06/2024 08:48,2024-06-23 23:00:00,Admitted from OPD
+721,525,17,General Ward,"Ward 5B, Rm 11",29,21/06/2024 10:04,27/06/2024 05:53,
+722,527,70,General Ward,"Ward 4B, Rm 21",Bed 23,31/11/2024 18:27,30/06/2024 18:16,
+723,528,38,ICU,ICU Bay 6,null,28/06/2024 01:52,01/07/2024 04:19,
+724,529,40,General Ward,"Ward 6, Rm 24",15,28/06/2024 08:25,03/07/2024 00:24,
+725,528,25,General Ward,"Ward 5A, Rm 6",7,01/07/2024 04:19,10/07/2024 01:08,"Improving, transferred to ward"
+726,531,48,Emergency Dept,Casualty Bay 8,7,03/07/2024 12:32,04/07/2024 03:53,
+727,531,43,General Ward,"Ward 6, Rm 12",2,04/07/2024 03:53,07/12/2024 04:22 AM,Stable for ward
+728,532,69,General Ward,"Ward 3A, Rm 16",Bed 23,04/07/2024 10:01,08/07/2024 08:56,
+729,534,40,General Ward,"Ward 5B, Rm 18",null,13/06/2024 23:10,09/07/2024 08:22,
+730,536,69,Emergency Dept,Casualty Bay 8,B25,07/07/2024 17:51,08/07/2024 03:46, INITIAL PLACEMENT  
+731,537,44,A&E,Casualty Bay 5,B10,07/07/2024 22:19,08/07/2024 00:48,
+732,537,65,General Ward,"Ward 5B, Rm 6",Bed 11,08/07/2024 00:48,09/07/2024 10:31,Admitted to ward for ongoing care
+733,536,10,CCU,CCU Bay 4,11,08/07/2024 03:46,09/07/2024 23:27,Haemodynamically unstable
+734,536,60,General Ward,"Ward 5B, Rm 22",24,09/07/2024 23:27,15/07/2024 04:18,"Improving, transferred to ward"
+735,538,25,ICU,ICU Bay 4,20,11/07/2024 00:21,0000-00-00,Initial placement
+736,N/A,60,General Ward,"Ward 4B, Rm 2",B16,11/07/2024 22:38,14/07/2024 14:19,"Stepped down, clinically stable"
+737,539,28,Medical Ward,"Ward 5A, Rm 8",1,12/07/2024 09:56,13/07/2024 22:22,
+738,540,17,Emergency Dept,Casualty Bay 7,Bed 11,14/07/2024 03:25,14/07/2024 06:45,
+739,540,66,CCU,CCU Bay 5,26,14/07/2024 06:45,07/14/2024 09:26 PM,Haemodynamically unstable
+740,540,73,General Ward,"Ward 5A, Rm 21",B22,07/14/2024 09:26 PM,16/07/2024 15:24,"Stepped down, clinically stable"
+741,541,43,general WARD,"Ward 5A, Rm 19",B19,16/07/2024 08:20,16/07/2024 12:38,
+742,542,25,General Ward,"Ward 5A, Rm 9",26,16/07/2024 09:06,18/07/2024 18:52,
+743,543,60,Emergency Dept,casualty bay 2,3,16/07/2024 13:49,17/07/2024 10:25,
+744,543,77,General Ward,"Ward 4B, Rm 8",B03,17/07/2024 10:25,28/07/2024 06:37,stable for ward
+745,544,66,Emergency Dept,Casualty Bay 1,Bed 24,18/07/2024 05:13,18/07/2024 23:17,
+746,544,60,General Ward,"Ward 5A, Rm 24",Bed 10,18/07/2024 23:17,28/07/2024 10:50,Admitted to ward for ongoing care
+747,546,47,General Ward,"   Ward 3A, Rm 7",10,25/07/2024 01:53,28/07/2024 07:46,
+748,547,43,Emergency Dept,Casualty Bay 2,B24,29/07/2024 10:26,29/07/2024 16:31,
+749,547,60,General Ward,"Ward 4A, Rm 18",B06,29/07/2024 16:31,01/08/2024 21:12,-
+750,548,73,Emergency Dept,Casualty Bay 5,B12,30/07/2024 05:23,30/07/2024 08:59,
+751,548,78,General Ward,"Ward 4B, Rm 4",18,30/07/2024 08:59,01/08/2024 08:17,
+752,549,44,Emergency Dept,Casualty Bay 4,Bed 26,03/08/2024 23:09,04/08/2024 08:44,
+753,549,78,Cardiac Care Unit,CCU Bay 2,22,04/08/2024 08:44,2024-08-06T03:23,Haemodynamically unstable
+754,550,7,General Ward,"Ward 3B, Rm 5",25,04/08/2024 09:17,06/08/2024 02:30,Admitted from OPD
+755,549,78,General Ward,"Ward 3A, Rm 19",Bed 14,06/08/2024 03:23,11/08/2024 05:14,"Stepped down, clinically stable"
+731,537,44,A&E,casualty bay 5,B10,07/07/2024 22:19,08/07/2024 00:48,
+756,974,4,General Ward,"Ward 5B, Rm 4",Bed 20,06/08/2024 10:35,10/08/2024 07:36,
+757,553,70,General Ward,"Ward 6, Rm 20",28,0000-00-00,07/08/2024 22:45,Admitted from OPD
+758,553,38,Surgical ICU,SICU Bay 3,B11,07/08/2024 22:45,08/08/2024 03:39,Post-operative monitoring
+759,553,47,Ward,"Ward 3B, Rm 15",13,08/08/2024 03:39,08/08/2024 17:40,"Stepped down, clinically stable"
+760,555,65,General Ward,"Ward 6, Rm 9",-,16/08/2024 10:36,16/08/2024 15:25,
+761,556,25,General Ward,"Ward Postnatal, Rm 23",B02,16/08/2024 19:34,20/08/2024 06:40,
+762,557,4,Emergency Dept,Casualty Bay 6,B23,17/08/2024 22:42,18/08/2024 05:39,
+763,557,7,Gen Ward,"Ward 4B, Rm 3",Bed 14,18/08/2024 05:39,21/08/2024 21:56,Stable  for ward
+764,558,28,Emergency Dept,Casualty Bay 3,13,18/08/2024 09:27,18/08/2024 15:52,
+765,558,43,General Ward,"Ward 5A, Rm 9",Bed 24,2024-08-18T15:52,-,Admitted to ward for ongoing care
+766,559,25,Emergency Dept,Casualty Bay 6,B21,08/19/2024 08:37 AM,20/08/2024 03:34,Initial placement
+767,?,43,General Ward,"WARD 5A, rm 22",B04,20/08/2024 03:34,30/08/2024 00:59,Admitted to ward for ongoing care
+768,560,7,CCU,CCU Bay 1,Bed 30,23/08/2024 07:07,23/08/2024 22:40,Initial placement
+769,561,70,General Ward,"Ward 3A, Rm 6",3,23/08/2024 07:39,26/08/2024 13:03,
+770,560,69,General Ward,"Ward 3B, Rm 6",Bed 27,23/08/2024 22:40,08/25/2024 07:07 PM,"Improving, transferred to ward"
+771,564,17,General Ward,"Ward Postnatal, Rm 12",B22,25/08/2024 18:45,27/08/2024 23:57,
+772,565,46,Emergency Dept,Casualty Bay 3,N/A,27/08/2024 12:32,27/08/2024 20:31,Initial placement
+773,565,46,Medical Ward,"Ward 3A, Rm 19",Bed 3,27/08/2024 20:31,01/09/2024 02:03,Stable for ward
+774,564,42,ICU,ICU Bay 1,B03,27/08/2024 23:57,28/08/2024 18:37,"Deteriorated, needs close monitoring"
+775,566,73,General Ward,"Ward 5B, Rm 14",B04,28/08/2024 09:01,01/09/2024 05:20,Initial placement
+776,567,73,General Ward,"ward 3a, rm 22",26,02/09/2024 14:11,05/09/2024 10:40,Initial placement
+777,568,28,ICU,ICU Bay 1,Bed 7,04/09/2024 02:53,05/09/2024 15:27,
+778,569,65,General Ward,"Ward 5B, Rm 10",B30,04/09/2024 10:08,05/09/2024 11:16,
+779,570,73,Emergency Dept,Casualty Bay 1,Bed 5,05/09/2024 14:51,06/09/2024 05:21,Initial placement
+780,568,73,Ward,"Ward 4B, Rm 3",B17,05/09/2024 15:27,2024-09-10T00:24,"Improving, transferred to ward"
+781,570,48,General Ward,"Ward 3B, Rm 22",Bed 9,06/09/2024 05:21,13/09/2024 21:16,Admitted  to ward for ongoing care
+782,571,43,Emergency Dept,Casualty Bay 8,22,07/09/2024 07:04,07/09/2024 18:24,
+783,571,22,General Ward,"Ward 5B, Rm 19",B13,07/09/2024 18:24,13/09/2024 16:06,Stable for ward
+784,573,39,General Ward,"Ward 3B, Rm 21",19,16/09/2024 07:03,20/09/2024 14:01,
+785,574,18,General Ward,"Ward 4B, Rm 14",B07,16/09/2024 18:00,0000-00-00,
+786,575,102,GENERAL WARD,"Ward 3B, Rm 18",B29,17/09/2024 10:00,23/09/2024 00:46,
+787,576,38,Emergency Dept,Casualty Bay 5  ,17,18/09/2024 06:39,18/09/2024 12:27,
+788,576,69,ICU,ICU Bay 4,20,18/09/2024 12:27,19/09/2024 14:31,null
+789,576,78,General Ward,"Ward 4A, Rm 21",B17,19/09/2024 14:31,22/09/2024 16:59,"Stepped down, clinically stable"
+790,578,45,MICU,MICU Bay 3,B27,20/09/2024 05:36,21/09/2024 14:54,
+791,578,43,General Ward,"Ward 4B, Rm 23",2,21/09/2024 14:54,21/09/2024 13:54,"Improving, transferred to ward"
+792,579,40,Emergency Dept,CASUALTY bay 5,B16,09/22/2024 10:50 PM,23/09/2024 08:19,Initial placement
+793,579,44,Ward,"Ward 4A, Rm 13",B28,23/09/2024 08:19,28/09/2024 07:51,Stable for ward
+794,580,60,General Ward,"Ward Postnatal, Rm 10",B21,24/09/224 22:45,27/09/2024 14:07,
+795,581,25,emergency dept,Casualty Bay 2,Bed 1,27/09/2024 18:11,null,
+796,581,48,General Ward,"Ward 4B, Rm 16",B08,28/09/2024 07:19,05/10/2024 04:07,Admitted to ward for ongoing care
+797,582,60,General Ward,"Ward 5B, Rm 1",Bed 28,28/09/2024 07:53,03/10/2024 00:49,
+798,583,43,Ward,"Ward 3B, Rm 10",8,04/10/2024 08:25,06/10/2024 04:46,
+799,584,45,Emergency Dept,Casualty Bay 5,B07,05/10/2024 07:35,05/10/2024 13:43,Initial placement
+800,584,22,General Ward,"Ward 6, Rm 9",B20,05/10/2024 13:43,08/10/2024 20:50,Admitted to ward for ongoing care
+801,586,4,General Ward,"Ward 3B, Rm 11",null,06/10/2024 08:33,08/10/2024 03:27,
+802,587,70,Emergency Dept,Casualty Bay 3,B06,09/10/2024 01:09,09/10/2024 05:38,
+803,587,43,General Ward,"Ward 3A, Rm 20",B24,09/10/2024 05:38,11/10/2024 14:57,Admitted to ward for ongoing care
+804,588,43,General Ward,"Ward 6, Rm 1",B09,11/10/2024 10:46,11/10/2024 18:25,
+805,590,51,General Ward,"Ward 6, Rm 17",Bed 4,12/10/2024 10:27,2024-10-14T01:37,Admitted from OPD
+806,591,38,Emergency Dept,Casualty Bay 7,B17,13/10/2024 08:43,13/10/2024 12:24,
+807,592,28,General Ward,"Ward 5A, Rm 14",,13/10/2024 11:21,18/10/2024 10:27,
+808,591,44,General Ward,"Ward 5B, Rm 23",2,13/10/2024 12:24,10/15/2024 12:52 PM,Admitted to ward for ongoing care
+809,590,19,SICU,SICU Bay 3,B27,14/10/2024 01:37,14/10/2024 15:23,Post-operative monitoring
+810,590,7,General   Ward,"Ward 6, Rm 9",19,14/10/2024 15:23,16/10/2024 06:46,"Improving, transferred to ward"
+811,593,40,Emergency Dept,Casualty Bay 4,Bed 28,14/10/2024 18:35,15/10/2024 01:08,
+812,593,38,General Ward,"Ward 3A, Rm 16",B04,2024-10-15T01:08,18/10/2024 11:04,-
+813,594,80,Emergency Dept,Casualty Bay 6,B06,16/10/2024 00:11,16/10/2024 13:20,
+814,594,17,CCU,CCU Bay 2,Bed 26,16/10/2024 13:20,18/10/2024 23:27,Haemodynamically unstable
+815,594,43,General Ward,"Ward 6, Rm 9",Bed 8,18/10/2024 23:27,-,"Improving, transferred to ward"
+816,596,7,Emergency   Dept,Casualty Bay 3,B25,20/10/2024 05:48,20/10/2024 09:43,
+817,596,40,General Ward,"Ward 4A, Rm 22",27,20/10/2024 09:43,22/10/2024 11:39,Stable for ward
+818,597,25,General Ward,"Ward 3B, Rm 24",B16,21/10/2024 09:48,25/10/2024 21:38,
+819,600,19,A&E,Casualty Bay 2,B09,23/10/2024 20:51,24/10/2024 00:36,
+820,600,10,General Ward,"Ward 5B, Rm 12",B25,24/10/2024 00:36,26/10/2024 02:08,Admitted to ward for ongoing care
+821,602,25,General Ward,"Ward 5B, Rm 11",B26,27/10/2024 10:04,29/10/2024 10:19,
+822,N/A,43,Emergency Dept,Casualty Bay 4,Bed 4,28/10/2024 17:09,29/10/2024 01:23,Initial placement
+823,603,65,General Ward,"Ward 5B, Rm 11",B28,29/10/2024 01:23,02/11/2024 08:24,Stable for ward
+824,605,60,Emergency Dept,Casualty Bay 5,Bed 30,31/10/2024 00:13,31/10/2024 07:39,
+825,605,39,General Ward,"Ward 4B, Rm 22",Bed 12,31/10/2024 07:39,04/11/2024 06:12,Stable for ward
+826,606,25,General Ward,"Ward Postnatal, Rm 24",Bed 28,01/11/2024 10:43,03/11/2024 19:21,
+827,608,42,General Ward,"Ward 5B, Rm 3",2,03/11/2024 00:07,05/11/2024 23:24,
+828,609,19,General  Ward,"Ward 4B, Rm 11",Bed 5,04/11/2024 08:41,,
+829,610,47,General Ward,"Ward 3A, Rm 17",5,04/11/2024 08:58,04/11/2024 14:17,Admitted from OPD
+830,611,40,General Ward,"Ward 4A, Rm 18",Bed 7,05/11/2024 17:50,10/11/2024 05:36,
+831,612,44,ICU,ICU Bay 1,Bed 10,06/11/2024 04:47,07/11/2024 09:40,
+832,1244,38,General Ward,"Ward 5B, Rm 23",26,07/11/2024 09:40,10/11/2024 20:43,"Stepped down, clinically stable"
+833,616,44,Emergency Dept,Casualty Bay 7,B10,14/11/2024 05:42,15/11/2024 00:21,Initial placement
+834,617,65,?,"Ward 5B, Rm 2",Bed 27,14/11/2024 14:37,14/11/2024 20:15,
+835,616,73,General Ward,"Ward 4A, Rm 3",B07,15/11/2024 00:21,14/11/2024 01:21,Admitted to ward for ongoing care
+836,619,46,Emergency Dept,Casualty Bay 3,Bed 17,19/11/2024 05:37,19/11/2024 11:56,initial placement
+837,619,40,General Ward,"Ward 3B, Rm 3",Bed 15,19/11/2024 11:56,22/11/2024 21:01,Admitted to ward for ongoing care
+838,835,43,General Ward,"Ward 4A, Rm 12",Bed 11,19/11/2024 19:03,21/11/2024 15:54,
+839,621,60,General Ward,"Ward 3B, Rm 9",11,20/11/2024 02:55,22/11/2024 20:04,Initial placement
+840,622,80,General Ward,"Ward 3B, Rm 22",16,20/11/2024 10:31,24/11/2024 05:21,
+841,623,73,ICU,ICU Bay 1,Bed 13,20-11-2024 15:58,11/21/2024 07:22 AM,
+842,623,73,General Ward,null,Bed 4,21/11/2024 07:22,23/11/2024 03:49,"Improving, transferred to ward"
+843,624,65,General Ward,"Ward 3B, Rm 16",Bed 27,22/11/2024 21:52,27/11/2024 11:12,
+844,625,70, General Ward,"Ward 6, Rm 18",B05,26/11/2024 17:44,2024-12-04 18:43:00,
+845,626,28,Emergency Dept,Casualty Bay 5,Bed 29,28/11/2024 09:06,28/11/2024 22:26, INITIAL PLACEMENT  
+846,626,28,General Ward,"Ward 5B, Rm 24",26,2024-11-28T22:26,05/12/2024 22:24,Stable for ward
+847,627,10,General Ward,N/A,1,29/11/2024 08:15,30/11/2024 13:00,
+214,155,45,General Ward,"Ward 3A, Rm 10",Bed 21,30/09/2022 08:07,03/10/2022 03:53,
+848,628,28,General Ward,"Ward Postnatal, Rm 12",22,01/12/2024 22:55,2024-12-04 17:05:00,
+849,629,70,General Ward,"Ward 5A, Rm 8",7,02/12/2024 12:01,,Initial placement
+850,631,19,General Ward,"Ward 3A, Rm 2",Bed 26,2024-12-04 06:28:00,07/12/2024 15:13,Initial placement
+851,632,43,Emergency Dept,Casualty Bay 4,Bed 10,04/12/2024 07:32,04/12/2024 18:13,Initial placement
+852,632,65,  I.C.U,ICU Bay 2,B04,04/12/2024 18:13,06/12/2024 17:34,Requires ventilatory support
+853,632,10,Medical Ward,"Ward   6, Rm 24",B21,06/12/2024 17:34,12/12/2024 08:53,"Stepped down, clinically stable"
+854,633,60,Medical Ward,"Ward 4B, Rm 11",Bed 28,2024-12-07T04:32,09/12/2024 04:04,
+855,634,73,General Ward,"Ward 5A, Rm 1",Bed 17,11/12/2024 14:26,13/12/2024 16:58,
+856,635,39,Emergency Dept,Casualty Bay 5,28,13/12/2024 20:12,14/12/2024 03:21,Initial placement
+857,635,25,General Ward,"Ward 3B, Rm 8",B06,14/12/2024 03:21,17/12/2024 21:13,Admitted to ward for ongoing care
+858,636,22,General Ward,"Ward 6, Rm 10",10,19/12/2024 14:01,24/12/2024 11:34,
+859,639,73,General Ward,"WARD 4A, RM 13",Bed 30,2024-12-22T13:41,22/12/2024 18:28,
+860,640,44,General Ward,"Ward 4A, Rm 1",Bed 3,29/12/2024 07:40,03/01/2025 01:24,
+861,641,46,General Ward,"Ward 3B, Rm 4",23,04/01/2025 05:34,08/01/2025 06:04,
+862,642,70,General Ward,"Ward 5A, Rm 18",Bed 6,05/01/2025 15:58,05/01/2025 20:27,Admitted from OPD
+863,644,38,Emergency Dept,Casualty Bay 7,Bed 15,07/01/2025 10:57,07/01/2025 16:35,INITIAL placement
+864,645,60,General Ward,"Ward 5A, Rm 10",Bed 20,07/01/2025 11:48,10/01/2025 02:03,?
+865,644,43,General Ward,"Ward 5B, Rm 4",8,07/01/2025 16:35,10/01/2025 17:30,Admitted to ward for ongoing care    
+866,646,18,Emergency Dept,Casualty Bay 2,Bed 6,01/07/2025 11:05 PM,08/01/2025 08:35,
+867,646,69,General Ward,"Ward 3B, Rm 19",Bed 3,2025-01-08 08:35:00,13/01/2025 07:56,Stable for ward
+868,647,44,General Ward,"Ward 5B, Rm 2",Bed 30,09/01/2025 12:32,09/01/2025 20:00,
+869,648,39,Emergency Dept,Casualty Bay 8,B06,10/01/2025 17:59,01/10/2025 09:57 PM,Initial placement
+253,186,43,General Ward,"Ward 4A, Rm 19",4,02/12/2022 09:45,08/12/2022 04:51,Admitted from OPD
+870,648,66,General Ward,"Ward 4B, Rm 11",B24,10/01/2025 21:57,13/01/2025 00:21,Stable for ward
+871,649,7,General Ward,"Ward 4B, Rm 19",B13,2025-01-12T09:23,16/01/2025 14:13,
+872,651,44,CCU,CCU Bay 1,B13,19/01/2025 00:49,21/01/2025 23:39,Initial placement
+873,652,44,Emergency Dept,Casualty Bay 4,B13,20/01/2025 11:07,20/01/2025 15:12,
+874,652,73,General Ward,"Ward 4B, Rm 18",2,20/01/2025 15:12,22/01/2025 20:40,?
+875,651,18,General Ward,"Ward 5A, Rm 21",,01/21/2025 11:39 PM,30/01/2025 10:26,"Improving, transferred to ward"
+876,653,25,   Emergency Dept,Casualty Bay 7,B19,22/01/2025 04:39,22/01/2025 19:58,
+877,655,60,Emergency Dept,Casualty Bay 1,Bed 22,22/01/2025 14:34,23/01/2025 04:48,
+878,653,43,General Ward,"Ward 3A, Rm 4",4,22/01/2025 19:58,30/01/2025 20:41,Stable for ward
+879,655,4,ICU,ICU Bay 4,9,23/01/2025 04:48,25/01/2025 19:15,"Deteriorated, needs close monitoring"
+800,584,22,General Ward,"Ward 6, Rm 9",B20,05/10/2024 13:43,08/10/2024 20:50,Admitted to ward for ongoing care
+880,655,73,General Ward,"Ward 4B, Rm 3",9,25/01/2025 19:15,-,"Improving, transferred to ward"
+881,657,44,General Ward,"Ward Postnatal, Rm 20",Bed 4,27/01/2025 22:35,30/01/2025 04:40,
+882,658,77,General Ward,"Ward Postnatal, Rm 12",N/A,31/01/2025 22:49,02/02/2025 05:49,Initial placement
+883,659,4,Emergency Dept,Casualty Bay 4,4,03/02/2025 17:02,04/02/2025 10:14,Initial placement
+884,660,43,General Ward,"Ward 4B, Rm 19",?,04/02/2025 09:52,04/02/2025 17:11,
+885,659,39,General Ward,"Ward 6, Rm 16",Bed 12,04/02/2025 10:14,13/02/2025 11:07,Stable for ward
+886,661,10,General Ward,"Ward 6, Rm 2",B26,06/02/2025 10:55,09/02/2025 08:02,Initial placement
+887,662,45,General Ward,"Ward 4A, Rm 17",Bed 14,07/02/2025 05:17,10/02/2025 00:34,
+888,663,45,Ward,"Ward 3B, Rm 22",B24,07/02/2025 07:32,10/02/2025 04:36,
+889,664,60,General Ward,"Ward 5B, Rm 18",?,07/02/2025 23:15,2025-02-12 19:00:00,
+890,665,10,Emergency Dept,Casualty Bay 3,10,09/02/2025 12:40,09/02/2025 14:30,
+752,549,44,Emergency Dept,Casualty Bay 4,Bed 26,03/08/2024 23:09,04/08/2024 08:44,
+891,665,60,General Ward,"Ward 5B, Rm 5",Bed 5,09/02/2025 14:30,10/02/2025 15:41,Stable for ward
+892,666,40,Emergency Dept,casualty bay 7,B21,09/02/2025 16:37,09/02/2025 22:20,Initial placement
+325,234,25,General Ward,"Ward 5A, Rm 24",B15,14/02/2023 17:44,2023-02-18T19:03,Stable for ward
+893,666,22,General Ward,"Ward 6, Rm 24",B21,09/02/2025 22:20,13/02/2025 00:11,Admitted to ward for ongoing care
+894,667,39,Emergency Dept,Casualty Bay 2,Bed 11,10/02/2025 04:02,10/02/2025 17:20,
+895,668,28,Emergency Dept,null,Bed 12,10/02/2025 04:11,10/02/2025 09:32,Initial placement
+896,668,70,General Ward,"Ward 4B, Rm 22",B25,10/02/2025 09:32,13/02/2025 06:47,Admitted to ward for ongoing care
+897,667,39,General Ward,"Ward 3B, Rm 15",Bed 21,10/02/2025 17:20,17/02/2025 17:51,Stable for ward
+898,669,70,General Ward," WARD 5B, RM 10  ",28,14/02/2025 14:51,19/02/2025 04:00,
+899,1241,45,General Ward,"Ward 6, Rm 7",B01,17/02/2025 09:07,18/02/2025 19:46,
+900,671,38,Emergency Dept,Casualty Bay 7,22,18/02/2025 20:26,02/19/2025 12:11 AM,Initial placement
+901,671,65,Surgical Ward,"Ward 4B, Rm 18",Bed 27,19/02/2025 00:11,21/02/2025 00:43,Admitted to ward for ongoing care
+902,672,22,General Ward,"Ward 3A, Rm 20",-,23/02/2025 12:56,23/02/2025 18:11,
+903,673,28,General Ward,"Ward 4A, Rm 2",Bed 11,24/02/2025 10:28,24/02/2025 14:12,
+904,677,80,Emergency Dept,Casualty Bay 2,B29,04/03/2025 01:44,04/03/2025 10:20,Initial placement
+905,677,39,General Ward,"Ward 5A, Rm 19",Bed 25,04/03/2025 10:20,08/03/2025 23:43,Stable for ward
+906,679,28,General Ward,"Ward Postnatal, Rm 12",B17,08/03/2025 21:12,10/03/2025 07:47,
+907,680,44,emergency dept,Casualty Bay 3,Bed 12,25/02/2025 07:05,10/03/2025 10:52,
+908,681,47,General Ward,"Ward 3A, Rm 3",B19,10/03/2025 10:45,2025-03-16T04:20,Admitted from OPD
+909,680,60,General Ward,"Ward 4B, Rm 20",B16,10/03/2025 10:52,20/03/2025 16:07,Admitted to ward for ongoing care
+910,839,44,General  Ward,null,Bed 2,13/03/2025 16:43,15/03/2025 12:07,Initial placement
+911,683,66,GENERAL WARD,"Ward 5B, Rm 15",24,14/03/2025 16:01,14/03/2025 19:24,Admitted from OPD
+912,684,40,General Ward,"Ward 5B, Rm 15",B06,15/03/2025 10:20,19/03/2025 14:32,
+913,685,73,Emergency Dept,Casualty Bay 5,B18,18/03/2025 17:23,19/03/2025 00:43,
+914,685,40,General Ward,"Ward 4A, Rm 12",3,19/03/2025 00:43,22/03/2025 22:49,Stable for ward
+915,686,38,General Ward,"Ward Postnatal, Rm 6",Bed 2,24/03/2025 08:35,26/03/2025 13:54,
+916,687,80,Emergency Dept,Casualty Bay 5,Bed 9,25/03/2025 17:24,26/03/2025 04:01,Initial placement
+917,687,39,General Ward,"Ward 5B, Rm 20",Bed 4,26/03/2025 04:01,31/03/2025 18:32,Stable for ward
+918,688,80,General Ward,"Ward 5B, Rm 4",Bed 1,26/03/2025 08:14,31/03/2025 01:39,Initial placement
+919,686,77,Intensive Care Unit,ICU Bay 6,25,26/03/2025 13:54,27/03/2025 08:34,"Deteriorated, needs close monitoring"
+920,691,60,General Ward,"Ward 5B, Rm 19",18,28/03/2025 14:51,04/01/2025 03:27 AM,
+921,692,44,General Ward,"Ward 5B, Rm 3",B26,29/03/2025 07:51,03/04/2025 03:47,
+922,692,60,SICU,SICU Bay 2,Bed 6,03/04/2025 03:47,04/04/2025 20:24,Post-operative monitoring
+923,694,65,General Ward,"Ward 3A, Rm 17",Bed 19,03/04/2025 11:24,13/04/2025 13:29,Initial placement
+924,692,48,General Ward,"Ward 3B, Rm 15",Bed 26,04/04/2025 20:24,09/04/2025 16:26," STEPPED DOWN, CLINICALLY STABLE  "
+925,695,60,Emergency Dept,Casualty Bay 8,15,06/04/2025 00:14,06/04/2025 08:59,
+926,695,73,General Ward,"Ward 5A, Rm 15",2,06/04/2025 08:59,2025-04-10 23:37:00,Stable for ward
+927,696,25,General Ward,"Ward 5B, Rm 24",3,10/04/2025 09:54,11/04/2025 22:58,
+928,696,10,sicu,SICU Bay 5,5,11/04/2025 22:58,12/04/2025 12:00,Post-operative monitoring
+702,510,77,Gen Ward,"Ward 5A, Rm 21",16,27/05/2024 15:38,27/05/2024 23:23,Admitted from OPD
+929,696,44,General Ward,"Ward 4B, Rm 15",28,12/04/2025 12:00,14/04/2025 01:14,"Improving, transferred to ward"
+930,697,18,General Ward,"Ward  Postnatal, Rm 6",B09,12/04/2025 15:37,16/04/2025 07:51,
+522,372,78,General Ward  ,"Ward 4A, Rm 17",Bed 14,30/09/2023 13:35,01/10/2023 01:28,Admitted to ward for ongoing care
+931,698,17,Emergency Dept,Casualty Bay 8,16,14/04/2025 09:27,14/04/2025 11:10,
+932,698,60,MICU, MICU BAY 5  ,B12,14/04/2025 11:10,14/04/2025 19:24,Requires ventilatory support
+933,698,22,General Ward,"Ward 5A, Rm 20",B15,14/04/2025 19:24,15/04/2025 18:55,null
+934,699,42,CCU,CCU Bay 1,B30,15/04/2025 03:42,16/04/2025 03:18,
+935,700,39,Emergency Dept,Casualty Bay 4,30,15/04/2025 04:34,15/04/2025 19:36,Initial placement
+936,701,44,Emergency Dept,Casualty Bay 8,B07,15/04/2025 11:39,15/04/2025 16:04,
+937,701,65,General Ward,"Ward 5B, Rm 10",B02,15/04/2025 16:04,18/04/2025 00:51,Stable for ward
+938,698,80,SICU,N/A,10,15/04/2025 18:55,16/04/2025 03:09,Post-operative monitoring
+939,700,4, GENERAL WARD  ,"Ward 3A, Rm 2",Bed 4,15/04/2025 19:36,23/04/2025 17:41,Stable for ward
+940,698,138,General Ward,"Ward 5A, Rm 22",24,16/04/2025 03:09,17/04/2025 02:40,"Improving, transferred to ward"
+941,699,44,General Ward,"Ward 5B, Rm 4",13,16/04/2025 03:18,18/04/2025 23:02,"Improving, transferred to ward"
+942,703,47, GENERAL WARD  ,"Ward 5B, Rm 20",B29,10/05/2025 01:12,22/04/2025 22:54,
+943,?,44,Casualty,-,Bed 3,04/20/2025 10:10 PM,21/04/2025 03:47,
+944,704,60,Ward,"Ward 3A, Rm 21",16,21/04/2025 03:47,24/04/2025 03:50,Admitted to ward for ongoing care
+945,705,44,Surgical Ward ,"Ward 4B, Rm 9",Bed 30,24/04/2025 09:22,25/04/2025 10:14,
+946,707,43,Cardiac Care Unit,CCU Bay 6,Bed 8,26/04/2025 04:54,27/04/2025 23:20,
+947,708,22,Emergency Dept,Casualty Bay 7,Bed 20,26/04/2025 06:49,26/04/2025 09:53,
+948,708,65,General Ward,"Ward 4B, Rm 13",B21,04/26/2025 09:53 AM,28/04/2025 02:42,Admitted to ward for ongoing care
+949,709,10,Emergency Dept,Casualty Bay 3,Bed 24,26/04/2025 12:54,26/04/2025 22:03,
+950,709,10,General Ward,"Ward 4A, Rm 14",B17,26/04/2025 22:03,01/05/2025 16:48,Stable for ward
+951,710,10,General Ward,"Ward 4A, Rm 22",Bed 12,27/04/2025 19:09,01/05/2025 11:08,
+952,707,43,General Ward,"Ward 4B, Rm 13",Bed 19,27/04/2025 23:20,03/05/2025 01:02,"Stepped down, clinically stable"
+953,711,39,Emergency Dept,Casualty Bay 4,7,28/04/2025 20:09,29/04/2025 00:50,
+954,711,43,General Ward,"Ward 3B, Rm 10",null,31/02/2025 00:50,01/05/2025 13:26,Admitted to ward for ongoing care
+939,700,4, GENERAL WARD  ,"Ward 3A, Rm 2",Bed 4,15/04/2025 19:36,23/04/2025 17:41,Stable for ward
+955,712,39,General Ward,"Ward 5A, Rm 15",null,29/04/2025 05:00,30/04/2025 21:06,Initial placement
+956,-,18,Emergency Dept,Casualty Bay 3,2,30/04/2025 09:29,30/04/2025 16:59,
+957,714,44,General Ward,"Ward 5B, Rm 13",Bed 29,30/04/2025 10:55,05/05/2025 04:40,Admitted from OPD
+958,713,51,General Ward,"Ward 3B, Rm 11",Bed 25,30/04/2025 16:59,04/05/2025 15:13,Admitted to ward for ongoing care
+959,715,39,General Ward,"Ward 3B, Rm 4",21,01/05/2025 11:35,01/05/2025 14:02,Admitted from OPD
+960,716,7,General Ward,"Ward 6, Rm 17",Bed 15,02/05/2025 23:09,04/05/2025 05:06,
+961,717,22,General Ward,"Ward 4A, Rm 5",22,03/05/2025 00:51,06/05/2025 05:28,
+962,718,40,General Ward,"Ward 3A, Rm 21",11,03/05/2025 10:48,02/05/2025 21:48,
+963,719,40,General   Ward,"Ward Postnatal, Rm 11",B06,04/05/2025 20:11,08/05/2025 17:41,Initial placement
+964,721,39,Gen Ward,"Ward 4A, Rm 9",14,08/05/2025 18:51,09/05/2025 15:56,Initial placement
+965,722,28,Emergency Dept,Casualty Bay 2,5,10/05/2025 23:31,11/05/2025 04:59,
+966,722,47,Surgical Ward,"Ward 5A, Rm 23",Bed 4,11/05/2025 04:59,14/05/2025 01:25,Stable for ward
+905,677,39,General Ward,"Ward 5A, Rm 19",Bed 25,04/03/2025 10:20,08/03/2025 23:43,Stable for ward
+967,723,43,General Ward,"Ward 6, Rm 24",B30,05/11/2025 08:26 AM,15/05/2025 05:58,
+968,725,10,General Ward,"Ward 3B, Rm 23",Bed 5,11-05-2025 10:54,13/05/2025 05:43,
+969,726,19,Emergency Dept,Casualty Bay 8,Bed 3,13/05/2025 21:12,14/05/2025 01:31,
+970,726,47,General Ward,"Ward 4A, Rm 19",10,14/05/2025 01:31,16/05/2025 08:16,N/A
+971,728,80,General Ward,"Ward 4B, Rm 6",25,15/19/2025 14:06,0000-00-00,Admitted from OPD
+972,729,46,Emergency Dept,Casualty Bay 1,Bed 12,18/05/2025 17:34,2025-05-19T01:20,Initial placement
+973,730,66,General Ward,"ward 5b, rm 12",Bed 5,19/05/2025 01:04,23/05/2025 11:32,
+974,729,88,General Ward,"Ward 3A, Rm 3",Bed 16,19/05/2025 01:20,23/05/2025 04:36,Admitted to ward for ongoing care
+975,732,80,Emergency Dept,Casualty Bay 4,Bed 1,20/05/2025 22:57,21/05/2025 06:31,
+976,732,48,General Ward,"Ward 3B, Rm 8",B27,21/05/2025 06:31,25/05/2025 05:19,Admitted to ward for ongoing care
+977,733,40,General Ward,"Ward 3A, Rm 7",30,21/05/2025 08:41,26/05/2025 20:51,
+978,734,25,Emergency Dept,Casualty Bay 4,?,22/05/2025 05:28,22/05/2025 10:23,
+979,735,25,General Ward,"Ward 3B, Rm 3",B16,22/05/2025 09:52,24/05/2025 15:51,
+980,734,28,General Ward,"Ward 4A, Rm 21",B26,22/05/2025 10:23,25/05/2025 02:21,Stable for ward
+981,736,19,General Ward,"Ward 6, Rm 9",23,26/05/2025 08:09,26/05/2025 11:03,
+982,738,80,General Ward,"Ward 3B, Rm 21",Bed 17,28/05/2025 09:25,01/06/2025 16:23,
+983,739,7,Casualty,Casualty Bay 4,10,03/06/2025 01:05,2025-06-03T03:55,
+984,739,65,General Ward,"Ward 6, Rm 17",26,03/06/2025 03:55,04/06/2025 17:54,Admitted to ward for ongoing care
+985,740,28,Emergency Dept,Casualty Bay 7,B30,08/06/2025 19:48,09/06/2025 00:06,
+986,847,73,General Ward,"Ward 4B, Rm 9",N/A,09/06/2025 00:06,11/06/2025 08:27,Stable for ward
+987,741,122,General Ward,"Ward Postnatal, Rm 16",Bed 24,09/06/2025 11:29,11/06/2025 07:15,
+988,742,69,General Ward,"Ward 6, Rm 15",Bed 9,12/06/2025 08:02,15/06/2025 16:02,
+989,743,80,General Ward,"Ward 3A, Rm 22",?,13/06/2025 13:06,2025-06-15 22:28:00,
+990,744,65,Emergency Dept,Casualty Bay 2,B25,14/06/2025 04:29,14/06/2025 09:47,
+991,744,42,General Ward,"Ward  3A, Rm 9",B11,14/06/2025 09:47,17/06/2025 04:53,Stable for ward
+992,745,43,Emergency Dept,Casualty Bay 7,12,15/06/2025 16:30,15/06/2025 22:02,
+993,745,66,General Ward,"Ward 4B, Rm 24",30,15/06/2025 22:02,18/06/2025 20:26,
+994,746,17,Gen Ward,"Ward 5A, Rm 20",Bed 30,16/06/2025 01:52,20/06/2025 05:41,
+995,747,73,General Ward,"Ward 5B, Rm 14",Bed 25,17/06/2025 00:10,21/06/2025 05:45,
+996,748,73,Emergency Dept,Casualty Bay 2,10,18/06/2025 17:25,17/06/2025 23:25,
+997,748,39,CCU,CCU Bay 5,B25,19/06/2025 01:39,20/06/2025 14:18,Requires ventilatory support
+998,749,43,General Ward,"ward 5A, rm 3",B05,19/06/2025 07:35,22/06/2025 18:25,Initial placement
+999,750,25,General Ward,"Ward 5B, Rm 13    ",Bed 21,20/06/2025 03:47,21/06/2025 09:46,
+1000,748,80,General Ward,"Ward 4A, Rm 8",6,20/06/2025 14:18,24/06/2025 23:00,"Stepped down, clinically stable"
+1001,751,60,General Ward,"Ward 3A, Rm 1",8,20/06/2025 16:03,20/06/2025 22:29,Admitted from OPD
+951,710,10,General Ward,"Ward 4A, Rm 22",Bed 12,27/04/2025 19:09,01/05/2025 11:08,
+1002,752,22,Emergency Dept,Casualty Bay 1,Bed 26,23/06/2025 00:08,23/06/2025 06:20,Initial placement
+1003,752,78,General Ward,"Ward 5A, Rm 17",2,23/06/2025 06:20,26/06/2025 14:13,Admitted to ward for ongoing care
+1004,753,18,General Ward,"Ward 4B, Rm 1",14,23/06/2025 10:12,29/06/2025 01:39,
+1005,754,80,General Ward,"Ward 6, Rm 15",23,25/06/2025 11:24,30/06/2025 00:00,Initial placement
+1006,755,44,General Ward,"Ward 6, Rm 3",B08,26/06/2025 18:40,29/06/2025 08:37,
+1007,756,46,Emergency Dept,Casualty Bay 8,null,30/06/2025 02:29,30/06/2025 10:16,Initial placement
+1008,756,44,Medical ICU,MICU Bay 3,B09,30/06/2025 10:16,01/07/2025 21:03,Haemodynamically unstable
+976,732,48,General Ward,"Ward 3B, Rm 8",B27,21/05/2025 06:31,25/05/2025 05:19,Admitted to ward for ongoing care
+1009,756,4, GENERAL WARD  ,"Ward 4B, Rm 8",B29,01/07/2025 21:03,07/06/2025 12:27 AM,"Improving, transferred to ward"
+1010,757,28,MICU    ,MICU Bay 5,Bed 3,03/07/2025 16:14,06/07/2025 03:20,
+1011,758,65,Emergency Dept,Casualty Bay 8,Bed 20,05/07/2025 04:47,05/07/2025 08:50,
+1012,758,73,General Ward,"Ward 3A, Rm 21",,05/07/2025 08:50,07/07/2025 12:21,Stable for ward
+1013,757,70,Surgical Ward,"Ward 5B, Rm 6",Bed 7,06/07/2025 03:20,13/07/2025 04:18,"Stepped down, clinically stable"
+1014,759,19,Emergency Dept,Casualty Bay 2,B12,10/07/2025 20:23,10/07/2025 21:44,Initial placement
+1015,759,19,General Ward,"Ward 6, Rm 12",15,10/07/2025 21:44,11/07/2025 16:29,Stable for ward
+1016,760,69,General Ward,"Ward 6, Rm 16",Bed 30,11/07/2025 11:12,15/07/2025 20:54,
+1017,761,43,ICU,?,B12,12/07/2025 08:42,13/07/2025 15:25,
+1018,761,22,General Ward,,B28,13/07/2025 15:25,17/07/2025 07:36,"Improving, transferred to ward"
+1019,763,17,General Ward,"Ward 3B, Rm 12",B28,14/07/2025 08:27,18/07/2025 18:55,
+1020,764,73,General Ward,"Ward Postnatal, Rm 7",B09,21/07/2025 01:25,23/07/2025 06:42,
+1021,765,69,Emergency Dept,Casualty Bay 7,3,21/07/2025 17:34,21/07/2025 21:12,
+719,523,78,General Ward,"Ward 3B, Rm 20",11,17/06/2024 10:32,20/06/2024 13:22,
+1022,765,18,General Ward,"Ward 5B, Rm 16",19,21/07/2025 21:12,23/07/2025 21:08,Admitted to ward for ongoing care
+1023,766,43,General Ward,"Ward 4A, Rm 16",Bed 1,24/07/2025 05:32,28/07/2025 04:28,
+1024,767,43,Surgical Ward,"Ward 5B, Rm 11",Bed 6,26/07/2025 10:05,29/07/2025 01:16,Admitted from OPD
+1025,768,78,Emergency Dept,Casualty Bay 1,Bed 8,27/07/2025 17:36,27/07/2025 21:04,
+1026,768,77,General Ward,"Ward 6, Rm 20",B20,27/07/2025 21:04,29/07/2025 18:09,Stable for ward
+1027,769,78,General Ward,"Ward 4B, Rm 13",4,28/07/2025 11:13,29/07/2025 04:05,
+1028,770,70,General Ward,"Ward 3B, Rm 4",8,07/29/2025 04:09 AM,30/07/2025 10:23,Initial placement
+1029,771,48,Emergency Dept,Casualty Bay 8,Bed 23,29/07/2025 20:04,30/07/2025 02:39,initial placement
+1030,771,78,General Ward,"Ward 4A, Rm 10",B25,30/07/2025 02:39,02/08/2025 13:09,?
+1031,772,46,General Ward,"Ward 5B, Rm 18",6,31/07/2025 00:21,06/08/2025 23:04,Initial placement
+1032,773,77,Surgical Ward,"Ward 5B, Rm 23",B25,31/07/2025 10:30,03/08/2025 06:36,-
+1033,774,44,General Ward,"Ward Postnatal, Rm 1",Bed 23,31/07/2025 14:22,04/08/2025 09:16,
+1034,775,73,General Ward,"Ward 5A, Rm 16",-,31/07/2025 15:36,03/08/2025 18:21,
+1035,841,25,Emergency Dept,Casualty Bay 2,22,31/07/2025 21:38,01/08/2025 10:13,
+1036,776,10,MICU,MICU Bay 1,B26,01/08/2025 10:13,03/08/2025 17:30,"Deteriorated, needs close monitoring"
+1037,777,40,General Ward,"Ward 4B, Rm 2",B28,02/08/2025 23:37,05/08/2025 06:08,Initial placement
+1038,778,69,general ward,"Ward 5B, Rm 15",?,03/08/2025 08:59,04/08/2025 18:14,Initial placement
+1039,841,48,General Ward,"Ward 4A, Rm 16",Bed 8,03/08/2025 17:30,10/08/2025 07:25,"Improving, transferred to ward"
+1040,779,25,General Ward,"Ward 5B, Rm 5",Bed 14,04/08/2025 01:02,04/08/2025 16:29,
+1041,780,80,General Ward,"Ward Postnatal, Rm 23",B21,05/08/2025 21:55,09/08/2025 16:47,Initial placement
+1042,781,45,Emergency Dept,Casualty Bay 6,Bed 15,07/08/2025 23:47,08/08/2025 09:50,
+1043,781,44,Medical Ward,"Ward 4B, Rm 15",5,08/08/2025 09:50,13/08/2025 17:07,Stable for ward
+1044,782,39,General Ward,"Ward 3B, Rm 23",Bed 16,09/08/2025 13:36,09/08/2025 15:48,Admitted from OPD
+1045,783,28,General Ward,"Ward 3A, Rm 4",B15,10/08/2025 10:02,10/08/2025 16:46,Admitted from OPD
+1046,785,44,General Ward,"Ward 5B, Rm 14",30,14/13/2025 11:34,14/08/2025 19:07,
+1047,786,44,general ward,"Ward 3A, Rm 7",Bed 27,16/08/2025 07:09,19/08/2025 23:24,Admitted from OPD
+1048,787,28,General Ward,"Ward 4A, Rm 11",22,19/08/2025 10:15,20/08/2025 20:30,
+1049,788,80,Emergency Dept,Casualty Bay 8,B28,2025-08-20 12:01:00,20/08/2025 14:35,
+1050,788,60,General Ward,"Ward 4B, Rm 8",B13,20/08/2025 14:35,21/08/2025 23:43,Admitted to ward for ongoing care
+1051,789,44,Emergency Dept,Casualty  Bay 3,16,21/08/2025 06:42,21/08/2025 11:01,
+1052,789,40,General Ward,"Ward 5A, Rm 17",Bed 30,21/08/2025 11:01,2025-08-23 18:20:00,Stable for ward
+1053,790,60,General Ward,"Ward 5B, Rm 18",22,22/08/2025 10:15,27/08/2025 08:19,Initial placement
+1054,791,80,General Ward,"Ward 4B, Rm 2",Bed 23,25/08/2025 11:26,28/08/2025 19:21,Initial placement
+1055,792,19,General Ward,"ward 5b, rm 8",B05,26/08/2025 11:42,30/08/2025 08:14,
+1056,793,44,General Ward,"Ward 4B, Rm 23",Bed 27,28/08/2025 07:30,29/08/2025 19:58,Admitted from OPD
+1057,794,25,General Ward,-,Bed 13,28/08/2025 21:38,01/09/2025 08:13,
+1058,795,66,General Ward,"Ward 3B, Rm 17",B07,29/08/2025 04:20,02/09/2025 03:33,
+1059,796,28,General Ward,"Ward 3A, Rm 13",B14,2025-08-29T10:32,01/09/2025 07:39,
+1060,797,60,General Ward,"Ward 3B, Rm 16",1,31/08/2025 13:48,01/09/2025 22:55,
+1061,798,28,Emergency Dept,Casualty Bay 6,B10,02/09/2025 19:46,03/09/2025 02:14,
+1062,798,80,General Ward,"Ward 4B, Rm 4",10,0000-00-00,06/09/2025 11:12,
+1063,799,28,General Ward,"Ward 3B, Rm 3",B24,07/09/2025 10:55,11/09/2025 06:51,
+1064,800,65,General Ward,"Ward 5A, Rm 21",Bed 2,08/09/2025 09:38,10/09/2025 02:49,Admitted from OPD
+1065,801,18,emergency DEPT,Casualty Bay 7,Bed 24,2025-09-10 00:56:00,10/09/2025 04:20,
+1066,801,45,General Ward,"Ward 3B, Rm 13",30,10/09/2025 04:20,12/09/2025 01:22,Stable for ward
+1067,802,43,Emergency Dept,Casualty Bay 5,16,12/09/2025 07:18,12/09/2025 09:53,
+1068,802,39,General Ward,"Ward 5A, Rm 20",Bed 26,12/09/2025 09:53,13/09/2025 20:19,Stable for ward
+1069,805,43,General Ward,"Ward Postnatal, Rm 7",7,18/09/2025 16:21,20/09/2025 23:08,
+1070,806,70,Emergency Dept,Casualty Bay 2,Bed 19,20/09/2025 22:14,21/09/2025 04:24,
+1071,806,70,ICU,ICU Bay 2,B18,2025-09-21T04:24,22/09/2025 07:49,-
+1072,806,39,Gen Ward,"Ward 5B, Rm 20",Bed 26,22/09/2025 07:49,25/09/2025 14:09,"Improving, transferred to ward"
+1073,807,38,Emergency Dept,Casualty Bay 6,Bed 4,24/09/2025 02:27,0000-00-00,
+1074,807,46,Surgical Ward,"Ward 4A, Rm 17",Bed 14,2025-09-24 06:49:00,26/09/2025 13:58,Stable for ward
+1075,808,19,General Ward,"Ward 4A, Rm 8",29,25/09/2025 11:27,01/10/2025 09:02,
+1076,809,45,General Ward,-,Bed 9,27/09/2025 08:06,03/10/2025 00:38,
+1077,810,28,ICU,ICU Bay 3,7,29/09/2025 22:29,01/10/2025 08:30,
+1078,811,45,Emergency Dept,Casualty Bay 5,Bed 13,30/09/2025 16:48,30/09/2025 22:41,Initial placement
+1079,811,7,ICU,ICU Bay 4,20,30/09/2025 22:41,02/10/2025 01:19,Requires ventilatory support
+1080,810,44,General Ward,"Ward 4A, Rm 8",,01/10/2025 08:30,05/10/2025 09:58,"Improving, transferred to ward"
+1081,811,65,General Ward,"Ward 4B, Rm 16",N/A,02/10/2025 01:19,05/10/2025 05:26,"Stepped down, clinically stable"
+1082,812,65,Emergency Dept,Casualty Bay 6,B09,05/10/2025 19:34,05/10/2025 21:24,
+1083,812,51,General Ward,"Ward 4A, Rm 1",Bed 26,05/10/2025 21:24,06/10/2025 21:34,Admitted to ward for ongoing care
+1084,813,40,General Ward,"Ward   4A, Rm 21",Bed 13,05/10/2025 22:36,07/10/2025 23:49,
+1085,814,10,Emergency Dept,Casualty Bay 1,Bed 9,06/10/2025 13:16,07/10/2025 05:50,
+1086,814,40,General Ward,"Ward 4B, Rm 11",2,07/10/2025 05:50,15/10/2025 21:21,Admitted to ward for ongoing care
+1087,817,43,Emergency Dept,Casualty Bay 4,26,09/10/2025 21:07,09/10/2025 23:37,
+973,730,66,General Ward,"ward 5b, rm 12",Bed 5,19/05/2025 01:04,23/05/2025 11:32,
+1088,817,18,-,"Ward 6, Rm 15",Bed 1,09/10/2025 23:37,11/10/2025 09:05,Admitted to ward for ongoing care
+1089,818,66,Emergency Dept,Casualty Bay 7,Bed 13,11/10/2025 08:17,10/11/2025 02:50 PM,Initial placement
+1090,819,43,Emergency Dept,Casualty Bay 8,13,11/10/2025 08:32,11/10/2025 07:32,
+1091,819,25,General Ward,"Ward 4B, Rm 2",Bed 13,11/10/2025 12:29,13/10/2025 13:52,Admitted to ward for ongoing care
+1092,818,44,General Ward,"Ward 3A, Rm 9",B23,11/10/2025 14:50,15/10/2025 01:37,Stable for ward
+1093,820,60,General Ward,"Ward 4B, Rm 17",B15,12/10/2025 02:39,15/10/2025 06:51,Initial placement
+1094,821,40,Gen Ward,"Ward 3B, Rm 10",Bed 29,12/10/2025 09:48,N/A,
+1095,822,10,Emergency Dept,Casualty Bay 1,Bed 18,19/10/2025 20:34,20/10/2025 05:56,
+1096,822,60,General Ward,"Ward 5A, Rm 16",18,20/10/2025 05:56,25/10/2025 03:25,Stable for ward
+1097,823,78,General Ward,"Ward Postnatal, Rm 6",7,21/10/2025 01:26,,
+1098,824,44,General Ward,"Ward 5B, Rm 15",Bed 19,23/10/2025 08:16,,Admitted from OPD
+1099,825,65,Emergency Dept,Casualty Bay 6,Bed 4,24/10/2025 08:57,24/10/2025 18:50,
+1100,825,69,Intensive Care Unit,ICU Bay 5,Bed 17,2025-10-24 18:50:00,26/10/2025 14:10,"Deteriorated, needs close monitoring"
+1101,826,28,General Ward,"Ward 4B, Rm 5",23,24/10/2025 23:31,28/10/2025 16:22,
+1102,822,39,SICU,SICU Bay 5,Bed 17,10/25/2025 03:25 AM,26/10/2025 20:31,Post-operative monitoring
+1103,827,46,Emergency Dept,Casualty Bay 3,7,25/10/2025 09:37,25/10/2025 14:39,Initial placement
+1104,827,65,ICU,ICU Bay 1,Bed 25,25/10/2025 14:39,26/10/2025 13:16,"Deteriorated, needs close monitoring"
+1105,828,48,General Ward,"Ward Postnatal, Rm 23",B24,25/10/2025 23:34,27/10/2025 06:26,-
+1106,827,17,General Ward,"Ward 3A, Rm 24",B04,26/10/2025 13:16,29/10/2025 05:55,"improving, transferred to ward"
+1107,825,38,General Ward,"Ward 3A, Rm 14",26,26/10/2025 14:10,,"Improving, transferred to ward"
+1028,770,70,General Ward,"Ward 3B, Rm 4",8,07/29/2025 04:09 AM,30/07/2025 10:23,Initial placement
+1108,822,25,General Ward,"Ward 5B, Rm 2",B09,26/10/2025 20:31,,"Improving, transferred to ward"
+1109,829,28,Emergency Dept,Casualty Bay 2,B01,26/10/2025 23:33,27/10/2025 07:58,
+1110,829,10,General Ward,"Ward 5A, Rm 3",3,27/10/2025 07:58,,Stable for ward
+1111,832,28,General Ward,"Ward 4A, Rm 2",Bed 21,27/10/2025 19:36,31/10/2025 07:43,Initial placement
+1112,833,78,General Ward,"Ward 5A, Rm 6",28,28/10/2025 08:15,31/10/2025 09:45,
+1113,834,65,General Ward,"Ward 3B, Rm 20",B21,28/10/2025 11:05,,Initial placement
+1114,248,60,General Ward,"Ward 3B, Rm 22",Bed 14,12/03/2023 11:29,19/03/2023 18:06,Admitted to ward for ongoing care
+1115,390,66,Emergency Dept,Casualty Bay 2,Bed 24,02/11/2023 02:53,02/11/2023 06:29,
+1116,683,66,General Ward,"Ward 5B, Rm 15",24,14/03/2025 16:01,14/03/2025 19:24,Admitted from OPD
+1117,505,80,General Ward,"Ward 6, Rm 13",B27,25/05/2024 02:33,27/05/2024 03:52,"Improving, transferred to ward"
+1118,252,46,General Ward,,Bed 19,18/03/2023 07:30,22/03/2023 00:06,
+1119,499,39,General Ward,"Ward Postnatal, Rm 17",B29,13/05/2024 14:08,16/05/2024 14:08,Initial placement
+1120,766,43,General Ward,"Ward 4A, Rm 16",Bed 1,24/07/2025 05:32,28/07/2025 04:28,
+1121,755,44,General Ward,"Ward 6, Rm 3",B08,26/06/2025 18:40,29/06/2025 08:37,
+1122,532,69,  General Ward,"Ward 3A, Rm 16",Bed 23,04/07/2024 10:01,08/07/2024 08:56,
+1123,136,66,emergency dept,Casualty Bay 3,Bed 16,20/08/2022 19:21,20/08/2022 21:52,
+1124,231,28,General Ward,"Ward 3A, Rm 22",Bed 28,10/02/2023 21:53,21/02/2023 04:40,Admitted to ward for ongoing care
+1125,798,28, Emergency Dept,Casualty Bay 6,B10,02/09/2025 19:46,03/09/2025 02:14,
+1126,567,73,General Ward,"Ward 3A, Rm 22",26,02/09/2024 14:11,05/09/2024 10:40,Initial placement
+1127,454,17,Emergency Dept,Casualty  Bay 7,Bed 6,19/02/2024 03:41,19/02/2024 05:48,
+1128,642,70,general ward,,Bed 6,05/01/2025 15:58,2025-01-05 20:27:00,Admitted from OPD
+1129,544,66,Emergency Dept,Casualty Bay 1,Bed 24,18/07/2024 05:13,18/07/2024 23:17,
+1130,204,65,General Ward,"Ward 3A, Rm 23",12,05/01/2023 06:38,09/01/2023 19:32,
+1131,7,80,emergency dept,,3,31/01/2022 14:37,01/02/2022 04:35,Initial placement
+1132,733,40,General Ward,"Ward 3A, Rm 7",,21/05/2025 08:41,26/05/2025 20:51,
+1133,581,48,General Ward,"Ward  4B, Rm 16",B08,09/28/2024 07:19 AM,05/10/2024 04:07,Admitted to ward for ongoing care
+1134,352,44,General Ward,"Ward 4B, Rm 23",B14,01/09/2023 22:44,09/09/2023 01:40,"IMPROVING, TRANSFERRED TO WARD"
+1135,397,80,General Ward,"Ward 5B, Rm 4",Bed 15,17/11/2023 02:19,19/11/2023 18:53,Admitted to ward for ongoing care
+1136,294,78,Ward,"Ward 3A, Rm 13",Bed 17,19/05/2023 10:57,20/05/2023 13:49,
+1137,324,46,General Ward,"Ward 3B, Rm 1",Bed 22,10/07/2023 20:15,12/07/2023 13:53,Stable for ward 
+1138,217,38,Emergency Dept,,12,21/01/2023 00:47,21/01/2023 04:05,
+1139,743,80, GENERAL WARD  ,,16,13/06/2025 13:06,15/06/2025 22:28,
+1140,646,69,General Ward,"Ward 3B, Rm 19",Bed 3,08/01/2025 08:35,13/01/2025 07:56,Stable for ward
+1141,549,78,CCU,CCU Bay 2,22,2024-08-04T08:44,,Haemodynamically unstable
+1142,653,25, EMERGENCY DEPT  ,Casualty Bay 7,B19,22/01/2025 04:39,22/01/2025 19:58,
+1143,509,39,General Ward,"Ward 5B, Rm 14",Bed 8,26/05/2024 22:20,05/29/2024 06:46 PM,
+1144,245,66,General Ward,"Ward 5B, Rm 7    ",Bed 26,08/03/2023 05:21,2023-03-12T09:40,Stable for ward
+1145,788,80,Emergency Dept,Casualty Bay 8,B28,20/08/2025 12:01,20/08/2025 14:35,
+1146,722,28,Casualty,Casualty Bay 2,5,10/05/2025 23:31,11/05/2025 04:59,
+1147,33,69,General Ward,"Ward 6, Rm 23",Bed 5,02/03/2022 16:13,07/03/2022 10:38,Initial placement
