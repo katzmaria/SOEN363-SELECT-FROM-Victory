@@ -1,0 +1,28 @@
+ICD9Code,Title,LongDescription,Chapter
+401.9,Unspecified essential hypertension,Unspecified essential hypertension,Circulatory
+410.9,"Acute myocardial infarction, unspecified site","Acute myocardial infarction, unspecified site",Circulatory
+414.01,Coronary atherosclerosis of native coronary artery,Coronary atherosclerosis of native coronary artery,Circulatory
+427.31,Atrial fibrillation,Atrial fibrillation,Circulatory
+428.0,"Congestive heart failure, unspecified","Congestive heart failure, unspecified",Circulatory
+434.91,"Cerebral artery occlusion, unspecified with cerebral infarction","Cerebral artery occlusion, unspecified with cerebral infarction",Circulatory
+786.50,"Chest pain, unspecified","Chest pain, unspecified",Symptoms
+780.60,"Fever, unspecified","Fever, unspecified",Symptoms
+250.00,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled","Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",Endocrine
+244.9,Unspecified acquired hypothyroidism,Unspecified acquired hypothyroidism,Endocrine
+272.4,Other and unspecified hyperlipidemia,Other and unspecified hyperlipidemia,Endocrine
+276.51,Dehydration,Dehydration,Endocrine
+486,"Pneumonia, organism unspecified","Pneumonia, organism unspecified",Respiratory
+491.21,Obstructive chronic bronchitis with (acute) exacerbation,Obstructive chronic bronchitis with (acute) exacerbation,Respiratory
+493.90,"Asthma, unspecified type, unspecified","Asthma, unspecified type, unspecified",Respiratory
+496,"Chronic airway obstruction, not elsewhere classified","Chronic airway obstruction, not elsewhere classified",Respiratory
+518.81,Acute respiratory failure,Acute respiratory failure,Respiratory
+038.9,Unspecified septicemia,Unspecified septicemia,Infectious
+008.45,Intestinal infection due to Clostridium difficile,Intestinal infection due to Clostridium difficile,Infectious
+599.0,"Urinary tract infection, site not specified","Urinary tract infection, site not specified",Genitourinary
+584.9,"Acute kidney failure, unspecified","Acute kidney failure, unspecified",Genitourinary
+540.9,Acute appendicitis without mention of peritonitis,Acute appendicitis without mention of peritonitis,Digestive
+574.20,"Calculus of gallbladder without mention of cholecystitis, without mention of obstruction","Calculus of gallbladder without mention of cholecystitis, without mention of obstruction",Digestive
+578.9,"Hemorrhage of gastrointestinal tract, unspecified","Hemorrhage of gastrointestinal tract, unspecified",Digestive
+820.8,Closed fracture of unspecified part of neck of femur,Closed fracture of unspecified part of neck of femur,Injury
+285.9,"Anemia, unspecified","Anemia, unspecified",Blood
+V30.00,"Single liveborn, born in hospital, delivered without mention of cesarean section","Single liveborn, born in hospital, delivered without mention of cesarean section",Supplementary

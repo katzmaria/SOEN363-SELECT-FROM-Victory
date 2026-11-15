@@ -1,0 +1,14 @@
+source,location,admissionNo,encounter_id,children,note
+C,/admissions/admission[953],5946,,1,empty <admission> shell holding orphan children
+C,/admissions/admission[954],6080,,1,empty <admission> shell holding orphan children
+C,/admissions/admission[955],6160,,1,empty <admission> shell holding orphan children
+C,/admissions/admission[956],6546,,1,empty <admission> shell holding orphan children
+C,/admissions/admission[957],6619,,1,empty <admission> shell holding orphan children
+C,/admissions/admission[958],6675,,1,empty <admission> shell holding orphan children
+C,/admissions/admission[959],6870,,1,empty <admission> shell holding orphan children
+D,$.encounters[808],,6053,1,"encounter shell (no patient, no fields) holding orphan children"
+D,$.encounters[809],,6129,1,"encounter shell (no patient, no fields) holding orphan children"
+D,$.encounters[810],,6329,1,"encounter shell (no patient, no fields) holding orphan children"
+D,$.encounters[811],,6385,1,"encounter shell (no patient, no fields) holding orphan children"
+D,$.encounters[812],,6435,1,"encounter shell (no patient, no fields) holding orphan children"
+D,$.encounters[813],,6519,1,"encounter shell (no patient, no fields) holding orphan children"

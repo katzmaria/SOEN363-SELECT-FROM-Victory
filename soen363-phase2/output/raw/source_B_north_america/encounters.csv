@@ -1,0 +1,980 @@
+EncounterID,PatientID,AdmittingProviderID,AdmitDateTime,AdmitType,ChiefComplaint,AdmitSource,Insurance,DischargeDateTime,EncounterStatus
+1,1,25,11/01/2023 05:08 PM,Elective,Fever,Walk-In,Campbell-Reynolds #425552,11/18/2023 12:08 PM,Discharged
+2,2,1,13/45/2024 09:15 PM,Emergency,Nausea,Transfer,Lewis-Miranda #540771,12/06/2024 10:02 AM,Discharged
+3,2,25,07/24/2025 10:02 AM,Urgent,Headache,Ambulance,"Baxter, Rush and Gilbert #270430",07/28/2025 10:02 AM,Discharged
+4,2,1,02/14/2026 10:02 AM,Elective,Fall injury,Transfer,,03/03/2026 06:02 PM,Discharged
+5,2,40,09/18/2026 06:02 PM,URGENT,Fall injury,Physician Referral,unknown,09/29/2026 07:02 PM,Expired
+6,3,40,09/25/2023 12:15 PM,Urgent,Headache,Physician Referral,,10/12/2023 01:15 PM,Discharged
+7,3,5,03/30/2024 01:15 PM,Elective,Fall injury,Walk-In,"Black, Jones and Adkins #308346",03/31/2024 02:15 PM,Discharged
+8,3,35,08/09/2024 02:15 PM,Urgent,Dizziness,Walk-In,Jones Ltd #489647,08/23/2024 02:15 AM,Discharged
+9,4,2,09/12/2025 08:34 PM,Emergency,Dizziness,Walk-In,Schroeder-Alvarez #100373,09/14/2025 04:34 PM,Discharged
+10,5,30,04/24/2025 12:04 PM,emergency,Cough,Ambulance,Powell-Henderson #820639,05/02/2025 03:04 PM,Discharged
+11,5,1,01/14/2026 03:04 PM,Elective,Dizziness,Physician Referral,"Aguilar, Curtis and Smith #851836",01/15/2026 08:04 PM,Discharged
+12,5,20,03/25/2026 08:04 PM,Urgent,Nausea,Transfer,Banks-Rangel #410915,04/09/2026 05:04 AM,Discharged
+13,6,2,11/08/2023 11:29 PM,Emergency,Chest pain,Walk-In,Hill-Neal #565874,11/13/2023 10:29 PM,Discharged
+14,7,10,03/16/2023 11:08 AM,Outpatient,Cough,Ambulance,unknown,03/16/2023 09:08 PM,Discharged
+15,8,2,01/01/2025 12:58 PM,Outpatient,Abdominal pain,Transfer,"Franklin, Wells and Madden #918471",01/01/2025 04:58 PM,Discharged
+16,8,4,06/19/2025 04:58 PM,Elective,Headache,Physician Referral,"Aguilar, Burke and Sampson #420435",06/23/2025 12:58 PM,Discharged
+17,9,25,04/29/2024 12:47 AM,Newborn,Birth,Physician Referral,Phillips-Moore #546223,05/01/2024 12:47 PM,Discharged
+18,9,40,12/02/2024 12:47 PM,Emergency,Abdominal pain,Ambulance,NULL,12/07/2024 02:47 AM,Discharged
+19,10,5,02/22/2025 09:27 PM,Elective,Fall injury,Transfer,Calderon-Oliver #735337,02/24/2025 07:27 AM,Discharged
+20,11,4,05/15/2023 10:42 PM,Outpatient,Chest pain,Walk-In,Lane-Moore #817390,05/15/2023 11:42 PM,Discharged
+21,11,25,07/31/2023 11:42 PM,Urgent,Fall injury,Ambulance,Snow-Parker #128436,08/18/2023 08:42 AM,Discharged
+22,12,30,11/12/2024 01:07 AM,Elective,Headache,Transfer,Martin and Sons #218816,11/23/2024 11:07 PM,Discharged
+23,12,40,04/20/2025 11:07 PM,Emergency,Shortness of breath,Walk-In,Caldwell-Clark #801981,05/07/2025 12:07 AM,Discharged
+24,12,2,12/16/2025 12:07 AM,Outpatient,Fall injury,Physician Referral,Perez-Carrillo #985477,12/16/2025 01:07 AM,Discharged
+25,13,5,03/09/2023 04:49 AM,Emergency,Headache,Ambulance,Powell-Le #686577,03/22/2023 10:49 PM,Discharged
+26,13,5,12/28/2023 10:49 PM,Emergency,Headache,Ambulance,Hooper-Foster #174654,01/02/2024 09:49 PM,Discharged
+27,13,15,10/23/2024 09:49 PM,Emergency,Headache,Physician Referral,"Moore, Chandler and Hansen #568350",11/03/2024 02:49 AM,Discharged
+28,14,15,02/18/2023 10:26 PM,Urgent,Cough,Physician Referral,Wilkins-Wilson #467526,02/22/2023 06:26 AM,Discharged
+29,3779,40,12/31/2023 11:50 PM,Urgent,Fall injury,Ambulance,"Jones, Hernandez and Tanner #138453",01/03/2024 01:50 AM,Discharged
+30,16,30,02/11/2024 01:50 AM,Urgent,Cough,Transfer,Mcdaniel-Blanchard #342718,02/25/2024 06:50 AM,Discharged
+31,17,2,06/26/2023 09:35 AM,Newborn,Birth,Physician Referral,Green LLC #918033,06/29/2023 03:35 PM,Discharged
+32,18,3,03/21/2024 12:26 AM,Outpatient,Dizziness,Ambulance,Gutierrez-Smith #522879,03/21/2024 09:26 AM,Discharged
+33,18,3,08/13/2024 09:26 AM,Elective,Abdominal pain,Physician Referral,Ramirez-Thompson #552123,08/26/2024 01:26 PM,Discharged
+34,19,15,06/14/2023 05:30 PM,newborn,Birth,Walk-In,Jackson LLC #235991,06/22/2023 08:30 PM,Discharged
+35,19,2,03/21/2024 08:30 PM,Outpatient,Fall injury,Transfer,Ballard Group #758440,03/21/2024 10:30 PM,Expired
+36,19,5,05/25/2024 10:30 PM,Elective,Nausea,Physician Referral,"Bradley, Ramirez and Salinas #111763",06/05/2024 08:30 PM,Discharged
+37,20,5,02/29/2024 12:59 PM,Urgent,Dizziness,Physician Referral,Carrillo LLC #314376,03/16/2024 12:59 PM,Discharged
+38,20,1,12/29/2024 12:59 PM,Elective,Abdominal pain,Ambulance,Hernandez LLC #210076,12/30/2024 06:59 PM,Expired
+39,20,20,04/29/2025 06:59 PM,Emergency,Nausea,Physician Referral,"Jones, Thomas and Wilson #502279",05/16/2025 08:59 AM,Discharged
+40,21,4,02/23/2024 09:31 PM,Emergency,Fall injury,Physician Referral,Jennings LLC #588499,03/04/2024 11:31 AM,Expired
+41,21,35,09/01/2024 11:31 AM,Outpatient,Chest pain,Ambulance,Thomas Group #319118,09/01/2024 07:31 PM,Discharged
+42,21,10,06/18/2025 07:31 PM,Emergency,Abdominal pain,Physician Referral,"Hernandez, Sosa and Curtis #692423",07/05/2025 09:31 AM,Discharged
+43,22,3,03/22/2024 06:31 PM,Emergency,Shortness of breath,Walk-In,"Young, Melendez and Vincent #239153",03/29/2024 09:31 PM,Discharged
+44,22,1,06/10/2024 09:31 PM,Elective,Nausea,Physician Referral,Lee PLC #283271,06/15/2024 05:31 PM,Discharged
+45,22,15,11/25/2024 05:31 PM,Urgent,Headache,Transfer,NULL,12/03/2024 09:31 AM,Discharged
+46,23,3,05/25/2024 02:07 PM,Emergency,Abdominal pain,Ambulance,Morgan Group #799571,06/03/2024 07:07 PM,Discharged
+47,23,25,12/22/2024 07:07 PM,Emergency,Shortness of breath,Ambulance,Love-Hardy #586008,12/27/2024 02:07 AM,Discharged
+48,24,30,07/24/2025 02:59 AM,Outpatient,Fever,Walk-In,"Berry, Martinez and Fowler #567200",07/24/2025 09:59 AM,Discharged
+49,24,25,01/24/2026 09:59 AM,Emergency,Weakness,Walk-In,Johnston Inc #570304,02/01/2026 04:59 PM,Discharged
+50,25,10,10/10/2024 07:46 PM,Emergency,Abdominal pain,Transfer,unknown,10/16/2024 12:46 PM,Discharged
+51,26,5,08/13/2024 06:55 AM,Emergency,Headache,Walk-In,"Peterson, Green and Rose #347785",08/15/2024 04:55 AM,Discharged
+52,26,10,01/22/2025 04:55 AM,Elective,Abdominal pain,Walk-In,Brown Inc #201691,01/25/2025 03:55 PM,Discharged
+53,27,35,04/27/2023 08:26 AM,Outpatient,Chest pain,Ambulance,George-Olsen #923736,04/27/2023 06:26 PM,Discharged
+54,27,15,11/06/2023 06:26 PM,Emergency,Shortness of breath,Ambulance,"Villanueva, Rojas and George #914713",11/21/2023 10:26 PM,Discharged
+55,27,20,02/18/2024 10:26 PM,Elective,Fall injury,Ambulance,Romero-Sellers #274626,03/01/2024 01:26 AM,Discharged
+56,27,35,06/23/2024 01:26 AM,Outpatient,Nausea,Physician Referral,Cunningham Group #533431,06/23/2024 02:26 AM,Discharged
+57,27,3,08/08/2024 02:26 AM,Elective,Dizziness,Physician Referral,"Mcbride, Howell and Humphrey #625513",08/25/2024 07:26 AM,Discharged
+58,28,2,05/16/2023 01:55 AM,Emergency,Headache,Walk-In,Gonzales-Burns #265220,06/02/2023 06:55 AM,Discharged
+59,28,4,03/02/2024 06:55 AM,Elective,Cough,Physician Referral,"Mendoza, Tucker and Villanueva #209345",03/13/2024 10:55 PM,Discharged
+60,28,1,08/11/2024 10:55 PM,Urgent,Shortness of breath,Ambulance,Lawrence Ltd #989641,08/14/2024 06:55 PM,Discharged
+61,29,1,01/03/2025 01:55 PM,Emergency,Chest pain,Walk-In,Gates-Winters #930410,01/06/2025 12:55 PM,Discharged
+62,30,15,04/05/2023 01:26 PM,Elective,Fall injury,Physician Referral,Davis-Rodriguez #191234,04/09/2023 07:26 AM,Discharged
+63,30,30,10/22/2023 07:26 AM,Elective,Nausea,Transfer,Robinson Ltd #504951,11/04/2023 03:26 PM,Discharged
+64,2338,2,02/01/2025 10:51 PM,Emergency,Shortness of breath,Transfer,Poole-Kelly #205989,02/17/2025 08:51 PM,Discharged
+65,32,5,08/13/2023 02:13 AM,Outpatient,Fall injury,Ambulance,Evans Group #412754,08/13/2023 07:13 AM,Discharged
+66,32,5,10/19/2023 07:13 AM,Elective,Nausea,Ambulance,Lopez Ltd #983598,10/27/2023 06:13 PM,Discharged
+67,32,20,06/10/2024 06:13 PM,Elective,Abdominal pain,Physician Referral,"Wagner, Dawson and Smith #518500",06/13/2024 05:13 AM,Discharged
+68,33,40,03/14/2025 05:16 AM,Outpatient,Headache,Physician Referral,Cross-Olson #299619,03/14/2025 06:16 AM,Expired
+69,34,5,12/12/2024 10:29 PM,Elective,Fall injury,Physician Referral,Bright-Gonzalez #807970,12/14/2024 01:29 AM,Discharged
+70,35,40,03/01/2025 11:22 PM,Emergency,Cough,Physician Referral,"Matthews, Wagner and Osborne #776048",03/03/2025 03:22 PM,Discharged
+71,35,10,06/08/2025 03:22 PM,Elective,Dizziness,Physician Referral,Daniel-Jordan #631347,06/19/2025 10:22 AM,Discharged
+72,36,15,05/03/2025 05:20 PM,Emergency,Chest pain,Walk-In,Campbell-Robinson #773896,05/10/2025 07:20 AM,Discharged
+73,37,35,07/10/2024 02:21 AM,Urgent,Weakness,Ambulance,Arnold-Watts #117140,07/14/2024 11:21 PM,Discharged
+74,37,30,01/17/2025 11:21 PM,Outpatient,Chest pain,Physician Referral,NULL,01/18/2025 04:21 AM,Discharged
+75,38,3,01/28/2024 08:12 AM,Urgent,Abdominal pain,Walk-In,"Hardin, Gibson and Bradshaw #756661",02/05/2024 04:12 AM,Discharged
+76,39,30,10/13/2023 01:49 PM,Emergency,Abdominal pain,Transfer,,10/22/2023 03:49 PM,Discharged
+77,39,1,04/02/2024 03:49 PM,Elective,Nausea,Ambulance,Case-Bryant #813159,04/07/2024 02:49 PM,Discharged
+78,39,35,08/16/2024 02:49 PM,Emergency,Weakness,Walk-In,"Hendrix, Smith and Cooper #862892",08/19/2024 08:49 PM,Discharged
+79,40,20,05/28/2023 01:07 PM,Urgent,Chest pain,Walk-In,Garcia-Griffin #913416,06/13/2023 12:07 AM,Discharged
+80,41,15,10/31/2024 06:45 PM,NEWBORN,Birth,Transfer,Gonzalez PLC #375315,11/06/2024 02:45 PM,Discharged
+81,41,30,04/24/2025 02:45 PM,Elective,Abdominal pain,Ambulance,Cole and Sons #970404,05/11/2025 05:45 AM,Discharged
+82,41,40,09/24/2025 05:45 AM,Emergency,Nausea,Walk-In,,10/10/2025 10:45 AM,Discharged
+83,41,25,01/03/2026 10:45 AM,Elective,Dizziness,Walk-In,Norton Inc #774400,01/16/2026 01:45 AM,Discharged
+84,42,30,07/02/2025 04:47 AM,Outpatient,Chest pain,Walk-In,"Stout, Jones and Grant #750462",07/02/2025 11:47 AM,Discharged
+85,43,4,04/13/2024 01:16 AM,Elective,Chest pain,Ambulance,Peterson Inc #439348,04/16/2024 03:16 PM,Discharged
+86,44,4,09/13/2023 12:29 AM,Emergency,Nausea,Walk-In,Gillespie-Ortiz #288357,09/29/2023 04:29 AM,Discharged
+87,45,10,03/09/2025 06:13 AM,Emergency,Abdominal pain,Transfer,Chapman-Avila #533791,03/11/2025 10:13 PM,Discharged,EXTRA,FIELD
+88,46,15,11/25/2023 03:40 AM,Urgent,Chest pain,Transfer,"Garcia, Scott and Lee #115182",12/03/2023 01:40 AM,Discharged
+89,47,25,06/19/2024 10:25 AM,Outpatient,Chest pain,Ambulance,"Garcia, Chang and Hernandez #654923",06/19/2024 07:25 PM,Discharged
+90,47,5,03/25/2025 07:25 PM,Urgent,Weakness,Ambulance,Friedman-Jones #429224,04/10/2025 04:25 PM,Discharged
+91,48,35,12/31/2023 09:53 AM,Urgent,Headache,Ambulance,,01/07/2024 09:53 AM,Discharged
+92,48,4,03/01/2024 09:53 AM,Urgent,Abdominal pain,Transfer,Jensen LLC #597198,03/08/2024 02:53 AM,Discharged
+93,49,2,01/13/2025 01:39 PM,Elective,Fall injury,Walk-In,"Sims, Mclean and Porter #174506",01/29/2025 11:39 PM,Discharged
+94,50,25,03/23/2025 01:32 AM,Emergency,Abdominal pain,Ambulance,,04/02/2025 11:32 PM,Discharged
+95,51,2,07/08/2025 11:06 PM,Emergency,Shortness of breath,Physician Referral,Williams Ltd #361528,07/14/2025 12:06 PM,Discharged
+96,52,35,01/27/2023 02:47 AM,Outpatient,Headache,Walk-In,Baker-Conrad #911568,01/27/2023 07:47 AM,Discharged
+97,53,1,09/15/2024 04:47 AM,Elective,Cough,Ambulance,Fowler PLC #470466,09/24/2024 01:47 PM,Discharged
+98,53,10,05/26/2025 01:47 PM,Elective,Cough,Physician Referral,Mills-Vasquez #477018,05/29/2025 02:47 AM,Discharged
+99,54,20,01/13/2024 10:19 PM,Outpatient,Weakness,Walk-In,unknown,01/14/2024 05:19 AM,Discharged
+100,54,15,09/15/2024 05:19 AM,Elective,Fever,Transfer,Reyes-Strickland #986535,09/29/2024 04:19 PM,Discharged
+101,54,2,11/10/2024 04:19 PM,Urgent,Chest pain,Walk-In,"Walker, Snyder and Williams #519285",11/13/2024 05:19 AM,Discharged
+102,55,40,04/07/2024 11:19 PM,Emergency,Chest pain,Physician Referral,Smith LLC #800554,04/14/2024 01:19 AM,Discharged
+103,55,4,12/26/2024 01:19 AM,Emergency,Chest pain,Walk-In,Ramirez-Ross #291540,12/28/2024 03:19 PM,Discharged
+104,56,4,05/11/2025 12:53 AM,Emergency,Nausea,Transfer,"Black, Carroll and Mcknight #866218",05/23/2025 04:53 PM,Discharged
+105,57,5,07/27/2023 04:21 AM,Elective,Nausea,Ambulance,"Clements, Snow and Chase #440404",08/10/2023 09:21 PM,Discharged
+106,58,20,11/02/2023 06:01 AM,Urgent,Weakness,Transfer,Ruiz Group #370093,11/15/2023 04:01 AM,Discharged
+107,58,1,TBD,Elective,Weakness,Transfer,Beltran-Saunders #145734,04/23/2024 06:01 AM,Discharged
+108,59,10,03/25/2024 01:21 AM,Emergency,Headache,Transfer,Spencer Group #350208,03/28/2024 04:21 AM,Discharged
+109,60,10,12/11/2024 08:22 AM,OUTPATIENT,Weakness,Transfer,"Taylor, Hughes and Parrish #243313",12/11/2024 12:22 PM,Discharged
+110,61,3,05/04/2025 02:04 PM,Outpatient,Cough,Transfer,"Wright, Wilson and Glover #680930",05/04/2025 08:04 PM,Discharged
+111,62,3,01/06/2025 04:16 PM,Emergency,Fall injury,Ambulance,Kramer Ltd #779148,01/09/2025 07:16 AM,Discharged
+112,62,20,06/12/2025 07:16 AM,Emergency,Nausea,Physician Referral,unknown,06/22/2025 12:16 AM,Discharged
+113,62,3,04/08/2026 12:16 AM,Elective,Cough,Physician Referral,Jones-Taylor #792897,04/10/2026 08:16 PM,Discharged
+114,62,1,06/03/2026 08:16 PM,OUTPATIENT,Shortness of breath,Ambulance,Scott Group #748211,06/03/2026 10:16 PM,Discharged
+115,62,40,08/30/2026 10:16 PM,Outpatient,Nausea,Physician Referral,Bailey Inc #272559,08/31/2026 06:16 AM,Discharged
+116,63,3,02/30/2025 10:00 AM,Elective,Fever,Walk-In,"Williams, Jenkins and Dalton #982880",09/27/2025 12:01 PM,Discharged
+117,63,30,02/03/2026 12:01 PM,Emergency,Weakness,Walk-In,"Hall, Lee and Clark #980071",02/05/2026 10:01 PM,Discharged
+118,63,20,08/29/2026 10:01 PM,Emergency,Headache,Transfer,"Jackson, Camacho and Skinner #234753",09/14/2026 08:01 AM,Discharged
+119,64,2,10/28/2024 01:40 AM,Outpatient,Chest pain,Walk-In,Gonzales-Baldwin #246648,10/28/2024 05:40 AM,Discharged
+120,66,25,07/07/2025 08:56 AM,Elective,Fall injury,Physician Referral,"Williams, Chavez and Nguyen #122063",07/08/2025 05:56 PM,Discharged
+121,66,30,03/11/2026 05:56 PM,Urgent,Fever,Ambulance,Ball Ltd #396624,03/22/2026 09:56 AM,Discharged
+122,68,5,06/10/2023 08:57 PM,Outpatient,Abdominal pain,Transfer,Sanchez LLC #937358,06/11/2023 03:57 AM,Discharged
+123,68,25,02/08/2024 03:57 AM,Elective,Weakness,Physician Referral,Mcclure LLC #357518,02/12/2024 02:57 PM,Discharged
+124,68,35,07/30/2024 02:57 PM,Elective,Headache,Walk-In,Black-Black #658564,08/01/2024 11:57 PM,Discharged
+125,68,1,02/28/2025 11:57 PM,Urgent,Chest pain,Ambulance,Sanchez-Taylor #333266,03/02/2025 06:57 PM,Discharged
+126,68,1,10/11/2025 06:57 PM,Elective,Headache,Transfer,Le Ltd #551943,10/16/2025 09:57 AM,Discharged
+127,69,1,12/09/2024 02:13 AM,Elective,Chest pain,Ambulance,Mcmahon PLC #485536,12/12/2024 01:13 PM,Discharged
+128,71,10,08/01/2023 12:06 PM,Urgent,Abdominal pain,Physician Referral,Navarro and Sons #428658,08/13/2023 02:06 PM,Discharged
+129,72,35,07/30/2025 04:18 AM,Emergency,Chest pain,Physician Referral,"Watson, Hanson and Maddox #684468",08/08/2025 12:18 AM,Discharged
+130,72,5,03/07/2026 12:18 AM,Emergency,Headache,Walk-In,"Thompson, Nelson and Benitez #975434",03/24/2026 08:18 AM,Discharged
+131,72,4,05/05/2026 08:18 AM,Urgent,Fall injury,Transfer,"Joseph, Ramirez and Cannon #859562",05/22/2026 08:18 AM,Discharged
+132,73,30,07/05/2023 05:25 AM,Elective  ,Weakness,Transfer,Rodriguez-Lawson #896675,07/16/2023 02:25 AM,Discharged
+133,73,10,04/04/2024 02:25 AM,Emergency,Dizziness,Walk-In,Smith Ltd #331483,04/20/2024 05:25 AM,Expired
+134,74,15,08/16/2023 05:57 PM,Elective,Headache,Ambulance,"Franklin, Peters and Vasquez #291275",08/17/2023 01:57 PM,Discharged
+135,74,35,12/29/2023 01:57 PM,Elective,Shortness of breath,Physician Referral,Nelson Ltd #539602,12/31/2023 09:57 AM,Discharged
+136,4333,10,03/12/2024 09:57 AM,Emergency,Fall injury,Walk-In,Galvan and Sons #529638,03/17/2024 04:57 PM,Discharged
+137,75,1,02/22/2023 02:25 AM,Outpatient,Fall injury,Transfer,Villanueva-Perez #235792,02/22/2023 12:25 PM,Discharged
+138,75,5,12/07/2023 12:25 PM,Elective,Abdominal pain,Ambulance,Wiggins-Baker #712819,12/13/2023 09:25 PM,Discharged
+139,76,30,01/20/2023 11:22 PM,Outpatient,Chest pain,Transfer,"Spears, Brown and Shelton #139394",01/21/2023 04:22 AM,Discharged
+140,76,40,04/22/2023 04:22 AM,Emergency,Cough,Ambulance,"Rodriguez, Parker and Anderson #640472",04/25/2023 09:22 PM,Discharged
+141,76,10,08/20/2023 09:22 PM,Outpatient,Fall injury,Ambulance,"Beltran, Sanders and Perez #865834",08/21/2023 01:22 AM,Discharged
+142,76,2,06/08/2024 01:22 AM,Outpatient,Nausea,Ambulance,Blevins-Jones #572010,06/08/2024 04:22 AM,Discharged
+143,77,35,02/02/2024 06:44 AM,Outpatient,Fever,Ambulance,Gray PLC #248036,02/02/2024 01:44 PM,Discharged
+144,77,2,10/23/2024 01:44 PM,Urgent,Dizziness,Physician Referral,Ponce-White #639412,11/07/2024 04:44 AM,Discharged
+145,78,3,07/31/2023 09:10 AM,Outpatient,Nausea,Transfer,"Coleman, Randall and Torres #460336",07/31/2023 06:10 PM,Discharged
+146,78,10,10/08/2023 06:10 PM,Elective,Weakness,Walk-In,Lyons LLC #635414,10/16/2023 04:10 PM,Discharged
+147,78,30,04/12/2024 04:10 PM,Urgent,Fever,Transfer,Hamilton and Sons #121389,04/23/2024 01:10 PM,Discharged
+148,79,4,12/23/2023 07:09 AM,Urgent,Fever,Transfer,"Brown, Miller and Hernandez #378400",01/05/2024 11:09 AM,Discharged
+149,80,30,06/24/2023 11:20 AM,Urgent,Headache,Transfer,Sparks-Andrews #696672,06/30/2023 07:20 AM,Discharged
+150,81,5,10/14/2024 09:47 AM,Elective,Nausea,Walk-In,"Giles, Cooper and Taylor #370184",11/01/2024 08:47 AM,Discharged
+151,81,25,04/30/2025 08:47 AM,Emergency,Abdominal pain,Transfer,"Payne, Schwartz and Padilla #501275",05/09/2025 05:47 PM,Discharged
+152,81,3,01/31/2026 05:47 PM,Emergency,Abdominal pain,Walk-In,"Williams, Moreno and Mills #482662",02/17/2026 01:47 AM,Expired
+153,82,10,06/18/2025 02:50 AM,Outpatient,Cough,Ambulance,"Smith, Cunningham and Perry #215740",06/18/2025 08:50 AM,Discharged
+154,83,5,07/28/2025 12:36 PM,Urgent,Headache,Transfer,Lambert-Pacheco #742675,08/04/2025 09:36 PM,Discharged
+155,84,10,07/29/2024 03:32 PM,Outpatient,Fever,Transfer,"Young, Brock and Black #575261",07/29/2024 11:32 PM,Discharged
+156,86,3,07/18/2025 01:48 AM,Urgent,Shortness of breath,Transfer,"Kelly, Arias and Robinson #481124",07/25/2025 02:48 PM,Discharged
+157,7559,40,05/01/2026 02:48 PM, Urgent ,Chest pain,Transfer,Lee-Mahoney #700987,05/13/2026 09:48 PM,Discharged
+158,87,4,08/15/2024 07:15 AM,Outpatient,Fever,Transfer,"Walton, Case and Evans #367673",08/15/2024 10:15 AM,Discharged
+159,87,20,04/13/2025 10:15 AM,Urgent,Headache,Physician Referral,"Stewart, Brennan and Sanders #336655",04/29/2025 01:15 PM,Discharged
+160,87,15,06/22/2025 01:15 PM,Emergency,Nausea,Transfer,Osborne LLC #169116,06/29/2025 09:15 AM,Discharged
+161,88,1,02/16/2025 11:51 PM,Outpatient,Weakness,Physician Referral,Frank Ltd #328289,02/17/2025 09:51 AM,Expired
+162,88,15,09/29/2025 09:51 AM,Emergency,Fever,Transfer,unknown,09/30/2025 09:51 AM,Discharged
+163,88,35,04/18/2026 09:51 AM, Outpatient ,Headache,Ambulance,"Arellano, Prince and Mitchell #947972",04/18/2026 01:51 PM,Discharged
+164,89,25,10/18/2023 03:04 AM,Emergency,Fall injury,Ambulance,Gomez Ltd #145059,10/20/2023 01:04 PM,Discharged
+165,90,25,03/03/2025 11:36 AM,Emergency,Nausea,Physician Referral,"Wilson, Cameron and Garza #313878",03/11/2025 01:36 PM,Discharged
+166,90,2,10/29/2025 01:36 PM,Urgent,Headache,Walk-In,Byrd Inc #364953,11/01/2025 02:36 AM,Discharged
+167,90,15,02/09/2026 02:36 AM,OUTPATIENT,Fall injury,Ambulance,"Schmidt, Moses and Camacho #170399",02/09/2026 09:36 AM,Discharged
+168,90,30,08/30/2026 09:36 AM,Urgent,Nausea,Ambulance,unknown,09/02/2026 10:36 PM,Discharged
+169,91,5,04/19/2023 02:20 PM,Elective,Cough,Walk-In,NULL,05/01/2023 09:20 PM,Discharged
+170,91,20,08/12/2023 09:20 PM,Elective,Dizziness,Ambulance,"Simmons, Page and Anderson #681948",08/29/2023 12:20 AM,Discharged
+171,91,20,05/07/2024 12:20 AM,Urgent,Fall injury,Physician Referral,Williams LLC #821114,05/10/2024 11:20 AM,Discharged
+172,91,1,12/11/2024 11:20 AM,Emergency,Nausea,Physician Referral,unknown,12/17/2024 05:20 PM,Discharged
+173,91,20,03/19/2025 05:20 PM,Elective,Headache,Transfer,Dickerson-Jimenez #651679,03/22/2025 07:20 PM,Discharged
+174,92,3,07/11/2024 04:08 AM,Urgent,Weakness,Physician Referral,"Zuniga, Johnson and Marshall #546958",07/20/2024 01:08 AM,Discharged
+175,92,20,04/28/2025 01:08 AM,Outpatient,Weakness,Physician Referral,Ramirez-Ballard #594718,04/28/2025 05:08 AM,Discharged
+176,92,20,07/11/2025 05:08 AM,Elective,Chest pain,Walk-In,"Jackson, Berger and Reyes #625415",07/20/2025 04:08 AM,Discharged
+177,92,1,01/12/2026 04:08 AM,Elective,Cough,Ambulance,Rosario Ltd #707584,01/21/2026 07:08 PM,Discharged
+178,93,30,12/13/2024 10:51 AM,Outpatient,Fever,Transfer,Ruiz Ltd #749822,12/13/2024 11:51 AM,Discharged
+179,94,15,09/10/2023 12:18 AM,Elective,Cough,Physician Referral,Allen-Smith #121254,09/20/2023 09:18 AM,Discharged
+180,94,40,11/25/2023 09:18 AM,Outpatient,Abdominal pain,Transfer,Rodriguez-Holmes #486302,11/25/2023 05:18 PM,Discharged
+181,94,25,06/06/2024 05:18 PM,Urgent,Weakness,Physician Referral,,06/17/2024 07:18 PM,Discharged
+182,94,1,07/29/2024 07:18 PM,Elective,Weakness,Transfer,Taylor Group #626509,07/31/2024 05:18 AM,Discharged
+183,95,25,03/07/2025 10:43 PM,Elective,Fall injury,Physician Referral,Acosta LLC #280988,03/14/2025 06:43 PM,Discharged
+184,96,30,07/21/2023 12:48 AM,Outpatient,Fever,Transfer,Wise-Dennis #277763,07/21/2023 05:48 AM,Discharged
+185,96,10,12/07/2023 05:48 AM,Elective,Chest pain,Transfer,"Townsend, Moore and Mendoza #617998",12/13/2023 02:48 PM,Discharged
+186,96,25,09/12/2024 02:48 PM, Urgent ,Fall injury,Ambulance,Henry and Sons #418420,09/24/2024 01:48 AM,Discharged
+187,97,4,06/06/2024 09:33 AM,Outpatient,Nausea,Physician Referral,Smith LLC #306327,06/06/2024 01:33 PM,Discharged
+188,98,3,10/29/2023 12:51 PM,Elective,Nausea,Walk-In,"Thomas, Hall and Moss #104204",11/15/2023 07:51 PM,Discharged
+189,98,3,03/09/2024 07:51 PM,Outpatient,Dizziness,Ambulance,"Hernandez, Russell and Miller #977343",03/10/2024 02:51 AM,Discharged
+190,99,40,06/18/2024 12:51 PM,Emergency,Shortness of breath,Transfer,Reid-Valdez #176636,06/29/2024 03:51 AM,Discharged
+191,99,25,09/16/2024 03:51 AM,Elective,Fall injury,Walk-In,Walker LLC #959261,09/23/2024 10:51 PM,Discharged
+192,100,2,05/15/2023 05:26 PM,Urgent,Nausea,Physician Referral,Carr and Sons #455411,05/23/2023 10:26 AM,Discharged
+193,100,15,08/28/2023 10:26 AM,Outpatient,Fall injury,Walk-In,"Gonzalez, Munoz and Briggs #949184",08/28/2023 12:26 PM,Discharged
+194,102,20,05/06/2024 11:01 AM,Elective,Shortness of breath,Transfer,"Chen, Kirk and Russell #668756",05/09/2024 01:01 AM,Discharged
+195,103,15,01/29/2025 10:17 AM,Elective,Fever,Ambulance,"Combs, Anderson and Mcclure #731652",02/12/2025 08:17 AM,Discharged
+196,103,10,09/07/2025 08:17 AM,Elective,Headache,Walk-In,NULL,09/22/2025 12:17 AM,Discharged
+197,103,1,04/17/2026 12:17 AM,Outpatient,Shortness of breath,Ambulance,Miller Group #483757,04/17/2026 06:17 AM,Discharged
+198,103,30,08/14/2026 06:17 AM,Outpatient,Nausea,Physician Referral,"Wright, Long and Gomez #693262",08/14/2026 03:17 PM,Discharged
+199,104,30,06/04/2025 11:13 AM,Urgent,Fever,Ambulance,Smith-Martin #581132,06/20/2025 06:13 PM,Discharged
+200,104,3,01/07/2026 06:13 PM,Elective,Fever,Transfer,"White, King and Scott #237525",01/10/2026 07:13 PM,Discharged
+201,104,4,02/20/2026 07:13 PM,Urgent,Abdominal pain,Physician Referral,Sampson-Olson #563165,02/25/2026 03:13 AM,Discharged
+202,105,2,11/13/2023 01:47 AM,Elective,Headache,Transfer,"Price, West and Jones #257631",11/16/2023 08:47 AM,Discharged
+203,105,40,02/08/2024 08:47 AM, Urgent ,Dizziness,Ambulance,unknown,02/16/2024 01:47 AM,Discharged
+204,105,10,06/21/2024 01:47 AM,Elective,Cough,Walk-In,Hammond-Mitchell #154219,06/23/2024 08:47 PM,Discharged
+205,105,5,09/05/2024 08:47 PM,Outpatient,Fall injury,Physician Referral,Hartman Ltd #978455,09/06/2024 12:47 AM,Discharged
+206,105,1,01/26/2025 12:47 AM,Emergency,Fever,Walk-In,Anderson-Stephens #292915,01/24/2025 08:47 PM,Discharged
+207,106,5,12/11/2023 01:13 AM,Emergency,Headache,Ambulance,Watkins-Cruz #501787,12/16/2023 10:13 AM,Discharged
+208,106,1,09/12/2024 10:13 AM,Emergency,Dizziness,Physician Referral,Jones-Wright #530923,09/24/2024 09:13 AM,Discharged
+209,107,3,01/09/2023 04:29 AM,Urgent,Headache,Ambulance,"Lawson, Garcia and Hogan #415549",01/27/2023 02:29 AM,Discharged
+210,107,5,08/21/2023 02:29 AM,Outpatient,Weakness,Ambulance,Robinson-Ferguson #983900,08/21/2023 07:29 AM,Discharged
+211,108,4,08/07/2024 04:32 AM,Outpatient,Cough,Walk-In,Cole PLC #303237,08/07/2024 11:32 AM,Discharged
+212,108,25,12/13/2024 11:32 AM,Urgent,Headache,Walk-In,,12/19/2024 07:32 AM,Discharged
+213,108,4,03/24/2025 07:32 AM,Urgent,Fall injury,Transfer,Mcknight Group #288765,03/30/2025 06:32 PM,Discharged
+214,108,15,12/25/2025 06:32 PM,Elective,Abdominal pain,Transfer,Underwood Ltd #370960,12/31/2025 03:32 PM,Discharged
+215,109,40,08/22/2023 09:51 PM,Elective,Chest pain,Ambulance,Knight Ltd #388927,09/09/2023 01:51 PM,Discharged
+216,111,30,01/23/2023 10:46 AM,Outpatient,Nausea,Walk-In,Johnson-Bauer #798795,01/23/2023 11:46 AM,Discharged
+217,112,20,12/11/2023 01:03 PM,URGENT,Fever,Physician Referral,"Spears, Munoz and Martinez #759072",12/13/2023 02:03 AM,Discharged
+218,112,4,06/21/2024 02:03 AM,Outpatient,Abdominal pain,Ambulance,"Herrera, Cameron and Jefferson #783378",06/19/2024 09:03 PM,Discharged
+219,112,30,03/16/2025 09:03 AM,Elective,Shortness of breath,Transfer,Santiago-Li #845856,03/18/2025 02:03 PM,Discharged
+220,112,1,07/21/2025 02:03 PM,Elective,Chest pain,Transfer,Rivers LLC #888735,07/26/2025 02:03 AM,Discharged
+221,113,15,05/06/2023 08:56 AM,Outpatient,Nausea,Physician Referral,Zavala-Garrett #140857,05/06/2023 05:56 PM,Discharged
+222,113,3,09/05/2023 05:56 PM,Urgent,Dizziness,Ambulance,Martinez-Ayala #387701,09/14/2023 12:56 PM,Discharged
+223,114,3,06/26/2025 07:17 AM,Emergency,Nausea,Transfer,Barton LLC #351616,06/29/2025 12:17 AM,Discharged
+224,114,3,10/06/2025 12:17 AM,Emergency,Nausea,Physician Referral,"Wheeler, Marshall and Conley #714478",10/18/2025 04:17 AM,Discharged
+225,114,5,07/22/2026 04:17 AM,Urgent,Chest pain,Physician Referral,Mullins-Wright #960496,07/27/2026 08:17 AM,Discharged
+226,115,5,07/10/2024 05:05 AM,Urgent,Fall injury,Transfer,"Mcintyre, White and Johnson #808229",07/20/2024 05:05 AM,Discharged
+227,115,30,11/04/2024 05:05 AM,Emergency,Fall injury,Transfer,"Mullen, Huang and Phillips #122995",11/17/2024 01:05 PM,Discharged
+228,115,30,07/31/2025 01:05 PM,Emergency,Nausea,Physician Referral,,08/13/2025 12:05 PM,Discharged
+229,116,25,09/24/2025 04:07 AM,Emergency,Shortness of breath,Ambulance,Saunders Ltd #806730,10/04/2025 01:07 AM,Discharged
+230,116,1,01/03/2026 01:07 AM,Elective,Fever,Ambulance,Johnson-Bates #287327,01/17/2026 04:07 PM,Discharged
+231,117,4,01/01/2025 06:10 PM,Outpatient,Fever,Transfer,"Delgado, Smith and Smith #753471",01/01/2025 07:10 PM,Discharged
+232,117,1,10/16/2025 07:10 PM,Elective,Chest pain,Walk-In,Hinton-Leblanc #887222,10/25/2025 07:10 AM,Discharged
+233,117,20,04/10/2026 07:10 AM,Outpatient,Cough,Ambulance,Flowers-Jones #798435,04/10/2026 09:10 AM,Expired
+234,118,1,10/24/2024 12:48 PM,Outpatient,Abdominal pain,Transfer,Valenzuela Inc #721118,10/24/2024 10:48 PM,Discharged
+235,119,35,10/16/2023 10:18 PM, Elective ,Nausea,Walk-In,Scott-Mack #181491,10/26/2023 09:18 PM,Discharged
+236,119,10,02/08/2024 09:18 PM,Elective,Chest pain,Ambulance,"Davis, Bennett and Alvarez #665031",02/17/2024 03:18 AM,Discharged
+237,120,25,08/26/2023 06:04 AM,Urgent,Cough,Ambulance,Miller and Sons #916809,09/06/2023 01:04 PM,Discharged
+238,121,40,08/29/2025 09:32 AM,Emergency,Dizziness,Transfer,"Moore, Miller and Young #753431",09/04/2025 12:32 PM,Discharged
+239,122,2,06/14/2023 11:54 AM,Emergency,Weakness,Physician Referral,Gonzalez Ltd #579561,06/24/2023 07:54 PM,Discharged
+240,123,40,05/16/2025 10:39 PM,Newborn,Birth,Physician Referral,"Campbell, Burgess and Edwards #415775",05/29/2025 07:39 PM,Discharged
+241,123,40,07/01/2025 07:39 PM,Urgent,Weakness,Physician Referral,Johnson LLC #322852,07/08/2025 09:39 AM,Discharged
+242,124,1,11/10/2023 03:27 AM,Urgent,Headache,Physician Referral,Chapman-Wallace #703235,11/19/2023 06:27 AM,Discharged
+243,7838,4,03/15/2023 02:04 AM,Urgent,Headache,Transfer,Roberson Inc #849224,03/22/2023 05:04 PM,Discharged
+244,125,15,07/06/2023 05:04 PM,Emergency,Nausea,Ambulance,"Hendrix, Hall and Reeves #759147",07/14/2023 09:04 PM,Discharged
+245,127,20,10/09/2024 03:51 AM,Emergency,Weakness,Physician Referral,"Lewis, Bowen and Valdez #799967",10/19/2024 11:51 AM,Discharged
+246,127,40,03/13/2025 11:51 AM,Emergency,Headache,Ambulance,Baker-Johnson #140619,03/25/2025 11:51 AM,Expired
+247,127,25,11/18/2025 11:51 AM,Urgent,Fever,Walk-In,Cunningham LLC #123975,12/06/2025 05:51 AM,Discharged
+248,128,5,01/13/2023 12:59 PM,Elective,Headache,Transfer,Clark-Evans #347738,01/21/2023 03:59 PM,Discharged
+249,128,3,04/07/2023 03:59 PM,Elective,Chest pain,Transfer,Johnson Inc #165300,04/21/2023 09:59 PM,Discharged
+250,128,4,08/14/2023 09:59 PM,Outpatient,Dizziness,Physician Referral,Beck-Montes #673579,08/15/2023 06:59 AM,Discharged
+251,128,20,11/23/2023 06:59 AM,Outpatient,Fever,Walk-In,Acosta-Murphy #429548,11/23/2023 02:59 PM,Discharged
+252,128,35,07/01/2024 02:59 PM,Elective,Fall injury,Ambulance,"Bishop, Fisher and Jordan #460013",07/05/2024 04:59 AM,Discharged
+253,129,15,03/03/2024 05:49 PM,Urgent,Headache,Physician Referral,George-Weber #922325,03/12/2024 12:49 PM,Discharged
+254,130,5,06/01/2024 04:01 AM,Outpatient,Fever,Transfer,Carter-Weber #648618,06/01/2024 02:01 PM,Discharged
+255,501,20,01/03/2025 02:01 PM,Outpatient,Chest pain,Ambulance,Perry PLC #405029,01/03/2025 11:01 PM,Discharged
+256,131,4,05/04/2025 09:33 PM,Urgent,Dizziness,Ambulance,Davis-Mcbride #970340,05/15/2025 01:33 AM,Discharged
+257,133,40,08/10/2024 06:44 AM,Emergency,Weakness,Walk-In,Jones PLC #534056,08/11/2024 11:44 PM,Discharged
+258,133,20,12/09/2024 11:44 PM,Emergency,Abdominal pain,Physician Referral,Fry-Lyons #250022,12/19/2024 08:44 PM,Discharged
+259,134,10,12/31/2023 03:27 AM,Emergency,Weakness,Transfer,Miller and Sons #837969,01/06/2024 08:27 PM,Discharged
+260,135,35,03/31/2025 06:55 AM,Emergency,Dizziness,Walk-In,"Rivera, Murray and West #426334",04/12/2025 09:55 AM,Discharged
+261,135,10,06/26/2025 09:55 AM,Emergency,Cough,Ambulance,Castillo Group #539616,07/13/2025 11:55 PM,Discharged
+262,135,4,09/14/2025 11:55 PM,Urgent,Headache,Ambulance,Porter-Brown #335873,09/29/2025 07:55 AM,Discharged
+263,136,1,03/05/2023 04:44 PM,Urgent,Fall injury,Physician Referral,Davis Ltd #834317,03/10/2023 09:44 PM,Discharged
+264,136,40,06/26/2023 09:44 PM,Outpatient  ,Cough,Walk-In,Willis Inc #227771,06/27/2023 03:44 AM,Discharged
+265,136,30,09/21/2023 03:44 AM,Outpatient,Nausea,Walk-In,Gonzalez-Adams #501936,09/21/2023 10:44 AM,Discharged
+266,137,10,06/15/2023 03:44 AM,Elective,Fall injury,Physician Referral,Humphrey-Golden #538955,06/24/2023 07:44 PM,Discharged
+267,138,5,11/11/2023 02:07 PM,Emergency,Chest pain,Walk-In,"Barrett, Hess and Sullivan #623496",11/23/2023 08:07 AM,Expired
+268,139,40,02/03/2024 11:14 AM,Urgent,Cough,Ambulance,"Ross, Craig and Howard #170425",02/20/2024 02:14 PM,Discharged
+269,140,10,06/01/2024 02:41 AM,Elective,Dizziness,Ambulance,Wong-Miller #594892,06/11/2024 12:41 PM,Discharged
+270,141,3,04/22/2024 06:08 AM,Outpatient,Chest pain,Transfer,"Mack, Wolfe and Peterson #784585",04/22/2024 09:08 AM,Discharged
+271,141,25,12/01/2024 09:08 AM,Elective,Fall injury,Walk-In,Ryan Group #126836,12/08/2024 02:08 AM,Discharged
+272,141,25,07/21/2025 02:08 AM,Emergency,Headache,Physician Referral,"Gonzalez, Orr and Smith #194345",07/29/2025 07:08 PM,Discharged
+273,142,30,01/09/2023 02:12 AM,Emergency,Fall injury,Walk-In,unknown,01/17/2023 02:12 PM,Discharged
+274,143,20,11/04/2024 06:13 PM,Urgent,Cough,Physician Referral,"Clayton, Patel and Hernandez #405896",11/11/2024 02:13 AM,Expired
+275,144,15,02/20/2025 12:09 AM,Elective,Cough,Transfer,Thompson-Arias #248933,02/26/2025 12:09 AM,Discharged
+276,144,2,05/15/2025 12:09 AM,Emergency,Fever,Transfer,"Blackwell, Ramsey and Swanson #140143",05/20/2025 06:09 AM,Discharged
+277,145,35,09/20/2024 08:52 AM,Emergency,Headache,Walk-In,"Reed, Robertson and Simmons #180422",10/03/2024 10:52 AM,Discharged
+278,145,30,03/18/2025 10:52 AM,Emergency,Dizziness,Walk-In,Weeks-Cooper #402112,03/28/2025 12:52 AM,Discharged
+279,145,3,11/13/2025 12:52 AM,Elective,Chest pain,Physician Referral,Sutton Group #319116,11/26/2025 10:52 AM,Discharged
+280,145,40,03/01/2026 10:52 AM,Emergency,Headache,Physician Referral,,03/04/2026 05:52 PM,Discharged
+281,145,4,05/23/2026 05:52 PM,Emergency,Headache,Transfer,Green-Jones #448009,05/28/2026 12:52 AM,Discharged
+282,146,35,09/09/2024 12:07 PM,Outpatient,Fall injury,Physician Referral,Valdez-Harvey #936133,09/09/2024 05:07 PM,Discharged
+283,146,30,12/29/2024 05:07 PM,Elective,Cough,Ambulance,Henderson-Thompson #113101,01/15/2025 05:07 PM,Discharged
+284,146,3,11/04/2025 05:07 PM,Outpatient,Cough,Transfer,Walker Group #289496,11/05/2025 03:07 AM,Discharged
+285,147,4,04/22/2024 07:34 AM,Newborn,Birth,Transfer,"Kennedy, Hernandez and Day #659288",05/01/2024 12:34 PM,Discharged
+286,148,1,07/17/2024 04:55 PM,Elective  ,Dizziness,Physician Referral,NULL,07/25/2024 08:55 PM,Discharged
+287,148,40,11/17/2024 08:55 PM,Emergency,Fall injury,Physician Referral,Carlson Group #676340,11/27/2024 10:55 AM,Discharged
+288,149,40,01/18/2024 04:33 AM,Outpatient,Nausea,Walk-In,"Watkins, Francis and Galvan #967327",01/18/2024 12:33 PM,Discharged
+289,149,35,11/01/2024 12:33 PM,Outpatient,Dizziness,Physician Referral,,11/01/2024 07:33 PM,Discharged
+290,150,40,06/14/2024 02:18 PM,Elective,Dizziness,Physician Referral,Ellis Ltd #614373,06/22/2024 01:18 PM,Expired
+291,150,25,11/17/2024 01:18 PM,Outpatient,Nausea,Physician Referral,Stanley-Harrison #271977,11/17/2024 10:18 PM,Expired
+292,150,35,06/08/2025 10:18 PM,Elective,Weakness,Physician Referral,Good and Sons #360517,06/16/2025 06:18 PM,Discharged
+293,151,4,02/27/2024 11:59 AM,Urgent,Dizziness,Physician Referral,"Campbell, Taylor and Watson #392891",03/04/2024 08:59 PM,Discharged
+294,151,30,06/18/2024 08:59 PM,Outpatient,Abdominal pain,Ambulance,"Martinez, Clark and Hines #706529",06/18/2024 10:59 PM,Discharged
+295,154,40,03/25/2024 04:44 AM, Newborn ,Birth,Transfer,Herman-Gonzalez #330527,03/26/2024 10:44 AM,Discharged
+296,154,35,NULL,Emergency,Shortness of breath,Walk-In,Hartman Inc #389004,09/12/2024 08:44 PM,Discharged
+297,155,35,02/04/2024 05:24 AM,Outpatient,Weakness,Transfer,Hunt-Miller #879914,02/04/2024 03:24 PM,Discharged
+298,155,10,08/05/2024 03:24 PM,Urgent,Chest pain,Transfer,Watson-Miller #937595,08/10/2024 07:24 PM,Discharged
+299,156,20,02/11/2024 08:00 AM,Elective,Weakness,Physician Referral,Foley LLC #100239,02/15/2024 06:00 PM,Discharged,EXTRA,FIELD
+300,156,1,11/16/2024 06:00 PM,Emergency,Chest pain,Walk-In,Pham Group #248484,11/24/2024 01:00 AM,Discharged
+301,156,40,05/30/2025 01:00 AM,Outpatient,Shortness of breath,Walk-In,Ortiz and Sons #586762,05/30/2025 10:00 AM,Expired
+302,157,15,11/22/2024 11:31 PM,Urgent,Abdominal pain,Physician Referral,"Green, Beltran and Walker #511605",12/08/2024 05:31 PM,Discharged
+303,157,30,09/26/2025 05:31 PM,Emergency,Abdominal pain,Physician Referral,Dean-Mason #935207,10/11/2025 07:31 AM,Discharged
+304,157,2,03/07/2026 07:31 AM,Outpatient,Abdominal pain,Walk-In,"Dillon, Jones and Schultz #617217",03/07/2026 08:31 AM,Discharged
+305,158,30,01/11/2024 11:44 AM,Urgent,Fever,Ambulance,"Kidd, Gutierrez and Brady #293687",01/27/2024 03:44 PM,Discharged
+306,159,15,09/11/2025 12:22 PM,Outpatient,Chest pain,Walk-In,Smith-Hill #119928,09/11/2025 09:22 PM,Discharged
+307,160,3,06/29/2025 06:16 PM,Emergency,Nausea,Ambulance,Kelly LLC #422095,07/11/2025 07:16 AM,Discharged
+308,160,35,12/22/2025 07:16 AM,Outpatient,Weakness,Walk-In,Miller Ltd #802275,12/22/2025 03:16 PM,Discharged
+309,161,3,01/01/2024 01:13 PM,Emergency,Weakness,Transfer,Perez-Briggs #748576,01/06/2024 11:13 AM,Discharged
+310,163,20,06/26/2025 05:41 PM,Emergency,Weakness,Ambulance,Foster-Woods #329566,07/11/2025 05:41 PM,Discharged
+311,164,4,02/17/2023 04:30 PM,Emergency,Headache,Ambulance,Bradley-Jimenez #185159,02/28/2023 06:30 PM,Discharged
+312,164,2,09/29/2023 06:30 PM,Outpatient,Weakness,Ambulance,Coleman-Jefferson #833197,09/29/2023 07:30 PM,Discharged
+313,165,2,03/25/2025 04:04 PM,Elective,Chest pain,Transfer,Riggs-Lane #727207,04/08/2025 12:04 AM,Discharged
+314,166,40,09/12/2025 10:24 PM,Outpatient,Cough,Physician Referral,French Inc #901467,09/13/2025 04:24 AM,Discharged
+315,166,20,03/29/2026 04:24 AM,Elective,Nausea,Ambulance,NULL,04/15/2026 12:24 AM,Discharged
+316,166,4,06/29/2026 12:24 AM,Emergency,Nausea,Walk-In,Walton Group #699615,07/04/2026 12:24 PM,Discharged
+317,167,20,03/25/2023 05:03 PM,Urgent,Weakness,Ambulance,Crawford-Chambers #665741,04/09/2023 04:03 AM,Discharged
+318,167,40,12/11/2023 04:03 AM,Elective,Headache,Walk-In,,12/25/2023 06:03 PM,Discharged
+319,168,30,06/27/2024 07:24 AM,Urgent,Fever,Ambulance,Roth PLC #809495,07/10/2024 03:24 AM,Discharged
+320,168,1,01/24/2025 03:24 AM,Elective,Fall injury,Transfer,"Torres, Wiggins and Black #361269",01/31/2025 06:24 PM,Discharged
+321,168,20,05/06/2025 06:24 PM,Urgent,Nausea,Ambulance,Rios PLC #983688,05/10/2025 11:24 AM,Discharged
+322,169,40,01/15/2023 03:16 PM,elective,Cough,Walk-In,Hubbard-Myers #971196,02/01/2023 10:16 PM,Discharged
+323,169,30,04/21/2023 10:16 PM, Elective ,Fall injury,Transfer,Gilbert-Price #956101,05/04/2023 06:16 AM,Discharged
+324,169,30,11/22/2023 06:16 AM,Urgent,Fall injury,Walk-In,Gardner-King #167891,12/03/2023 05:16 AM,Discharged
+325,169,20,05/28/2024 05:16 AM,Elective,Shortness of breath,Physician Referral,"Riley, Sullivan and Chen #271291",05/30/2024 08:16 AM,Discharged
+326,170,20,11/03/2023 09:12 AM,Outpatient,Headache,Ambulance,Becker Inc #956034,11/03/2023 10:12 AM,Expired
+327,170,20,08/23/2024 10:12 AM,Elective,Chest pain,Walk-In,Pacheco and Sons #293057,09/06/2024 05:12 PM,Discharged
+328,171,3,03/28/2024 01:35 PM,Outpatient,Fall injury,Transfer,"Nelson, Gray and Davis #126618",03/28/2024 11:35 PM,Discharged
+329,171,10,07/01/2024 11:35 PM,Outpatient,Cough,Physician Referral,Martinez and Sons #221430,07/02/2024 05:35 AM,Discharged
+330,172,3,08/31/2023 09:21 AM,Outpatient,Chest pain,Ambulance,Lopez-Hunter #530443,08/31/2023 07:21 PM,Discharged
+331,172,2,05/17/2024 07:21 PM,Emergency,Dizziness,Ambulance,"Hernandez, Suarez and Sanders #633194",05/31/2024 09:21 PM,Discharged
+332,173,1,05/18/2024 12:23 AM,Elective,Weakness,Walk-In,Mahoney-Lee #305179,05/20/2024 01:23 AM,Discharged
+333,173,2,10/11/2024 01:23 AM,Emergency,Headache,Walk-In,"Mullins, Levine and Washington #125436",10/12/2024 12:23 PM,Discharged
+334,173,15,12/06/2024 12:23 PM,Emergency,Fall injury,Ambulance,Gonzalez and Sons #237531,12/09/2024 03:23 PM,Discharged
+335,173,5,04/27/2025 03:23 PM,Outpatient,Nausea,Physician Referral,Molina-Phelps #548997,04/27/2025 07:23 PM,Discharged
+336,174,25,12/31/2024 02:12 PM,Emergency,Abdominal pain,Walk-In,,01/13/2025 04:12 PM,Discharged
+337,175,1,08/15/2023 05:42 AM,Urgent,Nausea,Transfer,"Horton, Holden and Prince #919431",08/27/2023 11:42 PM,Discharged
+338,175,20,12/10/2023 11:42 PM,ELECTIVE,Abdominal pain,Physician Referral,"King, Barnett and Shepherd #215250",12/19/2023 08:42 PM,Discharged
+339,175,1,08/24/2024 08:42 PM,Emergency,Shortness of breath,Transfer,Porter PLC #834425,08/31/2024 09:42 AM,Discharged
+340,177,4,02/23/2025 07:37 PM,Outpatient,Chest pain,Physician Referral,"Oneal, Berg and Baker #181000",02/23/2025 09:37 PM,Discharged
+341,178,4,02/05/2025 08:09 AM,Outpatient,Dizziness,Transfer,Ortiz and Sons #688439,02/05/2025 04:09 PM,Discharged
+342,178,3,11/06/2025 04:09 PM,Outpatient,Chest pain,Walk-In,Andrews-Roberts #534586,11/06/2025 05:09 PM,Discharged
+343,178,4,03/21/2026 05:09 PM,Emergency,Nausea,Transfer,Jacobs-Frederick #892130,03/30/2026 10:09 PM,Discharged
+344,178,40,05/26/2026 10:09 PM,URGENT,Nausea,Transfer,Anderson LLC #506541,06/02/2026 02:09 AM,Discharged
+345,179,3,01/29/2024 05:47 AM,Emergency,Headache,Ambulance,"Garcia, Mcknight and Cowan #713411",02/13/2024 03:47 PM,Discharged
+346,180,40,03/28/2024 11:33 PM,emergency,Headache,Walk-In,"Parker, Chaney and Reynolds #683217",04/06/2024 02:33 PM,Discharged
+347,181,5,01/02/2025 10:03 AM,Emergency,Abdominal pain,Transfer,Myers and Sons #552616,01/04/2025 03:03 AM,Discharged
+348,182,30,02/26/2023 02:37 AM,Elective,Fever,Physician Referral,Guerra Ltd #501878,03/05/2023 04:37 AM,Discharged
+349,184,25,09/11/2023 08:34 PM,Emergency,Cough,Walk-In,Nichols-Stone #996027,09/20/2023 01:34 PM,Discharged
+350,185,35,09/13/2024 02:02 AM,Newborn,Birth,Walk-In,"Lynch, Johnson and Strickland #195140",09/21/2024 12:02 PM,Discharged
+351,185,3,05/31/2025 12:02 PM,Elective,Chest pain,Transfer,Arnold-Wright #129159,06/11/2025 06:02 PM,Discharged
+352,186,25,09/25/2023 11:00 AM,Emergency,Nausea,Ambulance,Gomez-Barker #481648,10/05/2023 10:00 AM,Discharged
+353,187,20,02/03/2025 11:00 PM,Elective,Dizziness,Physician Referral,unknown,02/21/2025 11:00 AM,Discharged
+354,188,25,02/25/2023 03:59 PM,Elective,Weakness,Physician Referral,Martinez Group #921672,03/10/2023 06:59 PM,Discharged
+355,189,5,05/05/2024 05:13 PM,Elective,Fever,Ambulance,Alvarez-Ward #456439,05/18/2024 08:13 PM,Discharged
+356,189,30,08/20/2024 08:13 PM,Emergency,Cough,Ambulance,Wilson-Jones #708481,08/26/2024 08:13 AM,Expired
+357,189,15,01/30/2025 08:13 AM,EMERGENCY,Dizziness,Physician Referral,Chambers PLC #200348,02/04/2025 08:13 PM,Discharged
+358,190,2,11/13/2024 01:32 PM,Emergency,Weakness,Ambulance,Henderson LLC #932362,11/19/2024 07:32 PM,Discharged
+359,190,10,03/20/2025 07:32 PM,Urgent,Weakness,Transfer,Young Inc #531050,03/23/2025 08:32 AM,Discharged
+360,190,15,08/03/2025 08:32 AM,Emergency,Fever,Transfer,Stevens-Miller #238567,08/08/2025 05:32 PM,Discharged
+361,190,3,05/01/2026 05:32 PM,Urgent,Cough,Physician Referral,"Jackson, Gray and Knight #798985",05/05/2026 10:32 PM,Discharged
+362,191,1,07/06/2024 09:48 AM,Urgent,Abdominal pain,Physician Referral,Stephens Inc #870271,07/23/2024 11:48 AM,Discharged
+363,191,1,01/15/2025 11:48 AM,Emergency,Fall injury,Transfer,Newton and Sons #179585,01/18/2025 01:48 AM,Discharged
+364,191,3,04/26/2025 01:48 AM,Outpatient,Weakness,Physician Referral,NULL,04/26/2025 10:48 AM,Discharged
+365,192,15,03/08/2024 05:53 AM,Urgent,Fall injury,Transfer,Kennedy-Parker #805554,03/21/2024 03:53 PM,Discharged
+366,192,40,10/23/2024 03:53 PM,Outpatient,Cough,Transfer,Smith-Wilkerson #677650,10/23/2024 09:53 PM,Discharged
+367,192,4,12/29/2024 09:53 PM,Outpatient,Abdominal pain,Transfer,"Cummings, Wood and Sanchez #722019",12/30/2024 06:53 AM,Discharged
+368,192,35,05/20/2025 06:53 AM,Elective,Headache,Walk-In,Stevenson PLC #930770,05/22/2025 02:53 PM,Discharged
+369,193,30,07/31/2024 11:25 AM,Emergency,Dizziness,Transfer,Brown PLC #990244,08/15/2024 08:25 AM,Discharged
+370,193,15,01/19/2025 08:25 AM,Emergency,Abdominal pain,Transfer,Cameron Ltd #305013,01/21/2025 05:25 AM,Discharged
+371,194,15,02/17/2025 06:35 PM,Outpatient,Chest pain,Ambulance,Williams-Martinez #841600,02/18/2025 12:35 AM,Discharged
+372,195,2,04/03/2023 10:53 PM,Outpatient,Fall injury,Transfer,Mack-Grant #212635,04/04/2023 12:53 AM,Discharged
+373,196,35,07/28/2025 02:46 PM,Outpatient,Fever,Transfer,unknown,07/28/2025 04:46 PM,Discharged
+374,196,40,03/13/2026 04:46 PM,Elective,Weakness,Transfer,Munoz Inc #921622,03/27/2026 04:46 PM,Discharged
+375,197,3,02/18/2024 09:08 PM,Emergency,Fever,Ambulance,"Soto, Wood and Walton #231709",03/02/2024 03:08 AM,Discharged
+376,197,5,NULL,Urgent,Abdominal pain,Transfer,"Lin, Glenn and Miller #642346",05/23/2024 06:08 AM,Expired
+377,198,35,07/22/2024 06:08 PM,Urgent,Fall injury,Walk-In,Jackson Group #698943,07/24/2024 11:08 PM,Discharged
+378,199,20,07/10/2024 10:05 PM,Urgent,Cough,Ambulance,Leon-Mckee #322181,07/17/2024 04:05 AM,Discharged
+379,200,10,02/05/2023 10:26 AM,Emergency,Fever,Transfer,"Dominguez, Robinson and Cunningham #974728",02/08/2023 05:26 PM,Discharged
+380,503,20,08/28/2025 01:36 PM,Elective,Dizziness,Walk-In,"Kelly, Johnson and Garza #341793",09/14/2025 08:36 PM,Discharged
+381,202,10,01/09/2024 05:15 PM,Outpatient,Nausea,Transfer,Kim Ltd #676980,01/09/2024 09:15 PM,Discharged
+382,203,15,10/19/2023 06:25 PM,Elective,Dizziness,Transfer,Ramirez LLC #475562,11/04/2023 10:25 AM,Discharged
+383,203,4,06/19/2024 10:25 AM,Elective,Chest pain,Physician Referral,Woods Ltd #361138,07/02/2024 01:25 AM,Discharged
+384,204,2,07/20/2024 10:09 AM,Urgent,Weakness,Physician Referral,Daniel-Collins #383625,08/01/2024 07:09 PM,Discharged
+385,204,3,11/13/2024 07:09 PM,Outpatient,Cough,Transfer,Shea and Sons #476919,11/13/2024 10:09 PM,Discharged
+386,204,1,TBD,Emergency,Headache,Physician Referral,Nicholson-Thompson #740965,02/19/2025 04:09 PM,Discharged
+387,204,20,08/30/2025 04:09 PM,Emergency,Abdominal pain,Physician Referral,"Thompson, Romero and Holloway #556829",09/14/2025 10:09 PM,Discharged
+388,205,35,12/03/2023 04:55 AM,Outpatient,Nausea,Transfer,Lopez LLC #910343,12/03/2023 06:55 AM,Discharged
+389,205,2,09/11/2024 06:55 AM,Outpatient,Fall injury,Transfer,Wood-Stafford #252627,09/11/2024 09:55 AM,Discharged
+390,205,25,11/27/2024 09:55 AM,Outpatient,Shortness of breath,Ambulance,Gutierrez-Lamb #747364,11/27/2024 01:55 PM,Discharged
+391,205,4,04/02/2025 01:55 PM,Outpatient,Chest pain,Transfer,Jordan-Silva #574183,04/02/2025 09:55 PM,Discharged
+392,206,25,03/08/2023 09:50 AM,Outpatient,Fall injury,Walk-In,"Miller, Williams and Evans #771382",03/08/2023 02:50 PM,Discharged
+393,206,5,08/13/2023 02:50 PM,emergency,Dizziness,Transfer,Knight Ltd #225681,08/31/2023 06:50 AM,Discharged
+394,206,2,02/19/2024 06:50 AM,Elective,Chest pain,Transfer,"Randall, Hamilton and Thomas #155381",02/23/2024 04:50 AM,Discharged
+395,207,4,06/23/2024 03:48 PM,Outpatient,Cough,Walk-In,Kelly and Sons #927424,06/23/2024 04:48 PM,Discharged
+396,207,35,02/22/2025 04:48 PM,Outpatient,Weakness,Ambulance,Swanson Group #908197,02/23/2025 12:48 AM,Discharged
+397,208,35,10/30/2023 08:07 AM,Newborn,Birth,Physician Referral,Brown-Lane #497500,11/03/2023 06:07 PM,Discharged
+398,208,1,07/18/2024 06:07 PM,Outpatient,Fever,Walk-In,Barrera and Sons #871185,07/19/2024 03:07 AM,Discharged
+399,209,15,03/06/2025 01:38 PM,Urgent,Fall injury,Transfer,May Inc #113523,03/20/2025 08:38 AM,Discharged
+400,209,4,12/15/2025 08:38 AM,Emergency,Abdominal pain,Ambulance,"Norman, Carpenter and Phillips #423375",01/01/2026 03:38 PM,Discharged
+401,209,20,05/25/2026 03:38 PM,Urgent,Shortness of breath,Ambulance,NULL,06/07/2026 08:38 PM,Discharged
+402,210,20,02/11/2025 02:48 AM,Outpatient,Nausea,Ambulance,"Tucker, Shelton and Rocha #924375",02/11/2025 09:48 AM,Discharged
+403,210,3,11/17/2025 09:48 AM,Urgent,Dizziness,Transfer,Hale Inc #642055,11/28/2025 06:48 PM,Discharged
+404,211,15,03/23/2025 06:24 PM,Outpatient,Fall injury,Ambulance,"Hill, Reyes and Butler #459237",03/23/2025 10:24 PM,Discharged
+405,212,3,10/17/2023 09:11 AM,Elective,Fall injury,Walk-In,"Martinez, Shaffer and Hodges #374867",10/30/2023 11:11 PM,Discharged
+406,212,25,07/03/2024 11:11 PM,Urgent,Weakness,Physician Referral,Garcia-Mcdonald #921628,07/18/2024 10:11 PM,Discharged
+407,212,3,03/12/2025 10:11 PM,Emergency,Nausea,Transfer,Cruz-Roberts #272236,03/17/2025 01:11 PM,Discharged
+408,213,10,02/26/2024 05:51 PM,Elective,Weakness,Physician Referral,Burnett PLC #894904,03/10/2024 01:51 PM,Expired
+409,214,15,05/02/2024 08:35 AM,Emergency,Cough,Ambulance,"Mata, Wolfe and Smith #280728",05/13/2024 09:35 AM,Discharged
+410,214,1,12/28/2024 09:35 AM,Emergency,Fall injury,Transfer,Gardner PLC #591872,01/15/2025 01:35 AM,Discharged
+411,215,4,07/09/2024 10:57 PM,Emergency,Fall injury,Walk-In,"Edwards, Mueller and Mendoza #932203",07/15/2024 05:57 AM,Discharged
+412,215,25,11/09/2024 05:57 AM,Outpatient,Cough,Transfer,Bell Group #683581,11/09/2024 08:57 AM,Discharged
+413,215,25,05/10/2025 08:57 AM,Urgent,Cough,Ambulance,Stein Inc #133322,05/16/2025 08:57 AM,Discharged
+414,215,35,10/26/2025 08:57 AM,Outpatient,Dizziness,Transfer,Davis Inc #803961,10/26/2025 10:57 AM,Discharged
+415,216,30,07/13/2023 12:21 PM,Urgent,Abdominal pain,Ambulance,Boyer-Watson #649079,07/15/2023 12:21 PM,Discharged
+416,216,20,09/17/2023 12:21 PM,Elective,Fever,Physician Referral,Townsend and Sons #971919,09/15/2023 10:21 PM,Discharged
+417,217,30,01/18/2025 02:15 AM,Urgent,Abdominal pain,Ambulance,Calderon Ltd #687251,01/31/2025 08:15 PM,Discharged
+418,217,25,04/30/2025 08:15 PM,Elective,Nausea,Transfer,Ramos PLC #244940,05/15/2025 04:15 PM,Discharged
+419,218,4,04/14/2023 04:46 AM,Emergency,Chest pain,Transfer,Sanders LLC #912989,04/20/2023 02:46 AM,Discharged
+420,219,40,07/23/2023 01:23 PM,Newborn,Birth,Ambulance,Moore PLC #861473,08/06/2023 03:23 AM,Discharged
+421,219,15,10/14/2023 03:23 AM,Emergency,Abdominal pain,Physician Referral,Marshall PLC #651900,10/25/2023 11:23 PM,Discharged
+422,220,2,04/26/2025 11:57 PM,Outpatient,Dizziness,Walk-In,"Thornton, Black and Flores #562027",04/27/2025 06:57 AM,Discharged
+423,220,40,10/11/2025 06:57 AM,Elective,Nausea,Physician Referral,"Flores, Blair and Rogers #239837",10/24/2025 09:57 AM,Discharged
+424,220,25,06/27/2026 09:57 AM,Elective,Abdominal pain,Transfer,"Williamson, Wilson and Young #116773",06/28/2026 05:57 PM,Discharged
+425,220,20,08/03/2026 05:57 PM,Outpatient,Chest pain,Ambulance,Skinner Ltd #256696,08/03/2026 09:57 PM,Discharged
+426,221,10,04/20/2025 08:03 AM,Outpatient,Shortness of breath,Walk-In,NULL,04/20/2025 04:03 PM,Discharged
+427,221,1,06/15/2025 04:03 PM,Emergency,Cough,Transfer,Payne Inc #308078,06/24/2025 01:03 AM,Discharged
+428,222,25,01/13/2025 07:39 PM,Outpatient,Shortness of breath,Physician Referral,Williams-Peterson #467106,01/14/2025 02:39 AM,Discharged
+429,222,20,09/28/2025 02:39 AM,Emergency,Cough,Walk-In,Silva Ltd #774465,09/29/2025 03:39 PM,Discharged
+430,222,20,12/23/2025 03:39 PM,Urgent,Weakness,Transfer,"Martinez, Green and Stewart #562511",12/30/2025 12:39 AM,Discharged
+431,222,40,06/19/2026 12:39 AM,Emergency,Weakness,Physician Referral,Black Group #184697,06/24/2026 07:39 PM,Discharged
+432,223,15,08/06/2025 09:10 AM,Outpatient,Nausea,Physician Referral,NULL,08/06/2025 05:10 PM,Discharged
+433,223,1,10/02/2025 05:10 PM,Emergency,Cough,Ambulance,Fuller PLC #836306,10/17/2025 03:10 PM,Discharged
+434,223,30,06/19/2026 03:10 PM,Emergency,Dizziness,Transfer,Steele Inc #377624,06/23/2026 11:10 AM,Discharged
+435,223,10,09/09/2026 11:10 AM,Elective,Headache,Physician Referral,Clayton LLC #857204,09/25/2026 06:10 PM,Discharged
+436,224,20,08/01/2025 04:56 PM,Emergency,Shortness of breath,Ambulance,Reid LLC #823994,08/17/2025 03:56 PM,Discharged
+437,224,15,03/06/2026 03:56 PM,Emergency,Weakness,Physician Referral,,03/15/2026 06:56 PM,Discharged
+438,225,20,08/27/2023 12:00 AM,Outpatient,Fall injury,Walk-In,,08/27/2023 07:00 AM,Discharged
+439,225,3,02/15/2024 07:00 AM,Emergency,Headache,Transfer,Carroll Inc #297927,02/20/2024 02:00 PM,Discharged
+440,226,1,01/04/2023 01:33 PM,Urgent,Headache,Transfer,"Miller, Dunn and Davis #919566",01/16/2023 04:33 AM,Discharged
+441,226,25,11/05/2023 04:33 AM,Urgent,Chest pain,Walk-In,"Schneider, Santana and Lawrence #541194",11/09/2023 07:33 AM,Discharged
+442,226,35,12/13/2023 07:33 AM,Emergency  ,Abdominal pain,Physician Referral,"Murphy, Carey and Gomez #989517",02/30/2025 10:00 AM,Discharged
+443,227,20,11/11/2024 01:16 AM,Emergency,Fever,Transfer,Barrett-Thomas #226056,11/20/2024 12:16 PM,Discharged
+444,228,10,03/21/2023 09:30 PM,Urgent,Shortness of breath,Ambulance,NULL,03/29/2023 03:30 AM,Discharged
+445,229,40,02/08/2024 11:31 AM,Urgent,Shortness of breath,Physician Referral,Gonzalez-Hamilton #882699,02/15/2024 08:31 PM,Discharged
+446,230,4,10/07/2023 05:46 PM,Newborn,Birth,Physician Referral,Mejia-Alexander #294488,10/10/2023 12:46 PM,Discharged
+447,230,15,07/05/2024 12:46 PM,Emergency,Cough,Physician Referral,NULL,07/18/2024 12:46 PM,Discharged
+448,232,30,10/07/2023 07:28 PM,Outpatient,Headache,Walk-In,Ryan Group #339034,10/08/2023 01:28 AM,Discharged
+449,233,30,01/09/2024 05:18 AM,Urgent,Abdominal pain,Transfer,Walker-Wright #875242,01/15/2024 11:18 PM,Discharged
+450,233,40,06/07/2024 11:18 PM,Elective,Nausea,Ambulance,Miller-Hill #332820,06/16/2024 10:18 PM,Expired
+451,234,1,NULL,Elective,Abdominal pain,Ambulance,Sherman-Kirby #105452,07/02/2024 04:38 AM,Discharged
+452,234,5,03/19/2025 04:38 AM,Emergency,Headache,Transfer,"Guerrero, Carson and Daniel #660950",03/20/2025 09:38 PM,Discharged
+453,235,1,07/18/2024 03:46 AM,Urgent,Shortness of breath,Ambulance,Crawford-Mcclain #623639,07/30/2024 08:46 PM,Discharged
+454,235,4,12/04/2024 08:46 PM,Outpatient,Weakness,Walk-In,Nichols-Hicks #605889,12/04/2024 09:46 PM,Discharged
+455,236,15,09/20/2023 03:51 AM,Emergency,Weakness,Ambulance,"Simpson, Smith and Fritz #402312",10/01/2023 08:51 PM,Discharged
+456,236,40,12/10/2023 08:51 PM,Emergency,Fall injury,Transfer,Thornton-Wood #374431,12/27/2023 09:51 AM,Discharged
+457,236,40,03/03/2024 09:51 AM,Urgent,Abdominal pain,Walk-In,Boyd Group #417367,03/11/2024 11:51 AM,Discharged
+458,236,15,06/29/2024 11:51 AM,Outpatient,Weakness,Ambulance,Greene and Sons #886602,06/29/2024 08:51 PM,Discharged
+459,237,5,07/23/2025 09:09 PM,Outpatient,Weakness,Physician Referral,Martinez-Walsh #273563,07/24/2025 12:09 AM,Discharged
+460,238,3,09/19/2024 12:11 PM,Newborn,Birth,Ambulance,Le Inc #821957,09/27/2024 09:11 AM,Discharged
+461,238,20,11/27/2024 09:11 AM,Outpatient,Fall injury,Walk-In,"Wright, Bailey and Walker #780268",11/27/2024 06:11 PM,Discharged
+462,239,40,12/02/2023 07:32 AM,Outpatient,Shortness of breath,Ambulance,NULL,12/02/2023 02:32 PM,Discharged
+463,240,3,03/13/2025 02:47 PM,Newborn,Birth,Physician Referral,,03/20/2025 04:47 AM,Discharged
+464,241,40,09/03/2025 08:34 PM,Urgent,Shortness of breath,Walk-In,Williams Inc #222257,09/14/2025 04:34 AM,Discharged
+465,241,15,01/24/2026 04:34 AM,Emergency,Headache,Transfer,Taylor-Mann #854682,01/27/2026 11:34 PM,Discharged
+466,241,40,08/12/2026 11:34 PM,Elective,Weakness,Walk-In,Simpson-Jackson #520683,08/23/2026 12:34 PM,Discharged
+467,242,40,01/09/2024 09:12 PM,Urgent,Nausea,Ambulance,"Montgomery, Perry and Baker #441182",01/17/2024 12:12 AM,Discharged
+468,243,2,10/09/2023 12:40 PM,Elective,Shortness of breath,Ambulance,"Martin, Clark and Coffey #927050",10/12/2023 09:40 AM,Discharged
+469,243,2,03/18/2024 09:40 AM,Outpatient,Headache,Walk-In,Villarreal-Parks #798844,03/18/2024 10:40 AM,Discharged
+470,243,2,11/14/2024 10:40 AM,Emergency,Weakness,Walk-In,"Howard, Miller and Rodriguez #674473",11/24/2024 04:40 AM,Discharged
+471,243,15,08/03/2025 04:40 AM,Urgent,Headache,Walk-In,"Smith, Jensen and Cruz #142363",08/21/2025 12:40 AM,Discharged
+472,243,20,12/18/2025 12:40 AM,Urgent,Headache,Ambulance,"Summers, Green and Johnson #164401",12/26/2025 06:40 PM,Discharged
+473,244,40,03/24/2025 12:10 AM,Urgent,Abdominal pain,Physician Referral,"Martin, Morales and Oneal #434632",03/21/2025 09:10 AM,Expired
+474,244,20,08/18/2025 06:10 PM,Emergency,Shortness of breath,Transfer,"Williams, Cox and Trujillo #137109",09/05/2025 02:10 AM,Discharged
+475,245,4,04/01/2024 08:21 PM,Elective,Dizziness,Walk-In,"Velez, Brock and Ortiz #889530",04/14/2024 12:21 AM,Discharged
+476,245,10,08/01/2024 12:21 AM,Outpatient,Chest pain,Transfer,"Martinez, Woodard and Warner #597213",08/01/2024 06:21 AM,Discharged
+477,246,20,01/03/2024 03:59 AM,Outpatient,Fever,Walk-In,Barton-Brooks #900597,01/03/2024 07:59 AM,Discharged
+478,247,3,07/22/2024 09:39 PM,Urgent,Dizziness,Ambulance,Marquez-Patterson #553811,08/03/2024 12:39 AM,Discharged
+479,247,20,02/25/2025 12:39 AM,Outpatient,Headache,Physician Referral,"Montes, Mckinney and Wilson #105920",02/25/2025 03:39 AM,Discharged
+480,248,3,09/04/2025 06:20 PM,Outpatient,Weakness,Transfer,Kennedy LLC #834742,09/05/2025 12:20 AM,Discharged
+481,248,10,03/20/2026 12:20 AM,Emergency,Dizziness,Transfer,"Kim, Clark and Morris #471187",03/23/2026 09:20 AM,Discharged
+482,249,15,02/19/2025 01:17 AM,Urgent,Abdominal pain,Walk-In,Simpson-Reed #217907,03/02/2025 05:17 PM,Discharged
+483,249,5,11/14/2025 05:17 PM,Outpatient,Weakness,Transfer,"Martin, Wu and Sandoval #383594",11/14/2025 06:17 PM,Discharged
+484,250,40,03/04/2023 07:12 AM,Elective,Fall injury,Transfer,Pruitt-Jackson #727454,03/16/2023 11:12 AM,Discharged
+485,505,5,07/16/2023 05:30 AM,Emergency,Headache,Walk-In,Compton-Oneill #793195,07/31/2023 11:30 PM,Expired
+486,251,1,05/19/2024 11:30 PM,Urgent,Cough,Ambulance,"Medina, Smith and Clark #307621",05/30/2024 10:30 PM,Discharged
+487,251,20,09/11/2024 10:30 PM,Emergency,Shortness of breath,Walk-In,NULL,09/19/2024 07:30 AM,Discharged
+488,252,1,01/14/2023 11:38 AM,Newborn,Birth,Transfer,"Wright, Rodriguez and Alexander #782735",01/29/2023 11:38 AM,Discharged
+489,252,30,04/26/2023 11:38 AM,Urgent,Nausea,Ambulance,Brown Inc #848891,05/02/2023 03:38 AM,Discharged
+490,253,1,02/08/2025 01:51 AM,Urgent,Fever,Physician Referral,Chandler-Gonzalez #504223,02/09/2025 07:51 AM,Discharged
+491,253,15,06/24/2025 07:51 AM,Outpatient,Headache,Physician Referral,Mckinney Ltd #991411,06/24/2025 02:51 PM,Expired
+492,254,25,10/14/2023 12:50 PM,Elective,Fever,Physician Referral,,10/29/2023 09:50 PM,Discharged
+493,255,40,02/23/2025 11:01 PM,Emergency,Cough,Transfer,Kelly PLC #829587,03/11/2025 09:01 AM,Discharged
+494,256,5,09/24/2024 06:58 PM,Emergency,Dizziness,Walk-In,Valdez PLC #218555,10/01/2024 02:58 PM,Discharged
+495,256,2,03/10/2025 02:58 PM,Urgent,Dizziness,Walk-In,May-Jones #462740,03/24/2025 01:58 AM,Discharged
+496,257,30,03/20/2025 11:37 PM,Elective,Abdominal pain,Physician Referral,"Williamson, Franco and Davis #204399",03/24/2025 02:37 PM,Discharged
+497,258,2,05/06/2024 01:05 PM,Emergency,Dizziness,Ambulance,"Obrien, Young and Krueger #816967",05/10/2024 06:05 PM,Discharged
+498,258,10,12/29/2024 06:05 PM,Outpatient,Fall injury,Physician Referral,Carter Inc #945824,12/30/2024 01:05 AM,Discharged
+499,259,10,07/08/2025 10:09 PM,Outpatient,Chest pain,Walk-In,Khan PLC #356923,07/09/2025 07:09 AM,Discharged
+500,259,2,12/10/2025 07:09 AM,Emergency,Chest pain,Transfer,Smith-Garrett #124814,12/14/2025 07:09 AM,Discharged
+501,259,25,02/26/2026 07:09 AM,Urgent,Nausea,Physician Referral,Murphy PLC #306579,03/08/2026 10:09 AM,Discharged
+502,259,15,08/09/2026 10:09 AM,Emergency,Cough,Physician Referral,"Payne, Knight and Tran #677909",08/25/2026 06:09 AM,Discharged
+503,260,20,04/10/2025 05:38 PM,Emergency,Cough,Transfer,"Hill, Hill and Hicks #181821",04/12/2025 02:38 PM,Discharged
+504,260,1,11/17/2025 02:38 PM,Emergency,Weakness,Ambulance,Gray-Garcia #551044,12/01/2025 04:38 PM,Expired
+505,261,20,04/11/2024 03:55 AM,Elective,Headache,Walk-In,,04/12/2024 08:55 AM,Discharged
+506,262,40,09/25/2025 11:29 AM,Emergency,Shortness of breath,Physician Referral,"Marshall, Wright and Wilson #304353",10/08/2025 05:29 PM,Discharged
+507,263,40,01/12/2023 08:29 PM,Elective,Fever,Walk-In,"Krueger, Davidson and Hill #931205",01/13/2023 04:29 PM,Discharged
+508,263,40,04/21/2023 04:29 PM,Elective,Chest pain,Transfer,Rodgers-Watson #129115,04/26/2023 11:29 PM,Discharged
+509,263,40,NULL,Emergency,Cough,Transfer,,06/21/2023 01:29 PM,Discharged
+510,263,3,10/01/2023 01:29 PM,Outpatient,Abdominal pain,Ambulance,"Watts, Mckinney and Nguyen #266680",10/01/2023 04:29 PM,Discharged
+511,264,25,07/28/2024 03:25 AM,Outpatient,Cough,Walk-In,Jones LLC #984030,07/28/2024 06:25 AM,Discharged
+512,264,15,11/07/2024 06:25 AM,Elective,Dizziness,Physician Referral,Macdonald Ltd #524435,11/20/2024 01:25 AM,Discharged
+513,265,10,01/13/2024 12:30 AM,Emergency,Headache,Transfer,,01/26/2024 06:30 PM,Discharged
+514,265,5,03/24/2024 06:30 PM,Emergency,Shortness of breath,Physician Referral,Phillips-Johnston #705965,04/08/2024 03:30 PM,Discharged
+515,266,1,09/10/2025 11:15 AM,Outpatient,Nausea,Physician Referral,"Nichols, Snyder and Barker #273352",09/10/2025 12:15 PM,Discharged
+516,267,3,08/03/2025 11:16 AM,Urgent,Fall injury,Transfer,"Santiago, Bird and Wright #679385",08/04/2025 09:16 PM,Discharged
+517,267,35,11/08/2025 09:16 PM,Outpatient,Nausea,Physician Referral,Hansen Inc #296706,11/06/2025 06:16 PM,Discharged
+518,267,4,12/09/2025 12:16 AM,Urgent,Headache,Transfer,Allen PLC #806247,12/11/2025 08:16 AM,Discharged
+519,268,10,09/13/2025 06:42 AM,Elective,Cough,Transfer,Fitzpatrick Ltd #765559,09/22/2025 08:42 AM,Expired
+520,269,15,10/16/2023 12:59 PM,Outpatient,Cough,Physician Referral,"Harris, Leon and Ryan #342485",10/16/2023 09:59 PM,Expired
+521,270,35,03/08/2024 03:23 AM,Elective,Fever,Transfer,Cox Inc #685820,03/15/2024 01:23 AM,Discharged
+522,270,1,11/22/2024 01:23 AM,Emergency,Abdominal pain,Transfer,Gallagher PLC #556765,12/05/2024 06:23 PM,Discharged
+523,270,3,02/14/2025 06:23 PM,Elective,Fever,Walk-In,unknown,03/02/2025 09:23 PM,Discharged
+524,271,20,07/11/2025 10:36 PM,Outpatient,Nausea,Ambulance,"Wu, Rowe and Oneal #538893",07/12/2025 06:36 AM,Discharged
+525,271,5,11/10/2025 06:36 AM,Urgent,Chest pain,Transfer,"Johnson, Caldwell and Collins #517848",11/17/2025 06:36 AM,Discharged
+526,271,5,01/05/2026 06:36 AM,Emergency,Cough,Physician Referral,Payne Inc #327516,01/11/2026 09:36 PM,Discharged
+527,271,3,02/17/2026 09:36 PM, Emergency ,Abdominal pain,Transfer,"Peterson, Taylor and Mora #552124",02/19/2026 10:36 PM,Discharged
+528,271,40,08/28/2026 10:36 PM,Outpatient,Fever,Physician Referral,Martin Ltd #713273,08/29/2026 04:36 AM,Discharged
+529,272,3,09/20/2025 07:07 PM,Outpatient,Weakness,Ambulance,"Johnson, Kelley and Williams #133330",09/21/2025 05:07 AM,Discharged
+530,272,25,01/16/2026 05:07 AM,Emergency,Nausea,Physician Referral,Rice-Clark #245003,01/20/2026 09:07 PM,Discharged,EXTRA,FIELD
+531,274,40,04/10/2025 09:53 PM,Elective,Headache,Walk-In,"Noble, Carter and Carlson #697776",04/23/2025 04:53 AM,Discharged
+532,275,30,08/03/2024 08:19 PM,Urgent,Weakness,Walk-In,Herring PLC #557324,08/05/2024 01:19 AM,Discharged
+533,276,15,03/21/2023 05:07 PM,Outpatient,Fall injury,Transfer,Walker LLC #810431,03/21/2023 11:07 PM,Expired
+534,276,40,08/23/2023 11:07 PM,Emergency,Abdominal pain,Ambulance,Stewart-Jones #672245,09/08/2023 06:07 AM,Discharged
+535,276,25,04/13/2024 06:07 AM,Emergency,Dizziness,Ambulance,Rodriguez Group #662738,04/27/2024 07:07 AM,Discharged
+536,277,5,08/25/2025 01:59 PM,Elective,Cough,Walk-In,Lewis Inc #191506,09/07/2025 07:59 AM,Discharged
+537,277,20,05/09/2026 07:59 AM,Urgent,Cough,Ambulance,"Hardin, Garza and Burke #409226",05/21/2026 12:59 AM,Discharged
+538,278,40,09/20/2024 11:02 AM,Outpatient,Chest pain,Walk-In,"Rice, Kirby and Tran #698286",09/20/2024 04:02 PM,Discharged
+539,279,25,08/31/2023 08:45 AM,Elective,Shortness of breath,Physician Referral,"Smith, Moore and Lin #923771",09/06/2023 07:45 AM,Discharged
+540,280,20,01/30/2024 10:39 AM,Urgent,Chest pain,Ambulance,Brown-Holden #841469,02/09/2024 11:39 PM,Discharged
+541,280,10,05/15/2024 11:39 PM,Outpatient,Nausea,Transfer,Cox-Schultz #244634,05/16/2024 12:39 AM,Discharged
+542,280,4,10/19/2024 12:39 AM,Urgent,Nausea,Walk-In,Medina Inc #559817,11/03/2024 07:39 AM,Discharged
+543,281,1,08/19/2025 08:05 PM,Urgent,Chest pain,Physician Referral,Schmidt-Salazar #311556,08/21/2025 12:05 AM,Discharged
+544,281,3,02/30/2025 10:00 AM,Outpatient,Fever,Walk-In,Lopez-Malone #589171,05/03/2026 06:05 AM,Discharged
+545,282,15,11/21/2024 10:40 AM,Emergency,Fever,Walk-In,George Inc #780789,11/27/2024 04:40 AM,Discharged
+546,282,3,07/10/2025 04:40 AM,Emergency,Headache,Ambulance,Douglas-Anderson #665668,07/21/2025 04:40 AM,Discharged
+547,283,30,12/25/2024 02:56 AM,Newborn,Birth,Ambulance,Nelson and Sons #663951,12/28/2024 12:56 PM,Discharged
+548,284,35,02/26/2024 05:59 PM,Emergency  ,Cough,Physician Referral,Larson Group #715062,03/13/2024 12:59 PM,Discharged
+549,284,3,10/02/2024 12:59 PM,Elective,Nausea,Physician Referral,"Schroeder, Gonzalez and Steele #316453",10/06/2024 04:59 PM,Expired
+550,284,4,06/01/2025 04:59 PM,Elective,Fever,Walk-In,Sampson-Murray #413518,06/08/2025 05:59 AM,Discharged
+551,285,2,05/24/2024 08:05 AM,Emergency,Fall injury,Walk-In,,05/27/2024 08:05 PM,Discharged
+552,285,5,01/06/2025 08:05 PM,Emergency,Abdominal pain,Ambulance,Huber Inc #116376,01/23/2025 09:05 PM,Discharged
+553,285,35,05/05/2025 09:05 PM,Emergency,Headache,Physician Referral,Bowen-Thompson #275586,05/18/2025 03:05 PM,Discharged
+554,286,40,01/17/2025 02:40 AM,Outpatient,Headache,Transfer,Foster LLC #564678,02/30/2025 10:00 AM,Discharged
+555,286,15,05/18/2025 09:40 AM,Elective,Dizziness,Physician Referral,Cruz Inc #969744,06/04/2025 01:40 PM,Discharged
+556,287,20,11/25/2024 12:49 PM,Elective,Abdominal pain,Ambulance,Lopez Group #727047,11/29/2024 01:49 AM,Discharged
+557,288,2,11/24/2024 01:46 AM,Outpatient,Chest pain,Physician Referral,"Robertson, Sanders and Williams #471203",11/24/2024 02:46 AM,Discharged
+558,289,3,12/24/2023 07:03 PM,Emergency,Fever,Physician Referral,"Bolton, Keller and Padilla #873343",01/01/2024 04:03 PM,Discharged
+559,289,15,03/25/2024 04:03 PM,Outpatient,Chest pain,Physician Referral,Miller-Davis #846757,03/25/2024 07:03 PM,Discharged
+560,289,30,05/26/2024 07:03 PM,Urgent,Dizziness,Walk-In,"Roach, Carroll and Lee #416716",06/13/2024 01:03 AM,Discharged
+561,289,20,11/09/2024 01:03 AM,Outpatient,Chest pain,Ambulance,"Williams, Parsons and Taylor #882434",11/09/2024 11:03 AM,Discharged
+562,290,15,03/07/2024 08:54 AM,Elective,Abdominal pain,Ambulance,"Harris, Wright and Huber #268284",03/20/2024 11:54 AM,Discharged
+563,290,15,05/13/2024 11:54 AM,Outpatient,Weakness,Walk-In,Rasmussen-Wong #448369,05/13/2024 02:54 PM,Discharged
+564,290,40,11/17/2024 02:54 PM,Outpatient,Nausea,Walk-In,Spencer-Morris #814096,11/17/2024 09:54 PM,Discharged
+565,291,4,04/16/2023 02:20 PM,Elective,Fever,Ambulance,Cortez LLC #199555,04/30/2023 04:20 AM,Discharged
+566,291,25,06/19/2023 04:20 AM,Elective,Nausea,Ambulance,Hartman-Suarez #171019,06/23/2023 01:20 AM,Discharged
+567,291,20,10/28/2023 01:20 AM,Elective,Fall injury,Walk-In,Ortega and Sons #661088,11/04/2023 08:20 AM,Discharged
+568,292,3,09/23/2023 11:36 PM,Emergency,Fever,Physician Referral,Mckay Group #949478,10/01/2023 12:36 AM,Discharged
+569,292,5,04/02/2024 12:36 AM,Outpatient,Dizziness,Ambulance,"Diaz, Rhodes and Ramirez #108118",04/02/2024 03:36 AM,Discharged
+570,293,20,10/12/2023 10:14 PM,Emergency,Cough,Physician Referral,"Allen, Perez and Martin #227964",10/18/2023 09:14 PM,Discharged
+571,294,10,12/27/2024 07:11 AM,Urgent,Nausea,Transfer,Wallace-Long #448251,01/07/2025 01:11 PM,Discharged
+572,295,4,02/04/2024 07:13 AM,Emergency,Fever,Ambulance,Hardy-Gilbert #286758,02/16/2024 09:13 PM,Discharged
+573,295,15,07/20/2024 09:13 PM,Outpatient,Shortness of breath,Walk-In,unknown,07/21/2024 01:13 AM,Discharged
+574,296,15,11/06/2024 05:05 AM,Newborn,Birth,Physician Referral,"Powell, Jackson and Lopez #240513",11/09/2024 11:05 PM,Discharged
+575,5545,35,03/29/2024 07:35 PM,Urgent,Abdominal pain,Transfer,Russell LLC #357121,03/30/2024 03:35 PM,Discharged
+576,299,5,11/19/2023 12:46 AM,Emergency,Fall injury,Ambulance,Davenport-Nash #196080,11/20/2023 08:46 PM,Discharged
+577,300,10,10/25/2024 01:20 AM,Urgent,Abdominal pain,Walk-In,"Johnson, Miller and Long #696621",10/29/2024 06:20 AM,Discharged
+578,300,15,04/09/2025 06:20 AM,Emergency,Fall injury,Walk-In,Wong-Martinez #765285,04/22/2025 05:20 AM,Discharged
+579,301,4,02/22/2024 04:37 AM,Emergency,Nausea,Transfer,Farrell-Maynard #865638,03/09/2024 07:37 AM,Discharged
+580,302,15,03/07/2025 02:10 AM,Elective,Nausea,Physician Referral,"Jones, Munoz and Scott #724458",03/21/2025 09:10 AM,Discharged
+581,303,2,06/03/2025 10:41 AM,Urgent,Abdominal pain,Ambulance,Hartman-Lopez #323354,06/17/2025 11:41 PM,Discharged
+582,303,1,08/10/2025 11:41 PM,Elective,Fall injury,Ambulance,NULL,08/28/2025 03:41 PM,Discharged
+583,303,15,05/02/2026 03:41 PM,Outpatient,Fall injury,Transfer,Hansen Group #217417,05/02/2026 07:41 PM,Discharged
+584,305,1,05/18/2025 08:25 AM,Urgent,Headache,Ambulance,"Blevins, Reynolds and Cruz #522903",05/30/2025 11:25 PM,Discharged
+585,306,10,06/17/2025 01:19 PM,Urgent,Abdominal pain,Physician Referral,Webster and Sons #903595,06/19/2025 03:19 AM,Discharged
+586,306,40,03/06/2026 03:19 AM,Emergency,Headache,Transfer,Walsh and Sons #503465,03/15/2026 10:19 PM,Discharged
+587,306,2,10/04/2026 10:19 PM,Emergency,Dizziness,Walk-In,Brown and Sons #156254,10/21/2026 05:19 AM,Expired
+588,307,15,03/23/2025 07:59 AM,Outpatient,Nausea,Physician Referral,Moore-Santos #268366,03/23/2025 04:59 PM,Discharged
+589,308,40,11/05/2023 08:57 AM,Emergency,Cough,Ambulance,Adams-Rodriguez #156693,11/14/2023 01:57 PM,Discharged
+590,308,2,07/01/2024 01:57 PM,Urgent,Weakness,Physician Referral,NULL,07/17/2024 10:57 PM,Discharged
+591,308,10,05/04/2025 10:57 PM,Elective,Shortness of breath,Transfer,"Mendoza, Brown and Stanton #720591",05/17/2025 10:57 PM,Discharged
+592,310,15,04/09/2023 05:43 PM,Elective,Abdominal pain,Physician Referral,Stone-Forbes #730700,04/16/2023 12:43 PM,Discharged
+593,310,25,02/09/2024 12:43 PM,Emergency,Shortness of breath,Walk-In,Collins LLC #343249,02/26/2024 07:43 AM,Discharged
+594,310,2,09/17/2024 07:43 AM,Emergency,Chest pain,Physician Referral,"Cummings, Jones and Buchanan #675881",09/29/2024 07:43 PM,Discharged
+595,310,20,02/16/2025 07:43 PM, Urgent ,Abdominal pain,Walk-In,"Patterson, Johnson and Adams #922125",02/25/2025 07:43 PM,Discharged
+596,310,25,06/06/2025 07:43 PM,Outpatient,Shortness of breath,Walk-In,Avila Ltd #925233,06/07/2025 05:43 AM,Discharged
+597,311,30,04/13/2023 11:49 PM,Elective,Dizziness,Physician Referral,Wiley Group #258897,04/16/2023 04:49 PM,Discharged
+598,311,5,06/03/2023 04:49 PM,Urgent,Shortness of breath,Ambulance,Waters Inc #881501,06/16/2023 02:49 PM,Discharged
+599,311,25,07/24/2023 02:49 PM,Emergency,Headache,Transfer,"Peck, Johnson and Jones #837978",08/03/2023 02:49 PM,Discharged
+600,312,25,07/23/2024 04:46 AM,Urgent,Headache,Walk-In,"Garcia, Short and Miller #102038",07/31/2024 03:46 PM,Discharged
+601,313,2,07/24/2025 08:20 AM,Outpatient,Abdominal pain,Transfer,"Garcia, Williams and Day #995499",07/24/2025 04:20 PM,Discharged
+602,313,35,04/13/2026 04:20 PM,Emergency,Dizziness,Walk-In,Holmes Inc #709914,04/21/2026 08:20 PM,Discharged
+603,314,1,10/13/2024 08:32 PM,Emergency,Weakness,Ambulance,Floyd Inc #706185,10/16/2024 10:32 PM,Discharged
+604,314,20,06/10/2025 10:32 PM,Emergency,Headache,Physician Referral,"Phillips, Jones and Duarte #555469",06/19/2025 05:32 AM,Discharged
+605,315,30,05/18/2024 09:11 PM,Urgent,Chest pain,Transfer,"Marquez, Hubbard and Perkins #246012",06/03/2024 09:11 PM,Discharged
+606,315,15,11/26/2024 09:11 PM,Urgent,Shortness of breath,Ambulance,Williams-Drake #626311,12/07/2024 12:11 PM,Discharged
+607,316,2,08/18/2023 10:11 AM,Elective,Cough,Transfer,Rodriguez-Grant #217687,08/27/2023 03:11 PM,Discharged
+608,316,4,11/16/2023 03:11 PM,Outpatient,Chest pain,Ambulance,"Johnson, Wang and Zimmerman #307306",11/16/2023 06:11 PM,Discharged
+609,316,40,07/08/2024 06:11 PM,Emergency,Abdominal pain,Transfer,"Wang, Thomas and Thomas #568273",07/10/2024 05:11 PM,Discharged
+610,316,25,04/14/2025 05:11 PM,Emergency,Cough,Transfer,Johnson-Richardson #281717,04/19/2025 05:11 AM,Discharged
+611,317,40,11/26/2023 01:12 PM,Urgent,Weakness,Ambulance,Taylor PLC #573551,12/01/2023 11:12 AM,Discharged
+612,317,1,05/08/2024 11:12 AM,Emergency,Weakness,Physician Referral,Harper Inc #942878,05/12/2024 07:12 AM,Discharged
+613,317,5,09/14/2024 07:12 AM,Elective,Cough,Physician Referral,"Martin, Garner and Luna #924750",09/30/2024 09:12 PM,Discharged
+614,317,25,04/23/2025 09:12 PM,Outpatient,Fall injury,Transfer,Fields-Garcia #866757,04/24/2025 01:12 AM,Discharged
+615,317,10,12/08/2025 01:12 AM,Urgent,Chest pain,Transfer,Johnson-Hamilton #451185,12/20/2025 03:12 AM,Discharged
+616,318,1,02/23/2025 04:59 PM,Urgent,Cough,Physician Referral,Escobar Ltd #617426,03/01/2025 03:59 PM,Discharged
+617,319,20,04/26/2025 12:05 PM,Outpatient,Cough,Physician Referral,"Mann, Dennis and Wright #455810",04/26/2025 01:05 PM,Discharged
+618,319,25,07/19/2025 01:05 PM,Elective,Chest pain,Walk-In,Smith and Sons #553580,07/18/2025 07:05 AM,Discharged
+619,320,2,09/07/2023 02:43 PM,Emergency,Weakness,Transfer,Jensen-Johnson #499555,09/16/2023 03:43 AM,Discharged
+620,321,25,12/26/2023 03:28 PM,Elective,Shortness of breath,Physician Referral,"Craig, Lopez and Kelley #556761",01/06/2024 10:28 AM,Discharged
+621,322,40,04/02/2023 02:25 PM,Elective,Shortness of breath,Transfer,Perez-Whitaker #215663,04/10/2023 01:25 PM,Discharged
+622,322,25,07/15/2023 01:25 PM,Urgent,Abdominal pain,Walk-In,Garcia Inc #345519,07/16/2023 01:25 PM,Discharged
+623,322,40,01/22/2024 01:25 PM,Elective,Fever,Ambulance,unknown,01/31/2024 01:25 AM,Discharged
+624,322,1,10/29/2024 01:25 AM,Outpatient,Shortness of breath,Ambulance,"Richards, Cox and Johnson #475682",10/29/2024 05:25 AM,Discharged
+625,323,30,05/23/2023 03:28 PM,Emergency,Shortness of breath,Ambulance,Herman-Coleman #967152,06/04/2023 05:28 PM,Discharged
+626,323,2,12/13/2023 05:28 PM,Emergency,Headache,Transfer,"Sellers, Booker and Baker #807744",12/25/2023 12:28 AM,Discharged
+627,324,10,08/28/2023 09:14 PM,Urgent,Nausea,Ambulance,"Martinez, Fischer and Miller #191046",09/07/2023 03:14 PM,Discharged
+628,325,5,02/17/2023 04:11 PM,Outpatient,Nausea,Physician Referral,Knight-Simpson #276389,02/18/2023 02:11 AM,Discharged
+629,325,40,10/06/2023 02:11 AM,Emergency,Weakness,Physician Referral,Christensen-Keller #445291,10/14/2023 03:11 AM,Discharged
+630,326,20,09/17/2025 09:31 AM,Emergency,Weakness,Transfer,Butler-Cook #894739,10/03/2025 05:31 AM,Discharged
+631,326,3,02/23/2026 05:31 AM,Urgent,Headache,Transfer,Simmons Group #697270,03/03/2026 02:31 PM,Discharged
+632,327,4,02/02/2024 07:15 PM,Elective,Chest pain,Walk-In,"Graves, Hardy and Turner #808292",02/13/2024 10:15 PM,Discharged
+633,327,40,08/25/2024 10:15 PM,Elective,Nausea,Ambulance,"Harmon, Gates and Eaton #711044",09/01/2024 07:15 AM,Discharged
+634,328,1,06/12/2024 08:58 PM,Outpatient,Abdominal pain,Walk-In,"Dixon, Davis and Decker #112568",06/12/2024 10:58 PM,Discharged
+635,329,20,09/06/2023 10:48 PM,Elective,Abdominal pain,Transfer,"Vazquez, Carpenter and Jenkins #649875",09/21/2023 09:48 PM,Discharged
+636,329,20,07/03/2024 09:48 PM,Emergency,Fever,Walk-In,Middleton Ltd #393520,07/11/2024 01:48 PM,Discharged
+637,329,4,03/04/2025 01:48 PM,Elective,Dizziness,Transfer,unknown,03/15/2025 04:48 PM,Discharged
+638,329,25,07/17/2025 04:48 PM,Emergency,Weakness,Transfer,Kirk LLC #407499,07/27/2025 05:48 PM,Discharged
+639,329,4,04/27/2026 05:48 PM,Elective,Abdominal pain,Transfer,"Bowman, George and Armstrong #814181",04/30/2026 07:48 AM,Expired
+640,330,3,07/23/2024 01:50 AM,Elective,Headache,Walk-In,unknown,07/28/2024 12:50 PM,Discharged
+641,330,4,12/31/2024 12:50 PM,Urgent,Shortness of breath,Physician Referral,Jones Group #916727,01/12/2025 09:50 AM,Discharged
+642,331,1,06/16/2024 09:41 AM,Outpatient,Abdominal pain,Physician Referral,Marshall-Bush #913968,06/16/2024 05:41 PM,Discharged
+643,332,5,09/20/2025 01:40 PM,Emergency,Shortness of breath,Walk-In,"Gibson, Torres and Anderson #732475",10/04/2025 03:40 PM,Discharged
+644,332,15,12/04/2025 03:40 PM,Urgent,Abdominal pain,Walk-In,Harris-Pace #277822,12/09/2025 10:40 AM,Discharged
+645,333,15,09/01/2025 09:36 PM,Urgent,Fever,Transfer,"Martinez, Schneider and Landry #419290",09/19/2025 03:36 PM,Discharged
+646,333,1,01/30/2026 03:36 PM,Outpatient,Nausea,Transfer,Shelton-Griffin #529296,01/30/2026 11:36 PM,Discharged
+647,333,25,09/09/2026 11:36 PM,Emergency,Shortness of breath,Walk-In,"Donaldson, Wells and Bass #263252",09/19/2026 06:36 PM,Discharged
+648,334,1,10/05/2024 08:15 AM,Outpatient,Weakness,Walk-In,"Perez, Hamilton and Ortiz #735350",10/05/2024 06:15 PM,Discharged
+649,335,3,02/13/2023 10:04 AM,Urgent,Shortness of breath,Transfer,Nolan-Fisher #642999,02/26/2023 03:04 PM,Discharged
+650,336,3,08/07/2023 05:14 AM,Outpatient,Nausea,Physician Referral,Williams-Gonzalez #975690,08/07/2023 10:14 AM,Discharged
+651,337,5,08/01/2025 10:18 AM,Elective,Nausea,Transfer,"Hardy, Andrade and Norton #812030",08/17/2025 01:18 PM,Discharged
+652,337,5,04/04/2026 01:18 PM,Elective,Chest pain,Walk-In,Green Group #637898,04/19/2026 07:18 PM,Discharged
+653,338,15,04/07/2024 10:55 PM,Emergency,Dizziness,Physician Referral,"Haley, Nelson and Sweeney #212424",04/23/2024 05:55 PM,Discharged
+654,338,4,07/11/2024 05:55 PM,Urgent,Nausea,Transfer,,07/19/2024 02:55 AM,Discharged
+655,339,2,06/23/2024 03:34 PM,Emergency,Fall injury,Ambulance,Wright Inc #406764,07/05/2024 01:34 PM,Discharged
+656,339,20,12/29/2024 01:34 PM,Outpatient,Nausea,Physician Referral,Pitts Group #322693,12/29/2024 05:34 PM,Discharged
+657,339,10,08/03/2025 05:34 PM,Elective,Weakness,Walk-In,Chung Ltd #913650,08/07/2025 09:34 PM,Discharged
+658,340,5,09/23/2025 04:04 AM,Elective,Chest pain,Transfer,Washington Inc #306973,10/01/2025 11:04 AM,Discharged
+659,341,10,04/09/2023 01:25 PM,Elective,Shortness of breath,Physician Referral,"Yang, Miller and Gonzalez #717701",04/26/2023 12:25 PM,Discharged
+660,342,2,09/14/2025 10:13 PM,Emergency,Dizziness,Transfer,"Oneal, Johnson and Johnson #512367",09/16/2025 05:13 PM,Discharged
+661,342,4,01/19/2026 05:13 PM,Outpatient,Shortness of breath,Transfer,Lopez PLC #907668,01/19/2026 11:13 PM,Discharged
+662,342,40,06/11/2026 11:13 PM,Elective,Fever,Walk-In,"Myers, Clark and Rhodes #663540",06/20/2026 04:13 AM,Discharged
+663,343,20,08/12/2025 05:38 AM,Urgent,Fall injury,Ambulance,Green and Sons #980655,08/14/2025 04:38 PM,Discharged
+664,343,3,03/13/2026 04:38 PM,Outpatient,Fever,Walk-In,"Fuller, Jones and Shaw #680324",03/13/2026 11:38 PM,Discharged
+665,344,25,07/02/2025 11:55 PM,Outpatient,Shortness of breath,Walk-In,Martinez-Pope #385127,07/03/2025 09:55 AM,Discharged
+666,344,5,11/03/2025 09:55 AM,Elective,Shortness of breath,Walk-In,Powell PLC #902702,11/17/2025 05:55 AM,Discharged
+667,344,20,12/22/2025 05:55 AM,Urgent,Fever,Walk-In,"Gonzalez, Thomas and Herrera #977334",12/25/2025 12:55 PM,Discharged
+668,344,4,03/04/2026 12:55 PM,Urgent,Cough,Ambulance,Hernandez-Hernandez #783666,03/05/2026 05:55 PM,Discharged
+669,345,35,02/03/2023 10:08 PM,Newborn,Birth,Ambulance,NULL,02/12/2023 01:08 PM,Discharged
+670,346,2,04/25/2025 04:08 AM,Newborn,Birth,Physician Referral,"Silva, Williams and Hunter #364726",05/07/2025 07:08 PM,Discharged
+671,347,35,05/27/2024 10:24 AM,Outpatient,Fever,Ambulance,"Copeland, Ray and Kim #376043",05/25/2024 12:24 AM,Discharged
+672,347,5,07/04/2024 03:24 PM,Emergency,Abdominal pain,Ambulance,Harrison Group #964720,07/16/2024 09:24 AM,Discharged
+673,348,4,03/02/2023 06:11 PM,Outpatient,Abdominal pain,Transfer,Parks-Conner #129793,03/03/2023 12:11 AM,Discharged
+674,348,2,06/20/2023 12:11 AM,Urgent,Chest pain,Ambulance,"Wallace, Garcia and Anderson #918912",06/25/2023 10:11 AM,Discharged
+675,348,1,01/05/2024 10:11 AM,Elective,Nausea,Transfer,Patterson-Wilson #400171,01/13/2024 03:11 AM,Discharged
+676,349,15,08/06/2025 09:03 AM,Emergency,Shortness of breath,Walk-In,Wells-Henson #971775,08/07/2025 11:03 PM,Discharged
+677,349,5,05/16/2026 11:03 PM,Elective,Fall injury,Physician Referral,,05/30/2026 08:03 PM,Discharged
+678,350,5,10/31/2024 10:51 AM,Outpatient,Weakness,Ambulance,"Gibson, Hunter and Frazier #320672",10/31/2024 03:51 PM,Expired
+679,350,3,08/26/2025 03:51 PM,Urgent,Cough,Transfer,Perez PLC #891777,08/29/2025 09:51 AM,Discharged
+680,351,5,03/18/2025 03:34 AM,EMERGENCY,Shortness of breath,Physician Referral,"Johnson, Patrick and Jensen #272828",03/31/2025 07:34 AM,Discharged
+681,351,4,08/19/2025 07:34 AM,Outpatient,Abdominal pain,Walk-In,"Jackson, Gonzalez and Bell #396897",08/19/2025 10:34 AM,Discharged
+682,351,40,05/11/2026 10:34 AM,Elective,Weakness,Transfer,Thomas Group #714348,05/23/2026 08:34 PM,Discharged
+683,353,35,09/07/2025 04:35 PM,Outpatient,Dizziness,Ambulance,King and Sons #561250,09/08/2025 01:35 AM,Discharged
+684,353,15,01/25/2026 01:35 AM,Elective,Fever,Physician Referral,"Harrison, Johnson and Morris #539055",02/03/2026 05:35 AM,Discharged
+685,354,20,05/10/2023 08:07 AM,Elective,Chest pain,Physician Referral,Nguyen-Kelley #382272,05/19/2023 11:07 PM,Discharged
+686,355,4,09/17/2025 05:47 AM,Emergency,Nausea,Ambulance,Carr and Sons #470049,10/03/2025 03:47 PM,Discharged
+687,355,20,11/12/2025 03:47 PM,Emergency,Shortness of breath,Transfer,Hayes LLC #538063,11/15/2025 08:47 PM,Discharged
+688,356,20,11/29/2023 09:11 PM,Elective,Chest pain,Physician Referral,"Bartlett, Robinson and Rush #623330",12/17/2023 08:11 PM,Discharged
+689,356,25,02/03/2024 08:11 PM,Elective,Nausea,Physician Referral,Holloway Ltd #644641,02/21/2024 04:11 PM,Discharged
+690,356,3,09/28/2024 04:11 PM,Outpatient,Shortness of breath,Physician Referral,Mendoza-Pruitt #323307,09/28/2024 08:11 PM,Discharged
+691,356,10,07/19/2025 08:11 PM,Outpatient,Fall injury,Ambulance,"Costa, Young and Freeman #210025",07/20/2025 12:11 AM,Discharged
+692,356,1,12/03/2025 12:11 AM,Emergency,Abdominal pain,Ambulance,Miranda Ltd #192548,12/07/2025 03:11 AM,Discharged
+693,357,30,12/21/2023 10:39 AM,Emergency,Headache,Physician Referral,"Turner, Johnson and Leach #869605",01/04/2024 10:39 PM,Discharged
+694,357,20,09/05/2024 10:39 PM,Emergency,Headache,Physician Referral,"Fernandez, Russo and Anderson #568160",09/15/2024 04:39 AM,Expired
+695,358,35,05/22/2025 03:26 PM,Elective,Weakness,Physician Referral,Hoover-Baxter #969584,05/27/2025 10:26 AM,Discharged
+696,359,5,08/29/2024 04:17 AM,Emergency,Headache,Ambulance,Terry-Vaughn #954367,08/31/2024 12:17 AM,Discharged
+697,359,1,03/08/2025 12:17 AM, Elective ,Abdominal pain,Physician Referral,"Campbell, Jones and Morrison #489053",03/23/2025 04:17 PM,Discharged
+698,360,25,10/04/2023 08:14 PM,Outpatient,Fall injury,Transfer,"Russell, Watson and Boyd #155229",10/04/2023 11:14 PM,Discharged
+699,362,1,03/18/2025 05:57 AM,Outpatient,Shortness of breath,Transfer,"Macias, Ware and Meza #688457",03/18/2025 07:57 AM,Discharged
+700,362,15,04/26/2025 07:57 AM,Outpatient,Dizziness,Ambulance,NULL,04/26/2025 02:57 PM,Discharged
+701,363,10,05/17/2025 01:42 PM,Outpatient,Fall injury,Transfer,Powell-Cohen #249903,05/17/2025 09:42 PM,Discharged
+702,363,15,09/23/2025 09:42 PM,Emergency,Abdominal pain,Transfer,Jones Inc #524387,10/06/2025 03:42 PM,Discharged
+703,363,10,07/03/2026 03:42 PM,Urgent,Weakness,Ambulance,"Marshall, Davis and Flynn #158848",07/16/2026 09:42 PM,Discharged
+704,364,25,06/11/2024 06:58 AM,Outpatient,Headache,Physician Referral,Garcia Inc #652222,06/11/2024 04:58 PM,Discharged
+705,364,25,09/23/2024 04:58 PM,Elective,Fever,Walk-In,"Hays, Hodges and Oconnell #302042",10/01/2024 07:58 AM,Discharged
+706,364,20,06/10/2025 07:58 AM,Elective,Fall injury,Physician Referral,NULL,06/13/2025 11:58 AM,Expired
+707,365,4,06/22/2024 10:16 AM,Emergency,Cough,Ambulance,Eaton LLC #516819,07/07/2024 06:16 PM,Discharged
+708,365,25,08/29/2024 06:16 PM,Outpatient,Weakness,Transfer,Edwards-Smith #397975,08/29/2024 11:16 PM,Discharged
+709,3049,10,01/10/2025 07:13 AM,Emergency,Fall injury,Walk-In,"Arnold, Case and Roy #136466",01/21/2025 08:13 PM,Discharged
+710,366,4,05/10/2025 08:13 PM,Elective,Headache,Transfer,Schroeder and Sons #270664,05/15/2025 08:13 AM,Discharged
+711,366,40,08/23/2025 08:13 AM,EMERGENCY,Weakness,Transfer,"Zimmerman, Hughes and Mendoza #958510",09/01/2025 12:13 PM,Discharged
+712,366,25,11/23/2025 12:13 PM,Urgent,Weakness,Ambulance,"Munoz, Perez and Henry #278927",12/01/2025 09:13 AM,Discharged
+713,367,40,01/09/2023 11:20 PM,Outpatient,Fall injury,Walk-In,"Wade, Henderson and Hogan #704933",01/10/2023 08:20 AM,Discharged
+714,367,10,07/05/2023 08:20 AM,Elective,Chest pain,Walk-In,,07/07/2023 08:20 AM,Discharged
+715,368,2,04/13/2024 06:59 AM,Elective,Cough,Transfer,Cox-Gomez #863482,04/14/2024 06:59 PM,Discharged
+716,368,30,07/31/2024 06:59 PM,Urgent,Abdominal pain,Ambulance,unknown,08/08/2024 12:59 AM,Discharged
+717,368,40,11/01/2024 12:59 AM,Emergency,Shortness of breath,Walk-In,"Schmidt, Wright and Padilla #776233",11/14/2024 09:59 PM,Discharged
+718,368,30,05/06/2025 09:59 PM,Emergency,Abdominal pain,Ambulance,"Arnold, Johnson and Paul #178662",05/14/2025 09:59 PM,Discharged
+719,368,2,01/06/2026 09:59 PM,Elective,Abdominal pain,Physician Referral,Cox-Lopez #250749,01/17/2026 08:59 AM,Discharged
+720,369,10,05/13/2025 10:20 AM,Emergency,Weakness,Transfer,"Williamson, Baker and Herrera #420973",05/31/2025 09:20 AM,Discharged
+721,369,40,12/29/2025 09:20 AM,Elective,Shortness of breath,Walk-In,unknown,01/15/2026 07:20 PM,Discharged
+722,370,25,04/09/2025 10:23 PM,Elective,Shortness of breath,Transfer,Hill-Alvarado #120484,04/21/2025 02:23 AM,Discharged
+723,370,5,09/08/2025 02:23 AM,Elective,Fall injury,Walk-In,Brown PLC #410110,09/25/2025 04:23 AM,Discharged
+724,370,35,05/12/2026 04:23 AM,Outpatient,Cough,Transfer,Lin Ltd #419059,05/12/2026 07:23 AM,Expired
+725,371,3,06/03/2023 02:27 PM,Emergency,Dizziness,Ambulance,Kim Ltd #159618,06/15/2023 05:27 PM,Discharged
+726,371,40,03/19/2024 05:27 PM,Urgent,Dizziness,Walk-In,Simpson-Bradshaw #471553,03/20/2024 02:27 PM,Discharged
+727,372,35,08/09/2024 03:27 AM,Outpatient,Fever,Walk-In,Martinez-Robles #123933,08/09/2024 07:27 AM,Discharged
+728,372,25,04/22/2025 07:27 AM,urgent,Fall injury,Transfer,NULL,05/02/2025 04:27 PM,Discharged
+729,372,25,12/17/2025 04:27 PM,Elective,Shortness of breath,Ambulance,"Mccormick, Huffman and Pacheco #762032",12/26/2025 08:27 PM,Discharged
+730,372,10,09/06/2026 08:27 PM,Emergency,Fall injury,Transfer,Munoz Ltd #871674,09/23/2026 05:27 PM,Discharged
+731,373,20,03/10/2023 05:51 PM,Urgent,Nausea,Ambulance,NULL,03/16/2023 01:51 AM,Discharged
+732,373,10,01/06/2024 01:51 AM,Urgent,Shortness of breath,Walk-In,Green-Guerra #870151,01/12/2024 12:51 PM,Discharged
+733,374,3,08/21/2025 02:08 PM,Emergency,Shortness of breath,Physician Referral,Mann-Vazquez #952461,08/30/2025 12:08 AM,Discharged
+734,375,10,11/17/2024 08:15 PM,Urgent,Fall injury,Ambulance,"Rosario, Hernandez and Bennett #724890",11/22/2024 03:15 AM,Discharged
+735,376,40,04/01/2023 08:22 PM,Elective,Cough,Walk-In,"Cunningham, Craig and Gallagher #738110",04/13/2023 08:22 AM,Discharged
+736,376,1,12/09/2023 08:22 AM,Emergency,Dizziness,Physician Referral,Jimenez Ltd #225923,12/10/2023 06:22 AM,Discharged
+737,376,4,01/11/2024 06:22 AM,Outpatient,Shortness of breath,Physician Referral,Gonzalez-Combs #528657,01/11/2024 04:22 PM,Discharged
+738,376,2,08/09/2024 04:22 PM,Emergency,Chest pain,Walk-In,Robertson-Russell #585327,08/20/2024 02:22 AM,Discharged
+739,377,3,06/20/2024 09:29 PM, Urgent ,Headache,Physician Referral,Brown-Cox #862564,06/28/2024 02:29 PM,Discharged
+740,377,10,08/28/2024 02:29 PM,Elective,Fever,Physician Referral,"Thompson, Cantu and Cole #718669",09/08/2024 01:29 PM,Discharged
+741,2378,1,06/30/2025 01:29 PM,Emergency,Chest pain,Walk-In,Howell LLC #828225,07/08/2025 02:29 AM,Discharged
+742,378,5,02/26/2025 05:38 PM,Urgent,Chest pain,Physician Referral,Gonzalez and Sons #710419,03/08/2025 05:38 AM,Discharged
+743,378,35,08/08/2025 05:38 AM,Elective,Weakness,Ambulance,Gutierrez and Sons #343953,08/15/2025 05:38 AM,Discharged
+744,378,1,10/19/2025 05:38 AM,Urgent,Headache,Transfer,Burnett Group #290497,10/22/2025 02:38 PM,Discharged
+745,378,15,07/27/2026 02:38 PM,Outpatient,Fall injury,Physician Referral,Sutton Inc #239509,07/27/2026 05:38 PM,Discharged
+746,379,3,11/09/2024 08:09 AM,Emergency,Shortness of breath,Ambulance,"Williams, Olson and Huang #432871",11/21/2024 07:09 PM,Discharged
+747,380,2,07/04/2023 08:55 PM,Elective,Fall injury,Transfer,Simmons PLC #417412,07/19/2023 12:55 AM,Discharged
+748,381,30,04/16/2024 09:32 AM,Emergency  ,Shortness of breath,Physician Referral,Torres Inc #999421,04/26/2024 04:32 AM,Discharged
+749,381,35,07/08/2024 04:32 AM,Urgent,Chest pain,Ambulance,Robinson-Reed #964653,TBD,Discharged
+750,381,10,04/08/2025 01:32 AM,Urgent,Shortness of breath,Physician Referral,Miller Ltd #854147,04/15/2025 10:32 PM,Discharged
+751,382,10,06/08/2025 11:31 AM,Elective,Chest pain,Ambulance,Green-Rasmussen #632321,06/22/2025 09:31 AM,Discharged
+752,382,10,03/04/2026 09:31 AM,Outpatient,Cough,Ambulance,"Osborn, Watson and Olson #477672",03/04/2026 10:31 AM,Discharged
+753,383,40,01/10/2025 01:38 PM,Emergency,Dizziness,Transfer,Hopkins Inc #201016,01/15/2025 11:38 AM,Discharged
+754,383,3,03/20/2025 11:38 AM,Urgent,Nausea,Walk-In,Pham LLC #929782,03/27/2025 11:38 PM,Discharged
+755,383,3,11/30/2025 11:38 PM,Outpatient,Dizziness,Transfer,"Tran, Evans and Smith #911247",12/01/2025 06:38 AM,Discharged
+756,384,15,11/17/2023 02:03 PM,Newborn,Birth,Transfer,Small-Gardner #127588,12/02/2023 07:03 PM,Discharged
+757,384,25,05/01/2024 07:03 PM,Urgent,Chest pain,Ambulance,NULL,05/15/2024 10:03 AM,Discharged
+758,384,35,09/27/2024 10:03 AM,Elective,Shortness of breath,Ambulance,Daniel-Higgins #616688,10/02/2024 04:03 PM,Discharged
+759,384,1,01/24/2025 04:03 PM,Outpatient,Fall injury,Walk-In,Henderson-Snyder #737781,01/24/2025 11:03 PM,Discharged
+760,384,20,05/07/2025 11:03 PM,Urgent,Fever,Physician Referral,"Mendoza, Jacobs and Sharp #909529",05/11/2025 06:03 AM,Discharged
+761,385,25,02/10/2025 05:18 PM,Urgent,Fall injury,Transfer,"Brooks, Daniels and Bennett #274811",02/18/2025 12:18 AM,Discharged
+762,385,1,05/29/2025 12:18 AM,Elective,Headache,Ambulance,Moore PLC #795275,05/31/2025 12:18 AM,Discharged
+763,385,3,11/01/2025 12:18 AM,Urgent,Nausea,Ambulance,Edwards-Blankenship #951629,11/18/2025 07:18 AM,Discharged
+764,386,2,07/23/2023 04:07 PM,Urgent,Fever,Physician Referral,Holt PLC #195233,07/28/2023 04:07 AM,Discharged
+765,386,10,03/23/2024 04:07 AM,Elective,Chest pain,Transfer,"Morgan, Ibarra and Johnson #950699",04/06/2024 07:07 PM,Discharged
+766,387,1,08/20/2025 12:59 AM,Newborn,Birth,Walk-In,Clayton Inc #823776,08/20/2025 08:59 PM,Discharged
+767,388,5,03/28/2024 09:28 AM,Elective,Nausea,Transfer,Osborne Ltd #197699,04/12/2024 09:28 AM,Discharged
+768,388,35,08/04/2024 09:28 AM,Elective,Weakness,Ambulance,Diaz and Sons #549402,08/12/2024 02:28 AM,Expired
+769,389,5,01/28/2023 09:08 PM,Urgent,Shortness of breath,Walk-In,unknown,01/30/2023 09:08 PM,Discharged
+770,389,40,09/04/2023 09:08 PM,Emergency,Weakness,Ambulance,"Smith, Reese and Moore #734295",09/17/2023 03:08 AM,Discharged
+771,390,30,04/26/2025 01:25 PM,Elective,Abdominal pain,Walk-In,Valdez and Sons #338018,05/03/2025 04:25 PM,Discharged
+772,391,15,03/11/2025 10:05 AM,Urgent,Fall injury,Ambulance,Strong LLC #417461,03/16/2025 05:05 PM,Discharged
+773,391,15,05/20/2025 05:05 PM,Emergency,Abdominal pain,Walk-In,"Bryant, Patel and Leonard #942835",06/01/2025 03:05 AM,Discharged
+774,391,15,11/18/2025 03:05 AM,Outpatient,Cough,Physician Referral,Alexander-Brown #567994,11/18/2025 08:05 AM,Discharged
+775,391,3,04/25/2026 08:05 AM,Outpatient,Chest pain,Ambulance,Brooks Inc #714255,04/25/2026 05:05 PM,Discharged
+776,392,1,01/17/2025 09:47 PM,Emergency,Nausea,Physician Referral,"Henderson, Rivera and James #747111",01/19/2025 11:47 AM,Discharged
+777,392,2,10/20/2025 11:47 AM,Urgent,Shortness of breath,Walk-In,NULL,10/23/2025 02:47 PM,Discharged
+778,393,15,02/28/2023 08:21 AM,Elective,Chest pain,Walk-In,Gray-Welch #108564,03/09/2023 02:21 PM,Discharged
+779,394,25,10/26/2023 09:21 PM,Outpatient,Chest pain,Physician Referral,Simmons Ltd #660308,10/27/2023 12:21 AM,Discharged
+780,395,15,08/16/2023 03:02 PM,Elective,Headache,Physician Referral,"Mitchell, Hill and Johnson #543254",08/25/2023 10:02 PM,Discharged
+781,396,30,07/02/2025 08:26 AM,Emergency,Cough,Transfer,Davis-Adams #205578,07/04/2025 03:26 AM,Discharged
+782,396,40,08/17/2025 03:26 AM,Urgent,Headache,Physician Referral,Sanders-Barry #375535,02/30/2025 10:00 AM,Discharged
+783,396,30,12/24/2025 06:26 PM,Emergency,Cough,Transfer,"Navarro, Moore and Braun #625087",13/45/2024 09:15 PM,Discharged
+784,398,30,05/20/2023 12:06 AM,Elective,Dizziness,Walk-In,Perry-Wallace #297676,06/03/2023 10:06 PM,Discharged
+785,398,1,02/06/2024 10:06 PM,Emergency,Fever,Walk-In,Castillo-Roberts #941971,02/08/2024 03:06 AM,Discharged
+786,398,25,05/26/2024 03:06 AM,Outpatient,Cough,Ambulance,Suarez-Barrett #982198,05/26/2024 11:06 AM,Discharged
+787,400,15,04/25/2025 08:34 PM,Urgent,Nausea,Ambulance,"Gentry, Allen and Smith #214769",05/12/2025 01:34 PM,Discharged
+788,401,30,02/18/2025 03:01 AM,Emergency,Shortness of breath,Transfer,"King, Gray and Cooper #216073",02/25/2025 10:01 PM,Discharged
+789,401,4,08/26/2025 10:01 PM,Elective,Chest pain,Transfer,"Copeland, Reynolds and Parker #354239",09/04/2025 03:01 AM,Discharged
+790,401,15,12/30/2025 03:01 AM,Urgent,Headache,Transfer,Hall Group #675489,01/04/2026 03:01 AM,Discharged
+791,402,35,12/19/2024 04:34 PM,Emergency,Shortness of breath,Walk-In,Webb-White #733493,01/03/2025 10:34 PM,Discharged
+792,402,4,05/01/2025 10:34 PM,Emergency,Shortness of breath,Walk-In,Simmons-Mccormick #335759,05/15/2025 02:34 PM,Discharged
+793,403,20,02/05/2024 01:45 PM,Urgent,Chest pain,Transfer,Gonzalez and Sons #202029,02/16/2024 03:45 AM,Discharged
+794,403,30,08/25/2024 03:45 AM,Elective,Fever,Walk-In,Perkins-Woods #294877,09/07/2024 08:45 AM,Discharged
+795,404,5,07/09/2025 08:05 PM,Emergency,Shortness of breath,Physician Referral,"Robles, Cummings and Orr #294557",07/26/2025 05:05 AM,Expired
+796,404,1,01/30/2026 05:05 AM,Emergency,Chest pain,Ambulance,"Taylor, Fritz and Ibarra #463991",02/13/2026 08:05 AM,Discharged
+797,404,35,08/29/2026 08:05 AM,emergency,Abdominal pain,Ambulance,Jackson-Thompson #338814,09/12/2026 10:05 PM,Discharged
+798,405,4,09/28/2023 04:36 AM,Outpatient,Cough,Transfer,"George, Wyatt and Mccoy #740036",09/28/2023 07:36 AM,Discharged
+799,407,40,03/26/2023 06:48 AM,Elective,Dizziness,Ambulance,"Green, Hall and Diaz #506677",03/31/2023 04:48 AM,Discharged
+800,408,2,04/14/2024 01:23 PM,Outpatient,Fever,Walk-In,"Padilla, Torres and Johnson #624097",04/14/2024 11:23 PM,Discharged
+801,408,15,09/19/2024 11:23 PM,Outpatient,Headache,Ambulance,unknown,09/20/2024 05:23 AM,Discharged
+802,408,2,06/09/2025 05:23 AM,outpatient,Weakness,Ambulance,Townsend-Greene #168357,06/09/2025 03:23 PM,Discharged
+803,409,30,04/18/2024 03:05 AM,Outpatient,Abdominal pain,Walk-In,unknown,04/18/2024 04:05 AM,Discharged
+804,409,3,09/27/2024 04:05 AM,Urgent,Fall injury,Ambulance,Ramsey-Reed #289039,10/06/2024 07:05 AM,Discharged
+805,409,20,03/06/2025 07:05 AM,Emergency,Fever,Ambulance,Hill Group #522435,03/19/2025 10:05 PM,Discharged
+806,410,20,05/25/2023 01:33 PM,Urgent,Nausea,Walk-In,Ruiz-Watkins #448931,05/26/2023 11:33 PM,Discharged
+807,410,40,08/19/2023 11:33 PM,Emergency,Fever,Physician Referral,Rodriguez-Hutchinson #241686,09/06/2023 05:33 AM,Discharged
+808,410,4,01/13/2024 05:33 AM,Outpatient,Fever,Walk-In,unknown,01/13/2024 07:33 AM,Discharged
+809,410,20,11/05/2024 07:33 AM,Outpatient,Abdominal pain,Transfer,Schneider Group #493524,11/05/2024 08:33 AM,Discharged
+810,410,10,03/28/2025 08:33 AM, Emergency ,Shortness of breath,Ambulance,Rich Inc #959294,04/13/2025 12:33 PM,Discharged
+811,412,1,07/28/2024 12:40 PM,Elective,Abdominal pain,Transfer,Smith-Williams #375339,08/11/2024 03:40 PM,Discharged
+812,412,20,10/20/2024 03:40 PM,Outpatient,Headache,Walk-In,,10/21/2024 01:40 AM,Discharged
+813,414,25,12/10/2024 03:21 AM,Outpatient,Dizziness,Physician Referral,Davis-Shelton #398598,12/10/2024 05:21 AM,Discharged
+814,414,2,07/22/2025 05:21 AM,Urgent,Weakness,Physician Referral,Curry-Campbell #572639,07/26/2025 02:21 PM,Discharged
+815,414,15,01/23/2026 02:21 PM,Urgent,Chest pain,Walk-In,Larson-Scott #617336,02/02/2026 06:21 AM,Discharged
+816,414,10,08/04/2026 06:21 AM,Elective,Nausea,Physician Referral,Moon-Smith #593804,08/05/2026 10:21 AM,Discharged
+817,415,10,03/01/2023 06:14 AM,Emergency,Fall injury,Walk-In,Holland-Gilbert #668194,03/15/2023 09:14 AM,Discharged
+818,416,10,10/31/2023 08:14 PM,Outpatient,Chest pain,Walk-In,Cohen Group #110271,10/31/2023 09:14 PM,Discharged
+819,417,3,11/23/2023 04:21 AM,Emergency,Headache,Walk-In,Frye LLC #602130,11/29/2023 12:21 PM,Discharged
+820,418,20,05/12/2025 11:06 PM,Outpatient,Chest pain,Walk-In,Heath Ltd #811227,05/13/2025 07:06 AM,Discharged
+821,418,10,09/13/2025 07:06 AM,Urgent,Fall injury,Walk-In,Hernandez Ltd #381864,09/23/2025 11:06 AM,Discharged
+822,419,40,05/16/2025 07:57 AM,Emergency,Cough,Physician Referral,"Hughes, Armstrong and Jarvis #388871",05/27/2025 05:57 AM,Discharged
+823,419,40,07/20/2025 05:57 AM,Outpatient,Shortness of breath,Physician Referral,Beltran Inc #419965,07/20/2025 12:57 PM,Discharged
+824,419,35,09/23/2025 12:57 PM,Elective,Fever,Transfer,Hamilton-Horton #806568,10/06/2025 10:57 PM,Discharged
+825,420,5,03/01/2025 07:43 PM,Urgent,Nausea,Physician Referral,Benitez Group #120739,03/16/2025 05:43 PM,Discharged
+826,420,15,09/14/2025 05:43 PM,Emergency,Cough,Physician Referral,"Rojas, Floyd and Graham #348323",09/22/2025 01:43 PM,Discharged
+827,420,15,03/24/2026 01:43 PM,Outpatient,Nausea,Walk-In,"Johnson, Wilson and Hunt #241206",03/24/2026 04:43 PM,Expired
+828,420,10,08/27/2026 04:43 PM,Elective,Weakness,Ambulance,Lowe Ltd #898875,09/13/2026 02:43 PM,Discharged
+829,421,40,07/12/2024 11:26 PM,NEWBORN,Birth,Walk-In,"Dawson, Wheeler and Lee #777393",07/29/2024 07:26 AM,Discharged
+830,422,40,02/19/2025 12:48 AM,Newborn,Birth,Transfer,"Castillo, Cummings and Hernandez #838689",02/28/2025 06:48 PM,Discharged
+831,422,15,04/13/2025 06:48 PM,Outpatient,Chest pain,Ambulance,Johnson-Lewis #764371,04/14/2025 04:48 AM,Discharged
+832,422,10,01/02/2026 04:48 AM,Outpatient,Fall injury,Walk-In,Wagner-Rivera #772763,01/02/2026 12:48 PM,Discharged
+833,422,30,09/05/2026 12:48 PM,Elective,Dizziness,Transfer,Vargas and Sons #579836,09/19/2026 12:48 PM,Discharged
+834,423,2,03/14/2023 06:32 PM,Outpatient,Dizziness,Physician Referral,Hunt-Summers #241091,03/14/2023 10:32 PM,Discharged
+835,423,25,09/30/2023 10:32 PM,Emergency,Dizziness,Ambulance,Ryan-Allen #118768,10/03/2023 10:32 PM,Discharged
+836,424,30,07/21/2024 11:12 AM,Outpatient,Fall injury,Transfer,Gomez-Kemp #297662,07/21/2024 02:12 PM,Discharged
+837,424,4,01/24/2025 02:12 PM,Urgent,Weakness,Ambulance,Carter and Sons #974653,02/07/2025 04:12 PM,Discharged
+838,425,30,02/03/2023 10:25 AM,Outpatient,Abdominal pain,Transfer,"Burgess, Bowman and Flowers #976945",02/03/2023 06:25 PM,Discharged
+839,425,40,10/28/2023 06:25 PM,Emergency,Cough,Walk-In,Williams Ltd #370343,11/06/2023 11:25 PM,Discharged
+840,426,35,06/18/2025 01:16 PM,Outpatient,Weakness,Walk-In,NULL,06/18/2025 05:16 PM,Expired
+841,427,40,11/18/2024 05:17 PM,Elective,Weakness,Transfer,Collins-Williams #180600,12/01/2024 06:17 PM,Discharged
+842,427,20,04/07/2025 06:17 PM,Urgent,Shortness of breath,Ambulance,NULL,04/15/2025 07:17 PM,Discharged
+843,427,25,10/03/2025 07:17 PM,Outpatient,Fever,Ambulance,Smith-Jackson #508946,10/03/2025 09:17 PM,Discharged
+844,429,25,07/27/2025 12:30 AM,Elective,Fever,Ambulance,"Garcia, Todd and Peterson #524752",07/31/2025 11:30 AM,Discharged
+845,429,4,12/10/2025 11:30 AM,Emergency,Abdominal pain,Physician Referral,Perez-Cantrell #330626,12/27/2025 03:30 PM,Discharged
+846,429,35,08/30/2026 03:30 PM,Outpatient,Headache,Walk-In,"Wilcox, Carroll and Beck #559597",08/30/2026 04:30 PM,Discharged
+847,430,20,01/30/2024 04:12 PM,Urgent,Fall injury,Walk-In,"Stanton, Vega and Smith #658739",02/06/2024 07:12 AM,Discharged
+848,430,15,08/05/2024 07:12 AM,Urgent,Chest pain,Ambulance,unknown,08/20/2024 06:12 PM,Discharged
+849,430,10,10/22/2024 06:12 PM,Emergency,Fall injury,Physician Referral,Lopez Ltd #999097,11/04/2024 09:12 AM,Discharged
+850,431,4,02/12/2025 09:49 AM,Emergency,Abdominal pain,Walk-In,Johnson-Wright #807595,02/28/2025 11:49 PM,Discharged
+851,432,35,01/16/2024 06:22 PM,Urgent,Fever,Physician Referral,Williams-Cobb #452046,01/25/2024 12:22 AM,Discharged,EXTRA,FIELD
+852,432,2,05/07/2024 12:22 AM,Urgent,Fall injury,Physician Referral,"Green, Martinez and Austin #233668",05/22/2024 08:22 AM,Discharged
+853,433,4,04/01/2023 08:55 PM,Emergency,Dizziness,Physician Referral,Blackburn LLC #888988,04/05/2023 05:55 PM,Discharged
+854,433,2,12/15/2023 05:55 PM,Outpatient,Fall injury,Physician Referral,Harvey and Sons #788634,12/15/2023 06:55 PM,Discharged
+855,434,25,11/15/2024 01:03 PM,Elective,Headache,Ambulance,Potter-Carlson #389901,11/27/2024 12:03 PM,Discharged
+856,435,15,04/13/2024 11:40 AM,Emergency,Abdominal pain,Walk-In,Church-Perry #512493,04/26/2024 06:40 AM,Discharged
+857,436,20,05/10/2023 12:04 PM,Emergency,Fall injury,Ambulance,Roach Group #839638,05/15/2023 12:04 AM,Discharged
+858,437,5,03/07/2024 02:23 AM,Emergency,Weakness,Walk-In,"Hawkins, Hernandez and Garrison #113640",03/19/2024 01:23 AM,Discharged
+859,438,4,09/04/2024 02:42 AM,Outpatient,Abdominal pain,Physician Referral,"Williams, Garcia and Moore #573342",09/04/2024 06:42 AM,Discharged
+860,439,40,01/21/2023 10:46 AM,Urgent,Dizziness,Transfer,Pena PLC #564999,02/02/2023 12:46 PM,Discharged
+861,439,3,11/16/2023 12:46 PM,Emergency,Nausea,Ambulance,Mclaughlin Group #419159,11/21/2023 04:46 PM,Discharged
+862,440,4,05/23/2024 03:22 PM,Urgent,Abdominal pain,Ambulance,Clark-Johnson #343980,06/03/2024 10:22 AM,Discharged
+863,440,20,09/09/2024 10:22 AM,Elective,Fever,Walk-In,Gonzalez-Le #701928,09/19/2024 12:22 AM,Discharged
+864,440,3,10/29/2024 12:22 AM,Emergency,Weakness,Physician Referral,Burns-Hanson #944338,11/15/2024 11:22 PM,Discharged
+865,441,35,08/04/2024 01:01 AM,Elective,Dizziness,Transfer,"Mclaughlin, Williams and Carpenter #176721",08/06/2024 03:01 AM,Discharged
+866,441,3,05/13/2025 03:01 AM,Outpatient,Cough,Walk-In,Cook-Moore #351868,05/13/2025 05:01 AM,Discharged
+867,442,15,11/27/2024 03:16 AM,Outpatient,Weakness,Transfer,Gonzales Ltd #457856,11/27/2024 06:16 AM,Discharged
+868,442,5,08/11/2025 06:16 AM,Elective,Shortness of breath,Walk-In,"Williams, Thompson and Parker #728516",08/15/2025 04:16 AM,Discharged
+869,443,40,06/10/2024 06:10 AM,Elective,Dizziness,Physician Referral,Coleman Ltd #139161,06/18/2024 03:10 AM,Discharged
+870,443,20,01/19/2025 03:10 AM,Urgent,Weakness,Transfer,NULL,01/22/2025 11:10 AM,Discharged
+871,443,15,07/20/2025 11:10 AM,Emergency,Fever,Walk-In,Davis-Branch #817620,07/17/2025 10:10 PM,Discharged
+872,443,35,03/26/2026 01:10 AM,Elective,Chest pain,Physician Referral,Walker PLC #855952,04/06/2026 03:10 PM,Discharged
+873,444,25,02/04/2023 04:11 AM,Outpatient,Fever,Physician Referral,Dennis-Gutierrez #496776,02/04/2023 10:11 AM,Discharged
+874,445,25,06/10/2025 03:10 AM,Elective,Dizziness,Walk-In,"Nelson, Kirby and Clark #108248",06/14/2025 04:10 AM,Discharged
+875,446,1,08/09/2025 10:06 AM,Emergency,Fall injury,Walk-In,Bradley Ltd #407529,08/21/2025 06:06 AM,Discharged
+876,446,30,05/03/2026 06:06 AM,Elective,Shortness of breath,Physician Referral,"Mitchell, Martinez and Owen #802511",05/09/2026 02:06 AM,Discharged
+877,446,3,06/10/2026 02:06 AM,Urgent,Fever,Physician Referral,"Randall, Caldwell and Graham #118321",06/13/2026 11:06 AM,Discharged
+878,446,35,07/22/2026 11:06 AM,Urgent,Weakness,Physician Referral,Adams and Sons #310381,08/03/2026 07:06 AM,Discharged
+879,6637,10,07/03/2024 06:57 AM,Elective  ,Nausea,Walk-In,Roach-Davis #204794,07/07/2024 03:57 AM,Discharged
+880,447,5,09/16/2024 03:57 AM,Elective,Shortness of breath,Walk-In,unknown,09/25/2024 12:57 PM,Discharged
+881,447,3,04/20/2025 12:57 PM,Elective,Weakness,Transfer,Bauer Group #656625,04/28/2025 12:57 PM,Discharged
+882,447,35,09/03/2025 12:57 PM,Emergency,Dizziness,Ambulance,NULL,09/09/2025 11:57 AM,Discharged
+883,448,15,05/25/2024 09:14 PM,Outpatient,Abdominal pain,Walk-In,Rivera Ltd #252874,05/26/2024 04:14 AM,Discharged
+884,448,15,03/05/2025 04:14 AM,Emergency,Shortness of breath,Physician Referral,Garcia-Rodriguez #703642,03/15/2025 04:14 AM,Discharged
+885,448,35,09/02/2025 04:14 AM,Emergency,Fever,Physician Referral,"Osborne, Martinez and Powell #273762",09/08/2025 08:14 AM,Discharged
+886,449,3,04/17/2023 11:40 AM,Urgent,Headache,Physician Referral,Miller and Sons #446922,04/25/2023 07:40 PM,Discharged
+887,449,20,05/26/2023 07:40 PM,Emergency,Cough,Walk-In,"Rodriguez, Thomas and Johnson #995253",05/30/2023 03:40 AM,Discharged
+888,450,3,05/30/2023 05:15 PM,Emergency,Dizziness,Ambulance,NULL,06/01/2023 05:15 PM,Discharged
+889,450,5,08/24/2023 05:15 PM,Elective,Fall injury,Walk-In,Alvarado Group #214695,09/03/2023 10:15 PM,Discharged
+890,450,20,05/10/2024 10:15 PM,Emergency,Shortness of breath,Ambulance,Anderson Ltd #339389,05/24/2024 01:15 PM,Discharged
+891,450,2,12/18/2024 01:15 PM,Outpatient,Fall injury,Ambulance,Davis and Sons #775382,12/18/2024 10:15 PM,Discharged
+892,451,3,05/17/2024 05:50 PM,Emergency,Fall injury,Ambulance,Davis-Aguirre #590624,05/28/2024 10:50 AM,Discharged
+893,451,10,09/04/2024 10:50 AM,Outpatient,Cough,Ambulance,"Green, Hughes and Ortiz #116892",09/04/2024 03:50 PM,Discharged
+894,452,25,04/10/2023 09:04 PM,Emergency,Shortness of breath,Ambulance,"Brooks, Fowler and Brown #810331",04/27/2023 12:04 AM,Expired
+895,452,30,09/13/2023 12:04 AM,Emergency,Abdominal pain,Walk-In,Dougherty Group #755077,13/45/2024 09:15 PM,Discharged
+896,453,10,01/10/2023 12:39 PM,Urgent,Headache,Walk-In,Williams-Russell #533874,01/14/2023 11:39 PM,Discharged
+897,453,30,05/26/2023 11:39 PM,Outpatient,Chest pain,Transfer,unknown,05/27/2023 12:39 AM,Discharged
+898,453,4,09/14/2023 12:39 AM,Urgent,Fall injury,Transfer,"Forbes, White and Thomas #584947",09/16/2023 08:39 AM,Discharged
+899,453,5,01/19/2024 08:39 AM,Elective,Abdominal pain,Walk-In,"Myers, Melendez and Castillo #921522",01/24/2024 06:39 PM,Discharged
+900,455,15,10/28/2024 04:20 AM,Newborn,Birth,Walk-In,Mayer PLC #403616,11/10/2024 05:20 PM,Discharged
+901,455,2,08/28/2025 05:20 PM,Emergency,Cough,Ambulance,"Perkins, Harris and Stone #303534",09/15/2025 04:20 PM,Discharged
+902,456,15,08/09/2025 10:26 PM,Outpatient,Weakness,Transfer,Johnson Inc #376508,08/10/2025 12:26 AM,Discharged
+903,457,40,02/05/2024 06:10 AM,Outpatient,Cough,Walk-In,"Barker, Pittman and Glenn #179569",02/03/2024 08:10 AM,Discharged
+904,457,4,08/13/2024 10:10 AM,Outpatient,Shortness of breath,Physician Referral,"Dean, Briggs and Wheeler #719797",08/13/2024 08:10 PM,Discharged
+905,458,3,10/15/2024 01:20 PM,Outpatient,Abdominal pain,Transfer,Holmes Ltd #474376,10/15/2024 08:20 PM,Discharged
+906,460,25,02/20/2023 02:38 PM,Newborn,Birth,Transfer,unknown,02/26/2023 02:38 PM,Discharged
+907,460,5,12/16/2023 02:38 PM,Urgent,Headache,Ambulance,Forbes-Frazier #283558,12/20/2023 09:38 AM,Discharged
+908,462,30,08/03/2025 03:57 AM,Outpatient,Fever,Walk-In,"Jackson, Ward and Johnson #434246",08/03/2025 09:57 AM,Discharged
+909,464,35,01/01/2025 06:00 AM,Urgent,Headache,Ambulance,Snow-Bond #932309,01/10/2025 10:00 AM,Discharged
+910,465,2,01/11/2023 07:59 AM,Emergency,Nausea,Physician Referral,Guerra LLC #759638,01/27/2023 04:59 PM,Discharged
+911,467,30,02/08/2025 07:17 PM,Emergency,Shortness of breath,Walk-In,Morales Inc #845123,02/16/2025 12:17 AM,Discharged
+912,468,15,07/13/2024 07:13 AM,Elective,Dizziness,Physician Referral,Ortiz LLC #574203,07/15/2024 02:13 AM,Discharged
+913,468,4,04/19/2025 02:13 AM,Elective,Weakness,Walk-In,"Rodgers, Byrd and Guerra #867477",05/01/2025 08:13 PM,Discharged
+914,468,3,10/12/2025 08:13 PM,Outpatient,Weakness,Walk-In,Orozco-Wilson #503016,10/13/2025 04:13 AM,Discharged
+915,468,35,07/14/2026 04:13 AM,Urgent,Shortness of breath,Walk-In,Singh-Gomez #268950,07/20/2026 04:13 AM,Expired
+916,469,40,06/19/2024 11:20 PM,Outpatient,Fever,Transfer,"Durham, Barker and Solomon #866126",06/20/2024 03:20 AM,Discharged
+917,469,3,04/10/2025 03:20 AM,Emergency,Abdominal pain,Physician Referral,Robinson-Williams #894083,04/15/2025 01:20 PM,Discharged
+918,469,2,05/29/2025 01:20 PM,EMERGENCY,Chest pain,Walk-In,Allison-White #209148,06/15/2025 09:20 AM,Discharged
+919,471,15,05/15/2023 03:26 PM,Outpatient,Headache,Walk-In,"Jones, Johnson and Harris #348991",05/16/2023 01:26 AM,Discharged
+920,471,5,01/19/2024 01:26 AM,Outpatient,Dizziness,Walk-In,"Payne, Nunez and Hall #644836",01/19/2024 03:26 AM,Discharged
+921,472,30,06/10/2024 11:47 AM,Outpatient,Chest pain,Ambulance,"Moore, Williams and Clay #537807",06/10/2024 05:47 PM,Discharged
+922,473,3,06/19/2023 11:27 PM,Elective,Dizziness,Physician Referral,Gutierrez Ltd #419388,07/02/2023 05:27 AM,Discharged
+923,473,15,11/23/2023 05:27 AM,Elective,Shortness of breath,Physician Referral,Price Ltd #564777,11/25/2023 11:27 PM,Discharged
+924,474,4,01/16/2024 10:23 PM,Outpatient,Fever,Ambulance,Graham PLC #177367,01/17/2024 07:23 AM,Discharged
+925,475,2,12/09/2023 03:55 AM,Emergency,Dizziness,Transfer,Daniel-Charles #890774,12/24/2023 09:55 PM,Discharged
+926,476,15,04/26/2024 08:45 PM,Elective,Chest pain,Ambulance,"Jackson, Fox and Turner #743750",05/02/2024 05:45 AM,Discharged
+927,476,10,06/12/2024 05:45 AM,Elective,Nausea,Transfer,Powell-Taylor #410479,06/27/2024 01:45 AM,Discharged
+928,477,10,01/19/2025 01:41 AM,Urgent,Nausea,Walk-In,"Allen, Rose and Henderson #381182",02/03/2025 08:41 PM,Discharged
+929,477,25,10/13/2025 08:41 PM,Outpatient,Fever,Physician Referral,"Lindsey, Nichols and Wright #937541",10/14/2025 01:41 AM,Discharged
+930,477,40,11/18/2025 01:41 AM,emergency,Chest pain,Transfer,Chavez LLC #383018,11/25/2025 07:41 PM,Discharged
+931,479,40,07/30/2023 08:54 PM,Urgent,Weakness,Transfer,NULL,08/06/2023 11:54 PM,Discharged
+932,479,30,04/11/2024 11:54 PM,Outpatient,Headache,Physician Referral,NULL,04/12/2024 01:54 AM,Discharged
+933,479,2,05/17/2024 01:54 AM,Outpatient,Shortness of breath,Ambulance,Cobb Ltd #579791,05/17/2024 02:54 AM,Discharged
+934,480,5,11/01/2023 05:47 AM,Emergency,Shortness of breath,Walk-In,Ross Ltd #657675,11/08/2023 06:47 PM,Discharged
+935,480,20,06/06/2024 06:47 PM,Emergency,Shortness of breath,Walk-In,NULL,06/20/2024 02:47 PM,Discharged
+936,480,3,02/03/2025 02:47 PM,Emergency,Abdominal pain,Transfer,Jones-Duncan #226964,02/18/2025 03:47 PM,Discharged
+937,481,35,03/29/2023 04:46 AM,Outpatient,Chest pain,Ambulance,"Li, Kline and White #684009",03/29/2023 07:46 AM,Discharged
+938,482,3,05/21/2025 12:32 AM,Outpatient,Weakness,Physician Referral,"Klein, Ryan and Johnson #276302",05/21/2025 03:32 AM,Discharged
+939,483,10,01/24/2024 05:56 AM,Urgent,Fall injury,Ambulance,Flores-Archer #561946,02/09/2024 08:56 PM,Discharged
+940,484,2,09/18/2025 01:52 PM,Outpatient,Headache,Walk-In,,09/18/2025 03:52 PM,Discharged
+941,484,3,10/26/2025 03:52 PM,Elective,Weakness,Walk-In,"Lee, Johnson and Simmons #811516",11/01/2025 06:52 AM,Discharged
+942,485,30,02/15/2023 02:52 AM,Outpatient,Chest pain,Transfer,Jones-Hall #665223,02/15/2023 08:52 AM,Discharged
+943,487,3,03/26/2024 03:46 AM,Outpatient,Fall injury,Transfer,Johnson Inc #850856,03/26/2024 06:46 AM,Discharged
+944,487,20,12/16/2024 06:46 AM,Urgent,Chest pain,Walk-In,"Hester, Stevens and Jackson #838625",12/24/2024 09:46 PM,Discharged
+945,487,30,04/26/2025 09:46 PM,Emergency,Headache,Walk-In,Miller Inc #760920,05/02/2025 01:46 AM,Discharged
+946,487,3,08/02/2025 01:46 AM,Emergency,Cough,Ambulance,Alexander LLC #103688,08/04/2025 04:46 AM,Discharged
+947,488,10,06/16/2025 05:39 PM,Urgent,Chest pain,Transfer,Gonzalez Inc #963666,06/24/2025 01:39 PM,Discharged
+948,488,2,10/31/2025 01:39 PM,Outpatient,Cough,Physician Referral,Turner-Hicks #580370,10/31/2025 03:39 PM,Discharged
+949,488,3,02/27/2026 03:39 PM,Urgent,Weakness,Walk-In,Jordan-Phillips #541147,03/15/2026 06:39 PM,Discharged
+950,489,20,08/08/2023 05:04 PM,Emergency,Shortness of breath,Physician Referral,unknown,08/18/2023 09:04 AM,Discharged
+951,490,40,09/14/2025 05:12 PM,Emergency,Weakness,Physician Referral,Cervantes LLC #337344,09/16/2025 12:12 PM,Discharged
+952,491,30,06/28/2023 12:27 PM,Emergency,Weakness,Walk-In,Simmons Group #992580,07/02/2023 12:27 PM,Discharged
+953,491,3,03/07/2024 12:27 PM,Emergency,Dizziness,Transfer,Brown Inc #778184,03/19/2024 01:27 AM,Discharged
+954,492,10,03/11/2023 07:38 AM,Outpatient,Fall injury,Physician Referral,,03/11/2023 03:38 PM,Discharged
+955,492,4,12/05/2023 03:38 PM,Outpatient,Weakness,Physician Referral,Kirby and Sons #587466,12/05/2023 08:38 PM,Discharged
+956,492,3,05/15/2024 08:38 PM,Emergency,Shortness of breath,Walk-In,Jones PLC #387023,05/31/2024 04:38 AM,Discharged
+957,492,3,08/23/2024 04:38 AM,Outpatient,Chest pain,Physician Referral,Simpson-Schmidt #206340,08/23/2024 10:38 AM,Expired
+958,493,4,08/13/2023 11:21 PM,Urgent,Headache,Physician Referral,"Cruz, Butler and Nelson #216188",08/26/2023 04:21 PM,Discharged
+959,494,20,11/18/2023 06:33 PM,Urgent,Cough,Walk-In,Jones-Carney #637405,11/20/2023 12:33 PM,Discharged
+960,495,25,09/04/2024 02:07 PM,Elective,Headache,Transfer,Jones-Noble #174833,09/20/2024 05:07 PM,Discharged
+961,495,1,02/19/2025 05:07 PM,Emergency,Fever,Transfer,"Strong, Allen and Perez #547799",02/25/2025 03:07 PM,Discharged
+962,495,4,07/01/2025 03:07 PM,Emergency,Fever,Transfer,"Terry, Bailey and Nichols #708577",07/16/2025 07:07 AM,Discharged
+963,496,3,07/15/2025 05:22 AM,Outpatient,Shortness of breath,Ambulance,Hill and Sons #593129,07/15/2025 02:22 PM,Discharged
+964,497,20,06/16/2024 06:24 AM,Urgent,Headache,Physician Referral,Harris Inc #195214,06/30/2024 11:24 PM,Discharged
+965,498,40,09/01/2024 09:02 AM,Emergency,Dizziness,Physician Referral,"Carr, Watson and Solis #841679",09/18/2024 07:02 PM,Discharged
+966,498,20,04/05/2025 07:02 PM,Urgent,Abdominal pain,Ambulance,Collins LLC #499606,04/21/2025 12:02 AM,Discharged
+967,498,5,07/07/2025 12:02 AM,Urgent,Fall injury,Transfer,"Cook, Odonnell and Collins #726655",07/22/2025 08:02 AM,Discharged
+968,499,3,10/15/2023 10:50 AM,Outpatient,Dizziness,Physician Referral,unknown,10/15/2023 02:50 PM,Expired
+969,499,40,04/10/2024 02:50 PM,Emergency,Fever,Transfer,"Schneider, Shepherd and Burton #895386",04/19/2024 11:50 AM,Discharged
+970,500,15,03/13/2024 06:07 AM,Emergency,Cough,Ambulance,"Harris, Paul and Wright #237454",03/26/2024 08:07 AM,Discharged
+504,260,1,11/17/2025 02:38 PM,Emergency,Weakness,Ambulance,Gray-Garcia #551044,12/01/2025 04:38 PM,Expired
+33,18,3,08/13/2024 09:26 AM,Elective,Abdominal pain,Physician Referral,Ramirez-Thompson #552123,08/26/2024 01:26 PM,Discharged
+649,335,3,02/13/2023 10:04 AM,Urgent,Shortness of breath,Transfer,Nolan-Fisher #642999,02/26/2023 03:04 PM,Discharged
+766,387,1,08/20/2025 12:59 AM,Newborn,Birth,Walk-In,Clayton Inc #823776,08/20/2025 08:59 PM,Discharged
+599,311,25,07/24/2023 02:49 PM,Emergency,Headache,Transfer,"Peck, Johnson and Jones #837978",08/03/2023 02:49 PM,Discharged
+765,386,10,03/23/2024 04:07 AM,Elective,Chest pain,Transfer,"Morgan, Ibarra and Johnson #950699",04/06/2024 07:07 PM,Discharged
+416,216,20,09/17/2023 12:21 PM,Elective,Fever,Physician Referral,Townsend and Sons #971919,09/15/2023 10:21 PM,Discharged
+340,177,4,02/23/2025 07:37 PM,Outpatient,Chest pain,Physician Referral,"Oneal, Berg and Baker #181000",02/23/2025 09:37 PM,Discharged
+327,170,20,08/23/2024 10:12 AM,Elective,Chest pain,Walk-In,Pacheco and Sons #293057,09/06/2024 05:12 PM,Discharged

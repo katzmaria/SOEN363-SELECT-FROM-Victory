@@ -1,0 +1,9 @@
+source,entity,location,reason,raw
+A,patients,patients.txt:line 217,"wrong_field_count: 7 fields, header has 9","64|Guilbert|Élodie|22/09/1954|H|85, boulevard de Moulin, 55116 Pasquier|0375623246"
+A,admissions,admissions.txt:line 639,"wrong_field_count: 8 fields, header has 10",638|340|35|25/05/2024 08:19|ELEC|Fever|ambulance|Bailly #896956
+B,patients,patients.csv:row 98,"wrong_field_count: 10 fields, header has 8","151,Jensen, Larry,03/21/1974,Male,7908 Robert Mall, North Amandahaven, ON A2G 5T6,615 408 2969,Patrick Sullivan +1 (916) 405-6266,N,EXTRA,FIELD"
+B,patients,patients.csv:row 101,"wrong_field_count: 10 fields, header has 8","446,Myers, Teresa,09/02/1983,Female,86522 Daniels Hills Suite 814, West Karlaberg, NU Y4K1B9,(578) 924-8895,Carolyn Gilbert 217 109 8862,N,EXTRA,FIELD"
+B,admissions,encounters.csv:row 88,"wrong_field_count: 12 fields, header has 10","87,45,10,03/09/2025 06:13 AM,Emergency,Abdominal pain,Transfer,Chapman-Avila #533791,03/11/2025 10:13 PM,Discharged,EXTRA,FIELD"
+B,admissions,encounters.csv:row 300,"wrong_field_count: 12 fields, header has 10","299,156,20,02/11/2024 08:00 AM,Elective,Weakness,Physician Referral,Foley LLC #100239,02/15/2024 06:00 PM,Discharged,EXTRA,FIELD"
+B,admissions,encounters.csv:row 531,"wrong_field_count: 12 fields, header has 10","530,272,25,01/16/2026 05:07 AM,Emergency,Nausea,Physician Referral,Rice-Clark #245003,01/20/2026 09:07 PM,Discharged,EXTRA,FIELD"
+B,admissions,encounters.csv:row 852,"wrong_field_count: 12 fields, header has 10","851,432,35,01/16/2024 06:22 PM,Urgent,Fever,Physician Referral,Williams-Cobb #452046,01/25/2024 12:22 AM,Discharged,EXTRA,FIELD"

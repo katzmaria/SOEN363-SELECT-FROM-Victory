@@ -1,0 +1,492 @@
+pat_no|nom|prenom|date_naissance|sexe|adresse|telephone|contact_urgence|statut_vital
+464|Fontaine|Édith|13/04/1995|F|4, avenue Pauline Lagarde, 85913 Vincent-sur-Perrin|0279460607|Franck Daniel +33 4 81 71 07 94|VIVANT
+161|Courtois|Alain|01/01/2023|F|79, rue Jourdan, 39574 Michaud-sur-Paul|0322688586|Joseph Morvan 0754350320|VIVANT
+168|Blin|Noël|07/12/1951|H|rue de Diallo, 57151 Besnardboeuf|+33 (0)3 27 28 27 98|Andrée Richard +33 (0)3 21 54 31 36|VIVANT
+299|Carre|Frédérique|10/04/2020|I|rue Meyer, 09857 Sainte Maurice|03 82 87 92 22|Philippe Sanchez 04 38 95 23 99|VIVANT
+377|Maurice|Thibault|29/01/1973|F|boulevard Étienne, 23189 Blanc|+33 5 40 10 94 02|Émile Blondel +33 (0)6 36 18 95 12|VIVANT
+145|Blot|Colette|30/01/1980|I|63, avenue de Jourdan, 43604 Fontaine|04 93 99 41 84|N/A|DECEDE
+418|Godard|Lucas|24/06/2012|H|33, avenue Geneviève Barbe, 76697 BoyerVille|+33 3 79 93 10 26||VIVANT
+235|Weiss|Nicolas|02/07/1986|H|49, rue Marion, 89599 HamelBourg|0261436798|N/A|VIVANT
+408|De Oliveira|Cécile|05/04/1968|F|rue Suzanne Sauvage, 91894 ThibaultBourg|N/A|Geneviève Marie +33 2 28 62 45 23|VIVANT
+136|Guillaume|Alix|17/05/1954|F||+33 (0)3 83 50 32 91|Benoît Chauvin +33 4 72 31 97 10|VIVANT
+92|Teixeira|Michelle|28/12/1934|H|91, rue André Perez, 97195 BouchetBourg|0180966160|Stéphane Clerc 0379933066|VIVANT
+228|Richard|Hélène|03/05/1981|I|2, boulevard Vincent Fouquet, 84146 Ferreiradan|+33 (0)5 61 52 53 79|Alexandre Dias 05 62 59 38 51|VIVANT
+372|Boucher|Clémence|01/11/2018|H|30, avenue de Masson, 31889 Valentindan|0180222880|Noël Petit 07 50 85 04 62|VIVANT
+271|Martineau|Danielle|03/08/1998|I|5, chemin de Adam, 66598 Jacquot|0430826897|Arthur Leclercq +33 (0)6 50 09 91 20|VIVANT
+352|Lebrun|Anouk|09/12/1949|I|1, avenue Maillot, 75692 Vaillant|0449408721|Margot Gros +33 (0)5 45 68 01 80|VIVANT
+22|ARNAUD|Agnès|18/03/1994|H|rue Céline Normand, 75341 BrunVille|+33 (0)4 65 66 50 89|Stéphane Besson 0145481946|VIVANT
+7|Barthelemy|Alix|05/10/1980|F|79, chemin Mary, 11398 Olivierdan|+33 (0)1 77 40 60 09|Olivie Lévêque 0473682797|VIVANT
+343|Besnard|Benjamin|26/08/1999|F|10, chemin Joubert, 02247 Blondeldan|+33 (0)5 35 70 48 00|Mathilde Dupuis 04 89 52 62 46|DECEDE
+316|Gautier|Odette|30/07/1955|H|48, chemin Denise Boulanger, 35445 Martel|+33 (0)5 82 99 01 75||VIVANT
+14|Rossi|Daniel|17/02/2002|H|6, chemin Hebert, 09248 Sainte Nathalie|02 96 10 92 75|Marguerite Delaunay 0238345055|VIVANT
+219|Fleury|Céline|18/06/2013|I|12, rue Odette Petitjean, 05631 Da Silva|+33 (0)3 21 40 21 52|Bernard Gros +33 (0)1 70 24 65 45|VIVANT
+115|  Masson |Guy|03/05/1991|F|75, boulevard Arthur Pereira, 70408 Pichon|0172027635|Zacharie Delmas 0140460213|VIVANT
+445|Laine|Emmanuel|20/05/2007|H|93, rue Martin, 80404 Lefèvre|+33 (0)3 26 77 08 74|Christine Guillon 04 98 36 22 19|VIVANT
+138|Potier|Anouk|11/03/1974|H|avenue Renard, 78743 PoirierBourg|02 90 03 54 33|Laurence Gauthier +33 (0)5 45 86 61 28|VIVANT
+267|Colin|Pauline|22/09/2024|F|N/A|+33 (0)2 49 73 69 72|François Martinez +33 2 23 60 50 48|VIVANT
+30|Bourgeois|Audrey|23/05/1932|H|75, chemin David Fischer, 38255 Saint Raymond-la-Forêt|+33 3 69 77 19 05|Margaret Lefebvre 04 11 45 74 89|VIVANT
+420|Hardy|Antoinette|30/05/1974|H|34, boulevard Grondin, 83629 FabreBourg|02 62 37 44 08|Guillaume Colas 05 63 89 88 69|VIVANT
+78|Benoit|Chantal|07/12/2023|F|39, boulevard Agathe Maillard, 97381 Renault-sur-Mer|03 67 67 41 85|Maggie Wagner +33 (0)2 96 35 36 64|VIVANT
+434|Boulanger|David|22/09/1966|I|rue Stéphane Menard, 50755 Lemonnier|0222625883|Gabriel Michaud +33 (0)1 48 51 06 71|VIVANT
+314|Evrard|Arthur|02/03/1984|H|15, rue Colas, 31405 Pinto|+33 (0)2 18 75 03 06|Luce Chrétien 0516109946|VIVANT
+176|Leblanc|Marguerite|14/12/1984|H|avenue de Renault, 05740 Sainte Thérèse|+33 (0)2 98 44 55 67|David Colas 02 36 51 10 16|VIVANT
+363|Duval|Guy|30/06/2025|F|53, chemin Guy Gillet, 89593 Grondin|0310631629|Alex Guillou 0559577409|VIVANT
+378|Lenoir|Jacqueline|28/12/1943|H|61, rue Besson, 26576 Perrier|+33 5 96 05 78 81|Élodie Guichard 0363970213|DECEDE
+113|Ruiz|Denise|31/08/1979|H|avenue de Leconte, 69552 Lamy|01 55 18 09 27|Céline Dupuis +33 (0)5 31 52 17 17|DECEDE
+460|Pottier|Clémence|18/07/1936|I|48, avenue Allard, 52228 Hardy|+33 3 53 92 92 31|Léon Seguin +33 6 35 57 23 81|VIVANT
+479|Weber|Gérard|10/06/1967|H|778, avenue Lévy, 22444 Colas|+33 (0)4 70 07 87 18|Dominique Louis +33 6 30 15 53 04|DECEDE
+217|Lopes|Gilbert|25/12/1981|F|86, rue de Boulay, 16435 Riou|0219045008|Aimé Diallo 04 71 70 64 96|VIVANT
+245|Fischer|Henri|22/11/1989|H|chemin Martins, 77644 Letellier|0497501328|Édith Charles 05 58 01 03 69|VIVANT
+399|Leroux|Margaud|16/02/1976|F|8, boulevard de Gomez, 84272 Dumas|01 56 74 84 07|Océane Ferrand 03 60 58 62 84|VIVANT
+368|Lecoq|Marie|19/06/2019|F|64, boulevard Margaux Picard, 04354 Gautier|04 92 34 64 16|Vincent Georges +33 3 10 66 30 05|DECEDE
+329|Blanchet|Sylvie|31/10/1943|H|39, rue Guy Pascal, 84877 Letellier|+33 (0)3 87 37 68 37|Éléonore Marchand 0251331529|VIVANT
+16|Godard|Camille|05/10/1998|F||+33 (0)4 73 02 33 71|Inès Nicolas +33 (0)2 38 84 87 11|VIVANT
+414|Dumont|Gilbert|08/03/1963|I|7, rue Cordier, 97481 Mendès|0478959255||VIVANT
+270|Gillet|Célina|06/08/2000|F|199, rue Bodin, 77328 Hernandez-sur-Laroche|0324861818|Vincent Fleury 0322247183|VIVANT
+432|Barthelemy|Éric|09/11/1956|H|avenue de Perez, 27955 Pintoboeuf||Benoît Delahaye +33 2 21 17 94 28|DECEDE
+90|Lacombe|Aurore|21/09/1972|F|91, boulevard Vidal, 44673 Blanc|+33 (0)1 41 84 94 56|Isabelle Georges +33 4 91 78 36 79|VIVANT
+194|Roger|Valérie|10/05/1960|I|650, rue Marine Daniel, 63699 Peltierboeuf|+33 3 55 40 03 72|Frédéric Jacques 0253274043|VIVANT
+453|Devaux|William|29/04/1992|F|79, rue Alphonse Seguin, 10868 Andredan|N/A|Christelle Bernier 05 18 71 76 55|VIVANT
+468|Pages|Christelle|08/08/1995|F|165, rue Zoé Chartier, 83128 Giraud|01 74 69 34 19|Danielle Gallet 0155353128|VIVANT
+23|Pineau|Marcelle|14/07/1984|F|53, rue Yves Guillaume, 97117 Picard|+33 6 32 75 46 35|Hortense Leduc +33 (0)5 24 73 82 54|VIVANT
+74|Maréchal|Louise|11/08/1945|I|avenue Maurice, 97316 Sainte Isaacnec|+33 5 55 70 27 54|Anne Marty +33 (0)2 28 92 10 38|VIVANT
+188|Boulanger|Charlotte|12/02/2001|F|4, chemin Jean Baudry, 57135 Brunelnec|+33 4 34 21 13 23|Inès Fabre +33 (0)5 96 51 70 04|DECEDE
+254|Mercier|Frédérique|26/02/1993|F|910, rue de Fernandes, 50129 Sainte Marguerite|+33 (0)2 31 10 61 05|Émilie Andre +33 4 91 86 96 26|VIVANT
+442|Klein|Nicolas|17/01/1959|H|9, rue Benoît Poirier, 27554 Normand-sur-Mer|+33 (0)4 79 95 04 01|Anastasie Lemaire +33 (0)1 41 10 97 12|VIVANT
+454|Robin|Inès|13/12/1942|I|1, avenue de Lebrun, 20696 Durand-sur-Mer|+33 4 71 11 01 80|Antoine Maillet 0442875542|VIVANT
+218|Hoarau|Gabriel|23/05/2025|F|94, avenue Paul, 44442 Hubert|0357849838|Patrick Jacques +33 4 94 43 31 22|VIVANT
+423|Marchal|Lorraine|29/09/1951|I|rue Hoarau, 15833 Hernandez|N/A|Véronique Gonzalez 0608517961|VIVANT
+50|Texier|Margaux|18/04/1967|F|44, rue Jacques Guilbert, 79465 Saint Emmanuel|04 66 55 71 91|Alexandre Blin 0776666356|VIVANT
+40|Da Costa|Michel|18/01/1933|F|96, rue Perez, 63370 François|02 18 95 01 10|Isaac Maurice 0214497156|VIVANT
+292|Daniel|Michelle|31/03/2024|F|44, chemin Noël Costa, 26154 Olivier|+33 4 74 44 64 98|Alain Besnard +33 2 58 65 69 69|VIVANT
+293|PINTO|Diane|15/01/1947|F|63, rue Toussaint, 77184 Collet-sur-Charpentier|0146493460|Yves Leduc +33 5 56 84 23 32|DECEDE
+478|Texier|Patricia|16/05/2021|F|80, avenue Bertrand Becker, 62233 De Oliveira-sur-De Sousa|+33 (0)4 70 02 79 97|Jacqueline Lefebvre +33 1 53 85 56 14|DECEDE
+474|Vincent|Susanne|04/09/2023|I|204, avenue Anouk David, 62173 Maurice|01 76 60 68 79|Guy Guibert 0279704609|VIVANT
+443|Roger|Valentine|08/06/2008|F|70, rue Dupuis, 82731 Marie|0358519697|Benoît Leroux 05 58 00 63 25|VIVANT
+222|Chauvin|Louis|22/09/1986|H|8, rue Bonnin, 21376 Sainte Simone|+33 4 84 46 75 68|Michèle Muller +33 (0)3 73 33 24 16|VIVANT
+242|Texier|Olivie|15/12/1936|F|rue Boutin, 01773 Sainte Patrickboeuf|0564441089|Inès Torres +33 2 47 74 73 43|VIVANT
+355|Bruneau|Robert|10/03/1975|H|22, avenue Julie Benard, 97432 Sainte Jeannine|0532024327|N/A|VIVANT
+239|Mallet|Noémi|14/02/1955|I|avenue de Martineau, 40519 Philippe-sur-Barbier|03 27 49 43 77|Luce Vidal +33 5 54 92 90 71|VIVANT
+202|Brunet|Auguste|08/03/1977|H|546, rue Sabine Rousseau, 68195 Michaud-sur-Jacquot|0480282768|Laurent Maillot 05 17 01 85 36|VIVANT
+395|Roger|Aimée|10/04/2005|H|1, boulevard Claudine François, 69793 Sainte Benjamin|0594599365|Raymond Vasseur 0329619768|VIVANT
+99|Marchal|Clémence|04/04/1932|H|8, boulevard Lopes, 88566 Prévost-sur-Hoarau|+33 (0)2 37 95 83 27|Valérie Vidal +33 6 37 56 19 25|VIVANT
+322|Renault|Thibaut|06/09/2016|I|585, rue de Marie, 97440 Boutin|+33 2 49 14 19 07|N/A|VIVANT
+364|Besson|Henriette|15/10/1954|F|13, rue de Mercier, 81632 Pichon|N/A|Alix Carlier +33 (0)4 82 87 09 77|VIVANT
+1|Laroche|Dorothée|27/09/2026|H|rue Lefèvre, 93743 Meunierdan|0373820885|Patrick Le Gall 05 62 77 54 06|VIVANT
+477|Le Roux|Yves|29/09/2024|I|3, chemin de Roy, 32991 Fabre|+33 (0)3 87 54 00 38|Jeannine Giraud +33 (0)1 55 96 67 37|VIVANT
+336|Chauvet|Maggie|30/07/2002|H|19, boulevard Blanchard, 28556 Pottier-sur-Foucher|+33 (0)7 69 30 85 23|Alfred Gaudin +33 (0)3 28 56 35 04|VIVANT
+462|Gallet|Henri|15/09/1989|H|10, rue Pages, 50392 Lamy|01 56 03 58 91|Timothée Maillard 05 82 33 31 85|VIVANT
+346|Bertrand|Anastasie|26/08/1999|I|95, rue Léon Pages, 88654 Delannoy-les-Bains|06 38 84 81 27|Marie Jacquet +33 (0)4 88 49 28 77|VIVANT
+379|Rousseau|Marthe|25/07/1991|H|3, rue Christophe Martinez, 68804 Fischerboeuf|+33 6 38 43 52 91|Éric Hoarau 0362378307|VIVANT
+118|Fontaine|Benoît|27/07/1993|F|5, boulevard de Evrard, 15670 Mendès|+33 4 26 30 61 50|Lucas Delannoy 0375544024|DECEDE
+246|Leblanc|Claude|14/05/1966|F|552, rue Philippe Dupré, 45692 Weberboeuf|03 67 50 84 87|Valentine Potier 0251607354|VIVANT
+273|De Oliveira|Lucy|28/08/1932|F|251, rue Hélène Bousquet, 97318 Saint Aurore-sur-Mer|+33 2 31 49 48 64|Maurice Boucher +33 1 79 37 29 64|VIVANT
+324|François|Constance|25/11/1998|F|89, boulevard Pottier, 51466 Courtoisboeuf|0536801263|Gérard Duhamel +33 (0)5 49 19 71 77|DECEDE
+290|Ferreira|Franck|09/01/2012|H|68, chemin de Gomez, 70739 Saint Emmanuelboeuf|05 45 31 41 38|Simone Perrier 0370979965|DECEDE
+253|Menard|Théodore|08/06/2023|H|40, rue Guy Maillot, 94814 Lambert|+33 5 82 20 45 43|Thérèse Munoz 05 55 33 19 31|VIVANT
+404|  Bernard |Georges|28/06/1978|F|293, avenue de Brunel, 91207 Letellier|N/A|Louis Joseph 0156420138|VIVANT
+309|Vaillant|Adèle|12/12/1974|H|8, avenue de Lévêque, 97480 Sainte Mathilde|04 30 06 26 35|Manon Roche +33 4 11 94 01 36|VIVANT
+52|Dupont|Pierre|15/03/1997|I|29, rue Rémy, 62366 Vallet|01 75 75 90 59|Georges Voisin 0488368580|VIVANT
+126|Bodin|Emmanuel|18/02/2003|I|69, chemin Auger, 31761 Jacobboeuf|+33 1 49 67 56 59||VIVANT
+318|Petitjean|David|14/04/2011|F|boulevard de Cohen, 22665 Fouquet|+33 (0)3 54 13 16 11|Camille Pereira 05 94 91 10 42|VIVANT
+195|Lacroix|Aurélie|26/12/2003|H|90, rue de Pons, 36453 Joseph-sur-Mer|+33 (0)3 23 93 71 38|Olivie Gomes 0508206725|VIVANT
+182|  Daniel |Franck|06/07/2024|I|10, avenue de Duval, 68645 Colas|03 58 27 36 92|Laure Bègue 0143881958|VIVANT
+162|Normand|Gilles|21/06/2024|H|rue Lenoir, 38514 PereiraVille|+33 4 13 46 70 88|René Lambert +33 1 88 04 08 84|VIVANT
+458|Guyot|Alex|12/10/1974|I|430, chemin Victoire Noël, 77761 Jacquot|+33 2 98 52 80 63|Christophe Bonneau 03 51 46 65 39|VIVANT
+448|Petitjean|Isaac|18/06/1977|H|79, boulevard de Lucas, 58427 Gomez-sur-Mer|03 82 33 92 29|Pierre Peron +33 2 78 12 85 49|VIVANT
+323|Gomes|Adèle||F|95, rue Eugène Colin, 37862 Bouvet|0253652524|Thierry Clerc 01 64 05 33 85|VIVANT
+35|Techer|Pauline|08/07/1973|F|746, chemin de Gomes, 26719 Sanchez|04 73 73 63 63|Corinne Foucher 0172959584|DECEDE
+286|Blanchet|Alex|09/05/1964|F|657, boulevard Victoire Hebert, 47920 Sainte MaryseVille|+33 3 57 05 80 07|Susan Delaunay +33 3 25 65 78 00|VIVANT
+223|Petit|Alfred|05/03/1976|H|277, boulevard Alex Rousset, 97186 Sainte Yves|+33 2 48 10 23 62|Gilbert Fleury 02 22 17 87 17|VIVANT
+129|Bouvet|Margaret|09/10/1989|H|71, chemin de Maurice, 75424 Allain|0638972753|Hortense Gallet 02 33 26 06 25|VIVANT
+220|Reynaud|Guy|06/11/1974|I|56, chemin de Philippe, 19787 LelièvreBourg|0557447328|Éléonore Diallo +33 3 55 95 64 99|DECEDE
+288|Maury|Élise|30/10/1945|H|chemin Hoareau, 45348 Fleury-sur-Mer|+33 1 55 29 89 53|Anne Riou +33 (0)3 84 28 71 90|VIVANT
+36|Arnaud|Victor|19/08/2015|H||0655925114|Frédérique Renard 0353270908|VIVANT
+94|Delorme|Aurore|31/05/1955|I|97, rue Marchal, 16717 Sainte Étiennedan|03 60 34 30 24|Michelle Gérard 01 74 15 58 33|VIVANT
+201|meyer|Virginie|28/04/2014|H|85, rue de Lévy, 80888 Sainte Marguerite-la-Forêt|+33 4 82 45 05 65|Noël Perez +33 (0)3 62 16 66 57|VIVANT
+393|Rivière|Clémence|10/05/1980|F|5, rue Roland Gaudin, 39522 Neveu|+33 1 53 64 33 47|Aurore Carpentier +33 (0)4 20 49 30 87|VIVANT
+424|Bègue|Timothée|24/12/1937|F|740, rue Giraud, 51967 Jourdan|02 28 86 65 74|Auguste Chrétien 0298750575|VIVANT
+70|Normand|Laure|10/01/1944|F|15, boulevard Dubois, 97150 Collin-sur-Guichard|04 34 10 79 69|Philippine Henry +33 3 22 14 21 63|VIVANT
+301|Tanguy|Danielle|08/12/1964|F|N/A|+33 (0)5 18 88 77 22|Victor Hoarau +33 3 89 59 81 75|VIVANT
+132|Joly|Martine|28/10/1969|F|chemin Lacroix, 55643 Charrier|01 83 18 53 07|Pénélope Paul +33 2 53 69 89 00|VIVANT
+373|sanchez|Lucy|24/08/1986|I|rue Besnard, 97137 Leblancdan|+33 (0)5 34 88 48 59|Odette Charpentier 03 20 68 38 00|VIVANT
+155|Charpentier|Isaac|12/08/1966|F|chemin Vincent Hubert, 70231 Loiseau|02 50 84 85 17|Stéphane Lesage +33 2 33 54 32 26|VIVANT
+326|Morin|Hugues|07/10/1965|H|boulevard Chauveau, 87798 Nicolas|0155730275|Élodie Samson 02 78 01 86 99|VIVANT
+25|Gaudin|Nicole|03/07/1953|H|rue Lorraine Marion, 24570 Menard|+33 6 98 81 95 19|Diane Blot +33 (0)3 59 19 23 27|VIVANT
+302|Gilbert|Paulette|30/12/1989|I|859, boulevard Laetitia Fernandes, 10795 Chevalier-sur-Mer|0443837563|Éric Rousset 0386714654|VIVANT
+166|Laporte|Élodie|21/09/1980|F|69, rue de Dijoux, 78225 Arnaud|+33 2 57 01 16 39|Louise Ferrand +33 2 38 99 15 10|VIVANT
+251|Descamps|Frédérique|23/05/1970|H|4, avenue de Labbé, 44681 Chauvin|+33 (0)1 42 52 69 63|Alex Munoz +33 (0)5 59 46 25 47|VIVANT
+58|Adam|Corinne|16/06/1938|F|91, avenue Bernier, 11501 Vidal-sur-Petit|+33 (0)3 85 77 09 01|Luc Guyon +33 (0)4 84 43 92 11|VIVANT
+173|Maillet|Astrid|20/01/1962|H|6, boulevard de Maréchal, 17549 TexierVille|0495383014|Denise Barbe 0363423190|VIVANT
+207|Bouchet|Arthur|04/10/2023|F|21, rue de Lenoir, 83100 Saint Pauletteboeuf|+33 5 35 69 71 07|Henriette Mallet 0361391547|VIVANT
+199|  Klein |Simone|16/04/2010|I|99, boulevard de Nguyen, 70933 Monnier-sur-Maillet|+33 (0)5 54 68 52 37|Susanne Thibault 03 22 38 73 49|VIVANT
+247|Guillon|Claude|28/12/1952|H|rue Dupré, 64289 Ribeiro-les-Bains|+33 5 87 60 74 11|Thomas Toussaint 01 40 22 67 96|VIVANT
+154|Courtois|Laure|28/07/2000|F|18, boulevard Maillet, 74659 Berthelotnec|+33 (0)2 35 45 83 84|Arthur Clément 0234262110|VIVANT
+451|Thibault|Colette|21/10/1970|I|43, avenue de Vidal, 55455 Charrier|02 57 51 53 90|Alexandre Petit 05 18 68 07 94|VIVANT
+274|Mathieu|Nathalie|17/02/1966|H|91, rue Meyer, 37332 Duboisdan|0799015633|Bertrand Perrot 0246462189|VIVANT
+135|Coulon|William|01/11/2023|H|20, chemin de Noël, 12782 Jean-sur-Mer|0561371703|Émile Laporte +33 (0)2 48 98 50 35|VIVANT
+13|Léger|Margot|30/01/1962|F|41, avenue Laroche, 80394 De Oliveira-sur-Perret|0450498317|André Laroche 01 39 37 57 93|VIVANT
+60|Rolland|Émilie|15/04/1960|F|71, chemin Clémence Lecomte, 40557 Sainte Cécile-sur-Mer|+33 5 62 03 13 31|Caroline Lacombe +33 2 31 55 35 87|VIVANT
+67|Guibert|Édith|24/09/2010|F|99, rue Josette Antoine, 97147 Sanchez-sur-Mer|+33 (0)3 27 27 12 21|Antoine Cordier +33 (0)4 80 87 62 45|VIVANT
+315|Blanchard|Alexandrie|03/03/1935|F|79, avenue Édith Couturier, 77228 Saint Patricianec|+33 6 98 24 74 31|Hugues Bourgeois +33 1 39 42 13 14|VIVANT
+159|Vallet|Nicolas|30/01/1959|F|24, chemin Agnès Prévost, 76385 Saint Brigittedan|0773354132|Margaux Lefèvre 02 54 61 43 84|VIVANT
+381|Diallo|Robert|25/03/1997|F|54, boulevard Jeanne Laine, 12689 BenardVille|+33 2 96 87 58 73|Michelle Rossi 0415006622|VIVANT
+76|Chevalier|Nicolas|20/02/2004|I|3, rue Alexandre, 01821 Costa|04 63 01 57 69|Alfred Bourdon +33 (0)4 73 11 81 02|VIVANT
+102|Perrin|Constance|05/01/1979|I|90, chemin Charlotte Huet, 03805 Petit-les-Bains|+33 (0)4 98 53 95 62|Xavier Hardy 06 85 07 03 10|VIVANT
+349|Besnard|Thibaut|22/06/2023|F|rue Margaux Poirier, 43936 Saint Dorothéeboeuf|06 36 49 79 17|N/A|VIVANT
+88|Roche|Catherine|25/04/1973|H|70, chemin Lucy Bonnin, 71861 Sainte Louis|0678917234|Astrid Bertin 0535700698|VIVANT
+69|Leroux|Josette|01/05/2024|F|1, rue Bertrand Laine, 01334 Millet|0563869845|Maggie Cohen +33 2 79 20 04 33|VIVANT
+155|Charpentier|Isaac|12/08/1966|F|chemin Vincent Hubert, 70231 Loiseau|02 50 84 85 17|Stéphane Lesage +33 2 33 54 32 26|VIVANT
+310|Brunet|Zacharie|10/02/1977|F|17, rue de Prévost, 65508 Mallet-les-Bains|+33 2 35 24 14 84|Diane Grondin +33 (0)5 40 34 65 33|VIVANT
+84|Lecomte|Jeannine|26/11/1995|H|458, rue de Loiseau, 43776 Gomez|0458140823|Nicolas Marchand +33 (0)3 71 06 35 90|VIVANT
+311|Besson|Paulette|21/02/1981|H|chemin Guérin, 60796 MartinezBourg|N/A|Marianne Hervé 06 99 88 74 58|VIVANT
+344|Rodriguez|Lorraine|09/11/1944|F|avenue de Mathieu, 09419 Cordier|+33 (0)5 40 22 51 84|Bertrand Collin +33 (0)7 61 79 26 46|VIVANT
+248|  Meyer |Arthur|31/05/1984|I|73, chemin Emmanuelle Morvan, 23480 Picard|+33 (0)1 44 77 14 33|Jacques Gosselin 0370412993|VIVANT
+366|Nicolas|Pénélope|14/11/1931|H|rue de Gaudin, 91290 Perrier|+33 2 28 30 80 84|Louise Pelletier +33 (0)6 17 29 18 55|VIVANT
+374|Barre|Henri|08/12/1988|I|898, chemin Nath Ramos, 61585 Saint Richard|01 48 21 65 09|Hugues Paul 0555725209|VIVANT
+100|Hoareau|Eugène|18/11/1976|F|81, avenue Camus, 44308 Coste|+33 (0)6 66 53 06 89||VIVANT
+444|Gilles|Léon|15/04/2000|H|2, rue Dufour, 21565 Loiseau|+33 4 70 28 39 33|Camille Moreau +33 1 70 98 95 56|VIVANT
+210|Toussaint|Théodore|08/04/2014|H|74, chemin Étienne Roche, 57754 Sainte Marthe|N/A|Patricia Maréchal +33 3 54 82 39 94|VIVANT
+416|Gosselin|Marianne|05/01/1981|F|62, chemin Augustin Leclercq, 19192 Laine|0253549663|Paul Collet +33 3 68 46 42 80|VIVANT
+214|LEBRETON|Charlotte|08/09/1961|F|65, chemin Suzanne Gaillard, 74185 Roux-la-Forêt|0518185163|François Hoareau 05 47 06 46 65|VIVANT
+127|Mary|Colette|30/11/1933|F|92, rue de Wagner, 89523 GrégoireBourg|+33 3 20 33 92 10|Julien Munoz +33 8 08 89 92 12|VIVANT
+57|Jacquet|Lorraine|01/02/1970|F|9, rue Élodie Leleu, 78585 GrégoireVille|+33 (0)3 75 20 82 38|Noémi Texier +33 (0)7 84 89 26 11|VIVANT
+169|Pons|Émile|05/04/1939|I|7, avenue de Leduc, 04590 Dufour-sur-Mer|0582108375|Valérie Marion 01 83 80 49 46|VIVANT
+177|Lenoir|Émilie|19/05/1932|I|N/A|+33 2 54 87 01 42|Robert Benard +33 (0)3 84 05 25 42|VIVANT
+77|Legendre|Élise|17/12/1995|I|N/A|+33 (0)6 60 62 99 48|Gabriel Bernard +33 3 21 29 09 50|VIVANT
+204|Maillet|Lorraine|20/10/1999|F|4, avenue Delahaye, 72140 Perret-sur-Techer|+33 5 19 02 66 01|Benoît Bègue +33 3 52 08 70 19|VIVANT
+430|Pascal|Martin|10/03/2018|I|3, boulevard de Parent, 27543 Pasquier-sur-Guyon|0563358066|Laetitia Fouquet +33 2 72 20 79 45|VIVANT
+358|Allain|Stéphane|25/10/1986|F|50, chemin de Baron, 97318 Gilles-sur-Mer|+33 4 94 09 36 52|Bernadette Boulanger 05 35 99 02 98|VIVANT
+47|Weiss|Laure|13/07/1998|H|rue Torres, 16168 Saint Moniqueboeuf|+33 (0)4 89 22 52 13|Agathe Lebrun 04 73 96 85 23|VIVANT
+33|Hervé|Éléonore|30/01/2000|I|553, rue Élisabeth Blanchet, 89710 Teixeira|+33 6 31 75 91 72|Grégoire Lecomte +33 (0)4 86 48 54 30|DECEDE
+440|Delattre|Gilles|23/07/2007|I|67, avenue Benoît Mahe, 09370 Rodriguez-sur-Garnier|06 31 78 29 08|Thierry Besson +33 1 75 52 63 54|VIVANT
+42|Munoz|Margaret|04/02/1994|H|64, rue Gimenez, 44638 Sainte Margaud|+33 4 94 88 42 73|Édouard Blot 0170055443|VIVANT
+243|Guillou|Isabelle|19/12/2018|F|87, chemin Perrier, 75558 Sainte Marcelledan||Corinne Fernandez +33 3 88 57 82 86|VIVANT
+407|Sauvage|Jérôme|25/01/1969|H|407, rue Christine Lambert, 72950 Sainte Nicole|+33 (0)6 37 71 38 19|Thérèse Lacombe 0632992702|VIVANT
+312|Sauvage|Philippine|02/07/2026|F|268, boulevard Nguyen, 67597 Lemonnier|+33 5 96 23 09 42|Geneviève Picard +33 6 84 06 77 81|VIVANT
+319|Bègue|Clémence|09/12/1964|H|6, boulevard Zacharie Garcia, 61607 Jacques|+33 (0)5 63 82 03 62|Patrick Lacroix +33 (0)5 16 36 86 28|VIVANT
+283|Dos Santos|Léon|13/05/2011|H|66, chemin de Lecomte, 18938 Devauxnec|+33 3 44 69 75 08|Guillaume Vincent 05 24 64 70 01|VIVANT
+280|Gomez|Olivie|17/03/2010|H|63, avenue de Gilles, 75883 Michel|01 58 75 55 50|Alphonse Guibert 04 77 31 27 14|DECEDE
+6|Hamel|Bernard|19/03/1971|H|260, boulevard Maurice Cohen, 88379 De SousaVille|+33 (0)3 67 47 92 62|Lucie Meunier 01 55 22 75 47|VIVANT
+234|Germain|Emmanuelle|15/06/1995|I|6, avenue Lenoir, 33220 Alves-la-Forêt|03 27 86 26 02|Victoire Pascal +33 2 33 28 89 96|VIVANT
+327|Hoareau|Manon|23/04/1937|I|41, rue de Maréchal, 35533 Saint Thierry|+33 (0)3 72 76 63 26|Bertrand Rémy 03 54 12 17 18|VIVANT
+140|Poulain|Valentine|28/01/2023|F|boulevard Dijoux, 30574 David|05 81 25 47 73|Benoît Lucas 06 37 88 26 93|VIVANT
+111|Paris|Georges|28/08/1997|H||0415244447|Gilles Thomas +33 (0)2 48 08 65 12|VIVANT
+263|Alves|Denis|23/04/1992|F|81, rue Alix Muller, 52838 Hernandezboeuf|+33 3 51 95 85 98|Frédéric Besson 0279535763|VIVANT
+193|Langlois|Renée|16/06/2001|F|N/A|+33 4 56 87 14 38|Patricia Traore +33 6 35 97 91 91|VIVANT
+156|Paris|Vincent|22/05/1946|I|2, rue Madeleine Dos Santos, 36462 Blot-les-Bains|+33 (0)5 46 63 68 44|Suzanne Muller 0540953371|VIVANT
+119|Grégoire|Zacharie|31/08/1935|H|4, avenue Alexandre, 57494 Saint Maggienec|0325828203|Édith Lebon +33 (0)2 32 25 64 95|VIVANT
+332|Rivière|Amélie|13/03/2010|F|rue de Valette, 44379 Delaunay-sur-Lévêque|+33 4 73 81 96 21|Luc Marques 02 55 36 10 41|VIVANT
+48|Langlois|Joséphine|20/04/2002|I|rue Zoé Dupuy, 68611 Saint Laetitiadan|+33 3 86 67 48 70|Paul Raymond +33 5 57 17 11 91|VIVANT
+62|Voisin|Alice|18/04/1949|I|62, boulevard Morvan, 97675 Colletdan|0366468191|Pénélope Guillot 07 46 55 25 53|VIVANT
+300|Denis|Emmanuel|15/02/1936|H|9, avenue de Marie, 95454 Duval|01 82 22 11 15|Nicole Rivière +33 (0)3 81 33 08 42|VIVANT
+221|Bouvier|Susanne|20/12/1933|H|99, chemin Pelletier, 43141 Laurent|0430730414|Caroline Morvan +33 3 67 20 46 10|VIVANT
+44|Perrin|Valérie|17/05/2011|H|68, boulevard Marty, 53919 Lecoq-la-Forêt|0489329186|Maryse Dupont +33 3 27 72 60 54|VIVANT
+478|Texier|Patricia|16/05/2021|F|80, avenue Bertrand Becker, 62233 De Oliveira-sur-De Sousa|+33 (0)4 70 02 79 97|Jacqueline Lefebvre +33 1 53 85 56 14|DECEDE
+469|Laroche|Margaux|30/01/1948|F|80, avenue de Menard, 69157 PetitjeanBourg|03 68 63 02 69|Édouard Munoz 0587226393|VIVANT
+320|Reynaud|Alex|10/01/2025|I|boulevard de Aubry, 61784 Gallet|0474601344|Brigitte Buisson +33 (0)1 72 78 46 20|VIVANT
+385|Bernard|Alphonse|06/03/1951|F|30, boulevard Pénélope Becker, 27696 Merle-sur-Martineau|04 15 48 83 40|Laure Duval 01 72 84 83 94|VIVANT
+328|Pages|Nath|12/07/1978|F|23, rue de Martineau, 90640 Verdier-sur-Klein|N/A|Marthe Potier 04 32 76 65 91|VIVANT
+105|Mendès|Nath|08/11/1952|F||+33 3 82 62 38 92|Pauline Duval +33 2 85 60 11 46|VIVANT
+467|grondin|Bernard|17/09/2005|F|2, boulevard Morel, 37884 Mary|0188033510|Bernadette Berger 0557009068|VIVANT
+421|Olivier|Élisabeth|23/11/1979|F|58, rue Margot Andre, 82864 Coulondan|+33 (0)3 23 95 43 58|Madeleine Cohen +33 (0)4 98 73 40 56|VIVANT
+390|Hardy|Céline|11/03/1975|F|19, rue Gonzalez, 52829 LeclercqBourg|+33 2 34 83 13 36|Chantal Bouchet 02 18 18 46 51|VIVANT
+394|  Barre |Éric|01/09/2016|H|20, boulevard de Petit, 09652 Seguinnec|+33 (0)5 45 42 31 60|Emmanuelle Weiss 0182296642|VIVANT
+260|Lopez|Pénélope|18/01/2012|H|45, avenue Célina Briand, 48201 BouvetBourg|06 82 81 26 05|Christine Guibert 0254645726|DECEDE
+2|Dupré|Julien|26/02/2013|I|36, chemin Morvan, 01333 Dufour-sur-Gillet|05 64 96 86 51|Adrienne Humbert +33 1 75 47 21 60|VIVANT
+313|Costa|Lorraine|29/05/2016|I|chemin Éléonore Le Roux, 44677 Sainte JulietteVille||David Leroux 02 51 44 81 05|VIVANT
+166|Laporte|Élodie|21/09/1980|F|69, rue de Dijoux, 78225 Arnaud|+33 2 57 01 16 39|Louise Ferrand +33 2 38 99 15 10|VIVANT
+86|Payet|Jean|01/08/2016|H|6, avenue Peltier, 66990 Klein|0531222728|Corinne Millet +33 3 54 19 53 26|VIVANT
+359|Ferrand|Denis|09/11/1960|H|9, chemin Grégoire Duval, 86354 Sainte Martine-les-Bains|+33 (0)3 82 75 22 02|Zacharie Joly +33 (0)5 18 98 56 57|VIVANT
+317|Fischer|Isaac|08/04/1992|F|avenue de Joubert, 21683 Aubry|05 53 32 18 13|Henriette Regnier +33 5 61 38 56 05|VIVANT
+109|ARNAUD|Gabriel|05/05/1949|F|33, rue de Bernier, 33394 Duhamel|+33 (0)3 64 75 80 65|Augustin Brunet 0559096687|VIVANT
+459|Mahe|Bertrand|21/10/1939|I||0176791098|Victor Michaud 04 63 76 93 34|VIVANT
+354|Chevallier|Henriette|26/08/2015|I||03 64 79 51 78|Marc Tessier 0175532632|VIVANT
+269|Delannoy|Agnès|11/09/1944|I|28, chemin de Charles, 95567 Vincent-la-Forêt|0240986450|Alice Bailly +33 3 27 79 04 57|VIVANT
+341|Grégoire|Louise|03/09/2017|F|21, boulevard Camus, 46257 Pascal-sur-Pinto|03 22 13 28 29|Marc Dufour 04 49 70 93 13|DECEDE
+397|Vincent|Julie|19/02/1978|H|535, avenue de Grenier, 14361 Sainte Alex|0516507081|Anastasie Dupuis 0247219334|VIVANT
+75|Bonnet|Jules|15/09/2005|F|67, rue de Lemoine, 63627 Bonneauboeuf|0540515950|Margaret Poirier +33 (0)1 72 67 79 75|VIVANT
+455|Merle|Augustin|24/05/2015|H|306, chemin de Joseph, 13834 Sainte Lucienec|0471085463|Véronique Potier 0411478024|VIVANT
+103|Le Gall|Frédérique|12/02/1959|F|N/A|+33 (0)6 35 63 55 21|Franck Gaudin +33 (0)3 56 55 80 43|VIVANT
+5|Navarro|Frédéric|22/11/1954|F|rue Matthieu Richard, 62682 Saint Emmanuel|+33 3 81 04 51 79|Marc Lopez +33 4 84 49 12 36|VIVANT
+215|Traore|Aimée|16/08/1945|F|9, rue Menard, 97111 Ferreira|+33 (0)3 56 16 57 51|Alix Renard +33 2 98 13 51 60|VIVANT
+34|Merle|Françoise|11/10/1931|H|42, avenue de Didier, 72157 Masson-sur-Mer|+33 1 44 73 44 37|Catherine Torres +33 (0)2 40 21 07 66|VIVANT
+183|Leleu|Michèle|25/09/2010|H|rue de Masson, 71913 Barbier|04 44 84 07 97|Charles Benoit +33 2 61 63 13 22|DECEDE
+437|Gomez|Laure|16/05/1954|H|N/A|+33 3 54 45 16 43|Timothée Gilles 0586042613|DECEDE
+54|Martins|Arthur|25/08/2026|F|62, avenue Inès Bernier, 29410 Saint Luce|0492304314|Vincent Lefèvre +33 2 49 63 43 49|VIVANT
+64|Guilbert|Élodie|22/09/1954|H|85, boulevard de Moulin, 55116 Pasquier|0375623246
+446|Lombard|Jeanne|05/09/1944|F|542, boulevard de Aubert, 53663 Moreno|+33 (0)3 22 15 43 27|Marc Menard 04 63 46 25 58|VIVANT
+212|Daniel|Antoinette|19/11/2003|F|avenue Julie Marques, 42556 Hoareau-sur-Becker|05 62 41 96 23|Michèle Julien +33 (0)4 56 39 00 65|VIVANT
+275|De Oliveira|Bernadette|15/06/2020|F|799, rue Jacques Briand, 28329 Collet|01 76 00 23 22|Chantal Guillon +33 (0)5 24 82 53 52|VIVANT
+175||Frédéric|02/07/2026|I|89, chemin de Fernandez, 83144 Thierry|+33 2 47 45 86 20|Louise Toussaint +33 4 90 99 86 59|VIVANT
+197|Brunel|Maryse|08/04/2023|I|88, boulevard Jean Maillet, 63627 Saint Zacharie|+33 3 51 84 94 88|Martine Duhamel 03 58 59 45 75|VIVANT
+362|Pons|Marianne|16/03/2005|F|52, chemin Denis Marques, 97370 Carre-les-Bains|+33 3 84 81 13 00|Alain Barre +33 2 90 81 58 21|VIVANT
+473|  Renard |Maggie|27/08/1961|I|724, avenue Jacquet, 21713 Saint GrégoireBourg|+33 (0)4 69 61 40 35|Stéphane Cohen 04 42 46 95 88|VIVANT
+123|Bodin|Gilles|11/11/2012|H|193, rue Bailly, 24658 Lamy|+33 (0)5 54 62 45 17|Thibaut Leblanc 02 45 94 83 80|VIVANT
+171|Pires|Joséphine|24/03/1965|I|25, chemin Klein, 97666 Dufour||Brigitte Mercier 05 19 38 87 69|VIVANT
+244|Pons|Christine|26/04/1944|I|rue Alice Traore, 89785 Marques-sur-Mer|+33 (0)7 54 65 07 55|Juliette Besnard +33 (0)7 39 00 83 11|VIVANT
+27|Nguyen|Madeleine|04/10/1961|H||0221076676|Auguste Leclercq 0188370715|VIVANT
+429|Martins|Antoine|03/10/2007|I|88, avenue de Rodriguez, 76179 Baron|N/A|Honoré Valentin 0673276655|VIVANT
+152|Charpentier|Guy|20/08/1951|H|29, rue de Vasseur, 03735 Saint Louis-la-Forêt|0517804163|Denise Le Goff 02 33 41 23 98|VIVANT
+184|Teixeira|Sylvie|01/06/1964|I|537, avenue de Peron, 22973 Mahe|0360282380|Auguste Blondel +33 4 70 40 42 28|VIVANT
+308|Jacquot|Anouk|21/03/2021|H|rue Payet, 14607 Moreau-la-Forêt|0235256902|Augustin Gilles 0262250715|DECEDE
+450|Brunel|Robert|24/05/2014|F|923, avenue Lefort, 10288 Weberboeuf|01 78 59 20 90|Henriette Jean +33 (0)6 40 60 14 89|VIVANT
+71|Martins|Océane|19/01/1988|F|52, chemin Marc Rolland, 55625 Marchal|+33 5 36 92 42 44|David Guillou 03 10 80 72 99|VIVANT
+180|Pottier|Astrid|24/11/1988|F|56, boulevard de Pons, 25492 Valentin|07 61 65 66 42|Éric Marty 0556533262|VIVANT
+356|Boucher|Bertrand|21/02/2016|H|652, avenue Cousin, 77144 Sainte Thibault|+33 (0)1 76 22 81 33|Adèle Louis +33 (0)2 19 16 30 18|VIVANT
+272|Morel|Noël|24/06/1964|H|39, avenue de Gérard, 08815 Gimenez-sur-Mer|+33 (0)2 30 01 34 52|Suzanne Delahaye 01 81 77 72 47|VIVANT
+369|Carpentier|Agnès|09/09/2024|H|90, chemin Patricia Bailly, 65111 Laroche|N/A|N/A|VIVANT
+125|Humbert|Xavier|13/02/2025|F|1, boulevard Perez, 23543 Sainte Mathilde-les-Bains|+33 1 58 28 17 56|Édith Lemoine +33 4 90 47 31 21|DECEDE
+303|Carre|Manon|06/01/1995|H|30, chemin Chauvet, 20621 Martelboeuf|04 85 85 81 43|Philippe Weber 0491386779|VIVANT
+93|Giraud|Émile|22/03/2013|H|38, boulevard de Loiseau, 97275 GuyotVille|+33 4 83 28 32 20|N/A|VIVANT
+481|Pelletier| Michelle  |07/12/1933|I|24, rue Baron, 11548 Gilles|06 31 04 91 82|Élise Pruvost +33 2 99 72 69 13|VIVANT
+262|MAILLOT|Alexandria|23/02/1997|H|3, chemin Cécile Roger, 35746 Saint AnneBourg|+33 1 82 65 02 56|Manon Pereira +33 (0)5 45 35 91 21|VIVANT
+120|Rousset|Roland|06/01/1935|H|56, rue Hamon, 88929 Michaudnec|+33 2 69 22 76 67|Sébastien Paris 0442667512|VIVANT
+405|Didier|Adélaïde|25/01/1995|H|67, rue Margaux Moreau, 39356 Petit|+33 (0)4 20 68 38 01|Adrien Muller +33 (0)6 34 42 16 03|VIVANT
+17|Godard|Gabrielle|28/12/1944|F|chemin Emmanuelle Moreno, 09809 Martinez|+33 (0)3 69 45 79 64|Alphonse Joly 0437720056|VIVANT
+158|Maillot|Danielle|11/06/2012|H|79, boulevard Gosselin, 58319 Bigotnec|+33 3 70 81 88 67|Adrien Valette +33 (0)6 26 53 81 86|VIVANT
+117|Rocher|Thierry|09/08/1982|H|avenue Inès Philippe, 50646 Sainte Thibautnec|+33 (0)4 15 26 39 62|Édith Leblanc +33 4 27 96 70 93|VIVANT
+398|Weiss|Paul|18/11/1948|F|155, rue de Riou, 46615 NormandBourg|+33 (0)2 23 23 22 72|Nathalie Martin +33 (0)6 98 97 26 86|VIVANT
+163|Dumont|Catherine|30/10/1957|F|rue Aurore Navarro, 74936 Saint Philippeboeuf||Renée Royer +33 3 64 95 30 64|VIVANT
+187|Colin|Marguerite|14/02/1968|F|1, rue de Ferrand, 08671 Breton|04 78 85 18 96|Stéphanie Carlier +33 (0)5 56 16 11 13|VIVANT
+256|Moulin|Alain|10/06/1989|H|7, rue Caroline Barbe, 77578 Sainte NoémiBourg|03 59 02 00 34|Marguerite Peron +33 5 36 75 83 37|VIVANT
+410|Bigot|Thibault|10/05/1990|F|chemin de Gillet, 49159 Saint Richarddan|+33 2 57 70 72 97|Guy Gomez +33 4 80 23 02 53|VIVANT
+433|Pichon|Nath|23/06/1988|F|46, rue Breton, 23831 Wagnerdan|0261464640|Jules Besnard 03 71 15 40 55|VIVANT
+396|Lagarde|Daniel|19/09/1975|F|1, rue Brun, 38124 Lopes|+33 6 37 08 34 06|Dorothée Maillet +33 3 28 56 32 14|VIVANT
+296|Couturier|Anaïs|26/02/2017|F|93, boulevard Chantal Morvan, 70668 Gautier|05 36 22 57 40|Théodore Ledoux 07 91 75 61 68|VIVANT
+237|Richard|Auguste|21/10/1992|F|413, rue Thibault Pires, 40748 Saint Caroline|0534897171|Antoine Verdier +33 2 49 89 56 10|VIVANT
+447|Ferreira|Nicolas|21/09/1962|F|70, rue Nguyen, 47210 Martins|N/A|Sébastien Lejeune +33 (0)1 82 77 83 30|VIVANT
+284|Delahaye|Thibaut|11/01/1981|F|458, rue Maurice, 97661 Sainte Arnaude|0375627875|Diane Pierre +33 (0)2 14 59 12 18|VIVANT
+165|Voisin|Corinne|19/11/1955|H|315, rue Chantal Gauthier, 07227 PerretVille|+33 1 44 99 66 86|Pauline Georges +33 4 80 27 49 37|VIVANT
+347|Henry|Stéphane|15/08/1956|F||+33 (0)1 69 13 04 48|Frédéric Aubert +33 (0)5 47 04 97 55|VIVANT
+403|Perez|Marie|27/11/1943|H|29, rue Giraud, 78710 NicolasBourg|0384801757|Louis Labbé +33 5 19 91 67 14|VIVANT
+389|Buisson|Étienne|24/02/2000|F|50, chemin Legros, 84145 Humbert|0559438745|Édouard Hoarau 03 79 51 35 63|VIVANT
+37|Bonnin|Daniel|05/10/1968|H|40, avenue de Brunel, 72345 Daniel|02 77 75 42 41|Anouk Delattre +33 1 81 90 30 67|VIVANT
+392|Pires|Gabrielle|26/02/1936|H|80, rue Joséphine Baudry, 70819 Boyer|+33 4 76 52 46 49|N/A|VIVANT
+139|Mallet|Lucy|07/10/2012|I|N/A|01 44 17 68 04|Simone Bourgeois +33 (0)4 27 08 25 78|VIVANT
+406|Petit|Constance|06/11/1935|I|boulevard de Gaillard, 06742 Pichon|+33 (0)2 45 05 77 02|Xavier Gosselin 03 70 98 29 52|VIVANT
+96|Gonzalez|Frédérique|18/11/2019|H|60, chemin Agnès Rocher, 70328 Sainte Stéphane||Pénélope Guyot +33 2 78 62 21 28|VIVANT
+279|Germain|Andrée|27/02/1988|F|9, boulevard Fournier, 32980 Vaillant|03 29 27 50 10|Charles De Oliveira +33 (0)3 82 72 99 47|VIVANT
+236|Hardy|Michèle|22/08/2014|F|84, rue de Marchal, 84748 Joly|+33 4 90 51 51 50|Émile Petitjean +33 (0)5 49 26 34 09|VIVANT
+466|Muller|René|14/12/1977|H|42, rue de Texier, 61498 AubertBourg|03 55 08 02 18|Rémy Samson 04 13 84 53 18|VIVANT
+28|Raymond|Jeannine|02/05/1935|F|852, chemin Leroux, 27492 FaureBourg|+33 (0)3 25 04 83 76|Richard Renard 0492405105|VIVANT
+190|Lejeune|Jérôme|15/12/1980|F|545, boulevard Éric Dupré, 66914 Germain|01 77 64 77 74|Gérard Leconte 0631544825|VIVANT
+480|Neveu|Margot|07/02/2025|F|boulevard de Gérard, 58946 Blin|0344880492|Valérie Bourdon 03 70 82 39 36|VIVANT
+151|Royer|Claudine|23/10/1974|F|77, boulevard de Dias, 26774 Dufour-sur-Dumas|+33 (0)6 30 62 52 38|Sophie Lemonnier 0457950338|VIVANT
+104|Lacroix|Édith|27/12/1976|F|4, chemin Fontaine, 21354 Saint Élodie|0383377734||VIVANT
+72|Morel|Bertrand|05/09/1990|I|62, boulevard Patricia Pruvost, 62843 Guichard|03 71 78 39 05|Denise Joly 0545086347|VIVANT
+463|Lefort|Brigitte|14/03/1943|I||+33 (0)5 96 93 43 46|Yves Brunet +33 (0)3 29 01 53 52|VIVANT
+295|Pages|Claire|21/01/1963|H|chemin Françoise Legros, 94849 Weberboeuf|+33 6 01 68 92 52|Anne Girard +33 5 08 64 58 38|VIVANT
+465|Pruvost|Amélie|25/05/1991|H|11, rue Renée Robin, 38511 Schmittboeuf|+33 (0)4 76 66 33 30|Emmanuelle Boyer +33 (0)2 43 49 03 66|VIVANT
+250|Ferreira|Pénélope|11/06/1968|H|8, rue Louis Hoareau, 40813 Menarddan|+33 7 51 49 39 35|Nath Delorme 0172429538|VIVANT
+376|Maréchal|Édouard|01/06/1960|I|75, avenue Mary, 37275 Pinto-sur-Fontaine|+33 (0)5 33 26 49 51|Claude Garnier 05 87 84 00 28|DECEDE
+388|Renard|Audrey|16/11/1944|F|4, avenue Guyot, 60289 FrançoisVille|+33 (0)4 86 13 08 10|Françoise Blanchet 05 62 00 37 94|VIVANT
+107|Michaud|Nicolas|24/04/1970|H|52, rue Traore, 84896 Maury-sur-Rossi|0359386015|Bernadette Lefebvre 04 79 62 62 24|VIVANT
+282|Moulin|Catherine|02/02/2017|I|79, chemin de Michaud, 20277 Caron-sur-Mer|02 96 58 46 56|Daniel Weiss +33 (0)4 38 79 57 59|DECEDE
+185|Vidal|Susan|13/06/1999|F|86, avenue de Bouchet, 82956 Hoareaudan|+33 (0)2 97 03 84 60|Patricia Salmon 0174698305|VIVANT
+367|Boulanger|Sébastien|30/12/1971|F|9, rue de Dupré, 18953 Delmasboeuf|02 32 65 76 95|Jules Rossi +33 3 10 68 27 82|VIVANT
+353|Bonnet|Théodore|29/10/1986|H|rue Éléonore Thibault, 41899 Paris|+33 (0)4 71 50 98 73|Valérie Lebrun +33 (0)2 58 44 28 46|VIVANT
+350|Guyon|Olivier|10/02/1968|F|boulevard Picard, 83987 Perrier-sur-Mer|0232618333|Monique Goncalves +33 3 62 74 92 11|VIVANT
+334|Guillaume|Françoise|25/12/2011|I|45, boulevard de Chrétien, 68766 Grondin|+33 (0)3 85 69 13 90|N/A|VIVANT
+357|Guillet|Nathalie|03/03/1949|F|923, rue de Raymond, 30985 Bernard|+33 3 72 60 88 18|André Maillet 02 51 12 24 51|VIVANT
+484|Pascal|martin|10/03/2018|I|3, boulevard de Parent, 27543 Pasquier-sur-Guyon|0563358066|Laetitia Fouquet +33 2 72 20 79 45|VIVANT
+351|Barre|Nicole|28/01/2020|F|||Marine Gillet 04 65 18 01 70|VIVANT
+365|Hoarau|Simone|15/07/1953|H|79, avenue Diaz, 44625 Rocher|01 77 24 27 28|Monique Lemaire 0420666149|VIVANT
+38|Hardy|Timothée|12/10/1957|H|78, chemin de Lemaître, 95487 Gomes-sur-Mer|03 80 00 31 92|Paulette Benard 02 49 00 48 21|VIVANT
+231|Lemaître|Thérèse|30/10/1970|F|450, rue de Pichon, 64338 Dos Santos|04 92 48 95 84|Julie Guillaume 05 63 25 74 75|VIVANT
+457|Lebon|Jean|10/07/1980|F|85, rue Traore, 72950 Imbert|+33 2 76 24 33 97|Françoise Laurent +33 (0)3 52 23 60 05|VIVANT
+172|Martin|Patrick|05/01/1931|H|95, rue Menard, 76666 Lejeune-sur-Lenoir|+33 2 99 72 71 42|Arnaude Bernier 08 07 38 07 04|VIVANT
+4|Perrot|Claire|20/10/1956|I|boulevard De Oliveira, 86881 Michel|+33 (0)3 83 04 12 90|Joséphine Lopez +33 (0)3 60 04 26 83|VIVANT
+241|Durand|Grégoire|26/11/1973|H|rue de Gillet, 51622 Saint Sophie|02 99 44 02 97|Sabine Letellier +33 (0)1 42 92 51 84|VIVANT
+232|Schneider|Alexandrie|20/03/1950|H|81, chemin Alves, 97279 Sainte ThérèseBourg|+33 (0)3 68 05 35 97|Marguerite Da Silva +33 (0)3 88 76 67 48|VIVANT
+51|Maurice|Joséphine|14/07/1997|F|137, rue Chartier, 21304 Saint Camille|+33 (0)3 90 72 36 67|Dorothée Delattre 02 21 15 18 41|VIVANT
+340|Fontaine|Patricia|16/01/2025|I|25, rue Jules Weiss, 97477 Royboeuf|+33 3 88 84 67 51|Julien Hervé 04 82 68 55 16|VIVANT
+461|Salmon|Valentine|07/08/2026|H|48, chemin Letellier, 73956 Martinez|05 53 96 76 01|Adrien Didier 06 33 45 59 37|VIVANT
+285|Albert|Christine|19/01/1980|H|2, rue de Collet, 17224 Sainte Thérèse-la-Forêt|0146812135|Roland Delattre 02 34 24 70 31|VIVANT
+12|Leroy|Thomas|10/10/1983|F|2, rue de Meunier, 47993 Fournier|0327981850||VIVANT
+409|François|Philippine|28/03/1975|H|7, avenue Petit, 97342 Masse-sur-Mer|04 76 33 50 90|Alexandria Allard 0245363365|VIVANT
+206|Bonnin|Alphonse|17/01/1998|H|chemin Emmanuel Bourgeois, 61467 Gautier|+33 6 04 79 14 68|Madeleine Petit 0558555257|VIVANT
+281|Merle|Yves|18/12/1949|H|1, chemin Marty, 36701 Dijoux-sur-Guérin|+33 5 90 85 88 00|Hortense Richard 0557253762|VIVANT
+229|Richard|Paul|08/12/1953|H|5, rue Margot Gilbert, 15994 Rouxboeuf|0468266561|N/A|VIVANT
+53|Poulain|Xavier|13/11/1942|I|45, rue de Boulay, 51888 Sainte Julie|N/A|Maryse Albert +33 6 31 93 64 40|VIVANT
+298|Lagarde|Michel|28/09/1940|F|372, rue de Imbert, 32358 David|+33 (0)1 60 65 59 07|Adèle Maillard +33 (0)5 90 72 27 76|VIVANT
+8|Payet|Éléonore|20/10/1938|F|98, chemin de Gérard, 54445 Girard|+33 2 51 96 74 18|Claudine Lemonnier +33 4 89 73 50 24|VIVANT
+147|Martin|Emmanuel|24/05/2012|F|921, avenue de Weiss, 16903 Allain-les-Bains||Tristan Renard 0499030843|VIVANT
+146|Langlois|Françoise|19/11/1998|F|795, rue de Camus, 48970 Valentin||Colette Picard +33 2 85 43 67 70|DECEDE
+276|Collin|Valentine|29/09/2007|F|rue de Lopez, 05272 Saint Théodore|0466016284|Margot Foucher 07 32 92 07 98|VIVANT
+82|Lamy|Jacques|19/10/2020|H|88, avenue Mallet, 13376 Mace|+33 1 34 81 90 71|Emmanuel Duhamel +33 5 67 96 97 54|VIVANT
+49|Pelletier|Michelle|07/12/1933|I|24, rue Baron, 11548 Gilles|06 31 04 91 82|Élise Pruvost +33 2 99 72 69 13|VIVANT
+422|Perrier|Arthur|12/06/1956|H|13, rue Céline Masson, 38701 Leroy|0449013921|Agnès Lévy +33 (0)1 70 20 40 98|DECEDE
+249|Marin|Timothée|29/07/1970|F||0547927222|Marc Delattre +33 (0)5 34 09 44 58|VIVANT
+45|Arnaud|Philippine|02/08/1941|I|60, rue de Guérin, 33584 Sainte Sébastien-sur-Mer|06 73 75 31 64|Cécile Payet 03 88 92 27 66|VIVANT
+203|Petitjean|Colette|24/11/2000|I|43, chemin de Lucas, 56398 Camus|0219306210|Rémy Dupré +33 (0)4 84 32 62 42|VIVANT
+304|Ollivier|Marcelle|16/04/1989|F|65, chemin de Durand, 09400 Bouchet|0634936672|Christine Martineau 02 22 87 02 56|DECEDE
+257|  Grégoire |Arthur|01/06/1980|F|42, rue Édith Fernandes, 84630 Maillot|0183275686|Michèle Bernard +33 5 08 12 24 49|VIVANT
+98|Rivière|Antoine|26/08/1939|F|73, boulevard de Poulain, 20609 Perrin|+33 (0)3 65 34 77 02|Timothée Martin +33 (0)6 34 37 45 27|VIVANT
+181|Bruneau|Gabrielle|14/05/2008|H|25, boulevard Patricia Blanc, 28660 Hubert|04 63 95 67 97|Laure Dijoux +33 5 49 02 06 68|VIVANT
+133|Blot|Nicolas|10/03/1953|H|17, rue Dubois, 03370 Alves|0249025790|Sabine Delorme 0371265849|VIVANT
+261|Leroux|Simone|05/11/2023|I|81, rue Bertrand Paul, 52862 Saint Adrien|0228148500|Denise Étienne 0261085257|VIVANT
+337|Pires|Sylvie|04/07/2015|F|85, boulevard Guillon, 13193 LefortBourg|01 77 50 90 43|Tristan Legrand +33 4 11 13 20 47|VIVANT
+143|Blanchet|Véronique|01/03/1994|I|17, rue de Meyer, 33259 Nicolas|0432747994|Joseph Merle +33 1 75 70 45 63|VIVANT
+164|Chauvin|Thérèse|25/02/1946|I|330, rue Michelle Meunier, 33266 Benard|04 82 61 51 88|Denise Samson 04 57 01 26 82|DECEDE
+449|Antoine|Nathalie|14/02/1958|F|18, chemin de Chrétien, 03601 Clercboeuf|+33 3 60 53 32 34|Luce Labbé +33 4 38 49 58 19|VIVANT
+291|Hoarau|Céline|30/11/1973|H|94, avenue Bourgeois, 47896 Descamps|+33 (0)4 97 77 28 92||VIVANT
+29|Lévêque|Manon|17/08/1986|F|rue Julien, 92457 Camus|+33 1 48 35 47 96|Denis Robert +33 (0)1 76 66 13 45|VIVANT
+366|Nicolas|Pénélope|14/11/1931|H|rue de Gaudin, 91290 Perrier|+33 2 28 30 80 84|Louise Pelletier +33 (0)6 17 29 18 55|VIVANT
+482|Rivière|AMÉLIE|13/03/2010|F|rue de Valette, 44379 Delaunay-sur-Lévêque|+33 4 73 81 96 21|Luc Marques 02 55 36 10 41|VIVANT
+130|Chauvet|Alexandre|20/06/2001|F|43, avenue de Gérard, 97493 Briand|0339191731|Étienne Pineau 0169431383|VIVANT
+83|Muller|Geneviève|16/11/1953|F|598, chemin de Parent, 76773 Lefèvre|02 62 90 83 64|Audrey Fouquet +33 4 11 55 01 52|VIVANT
+191|Colin|Diane|22/10/2024|F|2, boulevard de Jean, 48646 Sainte Thierry|+33 2 52 68 19 69|Benjamin Wagner +33 (0)5 62 96 16 89|VIVANT
+19|Georges|Roger|24/11/1948|H|boulevard Ramos, 03459 Costa|+33 (0)3 52 01 00 82|François Delaunay 0364149116|VIVANT
+277|Normand|Christelle|09/09/1964|H|6, chemin Émile Bonnin, 66722 Da Costanec|+33 5 32 96 95 67|Laurence Lejeune +33 (0)7 70 09 17 68|VIVANT
+73|Duval|Lucas|10/09/2009|H|3, rue de Leconte, 67426 Da Costanec|+33 (0)4 65 37 81 01|Eugène Bourgeois 02 61 99 90 57|VIVANT
+361|BERGER|Frédéric|12/10/1988|H|298, avenue Marine Legrand, 40402 Raynaud-sur-Jacquot|0634750098|Jacqueline Bonnin 02 32 58 23 33|VIVANT
+124|Wagner|Alex|24/08/2002|H|boulevard Hamel, 13235 Buisson|0534226930|Frédérique Buisson +33 3 61 89 65 26|VIVANT
+63|Godard|Philippine|09/04/1991|F|520, rue de Dumont, 86417 Moreno-les-Bains|N/A|Paul Leroy 06 36 18 45 46|VIVANT
+278|Lévy|Hélène|18/08/2005|F|57, rue de Boutin, 97445 Allain-la-Forêt|+33 (0)3 63 68 81 95|Céline Garcia +33 2 51 87 52 39|VIVANT
+268|Barbe|Gabriel|24/01/1940|I|951, rue Fernandez, 29116 Saint Agnès|+33 5 47 34 11 68|Aurore Klein +33 (0)2 77 08 00 41|VIVANT
+306|Gilbert|Frédérique|20/11/2006|F||+33 (0)2 31 44 20 31|Lucie Aubry 02 36 65 58 75|VIVANT
+456|Marques|Christine|26/11/2025|I|99, chemin Traore, 32929 Joly|+33 (0)3 61 57 18 00|Arnaude Lévêque 04 73 60 65 44|VIVANT
+39|Jacques|Margaux|25/02/1982|H|43, chemin Émilie Pelletier, 22235 Ruiz|0232183984|Thierry Marty +33 (0)2 22 11 73 55|VIVANT
+333|N/A|Susanne|20/08/1937|F|68, boulevard Martine Seguin, 86182 Gilbertdan|+33 2 22 89 72 17|Antoinette Martin +33 (0)4 86 87 36 67|VIVANT
+142|Rolland|Aurélie|05/10/2000|F|97, rue de Carpentier, 39236 Fischer|06 33 59 87 82|Céline Schneider +33 4 98 33 55 80|VIVANT
+211|Étienne|Eugène|29/09/1949|F|76, boulevard de Rousseau, 97415 Pierre|N/A|Lucy Albert +33 2 54 29 65 52|VIVANT
+255|Lebrun|Luce|14/01/2024|H|729, boulevard de Guilbert, 13554 Rémy|02 55 50 81 10|Marc Legros +33 (0)4 15 64 71 56|VIVANT
+224|Merle|Laetitia||F|55, rue de Hervé, 82254 Sainte Thomas-sur-Mer|06 34 78 56 42|Auguste Lagarde +33 3 26 09 05 87|VIVANT
+386|Legendre|Henriette|25/10/1998|F|chemin Guillot, 77961 Guillaume|+33 (0)6 18 16 65 79|Noémi Hernandez +33 (0)5 18 51 80 90|VIVANT
+476|Payet|Isabelle|27/03/1939|H|11, avenue Roger, 97258 Sainte NathalieVille|03 39 06 76 52|Margaud Dupont 05 53 07 80 78|VIVANT
+371|Grondin|Céline|04/07/1981|H|522, rue de Lefort, 83922 Roussel|+33 (0)3 67 64 87 03|Guillaume Étienne 0415237867|VIVANT
+208|duval|Alexandria|30/09/2026|I|7, avenue de Cousin, 97356 Techer|0490877715|Sébastien Torres +33 (0)5 64 35 98 34|VIVANT
+170|Goncalves|Suzanne|17/06/1939|H|215, boulevard Victor Faivre, 28704 RegnierVille|04 87 64 79 67|Antoine Olivier +33 (0)4 43 13 59 30|VIVANT
+258|Lebreton|Laure|07/01/1955|I|7, chemin Gallet, 23974 Chauveau|01 79 78 72 16|Édouard Chartier 02 34 04 28 82|VIVANT
+483|De Oliveira| Bernadette  |15/06/2020|F|799, rue Jacques Briand, 28329 Collet|01 76 00 23 22|Chantal Guillon +33 (0)5 24 82 53 52|VIVANT
+259|Delannoy|Alex|23/10/1989|F|avenue Emmanuel Riou, 68458 Vincent|+33 5 40 02 85 22|Élodie Cohen 0179629448|VIVANT
+384|Pineau|Christine|26/09/1941|I|19, chemin Le Gall, 80141 Coste|04 74 35 48 28|Thibaut Becker 02 46 68 23 19|VIVANT
+192|ARNAUD|Céline|14/04/1988|F|40, avenue Auger, 30501 Godard|+33 1 47 59 27 32|Matthieu Bernard 03 21 68 96 17|DECEDE
+59|Dumont|Christelle|12/02/1985|H|13, avenue Maggie Humbert, 50620 Meyer|+33 3 27 22 30 81|Laure Blanchet +33 3 90 40 95 88|VIVANT
+380|Gérard|Emmanuelle|30/06/1985|H|4, avenue Jeanne Bailly, 09194 Maillard|03 24 74 55 59|Julie Descamps 05 34 86 16 00|VIVANT
+425|Lecoq|Hortense|15/06/2001|F|boulevard de Jacquet, 58964 Laroche|0683273680|Honoré Arnaud +33 4 88 65 04 31|VIVANT
+128|Bègue|Joseph|29/05/1975|F|64, rue de Gaillard, 70978 Léger|0251959223|Gabrielle Nguyen +33 2 28 67 17 68|VIVANT
+10|Perret|Alfred|01/03/1953|F|257, avenue de Lagarde, 41540 Humbertdan|+33 (0)5 86 28 38 92|René De Oliveira 0250387629|VIVANT
+230|Leroy|Julie|06/11/2013|F|avenue de Guillet, 93534 Gosselin|03 73 18 47 95|Marine Clerc +33 5 94 66 40 32|VIVANT
+66|Neveu|Pierre|25/06/2000|H|96, rue de Renard, 97296 Wagner|+33 2 56 48 18 08|Suzanne Descamps 04 15 81 44 98|VIVANT
+472|Gimenez|Christelle|04/10/1974|H|avenue Laurent Duhamel, 58497 Denis|+33 2 45 17 65 20|Gilbert Blanchard +33 (0)6 48 21 62 04|VIVANT
+46|Petitjean|Alexandrie|25/11/1940|F|11, chemin de Dias, 24926 RocherBourg|0353848827|Virginie Rousset +33 (0)1 48 50 82 95|VIVANT
+297|Hamon|Grégoire|15/10/1983|H|36, rue Lucas Aubert, 13869 LamyBourg|03 53 35 05 20|Suzanne Peltier 0180727643|VIVANT
+91|Lambert|Paulette|27/07/1968|F|4, boulevard Gaillard, 86999 Vaillant|02 44 21 54 82|Arthur Collin +33 (0)3 84 06 76 55|VIVANT
+160|Ferreira|Thibault|03/02/1977|I|58, rue Rousset, 36980 Leducdan|0555472806|Christine Didier 04 76 28 98 81|VIVANT
+238|Verdier|Roland|04/01/1959|I|avenue Adrienne Vallée, 15429 Voisin|+33 (0)2 62 52 74 56|Raymond Chevallier +33 (0)4 68 09 69 33|VIVANT
+331|Thomas|Antoine|04/06/1948|H|chemin Laurent, 75900 Saint Stéphanie|+33 2 33 41 53 07|Michèle Parent +33 (0)3 59 11 33 32|VIVANT
+419|Courtois|Isabelle||I|37, boulevard Fischer, 34247 Torres|02 77 26 40 94|Laure Riou +33 4 67 10 23 58|DECEDE
+338|Jacob|Denis|26/05/2014|I|4, rue Lopez, 21955 Meyer-sur-Blanchet|0519492130|Joseph Coulon +33 8 02 18 21 20|VIVANT
+452|Fournier|Grégoire|29/03/2010|H|78, boulevard Chauveau, 65939 Bernier-la-Forêt|+33 4 30 90 23 06|Joseph Boulay 06 11 56 67 10|VIVANT
+41|Gomez|Zoé|11/03/1991|H|968, rue Alphonse Techer, 01654 Saint Jeannedan|0655512681|Adrien Gillet 01 74 64 31 30|DECEDE
+325|Weber|Margot|22/11/1952|F|846, chemin de Rousseau, 24259 Hoareau|+33 (0)7 47 66 75 07|Georges Brun +33 (0)1 81 74 88 35|VIVANT
+321|Moreno|Maggie|03/09/2000|F|97, boulevard Éric Gautier, 68338 Blanc|0443797932|Grégoire Carpentier 0559523964|VIVANT
+382|Maillard|Emmanuelle|18/09/1978|H|rue Martineau, 54772 Martin-sur-Mer|02 45 33 19 64|Constance Weber 06 31 34 20 45|VIVANT
+65|Leconte|Tristan|06/01/2025|H|93, rue de Cordier, 82368 Moreau|+33 4 91 20 88 60|Alix Gay 0156674665|VIVANT
+435|Menard|Thibaut|15/06/1935|F|35, rue Duval, 10879 Morvan|03 21 92 07 08|Diane Besnard 05 47 87 56 18|VIVANT
+227|  Chevallier |Inès|16/09/2005|F|N/A|+33 (0)2 55 23 34 71|Aurélie Godard 0382787192|VIVANT
+439|Klein|Danielle|05/03/1998|F|26, avenue Bernadette Pruvost, 08520 Sainte Christiane|+33 3 61 27 78 86|Juliette Le Gall +33 3 25 90 78 26|VIVANT
+89|Andre|Henriette|17/06/1957|F|633, boulevard de Laporte, 13232 GuillouBourg|+33 1 73 23 43 62|Corinne Lévêque 0344817430|VIVANT
+3|Dijoux|Emmanuelle|17/02/2024|H|41, boulevard Paulette Gay, 05670 Colin|05 32 52 01 71|Victor Seguin +33 (0)2 38 55 37 80|VIVANT
+426|Chauvet|Noémi|23/08/1969|F|14, boulevard Margot Baudry, 47731 Georges-sur-Mer|02 29 59 76 75|Josette Moreau 05 47 67 32 78|VIVANT
+471|Lévêque|Michèle|30/11/2014|H|rue Allard, 65573 Lenoir-les-Bains|+33 3 80 48 92 94|Susan Grenier 06 95 56 84 79|VIVANT
+342|Blanc|Émile|02/06/1984|F|92, avenue Hardy, 05778 Didier-sur-Mer|+33 (0)3 75 43 92 00|Susanne Duval +33 2 54 04 30 54|VIVANT
+79|Mathieu|Pauline|23/10/2015|F|96, rue de Rivière, 19487 Dupré|+33 3 84 47 45 15|Michèle Mary 03 53 54 67 49|VIVANT
+97|Bodin|Agathe|05/09/1937|F|97, chemin de Guérin, 87477 Saint Margot|+33 (0)6 08 79 86 19|Élodie Perrot 0385447103|VIVANT
+391|Moulin|Stéphanie|28/02/1996|F|84, rue Nathalie Collin, 64402 Albert|0373350432|Virginie Ramos 01 43 06 43 05|VIVANT
+198|humbert|Danielle|20/01/1932|F|204, avenue Suzanne Camus, 11862 Daniel|+33 (0)5 82 60 92 80|Julie Huet 04 43 27 30 30|VIVANT
+475|Garnier|Bertrand|11/02/1959|F|23, avenue de Berger, 13525 Saint ClaudineBourg|+33 (0)4 30 82 75 97|Gabrielle Leduc 0637395851|DECEDE
+11|Pruvost|Patricia|07/06/1951|I|52, rue Leconte, 50298 FontaineVille|06 88 14 79 13|André Imbert 05 47 85 77 74|VIVANT
+149|Joubert|Noémi|25/07/1967|I|907, chemin Valérie Gilles, 79976 Lacombe|0364859211|Sabine Lemaître 06 35 55 76 39|VIVANT
+148|Ramos|Alexandrie|24/02/1970|H||0449722730|Émilie Giraud 0218750536|VIVANT
+375|Guillot|Benjamin|27/06/1986|H|8, boulevard Vincent Breton, 72548 Courtois||Pierre Muller +33 4 82 21 34 14|VIVANT
+294|Chevallier|Nathalie|12/05/1944|H|58, avenue de Rolland, 67639 Hardy||Isabelle Royer 06 61 02 24 43|VIVANT
+121|Andre|Agnès|06/12/1950|F|22, boulevard de Pereira, 94352 Guilbert|03 29 02 08 16|Timothée Gautier +33 2 43 28 05 94|VIVANT
+95|Barthelemy|Grégoire|26/01/1967|F|3, boulevard Henriette Baron, 43863 Potier||William Colin 0364021204|VIVANT
+464|Fontaine|Édith|13/04/1995|F|4, avenue Pauline Lagarde, 85913 Vincent-sur-Perrin|0279460607|Franck Daniel +33 4 81 71 07 94|VIVANT
+31|Roger|Emmanuelle|09/07/2002|I|408, boulevard Lejeune, 23932 Laporte|+33 (0)4 44 51 79 41|Susan François +33 (0)4 37 32 44 71|VIVANT
+116|Léger|Henriette|23/04/1954|F|38, chemin de Garnier, 51201 Saint Anastasie|04 91 70 50 61|Antoine Adam 01 70 76 12 36|VIVANT
+216|Bouvet|Édith|25/09/1951|F|126, boulevard de Laine, 76641 Muller|+33 (0)5 31 62 82 63|Michel Roche +33 4 66 33 50 41|VIVANT
+305|Colas|Caroline|28/09/1956|F|7, avenue Dupont, 42600 Imbert|0594023870|Valérie Descamps 0231703419|VIVANT
+264|Allain|Brigitte|29/08/1975|H|73, boulevard de Valentin, 97278 Gosselin-sur-Mer|01 82 03 39 16|Thérèse Chevallier +33 1 49 88 01 76|VIVANT
+112|Lacombe|Colette|27/09/1992|H|78, boulevard Leconte, 86173 Barthelemy-sur-Mer|N/A|Philippe Petitjean +33 (0)3 26 77 45 57|VIVANT
+144|Royer|Luce|06/07/1966|F|boulevard de Gauthier, 66421 Carre-la-Forêt|01 46 09 62 85|Grégoire Marchand +33 2 23 09 74 06|VIVANT
+24|Gilles|Marcelle|11/11/1988|H|74, avenue de Rivière, 74494 David|+33 (0)4 94 70 65 08|Christelle Vincent +33 2 33 94 70 02|VIVANT
+80|Barthelemy|Auguste|28/11/2014|I|2, rue Guy Renaud, 74272 Chevallierdan|0785377701|Jeannine Pires +33 2 79 97 87 81|VIVANT
+402|Martel|Gilles|19/01/1972|I|313, chemin Launay, 46810 Legendre-sur-Vaillant|05 34 53 13 74|Claude Carpentier +33 (0)4 58 06 18 48|VIVANT
+226|Besnard|Danielle|10/04/2016|H|547, avenue Thérèse Chauvet, 83441 Guérin-sur-Coste|0432158529|Valérie Bouvet 01 56 64 77 26|VIVANT
+265|Descamps|Élodie|24/03/2005|I|4, rue Suzanne Boyer, 33959 Lucas|N/A|Brigitte Charrier +33 5 49 11 89 51|VIVANT
+233|Léger|Nathalie|05/10/1954|I|4, rue Marcel Meunier, 37907 Diazdan|04 94 61 89 81|Gilbert Hardy 0310486025|VIVANT
+360|Devaux|Jeanne|20/04/1960|F|chemin Luce Texier, 38226 Gaudin-sur-Le Roux|0327397865|Marianne Guillot 02 33 36 95 78|VIVANT
+114|Legros|Adélaïde|19/11/2006|I|988, rue de Giraud, 06471 Saint MauriceVille|N/A|Camille Bourdon +33 (0)2 76 55 43 64|VIVANT
+150|Pierre|Isabelle|13/11/1947|I|rue de Charpentier, 83938 Sainte Geneviève|03 56 95 35 65|Lucas Vincent +33 (0)2 52 37 66 75|VIVANT
+209|Lelièvre|Vincent|26/06/2017|I|40, chemin de Vincent, 53245 Chauvet-la-Forêt|+33 2 19 49 30 24|Augustin Guilbert 03 79 48 35 81|VIVANT
+213|De Oliveira|Josette|21/05/1983|H|79, avenue de Roy, 87172 Millet|0487598004|Daniel Chartier +33 (0)4 76 35 66 22|VIVANT
+108|Lefèvre|Astrid|05/09/1948|H|208, rue Rodriguez, 64731 GuyotVille|02 14 00 07 72|Victor Godard 06 44 11 59 58|VIVANT
+370|Garnier|Virginie|07/12/2005|F|61, chemin Édouard Fabre, 83790 Chevalier|+33 (0)3 51 35 35 95|Théophile Neveu 03 81 06 08 88|VIVANT
+427|Munoz|Laurent|03/07/1962|F|30, chemin Caroline Daniel, 73212 Saint Marc|+33 5 94 99 75 54|Astrid Cousin +33 4 34 28 51 73|VIVANT
+438|Charles|Daniel|06/03/1992|H|85, chemin de Moulin, 75244 Lopez|+33 6 38 15 77 86|Gérard Vaillant 04 63 65 92 00|VIVANT
+383|Lombard|Léon|28/05/1961|I|N/A|+33 3 23 99 19 52|Joséphine François +33 (0)3 28 24 29 12|VIVANT
+186|Rolland|Antoine|19/04/1954|F||+33 5 45 89 19 24|Hélène Leroy +33 (0)3 86 29 73 82|VIVANT
+174|Pelletier|Charles|01/09/1988|F|94, chemin Susan Becker, 47219 Antoine|+33 7 46 84 65 55|Marine Seguin +33 4 43 67 63 62|VIVANT
+450|Brunel|Robert|24/05/2014|F|923, avenue Lefort, 10288 Weberboeuf|01 78 59 20 90|Henriette Jean +33 (0)6 40 60 14 89|VIVANT
+266|Chauvin|Alice|08/05/2017|F|9, avenue de Pereira, 15612 Laporteboeuf|+33 5 35 29 46 52|Audrey Lebreton 0370787100|VIVANT
+411|Deschamps|Édith|01/10/1937|H|85, avenue Jacques Blanchet, 68895 Delahaye|+33 2 85 92 41 13|Inès Martineau 03 72 61 26 14|VIVANT
+157|Foucher|Capucine|26/01/2012|F|47, avenue de Clément, 11787 NoëlVille|0376649272|Alexandria Chevallier +33 (0)2 58 46 88 84|VIVANT
+335|Delmas|Marcel|17/07/2008|F|12, rue de Tanguy, 57141 Morin|+33 (0)1 45 65 55 96|Sabine Thierry 0553915543|VIVANT
+240|Mace|Claude|28/01/2022|F|54, rue Claire Leroux, 01806 Lombard|+33 4 87 83 19 42|Laure Navarro +33 (0)3 67 83 32 18|VIVANT
+134|Laporte|Alexandre|26/02/1952|I|1, chemin Gabriel Rossi, 83133 Mahe|+33 (0)6 34 63 27 55|Adrien Pereira 01 88 71 61 89|VIVANT
+21|Ferreira|Gabriel|10/10/1977|H|236, avenue Antoinette Ferrand, 62452 Deschamps|+33 (0)1 49 35 74 25|Adrien Perrin 0634530809|VIVANT
+252|Humbert|Aimé|02/06/1972|F|250, rue Voisin, 34657 Bonneau-sur-Godard|05 34 68 80 39|Louis Guillaume +33 4 71 78 03 06|DECEDE
+412|Fournier|Renée|27/09/1979|F|rue Zoé Poirier, 51562 Legrosdan|+33 (0)7 36 21 21 16|Laurence Fernandes +33 (0)7 50 21 89 50|VIVANT
+387|Delannoy|Paul|09/12/1977|H|avenue de Gomez, 54512 Sainte Léon-sur-Mer|+33 (0)1 44 65 39 69|Nicole Dumas 03 61 44 67 61|VIVANT
+167|Vaillant|Brigitte|08/08/2015|I|989, avenue Guibert, 89289 Sainte William|0230096071|Maurice Jacquot +33 (0)2 40 46 26 97|VIVANT
+137|Chauvet|Dorothée|27/08/1991|I|453, chemin de Courtois, 65338 Sainte Julie|02 97 82 07 78|Benoît Torres +33 5 56 49 57 51|VIVANT
+18|Devaux|Margot|24/04/1933|H|91, boulevard Guy Barre, 25243 SauvageBourg|04 78 34 80 75|Susanne Renard 0353252441|VIVANT
+61|Garcia|Suzanne|13/01/1999|H|6, avenue Blanchet, 27898 AntoineVille|+33 1 44 20 28 85|Céline Allain +33 2 44 04 47 38|VIVANT
+153|Jourdan|Louise|12/03/1948|F|3, rue de Pires, 27648 Paris-sur-Mer|04 90 03 30 78|Odette Masse +33 (0)4 22 72 87 30|VIVANT
+15|CLÉMENT|Éric|07/07/2013|H|1, boulevard Girard, 59683 Gimenez-la-Forêt|+33 (0)3 29 27 76 73|Isaac Boyer +33 (0)3 59 56 53 42|VIVANT
+131|Vallée|Anastasie|06/09/1982|I|35, rue de De Oliveira, 24173 BègueBourg|+33 2 56 17 52 66|N/A|VIVANT
+330|Lambert|Brigitte|09/07/1940|H|9, chemin Franck Baudry, 35569 BeckerVille|04 77 38 19 49|Charles Simon +33 (0)5 33 92 77 30|VIVANT
+196|Lefèvre|Daniel|10/09/2020|H|438, boulevard Pelletier, 24611 Saint Pénélope||Suzanne Schneider 02 97 56 68 66|VIVANT
+417|Texier|Dorothée|30/06/2021|I|95, avenue Humbert, 97435 Saint Chantal-les-Bains|0229000646|Diane Ferrand +33 (0)2 35 04 23 21|VIVANT
+345|Aubry|Chantal|11/10/2016|H|83, rue Anastasie Langlois, 63175 Saint Juliette|+33 (0)6 99 89 88 62|Richard Leclerc 02 22 63 95 52|VIVANT
+470|Jacob|Monique|15/11/2005|I|237, chemin de Raymond, 40997 Lacombe|N/A|Patrick Henry +33 (0)5 34 68 27 61|VIVANT
+56|Hamon|Gilles|25/06/1975|F|526, chemin Hoarau, 56456 Sainte Alphonse|02 19 90 54 27|Capucine Baudry 02 55 06 14 65|VIVANT
+200|Reynaud|Suzanne|09/07/1990|F|78, rue Launay, 97471 Dos Santos|0561105464|Emmanuel Da Costa +33 (0)2 36 11 66 50|VIVANT
+205|Faure|Michelle|21/02/1945|H|31, rue Grégoire Vallée, 08756 PerrierVille|0254059631|Lorraine Pierre 0262820275|VIVANT
+415|Blot|Anaïs|05/11/1947|H|762, boulevard de Lambert, 18819 Leleudan|N/A|Martin Pierre 01 56 44 92 74|VIVANT
+20|Fischer|Valérie|07/03/2025|F|13, rue Alves, 49243 Roy|+33 3 63 60 69 90||VIVANT
+110|Gérard|Patricia|17/04/2018|H|22, rue Sylvie Roche, 82320 Saint Pierreboeuf|+33 (0)7 65 49 28 18|Patrick Bernier 01 83 91 70 70|VIVANT
+101|Roux|Benjamin|07/10/1983|F|62, chemin Odette Dupont, 69691 Blanchet|0262232143|Bertrand Bernier +33 (0)2 28 06 55 02|VIVANT
+85|Vincent|Laurence|08/04/2017|I|chemin de Robin, 63235 Larochedan|0630575826|Geneviève Marin 0499674101|VIVANT
+289|Chartier|Lorraine|17/03/2001|F|N/A|0368524673|Maurice Léger +33 (0)3 61 80 02 54|VIVANT
+436|Roussel|Clémence|15/09/1945|F|87, rue de Meunier, 15905 Guillaume|+33 4 69 28 35 73||VIVANT
+55|Mahe|Corinne|09/04/1987|H|chemin Voisin, 76484 Sainte Thibault|+33 2 51 22 02 84|Nicole Peltier +33 3 72 40 69 96|VIVANT
+43|Grenier|Odette|31/08/1931|F|44, boulevard Launay, 76152 Bodin|+33 (0)2 51 60 41 17|Eugène Lemaire 0638113747|VIVANT
+348|Morel|Cécile|22/06/1956|F|307, avenue Lebreton, 58122 Leclerc-sur-Mer|0545269633|Susan Poirier +33 (0)7 84 93 36 89|VIVANT
+466|Muller|René|14/12/1977|H|42, rue de Texier, 61498 AubertBourg|03 55 08 02 18|Rémy Samson 04 13 84 53 18|VIVANT
+287|Poulain|Gabriel|27/06/2008|F|472, rue Patricia Guérin, 50543 Sainte VéroniqueBourg|+33 6 44 37 97 58|Lorraine Pierre 05 16 00 30 59|VIVANT
+141|Le Roux|Henri|08/02/1986|H|18, chemin de Denis, 22754 Sainte Martine|04 15 91 92 79|Rémy Royer 0775034842|VIVANT
+178|Costa|Marguerite|13/02/1948|F||0456337780|Paulette Reynaud +33 (0)5 65 76 44 44|VIVANT
+307|Rocher|Benjamin|23/07/1947|F|8, chemin de Richard, 80964 Faure|+33 (0)3 58 83 83 01|Hortense Benoit 05 90 38 88 27|VIVANT
+189|Garcia|Martine|28/06/2018|F|35, rue de Turpin, 92317 Munoz|+33 (0)4 42 71 87 71|Roland Fernandes +33 3 76 28 31 42|VIVANT
+68|Marie|Laure|16/12/1988|F|7, avenue Legrand, 88765 Saint Astrid|03 82 77 74 34|Pauline Robin +33 (0)2 57 37 80 81|VIVANT
+225|Lamy|Susanne|25/10/1947|F|25, avenue de Henry, 83550 Saint Olivier|05 35 99 47 57|Agnès Roux 0345820786|VIVANT
+81|Lombard|Susanne|08/02/1996|H|75, rue de Gomez, 02980 Saint Audrey|+33 4 34 71 92 00|Michèle Maury 0434534655|VIVANT
+339|Marie|Théophile|28/03/1997|F|53, rue Ledoux, 41343 Baudry|+33 (0)3 53 27 08 87|Hélène Perrot 02 53 30 84 70|VIVANT
+106|Lopes|William|11/09/1975|H|chemin Bertin, 27385 Saint Aimée-la-Forêt|+33 (0)4 95 09 91 98|Josette Lopes +33 3 62 56 14 39|VIVANT
+431|Michaud|Sophie|09/07/1971|H|1, boulevard Martins, 87700 Sainte Raymond|+33 5 33 74 13 01|Anouk Vincent 03 22 49 87 11|VIVANT
+26|N/A|Joséphine|29/07/1979|H|494, avenue de Vaillant, 16105 Lemaire-la-Forêt|+33 (0)3 55 86 51 23|Aimé Reynaud 02 50 23 56 34|VIVANT
+428|Legendre|Marguerite|10/10/1942|F|26, rue de Rivière, 01534 Moreau|+33 2 56 03 49 40|Claire Bernier 0134064003|VIVANT
+179|Peltier|Pauline|06/05/1959|H|794, avenue Rousset, 61453 Royer-la-Forêt|+33 3 81 11 70 13|Céline Roux +33 2 58 85 84 07|VIVANT
+9|Gros|Maggie|26/04/1971|F|852, rue de Vincent, 08806 Roux|02 58 91 22 85|Pénélope Barbe +33 2 62 72 41 06|VIVANT
+401|Maillet|Thérèse|09/06/1960|F|N/A|+33 6 95 92 67 55|Hortense Rémy 0380945578|VIVANT
+122|Germain|Marguerite|20/06/1977|H|boulevard de Dias, 56857 Rémy|+33 3 67 86 51 49|Andrée Ledoux +33 (0)4 67 81 29 80|VIVANT
+400|Louis|Colette|09/12/1967|F|boulevard de Marchand, 45138 Foucher|0478379764|Martine Mallet 0145910530|VIVANT
+87|Pages|Michèle|30/09/2015|H|867, avenue Da Costa, 16430 Guyon-sur-Thibault|0590014104|Richard Lévy +33 3 63 62 70 96|VIVANT
+32|Bourgeois|Michelle|31/10/1992|H|74, chemin Margaux Garcia, 52620 Bousquet|+33 (0)1 69 35 31 99|Alfred Payet 0258729410|VIVANT
+413|Lefèvre|Sylvie|11/02/1987|H|25, rue de Courtois, 95720 Gaillard|05 17 97 55 37|Gérard Huet +33 1 44 38 78 33|VIVANT
+441|Vallet|Marine|23/08/2007|F|6, avenue Danielle Perez, 01735 Saint Marine-les-Bains|+33 2 45 91 86 76|Astrid Perez +33 (0)6 10 84 40 19|VIVANT

@@ -1,0 +1,1077 @@
+NoteID,EncounterID,AuthorID,NoteType,WrittenAt,NoteText
+1,1,17,Operative Note,TBD,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+2,1,25,Discharge Summary,11/18/2023 12:08 PM,Discharge summary. Admitted for fever. Recovery progressing well.
+3,2,12,Operative Note,12/05/2024 04:07 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+4,2,1,Discharge Summary,12/06/2024 10:02 AM,Discharge summary. Admitted for nausea. Recovery progressing well.
+5,3,25,Discharge Summary,07/28/2025 10:02 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+6,4,27,Operative Note,02/18/2026 02:47 AM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+7,4,1,Discharge Summary,03/03/2026 06:02 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+8,5,40,Discharge Summary,09/29/2026 07:02 PM,Discharge summary. Admitted for fall injury. Patient died during the stay.
+9,6,40,Discharge Summary,10/12/2023 01:15 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+10,7,5,Discharge Summary,03/31/2024 02:15 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+11,8,35,Discharge Summary,08/23/2024 02:15 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+12,9,2,Discharge Summary,09/14/2025 04:34 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+13,10,30,Discharge Summary,05/02/2025 03:04 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+14,11,1,Discharge Summary,01/15/2026 08:04 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+15,12,20,Discharge Summary,04/09/2026 05:04 AM,Discharge summary. Admitted for nausea. recovery progressing well.
+16,13,2,Discharge Summary,11/13/2023 10:29 PM,Discharge summary. Admitted for chest pain. recovery progressing well.
+17,14,10,Discharge Summary,03/16/2023 09:08 PM,Discharge summary. Admitted for cough. recovery progressing well.
+18,15,2,Discharge Summary,01/01/2025 04:58 PM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+19,16,4,Discharge Summary,06/23/2025 12:58 PM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+20,17,25,Discharge Summary,05/01/2024 12:47 PM,Discharge summary. Admitted for birth. Condition stable at discharge.
+21,18,40,Discharge Summary,12/07/2024 02:47 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+22,19,5,Discharge Summary,02/24/2025 07:27 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+23,20,4,Discharge Summary,05/15/2023 11:42 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+24,21,25,Discharge Summary,08/18/2023 08:42 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+25,22,30,Discharge Summary,11/23/2024 11:07 PM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+26,23,40,Discharge Summary,05/07/2025 12:07 AM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+27,24,2,Discharge Summary,12/16/2025 01:07 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+28,25,5,Discharge Summary,03/22/2023 10:49 PM,Discharge summary. Admitted for headache. recovery progressing well.
+29,26,5,Discharge Summary,01/02/2024 09:49 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+30,27,15,Discharge Summary,11/03/2024 02:49 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+31,28,15,Discharge Summary,02/22/2023 06:26 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+32,29,40,Discharge Summary,01/03/2024 01:50 AM,Discharge summary. Admitted for fall injury. recovery progressing well.
+33,30,30,Discharge Summary,02/25/2024 06:50 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+34,31,2,Discharge Summary,06/29/2023 03:35 PM,Discharge summary. Admitted for birth. recovery progressing well.
+35,32,3,Discharge Summary,03/21/2024 09:26 AM,Discharge summary. Admitted for dizziness. recovery progressing well.
+36,33,3,Discharge Summary,08/26/2024 01:26 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+37,34,15,Discharge Summary,06/22/2023 08:30 PM,Discharge summary. Admitted for birth. Condition stable at discharge.
+38,35,2,Discharge Summary,03/21/2024 10:30 PM,Discharge summary. Admitted for fall injury. Patient died during the stay.
+39,36,5,Discharge Summary,06/05/2024 08:30 PM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+40,37,5,Discharge Summary,03/16/2024 12:59 PM,Discharge summary. Admitted for dizziness. recovery progressing well.
+41,38,1,Discharge Summary,12/30/2024 06:59 PM,Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+42,39,20,Discharge Summary,05/16/2025 08:59 AM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+43,40,4,Discharge Summary,03/04/2024 11:31 AM,Discharge summary. Admitted for fall injury. Patient died during the stay.
+44,41,35,Discharge Summary,09/01/2024 07:31 PM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+45,42,10,Discharge Summary,07/05/2025 09:31 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+46,43,3,Discharge Summary,03/29/2024 09:31 PM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+47,44,37,Operative Note,06/11/2024 12:31 PM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+48,44,1,Discharge Summary,06/15/2024 05:31 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+49,45,15,Discharge Summary,12/03/2024 09:31 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+50,46,3,Discharge Summary,06/03/2024 07:07 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+51,47,25,Discharge Summary,12/27/2024 02:07 AM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+52,48,30,Discharge Summary,07/24/2025 09:59 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+53,49,25,Discharge Summary,02/01/2026 04:59 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+54,50,10,Discharge Summary,10/16/2024 12:46 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+55,51,7,Operative Note,08/14/2024 02:48 AM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+56,51,5,Discharge Summary,08/15/2024 04:55 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+57,52,10,Discharge Summary,01/25/2025 03:55 PM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+58,53,35,Discharge Summary,04/27/2023 06:26 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+59,54,15,Discharge Summary,11/21/2023 10:26 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+60,55,20,Discharge Summary,03/01/2024 01:26 AM,Discharge summary. Admitted for fall injury. recovery progressing well.
+61,56,35,Discharge Summary,06/23/2024 02:26 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+62,57,3,Discharge Summary,08/25/2024 07:26 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+63,58,2,Discharge Summary,06/02/2023 06:55 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+64,59,4,Discharge Summary,03/13/2024 10:55 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+65,60,1,Discharge Summary,08/14/2024 06:55 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+66,61,1,Discharge Summary,01/06/2025 12:55 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+67,62,15,Discharge Summary,04/09/2023 07:26 AM,Discharge summary. Admitted for fall injury. recovery progressing well.
+68,63,30,Discharge Summary,11/04/2023 03:26 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+69,64,27,Operative Note,02/05/2025 04:05 AM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+70,64,2,Discharge Summary,13/45/2024 09:15 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+71,65,5,Discharge Summary,08/13/2023 07:13 AM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+72,66,5,Discharge Summary,10/27/2023 06:13 PM,Discharge summary. Admitted for nausea. Recovery progressing well.
+73,67,32,Operative Note,06/11/2024 03:17 AM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+74,67,20,Discharge Summary,06/13/2024 05:13 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+75,68,40,Discharge Summary,03/14/2025 06:16 AM,Discharge summary. Admitted for headache. Patient died during the stay.
+76,69,5,Discharge Summary,12/14/2024 01:29 AM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+77,70,40,Discharge Summary,03/03/2025 03:22 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+78,71,12,Operative Note,06/09/2025 10:37 AM,Operative note. Cardiac catheterization performed. Patient tolerated the procedure.
+79,71,10,Discharge Summary,06/19/2025 10:22 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+80,72,15,Discharge Summary,05/10/2025 07:20 AM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+81,73,35,Discharge Summary,07/14/2024 11:21 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+82,74,30,Discharge Summary,01/18/2025 04:21 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+83,75,3,Discharge Summary,02/05/2024 04:12 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+84,76,30,Discharge Summary,10/22/2023 03:49 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+85,77,1,Discharge Summary,04/07/2024 02:49 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+86,78,35,Discharge Summary,08/19/2024 08:49 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+87,79,20,Discharge Summary,06/13/2023 12:07 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+88,80,15,Discharge Summary,11/06/2024 02:45 PM,Discharge summary. Admitted for birth. Condition stable at discharge.
+89,81,22,Operative Note,05/01/2025 02:08 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+90,81,30,Discharge Summary,05/11/2025 05:45 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+91,82,40,Discharge Summary,10/10/2025 10:45 AM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+92,83,25,Discharge Summary,01/16/2026 01:45 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+93,84,30,Discharge Summary,07/02/2025 11:47 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+94,85,4,Discharge Summary,04/16/2024 03:16 PM,Discharge summary. Admitted for chest pain. recovery progressing well.
+95,86,4,Discharge Summary,09/29/2023 04:29 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+96,87,10,Discharge Summary,03/11/2025 10:13 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+97,88,15,Discharge Summary,12/03/2023 01:40 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+98,89,25,Discharge Summary,06/19/2024 07:25 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+99,90,5,Discharge Summary,04/10/2025 04:25 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+100,91,12,Operative Note,01/03/2024 01:52 PM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+101,91,35,Discharge Summary,01/07/2024 09:53 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+102,92,4,Discharge Summary,03/08/2024 02:53 AM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+103,93,2,Discharge Summary,01/29/2025 11:39 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+104,94,25,Discharge Summary,04/02/2025 11:32 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+105,95,32,Operative Note,07/10/2025 08:26 AM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+106,95,2,Discharge Summary,07/14/2025 12:06 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+107,96,35,Discharge Summary,01/27/2023 07:47 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+108,97,1,Discharge Summary,09/24/2024 01:47 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+109,98,10,Discharge Summary,05/29/2025 02:47 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+110,99,20,Discharge Summary,01/14/2024 05:19 AM,Discharge summary. Admitted for weakness. recovery progressing well.
+111,100,15,Discharge Summary,02/30/2025 10:00 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+112,101,2,Discharge Summary,11/13/2024 05:19 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+113,102,40,Discharge Summary,04/14/2024 01:19 AM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+114,103,4,Discharge Summary,12/28/2024 03:19 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+115,104,4,Discharge Summary,05/23/2025 04:53 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+116,105,5,Discharge Summary,08/10/2023 09:21 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+117,106,20,Discharge Summary,11/15/2023 04:01 AM,Discharge summary. Admitted for weakness. recovery progressing well.
+118,107,1,Discharge Summary,04/23/2024 06:01 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+119,108,10,Discharge Summary,03/28/2024 04:21 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+120,109,10,Discharge Summary,12/11/2024 12:22 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+121,110,3,Discharge Summary,05/04/2025 08:04 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+122,111,3,Discharge Summary,01/09/2025 07:16 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+123,112,20,Discharge Summary,06/22/2025 12:16 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+124,113,3,Discharge Summary,04/10/2026 08:16 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+125,114,1,Discharge Summary,06/03/2026 10:16 PM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+126,115,40,Discharge Summary,08/31/2026 06:16 AM,Discharge summary. Admitted for nausea. Recovery progressing well.
+127,116,3,Discharge Summary,09/27/2025 12:01 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+128,117,30,Discharge Summary,02/05/2026 10:01 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+129,118,20,Discharge Summary,09/14/2026 08:01 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+130,119,2,Discharge Summary,10/28/2024 05:40 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+131,120,25,Discharge Summary,07/08/2025 05:56 PM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+132,121,30,Discharge Summary,03/22/2026 09:56 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+133,122,5,Discharge Summary,06/11/2023 03:57 AM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+134,123,25,Discharge Summary,02/12/2024 02:57 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+135,124,35,Discharge Summary,08/01/2024 11:57 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+136,125,1,Discharge Summary,03/02/2025 06:57 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+137,126,1,Discharge Summary,10/16/2025 09:57 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+138,127,17,Operative Note,12/09/2024 02:08 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+139,127,1,Discharge Summary,12/12/2024 01:13 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+140,128,7,Operative Note,08/06/2023 08:05 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+141,128,10,Discharge Summary,08/13/2023 02:06 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+142,129,35,Discharge Summary,08/08/2025 12:18 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+143,130,5,Discharge Summary,03/24/2026 08:18 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+144,131,4,Discharge Summary,05/22/2026 08:18 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+145,132,12,Operative Note,07/08/2023 05:31 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+146,132,30,Discharge Summary,07/16/2023 02:25 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+147,133,10,Discharge Summary,04/20/2024 05:25 AM,Discharge summary. Admitted for dizziness. Patient died during the stay.
+148,134,32,Operative Note,08/17/2023 12:38 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+149,134,15,Discharge Summary,08/17/2023 01:57 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+150,135,35,Discharge Summary,12/31/2023 09:57 AM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+151,136,10,Discharge Summary,03/17/2024 04:57 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+152,137,1,Discharge Summary,02/22/2023 12:25 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+153,138,5,Discharge Summary,12/13/2023 09:25 PM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+154,139,30,Discharge Summary,01/21/2023 04:22 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+155,140,40,Discharge Summary,04/25/2023 09:22 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+156,141,10,Discharge Summary,08/21/2023 01:22 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+157,142,2,Discharge Summary,06/08/2024 04:22 AM,Discharge summary. Admitted for nausea. Recovery progressing well.
+158,143,35,Discharge Summary,02/02/2024 01:44 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+159,144,27,Operative Note,10/25/2024 11:12 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+160,144,2,Discharge Summary,11/07/2024 04:44 AM,Discharge summary. Admitted for dizziness. recovery progressing well.
+161,145,3,Discharge Summary,07/31/2023 06:10 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+162,146,10,Discharge Summary,10/16/2023 04:10 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+163,147,30,Discharge Summary,04/23/2024 01:10 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+164,148,12,Operative Note,12/28/2023 08:11 PM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+165,148,4,Discharge Summary,01/05/2024 11:09 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+166,149,30,Discharge Summary,06/30/2023 07:20 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+167,150,5,Discharge Summary,11/01/2024 08:47 AM,Discharge summary. Admitted for nausea. recovery progressing well.
+168,151,25,Discharge Summary,05/09/2025 05:47 PM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+169,152,3,Discharge Summary,02/17/2026 01:47 AM,Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+170,153,10,Discharge Summary,06/18/2025 08:50 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+171,154,5,Discharge Summary,08/04/2025 09:36 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+172,155,10,Discharge Summary,07/29/2024 11:32 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+173,156,32,Operative Note,07/18/2025 11:18 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+174,156,3,Discharge Summary,07/25/2025 02:48 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+175,157,40,Discharge Summary,05/13/2026 09:48 PM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+176,158,4,Discharge Summary,08/15/2024 10:15 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+177,159,22,Operative Note,04/18/2025 09:51 PM,Operative note. Cardiac catheterization performed. Patient tolerated the procedure.
+178,159,20,Discharge Summary,04/29/2025 01:15 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+179,160,15,Discharge Summary,06/29/2025 09:15 AM,Discharge summary. Admitted for nausea. Recovery progressing well.
+180,161,1,Discharge Summary,02/17/2025 09:51 AM,Discharge summary. Admitted for weakness. Patient died during the stay.
+181,162,15,Discharge Summary,09/30/2025 09:51 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+182,163,35,Discharge Summary,04/18/2026 01:51 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+183,164,25,Discharge Summary,10/20/2023 01:04 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+184,165,25,Discharge Summary,03/11/2025 01:36 PM,Discharge summary. Admitted for nausea. Recovery progressing well.
+185,166,2,Discharge Summary,11/01/2025 02:36 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+186,167,15,Discharge Summary,02/09/2026 09:36 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+187,168,30,Discharge Summary,09/02/2026 10:36 PM,Discharge summary. Admitted for nausea. Recovery progressing well.
+188,169,17,Operative Note,04/21/2023 07:37 AM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+189,169,5,Discharge Summary,05/01/2023 09:20 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+190,170,20,Discharge Summary,08/29/2023 12:20 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+191,171,27,Operative Note,05/07/2024 07:47 AM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+192,171,20,Discharge Summary,05/10/2024 11:20 AM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+193,172,1,Discharge Summary,12/17/2024 05:20 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+194,173,20,Discharge Summary,03/22/2025 07:20 PM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+195,174,3,Discharge Summary,07/20/2024 01:08 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+196,175,20,Discharge Summary,04/28/2025 05:08 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+197,176,20,Discharge Summary,07/20/2025 04:08 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+198,177,1,Discharge Summary,01/21/2026 07:08 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+199,178,30,Discharge Summary,12/13/2024 11:51 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+200,179,15,Discharge Summary,09/20/2023 09:18 AM,Discharge summary. Admitted for cough. recovery progressing well.
+201,180,40,Discharge Summary,11/25/2023 05:18 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+202,181,25,Discharge Summary,06/17/2024 07:18 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+203,182,1,Discharge Summary,07/31/2024 05:18 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+204,183,25,Discharge Summary,03/14/2025 06:43 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+205,184,30,Discharge Summary,07/21/2023 05:48 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+206,185,10,Discharge Summary,12/13/2023 02:48 PM,Discharge summary. Admitted for chest pain. recovery progressing well.
+207,186,25,Discharge Summary,09/24/2024 01:48 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+208,187,4,Discharge Summary,06/06/2024 01:33 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+209,188,3,Discharge Summary,11/15/2023 07:51 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+210,189,3,Discharge Summary,03/10/2024 02:51 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+211,190,40,Discharge Summary,06/29/2024 03:51 AM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+212,191,25,Discharge Summary,09/23/2024 10:51 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+213,192,2,Discharge Summary,05/23/2023 10:26 AM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+214,193,15,Discharge Summary,08/28/2023 12:26 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+215,194,7,Operative Note,05/07/2024 02:54 AM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+216,194,20,Discharge Summary,05/09/2024 01:01 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+217,195,15,Discharge Summary,02/12/2025 08:17 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+218,196,10,Discharge Summary,09/22/2025 12:17 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+219,197,1,Discharge Summary,04/17/2026 06:17 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+220,198,30,Discharge Summary,08/14/2026 03:17 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+221,199,30,Discharge Summary,06/20/2025 06:13 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+222,200,3,Discharge Summary,01/10/2026 07:13 PM,Discharge summary. Admitted for fever. recovery progressing well.
+223,201,4,Discharge Summary,02/25/2026 03:13 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+224,202,2,Discharge Summary,11/16/2023 08:47 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+225,203,40,Discharge Summary,02/16/2024 01:47 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+226,204,10,Discharge Summary,06/23/2024 08:47 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+227,205,5,Discharge Summary,09/06/2024 12:47 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+228,206,1,Discharge Summary,02/07/2025 11:47 PM,Discharge summary. Admitted for fever. RECOVERY progressing well.
+229,207,12,Operative Note,12/11/2023 12:46 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+230,207,5,Discharge Summary,12/16/2023 10:13 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+231,208,1,Discharge Summary,09/24/2024 09:13 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+232,209,32,Operative Note,01/15/2023 04:59 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+233,209,3,Discharge Summary,01/27/2023 02:29 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+234,210,5,Discharge Summary,08/21/2023 07:29 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+235,211,4,Discharge Summary,08/07/2024 11:32 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+236,212,25,Discharge Summary,12/19/2024 07:32 AM,Discharge summary. Admitted for headache. recovery progressing well.
+237,213,4,Discharge Summary,03/30/2025 06:32 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+238,214,15,Discharge Summary,12/31/2025 03:32 PM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+239,215,32,Operative Note,08/28/2023 12:25 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+240,215,40,Discharge Summary,09/09/2023 01:51 PM,Discharge summary. Admitted for chest pain. recovery progressing well.
+241,216,30,Discharge Summary,01/23/2023 11:46 AM,Discharge summary. Admitted for nausea. Recovery progressing well.
+242,217,20,Discharge Summary,12/13/2023 02:03 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+243,218,4,Discharge Summary,06/21/2024 09:03 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+244,219,30,Discharge Summary,03/18/2025 02:03 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+245,220,12,Operative Note,07/22/2025 04:07 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+246,220,1,Discharge Summary,07/26/2025 02:03 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+247,221,15,Discharge Summary,05/06/2023 05:56 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+248,222,3,Discharge Summary,09/14/2023 12:56 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+249,223,37,Operative Note,06/26/2025 07:42 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+250,223,3,Discharge Summary,06/29/2025 12:17 AM,Discharge summary. Admitted for nausea. Recovery progressing well.
+251,224,3,Discharge Summary,10/18/2025 04:17 AM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+252,225,27,Operative Note,07/22/2026 01:16 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+253,225,5,Discharge Summary,07/27/2026 08:17 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+254,226,5,Discharge Summary,07/20/2024 05:05 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+255,227,30,Discharge Summary,11/17/2024 01:05 PM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+256,228,30,Discharge Summary,08/13/2025 12:05 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+257,229,25,Discharge Summary,10/04/2025 01:07 AM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+258,230,1,Discharge Summary,01/17/2026 04:07 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+259,231,4,Discharge Summary,01/01/2025 07:10 PM,Discharge summary. Admitted for fever. RECOVERY progressing well.
+260,232,1,Discharge Summary,10/25/2025 07:10 AM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+261,233,20,Discharge Summary,04/10/2026 09:10 AM,Discharge summary. Admitted for cough. Patient died during the stay.
+262,234,1,Discharge Summary,10/24/2024 10:48 PM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+263,235,35,Discharge Summary,10/26/2023 09:18 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+264,236,10,Discharge Summary,02/17/2024 03:18 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+265,237,25,Discharge Summary,09/06/2023 01:04 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+266,238,40,Discharge Summary,09/04/2025 12:32 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+267,239,2,Discharge Summary,06/24/2023 07:54 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+268,240,40,Discharge Summary,05/29/2025 07:39 PM,Discharge summary. Admitted for birth. Recovery progressing well.
+269,241,40,Discharge Summary,07/08/2025 09:39 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+270,242,1,Discharge Summary,11/19/2023 06:27 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+271,243,4,Discharge Summary,03/22/2023 05:04 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+272,244,15,Discharge Summary,07/14/2023 09:04 PM,Discharge summary. Admitted for nausea. Recovery progressing well.
+273,245,20,Discharge Summary,10/19/2024 11:51 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+274,246,40,Discharge Summary,03/25/2025 11:51 AM,Discharge summary. Admitted for headache. Patient died during the stay.
+275,247,25,Discharge Summary,12/06/2025 05:51 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+276,248,5,Discharge Summary,01/21/2023 03:59 PM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+277,249,3,Discharge Summary,04/21/2023 09:59 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+278,250,4,Discharge Summary,08/15/2023 06:59 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+279,251,20,Discharge Summary,11/23/2023 02:59 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+280,252,35,Discharge Summary,07/05/2024 04:59 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+281,253,27,Operative Note,03/08/2024 05:14 AM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+282,253,15,Discharge Summary,03/12/2024 12:49 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+283,254,5,Discharge Summary,06/01/2024 02:01 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+284,255,20,Discharge Summary,01/03/2025 11:01 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+285,256,4,Discharge Summary,05/15/2025 01:33 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+286,257,40,Discharge Summary,08/11/2024 11:44 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+287,258,20,Discharge Summary,12/19/2024 08:44 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+288,259,27,Operative Note,01/03/2024 05:42 AM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+289,259,10,Discharge Summary,01/06/2024 08:27 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+290,260,35,Discharge Summary,04/12/2025 09:55 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+291,261,10,Discharge Summary,07/13/2025 11:55 PM,Discharge summary. Admitted for cough. recovery progressing well.
+292,262,4,Discharge Summary,09/29/2025 07:55 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+293,263,1,Discharge Summary,03/10/2023 09:44 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+294,264,40,Discharge Summary,06/27/2023 03:44 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+295,265,30,Discharge Summary,09/21/2023 10:44 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+296,266,10,Discharge Summary,06/24/2023 07:44 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+297,267,5,Discharge Summary,11/23/2023 08:07 AM,Discharge summary. Admitted for chest pain. Patient died during the stay.
+298,268,40,Discharge Summary,02/20/2024 02:14 PM,Discharge summary. Admitted for cough. recovery progressing well.
+299,269,37,Operative Note,06/01/2024 09:51 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+300,269,10,Discharge Summary,06/11/2024 12:41 PM,Discharge summary. Admitted for dizziness. recovery progressing well.
+301,270,3,Discharge Summary,04/22/2024 09:08 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+302,271,25,Discharge Summary,12/08/2024 02:08 AM,Discharge summary. Admitted for fall injury. recovery progressing well.
+303,272,25,Discharge Summary,07/29/2025 07:08 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+304,273,30,Discharge Summary,TBD,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+305,274,27,Operative Note,11/07/2024 09:05 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+306,274,20,Discharge Summary,11/11/2024 02:13 AM,Discharge summary. Admitted for cough. Patient died during the stay.
+307,275,15,Discharge Summary,02/26/2025 12:09 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+308,276,2,Discharge Summary,05/20/2025 06:09 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+309,277,35,Discharge Summary,10/03/2024 10:52 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+310,278,30,Discharge Summary,03/28/2025 12:52 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+311,279,3,Discharge Summary,11/26/2025 10:52 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+312,280,40,Discharge Summary,03/04/2026 05:52 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+313,281,4,Discharge Summary,05/28/2026 12:52 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+314,282,35,Discharge Summary,09/09/2024 05:07 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+315,283,30,Discharge Summary,01/15/2025 05:07 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+316,284,3,Discharge Summary,11/05/2025 03:07 AM,Discharge summary. Admitted for cough. RECOVERY progressing well.
+317,285,4,Discharge Summary,05/01/2024 12:34 PM,Discharge summary. Admitted for birth. Condition stable at discharge.
+318,286,22,Operative Note,07/21/2024 01:07 PM,Operative note. Cardiac catheterization performed. Patient tolerated the procedure.
+319,286,1,Discharge Summary,07/25/2024 08:55 PM,Discharge summary. Admitted for dizziness. recovery progressing well.
+320,287,40,Discharge Summary,11/27/2024 10:55 AM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+321,288,40,Discharge Summary,01/18/2024 12:33 PM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+322,289,35,Discharge Summary,11/01/2024 07:33 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+323,290,40,Discharge Summary,06/22/2024 01:18 PM,Discharge summary. Admitted for dizziness. Patient died during the stay.
+324,291,25,Discharge Summary,11/17/2024 10:18 PM,Discharge summary. Admitted for nausea. Patient died during the stay.
+325,292,35,Discharge Summary,06/16/2025 06:18 PM,Discharge summary. Admitted for weakness. recovery progressing well.
+326,293,4,Discharge Summary,03/04/2024 08:59 PM,Discharge summary. Admitted for dizziness. RECOVERY progressing well.
+327,294,30,Discharge Summary,06/18/2024 10:59 PM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+328,295,40,Discharge Summary,03/26/2024 10:44 AM,Discharge summary. Admitted for birth. recovery progressing well.
+329,296,35,Discharge Summary,09/12/2024 08:44 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+330,297,35,Discharge Summary,02/04/2024 03:24 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+331,298,10,Discharge Summary,08/10/2024 07:24 PM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+332,299,20,Discharge Summary,02/15/2024 06:00 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+333,300,1,Discharge Summary,11/24/2024 01:00 AM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+334,301,40,Discharge Summary,05/30/2025 10:00 AM,Discharge summary. Admitted for shortness of breath. Patient died during the stay.
+335,302,15,Discharge Summary,12/08/2024 05:31 PM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+336,303,30,Discharge Summary,10/11/2025 07:31 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+337,304,2,Discharge Summary,03/07/2026 08:31 AM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+338,305,7,Operative Note,01/18/2024 08:30 AM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+339,305,30,Discharge Summary,01/27/2024 03:44 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+340,306,15,Discharge Summary,09/11/2025 09:22 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+341,307,3,Discharge Summary,07/11/2025 07:16 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+342,308,35,Discharge Summary,12/22/2025 03:16 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+343,309,3,Discharge Summary,01/06/2024 11:13 AM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+344,310,7,Operative Note,07/03/2025 04:38 AM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+345,310,20,Discharge Summary,07/11/2025 05:41 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+346,311,4,Discharge Summary,02/28/2023 06:30 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+347,312,2,Discharge Summary,09/29/2023 07:30 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+348,313,2,Discharge Summary,04/08/2025 12:04 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+349,314,40,Discharge Summary,09/13/2025 04:24 AM,Discharge summary. Admitted for cough. RECOVERY progressing well.
+350,315,20,Discharge Summary,04/15/2026 12:24 AM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+351,316,17,Operative Note,06/30/2026 11:49 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+352,316,4,Discharge Summary,07/04/2026 12:24 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+353,317,20,Discharge Summary,04/09/2023 04:03 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+354,318,40,Discharge Summary,12/25/2023 06:03 PM,Discharge summary. Admitted for headache. recovery progressing well.
+355,319,30,Discharge Summary,07/10/2024 03:24 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+356,320,1,Discharge Summary,01/31/2025 06:24 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+357,321,20,Discharge Summary,05/10/2025 11:24 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+358,322,40,Discharge Summary,02/01/2023 10:16 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+359,323,30,Discharge Summary,05/04/2023 06:16 AM,Discharge summary. Admitted for fall injury. recovery progressing well.
+360,324,30,Discharge Summary,12/03/2023 05:16 AM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+361,325,20,Discharge Summary,05/30/2024 08:16 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+362,326,20,Discharge Summary,11/03/2023 10:12 AM,Discharge summary. Admitted for headache. Patient died during the stay.
+363,327,20,Discharge Summary,09/06/2024 05:12 PM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+364,328,3,Discharge Summary,03/28/2024 11:35 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+365,329,10,Discharge Summary,07/02/2024 05:35 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+366,330,3,Discharge Summary,08/31/2023 07:21 PM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+367,331,2,Discharge Summary,05/31/2024 09:21 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+368,332,22,Operative Note,05/18/2024 11:23 AM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+369,332,1,Discharge Summary,05/20/2024 01:23 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+370,333,2,Discharge Summary,10/12/2024 12:23 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+371,334,15,Discharge Summary,12/09/2024 03:23 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+372,335,5,Discharge Summary,04/27/2025 07:23 PM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+373,336,25,Discharge Summary,01/13/2025 04:12 PM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+374,337,22,Operative Note,08/17/2023 06:21 AM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+375,337,1,Discharge Summary,08/27/2023 11:42 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+376,338,12,Operative Note,12/14/2023 02:34 PM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+377,338,20,Discharge Summary,12/19/2023 08:42 PM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+378,339,1,Discharge Summary,08/31/2024 09:42 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+379,340,4,Discharge Summary,02/23/2025 09:37 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+380,341,4,Discharge Summary,02/05/2025 04:09 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+381,342,3,Discharge Summary,11/06/2025 05:09 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+382,343,4,Discharge Summary,03/30/2026 10:09 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+383,344,40,Discharge Summary,06/02/2026 02:09 AM,Discharge summary. Admitted for nausea. recovery progressing well.
+384,345,3,Discharge Summary,02/13/2024 03:47 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+385,346,40,Discharge Summary,04/06/2024 02:33 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+386,347,5,Discharge Summary,01/04/2025 03:03 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+387,348,37,Operative Note,02/28/2023 04:08 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+388,348,30,Discharge Summary,03/05/2023 04:37 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+389,349,25,Discharge Summary,09/20/2023 01:34 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+390,350,35,Discharge Summary,09/21/2024 12:02 PM,Discharge summary. Admitted for birth. Condition stable at discharge.
+391,351,3,Discharge Summary,06/11/2025 06:02 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+392,352,25,Discharge Summary,10/05/2023 10:00 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+393,353,22,Operative Note,02/06/2025 04:01 AM,Operative note. Cardiac catheterization performed. Patient tolerated the procedure.
+394,353,20,Discharge Summary,02/21/2025 11:00 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+395,354,25,Discharge Summary,03/10/2023 06:59 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+396,355,5,Discharge Summary,05/18/2024 08:13 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+397,356,30,Discharge Summary,08/26/2024 08:13 AM,Discharge summary. Admitted for cough. Patient died during the stay.
+398,357,15,Discharge Summary,02/04/2025 08:13 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+399,358,2,Discharge Summary,11/19/2024 07:32 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+400,359,10,Discharge Summary,03/23/2025 08:32 AM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+401,360,15,Discharge Summary,08/08/2025 05:32 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+402,361,3,Discharge Summary,05/05/2026 10:32 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+403,362,12,Operative Note,07/12/2024 02:27 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+404,362,1,Discharge Summary,07/23/2024 11:48 AM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+405,363,1,Discharge Summary,01/18/2025 01:48 AM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+406,364,3,Discharge Summary,02/30/2025 10:00 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+407,365,15,Discharge Summary,03/21/2024 03:53 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+408,366,40,Discharge Summary,10/23/2024 09:53 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+409,367,4,Discharge Summary,12/30/2024 06:53 AM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+410,368,35,Discharge Summary,05/22/2025 02:53 PM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+411,369,30,Discharge Summary,08/15/2024 08:25 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+412,370,15,Discharge Summary,01/21/2025 05:25 AM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+413,371,15,Discharge Summary,02/18/2025 12:35 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+414,372,2,Discharge Summary,04/04/2023 12:53 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+415,373,35,Discharge Summary,07/28/2025 04:46 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+416,374,40,Discharge Summary,03/27/2026 04:46 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+417,375,3,Discharge Summary,03/02/2024 03:08 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+418,376,5,Discharge Summary,05/23/2024 06:08 AM,Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+419,377,35,Discharge Summary,07/24/2024 11:08 PM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+420,378,20,Discharge Summary,07/17/2024 04:05 AM,Discharge summary. Admitted for cough. RECOVERY progressing well.
+421,379,37,Operative Note,02/06/2023 12:39 AM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+422,379,10,Discharge Summary,02/08/2023 05:26 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+423,380,20,Discharge Summary,09/14/2025 08:36 PM,Discharge summary. Admitted for dizziness. recovery progressing well.
+424,381,10,Discharge Summary,01/09/2024 09:15 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+425,382,15,Discharge Summary,11/04/2023 10:25 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+426,383,4,Discharge Summary,TBD,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+427,384,2,Discharge Summary,08/01/2024 07:09 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+428,385,3,Discharge Summary,11/13/2024 10:09 PM,Discharge summary. Admitted for cough. recovery progressing well.
+429,386,12,Operative Note,02/13/2025 09:08 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+430,386,1,Discharge Summary,02/19/2025 04:09 PM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+431,387,20,Discharge Summary,09/14/2025 10:09 PM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+432,388,35,Discharge Summary,12/03/2023 06:55 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+433,389,2,Discharge Summary,09/11/2024 09:55 AM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+434,390,25,Discharge Summary,11/27/2024 01:55 PM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+435,391,4,Discharge Summary,04/02/2025 09:55 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+436,392,25,Discharge Summary,03/08/2023 02:50 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+437,393,5,Discharge Summary,08/31/2023 06:50 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+438,394,2,Discharge Summary,02/23/2024 04:50 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+439,395,4,Discharge Summary,06/23/2024 04:48 PM,Discharge summary. Admitted for cough. recovery progressing well.
+440,396,35,Discharge Summary,02/23/2025 12:48 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+441,397,35,Discharge Summary,11/03/2023 06:07 PM,Discharge summary. Admitted for birth. Condition stable at discharge.
+442,398,1,Discharge Summary,07/19/2024 03:07 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+443,399,15,Discharge Summary,03/20/2025 08:38 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+444,400,4,Discharge Summary,01/01/2026 03:38 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+445,401,20,Discharge Summary,06/07/2026 08:38 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+446,402,20,Discharge Summary,02/11/2025 09:48 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+447,403,3,Discharge Summary,11/28/2025 06:48 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+448,404,15,Discharge Summary,03/23/2025 10:24 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+449,405,3,Discharge Summary,10/30/2023 11:11 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+450,406,25,Discharge Summary,07/18/2024 10:11 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+451,407,3,Discharge Summary,03/17/2025 01:11 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+452,408,10,Discharge Summary,03/10/2024 01:51 PM,Discharge summary. Admitted for weakness. Patient died during the stay.
+453,409,15,Discharge Summary,05/13/2024 09:35 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+454,410,1,Discharge Summary,01/15/2025 01:35 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+455,411,4,Discharge Summary,07/15/2024 05:57 AM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+456,412,25,Discharge Summary,11/09/2024 08:57 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+457,413,25,Discharge Summary,05/16/2025 08:57 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+458,414,35,Discharge Summary,10/26/2025 10:57 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+459,415,30,Discharge Summary,07/15/2023 12:21 PM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+460,416,20,Discharge Summary,09/25/2023 04:21 PM,Discharge summary. Admitted for fever. Recovery progressing well.
+461,417,30,Discharge Summary,01/31/2025 08:15 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+462,418,25,Discharge Summary,05/15/2025 04:15 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+463,419,4,Discharge Summary,04/20/2023 02:46 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+464,420,40,Discharge Summary,08/06/2023 03:23 AM,Discharge summary. Admitted for birth. Recovery progressing well.
+465,421,15,Discharge Summary,10/25/2023 11:23 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+466,422,2,Discharge Summary,04/27/2025 06:57 AM,Discharge summary. Admitted for dizziness. RECOVERY progressing well.
+467,423,40,Discharge Summary,10/24/2025 09:57 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+468,424,25,Discharge Summary,06/28/2026 05:57 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+469,425,20,Discharge Summary,08/03/2026 09:57 PM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+470,426,10,Discharge Summary,04/20/2025 04:03 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+471,427,1,Discharge Summary,06/24/2025 01:03 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+472,428,25,Discharge Summary,01/14/2025 02:39 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+473,429,20,Discharge Summary,09/29/2025 03:39 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+474,430,20,Discharge Summary,12/30/2025 12:39 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+475,431,40,Discharge Summary,06/24/2026 07:39 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+476,432,15,Discharge Summary,08/06/2025 05:10 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+477,433,1,Discharge Summary,10/17/2025 03:10 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+478,434,7,Operative Note,06/21/2026 06:02 AM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+479,434,30,Discharge Summary,06/23/2026 11:10 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+480,435,27,Operative Note,09/11/2026 07:47 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+481,435,10,Discharge Summary,09/25/2026 06:10 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+482,436,20,Discharge Summary,08/17/2025 03:56 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+483,437,15,Discharge Summary,03/15/2026 06:56 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+484,438,20,Discharge Summary,08/27/2023 07:00 AM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+485,439,3,Discharge Summary,02/20/2024 02:00 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+486,440,37,Operative Note,01/09/2023 02:31 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+487,440,1,Discharge Summary,01/16/2023 04:33 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+488,441,25,Discharge Summary,11/09/2023 07:33 AM,Discharge summary. Admitted for chest pain. recovery progressing well.
+489,442,35,Discharge Summary,12/21/2023 11:33 PM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+490,443,20,Discharge Summary,11/20/2024 12:16 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+491,444,17,Operative Note,03/23/2023 11:18 PM,Operative note. Cardiac catheterization performed. Patient tolerated the procedure.
+492,444,10,Discharge Summary,03/29/2023 03:30 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+493,445,40,Discharge Summary,02/15/2024 08:31 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+494,446,4,Discharge Summary,10/10/2023 12:46 PM,Discharge summary. Admitted for birth. Condition stable at discharge.
+495,447,32,Operative Note,07/11/2024 12:18 AM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+496,447,15,Discharge Summary,07/18/2024 12:46 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+497,448,30,Discharge Summary,10/08/2023 01:28 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+498,449,30,Discharge Summary,01/15/2024 11:18 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+499,450,40,Discharge Summary,06/16/2024 10:18 PM,Discharge summary. Admitted for nausea. Patient died during the stay.
+500,451,1,Discharge Summary,07/02/2024 04:38 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+501,452,5,Discharge Summary,03/20/2025 09:38 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+502,453,1,Discharge Summary,07/30/2024 08:46 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+503,454,4,Discharge Summary,12/04/2024 09:46 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+504,455,15,Discharge Summary,10/01/2023 08:51 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+505,456,40,Discharge Summary,12/27/2023 09:51 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+506,457,40,Discharge Summary,03/11/2024 11:51 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+507,458,15,Discharge Summary,06/29/2024 08:51 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+508,459,5,Discharge Summary,07/24/2025 12:09 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+509,460,3,Discharge Summary,09/27/2024 09:11 AM,Discharge summary. Admitted for birth. Recovery progressing well.
+510,461,20,Discharge Summary,11/27/2024 06:11 PM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+511,462,40,Discharge Summary,12/02/2023 02:32 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+512,463,3,Discharge Summary,03/20/2025 04:47 AM,Discharge summary. Admitted for birth. Condition stable at discharge.
+513,464,40,Discharge Summary,09/14/2025 04:34 AM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+514,465,15,Discharge Summary,01/27/2026 11:34 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+515,466,12,Operative Note,08/14/2026 05:47 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+516,466,40,Discharge Summary,08/23/2026 12:34 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+517,467,40,Discharge Summary,01/17/2024 12:12 AM,Discharge summary. Admitted for nausea. Recovery progressing well.
+518,468,2,Discharge Summary,10/12/2023 09:40 AM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+519,469,2,Discharge Summary,03/18/2024 10:40 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+520,470,2,Discharge Summary,11/24/2024 04:40 AM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+521,471,22,Operative Note,08/12/2025 01:53 AM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+522,471,15,Discharge Summary,08/21/2025 12:40 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+523,472,20,Discharge Summary,12/26/2025 06:40 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+524,473,40,Discharge Summary,04/10/2025 06:10 PM,Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+525,474,20,Discharge Summary,09/05/2025 02:10 AM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+526,475,4,Discharge Summary,04/14/2024 12:21 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+527,476,10,Discharge Summary,08/01/2024 06:21 AM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+528,477,20,Discharge Summary,01/03/2024 07:59 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+529,478,3,Discharge Summary,08/03/2024 12:39 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+530,479,20,Discharge Summary,02/25/2025 03:39 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+531,480,3,Discharge Summary,09/05/2025 12:20 AM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+532,481,10,Discharge Summary,03/23/2026 09:20 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+533,482,15,Discharge Summary,03/02/2025 05:17 PM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+534,483,5,Discharge Summary,11/14/2025 06:17 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+535,484,40,Discharge Summary,03/16/2023 11:12 AM,Discharge summary. Admitted for fall injury. recovery progressing well.
+536,485,5,Discharge Summary,07/31/2023 11:30 PM,Discharge summary. Admitted for headache. Patient died during the stay.
+537,486,1,Discharge Summary,05/30/2024 10:30 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+538,487,12,Operative Note,09/13/2024 08:19 PM,Operative note. Cardiac catheterization performed. Patient tolerated the procedure.
+539,487,20,Discharge Summary,09/19/2024 07:30 AM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+540,488,1,Discharge Summary,01/29/2023 11:38 AM,Discharge summary. Admitted for birth. Recovery progressing well.
+541,489,30,Discharge Summary,05/02/2023 03:38 AM,Discharge summary. Admitted for nausea. Recovery progressing well.
+542,490,1,Discharge Summary,02/09/2025 07:51 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+543,491,15,Discharge Summary,06/24/2025 02:51 PM,Discharge summary. Admitted for headache. Patient died during the stay.
+544,492,25,Discharge Summary,10/29/2023 09:50 PM,Discharge summary. Admitted for fever. recovery progressing well.
+545,493,40,Discharge Summary,03/11/2025 09:01 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+546,494,5,Discharge Summary,10/01/2024 02:58 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+547,495,2,Discharge Summary,03/24/2025 01:58 AM,Discharge summary. Admitted for dizziness. recovery progressing well.
+548,496,30,Discharge Summary,03/24/2025 02:37 PM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+549,497,2,Discharge Summary,05/10/2024 06:05 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+550,498,10,Discharge Summary,12/30/2024 01:05 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+551,499,10,Discharge Summary,07/09/2025 07:09 AM,Discharge summary. Admitted for chest pain. recovery progressing well.
+552,500,12,Operative Note,12/11/2025 04:05 AM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+553,500,2,Discharge Summary,12/14/2025 07:09 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+554,501,25,Discharge Summary,03/08/2026 10:09 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+555,502,15,Discharge Summary,08/25/2026 06:09 AM,Discharge summary. Admitted for cough. recovery progressing well.
+556,503,37,Operative Note,04/11/2025 04:18 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+557,503,20,Discharge Summary,04/12/2025 02:38 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+558,504,1,Discharge Summary,TBD,Discharge summary. Admitted for weakness. Patient died during the stay.
+559,505,20,Discharge Summary,04/12/2024 08:55 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+560,506,40,Discharge Summary,10/08/2025 05:29 PM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+561,507,12,Operative Note,01/13/2023 04:16 AM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+562,507,40,Discharge Summary,01/13/2023 04:29 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+563,508,40,Discharge Summary,04/26/2023 11:29 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+564,509,40,Discharge Summary,06/21/2023 01:29 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+565,510,3,Discharge Summary,10/01/2023 04:29 PM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+566,511,25,Discharge Summary,07/28/2024 06:25 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+567,512,15,Discharge Summary,11/20/2024 01:25 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+568,513,10,Discharge Summary,01/26/2024 06:30 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+569,514,5,Discharge Summary,04/08/2024 03:30 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+570,515,1,Discharge Summary,09/10/2025 12:15 PM,Discharge summary. Admitted for nausea. recovery progressing well.
+571,516,3,Discharge Summary,08/04/2025 09:16 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+572,517,35,Discharge Summary,11/09/2025 12:16 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+573,518,4,Discharge Summary,12/11/2025 08:16 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+574,519,7,Operative Note,09/17/2025 07:42 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+575,519,10,Discharge Summary,09/22/2025 08:42 AM,Discharge summary. Admitted for cough. Patient died during the stay.
+576,520,15,Discharge Summary,10/16/2023 09:59 PM,Discharge summary. Admitted for cough. Patient died during the stay.
+577,521,35,Discharge Summary,03/15/2024 01:23 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+578,522,1,Discharge Summary,12/05/2024 06:23 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+579,523,32,Operative Note,02/17/2025 12:49 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+580,523,3,Discharge Summary,03/02/2025 09:23 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+581,524,20,Discharge Summary,07/12/2025 06:36 AM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+582,525,5,Discharge Summary,11/17/2025 06:36 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+583,526,5,Discharge Summary,01/11/2026 09:36 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+584,527,3,Discharge Summary,02/19/2026 10:36 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+585,528,40,Discharge Summary,08/29/2026 04:36 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+586,529,3,Discharge Summary,09/21/2025 05:07 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+587,530,25,Discharge Summary,01/20/2026 09:07 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+588,531,40,Discharge Summary,04/23/2025 04:53 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+589,532,37,Operative Note,08/04/2024 08:22 AM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+590,532,30,Discharge Summary,08/05/2024 01:19 AM,Discharge summary. Admitted for weakness. Recovery progressing well.
+591,533,15,Discharge Summary,03/21/2023 11:07 PM,Discharge summary. Admitted for fall injury. Patient died during the stay.
+592,534,40,Discharge Summary,09/08/2023 06:07 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+593,535,25,Discharge Summary,04/27/2024 07:07 AM,Discharge summary. Admitted for dizziness. RECOVERY progressing well.
+594,536,5,Discharge Summary,09/07/2025 07:59 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+595,537,20,Discharge Summary,05/21/2026 12:59 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+596,538,40,Discharge Summary,09/20/2024 04:02 PM,Discharge summary. Admitted for chest pain. recovery progressing well.
+597,539,25,Discharge Summary,09/06/2023 07:45 AM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+598,540,20,Discharge Summary,02/09/2024 11:39 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+599,541,10,Discharge Summary,05/16/2024 12:39 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+600,542,4,Discharge Summary,11/03/2024 07:39 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+601,543,1,Discharge Summary,08/21/2025 12:05 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+602,544,3,Discharge Summary,05/03/2026 06:05 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+603,545,17,Operative Note,11/23/2024 12:23 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+604,545,15,Discharge Summary,11/27/2024 04:40 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+605,546,3,Discharge Summary,07/21/2025 04:40 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+606,547,30,Discharge Summary,12/28/2024 12:56 PM,Discharge summary. Admitted for birth. Recovery progressing well.
+607,548,35,Discharge Summary,03/13/2024 12:59 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+608,549,3,Discharge Summary,10/06/2024 04:59 PM,Discharge summary. Admitted for nausea. Patient died during the stay.
+609,550,4,Discharge Summary,06/08/2025 05:59 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+610,551,2,Discharge Summary,05/27/2024 08:05 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+611,552,5,Discharge Summary,01/23/2025 09:05 PM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+612,553,35,Discharge Summary,05/18/2025 03:05 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+613,554,40,Discharge Summary,01/17/2025 09:40 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+614,555,15,Discharge Summary,06/04/2025 01:40 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+615,556,20,Discharge Summary,11/29/2024 01:49 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+616,557,2,Discharge Summary,11/24/2024 02:46 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+617,558,3,Discharge Summary,01/01/2024 04:03 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+618,559,15,Discharge Summary,03/25/2024 07:03 PM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+619,560,30,Discharge Summary,06/13/2024 01:03 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+620,561,20,Discharge Summary,11/09/2024 11:03 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+621,562,12,Operative Note,03/11/2024 01:29 AM,Operative note. Cardiac catheterization performed. Patient tolerated the procedure.
+622,562,15,Discharge Summary,03/20/2024 11:54 AM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+623,563,15,Discharge Summary,05/13/2024 02:54 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+624,564,40,Discharge Summary,11/17/2024 09:54 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+625,565,4,Discharge Summary,04/30/2023 04:20 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+626,566,25,Discharge Summary,06/23/2023 01:20 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+627,567,20,Discharge Summary,11/04/2023 08:20 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+628,568,3,Discharge Summary,10/01/2023 12:36 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+629,569,5,Discharge Summary,04/02/2024 03:36 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+630,570,20,Discharge Summary,10/18/2023 09:14 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+631,571,10,Discharge Summary,01/07/2025 01:11 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+632,572,4,Discharge Summary,02/16/2024 09:13 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+633,573,15,Discharge Summary,07/21/2024 01:13 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+634,574,15,Discharge Summary,11/09/2024 11:05 PM,Discharge summary. Admitted for birth. recovery progressing well.
+635,575,35,Discharge Summary,03/30/2024 03:35 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+636,576,5,Discharge Summary,11/20/2023 08:46 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+637,577,7,Operative Note,10/25/2024 09:07 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+638,577,10,Discharge Summary,10/29/2024 06:20 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+639,578,15,Discharge Summary,04/22/2025 05:20 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+640,579,22,Operative Note,02/27/2024 05:19 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+641,579,4,Discharge Summary,03/09/2024 07:37 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+642,580,15,Discharge Summary,03/21/2025 09:10 AM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+643,581,2,Discharge Summary,06/17/2025 11:41 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+644,582,1,Discharge Summary,08/28/2025 03:41 PM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+645,583,15,Discharge Summary,05/02/2026 07:41 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+646,584,1,Discharge Summary,05/30/2025 11:25 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+647,585,10,Discharge Summary,06/19/2025 03:19 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+648,586,40,Discharge Summary,03/15/2026 10:19 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+649,587,2,Discharge Summary,10/21/2026 05:19 AM,Discharge summary. Admitted for dizziness. Patient died during the stay.
+650,588,15,Discharge Summary,03/23/2025 04:59 PM,Discharge summary. Admitted for nausea. Recovery progressing well.
+651,589,40,Discharge Summary,11/14/2023 01:57 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+652,590,2,Discharge Summary,07/17/2024 10:57 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+653,591,10,Discharge Summary,05/17/2025 10:57 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+654,592,15,Discharge Summary,04/16/2023 12:43 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+655,593,25,Discharge Summary,02/26/2024 07:43 AM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+656,594,2,Discharge Summary,09/29/2024 07:43 PM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+657,595,20,Discharge Summary,02/25/2025 07:43 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+658,596,25,Discharge Summary,06/07/2025 05:43 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+659,597,30,Discharge Summary,04/16/2023 04:49 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+660,598,5,Discharge Summary,06/16/2023 02:49 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+661,599,25,Discharge Summary,08/03/2023 02:49 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+662,600,17,Operative Note,07/26/2024 02:21 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+663,600,25,Discharge Summary,07/31/2024 03:46 PM,Discharge summary. Admitted for headache. recovery progressing well.
+664,601,2,Discharge Summary,07/24/2025 04:20 PM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+665,602,35,Discharge Summary,04/21/2026 08:20 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+666,603,1,Discharge Summary,10/16/2024 10:32 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+667,604,20,Discharge Summary,06/19/2025 05:32 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+668,605,30,Discharge Summary,06/03/2024 09:11 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+669,606,15,Discharge Summary,12/07/2024 12:11 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+670,607,2,Discharge Summary,08/27/2023 03:11 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+671,608,4,Discharge Summary,11/16/2023 06:11 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+672,609,40,Discharge Summary,07/10/2024 05:11 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+673,610,25,Discharge Summary,04/19/2025 05:11 AM,Discharge summary. Admitted for cough. recovery progressing well.
+674,611,40,Discharge Summary,12/01/2023 11:12 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+675,612,1,Discharge Summary,05/12/2024 07:12 AM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+676,613,27,Operative Note,09/19/2024 06:40 AM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+677,613,5,Discharge Summary,09/30/2024 09:12 PM,Discharge summary. Admitted for cough. recovery progressing well.
+678,614,25,Discharge Summary,04/24/2025 01:12 AM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+679,615,10,Discharge Summary,12/20/2025 03:12 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+680,616,1,Discharge Summary,03/01/2025 03:59 PM,Discharge summary. Admitted for cough. recovery progressing well.
+681,617,20,Discharge Summary,04/26/2025 01:05 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+682,618,25,Discharge Summary,07/30/2025 02:05 AM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+683,619,2,Discharge Summary,09/16/2023 03:43 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+684,620,25,Discharge Summary,01/06/2024 10:28 AM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+685,621,37,Operative Note,04/05/2023 10:45 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+686,621,40,Discharge Summary,04/10/2023 01:25 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+687,622,37,Operative Note,07/16/2023 01:01 AM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+688,622,25,Discharge Summary,07/16/2023 01:25 PM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+689,623,40,Discharge Summary,01/31/2024 01:25 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+690,624,1,Discharge Summary,10/29/2024 05:25 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+691,625,32,Operative Note,05/26/2023 02:39 PM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+692,625,30,Discharge Summary,06/04/2023 05:28 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+693,626,2,Discharge Summary,12/25/2023 12:28 AM,Discharge summary. Admitted for headache. recovery progressing well.
+694,627,10,Discharge Summary,09/07/2023 03:14 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+695,628,5,Discharge Summary,02/18/2023 02:11 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+696,629,40,Discharge Summary,10/14/2023 03:11 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+697,630,20,Discharge Summary,10/03/2025 05:31 AM,Discharge summary. Admitted for weakness. Recovery progressing well.
+698,631,3,Discharge Summary,03/03/2026 02:31 PM,Discharge summary. Admitted for headache. recovery progressing well.
+699,632,37,Operative Note,02/03/2024 12:28 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+700,632,4,Discharge Summary,02/13/2024 10:15 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+701,633,12,Operative Note,08/28/2024 06:06 AM,Operative note. Cardiac catheterization performed. Patient tolerated the procedure.
+702,633,40,Discharge Summary,09/01/2024 07:15 AM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+703,634,1,Discharge Summary,06/12/2024 10:58 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+704,635,20,Discharge Summary,09/21/2023 09:48 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+705,636,17,Operative Note,07/06/2024 01:26 PM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+706,636,20,Discharge Summary,07/11/2024 01:48 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+707,637,4,Discharge Summary,03/15/2025 04:48 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+708,638,25,Discharge Summary,07/27/2025 05:48 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+709,639,4,Discharge Summary,04/30/2026 07:48 AM,Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+710,640,3,Discharge Summary,07/28/2024 12:50 PM,Discharge summary. Admitted for headache. recovery progressing well.
+711,641,4,Discharge Summary,01/12/2025 09:50 AM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+712,642,1,Discharge Summary,06/16/2024 05:41 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+713,643,22,Operative Note,09/21/2025 12:15 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+714,643,5,Discharge Summary,10/04/2025 03:40 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+715,644,17,Operative Note,12/06/2025 11:05 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+716,644,15,Discharge Summary,12/09/2025 10:40 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+717,645,15,Discharge Summary,09/19/2025 03:36 PM,Discharge summary. Admitted for fever. Recovery progressing well.
+718,646,1,Discharge Summary,01/30/2026 11:36 PM,Discharge summary. Admitted for nausea. recovery progressing well.
+719,647,25,Discharge Summary,09/19/2026 06:36 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+720,648,1,Discharge Summary,10/05/2024 06:15 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+721,649,3,Discharge Summary,02/26/2023 03:04 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+722,650,3,Discharge Summary,08/07/2023 10:14 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+723,651,5,Discharge Summary,08/17/2025 01:18 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+724,652,5,Discharge Summary,04/19/2026 07:18 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+725,653,15,Discharge Summary,04/23/2024 05:55 PM,Discharge summary. Admitted for dizziness. RECOVERY progressing well.
+726,654,4,Discharge Summary,07/19/2024 02:55 AM,Discharge summary. Admitted for nausea. Recovery progressing well.
+727,655,2,Discharge Summary,07/05/2024 01:34 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+728,656,20,Discharge Summary,12/29/2024 05:34 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+729,657,10,Discharge Summary,08/07/2025 09:34 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+730,658,5,Discharge Summary,10/01/2025 11:04 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+731,659,10,Discharge Summary,04/26/2023 12:25 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+732,660,2,Discharge Summary,09/16/2025 05:13 PM,Discharge summary. Admitted for dizziness. recovery progressing well.
+733,661,4,Discharge Summary,01/19/2026 11:13 PM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+734,662,40,Discharge Summary,06/20/2026 04:13 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+735,663,20,Discharge Summary,08/14/2025 04:38 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+736,664,3,Discharge Summary,03/13/2026 11:38 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+737,665,25,Discharge Summary,07/03/2025 09:55 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+738,666,27,Operative Note,11/04/2025 03:13 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+739,666,5,Discharge Summary,11/17/2025 05:55 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+740,667,20,Discharge Summary,12/25/2025 12:55 PM,Discharge summary. Admitted for fever. RECOVERY progressing well.
+741,668,4,Discharge Summary,03/05/2026 05:55 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+742,669,35,Discharge Summary,02/12/2023 01:08 PM,Discharge summary. Admitted for birth. RECOVERY progressing well.
+743,670,2,Discharge Summary,05/07/2025 07:08 PM,Discharge summary. Admitted for birth. recovery progressing well.
+744,671,35,Discharge Summary,05/27/2024 03:24 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+745,672,5,Discharge Summary,07/16/2024 09:24 AM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+746,673,4,Discharge Summary,03/03/2023 12:11 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+747,674,2,Discharge Summary,06/25/2023 10:11 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+748,675,1,Discharge Summary,01/13/2024 03:11 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+749,676,15,Discharge Summary,08/07/2025 11:03 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+750,677,27,Operative Note,05/19/2026 03:39 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+751,677,5,Discharge Summary,05/30/2026 08:03 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+752,678,5,Discharge Summary,10/31/2024 03:51 PM,Discharge summary. Admitted for weakness. Patient died during the stay.
+753,679,3,Discharge Summary,08/29/2025 09:51 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+754,680,5,Discharge Summary,03/31/2025 07:34 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+755,681,4,Discharge Summary,08/19/2025 10:34 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+756,682,40,Discharge Summary,05/23/2026 08:34 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+757,683,35,Discharge Summary,09/08/2025 01:35 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+758,684,15,Discharge Summary,02/03/2026 05:35 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+759,685,20,Discharge Summary,05/19/2023 11:07 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+760,686,17,Operative Note,09/23/2025 01:18 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+761,686,4,Discharge Summary,10/03/2025 03:47 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+762,687,20,Discharge Summary,11/15/2025 08:47 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+763,688,20,Discharge Summary,12/17/2023 08:11 PM,Discharge summary. Admitted for chest pain. recovery progressing well.
+764,689,25,Discharge Summary,02/21/2024 04:11 PM,Discharge summary. Admitted for nausea. recovery progressing well.
+765,690,3,Discharge Summary,09/28/2024 08:11 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+766,691,10,Discharge Summary,07/20/2025 12:11 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+767,692,1,Discharge Summary,12/07/2025 03:11 AM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+768,693,27,Operative Note,12/28/2023 03:17 AM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+769,693,30,Discharge Summary,01/04/2024 10:39 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+770,694,20,Discharge Summary,09/15/2024 04:39 AM,Discharge summary. Admitted for headache. Patient died during the stay.
+771,695,35,Discharge Summary,05/27/2025 10:26 AM,Discharge summary. Admitted for weakness. recovery progressing well.
+772,696,5,Discharge Summary,08/31/2024 12:17 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+773,697,1,Discharge Summary,03/23/2025 04:17 PM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+774,698,25,Discharge Summary,10/04/2023 11:14 PM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+775,699,1,Discharge Summary,03/18/2025 07:57 AM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+776,700,15,Discharge Summary,04/26/2025 02:57 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+777,701,10,Discharge Summary,05/17/2025 09:42 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+778,702,15,Discharge Summary,10/06/2025 03:42 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+779,703,10,Discharge Summary,07/16/2026 09:42 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+780,704,25,Discharge Summary,06/11/2024 04:58 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+781,705,25,Discharge Summary,10/01/2024 07:58 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+782,706,20,Discharge Summary,06/13/2025 11:58 AM,Discharge summary. Admitted for fall injury. Patient died during the stay.
+783,707,4,Discharge Summary,07/07/2024 06:16 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+784,708,25,Discharge Summary,08/29/2024 11:16 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+785,709,10,Discharge Summary,01/21/2025 08:13 PM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+786,710,4,Discharge Summary,05/15/2025 08:13 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+787,711,40,Discharge Summary,09/01/2025 12:13 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+788,712,25,Discharge Summary,12/01/2025 09:13 AM,Discharge summary. Admitted for weakness. recovery progressing well.
+789,713,40,Discharge Summary,01/10/2023 08:20 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+790,714,10,Discharge Summary,07/07/2023 08:20 AM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+791,715,32,Operative Note,04/13/2024 08:30 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+792,715,2,Discharge Summary,04/14/2024 06:59 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+793,716,30,Discharge Summary,08/08/2024 12:59 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+794,717,40,Discharge Summary,11/14/2024 09:59 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+795,718,30,Discharge Summary,05/14/2025 09:59 PM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+796,719,2,Discharge Summary,01/17/2026 08:59 AM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+797,720,10,Discharge Summary,05/31/2025 09:20 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+798,721,40,Discharge Summary,01/15/2026 07:20 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+799,722,25,Discharge Summary,04/21/2025 02:23 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+800,723,37,Operative Note,09/16/2025 02:34 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+801,723,5,Discharge Summary,02/30/2025 10:00 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+802,724,35,Discharge Summary,05/12/2026 07:23 AM,Discharge summary. Admitted for cough. Patient died during the stay.
+803,725,7,Operative Note,06/06/2023 02:54 PM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+804,725,3,Discharge Summary,06/15/2023 05:27 PM,Discharge summary. Admitted for dizziness. recovery progressing well.
+805,726,40,Discharge Summary,03/20/2024 02:27 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+806,727,35,Discharge Summary,08/09/2024 07:27 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+807,728,25,Discharge Summary,05/02/2025 04:27 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+808,729,25,Discharge Summary,12/26/2025 08:27 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+809,730,10,Discharge Summary,09/23/2026 05:27 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+810,731,20,Discharge Summary,03/16/2023 01:51 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+811,732,10,Discharge Summary,01/12/2024 12:51 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+812,733,3,Discharge Summary,08/30/2025 12:08 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+813,734,10,Discharge Summary,11/22/2024 03:15 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+814,735,40,Discharge Summary,04/13/2023 08:22 AM,Discharge summary. Admitted for cough. RECOVERY progressing well.
+815,736,1,Discharge Summary,12/10/2023 06:22 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+816,737,4,Discharge Summary,01/11/2024 04:22 PM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+817,738,2,Discharge Summary,08/20/2024 02:22 AM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+818,739,3,Discharge Summary,06/28/2024 02:29 PM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+819,740,10,Discharge Summary,09/08/2024 01:29 PM,Discharge summary. Admitted for fever. RECOVERY progressing well.
+820,741,1,Discharge Summary,07/08/2025 02:29 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+821,742,5,Discharge Summary,03/08/2025 05:38 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+822,743,35,Discharge Summary,08/15/2025 05:38 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+823,744,17,Operative Note,10/19/2025 02:07 PM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+824,744,1,Discharge Summary,10/22/2025 02:38 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+825,745,15,Discharge Summary,07/27/2026 05:38 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+826,746,3,Discharge Summary,11/21/2024 07:09 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+827,747,2,Discharge Summary,07/19/2023 12:55 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+828,748,30,Discharge Summary,04/26/2024 04:32 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+829,749,35,Discharge Summary,07/26/2024 01:32 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+830,750,10,Discharge Summary,04/15/2025 10:32 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+831,751,32,Operative Note,06/12/2025 12:25 AM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+832,751,10,Discharge Summary,06/22/2025 09:31 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+833,752,10,Discharge Summary,03/04/2026 10:31 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+834,753,40,Discharge Summary,01/15/2025 11:38 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+835,754,3,Discharge Summary,03/27/2025 11:38 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+836,755,3,Discharge Summary,12/01/2025 06:38 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+837,756,15,Discharge Summary,12/02/2023 07:03 PM,Discharge summary. Admitted for birth. RECOVERY progressing well.
+838,757,25,Discharge Summary,05/15/2024 10:03 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+839,758,35,Discharge Summary,10/02/2024 04:03 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+840,759,1,Discharge Summary,01/24/2025 11:03 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+841,760,20,Discharge Summary,05/11/2025 06:03 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+842,761,25,Discharge Summary,02/18/2025 12:18 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+843,762,1,Discharge Summary,05/31/2025 12:18 AM,Discharge summary. Admitted for headache. recovery progressing well.
+844,763,12,Operative Note,11/01/2025 02:42 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+845,763,3,Discharge Summary,11/18/2025 07:18 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+846,764,2,Discharge Summary,07/28/2023 04:07 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+847,765,10,Discharge Summary,04/06/2024 07:07 PM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+848,766,1,Discharge Summary,08/20/2025 08:59 PM,Discharge summary. Admitted for birth. Recovery progressing well.
+849,767,5,Discharge Summary,04/12/2024 09:28 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+850,768,35,Discharge Summary,08/12/2024 02:28 AM,Discharge summary. Admitted for weakness. Patient died during the stay.
+851,769,5,Discharge Summary,01/30/2023 09:08 PM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+852,770,40,Discharge Summary,09/17/2023 03:08 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+853,771,30,Discharge Summary,05/03/2025 04:25 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+854,772,15,Discharge Summary,03/16/2025 05:05 PM,Discharge summary. Admitted for fall injury. recovery progressing well.
+855,773,15,Discharge Summary,06/01/2025 03:05 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+856,774,15,Discharge Summary,11/18/2025 08:05 AM,Discharge summary. Admitted for cough. recovery progressing well.
+857,775,3,Discharge Summary,04/25/2026 05:05 PM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+858,776,1,Discharge Summary,01/19/2025 11:47 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+859,777,2,Discharge Summary,10/23/2025 02:47 PM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+860,778,15,Discharge Summary,03/09/2023 02:21 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+861,779,25,Discharge Summary,10/27/2023 12:21 AM,Discharge summary. Admitted for chest pain. recovery progressing well.
+862,780,15,Discharge Summary,08/25/2023 10:02 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+863,781,30,Discharge Summary,07/04/2025 03:26 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+864,782,37,Operative Note,08/17/2025 08:12 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+865,782,40,Discharge Summary,08/29/2025 06:26 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+866,783,30,Discharge Summary,12/28/2025 03:26 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+867,784,30,Discharge Summary,06/03/2023 10:06 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+868,785,1,Discharge Summary,02/08/2024 03:06 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+869,786,25,Discharge Summary,05/26/2024 11:06 AM,Discharge summary. Admitted for cough. Condition stable at discharge.
+870,787,15,Discharge Summary,05/12/2025 01:34 PM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+871,788,30,Discharge Summary,02/25/2025 10:01 PM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+872,789,4,Discharge Summary,09/04/2025 03:01 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+873,790,15,Discharge Summary,01/04/2026 03:01 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+874,791,17,Operative Note,12/21/2024 08:56 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+875,791,35,Discharge Summary,01/03/2025 10:34 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+876,792,7,Operative Note,05/07/2025 02:01 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+877,792,4,Discharge Summary,05/15/2025 02:34 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+878,793,20,Discharge Summary,02/16/2024 03:45 AM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+879,794,30,Discharge Summary,09/07/2024 08:45 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+880,795,5,Discharge Summary,07/26/2025 05:05 AM,Discharge summary. Admitted for shortness of breath. Patient died during the stay.
+881,796,1,Discharge Summary,02/13/2026 08:05 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+882,797,35,Discharge Summary,09/12/2026 10:05 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+883,798,4,Discharge Summary,09/28/2023 07:36 AM,Discharge summary. Admitted for cough. RECOVERY progressing well.
+884,799,27,Operative Note,03/28/2023 06:40 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+885,799,40,Discharge Summary,03/31/2023 04:48 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+886,800,2,Discharge Summary,04/14/2024 11:23 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+887,801,15,Discharge Summary,09/20/2024 05:23 AM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+888,802,2,Discharge Summary,06/09/2025 03:23 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+889,803,30,Discharge Summary,04/18/2024 04:05 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+890,804,3,Discharge Summary,10/06/2024 07:05 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+891,805,20,Discharge Summary,03/19/2025 10:05 PM,Discharge summary. Admitted for fever. Recovery progressing well.
+892,806,20,Discharge Summary,05/26/2023 11:33 PM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+893,807,40,Discharge Summary,09/06/2023 05:33 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+894,808,4,Discharge Summary,01/13/2024 07:33 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+895,809,20,Discharge Summary,11/05/2024 08:33 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+896,810,12,Operative Note,04/04/2025 10:30 PM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+897,810,10,Discharge Summary,04/13/2025 12:33 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+898,811,1,Discharge Summary,08/11/2024 03:40 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+899,812,20,Discharge Summary,10/21/2024 01:40 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+900,813,25,Discharge Summary,12/10/2024 05:21 AM,Discharge summary. Admitted for dizziness. RECOVERY progressing well.
+901,814,2,Discharge Summary,07/26/2025 02:21 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+902,815,15,Discharge Summary,02/02/2026 06:21 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+903,816,10,Discharge Summary,08/05/2026 10:21 AM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+904,817,10,Discharge Summary,03/15/2023 09:14 AM,Discharge summary. Admitted for fall injury. recovery progressing well.
+905,818,10,Discharge Summary,10/31/2023 09:14 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+906,819,3,Discharge Summary,02/30/2025 10:00 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+907,820,20,Discharge Summary,05/13/2025 07:06 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+908,821,10,Discharge Summary,09/23/2025 11:06 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+909,822,22,Operative Note,05/19/2025 10:51 AM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+910,822,40,Discharge Summary,05/27/2025 05:57 AM,Discharge summary. Admitted for cough. RECOVERY progressing well.
+911,823,40,Discharge Summary,07/20/2025 12:57 PM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+912,824,35,Discharge Summary,10/06/2025 10:57 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+913,825,7,Operative Note,03/02/2025 12:54 PM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+914,825,5,Discharge Summary,03/16/2025 05:43 PM,Discharge summary. Admitted for nausea. RECOVERY progressing well.
+915,826,15,Discharge Summary,09/22/2025 01:43 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+916,827,15,Discharge Summary,03/24/2026 04:43 PM,Discharge summary. Admitted for nausea. Patient died during the stay.
+917,828,10,Discharge Summary,09/13/2026 02:43 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+918,829,40,Discharge Summary,07/29/2024 07:26 AM,Discharge summary. Admitted for birth. Condition stable at discharge.
+919,830,40,Discharge Summary,02/28/2025 06:48 PM,Discharge summary. Admitted for birth. Condition stable at discharge.
+920,831,15,Discharge Summary,04/14/2025 04:48 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+921,832,10,Discharge Summary,01/02/2026 12:48 PM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+922,833,12,Operative Note,09/11/2026 11:19 PM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+923,833,30,Discharge Summary,09/19/2026 12:48 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+924,834,2,Discharge Summary,03/14/2023 10:32 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+925,835,25,Discharge Summary,10/03/2023 10:32 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+926,836,30,Discharge Summary,07/21/2024 02:12 PM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+927,837,4,Discharge Summary,02/07/2025 04:12 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+928,838,30,Discharge Summary,02/03/2023 06:25 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+929,839,40,Discharge Summary,11/06/2023 11:25 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+930,840,35,Discharge Summary,06/18/2025 05:16 PM,Discharge summary. Admitted for weakness. Patient died during the stay.
+931,841,40,Discharge Summary,12/01/2024 06:17 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+932,842,20,Discharge Summary,04/15/2025 07:17 PM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+933,843,25,Discharge Summary,10/03/2025 09:17 PM,Discharge summary. Admitted for fever. Condition stable at discharge.
+934,844,25,Discharge Summary,07/31/2025 11:30 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+935,845,7,Operative Note,12/19/2025 03:18 AM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+936,845,4,Discharge Summary,12/27/2025 03:30 PM,Discharge summary. Admitted for abdominal pain. recovery progressing well.
+937,846,35,Discharge Summary,08/30/2026 04:30 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+938,847,20,Discharge Summary,02/06/2024 07:12 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+939,848,15,Discharge Summary,08/20/2024 06:12 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+940,849,7,Operative Note,10/23/2024 03:51 PM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+941,849,10,Discharge Summary,11/04/2024 09:12 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+942,850,4,Discharge Summary,02/28/2025 11:49 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+943,851,35,Discharge Summary,01/25/2024 12:22 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+944,852,2,Discharge Summary,05/22/2024 08:22 AM,Discharge summary. Admitted for fall injury. recovery progressing well.
+945,853,4,Discharge Summary,04/05/2023 05:55 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+946,854,2,Discharge Summary,12/15/2023 06:55 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+947,855,25,Discharge Summary,11/27/2024 12:03 PM,Discharge summary. Admitted for headache. RECOVERY progressing well.
+948,856,15,Discharge Summary,04/26/2024 06:40 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+949,857,20,Discharge Summary,05/15/2023 12:04 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+950,858,5,Discharge Summary,03/19/2024 01:23 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+951,859,4,Discharge Summary,09/04/2024 06:42 AM,Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+952,860,40,Discharge Summary,02/02/2023 12:46 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+953,861,3,Discharge Summary,11/21/2023 04:46 PM,Discharge summary. Admitted for nausea. recovery progressing well.
+954,862,4,Discharge Summary,06/03/2024 10:22 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+955,863,20,Discharge Summary,09/19/2024 12:22 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+956,864,3,Discharge Summary,11/15/2024 11:22 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+957,865,35,Discharge Summary,08/06/2024 03:01 AM,Discharge summary. Admitted for dizziness. RECOVERY progressing well.
+958,866,3,Discharge Summary,05/13/2025 05:01 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+959,867,15,Discharge Summary,11/27/2024 06:16 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+960,868,5,Discharge Summary,08/15/2025 04:16 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+961,869,7,Operative Note,06/12/2024 02:32 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+962,869,40,Discharge Summary,06/18/2024 03:10 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+963,870,20,Discharge Summary,01/22/2025 11:10 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+964,871,17,Operative Note,07/22/2025 01:39 AM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+965,871,15,Discharge Summary,07/24/2025 01:10 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+966,872,35,Discharge Summary,04/06/2026 03:10 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+967,873,25,Discharge Summary,02/04/2023 10:11 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+968,874,25,Discharge Summary,06/14/2025 04:10 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+969,875,1,Discharge Summary,TBD,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+970,876,30,Discharge Summary,05/09/2026 02:06 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+971,877,22,Operative Note,06/10/2026 09:21 PM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+972,877,3,Discharge Summary,06/13/2026 11:06 AM,Discharge summary. Admitted for fever. recovery progressing well.
+973,878,35,Discharge Summary,08/03/2026 07:06 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+974,879,10,Discharge Summary,07/07/2024 03:57 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+975,880,5,Discharge Summary,09/25/2024 12:57 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+976,881,3,Discharge Summary,04/28/2025 12:57 PM,Discharge summary. Admitted for weakness. recovery progressing well.
+977,882,37,Operative Note,09/04/2025 11:30 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+978,882,35,Discharge Summary,09/09/2025 11:57 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+979,883,15,Discharge Summary,05/26/2024 04:14 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+980,884,15,Discharge Summary,03/15/2025 04:14 AM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+981,885,35,Discharge Summary,09/08/2025 08:14 AM,Discharge summary. Admitted for fever. Recovery progressing well.
+982,886,22,Operative Note,04/19/2023 08:29 PM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+983,886,3,Discharge Summary,04/25/2023 07:40 PM,Discharge summary. Admitted for headache. recovery progressing well.
+984,887,27,Operative Note,05/28/2023 09:07 AM,Operative note. Hernia repair performed. Patient tolerated the procedure.
+985,887,20,Discharge Summary,05/30/2023 03:40 AM,Discharge summary. Admitted for cough. recovery progressing well.
+986,888,32,Operative Note,05/30/2023 10:23 PM,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
+987,888,3,Discharge Summary,06/01/2023 05:15 PM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+988,889,5,Discharge Summary,09/03/2023 10:15 PM,Discharge summary. Admitted for fall injury. Recovery progressing well.
+989,890,17,Operative Note,05/14/2024 08:14 AM,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
+990,890,20,Discharge Summary,05/24/2024 01:15 PM,Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+991,891,2,Discharge Summary,12/18/2024 10:15 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+992,892,3,Discharge Summary,05/28/2024 10:50 AM,Discharge summary. Admitted for fall injury. RECOVERY progressing well.
+993,893,10,Discharge Summary,09/04/2024 03:50 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+994,894,25,Discharge Summary,04/27/2023 12:04 AM,Discharge summary. Admitted for shortness of breath. Patient died during the stay.
+995,895,30,Discharge Summary,09/28/2023 07:04 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+996,896,10,Discharge Summary,01/14/2023 11:39 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+997,897,30,Discharge Summary,05/27/2023 12:39 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+998,898,4,Discharge Summary,09/16/2023 08:39 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+999,899,5,Discharge Summary,01/24/2024 06:39 PM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+1000,900,15,Discharge Summary,11/10/2024 05:20 PM,Discharge summary. Admitted for birth. Recovery progressing well.
+1001,901,2,Discharge Summary,09/15/2025 04:20 PM,Discharge summary. Admitted for cough. Recovery progressing well.
+1002,902,15,Discharge Summary,08/10/2025 12:26 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+1003,903,40,Discharge Summary,02/05/2024 10:10 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+1004,904,4,Discharge Summary,08/13/2024 08:10 PM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1005,905,3,Discharge Summary,10/15/2024 08:20 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1006,906,25,Discharge Summary,02/26/2023 02:38 PM,Discharge summary. Admitted for birth. Condition stable at discharge.
+1007,907,5,Discharge Summary,12/20/2023 09:38 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+1008,908,30,Discharge Summary,08/03/2025 09:57 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+1009,909,35,Discharge Summary,01/10/2025 10:00 AM,Discharge summary. Admitted for headache. recovery progressing well.
+1010,910,2,Discharge Summary,01/27/2023 04:59 PM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+1011,911,30,Discharge Summary,02/16/2025 12:17 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1012,912,15,Discharge Summary,07/15/2024 02:13 AM,Discharge summary. Admitted for dizziness. recovery progressing well.
+1013,913,22,Operative Note,04/24/2025 12:39 PM,Operative note. Cardiac catheterization performed. Patient tolerated the procedure.
+1014,913,4,Discharge Summary,05/01/2025 08:13 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+1015,914,3,Discharge Summary,10/13/2025 04:13 AM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+1016,915,35,Discharge Summary,07/20/2026 04:13 AM,Discharge summary. Admitted for shortness of breath. Patient died during the stay.
+1017,916,40,Discharge Summary,06/20/2024 03:20 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+1018,917,3,Discharge Summary,04/15/2025 01:20 PM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1019,918,2,Discharge Summary,06/15/2025 09:20 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1020,919,15,Discharge Summary,05/16/2023 01:26 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+1021,920,5,Discharge Summary,01/19/2024 03:26 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+1022,921,30,Discharge Summary,06/10/2024 05:47 PM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+1023,922,3,Discharge Summary,07/02/2023 05:27 AM,Discharge summary. Admitted for dizziness. Recovery progressing well.
+1024,923,15,Discharge Summary,11/25/2023 11:27 PM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+1025,924,4,Discharge Summary,01/17/2024 07:23 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+1026,925,2,Discharge Summary,12/24/2023 09:55 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+1027,926,15,Discharge Summary,05/02/2024 05:45 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1028,927,10,Discharge Summary,06/27/2024 01:45 AM,Discharge summary. Admitted for nausea. Condition stable at discharge.
+1029,928,10,Discharge Summary,02/03/2025 08:41 PM,Discharge summary. Admitted for nausea. Recovery progressing well.
+1030,929,25,Discharge Summary,10/14/2025 01:41 AM,Discharge summary. Admitted for fever. RECOVERY progressing well.
+1031,930,7,Operative Note,11/19/2025 10:33 AM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+1032,930,40,Discharge Summary,11/25/2025 07:41 PM,Discharge summary. Admitted for chest pain. Recovery progressing well.
+1033,931,40,Discharge Summary,08/06/2023 11:54 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+1034,932,30,Discharge Summary,04/12/2024 01:54 AM,Discharge summary. Admitted for headache. Condition stable at discharge.
+1035,933,2,Discharge Summary,05/17/2024 02:54 AM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+1036,934,5,Discharge Summary,11/08/2023 06:47 PM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+1037,935,20,Discharge Summary,06/20/2024 02:47 PM,Discharge summary. Admitted for shortness of breath. recovery progressing well.
+1038,936,3,Discharge Summary,02/18/2025 03:47 PM,Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+1039,937,35,Discharge Summary,03/29/2023 07:46 AM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1040,938,3,Discharge Summary,05/21/2025 03:32 AM,Discharge summary. Admitted for weakness. Recovery progressing well.
+1041,939,10,Discharge Summary,02/09/2024 08:56 PM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+1042,940,2,Discharge Summary,09/18/2025 03:52 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+1043,941,3,Discharge Summary,11/01/2025 06:52 AM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+1044,942,30,Discharge Summary,02/15/2023 08:52 AM,Discharge summary. Admitted for chest pain. recovery progressing well.
+1045,943,3,Discharge Summary,03/26/2024 06:46 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+1046,944,20,Discharge Summary,12/24/2024 09:46 PM,Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+1047,945,30,Discharge Summary,05/02/2025 01:46 AM,Discharge summary. Admitted for headache. Recovery progressing well.
+1048,946,3,Discharge Summary,08/04/2025 04:46 AM,Discharge summary. Admitted for cough. Recovery progressing well.
+1049,947,10,Discharge Summary,06/24/2025 01:39 PM,Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1050,948,2,Discharge Summary,10/31/2025 03:39 PM,Discharge summary. Admitted for cough. Condition stable at discharge.
+1051,949,3,Discharge Summary,03/15/2026 06:39 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+1052,950,20,Discharge Summary,08/18/2023 09:04 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1053,951,37,Operative Note,09/15/2025 04:01 PM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+1054,951,40,Discharge Summary,09/16/2025 12:12 PM,Discharge summary. Admitted for weakness. RECOVERY progressing well.
+1055,952,30,Discharge Summary,07/02/2023 12:27 PM,Discharge summary. Admitted for weakness. Condition stable at discharge.
+1056,953,37,Operative Note,03/09/2024 02:43 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+1057,953,3,Discharge Summary,03/19/2024 01:27 AM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+1058,954,10,Discharge Summary,03/11/2023 03:38 PM,Discharge summary. Admitted for fall injury. recovery progressing well.
+1059,955,4,Discharge Summary,12/05/2023 08:38 PM,Discharge summary. Admitted for weakness. Recovery progressing well.
+1060,956,32,Operative Note,05/19/2024 11:25 PM,Operative note. Appendectomy performed. Patient tolerated the procedure.
+1061,956,3,Discharge Summary,05/31/2024 04:38 AM,Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1062,957,3,Discharge Summary,08/23/2024 10:38 AM,Discharge summary. Admitted for chest pain. Patient died during the stay.
+1063,958,4,Discharge Summary,08/26/2023 04:21 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+1064,959,20,Discharge Summary,11/20/2023 12:33 PM,Discharge summary. Admitted for cough. RECOVERY progressing well.
+1065,960,25,Discharge Summary,09/20/2024 05:07 PM,Discharge summary. Admitted for headache. Recovery progressing well.
+1066,961,1,Discharge Summary,02/25/2025 03:07 PM,Discharge summary. Admitted for fever. recovery progressing well.
+1067,962,4,Discharge Summary,07/16/2025 07:07 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+1068,963,3,Discharge Summary,07/15/2025 02:22 PM,Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+1069,964,20,Discharge Summary,06/30/2024 11:24 PM,Discharge summary. Admitted for headache. Condition stable at discharge.
+1070,965,40,Discharge Summary,09/18/2024 07:02 PM,Discharge summary. Admitted for dizziness. Condition stable at discharge.
+1071,966,27,Operative Note,04/07/2025 10:03 AM,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
+1072,966,20,Discharge Summary,04/21/2025 12:02 AM,Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1073,967,5,Discharge Summary,07/22/2025 08:02 AM,Discharge summary. Admitted for fall injury. Condition stable at discharge.
+1074,968,3,Discharge Summary,10/15/2023 02:50 PM,Discharge summary. Admitted for dizziness. Patient died during the stay.
+1075,969,40,Discharge Summary,04/19/2024 11:50 AM,Discharge summary. Admitted for fever. Condition stable at discharge.
+1076,970,15,Discharge Summary,03/26/2024 08:07 AM,Discharge summary. Admitted for cough. Condition stable at discharge.

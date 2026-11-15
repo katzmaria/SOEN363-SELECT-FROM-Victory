@@ -1,0 +1,2340 @@
+source,order_id,admission_id,requester_id,ordered_at_utc,exam,indication,status,priority
+A,4,5,30,2023-09-18T22:18:00Z,MRI,Rule out obstruction,pending,urgent
+A,5,5,10,2023-09-18T05:06:00Z,CT scan,Rule out ischemia,completed,routine
+A,6,9,3,2024-02-18T17:44:00Z,CT scan,Rule out infection,in_progress,urgent
+A,7,12,25,2023-03-02T17:46:00Z,Chest X-ray,Rule out obstruction,completed,routine
+A,8,13,4,2023-09-24T16:55:00Z,MRI,Rule out bleeding,completed,urgent
+A,9,14,10,2023-04-11T22:03:00Z,CT scan,Rule out obstruction,in_progress,routine
+A,10,18,4,2026-03-13T12:31:00Z,CT scan,Rule out obstruction,completed,routine
+A,11,18,3,2026-03-14T14:29:00Z,ECG,Rule out ischemia,completed,stat
+A,12,19,40,2026-06-26T11:53:00Z,CT scan,Rule out ischemia,completed,routine
+A,13,20,30,2023-09-17T18:15:00Z,MRI,Rule out infection,completed,routine
+A,14,22,35,2024-09-02T05:51:00Z,Blood panel,Rule out fracture,completed,routine
+A,15,24,25,2024-09-11T05:24:00Z,ECG,Rule out ischemia,completed,urgent
+A,16,26,15,2025-11-08T02:52:00Z,ECG,Rule out obstruction,completed,routine
+A,17,27,25,2023-06-30T09:48:00Z,Blood panel,Rule out fracture,cancelled,urgent
+A,18,31,15,2026-03-14T15:35:00Z,Blood panel,Rule out obstruction,completed,routine
+A,19,33,2,2023-05-06T10:07:00Z,CT scan,Rule out obstruction,completed,routine
+A,20,34,2,2023-12-29T02:14:00Z,MRI,Rule out bleeding,completed,urgent
+A,21,34,35,2023-12-30T14:02:00Z,ECG,Rule out obstruction,cancelled,urgent
+A,22,35,10,2024-01-07T06:29:00Z,Chest X-ray,Rule out obstruction,completed,urgent
+A,23,36,10,2024-07-13T06:37:00Z,Blood panel,Rule out infection,in_progress,routine
+A,24,37,15,2025-09-23T03:39:00Z,ECG,Rule out ischemia,completed,routine
+A,25,39,20,2024-03-18T21:36:00Z,Chest X-ray,Rule out fracture,cancelled,urgent
+A,26,39,4,2024-03-20T19:15:00Z,CT scan,Rule out infection,pending,urgent
+A,27,40,1,2025-03-09T10:18:00Z,CT scan,Rule out fracture,completed,stat
+A,28,41,2,2025-08-09T00:07:00Z,Ultrasound,Rule out infection,completed,routine
+A,29,42,1,2024-06-01T05:25:00Z,ECG,Rule out infection,completed,stat
+A,30,44,35,2023-04-11T14:33:00Z,ECG,Rule out infection,cancelled,urgent
+A,31,44,35,2023-04-12T07:50:00Z,ECG,Rule out obstruction,cancelled,urgent
+A,32,45,3,2024-02-08T07:21:00Z,MRI,Rule out obstruction,completed,routine
+A,33,46,5,2024-05-07T02:43:00Z,ECG,Rule out obstruction,pending,urgent
+A,34,47,10,2024-11-09T17:38:00Z,CT scan,Rule out obstruction,completed,routine
+A,35,48,3,2025-08-30T11:53:00Z,Chest X-ray,Rule out bleeding,pending,urgent
+A,36,49,40,2024-01-20T14:10:00Z,ECG,Rule out ischemia,in_progress,stat
+A,37,50,4,2024-07-03T22:55:00Z,CT scan,Rule out ischemia,completed,routine
+A,38,50,40,2024-07-03T08:31:00Z,Ultrasound,Rule out fracture,completed,urgent
+A,39,52,4,2025-06-30T04:53:00Z,Ultrasound,Rule out obstruction,completed,stat
+A,41,56,30,2024-10-02T13:18:00Z,Ultrasound,Rule out ischemia,completed,urgent
+A,42,57,10,2025-04-18T06:39:00Z,ECG,Rule out fracture,completed,urgent
+A,43,59,15,2023-01-13T09:21:00Z,Blood panel,Rule out infection,in_progress,routine
+A,44,60,2,2023-11-08T10:09:00Z,Chest X-ray,Rule out obstruction,completed,urgent
+A,45,60,30,2023-11-08T18:12:00Z,MRI,Rule out fracture,completed,urgent
+A,46,61,20,2023-08-08T22:08:00Z,ECG,Rule out obstruction,completed,routine
+A,47,62,2,2024-04-24T01:26:00Z,Blood panel,Rule out obstruction,completed,stat
+A,48,62,10,2024-04-23T09:43:00Z,Chest X-ray,Rule out ischemia,in_progress,urgent
+A,49,64,1,2025-07-03T15:10:00Z,Ultrasound,Rule out infection,completed,routine
+A,50,66,5,2025-08-26T05:58:00Z,Chest X-ray,Rule out obstruction,completed,routine
+A,51,67,40,2026-03-29T07:08:00Z,ECG,Rule out ischemia,completed,urgent
+A,52,67,4,2026-03-28T21:43:00Z,MRI,Rule out ischemia,completed,routine
+A,53,69,3,2026-08-26T07:35:00Z,Ultrasound,Rule out obstruction,completed,routine
+A,54,69,3,2026-08-25T12:57:00Z,CT scan,Rule out obstruction,completed,routine
+A,55,70,5,2026-10-28T02:40:00Z,Blood panel,Rule out obstruction,cancelled,urgent
+A,56,70,3,2026-10-28T11:48:00Z,CT scan,Rule out fracture,completed,routine
+A,57,73,25,2026-10-01T18:20:00Z,CT scan,Rule out fracture,completed,routine
+A,58,73,2,2026-10-03T06:23:00Z,Blood panel,Rule out fracture,pending,routine
+A,59,74,4,2025-01-24T14:30:00Z,Ultrasound,Rule out infection,completed,routine
+A,60,75,15,2025-08-31T23:54:00Z,CT scan,Rule out infection,pending,stat
+A,61,77,10,2024-01-08T02:01:00Z,CT scan,Rule out infection,completed,routine
+A,62,77,20,2024-01-07T23:06:00Z,Chest X-ray,Rule out fracture,completed,routine
+A,63,79,15,2025-03-01T17:47:00Z,ECG,Rule out bleeding,completed,routine
+A,64,83,30,2026-05-27T01:32:00Z,CT scan,Rule out obstruction,completed,stat
+A,65,85,3,2023-12-10T00:28:00Z,ECG,Rule out infection,completed,routine
+A,66,87,30,2023-07-01T14:09:00Z,MRI,Rule out obstruction,completed,routine
+A,67,88,15,2024-11-24T19:08:00Z,MRI,Rule out bleeding,completed,routine
+A,68,90,1,2026-05-03T08:36:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+A,69,91,25,2025-03-10T04:16:00Z,MRI,Rule out obstruction,cancelled,urgent
+A,70,91,30,2025-03-08T12:51:00Z,Ultrasound,Rule out bleeding,pending,routine
+A,71,92,5,2024-03-29T18:50:00Z,Chest X-ray,Rule out infection,in_progress,routine
+A,72,92,4,2024-03-30T17:56:00Z,CT scan,Rule out ischemia,completed,routine
+A,73,94,2,2024-04-02T22:59:00Z,Blood panel,Rule out bleeding,completed,urgent
+A,74,94,5,2024-04-02T23:07:00Z,CT scan,Rule out fracture,pending,routine
+A,75,95,10,2024-08-29T02:26:00Z,Chest X-ray,Rule out infection,pending,stat
+A,76,95,35,2024-08-29T02:11:00Z,Blood panel,Rule out ischemia,completed,routine
+A,77,97,4,2025-04-12T15:22:00Z,ECG,Rule out infection,completed,urgent
+A,78,98,10,2024-11-14T21:36:00Z,Ultrasound,Rule out bleeding,completed,stat
+A,79,99,15,2025-05-14T01:11:00Z,CT scan,Rule out infection,completed,routine
+A,80,100,5,2023-04-18T00:14:00Z,ECG,Rule out infection,pending,routine
+A,81,102,3,2025-08-13T20:36:00Z,MRI,Rule out ischemia,pending,stat
+A,82,102,10,2025-08-16T08:41:00Z,Ultrasound,Rule out bleeding,in_progress,stat
+A,83,107,35,2025-03-22T11:48:00Z,ECG,Rule out infection,completed,routine
+A,87,112,35,2023-11-24T16:01:00Z,Blood panel,Rule out infection,completed,routine
+A,88,112,35,2023-11-25T21:02:00Z,MRI,Rule out ischemia,completed,routine
+A,90,114,15,2023-11-22T00:20:00Z,MRI,Rule out infection,completed,routine
+A,91,115,1,2024-08-20T05:43:00Z,CT scan,Rule out fracture,completed,routine
+A,92,117,35,2025-09-16T18:34:00Z,MRI,Rule out ischemia,cancelled,urgent
+A,93,120,3,2025-06-03T08:32:00Z,Ultrasound,Rule out obstruction,completed,urgent
+A,94,121,25,2025-10-02T06:24:00Z,CT scan,Rule out ischemia,completed,routine
+A,95,123,4,2024-05-21T23:21:00Z,MRI,Rule out ischemia,completed,routine
+A,96,124,4,2023-11-03T18:56:00Z,Blood panel,Rule out bleeding,completed,urgent
+A,97,126,20,2023-12-29T04:48:00Z,Ultrasound,Rule out infection,cancelled,urgent
+A,98,126,15,2023-12-27T18:31:00Z,MRI,Rule out infection,completed,stat
+A,101,129,15,2025-01-07T05:12:00Z,CT scan,Rule out obstruction,pending,routine
+A,102,130,5,2023-12-05T02:58:00Z,Blood panel,Rule out ischemia,pending,stat
+A,103,131,30,2024-08-21T03:22:00Z,MRI,Rule out obstruction,completed,routine
+A,104,132,3,2025-06-03T13:00:00Z,MRI,Rule out bleeding,completed,urgent
+A,105,132,35,2025-06-05T14:51:00Z,ECG,Rule out obstruction,completed,stat
+A,106,134,35,2025-07-11T17:41:00Z,ECG,Rule out obstruction,completed,routine
+A,107,139,5,2023-11-20T10:48:00Z,ECG,Rule out bleeding,pending,routine
+A,108,139,10,2023-11-19T23:29:00Z,ECG,Rule out fracture,completed,routine
+A,109,141,10,2024-03-15T12:20:00Z,MRI,Rule out bleeding,completed,urgent
+A,110,143,20,2023-10-24T17:36:00Z,Blood panel,Rule out bleeding,in_progress,urgent
+A,111,144,30,2024-01-06T20:49:00Z,MRI,Rule out obstruction,completed,routine
+A,112,146,2,2025-12-17T19:52:00Z,ECG,Rule out fracture,pending,routine
+A,113,148,5,2025-12-09T19:09:00Z,ECG,Rule out bleeding,completed,routine
+A,114,150,35,2024-07-02T14:31:00Z,ECG,Rule out fracture,completed,routine
+A,115,151,30,2024-10-29T04:20:00Z,CT scan,Rule out bleeding,completed,routine
+A,116,155,3,2024-03-31T12:01:00Z,Blood panel,Rule out ischemia,completed,routine
+A,117,155,30,2024-04-01T06:00:00Z,ECG,Rule out bleeding,cancelled,urgent
+A,118,157,5,2025-01-21T16:36:00Z,MRI,Rule out bleeding,completed,urgent
+A,119,158,2,2025-07-07T06:28:00Z,Blood panel,Rule out obstruction,completed,urgent
+A,120,165,30,2024-10-04T10:03:00Z,MRI,Rule out infection,completed,stat
+A,121,166,1,2024-08-19T18:09:00Z,MRI,Rule out obstruction,completed,routine
+A,122,168,30,2024-12-21T13:53:00Z,MRI,Rule out obstruction,completed,urgent
+A,123,171,4,2024-07-02T16:10:00Z,Blood panel,Rule out ischemia,completed,routine
+A,124,172,4,2025-02-09T13:39:00Z,Ultrasound,Rule out ischemia,pending,stat
+A,125,173,4,2023-11-09T07:22:00Z,CT scan,Rule out ischemia,pending,stat
+A,126,174,20,2024-02-17T07:58:00Z,Chest X-ray,Rule out bleeding,in_progress,stat
+A,127,176,40,2025-03-01T17:22:00Z,Ultrasound,Rule out obstruction,completed,routine
+A,128,177,15,2025-12-22T06:11:00Z,MRI,Rule out fracture,completed,routine
+A,129,180,35,2025-10-27T21:07:00Z,ECG,Rule out ischemia,completed,routine
+A,131,183,25,2024-05-05T08:10:00Z,Blood panel,Rule out bleeding,completed,urgent
+A,132,187,2,2023-11-25T08:45:00Z,MRI,Rule out infection,cancelled,routine
+A,133,188,20,2024-01-28T00:01:00Z,MRI,Rule out fracture,completed,routine
+A,134,189,25,2023-03-12T07:33:00Z,Ultrasound,Rule out obstruction,in_progress,stat
+A,135,189,10,2023-03-14T09:42:00Z,Blood panel,Rule out fracture,completed,urgent
+A,136,191,20,2024-08-27T13:38:00Z,CT scan,Rule out fracture,completed,routine
+A,137,191,20,2024-08-26T09:45:00Z,ECG,Rule out obstruction,completed,routine
+A,138,192,3,2025-04-06T06:22:00Z,ECG,Rule out obstruction,completed,routine
+A,139,193,5,2023-03-15T16:12:00Z,Blood panel,Rule out infection,completed,urgent
+A,140,193,3,2023-03-15T17:05:00Z,Ultrasound,Rule out obstruction,completed,urgent
+A,141,198,1,2023-04-05T09:12:00Z,MRI,Rule out fracture,completed,routine
+A,142,199,3,2024-01-27T04:37:00Z,CT scan,Rule out infection,completed,stat
+A,143,200,15,2023-07-17T07:38:00Z,Chest X-ray,Rule out fracture,completed,urgent
+A,144,203,35,2025-10-21T08:23:00Z,Chest X-ray,Rule out bleeding,completed,routine
+A,145,205,15,2024-11-07T03:29:00Z,Ultrasound,Rule out infection,completed,stat
+A,146,205,25,2024-11-07T16:09:00Z,ECG,Rule out bleeding,completed,routine
+A,147,206,20,2025-03-11T17:27:00Z,Chest X-ray,Rule out bleeding,in_progress,stat
+A,148,211,20,2025-01-22T16:46:00Z,Ultrasound,Rule out ischemia,completed,stat
+A,149,212,30,2024-08-31T09:40:00Z,ECG,Rule out infection,completed,urgent
+A,150,214,35,2024-02-22T06:12:00Z,ECG,Rule out infection,completed,routine
+A,151,215,1,2024-06-13T13:24:00Z,Ultrasound,Rule out infection,completed,urgent
+A,152,215,1,2024-06-12T20:14:00Z,Chest X-ray,Rule out bleeding,completed,stat
+A,153,216,30,2024-09-04T06:31:00Z,ECG,Rule out infection,in_progress,urgent
+A,154,218,1,2024-08-12T18:56:00Z,ECG,Rule out bleeding,in_progress,routine
+A,155,223,40,2025-02-13T17:48:00Z,ECG,Rule out obstruction,completed,routine
+A,156,225,4,2024-02-14T20:55:00Z,MRI,Rule out ischemia,completed,routine
+A,157,227,1,2023-03-27T16:14:00Z,ECG,Rule out obstruction,completed,stat
+A,158,229,4,2025-01-18T20:21:00Z,Ultrasound,Rule out obstruction,pending,routine
+A,159,229,15,2025-01-20T16:42:00Z,ECG,Rule out ischemia,completed,urgent
+A,160,230,30,2023-02-02T08:34:00Z,Ultrasound,Rule out obstruction,completed,urgent
+A,161,231,30,2025-03-16T07:26:00Z,Blood panel,Rule out ischemia,completed,routine
+A,162,231,25,2025-03-16T13:57:00Z,ECG,Rule out fracture,completed,urgent
+A,163,233,15,2025-11-08T02:42:00Z,MRI,Rule out bleeding,completed,urgent
+A,164,233,40,2025-11-07T12:33:00Z,ECG,Rule out bleeding,completed,routine
+A,165,234,30,2023-05-11T23:51:00Z,Blood panel,Rule out infection,completed,stat
+A,166,236,15,2025-05-13T11:13:00Z,Chest X-ray,Rule out bleeding,completed,routine
+A,167,237,25,2024-05-19T14:27:00Z,CT scan,Rule out fracture,completed,urgent
+A,168,238,20,2025-03-10T16:18:00Z,Blood panel,Rule out fracture,completed,urgent
+A,169,240,40,2025-10-26T21:35:00Z,Chest X-ray,Rule out ischemia,completed,routine
+A,170,241,40,2026-05-14T12:32:00Z,CT scan,Rule out bleeding,completed,routine
+A,171,245,10,2026-04-29T14:59:00Z,ECG,Rule out fracture,completed,routine
+A,172,246,20,2025-02-25T03:28:00Z,CT scan,Rule out ischemia,pending,routine
+A,173,248,1,2026-07-05T13:16:00Z,ECG,Rule out fracture,completed,routine
+A,174,248,25,2026-07-05T12:17:00Z,Ultrasound,Rule out obstruction,cancelled,routine
+A,175,251,3,2025-04-13T00:48:00Z,ECG,Rule out fracture,in_progress,stat
+A,176,251,2,2025-04-13T03:42:00Z,Chest X-ray,Rule out obstruction,completed,routine
+A,177,253,15,2023-01-31T04:53:00Z,ECG,Rule out fracture,completed,routine
+A,178,257,2,2024-03-24T20:58:00Z,Ultrasound,Rule out infection,pending,routine
+A,179,260,5,2024-03-19T13:31:00Z,CT scan,Rule out fracture,completed,routine
+A,180,263,4,2024-06-30T03:08:00Z,Ultrasound,Rule out obstruction,completed,urgent
+A,181,264,25,2024-12-27T04:53:00Z,Ultrasound,Rule out ischemia,completed,urgent
+A,182,265,3,2025-03-23T19:44:00Z,Ultrasound,Rule out ischemia,completed,urgent
+A,183,265,3,2025-03-24T02:56:00Z,CT scan,Rule out obstruction,completed,urgent
+A,184,267,5,2025-08-28T17:42:00Z,CT scan,Rule out obstruction,completed,urgent
+A,185,268,30,2023-11-21T07:46:00Z,Blood panel,Rule out fracture,completed,routine
+A,186,269,3,2023-05-24T03:49:00Z,Chest X-ray,Rule out infection,completed,routine
+A,187,270,25,2023-09-09T07:20:00Z,Chest X-ray,Rule out obstruction,cancelled,urgent
+A,188,271,20,2024-02-08T19:21:00Z,Blood panel,Rule out infection,completed,stat
+A,189,272,1,2024-08-06T17:42:00Z,Ultrasound,Rule out obstruction,completed,urgent
+A,190,273,3,2025-05-02T01:19:00Z,Ultrasound,Rule out fracture,completed,urgent
+A,191,274,10,2024-03-26T02:08:00Z,Blood panel,Rule out obstruction,completed,routine
+A,192,276,3,2025-09-24T06:04:00Z,Blood panel,Rule out infection,completed,urgent
+A,193,276,35,2025-09-23T17:10:00Z,CT scan,Rule out obstruction,completed,routine
+A,194,277,3,2024-10-19T18:20:00Z,Ultrasound,Rule out fracture,completed,routine
+A,195,278,15,2025-07-30T10:04:00Z,Ultrasound,Rule out obstruction,completed,stat
+A,196,280,25,2025-01-23T19:19:00Z,Chest X-ray,Rule out infection,completed,routine
+A,197,284,15,2024-05-10T00:00:00Z,ECG,Rule out bleeding,completed,urgent
+A,198,286,5,2023-04-21T10:13:00Z,Ultrasound,Rule out fracture,completed,routine
+A,199,286,25,2023-04-21T10:18:00Z,ECG,Rule out fracture,completed,urgent
+A,200,287,20,2024-05-12T19:12:00Z,CT scan,Rule out obstruction,cancelled,routine
+A,201,287,5,2024-05-13T08:59:00Z,ECG,Rule out fracture,completed,urgent
+A,202,289,20,2023-01-01T15:54:00Z,Chest X-ray,Rule out fracture,completed,routine
+A,203,291,15,2024-06-24T06:23:00Z,ECG,Rule out ischemia,completed,routine
+A,204,294,5,2024-03-13T07:45:00Z,ECG,Rule out bleeding,pending,routine
+A,205,295,30,2024-07-06T09:55:00Z,ECG,Rule out obstruction,completed,routine
+A,206,296,4,2025-05-06T09:13:00Z,CT scan,Rule out bleeding,completed,routine
+A,207,297,20,2026-02-23T13:59:00Z,ECG,Rule out ischemia,cancelled,urgent
+A,208,298,1,2025-04-25T06:50:00Z,ECG,Rule out ischemia,completed,routine
+A,209,300,35,2025-08-28T16:56:00Z,CT scan,Rule out bleeding,in_progress,routine
+A,210,300,1,2025-08-27T03:59:00Z,CT scan,Rule out ischemia,completed,routine
+A,211,301,3,2025-10-21T10:17:00Z,CT scan,Rule out obstruction,completed,routine
+A,212,302,20,2023-07-16T16:47:00Z,ECG,Rule out ischemia,completed,stat
+A,213,305,15,2024-01-02T20:00:00Z,MRI,Rule out bleeding,completed,routine
+A,214,305,5,2024-01-01T17:51:00Z,MRI,Rule out obstruction,pending,urgent
+A,215,307,25,2024-09-16T00:08:00Z,Blood panel,Rule out obstruction,cancelled,routine
+A,216,308,5,2023-11-27T06:44:00Z,ECG,Rule out obstruction,pending,stat
+A,217,309,1,2024-04-12T09:23:00Z,CT scan,Rule out fracture,in_progress,routine
+A,218,310,20,2024-05-26T04:41:00Z,Ultrasound,Rule out fracture,completed,urgent
+A,219,311,35,2024-03-29T13:37:00Z,ECG,Rule out obstruction,completed,urgent
+A,220,313,4,2023-09-28T22:25:00Z,Ultrasound,Rule out infection,completed,urgent
+A,221,314,40,2024-03-09T01:18:00Z,MRI,Rule out bleeding,cancelled,routine
+A,222,315,30,2024-06-13T18:58:00Z,ECG,Rule out bleeding,pending,stat
+A,223,316,15,2024-11-17T16:11:00Z,CT scan,Rule out infection,completed,urgent
+A,224,322,5,2023-04-20T09:39:00Z,Ultrasound,Rule out infection,completed,urgent
+A,225,326,5,2026-03-31T22:21:00Z,ECG,Rule out ischemia,in_progress,stat
+A,226,327,40,2024-04-04T13:56:00Z,Ultrasound,Rule out ischemia,completed,urgent
+A,228,331,40,2024-04-03T20:39:00Z,CT scan,Rule out ischemia,completed,urgent
+A,229,332,20,2024-12-12T06:50:00Z,Blood panel,Rule out bleeding,in_progress,stat
+A,230,333,1,2025-04-03T09:04:00Z,Ultrasound,Rule out fracture,completed,routine
+A,231,334,10,2024-11-29T17:16:00Z,Chest X-ray,Rule out bleeding,completed,routine
+A,232,336,35,2024-10-18T17:58:00Z,Blood panel,Rule out bleeding,completed,routine
+A,233,337,30,2023-02-21T23:23:00Z,ECG,Rule out infection,completed,routine
+A,234,338,4,2023-04-02T21:17:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+A,235,338,30,2023-04-02T18:09:00Z,CT scan,Rule out fracture,in_progress,routine
+A,236,340,30,2023-01-22T13:15:00Z,Blood panel,Rule out ischemia,completed,routine
+A,237,343,10,2025-05-19T22:45:00Z,Ultrasound,Rule out bleeding,completed,routine
+A,238,347,5,2024-10-23T10:00:00Z,Ultrasound,Rule out infection,completed,routine
+A,239,348,25,2024-11-07T10:59:00Z,Blood panel,Rule out obstruction,completed,routine
+A,240,349,15,2025-04-01T20:01:00Z,MRI,Rule out infection,pending,routine
+A,241,350,4,2024-05-26T06:53:00Z,ECG,Rule out fracture,completed,routine
+A,242,350,15,2024-05-26T06:53:00Z,Ultrasound,Rule out fracture,completed,urgent
+A,243,351,10,2024-10-22T12:33:00Z,CT scan,Rule out obstruction,cancelled,routine
+A,244,351,3,2024-10-22T08:35:00Z,ECG,Rule out infection,completed,urgent
+A,245,353,15,2025-09-24T18:05:00Z,Chest X-ray,Rule out infection,completed,stat
+A,246,355,5,2025-06-01T08:54:00Z,Ultrasound,Rule out obstruction,completed,stat
+A,247,355,40,2025-06-01T08:47:00Z,Chest X-ray,Rule out obstruction,completed,urgent
+A,248,357,20,2024-06-17T23:18:00Z,MRI,Rule out obstruction,pending,routine
+A,249,363,25,2025-08-11T08:17:00Z,Blood panel,Rule out ischemia,cancelled,routine
+A,250,363,20,2025-08-11T08:03:00Z,CT scan,Rule out infection,cancelled,urgent
+A,251,364,4,2023-05-03T20:26:00Z,Ultrasound,Rule out obstruction,completed,routine
+A,252,367,3,2023-07-05T02:37:00Z,Ultrasound,Rule out ischemia,in_progress,routine
+A,253,367,30,2023-07-05T10:24:00Z,ECG,Rule out obstruction,completed,urgent
+A,254,368,40,2024-04-23T10:16:00Z,Ultrasound,Rule out ischemia,completed,urgent
+A,255,369,4,2023-09-11T18:53:00Z,Ultrasound,Rule out infection,completed,routine
+A,256,373,10,2023-04-25T06:05:00Z,ECG,Rule out fracture,cancelled,routine
+A,258,380,3,2024-09-12T09:32:00Z,MRI,Rule out obstruction,completed,routine
+A,259,380,3,2024-09-11T12:49:00Z,MRI,Rule out obstruction,completed,urgent
+A,260,381,20,2025-02-24T13:14:00Z,Chest X-ray,Rule out fracture,completed,routine
+A,261,388,10,2024-05-31T13:43:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+A,262,388,10,2024-06-02T14:00:00Z,Blood panel,Rule out fracture,completed,routine
+A,263,390,2,2024-10-11T04:38:00Z,ECG,Rule out ischemia,pending,routine
+A,264,391,4,2024-09-03T09:58:00Z,Ultrasound,Rule out bleeding,pending,stat
+A,266,398,5,2024-12-01T09:49:00Z,ECG,Rule out ischemia,completed,routine
+A,267,398,2,2024-11-30T17:18:00Z,ECG,Rule out bleeding,completed,routine
+A,268,402,3,2024-02-06T10:00:00Z,CT scan,Rule out ischemia,completed,routine
+A,272,410,25,2024-05-03T07:49:00Z,CT scan,Rule out fracture,cancelled,stat
+A,273,411,20,2024-11-15T01:15:00Z,MRI,Rule out infection,completed,routine
+A,274,411,20,2024-11-15T18:02:00Z,Blood panel,Rule out fracture,completed,routine
+A,275,412,40,2024-11-01T09:42:00Z,ECG,Rule out infection,in_progress,routine
+A,276,413,3,2025-07-25T22:48:00Z,CT scan,Rule out infection,pending,urgent
+A,277,414,20,2026-01-20T15:12:00Z,ECG,Rule out bleeding,completed,urgent
+A,278,415,4,2025-04-22T10:01:00Z,Chest X-ray,Rule out ischemia,completed,routine
+A,279,416,40,2025-10-31T21:21:00Z,CT scan,Rule out fracture,completed,stat
+A,280,419,4,2024-05-29T22:30:00Z,MRI,Rule out obstruction,completed,routine
+A,281,424,1,2023-07-07T10:59:00Z,CT scan,Rule out bleeding,completed,stat
+A,282,424,35,2023-07-07T08:04:00Z,Chest X-ray,Rule out infection,completed,routine
+A,283,426,25,2024-08-02T17:34:00Z,Blood panel,Rule out bleeding,completed,routine
+A,284,426,5,2024-08-01T20:43:00Z,Ultrasound,Rule out bleeding,completed,routine
+A,285,430,35,2025-05-03T11:50:00Z,MRI,Rule out bleeding,completed,stat
+A,286,432,15,2023-11-05T13:21:00Z,CT scan,Rule out bleeding,completed,routine
+A,287,436,4,2025-05-20T05:18:00Z,CT scan,Rule out bleeding,in_progress,stat
+A,288,437,4,2025-12-01T06:11:00Z,ECG,Rule out bleeding,completed,routine
+A,289,437,2,2025-12-01T05:33:00Z,Chest X-ray,Rule out infection,completed,routine
+A,290,438,25,2026-07-12T06:31:00Z,Ultrasound,Rule out obstruction,completed,stat
+A,291,441,15,2024-08-11T21:58:00Z,CT scan,Rule out ischemia,completed,routine
+A,292,444,15,2025-04-08T02:09:00Z,MRI,Rule out fracture,completed,urgent
+A,293,444,35,2025-04-09T13:46:00Z,Chest X-ray,Rule out ischemia,pending,stat
+A,294,447,20,2025-10-12T10:46:00Z,Blood panel,Rule out obstruction,completed,routine
+A,295,448,2,2024-04-21T08:29:00Z,Ultrasound,Rule out fracture,completed,routine
+A,296,448,40,2024-04-22T19:42:00Z,MRI,Rule out fracture,completed,routine
+A,297,451,5,2023-03-26T03:18:00Z,Ultrasound,Rule out fracture,completed,urgent
+A,298,455,4,2025-06-03T20:09:00Z,Chest X-ray,Rule out fracture,cancelled,routine
+A,299,456,20,2025-07-13T22:39:00Z,MRI,Rule out ischemia,completed,routine
+A,300,461,30,2023-05-18T13:08:00Z,ECG,Rule out obstruction,completed,routine
+A,301,463,30,2024-03-03T02:50:00Z,Chest X-ray,Rule out fracture,completed,urgent
+A,302,467,3,2025-03-06T13:38:00Z,Chest X-ray,Rule out ischemia,completed,routine
+A,306,472,25,2024-02-28T22:10:00Z,Chest X-ray,Rule out infection,pending,routine
+A,307,472,4,2024-02-28T22:17:00Z,Blood panel,Rule out bleeding,cancelled,urgent
+A,308,475,15,2023-01-13T05:57:00Z,Chest X-ray,Rule out infection,completed,routine
+A,309,476,3,2025-06-27T09:07:00Z,MRI,Rule out bleeding,pending,urgent
+A,310,477,5,2025-07-10T17:37:00Z,CT scan,Rule out bleeding,completed,urgent
+A,311,477,30,2025-07-09T17:48:00Z,Ultrasound,Rule out infection,completed,stat
+A,313,480,5,2025-08-20T21:03:00Z,Blood panel,Rule out ischemia,completed,routine
+A,314,480,20,2025-08-21T16:30:00Z,Chest X-ray,Rule out bleeding,completed,urgent
+A,315,481,40,2025-11-12T10:16:00Z,Blood panel,Rule out fracture,pending,urgent
+A,316,482,1,2024-07-13T06:29:00Z,Chest X-ray,Rule out infection,completed,stat
+A,317,482,2,2024-07-11T07:35:00Z,CT scan,Rule out obstruction,completed,urgent
+A,318,483,20,2023-09-04T21:41:00Z,MRI,Rule out infection,pending,stat
+A,319,483,25,2023-09-04T19:58:00Z,MRI,Rule out infection,completed,urgent
+A,320,486,10,2024-08-06T23:07:00Z,Blood panel,Rule out obstruction,completed,routine
+A,321,488,25,2025-12-07T12:19:00Z,Blood panel,Rule out obstruction,completed,routine
+A,322,488,35,2025-12-07T10:08:00Z,Blood panel,Rule out bleeding,pending,routine
+A,323,489,40,2023-07-15T05:18:00Z,Ultrasound,Rule out ischemia,completed,stat
+A,324,489,35,2023-07-15T01:44:00Z,Blood panel,Rule out bleeding,completed,routine
+A,325,490,20,2025-06-09T09:53:00Z,Chest X-ray,Rule out fracture,completed,urgent
+A,326,492,2,2024-11-13T19:30:00Z,Ultrasound,Rule out bleeding,pending,routine
+A,327,493,35,2025-02-13T03:40:00Z,MRI,Rule out bleeding,completed,urgent
+A,328,493,35,2025-02-13T19:38:00Z,ECG,Rule out ischemia,completed,urgent
+A,329,495,10,2024-10-12T10:23:00Z,Blood panel,Rule out ischemia,completed,urgent
+A,330,496,15,2024-12-12T02:14:00Z,Blood panel,Rule out obstruction,completed,routine
+A,331,497,35,2025-04-06T03:42:00Z,CT scan,Rule out bleeding,pending,urgent
+A,332,499,5,2024-07-09T18:03:00Z,ECG,Rule out ischemia,completed,urgent
+A,335,504,30,2024-11-03T16:14:00Z,Ultrasound,Rule out fracture,completed,urgent
+A,336,507,4,2025-04-17T15:24:00Z,Blood panel,Rule out bleeding,completed,stat
+A,337,508,3,2024-11-11T03:58:00Z,CT scan,Rule out bleeding,completed,urgent
+A,338,509,15,2025-04-16T15:07:00Z,ECG,Rule out infection,completed,routine
+A,339,510,30,2025-02-22T12:27:00Z,MRI,Rule out fracture,completed,urgent
+A,340,510,25,2025-02-22T08:54:00Z,Ultrasound,Rule out obstruction,completed,urgent
+A,341,512,40,2023-03-09T01:34:00Z,ECG,Rule out fracture,pending,stat
+A,342,512,25,2023-03-10T01:29:00Z,Ultrasound,Rule out ischemia,completed,urgent
+A,343,515,10,2024-10-02T21:24:00Z,ECG,Rule out bleeding,completed,routine
+A,344,516,10,2023-06-08T05:55:00Z,CT scan,Rule out infection,cancelled,stat
+A,345,520,20,2024-04-07T03:22:00Z,Ultrasound,Rule out bleeding,completed,routine
+A,346,520,35,2024-04-07T04:24:00Z,Ultrasound,Rule out bleeding,completed,routine
+A,347,522,4,2023-05-01T06:47:00Z,MRI,Rule out infection,completed,urgent
+A,348,522,15,2023-04-30T14:57:00Z,Chest X-ray,Rule out obstruction,completed,routine
+A,349,523,5,2024-03-03T01:30:00Z,CT scan,Rule out ischemia,in_progress,routine
+A,350,523,1,2024-03-03T00:18:00Z,ECG,Rule out ischemia,completed,urgent
+A,351,524,30,2024-12-01T04:35:00Z,MRI,Rule out bleeding,completed,stat
+A,352,524,25,2024-12-01T08:08:00Z,MRI,Rule out ischemia,in_progress,routine
+A,353,525,10,2025-07-29T18:03:00Z,Ultrasound,Rule out bleeding,completed,stat
+A,354,526,30,2024-10-27T10:38:00Z,CT scan,Rule out obstruction,completed,routine
+A,355,526,35,2024-10-27T09:19:00Z,ECG,Rule out fracture,completed,routine
+A,356,527,25,2025-02-12T18:41:00Z,CT scan,Rule out ischemia,completed,urgent
+A,357,528,2,2025-06-15T11:55:00Z,Blood panel,Rule out obstruction,completed,stat
+A,358,529,25,2026-03-30T03:45:00Z,Blood panel,Rule out infection,completed,routine
+A,359,532,20,2023-12-17T11:35:00Z,CT scan,Rule out fracture,pending,stat
+A,360,538,20,2025-07-06T12:01:00Z,Ultrasound,Rule out obstruction,cancelled,routine
+A,361,538,25,2025-07-06T18:15:00Z,Chest X-ray,Rule out bleeding,completed,routine
+A,362,540,2,2023-05-28T10:59:00Z,Blood panel,Rule out fracture,completed,stat
+A,363,541,4,2024-04-02T18:33:00Z,Chest X-ray,Rule out obstruction,in_progress,routine
+A,364,542,2,2024-02-09T15:51:00Z,MRI,Rule out bleeding,in_progress,routine
+A,365,544,2,2024-06-29T03:47:00Z,CT scan,Rule out infection,completed,stat
+A,366,544,40,2024-06-27T05:14:00Z,Blood panel,Rule out fracture,completed,routine
+A,367,545,25,2024-09-04T15:30:00Z,ECG,Rule out bleeding,completed,routine
+A,368,546,15,2024-07-12T02:01:00Z,MRI,Rule out bleeding,completed,routine
+A,369,550,30,2023-02-27T22:04:00Z,Chest X-ray,Rule out fracture,pending,routine
+A,370,552,10,2024-12-15T06:11:00Z,MRI,Rule out obstruction,completed,urgent
+A,371,552,30,2024-12-14T19:56:00Z,Blood panel,Rule out ischemia,cancelled,routine
+A,372,554,15,2024-01-16T01:22:00Z,MRI,Rule out infection,completed,routine
+A,374,560,35,2025-03-09T16:08:00Z,ECG,Rule out infection,completed,urgent
+A,375,563,15,2025-08-29T06:47:00Z,Ultrasound,Rule out obstruction,completed,urgent
+A,376,564,4,2026-02-26T04:23:00Z,Blood panel,Rule out ischemia,completed,routine
+A,377,567,35,2025-03-20T11:47:00Z,MRI,Rule out infection,pending,stat
+A,378,567,35,2025-03-21T02:00:00Z,MRI,Rule out ischemia,completed,urgent
+A,379,569,40,2023-11-22T10:57:00Z,Blood panel,Rule out fracture,completed,urgent
+A,380,571,20,2025-07-27T12:30:00Z,MRI,Rule out bleeding,cancelled,routine
+A,381,571,40,2025-07-26T20:38:00Z,ECG,Rule out obstruction,completed,routine
+A,382,572,30,2026-03-21T09:18:00Z,Ultrasound,Rule out bleeding,completed,urgent
+A,385,579,15,2024-02-14T15:06:00Z,Chest X-ray,Rule out infection,completed,routine
+A,386,579,10,2024-02-14T13:02:00Z,MRI,Rule out ischemia,completed,routine
+A,387,580,4,2024-10-14T16:02:00Z,Blood panel,Rule out bleeding,completed,routine
+A,388,581,5,2025-06-23T18:21:00Z,MRI,Rule out ischemia,completed,routine
+A,389,584,30,2025-05-28T18:51:00Z,ECG,Rule out fracture,completed,routine
+A,390,586,20,2025-11-16T16:43:00Z,Ultrasound,Rule out obstruction,completed,urgent
+A,391,587,20,2026-03-22T15:10:00Z,ECG,Rule out fracture,pending,routine
+A,392,587,15,2026-03-20T15:40:00Z,ECG,Rule out ischemia,cancelled,routine
+A,393,588,35,2024-01-21T15:09:00Z,Blood panel,Rule out infection,completed,urgent
+A,394,588,20,2024-01-21T15:35:00Z,Blood panel,Rule out obstruction,completed,routine
+A,395,590,30,2025-04-06T19:54:00Z,Ultrasound,Rule out obstruction,completed,routine
+A,396,590,20,2025-04-06T11:58:00Z,MRI,Rule out ischemia,in_progress,routine
+A,397,591,5,2025-07-03T16:48:00Z,Chest X-ray,Rule out ischemia,in_progress,routine
+A,398,594,35,2025-01-01T06:51:00Z,Blood panel,Rule out obstruction,in_progress,stat
+A,399,600,3,2024-10-31T03:18:00Z,ECG,Rule out fracture,in_progress,urgent
+A,400,600,2,2024-10-31T00:28:00Z,MRI,Rule out obstruction,completed,routine
+A,401,604,1,2025-06-13T14:25:00Z,ECG,Rule out infection,completed,routine
+A,402,606,5,2026-05-21T13:13:00Z,Ultrasound,Rule out infection,completed,routine
+A,403,608,1,2025-04-20T23:44:00Z,CT scan,Rule out obstruction,in_progress,routine
+A,404,610,25,2026-06-05T00:37:00Z,ECG,Rule out ischemia,completed,routine
+A,405,610,10,2026-06-05T02:51:00Z,Blood panel,Rule out fracture,completed,routine
+A,406,611,40,2023-07-01T06:31:00Z,MRI,Rule out infection,completed,urgent
+A,407,614,25,2023-03-10T02:37:00Z,MRI,Rule out ischemia,cancelled,urgent
+A,408,617,20,2024-09-15T17:41:00Z,Blood panel,Rule out ischemia,in_progress,routine
+A,409,618,2,2025-03-31T06:58:00Z,Chest X-ray,Rule out ischemia,cancelled,urgent
+A,411,621,40,2023-06-25T23:39:00Z,ECG,Rule out fracture,completed,stat
+A,412,622,1,2024-01-12T09:22:00Z,MRI,Rule out obstruction,in_progress,routine
+A,413,623,35,2024-05-01T12:51:00Z,Ultrasound,Rule out bleeding,completed,urgent
+A,414,624,15,2023-10-05T22:50:00Z,ECG,Rule out obstruction,completed,routine
+A,415,625,10,2024-01-03T23:03:00Z,Blood panel,Rule out infection,completed,urgent
+A,416,628,35,2025-04-06T06:21:00Z,Ultrasound,Rule out bleeding,cancelled,stat
+A,417,628,35,2025-04-07T10:10:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+A,418,629,3,2025-08-30T03:39:00Z,CT scan,Rule out ischemia,completed,routine
+A,419,629,5,2025-08-30T17:37:00Z,MRI,Rule out ischemia,in_progress,urgent
+A,420,630,15,2026-02-12T06:53:00Z,CT scan,Rule out ischemia,cancelled,routine
+A,421,632,40,2023-05-26T13:28:00Z,ECG,Rule out fracture,completed,urgent
+A,422,633,1,2024-02-11T14:05:00Z,MRI,Rule out infection,completed,routine
+A,423,634,10,2023-09-21T03:26:00Z,Blood panel,Rule out ischemia,pending,urgent
+A,424,636,2,2024-07-16T22:59:00Z,MRI,Rule out ischemia,completed,routine
+A,425,636,35,2024-07-16T21:41:00Z,Blood panel,Rule out bleeding,completed,routine
+A,429,639,25,2025-09-20T22:30:00Z,ECG,Rule out obstruction,cancelled,routine
+A,430,639,15,2025-09-20T22:12:00Z,Ultrasound,Rule out infection,completed,routine
+A,431,641,40,2026-07-11T01:00:00Z,Blood panel,Rule out bleeding,in_progress,urgent
+A,432,641,35,2026-07-10T11:41:00Z,Blood panel,Rule out bleeding,completed,routine
+A,433,642,15,2024-07-14T15:20:00Z,Blood panel,Rule out infection,completed,urgent
+A,434,642,20,2024-07-16T00:24:00Z,MRI,Rule out fracture,in_progress,urgent
+A,435,643,15,2024-07-07T20:41:00Z,MRI,Rule out infection,completed,urgent
+A,436,644,5,2023-10-08T22:03:00Z,MRI,Rule out infection,in_progress,routine
+A,437,646,20,2025-08-29T07:58:00Z,CT scan,Rule out infection,completed,routine
+A,438,647,40,2025-10-29T06:37:00Z,MRI,Rule out bleeding,completed,routine
+A,439,648,3,2024-03-11T05:11:00Z,CT scan,Rule out infection,completed,routine
+A,440,648,3,2024-03-10T20:26:00Z,Chest X-ray,Rule out obstruction,in_progress,routine
+A,441,649,3,2024-09-04T16:44:00Z,Chest X-ray,Rule out infection,completed,routine
+A,442,652,20,2024-01-19T16:05:00Z,Blood panel,Rule out infection,completed,urgent
+A,443,652,4,2024-01-20T02:26:00Z,ECG,Rule out ischemia,completed,routine
+A,444,653,20,2024-09-02T22:19:00Z,ECG,Rule out obstruction,in_progress,stat
+A,445,654,25,2025-01-23T01:09:00Z,Blood panel,Rule out bleeding,in_progress,routine
+A,446,656,15,2023-09-24T22:58:00Z,Ultrasound,Rule out bleeding,completed,urgent
+A,447,656,2,2023-09-25T04:31:00Z,Blood panel,Rule out fracture,completed,urgent
+A,448,658,10,2024-12-11T19:45:00Z,MRI,Rule out fracture,completed,urgent
+A,449,661,3,2024-05-22T02:10:00Z,Ultrasound,Rule out obstruction,cancelled,routine
+A,450,662,40,2024-07-09T02:26:00Z,Chest X-ray,Rule out bleeding,completed,stat
+A,451,662,20,2024-07-08T07:42:00Z,ECG,Rule out fracture,pending,routine
+A,452,665,20,2023-01-17T18:29:00Z,ECG,Rule out obstruction,cancelled,urgent
+A,453,665,25,2023-01-16T19:44:00Z,ECG,Rule out ischemia,completed,urgent
+A,454,668,15,2025-05-29T15:50:00Z,MRI,Rule out ischemia,completed,routine
+A,455,670,5,2026-06-20T12:02:00Z,CT scan,Rule out fracture,completed,urgent
+A,456,672,40,2023-01-08T14:15:00Z,MRI,Rule out bleeding,completed,urgent
+A,457,673,4,2024-02-08T08:13:00Z,MRI,Rule out infection,pending,routine
+A,458,674,40,2024-11-02T22:35:00Z,Chest X-ray,Rule out ischemia,pending,stat
+A,459,675,4,2025-08-22T17:36:00Z,MRI,Rule out obstruction,completed,routine
+A,460,676,10,2025-02-04T11:05:00Z,Ultrasound,Rule out bleeding,cancelled,routine
+A,461,676,25,2025-02-04T22:52:00Z,Ultrasound,Rule out obstruction,completed,stat
+A,462,677,3,2025-11-10T11:25:00Z,Chest X-ray,Rule out ischemia,completed,routine
+A,463,678,4,2024-03-13T06:28:00Z,Chest X-ray,Rule out ischemia,completed,routine
+A,464,679,15,2025-07-02T06:25:00Z,MRI,Rule out infection,completed,routine
+A,465,680,10,2026-02-06T08:09:00Z,Chest X-ray,Rule out obstruction,completed,routine
+A,466,681,25,2025-09-14T00:23:00Z,Chest X-ray,Rule out ischemia,completed,routine
+A,467,684,25,2025-06-01T19:10:00Z,Ultrasound,Rule out ischemia,completed,routine
+A,468,684,35,2025-06-02T10:16:00Z,ECG,Rule out obstruction,completed,routine
+A,469,685,1,2023-03-01T22:43:00Z,MRI,Rule out obstruction,completed,routine
+A,470,686,2,2025-05-08T13:49:00Z,Chest X-ray,Rule out obstruction,completed,routine
+A,471,686,25,2025-05-09T02:50:00Z,Ultrasound,Rule out infection,completed,urgent
+A,472,687,30,2026-02-13T19:12:00Z,CT scan,Rule out ischemia,in_progress,stat
+A,473,688,35,2023-05-02T16:51:00Z,Blood panel,Rule out obstruction,completed,urgent
+A,474,689,10,2024-01-17T12:52:00Z,MRI,Rule out fracture,cancelled,urgent
+A,475,689,4,2024-01-16T00:37:00Z,Blood panel,Rule out fracture,completed,routine
+A,476,691,30,2024-10-31T10:22:00Z,Ultrasound,Rule out bleeding,in_progress,routine
+A,477,691,10,2024-10-31T10:06:00Z,Ultrasound,Rule out fracture,completed,urgent
+A,478,692,35,2025-03-16T08:54:00Z,MRI,Rule out ischemia,completed,urgent
+A,479,693,3,2025-10-10T01:34:00Z,Blood panel,Rule out fracture,completed,routine
+A,480,697,25,2025-07-12T07:46:00Z,Chest X-ray,Rule out ischemia,pending,stat
+A,481,698,35,2024-05-14T01:34:00Z,Blood panel,Rule out ischemia,completed,routine
+A,482,699,40,2023-02-11T04:14:00Z,ECG,Rule out fracture,completed,routine
+A,483,702,5,2024-04-20T01:45:00Z,MRI,Rule out obstruction,completed,urgent
+A,484,705,20,2023-10-26T08:08:00Z,MRI,Rule out bleeding,completed,stat
+A,485,708,15,2025-09-10T13:20:00Z,ECG,Rule out fracture,cancelled,routine
+A,486,708,2,2025-09-10T05:14:00Z,Chest X-ray,Rule out bleeding,completed,routine
+A,487,709,40,2023-12-21T17:22:00Z,Blood panel,Rule out infection,completed,routine
+A,488,712,5,2023-09-17T19:27:00Z,CT scan,Rule out fracture,completed,urgent
+A,489,715,15,2023-08-17T16:26:00Z,Chest X-ray,Rule out ischemia,pending,urgent
+A,490,715,4,2023-08-18T01:31:00Z,CT scan,Rule out ischemia,in_progress,urgent
+A,491,717,10,2025-02-04T22:22:00Z,ECG,Rule out bleeding,pending,urgent
+A,492,718,15,2025-11-22T05:18:00Z,CT scan,Rule out obstruction,completed,routine
+A,493,720,5,2023-11-05T15:55:00Z,Chest X-ray,Rule out fracture,completed,stat
+A,494,720,25,2023-11-05T15:11:00Z,Ultrasound,Rule out infection,completed,urgent
+A,495,721,10,2025-04-21T19:56:00Z,MRI,Rule out infection,completed,routine
+A,496,723,4,2025-07-27T23:21:00Z,MRI,Rule out bleeding,completed,routine
+A,497,724,1,2025-07-16T09:37:00Z,Chest X-ray,Rule out bleeding,pending,routine
+A,498,725,3,2025-02-18T16:13:00Z,Chest X-ray,Rule out bleeding,completed,routine
+A,499,727,4,2026-01-26T13:16:00Z,Blood panel,Rule out ischemia,in_progress,urgent
+A,500,727,25,2026-01-26T04:58:00Z,CT scan,Rule out obstruction,completed,routine
+A,501,729,40,2026-10-25T23:32:00Z,Ultrasound,Rule out obstruction,pending,stat
+A,502,730,40,2023-08-18T06:08:00Z,ECG,Rule out ischemia,completed,routine
+A,503,731,3,2024-01-07T13:49:00Z,Chest X-ray,Rule out obstruction,completed,routine
+A,504,732,1,2024-08-24T02:10:00Z,ECG,Rule out fracture,completed,stat
+A,505,732,2,2024-08-23T03:05:00Z,Blood panel,Rule out infection,completed,urgent
+A,506,736,20,2025-09-24T20:50:00Z,ECG,Rule out infection,completed,urgent
+A,507,738,40,2025-07-22T17:11:00Z,Ultrasound,Rule out ischemia,completed,routine
+A,508,739,15,2023-05-30T06:25:00Z,ECG,Rule out infection,completed,routine
+A,509,740,30,2024-06-01T23:11:00Z,CT scan,Rule out ischemia,completed,urgent
+A,510,742,15,2023-03-16T23:00:00Z,CT scan,Rule out obstruction,completed,routine
+A,511,742,15,2023-03-17T08:22:00Z,MRI,Rule out ischemia,cancelled,routine
+A,512,748,1,2025-05-09T22:29:00Z,CT scan,Rule out obstruction,completed,urgent
+A,513,750,15,2023-07-20T06:53:00Z,ECG,Rule out fracture,completed,routine
+A,514,750,5,2023-07-19T21:59:00Z,CT scan,Rule out fracture,completed,stat
+A,515,752,25,2023-06-14T03:24:00Z,Chest X-ray,Rule out infection,completed,routine
+A,516,753,30,2024-02-29T15:10:00Z,MRI,Rule out ischemia,completed,routine
+A,517,753,20,2024-02-29T14:12:00Z,ECG,Rule out bleeding,completed,routine
+A,518,756,2,2025-08-04T03:02:00Z,MRI,Rule out ischemia,pending,routine
+A,519,756,40,2025-08-02T06:13:00Z,Blood panel,Rule out infection,pending,stat
+A,520,758,40,2026-07-16T22:52:00Z,MRI,Rule out obstruction,completed,routine
+A,521,761,3,2024-04-17T12:53:00Z,Ultrasound,Rule out fracture,completed,routine
+A,522,761,5,2024-04-17T09:16:00Z,Ultrasound,Rule out ischemia,pending,stat
+A,523,763,25,2026-06-09T15:50:00Z,CT scan,Rule out ischemia,completed,routine
+A,524,763,4,2026-06-12T01:49:00Z,MRI,Rule out infection,completed,routine
+A,525,768,2,2023-06-18T16:06:00Z,MRI,Rule out obstruction,cancelled,routine
+A,526,768,3,2023-06-17T14:29:00Z,CT scan,Rule out ischemia,in_progress,routine
+A,527,769,3,2023-09-13T02:27:00Z,Blood panel,Rule out fracture,completed,routine
+A,528,770,30,2024-01-01T14:24:00Z,Chest X-ray,Rule out obstruction,completed,urgent
+A,529,773,30,2024-06-10T08:05:00Z,CT scan,Rule out fracture,completed,routine
+A,530,773,4,2024-06-09T18:03:00Z,MRI,Rule out fracture,completed,routine
+A,531,776,20,2024-12-08T19:25:00Z,ECG,Rule out fracture,pending,routine
+A,532,777,3,2025-01-16T14:08:00Z,MRI,Rule out ischemia,completed,urgent
+A,533,777,2,2025-01-16T08:49:00Z,Ultrasound,Rule out ischemia,completed,stat
+A,534,786,20,2025-07-20T08:30:00Z,Chest X-ray,Rule out bleeding,pending,stat
+A,535,788,15,2023-10-11T11:13:00Z,ECG,Rule out fracture,completed,routine
+A,536,789,15,2023-12-24T15:45:00Z,CT scan,Rule out bleeding,in_progress,routine
+A,537,790,1,2024-10-04T01:09:00Z,CT scan,Rule out ischemia,completed,routine
+A,538,791,2,2025-05-13T02:08:00Z,Chest X-ray,Rule out infection,completed,routine
+A,539,791,3,2025-05-11T17:39:00Z,Chest X-ray,Rule out infection,completed,routine
+A,540,795,20,2023-04-24T11:37:00Z,MRI,Rule out obstruction,pending,stat
+A,541,798,10,2026-07-10T18:54:00Z,CT scan,Rule out fracture,completed,routine
+A,542,800,10,2024-12-21T00:32:00Z,Chest X-ray,Rule out ischemia,in_progress,urgent
+A,543,803,25,2024-12-08T17:14:00Z,CT scan,Rule out ischemia,completed,routine
+A,544,805,1,2023-08-10T20:58:00Z,Blood panel,Rule out bleeding,pending,routine
+A,545,807,25,2024-08-06T05:44:00Z,MRI,Rule out obstruction,completed,routine
+A,546,807,1,2024-08-06T20:06:00Z,CT scan,Rule out obstruction,cancelled,stat
+A,547,809,3,2023-03-17T08:30:00Z,MRI,Rule out infection,completed,routine
+A,548,809,4,2023-03-17T08:22:00Z,MRI,Rule out ischemia,completed,urgent
+A,549,810,1,2023-04-20T08:30:00Z,Blood panel,Rule out obstruction,completed,routine
+A,550,811,1,2024-01-03T03:00:00Z,ECG,Rule out obstruction,pending,urgent
+A,551,812,3,2024-05-11T17:44:00Z,Ultrasound,Rule out infection,completed,urgent
+A,552,812,2,2024-05-12T19:37:00Z,Chest X-ray,Rule out ischemia,completed,routine
+A,553,813,35,2024-12-23T09:24:00Z,CT scan,Rule out fracture,completed,routine
+A,554,814,2,2025-08-30T02:52:00Z,Blood panel,Rule out bleeding,completed,urgent
+A,555,816,10,2023-06-24T15:15:00Z,CT scan,Rule out obstruction,completed,urgent
+A,556,816,4,2023-06-24T14:28:00Z,ECG,Rule out ischemia,completed,urgent
+A,557,817,40,2023-12-16T04:27:00Z,Ultrasound,Rule out obstruction,completed,routine
+A,558,819,30,2024-12-09T14:21:00Z,ECG,Rule out obstruction,in_progress,routine
+A,559,820,10,2025-02-17T05:06:00Z,Ultrasound,Rule out infection,completed,routine
+A,560,822,3,2024-10-04T01:51:00Z,CT scan,Rule out fracture,completed,routine
+A,561,824,25,2023-04-03T23:10:00Z,ECG,Rule out obstruction,completed,routine
+A,562,828,4,2025-05-19T11:21:00Z,Blood panel,Rule out infection,pending,urgent
+A,563,831,10,2024-04-05T12:47:00Z,MRI,Rule out infection,completed,routine
+A,564,834,15,2024-09-04T13:34:00Z,ECG,Rule out infection,completed,routine
+A,565,835,20,2025-04-10T03:12:00Z,MRI,Rule out infection,completed,routine
+A,566,836,25,2026-01-21T06:24:00Z,Ultrasound,Rule out fracture,completed,stat
+A,567,838,40,2023-01-09T08:49:00Z,Ultrasound,Rule out infection,completed,routine
+A,568,839,35,2023-04-14T15:07:00Z,Chest X-ray,Rule out obstruction,cancelled,routine
+A,569,840,10,2024-04-20T09:19:00Z,CT scan,Rule out bleeding,completed,urgent
+A,570,841,25,2024-07-24T05:13:00Z,MRI,Rule out ischemia,in_progress,routine
+A,571,841,20,2024-07-23T01:10:00Z,CT scan,Rule out infection,cancelled,routine
+A,572,844,10,2024-12-15T12:42:00Z,Blood panel,Rule out bleeding,completed,routine
+A,573,844,35,2024-12-16T23:21:00Z,Chest X-ray,Rule out obstruction,completed,routine
+A,575,849,15,2023-03-05T04:26:00Z,CT scan,Rule out fracture,completed,routine
+A,576,850,10,2023-05-27T18:47:00Z,Ultrasound,Rule out ischemia,completed,routine
+A,577,853,30,2024-03-09T03:06:00Z,CT scan,Rule out infection,pending,stat
+A,578,853,2,2024-03-09T01:27:00Z,Chest X-ray,Rule out obstruction,completed,urgent
+A,579,858,35,2023-10-21T16:36:00Z,MRI,Rule out fracture,completed,routine
+A,580,861,35,2023-10-24T03:39:00Z,Blood panel,Rule out bleeding,completed,urgent
+A,581,865,20,2023-12-22T19:58:00Z,CT scan,Rule out infection,completed,urgent
+A,582,866,3,2023-03-10T03:48:00Z,Ultrasound,Rule out fracture,completed,routine
+A,583,866,3,2023-03-09T20:20:00Z,Blood panel,Rule out ischemia,completed,routine
+A,584,868,4,2023-07-04T10:55:00Z,MRI,Rule out bleeding,cancelled,routine
+A,585,872,1,2025-11-19T08:35:00Z,ECG,Rule out ischemia,completed,routine
+A,586,873,15,2026-02-03T04:31:00Z,MRI,Rule out infection,in_progress,routine
+A,587,875,1,2023-03-11T23:26:00Z,Blood panel,Rule out obstruction,completed,routine
+A,588,875,15,2023-03-10T22:14:00Z,MRI,Rule out bleeding,completed,stat
+A,589,876,3,2023-06-16T16:20:00Z,Chest X-ray,Rule out bleeding,completed,routine
+A,590,876,4,2023-06-17T12:53:00Z,Blood panel,Rule out infection,completed,routine
+A,591,881,1,2025-04-01T09:12:00Z,CT scan,Rule out fracture,completed,routine
+A,592,882,10,2024-07-11T09:39:00Z,Ultrasound,Rule out infection,completed,routine
+A,594,887,3,2025-07-12T16:45:00Z,Ultrasound,Rule out ischemia,completed,routine
+A,595,887,15,2025-07-11T19:11:00Z,ECG,Rule out fracture,completed,urgent
+A,596,888,1,2025-12-28T13:26:00Z,ECG,Rule out obstruction,completed,routine
+A,597,891,20,2025-04-07T13:41:00Z,Chest X-ray,Rule out bleeding,completed,routine
+A,598,893,40,2025-08-31T11:27:00Z,Chest X-ray,Rule out fracture,cancelled,routine
+A,599,893,30,2025-08-31T11:29:00Z,ECG,Rule out ischemia,completed,urgent
+A,600,895,20,2025-08-20T19:21:00Z,CT scan,Rule out infection,completed,routine
+A,601,895,20,2025-08-20T09:29:00Z,Ultrasound,Rule out infection,completed,urgent
+B,1,1,30,2023-11-03T18:08:00Z,Chest X-ray,Rule out ischemia,in_progress,routine
+B,2,3,4,2025-07-25T00:33:00Z,CT scan,Rule out obstruction,completed,routine
+B,3,4,1,2026-02-15T03:15:00Z,CT scan,Rule out fracture,pending,routine
+B,4,4,4,2026-02-16T12:30:00Z,ECG,Rule out bleeding,in_progress,stat
+B,5,5,4,2026-09-19T03:33:00Z,MRI,Rule out bleeding,completed,routine
+B,6,5,4,2026-09-20T09:48:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,7,6,30,2023-09-27T03:13:00Z,CT scan,Rule out obstruction,completed,routine
+B,8,8,15,2024-08-12T15:46:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,9,9,30,2025-09-13T10:51:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,10,9,30,2025-09-13T06:24:00Z,MRI,Rule out bleeding,completed,urgent
+B,11,10,1,2025-04-27T01:57:00Z,Chest X-ray,Rule out obstruction,completed,routine
+B,12,12,1,2026-03-26T09:10:00Z,Chest X-ray,Rule out fracture,pending,routine
+B,13,13,10,2023-11-11T10:28:00Z,ECG,Rule out infection,completed,routine
+B,14,13,15,2023-11-09T17:09:00Z,Ultrasound,Rule out fracture,completed,stat
+B,15,20,15,2023-05-16T03:21:00Z,ECG,Rule out fracture,completed,routine
+B,16,22,25,2024-11-14T17:19:00Z,Blood panel,Rule out ischemia,completed,urgent
+B,17,22,30,2024-11-14T04:18:00Z,MRI,Rule out obstruction,completed,routine
+B,18,26,30,2023-12-31T11:31:00Z,ECG,Rule out infection,pending,routine
+B,19,26,15,2023-12-29T04:48:00Z,Ultrasound,Rule out fracture,completed,urgent
+B,20,27,15,2024-10-26T20:21:00Z,Ultrasound,Rule out fracture,completed,urgent
+B,23,30,35,2024-02-13T15:46:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,24,32,1,2024-03-21T10:49:00Z,MRI,Rule out fracture,in_progress,urgent
+B,25,33,5,2024-08-15T00:04:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,26,35,5,2024-03-22T01:43:00Z,ECG,Rule out ischemia,in_progress,routine
+B,27,35,25,2024-03-22T02:17:00Z,CT scan,Rule out bleeding,completed,routine
+B,28,36,10,2024-05-26T06:04:00Z,Chest X-ray,Rule out bleeding,pending,routine
+B,29,37,10,2024-03-01T15:09:00Z,MRI,Rule out fracture,completed,routine
+B,30,38,40,2024-12-29T21:00:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,31,38,35,2024-12-30T13:41:00Z,Blood panel,Rule out infection,completed,routine
+B,32,39,30,2025-05-01T11:01:00Z,Blood panel,Rule out ischemia,completed,stat
+B,33,42,15,2025-06-21T10:51:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,34,42,15,2025-06-21T01:22:00Z,Ultrasound,Rule out infection,completed,routine
+B,35,43,25,2024-03-23T09:01:00Z,CT scan,Rule out infection,completed,routine
+B,36,45,20,2024-11-26T23:18:00Z,ECG,Rule out fracture,in_progress,urgent
+B,37,45,15,2024-11-27T03:20:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,38,49,30,2026-01-25T17:53:00Z,MRI,Rule out fracture,completed,urgent
+B,39,50,10,2024-10-12T19:45:00Z,CT scan,Rule out ischemia,completed,stat
+B,40,50,30,2024-10-11T12:46:00Z,MRI,Rule out bleeding,cancelled,stat
+B,41,51,5,2024-08-13T18:33:00Z,Blood panel,Rule out obstruction,completed,urgent
+B,42,53,30,2023-04-27T20:55:00Z,ECG,Rule out infection,in_progress,stat
+B,43,58,4,2023-05-17T00:55:00Z,Blood panel,Rule out bleeding,completed,routine
+B,44,61,10,2025-01-04T19:02:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,45,61,3,2025-01-04T02:48:00Z,ECG,Rule out fracture,in_progress,routine
+B,46,62,1,2023-04-08T17:19:00Z,ECG,Rule out infection,completed,routine
+B,49,65,1,2023-08-13T08:36:00Z,Ultrasound,Rule out obstruction,completed,urgent
+B,50,65,15,2023-08-13T08:45:00Z,CT scan,Rule out ischemia,completed,urgent
+B,51,66,3,2023-10-20T03:15:00Z,ECG,Rule out bleeding,completed,urgent
+B,52,66,40,2023-10-21T10:25:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,53,67,2,2024-06-13T06:44:00Z,MRI,Rule out bleeding,pending,routine
+B,54,67,15,2024-06-12T09:26:00Z,Ultrasound,Rule out fracture,completed,routine
+B,55,68,25,2025-03-14T09:33:00Z,CT scan,Rule out obstruction,completed,routine
+B,56,69,40,2024-12-13T15:18:00Z,ECG,Rule out obstruction,completed,urgent
+B,57,71,35,2025-06-11T07:42:00Z,ECG,Rule out infection,completed,routine
+B,58,72,3,2025-05-05T15:59:00Z,Blood panel,Rule out infection,pending,routine
+B,59,76,5,2023-10-14T03:57:00Z,Chest X-ray,Rule out fracture,completed,routine
+B,60,77,35,2024-04-03T11:50:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,61,77,40,2024-04-03T08:52:00Z,CT scan,Rule out infection,completed,routine
+B,62,78,10,2024-08-18T19:40:00Z,ECG,Rule out obstruction,completed,routine
+B,63,78,20,2024-08-18T09:15:00Z,Chest X-ray,Rule out obstruction,completed,routine
+B,64,79,2,2023-05-31T09:58:00Z,Chest X-ray,Rule out obstruction,completed,urgent
+B,65,80,40,2024-11-02T12:20:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,66,80,40,2024-11-03T21:00:00Z,MRI,Rule out bleeding,in_progress,urgent
+B,67,83,2,2026-01-04T19:51:00Z,ECG,Rule out infection,cancelled,urgent
+B,68,84,5,2025-07-02T12:20:00Z,MRI,Rule out fracture,completed,routine
+B,69,85,1,2024-04-13T09:32:00Z,Blood panel,Rule out fracture,completed,urgent
+B,70,85,3,2024-04-15T16:50:00Z,CT scan,Rule out obstruction,completed,stat
+B,72,89,3,2024-06-19T22:50:00Z,Chest X-ray,Rule out fracture,completed,urgent
+B,73,89,20,2024-06-19T18:50:00Z,Blood panel,Rule out obstruction,completed,routine
+B,74,91,20,2024-01-01T08:21:00Z,Chest X-ray,Rule out obstruction,completed,routine
+B,75,92,35,2024-03-02T17:58:00Z,Blood panel,Rule out fracture,completed,urgent
+B,76,93,1,2025-01-14T23:43:00Z,Ultrasound,Rule out obstruction,completed,urgent
+B,77,94,3,2025-03-25T16:25:00Z,CT scan,Rule out ischemia,completed,stat
+B,79,99,3,2024-01-14T07:12:00Z,ECG,Rule out fracture,completed,routine
+B,80,99,30,2024-01-14T06:51:00Z,MRI,Rule out infection,completed,routine
+B,81,101,20,2024-11-12T06:19:00Z,CT scan,Rule out bleeding,completed,urgent
+B,82,102,15,2024-04-08T21:52:00Z,Blood panel,Rule out obstruction,completed,routine
+B,83,103,35,2024-12-26T14:33:00Z,ECG,Rule out bleeding,completed,routine
+B,84,104,1,2025-05-12T21:06:00Z,CT scan,Rule out infection,in_progress,routine
+B,85,105,20,2023-07-29T10:16:00Z,MRI,Rule out fracture,cancelled,stat
+B,88,108,35,2024-03-25T18:58:00Z,CT scan,Rule out obstruction,completed,routine
+B,89,108,3,2024-03-26T01:17:00Z,MRI,Rule out bleeding,pending,routine
+B,90,109,25,2024-12-11T15:04:00Z,ECG,Rule out ischemia,completed,urgent
+B,91,110,3,2025-05-04T23:18:00Z,ECG,Rule out infection,completed,urgent
+B,92,111,30,2025-01-07T03:36:00Z,MRI,Rule out fracture,completed,stat
+B,93,112,4,2025-06-15T00:51:00Z,Chest X-ray,Rule out obstruction,cancelled,stat
+B,94,113,20,2026-04-09T03:15:00Z,ECG,Rule out obstruction,completed,routine
+B,95,113,15,2026-04-10T15:02:00Z,CT scan,Rule out infection,cancelled,routine
+B,96,115,1,2026-08-31T03:15:00Z,Ultrasound,Rule out obstruction,completed,urgent
+B,97,115,20,2026-08-31T09:19:00Z,ECG,Rule out infection,completed,urgent
+B,98,117,3,2026-02-04T00:11:00Z,ECG,Rule out bleeding,completed,urgent
+B,99,120,25,2025-07-08T10:09:00Z,MRI,Rule out infection,completed,urgent
+B,100,120,20,2025-07-08T13:27:00Z,Chest X-ray,Rule out ischemia,pending,urgent
+B,101,121,3,2026-03-12T06:00:00Z,ECG,Rule out bleeding,cancelled,urgent
+B,102,122,5,2023-06-11T07:13:00Z,Chest X-ray,Rule out bleeding,completed,urgent
+B,103,123,30,2024-02-10T21:01:00Z,Ultrasound,Rule out ischemia,completed,urgent
+B,104,128,5,2023-08-02T03:30:00Z,ECG,Rule out obstruction,completed,urgent
+B,105,129,40,2025-08-01T02:20:00Z,CT scan,Rule out infection,in_progress,routine
+B,106,129,25,2025-07-30T19:12:00Z,ECG,Rule out bleeding,completed,routine
+B,107,130,30,2026-03-10T02:51:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,108,131,3,2026-05-06T22:32:00Z,MRI,Rule out bleeding,completed,urgent
+B,109,133,1,2024-04-06T15:35:00Z,Blood panel,Rule out ischemia,completed,routine
+B,110,133,4,2024-04-06T00:27:00Z,Chest X-ray,Rule out infection,in_progress,routine
+B,111,134,2,2023-08-17T08:10:00Z,Ultrasound,Rule out fracture,completed,routine
+B,112,134,4,2023-08-17T09:23:00Z,Blood panel,Rule out infection,completed,urgent
+B,113,135,4,2023-12-30T15:01:00Z,ECG,Rule out ischemia,completed,routine
+B,116,137,1,2023-02-22T16:29:00Z,MRI,Rule out infection,completed,urgent
+B,117,140,35,2023-04-22T14:11:00Z,ECG,Rule out bleeding,completed,stat
+B,118,144,40,2024-10-26T10:59:00Z,CT scan,Rule out ischemia,completed,routine
+B,119,145,4,2023-07-31T13:17:00Z,CT scan,Rule out ischemia,pending,routine
+B,120,146,5,2023-10-09T16:13:00Z,Blood panel,Rule out infection,completed,routine
+B,121,147,4,2024-04-13T17:42:00Z,Blood panel,Rule out fracture,completed,urgent
+B,122,147,20,2024-04-15T12:03:00Z,Ultrasound,Rule out fracture,completed,urgent
+B,124,154,30,2025-07-29T16:55:00Z,Blood panel,Rule out fracture,pending,stat
+B,125,155,40,2024-07-30T01:23:00Z,ECG,Rule out fracture,completed,urgent
+B,126,156,15,2025-07-20T08:54:00Z,CT scan,Rule out infection,completed,urgent
+B,128,158,2,2024-08-15T12:20:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,129,159,10,2025-04-14T23:36:00Z,ECG,Rule out ischemia,completed,routine
+B,130,160,1,2025-06-24T12:59:00Z,Ultrasound,Rule out bleeding,completed,routine
+B,131,161,3,2025-02-17T05:20:00Z,MRI,Rule out bleeding,completed,routine
+B,132,165,35,2025-03-03T20:08:00Z,ECG,Rule out fracture,completed,routine
+B,133,165,10,2025-03-05T02:35:00Z,Blood panel,Rule out ischemia,completed,routine
+B,134,166,10,2025-10-31T13:16:00Z,Chest X-ray,Rule out obstruction,completed,stat
+B,135,167,2,2026-02-09T10:33:00Z,Chest X-ray,Rule out ischemia,cancelled,urgent
+B,136,167,2,2026-02-09T08:23:00Z,CT scan,Rule out infection,completed,routine
+B,137,168,10,2026-08-31T01:18:00Z,ECG,Rule out fracture,completed,urgent
+B,138,169,40,2023-04-20T18:21:00Z,CT scan,Rule out fracture,completed,routine
+B,139,172,1,2024-12-13T23:54:00Z,CT scan,Rule out ischemia,completed,routine
+B,140,173,20,2025-03-20T01:08:00Z,Chest X-ray,Rule out obstruction,cancelled,routine
+B,141,174,20,2024-07-14T07:46:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,142,177,3,2026-01-14T02:29:00Z,Chest X-ray,Rule out bleeding,cancelled,stat
+B,143,178,30,2024-12-13T16:40:00Z,ECG,Rule out obstruction,completed,stat
+B,144,179,40,2023-09-12T15:30:00Z,ECG,Rule out fracture,completed,routine
+B,145,183,2,2025-03-08T19:44:00Z,MRI,Rule out fracture,completed,urgent
+B,146,184,5,2023-07-21T09:01:00Z,Chest X-ray,Rule out infection,completed,routine
+B,147,186,35,2024-09-14T15:41:00Z,CT scan,Rule out infection,completed,stat
+B,148,188,3,2023-11-01T03:42:00Z,MRI,Rule out obstruction,completed,routine
+B,149,190,2,2024-06-21T02:45:00Z,Chest X-ray,Rule out ischemia,completed,stat
+B,150,193,30,2023-08-28T15:22:00Z,Ultrasound,Rule out infection,in_progress,routine
+B,151,193,2,2023-08-28T15:49:00Z,Chest X-ray,Rule out fracture,completed,urgent
+B,152,195,5,2025-01-30T11:48:00Z,ECG,Rule out ischemia,completed,urgent
+B,153,199,40,2025-06-05T04:46:00Z,Ultrasound,Rule out bleeding,completed,urgent
+B,154,200,35,2026-01-10T18:26:00Z,MRI,Rule out infection,in_progress,stat
+B,155,201,35,2026-02-23T18:52:00Z,ECG,Rule out ischemia,in_progress,routine
+B,156,203,1,2024-02-09T13:15:00Z,Blood panel,Rule out bleeding,completed,stat
+B,157,203,2,2024-02-10T16:55:00Z,Blood panel,Rule out ischemia,pending,routine
+B,158,204,1,2024-06-22T00:58:00Z,Ultrasound,Rule out ischemia,completed,urgent
+B,159,204,10,2024-06-21T13:00:00Z,Ultrasound,Rule out infection,completed,routine
+B,160,206,5,2025-01-28T20:33:00Z,ECG,Rule out infection,completed,routine
+B,161,206,1,2025-01-26T14:43:00Z,MRI,Rule out ischemia,completed,routine
+B,162,207,2,2023-12-13T23:29:00Z,ECG,Rule out bleeding,completed,routine
+B,163,208,5,2024-09-12T15:55:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,164,209,30,2023-01-11T17:36:00Z,Chest X-ray,Rule out infection,completed,urgent
+B,165,209,25,2023-01-11T14:52:00Z,Blood panel,Rule out infection,completed,urgent
+B,166,210,2,2023-08-21T07:42:00Z,Ultrasound,Rule out infection,cancelled,stat
+B,167,211,35,2024-08-07T10:12:00Z,ECG,Rule out infection,completed,stat
+B,168,212,10,2024-12-14T12:52:00Z,Chest X-ray,Rule out infection,cancelled,stat
+B,169,214,3,2025-12-27T15:33:00Z,Blood panel,Rule out infection,completed,routine
+B,170,215,40,2023-08-24T00:32:00Z,ECG,Rule out obstruction,completed,urgent
+B,171,215,20,2023-08-23T16:03:00Z,ECG,Rule out obstruction,completed,stat
+B,172,216,15,2023-01-23T16:01:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,173,216,30,2023-01-23T15:58:00Z,Ultrasound,Rule out infection,completed,stat
+B,174,217,25,2023-12-13T04:11:00Z,CT scan,Rule out bleeding,completed,urgent
+B,175,217,20,2023-12-13T05:34:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,176,220,40,2025-07-23T11:24:00Z,MRI,Rule out obstruction,completed,routine
+B,179,224,25,2025-10-07T21:33:00Z,Chest X-ray,Rule out fracture,completed,routine
+B,180,225,5,2026-07-24T09:44:00Z,Chest X-ray,Rule out obstruction,completed,routine
+B,181,230,2,2026-01-03T13:08:00Z,Ultrasound,Rule out bleeding,completed,routine
+B,182,230,20,2026-01-04T01:55:00Z,CT scan,Rule out obstruction,in_progress,routine
+B,183,232,5,2025-10-19T17:08:00Z,Blood panel,Rule out infection,completed,urgent
+B,184,233,30,2026-04-10T11:43:00Z,MRI,Rule out bleeding,completed,routine
+B,185,235,1,2023-10-18T15:23:00Z,ECG,Rule out bleeding,completed,urgent
+B,186,237,25,2023-08-26T22:21:00Z,Blood panel,Rule out obstruction,completed,urgent
+B,187,239,2,2023-06-15T17:08:00Z,CT scan,Rule out bleeding,cancelled,urgent
+B,188,240,4,2025-05-19T01:08:00Z,MRI,Rule out fracture,completed,routine
+B,189,240,15,2025-05-17T22:28:00Z,Ultrasound,Rule out infection,completed,urgent
+B,190,241,1,2025-07-04T23:28:00Z,CT scan,Rule out infection,completed,routine
+B,191,242,15,2023-11-10T11:59:00Z,MRI,Rule out infection,cancelled,urgent
+B,193,245,30,2024-10-09T15:21:00Z,Ultrasound,Rule out infection,pending,urgent
+B,194,246,20,2025-03-16T00:44:00Z,ECG,Rule out bleeding,pending,routine
+B,195,248,25,2023-01-14T13:12:00Z,MRI,Rule out infection,cancelled,stat
+B,196,252,5,2024-07-02T20:26:00Z,MRI,Rule out ischemia,completed,stat
+B,197,254,15,2024-06-01T14:59:00Z,CT scan,Rule out bleeding,in_progress,routine
+B,198,257,5,2024-08-11T17:33:00Z,Chest X-ray,Rule out infection,completed,stat
+B,199,257,25,2024-08-11T15:22:00Z,Blood panel,Rule out fracture,completed,urgent
+B,200,258,5,2024-12-12T07:41:00Z,Ultrasound,Rule out bleeding,completed,stat
+B,201,262,25,2025-09-15T11:25:00Z,MRI,Rule out bleeding,in_progress,routine
+B,202,262,1,2025-09-16T14:44:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,203,263,25,2023-03-08T05:08:00Z,Chest X-ray,Rule out infection,completed,urgent
+B,204,264,40,2023-06-27T04:39:00Z,ECG,Rule out fracture,completed,routine
+B,205,267,20,2023-11-13T05:49:00Z,Ultrasound,Rule out ischemia,cancelled,routine
+B,206,267,1,2023-11-13T22:24:00Z,Ultrasound,Rule out infection,completed,urgent
+B,207,268,40,2024-02-04T18:38:00Z,Chest X-ray,Rule out fracture,completed,routine
+B,208,271,4,2024-12-02T07:09:00Z,MRI,Rule out ischemia,completed,stat
+B,209,274,2,2024-11-07T14:27:00Z,Chest X-ray,Rule out bleeding,completed,urgent
+B,210,274,15,2024-11-07T12:46:00Z,Blood panel,Rule out obstruction,completed,routine
+B,211,276,2,2025-05-17T14:39:00Z,MRI,Rule out obstruction,pending,urgent
+B,212,277,25,2024-09-21T12:40:00Z,Blood panel,Rule out bleeding,completed,routine
+B,213,279,40,2025-11-15T23:34:00Z,ECG,Rule out fracture,completed,urgent
+B,214,280,40,2026-03-02T08:21:00Z,Blood panel,Rule out infection,in_progress,urgent
+B,215,282,1,2024-09-09T20:06:00Z,MRI,Rule out fracture,completed,routine
+B,218,285,5,2024-04-25T09:50:00Z,Ultrasound,Rule out ischemia,completed,stat
+B,219,286,3,2024-07-18T09:37:00Z,Chest X-ray,Rule out obstruction,completed,stat
+B,220,287,2,2024-11-20T04:01:00Z,Blood panel,Rule out ischemia,completed,urgent
+B,221,287,3,2024-11-20T00:11:00Z,Ultrasound,Rule out bleeding,completed,urgent
+B,222,288,3,2024-01-18T14:40:00Z,Chest X-ray,Rule out infection,completed,routine
+B,223,289,40,2024-11-01T19:26:00Z,ECG,Rule out obstruction,in_progress,stat
+B,224,290,20,2024-06-16T14:12:00Z,CT scan,Rule out fracture,completed,urgent
+B,225,290,5,2024-06-16T06:12:00Z,Blood panel,Rule out bleeding,completed,routine
+B,226,292,1,2025-06-11T12:03:00Z,Blood panel,Rule out fracture,completed,routine
+B,227,292,30,2025-06-10T07:58:00Z,ECG,Rule out ischemia,completed,routine
+B,232,297,35,2024-02-04T17:48:00Z,Chest X-ray,Rule out obstruction,completed,urgent
+B,233,298,35,2024-08-08T12:02:00Z,Chest X-ray,Rule out infection,completed,urgent
+B,234,300,2,2024-11-19T04:35:00Z,MRI,Rule out fracture,completed,stat
+B,235,301,10,2025-05-30T07:51:00Z,MRI,Rule out ischemia,completed,routine
+B,236,305,25,2024-01-11T18:01:00Z,Chest X-ray,Rule out fracture,completed,urgent
+B,237,306,10,2025-09-12T00:28:00Z,Blood panel,Rule out fracture,pending,stat
+B,238,308,30,2025-12-22T18:29:00Z,Chest X-ray,Rule out fracture,completed,urgent
+B,239,310,10,2025-06-28T22:06:00Z,Ultrasound,Rule out bleeding,completed,urgent
+B,240,310,4,2025-06-29T02:53:00Z,Chest X-ray,Rule out obstruction,completed,routine
+B,241,317,10,2023-03-27T13:32:00Z,MRI,Rule out ischemia,completed,routine
+B,242,319,20,2024-06-27T15:33:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,243,319,15,2024-06-28T02:59:00Z,CT scan,Rule out bleeding,cancelled,routine
+B,244,320,2,2025-01-27T06:36:00Z,Chest X-ray,Rule out fracture,completed,routine
+B,245,325,40,2024-05-30T04:25:00Z,Ultrasound,Rule out ischemia,in_progress,stat
+B,246,328,20,2024-03-29T02:19:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,247,329,20,2024-07-02T04:41:00Z,Blood panel,Rule out infection,pending,routine
+B,248,330,35,2023-08-31T14:09:00Z,Blood panel,Rule out fracture,completed,urgent
+B,249,330,40,2023-08-31T15:00:00Z,CT scan,Rule out infection,completed,routine
+B,251,331,40,2024-05-20T17:24:00Z,Blood panel,Rule out fracture,in_progress,routine
+B,252,332,40,2024-05-18T06:16:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,253,332,15,2024-05-19T16:24:00Z,Ultrasound,Rule out bleeding,completed,routine
+B,254,333,5,2024-10-11T08:42:00Z,CT scan,Rule out ischemia,completed,stat
+B,255,333,40,2024-10-11T17:33:00Z,Ultrasound,Rule out obstruction,in_progress,urgent
+B,256,334,2,2024-12-07T23:58:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,257,334,1,2024-12-08T05:13:00Z,Blood panel,Rule out infection,completed,urgent
+B,258,336,5,2025-01-01T08:10:00Z,MRI,Rule out infection,completed,urgent
+B,259,338,3,2023-12-11T07:23:00Z,CT scan,Rule out ischemia,cancelled,stat
+B,260,339,3,2024-08-25T16:11:00Z,Ultrasound,Rule out bleeding,completed,routine
+B,261,342,2,2025-11-06T21:44:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+B,262,342,1,2025-11-06T21:12:00Z,MRI,Rule out fracture,completed,routine
+B,263,343,2,2026-03-23T20:00:00Z,Chest X-ray,Rule out fracture,completed,stat
+B,264,343,30,2026-03-24T01:47:00Z,ECG,Rule out bleeding,pending,stat
+B,265,345,35,2024-01-29T20:45:00Z,ECG,Rule out infection,completed,urgent
+B,266,346,25,2024-03-31T22:51:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,267,346,25,2024-03-29T15:26:00Z,Ultrasound,Rule out fracture,completed,urgent
+B,268,350,30,2024-09-15T22:45:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,269,351,40,2025-06-01T05:02:00Z,MRI,Rule out bleeding,completed,routine
+B,270,355,4,2024-05-07T04:15:00Z,CT scan,Rule out obstruction,completed,routine
+B,271,357,40,2025-01-31T02:56:00Z,Chest X-ray,Rule out obstruction,in_progress,stat
+B,272,357,10,2025-01-31T00:49:00Z,CT scan,Rule out bleeding,completed,urgent
+B,273,358,2,2024-11-16T04:51:00Z,Blood panel,Rule out ischemia,cancelled,routine
+B,274,364,15,2025-04-26T14:40:00Z,ECG,Rule out bleeding,pending,urgent
+B,275,366,20,2024-10-23T23:52:00Z,Chest X-ray,Rule out obstruction,completed,routine
+B,276,367,15,2024-12-30T07:27:00Z,Chest X-ray,Rule out bleeding,completed,urgent
+B,277,367,1,2024-12-30T10:31:00Z,CT scan,Rule out fracture,cancelled,routine
+B,278,369,2,2024-08-01T03:58:00Z,Chest X-ray,Rule out obstruction,completed,routine
+B,279,370,1,2025-01-20T04:28:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,280,371,2,2025-02-18T00:26:00Z,CT scan,Rule out ischemia,completed,routine
+B,281,373,5,2025-07-28T20:20:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,282,374,10,2026-03-16T09:48:00Z,Ultrasound,Rule out ischemia,pending,urgent
+B,283,375,40,2024-02-21T17:11:00Z,Blood panel,Rule out obstruction,completed,routine
+B,284,377,40,2024-07-23T08:02:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,285,378,15,2024-07-12T23:31:00Z,ECG,Rule out obstruction,cancelled,urgent
+B,286,380,20,2025-08-30T19:12:00Z,ECG,Rule out bleeding,pending,stat
+B,287,380,4,2025-08-31T03:34:00Z,MRI,Rule out bleeding,completed,routine
+B,288,382,1,2023-10-22T13:04:00Z,CT scan,Rule out obstruction,cancelled,urgent
+B,289,384,15,2024-07-21T14:16:00Z,Ultrasound,Rule out infection,in_progress,routine
+B,291,387,1,2025-09-01T06:45:00Z,ECG,Rule out infection,completed,stat
+B,292,389,40,2024-09-11T11:04:00Z,Blood panel,Rule out bleeding,completed,routine
+B,293,389,1,2024-09-11T11:16:00Z,Blood panel,Rule out infection,completed,stat
+B,299,397,40,2023-11-01T17:14:00Z,Ultrasound,Rule out obstruction,completed,stat
+B,300,398,10,2024-07-19T04:16:00Z,Ultrasound,Rule out infection,pending,routine
+B,301,398,25,2024-07-19T03:09:00Z,Chest X-ray,Rule out ischemia,cancelled,urgent
+B,302,402,2,2025-02-11T08:17:00Z,Blood panel,Rule out bleeding,in_progress,urgent
+B,303,403,25,2025-11-18T15:30:00Z,Blood panel,Rule out bleeding,completed,stat
+B,304,403,25,2025-11-19T18:02:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,305,407,5,2025-03-14T23:54:00Z,Blood panel,Rule out bleeding,pending,urgent
+B,306,412,20,2024-11-09T12:36:00Z,CT scan,Rule out bleeding,pending,urgent
+B,307,414,25,2025-10-26T14:24:00Z,Ultrasound,Rule out ischemia,pending,routine
+B,308,415,1,2023-07-13T19:23:00Z,Ultrasound,Rule out infection,completed,routine
+B,309,416,35,2023-09-20T04:01:00Z,Blood panel,Rule out infection,completed,urgent
+B,310,417,1,2025-01-19T17:04:00Z,CT scan,Rule out infection,pending,routine
+B,311,418,5,2025-05-03T20:57:00Z,MRI,Rule out infection,completed,routine
+B,312,419,15,2023-04-15T21:43:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,313,422,5,2025-04-27T10:49:00Z,Chest X-ray,Rule out fracture,completed,stat
+B,314,423,5,2025-10-13T15:35:00Z,Chest X-ray,Rule out fracture,completed,stat
+B,315,424,30,2026-06-28T15:08:00Z,Chest X-ray,Rule out ischemia,in_progress,routine
+B,316,424,4,2026-06-28T17:56:00Z,Chest X-ray,Rule out fracture,completed,urgent
+B,317,428,30,2025-01-14T06:16:00Z,Blood panel,Rule out fracture,completed,urgent
+B,318,428,10,2025-01-14T05:48:00Z,CT scan,Rule out fracture,completed,routine
+B,319,429,25,2025-09-28T23:06:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,320,429,5,2025-09-29T13:32:00Z,MRI,Rule out fracture,completed,urgent
+B,321,431,5,2026-06-21T15:06:00Z,ECG,Rule out fracture,completed,routine
+B,322,433,3,2025-10-03T21:17:00Z,ECG,Rule out infection,completed,urgent
+B,323,434,10,2026-06-19T21:17:00Z,ECG,Rule out ischemia,completed,urgent
+B,324,436,2,2025-08-02T19:01:00Z,Chest X-ray,Rule out fracture,completed,urgent
+B,325,438,2,2023-08-27T10:52:00Z,Blood panel,Rule out obstruction,in_progress,routine
+B,326,438,25,2023-08-27T06:38:00Z,ECG,Rule out bleeding,pending,urgent
+B,327,440,2,2023-01-06T02:12:00Z,Ultrasound,Rule out fracture,completed,urgent
+B,328,443,5,2024-11-12T17:37:00Z,Ultrasound,Rule out fracture,in_progress,routine
+B,329,444,20,2023-03-24T00:12:00Z,Blood panel,Rule out bleeding,completed,routine
+B,330,445,15,2024-02-09T13:11:00Z,Blood panel,Rule out ischemia,completed,urgent
+B,331,446,30,2023-10-08T21:02:00Z,Blood panel,Rule out fracture,completed,routine
+B,332,446,10,2023-10-08T16:48:00Z,ECG,Rule out fracture,completed,stat
+B,333,447,15,2024-07-07T14:49:00Z,CT scan,Rule out infection,completed,routine
+B,334,450,25,2024-06-08T17:15:00Z,ECG,Rule out ischemia,completed,routine
+B,336,456,15,2023-12-13T02:15:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,337,459,2,2025-07-24T02:22:00Z,MRI,Rule out obstruction,completed,routine
+B,338,464,35,2025-09-04T08:42:00Z,ECG,Rule out obstruction,completed,routine
+B,339,464,1,2025-09-05T17:56:00Z,Ultrasound,Rule out infection,pending,urgent
+B,340,466,20,2026-08-14T02:08:00Z,MRI,Rule out fracture,completed,stat
+B,341,467,35,2024-01-11T19:21:00Z,ECG,Rule out bleeding,completed,urgent
+B,342,467,40,2024-01-12T12:49:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,343,468,20,2023-10-12T02:14:00Z,Blood panel,Rule out ischemia,completed,routine
+B,344,469,25,2024-03-18T13:55:00Z,CT scan,Rule out ischemia,completed,routine
+B,345,471,1,2025-08-05T18:41:00Z,CT scan,Rule out obstruction,completed,routine
+B,346,471,3,2025-08-05T09:17:00Z,MRI,Rule out bleeding,completed,urgent
+B,347,473,35,2025-03-25T17:11:00Z,CT scan,Rule out fracture,cancelled,routine
+B,348,475,30,2024-04-03T12:42:00Z,Blood panel,Rule out obstruction,completed,urgent
+B,349,477,15,2024-01-03T11:15:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,350,479,1,2025-02-25T07:47:00Z,CT scan,Rule out fracture,completed,urgent
+B,351,481,35,2026-03-23T00:49:00Z,CT scan,Rule out bleeding,in_progress,urgent
+B,352,482,3,2025-02-19T11:32:00Z,Blood panel,Rule out obstruction,completed,urgent
+B,353,483,5,2025-11-14T23:10:00Z,MRI,Rule out obstruction,completed,stat
+B,354,484,30,2023-03-06T17:50:00Z,CT scan,Rule out ischemia,completed,urgent
+B,355,486,5,2024-05-21T22:35:00Z,CT scan,Rule out obstruction,completed,urgent
+B,356,486,40,2024-05-21T12:35:00Z,Blood panel,Rule out ischemia,in_progress,routine
+B,357,487,3,2024-09-12T21:21:00Z,Chest X-ray,Rule out fracture,cancelled,stat
+B,358,489,30,2023-04-28T18:43:00Z,CT scan,Rule out ischemia,completed,urgent
+B,360,492,10,2023-10-16T21:59:00Z,Ultrasound,Rule out fracture,completed,routine
+B,361,492,1,2023-10-17T01:37:00Z,CT scan,Rule out infection,completed,urgent
+B,362,497,5,2024-05-07T10:43:00Z,ECG,Rule out obstruction,completed,routine
+B,363,499,15,2025-07-09T10:09:00Z,ECG,Rule out fracture,pending,routine
+B,364,502,25,2026-08-09T18:10:00Z,Chest X-ray,Rule out ischemia,completed,stat
+B,365,502,4,2026-08-10T21:15:00Z,Ultrasound,Rule out obstruction,completed,urgent
+B,366,503,15,2025-04-11T05:23:00Z,MRI,Rule out bleeding,completed,urgent
+B,367,505,4,2024-04-12T05:25:00Z,MRI,Rule out ischemia,completed,routine
+B,368,507,30,2023-01-13T17:52:00Z,MRI,Rule out obstruction,completed,urgent
+B,369,508,3,2023-04-23T06:18:00Z,Chest X-ray,Rule out ischemia,completed,routine
+B,370,510,5,2023-10-01T18:31:00Z,Blood panel,Rule out fracture,pending,stat
+B,371,511,2,2024-07-28T07:43:00Z,Chest X-ray,Rule out bleeding,completed,routine
+B,372,513,2,2024-01-14T01:10:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,373,513,40,2024-01-15T19:35:00Z,MRI,Rule out obstruction,pending,routine
+B,374,514,25,2024-03-26T11:54:00Z,MRI,Rule out ischemia,completed,routine
+B,375,515,20,2025-09-10T15:31:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,376,517,2,2025-11-09T02:58:00Z,Chest X-ray,Rule out ischemia,in_progress,urgent
+B,377,517,4,2025-11-09T05:03:00Z,Chest X-ray,Rule out infection,completed,urgent
+B,378,518,5,2025-12-11T01:17:00Z,Blood panel,Rule out infection,completed,routine
+B,379,519,35,2025-09-15T08:58:00Z,Ultrasound,Rule out obstruction,completed,urgent
+B,380,520,20,2023-10-17T01:05:00Z,Blood panel,Rule out infection,in_progress,stat
+B,381,521,25,2024-03-09T13:03:00Z,ECG,Rule out fracture,completed,routine
+B,382,522,25,2024-11-25T01:06:00Z,CT scan,Rule out fracture,completed,routine
+B,383,526,30,2026-01-06T08:41:00Z,Blood panel,Rule out bleeding,completed,routine
+B,384,526,10,2026-01-05T21:38:00Z,Chest X-ray,Rule out bleeding,in_progress,urgent
+B,385,528,2,2026-08-29T03:18:00Z,Ultrasound,Rule out ischemia,completed,stat
+B,386,528,30,2026-08-29T04:24:00Z,Blood panel,Rule out infection,completed,routine
+B,387,529,30,2025-09-21T02:47:00Z,CT scan,Rule out fracture,cancelled,routine
+B,388,531,30,2025-04-11T18:37:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,389,531,20,2025-04-13T03:51:00Z,Chest X-ray,Rule out obstruction,completed,urgent
+B,390,534,30,2023-08-25T13:17:00Z,Blood panel,Rule out fracture,pending,routine
+B,391,535,20,2024-04-15T21:25:00Z,Chest X-ray,Rule out bleeding,completed,stat
+B,392,536,2,2025-08-28T08:00:00Z,Blood panel,Rule out obstruction,completed,stat
+B,393,538,15,2024-09-20T18:05:00Z,CT scan,Rule out fracture,cancelled,routine
+B,394,538,35,2024-09-20T15:44:00Z,MRI,Rule out fracture,completed,routine
+B,395,539,20,2023-09-02T17:42:00Z,Chest X-ray,Rule out bleeding,completed,urgent
+B,399,545,1,2024-11-22T03:25:00Z,CT scan,Rule out fracture,completed,urgent
+B,400,549,5,2024-10-03T14:00:00Z,Chest X-ray,Rule out infection,cancelled,routine
+B,401,554,35,2025-01-17T08:27:00Z,Blood panel,Rule out ischemia,completed,urgent
+B,402,554,35,2025-01-17T08:49:00Z,Chest X-ray,Rule out fracture,completed,routine
+B,403,555,4,2025-05-18T20:38:00Z,ECG,Rule out bleeding,completed,stat
+B,404,555,2,2025-05-21T02:44:00Z,CT scan,Rule out bleeding,completed,routine
+B,405,558,30,2023-12-26T16:43:00Z,Blood panel,Rule out fracture,completed,routine
+B,406,559,3,2024-03-25T21:41:00Z,Blood panel,Rule out obstruction,completed,routine
+B,407,559,3,2024-03-25T22:27:00Z,Blood panel,Rule out obstruction,completed,routine
+B,408,560,30,2024-05-29T21:01:00Z,ECG,Rule out obstruction,completed,routine
+B,409,560,30,2024-05-27T05:20:00Z,CT scan,Rule out fracture,completed,urgent
+B,410,561,2,2024-11-09T14:27:00Z,Blood panel,Rule out infection,completed,routine
+B,411,562,1,2024-03-10T00:33:00Z,Ultrasound,Rule out bleeding,completed,urgent
+B,412,564,35,2024-11-17T21:50:00Z,CT scan,Rule out obstruction,completed,routine
+B,413,565,40,2023-04-18T17:29:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,414,566,4,2023-06-21T22:35:00Z,MRI,Rule out fracture,completed,routine
+B,415,567,35,2023-10-29T22:41:00Z,Blood panel,Rule out fracture,completed,urgent
+B,416,569,40,2024-04-02T06:15:00Z,ECG,Rule out ischemia,in_progress,stat
+B,417,569,2,2024-04-02T05:13:00Z,Chest X-ray,Rule out infection,completed,routine
+B,418,571,25,2024-12-30T05:08:00Z,Ultrasound,Rule out ischemia,completed,urgent
+B,419,573,1,2024-07-21T05:04:00Z,CT scan,Rule out ischemia,completed,urgent
+B,421,580,30,2025-03-09T00:31:00Z,Blood panel,Rule out obstruction,completed,urgent
+B,422,581,10,2025-06-05T17:02:00Z,CT scan,Rule out fracture,completed,stat
+B,423,582,10,2025-08-13T03:59:00Z,Ultrasound,Rule out infection,completed,routine
+B,424,583,20,2026-05-02T21:21:00Z,ECG,Rule out bleeding,completed,urgent
+B,425,583,15,2026-05-02T22:09:00Z,Blood panel,Rule out obstruction,completed,routine
+B,426,584,10,2025-05-21T00:32:00Z,CT scan,Rule out infection,pending,routine
+B,427,587,20,2026-10-06T13:01:00Z,Ultrasound,Rule out ischemia,completed,stat
+B,428,587,35,2026-10-06T06:34:00Z,Blood panel,Rule out ischemia,completed,urgent
+B,429,589,3,2023-11-08T01:11:00Z,CT scan,Rule out infection,completed,routine
+B,430,589,2,2023-11-07T05:06:00Z,Blood panel,Rule out infection,completed,urgent
+B,431,591,1,2025-05-07T20:36:00Z,CT scan,Rule out obstruction,completed,urgent
+B,432,593,3,2024-02-11T07:15:00Z,Blood panel,Rule out infection,completed,routine
+B,433,594,4,2024-09-18T03:11:00Z,Blood panel,Rule out ischemia,cancelled,urgent
+B,434,595,3,2025-02-18T07:12:00Z,ECG,Rule out bleeding,completed,urgent
+B,435,596,3,2025-06-07T04:34:00Z,CT scan,Rule out ischemia,completed,stat
+B,436,596,4,2025-06-07T08:45:00Z,CT scan,Rule out infection,completed,routine
+B,437,598,5,2023-06-05T11:12:00Z,Ultrasound,Rule out fracture,in_progress,routine
+B,438,598,30,2023-06-05T16:31:00Z,MRI,Rule out obstruction,completed,urgent
+B,439,599,25,2023-07-27T03:28:00Z,ECG,Rule out bleeding,completed,routine
+B,440,603,3,2024-10-15T09:30:00Z,ECG,Rule out ischemia,completed,urgent
+B,441,604,2,2025-06-12T00:24:00Z,Chest X-ray,Rule out bleeding,completed,stat
+B,442,605,5,2024-05-21T17:29:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,443,605,20,2024-05-21T20:30:00Z,Chest X-ray,Rule out fracture,completed,routine
+B,444,607,4,2023-08-19T09:30:00Z,CT scan,Rule out ischemia,completed,urgent
+B,445,610,4,2025-04-17T15:44:00Z,CT scan,Rule out fracture,cancelled,urgent
+B,446,611,25,2023-11-27T08:04:00Z,Chest X-ray,Rule out bleeding,completed,stat
+B,447,613,30,2024-09-17T07:11:00Z,Ultrasound,Rule out fracture,completed,routine
+B,448,614,25,2025-04-24T02:01:00Z,Blood panel,Rule out obstruction,completed,routine
+B,449,614,10,2025-04-24T03:52:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,450,615,15,2025-12-08T06:18:00Z,Blood panel,Rule out infection,in_progress,routine
+B,451,616,30,2025-02-24T14:58:00Z,CT scan,Rule out bleeding,completed,routine
+B,452,617,20,2025-04-26T16:48:00Z,MRI,Rule out infection,in_progress,urgent
+B,453,617,35,2025-04-26T17:03:00Z,MRI,Rule out obstruction,completed,routine
+B,454,618,35,2025-07-19T18:35:00Z,Blood panel,Rule out fracture,completed,routine
+B,455,618,4,2025-07-20T15:40:00Z,CT scan,Rule out ischemia,completed,urgent
+B,456,620,4,2023-12-29T11:47:00Z,MRI,Rule out fracture,completed,stat
+B,457,621,20,2023-04-04T18:22:00Z,CT scan,Rule out obstruction,cancelled,stat
+B,458,623,25,2024-01-25T18:19:00Z,CT scan,Rule out fracture,completed,urgent
+B,459,627,25,2023-08-31T01:59:00Z,MRI,Rule out fracture,completed,routine
+B,460,627,15,2023-08-31T20:02:00Z,MRI,Rule out fracture,pending,routine
+B,461,628,4,2023-02-18T07:08:00Z,MRI,Rule out ischemia,completed,stat
+B,462,629,4,2023-10-08T07:39:00Z,Blood panel,Rule out obstruction,completed,urgent
+B,463,630,30,2025-09-18T06:39:00Z,CT scan,Rule out infection,completed,routine
+B,464,632,5,2024-02-03T07:25:00Z,ECG,Rule out infection,completed,urgent
+B,465,633,5,2024-08-28T17:21:00Z,MRI,Rule out bleeding,completed,routine
+B,466,635,1,2023-09-07T12:06:00Z,MRI,Rule out fracture,completed,routine
+B,467,636,1,2024-07-04T03:29:00Z,Ultrasound,Rule out ischemia,completed,stat
+B,468,639,35,2026-04-29T11:16:00Z,CT scan,Rule out bleeding,completed,routine
+B,469,639,3,2026-04-30T02:14:00Z,MRI,Rule out ischemia,completed,urgent
+B,470,641,5,2025-01-02T01:25:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,471,644,1,2025-12-06T14:29:00Z,Blood panel,Rule out infection,completed,routine
+B,472,644,40,2025-12-07T19:46:00Z,Ultrasound,Rule out obstruction,completed,stat
+B,473,645,3,2025-09-04T23:19:00Z,ECG,Rule out infection,cancelled,urgent
+B,474,646,5,2026-01-31T02:11:00Z,Blood panel,Rule out fracture,completed,urgent
+B,475,650,5,2023-08-07T10:04:00Z,CT scan,Rule out bleeding,completed,urgent
+B,476,651,20,2025-08-01T22:43:00Z,Blood panel,Rule out bleeding,completed,routine
+B,477,653,4,2024-04-08T17:07:00Z,MRI,Rule out bleeding,completed,stat
+B,478,653,25,2024-04-11T02:37:00Z,Blood panel,Rule out ischemia,completed,routine
+B,479,655,5,2024-06-24T22:33:00Z,ECG,Rule out bleeding,completed,urgent
+B,480,657,20,2025-08-04T15:15:00Z,CT scan,Rule out obstruction,completed,routine
+B,481,659,4,2023-04-12T00:08:00Z,Blood panel,Rule out fracture,completed,urgent
+B,482,661,15,2026-01-20T02:20:00Z,Blood panel,Rule out fracture,pending,urgent
+B,483,662,1,2026-06-12T04:27:00Z,Blood panel,Rule out fracture,completed,routine
+B,484,665,10,2025-07-03T10:53:00Z,CT scan,Rule out bleeding,completed,urgent
+B,485,667,3,2025-12-23T16:55:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+B,486,669,20,2023-02-04T10:46:00Z,MRI,Rule out infection,completed,routine
+B,487,670,40,2025-04-25T16:21:00Z,ECG,Rule out bleeding,cancelled,urgent
+B,488,673,2,2023-03-03T04:15:00Z,Ultrasound,Rule out ischemia,cancelled,urgent
+B,489,675,15,2024-01-08T11:33:00Z,Chest X-ray,Rule out bleeding,completed,stat
+B,490,676,40,2025-08-07T11:04:00Z,CT scan,Rule out ischemia,cancelled,urgent
+B,491,677,25,2026-05-19T23:31:00Z,MRI,Rule out ischemia,completed,routine
+B,492,680,30,2025-03-19T12:54:00Z,CT scan,Rule out bleeding,in_progress,urgent
+B,493,681,15,2025-08-19T14:15:00Z,Blood panel,Rule out fracture,in_progress,urgent
+B,494,682,30,2026-05-14T11:16:00Z,ECG,Rule out fracture,completed,routine
+B,495,683,4,2025-09-08T04:09:00Z,Ultrasound,Rule out bleeding,cancelled,stat
+B,496,683,2,2025-09-08T03:51:00Z,CT scan,Rule out infection,completed,urgent
+B,497,685,10,2023-05-13T01:59:00Z,ECG,Rule out infection,completed,routine
+B,498,687,3,2025-11-13T02:22:00Z,MRI,Rule out ischemia,completed,routine
+B,499,690,2,2024-09-28T22:01:00Z,ECG,Rule out infection,completed,urgent
+B,500,691,10,2025-07-20T04:01:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,501,694,10,2024-09-07T18:50:00Z,CT scan,Rule out obstruction,completed,routine
+B,502,694,40,2024-09-06T22:58:00Z,Chest X-ray,Rule out ischemia,pending,routine
+B,503,695,15,2025-05-25T08:51:00Z,Ultrasound,Rule out infection,completed,urgent
+B,504,695,25,2025-05-23T08:21:00Z,ECG,Rule out obstruction,completed,urgent
+B,505,697,25,2025-03-09T17:21:00Z,MRI,Rule out ischemia,completed,routine
+B,506,700,10,2025-04-26T12:04:00Z,Blood panel,Rule out infection,completed,routine
+B,507,701,35,2025-05-17T21:59:00Z,ECG,Rule out ischemia,completed,routine
+B,508,703,30,2026-07-04T04:49:00Z,CT scan,Rule out fracture,completed,stat
+B,509,704,4,2024-06-11T12:18:00Z,Blood panel,Rule out ischemia,completed,stat
+B,510,706,40,2025-06-10T20:07:00Z,ECG,Rule out obstruction,in_progress,routine
+B,511,707,5,2024-06-24T13:50:00Z,Chest X-ray,Rule out infection,completed,urgent
+B,512,708,35,2024-08-30T02:16:00Z,MRI,Rule out fracture,completed,routine
+B,513,708,40,2024-08-30T01:48:00Z,CT scan,Rule out ischemia,completed,routine
+B,516,710,35,2025-05-12T10:04:00Z,Ultrasound,Rule out fracture,completed,urgent
+B,517,711,25,2025-08-25T20:00:00Z,CT scan,Rule out fracture,completed,urgent
+B,518,711,20,2025-08-26T08:18:00Z,MRI,Rule out obstruction,completed,routine
+B,519,713,4,2023-01-10T04:49:00Z,CT scan,Rule out fracture,completed,urgent
+B,520,714,40,2023-07-06T01:20:00Z,Chest X-ray,Rule out ischemia,cancelled,urgent
+B,521,714,15,2023-07-06T12:09:00Z,Ultrasound,Rule out fracture,completed,routine
+B,522,715,2,2024-04-13T17:09:00Z,ECG,Rule out obstruction,completed,stat
+B,523,716,5,2024-08-02T20:58:00Z,Ultrasound,Rule out fracture,in_progress,stat
+B,524,716,10,2024-08-02T09:53:00Z,Ultrasound,Rule out infection,completed,routine
+B,525,717,15,2024-11-02T19:33:00Z,Blood panel,Rule out bleeding,completed,urgent
+B,526,718,40,2025-05-09T23:02:00Z,MRI,Rule out infection,completed,routine
+B,527,719,5,2026-01-07T09:16:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+B,528,721,30,2025-12-30T20:41:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+B,529,729,1,2025-12-18T01:18:00Z,CT scan,Rule out fracture,completed,stat
+B,530,730,3,2026-09-07T16:45:00Z,Ultrasound,Rule out obstruction,pending,urgent
+B,531,730,3,2026-09-07T13:58:00Z,ECG,Rule out obstruction,completed,urgent
+B,532,731,3,2023-03-12T18:34:00Z,ECG,Rule out bleeding,in_progress,routine
+B,533,733,2,2025-08-24T07:57:00Z,MRI,Rule out bleeding,pending,urgent
+B,534,736,5,2023-12-10T07:24:00Z,Ultrasound,Rule out ischemia,cancelled,stat
+B,535,738,3,2024-08-09T20:23:00Z,ECG,Rule out bleeding,completed,stat
+B,536,739,5,2024-06-21T16:35:00Z,Chest X-ray,Rule out bleeding,cancelled,routine
+B,537,740,35,2024-08-31T00:48:00Z,Ultrasound,Rule out infection,completed,urgent
+B,539,749,10,2024-07-10T09:02:00Z,Chest X-ray,Rule out fracture,in_progress,routine
+B,540,751,35,2025-06-09T09:25:00Z,CT scan,Rule out fracture,completed,stat
+B,541,753,25,2025-01-12T23:56:00Z,Ultrasound,Rule out bleeding,completed,urgent
+B,542,753,5,2025-01-12T21:36:00Z,ECG,Rule out infection,completed,routine
+B,543,754,4,2025-03-21T04:31:00Z,ECG,Rule out ischemia,completed,routine
+B,544,756,20,2023-11-17T20:16:00Z,CT scan,Rule out ischemia,completed,stat
+B,545,756,1,2023-11-19T04:24:00Z,CT scan,Rule out bleeding,completed,urgent
+B,546,757,5,2024-05-03T06:49:00Z,MRI,Rule out obstruction,completed,stat
+B,547,759,10,2025-01-24T21:15:00Z,CT scan,Rule out fracture,completed,routine
+B,548,759,3,2025-01-25T00:58:00Z,MRI,Rule out fracture,completed,stat
+B,549,760,35,2025-05-08T14:55:00Z,Ultrasound,Rule out bleeding,completed,urgent
+B,550,761,35,2025-02-13T03:15:00Z,ECG,Rule out infection,completed,routine
+B,551,762,1,2025-05-29T08:48:00Z,MRI,Rule out bleeding,completed,stat
+B,552,768,4,2024-08-05T09:37:00Z,Chest X-ray,Rule out ischemia,pending,urgent
+B,553,768,10,2024-08-07T11:55:00Z,Blood panel,Rule out obstruction,completed,stat
+B,554,770,25,2023-09-06T04:48:00Z,Ultrasound,Rule out infection,pending,routine
+B,555,771,4,2025-04-28T12:23:00Z,MRI,Rule out bleeding,completed,routine
+B,556,772,25,2025-03-12T07:53:00Z,MRI,Rule out obstruction,completed,routine
+B,557,776,1,2025-01-18T15:02:00Z,MRI,Rule out infection,completed,routine
+B,558,777,2,2025-10-23T03:08:00Z,ECG,Rule out bleeding,in_progress,urgent
+B,559,778,25,2023-03-02T20:56:00Z,CT scan,Rule out bleeding,completed,urgent
+B,560,778,1,2023-02-28T17:48:00Z,Blood panel,Rule out obstruction,cancelled,stat
+B,561,779,25,2023-10-27T02:37:00Z,CT scan,Rule out obstruction,completed,urgent
+B,562,780,15,2023-08-19T01:43:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+B,563,780,4,2023-08-19T05:02:00Z,CT scan,Rule out obstruction,completed,routine
+B,564,781,10,2025-07-03T17:25:00Z,CT scan,Rule out infection,completed,urgent
+B,565,782,2,2025-08-18T22:22:00Z,CT scan,Rule out fracture,in_progress,urgent
+B,566,783,20,2025-12-26T01:37:00Z,MRI,Rule out obstruction,completed,routine
+B,567,783,5,2025-12-26T10:44:00Z,Blood panel,Rule out ischemia,cancelled,urgent
+B,568,784,4,2023-05-21T06:57:00Z,MRI,Rule out obstruction,completed,routine
+B,569,786,25,2024-05-26T11:03:00Z,MRI,Rule out fracture,pending,stat
+B,570,788,25,2025-02-19T01:35:00Z,Blood panel,Rule out ischemia,pending,routine
+B,571,788,20,2025-02-21T07:02:00Z,CT scan,Rule out bleeding,in_progress,urgent
+B,572,790,2,2026-01-01T09:04:00Z,CT scan,Rule out bleeding,completed,routine
+B,573,791,3,2024-12-20T22:58:00Z,ECG,Rule out fracture,completed,stat
+B,574,792,20,2025-05-03T03:51:00Z,MRI,Rule out obstruction,completed,urgent
+B,575,793,4,2024-02-08T07:30:00Z,Ultrasound,Rule out fracture,completed,stat
+B,576,795,10,2025-07-11T11:30:00Z,Ultrasound,Rule out obstruction,cancelled,stat
+B,577,795,5,2025-07-10T06:29:00Z,ECG,Rule out bleeding,completed,routine
+B,578,798,4,2023-09-28T10:08:00Z,MRI,Rule out ischemia,completed,urgent
+B,579,799,2,2023-03-26T17:16:00Z,Blood panel,Rule out infection,in_progress,routine
+B,580,799,4,2023-03-29T09:13:00Z,CT scan,Rule out ischemia,completed,urgent
+B,581,800,40,2024-04-14T17:37:00Z,Ultrasound,Rule out fracture,completed,routine
+B,582,800,1,2024-04-15T03:16:00Z,ECG,Rule out fracture,completed,urgent
+B,583,801,5,2024-09-20T07:22:00Z,Ultrasound,Rule out bleeding,completed,stat
+B,585,802,2,2025-06-09T15:58:00Z,Chest X-ray,Rule out obstruction,completed,routine
+B,586,802,3,2025-06-09T15:38:00Z,MRI,Rule out infection,completed,routine
+B,587,803,10,2024-04-18T07:19:00Z,MRI,Rule out bleeding,completed,stat
+B,588,804,10,2024-09-30T00:33:00Z,ECG,Rule out infection,completed,routine
+B,589,805,25,2025-03-09T00:27:00Z,MRI,Rule out ischemia,pending,stat
+B,590,805,1,2025-03-06T22:13:00Z,Ultrasound,Rule out infection,completed,routine
+B,591,806,20,2023-05-26T19:39:00Z,Ultrasound,Rule out fracture,completed,routine
+B,592,807,1,2023-08-20T03:37:00Z,CT scan,Rule out bleeding,pending,urgent
+B,593,808,10,2024-01-13T11:46:00Z,ECG,Rule out ischemia,completed,routine
+B,594,808,3,2024-01-13T12:28:00Z,MRI,Rule out fracture,completed,routine
+B,595,809,5,2024-11-05T13:21:00Z,ECG,Rule out fracture,completed,routine
+B,596,810,25,2025-03-30T18:25:00Z,CT scan,Rule out ischemia,completed,stat
+B,597,811,15,2024-07-31T09:40:00Z,MRI,Rule out infection,in_progress,routine
+B,598,812,25,2024-10-21T04:07:00Z,MRI,Rule out bleeding,completed,routine
+B,599,816,15,2026-08-05T12:21:00Z,MRI,Rule out obstruction,completed,urgent
+B,600,816,40,2026-08-04T13:22:00Z,Blood panel,Rule out bleeding,pending,routine
+B,601,821,1,2025-09-15T09:26:00Z,ECG,Rule out obstruction,in_progress,routine
+B,602,824,5,2025-09-26T00:29:00Z,MRI,Rule out fracture,completed,routine
+B,603,825,1,2025-03-02T09:05:00Z,Ultrasound,Rule out infection,pending,urgent
+B,604,827,20,2026-03-24T17:44:00Z,Chest X-ray,Rule out obstruction,completed,stat
+B,605,828,15,2026-08-28T16:42:00Z,Blood panel,Rule out ischemia,in_progress,routine
+B,606,828,20,2026-08-28T03:42:00Z,ECG,Rule out fracture,completed,routine
+B,607,831,40,2025-04-14T05:21:00Z,Blood panel,Rule out infection,completed,routine
+B,608,831,2,2025-04-14T06:52:00Z,Ultrasound,Rule out obstruction,completed,urgent
+B,609,832,20,2026-01-02T13:05:00Z,Chest X-ray,Rule out bleeding,completed,urgent
+B,610,834,20,2023-03-15T02:05:00Z,MRI,Rule out infection,completed,routine
+B,611,836,20,2024-07-21T15:29:00Z,MRI,Rule out ischemia,completed,routine
+B,612,837,40,2025-01-26T08:23:00Z,Chest X-ray,Rule out bleeding,cancelled,urgent
+B,613,839,25,2023-10-29T22:14:00Z,Chest X-ray,Rule out fracture,completed,routine
+B,614,840,40,2025-06-18T21:14:00Z,MRI,Rule out obstruction,cancelled,routine
+B,615,840,2,2025-06-18T18:34:00Z,Ultrasound,Rule out bleeding,completed,routine
+B,616,849,25,2024-10-23T00:17:00Z,ECG,Rule out fracture,completed,routine
+B,617,850,4,2025-02-15T03:30:00Z,MRI,Rule out obstruction,in_progress,routine
+B,619,852,5,2024-05-09T16:46:00Z,CT scan,Rule out bleeding,in_progress,routine
+B,620,852,25,2024-05-08T00:08:00Z,CT scan,Rule out obstruction,completed,urgent
+B,621,854,15,2023-12-15T23:25:00Z,ECG,Rule out obstruction,completed,urgent
+B,622,858,3,2024-03-07T14:51:00Z,MRI,Rule out ischemia,pending,routine
+B,623,859,1,2024-09-04T08:42:00Z,Blood panel,Rule out infection,completed,routine
+B,624,860,5,2023-01-23T11:25:00Z,Blood panel,Rule out ischemia,cancelled,routine
+B,625,860,15,2023-01-23T05:15:00Z,Ultrasound,Rule out obstruction,in_progress,stat
+B,626,861,5,2023-11-17T20:42:00Z,CT scan,Rule out ischemia,completed,routine
+B,627,861,30,2023-11-17T04:03:00Z,Ultrasound,Rule out bleeding,pending,urgent
+B,628,865,3,2024-08-05T13:05:00Z,MRI,Rule out ischemia,cancelled,routine
+B,629,867,20,2024-11-27T11:05:00Z,Blood panel,Rule out bleeding,completed,stat
+B,630,869,2,2024-06-12T16:24:00Z,Ultrasound,Rule out infection,completed,routine
+B,631,872,30,2026-03-26T23:15:00Z,Chest X-ray,Rule out bleeding,completed,stat
+B,632,872,1,2026-03-28T10:56:00Z,Ultrasound,Rule out obstruction,completed,stat
+B,633,873,2,2023-02-04T10:40:00Z,ECG,Rule out obstruction,in_progress,urgent
+B,634,874,10,2025-06-12T22:29:00Z,Blood panel,Rule out infection,completed,routine
+B,637,880,1,2024-09-19T02:05:00Z,MRI,Rule out bleeding,completed,routine
+B,638,881,2,2025-04-22T06:58:00Z,ECG,Rule out obstruction,pending,routine
+B,639,883,4,2024-05-26T03:06:00Z,CT scan,Rule out bleeding,completed,stat
+B,640,885,2,2025-09-05T04:51:00Z,ECG,Rule out infection,completed,urgent
+B,641,885,2,2025-09-03T16:36:00Z,Chest X-ray,Rule out infection,completed,urgent
+B,642,886,4,2023-04-19T18:54:00Z,CT scan,Rule out bleeding,completed,routine
+B,643,887,40,2023-05-29T07:52:00Z,CT scan,Rule out bleeding,completed,routine
+B,644,890,2,2024-05-11T17:04:00Z,Ultrasound,Rule out fracture,completed,urgent
+B,645,892,25,2024-05-20T02:52:00Z,Chest X-ray,Rule out infection,completed,urgent
+B,646,893,40,2024-09-04T14:55:00Z,MRI,Rule out ischemia,completed,routine
+B,647,893,15,2024-09-04T17:47:00Z,Ultrasound,Rule out fracture,completed,urgent
+B,648,895,40,2023-09-14T02:09:00Z,Ultrasound,Rule out fracture,completed,routine
+B,649,897,40,2023-05-27T03:42:00Z,Blood panel,Rule out bleeding,completed,urgent
+B,650,898,40,2023-09-16T01:54:00Z,ECG,Rule out fracture,completed,routine
+B,652,904,20,2024-08-13T20:55:00Z,Blood panel,Rule out ischemia,cancelled,routine
+B,653,907,3,2023-12-18T13:12:00Z,Ultrasound,Rule out fracture,completed,urgent
+B,654,908,10,2025-08-03T11:35:00Z,Chest X-ray,Rule out infection,completed,stat
+B,655,910,15,2023-01-11T18:14:00Z,ECG,Rule out ischemia,completed,stat
+B,656,910,2,2023-01-13T21:06:00Z,Ultrasound,Rule out ischemia,completed,routine
+B,657,913,30,2025-04-19T10:17:00Z,Blood panel,Rule out bleeding,completed,urgent
+B,658,914,4,2025-10-13T02:49:00Z,MRI,Rule out ischemia,completed,routine
+B,659,915,25,2026-07-17T07:22:00Z,CT scan,Rule out bleeding,completed,routine
+B,660,916,40,2024-06-20T05:11:00Z,Chest X-ray,Rule out bleeding,pending,urgent
+B,661,917,35,2025-04-10T19:44:00Z,Blood panel,Rule out infection,in_progress,routine
+B,662,918,30,2025-05-31T18:47:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,663,919,3,2023-05-15T22:31:00Z,Blood panel,Rule out bleeding,completed,routine
+B,665,920,3,2024-01-19T08:08:00Z,CT scan,Rule out infection,completed,urgent
+B,666,921,1,2024-06-10T20:20:00Z,CT scan,Rule out bleeding,completed,routine
+B,667,922,40,2023-06-22T13:31:00Z,ECG,Rule out bleeding,completed,routine
+B,668,925,5,2023-12-10T21:40:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,669,925,25,2023-12-10T21:51:00Z,CT scan,Rule out fracture,completed,routine
+B,670,927,30,2024-06-13T08:27:00Z,ECG,Rule out ischemia,completed,urgent
+B,671,927,20,2024-06-12T23:30:00Z,MRI,Rule out infection,in_progress,urgent
+B,672,928,2,2025-01-22T01:37:00Z,Chest X-ray,Rule out infection,completed,urgent
+B,673,928,15,2025-01-21T09:58:00Z,ECG,Rule out ischemia,completed,routine
+B,674,929,20,2025-10-14T05:28:00Z,ECG,Rule out infection,pending,routine
+B,675,930,15,2025-11-19T15:22:00Z,Chest X-ray,Rule out infection,completed,stat
+B,676,930,20,2025-11-18T20:41:00Z,ECG,Rule out fracture,cancelled,urgent
+B,677,931,40,2023-08-01T14:40:00Z,MRI,Rule out bleeding,completed,stat
+B,678,931,20,2023-07-31T22:10:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+B,679,932,40,2024-04-12T04:17:00Z,Ultrasound,Rule out obstruction,completed,urgent
+B,680,933,30,2024-05-17T05:55:00Z,MRI,Rule out ischemia,completed,routine
+B,681,935,3,2024-06-07T23:29:00Z,ECG,Rule out fracture,completed,routine
+B,682,936,15,2025-02-04T01:32:00Z,CT scan,Rule out ischemia,cancelled,routine
+B,683,936,5,2025-02-03T20:14:00Z,Ultrasound,Rule out ischemia,in_progress,stat
+B,684,939,25,2024-01-26T00:09:00Z,Ultrasound,Rule out ischemia,cancelled,urgent
+B,685,939,3,2024-01-27T10:00:00Z,CT scan,Rule out ischemia,completed,urgent
+B,686,943,35,2024-03-26T09:01:00Z,Chest X-ray,Rule out infection,completed,routine
+B,687,947,25,2025-06-19T12:26:00Z,MRI,Rule out bleeding,completed,stat
+B,688,948,4,2025-10-31T19:31:00Z,ECG,Rule out obstruction,completed,urgent
+B,689,948,35,2025-10-31T18:02:00Z,ECG,Rule out bleeding,completed,urgent
+B,690,949,10,2026-03-01T02:16:00Z,Blood panel,Rule out bleeding,completed,routine
+B,691,949,5,2026-03-01T17:55:00Z,Blood panel,Rule out obstruction,completed,routine
+B,692,950,35,2023-08-10T01:48:00Z,ECG,Rule out infection,completed,routine
+B,693,951,2,2025-09-16T15:41:00Z,ECG,Rule out obstruction,completed,routine
+B,694,953,10,2024-03-09T10:42:00Z,CT scan,Rule out ischemia,completed,urgent
+B,695,953,10,2024-03-09T20:53:00Z,ECG,Rule out fracture,completed,stat
+B,696,954,30,2023-03-11T16:50:00Z,Ultrasound,Rule out fracture,completed,routine
+B,697,954,25,2023-03-11T17:59:00Z,Ultrasound,Rule out bleeding,pending,stat
+B,698,960,1,2024-09-06T11:18:00Z,MRI,Rule out fracture,completed,urgent
+B,699,962,30,2025-07-04T04:31:00Z,ECG,Rule out infection,cancelled,routine
+B,700,962,5,2025-07-01T21:19:00Z,Ultrasound,Rule out obstruction,completed,routine
+B,701,963,1,2025-07-15T13:01:00Z,ECG,Rule out infection,pending,routine
+B,702,963,2,2025-07-15T18:05:00Z,Ultrasound,Rule out bleeding,pending,urgent
+B,703,964,2,2024-06-19T01:25:00Z,Chest X-ray,Rule out fracture,in_progress,urgent
+B,704,965,30,2024-09-03T20:24:00Z,CT scan,Rule out ischemia,completed,routine
+B,705,966,20,2025-04-06T20:25:00Z,ECG,Rule out infection,completed,urgent
+B,706,967,5,2025-07-10T00:37:00Z,ECG,Rule out infection,completed,routine
+B,707,968,15,2023-10-15T18:06:00Z,ECG,Rule out infection,completed,routine
+B,708,968,25,2023-10-15T16:50:00Z,Ultrasound,Rule out bleeding,completed,routine
+B,709,969,10,2024-04-12T02:47:00Z,CT scan,Rule out ischemia,completed,routine
+B,710,970,10,2024-03-15T06:18:00Z,CT scan,Rule out infection,completed,urgent
+C,1,1,20,2023-06-24T02:17:24Z,MRI,Rule out obstruction,pending,routine
+C,2,2,3,2023-09-13T07:06:49Z,Ultrasound,Rule out obstruction,completed,urgent
+C,3,3,5,2024-02-09T02:37:19Z,Ultrasound,Rule out infection,pending,routine
+C,4,3,40,2024-02-08T08:01:14Z,Blood panel,Rule out infection,completed,routine
+C,5,5,15,2024-12-23T05:51:03Z,CT scan,Rule out obstruction,in_progress,urgent
+C,6,7,3,2025-12-02T12:27:51Z,CT scan,Rule out infection,completed,urgent
+C,7,9,3,2023-11-15T03:00:57Z,Chest X-ray,Rule out fracture,pending,routine
+C,8,9,5,2023-11-17T12:09:25Z,Blood panel,Rule out ischemia,completed,stat
+C,9,11,1,2024-06-11T18:35:33Z,Ultrasound,Rule out ischemia,completed,routine
+C,10,11,20,2024-06-09T20:48:45Z,Chest X-ray,Rule out fracture,completed,routine
+C,11,12,25,2023-08-07T13:26:05Z,Blood panel,Rule out obstruction,completed,routine
+C,12,12,1,2023-08-08T11:44:54Z,Blood panel,Rule out bleeding,completed,urgent
+C,13,13,1,2024-06-12T22:58:54Z,CT scan,Rule out bleeding,in_progress,stat
+C,14,16,1,2024-12-03T06:49:23Z,CT scan,Rule out fracture,completed,routine
+C,15,17,15,2025-01-24T17:31:07Z,Blood panel,Rule out ischemia,pending,routine
+C,16,17,4,2025-01-24T15:42:26Z,ECG,Rule out bleeding,completed,urgent
+C,17,18,25,2025-08-08T17:03:48Z,MRI,Rule out fracture,completed,routine
+C,18,20,5,2023-10-16T20:30:17Z,Blood panel,Rule out obstruction,completed,routine
+C,19,20,35,2023-10-18T06:48:56Z,Chest X-ray,Rule out infection,completed,stat
+C,20,21,1,2024-08-09T16:47:56Z,MRI,Rule out infection,completed,routine
+C,21,21,1,2024-08-11T04:12:54Z,ECG,Rule out bleeding,completed,urgent
+C,22,22,4,2025-06-05T07:40:38Z,Blood panel,Rule out bleeding,completed,routine
+C,23,23,3,2026-01-17T16:40:49Z,Chest X-ray,Rule out bleeding,completed,routine
+C,24,23,4,2026-01-16T20:38:48Z,Ultrasound,Rule out infection,completed,routine
+C,25,25,2,2025-07-13T09:43:13Z,Blood panel,Rule out bleeding,completed,stat
+C,26,33,2,2026-06-21T20:51:18Z,Ultrasound,Rule out obstruction,completed,routine
+C,27,34,2,2023-11-13T04:31:30Z,ECG,Rule out bleeding,completed,routine
+C,28,34,35,2023-11-14T16:36:15Z,Chest X-ray,Rule out infection,completed,routine
+C,29,35,40,2024-02-25T02:54:52Z,ECG,Rule out ischemia,completed,routine
+C,30,36,40,2024-05-02T11:23:58Z,Blood panel,Rule out obstruction,cancelled,routine
+C,31,37,3,2024-10-07T15:22:20Z,MRI,Rule out bleeding,completed,routine
+C,32,38,1,2025-06-24T07:10:51Z,ECG,Rule out fracture,completed,urgent
+C,33,42,10,2023-11-22T19:31:53Z,Chest X-ray,Rule out fracture,pending,urgent
+C,34,43,20,2024-04-09T06:45:57Z,MRI,Rule out obstruction,completed,routine
+C,35,45,35,2024-09-12T14:49:46Z,CT scan,Rule out fracture,completed,routine
+C,36,46,3,2024-06-11T05:51:40Z,Blood panel,Rule out bleeding,completed,routine
+C,37,47,4,2024-12-29T08:53:33Z,MRI,Rule out ischemia,completed,routine
+C,38,47,3,2024-12-29T08:59:04Z,Blood panel,Rule out infection,completed,routine
+C,39,49,30,2025-01-22T01:09:22Z,Ultrasound,Rule out bleeding,completed,urgent
+C,40,49,4,2025-01-19T21:50:31Z,CT scan,Rule out obstruction,completed,routine
+C,41,52,15,2024-09-30T23:49:06Z,CT scan,Rule out fracture,pending,routine
+C,42,52,15,2024-10-01T15:41:06Z,Ultrasound,Rule out obstruction,completed,urgent
+C,43,53,20,2025-01-10T05:22:19Z,Ultrasound,Rule out bleeding,cancelled,urgent
+C,44,55,25,2025-12-30T05:40:31Z,CT scan,Rule out obstruction,completed,routine
+C,45,56,10,2025-02-10T08:39:13Z,Chest X-ray,Rule out ischemia,cancelled,routine
+C,46,57,30,2025-08-26T23:29:19Z,CT scan,Rule out fracture,completed,routine
+C,47,57,40,2025-08-27T05:00:45Z,Blood panel,Rule out ischemia,completed,urgent
+C,48,58,35,2023-12-14T06:07:26Z,Blood panel,Rule out ischemia,completed,routine
+C,49,58,3,2023-12-15T00:39:37Z,Ultrasound,Rule out ischemia,completed,routine
+C,50,60,2,2024-07-17T17:39:33Z,MRI,Rule out fracture,completed,urgent
+C,51,61,25,2025-07-15T10:56:45Z,Ultrasound,Rule out fracture,completed,routine
+C,52,62,20,2025-05-22T08:13:31Z,Blood panel,Rule out obstruction,completed,routine
+C,53,63,40,2025-10-22T19:23:35Z,MRI,Rule out ischemia,completed,routine
+C,54,67,20,2024-03-09T16:40:59Z,Ultrasound,Rule out bleeding,completed,urgent
+C,55,68,5,2024-07-31T23:41:27Z,Ultrasound,Rule out infection,completed,routine
+C,56,72,2,2026-08-26T04:14:37Z,ECG,Rule out fracture,completed,stat
+C,57,72,20,2026-08-26T06:36:41Z,Blood panel,Rule out bleeding,completed,urgent
+C,58,73,4,2024-08-06T00:03:38Z,ECG,Rule out ischemia,completed,routine
+C,59,74,40,2025-08-14T03:19:38Z,Chest X-ray,Rule out fracture,pending,urgent
+C,60,74,5,2025-08-15T10:03:02Z,Ultrasound,Rule out fracture,completed,stat
+C,61,76,30,2025-04-05T21:50:47Z,Chest X-ray,Rule out fracture,completed,routine
+C,62,80,35,2025-02-25T08:57:44Z,Chest X-ray,Rule out bleeding,completed,routine
+C,63,81,30,2023-01-03T05:33:32Z,ECG,Rule out bleeding,pending,urgent
+C,64,83,15,2023-03-02T12:18:44Z,CT scan,Rule out obstruction,completed,routine
+C,65,85,5,2024-01-31T00:49:46Z,ECG,Rule out bleeding,completed,urgent
+C,66,85,10,2024-01-30T18:18:46Z,ECG,Rule out obstruction,completed,urgent
+C,67,86,30,2025-02-18T15:52:07Z,Ultrasound,Rule out fracture,completed,routine
+C,68,87,5,2025-05-29T11:05:03Z,Blood panel,Rule out fracture,completed,routine
+C,69,88,25,2025-09-16T00:26:18Z,Blood panel,Rule out ischemia,completed,urgent
+C,70,88,35,2025-09-18T08:35:47Z,MRI,Rule out fracture,completed,routine
+C,71,91,3,2025-02-27T17:15:04Z,Chest X-ray,Rule out obstruction,in_progress,routine
+C,72,92,40,2023-12-23T01:09:00Z,Chest X-ray,Rule out ischemia,pending,routine
+C,73,93,1,2023-12-27T10:21:28Z,CT scan,Rule out fracture,in_progress,urgent
+C,74,94,20,2024-10-05T11:51:20Z,Chest X-ray,Rule out obstruction,in_progress,routine
+C,75,96,10,2025-11-02T19:51:30Z,CT scan,Rule out infection,in_progress,routine
+C,76,98,25,2024-01-29T20:42:54Z,CT scan,Rule out obstruction,pending,stat
+C,77,100,20,2024-10-21T20:38:40Z,Blood panel,Rule out ischemia,completed,urgent
+C,78,101,40,2023-03-05T18:07:14Z,Blood panel,Rule out obstruction,in_progress,routine
+C,79,105,1,2025-09-12T23:58:28Z,ECG,Rule out infection,completed,routine
+C,80,105,25,2025-09-12T23:30:20Z,MRI,Rule out bleeding,completed,stat
+C,81,108,35,2024-07-17T04:05:35Z,Chest X-ray,Rule out fracture,pending,routine
+C,82,108,3,2024-07-17T03:40:39Z,CT scan,Rule out obstruction,completed,routine
+C,83,110,4,2025-04-28T08:00:05Z,Blood panel,Rule out fracture,pending,urgent
+C,84,111,1,2024-05-03T11:30:08Z,Ultrasound,Rule out bleeding,completed,urgent
+C,85,111,2,2024-05-02T04:16:46Z,Blood panel,Rule out fracture,cancelled,urgent
+C,86,112,20,2024-07-21T04:40:43Z,MRI,Rule out infection,completed,routine
+C,87,112,25,2024-07-23T15:45:02Z,Chest X-ray,Rule out infection,completed,urgent
+C,88,113,15,2024-08-22T16:54:55Z,MRI,Rule out infection,cancelled,routine
+C,89,114,5,2024-11-24T16:08:52Z,Ultrasound,Rule out bleeding,in_progress,routine
+C,90,114,4,2024-11-25T08:59:18Z,CT scan,Rule out ischemia,completed,routine
+C,91,116,15,2025-05-27T20:46:43Z,Blood panel,Rule out bleeding,completed,routine
+C,92,116,10,2025-05-29T01:48:20Z,Ultrasound,Rule out infection,completed,routine
+C,93,118,4,2024-02-21T02:53:24Z,Chest X-ray,Rule out bleeding,completed,urgent
+C,94,120,5,2023-12-09T05:18:25Z,Blood panel,Rule out fracture,completed,routine
+C,95,122,40,2024-07-03T15:05:31Z,Ultrasound,Rule out infection,completed,routine
+C,96,122,3,2024-07-04T03:18:38Z,MRI,Rule out infection,completed,urgent
+C,97,125,2,2025-01-24T05:28:46Z,Blood panel,Rule out obstruction,completed,routine
+C,98,125,10,2025-01-24T10:13:36Z,Blood panel,Rule out fracture,completed,routine
+C,99,127,35,2024-04-04T23:55:00Z,CT scan,Rule out ischemia,completed,urgent
+C,100,127,2,2024-04-04T20:18:48Z,MRI,Rule out fracture,in_progress,urgent
+C,101,128,30,2024-10-18T23:54:07Z,Ultrasound,Rule out ischemia,completed,stat
+C,102,130,15,2023-09-20T07:38:39Z,Chest X-ray,Rule out bleeding,completed,routine
+C,103,131,20,2023-11-23T01:07:21Z,MRI,Rule out obstruction,completed,routine
+C,104,131,35,2023-11-23T15:29:50Z,ECG,Rule out bleeding,completed,routine
+C,105,132,25,2025-01-11T13:28:18Z,Blood panel,Rule out fracture,completed,routine
+C,106,137,20,2026-03-09T16:16:07Z,CT scan,Rule out obstruction,completed,routine
+C,107,138,40,2025-07-07T21:55:33Z,ECG,Rule out obstruction,pending,urgent
+C,108,140,5,2025-08-17T17:18:02Z,Ultrasound,Rule out bleeding,completed,routine
+C,109,142,3,2025-04-12T01:15:55Z,Ultrasound,Rule out obstruction,completed,urgent
+C,110,142,5,2025-04-12T07:07:15Z,ECG,Rule out infection,completed,routine
+C,111,143,40,2025-06-04T09:49:43Z,ECG,Rule out bleeding,completed,urgent
+C,112,144,30,2026-02-23T06:38:05Z,MRI,Rule out fracture,completed,routine
+C,113,144,5,2026-02-25T14:46:49Z,ECG,Rule out bleeding,completed,routine
+C,114,145,35,2026-10-06T20:58:13Z,MRI,Rule out fracture,completed,stat
+C,115,146,40,2023-09-21T11:40:43Z,Chest X-ray,Rule out obstruction,completed,routine
+C,116,148,1,2024-07-15T11:34:15Z,Ultrasound,Rule out fracture,completed,urgent
+C,118,150,5,2024-11-13T11:48:32Z,Ultrasound,Rule out infection,completed,routine
+C,119,151,3,2025-06-19T18:17:10Z,MRI,Rule out ischemia,cancelled,routine
+C,120,151,2,2025-06-18T17:45:21Z,Ultrasound,Rule out bleeding,completed,urgent
+C,121,155,25,2023-07-14T12:16:43Z,Ultrasound,Rule out bleeding,completed,routine
+C,122,156,40,2024-04-02T13:42:02Z,Chest X-ray,Rule out obstruction,completed,routine
+C,124,159,5,2024-09-21T09:15:57Z,Blood panel,Rule out infection,in_progress,routine
+C,125,161,5,2023-07-06T08:27:23Z,ECG,Rule out fracture,cancelled,urgent
+C,126,164,3,2024-06-02T12:22:02Z,Chest X-ray,Rule out ischemia,completed,urgent
+C,127,168,3,2024-02-21T13:51:24Z,Chest X-ray,Rule out ischemia,completed,routine
+C,129,176,1,2025-03-20T16:10:55Z,Blood panel,Rule out fracture,completed,routine
+C,130,177,2,2023-05-09T19:51:14Z,ECG,Rule out infection,completed,routine
+C,131,178,1,2024-03-09T20:38:10Z,Ultrasound,Rule out obstruction,completed,stat
+C,132,179,30,2025-06-12T04:20:48Z,Blood panel,Rule out fracture,in_progress,urgent
+C,133,181,20,2024-01-27T05:21:52Z,ECG,Rule out fracture,completed,routine
+C,134,182,5,2024-10-08T22:23:47Z,MRI,Rule out bleeding,completed,routine
+C,135,184,30,2024-07-18T06:12:12Z,Ultrasound,Rule out ischemia,in_progress,routine
+C,136,188,3,2025-07-30T11:26:05Z,ECG,Rule out infection,pending,stat
+C,137,188,15,2025-07-29T02:37:55Z,Blood panel,Rule out ischemia,completed,urgent
+C,138,189,5,2025-04-08T13:52:37Z,MRI,Rule out fracture,completed,urgent
+C,139,190,5,2026-01-06T16:41:38Z,ECG,Rule out fracture,completed,routine
+C,140,192,15,2025-07-08T10:49:56Z,Blood panel,Rule out obstruction,completed,urgent
+C,141,193,2,2025-10-12T16:31:30Z,ECG,Rule out bleeding,pending,routine
+C,142,194,35,2024-10-15T10:11:38Z,Blood panel,Rule out obstruction,completed,routine
+C,143,194,2,2024-10-13T10:23:15Z,ECG,Rule out ischemia,completed,stat
+C,144,197,1,2023-06-02T19:58:56Z,Ultrasound,Rule out ischemia,completed,urgent
+C,145,198,20,2023-08-17T12:27:55Z,Ultrasound,Rule out ischemia,pending,routine
+C,146,201,1,2023-11-27T07:13:50Z,CT scan,Rule out ischemia,completed,routine
+C,147,202,40,2024-09-01T21:15:29Z,Chest X-ray,Rule out infection,in_progress,urgent
+C,148,203,10,2025-09-08T16:29:38Z,MRI,Rule out bleeding,completed,routine
+C,149,205,30,2026-05-05T21:53:06Z,Ultrasound,Rule out ischemia,cancelled,stat
+C,150,206,15,2025-02-02T08:53:06Z,Blood panel,Rule out ischemia,completed,routine
+C,151,210,5,2025-09-21T04:57:37Z,Ultrasound,Rule out ischemia,completed,urgent
+C,152,211,5,2026-04-16T22:19:31Z,ECG,Rule out infection,pending,routine
+C,153,213,5,2024-01-10T13:05:55Z,CT scan,Rule out ischemia,completed,routine
+C,154,215,15,2025-02-06T14:51:52Z,MRI,Rule out ischemia,completed,stat
+C,155,216,2,2023-11-27T00:28:31Z,Ultrasound,Rule out bleeding,completed,urgent
+C,156,216,2,2023-11-26T00:48:03Z,ECG,Rule out ischemia,completed,stat
+C,157,217,15,2024-06-17T11:21:40Z,Blood panel,Rule out obstruction,completed,routine
+C,158,219,10,2025-09-12T17:49:12Z,CT scan,Rule out fracture,completed,routine
+C,159,220,10,2024-05-05T04:36:55Z,MRI,Rule out ischemia,cancelled,urgent
+C,160,222,40,2025-03-21T14:06:21Z,Ultrasound,Rule out infection,pending,stat
+C,161,223,15,2023-12-17T17:37:58Z,CT scan,Rule out ischemia,completed,urgent
+C,162,224,40,2023-07-15T09:57:37Z,CT scan,Rule out fracture,completed,stat
+C,163,225,25,2023-09-06T23:02:59Z,Chest X-ray,Rule out infection,completed,routine
+C,164,225,10,2023-09-07T10:33:39Z,CT scan,Rule out infection,completed,urgent
+C,165,231,35,2024-07-11T00:32:42Z,ECG,Rule out infection,completed,routine
+C,166,234,2,2025-02-22T01:45:56Z,Blood panel,Rule out bleeding,completed,routine
+C,167,238,3,2023-02-15T03:39:16Z,MRI,Rule out bleeding,completed,urgent
+C,168,240,5,2026-04-04T08:54:05Z,MRI,Rule out ischemia,completed,routine
+C,169,243,35,2024-05-20T05:15:07Z,Blood panel,Rule out obstruction,completed,urgent
+C,170,245,10,2023-07-13T01:08:09Z,Ultrasound,Rule out bleeding,completed,routine
+C,171,246,1,2024-06-17T12:49:26Z,Ultrasound,Rule out fracture,completed,routine
+C,172,246,4,2024-06-17T13:21:28Z,Chest X-ray,Rule out bleeding,completed,routine
+C,173,247,2,2024-11-06T12:00:13Z,Ultrasound,Rule out infection,completed,routine
+C,174,250,40,2023-08-18T13:37:57Z,MRI,Rule out ischemia,completed,routine
+C,175,250,3,2023-08-19T18:32:29Z,Chest X-ray,Rule out obstruction,completed,stat
+C,176,255,15,2026-04-03T00:51:43Z,Ultrasound,Rule out fracture,completed,routine
+C,177,258,1,2025-04-08T01:35:43Z,MRI,Rule out ischemia,completed,urgent
+C,178,259,35,2025-08-29T08:04:55Z,Chest X-ray,Rule out fracture,completed,routine
+C,179,260,5,2025-06-20T07:43:18Z,MRI,Rule out bleeding,completed,stat
+C,180,261,3,2026-01-22T01:52:21Z,Chest X-ray,Rule out fracture,in_progress,routine
+C,182,263,5,2025-06-03T17:47:50Z,ECG,Rule out infection,completed,urgent
+C,183,264,30,2025-12-15T00:20:48Z,ECG,Rule out infection,completed,routine
+C,184,265,2,2025-07-02T05:36:36Z,Blood panel,Rule out infection,completed,urgent
+C,185,265,25,2025-07-03T15:45:24Z,ECG,Rule out ischemia,pending,routine
+C,186,266,15,2026-01-27T21:13:52Z,CT scan,Rule out fracture,completed,routine
+C,187,267,30,2026-05-31T22:22:15Z,CT scan,Rule out fracture,completed,stat
+C,188,268,25,2026-07-17T20:05:49Z,MRI,Rule out obstruction,pending,stat
+C,189,269,25,2026-08-22T20:42:35Z,Chest X-ray,Rule out fracture,pending,urgent
+C,190,276,15,2023-07-14T00:20:41Z,Blood panel,Rule out fracture,completed,routine
+C,191,276,2,2023-07-13T23:57:49Z,MRI,Rule out infection,completed,urgent
+C,193,281,20,2024-10-30T11:45:27Z,ECG,Rule out ischemia,completed,urgent
+C,194,283,2,2023-07-28T11:09:46Z,CT scan,Rule out infection,completed,routine
+C,195,284,2,2024-05-29T21:41:25Z,MRI,Rule out infection,completed,routine
+C,196,285,35,2025-01-04T20:54:07Z,Ultrasound,Rule out fracture,completed,routine
+C,197,285,30,2025-01-04T05:33:33Z,Blood panel,Rule out fracture,completed,routine
+C,198,289,3,2023-02-09T18:27:07Z,Chest X-ray,Rule out infection,completed,urgent
+C,199,290,15,2023-11-28T18:36:58Z,ECG,Rule out infection,completed,routine
+C,201,291,20,2024-09-21T11:19:33Z,Chest X-ray,Rule out fracture,completed,routine
+C,205,296,30,2023-08-29T21:46:40Z,ECG,Rule out infection,pending,urgent
+C,206,301,40,2024-10-24T13:25:55Z,MRI,Rule out bleeding,pending,urgent
+C,207,305,40,2024-09-16T09:52:25Z,ECG,Rule out infection,completed,routine
+C,208,308,40,2026-09-29T04:40:47Z,Ultrasound,Rule out bleeding,completed,urgent
+C,209,309,5,2023-04-19T03:16:41Z,CT scan,Rule out infection,cancelled,routine
+C,211,312,4,2023-01-31T05:05:55Z,ECG,Rule out obstruction,completed,routine
+C,212,316,3,2025-08-19T13:04:48Z,ECG,Rule out infection,completed,routine
+C,213,319,1,2024-12-21T08:07:48Z,Chest X-ray,Rule out ischemia,in_progress,routine
+C,214,320,10,2023-12-29T06:37:12Z,Chest X-ray,Rule out ischemia,completed,routine
+C,215,321,40,2024-09-16T10:28:53Z,Blood panel,Rule out ischemia,completed,routine
+C,216,321,15,2024-09-15T08:12:02Z,Ultrasound,Rule out obstruction,completed,stat
+C,217,323,1,2023-11-05T16:20:57Z,Chest X-ray,Rule out obstruction,in_progress,routine
+C,218,323,5,2023-11-05T22:10:30Z,Chest X-ray,Rule out fracture,pending,routine
+C,219,326,10,2024-07-19T20:30:50Z,Chest X-ray,Rule out obstruction,completed,routine
+C,221,328,10,2023-01-12T23:54:52Z,Ultrasound,Rule out obstruction,completed,routine
+C,222,329,5,2023-03-21T02:39:21Z,Blood panel,Rule out infection,completed,routine
+C,223,330,1,2024-01-02T10:26:43Z,MRI,Rule out bleeding,completed,routine
+C,224,334,30,2023-04-18T10:24:43Z,Chest X-ray,Rule out ischemia,pending,stat
+C,225,335,2,2023-10-25T03:27:06Z,ECG,Rule out bleeding,completed,routine
+C,226,336,20,2024-03-25T16:04:07Z,Ultrasound,Rule out obstruction,completed,urgent
+C,227,336,4,2024-03-28T03:54:20Z,ECG,Rule out infection,in_progress,routine
+C,228,337,10,2025-09-03T16:39:42Z,Blood panel,Rule out bleeding,pending,routine
+C,229,337,4,2025-09-05T00:13:21Z,ECG,Rule out obstruction,pending,routine
+C,230,338,25,2025-06-07T04:03:52Z,MRI,Rule out infection,completed,routine
+C,231,342,10,2023-06-04T21:02:37Z,Ultrasound,Rule out bleeding,completed,routine
+C,232,342,4,2023-06-03T06:27:18Z,Ultrasound,Rule out infection,completed,routine
+C,233,343,3,2024-01-26T20:24:43Z,CT scan,Rule out ischemia,completed,urgent
+C,234,344,15,2023-02-12T10:10:53Z,Chest X-ray,Rule out fracture,pending,stat
+C,235,344,2,2023-02-13T23:21:07Z,Chest X-ray,Rule out infection,completed,routine
+C,236,345,10,2023-05-30T20:29:44Z,CT scan,Rule out fracture,completed,urgent
+C,237,346,3,2023-09-10T11:42:52Z,Blood panel,Rule out ischemia,completed,routine
+C,238,347,10,2024-01-12T10:03:30Z,Blood panel,Rule out bleeding,completed,routine
+C,239,348,35,2023-06-12T21:30:46Z,Ultrasound,Rule out bleeding,completed,stat
+C,240,349,40,2025-01-24T10:37:01Z,MRI,Rule out obstruction,completed,routine
+C,241,350,10,2024-04-18T03:41:06Z,Ultrasound,Rule out bleeding,completed,routine
+C,242,351,20,2024-09-17T15:19:02Z,CT scan,Rule out infection,completed,routine
+C,243,352,25,2025-05-04T20:21:39Z,MRI,Rule out ischemia,completed,routine
+C,244,353,25,2023-03-15T13:02:33Z,ECG,Rule out obstruction,pending,urgent
+C,245,354,40,2023-05-27T05:11:03Z,Ultrasound,Rule out ischemia,pending,routine
+C,246,355,1,2024-01-12T05:05:08Z,Blood panel,Rule out obstruction,completed,routine
+C,247,356,2,2025-09-16T19:59:17Z,CT scan,Rule out ischemia,completed,routine
+C,248,359,40,2026-08-25T05:51:46Z,Chest X-ray,Rule out bleeding,completed,urgent
+C,249,360,3,2024-06-19T22:41:45Z,Ultrasound,Rule out ischemia,completed,stat
+C,250,365,15,2024-07-27T19:23:46Z,Ultrasound,Rule out ischemia,completed,routine
+C,251,366,35,2024-11-12T02:25:59Z,ECG,Rule out obstruction,completed,routine
+C,252,368,30,2025-09-12T17:56:44Z,MRI,Rule out obstruction,completed,routine
+C,253,369,2,2024-04-13T07:56:29Z,Ultrasound,Rule out obstruction,completed,routine
+C,254,369,25,2024-04-13T12:28:29Z,CT scan,Rule out ischemia,completed,routine
+C,255,370,4,2024-07-08T00:58:17Z,MRI,Rule out bleeding,completed,routine
+C,256,371,20,2025-04-24T20:21:38Z,Chest X-ray,Rule out ischemia,pending,routine
+C,257,371,10,2025-04-25T18:05:35Z,Blood panel,Rule out bleeding,in_progress,urgent
+C,258,372,15,2024-09-16T03:59:31Z,ECG,Rule out bleeding,in_progress,routine
+C,259,374,30,2024-03-21T13:34:54Z,MRI,Rule out infection,completed,routine
+C,260,375,35,2025-01-16T18:25:42Z,Ultrasound,Rule out infection,pending,routine
+C,261,376,2,2025-10-08T12:16:12Z,ECG,Rule out bleeding,completed,routine
+C,262,378,25,2025-04-16T04:34:19Z,Blood panel,Rule out obstruction,completed,routine
+C,263,379,4,2023-11-28T15:36:57Z,ECG,Rule out obstruction,completed,routine
+C,264,380,4,2024-06-05T02:03:04Z,CT scan,Rule out ischemia,cancelled,urgent
+C,265,381,3,2025-01-03T06:29:46Z,Blood panel,Rule out bleeding,cancelled,routine
+C,266,383,15,2024-09-25T04:38:27Z,Chest X-ray,Rule out infection,completed,urgent
+C,267,384,30,2025-01-05T02:58:21Z,Chest X-ray,Rule out obstruction,completed,routine
+C,268,385,15,2025-08-15T15:47:55Z,Blood panel,Rule out infection,completed,routine
+C,269,386,2,2025-07-25T13:33:51Z,ECG,Rule out infection,completed,routine
+C,270,387,5,2026-05-12T01:45:31Z,MRI,Rule out infection,completed,stat
+C,271,387,2,2026-05-12T04:52:53Z,Blood panel,Rule out ischemia,completed,urgent
+C,272,388,10,2023-09-12T08:19:42Z,CT scan,Rule out ischemia,completed,urgent
+C,273,391,3,2025-05-28T22:45:28Z,Blood panel,Rule out infection,completed,routine
+C,274,392,3,2025-08-30T03:38:19Z,CT scan,Rule out fracture,completed,urgent
+C,275,392,10,2025-08-30T05:25:42Z,MRI,Rule out fracture,cancelled,routine
+C,276,393,15,2026-01-02T06:43:01Z,Blood panel,Rule out obstruction,pending,urgent
+C,277,397,40,2025-01-11T16:17:32Z,Ultrasound,Rule out ischemia,completed,urgent
+C,278,397,35,2025-01-09T21:05:12Z,CT scan,Rule out obstruction,completed,urgent
+C,279,398,30,2024-09-20T14:25:35Z,Blood panel,Rule out ischemia,pending,stat
+C,280,399,25,2025-06-04T17:06:19Z,MRI,Rule out fracture,completed,routine
+C,281,403,25,2026-04-24T20:47:56Z,Blood panel,Rule out fracture,cancelled,routine
+C,282,406,5,2023-02-17T19:45:19Z,ECG,Rule out bleeding,completed,urgent
+C,283,407,2,2023-07-22T12:32:03Z,Chest X-ray,Rule out bleeding,cancelled,routine
+C,284,407,20,2023-07-22T18:39:35Z,MRI,Rule out infection,pending,routine
+C,285,408,3,2025-01-07T21:20:53Z,Ultrasound,Rule out bleeding,cancelled,routine
+C,286,415,40,2023-08-08T05:23:06Z,MRI,Rule out ischemia,completed,urgent
+C,287,416,10,2025-08-16T19:27:32Z,Blood panel,Rule out ischemia,completed,routine
+C,288,416,20,2025-08-14T16:58:54Z,ECG,Rule out infection,completed,stat
+C,290,419,25,2024-07-08T15:33:35Z,CT scan,Rule out fracture,pending,routine
+C,291,420,25,2024-08-10T10:57:11Z,Blood panel,Rule out bleeding,completed,routine
+C,292,420,20,2024-08-09T10:44:44Z,Chest X-ray,Rule out ischemia,cancelled,routine
+C,293,421,3,2025-01-28T18:00:09Z,Chest X-ray,Rule out ischemia,completed,routine
+C,294,421,20,2025-01-28T08:48:30Z,MRI,Rule out bleeding,cancelled,urgent
+C,295,422,3,2025-05-05T18:48:02Z,Chest X-ray,Rule out ischemia,completed,urgent
+C,296,422,5,2025-05-05T19:39:00Z,Ultrasound,Rule out infection,completed,routine
+C,297,424,10,2025-10-14T01:15:30Z,Blood panel,Rule out obstruction,completed,urgent
+C,298,425,15,2023-08-30T04:52:39Z,Blood panel,Rule out bleeding,completed,urgent
+C,299,427,4,2023-12-28T21:00:53Z,Ultrasound,Rule out bleeding,completed,routine
+C,300,427,20,2023-12-28T09:20:21Z,Chest X-ray,Rule out infection,completed,stat
+C,301,428,15,2024-10-23T01:08:35Z,Chest X-ray,Rule out ischemia,completed,urgent
+C,302,430,30,2024-11-25T11:39:51Z,Ultrasound,Rule out ischemia,in_progress,routine
+C,303,431,30,2025-02-23T19:18:41Z,Ultrasound,Rule out bleeding,completed,routine
+C,304,432,4,2023-04-17T07:42:27Z,Chest X-ray,Rule out bleeding,completed,routine
+C,305,432,5,2023-04-18T19:54:02Z,MRI,Rule out infection,pending,urgent
+C,306,433,4,2023-08-13T21:54:17Z,CT scan,Rule out ischemia,completed,routine
+C,307,437,10,2025-01-13T10:06:38Z,Blood panel,Rule out infection,completed,urgent
+C,308,437,5,2025-01-13T08:19:02Z,MRI,Rule out obstruction,completed,stat
+C,309,438,30,2024-03-02T16:09:42Z,Chest X-ray,Rule out ischemia,completed,routine
+C,310,439,15,2024-08-22T04:10:01Z,CT scan,Rule out fracture,pending,routine
+C,311,441,30,2023-10-06T21:21:32Z,MRI,Rule out infection,completed,routine
+C,312,442,15,2024-07-28T05:25:37Z,ECG,Rule out infection,completed,urgent
+C,313,443,1,2023-04-06T02:27:27Z,Blood panel,Rule out bleeding,completed,urgent
+C,314,444,25,2023-07-12T23:15:56Z,Chest X-ray,Rule out ischemia,completed,routine
+C,315,445,4,2024-05-02T01:38:07Z,MRI,Rule out ischemia,completed,routine
+C,316,445,20,2024-05-03T11:56:19Z,Blood panel,Rule out bleeding,completed,urgent
+C,317,446,1,2023-12-14T16:08:51Z,MRI,Rule out infection,completed,routine
+C,318,448,3,2025-04-20T15:46:12Z,ECG,Rule out ischemia,completed,stat
+C,319,450,1,2026-03-03T17:15:47Z,Chest X-ray,Rule out obstruction,completed,routine
+C,320,451,4,2026-05-05T20:55:03Z,Chest X-ray,Rule out fracture,pending,routine
+C,321,452,35,2026-10-15T06:28:47Z,ECG,Rule out bleeding,cancelled,routine
+C,322,455,10,2023-08-26T13:06:14Z,CT scan,Rule out fracture,completed,urgent
+C,323,457,4,2024-11-07T12:24:48Z,Chest X-ray,Rule out bleeding,completed,routine
+C,325,461,5,2024-10-30T19:57:50Z,Chest X-ray,Rule out infection,cancelled,urgent
+C,326,461,5,2024-10-31T02:43:56Z,Chest X-ray,Rule out obstruction,pending,urgent
+C,327,462,35,2025-03-11T02:37:19Z,CT scan,Rule out bleeding,completed,routine
+C,328,462,2,2025-03-11T05:19:27Z,Chest X-ray,Rule out obstruction,in_progress,urgent
+C,332,468,10,2024-07-24T07:49:12Z,MRI,Rule out obstruction,pending,routine
+C,333,470,2,2025-12-06T02:02:34Z,ECG,Rule out bleeding,completed,routine
+C,334,473,2,2023-10-05T21:39:34Z,ECG,Rule out bleeding,completed,routine
+C,335,474,1,2023-07-19T12:22:26Z,Chest X-ray,Rule out fracture,completed,urgent
+C,336,476,3,2024-12-23T06:44:25Z,MRI,Rule out fracture,completed,urgent
+C,337,476,25,2024-12-23T05:27:16Z,ECG,Rule out obstruction,pending,routine
+C,338,477,5,2023-11-19T10:38:30Z,Ultrasound,Rule out bleeding,completed,urgent
+C,339,478,1,2024-04-15T15:27:03Z,Blood panel,Rule out bleeding,completed,routine
+C,340,478,25,2024-04-15T19:38:33Z,CT scan,Rule out bleeding,pending,urgent
+C,341,479,5,2023-10-13T00:04:28Z,CT scan,Rule out obstruction,completed,routine
+C,342,481,30,2024-11-18T02:55:06Z,Chest X-ray,Rule out ischemia,cancelled,urgent
+C,343,481,10,2024-11-19T05:18:20Z,Chest X-ray,Rule out bleeding,completed,urgent
+C,344,482,30,2023-12-02T18:34:11Z,CT scan,Rule out bleeding,completed,urgent
+C,345,483,5,2024-02-25T04:01:27Z,CT scan,Rule out infection,in_progress,urgent
+C,346,483,5,2024-02-26T16:27:38Z,CT scan,Rule out obstruction,completed,routine
+C,347,484,3,2025-01-24T12:55:59Z,CT scan,Rule out obstruction,completed,urgent
+C,348,485,15,2025-05-25T06:22:23Z,MRI,Rule out ischemia,completed,stat
+C,349,485,1,2025-05-25T21:13:35Z,MRI,Rule out fracture,completed,stat
+C,350,487,25,2025-06-22T18:08:28Z,Blood panel,Rule out obstruction,completed,routine
+C,351,488,35,2026-03-26T05:52:22Z,Blood panel,Rule out bleeding,completed,urgent
+C,352,489,3,2025-06-15T20:12:07Z,CT scan,Rule out infection,completed,routine
+C,353,490,2,2025-05-12T18:16:53Z,MRI,Rule out fracture,pending,routine
+C,354,490,40,2025-05-12T00:45:19Z,MRI,Rule out ischemia,completed,urgent
+C,355,491,1,2025-06-25T13:44:33Z,MRI,Rule out obstruction,completed,stat
+C,356,492,2,2023-01-06T17:48:47Z,Chest X-ray,Rule out obstruction,cancelled,routine
+C,357,492,20,2023-01-06T17:05:11Z,CT scan,Rule out infection,completed,urgent
+C,358,494,15,2025-05-19T17:07:36Z,MRI,Rule out fracture,completed,urgent
+C,359,496,2,2023-10-20T23:39:08Z,Ultrasound,Rule out fracture,completed,urgent
+C,360,497,30,2024-07-03T21:49:54Z,ECG,Rule out ischemia,cancelled,urgent
+C,361,497,15,2024-07-03T03:17:10Z,ECG,Rule out fracture,completed,stat
+C,362,498,4,2025-07-19T05:57:54Z,Blood panel,Rule out obstruction,completed,urgent
+C,363,499,35,2024-10-13T08:17:10Z,MRI,Rule out fracture,completed,routine
+C,364,501,5,2025-04-26T03:54:39Z,ECG,Rule out infection,completed,routine
+C,365,502,2,2025-09-13T13:52:20Z,CT scan,Rule out obstruction,in_progress,urgent
+C,366,502,15,2025-09-14T14:12:05Z,Chest X-ray,Rule out fracture,in_progress,urgent
+C,367,504,30,2026-09-05T00:36:14Z,CT scan,Rule out obstruction,pending,routine
+C,369,509,40,2024-08-22T08:21:49Z,Blood panel,Rule out ischemia,completed,routine
+C,370,511,5,2024-02-14T01:08:50Z,Blood panel,Rule out obstruction,cancelled,urgent
+C,371,512,3,2023-01-13T15:06:35Z,MRI,Rule out fracture,completed,routine
+C,372,515,25,2024-03-09T09:57:21Z,Ultrasound,Rule out infection,completed,routine
+C,373,518,20,2024-02-06T16:08:14Z,CT scan,Rule out infection,completed,routine
+C,374,518,10,2024-02-08T05:38:03Z,ECG,Rule out fracture,completed,routine
+C,375,520,20,2023-08-18T08:57:23Z,Chest X-ray,Rule out bleeding,completed,routine
+C,376,521,40,2024-02-01T13:25:03Z,Blood panel,Rule out fracture,pending,routine
+C,377,522,20,2024-04-08T21:25:04Z,MRI,Rule out fracture,completed,urgent
+C,378,523,40,2025-02-05T08:32:00Z,Ultrasound,Rule out obstruction,completed,routine
+C,379,527,30,2024-11-08T17:25:54Z,Ultrasound,Rule out infection,completed,routine
+C,380,527,20,2024-11-08T01:02:40Z,Chest X-ray,Rule out bleeding,in_progress,urgent
+C,381,529,40,2024-05-06T14:49:21Z,Chest X-ray,Rule out bleeding,pending,stat
+C,382,531,1,2025-05-04T19:59:29Z,Blood panel,Rule out infection,completed,stat
+C,383,531,1,2025-05-03T09:10:22Z,Ultrasound,Rule out ischemia,completed,urgent
+C,384,534,10,2023-10-28T20:56:08Z,ECG,Rule out infection,completed,routine
+C,385,534,15,2023-10-28T20:39:53Z,CT scan,Rule out ischemia,completed,urgent
+C,389,540,40,2023-11-01T20:25:39Z,CT scan,Rule out obstruction,completed,urgent
+C,390,544,5,2024-10-11T13:17:45Z,Blood panel,Rule out bleeding,completed,routine
+C,391,545,30,2025-07-03T06:58:01Z,ECG,Rule out fracture,completed,routine
+C,392,546,1,2026-01-22T02:43:45Z,Blood panel,Rule out bleeding,completed,stat
+C,393,546,25,2026-01-21T08:01:36Z,CT scan,Rule out bleeding,completed,routine
+C,394,547,4,2026-06-27T23:52:13Z,MRI,Rule out obstruction,completed,routine
+C,395,554,1,2023-11-28T15:33:31Z,Blood panel,Rule out fracture,completed,routine
+C,396,554,2,2023-11-28T19:36:35Z,Blood panel,Rule out ischemia,completed,stat
+C,397,555,4,2023-10-05T15:48:32Z,MRI,Rule out ischemia,pending,routine
+C,398,557,35,2024-04-03T22:37:23Z,CT scan,Rule out infection,completed,stat
+C,399,557,1,2024-04-05T06:00:36Z,ECG,Rule out fracture,pending,routine
+C,400,558,5,2024-10-19T17:04:56Z,ECG,Rule out infection,completed,urgent
+C,401,559,3,2023-04-14T09:39:19Z,ECG,Rule out bleeding,pending,urgent
+C,402,559,5,2023-04-14T09:43:14Z,Ultrasound,Rule out infection,pending,urgent
+C,403,560,15,2023-08-15T01:18:01Z,Chest X-ray,Rule out bleeding,completed,urgent
+C,404,561,35,2023-10-31T09:44:29Z,Chest X-ray,Rule out fracture,completed,routine
+C,405,564,15,2024-02-28T22:36:57Z,Chest X-ray,Rule out ischemia,cancelled,routine
+C,406,564,3,2024-02-29T15:56:30Z,CT scan,Rule out ischemia,completed,stat
+C,407,566,4,2024-05-14T04:00:21Z,Blood panel,Rule out bleeding,completed,urgent
+C,408,569,5,2026-10-18T03:09:27Z,ECG,Rule out infection,cancelled,routine
+C,409,572,1,2024-02-21T16:13:39Z,CT scan,Rule out obstruction,completed,urgent
+C,410,572,20,2024-02-21T15:58:46Z,ECG,Rule out bleeding,completed,urgent
+C,411,574,2,2025-10-06T08:41:35Z,Chest X-ray,Rule out ischemia,completed,urgent
+C,412,577,10,2024-03-26T18:58:25Z,Ultrasound,Rule out ischemia,completed,routine
+C,413,579,4,2025-04-10T12:08:23Z,Blood panel,Rule out ischemia,in_progress,urgent
+C,414,579,30,2025-04-10T13:02:24Z,CT scan,Rule out ischemia,completed,stat
+C,418,588,15,2023-12-18T05:26:40Z,CT scan,Rule out bleeding,completed,stat
+C,419,589,20,2024-05-08T00:22:02Z,Ultrasound,Rule out infection,cancelled,urgent
+C,420,592,35,2024-04-29T22:16:58Z,Blood panel,Rule out bleeding,completed,urgent
+C,421,598,4,2024-09-20T06:01:03Z,Chest X-ray,Rule out obstruction,completed,routine
+C,422,600,3,2025-08-12T00:44:58Z,MRI,Rule out bleeding,completed,stat
+C,423,603,35,2025-04-07T07:51:40Z,Chest X-ray,Rule out obstruction,cancelled,routine
+C,424,604,4,2025-11-21T04:22:33Z,Ultrasound,Rule out bleeding,completed,routine
+C,425,606,5,2025-11-30T13:45:24Z,Blood panel,Rule out bleeding,completed,stat
+C,426,609,15,2025-05-20T04:24:42Z,Ultrasound,Rule out bleeding,in_progress,routine
+C,427,609,30,2025-05-21T19:00:21Z,ECG,Rule out fracture,completed,routine
+C,428,610,15,2026-02-27T05:44:35Z,Chest X-ray,Rule out bleeding,completed,routine
+C,429,611,35,2023-03-05T04:13:34Z,MRI,Rule out fracture,completed,routine
+C,430,611,4,2023-03-06T13:18:45Z,ECG,Rule out bleeding,in_progress,routine
+C,431,613,5,2024-07-20T10:26:54Z,Ultrasound,Rule out ischemia,completed,urgent
+C,432,614,3,2025-07-25T11:22:45Z,Chest X-ray,Rule out bleeding,completed,urgent
+C,433,616,15,2025-05-13T02:18:42Z,Chest X-ray,Rule out bleeding,completed,stat
+C,434,617,2,2026-01-14T20:56:16Z,Chest X-ray,Rule out ischemia,completed,routine
+C,435,618,20,2025-09-18T21:20:58Z,MRI,Rule out fracture,completed,routine
+C,436,618,40,2025-09-17T14:23:02Z,CT scan,Rule out fracture,completed,routine
+C,437,619,1,2025-10-27T22:54:25Z,Ultrasound,Rule out ischemia,completed,urgent
+C,438,621,30,2026-09-02T21:36:24Z,Chest X-ray,Rule out fracture,completed,urgent
+C,439,624,15,2023-04-19T01:02:36Z,Ultrasound,Rule out ischemia,completed,stat
+C,440,624,30,2023-04-19T06:06:57Z,Chest X-ray,Rule out bleeding,in_progress,routine
+C,444,631,4,2023-03-27T04:23:35Z,Blood panel,Rule out fracture,completed,routine
+C,445,632,40,2023-06-25T02:41:40Z,ECG,Rule out fracture,pending,routine
+C,446,633,40,2024-01-30T13:54:13Z,Chest X-ray,Rule out obstruction,completed,routine
+C,447,634,40,2023-12-22T12:32:08Z,Chest X-ray,Rule out obstruction,completed,urgent
+C,448,635,35,2024-02-10T06:56:58Z,Ultrasound,Rule out fracture,cancelled,routine
+C,450,638,5,2025-04-18T04:14:39Z,CT scan,Rule out infection,completed,urgent
+C,451,638,40,2025-04-19T05:34:40Z,CT scan,Rule out obstruction,completed,stat
+C,452,641,2,2024-09-13T06:39:42Z,MRI,Rule out bleeding,cancelled,routine
+C,453,642,40,2025-04-06T13:04:51Z,Chest X-ray,Rule out infection,completed,routine
+C,454,643,30,2025-07-05T01:05:20Z,Ultrasound,Rule out infection,completed,stat
+C,455,645,35,2024-10-11T12:08:20Z,Blood panel,Rule out infection,completed,urgent
+C,456,646,3,2025-02-03T04:16:03Z,CT scan,Rule out ischemia,completed,stat
+C,457,647,5,2025-07-30T02:17:56Z,CT scan,Rule out obstruction,completed,routine
+C,458,648,1,2025-09-20T08:22:00Z,CT scan,Rule out infection,completed,routine
+C,459,648,40,2025-09-20T15:22:43Z,CT scan,Rule out bleeding,pending,urgent
+C,460,649,30,2023-06-15T05:59:49Z,Blood panel,Rule out fracture,cancelled,routine
+C,461,652,1,2024-06-16T13:49:56Z,MRI,Rule out bleeding,completed,urgent
+C,462,657,5,2024-06-03T09:16:41Z,MRI,Rule out bleeding,completed,routine
+C,463,660,35,2024-06-30T13:49:36Z,Ultrasound,Rule out bleeding,completed,stat
+C,464,661,40,2024-11-11T18:53:14Z,Ultrasound,Rule out fracture,completed,routine
+C,465,662,1,2025-07-12T23:29:55Z,ECG,Rule out bleeding,pending,routine
+C,466,663,1,2025-11-22T04:39:54Z,MRI,Rule out ischemia,completed,routine
+C,467,663,5,2025-11-21T08:28:09Z,Blood panel,Rule out ischemia,completed,routine
+C,468,664,30,2023-11-02T05:43:00Z,Blood panel,Rule out obstruction,completed,routine
+C,469,664,30,2023-11-02T06:32:19Z,Ultrasound,Rule out ischemia,completed,urgent
+C,470,665,1,2024-05-01T11:27:05Z,Ultrasound,Rule out bleeding,completed,routine
+C,471,665,3,2024-05-01T11:23:27Z,Blood panel,Rule out ischemia,completed,routine
+C,472,666,3,2024-03-28T06:56:02Z,Blood panel,Rule out obstruction,completed,routine
+C,473,667,5,2025-01-21T14:33:02Z,Blood panel,Rule out fracture,in_progress,routine
+C,474,667,30,2025-01-21T04:21:35Z,ECG,Rule out infection,pending,routine
+C,475,668,15,2025-05-18T06:56:00Z,MRI,Rule out obstruction,completed,urgent
+C,476,669,30,2024-10-08T13:50:03Z,Blood panel,Rule out bleeding,completed,urgent
+C,477,669,30,2024-10-08T13:00:36Z,Ultrasound,Rule out obstruction,completed,routine
+C,478,672,4,2025-01-08T22:33:53Z,Blood panel,Rule out ischemia,completed,routine
+C,479,673,15,2025-10-18T11:02:14Z,Blood panel,Rule out fracture,completed,routine
+C,480,673,1,2025-10-18T07:09:54Z,ECG,Rule out fracture,completed,routine
+C,481,674,10,2023-06-25T15:05:50Z,Ultrasound,Rule out infection,completed,routine
+C,482,674,40,2023-06-24T08:46:44Z,MRI,Rule out obstruction,completed,urgent
+C,483,675,3,2024-02-20T09:15:17Z,Chest X-ray,Rule out obstruction,completed,urgent
+C,485,678,4,2024-08-09T01:36:10Z,Chest X-ray,Rule out obstruction,completed,urgent
+C,486,680,5,2025-12-23T13:35:25Z,Ultrasound,Rule out obstruction,cancelled,routine
+C,487,681,3,2024-06-21T07:40:24Z,Ultrasound,Rule out ischemia,completed,routine
+C,488,684,20,2026-02-09T05:50:07Z,Chest X-ray,Rule out ischemia,completed,urgent
+C,489,687,2,2024-06-25T18:21:40Z,CT scan,Rule out ischemia,completed,urgent
+C,490,688,15,2025-04-18T22:29:52Z,Blood panel,Rule out obstruction,completed,urgent
+C,491,690,25,2025-04-28T00:22:11Z,CT scan,Rule out fracture,completed,routine
+C,492,691,2,2025-11-07T00:10:04Z,Chest X-ray,Rule out fracture,completed,routine
+C,493,692,40,2026-01-17T03:30:22Z,ECG,Rule out bleeding,completed,routine
+C,494,692,20,2026-01-17T04:47:26Z,CT scan,Rule out bleeding,completed,routine
+C,495,693,3,2026-07-10T09:22:46Z,MRI,Rule out fracture,completed,stat
+C,496,695,40,2023-12-28T06:55:20Z,ECG,Rule out ischemia,completed,routine
+C,497,696,10,2024-11-04T09:43:20Z,Chest X-ray,Rule out fracture,in_progress,urgent
+C,498,698,2,2023-06-21T07:44:24Z,ECG,Rule out obstruction,completed,routine
+C,499,701,3,2024-08-09T07:49:30Z,Chest X-ray,Rule out infection,completed,routine
+C,500,701,5,2024-08-09T06:31:35Z,Blood panel,Rule out fracture,completed,routine
+C,501,702,2,2023-07-03T23:19:02Z,Chest X-ray,Rule out infection,completed,routine
+C,502,704,10,2024-04-27T19:22:11Z,ECG,Rule out ischemia,cancelled,routine
+C,503,707,3,2025-03-23T20:16:07Z,ECG,Rule out fracture,completed,urgent
+C,504,708,2,2026-01-16T10:15:53Z,Blood panel,Rule out bleeding,completed,routine
+C,505,709,1,2026-10-20T07:17:38Z,Blood panel,Rule out bleeding,cancelled,routine
+C,506,710,5,2023-01-18T06:41:31Z,CT scan,Rule out fracture,completed,urgent
+C,507,711,1,2023-04-23T07:10:01Z,CT scan,Rule out bleeding,pending,urgent
+C,508,711,25,2023-04-23T08:27:54Z,Blood panel,Rule out fracture,completed,urgent
+C,509,712,40,2024-06-14T21:41:01Z,ECG,Rule out ischemia,completed,stat
+C,510,712,30,2024-06-12T15:47:26Z,Ultrasound,Rule out bleeding,completed,routine
+C,511,714,2,2025-05-16T09:59:08Z,CT scan,Rule out ischemia,pending,routine
+C,512,714,3,2025-05-13T19:30:09Z,Blood panel,Rule out infection,completed,routine
+C,513,716,1,2023-10-21T17:21:11Z,Blood panel,Rule out obstruction,cancelled,routine
+C,514,717,3,2025-01-15T15:49:26Z,Blood panel,Rule out obstruction,completed,urgent
+C,515,718,25,2024-07-03T00:08:08Z,Blood panel,Rule out ischemia,completed,routine
+C,516,718,2,2024-07-03T04:51:42Z,MRI,Rule out infection,in_progress,stat
+C,517,722,20,2023-06-17T09:46:51Z,Ultrasound,Rule out obstruction,completed,routine
+C,518,723,4,2025-03-06T18:54:36Z,CT scan,Rule out ischemia,completed,routine
+C,519,724,4,2025-06-05T13:05:19Z,ECG,Rule out bleeding,pending,routine
+C,520,724,20,2025-06-05T15:58:46Z,Ultrasound,Rule out fracture,completed,routine
+C,521,726,15,2023-10-24T21:01:59Z,CT scan,Rule out ischemia,completed,stat
+C,522,726,30,2023-10-24T21:47:12Z,Blood panel,Rule out infection,cancelled,routine
+C,523,729,3,2024-05-30T00:12:46Z,Ultrasound,Rule out bleeding,completed,routine
+C,524,730,35,2023-06-27T01:57:39Z,Ultrasound,Rule out ischemia,completed,urgent
+C,525,731,35,2025-04-06T20:20:14Z,Blood panel,Rule out obstruction,cancelled,routine
+C,526,731,30,2025-04-07T10:16:58Z,CT scan,Rule out fracture,completed,routine
+C,527,732,2,2025-08-05T21:51:08Z,Blood panel,Rule out bleeding,completed,routine
+C,528,734,40,2025-05-25T01:28:04Z,MRI,Rule out obstruction,cancelled,routine
+C,529,735,1,2024-06-20T20:17:23Z,Blood panel,Rule out ischemia,completed,stat
+C,530,742,40,2025-04-27T14:21:32Z,ECG,Rule out infection,in_progress,routine
+C,531,744,35,2024-06-15T14:20:20Z,Blood panel,Rule out obstruction,completed,routine
+C,532,746,40,2025-04-02T05:41:32Z,Blood panel,Rule out bleeding,completed,routine
+C,533,747,10,2025-06-28T08:40:09Z,CT scan,Rule out ischemia,completed,routine
+C,534,747,20,2025-06-29T09:07:29Z,ECG,Rule out ischemia,completed,routine
+C,535,750,3,2023-08-03T14:37:58Z,CT scan,Rule out obstruction,completed,urgent
+C,536,758,40,2024-01-24T09:29:33Z,Ultrasound,Rule out infection,completed,stat
+C,537,759,25,2023-04-22T09:49:01Z,Chest X-ray,Rule out infection,cancelled,routine
+C,538,760,10,2024-11-06T22:48:46Z,Blood panel,Rule out bleeding,completed,urgent
+C,539,763,3,2026-02-17T03:30:29Z,Blood panel,Rule out obstruction,completed,urgent
+C,540,764,35,2026-09-01T01:08:27Z,ECG,Rule out bleeding,cancelled,urgent
+C,541,767,5,2023-10-04T22:19:45Z,Chest X-ray,Rule out fracture,in_progress,routine
+C,542,768,1,2024-02-06T07:19:05Z,Blood panel,Rule out obstruction,completed,routine
+C,543,769,10,2024-06-24T15:04:50Z,Chest X-ray,Rule out obstruction,completed,stat
+C,544,770,5,2024-01-07T17:47:12Z,ECG,Rule out infection,cancelled,routine
+C,545,772,4,2024-11-04T07:38:03Z,Ultrasound,Rule out bleeding,completed,routine
+C,546,773,20,2025-04-16T14:13:40Z,CT scan,Rule out fracture,completed,urgent
+C,547,773,35,2025-04-17T18:44:57Z,MRI,Rule out fracture,in_progress,urgent
+C,548,776,5,2024-04-28T07:49:21Z,ECG,Rule out bleeding,completed,urgent
+C,549,778,35,2025-09-01T08:51:39Z,Blood panel,Rule out infection,completed,routine
+C,550,780,25,2025-05-12T11:19:05Z,Chest X-ray,Rule out bleeding,completed,stat
+C,551,783,15,2026-06-30T03:02:06Z,MRI,Rule out infection,pending,routine
+C,552,786,40,2024-08-22T11:00:20Z,CT scan,Rule out fracture,in_progress,urgent
+C,553,786,20,2024-08-22T00:36:08Z,Ultrasound,Rule out ischemia,cancelled,routine
+C,554,787,2,2025-09-08T08:24:29Z,Ultrasound,Rule out infection,completed,urgent
+C,555,787,35,2025-09-05T22:04:34Z,Chest X-ray,Rule out bleeding,pending,routine
+C,556,788,5,2026-02-06T16:35:27Z,MRI,Rule out fracture,completed,urgent
+C,558,791,30,2025-07-25T17:53:19Z,Chest X-ray,Rule out ischemia,completed,routine
+C,559,792,40,2025-10-22T00:37:09Z,MRI,Rule out infection,completed,urgent
+C,560,793,4,2026-02-25T18:16:26Z,CT scan,Rule out ischemia,completed,urgent
+C,561,794,40,2026-06-11T07:19:27Z,MRI,Rule out ischemia,completed,routine
+C,562,798,15,2024-01-22T07:50:23Z,CT scan,Rule out infection,completed,urgent
+C,563,798,4,2024-01-22T16:03:52Z,Blood panel,Rule out infection,completed,urgent
+C,564,799,40,2024-03-06T22:26:08Z,CT scan,Rule out obstruction,completed,routine
+C,565,800,5,2025-04-28T07:32:23Z,Ultrasound,Rule out obstruction,pending,routine
+C,566,803,30,2026-07-29T14:39:35Z,Blood panel,Rule out infection,completed,urgent
+C,567,804,4,2026-10-01T20:55:01Z,ECG,Rule out infection,completed,routine
+C,568,805,25,2023-10-21T04:20:02Z,Blood panel,Rule out fracture,completed,urgent
+C,569,806,25,2023-04-10T04:00:54Z,MRI,Rule out infection,completed,stat
+C,570,809,35,2025-07-24T05:25:47Z,MRI,Rule out obstruction,completed,stat
+C,571,809,35,2025-07-24T05:12:33Z,Chest X-ray,Rule out fracture,in_progress,routine
+C,572,812,4,2025-09-23T01:18:52Z,ECG,Rule out obstruction,in_progress,routine
+C,573,818,30,2025-07-31T12:53:31Z,Ultrasound,Rule out infection,completed,stat
+C,574,819,20,2026-03-27T18:46:54Z,Ultrasound,Rule out infection,completed,routine
+C,575,819,15,2026-03-26T06:00:41Z,Blood panel,Rule out obstruction,completed,urgent
+C,576,823,3,2025-12-12T18:11:56Z,Blood panel,Rule out obstruction,completed,routine
+C,577,823,3,2025-12-11T16:59:01Z,CT scan,Rule out bleeding,completed,urgent
+C,579,826,4,2026-02-01T04:16:53Z,Ultrasound,Rule out obstruction,completed,urgent
+C,580,826,30,2026-02-02T07:19:58Z,CT scan,Rule out ischemia,completed,routine
+C,581,827,35,2025-03-01T05:31:58Z,Blood panel,Rule out obstruction,completed,stat
+C,582,827,35,2025-02-28T00:36:01Z,MRI,Rule out fracture,in_progress,urgent
+C,583,828,30,2024-03-22T16:32:38Z,Ultrasound,Rule out infection,completed,routine
+C,584,829,1,2024-12-31T09:43:32Z,MRI,Rule out infection,completed,stat
+C,585,829,5,2024-12-31T13:10:22Z,MRI,Rule out bleeding,completed,routine
+C,586,830,5,2025-05-18T13:36:45Z,MRI,Rule out ischemia,in_progress,routine
+C,587,830,2,2025-05-19T00:08:46Z,CT scan,Rule out obstruction,completed,urgent
+C,588,831,5,2024-12-03T11:15:59Z,ECG,Rule out obstruction,pending,stat
+C,589,832,25,2025-08-09T02:27:01Z,ECG,Rule out infection,cancelled,routine
+C,590,833,30,2025-08-18T02:44:22Z,ECG,Rule out obstruction,completed,routine
+C,591,833,25,2025-08-17T22:54:24Z,Blood panel,Rule out ischemia,completed,routine
+C,592,836,2,2024-04-28T12:15:11Z,Ultrasound,Rule out fracture,completed,routine
+C,593,837,30,2023-10-08T15:47:17Z,ECG,Rule out infection,completed,routine
+C,594,837,25,2023-10-08T18:46:10Z,Blood panel,Rule out obstruction,completed,stat
+C,595,838,30,2024-03-03T06:13:25Z,Blood panel,Rule out infection,completed,urgent
+C,596,839,1,2024-05-04T19:14:09Z,Blood panel,Rule out fracture,pending,urgent
+C,597,839,15,2024-05-04T17:44:21Z,CT scan,Rule out obstruction,completed,routine
+C,598,840,35,2024-06-28T13:41:19Z,Blood panel,Rule out obstruction,completed,urgent
+C,599,842,20,2024-02-06T02:41:29Z,MRI,Rule out ischemia,completed,routine
+C,600,843,20,2023-05-01T17:45:00Z,MRI,Rule out bleeding,completed,routine
+C,601,844,15,2025-01-21T01:20:01Z,MRI,Rule out infection,completed,urgent
+C,602,845,35,2025-04-09T13:19:21Z,Blood panel,Rule out ischemia,completed,routine
+C,603,846,25,2024-08-24T00:15:09Z,Blood panel,Rule out infection,completed,routine
+C,604,847,40,2025-05-10T13:49:34Z,Blood panel,Rule out obstruction,in_progress,urgent
+C,605,849,5,2024-09-05T05:38:44Z,Ultrasound,Rule out ischemia,completed,routine
+C,606,851,5,2024-01-01T17:33:53Z,ECG,Rule out ischemia,completed,routine
+C,607,852,35,2024-03-08T23:29:13Z,Ultrasound,Rule out bleeding,completed,routine
+C,608,856,4,2025-04-30T05:41:06Z,MRI,Rule out ischemia,pending,routine
+C,609,865,1,2026-02-28T14:28:09Z,ECG,Rule out obstruction,pending,urgent
+C,610,867,2,2024-10-03T03:12:44Z,CT scan,Rule out ischemia,pending,urgent
+C,611,870,15,2025-03-06T12:37:46Z,CT scan,Rule out ischemia,completed,routine
+C,612,871,40,2025-11-20T11:34:15Z,MRI,Rule out bleeding,completed,routine
+C,613,871,20,2025-11-20T09:57:15Z,Blood panel,Rule out fracture,completed,routine
+C,614,873,2,2023-10-17T17:51:30Z,Ultrasound,Rule out fracture,completed,stat
+C,615,874,40,2025-03-05T12:19:13Z,Chest X-ray,Rule out obstruction,completed,routine
+C,616,874,1,2025-03-05T13:36:48Z,MRI,Rule out infection,completed,stat
+C,617,875,20,2025-07-09T16:49:12Z,Chest X-ray,Rule out obstruction,pending,routine
+C,618,875,30,2025-07-09T17:27:56Z,MRI,Rule out obstruction,completed,routine
+C,619,878,5,2025-03-20T15:24:48Z,CT scan,Rule out ischemia,completed,stat
+C,620,881,5,2023-02-04T02:47:08Z,CT scan,Rule out fracture,completed,urgent
+C,621,882,1,2023-05-03T18:21:42Z,ECG,Rule out ischemia,cancelled,urgent
+C,622,884,40,2024-07-11T23:48:33Z,Ultrasound,Rule out fracture,completed,routine
+C,623,884,3,2024-07-11T22:23:00Z,CT scan,Rule out ischemia,completed,urgent
+C,624,886,15,2023-03-15T15:04:09Z,Ultrasound,Rule out fracture,completed,urgent
+C,626,888,20,2023-12-10T19:01:15Z,CT scan,Rule out infection,pending,stat
+C,627,890,15,2023-07-29T13:39:47Z,Blood panel,Rule out infection,completed,routine
+C,628,891,40,2024-10-15T05:25:14Z,ECG,Rule out bleeding,cancelled,routine
+C,629,894,3,2025-02-27T16:50:30Z,Chest X-ray,Rule out ischemia,completed,routine
+C,630,898,4,2025-11-01T21:55:47Z,Ultrasound,Rule out obstruction,cancelled,stat
+C,631,899,1,2026-03-17T21:41:50Z,Blood panel,Rule out obstruction,completed,routine
+C,632,900,4,2026-07-13T20:26:32Z,Blood panel,Rule out bleeding,completed,urgent
+C,633,900,30,2026-07-12T20:58:47Z,Chest X-ray,Rule out ischemia,in_progress,routine
+C,634,901,20,2026-08-23T02:56:35Z,MRI,Rule out ischemia,cancelled,urgent
+C,635,901,2,2026-08-23T05:28:18Z,Blood panel,Rule out fracture,completed,urgent
+C,637,905,15,2024-04-18T04:50:45Z,Blood panel,Rule out fracture,completed,routine
+C,638,908,40,2025-10-02T01:10:16Z,MRI,Rule out fracture,completed,stat
+C,639,909,10,2024-04-14T11:50:19Z,CT scan,Rule out obstruction,cancelled,urgent
+C,640,909,35,2024-04-12T05:52:39Z,ECG,Rule out ischemia,completed,routine
+C,641,910,25,2024-12-04T13:50:24Z,CT scan,Rule out infection,completed,urgent
+C,642,914,20,2025-02-02T20:27:37Z,Blood panel,Rule out ischemia,completed,routine
+C,643,914,3,2025-02-04T22:06:00Z,Ultrasound,Rule out ischemia,completed,routine
+C,644,916,25,2025-03-15T22:20:43Z,Ultrasound,Rule out bleeding,completed,routine
+C,645,917,30,2025-09-08T01:08:58Z,Ultrasound,Rule out infection,in_progress,urgent
+C,646,920,10,2025-02-18T07:28:27Z,Chest X-ray,Rule out bleeding,completed,routine
+C,647,920,5,2025-02-18T08:12:26Z,Chest X-ray,Rule out infection,completed,stat
+C,650,926,2,2023-05-11T04:01:18Z,Blood panel,Rule out bleeding,completed,routine
+C,651,926,25,2023-05-09T04:59:10Z,CT scan,Rule out bleeding,completed,routine
+C,652,927,20,2023-07-15T04:53:32Z,Chest X-ray,Rule out fracture,completed,stat
+C,653,929,35,2024-05-16T15:24:30Z,MRI,Rule out fracture,pending,routine
+C,654,930,35,2023-01-02T04:46:59Z,Blood panel,Rule out ischemia,completed,stat
+C,655,931,2,2023-06-06T16:49:36Z,Ultrasound,Rule out obstruction,pending,stat
+C,656,932,25,2024-03-26T13:47:23Z,ECG,Rule out ischemia,completed,routine
+C,657,932,4,2024-03-26T11:16:02Z,CT scan,Rule out obstruction,completed,routine
+C,659,939,35,2026-02-21T03:06:49Z,MRI,Rule out obstruction,completed,routine
+C,661,943,15,2025-02-13T09:23:55Z,CT scan,Rule out fracture,completed,stat
+D,1,2,30,2025-09-20T02:26:29Z,CT scan,Rule out ischemia,completed,routine
+D,2,4,4,2026-06-06T00:36:50Z,CT scan,Rule out ischemia,completed,routine
+D,3,5,10,2023-09-16T07:23:56Z,Ultrasound,Rule out ischemia,pending,routine
+D,4,6,5,2025-08-04T01:20:18Z,CT scan,Rule out bleeding,in_progress,routine
+D,5,7,20,2024-01-23T17:35:08Z,Ultrasound,Rule out infection,completed,urgent
+D,6,9,1,2024-02-14T17:36:01Z,ECG,Rule out obstruction,completed,routine
+D,7,12,30,2025-12-22T09:55:45Z,MRI,Rule out ischemia,completed,stat
+D,8,15,25,2025-11-22T23:54:25Z,Blood panel,Rule out infection,completed,urgent
+D,9,19,1,2024-10-07T04:06:13Z,Ultrasound,Rule out fracture,completed,routine
+D,10,23,35,2024-06-11T00:00:18Z,Chest X-ray,Rule out fracture,completed,urgent
+D,11,23,3,2024-06-11T06:10:55Z,CT scan,Rule out ischemia,completed,routine
+D,12,24,3,2023-04-08T05:33:45Z,Ultrasound,Rule out obstruction,completed,urgent
+D,13,25,25,2023-10-30T14:08:18Z,Ultrasound,Rule out bleeding,pending,routine
+D,14,25,25,2023-10-30T17:56:39Z,ECG,Rule out obstruction,completed,routine
+D,15,30,10,2024-08-06T03:43:39Z,CT scan,Rule out bleeding,completed,routine
+D,16,36,40,2025-03-15T04:57:27Z,ECG,Rule out bleeding,in_progress,routine
+D,17,38,4,2023-08-25T03:36:00Z,ECG,Rule out fracture,pending,stat
+D,18,39,40,2024-03-04T00:25:23Z,MRI,Rule out fracture,pending,stat
+D,19,39,2,2024-03-04T02:01:20Z,CT scan,Rule out obstruction,completed,routine
+D,20,42,4,2024-01-25T09:57:35Z,CT scan,Rule out bleeding,completed,routine
+D,21,42,25,2024-01-24T18:18:11Z,MRI,Rule out fracture,completed,stat
+D,22,45,35,2025-04-07T03:51:13Z,Ultrasound,Rule out ischemia,completed,routine
+D,23,46,1,2023-02-28T18:54:08Z,MRI,Rule out fracture,completed,routine
+D,24,49,30,2024-06-12T13:28:37Z,Blood panel,Rule out bleeding,completed,routine
+D,25,50,20,2024-08-03T11:47:40Z,MRI,Rule out fracture,completed,routine
+D,26,55,30,2024-07-14T19:58:16Z,Chest X-ray,Rule out bleeding,completed,routine
+D,27,55,3,2024-07-15T01:08:20Z,Ultrasound,Rule out bleeding,completed,urgent
+D,28,58,20,2024-04-14T12:43:26Z,Blood panel,Rule out infection,completed,urgent
+D,29,59,30,2024-03-27T19:32:15Z,ECG,Rule out obstruction,completed,stat
+D,30,61,15,2025-06-20T15:49:57Z,ECG,Rule out fracture,completed,urgent
+D,31,66,30,2026-06-28T02:53:43Z,Blood panel,Rule out bleeding,completed,routine
+D,32,67,5,2023-04-27T18:18:39Z,Ultrasound,Rule out ischemia,completed,stat
+D,33,69,30,2024-10-12T00:45:23Z,Ultrasound,Rule out fracture,in_progress,routine
+D,34,71,30,2023-04-24T04:47:22Z,CT scan,Rule out obstruction,completed,stat
+D,35,78,30,2025-04-23T16:19:44Z,CT scan,Rule out ischemia,pending,routine
+D,36,78,30,2025-04-23T21:48:57Z,Chest X-ray,Rule out obstruction,completed,stat
+D,38,81,35,2025-06-03T13:58:42Z,Blood panel,Rule out bleeding,completed,urgent
+D,39,81,2,2025-06-01T13:34:00Z,Chest X-ray,Rule out ischemia,completed,urgent
+D,40,82,15,2025-11-16T00:10:37Z,CT scan,Rule out obstruction,completed,routine
+D,42,83,5,2026-02-20T13:42:52Z,Blood panel,Rule out bleeding,completed,routine
+D,43,84,2,2023-06-03T20:31:14Z,Ultrasound,Rule out infection,completed,routine
+D,44,86,35,2024-05-21T06:56:43Z,MRI,Rule out fracture,completed,routine
+D,45,87,1,2024-07-08T18:44:09Z,Blood panel,Rule out infection,in_progress,routine
+D,46,87,35,2024-07-09T09:19:24Z,Blood panel,Rule out obstruction,completed,stat
+D,47,89,4,2025-06-08T01:45:19Z,Chest X-ray,Rule out infection,completed,routine
+D,48,91,1,2024-05-25T22:04:18Z,Ultrasound,Rule out obstruction,pending,stat
+D,49,92,40,2025-02-03T01:55:25Z,ECG,Rule out fracture,completed,routine
+D,50,93,2,2025-09-10T17:14:18Z,MRI,Rule out fracture,completed,stat
+D,51,94,10,2023-12-06T18:24:39Z,ECG,Rule out obstruction,completed,routine
+D,52,94,1,2023-12-06T19:45:27Z,Ultrasound,Rule out ischemia,completed,routine
+D,53,95,40,2024-02-04T21:56:46Z,Chest X-ray,Rule out bleeding,completed,routine
+D,54,96,4,2024-08-16T01:46:09Z,Chest X-ray,Rule out bleeding,pending,stat
+D,55,97,1,2025-06-27T22:49:06Z,ECG,Rule out obstruction,in_progress,routine
+D,56,98,3,2025-11-27T01:03:09Z,Ultrasound,Rule out obstruction,completed,urgent
+D,57,105,1,2024-05-15T12:59:56Z,Blood panel,Rule out fracture,completed,routine
+D,58,107,40,2024-03-16T02:19:52Z,Chest X-ray,Rule out infection,completed,routine
+D,59,108,10,2024-09-08T11:54:41Z,Chest X-ray,Rule out ischemia,completed,stat
+D,62,111,5,2023-08-19T13:45:13Z,ECG,Rule out infection,completed,routine
+D,63,111,2,2023-08-17T15:45:44Z,MRI,Rule out fracture,completed,urgent
+D,64,113,4,2024-05-05T02:22:00Z,Chest X-ray,Rule out bleeding,completed,routine
+D,65,114,4,2025-07-27T10:28:42Z,ECG,Rule out infection,completed,urgent
+D,66,115,1,2023-05-27T05:43:57Z,CT scan,Rule out infection,in_progress,routine
+D,67,118,30,2024-08-20T04:13:51Z,Ultrasound,Rule out ischemia,completed,stat
+D,68,119,15,2023-08-19T16:06:11Z,CT scan,Rule out obstruction,completed,routine
+D,69,120,40,2023-09-30T01:20:49Z,ECG,Rule out ischemia,pending,routine
+D,70,122,35,2024-08-16T23:40:28Z,MRI,Rule out fracture,completed,stat
+D,72,124,1,2023-06-03T12:36:01Z,Chest X-ray,Rule out bleeding,completed,routine
+D,73,125,1,2024-04-03T10:33:12Z,CT scan,Rule out fracture,completed,routine
+D,74,126,1,2025-03-30T02:23:19Z,CT scan,Rule out infection,completed,routine
+D,75,128,25,2024-06-27T03:06:37Z,Ultrasound,Rule out ischemia,in_progress,stat
+D,76,130,15,2024-04-13T05:24:04Z,ECG,Rule out ischemia,completed,urgent
+D,77,134,5,2024-05-25T12:26:24Z,Blood panel,Rule out obstruction,completed,routine
+D,78,135,2,2025-01-21T09:12:37Z,Blood panel,Rule out fracture,completed,routine
+D,79,136,10,2025-05-27T03:21:26Z,MRI,Rule out infection,completed,routine
+D,80,139,20,2023-05-31T17:17:15Z,Blood panel,Rule out bleeding,completed,routine
+D,81,140,30,2024-02-26T11:52:33Z,CT scan,Rule out obstruction,completed,urgent
+D,82,144,25,2025-09-16T09:52:39Z,CT scan,Rule out bleeding,completed,routine
+D,83,146,40,2023-10-17T01:47:12Z,Blood panel,Rule out infection,cancelled,routine
+D,84,146,25,2023-10-16T16:26:21Z,CT scan,Rule out bleeding,cancelled,routine
+D,85,147,40,2024-11-12T08:47:52Z,Chest X-ray,Rule out obstruction,completed,urgent
+D,86,147,10,2024-11-09T21:57:29Z,ECG,Rule out obstruction,pending,routine
+D,87,149,20,2023-03-13T22:50:46Z,Chest X-ray,Rule out infection,completed,routine
+D,88,150,20,2023-06-04T23:32:12Z,CT scan,Rule out ischemia,pending,urgent
+D,89,152,5,2024-03-26T02:48:26Z,Chest X-ray,Rule out bleeding,completed,stat
+D,90,152,30,2024-03-26T02:36:31Z,Chest X-ray,Rule out bleeding,in_progress,urgent
+D,91,153,3,2024-07-06T04:52:08Z,Ultrasound,Rule out bleeding,completed,routine
+D,92,156,25,2024-11-13T09:11:28Z,CT scan,Rule out ischemia,completed,urgent
+D,94,159,20,2025-08-21T01:14:37Z,Blood panel,Rule out ischemia,completed,routine
+D,95,160,5,2023-05-03T03:07:00Z,Blood panel,Rule out fracture,completed,routine
+D,96,160,35,2023-05-02T01:19:32Z,CT scan,Rule out infection,completed,routine
+D,97,161,1,2023-11-27T09:44:49Z,Chest X-ray,Rule out obstruction,completed,routine
+D,98,161,30,2023-11-28T10:39:51Z,Chest X-ray,Rule out obstruction,completed,urgent
+D,99,162,5,2024-02-11T07:35:20Z,CT scan,Rule out infection,completed,routine
+D,100,163,10,2024-08-16T13:08:20Z,MRI,Rule out bleeding,completed,urgent
+D,101,165,20,2024-01-10T02:06:25Z,Ultrasound,Rule out bleeding,completed,urgent
+D,102,166,3,2024-10-18T14:50:33Z,CT scan,Rule out ischemia,completed,routine
+D,103,167,40,2024-01-11T09:05:05Z,ECG,Rule out infection,completed,stat
+D,104,172,20,2024-06-12T08:45:55Z,ECG,Rule out infection,completed,routine
+D,105,175,4,2025-04-21T17:07:53Z,Ultrasound,Rule out obstruction,completed,urgent
+D,106,176,1,2025-06-06T20:05:11Z,Ultrasound,Rule out infection,pending,routine
+D,107,178,15,2025-01-11T20:32:55Z,Chest X-ray,Rule out fracture,completed,urgent
+D,108,180,1,2025-02-28T07:00:26Z,MRI,Rule out ischemia,completed,routine
+D,109,181,15,2025-04-08T16:09:06Z,Chest X-ray,Rule out infection,completed,stat
+D,110,181,25,2025-04-10T06:12:56Z,ECG,Rule out fracture,completed,routine
+D,112,187,3,2024-07-01T17:28:40Z,Chest X-ray,Rule out ischemia,completed,stat
+D,113,190,15,2023-11-18T23:14:13Z,Ultrasound,Rule out infection,pending,urgent
+D,114,194,20,2026-02-07T15:49:36Z,Ultrasound,Rule out obstruction,completed,routine
+D,115,197,3,2024-08-22T22:08:44Z,Blood panel,Rule out fracture,completed,routine
+D,116,200,2,2025-05-16T02:31:13Z,MRI,Rule out fracture,completed,routine
+D,117,201,3,2026-01-07T19:35:18Z,Chest X-ray,Rule out obstruction,completed,routine
+D,118,202,2,2023-04-09T01:32:51Z,Chest X-ray,Rule out infection,cancelled,routine
+D,119,204,1,2024-04-18T01:20:35Z,CT scan,Rule out bleeding,completed,stat
+D,120,204,2,2024-04-18T00:21:09Z,Ultrasound,Rule out fracture,completed,routine
+D,121,205,1,2024-06-25T23:42:57Z,ECG,Rule out obstruction,completed,routine
+D,122,206,25,2023-10-24T12:10:57Z,ECG,Rule out infection,completed,urgent
+D,123,208,4,2024-02-20T04:26:40Z,CT scan,Rule out obstruction,completed,routine
+D,124,213,4,2025-01-30T14:48:11Z,Blood panel,Rule out fracture,completed,urgent
+D,125,215,20,2023-12-28T14:53:37Z,ECG,Rule out ischemia,pending,routine
+D,126,215,1,2023-12-28T10:06:29Z,Ultrasound,Rule out ischemia,completed,routine
+D,129,224,3,2025-03-18T09:00:45Z,MRI,Rule out fracture,completed,routine
+D,130,224,25,2025-03-16T23:16:26Z,Ultrasound,Rule out fracture,completed,routine
+D,131,225,30,2023-07-23T23:08:04Z,MRI,Rule out bleeding,completed,urgent
+D,132,226,2,2025-02-12T07:08:51Z,Ultrasound,Rule out ischemia,pending,urgent
+D,133,228,30,2025-12-30T13:39:05Z,Chest X-ray,Rule out fracture,completed,routine
+D,134,228,35,2025-12-28T17:40:20Z,CT scan,Rule out bleeding,pending,routine
+D,135,229,30,2025-03-01T01:26:48Z,Chest X-ray,Rule out bleeding,completed,routine
+D,136,229,1,2025-03-02T02:55:29Z,ECG,Rule out bleeding,completed,stat
+D,137,230,30,2025-11-19T02:33:23Z,ECG,Rule out fracture,completed,routine
+D,138,231,40,2026-01-01T01:57:09Z,ECG,Rule out fracture,in_progress,routine
+D,139,232,5,2026-08-23T08:23:17Z,Blood panel,Rule out bleeding,completed,routine
+D,140,232,10,2026-08-23T09:03:01Z,Blood panel,Rule out fracture,pending,urgent
+D,141,233,10,2025-03-02T22:42:07Z,Chest X-ray,Rule out obstruction,cancelled,urgent
+D,142,235,2,2024-06-06T00:37:22Z,ECG,Rule out bleeding,completed,stat
+D,143,236,1,2024-09-25T16:51:32Z,Blood panel,Rule out obstruction,completed,urgent
+D,144,237,20,2025-08-09T02:05:35Z,ECG,Rule out infection,in_progress,urgent
+D,145,239,3,2025-08-31T13:25:01Z,ECG,Rule out bleeding,completed,routine
+D,146,239,3,2025-08-31T01:09:39Z,CT scan,Rule out infection,pending,stat
+D,147,244,20,2024-01-11T11:05:32Z,Blood panel,Rule out obstruction,completed,routine
+D,148,246,20,2023-04-29T22:41:14Z,Blood panel,Rule out infection,cancelled,routine
+D,149,246,25,2023-04-29T06:44:14Z,Ultrasound,Rule out bleeding,completed,urgent
+D,150,247,35,2023-12-02T08:27:37Z,Ultrasound,Rule out obstruction,pending,stat
+D,151,248,15,2024-08-18T11:46:55Z,ECG,Rule out fracture,completed,stat
+D,152,249,1,2025-04-20T19:53:35Z,Ultrasound,Rule out bleeding,completed,routine
+D,153,250,2,2025-12-27T17:29:05Z,Ultrasound,Rule out bleeding,pending,routine
+D,154,255,1,2024-03-18T09:40:14Z,ECG,Rule out infection,completed,routine
+D,155,257,35,2023-03-17T19:16:26Z,Blood panel,Rule out obstruction,completed,urgent
+D,156,259,25,2025-05-14T15:46:19Z,CT scan,Rule out infection,completed,routine
+D,157,261,15,2025-10-31T19:07:27Z,Blood panel,Rule out obstruction,completed,routine
+D,158,263,15,2025-09-12T14:03:32Z,CT scan,Rule out infection,completed,routine
+D,159,265,15,2024-12-13T03:27:00Z,MRI,Rule out bleeding,completed,routine
+D,160,266,4,2025-09-15T13:05:25Z,Ultrasound,Rule out infection,in_progress,urgent
+D,161,266,15,2025-09-18T00:07:05Z,Chest X-ray,Rule out ischemia,completed,stat
+D,162,269,1,2023-03-10T05:57:44Z,Ultrasound,Rule out infection,completed,stat
+D,163,270,15,2023-11-25T00:47:08Z,MRI,Rule out fracture,in_progress,urgent
+D,164,271,15,2023-11-02T22:02:13Z,ECG,Rule out infection,pending,urgent
+D,165,272,5,2024-05-13T04:15:06Z,Chest X-ray,Rule out fracture,completed,urgent
+D,166,273,25,2024-06-07T01:03:32Z,Ultrasound,Rule out infection,completed,routine
+D,167,274,2,2023-10-01T14:00:23Z,Chest X-ray,Rule out infection,completed,urgent
+D,168,277,3,2025-01-23T05:28:25Z,MRI,Rule out fracture,completed,routine
+D,169,282,10,2023-01-03T20:44:48Z,CT scan,Rule out obstruction,completed,routine
+D,170,282,40,2023-01-05T15:16:16Z,ECG,Rule out bleeding,completed,routine
+D,171,283,10,2025-04-07T18:15:20Z,CT scan,Rule out bleeding,pending,routine
+D,173,289,10,2025-03-16T23:58:44Z,ECG,Rule out ischemia,completed,urgent
+D,174,290,10,2025-06-28T20:13:49Z,ECG,Rule out ischemia,in_progress,routine
+D,175,291,20,2025-11-26T12:59:28Z,MRI,Rule out infection,completed,urgent
+D,176,292,1,2024-05-02T00:44:12Z,MRI,Rule out fracture,cancelled,urgent
+D,177,295,30,2023-11-25T05:36:12Z,CT scan,Rule out obstruction,completed,routine
+D,179,302,4,2025-04-22T05:49:14Z,Chest X-ray,Rule out bleeding,completed,urgent
+D,181,307,1,2023-12-10T14:46:58Z,CT scan,Rule out infection,in_progress,stat
+D,182,310,10,2023-09-13T23:49:48Z,ECG,Rule out obstruction,completed,urgent
+D,183,314,4,2024-01-29T06:31:49Z,MRI,Rule out bleeding,completed,routine
+D,184,317,40,2024-11-27T20:19:16Z,Chest X-ray,Rule out fracture,completed,urgent
+D,185,320,25,2025-08-15T06:07:35Z,MRI,Rule out ischemia,pending,routine
+D,186,322,2,2025-09-27T06:17:53Z,Ultrasound,Rule out infection,completed,routine
+D,187,322,40,2025-09-28T10:35:07Z,ECG,Rule out infection,completed,stat
+D,188,323,4,2026-02-03T06:06:44Z,MRI,Rule out infection,pending,stat
+D,189,324,10,2024-12-02T09:43:27Z,Chest X-ray,Rule out obstruction,pending,routine
+D,190,326,1,2026-05-30T10:10:16Z,MRI,Rule out bleeding,completed,urgent
+D,191,327,20,2026-08-06T04:41:02Z,MRI,Rule out bleeding,completed,routine
+D,192,328,10,2025-06-18T08:33:09Z,Chest X-ray,Rule out bleeding,completed,urgent
+D,193,328,3,2025-06-18T09:00:44Z,CT scan,Rule out obstruction,cancelled,urgent
+D,194,329,10,2025-08-21T21:16:34Z,Chest X-ray,Rule out infection,completed,routine
+D,195,331,10,2026-03-06T07:58:07Z,Blood panel,Rule out bleeding,pending,urgent
+D,196,333,20,2023-02-20T18:56:33Z,CT scan,Rule out bleeding,cancelled,urgent
+D,197,334,3,2024-03-07T18:25:27Z,Ultrasound,Rule out fracture,completed,routine
+D,198,334,30,2024-03-06T21:43:23Z,Ultrasound,Rule out obstruction,cancelled,stat
+D,199,336,40,2023-11-21T20:07:41Z,Chest X-ray,Rule out fracture,completed,routine
+D,200,336,20,2023-11-21T00:28:20Z,Chest X-ray,Rule out fracture,completed,routine
+D,201,337,40,2024-09-07T04:31:53Z,Ultrasound,Rule out infection,in_progress,stat
+D,202,338,2,2024-12-22T06:16:35Z,CT scan,Rule out bleeding,completed,routine
+D,203,338,3,2024-12-21T20:19:58Z,CT scan,Rule out fracture,completed,routine
+D,204,340,20,2026-01-25T04:21:52Z,Chest X-ray,Rule out infection,completed,routine
+D,205,341,3,2026-06-16T09:38:23Z,Blood panel,Rule out fracture,completed,stat
+D,206,341,3,2026-06-16T09:28:48Z,Chest X-ray,Rule out obstruction,completed,routine
+D,207,344,4,2025-05-14T01:58:33Z,CT scan,Rule out ischemia,completed,routine
+D,208,345,35,2024-11-15T23:02:58Z,Blood panel,Rule out infection,in_progress,routine
+D,209,345,3,2024-11-17T20:36:36Z,Chest X-ray,Rule out fracture,completed,routine
+D,212,347,25,2025-06-12T23:22:49Z,CT scan,Rule out obstruction,completed,routine
+D,213,350,4,2024-05-04T18:44:10Z,CT scan,Rule out fracture,in_progress,urgent
+D,214,353,15,2025-03-26T20:33:52Z,CT scan,Rule out bleeding,completed,urgent
+D,215,355,10,2025-04-13T03:00:56Z,MRI,Rule out infection,completed,routine
+D,216,356,25,2026-01-03T06:49:22Z,Chest X-ray,Rule out obstruction,completed,routine
+D,217,356,3,2026-01-01T20:44:48Z,Ultrasound,Rule out bleeding,completed,urgent
+D,218,357,40,2026-05-18T17:55:40Z,MRI,Rule out bleeding,completed,urgent
+D,219,358,25,2026-07-21T01:03:38Z,MRI,Rule out fracture,in_progress,urgent
+D,220,360,40,2025-05-08T09:44:04Z,Blood panel,Rule out bleeding,in_progress,routine
+D,221,361,1,2025-07-30T11:40:44Z,Ultrasound,Rule out obstruction,completed,stat
+D,222,362,30,2023-03-16T11:31:44Z,ECG,Rule out bleeding,pending,routine
+D,223,368,10,2024-02-14T19:01:38Z,Ultrasound,Rule out ischemia,completed,routine
+D,224,372,20,2024-11-10T17:04:50Z,CT scan,Rule out obstruction,completed,routine
+D,225,374,40,2023-06-23T03:06:31Z,ECG,Rule out fracture,completed,urgent
+D,226,377,4,2024-11-05T10:39:02Z,MRI,Rule out ischemia,pending,routine
+D,227,378,3,2024-09-04T04:02:10Z,Ultrasound,Rule out bleeding,completed,urgent
+D,228,379,1,2025-05-18T09:03:05Z,ECG,Rule out obstruction,completed,stat
+D,229,380,20,2025-12-05T23:54:39Z,Blood panel,Rule out obstruction,completed,urgent
+D,230,380,40,2025-12-06T23:43:22Z,CT scan,Rule out fracture,completed,routine
+D,231,381,15,2026-06-11T18:48:30Z,Blood panel,Rule out ischemia,completed,stat
+D,232,382,40,2024-09-13T08:36:52Z,Ultrasound,Rule out obstruction,completed,routine
+D,233,382,10,2024-09-13T08:19:11Z,Chest X-ray,Rule out obstruction,completed,urgent
+D,234,383,35,2024-10-29T10:06:19Z,Chest X-ray,Rule out infection,completed,routine
+D,235,385,5,2023-11-20T02:02:38Z,ECG,Rule out obstruction,completed,routine
+D,236,385,15,2023-11-21T20:19:50Z,CT scan,Rule out ischemia,pending,routine
+D,237,386,25,2024-09-18T00:09:20Z,Ultrasound,Rule out infection,completed,routine
+D,238,388,15,2025-08-25T20:35:47Z,Ultrasound,Rule out fracture,completed,urgent
+D,239,389,35,2026-02-28T16:38:00Z,MRI,Rule out bleeding,completed,routine
+D,240,391,20,2024-10-17T10:23:38Z,Blood panel,Rule out bleeding,completed,routine
+D,241,391,2,2024-10-16T20:45:58Z,MRI,Rule out bleeding,completed,routine
+D,242,394,5,2024-08-03T16:18:51Z,Ultrasound,Rule out fracture,completed,stat
+D,243,396,5,2025-05-15T10:37:40Z,ECG,Rule out bleeding,completed,urgent
+D,244,396,20,2025-05-13T18:29:15Z,Chest X-ray,Rule out fracture,completed,routine
+D,245,398,4,2025-10-13T00:30:52Z,Blood panel,Rule out infection,completed,routine
+D,246,399,30,2026-07-12T09:18:11Z,MRI,Rule out obstruction,completed,routine
+D,247,399,1,2026-07-14T17:05:52Z,Ultrasound,Rule out infection,completed,routine
+D,248,402,40,2025-05-16T16:20:56Z,MRI,Rule out fracture,completed,routine
+D,249,402,4,2025-05-18T15:20:30Z,CT scan,Rule out infection,completed,routine
+D,250,403,5,2023-03-06T04:02:41Z,Blood panel,Rule out fracture,completed,urgent
+D,251,407,20,2024-02-20T21:14:48Z,Ultrasound,Rule out obstruction,completed,routine
+D,252,408,20,2024-06-28T22:23:23Z,Blood panel,Rule out obstruction,cancelled,urgent
+D,253,408,30,2024-06-29T09:38:42Z,Ultrasound,Rule out bleeding,in_progress,routine
+D,254,409,5,2025-01-01T11:16:49Z,Blood panel,Rule out obstruction,completed,routine
+D,255,410,20,2025-05-12T23:15:15Z,Blood panel,Rule out fracture,completed,routine
+D,256,411,40,2025-08-04T20:54:53Z,CT scan,Rule out fracture,completed,routine
+D,257,411,2,2025-08-05T05:52:16Z,Blood panel,Rule out bleeding,in_progress,urgent
+D,258,415,3,2026-04-14T13:33:39Z,Ultrasound,Rule out infection,completed,routine
+D,259,415,1,2026-04-14T17:56:26Z,MRI,Rule out bleeding,completed,routine
+D,260,417,3,2024-12-26T10:30:08Z,Blood panel,Rule out bleeding,completed,urgent
+D,261,418,40,2025-09-24T17:38:03Z,Ultrasound,Rule out ischemia,completed,urgent
+D,262,418,15,2025-09-24T15:42:05Z,CT scan,Rule out ischemia,completed,routine
+D,263,420,15,2024-09-03T20:09:16Z,CT scan,Rule out infection,completed,stat
+D,264,421,30,2025-09-22T20:44:16Z,CT scan,Rule out infection,completed,routine
+D,265,421,30,2025-09-23T13:13:31Z,ECG,Rule out ischemia,completed,stat
+D,266,422,1,2025-11-12T10:15:10Z,MRI,Rule out infection,completed,urgent
+D,267,423,4,2025-03-12T18:09:31Z,ECG,Rule out obstruction,completed,urgent
+D,268,424,5,2025-05-22T21:17:37Z,MRI,Rule out infection,completed,urgent
+D,269,425,2,2025-01-13T14:26:42Z,MRI,Rule out ischemia,completed,routine
+D,270,426,15,2025-08-21T03:59:42Z,CT scan,Rule out fracture,cancelled,routine
+D,271,427,30,2023-06-22T14:51:02Z,Ultrasound,Rule out obstruction,completed,routine
+D,272,427,35,2023-06-23T06:09:29Z,ECG,Rule out infection,cancelled,routine
+D,273,428,15,2023-11-23T23:24:54Z,ECG,Rule out ischemia,completed,routine
+D,274,430,25,2023-04-14T20:25:01Z,ECG,Rule out bleeding,completed,urgent
+D,275,438,4,2024-07-20T04:48:37Z,Blood panel,Rule out bleeding,completed,routine
+D,276,438,35,2024-07-20T13:08:06Z,CT scan,Rule out fracture,completed,routine
+D,277,439,40,2023-02-06T07:52:04Z,ECG,Rule out obstruction,completed,routine
+D,278,439,5,2023-02-07T07:27:38Z,CT scan,Rule out bleeding,completed,urgent
+D,279,440,25,2023-02-02T23:29:37Z,MRI,Rule out infection,completed,stat
+D,280,441,3,2023-06-11T09:22:46Z,CT scan,Rule out ischemia,completed,urgent
+D,281,441,20,2023-06-11T02:13:23Z,Ultrasound,Rule out fracture,in_progress,routine
+D,282,443,30,2024-05-10T05:33:16Z,Chest X-ray,Rule out obstruction,pending,routine
+D,283,444,3,2024-07-02T15:53:08Z,Chest X-ray,Rule out ischemia,completed,routine
+D,284,448,4,2023-07-26T15:19:05Z,ECG,Rule out infection,in_progress,routine
+D,285,448,20,2023-07-26T19:26:15Z,Ultrasound,Rule out infection,completed,routine
+D,286,449,35,2023-09-19T14:19:35Z,Blood panel,Rule out ischemia,in_progress,urgent
+D,287,453,30,2024-03-24T09:30:24Z,MRI,Rule out obstruction,pending,routine
+D,288,458,30,2024-01-19T07:47:56Z,Chest X-ray,Rule out bleeding,completed,urgent
+D,289,460,25,2025-04-17T15:39:46Z,Blood panel,Rule out infection,completed,urgent
+D,290,460,2,2025-04-15T18:01:34Z,MRI,Rule out ischemia,in_progress,routine
+D,291,462,5,2024-06-06T14:01:27Z,ECG,Rule out infection,pending,routine
+D,292,462,3,2024-06-07T03:29:36Z,MRI,Rule out infection,completed,urgent
+D,293,465,1,2026-02-02T17:58:58Z,MRI,Rule out infection,completed,urgent
+D,294,466,35,2023-11-01T15:58:45Z,CT scan,Rule out bleeding,completed,urgent
+D,295,468,20,2025-09-18T01:46:48Z,Chest X-ray,Rule out obstruction,pending,urgent
+D,296,469,30,2025-09-04T02:45:49Z,CT scan,Rule out ischemia,completed,urgent
+D,297,471,5,2025-04-08T16:36:21Z,MRI,Rule out infection,completed,stat
+D,298,471,25,2025-04-08T15:14:45Z,Chest X-ray,Rule out obstruction,completed,routine
+D,299,472,30,2024-08-02T02:56:51Z,ECG,Rule out infection,cancelled,routine
+D,300,473,4,2023-03-31T21:02:24Z,MRI,Rule out fracture,completed,routine
+D,301,476,3,2025-07-17T05:11:56Z,MRI,Rule out fracture,completed,routine
+D,302,476,20,2025-07-15T09:44:49Z,Ultrasound,Rule out fracture,completed,routine
+D,303,477,30,2023-11-08T08:38:38Z,Ultrasound,Rule out infection,cancelled,routine
+D,304,478,1,2025-08-30T04:51:23Z,Ultrasound,Rule out obstruction,cancelled,routine
+D,305,479,10,2025-10-22T02:41:29Z,Ultrasound,Rule out ischemia,completed,routine
+D,306,482,30,2026-03-03T01:57:31Z,Chest X-ray,Rule out bleeding,completed,routine
+D,307,483,10,2023-02-09T17:15:47Z,Blood panel,Rule out ischemia,completed,urgent
+D,308,486,3,2024-06-05T10:41:00Z,Blood panel,Rule out bleeding,in_progress,stat
+D,309,487,5,2024-12-23T09:16:10Z,MRI,Rule out ischemia,completed,urgent
+D,310,487,4,2024-12-23T13:52:34Z,Blood panel,Rule out obstruction,completed,stat
+D,311,491,10,2024-03-27T11:38:41Z,Chest X-ray,Rule out fracture,cancelled,routine
+D,312,493,40,2024-12-04T03:05:48Z,Chest X-ray,Rule out infection,completed,routine
+D,313,496,15,2025-03-26T09:03:21Z,Chest X-ray,Rule out fracture,completed,routine
+D,314,498,30,2025-10-09T13:37:36Z,Blood panel,Rule out infection,completed,routine
+D,315,500,4,2025-01-02T05:24:55Z,ECG,Rule out infection,pending,urgent
+D,316,500,1,2025-01-03T19:02:54Z,CT scan,Rule out ischemia,completed,routine
+D,317,501,15,2025-02-25T01:30:34Z,Ultrasound,Rule out obstruction,completed,routine
+D,318,505,5,2025-08-27T03:08:09Z,Ultrasound,Rule out obstruction,completed,routine
+D,319,506,4,2024-08-23T09:28:48Z,MRI,Rule out bleeding,completed,routine
+D,320,508,1,2024-08-02T17:52:34Z,Blood panel,Rule out obstruction,completed,routine
+D,321,509,20,2023-12-03T08:51:21Z,Ultrasound,Rule out obstruction,in_progress,stat
+D,322,511,40,2024-06-06T14:23:35Z,MRI,Rule out obstruction,cancelled,urgent
+D,323,512,3,2025-03-17T23:38:53Z,Ultrasound,Rule out obstruction,completed,routine
+D,324,514,20,2023-11-03T09:11:33Z,Chest X-ray,Rule out bleeding,cancelled,routine
+D,325,515,4,2024-09-11T09:53:34Z,CT scan,Rule out fracture,completed,urgent
+D,326,515,15,2024-09-11T09:26:49Z,Ultrasound,Rule out bleeding,pending,urgent
+D,329,518,15,2025-09-06T10:41:24Z,ECG,Rule out fracture,pending,routine
+D,330,519,5,2023-07-15T15:40:02Z,Chest X-ray,Rule out fracture,cancelled,routine
+D,331,522,15,2025-04-04T19:32:47Z,Blood panel,Rule out bleeding,pending,routine
+D,332,523,5,2025-12-03T23:28:35Z,Ultrasound,Rule out infection,in_progress,routine
+D,333,523,5,2025-12-02T21:12:29Z,Ultrasound,Rule out infection,completed,routine
+D,334,525,35,2025-05-12T03:22:45Z,Chest X-ray,Rule out bleeding,in_progress,stat
+D,335,532,4,2025-08-17T11:01:34Z,Chest X-ray,Rule out fracture,in_progress,routine
+D,336,533,10,2024-09-26T04:55:52Z,Ultrasound,Rule out fracture,completed,stat
+D,337,533,25,2024-09-25T12:39:16Z,Chest X-ray,Rule out fracture,completed,routine
+D,338,537,3,2024-09-10T13:48:36Z,MRI,Rule out infection,completed,urgent
+D,339,538,15,2025-02-06T19:53:58Z,CT scan,Rule out infection,pending,routine
+D,340,541,3,2025-08-18T02:26:28Z,Ultrasound,Rule out fracture,completed,urgent
+D,341,544,2,2026-01-11T13:28:57Z,Ultrasound,Rule out bleeding,completed,urgent
+D,342,545,20,2026-05-19T06:43:43Z,Chest X-ray,Rule out infection,completed,routine
+D,343,546,2,2025-01-02T12:46:49Z,Ultrasound,Rule out infection,in_progress,urgent
+D,344,547,30,2025-06-06T01:53:32Z,Chest X-ray,Rule out infection,cancelled,urgent
+D,345,548,35,2025-08-25T21:12:23Z,ECG,Rule out fracture,cancelled,urgent
+D,346,548,4,2025-08-24T17:32:20Z,Ultrasound,Rule out bleeding,completed,routine
+D,347,550,30,2023-10-21T20:00:26Z,Blood panel,Rule out ischemia,pending,routine
+D,348,550,15,2023-10-21T20:48:33Z,Blood panel,Rule out infection,pending,routine
+D,349,551,35,2024-01-18T18:34:46Z,MRI,Rule out ischemia,completed,urgent
+D,350,551,40,2024-01-19T16:54:38Z,Ultrasound,Rule out ischemia,completed,urgent
+D,351,552,30,2025-04-30T08:21:26Z,ECG,Rule out ischemia,cancelled,routine
+D,354,559,1,2025-11-30T17:44:23Z,Ultrasound,Rule out bleeding,completed,routine
+D,355,560,5,2026-04-26T18:43:01Z,Chest X-ray,Rule out infection,completed,urgent
+D,356,564,5,2024-12-08T09:05:56Z,Blood panel,Rule out fracture,completed,routine
+D,357,565,1,2025-06-17T08:39:37Z,Ultrasound,Rule out fracture,completed,urgent
+D,358,566,25,2024-06-14T16:36:50Z,Ultrasound,Rule out ischemia,pending,stat
+D,359,567,4,2024-07-31T19:47:33Z,Ultrasound,Rule out obstruction,completed,routine
+D,360,571,30,2025-07-06T22:41:01Z,Chest X-ray,Rule out bleeding,completed,routine
+D,361,571,10,2025-07-07T03:19:25Z,MRI,Rule out fracture,in_progress,routine
+D,362,573,2,2026-09-23T16:40:25Z,CT scan,Rule out ischemia,cancelled,stat
+D,363,577,35,2023-06-05T06:56:59Z,Chest X-ray,Rule out bleeding,completed,routine
+D,364,577,5,2023-06-05T05:14:15Z,ECG,Rule out infection,completed,routine
+D,365,578,30,2023-12-23T05:49:11Z,Ultrasound,Rule out obstruction,completed,urgent
+D,366,579,40,2024-08-12T03:21:45Z,Chest X-ray,Rule out fracture,completed,routine
+D,367,580,30,2024-07-27T09:59:28Z,Blood panel,Rule out fracture,completed,urgent
+D,368,581,5,2024-08-03T17:57:37Z,Chest X-ray,Rule out bleeding,completed,routine
+D,369,583,3,2023-03-21T05:03:10Z,MRI,Rule out obstruction,completed,routine
+D,370,583,3,2023-03-21T06:56:20Z,CT scan,Rule out obstruction,completed,routine
+D,371,584,20,2023-10-27T11:32:26Z,CT scan,Rule out ischemia,pending,routine
+D,372,585,4,2024-11-16T18:34:56Z,Ultrasound,Rule out fracture,completed,urgent
+D,373,586,30,2025-07-10T19:56:22Z,Chest X-ray,Rule out infection,pending,stat
+D,374,587,15,2024-02-03T14:00:22Z,Blood panel,Rule out bleeding,cancelled,urgent
+D,375,587,10,2024-02-04T04:14:42Z,Ultrasound,Rule out obstruction,completed,routine
+D,376,589,2,2024-03-08T06:55:02Z,Ultrasound,Rule out fracture,completed,routine
+D,378,592,3,2024-09-03T02:56:18Z,Blood panel,Rule out bleeding,completed,routine
+D,379,595,5,2025-12-11T23:53:19Z,Chest X-ray,Rule out fracture,completed,urgent
+D,380,597,15,2025-01-04T21:58:19Z,MRI,Rule out infection,completed,stat
+D,381,598,40,2025-06-24T06:04:58Z,Chest X-ray,Rule out ischemia,completed,urgent
+D,382,603,5,2023-06-23T13:07:44Z,MRI,Rule out fracture,pending,routine
+D,383,604,20,2025-09-12T09:25:02Z,MRI,Rule out bleeding,completed,routine
+D,384,607,25,2023-10-19T18:17:26Z,CT scan,Rule out ischemia,completed,routine
+D,385,607,2,2023-10-21T04:04:56Z,Chest X-ray,Rule out fracture,completed,routine
+D,386,610,10,2023-01-31T02:54:12Z,CT scan,Rule out bleeding,cancelled,routine
+D,387,611,15,2024-02-09T03:32:20Z,Blood panel,Rule out fracture,completed,urgent
+D,388,612,30,2024-11-13T04:10:14Z,MRI,Rule out ischemia,completed,stat
+D,389,612,15,2024-11-13T01:12:11Z,MRI,Rule out obstruction,pending,routine
+D,390,613,20,2025-05-01T00:31:21Z,CT scan,Rule out fracture,pending,urgent
+D,391,615,5,2024-05-29T16:55:48Z,Blood panel,Rule out bleeding,cancelled,urgent
+D,392,616,4,2024-08-08T19:14:55Z,ECG,Rule out fracture,completed,routine
+D,393,617,5,2025-04-28T12:51:12Z,CT scan,Rule out bleeding,cancelled,routine
+D,394,621,2,2023-07-17T14:55:55Z,Blood panel,Rule out infection,completed,routine
+D,395,622,5,2025-02-07T12:49:16Z,ECG,Rule out obstruction,completed,routine
+D,396,624,5,2023-04-17T09:28:14Z,MRI,Rule out bleeding,cancelled,routine
+D,397,624,2,2023-04-16T12:03:44Z,ECG,Rule out obstruction,completed,urgent
+D,398,625,25,2024-02-22T22:44:46Z,Chest X-ray,Rule out ischemia,completed,routine
+D,399,625,15,2024-02-23T19:20:02Z,Ultrasound,Rule out fracture,completed,routine
+D,400,626,15,2024-08-19T14:28:39Z,MRI,Rule out fracture,completed,urgent
+D,401,626,35,2024-08-18T16:16:26Z,MRI,Rule out bleeding,completed,routine
+D,402,627,25,2025-04-15T07:47:56Z,CT scan,Rule out bleeding,pending,routine
+D,403,630,15,2024-12-09T11:54:09Z,Chest X-ray,Rule out infection,completed,routine
+D,404,632,35,2025-07-07T03:10:28Z,Blood panel,Rule out infection,completed,urgent
+D,407,635,2,2023-12-17T22:15:34Z,Ultrasound,Rule out bleeding,completed,routine
+D,408,635,35,2023-12-17T22:27:06Z,ECG,Rule out infection,in_progress,routine
+D,409,639,1,2024-05-21T15:15:19Z,Blood panel,Rule out bleeding,completed,routine
+D,410,642,25,2023-08-21T20:58:41Z,Chest X-ray,Rule out ischemia,completed,stat
+D,411,645,4,2024-07-02T11:15:13Z,Blood panel,Rule out fracture,completed,urgent
+D,412,647,35,2024-09-18T05:11:52Z,ECG,Rule out bleeding,completed,routine
+D,413,647,2,2024-09-18T04:04:11Z,ECG,Rule out infection,completed,routine
+D,414,650,40,2024-02-29T08:03:16Z,ECG,Rule out obstruction,in_progress,routine
+D,415,650,35,2024-02-29T07:57:14Z,Chest X-ray,Rule out infection,completed,urgent
+D,416,652,2,2025-10-25T07:06:46Z,Blood panel,Rule out obstruction,completed,urgent
+D,417,653,35,2025-07-28T05:00:07Z,Chest X-ray,Rule out ischemia,completed,routine
+D,418,654,40,2023-06-10T13:22:48Z,ECG,Rule out ischemia,pending,routine
+D,419,658,15,2026-04-16T08:50:19Z,Ultrasound,Rule out obstruction,completed,routine
+D,420,660,35,2025-03-17T14:56:57Z,Chest X-ray,Rule out bleeding,completed,urgent
+D,422,665,10,2024-02-04T23:08:48Z,ECG,Rule out fracture,completed,urgent
+D,423,667,25,2024-02-28T15:01:10Z,Ultrasound,Rule out bleeding,completed,routine
+D,424,667,4,2024-02-28T14:09:06Z,Ultrasound,Rule out obstruction,completed,routine
+D,425,669,5,2024-11-13T12:07:25Z,Blood panel,Rule out obstruction,completed,routine
+D,426,671,15,2023-10-31T03:47:45Z,MRI,Rule out infection,in_progress,urgent
+D,427,673,10,2024-07-05T20:43:54Z,Blood panel,Rule out obstruction,completed,urgent
+D,429,677,10,2024-07-16T09:14:38Z,Chest X-ray,Rule out obstruction,completed,stat
+D,430,679,10,2024-07-12T05:31:30Z,MRI,Rule out bleeding,completed,urgent
+D,431,679,35,2024-07-12T15:35:06Z,ECG,Rule out fracture,completed,routine
+D,432,680,35,2025-04-07T19:43:30Z,CT scan,Rule out obstruction,completed,stat
+D,433,681,3,2024-02-18T23:24:02Z,Chest X-ray,Rule out fracture,completed,routine
+D,434,683,4,2024-06-06T04:29:35Z,ECG,Rule out obstruction,completed,routine
+D,435,684,5,2025-02-21T13:40:47Z,Chest X-ray,Rule out fracture,pending,urgent
+D,436,687,20,2023-06-02T06:13:42Z,Chest X-ray,Rule out ischemia,completed,routine
+D,437,688,3,2024-01-20T05:36:50Z,ECG,Rule out bleeding,in_progress,routine
+D,438,688,3,2024-01-18T20:23:07Z,Blood panel,Rule out ischemia,pending,stat
+D,439,690,4,2025-03-18T14:02:09Z,CT scan,Rule out ischemia,pending,routine
+D,440,691,30,2023-12-16T12:16:57Z,Ultrasound,Rule out obstruction,cancelled,urgent
+D,441,697,10,2023-07-26T04:44:09Z,Ultrasound,Rule out fracture,completed,routine
+D,442,699,40,2024-10-03T06:13:52Z,CT scan,Rule out fracture,cancelled,urgent
+D,443,701,3,2025-06-21T01:52:24Z,ECG,Rule out bleeding,completed,routine
+D,444,703,10,2026-08-03T10:43:52Z,Chest X-ray,Rule out fracture,completed,routine
+D,445,705,4,2023-08-17T09:59:20Z,CT scan,Rule out infection,completed,urgent
+D,446,709,40,2024-02-13T04:51:56Z,MRI,Rule out fracture,completed,stat
+D,447,710,10,2024-04-24T09:49:11Z,Ultrasound,Rule out infection,completed,routine
+D,448,710,2,2024-04-24T23:18:06Z,ECG,Rule out bleeding,cancelled,routine
+D,449,712,4,2025-02-27T15:09:30Z,Chest X-ray,Rule out fracture,cancelled,urgent
+D,450,713,10,2025-04-25T11:09:30Z,Chest X-ray,Rule out bleeding,completed,stat
+D,451,713,4,2025-04-25T11:17:43Z,Chest X-ray,Rule out infection,completed,routine
+D,452,714,4,2025-09-29T13:47:50Z,Blood panel,Rule out obstruction,completed,urgent
+D,453,715,10,2026-07-26T02:33:36Z,Chest X-ray,Rule out obstruction,completed,stat
+D,454,718,10,2024-01-21T14:07:03Z,Ultrasound,Rule out infection,completed,stat
+D,455,718,5,2024-01-21T17:35:38Z,Ultrasound,Rule out obstruction,completed,urgent
+D,456,719,2,2024-04-27T10:14:20Z,Ultrasound,Rule out bleeding,completed,routine
+D,457,719,3,2024-04-27T16:09:39Z,Chest X-ray,Rule out bleeding,completed,stat
+D,458,722,35,2025-06-10T09:03:19Z,Blood panel,Rule out fracture,completed,routine
+D,459,723,35,2025-07-17T02:04:22Z,Chest X-ray,Rule out obstruction,completed,routine
+D,460,725,10,2023-08-05T11:05:26Z,MRI,Rule out infection,completed,urgent
+D,461,726,3,2024-04-26T13:05:28Z,MRI,Rule out bleeding,completed,urgent
+D,462,733,40,2025-04-11T18:54:12Z,Ultrasound,Rule out bleeding,completed,routine
+D,463,735,3,2025-09-19T06:34:46Z,CT scan,Rule out bleeding,completed,routine
+D,464,738,5,2023-10-23T17:40:43Z,ECG,Rule out bleeding,completed,stat
+D,467,741,3,2023-09-02T14:49:51Z,Ultrasound,Rule out obstruction,pending,urgent
+D,468,742,4,2024-05-31T18:13:20Z,MRI,Rule out ischemia,in_progress,urgent
+D,469,742,25,2024-05-31T19:16:17Z,Blood panel,Rule out fracture,cancelled,urgent
+D,470,743,30,2024-08-07T17:29:07Z,ECG,Rule out fracture,in_progress,urgent
+D,471,744,1,2025-02-16T04:43:04Z,CT scan,Rule out bleeding,completed,routine
+D,472,744,35,2025-02-16T09:24:54Z,Blood panel,Rule out infection,cancelled,routine
+D,473,749,35,2024-12-08T02:36:01Z,ECG,Rule out obstruction,completed,stat
+D,474,750,35,2023-10-10T23:57:56Z,ECG,Rule out infection,pending,routine
+D,475,751,2,2025-08-20T08:00:18Z,Chest X-ray,Rule out obstruction,completed,stat
+D,478,756,1,2025-03-13T18:36:25Z,MRI,Rule out fracture,completed,routine
+D,479,756,2,2025-03-13T00:42:35Z,ECG,Rule out fracture,completed,routine
+D,480,759,4,2024-08-14T23:00:37Z,Blood panel,Rule out fracture,completed,urgent
+D,481,761,40,2024-03-13T06:19:19Z,MRI,Rule out obstruction,completed,urgent
+D,482,761,35,2024-03-14T19:10:13Z,MRI,Rule out obstruction,completed,urgent
+D,483,762,40,2024-04-05T02:53:37Z,Ultrasound,Rule out bleeding,completed,stat
+D,484,765,35,2023-10-25T02:41:30Z,Ultrasound,Rule out obstruction,completed,stat
+D,485,766,5,2023-06-19T23:03:32Z,CT scan,Rule out bleeding,completed,routine
+D,486,770,15,2025-07-14T14:36:08Z,Blood panel,Rule out infection,completed,stat
+D,487,770,15,2025-07-14T13:37:29Z,ECG,Rule out bleeding,completed,routine
+D,488,778,40,2024-10-15T22:31:58Z,MRI,Rule out ischemia,completed,urgent
+D,489,779,30,2024-10-07T19:54:30Z,MRI,Rule out infection,completed,routine
+D,490,779,1,2024-10-09T19:17:09Z,Ultrasound,Rule out obstruction,completed,routine
+D,491,780,35,2024-11-23T01:09:26Z,Chest X-ray,Rule out ischemia,completed,routine
+D,492,780,2,2024-11-24T10:12:21Z,Chest X-ray,Rule out bleeding,completed,urgent
+D,493,781,30,2024-07-26T07:28:19Z,Chest X-ray,Rule out fracture,completed,routine
+D,494,781,4,2024-07-26T22:43:07Z,Blood panel,Rule out ischemia,pending,routine
+D,495,782,5,2024-02-07T23:14:11Z,Ultrasound,Rule out obstruction,completed,stat
+D,496,783,15,2024-03-16T16:55:29Z,Ultrasound,Rule out ischemia,completed,stat
+D,497,785,35,2025-03-13T00:20:41Z,CT scan,Rule out ischemia,pending,stat
+D,498,787,25,2023-11-25T20:44:51Z,Ultrasound,Rule out infection,completed,routine
+D,499,793,5,2025-04-20T02:21:21Z,Ultrasound,Rule out obstruction,completed,stat
+D,500,794,1,2024-10-28T03:36:26Z,ECG,Rule out infection,completed,urgent
+D,501,797,25,2025-06-08T14:01:59Z,CT scan,Rule out fracture,completed,urgent
+D,502,798,35,2026-04-18T08:22:57Z,Chest X-ray,Rule out fracture,pending,routine
+D,503,798,20,2026-04-18T09:16:40Z,CT scan,Rule out ischemia,pending,routine
+D,504,799,10,2025-08-15T16:15:01Z,Chest X-ray,Rule out obstruction,completed,urgent
+D,505,800,35,2024-08-09T15:22:17Z,ECG,Rule out ischemia,completed,urgent

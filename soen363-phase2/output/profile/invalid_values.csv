@@ -1,0 +1,1479 @@
+source,entity,field,check,location,value,detail
+A,patients,nom,extra whitespace,patients.txt:line 23,'  Masson ',
+A,patients,nom,extra whitespace,patients.txt:line 87,'  Bernard ',
+A,patients,nom,extra whitespace,patients.txt:line 93,'  Daniel ',
+A,patients,nom,extra whitespace,patients.txt:line 122,'  Klein ',
+A,patients,nom,extra whitespace,patients.txt:line 144,'  Meyer ',
+A,patients,nom,extra whitespace,patients.txt:line 194,'  Barre ',
+A,patients,nom,extra whitespace,patients.txt:line 224,'  Renard ',
+A,patients,nom,extra whitespace,patients.txt:line 324,'  Grégoire ',
+A,patients,nom,extra whitespace,patients.txt:line 389,'  Chevallier ',
+A,patients,prenom,extra whitespace,patients.txt:line 242,' Michelle  ',
+A,patients,prenom,extra whitespace,patients.txt:line 362,' Bernadette  ',
+A,admissions,date_entree,impossible date/time,admissions.txt:line 83,'00/13/2024 08:30',impossible datetime DD/MM/YYYY HH:MM
+A,admissions,date_entree,impossible date/time,admissions.txt:line 183,'00/13/2024 08:30',impossible datetime DD/MM/YYYY HH:MM
+A,admissions,date_entree,not a date/time,admissions.txt:line 209,'??/??/????',read as text
+A,admissions,date_entree,not a date/time,admissions.txt:line 321,'??/??/????',read as text
+A,admissions,date_entree,impossible date/time,admissions.txt:line 371,'00/13/2024 08:30',impossible datetime DD/MM/YYYY HH:MM
+A,admissions,date_entree,not a date/time,admissions.txt:line 471,'??/??/????',read as text
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 9,' URG ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 17,' EMER ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 50,'ELEC  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 52,'EMER  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 67,' ELEC ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 87,'EMER  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 109,' ELEC ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 158,'URG  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 283,' URG ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 354,'EMER  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 382,'EMER  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 397,'ELEC  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 425,' AMB ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 429,' AMB ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 480,' EMER ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 507,'AMB  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 602,'URG  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 622,'ELEC  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 644,' URG ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 649,'ELEC  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 652,' EMER ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 764,'ELEC  ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 818,' URG ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 827,' AMB ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 862,' AMB ',
+A,admissions,type_sejour,extra whitespace,admissions.txt:line 878,' URG ',
+A,admissions,type_sejour,label case variant,admissions.txt:line 15,'emer',usual form 'EMER'
+A,admissions,type_sejour,label case variant,admissions.txt:line 106,'emer',usual form 'EMER'
+A,admissions,type_sejour,label case variant,admissions.txt:line 170,'urg',usual form 'URG'
+A,admissions,type_sejour,label case variant,admissions.txt:line 339,'urg',usual form 'URG'
+A,admissions,type_sejour,label case variant,admissions.txt:line 757,'urg',usual form 'URG'
+A,admissions,type_sejour,label case variant,admissions.txt:line 262,'elec',usual form 'ELEC'
+A,admissions,type_sejour,label case variant,admissions.txt:line 797,'elec',usual form 'ELEC'
+A,admissions,type_sejour,label case variant,admissions.txt:line 77,'amb',usual form 'AMB'
+A,admissions,type_sejour,label case variant,admissions.txt:line 332,'amb',usual form 'AMB'
+A,triage,fr,not a number,triage.txt:line 28,'abc',read as text
+A,triage,fr,not a number,triage.txt:line 39,'?',read as text
+A,triage,fr,not a number,triage.txt:line 95,'abc',read as text
+A,triage,fr,not a number,triage.txt:line 311,'--',read as text
+A,triage,fr,not a number,triage.txt:line 643,'abc',read as text
+A,triage,fr,not a number,triage.txt:line 874,'?',read as text
+A,triage,priorite,extra whitespace,triage.txt:line 37,' 1 ',
+A,triage,priorite,extra whitespace,triage.txt:line 132,'2  ',
+A,triage,priorite,extra whitespace,triage.txt:line 176,'3  ',
+A,triage,priorite,extra whitespace,triage.txt:line 229,' 2 ',
+A,triage,priorite,extra whitespace,triage.txt:line 303,'3  ',
+A,triage,priorite,extra whitespace,triage.txt:line 349,' 1 ',
+A,triage,priorite,extra whitespace,triage.txt:line 396,'2  ',
+A,triage,priorite,extra whitespace,triage.txt:line 436,'2  ',
+A,triage,priorite,extra whitespace,triage.txt:line 466,' 2 ',
+A,triage,priorite,extra whitespace,triage.txt:line 522,'1  ',
+A,triage,priorite,extra whitespace,triage.txt:line 585,'1  ',
+A,triage,priorite,extra whitespace,triage.txt:line 618,'2  ',
+A,triage,priorite,extra whitespace,triage.txt:line 663,' 3 ',
+A,triage,priorite,extra whitespace,triage.txt:line 687,' 3 ',
+A,triage,priorite,extra whitespace,triage.txt:line 710,'1  ',
+A,triage,priorite,extra whitespace,triage.txt:line 732,'3  ',
+A,triage,priorite,extra whitespace,triage.txt:line 779,'2  ',
+A,triage,priorite,extra whitespace,triage.txt:line 789,'3  ',
+A,triage,priorite,extra whitespace,triage.txt:line 828,' 3 ',
+A,triage,priorite,extra whitespace,triage.txt:line 864,' 2 ',
+A,triage,priorite,extra whitespace,triage.txt:line 867,'3  ',
+A,triage,priorite,extra whitespace,triage.txt:line 929,' 1 ',
+A,triage,priorite,extra whitespace,triage.txt:line 935,' 3 ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 17,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 127,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 149,' URGENCES ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 184,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 234,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 283,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 306,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 332,'REA-MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 382,' URGENCES ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 506,'REA-MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 511,' URGENCES ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 519,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 529,'URGENCES  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 532,' URGENCES ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 547,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 562,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 586,'URGENCES  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 589,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 719,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 736,' REA ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 768,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 787,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 852,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 865,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 878,' URGENCES ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 888,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 924,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 931,' URGENCES ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 972,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1128,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1144,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1205,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1213,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1249,'URGENCES  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1328,'URGENCES  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1408,' REA-CHIR ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1426,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1432,'MED  ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1468,' MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1480,' REA-MED ',
+A,unit_stays,unite,extra whitespace,mouvements.txt:line 1484,'URGENCES  ',
+A,unit_stays,unite,label case variant,mouvements.txt:line 242,'urgences',usual form 'URGENCES'
+A,unit_stays,unite,label case variant,mouvements.txt:line 480,'urgences',usual form 'URGENCES'
+A,unit_stays,unite,label case variant,mouvements.txt:line 679,'urgences',usual form 'URGENCES'
+A,unit_stays,unite,label case variant,mouvements.txt:line 1217,'urgences',usual form 'URGENCES'
+A,unit_stays,unite,label case variant,mouvements.txt:line 1445,'rea-med',usual form 'REA-MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 228,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 265,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 426,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 548,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 815,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 822,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 840,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 861,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 916,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 1016,'med',usual form 'MED'
+A,unit_stays,unite,label case variant,mouvements.txt:line 1464,'rea',usual form 'REA'
+A,unit_stays,unite,label case variant,mouvements.txt:line 1416,'usic',usual form 'USIC'
+A,triage,fc,out of plausible range,triage.txt:line 57,'0',expected 20-300 bpm
+A,triage,fc,out of plausible range,triage.txt:line 308,'-5',expected 20-300 bpm
+A,triage,fc,out of plausible range,triage.txt:line 406,'0',expected 20-300 bpm
+A,triage,fc,out of plausible range,triage.txt:line 489,'420',expected 20-300 bpm
+A,triage,fc,out of plausible range,triage.txt:line 629,'0',expected 20-300 bpm
+A,triage,fc,out of plausible range,triage.txt:line 739,'420',expected 20-300 bpm
+A,triage,fc,out of plausible range,triage.txt:line 800,'0',expected 20-300 bpm
+A,triage,fc,out of plausible range,triage.txt:line 844,'420',expected 20-300 bpm
+A,triage,temp_c,out of plausible range,triage.txt:line 385,"'410,0'",expected 25-45 degC
+A,triage,temp_c,out of plausible range,triage.txt:line 659,"'98,0'",expected 25-45 degC
+A,triage,temp_c,out of plausible range,triage.txt:line 663,"'98,0'",expected 25-45 degC
+A,triage,temp_c,out of plausible range,triage.txt:line 678,"'98,0'",expected 25-45 degC
+A,triage,temp_c,out of plausible range,triage.txt:line 823,"'410,0'",expected 25-45 degC
+A,triage,spo2_pct,out of plausible range,triage.txt:line 227,'140',expected 50-100 %
+A,triage,spo2_pct,out of plausible range,triage.txt:line 320,'-3',expected 50-100 %
+A,triage,spo2_pct,out of plausible range,triage.txt:line 731,'140',expected 50-100 %
+A,triage,spo2_pct,out of plausible range,triage.txt:line 786,'140',expected 50-100 %
+A,triage,douleur,out of plausible range,triage.txt:line 209,'-1',expected 0-10 pain 0-10
+A,triage,douleur,out of plausible range,triage.txt:line 402,'15',expected 0-10 pain 0-10
+A,triage,douleur,out of plausible range,triage.txt:line 641,'-1',expected 0-10 pain 0-10
+A,patients,nom,name all upper / all lower case,patients.txt:line 17,'ARNAUD',
+A,patients,nom,name all upper / all lower case,patients.txt:line 62,'PINTO',
+A,patients,nom,name all upper / all lower case,patients.txt:line 106,'meyer',
+A,patients,nom,name all upper / all lower case,patients.txt:line 112,'sanchez',
+A,patients,nom,name all upper / all lower case,patients.txt:line 151,'LEBRETON',
+A,patients,nom,name all upper / all lower case,patients.txt:line 191,'grondin',
+A,patients,nom,name all upper / all lower case,patients.txt:line 202,'ARNAUD',
+A,patients,nom,name all upper / all lower case,patients.txt:line 243,'MAILLOT',
+A,patients,nom,name all upper / all lower case,patients.txt:line 343,'BERGER',
+A,patients,nom,name all upper / all lower case,patients.txt:line 359,'duval',
+A,patients,nom,name all upper / all lower case,patients.txt:line 365,'ARNAUD',
+A,patients,nom,name all upper / all lower case,patients.txt:line 399,'humbert',
+A,patients,nom,name all upper / all lower case,patients.txt:line 450,'CLÉMENT',
+A,patients,prenom,name all upper / all lower case,patients.txt:line 292,'martin',
+A,patients,prenom,name all upper / all lower case,patients.txt:line 336,'AMÉLIE',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 222,'123.45',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 336,'999.99',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 512,'999.99',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 1004,'123.45',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 1105,'999.99',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 1432,'999.99',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 1590,'E000',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 1649,'E000',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 1655,'E000',
+A,diagnoses,code_cim9,ICD-9 code not in dictionary,diagnostics.txt:line 1709,'123.45',
+B,patients,FullName,extra whitespace,patients.csv:row 26,"'  Ortiz , Courtney'",
+B,patients,FullName,extra whitespace,patients.csv:row 129,"'  Woods , Elizabeth'",
+B,patients,FullName,extra whitespace,patients.csv:row 150,"'Perez,  Isabella  '",
+B,patients,FullName,extra whitespace,patients.csv:row 223,"'  Cooper , Michael'",
+B,patients,FullName,extra whitespace,patients.csv:row 238,"'  Haney , Joshua'",
+B,patients,FullName,extra whitespace,patients.csv:row 273,"'  Mayo , Marissa'",
+B,patients,FullName,extra whitespace,patients.csv:row 279,"'  Thompson , Peter'",
+B,patients,FullName,extra whitespace,patients.csv:row 290,"'  Fuller , Michael'",
+B,patients,FullName,extra whitespace,patients.csv:row 304,"'  Hunt , Sophia'",
+B,patients,FullName,extra whitespace,patients.csv:row 329,"'  Haney , Joshua'",
+B,patients,FullName,extra whitespace,patients.csv:row 336,"'  Knight , Jennifer'",
+B,patients,FullName,extra whitespace,patients.csv:row 410,"'Barron,  Ryan  '",
+B,patients,FullName,extra whitespace,patients.csv:row 468,"'  Bates , Ryan'",
+B,patients,FullName,extra whitespace,patients.csv:row 470,"'  Hughes , Steven'",
+B,admissions,AdmitDateTime,impossible date/time,encounters.csv:row 3,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,admissions,AdmitDateTime,not a date/time,encounters.csv:row 108,'TBD',read as text
+B,admissions,AdmitDateTime,impossible date/time,encounters.csv:row 117,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,admissions,AdmitDateTime,not a date/time,encounters.csv:row 387,'TBD',read as text
+B,admissions,AdmitDateTime,impossible date/time,encounters.csv:row 545,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 133,'Elective  ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 158,' Urgent ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 164,' Outpatient ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 187,' Urgent ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 204,' Urgent ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 236,' Elective ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 265,'Outpatient  ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 287,'Elective  ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 296,' Newborn ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 324,' Elective ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 443,'Emergency  ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 528,' Emergency ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 549,'Emergency  ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 596,' Urgent ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 698,' Elective ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 740,' Urgent ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 749,'Emergency  ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 811,' Emergency ',
+B,admissions,AdmitType,extra whitespace,encounters.csv:row 880,'Elective  ',
+B,admissions,DischargeDateTime,impossible date/time,encounters.csv:row 443,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,admissions,DischargeDateTime,impossible date/time,encounters.csv:row 555,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,admissions,DischargeDateTime,not a date/time,encounters.csv:row 750,'TBD',read as text
+B,admissions,DischargeDateTime,impossible date/time,encounters.csv:row 783,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,admissions,DischargeDateTime,impossible date/time,encounters.csv:row 784,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,admissions,DischargeDateTime,impossible date/time,encounters.csv:row 896,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,admissions,AdmitType,label case variant,encounters.csv:row 323,'elective',usual form 'Elective'
+B,admissions,AdmitType,label case variant,encounters.csv:row 339,'ELECTIVE',usual form 'Elective'
+B,admissions,AdmitType,label case variant,encounters.csv:row 11,'emergency',usual form 'Emergency'
+B,admissions,AdmitType,label case variant,encounters.csv:row 347,'emergency',usual form 'Emergency'
+B,admissions,AdmitType,label case variant,encounters.csv:row 394,'emergency',usual form 'Emergency'
+B,admissions,AdmitType,label case variant,encounters.csv:row 798,'emergency',usual form 'Emergency'
+B,admissions,AdmitType,label case variant,encounters.csv:row 931,'emergency',usual form 'Emergency'
+B,admissions,AdmitType,label case variant,encounters.csv:row 358,'EMERGENCY',usual form 'Emergency'
+B,admissions,AdmitType,label case variant,encounters.csv:row 681,'EMERGENCY',usual form 'Emergency'
+B,admissions,AdmitType,label case variant,encounters.csv:row 712,'EMERGENCY',usual form 'Emergency'
+B,admissions,AdmitType,label case variant,encounters.csv:row 919,'EMERGENCY',usual form 'Emergency'
+B,admissions,AdmitType,label case variant,encounters.csv:row 6,'URGENT',usual form 'Urgent'
+B,admissions,AdmitType,label case variant,encounters.csv:row 218,'URGENT',usual form 'Urgent'
+B,admissions,AdmitType,label case variant,encounters.csv:row 345,'URGENT',usual form 'Urgent'
+B,admissions,AdmitType,label case variant,encounters.csv:row 729,'urgent',usual form 'Urgent'
+B,admissions,AdmitType,label case variant,encounters.csv:row 110,'OUTPATIENT',usual form 'Outpatient'
+B,admissions,AdmitType,label case variant,encounters.csv:row 115,'OUTPATIENT',usual form 'Outpatient'
+B,admissions,AdmitType,label case variant,encounters.csv:row 168,'OUTPATIENT',usual form 'Outpatient'
+B,admissions,AdmitType,label case variant,encounters.csv:row 803,'outpatient',usual form 'Outpatient'
+B,admissions,AdmitType,label case variant,encounters.csv:row 35,'newborn',usual form 'Newborn'
+B,admissions,AdmitType,label case variant,encounters.csv:row 81,'NEWBORN',usual form 'Newborn'
+B,admissions,AdmitType,label case variant,encounters.csv:row 830,'NEWBORN',usual form 'Newborn'
+B,triage,AssessedAt,impossible date/time,triage.csv:row 101,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,triage,AssessedAt,impossible date/time,triage.csv:row 108,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,triage,AssessedAt,impossible date/time,triage.csv:row 169,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,triage,AssessedAt,impossible date/time,triage.csv:row 171,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,triage,AssessedAt,impossible date/time,triage.csv:row 311,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,triage,AssessedAt,impossible date/time,triage.csv:row 380,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,triage,AssessedAt,not a date/time,triage.csv:row 629,'TBD',read as text
+B,triage,AssessedAt,impossible date/time,triage.csv:row 638,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,triage,AssessedAt,impossible date/time,triage.csv:row 748,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,triage,AssessedAt,not a date/time,triage.csv:row 784,'TBD',read as text
+B,triage,AssessedAt,impossible date/time,triage.csv:row 936,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,triage,RespRate,not a number,triage.csv:row 232,'abc',read as text
+B,triage,RespRate,not a number,triage.csv:row 276,'?',read as text
+B,triage,RespRate,not a number,triage.csv:row 356,'?',read as text
+B,triage,RespRate,not a number,triage.csv:row 465,'--',read as text
+B,triage,RespRate,not a number,triage.csv:row 854,'--',read as text
+B,triage,RespRate,not a number,triage.csv:row 859,'abc',read as text
+B,triage,RespRate,not a number,triage.csv:row 936,'--',read as text
+B,triage,RespRate,not a number,triage.csv:row 998,'?',read as text
+B,triage,Acuity,extra whitespace,triage.csv:row 3,'High  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 69,' Low ',
+B,triage,Acuity,extra whitespace,triage.csv:row 80,'High  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 103,' Low ',
+B,triage,Acuity,extra whitespace,triage.csv:row 136,'Medium  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 149,'Low  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 260,' Medium ',
+B,triage,Acuity,extra whitespace,triage.csv:row 284,' Low ',
+B,triage,Acuity,extra whitespace,triage.csv:row 301,'Low  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 377,'Low  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 419,'Medium  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 484,' Low ',
+B,triage,Acuity,extra whitespace,triage.csv:row 511,'Medium  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 521,'High  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 546,' Low ',
+B,triage,Acuity,extra whitespace,triage.csv:row 583,'Low  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 616,' Low ',
+B,triage,Acuity,extra whitespace,triage.csv:row 718,'Medium  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 734,' High ',
+B,triage,Acuity,extra whitespace,triage.csv:row 790,'High  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 866,'Low  ',
+B,triage,Acuity,extra whitespace,triage.csv:row 951,'Low  ',
+B,triage,Acuity,label case variant,triage.csv:row 63,'medium',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 79,'medium',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 172,'medium',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 415,'medium',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 432,'medium',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 501,'medium',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 505,'medium',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 216,'MEDIUM',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 427,'MEDIUM',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 497,'MEDIUM',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 645,'MEDIUM',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 860,'MEDIUM',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 931,'MEDIUM',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 979,'MEDIUM',usual form 'Medium'
+B,triage,Acuity,label case variant,triage.csv:row 24,'HIGH',usual form 'High'
+B,triage,Acuity,label case variant,triage.csv:row 290,'HIGH',usual form 'High'
+B,triage,Acuity,label case variant,triage.csv:row 960,'HIGH',usual form 'High'
+B,triage,Acuity,label case variant,triage.csv:row 242,'high',usual form 'High'
+B,triage,Acuity,label case variant,triage.csv:row 527,'high',usual form 'High'
+B,triage,Acuity,label case variant,triage.csv:row 447,'LOW',usual form 'Low'
+B,triage,Acuity,label case variant,triage.csv:row 608,'LOW',usual form 'Low'
+B,triage,Acuity,label case variant,triage.csv:row 698,'LOW',usual form 'Low'
+B,triage,Acuity,label case variant,triage.csv:row 800,'low',usual form 'Low'
+B,triage,Acuity,label case variant,triage.csv:row 852,'low',usual form 'Low'
+B,triage,Acuity,label case variant,triage.csv:row 913,'low',usual form 'Low'
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 16,'Emergency Department  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 20,'Coronary Care Unit  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 125,'Emergency Department  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 134,' General Ward ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 162,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 185,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 215,' General Ward ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 262,' General Ward ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 286,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 423,'Surgical ICU  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 436,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 460,' Emergency Department ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 461,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 480,'Emergency Department  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 651,' General Ward ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 727,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 753,'Emergency Department  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 788,' General Ward ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 849,' General Ward ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 921,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 973,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 981,' Surgical ICU ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1006,' General Ward ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1016,'Coronary Care Unit  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1030,' General Ward ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1047,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1176,' Coronary Care Unit ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1226,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1231,' Emergency Department ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1289,' General Ward ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1310,' Emergency Department ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1377,'General Ward  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1422,'Surgical ICU  ',
+B,unit_stays,Unit,extra whitespace,unit_stays.csv:row 1431,'General Ward  ',
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 198,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,InTime,not a date/time,unit_stays.csv:row 210,'TBD',read as text
+B,unit_stays,InTime,not a date/time,unit_stays.csv:row 449,'TBD',read as text
+B,unit_stays,InTime,not a date/time,unit_stays.csv:row 629,'TBD',read as text
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 642,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,InTime,not a date/time,unit_stays.csv:row 812,'TBD',read as text
+B,unit_stays,InTime,not a date/time,unit_stays.csv:row 874,'TBD',read as text
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 895,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 950,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 956,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 1057,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 1107,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,InTime,not a date/time,unit_stays.csv:row 1109,'TBD',read as text
+B,unit_stays,InTime,not a date/time,unit_stays.csv:row 1182,'TBD',read as text
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 1226,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 1312,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,InTime,impossible date/time,unit_stays.csv:row 1389,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,OutTime,impossible date/time,unit_stays.csv:row 73,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,OutTime,not a date/time,unit_stays.csv:row 196,'TBD',read as text
+B,unit_stays,OutTime,impossible date/time,unit_stays.csv:row 370,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,OutTime,impossible date/time,unit_stays.csv:row 573,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,OutTime,impossible date/time,unit_stays.csv:row 645,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,OutTime,not a date/time,unit_stays.csv:row 772,'TBD',read as text
+B,unit_stays,OutTime,not a date/time,unit_stays.csv:row 1067,'TBD',read as text
+B,unit_stays,OutTime,impossible date/time,unit_stays.csv:row 1290,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,OutTime,impossible date/time,unit_stays.csv:row 1333,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,OutTime,impossible date/time,unit_stays.csv:row 1334,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,OutTime,impossible date/time,unit_stays.csv:row 1394,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,unit_stays,OutTime,not a date/time,unit_stays.csv:row 1462,'TBD',read as text
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 61,'GENERAL WARD',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 209,'GENERAL WARD',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 284,'GENERAL WARD',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 364,'GENERAL WARD',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 405,'GENERAL WARD',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1036,'GENERAL WARD',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1170,'GENERAL WARD',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1398,'GENERAL WARD',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1479,'GENERAL WARD',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 111,'general ward',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 133,'general ward',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 378,'general ward',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 689,'general ward',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1043,'general ward',usual form 'General Ward'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 109,'EMERGENCY DEPARTMENT',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 135,'EMERGENCY DEPARTMENT',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 148,'EMERGENCY DEPARTMENT',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 196,'EMERGENCY DEPARTMENT',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 813,'EMERGENCY DEPARTMENT',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1024,'EMERGENCY DEPARTMENT',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1459,'EMERGENCY DEPARTMENT',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 530,'emergency department',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 790,'emergency department',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 909,'emergency department',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1003,'emergency department',usual form 'Emergency Department'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 520,'MEDICAL ICU',usual form 'Medical ICU'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1269,'MEDICAL ICU',usual form 'Medical ICU'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 43,'INTENSIVE CARE UNIT',usual form 'Intensive Care Unit'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1035,'intensive care unit',usual form 'Intensive Care Unit'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1057,'CORONARY CARE UNIT',usual form 'Coronary Care Unit'
+B,unit_stays,Unit,label case variant,unit_stays.csv:row 1418,'CORONARY CARE UNIT',usual form 'Coronary Care Unit'
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 3,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 58,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,not a date/time,diagnoses.csv:row 72,'TBD',read as text
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 339,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 481,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 508,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 837,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 997,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 1041,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 1293,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 1323,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 1492,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 1499,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 1725,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 1729,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 1895,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 1922,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,impossible date/time,diagnoses.csv:row 2014,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,diagnoses,DxDateTime,not a date/time,diagnoses.csv:row 2056,'TBD',read as text
+B,diagnoses,DxDateTime,not a date/time,diagnoses.csv:row 2244,'TBD',read as text
+B,orders,OrderedAt,impossible date/time,orders.csv:row 217,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,orders,OrderedAt,impossible date/time,orders.csv:row 218,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,orders,OrderedAt,impossible date/time,orders.csv:row 251,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,orders,OrderedAt,not a date/time,orders.csv:row 299,'TBD',read as text
+B,orders,OrderedAt,not a date/time,orders.csv:row 421,'TBD',read as text
+B,orders,OrderedAt,impossible date/time,orders.csv:row 585,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,orders,OrderedAt,impossible date/time,orders.csv:row 652,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,orders,OrderedAt,impossible date/time,orders.csv:row 665,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,radiology,PerformedAt,not a date/time,imaging.csv:row 53,'TBD',read as text
+B,radiology,PerformedAt,not a date/time,imaging.csv:row 241,'TBD',read as text
+B,radiology,PerformedAt,impossible date/time,imaging.csv:row 351,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,notes,WrittenAt,not a date/time,notes.csv:row 2,'TBD',read as text
+B,notes,WrittenAt,impossible date/time,notes.csv:row 71,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,notes,WrittenAt,impossible date/time,notes.csv:row 112,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,notes,WrittenAt,not a date/time,notes.csv:row 305,'TBD',read as text
+B,notes,WrittenAt,impossible date/time,notes.csv:row 407,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,notes,WrittenAt,not a date/time,notes.csv:row 427,'TBD',read as text
+B,notes,WrittenAt,not a date/time,notes.csv:row 559,'TBD',read as text
+B,notes,WrittenAt,impossible date/time,notes.csv:row 802,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,notes,WrittenAt,impossible date/time,notes.csv:row 907,'02/30/2025 10:00 AM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,notes,WrittenAt,not a date/time,notes.csv:row 970,'TBD',read as text
+B,discharges,DischargedAt,not a date/time,discharges.csv:row 169,'TBD',read as text
+B,discharges,DischargedAt,impossible date/time,discharges.csv:row 221,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,discharges,DischargedAt,not a date/time,discharges.csv:row 441,'TBD',read as text
+B,discharges,DischargedAt,impossible date/time,discharges.csv:row 515,'13/45/2024 09:15 PM',impossible datetime MM/DD/YYYY hh:mm AM/PM
+B,discharges,DischargedAt,not a date/time,discharges.csv:row 700,'TBD',read as text
+B,discharges,DischargedAt,not a date/time,discharges.csv:row 956,'TBD',read as text
+B,triage,HeartRate,out of plausible range,triage.csv:row 76,'-5',expected 20-300 bpm
+B,triage,HeartRate,out of plausible range,triage.csv:row 152,'-5',expected 20-300 bpm
+B,triage,HeartRate,out of plausible range,triage.csv:row 335,'-5',expected 20-300 bpm
+B,triage,HeartRate,out of plausible range,triage.csv:row 446,'420',expected 20-300 bpm
+B,triage,HeartRate,out of plausible range,triage.csv:row 709,'0',expected 20-300 bpm
+B,triage,HeartRate,out of plausible range,triage.csv:row 872,'0',expected 20-300 bpm
+B,triage,TempF,out of plausible range,triage.csv:row 427,'208.4',expected 77-113 degF
+B,triage,TempF,out of plausible range,triage.csv:row 619,'40.1',expected 77-113 degF
+B,triage,TempF,out of plausible range,triage.csv:row 725,'208.4',expected 77-113 degF
+B,triage,TempF,out of plausible range,triage.csv:row 788,'770.0',expected 77-113 degF
+B,triage,SpO2,out of plausible range,triage.csv:row 94,'-3',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 102,'105',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 241,'-3',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 382,'140',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 434,'-3',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 489,'105',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 490,'105',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 718,'-3',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 776,'105',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 864,'140',expected 50-100 %
+B,triage,SpO2,out of plausible range,triage.csv:row 937,'-3',expected 50-100 %
+B,triage,PainScore,out of plausible range,triage.csv:row 183,'11',expected 0-10 pain 0-10
+B,triage,PainScore,out of plausible range,triage.csv:row 450,'15',expected 0-10 pain 0-10
+B,triage,PainScore,out of plausible range,triage.csv:row 575,'11',expected 0-10 pain 0-10
+B,triage,PainScore,out of plausible range,triage.csv:row 583,'15',expected 0-10 pain 0-10
+B,triage,PainScore,out of plausible range,triage.csv:row 620,'-1',expected 0-10 pain 0-10
+B,triage,PainScore,out of plausible range,triage.csv:row 832,'11',expected 0-10 pain 0-10
+B,triage,PainScore,out of plausible range,triage.csv:row 840,'15',expected 0-10 pain 0-10
+B,patients,FullName,name all upper / all lower case,patients.csv:row 78,"'Anderson, THERESA'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 88,"'Stewart, dean'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 186,"'STEVENS, Carolyn'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 257,"'rodriguez, Arthur'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 269,"'clark, Andrew'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 292,"'lowe, Yvette'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 398,"'Edwards, CHARLES'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 417,"'mercer, Steven'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 429,"'crane, Johnny'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 440,"'gutierrez, David'",
+B,patients,FullName,name all upper / all lower case,patients.csv:row 457,"'rivera, Dennis'",
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 46,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 84,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 96,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 143,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 162,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 167,'E000',
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 175,'123.45',
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 219,'123.45',
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 280,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 313,'999.99',
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 491,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 559,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 618,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 649,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 717,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 723,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 731,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 747,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 796,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 819,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 844,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 856,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 893,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 902,'123.45',
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 959,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 980,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1087,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1092,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1106,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1250,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1370,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1383,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1399,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1401,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1409,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 1445,'999.99',
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1446,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1464,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1494,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1634,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1649,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1655,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1674,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 1755,'E000',
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1812,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 1824,'123.45',
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1874,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 1913,'999.99',
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1916,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1929,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1941,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1971,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1993,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 1998,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2059,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2069,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2121,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 2142,'123.45',
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2149,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2166,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2173,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2243,'38.9',dictionary has 038.9
+B,diagnoses,ICD9,ICD-9 code not in dictionary,diagnoses.csv:row 2273,'123.45',
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2281,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2300,'8.45',dictionary has 008.45
+B,diagnoses,ICD9,ICD-9 leading zero lost,diagnoses.csv:row 2311,'8.45',dictionary has 008.45
+C,patients,name.family,extra whitespace,/patients/patient[10],'  Dewan ',
+C,patients,name.family,extra whitespace,/patients/patient[31],'  Suresh ',
+C,patients,name.family,extra whitespace,/patients/patient[316],'  Jain ',
+C,patients,name.family,extra whitespace,/patients/patient[348],'  Sachdev ',
+C,patients,name.family,extra whitespace,/patients/patient[366],'  Aurora ',
+C,patients,name.family,extra whitespace,/patients/patient[376],'  Jain ',
+C,patients,name.family,extra whitespace,/patients/patient[458],'  Morar ',
+C,patients,name.given,extra whitespace,/patients/patient[184],' Nidra  ',
+C,patients,name.given,extra whitespace,/patients/patient[445],' Zilmil  ',
+C,admissions,admittedAt,impossible date/time,/admissions/admission[151],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,admissions,admittedAt,not a date/time,/admissions/admission[418],'unknown',read as text
+C,admissions,admittedAt,not a date/time,/admissions/admission[441],'unknown',read as text
+C,admissions,category,extra whitespace,/admissions/admission[24],'Scheduled  ',
+C,admissions,category,extra whitespace,/admissions/admission[117],' Scheduled ',
+C,admissions,category,extra whitespace,/admissions/admission[151],'Scheduled  ',
+C,admissions,category,extra whitespace,/admissions/admission[177],' Urgent Care ',
+C,admissions,category,extra whitespace,/admissions/admission[220],' ER ',
+C,admissions,category,extra whitespace,/admissions/admission[229],'Urgent Care  ',
+C,admissions,category,extra whitespace,/admissions/admission[324],'ER  ',
+C,admissions,category,extra whitespace,/admissions/admission[330],' Urgent Care ',
+C,admissions,category,extra whitespace,/admissions/admission[334],' Urgent Care ',
+C,admissions,category,extra whitespace,/admissions/admission[342],' Urgent Care ',
+C,admissions,category,extra whitespace,/admissions/admission[387],'Scheduled  ',
+C,admissions,category,extra whitespace,/admissions/admission[415],' Ambulatory ',
+C,admissions,category,extra whitespace,/admissions/admission[438],' ER ',
+C,admissions,category,extra whitespace,/admissions/admission[459],' ER ',
+C,admissions,category,extra whitespace,/admissions/admission[508],' Scheduled ',
+C,admissions,category,extra whitespace,/admissions/admission[563],' ER ',
+C,admissions,category,extra whitespace,/admissions/admission[626],'Ambulatory  ',
+C,admissions,category,extra whitespace,/admissions/admission[650],'Urgent Care  ',
+C,admissions,category,extra whitespace,/admissions/admission[683],' Urgent Care ',
+C,admissions,category,extra whitespace,/admissions/admission[686],' Scheduled ',
+C,admissions,category,extra whitespace,/admissions/admission[697],' Ambulatory ',
+C,admissions,category,extra whitespace,/admissions/admission[738],' Scheduled ',
+C,admissions,category,extra whitespace,/admissions/admission[767],' Urgent Care ',
+C,admissions,category,extra whitespace,/admissions/admission[775],' Ambulatory ',
+C,admissions,category,extra whitespace,/admissions/admission[846],'Urgent Care  ',
+C,admissions,category,extra whitespace,/admissions/admission[852],'ER  ',
+C,admissions,category,extra whitespace,/admissions/admission[893],' Ambulatory ',
+C,admissions,dischargedAt,not a date/time,/admissions/admission[102],'unknown',read as text
+C,admissions,dischargedAt,not a date/time,/admissions/admission[203],'unknown',read as text
+C,admissions,dischargedAt,not a date/time,/admissions/admission[827],'unknown',read as text
+C,admissions,dischargedAt,impossible date/time,/admissions/admission[911],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,admissions,dischargedAt,impossible date/time,/admissions/admission[945],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,admissions,category,label case variant,/admissions/admission[67],'birth',usual form 'Birth'
+C,admissions,category,label case variant,/admissions/admission[795],'BIRTH',usual form 'Birth'
+C,admissions,category,label case variant,/admissions/admission[85],'AMBULATORY',usual form 'Ambulatory'
+C,admissions,category,label case variant,/admissions/admission[484],'AMBULATORY',usual form 'Ambulatory'
+C,admissions,category,label case variant,/admissions/admission[881],'AMBULATORY',usual form 'Ambulatory'
+C,admissions,category,label case variant,/admissions/admission[742],'ambulatory',usual form 'Ambulatory'
+C,admissions,category,label case variant,/admissions/admission[478],'er',usual form 'ER'
+C,admissions,category,label case variant,/admissions/admission[930],'er',usual form 'ER'
+C,admissions,category,label case variant,/admissions/admission[664],'urgent care',usual form 'Urgent Care'
+C,admissions,category,label case variant,/admissions/admission[114],'SCHEDULED',usual form 'Scheduled'
+C,admissions,category,label case variant,/admissions/admission[590],'SCHEDULED',usual form 'Scheduled'
+C,admissions,category,label case variant,/admissions/admission[599],'SCHEDULED',usual form 'Scheduled'
+C,admissions,category,label case variant,/admissions/admission[141],'scheduled',usual form 'Scheduled'
+C,admissions,category,label case variant,/admissions/admission[254],'scheduled',usual form 'Scheduled'
+C,admissions,category,label case variant,/admissions/admission[534],'scheduled',usual form 'Scheduled'
+C,admissions,category,label case variant,/admissions/admission[607],'scheduled',usual form 'Scheduled'
+C,admissions,category,label case variant,/admissions/admission[692],'scheduled',usual form 'Scheduled'
+C,triage,at,impossible date/time,/admissions/admission[234]/triage[9],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,triage,at,impossible date/time,/admissions/admission[329]/triage[9],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,triage,at,impossible date/time,/admissions/admission[546]/triage[9],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,triage,at,impossible date/time,/admissions/admission[824]/triage[8],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,triage,respiration,not a number,/admissions/admission[376]/triage[9],'--',read as text
+C,triage,respiration,not a number,/admissions/admission[798]/triage[9],'abc',read as text
+C,triage,level,extra whitespace,/admissions/admission[35]/triage[9],' Yellow ',
+C,triage,level,extra whitespace,/admissions/admission[51]/triage[9],'Yellow  ',
+C,triage,level,extra whitespace,/admissions/admission[74]/triage[9],'Yellow  ',
+C,triage,level,extra whitespace,/admissions/admission[106]/triage[9],'Green  ',
+C,triage,level,extra whitespace,/admissions/admission[138]/triage[9],' Red ',
+C,triage,level,extra whitespace,/admissions/admission[285]/triage[9],'Yellow  ',
+C,triage,level,extra whitespace,/admissions/admission[308]/triage[9],' Green ',
+C,triage,level,extra whitespace,/admissions/admission[341]/triage[9],'Yellow  ',
+C,triage,level,extra whitespace,/admissions/admission[362]/triage[9],' Green ',
+C,triage,level,extra whitespace,/admissions/admission[421]/triage[9],'Green  ',
+C,triage,level,extra whitespace,/admissions/admission[433]/triage[9],'Red  ',
+C,triage,level,extra whitespace,/admissions/admission[506]/triage[8],'Yellow  ',
+C,triage,level,extra whitespace,/admissions/admission[545]/triage[9],' Green ',
+C,triage,level,extra whitespace,/admissions/admission[579]/triage[9],'Red  ',
+C,triage,level,extra whitespace,/admissions/admission[624]/triage[10],'Red  ',
+C,triage,level,extra whitespace,/admissions/admission[637]/triage[9],'Red  ',
+C,triage,level,extra whitespace,/admissions/admission[640]/triage[9],'Red  ',
+C,triage,level,extra whitespace,/admissions/admission[698]/triage[9],'Yellow  ',
+C,triage,level,extra whitespace,/admissions/admission[781]/triage[9],'Yellow  ',
+C,triage,level,extra whitespace,/admissions/admission[783]/triage[9],'Yellow  ',
+C,triage,level,extra whitespace,/admissions/admission[831]/triage[9],'Yellow  ',
+C,triage,level,extra whitespace,/admissions/admission[847]/triage[9],'Green  ',
+C,triage,level,extra whitespace,/admissions/admission[852]/triage[9],'Red  ',
+C,triage,level,label case variant,/admissions/admission[2]/triage[9],'GREEN',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[166]/triage[9],'GREEN',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[205]/triage[9],'GREEN',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[297]/triage[10],'GREEN',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[710]/triage[10],'GREEN',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[840]/triage[9],'GREEN',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[875]/triage[8],'GREEN',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[148]/triage[9],'green',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[549]/triage[9],'green',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[713]/triage[9],'green',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[748]/triage[9],'green',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[865]/triage[9],'green',usual form 'Green'
+C,triage,level,label case variant,/admissions/admission[20]/triage[9],'red',usual form 'Red'
+C,triage,level,label case variant,/admissions/admission[343]/triage[9],'red',usual form 'Red'
+C,triage,level,label case variant,/admissions/admission[478]/triage[9],'red',usual form 'Red'
+C,triage,level,label case variant,/admissions/admission[572]/triage[9],'RED',usual form 'Red'
+C,triage,level,label case variant,/admissions/admission[700]/triage[10],'RED',usual form 'Red'
+C,triage,level,label case variant,/admissions/admission[811]/triage[9],'RED',usual form 'Red'
+C,triage,level,label case variant,/admissions/admission[342]/triage[9],'yellow',usual form 'Yellow'
+C,triage,level,label case variant,/admissions/admission[490]/triage[10],'yellow',usual form 'Yellow'
+C,triage,level,label case variant,/admissions/admission[662]/triage[9],'yellow',usual form 'Yellow'
+C,triage,level,label case variant,/admissions/admission[863]/triage[9],'yellow',usual form 'Yellow'
+C,triage,level,label case variant,/admissions/admission[372]/triage[9],'YELLOW',usual form 'Yellow'
+C,triage,level,label case variant,/admissions/admission[622]/triage[9],'YELLOW',usual form 'Yellow'
+C,triage,level,label case variant,/admissions/admission[816]/triage[9],'YELLOW',usual form 'Yellow'
+C,triage,level,label case variant,/admissions/admission[889]/triage[9],'YELLOW',usual form 'Yellow'
+C,unit_stays,unit,extra whitespace,/admissions/admission[20]/unitStay[12],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[71]/unitStay[10],'Emergency Room  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[87]/unitStay[10],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[96]/unitStay[10],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[135]/unitStay[11],'Surgical ICU  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[155]/unitStay[12],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[156]/unitStay[10],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[157]/unitStay[10],'Emergency Room  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[159]/unitStay[10],'Emergency Room  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[162]/unitStay[11],'ICU  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[162]/unitStay[12],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[177]/unitStay[11],' Medical ICU ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[195]/unitStay[11],'Medical ICU  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[211]/unitStay[11],' ICU ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[288]/unitStay[12],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[318]/unitStay[10],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[320]/unitStay[11],' CCU ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[344]/unitStay[10],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[363]/unitStay[10],'Emergency Room  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[416]/unitStay[11],'ICU  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[429]/unitStay[11],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[433]/unitStay[10],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[445]/unitStay[10],'Emergency Room  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[458]/unitStay[9],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[460]/unitStay[10],'Emergency Room  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[487]/unitStay[10],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[491]/unitStay[12],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[517]/unitStay[10],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[524]/unitStay[11],'CCU  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[535]/unitStay[12],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[550]/unitStay[11],'Surgical ICU  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[557]/unitStay[11],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[591]/unitStay[11],' Medical ICU ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[607]/unitStay[10],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[628]/unitStay[10],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[646]/unitStay[10],'Emergency Room  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[664]/unitStay[10],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[675]/unitStay[12],' CCU ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[692]/unitStay[10],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[699]/unitStay[10],'Emergency Room  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[725]/unitStay[10],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[743]/unitStay[10],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[750]/unitStay[10],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[781]/unitStay[12],'Ward  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[825]/unitStay[9],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[837]/unitStay[10],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[847]/unitStay[10],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[847]/unitStay[11],'CCU  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[857]/unitStay[11],'ICU  ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[877]/unitStay[10],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[895]/unitStay[10],' Emergency Room ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[899]/unitStay[12],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[915]/unitStay[11],' Ward ',
+C,unit_stays,unit,extra whitespace,/admissions/admission[923]/unitStay[10],'Emergency Room  ',
+C,unit_stays,in,impossible date/time,/admissions/admission[163]/unitStay[10],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,in,impossible date/time,/admissions/admission[195]/unitStay[11],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,in,impossible date/time,/admissions/admission[348]/unitStay[10],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,in,impossible date/time,/admissions/admission[416]/unitStay[11],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,in,impossible date/time,/admissions/admission[459]/unitStay[11],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,in,not a date/time,/admissions/admission[660]/unitStay[10],'unknown',read as text
+C,unit_stays,out,not a date/time,/admissions/admission[40]/unitStay[10],'unknown',read as text
+C,unit_stays,out,impossible date/time,/admissions/admission[79]/unitStay[12],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,out,impossible date/time,/admissions/admission[81]/unitStay[11],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,out,impossible date/time,/admissions/admission[135]/unitStay[10],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,out,impossible date/time,/admissions/admission[248]/unitStay[10],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,out,impossible date/time,/admissions/admission[512]/unitStay[10],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,out,impossible date/time,/admissions/admission[524]/unitStay[12],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,out,not a date/time,/admissions/admission[752]/unitStay[12],'unknown',read as text
+C,unit_stays,out,not a date/time,/admissions/admission[882]/unitStay[13],'unknown',read as text
+C,unit_stays,out,impossible date/time,/admissions/admission[919]/unitStay[10],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,unit_stays,unit,label case variant,/admissions/admission[74]/unitStay[10],'ward',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[100]/unitStay[10],'ward',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[113]/unitStay[12],'ward',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[424]/unitStay[12],'ward',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[465]/unitStay[12],'ward',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[469]/unitStay[12],'ward',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[619]/unitStay[10],'ward',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[770]/unitStay[10],'ward',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[889]/unitStay[10],'ward',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[75]/unitStay[11],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[180]/unitStay[10],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[215]/unitStay[12],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[286]/unitStay[10],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[327]/unitStay[12],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[438]/unitStay[11],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[446]/unitStay[10],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[488]/unitStay[10],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[496]/unitStay[10],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[584]/unitStay[11],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[608]/unitStay[11],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[653]/unitStay[10],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[861]/unitStay[13],'WARD',usual form 'Ward'
+C,unit_stays,unit,label case variant,/admissions/admission[77]/unitStay[10],'EMERGENCY ROOM',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[139]/unitStay[10],'EMERGENCY ROOM',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[594]/unitStay[10],'EMERGENCY ROOM',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[838]/unitStay[10],'EMERGENCY ROOM',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[893]/unitStay[10],'EMERGENCY ROOM',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[232]/unitStay[10],'emergency room',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[427]/unitStay[10],'emergency room',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[507]/unitStay[10],'emergency room',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[615]/unitStay[10],'emergency room',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[635]/unitStay[10],'emergency room',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[662]/unitStay[10],'emergency room',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[897]/unitStay[10],'emergency room',usual form 'Emergency Room'
+C,unit_stays,unit,label case variant,/admissions/admission[517]/unitStay[11],'surgical icu',usual form 'Surgical ICU'
+C,unit_stays,unit,label case variant,/admissions/admission[863]/unitStay[11],'SURGICAL ICU',usual form 'Surgical ICU'
+C,unit_stays,unit,label case variant,/admissions/admission[285]/unitStay[11],'MEDICAL ICU',usual form 'Medical ICU'
+C,unit_stays,unit,label case variant,/admissions/admission[511]/unitStay[11],'medical icu',usual form 'Medical ICU'
+C,diagnoses,at,not a date/time,/admissions/admission[108]/diagnosis[14],'unknown',read as text
+C,diagnoses,at,impossible date/time,/admissions/admission[137]/diagnosis[13],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,diagnoses,at,impossible date/time,/admissions/admission[374]/diagnosis[10],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,diagnoses,at,not a date/time,/admissions/admission[415]/diagnosis[11],'unknown',read as text
+C,diagnoses,at,not a date/time,/admissions/admission[539]/diagnosis[15],'unknown',read as text
+C,diagnoses,at,impossible date/time,/admissions/admission[569]/diagnosis[10],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,diagnoses,at,impossible date/time,/admissions/admission[595]/diagnosis[10],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,diagnoses,at,impossible date/time,/admissions/admission[626]/diagnosis[10],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,diagnoses,at,impossible date/time,/admissions/admission[706]/diagnosis[11],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,diagnoses,at,impossible date/time,/admissions/admission[722]/diagnosis[10],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,diagnoses,at,impossible date/time,/admissions/admission[726]/diagnosis[13],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,diagnoses,at,impossible date/time,/admissions/admission[880]/diagnosis[11],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,diagnoses,at,impossible date/time,/admissions/admission[939]/diagnosis[11],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,orders,at,impossible date/time,/admissions/admission[160]/order[13],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,orders,at,impossible date/time,/admissions/admission[294]/order[16],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,orders,at,not a date/time,/admissions/admission[643]/order[14],'unknown',read as text
+C,radiology,at,impossible date/time,/admissions/admission[53]/order[17]/radiologyExam[1],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,radiology,at,not a date/time,/admissions/admission[444]/order[13]/radiologyExam[1],'unknown',read as text
+C,procedures,at,impossible date/time,/admissions/admission[871]/surgery[16],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,notes,at,not a date/time,/admissions/admission[74]/note[14],'unknown',read as text
+C,notes,at,impossible date/time,/admissions/admission[131]/note[20],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,notes,at,impossible date/time,/admissions/admission[158]/note[17],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,notes,at,not a date/time,/admissions/admission[449]/note[18],'unknown',read as text
+C,notes,at,impossible date/time,/admissions/admission[482]/note[13],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,notes,at,not a date/time,/admissions/admission[512]/note[14],'unknown',read as text
+C,notes,at,not a date/time,/admissions/admission[822]/note[13],'unknown',read as text
+C,discharges,at,impossible date/time,/admissions/admission[99]/discharge[16],'2024-13-01T08:00:00+08:00',impossible datetime ISO +offset
+C,discharges,at,not a date/time,/admissions/admission[444]/discharge[15],'unknown',read as text
+C,discharges,at,not a date/time,/admissions/admission[594]/discharge[18],'unknown',read as text
+C,discharges,at,impossible date/time,/admissions/admission[630]/discharge[14],'2025-02-30T10:00:00+08:00',impossible datetime ISO +offset
+C,triage,pulse,out of plausible range,/admissions/admission[24]/triage[9],'420',expected 20-300 bpm
+C,triage,pulse,out of plausible range,/admissions/admission[25]/triage[9],'420',expected 20-300 bpm
+C,triage,pulse,out of plausible range,/admissions/admission[80]/triage[9],'0',expected 20-300 bpm
+C,triage,pulse,out of plausible range,/admissions/admission[228]/triage[8],'0',expected 20-300 bpm
+C,triage,pulse,out of plausible range,/admissions/admission[507]/triage[9],'0',expected 20-300 bpm
+C,triage,temperatureC,out of plausible range,/admissions/admission[36]/triage[9],'98.0',expected 25-45 degC
+C,triage,temperatureC,out of plausible range,/admissions/admission[232]/triage[9],'410.0',expected 25-45 degC
+C,triage,temperatureC,out of plausible range,/admissions/admission[557]/triage[9],'410.0',expected 25-45 degC
+C,triage,temperatureC,out of plausible range,/admissions/admission[568]/triage[9],'98.0',expected 25-45 degC
+C,triage,temperatureC,out of plausible range,/admissions/admission[900]/triage[9],'4.5',expected 25-45 degC
+C,triage,oxygenSaturation,out of plausible range,/admissions/admission[672]/triage[9],'1.05',expected 0.5-1.0 fraction
+C,triage,oxygenSaturation,out of plausible range,/admissions/admission[695]/triage[9],'-0.03',expected 0.5-1.0 fraction
+C,triage,pain,out of plausible range,/admissions/admission[103]/triage[9],'-1',expected 0-10 pain 0-10
+C,triage,pain,out of plausible range,/admissions/admission[208]/triage[9],'11',expected 0-10 pain 0-10
+C,triage,pain,out of plausible range,/admissions/admission[638]/triage[9],'-1',expected 0-10 pain 0-10
+C,patients,name.family,name all upper / all lower case,/patients/patient[1],'bora',
+C,patients,name.family,name all upper / all lower case,/patients/patient[42],'pant',
+C,patients,name.family,name all upper / all lower case,/patients/patient[95],'gulati',
+C,patients,name.family,name all upper / all lower case,/patients/patient[98],'UPPAL',
+C,patients,name.family,name all upper / all lower case,/patients/patient[103],'butala',
+C,patients,name.family,name all upper / all lower case,/patients/patient[106],'barman',
+C,patients,name.family,name all upper / all lower case,/patients/patient[122],'SHARAF',
+C,patients,name.family,name all upper / all lower case,/patients/patient[186],'lalla',
+C,patients,name.family,name all upper / all lower case,/patients/patient[217],'DUGAR',
+C,patients,name.family,name all upper / all lower case,/patients/patient[262],'amble',
+C,patients,name.family,name all upper / all lower case,/patients/patient[265],'prakash',
+C,patients,name.family,name all upper / all lower case,/patients/patient[275],'BAINS',
+C,patients,name.family,name all upper / all lower case,/patients/patient[307],'DHALIWAL',
+C,patients,name.family,name all upper / all lower case,/patients/patient[308],'BALAKRISHNAN',
+C,patients,name.family,name all upper / all lower case,/patients/patient[333],'MUNI',
+C,patients,name.family,name all upper / all lower case,/patients/patient[369],'ANAND',
+C,patients,name.family,name all upper / all lower case,/patients/patient[383],'CHAUDHARI',
+C,patients,name.family,name all upper / all lower case,/patients/patient[424],'apte',
+C,patients,name.family,name all upper / all lower case,/patients/patient[475],'karpe',
+C,patients,name.family,name all upper / all lower case,/patients/patient[508],'borde',
+C,patients,name.family,name all upper / all lower case,/patients/patient[509],'chaudry',
+C,patients,name.given,name all upper / all lower case,/patients/patient[10],'ridhi',
+C,patients,name.given,name all upper / all lower case,/patients/patient[191],'jasmit',
+C,patients,name.given,name all upper / all lower case,/patients/patient[491],'ekiya',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[30]/diagnosis[11],'999.99',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[82]/diagnosis[11],'E000',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[114]/diagnosis[14],'999.99',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[305]/diagnosis[14],'999.99',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[332]/diagnosis[10],'999.99',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[427]/diagnosis[14],'E000',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[659]/diagnosis[14],'E000',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[764]/diagnosis[12],'E000',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[785]/diagnosis[14],'E000',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[812]/diagnosis[12],'999.99',
+C,diagnoses,icd9,ICD-9 code not in dictionary,/admissions/admission[928]/diagnosis[10],'E000',
+D,patients,surname,extra whitespace,$.patients[266],'  Mavundla ',
+D,patients,surname,extra whitespace,$.patients[279],'  Fenya ',
+D,patients,surname,extra whitespace,$.patients[356],'  Gobhozi ',
+D,patients,first_names,extra whitespace,$.patients[112],' Langalibalele  ',
+D,patients,first_names,extra whitespace,$.patients[124],' SimphiweyiNkosi  ',
+D,patients,first_names,extra whitespace,$.patients[432],' Londiwe  ',
+D,admissions,start,timestamp as Unix epoch seconds,$.encounters[16],1685187524,
+D,admissions,start,timestamp without time zone,$.encounters[17],'2024-06-07T18:06:13',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp as Unix epoch seconds,$.encounters[32],1719578156,
+D,admissions,start,timestamp without time zone,$.encounters[34],'2023-06-15T03:46:16',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[93],'2023-12-06T16:52:50',field is mostly datetime ISO UTC (Z)
+D,admissions,start,not a date/time,$.encounters[99],'31-31-2024',read as text
+D,admissions,start,timestamp as Unix epoch seconds,$.encounters[108],1743484903,
+D,admissions,start,timestamp without time zone,$.encounters[155],'2024-11-10T22:22:44',field is mostly datetime ISO UTC (Z)
+D,admissions,start,not a date/time,$.encounters[156],'not recorded',read as text
+D,admissions,start,timestamp without time zone,$.encounters[208],'2025-04-11T16:43:36',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[237],'2025-04-13T13:38:31',field is mostly datetime ISO UTC (Z)
+D,admissions,start,impossible date/time,$.encounters[240],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[248],'2025-04-20T14:28:38',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp as Unix epoch seconds,$.encounters[278],1729959214,
+D,admissions,start,impossible date/time,$.encounters[283],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[289],'2025-06-28T20:04:06',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[303],'2024-11-05T12:39:04',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[312],'2023-12-27T19:16:03',field is mostly datetime ISO UTC (Z)
+D,admissions,start,not a date/time,$.encounters[345],'not recorded',read as text
+D,admissions,start,timestamp without time zone,$.encounters[347],'2023-02-07T05:56:00',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp as Unix epoch seconds,$.encounters[349],1714780560,
+D,admissions,start,timestamp as Unix epoch seconds,$.encounters[383],1717714687,
+D,admissions,start,not a date/time,$.encounters[405],'not recorded',read as text
+D,admissions,start,timestamp as Unix epoch seconds,$.encounters[408],1735487952,
+D,admissions,start,timestamp without time zone,$.encounters[411],'2026-06-12T07:25:50',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[454],'2024-01-01T06:25:08',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[466],'2025-07-01T01:32:08',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[471],'2024-08-01T02:32:31',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp as Unix epoch seconds,$.encounters[522],1764546817,
+D,admissions,start,timestamp without time zone,$.encounters[523],'2024-08-20T12:34:43',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[527],'2024-10-23T08:40:33',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp as Unix epoch seconds,$.encounters[610],1707320534,
+D,admissions,start,not a date/time,$.encounters[635],'not recorded',read as text
+D,admissions,start,timestamp without time zone,$.encounters[655],'2025-05-08T18:58:34',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[686],'2023-06-02T06:47:26',field is mostly datetime ISO UTC (Z)
+D,admissions,start,timestamp without time zone,$.encounters[731],'2024-08-23T23:58:37',field is mostly datetime ISO UTC (Z)
+D,admissions,start,not a date/time,$.encounters[752],'not recorded',read as text
+D,admissions,start,timestamp without time zone,$.encounters[781],'2024-02-05T11:37:31',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[17],'2024-06-15T09:06:13',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[19],'2025-07-09T09:06:13',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[37],'2023-09-01T04:50:12',field is mostly datetime ISO UTC (Z)
+D,admissions,end,impossible date/time,$.encounters[63],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[77],1746484369,
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[97],1765665575,
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[108],1744618903,
+D,admissions,end,timestamp without time zone,$.encounters[136],'2025-09-02T04:46:59',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[145],1698490262,
+D,admissions,end,timestamp without time zone,$.encounters[199],'2025-05-16T07:23:27',field is mostly datetime ISO UTC (Z)
+D,admissions,end,not a date/time,$.encounters[211],'not recorded',read as text
+D,admissions,end,timestamp without time zone,$.encounters[250],'2024-07-24T11:27:37',field is mostly datetime ISO UTC (Z)
+D,admissions,end,impossible date/time,$.encounters[284],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[289],'2025-07-13T13:04:06',field is mostly datetime ISO UTC (Z)
+D,admissions,end,impossible date/time,$.encounters[301],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[313],'2024-01-29T13:16:03',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[320],'2025-08-19T18:14:45',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[345],'2024-12-29T09:59:08',field is mostly datetime ISO UTC (Z)
+D,admissions,end,not a date/time,$.encounters[416],'31-31-2024',read as text
+D,admissions,end,impossible date/time,$.encounters[420],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,admissions,end,impossible date/time,$.encounters[434],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[446],'2023-06-23T21:39:55',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[463],1747668197,
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[476],1700115456,
+D,admissions,end,timestamp without time zone,$.encounters[527],'2024-10-27T00:40:33',field is mostly datetime ISO UTC (Z)
+D,admissions,end,not a date/time,$.encounters[551],'not recorded',read as text
+D,admissions,end,timestamp without time zone,$.encounters[559],'2026-05-07T18:22:08',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[560],'2024-03-25T09:07:16',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[615],'2024-08-08T21:40:33',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[616],1745977669,
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[641],1692994189,
+D,admissions,end,timestamp without time zone,$.encounters[645],'2025-04-25T05:30:52',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[649],1709373306,
+D,admissions,end,timestamp as Unix epoch seconds,$.encounters[685],1778487013,
+D,admissions,end,not a date/time,$.encounters[711],'31-31-2024',read as text
+D,admissions,end,timestamp without time zone,$.encounters[713],'2025-10-07T02:31:11',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[801],'2023-06-10T08:05:36',field is mostly datetime ISO UTC (Z)
+D,admissions,end,timestamp without time zone,$.encounters[805],'2025-04-24T06:41:03',field is mostly datetime ISO UTC (Z)
+D,admissions,outcome,extra whitespace,$.encounters[52],'inpatient  ',
+D,admissions,outcome,extra whitespace,$.encounters[123],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[149],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[167],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[192],'discharged  ',
+D,admissions,outcome,extra whitespace,$.encounters[208],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[224],'discharged  ',
+D,admissions,outcome,extra whitespace,$.encounters[346],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[386],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[449],'discharged  ',
+D,admissions,outcome,extra whitespace,$.encounters[454],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[487],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[516],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[604],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[649],' discharged ',
+D,admissions,outcome,extra whitespace,$.encounters[694],'discharged  ',
+D,admissions,outcome,label case variant,$.encounters[83],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[85],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[111],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[206],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[239],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[438],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[540],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[605],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[621],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[646],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[698],'DISCHARGED',usual form 'discharged'
+D,admissions,outcome,label case variant,$.encounters[735],'DISCHARGED',usual form 'discharged'
+D,triage,at,timestamp without time zone,$.encounters[9].triage[0],'2024-12-07T12:42:43',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[26].triage[0],'2024-12-02T10:21:58',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[49].triage[0],'2024-08-02T19:31:30',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[89].triage[0],'2025-11-30T20:49:50',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[122].triage[0],'2024-01-02T21:47:11',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp as Unix epoch seconds,$.encounters[128].triage[0],1703091971,
+D,triage,at,timestamp as Unix epoch seconds,$.encounters[164].triage[0],1704827719,
+D,triage,at,timestamp without time zone,$.encounters[207].triage[0],'2024-02-19T06:36:18',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp as Unix epoch seconds,$.encounters[227].triage[0],1766925665,
+D,triage,at,timestamp without time zone,$.encounters[263].triage[0],'2025-02-21T21:33:06',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[265].triage[1],'2025-09-15T04:04:24',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp as Unix epoch seconds,$.encounters[273].triage[0],1695949048,
+D,triage,at,timestamp without time zone,$.encounters[286].triage[0],'2023-04-22T01:43:26',field is mostly datetime ISO UTC (Z)
+D,triage,at,not a date/time,$.encounters[323].triage[0],'31-31-2024',read as text
+D,triage,at,timestamp as Unix epoch seconds,$.encounters[337].triage[1],1734736899,
+D,triage,at,timestamp without time zone,$.encounters[338].triage[0],'2025-03-22T05:34:45',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[361].triage[0],'2023-03-14T19:19:22',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp as Unix epoch seconds,$.encounters[405].triage[0],1695957034,
+D,triage,at,timestamp without time zone,$.encounters[436].triage[0],'2026-05-24T00:26:09',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[463].triage[1],'2025-05-07T06:08:17',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[468].triage[0],'2025-09-02T14:57:45',field is mostly datetime ISO UTC (Z)
+D,triage,at,not a date/time,$.encounters[495].triage[0],'not recorded',read as text
+D,triage,at,not a date/time,$.encounters[513].triage[0],'31-31-2024',read as text
+D,triage,at,timestamp as Unix epoch seconds,$.encounters[553].triage[0],1745133245,
+D,triage,at,impossible date/time,$.encounters[563].triage[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,triage,at,not a date/time,$.encounters[665].triage[0],'31-31-2024',read as text
+D,triage,at,timestamp without time zone,$.encounters[666].triage[0],'2024-02-28T12:55:09',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[681].triage[0],'2024-06-18T05:24:15',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[685].triage[0],'2026-05-04T10:15:13',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp as Unix epoch seconds,$.encounters[686].triage[0],1685681546,
+D,triage,at,not a date/time,$.encounters[687].triage[1],'not recorded',read as text
+D,triage,at,timestamp without time zone,$.encounters[709].triage[0],'2024-04-24T07:06:17',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[727].triage[0],'2025-02-03T12:43:39',field is mostly datetime ISO UTC (Z)
+D,triage,at,timestamp without time zone,$.encounters[729].triage[0],'2023-10-09T18:03:37',field is mostly datetime ISO UTC (Z)
+D,triage,at,not a date/time,$.encounters[735].triage[0],'not recorded',read as text
+D,triage,at,timestamp without time zone,$.encounters[771].triage[0],'2024-08-06T15:02:06',field is mostly datetime ISO UTC (Z)
+D,triage,at,not a date/time,$.encounters[792].triage[0],'not recorded',read as text
+D,triage,resp_rate,not a number,$.encounters[234].triage[0],'--',read as text
+D,triage,resp_rate,not a number,$.encounters[378].triage[0],'abc',read as text
+D,triage,category,extra whitespace,$.encounters[51].triage[0],' P1 ',
+D,triage,category,extra whitespace,$.encounters[54].triage[0],'P2  ',
+D,triage,category,extra whitespace,$.encounters[56].triage[0],' P3 ',
+D,triage,category,extra whitespace,$.encounters[85].triage[0],'P2  ',
+D,triage,category,extra whitespace,$.encounters[87].triage[0],'P1  ',
+D,triage,category,extra whitespace,$.encounters[134].triage[0],' P3 ',
+D,triage,category,extra whitespace,$.encounters[280].triage[0],'P2  ',
+D,triage,category,extra whitespace,$.encounters[343].triage[0],'P2  ',
+D,triage,category,extra whitespace,$.encounters[391].triage[0],' P3 ',
+D,triage,category,extra whitespace,$.encounters[511].triage[0],'P3  ',
+D,triage,category,extra whitespace,$.encounters[574].triage[0],'P2  ',
+D,triage,category,extra whitespace,$.encounters[601].triage[0],'P1  ',
+D,triage,category,extra whitespace,$.encounters[602].triage[0],' P2 ',
+D,triage,category,extra whitespace,$.encounters[620].triage[0],'P1  ',
+D,triage,category,extra whitespace,$.encounters[740].triage[0],' P2 ',
+D,triage,category,extra whitespace,$.encounters[753].triage[0],' P2 ',
+D,triage,category,extra whitespace,$.encounters[762].triage[0],'P2  ',
+D,triage,category,extra whitespace,$.encounters[777].triage[0],'P2  ',
+D,triage,category,extra whitespace,$.encounters[786].triage[0],'P2  ',
+D,triage,category,label case variant,$.encounters[107].triage[0],'p2',usual form 'P2'
+D,triage,category,label case variant,$.encounters[167].triage[0],'p2',usual form 'P2'
+D,triage,category,label case variant,$.encounters[285].triage[0],'p2',usual form 'P2'
+D,triage,category,label case variant,$.encounters[73].triage[0],'p3',usual form 'P3'
+D,triage,category,label case variant,$.encounters[307].triage[0],'p3',usual form 'P3'
+D,triage,category,label case variant,$.encounters[509].triage[0],'p3',usual form 'P3'
+D,triage,category,label case variant,$.encounters[554].triage[0],'p3',usual form 'P3'
+D,triage,category,label case variant,$.encounters[685].triage[0],'p3',usual form 'P3'
+D,triage,category,label case variant,$.encounters[774].triage[0],'p3',usual form 'P3'
+D,triage,category,label case variant,$.encounters[59].triage[0],'p1',usual form 'P1'
+D,triage,category,label case variant,$.encounters[148].triage[0],'p1',usual form 'P1'
+D,triage,category,label case variant,$.encounters[286].triage[0],'p1',usual form 'P1'
+D,triage,category,label case variant,$.encounters[489].triage[0],'p1',usual form 'P1'
+D,triage,category,label case variant,$.encounters[655].triage[0],'p1',usual form 'P1'
+D,unit_stays,ward,extra whitespace,$.encounters[20].ward_movements[1],'ward  ',
+D,unit_stays,ward,extra whitespace,$.encounters[34].ward_movements[0],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[45].ward_movements[2],'ward  ',
+D,unit_stays,ward,extra whitespace,$.encounters[89].ward_movements[1],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[146].ward_movements[0],'ward  ',
+D,unit_stays,ward,extra whitespace,$.encounters[152].ward_movements[0],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[183].ward_movements[1],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[190].ward_movements[0],'emergency  ',
+D,unit_stays,ward,extra whitespace,$.encounters[205].ward_movements[1],'ward  ',
+D,unit_stays,ward,extra whitespace,$.encounters[230].ward_movements[0],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[243].ward_movements[0],'emergency  ',
+D,unit_stays,ward,extra whitespace,$.encounters[248].ward_movements[1],' icu ',
+D,unit_stays,ward,extra whitespace,$.encounters[255].ward_movements[2],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[278].ward_movements[2],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[324].ward_movements[0],'ward  ',
+D,unit_stays,ward,extra whitespace,$.encounters[335].ward_movements[2],'ward  ',
+D,unit_stays,ward,extra whitespace,$.encounters[352].ward_movements[0],'ward  ',
+D,unit_stays,ward,extra whitespace,$.encounters[395].ward_movements[3],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[533].ward_movements[2],'ward  ',
+D,unit_stays,ward,extra whitespace,$.encounters[559].ward_movements[0],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[595].ward_movements[0],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[599].ward_movements[0],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[618].ward_movements[1],' icu ',
+D,unit_stays,ward,extra whitespace,$.encounters[621].ward_movements[0],'emergency  ',
+D,unit_stays,ward,extra whitespace,$.encounters[623].ward_movements[0],' emergency ',
+D,unit_stays,ward,extra whitespace,$.encounters[623].ward_movements[1],' ccu ',
+D,unit_stays,ward,extra whitespace,$.encounters[631].ward_movements[1],'ward  ',
+D,unit_stays,ward,extra whitespace,$.encounters[656].ward_movements[2],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[743].ward_movements[0],' ward ',
+D,unit_stays,ward,extra whitespace,$.encounters[779].ward_movements[0],' emergency ',
+D,unit_stays,from,timestamp without time zone,$.encounters[1].ward_movements[0],'2025-09-19T08:58:29',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[3].ward_movements[1],'2026-06-06T01:21:28',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[5].ward_movements[0],'2025-08-03T08:53:08',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[14].ward_movements[0],'2025-11-22T08:00:48',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[62].ward_movements[0],1716357495,
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[68].ward_movements[0],1728624049,
+D,unit_stays,from,impossible date/time,$.encounters[69].ward_movements[1],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[78].ward_movements[0],1735933455,
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[79].ward_movements[1],1745422381,
+D,unit_stays,from,impossible date/time,$.encounters[124].ward_movements[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[127].ward_movements[1],1719790347,
+D,unit_stays,from,timestamp without time zone,$.encounters[142].ward_movements[0],'2024-12-21T08:00:40',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,not a date/time,$.encounters[185].ward_movements[0],'not recorded',read as text
+D,unit_stays,from,timestamp without time zone,$.encounters[195].ward_movements[0],'2024-04-21T14:24:31',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,not a date/time,$.encounters[198].ward_movements[0],'31-31-2024',read as text
+D,unit_stays,from,timestamp without time zone,$.encounters[207].ward_movements[0],'2024-02-19T07:01:18',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[212].ward_movements[0],'2025-01-30T02:06:45',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[294].ward_movements[0],'2023-11-25T07:10:31',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[302].ward_movements[1],'2024-05-02T21:07:09',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[333].ward_movements[0],'2024-03-05T04:39:34',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[366].ward_movements[2],'2023-07-25T17:21:39',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,impossible date/time,$.encounters[369].ward_movements[1],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[375].ward_movements[2],'2025-05-29T01:44:44',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[378].ward_movements[1],'2025-05-18T12:48:33',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[395].ward_movements[2],'2025-05-14T01:50:22',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[399].ward_movements[1],'2025-04-07T05:38:23',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[400].ward_movements[2],'2025-06-04T02:49:09',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,impossible date/time,$.encounters[476].ward_movements[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[523].ward_movements[1],1724384875,
+D,unit_stays,from,timestamp without time zone,$.encounters[525].ward_movements[2],'2024-06-23T11:27:43',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[539].ward_movements[1],'2025-08-06T14:47:25',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,not a date/time,$.encounters[543].ward_movements[0],'not recorded',read as text
+D,unit_stays,from,timestamp without time zone,$.encounters[561].ward_movements[0],'2025-03-26T05:48:00',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[561].ward_movements[1],1743098335,
+D,unit_stays,from,timestamp without time zone,$.encounters[561].ward_movements[3],'2025-03-31T14:07:53',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[596].ward_movements[2],1736682654,
+D,unit_stays,from,timestamp without time zone,$.encounters[600].ward_movements[0],'2024-08-11T11:18:02',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[600].ward_movements[2],'2024-08-13T00:26:06',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[601].ward_movements[2],'2025-01-27T22:37:57',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,not a date/time,$.encounters[606].ward_movements[2],'31-31-2024',read as text
+D,unit_stays,from,timestamp without time zone,$.encounters[630].ward_movements[0],'2025-02-16T23:36:42',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[632].ward_movements[0],'2023-12-29T16:41:24',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[633].ward_movements[0],1720377684,
+D,unit_stays,from,timestamp as Unix epoch seconds,$.encounters[655].ward_movements[0],1746725314,
+D,unit_stays,from,timestamp without time zone,$.encounters[686].ward_movements[0],'2023-06-02T07:17:26',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,not a date/time,$.encounters[701].ward_movements[1],'not recorded',read as text
+D,unit_stays,from,timestamp without time zone,$.encounters[711].ward_movements[1],'2025-02-28T19:51:08',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[713].ward_movements[2],'2025-10-04T02:02:04',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[733].ward_movements[1],'2025-07-28T01:17:51',field is mostly datetime ISO UTC (Z)
+D,unit_stays,from,timestamp without time zone,$.encounters[808].ward_movements[0],'2025-07-25T20:24:01',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[4].ward_movements[1],'2023-09-23T09:03:35',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[4].ward_movements[2],1696075199,
+D,unit_stays,to,timestamp without time zone,$.encounters[59].ward_movements[0],'2024-10-11T16:19:41',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[103].ward_movements[0],'2023-12-28T18:24:05',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[123].ward_movements[1],1686278653,
+D,unit_stays,to,timestamp without time zone,$.encounters[124].ward_movements[0],'2024-04-16T04:04:28',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[140].ward_movements[0],1737877404,
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[148].ward_movements[1],1678903457,
+D,unit_stays,to,timestamp without time zone,$.encounters[170].ward_movements[3],'2024-04-02T12:48:59',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[202].ward_movements[1],'2023-10-31T09:00:33',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[222].ward_movements[1],1702360280,
+D,unit_stays,to,timestamp without time zone,$.encounters[243].ward_movements[2],'2024-01-12T03:01:29',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[258].ward_movements[0],'2025-05-21T18:54:36',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[274].ward_movements[1],'2024-06-04T00:19:01',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[277].ward_movements[0],'2024-04-30T09:43:44',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[278].ward_movements[1],'2024-11-02T12:50:57',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,not a date/time,$.encounters[294].ward_movements[0],'not recorded',read as text
+D,unit_stays,to,not a date/time,$.encounters[298].ward_movements[1],'not recorded',read as text
+D,unit_stays,to,impossible date/time,$.encounters[306].ward_movements[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[311].ward_movements[0],'2023-07-13T04:21:30',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[317].ward_movements[0],'2025-08-05T09:47:42',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[319].ward_movements[0],'2025-08-17T15:57:19',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[323].ward_movements[1],1734215307,
+D,unit_stays,to,timestamp without time zone,$.encounters[337].ward_movements[0],'2024-12-29T01:36:39',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[341].ward_movements[2],'2024-10-23T15:00:29',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[369].ward_movements[0],'2023-11-04T23:27:18',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,impossible date/time,$.encounters[369].ward_movements[3],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[394].ward_movements[2],'2025-04-10T00:25:22',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[400].ward_movements[1],'2025-06-04T02:49:09',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[400].ward_movements[2],'2025-06-12T18:14:10',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[441].ward_movements[2],'2023-09-17T10:43:46',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[448].ward_movements[3],'2023-09-24T16:39:55',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[450].ward_movements[3],'2026-01-02T18:35:34',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,impossible date/time,$.encounters[460].ward_movements[1],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[486].ward_movements[0],'2024-12-23T22:23:43',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[497].ward_movements[0],1760123675,
+D,unit_stays,to,impossible date/time,$.encounters[512].ward_movements[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[553].ward_movements[1],'2025-04-23T12:42:49',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[554].ward_movements[2],'2024-11-13T15:35:58',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[556].ward_movements[0],1757689232,
+D,unit_stays,to,timestamp without time zone,$.encounters[562].ward_movements[1],'2025-08-03T15:01:13',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[569].ward_movements[1],'2024-10-01T01:50:08',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[572].ward_movements[0],'2026-10-06T05:33:35',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[574].ward_movements[2],'2025-12-19T07:18:38',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[583].ward_movements[0],'2023-11-01T02:26:48',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[586].ward_movements[1],'2024-02-12T23:06:53',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[596].ward_movements[0],'2025-01-08T17:14:30',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[602].ward_movements[2],'2023-07-01T04:00:00',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[613].ward_movements[2],'2023-12-10T10:26:14',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[635].ward_movements[3],'2024-02-04T20:55:23',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[642].ward_movements[1],'2024-06-23T22:09:49',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[664].ward_movements[2],'2024-02-19T21:52:50',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[677].ward_movements[2],1725473507,
+D,unit_stays,to,timestamp without time zone,$.encounters[687].ward_movements[1],'2024-01-25T15:58:14',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[698].ward_movements[1],1727996650,
+D,unit_stays,to,timestamp without time zone,$.encounters[703].ward_movements[1],'2023-07-05T17:44:18',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[711].ward_movements[2],'2025-03-07T11:31:11',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[721].ward_movements[0],'2025-06-10T07:24:12',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[732].ward_movements[2],'2025-04-28T01:58:37',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[757].ward_movements[2],'2023-11-04T07:02:01',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[786].ward_movements[0],'2023-11-25T12:37:49',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp as Unix epoch seconds,$.encounters[788].ward_movements[2],1682417694,
+D,unit_stays,to,timestamp without time zone,$.encounters[791].ward_movements[2],'2024-09-27T23:36:27',field is mostly datetime ISO UTC (Z)
+D,unit_stays,to,timestamp without time zone,$.encounters[798].ward_movements[2],'2025-08-20T18:11:17',field is mostly datetime ISO UTC (Z)
+D,unit_stays,ward,label case variant,$.encounters[74].ward_movements[2],'WARD',usual form 'ward'
+D,unit_stays,ward,label case variant,$.encounters[75].ward_movements[0],'WARD',usual form 'ward'
+D,unit_stays,ward,label case variant,$.encounters[144].ward_movements[2],'WARD',usual form 'ward'
+D,unit_stays,ward,label case variant,$.encounters[153].ward_movements[0],'WARD',usual form 'ward'
+D,unit_stays,ward,label case variant,$.encounters[378].ward_movements[3],'WARD',usual form 'ward'
+D,unit_stays,ward,label case variant,$.encounters[475].ward_movements[0],'WARD',usual form 'ward'
+D,unit_stays,ward,label case variant,$.encounters[575].ward_movements[0],'WARD',usual form 'ward'
+D,unit_stays,ward,label case variant,$.encounters[580].ward_movements[0],'WARD',usual form 'ward'
+D,unit_stays,ward,label case variant,$.encounters[594].ward_movements[0],'WARD',usual form 'ward'
+D,unit_stays,ward,label case variant,$.encounters[278].ward_movements[1],'MICU',usual form 'micu'
+D,unit_stays,ward,label case variant,$.encounters[112].ward_movements[0],'EMERGENCY',usual form 'emergency'
+D,unit_stays,ward,label case variant,$.encounters[432].ward_movements[0],'EMERGENCY',usual form 'emergency'
+D,unit_stays,ward,label case variant,$.encounters[791].ward_movements[0],'EMERGENCY',usual form 'emergency'
+D,unit_stays,ward,label case variant,$.encounters[212].ward_movements[1],'ICU',usual form 'icu'
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[4].diagnoses[0],1694768399,
+D,diagnoses,at,timestamp without time zone,$.encounters[9].diagnoses[2],'2024-12-08T00:37:43',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[23].diagnoses[0],'2023-04-08T06:16:58',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,impossible date/time,$.encounters[24].diagnoses[2],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[30].diagnoses[2],'2024-11-02T13:11:37',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[31].diagnoses[1],'2023-10-21T20:44:52',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[52].diagnoses[1],'2026-10-21T01:26:30',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[55].diagnoses[1],'2023-06-22T11:35:01',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[57].diagnoses[2],'2024-04-12T17:32:46',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[58].diagnoses[2],1711590730,
+D,diagnoses,at,timestamp without time zone,$.encounters[59].diagnoses[0],'2024-10-10T12:52:10',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[67].diagnoses[1],'2024-01-10T11:50:49',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[75].diagnoses[2],'2025-02-19T05:38:31',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[88].diagnoses[2],'2025-06-08T12:44:50',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[96].diagnoses[0],'2025-06-28T10:39:35',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[140].diagnoses[2],'2025-01-13T10:43:24',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[147].diagnoses[1],'2023-05-07T02:17:22',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[165].diagnoses[0],'2024-10-19T04:10:19',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[176].diagnoses[2],1755825605,
+D,diagnoses,at,timestamp without time zone,$.encounters[179].diagnoses[1],'2025-02-28T20:05:51',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[197].diagnoses[1],'2025-05-09T07:54:31',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[214].diagnoses[2],1703689583,
+D,diagnoses,at,timestamp without time zone,$.encounters[221].diagnoses[1],'2023-06-03T07:51:20',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[225].diagnoses[0],1739331365,
+D,diagnoses,at,timestamp without time zone,$.encounters[231].diagnoses[2],'2026-08-23T22:52:59',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[234].diagnoses[0],'2024-06-05T06:12:18',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[236].diagnoses[1],1754592055,
+D,diagnoses,at,timestamp without time zone,$.encounters[240].diagnoses[1],'2024-07-09T20:08:31',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[241].diagnoses[0],'2025-02-08T10:08:31',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[252].diagnoses[1],1757636793,
+D,diagnoses,at,timestamp without time zone,$.encounters[252].diagnoses[2],'2025-09-12T08:26:33',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[252].diagnoses[3],'2025-09-12T06:26:33',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[256].diagnoses[3],'2023-03-17T19:35:57',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[261].diagnoses[0],'2025-03-31T18:05:26',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[274].diagnoses[0],'2024-05-27T17:52:28',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[292].diagnoses[2],'2025-09-21T04:54:11',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[302].diagnoses[1],1714253944,
+D,diagnoses,at,not a date/time,$.encounters[314].diagnoses[0],'not recorded',read as text
+D,diagnoses,at,timestamp without time zone,$.encounters[315].diagnoses[0],'2024-09-23T21:47:42',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,not a date/time,$.encounters[317].diagnoses[2],'not recorded',read as text
+D,diagnoses,at,timestamp without time zone,$.encounters[332].diagnoses[0],'2023-02-20T22:19:53',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[361].diagnoses[1],1678835662,
+D,diagnoses,at,timestamp without time zone,$.encounters[368].diagnoses[2],'2024-03-30T23:41:43',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[376].diagnoses[1],'2024-11-04T14:09:57',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[379].diagnoses[0],1764991325,
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[383].diagnoses[1],1717757887,
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[389].diagnoses[1],1718246388,
+D,diagnoses,at,timestamp without time zone,$.encounters[393].diagnoses[0],'2024-08-03T20:25:22',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[435].diagnoses[1],'2025-12-17T21:21:09',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[436].diagnoses[1],1779636069,
+D,diagnoses,at,timestamp without time zone,$.encounters[463].diagnoses[0],'2025-05-07T20:23:17',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[467].diagnoses[1],'2025-09-18T12:32:08',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[474].diagnoses[0],'2023-02-10T07:37:23',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[480].diagnoses[1],'2025-07-21T03:48:01',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[482].diagnoses[0],'2023-02-08T18:13:49',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[484].diagnoses[3],1691273475,
+D,diagnoses,at,timestamp without time zone,$.encounters[503].diagnoses[2],'2024-09-17T18:11:33',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[505].diagnoses[0],1724292864,
+D,diagnoses,at,timestamp without time zone,$.encounters[517].diagnoses[2],'2025-09-05T04:13:47',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[519].diagnoses[2],'2024-01-30T04:48:26',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[528].diagnoses[3],'2024-11-30T12:40:33',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[539].diagnoses[0],1754377585,
+D,diagnoses,at,timestamp without time zone,$.encounters[547].diagnoses[0],'2025-08-23T18:24:33',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,not a date/time,$.encounters[550].diagnoses[3],'31-31-2024',read as text
+D,diagnoses,at,timestamp without time zone,$.encounters[556].diagnoses[1],'2025-09-07T21:04:05',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[562].diagnoses[0],'2025-08-03T09:18:00',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,not a date/time,$.encounters[564].diagnoses[1],'not recorded',read as text
+D,diagnoses,at,impossible date/time,$.encounters[565].diagnoses[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[565].diagnoses[2],'2024-06-15T01:09:35',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[568].diagnoses[0],'2025-02-13T13:20:11',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[579].diagnoses[1],'2024-07-28T04:07:44',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[605].diagnoses[0],'2025-02-23T05:41:30',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[614].diagnoses[3],1716813633,
+D,diagnoses,at,timestamp without time zone,$.encounters[633].diagnoses[2],'2024-07-08T01:11:24',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[636].diagnoses[0],'2025-07-07T04:44:14',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[637].diagnoses[0],'2023-12-19T08:07:23',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[641].diagnoses[2],1692644989,
+D,diagnoses,at,timestamp without time zone,$.encounters[652].diagnoses[0],'2025-07-28T22:17:58',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[654].diagnoses[2],'2024-01-14T00:01:10',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[684].diagnoses[2],1759313413,
+D,diagnoses,at,timestamp without time zone,$.encounters[693].diagnoses[1],'2024-12-01T01:23:39',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[694].diagnoses[1],1684011652,
+D,diagnoses,at,not a date/time,$.encounters[699].diagnoses[0],'not recorded',read as text
+D,diagnoses,at,timestamp without time zone,$.encounters[702].diagnoses[0],'2026-08-03T22:06:33',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[707].diagnoses[3],1691614877,
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[719].diagnoses[0],1757763724,
+D,diagnoses,at,timestamp without time zone,$.encounters[725].diagnoses[2],'2024-04-26T04:38:39',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[735].diagnoses[2],'2025-04-21T13:32:29',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp without time zone,$.encounters[746].diagnoses[0],'2024-04-12T01:19:48',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[753].diagnoses[0],1715790107,
+D,diagnoses,at,not a date/time,$.encounters[763].diagnoses[1],'31-31-2024',read as text
+D,diagnoses,at,timestamp without time zone,$.encounters[784].diagnoses[0],'2025-03-12T20:39:13',field is mostly datetime ISO UTC (Z)
+D,diagnoses,at,timestamp as Unix epoch seconds,$.encounters[796].diagnoses[1],1749229743,
+D,orders,requested_at,timestamp without time zone,$.encounters[5].investigations[0],'2025-08-04T03:20:18',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[6].investigations[0],'2024-01-23T19:35:08',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,not a date/time,$.encounters[82].investigations[0],'not recorded',read as text
+D,orders,requested_at,timestamp without time zone,$.encounters[109].investigations[1],'2023-02-27T03:34:04',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[196].investigations[0],'2024-08-23T00:08:44',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[223].investigations[1],'2025-03-17T01:16:26',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[243].investigations[0],'2024-01-11T13:05:32',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[273].investigations[0],'2023-10-01T16:00:23',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[294].investigations[0],'2023-11-25T07:36:12',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[377].investigations[0],'2024-09-04T06:02:10',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[393].investigations[0],'2024-08-03T18:18:51',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp as Unix epoch seconds,$.encounters[442].investigations[0],1715319196,
+D,orders,requested_at,timestamp without time zone,$.encounters[443].investigations[0],'2024-07-02T17:53:08',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[447].investigations[1],'2023-07-26T21:26:15',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp as Unix epoch seconds,$.encounters[477].investigations[0],1756529483,
+D,orders,requested_at,timestamp without time zone,$.encounters[505].investigations[0],'2024-08-23T11:28:48',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[582].investigations[1],'2023-03-21T08:56:20',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[620].investigations[0],'2023-07-17T16:55:55',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,timestamp without time zone,$.encounters[646].investigations[1],'2024-09-18T06:04:11',field is mostly datetime ISO UTC (Z)
+D,orders,requested_at,not a date/time,$.encounters[661].investigations[0],'31-31-2024',read as text
+D,radiology,at,timestamp as Unix epoch seconds,$.encounters[23].imaging[0],1680939225,
+D,radiology,at,timestamp without time zone,$.encounters[44].imaging[0],'2025-04-07T08:51:13',field is mostly datetime ISO UTC (Z)
+D,radiology,at,timestamp without time zone,$.encounters[114].imaging[0],'2023-05-27T10:30:55',field is mostly datetime ISO UTC (Z)
+D,radiology,at,timestamp as Unix epoch seconds,$.encounters[125].imaging[0],1743312628,
+D,radiology,at,not a date/time,$.encounters[155].imaging[0],'31-31-2024',read as text
+D,radiology,at,timestamp as Unix epoch seconds,$.encounters[160].imaging[1],1701193191,
+D,radiology,at,timestamp without time zone,$.encounters[313].imaging[0],'2024-01-29T13:06:03',field is mostly datetime ISO UTC (Z)
+D,radiology,at,timestamp as Unix epoch seconds,$.encounters[355].imaging[1],1767303888,
+D,radiology,at,timestamp without time zone,$.encounters[357].imaging[0],'2026-07-21T11:03:38',field is mostly datetime ISO UTC (Z)
+D,radiology,at,timestamp without time zone,$.encounters[407].imaging[0],'2024-06-29T13:38:42',field is mostly datetime ISO UTC (Z)
+D,radiology,at,timestamp as Unix epoch seconds,$.encounters[443].imaging[0],1719949988,
+D,radiology,at,timestamp without time zone,$.encounters[582].imaging[1],'2023-03-21T09:04:07',field is mostly datetime ISO UTC (Z)
+D,radiology,at,timestamp as Unix epoch seconds,$.encounters[586].imaging[0],1707045282,
+D,radiology,at,timestamp as Unix epoch seconds,$.encounters[625].imaging[1],1724030186,
+D,radiology,at,timestamp without time zone,$.encounters[718].imaging[0],'2024-04-27T21:14:20',field is mostly datetime ISO UTC (Z)
+D,radiology,at,timestamp without time zone,$.encounters[782].imaging[0],'2024-03-16T21:29:13',field is mostly datetime ISO UTC (Z)
+D,procedures,at,timestamp without time zone,$.encounters[36].theatre[0],'2023-07-01T05:07:42',field is mostly datetime ISO UTC (Z)
+D,procedures,at,timestamp as Unix epoch seconds,$.encounters[447].theatre[0],1690780137,
+D,notes,at,timestamp without time zone,$.encounters[42].notes[0],'2025-03-06T09:32:52',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[48].notes[0],'2024-06-20T19:26:30',field is mostly datetime ISO UTC (Z)
+D,notes,at,not a date/time,$.encounters[81].notes[0],'not recorded',read as text
+D,notes,at,timestamp without time zone,$.encounters[83].notes[0],'2023-06-04T08:03:44',field is mostly datetime ISO UTC (Z)
+D,notes,at,impossible date/time,$.encounters[141].notes[1],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[144].notes[0],'2026-03-27T12:30:40',field is mostly datetime ISO UTC (Z)
+D,notes,at,impossible date/time,$.encounters[160].notes[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[204].notes[0],'2024-06-27T16:34:31',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[209].notes[0],'2025-11-07T07:43:36',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[217].notes[0],'2023-08-30T00:33:41',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[224].notes[0],'2023-07-29T09:55:37',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[235].notes[0],'2024-09-25T19:00:31',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp as Unix epoch seconds,$.encounters[275].notes[0],1722374320,
+D,notes,at,timestamp without time zone,$.encounters[275].notes[1],'2024-08-07T07:52:28',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp as Unix epoch seconds,$.encounters[280].notes[0],1676536041,
+D,notes,at,timestamp without time zone,$.encounters[298].notes[0],'2023-12-09T15:14:48',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[298].notes[1],'2023-12-21T14:08:14',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[305].notes[0],'2023-07-24T04:13:45',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[312].notes[0],'2023-12-28T05:16:03',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[368].notes[0],'2024-04-15T01:41:43',field is mostly datetime ISO UTC (Z)
+D,notes,at,impossible date/time,$.encounters[377].notes[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,notes,at,not a date/time,$.encounters[390].notes[1],'31-31-2024',read as text
+D,notes,at,timestamp without time zone,$.encounters[401].notes[0],'2025-05-20T02:07:17',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[413].notes[0],'2025-10-19T21:07:55',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp as Unix epoch seconds,$.encounters[439].notes[0],1675387773,
+D,notes,at,timestamp as Unix epoch seconds,$.encounters[446].notes[0],1687549195,
+D,notes,at,timestamp without time zone,$.encounters[451].notes[0],'2025-06-01T05:02:12',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[462].notes[0],'2024-11-20T05:23:17',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[464].notes[0],'2026-02-02T22:23:17',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp as Unix epoch seconds,$.encounters[482].notes[0],1675966429,
+D,notes,at,timestamp without time zone,$.encounters[507].notes[0],'2024-08-02T21:27:43',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp as Unix epoch seconds,$.encounters[519].notes[0],1706716106,
+D,notes,at,timestamp without time zone,$.encounters[547].notes[1],'2025-08-28T08:24:33',field is mostly datetime ISO UTC (Z)
+D,notes,at,impossible date/time,$.encounters[598].notes[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[604].notes[0],'2026-03-31T05:09:10',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[651].notes[0],'2025-11-01T11:31:54',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[686].notes[0],'2023-06-09T09:47:26',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[689].notes[0],'2025-03-19T03:58:46',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp as Unix epoch seconds,$.encounters[702].notes[0],1785755193,
+D,notes,at,not a date/time,$.encounters[714].notes[0],'not recorded',read as text
+D,notes,at,timestamp without time zone,$.encounters[721].notes[0],'2025-06-12T14:04:58',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[730].notes[0],'2024-05-10T23:58:37',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[737].notes[1],'2023-11-07T02:42:20',field is mostly datetime ISO UTC (Z)
+D,notes,at,not a date/time,$.encounters[747].notes[0],'not recorded',read as text
+D,notes,at,timestamp as Unix epoch seconds,$.encounters[752].notes[0],1702779707,
+D,notes,at,timestamp without time zone,$.encounters[770].notes[0],'2024-05-05T14:57:06',field is mostly datetime ISO UTC (Z)
+D,notes,at,timestamp without time zone,$.encounters[772].notes[0],'2025-05-09T17:57:06',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[33].discharge[0],'2025-01-12T06:35:56',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[36].discharge[0],'2023-07-05T18:50:12',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp as Unix epoch seconds,$.encounters[39].discharge[0],1690933665,
+D,discharges,at,impossible date/time,$.encounters[70].discharge[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,discharges,at,not a date/time,$.encounters[79].discharge[0],'not recorded',read as text
+D,discharges,at,timestamp without time zone,$.encounters[89].discharge[0],'2025-12-17T20:44:50',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[111].discharge[0],'2024-02-13T14:22:09',field is mostly datetime ISO UTC (Z)
+D,discharges,at,not a date/time,$.encounters[117].discharge[0],'31-31-2024',read as text
+D,discharges,at,timestamp without time zone,$.encounters[129].discharge[0],'2024-04-13T11:01:11',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp as Unix epoch seconds,$.encounters[150].discharge[0],1716130965,
+D,discharges,at,timestamp without time zone,$.encounters[157].discharge[0],'2024-12-21T03:55:33',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[163].discharge[0],'2025-05-17T08:46:42',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[230].discharge[0],'2026-01-03T08:52:59',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[233].discharge[0],'2023-05-13T02:22:15',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[250].discharge[0],'2024-07-24T11:27:37',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[252].discharge[0],'2025-09-11T16:26:33',field is mostly datetime ISO UTC (Z)
+D,discharges,at,not a date/time,$.encounters[255].discharge[0],'not recorded',read as text
+D,discharges,at,timestamp without time zone,$.encounters[275].discharge[0],'2024-08-07T07:52:28',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[295].discharge[0],'2024-01-30T19:40:31',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[313].discharge[0],'2024-01-29T13:16:03',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp as Unix epoch seconds,$.encounters[315].discharge[0],1727639262,
+D,discharges,at,timestamp without time zone,$.encounters[349].discharge[0],'2024-05-05T01:56:00',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp as Unix epoch seconds,$.encounters[360].discharge[0],1754618370,
+D,discharges,at,timestamp without time zone,$.encounters[380].discharge[0],'2026-06-12T02:22:05',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[391].discharge[0],'2024-05-17T00:04:51',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp as Unix epoch seconds,$.encounters[437].discharge[0],1722234796,
+D,discharges,at,impossible date/time,$.encounters[439].discharge[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,discharges,at,not a date/time,$.encounters[440].discharge[0],'31-31-2024',read as text
+D,discharges,at,timestamp without time zone,$.encounters[453].discharge[0],'2024-10-30T11:47:19',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[463].discharge[0],'2025-05-19T17:23:17',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[486].discharge[0],'2024-12-30T06:26:56',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[488].discharge[0],'2023-11-23T19:08:00',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp as Unix epoch seconds,$.encounters[522].discharge[0],1765569217,
+D,discharges,at,timestamp without time zone,$.encounters[551].discharge[0],'2025-05-07T07:35:57',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[577].discharge[0],'2024-01-09T04:22:30',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[588].discharge[0],'2024-03-15T00:05:36',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[605].discharge[0],'2025-02-28T16:41:30',field is mostly datetime ISO UTC (Z)
+D,discharges,at,impossible date/time,$.encounters[610].discharge[0],'2025-02-30T10:00:00Z',impossible datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[624].discharge[0],'2024-02-27T15:23:15',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[660].discharge[0],'2025-09-04T19:35:33',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[686].discharge[0],'2023-06-09T09:47:26',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[690].discharge[0],'2023-12-22T01:29:55',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp as Unix epoch seconds,$.encounters[699].discharge[0],1729652793,
+D,discharges,at,timestamp without time zone,$.encounters[709].discharge[0],'2024-05-11T09:01:17',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[727].discharge[0],'2025-02-15T14:38:39',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[770].discharge[0],'2024-05-05T14:57:06',field is mostly datetime ISO UTC (Z)
+D,discharges,at,timestamp without time zone,$.encounters[777].discharge[0],'2024-10-16T17:12:44',field is mostly datetime ISO UTC (Z)
+D,triage,pulse,out of plausible range,$.encounters[29].triage[0],-5,expected 20-300 bpm
+D,triage,pulse,out of plausible range,$.encounters[30].triage[0],-5,expected 20-300 bpm
+D,triage,pulse,out of plausible range,$.encounters[265].triage[0],-5,expected 20-300 bpm
+D,triage,pulse,out of plausible range,$.encounters[335].triage[0],'-5',expected 20-300 bpm
+D,triage,pulse,out of plausible range,$.encounters[357].triage[0],-5,expected 20-300 bpm
+D,triage,pulse,out of plausible range,$.encounters[473].triage[0],-5,expected 20-300 bpm
+D,triage,pulse,out of plausible range,$.encounters[527].triage[0],-5,expected 20-300 bpm
+D,triage,pulse,out of plausible range,$.encounters[660].triage[0],0,expected 20-300 bpm
+D,triage,pulse,out of plausible range,$.encounters[748].triage[0],420,expected 20-300 bpm
+D,triage,temp_c,out of plausible range,$.encounters[62].triage[0],410.0,expected 25-45 degC
+D,triage,temp_c,out of plausible range,$.encounters[296].triage[0],4.5,expected 25-45 degC
+D,triage,temp_c,out of plausible range,$.encounters[421].triage[0],98.0,expected 25-45 degC
+D,triage,temp_c,out of plausible range,$.encounters[432].triage[0],'98.0',expected 25-45 degC
+D,triage,temp_c,out of plausible range,$.encounters[545].triage[0],410.0,expected 25-45 degC
+D,triage,temp_c,out of plausible range,$.encounters[662].triage[0],'410.0',expected 25-45 degC
+D,triage,spo2,out of plausible range,$.encounters[43].triage[0],140,expected 50-100 %
+D,triage,spo2,out of plausible range,$.encounters[80].triage[0],'-3',expected 50-100 %
+D,triage,spo2,out of plausible range,$.encounters[98].triage[0],-3,expected 50-100 %
+D,triage,spo2,out of plausible range,$.encounters[729].triage[0],'105',expected 50-100 %
+D,triage,spo2,out of plausible range,$.encounters[762].triage[0],140,expected 50-100 %
+D,triage,pain_score,out of plausible range,$.encounters[556].triage[0],'15',expected 0-10 pain 0-10
+D,triage,pain_score,out of plausible range,$.encounters[680].triage[0],-1,expected 0-10 pain 0-10
+D,patients,surname,name all upper / all lower case,$.patients[0],'dludlu',
+D,patients,surname,name all upper / all lower case,$.patients[62],'dunge',
+D,patients,surname,name all upper / all lower case,$.patients[104],'ngobese',
+D,patients,surname,name all upper / all lower case,$.patients[133],'DUKADA',
+D,patients,surname,name all upper / all lower case,$.patients[171],'masango',
+D,patients,surname,name all upper / all lower case,$.patients[249],'dlakadla',
+D,patients,surname,name all upper / all lower case,$.patients[267],'goje',
+D,patients,surname,name all upper / all lower case,$.patients[275],'MASHABA',
+D,patients,surname,name all upper / all lower case,$.patients[303],'ntaka',
+D,patients,surname,name all upper / all lower case,$.patients[307],'MSANE',
+D,patients,surname,name all upper / all lower case,$.patients[358],'bophela',
+D,patients,surname,name all upper / all lower case,$.patients[361],'nene',
+D,patients,surname,name all upper / all lower case,$.patients[372],'MNYANDU',
+D,patients,surname,name all upper / all lower case,$.patients[417],'GAMEDE',
+D,patients,surname,name all upper / all lower case,$.patients[465],'gengeshe',
+D,patients,first_names,name all upper / all lower case,$.patients[72],'SIBUSISIWE',
+D,diagnoses,icd9,ICD-9 code not in dictionary,$.encounters[21].diagnoses[1],'999.99',
+D,diagnoses,icd9,ICD-9 code not in dictionary,$.encounters[51].diagnoses[3],'E000',
+D,diagnoses,icd9,ICD-9 code not in dictionary,$.encounters[192].diagnoses[1],'E000',
+D,diagnoses,icd9,ICD-9 code not in dictionary,$.encounters[243].diagnoses[1],'999.99',
+D,diagnoses,icd9,ICD-9 code not in dictionary,$.encounters[252].diagnoses[2],'E000',
+D,diagnoses,icd9,ICD-9 code not in dictionary,$.encounters[502].diagnoses[3],'123.45',
+D,diagnoses,icd9,ICD-9 code not in dictionary,$.encounters[512].diagnoses[1],'E000',
+D,diagnoses,icd9,ICD-9 code not in dictionary,$.encounters[552].diagnoses[3],'E000',
+D,diagnoses,icd9,ICD-9 code not in dictionary,$.encounters[629].diagnoses[1],'123.45',
