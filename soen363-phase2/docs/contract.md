@@ -26,13 +26,13 @@ Everyone picks a different continent from everyone else.
 | Patient | `<source>_patient.csv` | patient_id | none | full_name, date_of_birth NOT NULL; life_status is alive or deceased (default alive) |
 | Admission | `<source>_admission.csv` | admission_id | patient_id, admitting_professional_id | admission_type, reason_for_admission NOT NULL; discharge after admission |
 | TriageAssessment | `<source>_triage_assessment.csv` | assessment_id | admission_id, performing_professional_id | pain_level 0-10; triage_priority_level NOT NULL |
-| Diagnosis | `<source>_diagnosis.csv` | diagnosis_id | patient_id, admission_id, icd9_code, diagnosing_professional_id | patient_id has to match the admission's patient |
+| Diagnosis | `<source>_diagnosis.csv` | diagnosis_id | patient_id, admission_id, icd9_code, diagnosing_professional_id | patient_id has to match the admission's patient; if it doesn't, reject as `BROKEN_REFERENCE` |
 | ClinicalNote | `<source>_clinical_note.csv` | note_id | admission_id, authoring_professional_id | note_type, contents NOT NULL |
 | DiagnosticOrder | `<source>_diagnostic_order.csv` | order_id | admission_id, requesting_professional_id | clinical_reason, order_status, priority NOT NULL |
 | RadiologyExamination | `<source>_radiology_examination.csv` | examination_id | admission_id, order_id (nullable), referring_professional_id, technician_professional_id | examination_type NOT NULL; during the admission |
 | SurgicalProcedure | `<source>_surgical_procedure.csv` | procedure_id | admission_id, performing_professional_id | procedure_type, procedure_date_time NOT NULL; during the admission |
 | UnitStay | `<source>_unit_stay.csv` | unit_stay_id | admission_id, responsible_professional_id | exit after entry |
-| DischargeRecord | `<source>_discharge_record.csv` | discharge_id | admission_id (UNIQUE), authorizing_professional_id | one per admission; has to agree with the admission status |
+| DischargeRecord | `<source>_discharge_record.csv` | discharge_id | admission_id (UNIQUE), authorizing_professional_id | one per admission; has to agree with the admission status; if it doesn't, reject as `CHRONOLOGY` |
 
 ## 3. Formats
 
