@@ -1,11 +1,49 @@
-# SOEN 363 — Project Phase 1: Hospital Management System
+# SOEN 363 Project: Hospital Management System
 
-Relational database (SQLite) for the Phase 1 hospital scenario: schema, synthetic
-dataset, and the 20 Task 3 queries.
+Team **SELECT \* FROM Victory**.
 
 > Keep this repository **private**. It contains the course handout and graded work.
 
-## Layout
+| Phase | Folder | Status |
+|---|---|---|
+| Phase 1: relational database | [`soen363-phase1/`](soen363-phase1/) | Submitted |
+| Phase 2: multi-source data integration | [`soen363-phase2/`](soen363-phase2/) | In progress, due Nov 30, 2026 |
+
+## Phase 2: Multi-Source Data Integration
+
+Four synthetic hospital sources (TXT, CSV, XML, JSON), each from a different continent, are loaded, cleaned and standardized with Python, then imported into one integrated version of the Phase 1 database. Full details, folder layout and working rules: [`soen363-phase2/README.md`](soen363-phase2/README.md).
+
+Report (Google Doc): https://docs.google.com/document/d/1_8G-2PNgWdFukLguN9jDbjHN7lLbCaVB2wM0P9N4pjw/edit
+
+### Roles
+
+| Role | Owner | Covers |
+|---|---|---|
+| Data contract + Source B (CSV) | Samuel Richard | `docs/contract.md`, shared ICD-9 dictionary, common cleaning rules, Source B |
+| Source A (TXT) | to be chosen | Source A + constraints in the schema (before import) + triggers and integrity validation queries (after import) |
+| Integration lead | to be chosen | Schema revisions, ID mapping and traceability, import pipeline |
+| Source C (XML) | to be chosen | Source C + Task 6 demonstration queries |
+| Source D (JSON) | to be chosen | Source D + report assembly and submission |
+
+Everyone who wrote Phase 1 queries reruns them against the integrated database.
+
+### Order of work
+
+1. **Contract** (Samuel): Nov 15. Objections by Nov 17, then it's final.
+2. **Integration lead** shares the revised schema: by Nov 19.
+3. **Source A** adds constraints to the schema: by Nov 20.
+4. **Sources A, C, D** clean their data in parallel: deadline Nov 23.
+5. **Integration lead** runs the full import: Nov 24–26.
+6. **Validation queries (A), demo queries (C), Phase 1 reruns** in parallel.
+7. **Source D** assembles the report and submits: Nov 29.
+
+Raw data can be generated and profiled at any time. Only cleaning waits for the contract.
+
+## Phase 1: Relational Database
+
+Schema, synthetic dataset and the 20 Task 3 queries. All paths in this section are relative to [`soen363-phase1/`](soen363-phase1/).
+
+### Layout
 
 ```
 .
@@ -27,7 +65,7 @@ dataset, and the 20 Task 3 queries.
 └── output/                   # generated query results (git-ignored)
 ```
 
-## Setup
+### Setup
 
 Requires Python 3.10+.
 
@@ -37,7 +75,7 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Common commands
+### Common commands
 
 All commands are run from the repo root.
 
@@ -55,7 +93,7 @@ the report outputs stay in sync.
 
 You can also open `db/hospital.db` directly in DB Browser for SQLite or DBeaver.
 
-## Deliverables
+### Deliverables
 
 | Task | Item | Owner | Status |
 |---|---|---|---|
@@ -65,7 +103,7 @@ You can also open `db/hospital.db` directly in DB Browser for SQLite or DBeaver.
 | 2 | Dataset — ICD9Dictionary, Diagnosis, ClinicalNote, DiagnosticOrder, RadiologyExamination, SurgicalProcedure, DischargeRecord | Maria-Christine (P3) | Done |
 | 4 | Report (PDF) | Maria Celena (P5) | Done |
 
-## Queries
+### Queries
 
 | # | Topic | Owner | Status |
 |---|---|---|---|
@@ -90,7 +128,7 @@ You can also open `db/hospital.db` directly in DB Browser for SQLite or DBeaver.
 | 19 | Deaths during hospital stay | Maria-Christine (P3) | Written |
 | 20 | Surgery and radiology on the same day | Maria Celena (P5) | Written |
 
-## Conventions
+### Conventions
 
 - One query per file, starting with `-- Query N`, the question as a comment, then the SQL.
 - Update the tables above when you pick up or finish something.
