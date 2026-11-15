@@ -1,4 +1,4 @@
-# Data contract
+# Our data contract
 
 
 ## 1. Sources
