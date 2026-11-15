@@ -1,0 +1,871 @@
+{
+  "meta": {
+    "source": "Coral Coast Health Service",
+    "exportType": "practitioners",
+    "apiVersion": "2.3",
+    "exportedAt": "2025-10-31T18:00:00+11:00",
+    "count": 96,
+    "notice": "Fictional data generated for SOEN 363 (educational use only). It does not describe real patients and contains no real personal information."
+  },
+  "practitioners": [
+    {
+      "practitionerId": 1,
+      "honorific": "Mr",
+      "fullName": "Joshua Williams",
+      "designation": "Ward Clerk",
+      "department": "Administration",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 2,
+      "honorific": "Miss",
+      "fullName": "Georgia Le",
+      "designation": "Midwife",
+      "department": "Maternity",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 3,
+      "honorific": "Miss",
+      "fullName": "Matilda King",
+      "designation": "Registered Nurse",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 4,
+      "honorific": "Dr",
+      "fullName": "thomas KIM",
+      "designation": "Interventional Cardiologist",
+      "department": "Cardiology",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 5,
+      "honorific": "Miss",
+      "fullName": "Bronwyn Kelly",
+      "designation": "Registered Nurse",
+      "department": "Surgical Ward",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 6,
+      "honorific": "Dr",
+      "fullName": "Omar Kelly",
+      "designation": "Consultant Physician",
+      "department": "General Medicine",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 7,
+      "honorific": "Ms",
+      "fullName": "Grace Mitchell",
+      "designation": "Clinical Nurse Specialist",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 8,
+      "honorific": "Mr",
+      "fullName": "HENRY MORRIS",
+      "designation": "Clinical Nurse Specialist",
+      "department": "Emergency",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 9,
+      "honorific": "Dr",
+      "fullName": "Giulia Walker",
+      "designation": "Resident Medical Officer",
+      "department": "General Medicine",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 10,
+      "honorific": "Mx",
+      "fullName": "Benjamin Edwards",
+      "designation": "Registered Nurse",
+      "department": "Medical Ward",
+      "employmentType": null,
+      "active": true
+    },
+    {
+      "practitionerId": 11,
+      "honorific": "Dr",
+      "fullName": "Olivia Martin",
+      "designation": "Emergency Registrar",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": "yes"
+    },
+    {
+      "practitionerId": 12,
+      "honorific": "Dr",
+      "fullName": "Callum Ali",
+      "designation": "Resident Medical Officer",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": "13",
+      "honorific": "Mr",
+      "fullName": "Benjamin White",
+      "designation": "Medical Imaging Technologist",
+      "department": "Medical Imaging",
+      "employmentType": "Casual",
+      "active": true
+    },
+    {
+      "practitionerId": 14,
+      "honorific": "Dr",
+      "fullName": "Liam Green",
+      "designation": "Consultant Physician",
+      "department": "Cardiology",
+      "active": true
+    },
+    {
+      "practitionerId": 15,
+      "honorific": "Mr",
+      "fullName": "Wei O'Brien",
+      "designation": "Registered Nurse",
+      "department": "Medical Ward",
+      "employmentType": "Casual",
+      "active": true
+    },
+    {
+      "practitionerId": 16,
+      "honorific": "Miss",
+      "fullName": "Rebecca Watson",
+      "designation": "Clinical Nurse Specialist",
+      "department": "ICU",
+      "employmentType": " Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 17,
+      "honorific": "Ms",
+      "fullName": "Ava Nikolaidis",
+      "designation": "Ward Clerk",
+      "employmentType": "Casual",
+      "active": true
+    },
+    {
+      "practitionerId": 18,
+      "honorific": "Mrs",
+      "fullName": "Mai Wilson",
+      "designation": "Enrolled Nurse",
+      "department": "Surgical Ward",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 19,
+      "honorific": "Dr",
+      "fullName": "Ruby Rossi",
+      "designation": "Gastroenterologist",
+      "department": "Gastroenterology",
+      "employmentType": "Full-time",
+      "active": false
+    },
+    {
+      "practitionerId": 20,
+      "honorific": "Ms",
+      "fullName": "Omar Thompson",
+      "designation": "Registered Nurse",
+      "department": "ICU",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 21,
+      "honorific": "Dr",
+      "fullName": "Hamish Fitzgerald",
+      "designation": "Resident Medical Officer",
+      "department": "Surgery",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 22,
+      "honorific": "Dr",
+      "fullName": "Dimitri Russo",
+      "designation": "Radiologist",
+      "department": "Medical Imaging",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 23,
+      "honorific": "Dr",
+      "fullName": "Mei White",
+      "designation": "Medical Registrar",
+      "department": "Cardiology",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 24,
+      "honorific": "Miss",
+      "fullName": "Anh Young",
+      "designation": "Sonographer",
+      "department": "Medical Imaging",
+      "employmentType": "",
+      "active": true
+    },
+    {
+      "practitionerId": 25,
+      "honorific": "Dr",
+      "fullName": "Fatima Wright",
+      "designation": "Resident Medical Officer",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 26,
+      "honorific": "Miss",
+      "fullName": "Georgia Martin",
+      "designation": "Medical Scientist",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 27,
+      "honorific": "Mr",
+      "fullName": "Cooper Young",
+      "designation": "Registered Nurse",
+      "department": "Medical Ward",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 28,
+      "honorific": "Dr",
+      "fullName": "Noah Kelly",
+      "designation": "Emergency Physician",
+      "department": "Emergency",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 29,
+      "honorific": "Dr",
+      "fullName": "Michelle Green",
+      "designation": "General Surgeon",
+      "department": "General Surgery",
+      "employmentType": "?",
+      "active": true
+    },
+    {
+      "practitionerId": 30,
+      "honorific": "Ms",
+      "fullName": "Dimitri Johnson",
+      "designation": "Medical Scientist",
+      "department": "Pathology",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 31,
+      "honorific": "Dr",
+      "fullName": "Anh Ahmed",
+      "designation": "Paediatrician",
+      "department": "Paediatrics",
+      "employmentType": "Casual",
+      "active": true
+    },
+    {
+      "practitionerId": 32,
+      "honorific": "Dr",
+      "fullName": "Karen Watson",
+      "designation": "Emergency Physician",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 33,
+      "honorific": "Mrs",
+      "fullName": "Linda Khoury",
+      "designation": "Registered Nurse",
+      "department": "ICU",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 34,
+      "honorific": "Miss",
+      "fullName": "Harper O'Brien",
+      "designation": "Midwife",
+      "department": "Maternity",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 35,
+      "honorific": "Ms",
+      "fullName": "Peter Rossi",
+      "designation": "Sonographer",
+      "department": "Medical Imaging",
+      "employmentType": "Part-time",
+      "active": "true"
+    },
+    {
+      "practitionerId": 36,
+      "honorific": "Ms",
+      "fullName": "Anh Fitzgerald",
+      "designation": "Midwife",
+      "department": "Maternity",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 37,
+      "honorific": "Ms",
+      "fullName": "Lachlan Park",
+      "designation": "REGISTERED NURSE",
+      "department": "ICU",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 38,
+      "honorific": "Ms",
+      "fullName": "James Murphy",
+      "designation": "Registered Nurse",
+      "department": "Surgical Ward",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 39,
+      "honorific": "Dr",
+      "fullName": "Wei Russo",
+      "designation": "Orthopaedic Surgeon",
+      "department": "Orthopaedics",
+      "employmentType": "Casual",
+      "active": true
+    },
+    {
+      "practitionerId": 40,
+      "honorific": "Miss",
+      "fullName": "Giulia Kowalski",
+      "designation": "Registered Nurse",
+      "department": "ICU",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 41,
+      "honorific": "Dr",
+      "fullName": "Bronwyn Thomas",
+      "designation": "Resident Medical Officer",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 42,
+      "honorific": "Dr",
+      "fullName": "Lachlan Williams",
+      "designation": "Radiologist",
+      "department": "",
+      "employmentType": "Part-time",
+      "active": false
+    },
+    {
+      "practitionerId": 43,
+      "honorific": "Ms",
+      "fullName": null,
+      "designation": "Ward Clerk",
+      "department": "Administration",
+      "employmentType": "Full-time",
+      "active": 1
+    },
+    {
+      "practitionerId": 44,
+      "honorific": "Miss",
+      "fullName": "Georgia Thomas",
+      "designation": "Registered Nurse",
+      "department": "Surgical Ward",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 45,
+      "honorific": "Dr",
+      "fullName": "Charlotte McDonald",
+      "designation": "Medical Registrar",
+      "department": "CARDIOLOGY",
+      "employmentType": "?",
+      "active": true
+    },
+    {
+      "practitionerId": 46,
+      "honorific": "Dr",
+      "fullName": "Mai Ali",
+      "designation": "Medical Registrar",
+      "department": "General Medicine",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 47,
+      "honorific": "Ms",
+      "fullName": "Matilda Hall",
+      "designation": "Medical Imaging Technologist",
+      "department": "Medical Imaging",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 48,
+      "honorific": "Ms",
+      "fullName": "Giulia Fernando",
+      "designation": "Registered Nurse",
+      "department": "Surgical Ward",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 49,
+      "honorific": "Dr",
+      "fullName": "David Smith",
+      "designation": "Emergency Physician",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 50,
+      "honorific": "Dr",
+      "fullName": "Amelia Tran",
+      "designation": "Resident Medical Officer",
+      "department": "Surgery",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 51,
+      "honorific": "Dr",
+      "fullName": "Ethan Thomas",
+      "designation": "Gastroenterologist",
+      "department": "Gastroenterology",
+      "employmentType": "",
+      "active": true
+    },
+    {
+      "practitionerId": 52,
+      "honorific": "Dr",
+      "fullName": "Georgia Ryan",
+      "designation": "Emergency Registrar",
+      "department": "Emergency",
+      "employmentType": "?",
+      "active": "true"
+    },
+    {
+      "practitionerId": 53,
+      "honorific": "Dr",
+      "fullName": "Cooper Ryan",
+      "designation": "Medical Registrar",
+      "department": "Cardiology",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": "54",
+      "honorific": "Mrs",
+      "fullName": "Isla Edwards",
+      "designation": "Registered Nurse",
+      "department": "ICU",
+      "employmentType": "Full-time",
+      "active": false
+    },
+    {
+      "practitionerId": 55,
+      "honorific": "Dr",
+      "fullName": "Emily McDonald",
+      "designation": "Medical Registrar",
+      "department": "?",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 41,
+      "honorific": "Dr",
+      "fullName": "Bronwyn Thomas",
+      "designation": "Resident Medical Officer",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 56,
+      "honorific": "Miss",
+      "fullName": "HARPER YOUNG",
+      "designation": "Clinical Nurse Specialist",
+      "department": "ICU",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 57,
+      "honorific": "Dr",
+      "fullName": "Dimitri Ahmed",
+      "designation": "General Surgeon",
+      "department": "General Surgery",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 58,
+      "honorific": "Dr",
+      "fullName": "Matthew D'Souza",
+      "designation": "Surgical Registrar",
+      "department": "General Surgery",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 59,
+      "honorific": "Mrs",
+      "fullName": "Grace Bennett",
+      "designation": "Enrolled Nurse",
+      "department": "Medical   Ward",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 60,
+      "honorific": "Dr",
+      "fullName": "Chloe Bennett",
+      "designation": "Emergency Physician",
+      "department": " Emergency",
+      "employmentType": null,
+      "active": true
+    },
+    {
+      "practitionerId": 61,
+      "honorific": "Mr",
+      "fullName": "Hamish Johnson",
+      "designation": "MEDICAL IMAGING TECHNOLOGIST",
+      "department": "Medical Imaging",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 62,
+      "honorific": "Dr",
+      "fullName": "David Ahmed",
+      "designation": "  Surgical Registrar",
+      "department": "General Surgery",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 63,
+      "honorific": "Dr",
+      "fullName": "Harper Ali",
+      "designation": "Surgical Registrar",
+      "department": "Orthopaedics",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 64,
+      "honorific": "Dr",
+      "fullName": "Mei Nikolaidis",
+      "designation": "General Surgeon",
+      "department": "General Surgery",
+      "active": false
+    },
+    {
+      "practitionerId": 65,
+      "honorific": "Dr",
+      "fullName": "Emma Wright",
+      "designation": "Emergency Registrar",
+      "department": "Emergency",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 66,
+      "honorific": "Dr",
+      "fullName": "Margaret Brown",
+      "designation": "Orthopaedic Surgeon",
+      "department": "Orthopaedics",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 67,
+      "honorific": "Mr",
+      "fullName": "Peter Ali",
+      "designation": "Enrolled Nurse",
+      "department": "Medical Ward",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 68,
+      "honorific": "Ms",
+      "fullName": "Fatima Khoury",
+      "designation": "Medical Imaging Technologist",
+      "department": "Medical Imaging",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 69,
+      "honorific": "Dr",
+      "fullName": "Ethan Kowalski",
+      "designation": "Emergency Registrar",
+      "department": "Emergency",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 70,
+      "honorific": "Mr",
+      "fullName": "Callum Van der Berg",
+      "designation": "Enrolled Nurse",
+      "department": "Medical Ward",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 33,
+      "honorific": "Mrs",
+      "fullName": "Linda Khoury",
+      "designation": "Registered Nurse",
+      "department": "ICU",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 71,
+      "honorific": "Ms",
+      "fullName": "Ruby Nakamura",
+      "designation": "Registered Nurse",
+      "department": "Emergency",
+      "employmentType": "Casual",
+      "active": "false"
+    },
+    {
+      "practitionerId": 72,
+      "honorific": "Mr",
+      "fullName": "Hamish Smith",
+      "designation": "Registered Nurse",
+      "department": "Surgical Ward",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 73,
+      "honorific": "Dr",
+      "fullName": "Omar Wright",
+      "designation": "Consultant Physician",
+      "department": "General Medicine",
+      "employmentType": "Casual",
+      "active": true
+    },
+    {
+      "practitionerId": 74,
+      "honorific": "Miss",
+      "fullName": "Isla Kowalski",
+      "designation": "Enrolled Nurse",
+      "department": "Surgical Ward",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 75,
+      "honorific": "Mrs",
+      "fullName": "Amelia Cooper",
+      "designation": "Enrolled Nurse",
+      "department": "Medical Ward",
+      "employmentType": "  Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 76,
+      "honorific": "Dr",
+      "fullName": "Lachlan Lee",
+      "designation": "Consultant Physician",
+      "department": "General Medicine",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 77,
+      "honorific": "Mr",
+      "fullName": "Lucas Van der Berg",
+      "designation": "MEDICAL SCIENTIST",
+      "department": "Pathology",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 78,
+      "honorific": "Ms",
+      "fullName": "Luca O'Brien",
+      "designation": "Medical Imaging Technologist",
+      "department": "Medical Imaging",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 79,
+      "honorific": "Mr",
+      "fullName": "Hamish Thomas",
+      "designation": "Clinical Nurse Specialist",
+      "department": "ICU",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 80,
+      "honorific": "Dr",
+      "fullName": "Amelia Nikolaidis",
+      "designation": "Emergency Physician",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 81,
+      "honorific": "Mr",
+      "fullName": "Dimitri Fitzgerald",
+      "designation": "Registered Nurse",
+      "department": "Surgical Ward",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 82,
+      "honorific": "Dr",
+      "fullName": "Stephen King",
+      "designation": "Emergency Registrar",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 83,
+      "honorific": "Dr",
+      "fullName": "Angus Haddad",
+      "designation": "Resident Medical Officer",
+      "department": "Emergency",
+      "employmentType": "Full-time",
+      "active": "true"
+    },
+    {
+      "practitionerId": 84,
+      "honorific": "Dr",
+      "fullName": "Giulia Wilson",
+      "designation": "Interventional Cardiologist",
+      "department": "Cardiology",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 85,
+      "honorific": "Dr",
+      "fullName": "Harper Singh",
+      "designation": "Paediatrician",
+      "department": "Paediatrics",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 86,
+      "honorific": "Dr",
+      "fullName": "Stephen Smith",
+      "designation": null,
+      "department": "Medical Imaging",
+      "employmentType": " PART-TIME  ",
+      "active": true
+    },
+    {
+      "practitionerId": 87,
+      "honorific": "Dr",
+      "fullName": "Luca Nakamura",
+      "designation": "Consultant Physician",
+      "department": "Respiratory",
+      "employmentType": "N/A",
+      "active": true
+    },
+    {
+      "practitionerId": 88,
+      "honorific": "Dr",
+      "fullName": "Omar Hall",
+      "designation": "Resident Medical Officer",
+      "department": "General Medicine",
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 89,
+      "honorific": "Dr",
+      "fullName": "Joshua Ryan",
+      "designation": "Consultant Physician",
+      "department": "Respiratory",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 90,
+      "honorific": "Dr",
+      "fullName": "Hannah Cooper",
+      "designation": "Emergency Physician",
+      "department": "Emergency",
+      "employmentType": "Casual",
+      "active": true
+    },
+    {
+      "practitionerId": 91,
+      "honorific": "Dr",
+      "fullName": "Wei Johnson",
+      "designation": "Consultant Physician",
+      "department": null,
+      "employmentType": "Part-time",
+      "active": true
+    },
+    {
+      "practitionerId": 92,
+      "honorific": "Ms",
+      "fullName": "Lachlan Park",
+      "designation": "Registered Nurse",
+      "department": "ICU",
+      "employmentType": "Full-time",
+      "active": true
+    },
+    {
+      "practitionerId": 93,
+      "honorific": "Mr",
+      "fullName": "Hamish Smith",
+      "designation": "Registered Nurse",
+      "department": "Surgical Ward",
+      "active": true
+    },
+    {
+      "practitionerId": "94",
+      "honorific": "Dr",
+      "fullName": "OMAR WRIGHT",
+      "designation": "Consultant Physician",
+      "department": "General Medicine",
+      "employmentType": "Casual",
+      "active": true
+    }
+  ]
+}
