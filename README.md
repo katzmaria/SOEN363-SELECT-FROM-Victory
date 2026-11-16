@@ -11,48 +11,20 @@ Team **SELECT \* FROM Victory**.
 
 ## Phase 2: Multi-Source Data Integration
 
-Four synthetic hospital sources (TXT, CSV, XML, JSON), each from a different continent, are loaded, cleaned and standardized with Python, then imported into one integrated version of the Phase 1 database. Full details, folder layout and working rules: [`soen363-phase2/README.md`](soen363-phase2/README.md).
+Folder: [`soen363-phase2/`](soen363-phase2/)
 
-Report (Google Doc): https://docs.google.com/document/d/1_8G-2PNgWdFukLguN9jDbjHN7lLbCaVB2wM0P9N4pjw/edit
+Report (Google Doc): https://docs.google.com/document/d/1iXljZzHY5cRejdzYDqD--PLoNmUBPs-2YIBLBFgsMjM/edit
 
-### Sources
-
-| Source | Format | Continent | Hospital system |
-|---|---|---|---|
-| A | TXT | Europe | CHU de Montclair-sur-Loire |
-| B | CSV | Africa | Uganda National Hospital |
-| C | XML | Asia | Straits Regional Medical Centre |
-| D | JSON | Oceania | Coral Coast Health Service |
-
-### Done
-
-| Work | By |
+| Task | Who |
 |---|---|
-| Data contract, report section 8.1 | Samuel Richard |
-| Source B and Source D raw data | Samuel Richard |
-| Source A and Source C raw data | Maria-Christine Catiche |
-| Task 1 and Task 2 code for all four sources (loading, profiling, cleaning) | Maria-Christine Catiche |
-| Report sections 7 and 8.2–8.3 | Maria-Christine Catiche |
-
-### Remaining work
-
-| Task | Owner | Covers |
-|---|---|---|
-| Task 3: Integration and schema refinement | Samuel Richard | Revised schema, ID mapping and traceability, column mapping from the cleaned files (report section 9) |
-| Task 4: Import | Kigham Kerry Kinyuy | Python import pipeline (section 10) |
-| Task 5: Integrity and validation | Vanessa Cherbaka | Constraints in the schema before the import, triggers, validation queries, limitations (section 11) |
-| Task 6 and report | Maria Celena Said | Task 6 queries, record counts, data-quality table, AI disclosure, overview, final PDF and submission (sections 5, 6, 12.1, 12.3) |
-
-Everyone who wrote Phase 1 queries reruns their own five on the integrated database (section 12.2).
-
-### Order of work
-
-1. **Samuel** shares the revised schema: by Nov 19.
-2. **Vanessa** adds the constraints to the schema: by Nov 20.
-3. **Kerry** runs the full import: Nov 21–24.
-4. **Validation queries, Task 6 queries and Phase 1 reruns** in parallel, once the database exists.
-5. All report sections done: Nov 27.
-6. **Maria Celena** assembles the report and submits: Nov 29.
+| Synthetic source data (A–D) and data contract | Samuel Richard (B, D, contract), Maria-Christine Catiche (A, C) |
+| Task 1: Inspect and load the data | Maria-Christine Catiche |
+| Task 2: Clean and standardize the data | Maria-Christine Catiche |
+| Task 3: Integration and schema refinement | To be decided |
+| Task 4: Import into the SQL database | To be decided |
+| Task 5: Integrity enforcement and validation | To be decided |
+| Task 6: Demonstration of the integrated database | To be decided |
+| Report assembly and submission | To be decided |
 
 ## Phase 1: Relational Database
 
