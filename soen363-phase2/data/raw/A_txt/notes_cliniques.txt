@@ -1,0 +1,1398 @@
+num_note|num_sejour|auteur|type_note|date_heure_note|texte
+1|1|10|OBSERVATION|25/05/2023 17:02|Family updated, questions answered.
+2|1|11|OBSERVATION|25/05/2023 14:32|Patient reviewed on the ward round. Plan unchanged.
+3|1|10|CRH|25/05/2023 17:55|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+4|2|6|OBSERVATION|06/11/2022 15:31|Family updated, questions answered.
+5|2|14|CRH|09/11/2022 07:58|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+6|3|14|OBSERVATION|07/05/2023 10:22|observations stable overnight. continue current treatment.
+7|3|6|CRH|07/05/2023 16:58|Discharge summary. Admitted for syncope. Condition stable at discharge.
+8|4|21|OBSERVATION|12/02/2024 21:46|Observations stable overnight. Continue current treatment.
+9|4|18|OBSERVATION|04/02/2024 10:27|Observations stable overnight. Continue current treatment.
+10|4|13|CRH|14/02/2024 22:58|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+11|5|47|CRO|10/06/2024 17:34|Operative note. Coronarographie performed. Patient tolerated the procedure.
+12|5|15|CRH|15/06/2024 05:58|Discharge summary. Admitted for fever. Condition stable at discharge.
+13|6|48|CRO|17/11/2024 21:50|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+14|6|4|OBSERVATION|18/11/2024 21:00|Observations stable overnight. Continue current treatment.
+15|6|16|CRH|27/11/2024 06:58|Discharge summary. Admitted for confusion. Condition stable at discharge.
+16|7|18|CRH|2023-06-12T11:53|Discharge summary. Admitted for confusion. recovery progressing well.
+17|8|10|CRH|28/12/2023 18:53|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+18|9|3|CRH|18/03/2023 07:21|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+19|10|21|OBSERVATION|10/01/2024 02:59|Patient reviewed on the ward round. Plan unchanged.
+20|10|13|CRH   |14/01/2024 11:21|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+21|11|14|OBSERVATION|01/08/2024 18:57|Family updated, questions answered.
+22|11|13|OBSERVATION|null|Pain better controlled; mobilising with help.
+23|11|23|CRH|03/08/2024 15:46|Discharge  summary. Admitted for confusion. Recovery progressing well.
+16|7|18|CRH|2023-06-12T11:53|discharge summary. admitted for confusion. recovery progressing well.
+24|12|19|OBSERVATION|22/09/2024 08:46|  Pain better controlled; mobilising with help.
+25|12|19|Obs medicale|25/09/2024 02:21|Pain better controlled; mobilising with help.
+26|12|13|CRH|01/10/2024 05:46|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+27|13|1|CRH|20/07/2025 08:46|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+28|14|18|CRH|03-22-2024 16:47|Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+29|15|46|CRO|01/06/2024 13:58|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+30|15|4|CRH |05/06/2024 10:55|Discharge summary. Admitted for confusion. Recovery progressing well.
+31|16|9|OBSERVATION|16/04/2024 19:32|Family updated, questions answered.
+32|16|12|CRH|22/04/2024 17:40|Discharge summary. Admitted for confusion. Patient died during the stay.
+33|17|13|Obs medicale|02/08/2022 07:40|Observations stable overnight. Continue current treatment.
+34|17|14|OBSERVATION|02/08/2022 00:36|Observations stable overnight. Continue current treatment.
+35|17|18|CRH|02/08/2022 09:45|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+36|18|22|OBSERVATION|03/10/2022 16:43|Pain better controlled; mobilising with help.
+37|18|15|CRH|04/10/2022 22:45|Discharge summary. Admitted for planned surgery. recovery progressing well.
+38|19|20|OBSERVATION|05/12/2022 02:46|Observations stable overnight. Continue current treatment.
+39|19|13|CRH|07/12/2022 19:10|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+40|20|12|OBSERVATION|06/10/2023 14:49|Pain better controlled; mobilising with help.
+41|20|13| OBSERVATION |07/10/2023 22:38|Patient reviewed on the ward round. Plan unchanged.
+42|20|5|CRH|13/10/2023 01:10|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+43|21|6|OBSERVATION|06/12/2023 15:29|Patient reviewed on the ward round. Plan unchanged.
+44|21|5|OBSERVATION|06/12/2023 17:52|Patient reviewed on the ward round. Plan unchanged.
+45|21|14|CRH|07/12/2023 04:10|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+46|22|2|CRH|17/03/2024 05h10|Discharge summary. Admitted for fall at home. Recovery progressing well.
+47|23|4|CRH|21/11/2024 11:10|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+48|24|14|OBSERVATION|05/06/2023 06:45|Family updated, questions answered.
+49|24|9|OBSERVATION|06/06/2023 00:19|Pain better controlled; mobilising with help.
+50|24|17|CRH|09/06/2023 14:14|Discharge summary. Admitted for shortness of breath. RECOVERY progressing well.
+51|25|52|CRO|25/11/2022 01:37|Operative note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+52|25|13|OBSERVATION|08/12/2022 21:04|Observations stable overnight. Continue current treatment.
+53|25|23|CRH|26/11/2022 21:04|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+54|26|8|OBSERVATION|16/01/2023 05h55|Pain better controlled; mobilising with help.
+55|26|10|OBSERVATION|15/01/2023 18:10|Family updated, questions answered.
+56|26|16|CRH|21/01/2023 14:04|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+57|27|24|CRH|21/07/2024 21:33|Discharge summary. Admitted for syncope. Condition stable at discharge.
+58|28|15|CRH|09/02/2025 18:33|Discharge summary. Admitted for confusion. Patient died during the stay.
+59|29|15| CR SORTIE |06/07/2024 15:38|Discharge summary. Admitted for fever. recovery progressing well.
+60|30|17|OBSERVATION|03/06/2022 16:46|Pain  better controlled; mobilising with help.
+61|30|6|CRH|06/06/2022 15:38|Discharge summary. Admitted for palpitations. recovery progressing well.
+62|31|20|CRH|16/12/2023 15:14|Discharge summary. Admitted for fever. Recovery progressing well.
+63|32|45|CRO|01/08/2024 09:02|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+64|32|22|CRH|11/08/2024 03:14|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+65|33|4|OBSERVATION|22/11/2023 18:05|Patient reviewed on the ward round. Plan unchanged.
+66|33|5|CRH|24/11/2023 06:26|dISCHARGE SUMMARY. aDMITTED FOR SHORTNESS OF BREATH. rECOVERY PROGRESSING WELL.
+67|34|22|CRH|13/09/2024 07:26|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+68|35|50|CRO|09/11/2024 09:22|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+69|35|12|OBSERVATION|09/11/2024 14:19|Patient reviewed on the ward round. Plan unchanged.
+70|35|4|CRH|23/11/2024 11:26|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+71|36|24|CRH|21/06/2025 12:26|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+72|37|15|OBSERVATION|14/09/2025 11:19|  Pain better controlled; mobilising with help.
+73|37|2|CRH|16/09/2025 06:26|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+74|38|52|CRO|02/02/2022 13:42|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+75|38|3|CR SORTIE|09/02/2022 09:46|Discharge summary. Admitted for syncope. Recovery progressing well.
+76|39|2|OBSERVATION|16/10/2022 07:49|Pain better controlled; mobilising with help.
+77|39|9|CRH|07/11/2022 11:37|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+78|40|5|CRH|15/05/2023 15:37|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+79|41|2|OBSERVATION|25/11/2024 10:57|Family updated, questions answered.
+80|41|6|OBSERVATION|26/11/2024 18:24|Pain better controlled; mobilising with help.
+81|41|8|CRH|11/12/2024 06:24|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+82|42|50|Compte rendu operatoire|31/01/2025 01:33|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+83|42|1|OBSERVATION|06/02/2025 14:09|Family updated, questions answered.
+84|42|1|OBSERVATION|12/02/2025 01:22|Family updated, questions answered.
+85|42|16|CRH|13/02/2025 09:24|Discharge summary. Admitted for palpitations. Patient died during the stay.
+86|43|1|OBSERVATION|27/05/2023 07:16|Observations stable overnight. Continue current treatment.
+87|43|21|OBSERVATION|26/05/2023 14:39|Family updated, questions answered.
+88|43|21|CRH|28/05/2023 01:28|Discharge summary. Admitted for follow-up investigation. RECOVERY progressing well.
+89|3832|21|OBSERVATION|02/01/2024 00:39|Observations stable overnight. Continue current treatment.
+90|44|6|OBSERVATION|31/12/2023 01:48|Observations stable overnight. Continue current treatment.
+91|44|7|CRH|10/01/2024 09:28|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+92|45|7|OBSERVATION|22/08/2024 00:37|Family updated, questions answered.
+93|45|17|OBSERVATION|14/08/2024 15:12|Patient reviewed on the ward round. Plan unchanged.
+94|45|14|CRH|23/08/2024 10:28|Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+95|46|19|OBSERVATION|16/10/2024 21:30|pATIENT REVIEWED ON THE WARD ROUND. pLAN UNCHANGED.
+96|46|19|CRH|17/10/2024 12:28|Discharge summary. Admitted for confusion. Condition stable at discharge.
+97|47|1|CRH|02/02/2022 10:30|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+98|48|23|OBSERVATION|23/07/2024 04:00|  Observations stable overnight. Continue current treatment.
+99|48|4|CRH|07/08/2024 08:34|Discharge summary. Admitted for confusion. Condition stable at discharge.
+100|49|24|CRH|25/01/2025 06:34|Discharge summary. Admitted for planned surgery. recovery progressing well.
+101|50|15|OBSERVATION|01/09/2025 10:50|Pain better controlled; mobilising with help.
+102|50|13|  CRH|04/09/2025 14:34|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+103|51|14|OBSERVATION|19/03/2022 20:22|Patient reviewed on the ward round. Plan unchanged.
+104|51|10|CRH|28/03/2022 18:41|Discharge summary. Admitted for fever. Condition stable at discharge.
+105|52|7|OBSERVATION|30/02/2022 19:58|Patient reviewed on the ward round. Plan unchanged.
+106|52|24|CRH|01.09.2022 20:41|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+107|53|50|CRO|25/02/2023 19:08|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+108|53|16|Obs medicale|23/02/2023 21:54|Observations stable overnight. Continue current treatment.
+109|53|22|CR SORTIE|02/03/2023 09:41|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+110|54|45|CRO|26/07/2023 01:25|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+111|54|23|CRH|10/08/2023 07:41|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+112|55|10|CRH|29/09/2022 11:35|Discharge summary. Admitted for confusion. Condition stable at discharge.
+113|56|18|OBSERVATION|06/10/2024 21:26|Family updated, questions answered.
+114|56|13|CRH|17/10/2024 23:01|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+115|57|22|OBSERVATION|07/06/2024 02:20|Family updated, questions answered.
+116|57|17|CRH|23/06/2024 17:08|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+117|58|19|OBSERVATION|25/07/2024 01:01|Patient reviewed on the ward round. Plan unchanged.
+118|58|3|CRH|03/08/2024 08:12|Discharge summary. Admitted for confusion. Patient died during the stay.
+119|59|24|OBSERVATION|14/08/2022 00:03|Patient reviewed on the ward round. Plan unchanged.
+120|59|21|OBSERVATION|13/08/2022 22:18|Patient reviewed on the ward round. Plan unchanged.
+121|59|15|Compte rendu de sortie|14/08/2022 00:28|Discharge summary. Admitted for fever. Condition stable at discharge.
+122|60|13|CRH|28/02/2023 12:28|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+123|61|46|CRO|21/11/2023 11:34|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+124|61|24|CRH|26/11/2023 03:28|Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+125|62|17|CRH|07/01/2025 01:26|Discharge summary. Admitted for general weakness. recovery progressing well.
+126|63|10|CRH|16/10/2022 05:35|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+127|64|18|Compte rendu de sortie|02/08/2023 14:35|discharge summary. admitted for cough and fever. condition stable at discharge.
+128|65|10|CRH|25/09/2024 16:50|Discharge summary. Admitted for fever. Condition stable at discharge.
+129|66|17|CRH|17/06/2025 13:50|Discharge summary. Admitted for syncope. Condition stable at discharge.
+130|67|2|OBSERVATION|12/05/2022 08:51|Pain better controlled; mobilising with help.
+131|67|2|OBSERVATION|17/05/2022 09:33|Family updated, questions answered.
+132|67|15|CRH|20/05/2022 20:29|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+133|68|23|OBSERVATION|inconnue|Family updated, questions answered.
+134|68|8|CRH|01/08/2022 02:29|Discharge summary. Admitted for syncope. Recovery progressing well.
+135|69|1|OBSERVATION|22/11/2023 01:14|Patient reviewed on the ward round. Plan unchanged.
+136|69|16|OBSERVATION|18/11/2023 04:39|Patient reviewed on the ward round. Plan unchanged.
+137|69|20|CRH|23/11/2023 21:16|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+138|70|24|CRH|11/04/2024 22:16|Discharge summary. Admitted for fever. Condition stable at discharge.
+139|71|13|OBSERVATION|24/06/2023 22:33|Pain better controlled; mobilising with help.
+140|71|16|CRH|2023-06-25 03:14:00|Discharge summary. Admitted for fever. Condition stable at discharge.
+141|72|21|OBSERVATION|09/08/2023 07:36|FAMILY UPDATED, QUESTIONS ANSWERED.
+142|72|4|OBSERVATION|11/08/2023 15:48|Pain better controlled; mobilising with help.
+143|2658|16|CRH|11/08/2023 18:14|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+144|73|52|CRO|22/08/2023 04:07| Operative note. Coronarographie performed. Patient tolerated the procedure. 
+145|73|17|OBSERVATION|21/08/2023 10h37|Family updated, questions answered.
+146|73|10|crh|29/08/2023 21:22|Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+147|74|3|OBSERVATION|08/09/2023 07:21|Observations stable overnight. Continue current treatment.
+148|74|21|CRH|16/09/2023 03:59|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+149|75|24|OBSERVATION|29/12/2023 06:46|Family updated, questions answered.
+150|75|2|CRH|29/12/2023 12:59|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+151|76|47|CRO|26/09/2022 16:19|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+142|72|4|observation|11/08/2023 15:48|Pain better controlled; mobilising with help.
+152|76|7|OBSERVATION|29/09/2022 19:40|Patient  reviewed on the ward round. Plan unchanged.
+153|76|1|OBSERVATION|28/09/2022 19:13|Patient reviewed on the ward round. Plan unchanged.
+154|76|11|CRH|02/10/2022 00:25|Discharge summary. Admitted for cough and fever. recovery progressing well.
+155|77|1| CRH |21/04/2023 13:32|Discharge summary. Admitted for follow-up investigation. RECOVERY progressing well.
+156|78|12|OBSERVATION|26/01/2024 13:53|Family updated, questions answered.
+157|78|22|CRH|27/01/2024 23:32|Discharge summary. Admitted for cough and fever. RECOVERY progressing well.
+158|79|2698|CRO|04/06/2024 06:18|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+159|79|21|CRH|07/06/2024 01:32|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+160|80|7||05/03/2025 19:32|Discharge summary. Admitted for cough and fever. RECOVERY progressing well.
+161|81|12|OBSERVATION|01/02/2022 20h02|Patient reviewed on the ward round. Plan unchanged.
+162|81|13|CRH|05/02/2022 11:42|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+163|82|51|CRO|22/02/2024 23:56|Operative note. Osteosynthese col du femur performed. Patient tolerated the procedure.
+164|82|18|CRH|25/02/2024 11:56|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+165|83|24|CRH|12/08/2024 07:35|Discharge summary. Admitted for general weakness. RECOVERY progressing well.
+166|84|18|OBSERVATION|29.03.2025 17:09|Patient reviewed on the ward round. Plan unchanged.
+167|84|13|CRH|30/03/2025 23:35|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+168|85|19|CRH|19/05/2022 13:17|Discharge summary. Admitted for cough and fever. recovery progressing well.
+169|86|22|OBSERVATION|30/10/2022 11:19|Patient reviewed on the ward round. Plan unchanged.
+170|86|1|CRH|31/10/2022 00:17|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+171|87|1|CRH|21/06/2023 18:08|Discharge summary. Admitted for confusion. recovery progressing well.
+172|88|49|CRO|19/10/2023 04:24|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+173|88|24|CRH|03/11/2023 08:08|  Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+174|89|24|OBSERVATION|02/03/2023 20:27|Family updated, questions answered.
+175|89|4|CRH   |14-03-2023 23:28|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+176|90|24|OBSERVATION|14/09/2023 03:05|Observations stable overnight. Continue current treatment.
+177|90|4|OBSERVATION|14/09/2023 06:00|Observations stable overnight. Continue current treatment.
+178|90|6|CRH|14/09/2023 09:28|Discharge summary. Admitted for confusion. Recovery progressing well.
+179|91|21|OBSERVATION|14/03/2024 15:46|Observations stable overnight. Continue current treatment.
+180|91|18|CRH|15/03/2024 05:28|Discharge summary. Admitted for confusion. recovery progressing well.
+181|92|24|Obs medicale|27/05/2022 01:31|Family updated, questions answered.
+182|92|7|OBSERVATION|28/05/2022 10:21|  Family updated, questions answered.
+183|92|22|CRH|04/06/2022 00:03|dISCHARGE SUMMARY. aDMITTED FOR FOLLOW-UP INVESTIGATION. cONDITION STABLE AT DISCHARGE.
+184|93|12|OBSERVATION|07.10.2022 00:07|Pain better controlled; mobilising with help.
+185|93|18|  CRH|07-10-2022 06:03|Discharge summary. Admitted for palpitations. Patient died during the stay.
+186|94|5|OBSERVATION|27/04/2024 13:53|Patient reviewed on the ward round. Plan unchanged.
+187|94|21|CRH|30/04/2024 04:06|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+188|95|3|  OBSERVATION|09/06/2024 21:32|Observations stable overnight. Continue current treatment.
+189|95|6|CRH|10/06/2024 07:06|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+190|96|3|OBSERVATION|21/08/2022 14:29|Family updated, questions answered.
+191|96|8|OBSERVATION|22/08/2022 14:24|Family updated, questions answered.
+192|96|5|CRH|22/08/2022 16:09|Discharge summary. Admitted for fever. Condition stable at discharge.
+193|97|10|Obs medicale|04/05/2022 22:59|Family updated, questions answered.
+194|97|10|CRH|07/05/2022 21:54|Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+195|98|2|OBSERVATION|08/07/2022 10:25|Pain better controlled; mobilising with help.
+196|98|10|CRH|16/07/2022 15:54|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+197|99|13|CRH|09/03/2022 22:54|  Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+198|100|18|OBSERVATION|18/08/2024 23:41|Family updated, questions answered.
+199|100|13|CRH|19/08/2024 00:22|Discharge summary. Admitted for fever. recovery progressing well.
+200|101|3|CRH|16/04/2025 10:22|Discharge summary. Admitted for chest pain. Recovery progressing well.
+201|102|16|CRH|14/08/2023 17:50|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.   
+202|103|2|OBSERVATION|13/08/2023 03:43|Observations stable overnight. Continue current treatment.
+203|103|11|OBSERVATION|08/08/2023 17:50|Pain better controlled; mobilising with help.
+204|103|24|CRH|16.08.2023 21:55|Discharge summary. Admitted for confusion. Condition stable at discharge.
+205|104|19|CRH|15/01/2022 07:20|Discharge summary. Admitted for fall at home. recovery progressing well.
+206|105|22|OBSERVATION|11/03/2024 08:00|Patient reviewed on the ward round. Plan unchanged.
+207|105|19|CRH|11/03/2024 18:31|Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+208|106|14|CRH|17/07/2022 22:40|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+209|107|8|CRH|08/02/2024 08:55|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+210|108|11|CRH|26/08/2024 01:55|Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+211|109|19|CRH|23/06/2023 21:15|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+212|110|50|CRO|24/08/2023 12:57|Operative note. Osteosynthese col du femur performed. Patient tolerated the procedure.
+213|110|9|OBSERVATION|25/08/2023 17:53|pain better controlled; mobilising with help.
+214|110|20|CRH|02.09.2023 03:15|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+215|111|21|OBSERVATION|inconnue|Family updated, questions answered.
+216|111|13|CRH|31.05.2023 23:35|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+217|112|9|OBSERVATION|07/08/2022 19:24|Patient reviewed on the ward round. Plan unchanged.
+218|112|17|Obs medicale|21/08/2022 17:26|Observations stable overnight. Continue current treatment.
+219|112|19|CRH|22/08/2022 22:05|Discharge summary. Admitted for birth. Condition stable at discharge.
+220|113|50|CRO|15/11/2022 15:22|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+221|113|17|CRH|21/11/2022 03:05|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+210|108|11|CRH|26/08/2024 01:55|Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+222|114|8|Compte rendu de sortie|06.05.2023 04:05|Discharge summary. Admitted for palpitations. Recovery progressing well.
+223|115|8|  OBSERVATION|26/11/2023 09:15|Family updated, questions answered.
+224|115|11|CRH|28.11.2023 13:05|dISCHARGE SUMMARY. aDMITTED FOR COUGH AND FEVER. RECOVERY PROGRESSING WELL.
+225|116|18|OBSERVATION|23/11/2022 01:17|Patient reviewed on the ward round. Plan unchanged.
+226|116|24|CRH|04/12/2022 19:19|Discharge summary. Admitted for confusion. Condition stable at discharge.
+227|117|23|  OBSERVATION|04/05/2024 12:45|Patient reviewed on the ward round. Plan unchanged.
+228|117|1|CRH|04/05/2024 13h33|Discharge  summary. Admitted for planned surgery. Condition stable at discharge.
+229|118|47|CRO|04/03/2025 10:38|Operative note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+230|118|20|OBSERVATION|06/03/2025 13:30|Observations stable overnight. Continue current treatment.
+231|118|14|CRH|12/03/2025 18:33|Discharge summary. Admitted for fever. Recovery progressing well.
+232|119|20|CRH|04/09/2023 20:22|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+233|120|13|OBSERVATION|27/03/2024 13:55|Family updated, questions answered.
+234|120|19|CRH|02/04/2024 11:22|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+235|121|5|OBSERVATION|31/10/2024 01:20|Family updated, questions answered.
+236|121|14|crh|04/11/2024 04:22|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+237|122|7|CRH|15/07/2023 09:33| Discharge summary. Admitted for planned surgery. Condition stable at discharge. 
+238|123|1|CRH|16/10/2023 12:33|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+239|124|2|OBSERVATION|24/11/2022 16:13|Family updated, questions answered.
+240|124|14|OBSERVATION|2022-11-24 10:29:00|Family updated, questions answered.
+241|124|7|CRH|24/11/2022 21:52|Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+242|125|22|OBSERVATION|14/09/2023 05:48|Pain better controlled; mobilising with help.
+243|125|11|CRH|16/09/2023 12:36|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+244|126|24|OBSERVATION|30/02/2023 13:34|Family updated, questions answered.
+245|126|18|OBSERVATION|18/05/2023 21:04|Family updated, questions answered.
+246|126|10|CRH|inconnue|Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+247|127|21|Obs medicale|06/05/2022 08:21|Patient reviewed on the ward round. Plan unchanged.
+248|127|22|CRH|11/05/2022 16:20|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+249|128|17|OBSERVATION|20/01/2023 02:11|Patient reviewed on the ward round. Plan unchanged.
+250|128|8|OBSERVATION|11/01/2023 21:44|Patient reviewed on the ward round. Plan unchanged.
+251|128|19|CRH|24/01/2023 15:20|  Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+252|129|14|CRH|09/05/2024 04:40|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+253|130|8|OBSERVATION|25/03/2023 06:28|Pain better controlled; mobilising with help.
+254|130|20|CRH|26/03/2023 08:00|Discharge summary. Admitted for syncope. RECOVERY progressing well.
+255|131|21|Obs medicale|11/12/2023 14:33|Pain better controlled; mobilising with help.
+256|131|5|CRH|12/12/2023 05:00|Discharge summary. Admitted for fall at home. Condition stable at discharge.   
+257|132|15|OBSERVATION|11/02/2024 02:42|Observations stable overnight. Continue current treatment.
+258|132|24|CRH|14/02/2024 13:00|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+259|133|10|OBSERVATION|24/05/2024 14:19|Family updated, questions answered.
+260|133|4|CRH|01/06/2024 04:51| Discharge summary. Admitted for planned surgery. Condition stable at discharge. 
+261|134|3|Obs medicale|04/07/2024 23:10|Pain better controlled; mobilising with help.
+262|134|13|OBSERVATION|01/07/2024 04:51|Patient reviewed on the ward round. Plan unchanged.
+263|134|22|CRH|08/07/2024 22:51|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+264|135|19|crh|05/10/2023 11:17|Discharge summary. Admitted for syncope. recovery progressing well.
+265|136|8|N/A|16/03/2024 16:17|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+266|137|23|CRH|29/03/2023 19:24|discharge summary. admitted for abdominal pain. condition stable at discharge.
+267|138|9|Obs medicale|25/09/2023 13:24|Family updated, questions answered.
+268|138|9|observation|27/09/2023 09:41|Observations stable overnight. Continue current treatment.
+269|138|17|CRH|29/09/2023 12:24|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+270|139|5|CRH|30/03/2023 04:54|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+271|140|12|OBSERVATION|05/12/2023 04:15|Observations stable overnight. Continue current treatment.
+272|140|4|CRH|13/12/2023 21:54|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+273|141|21|OBSERVATION|24/12/2023 20:25|Patient reviewed on the ward round. Plan unchanged.
+274|687|18|CRH|30/12/2023 07:34|Discharge summary. Admitted for syncope. recovery progressing well.
+275|142|4|CRH|16/06/2024 10:34|  Discharge summary. Admitted for fever. Condition stable at discharge.
+276|143|15|OBSERVATION|24/06/2022 18:00|Pain better controlled; mobilising with help.
+277|143|13|CRH|03/07/2022 03:30|Discharge summary. Admitted for birth. Condition stable at discharge.
+278|144|8|OBSERVATION|2024-04-11 12:05:00|Patient reviewed on the ward round. Plan unchanged.
+279|144|5|CRH|21/04/2024 23:40|Discharge summary. Admitted for syncope. Recovery progressing well.
+280|145|13|OBSERVATION|25/01/2025 00:06|Pain better controlled; mobilising with help.
+281|145|7|CRH|28/01/2025 12:40|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+282|146|1|OBSERVATION|24/04/2024 15:12|Pain better controlled; mobilising with help.
+283|146|19|CRH|24/04/2024 16:22|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+284|147|48|CRO|11/12/2023 20:03|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+285|147|13|Obs medicale|13/12/2023 00:18|Family updated, questions answered.
+286|147|5|Compte rendu de sortie|18/12/2023 11:40|Discharge summary. Admitted for general weakness. RECOVERY progressing well.
+287|148|10|  OBSERVATION|07/09/2024 02:38|Observations stable overnight. Continue current treatment.
+288|148|24|CR  SORTIE|16/09/2024 11:40|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+277|143|13|CRH|03/07/2022 03:30|Discharge summary. Admitted for birth. Condition stable at discharge.
+289|149|46|CRO|09/06/2025 09:32|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+290|149|19|OBSERVATION|07/06/2025 13:57|fAMILY UPDATED, QUESTIONS ANSWERED.
+291|149|1|OBSERVATION|10/06/2025 21:26|Pain better controlled; mobilising with help.
+292|149|10|CRH|17/06/2025 09:40|Discharge summary. Admitted for syncope. Condition stable at discharge.
+293|150|7|OBSERVATION|20/09/2025 09:20|Observations stable overnight. Continue current treatment.
+294|150|12|CRH|20/09/2025 16:40|Discharge summary. Admitted for abdominal pain. recovery progressing well.
+295|151|14|CRH|14/03/2023 23:43|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+296|152|14|CRH|24/07/2023 21:43|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+297|153|5|OBS MEDICALE|28/12/2024 00:40|Patient reviewed on the ward round. Plan unchanged.
+298|153|10|OBSERVATION|28/12/2024 20:05| Family updated, questions answered. 
+299|153|?|CRH |12-29-2024 09:36|Discharge summary. Admitted for fall at home. Recovery progressing well.
+300|154|4|OBSERVATION|12/06/2023 11:50|Pain better controlled; mobilising with help.
+301|154|8|CRH|26/06/2023 20:40|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+302|155|14|OBSERVATION|11/02/2024 20:50|Family updated, questions answered.
+303|155|3|CRH|15/02/2024 06:40|Discharge summary. Admitted for syncope. recovery progressing well.
+304|156|12|observation|26/07/2023 00:53|Pain better controlled; mobilising with help.
+305|156|22|CR SORTIE|27/07/2023 06:33|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+306|157|47|CRO|26/04/2024 04:23|oPERATIVE NOTE. aPPENDICECTOMIE PERFORMED. pATIENT TOLERATED THE PROCEDURE.
+307|157|8|OBSERVATION|29/04/2024 04:34|Family updated, questions answered.
+308|157|2|CRH|03/05/2024 08:33|dISCHARGE SUMMARY. aDMITTED FOR FOLLOW-UP INVESTIGATION. RECOVERY PROGRESSING WELL.
+309|158|23|OBSERVATION|29/09/2024 10:52|Patient reviewed on the ward round. Plan unchanged.
+310|158|17|OBSERVATION|19/09/2024 01:21|Family updated, questions answered.
+311|158|1|CRH|29/09/2024 19:33|Discharge summary. Admitted for fever. recovery progressing well.
+312|159|8|crh|25/08/2022 08:19|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+313|160|15|OBSERVATION|10/02/2022 06:21|Patient reviewed on the ward round. Plan unchanged.   
+314|160|15|CRH|10/02/2022 18:33|Discharge summary. Admitted for follow-up investigation. RECOVERY progressing well.
+315|161|7|OBSERVATION|14/04/2023 15:32|Family updated, questions answered.
+316|161|19|OBSERVATION|16/04/2023 23:01|Patient reviewed on the ward round. Plan unchanged.
+317|161|6|CRH|17/04/2023 00:48|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+318|162|7|OBSERVATION|07/12/2023 06:17|Pain better controlled; mobilising with help.
+319|162|1|CRH|07/12/2023 22:48|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+320|163|3|OBSERVATION|14/03/2024 22:58| Pain better controlled; mobilising with help. 
+321|163|2|CRH|15/03/2024 04:48|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+322|164|9|CRH|14/04/2022 09:36|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+323|165|17|OBSERVATION|13/01/2023 15:42|Patient reviewed on the ward round. Plan unchanged.
+324|165|3|CRH|13/01/2023 17:17|Discharge summary. Admitted for fever. Condition stable at discharge.
+325|166|2|Obs medicale   |02/05/2023 17:53|Observations stable overnight. Continue current treatment.
+326|166|15|CRH|02/05/2023 21:17|Discharge summary. Admitted for confusion. Condition stable at discharge.
+327|167|15|OBSERVATION|29/12/2023 19:41|Pain better controlled; mobilising with help.
+328|167|6|OBSERVATION|03/01/2024 04:18|Patient reviewed on the ward round. Plan unchanged.
+329|167|14|CRH|05/01/2024 08:17|Discharge summary. Admitted for planned surgery. Patient died during the stay.
+330|168|10|CRH|27/09/2023 20:38|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+331|169|23|OBSERVATION|09/06/2024 15:27|Patient reviewed on the ward round. Plan unchanged.
+332|169|5|CRH|13/06/2024 06:38|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+319|162|1|CRH|07/12/2023 22:48|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+333|170|16|CRH|04/12/2024 02h38|DISCHARGE SUMMARY. ADMITTED FOR SHORTNESS OF BREATH. RECOVERY PROGRESSING WELL.
+334|171|19|OBSERVATION|19/03/2025 16:49|Patient reviewed on the ward round. Plan unchanged.
+335|171|20|OBSERVATION|26/03/2025 06:47|observations stable overnight. continue current treatment.
+336|3003|14|Compte rendu de sortie|01/04/2025 03:38|Discharge summary. Admitted for fever. recovery progressing well.
+337|172|52|CRO|05/02/2023 05:15|Operative note. Coronarographie performed. Patient tolerated the procedure.
+338|172|5|OBSERVATION|09/02/2023 10:41|Observations stable overnight. Continue current treatment.
+339|172|5|OBSERVATION|05/02/2023 03:09|Pain better controlled; mobilising with help.
+340|172|21|CRH|15/02/2023 10:32|Discharge summary. Admitted for palpitations. recovery progressing well.
+341|173|9|CRH|02/10/2023 19:32|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+342|174|4|OBSERVATION|21/06/2024 06:29|Pain better controlled; mobilising with help.
+343|174|19|CRH|02/07/2024 11:32|Discharge summary. Admitted for general weakness. Recovery progressing well.
+344|175|13|CRH|24/05/2022 01:50|discharge summary. admitted for planned surgery. condition stable at discharge.
+345|176|24|OBSERVATION|05/12/2023 19:25|Observations stable overnight. Continue current treatment.
+346|176|17|CRH|05/12/2023 20:40|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+347|177|19|OBSERVATION|19/01/2024 21:21|Patient reviewed on the ward round. Plan unchanged.
+348|177|11|CRH|27/01/2024 05:40|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+349|178|5|OBSERVATION|09/12/2024 14:59|Family updated, questions answered.
+350|178|3|CR SORTIE|21/12/2024 04:49|Discharge summary. Admitted for fever. Condition stable at discharge.
+351|179|24|CRH|15/08/2022 14:59|Discharge summary. Admitted for planned surgery. Patient died during the stay.
+352|180|18|OBSERVATION|12/07/2024 09:06|Pain better controlled; mobilising with help.
+353|180|4|observation|10/07/2024 12:30|null
+354|180|17|CRH|13/07/2024 13:50|Discharge summary. Admitted for confusion. Condition stable at discharge.
+355|697|10|CRH|06/11/2022 14:05|Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+356|182|1053|OBSERVATION|23/03/2023 08:15|Patient reviewed on the ward round. Plan unchanged.
+357|182|2|CRH|01/04/2023 10:05|Discharge summary. Admitted for shortness of breath. recovery progressing well.
+358|183|10|OBSERVATION|19/02/2022 11:28|Pain better controlled; mobilising with help.
+359|183|23|CRH|23/02/2022 25:22|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+360|184|13|CRH|25/05/2022 14:49|Discharge summary. Admitted for birth. Condition stable at discharge.
+361|2897|5|OBSERVATION|19/09/2022 02:28|Pain better controlled; mobilising with help.
+362|185|17|OBSERVATION|12/09/2022 17:19|Patient reviewed on the ward round. Plan unchanged.
+363|185|7|CRH|25/09/2022 08:49|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+364|186|14|CRH|24/06/2024 14:06|Discharge summary. Admitted for palpitations. recovery progressing well.
+365|3432|22|CRH|12/12/2024 21:06|Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+366|188|23|CRH|14/05/2025 21:06|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+367|189|23|CRH|27/09/2023 06:25|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+368|190|16|CRH|29/09/2023 13:42|Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+369|191|16|CRH|14/10/2022 08:57|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+370|192|20|CRH|04/10/2022 06:49|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+371|193|46|CRO|14/04/2023 16:12|Operative note. Coronarographie performed. Patient tolerated the procedure.
+372|193|24|OBSERVATION|15/04/2023 11h05|Family updated, questions answered.
+373|193|16|crh|21/04/2023 17h49|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+374|194|11|OBSERVATION|06/03/2022 16:38|Observations stable overnight. Continue current treatment.
+375|194|1|OBSERVATION|08/03/2022 04:31|Family updated, questions answered.
+376|194|8|CRH|13/03/2022 09:04|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+377|195|10|CRH|20/10/2022 07:04|Discharge summary. Admitted for syncope. Recovery progressing well.
+378|196|13|CRH|24/09/2022 04:48|Discharge summary. Admitted for chest pain. Recovery progressing well.
+379|197|3|CRH|19/09/2024 19:22|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+380|198|10|?|11/04/2024 18:49|Patient reviewed on the ward round. Plan unchanged.
+381|198|9|CRH|27/04/2024 17:12|-
+382|199|7|CRH|20/09/2023 01:58|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+383|200|18|OBSERVATION|09/08/2023 09:59|Patient reviewed on the ward round. Plan unchanged.
+384|200|19|CRH|09/08/2023 11:41|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+385|201|46|CRO|28/05/2022 13:58|Operative note. Coronarographie performed. Patient tolerated the procedure.
+386|201|1|OBSERVATION|29/05/2022 15:51|Pain better controlled; mobilising with help.
+387|201|2|CRH|2022-06-01T16:16|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+388|202|9|  OBSERVATION|31/12/2023 03:46|Observations stable overnight. Continue current treatment.
+389|202|15|OBSERVATION|01/01/2024 19:50|Observations stable overnight. Continue current treatment.
+390|202|8|CRH|05/01/2024 20:27|Discharge summary. Admitted for planned surgery. recovery progressing well.
+391|203|5|OBSERVATION|2024-05-10T01:39|Patient reviewed on the ward round. Plan unchanged.
+392|203|3|OBSERVATION|01/06/2024 20:27|Patient reviewed on the ward round. Plan unchanged.
+386|201|1|OBSERVATION|29/05/2022 15:51|Pain better controlled; mobilising with help.
+393|203|7|CRH|19/05/2024 20:27|DISCHARGE SUMMARY. ADMITTED FOR PLANNED SURGERY. PATIENT DIED DURING THE STAY.
+394|204|24|CRH|05/04/2023 02:44|Discharge summary. Admitted for syncope. Condition stable at discharge.
+395|205|47|CRO|10/08/2023 00:09|Operative note. Coronarographie performed. Patient tolerated the procedure.
+396|205|5|CRH |15/08/2023 15:44|Discharge summary. Admitted for general weakness. Recovery progressing well.
+397|206|47|CRO|17/09/2022 23:48|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+398|206|11|OBSERVATION|24/08/2022 23:52|Observations stable overnight. Continue current treatment.
+399|206|7|OBSERVATION|18/08/2022 09:48|Pain better controlled; mobilising with help.
+400|206|20|CRH|06/09/2022 23:48|Discharge summary. Admitted for general weakness. RECOVERY progressing well.
+401|207|16|OBSERVATION|27/01/2023 14:02|Patient reviewed on the ward round. Plan unchanged.
+402|207|18|CRH|31/01/2023 09:48|Discharge summary. Admitted for syncope. Recovery progressing well.
+403|208|5|CRH|24/10/2023 19:48|Discharge summary. Admitted for syncope. Condition stable at discharge.
+404|209|22|CRH|27/11/2023 07:48|Discharge summary. Admitted for confusion. Condition stable at discharge.
+405|210|7|CRH|20/09/2024 14:17|Discharge summary. Admitted for syncope. RECOVERY progressing well.
+406|211|4|OBSERVATION|13/11/2022 04:28|Pain better controlled; mobilising with help.
+407|211|18|CRH|14/11/2022 10:14|Discharge summary. Admitted for confusion. Condition stable at discharge.
+408|212|18|OBSERVATION|20/12/2024 08:28|Observations stable overnight. Continue current treatment.
+409|212|8|OBSERVATION|14/12/2024 08:43|Patient reviewed on the ward round. Plan unchanged.
+410|212|11|CRH|a preciser|Discharge summary. Admitted for palpitations. Recovery progressing well.
+411|213|8|OBSERVATION|04/10/2025 20:39|Pain better controlled; mobilising with help.
+412|213|11|OBSERVATION|05/10/2025 00:00|Observations stable overnight. Continue current treatment.
+413|213|19|CRH|05/10/2025 20:15|Discharge summary. Admitted for confusion. recovery progressing well.
+414|214|52|CRO|15/02/2024 16:11|Operative note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+415|214|3|OBSERVATION|25/02/2024 06:15|Observations stable overnight. Continue current treatment.
+416|214|13|CRH|27/02/2024 14:05|Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+417|215|6|OBSERVATION|10/10/2023 08:40|Observations stable overnight. Continue current treatment.
+418|215|19|CRH|17/10/2023 16:09|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+419|216|18|CRH|13/05/2024 14:09|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+420|217|15|CRH|04/12/2023 19:26|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+421|218|4|OBSERVATION|14/09/2024 23:52|Observations stable overnight. Continue current treatment.
+422|218|1|CRH|28/09/2024 15:26|Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+423|219|19|CRH|03/05/2022 21:16|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+424|220|21|Obs medicale|14/10/2022 00h28|Pain better controlled; mobilising with help.
+425|220|19|CRH|14/10/2022 08:16|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+426|221|20|OBSERVATION|26/01/2023 19:54|Patient reviewed on the ward round. Plan unchanged.
+427|221|21|CRH|10-02-2023 20:01|Discharge summary. Admitted for fever. Condition stable at discharge.
+428|222|4|OBSERVATION|17/08/2023 11:41|Patient reviewed on the ward round. Plan unchanged.   
+429|222|11|CRH|20/08/2023 07:01|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+430|223|3|OBSERVATION|12/10/2022 13:58|Family updated, questions answered.
+431|223|20|CRH|12/10/2022 14:41|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+432|224|6|OBSERVATION|13/09/2022 13:33|Family updated, questions answered.
+433|224|7|CRH|2022-09-13T19:13| Discharge summary. Admitted for syncope. RECOVERY progressing well. 
+434|225|1|observation|21/12/2023 03:26|Family updated, questions answered.
+435|225|21|CRH|26/12/2023 04:26|Discharge summary. Admitted for fever. Patient died during the stay.
+436|226|19|CRH|30/06/2024 23:22|Discharge summary. Admitted for cough and fever. recovery progressing well.
+437|227|8|OBSERVATION|14/12/2023 07:17|Patient reviewed on the ward round. Plan unchanged.
+438|227|16|CRH|14/12/2023 20:40|Discharge summary. Admitted for fall at home. Recovery progressing well.
+439|228|9|OBSERVATION|22/03/2024 09:11|Family updated, questions answered.
+440|228|2|OBSERVATION|17/03/2024 16:44|Family updated, questions answered.
+431|223|20|CRH|12/10/2022 14:41|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+441|228|10|CRH|25/03/2024 09:40|Discharge summary. Admitted for fever. Recovery progressing well.
+442|229|14|OBSERVATION|31/10/2023 22:53|Observations stable overnight. Continue current treatment.
+443|229|4|CRH|31/10/2023 23:58|Discharge summary. Admitted for confusion. Condition stable at discharge.
+444|230|51|CRO|05/07/2022 13:07|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+445|230|1|OBSERVATION|07/07/2022 15:04|Family updated, questions answered.
+446|230|12|OBSERVATION|05/07/2022 10:32|Observations stable overnight. Continue current treatment.
+447|230|13|CRH|08/07/2022 03:42|Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+448|231|11|OBSERVATION|05-01-2023 14:52|Pain better controlled; mobilising with help.
+449|231|22|OBSERVATION|02.01.2023 07:19|Observations stable overnight. Continue current treatment.
+450|231|4|CRH |07/01/2023 09:00|Discharge summary. Admitted for fever. Recovery progressing well.
+451|232|50|CRO|04.01.2022 23:17|Operative note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+452|232|6|OBSERVATION|04/01/2022 05:03|Patient reviewed on the ward round. Plan unchanged.
+453|232|13|CRH|09/01/2022 02:55|Discharge summary. Admitted for general weakness. RECOVERY progressing well.
+454|233|7|CRH|24/07/2024 04:07|Discharge summary. Admitted for fall at home. Recovery progressing well.
+455|234|45|CRO|08/12/2024 09:23|Operative note. Osteosynthese col du femur performed. Patient tolerated the procedure.
+456|234|18|OBSERVATION|06/12/2024 22:49|Patient reviewed on the ward round. Plan unchanged.
+457|234|10|OBSERVATION|13/12/2024 15:06|Observations stable overnight. Continue current treatment.
+458|234|7|CRH|17/12/2024 16:13|Discharge summary. Admitted for planned surgery. recovery progressing well.
+459|235|48|CRO|27/01/2023 14:01|Operative note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+460|235|20|OBSERVATION|29/01/2023 15:05|Observations stable overnight. Continue current treatment.
+461|235|3|observation|27/01/2023 18:11|Observations stable overnight. Continue current treatment.
+462|235|16|CRH|30/01/2023 23:11|Discharge summary. Admitted for planned surgery. recovery progressing well.
+463|236|19|OBSERVATION|14/09/2023 13:18|Patient reviewed on the ward round. Plan unchanged.
+464|236|4| CRH |14/09/2023 20:11|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+465|237|22|CRH|19/02/2022 11:40|Discharge  summary. Admitted for shortness of breath. Recovery progressing well.
+466|238|23|OBSERVATION|2022-08-18T12:36|Family updated, questions answered.
+467|238|9|OBSERVATION|18/08/2022 13:53|Pain better controlled; mobilising with help.
+468|238|4|CRH|18/08/2022 14:40|Discharge summary. Admitted for chest pain. Patient died during the stay.
+469|239|51|Compte rendu operatoire|04/10/2024 18:29|Operative note. Osteosynthese col du femur performed. Patient tolerated the procedure.
+470|239|16|OBSERVATION|05/10/2024 07:56|Observations stable overnight. Continue current treatment.
+471|239|19|CRH|09/10/2024 01:50|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+472|240|13|CRH|15/11/2024 04:08|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+473|241|7|OBSERVATION|12/03/2022 12:59|Pain better controlled; mobilising with help.
+474|241|9|CRH|15/03/2022 13:04|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+475|242|7|CRH|15/02/2023 14:07| Discharge summary. Admitted for abdominal pain. RECOVERY progressing well. 
+476|243|9|OBSERVATION|23/12/2022 15:11|Family updated, questions answered.
+477|243|8|OBSERVATION|24/12/2022 07:05|Patient reviewed on the ward round. Plan unchanged.
+478|243|1|CRH|26/12/2022 17:35|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+479|244|50|CRO|09/04/2023 15:59|Operative note. Coronarographie performed. Patient tolerated the procedure.
+480|244|22|OBSERVATION|08/04/2023 15:38|Patient reviewed on the ward round. Plan unchanged.
+481|244|14|Obs medicale|11/04/2023 00:20|Patient reviewed on the ward round. Plan unchanged.
+482|244|15|crh|15/04/2023 15:38|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+483|245|49|CRO|16/04/2023 08:00|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+484|245|5|CRH|24/04/2023 00h11|Discharge summary. Admitted for fever. Condition stable at discharge.
+485|246|1|CRH|17/12/2023 10:11|Discharge  summary. Admitted for general weakness. RECOVERY progressing well.
+486|247|14|CRH|25/12/2023 03:20|Discharge summary. Admitted for chest pain. recovery progressing well.
+487|248|17|OBSERVATION|14/11/2023 13:53|Observations stable overnight. Continue current treatment.
+488|248|8|OBSERVATION|14/11/2023 08:18|Patient reviewed on the ward round. Plan unchanged.
+489|248|2|-|15/11/2023 05:11|Discharge  summary. Admitted for fever. Condition stable at discharge.
+477|243|8|OBSERVATION|24/12/2022 07:05|Patient reviewed on the ward round. Plan unchanged.
+490|249|14|CRH|18/01/2023 18:18|Discharge summary. Admitted for confusion. Condition stable at discharge.
+491|250|19|OBSERVATION|01/06/2023 03:42|Pain better controlled; mobilising with help.
+492|250|2|CRH|04/06/2023 22:01|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+493|251|5|CRH|12/09/2023 11:12|Discharge summary. Admitted for confusion. Condition stable at discharge.
+494|252|49|CRO|09/06/2023 23:14|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+495|252|21|CRH|15/06/2023 06:50|Discharge summary. Admitted for syncope. Condition stable at discharge.
+496|253|2|CRH|19/09/2023 07:50|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+497|254|13|Obs  medicale|04/05/2024 11:13|Observations stable overnight. Continue current treatment.
+498|254|15|CRH|04/05/2024 12:50|Discharge summary. Admitted for follow-up investigation. Recovery progressing well.
+499|255|19|CRH|06/02/2023 12:56|Discharge summary. Admitted for syncope. Recovery progressing well.
+500|256|21|CRH|04/04/2023 22:56|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+501|257|915|OBSERVATION|02/07/2024 19:15|Pain better controlled; mobilising with help.
+502|257|17|CR SORTIE|06/07/2024 04:38|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+503|258|9|OBSERVATION|31/03/2025 06:37|Family updated, questions answered.
+504|258|7|OBSERVATION|01/04/2025 21:34|observations stable overnight. continue current treatment.
+505|258|16|CRH|04/04/2025 00:38|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+506|259|2|CRH|23/03/2023 14:40|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+507|260|7|OBSERVATION|09/12/2023 19:17|Family updated, questions answered.
+508|260|24|CRH|15/12/2023 21:40|Discharge summary. Admitted for syncope. Condition stable at discharge.
+509|261|11|OBSERVATION|19/04/2024 18:50| Patient reviewed on the ward round. Plan unchanged. 
+510|261|19|OBSERVATION|18/04/2024 23:52|Pain better controlled; mobilising with help.
+511|261|16|CRH|23/04/2024 02:40|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+512|262|24|OBSERVATION|25/06/2024 16:56|Observations stable overnight. Continue current treatment.
+513|262|9|Obs medicale|25/06/2024 21:55|Pain better controlled; mobilising with help.
+514|262|4|CRH|25/06/2024 21:56|Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+515|263|8|OBSERVATION|04/02/2024 21:29|Patient reviewed on the ward round. Plan unchanged.
+516|263|12|CRH|04/02/2024 22:41|Discharge summary. Admitted for confusion. Condition stable at discharge.
+517|264|17|OBSERVATION|23/05/2024 03:45|Observations stable overnight. Continue current treatment.
+518|2075|21|CRH|01/06/2024 22:41|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+519|265|9|OBSERVATION |25/09/2024 09:25|Pain better controlled; mobilising with help.
+520|265|7|CRH|27/09/2024 11:38|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+521|266|24| OBSERVATION |23/02/2025 06:17|Pain better controlled; mobilising with help.
+522|266|17|CRH|07/03/2025 01:38|DISCHARGE SUMMARY. ADMITTED FOR CONFUSION. CONDITION STABLE AT DISCHARGE.
+523|267|9|CRH|08/08/2023 11:43|Discharge summary. Admitted for palpitations. recovery progressing well.
+524|268|10|OBSERVATION|30/09/2023 07:24| Patient reviewed on the ward round. Plan unchanged. 
+525|268|23|CRH|01.10.2023 07:43|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+526|269|10|OBSERVATION|30/10/2024 06:51|Observations stable overnight. Continue current treatment.
+527|269|6|CR SORTIE|03/11/2024 08:34|Discharge  summary. Admitted for fever. Condition stable at discharge.
+528|270|13|CRH|05/07/2025 14:34|Discharge summary. Admitted for fever. Condition stable at discharge.
+529|271|18|CRH|20/11/2022 08:29|Discharge summary. Admitted for syncope. Condition stable at discharge.
+530|272|51|CRO|15/10/2024 17:22|Operative note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+531|272|17|CRH|25/10/2024 03:00|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+532|273|18|CRH|28/03/2024 14:35|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+533|274|51|CRO|13.09.2024 16:49|Operative note. Osteosynthese col du femur performed. Patient tolerated the procedure.
+534|274|16|CRH|21.09.2024 19:35|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+535|275|16|OBSERVATION|19/06/2024 16:37|Patient reviewed on the ward round. Plan unchanged.
+536|275|20|CRH|20/06/2024 17:49|Discharge summary. Admitted for general weakness. Patient died during the stay.
+537|276|47|CRO|13/11/2024 12:33|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+538|276|16|OBSERVATION|22/11/2024 13:12|PATIENT REVIEWED ON THE WARD ROUND. PLAN UNCHANGED.
+539|276|23|CRH|23/11/2024 06:15|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+540|277|11|CRH|22/02/2025 07:15|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+541|278|1|CR SORTIE|13/05/2025 02:15|Discharge summary. Admitted for fall at home. Recovery progressing well.
+542|279|21|Obs medicale|12/03/2022 19:56|Family updated, questions answered.
+543|279|16|Compte rendu de sortie|23/03/2022 02:56|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+544|280|24|CRH|28/04/2022 07:56|Discharge summary. Admitted for syncope. Recovery progressing well.
+545|281|17|OBSERVATION|11/11/2024 20:28|Pain better controlled; mobilising with help.
+546|281|11|CRH|11/11/2024 22:14|Discharge summary. Admitted for confusion. Condition stable at discharge.
+547|282|51|CRO|04/03/2022 00:03|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+548|282|8|CRH|14/03/2022 04:29|Discharge summary. Admitted for confusion. Condition stable at discharge.
+537|276|47|CRO|13/11/2024 12:33|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+549|283|13|CRH|30/01/2022 01:54|Discharge summary. Admitted for fever. RECOVERY progressing well.
+550|284|10|CRH|28/07/2024 19:24|Discharge summary. Admitted for planned surgery. recovery progressing well.
+551|285|5|CRH|13/12/2023 03:13|Discharge summary. Admitted for shortness of breath. Patient died during the stay.   
+552|286|51|CRO|21/12/2024 04:30|Operative note. Coronarographie performed. Patient tolerated the procedure.
+553|286|21|CRH|26/12/2024 13:30|Discharge summary. Admitted for confusion. recovery progressing well.
+554|287|21|OBSERVATION|02/02/2025 21:54|Patient reviewed on the ward round. Plan unchanged.
+555|287|17|CRH|03/02/2025 19:30|Discharge summary. Admitted for fall at home. Recovery progressing well.
+556|1740|19|OBSERVATION|21/11/2023 10:40|Patient reviewed on the ward round. Plan unchanged.
+557|288|10|OBSERVATION|25/11/2023 08:04|Pain better controlled; mobilising with help.
+558|288|9|CRH|26/11/2023 22:43|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+558|288|9|CRH|26/11/2023 22:43|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+559|289|5|OBSERVATION|03/04/2022 22:57|Family updated, questions answered.
+560|289|3|OBSERVATION|05/04/2022 22:20|observations stable overnight. continue current treatment.
+561|289|10|CRH|09/04/2022 02:21|Discharge summary. Admitted for cough and fever. RECOVERY progressing well.
+562|290|23|OBSERVATION|08/11/2023 06:36|Patient reviewed on the ward round. Plan unchanged.
+563|290|9|CRH|08/11/2023 06:55|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+564|291|17|OBSERVATION|24/06/2024 19:14|Family updated, questions answered.
+565|291|23|OBSERVATION |24/06/2024 17:58|Family updated, questions answered.
+566|291|15|CRH|08/07/2024 11:55|Discharge summary. Admitted for shortness of breath. recovery progressing well.
+567|292|7|CRH|17/11/2024 13:55|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+568|293|50|cOMPTE RENDU OPERATOIRE|09/02/2025 19:19|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+569|293|14|OBSERVATION|04/02/2025 03:58|Family updated, questions answered.
+570|293|24|CRH|17/02/2025 01:55|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+571|294|9|CR SORTIE|04/11/2022 11:05|Discharge summary. Admitted for planned surgery. recovery progressing well.
+572|295|15| OBSERVATION |24/10/2024 08:04|Family updated, questions answered.
+573|295|9|OBSERVATION|28/09/2024 15:44|Patient reviewed on the ward round. Plan unchanged.
+574|295|4|CRH|01/11/2024 08:44|Discharge summary. Admitted for syncope. Condition stable at discharge.
+575|296||OBSERVATION|17/02/2025 11:51|Family updated, questions answered.
+576|296|22|OBSERVATION|17/02/2025 11:39|Observations stable overnight. Continue current treatment.
+577|296|21|CRH|17/02/2025 12:44|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+578|297|5|CRH|20/03/2024 25:42|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+579|298|18|CRH|05/05/2024 03:42|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+580|299|20|OBSERVATION|23/06/2024 13:06|Family updated, questions answered.
+581|299|13|OBSERVATION|27/06/2024 19:35|Observations stable overnight. Continue current treatment.
+582|299|12|CRH|04/07/2024 09:42|Discharge summary. Admitted for syncope. Condition stable at discharge.
+577|296|21|CRH|17/02/2025 12:44|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+583|300|20|N/A|20/12/2024 21:42|Discharge summary. Admitted for confusion. Recovery progressing well.
+584|301|7|CRH|05/08/2025 21:42|Discharge summary. Admitted for follow-up investigation. RECOVERY progressing well.
+585|302|12|CRH|21/11/2023 09:11|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+586|303|49|CRO
+587|303|2|CRH|21/08/2024 21:11|Discharge summary. Admitted for follow-up investigation. recovery progressing well.
+588|304||OBSERVATION|17.06.2025 20:51|Pain better controlled; mobilising with help.
+589|304|5|Obs medicale|17/06/2025 18:44|-
+578|297|5|CRH|20/03/2024 25:42|DISCHARGE SUMMARY. ADMITTED FOR FOLLOW-UP INVESTIGATION. CONDITION STABLE AT DISCHARGE.
+590|304|2|CRH|18/06/2025 00:11|Discharge summary. Admitted for syncope. Recovery progressing well.
+591|305|45|CRO|30/09/2024 16:07|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+592|305|11|OBSERVATION|12/09/2024 23:52|Family updated, questions answered.
+593|305|9|OBSERVATION|12/09/2024 21:14|Observations stable overnight. Continue current treatment.
+594|305|15| CRH |13/09/2024 16:07|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+595|306|14|Obs medicale|17/01/2024 10:08|Pain better controlled; mobilising with help.
+596|306|9|OBSERVATION|17/01/2024 14:19|Patient reviewed on the ward round. Plan unchanged.
+597|306|11|CRH|17/01/2024 15:46|Discharge summary. Admitted for confusion. Recovery progressing well.
+598|307|10|CRH|28/06/2024 07:12|Discharge summary. Admitted for confusion. Recovery progressing well.
+599|308|51|CRO|17/01/2025 21:50|Operative note. Coronarographie performed. Patient tolerated the procedure.
+600|308|23|Compte rendu de sortie|01-21-2025 16:12|Discharge summary. Admitted for planned surgery. recovery progressing well.
+601|309|11|OBSERVATION|07/08/2025 05:34|Patient reviewed on the ward round. Plan unchanged.
+602|309|24|CRH|11/08/2025 19:12|Discharge summary. Admitted for planned surgery. recovery progressing well.
+603|310|9|Obs medicale|28/05/2023 23:53|Family updated, questions answered.
+604|310|23|CRH|31/05/2023 23:27|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+605|311|20|OBSERVATION|21/08/2024 03:03|Pain better controlled; mobilising with help.
+606|311|2|CRH|24/08/2024 05:52|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.   
+607|312|7|CRH|2023-12-21 19:49:00|Discharge summary. Admitted for general weakness. Recovery progressing well.
+608|313|10|CRH|05/02/2024 21:49|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.   
+609|314|51|CRO|10/05/2022 12:30|Operative note. Coronarographie performed. Patient tolerated the procedure.
+610|314|21| OBSERVATION |10/05/2022 22h05|Patient reviewed on the ward round. Plan unchanged.
+611|314|17|CRH|14/05/2022 09:05|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+612|315|12|OBSERVATION|15/12/2023 07:25|Patient reviewed on the ward round. Plan unchanged.
+613|315|4|CRH|17/12/2023 06:22|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+614|316|4|OBSERVATION|23/08/2023 16:50|Pain better controlled; mobilising with help.
+615|316|24|CRH|23/08/2023 20h28|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+616|317|19|CRH|25/12/2023 09:56|Discharge summary. Admitted for fever. recovery progressing well.
+617|318|20|crh|13/04/2024 07:56|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+618|319|3|OBSERVATION|22/07/2023 16:29|Patient reviewed on the ward round. Plan unchanged.
+619|319|9|CRH|22/07/2023 17:09|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+620|320|5|CRH|19/12/2024 17:56|Discharge  summary. Admitted for confusion. Condition stable at discharge.
+621|321|4|OBSERVATION|16/03/2023 02:50|Patient reviewed on the ward round. Plan unchanged.
+622|321|20|OBSERVATION|15/03/2023 22:18|Family updated, questions answered.
+623|321|5|CRH|16/03/2023 03:06|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+624|322|22|OBSERVATION|09/11/2022 13:27|Pain better controlled; mobilising with help.
+625|322|7|CRH|10/11/2022 21:24|Discharge summary. Admitted for fall at home. Recovery progressing well.
+626|323|51|CRO|07/05/2023 08:06|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+618|319|3|OBSERVATION|22/07/2023 16:29|Patient reviewed on the ward round. Plan unchanged.
+627|323|21|OBSERVATION|08/05/2023 22:29|Pain better controlled; mobilising with help.
+628|323|8|OBSERVATION|07/05/2023 00:44|Observations stable overnight. Continue current treatment.
+629|323|12|CRH|09/05/2023 09:24|Discharge summary. Admitted for syncope. Condition stable at discharge.
+630|324|18|OBSERVATION|29/04/2022 10:00|Family updated, questions answered.
+631|324|15|CRH|02/05/2022 10:47|Discharge summary. Admitted for chest pain. Recovery progressing well.
+632|325|15|crh|03/08/2022 06:14|Discharge summary. Admitted for fever. Recovery progressing well.
+633|326|51|CRO|04/01/2023 03:01|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+634|326|21|CR SORTIE|12/01/2023 07:14|Discharge summary. Admitted for confusion. Recovery progressing well.
+635|327|8|OBSERVATION |23/08/2024 18:55|Pain better controlled; mobilising with help.
+636|327|1|Obs medicale|19/08/2024 18:10|Patient reviewed on the ward round. Plan unchanged.   
+637|327|10|  CRH|28/08/2024 17:29|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+638|328|22|OBSERVATION|02/07/2024 02:46|Pain better controlled; mobilising with help.
+639|328|13|CRH|02/07/2024 11:11|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+640|329|21|CRH|18/10/2024 07:11|Discharge summary. Admitted for fever. Condition stable at discharge.
+641|330|21|CRH|09/07/2025 04:11|Discharge summary. Admitted for syncope. Recovery progressing well.
+642|331|51|Compte rendu operatoire|30/10/2022 10:22|Operative note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+643|331|2|CRH|06/11/2022 02:27|  Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+644|332|1|CRH|16/06/2024 00:00|DISCHARGE SUMMARY. ADMITTED FOR GENERAL WEAKNESS. RECOVERY PROGRESSING WELL.
+645|333|24|OBSERVATION|05/10/2024 03:21|Observations stable overnight. Continue current treatment.
+646|333|16|CRH|05/10/2024 07:00|Discharge summary. Admitted for confusion. Recovery progressing well.   
+647|334|11|OBSERVATION|17/02/2023 07:11|Patient reviewed on the ward round. Plan unchanged.
+648|334|11|OBSERVATION|17/02/2023 12:40|Pain better controlled; mobilising with help.
+649|334|23|CRH|18/02/2023 17:46|Discharge summary. Admitted for general weakness. recovery progressing well.
+650|335|5|OBSERVATION|30/11/2023 05:20| Observations stable overnight. Continue current treatment. 
+651|335|16|CRH|03/12/2023 20:46|Discharge summary. Admitted for shortness of breath. Recovery progressing well.
+652|336|12|CRH|25/11/2022 20:35|Discharge summary. Admitted for abdominal pain. recovery progressing well.
+653|337|52|CRO|15/10/2024 17:44|Operative note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+654|337|5|CRH|28/10/2024 00:26|Discharge summary. Admitted for fever. Condition stable at discharge.
+655|338|46|CRO|02/04/2025 07:59|  Operative note. Appendicectomie performed. Patient tolerated the procedure.
+656|338|11|CRH|17/04/2025 19:26|Discharge summary. Admitted for general weakness. recovery progressing well.
+657|339|17|OBSERVATION|23/01/2023 04:47|Observations stable overnight. Continue current treatment.
+658|339|21|OBSERVATION|04/01/2023 22:35|Observations stable overnight. Continue current treatment.
+659|339|14|CRH|29/01/2023 12:35|Discharge summary. Admitted for cough and fever. RECOVERY progressing well.
+660|340|15|Compte rendu de sortie|07/11/2023 17:35|Discharge summary. Admitted for cough and fever. recovery progressing well.
+661|341|20|CRH|17/09/2022 11:53|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+650|335|5|OBSERVATION|30/11/2023 05:20| OBSERVATIONS STABLE OVERNIGHT. CONTINUE CURRENT TREATMENT. 
+662|342|2|OBSERVATION |29/01/2023 12:33|Family updated, questions answered.
+663|701|12|Compte rendu de sortie|29/01/2023 12:53|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+664|343|24|CRH|20/04/2023 14:53|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+665|344|13|OBSERVATION|30/01/2022 12:07|observations stable overnight. continue current treatment.
+666|344|3|OBSERVATION|02/02/2022 06:04|Observations stable overnight. Continue current treatment.
+667|344|7|crh|09/02/2022 05:30|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+668|345|1|OBSERVATION|09/04/2022 07:39|Pain better controlled; mobilising with help.
+669|345|17|CRH|09/04/2022 08:30|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+670|346|5|OBSERVATION|21/05/2022 07:56|Patient reviewed on the ward round. Plan unchanged.
+671|346|8|OBSERVATION|20/05/2022 17:28|Observations stable overnight. Continue current treatment.
+672|346|4|CRH|10/06/2022 16:30|Discharge summary. Admitted for general weakness. recovery progressing well.
+673|347|10|CRH|09/09/2022 11:30|Discharge summary. Admitted for confusion. Recovery progressing well.
+674|348|22|OBSERVATION|28/05/2023 05:29|Patient reviewed on the ward round. Plan unchanged.
+675|348|17|CRH|28/05/2023 06:12|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+676|349|23|OBSERVATION|29/02/2024 15:16|Pain better controlled; mobilising with help.
+677|349|10|OBSERVATION|06/03/2024 16:14|Patient reviewed on the ward round. Plan unchanged.
+678|349|8|CRH|08/03/2024 13:18|Discharge  summary. Admitted for fall at home. Condition stable at discharge.
+679|350|9|OBSERVATION |24/05/2022 02:35|Family updated, questions answered.
+680|350|17|OBSERVATION|24/05/2022 00:33|Family updated, questions answered.
+681|350|5|CRH|24/05/2022 05:16|Discharge summary. Admitted for cough and fever. RECOVERY progressing well.
+682|351|18|CRH|19/11/2022 04:16|Discharge summary. Admitted for syncope. Condition stable at discharge.
+683|352|14|OBSERVATION|22/01/2023 15:16|Pain better controlled; mobilising with help.
+684|352|4|CRH|15/01/2023 15:16|dISCHARGE SUMMARY. aDMITTED FOR COUGH AND FEVER. cONDITION STABLE AT DISCHARGE.
+685|353|12|OBSERVATION|28/08/2023 02:39|Pain better controlled; mobilising with help.
+686|353|21|CRH|31/08/2023 20:16| Discharge summary. Admitted for follow-up investigation. Recovery progressing well. 
+687|354|17|OBSERVATION|30/10/2023 17:35|Pain better controlled; mobilising with help.
+688|354|16|CRH|01/11/2023 17:16|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+689|355|10|OBSERVATION|06/11/2022 21:29|Patient reviewed on the ward round. Plan unchanged.
+690|355|6|CRH|11/11/2022 22:27|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+691|356|14|OBSERVATION|30/03/2022 13:38|Family updated, questions answered.
+692|356|13|OBSERVATION|30/03/2022 08:01|Observations stable overnight. Continue current treatment.
+693|356|2|CRH|01/04/2022 20:57|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+694|357|10|OBSERVATION|10/07/2022 02:57|Patient reviewed on the ward round. Plan unchanged.
+695|357|17|CRH|23/07/2022 04:57|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+696|358|5|OBSERVATION|21/11/2023 06:46|Pain better controlled; mobilising with help.
+697|358|5|OBSERVATION|22/11/2023 13:18|Observations stable overnight. Continue current treatment.
+698|358|15|CRH|22/11/2023 14:34|Discharge summary. Admitted for palpitations. recovery progressing well.
+699|359|13|OBSERVATION|08/04/2024 15:38|Patient reviewed on the ward round. Plan unchanged.
+700|359|22|CRH|10/04/2024 15:34|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+701|360|3|OBSERVATION|19/05/2024 16:49|  Patient reviewed on the ward round. Plan unchanged.
+702|360|7|OBSERVATION|19/05/2024 16:21|Patient reviewed on the ward round. Plan unchanged.
+703|360|9|CRH|19/05/2024 18:34|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+704|361|10|OBSERVATION|14/01/2025 19:10|Family updated, questions answered.
+705|361|13|Obs medicale|18/01/2025 16:00|Patient reviewed on the ward round. Plan unchanged.
+706|690|22|CR SORTIE|23/01/2025 16:34|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+707|362|5|OBSERVATION|2022-12-22T09:37|Observations stable overnight. Continue current treatment.
+708|362|19|CRH|22/12/2022 11:30|Discharge summary. Admitted for syncope. Condition stable at discharge.
+709|363|19|CRH|25/04/2022 00:12|Discharge summary. Admitted for follow-up investigation. Recovery progressing well.
+710|364|6|Compte rendu de sortie   |21/04/2022 06:27|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+711|365|11|CRH|08/07/2023 13:55|  Discharge summary. Admitted for fever. recovery progressing well.
+712|366|11|OBSERVATION|16/05/2024 04:27|Patient reviewed on the ward round. Plan unchanged.
+713|366|13|OBSERVATION|11/05/2024 03:11|Observations stable overnight. Continue current treatment.
+714|366|12|CRH|21/05/2024 06:32|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+715|367|10|CRH|24/07/2024 09:32|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+716|368|3|OBSERVATION|16/05/2022 10:51|Patient reviewed on the ward round. Plan unchanged.
+717|368|24|CRH|17/05/2022 09:26|Discharge summary. Admitted for follow-up investigation. recovery progressing well.
+709|363|19|CRH|25/04/2022 00:12|Discharge summary. Admitted for follow-up investigation. Recovery progressing well.
+718|369|2|OBSERVATION|26/08/2023 13:58|Family updated, questions answered.
+719|369|18|CRH|30/08/2023 06:35|Discharge summary. Admitted for general weakness. recovery progressing well.
+720|370|20|OBSERVATION|07/11/2023 02:14|Pain better controlled; mobilising with help.
+721|370|?|CRH|09/11/2023 15:35|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+722|371|16|OBSERVATION|15/11/2023 22:30|Observations stable overnight. Continue current treatment.
+723|371|3|OBSERVATION|11/11/2023 03:30|Pain better controlled; mobilising with help.
+724|371|14|CRH|23/11/2023 10:15|Discharge summary. Admitted for birth. Recovery progressing well.
+725|372|19|CRH|10/02/2024 09:15|Discharge summary. Admitted for palpitations. recovery progressing well.
+726|373|6|CRH|17/08/2024 13:15|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+727|374|12|CRH|01/12/2024 09:26|Discharge summary. Admitted for birth. RECOVERY progressing well.
+728|375|2|OBSERVATION|29/07/2024 18:26|Patient reviewed on the ward round. Plan unchanged.
+729|375|11|CRH|2024-07-31T16:54|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+730|376|5|OBSERVATION|20/08/2024 02:39|PAIN BETTER CONTROLLED; MOBILISING WITH HELP.
+731|376|2303|OBSERVATION|24/08/2024 21:42|Pain better controlled; mobilising with help.
+732|376|3|CRH|a preciser|Discharge summary. Admitted for syncope. recovery progressing well.
+733|2592|24|CRH|17/12/2022 20:40|Discharge summary. Admitted for syncope. Condition stable at discharge.
+734|378|8|CRH|15/09/2023 23:40|Discharge summary. Admitted for confusion. Recovery progressing well.
+734|378|8|CRH|15/09/2023 23:40|Discharge summary. Admitted for confusion. Recovery progressing well.
+735|379|46|CRO|02/09/2022 23:25|Operative  note. Osteosynthese col du femur performed. Patient tolerated the procedure.
+736|379|21|CRH|11/09/2022 12:07|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+737|380|22|OBSERVATION|29/05/2023 09:51|Family updated, questions answered.
+738|380|7|CRH|30/05/2023 13:05|Discharge summary. Admitted for confusion. Patient died during the stay.
+739|381|3|OBSERVATION|12/02/2024 00:37|Family updated, questions answered.
+740|381|1|CRH|23/02/2024 09:18|Discharge summary. Admitted for fever. Condition stable at discharge.
+741|382|19|OBSERVATION|14/05/2023 12:40| Pain better controlled; mobilising with help. 
+742|382|5|CRH|14/05/2023 12:56|discharge summary. admitted for chest pain. patient died during the stay.
+743|383|23|OBSERVATION|22/04/2023 16:54|Observations stable overnight. Continue current treatment.
+744|383|6|CRH|25/04/2023 09:56|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+745|384|15|CRH|31/08/2022 11:39|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+746|385|16|OBSERVATION|30/06/2024 19:24|Pain better controlled; mobilising with help.
+747|385|19|CRH|06/07/2024 07:55|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+748|386|13|CRH|10/11/2022 16:09|Discharge summary. Admitted for general weakness. Recovery progressing well.
+749|387|45|CRO|07/06/2023 19:56|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+750|387|22|CRH|16/06/2023 15:19|Discharge summary. Admitted for fever. Recovery progressing well.
+751|388|49|CRO|03/12/2023 20:33|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+752|388|18|Obs medicale|05/12/2023 03:04|Observations stable overnight. Continue current treatment.
+753|388|20|CRH|07/12/2023 04:19|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+754|389|4|OBSERVATION|27/04/2022 22:07|Family updated, questions answered.
+755|389|15|OBSERVATION|27/04/2022 22:57|Pain better controlled; mobilising with help.
+756|389|13|CRH|27/04/2022 23:04|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+757|390|10|OBSERVATION|05/01/2025 09:02|Patient reviewed on the ward round. Plan unchanged.
+758|390|20|CRH|10/01/2025 13:57|Discharge summary. Admitted for syncope. Recovery progressing well.
+755|389|15|observation|27/04/2022 22:57|Pain better controlled; mobilising with help.
+759|391|1| OBSERVATION |31/01/2024 23:16|Patient reviewed on the ward round. Plan unchanged.
+760|391|1|OBSERVATION|29/01/2024 23h39|Patient  reviewed on the ward round. Plan unchanged.
+761|391|5|crh|01/02/2024 18:17|Discharge summary. Admitted for fall at home. recovery progressing well.
+762|392|2|OBSERVATION|03/12/2023 22:01|Pain better controlled; mobilising with help.
+763|392|21|CRH|10/12/2023 23:23|discharge summary. admitted for follow-up investigation. condition stable at discharge.
+764|393|5|CRH|10/02/2022 14:18|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+765|394|21|CRH|10/10/2024 13:58|Discharge summary. Admitted for syncope. Condition stable at discharge.
+766|395|49|CRO|20/02/2023 15:51|Operative note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+767|395|11|CRH|27/02/2023 02:48|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+768|396|6|CRH|02/10/2022 20:53|Discharge summary. Admitted for fall at home. Recovery progressing well.
+769|397|24|OBSERVATION|24/09/2023 14:05|Pain better controlled; mobilising with help.
+770|397|15|CRH|26/09/2023 20:05|Discharge summary. Admitted for follow-up investigation. Recovery progressing well.
+771|398|6|CRH|19/11/2024 14:29|Discharge summary. Admitted for fever. Condition stable at discharge.
+772|399|12|OBSERVATION|21/03/2023 10:50|Observations stable overnight. Continue current treatment.
+773|399|7|CRH|31/03/2023 01:18|Discharge summary. Admitted for birth. Condition stable at discharge.   
+774|400|20|CRH|13/12/2023 03:18|Discharge summary. Admitted for confusion. recovery progressing well.
+775|401|52|Compte rendu operatoire|26/02/2023 16:44|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+776|401|15|CRH|32/03/2023 08:27|Discharge summary. Admitted for fever. Condition stable at discharge.
+777|402|18|-|28/06/2023 13:36|Family updated, questions answered.
+778|402|12|OBSERVATION|30/06/2023 03:28|Patient reviewed on the ward round. Plan unchanged.
+779|402|8|CRH|05/07/2023 11:27|Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+780|403|24|  CRH|21/07/2023 05:36|Discharge summary. Admitted for syncope. Condition stable at discharge.
+781|404|5|OBSERVATION|24/07/2023 16:06|Pain better controlled; mobilising with help.
+782|404|13|OBSERVATION|25/07/2023 01:31|Family updated, questions answered.
+783|404|12|CRH|04/08/2023 10:48|Discharge summary. Admitted for planned surgery. recovery progressing well.
+784|405|2|CRH|24/10/2024 15:46|Discharge summary. Admitted for birth. Recovery progressing well.
+785|406|17|OBSERVATION|11/07/2025 19:26|Patient reviewed on the ward round. Plan unchanged.
+786|406|4|CRH|11/07/2025 21:46|Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+787|407|6|CRH|05/03/2024 21:56|Discharge summary. Admitted for general weakness. recovery progressing well.
+788|408|3|OBSERVATION|04/04/2022 09:26|Patient reviewed on the ward round. Plan unchanged.
+789|408|24|CRH|10/04/2022 21:25|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+790|409|18|OBSERVATION|09/12/2022 22:09|Patient reviewed on the ward round. Plan unchanged.
+791|409|17|Compte rendu de sortie|09/12/2022 22:25|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+792|410|2|OBSERVATION|31/01/2024 03:42|Patient reviewed on the ward round. Plan unchanged.
+793|410|3|CRH|01/02/2024 07:33|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+794|411|7|OBSERVATION|03/08/2022 17:59|Observations stable overnight. Continue current treatment.
+795|411|6|OBSERVATION|03/08/2022 08:59|Pain better controlled; mobilising with help.
+796|411|6|CRH|04/08/2022 15:47|Discharge summary. Admitted for cough and fever. RECOVERY progressing well.
+797|412|19|OBSERVATION|18/02/2023 17:17|Pain better controlled; mobilising with help.
+798|412|1|CRH|30/01/2023 17:17|Discharge summary. Admitted for fever. RECOVERY progressing well.
+799|413|2|OBSERVATION|07/07/2023 05:33|Patient reviewed on the ward round. Plan unchanged.
+800|413|2008|crh|07/07/2023 11:21|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+801|414|49|CRO|11/01/2022 11:29|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+802|414|6|OBSERVATION|17/01/2022 15:54|Observations stable overnight. Continue current treatment.
+803|414|10|OBSERVATION|16/01/2022 03:30|Family updated, questions answered.
+804|414|17|CRH|24/01/2022 01:22|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+805|415|17|OBSERVATION|27/10/2022 04:27|Pain better controlled; mobilising with help.
+806|415|20|CRH|29/10/2022 11:22|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+807|416|23|CRH|09/08/2022 08:03|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+808|417|14|CRH|22/04/2023 11:58|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+809|418|15|CRH|29/12/2024 19:27|Discharge summary. Admitted for palpitations. recovery progressing well.
+810|419|20|OBSERVATION|12/04/2022 06:32|Observations stable overnight. Continue current treatment.
+811|419|22|CRH|12/04/2022 06:39|Discharge summary. Admitted for fever. Condition stable at discharge.
+812|420|9|OBSERVATION|30/12/2024 00:45|Patient reviewed on the ward round. Plan unchanged.
+813|420|22|CRH|31/12/2024 23:59|dISCHARGE SUMMARY. aDMITTED FOR CHEST PAIN. RECOVERY PROGRESSING WELL.
+814|421|18|CRH|10/08/2022 13:33|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+815|422|5|OBSERVATION|25/07/2022 18:20|Patient reviewed on the ward round. Plan unchanged.
+816|422|18|CRH|03/08/2022 08:38|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+817|423|22|OBSERVATION|14/12/2022 13:54|Observations stable overnight. Continue current treatment.
+818|423|15|OBSERVATION|14/12/2022 15:03|Family updated, questions answered.
+819|423|12|CRH|14/12/2022 18:53|Discharge  summary. Admitted for fall at home. Recovery progressing well.
+820|424|10|OBSERVATION|21.01.2023 22:17|Patient reviewed on the ward round. Plan unchanged.
+821|424|21|CRH|03/02/2023 02:53|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+822|425|12|OBSERVATION|05/02/2023 18:00|Patient reviewed on the ward round. Plan unchanged.
+823|425|11|CRH|05/02/2023 18:54|DISCHARGE SUMMARY. ADMITTED FOR PALPITATIONS. RECOVERY PROGRESSING WELL.
+824|426|19|OBSERVATION|08/11/2023 04:13|Family updated, questions answered.
+825|426|8|OBSERVATION|05/11/2023 15:29|Observations stable overnight. Continue current treatment.
+826|426|11|CR SORTIE|12/11/2023 17:13|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+827|427|6|CRH|04/05/2024 18:13|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+828|428|5|OBSERVATION|20/01/2023 19:17|Family updated, questions answered.
+829|428|7|OBSERVATION|18/01/2023 12:24|Patient reviewed on the ward round. Plan unchanged.
+830|428|20|CR SORTIE|25/01/2023 03:03|Discharge summary. Admitted for abdominal pain. Patient died during the stay.
+831|429|8|Obs medicale|16/08/2023 03:05|Observations stable overnight. Continue current treatment.
+832|429|13|CRH|16/08/2023 22:59|Discharge summary. Admitted for confusion. Condition stable at discharge.
+833|430|52|CRO|16/11/2022 22:07|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+834|430|16|OBSERVATION|23/11/2022 23:25|Patient reviewed on the ward round. Plan unchanged.
+835|430|20|CRH|27/11/2022 04:10|Discharge summary. Admitted for syncope. Condition stable at discharge.
+836|686|2|OBSERVATION|12/01/2023 14:07|Family updated, questions answered.
+837|431|24|OBSERVATION|07/01/2023 02:04|Family updated, questions answered.
+838|431|22|CRH|16/01/2023 00:10|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+839|432|47|CRO|18/06/2023 19:11|Operative note. Coronarographie performed. Patient tolerated the procedure.
+840|432|3|OBSERVATION|19/06/2023 08:59|Observations stable overnight. Continue current treatment.
+841|432|19|OBSERVATION|20/06/2023 08:12|Pain better controlled; mobilising with help.
+842|432|17|CR SORTIE|26/06/2023 07:10|Discharge summary. Admitted for confusion. Condition stable at discharge.
+843|433|12|OBSERVATION|10/06/2023 15:57|Family updated, questions answered.
+844|433|19|CRH|12/06/2023 00:52|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+845|434|13|CRH|09/05/2024 02:56|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+846|435|22|CRH|18/05/2022 04h51|discharge summary. admitted for general weakness. condition stable at discharge.
+847|436|23|OBSERVATION|08/01/2023 13:54|Observations stable overnight. Continue current treatment.
+848|436|20|CRH|13/01/2023 23:51|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+849|437|12|OBSERVATION|05/07/2023 00:54|Pain better controlled; mobilising with help.
+850|437|3|CRH|05/07/2023 04:49|Discharge summary. Admitted for syncope. Condition stable at discharge.
+851|438|2|CRH|12/04/2024 07:49|Discharge summary. Admitted for confusion. Condition stable at discharge.
+852|439|3|OBSERVATION|14/02/2023 08:12|Family updated, questions answered.
+853|439|7|CRH|01/03/2023 23:34|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+854|440|13|OBSERVATION|29/01/2024 04:35|Family updated, questions answered.
+855|440|3|CRH|08/02/2024 01:56|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+856|441|20|OBSERVATION|09/09/2022 16:48|Patient reviewed on the ward round. Plan unchanged.
+857|441|7|OBSERVATION|09/09/2022 16:39|Observations stable overnight. Continue current treatment.
+858|441|4|CRH|09/09/2022 21:19|Discharge summary. Admitted for general weakness. RECOVERY progressing well.
+859|442|21|OBSERVATION|18/06/2023 22:04|Pain better controlled; mobilising with help.
+860|442|16|CRH|18/06/2023 22:19|discharge summary. admitted for general weakness. condition stable at discharge.
+861|443|16|OBSERVATION|08/04/2024 09:59|Observations stable overnight. Continue current treatment.
+862|443|8|OBSERVATION|01/04/2024 03:41|Patient reviewed on the ward round. Plan unchanged.
+863|443|6|CRH|12/04/2024 11:19|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+864|444|48|CRO|06/11/2024 03:10|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+865|444|2|CRH|08/11/2024 13:17|Discharge summary. Admitted for syncope. Condition stable at discharge.
+866|445|22|OBSERVATION|01/11/2024 06:14|Observations stable overnight. Continue current treatment.
+867|445|14|CRH|06/11/2024 04:05|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+868|446|14|OBSERVATION|17/12/2024 19:08|PATIENT REVIEWED ON THE WARD ROUND. PLAN UNCHANGED.
+869|446|14|OBSERVATION|21/12/2024 16:05|Family updated, questions answered.
+870|446|8|CRH|25/12/2024 15:05|Discharge summary. Admitted for planned surgery. recovery progressing well.
+871|447|775|CRO|20/06/2022 18:40|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+872|447|13|OBSERVATION|19/06/2022 09:41|Observations stable overnight. Continue current treatment.
+873|447|10|CRH|27/06/2022 13:45|Discharge summary. Admitted for confusion. Condition stable at discharge.
+874|448|10|CRH|14/04/2023 18:45|Discharge  summary. Admitted for planned surgery. Recovery progressing well.
+875|449|49|CRO|01/11/2023 02:44|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+876|449|10|OBSERVATION|01/11/2023 17:26|FAMILY UPDATED, QUESTIONS ANSWERED.
+877|698|1|CRH|02-11-2023 05:45|Discharge summary. Admitted for planned surgery. Patient died during the stay.
+878|450|11|CRH|01/09/2024 18:52|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+879|451|10|OBSERVATION   |08/01/2025 17:32|Family updated, questions answered.
+880|451|4|CRH|10/01/2025 14:52|Discharge summary. Admitted for fever. recovery progressing well.
+881|452|11|OBSERVATION|07/04/2025 20:34|Pain better controlled; mobilising with help.
+882|452|7|CRH|08/04/2025 11:52|Discharge summary. Admitted for general weakness. Recovery progressing well.
+883|453|1|OBSERVATION|17/05/2022 14:47|Patient reviewed on the ward round. Plan unchanged.
+884|453|1|CRH|27/05/2022 01:27|Discharge summary. Admitted for shortness of breath. Patient died during the stay.
+885|454|11|crh|18/10/2022 21:07|
+886|455|8|OBSERVATION|23/07/2023 03:03|Patient reviewed on the ward round. Plan unchanged.
+887|455|23|CRH|26.07.2023 20:07|Discharge summary. Admitted for fever. Recovery progressing well.
+888|456|3|Obs medicale|28/06/2023 07:33|Pain better controlled; mobilising with help.
+889|456|4|  CRH|03/07/2023 01:30|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+890|457|17|CRH|14/03/2024 02:30|Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+891|458|20|CRH|29/09/2024 18:51|Discharge summary. Admitted for fall at home. recovery progressing well.
+892|459|14|OBSERVATION|17.06.2022 10:13|Pain better controlled; mobilising with help.
+893|459|18|CRH   |17/06/2022 10:30|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+894|460|8|OBSERVATION|17/02/2023 10:41|Family updated, questions answered.
+895|460|5|crh|inconnue|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+896|461|15|OBSERVATION |09/05/2023 09:02|Patient reviewed on the ward round. Plan unchanged.
+897|461|24|Obs medicale|09/04/2023 03:17|Pain better controlled; mobilising with help.
+898|461|5|CRH|11/05/2023 21:17|Discharge summary. Admitted for general weakness. Recovery progressing well.
+899|462|18|CRH|11/03/2022 02:43|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+900|463|45|CRO|06/07/2022 01:47|Operative note. Coronarographie performed. Patient tolerated the procedure.
+901|463|14|CR SORTIE|07/07/2022 18:49|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+902|464|21|OBSERVATION|10/03/2023 01:28|Patient reviewed on the ward round. Plan unchanged.
+903|464|2|crh|2023-03-13T16:49|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+904|465|14|OBSERVATION|29/09/2023 23:25|Family updated, questions answered.
+905|465|9|CRH|30/09/2023 23:49|  Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+906|466|12|OBSERVATION |01/08/2022 16:55|Pain better controlled; mobilising with help.
+907|466|11|CR SORTIE|01/08/2022 18:42|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+908|467|9|OBSERVATION|02/09/2023 07:34|Pain better controlled; mobilising with help.
+909|467|10|OBSERVATION|31/08/2023 12:05|Patient reviewed on the ward round. Plan unchanged.
+910|467|20|CRH|02/09/2023 11:38|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+911|468|1|CRH|19.04.2024 14:38|dISCHARGE SUMMARY. aDMITTED FOR PALPITATIONS. rECOVERY PROGRESSING WELL.
+912|469|4|CRH|16/10/2024 06:38|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+913|470|17|OBSERVATION|14/03/2025 06:07|Pain better controlled; mobilising with help.
+914|470|22|OBSERVATION|07/03/2025 06:25|Observations stable overnight. Continue current treatment.
+915|470|12|CRH|19/03/2025 15:38|Discharge summary. Admitted for cough and fever. recovery progressing well.
+916|471|22|OBSERVATION|22/09/2023 19:51|Family updated, questions answered.
+917|471|4|CRH|01/10/2023 10:25|Discharge summary. Admitted for follow-up investigation. Recovery progressing well.
+918|472|23|OBSERVATION|04/12/2023 04:25|Family updated, questions answered.
+919|472|2|OBSERVATION|a preciser|Family updated, questions answered.
+920|1823|14|CRH|01/12/2023 04:25|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+921|473|48|CRO|29/08/2024 01:37|Operative note. Coronarographie performed. Patient tolerated the procedure.
+922|473|1|OBSERVATION|27/08/2024 14:36|Pain better controlled; mobilising with help.
+923|473|1|CRH|02/09/2024 17:25|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+924|474|11|CRH|30/08/2023 15:08|Discharge summary. Admitted for confusion. RECOVERY progressing well.
+925|475|6|observation|19/11/2023 10:00|Observations stable overnight. Continue current treatment.
+926|475|20|CRH|21/11/2023 10:08|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+927|476|14|  OBSERVATION|24/04/2024 10:28|Family updated, questions answered.
+928|476|9|OBSERVATION|24/04/2024 10:56|Pain better controlled; mobilising with help.
+929|476|12|CRH|24/04/2024 11:08|Discharge summary. Admitted for general weakness. recovery progressing well.
+915|470|12|CRH|19/03/2025 15:38|Discharge summary. Admitted for cough and fever. recovery progressing well.
+930|477|12|CRH|04/12/2024 21h08|Discharge summary. Admitted for general weakness. RECOVERY progressing well.
+931|478|47|CRO|07/04/2024 07:53|Operative note. Coronarographie performed. Patient tolerated the procedure.
+932|478|20|OBSERVATION|12/04/2024 18:44|Observations stable overnight. Continue current treatment.
+933|478|24|CRH|14/04/2024 05:19|Discharge summary. Admitted for chest pain. Recovery progressing well.
+934|479|22|CRH|03/07/2022 14:34|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+935|480|7|CRH|12/04/2023 19:34|Discharge summary. Admitted for confusion. Condition stable at discharge.
+934|479|22|crh|03/07/2022 14:34|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+936|481|47|CRO|27/06/2023 12:49|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+937|481|6|OBSERVATION|28/06/2023 14:01|Family updated, questions answered.
+938|481|9|OBSERVATION|27/06/2023 18:16|Patient reviewed on the ward round. Plan unchanged.
+939|481|18|CRH|30/06/2023 15:34|Discharge summary. Admitted for confusion. Recovery progressing well.
+940|482|18|OBSERVATION|04/04/2024 16:57|Observations stable overnight. Continue current treatment.
+941|482|22|CRH|04/04/2024 18:34|Discharge summary. Admitted for confusion. Condition stable at discharge.
+942|483|6|OBSERVATION|01/09/2024 03:15|Observations stable overnight. Continue current treatment.
+943|483|2|Compte rendu de sortie|01/09/2024 22:39|Discharge summary. Admitted for fever. RECOVERY progressing well.
+944|484|20|CRH|25/01/2022 08:42|Discharge summary. Admitted for fever. Condition stable at discharge.
+945|485|3|OBSERVATION|16/03/2022 01:20|Observations stable overnight. Continue current treatment.
+946|485|16|OBSERVATION|11/03/2022 01:48|Observations stable overnight. Continue current treatment.
+947|485|1|CRH|17/03/2022 17:42|Discharge summary. Admitted for abdominal pain. recovery progressing well.
+948|486|1|OBSERVATION|22/06/2022 19:01|Observations stable overnight. Continue current treatment.
+949|486|23|CRH|22/06/2022 19:42|Discharge summary. Admitted for follow-up investigation. Recovery progressing well.
+950|487|52|CRO|05/08/2022 12:04|Operative note. Coronarographie performed. Patient tolerated the procedure.
+951|487|10|OBSERVATION|10/08/2022 07:20|oBSERVATIONS STABLE OVERNIGHT. cONTINUE CURRENT TREATMENT.
+952|487|8|Compte rendu de sortie|14/08/2022 11:42|Discharge summary. Admitted for confusion. Condition stable at discharge.
+953|488|8|OBSERVATION|02/02/2023 02:48|Pain better controlled; mobilising with help.
+954|488|21|CRH|14/02/2023 10:42|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+955|489|2|OBSERVATION|18/07/2024 23:39|Pain better controlled; mobilising with help.
+956|489|5|CRH|23/07/2024 13:24|Discharge summary. Admitted for follow-up investigation. RECOVERY progressing well.
+957|490|11|CRH|23/02/2022 15h00|Discharge summary. Admitted for syncope. recovery progressing well.
+958|491|11|OBSERVATION|15.08.2022 17:01|Pain better controlled; mobilising with help.
+959|491|12|OBSERVATION|15/08/2022 16:35|oBSERVATIONS STABLE OVERNIGHT. cONTINUE CURRENT TREATMENT.
+960|491|15|CRH|18/08/2022 22:49|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+961|492|18|OBSERVATION|01/03/2024 19:55|Family updated, questions answered.
+962|492|19|OBSERVATION|01/03/2024 22:40|Patient reviewed on the ward round. Plan unchanged.
+963|492|14| CRH |02/03/2024 07:36|-
+964|493|8|OBSERVATION|31/02/2023 14:54|Observations stable overnight. Continue current treatment.
+965|493|17|observation|08/02/2023 13:39|Pain better controlled; mobilising with help.
+966|493|16|CRH|14/02/2023 08:24|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+967|494|13|OBSERVATION|11/11/2023 14:13|Observations stable overnight. Continue current treatment.
+968|494|4009|CRH|14/11/2023 19:44|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+969|495|7|CRH|24/06/2024 04:44|?
+970|496|8|OBSERVATION|29/12/2023 17:05|Patient reviewed on the ward round. Plan unchanged.
+971|496|22|CRH|02/01/2024 09:27|Discharge summary. Admitted for birth. recovery progressing well.
+972|497|51|CRO|19/09/2023 08:47|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+973|497|4|CRH|01/10/2023 02:49|Discharge summary. Admitted for abdominal pain. recovery progressing well.
+974|498|14|OBSERVATION|30/12/2023 22:39|Pain better controlled; mobilising with help.
+975|498|9|CRH|06/01/2024 02h49|Discharge summary. Admitted for planned surgery. recovery progressing well.
+976|499|10|CRH|27/08/2024 21:04|Discharge summary. Admitted for fever. Condition stable at discharge.
+977|500|3|CRH|09/04/2024 18:39|Discharge summary. Admitted for general weakness. Recovery progressing well.
+966|493|16|CRH|14/02/2023 08:24|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+978|501|9|OBSERVATION|17/12/2023 23:25|Family updated, questions answered.
+979|501|10|CRH|22/12/2023 14:53|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+980|502|9|OBSERVATION|22/05/2024 14:58|Pain better controlled; mobilising with help.
+981|502|6|CRH |22/05/2024 17:53|Discharge summary. Admitted for syncope. Recovery progressing well.
+982|503|22|OBSERVATION|09/03/2024 08:29|Observations stable overnight. Continue current treatment.
+983|503|1|OBSERVATION|12/03/2024 18:24|Pain better controlled; mobilising with help.
+984|503|19|CRH|13/03/2024 04:30|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+985|504|50|CRO|01/06/2022 20:28|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+986|504|24|OBSERVATION|30/05/2022 22:36|Observations stable overnight. Continue current treatment.
+987|504|1326|CR SORTIE|15/06/2022 07:06|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+988|505|21|OBSERVATION|12/12/2022 03:35|Pain better controlled; mobilising with help.
+989|505|9|OBSERVATION|16/12/2022 06:35|Patient reviewed on the ward round. Plan unchanged.
+990|505|22|CRH|24/12/2022 10:06|discharge summary. admitted for general weakness. recovery progressing well.
+991|506|11|OBSERVATION|31/08/2022 01:03|Observations stable overnight. Continue current treatment.
+992|506|22|OBSERVATION|24/08/2022 23:39|Pain better controlled; mobilising with help.
+993|506|15|crh|31/08/2022 03:23|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+994|507|19|CRH|13/10/2024 12:58|Discharge summary. Admitted for chest pain. Recovery progressing well.
+995|508|2|OBSERVATION|21/03/2025 13:34|Family updated, questions answered.
+996|508|24|CRH|21/03/2025 15:58|Discharge summary. Admitted for follow-up investigation. Recovery progressing well.
+997|509|1|OBSERVATION|24/11/2024 02:40|Observations stable overnight. Continue current treatment.
+998|509|23|CRH|29/11/2024 07:25|Discharge summary. Admitted for syncope. Condition stable at discharge.
+999|510|12|CRH|23.07.2025 07:25|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1000|511|21|CRH|26/11/2024 05:12|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1001|512|3|OBSERVATION|inconnue|Family updated, questions answered.
+1002|512|21|OBSERVATION|09/03/2025 18:39|Patient reviewed on the ward round. Plan unchanged.
+1003|512|15|CR SORTIE|17/03/2025 07:12|Discharge summary. Admitted for syncope. recovery progressing well.
+1004|513|9|Compte rendu de sortie|28/13/2024 08:50|Discharge summary. Admitted for syncope. Condition stable at discharge.
+1005|514|8|CRH|10/02/2025 23:50|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1006|515|13|Obs medicale|05/10/2025 14:07|Observations stable overnight. Continue current treatment.
+1007|515|21|CRH|06/10/2025 23:50|Discharge summary. Admitted for fever. Condition stable at discharge.
+1008|516|2|OBSERVATION|27/02/2024 14:29|Observations stable overnight. Continue current treatment.
+1009|516|2091|OBSERVATION|27/02/2024 03:01|Pain better controlled; mobilising with help.
+1010|516|20|CRH|28/02/2024 08:21|Discharge summary. Admitted for confusion. Condition stable at discharge.
+1011|517|16|OBSERVATION|25/12/2024 11:19|PAIN BETTER CONTROLLED; MOBILISING WITH HELP.
+1012|517|22|CRH|25/12/2024 14:13|Discharge summary. Admitted for fever. Condition stable at discharge.
+1013|518|9| OBSERVATION |02/06/2025 16:31|Pain better controlled; mobilising with help.
+1014|518|10|CRH|02/06/2025 20:13|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1015|519|17|CRH|26/01/2024 22:02|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1016|520|51|CRO|14/02/2023 06:21|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+1017|520|13|CRH|25/02/2023 04:18|Discharge summary. Admitted for confusion. Condition stable at discharge.
+1018|521|22|OBSERVATION |15/05/2023 18:16|Family updated, questions answered.
+1019|521|17|CRH|18/05/2023 04:18|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+1020|522|24|CRH|18/07/2022 22:22|Discharge summary. Admitted for follow-up investigation. recovery progressing well.
+1021|523|2|OBSERVATION|25/10/2024 16:11|Family updated, questions answered.
+1022|523|20|CRH|03/11/2024 03:54|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+1023|524|19|OBSERVATION|09/08/2023 20:15|Patient reviewed on the ward round. Plan unchanged.
+1024|524|3|CRH|09/08/2023 21:01|Discharge summary. Admitted for confusion. Condition stable at discharge.
+1025|525|21|CRH|13/11/2023 06:01|Discharge summary. Admitted for fever. Condition stable at discharge.
+1026|526|11|CRH|12/01/2024 22:01|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+1027|527|14|CRH|25/06/2024 18:01| Discharge summary. Admitted for chest pain. Condition stable at discharge. 
+1028|528|16|OBSERVATION|27/02/2023 10:57|Patient reviewed on the ward round. Plan unchanged.
+1029|528|5|CRH|null|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1030|529|4|CRH|28/12/2023 08:20|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+1031|530|51|Compte rendu operatoire|09-06-2024 16:08|Operative note. Osteosynthese col du femur performed. Patient tolerated the procedure.
+1032|530|10|OBSERVATION|08/06/2024 13:15|Observations stable overnight. Continue current treatment.
+1033|530|3|CRH |19/06/2024 15:20|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+1034|531|18|CRH|07/10/2024 21:20|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1035|532|11|OBSERVATION|03/02/2022 20:37|Pain better controlled; mobilising with help.
+1036|532|24|OBSERVATION|30/01/2022 20:17|Pain better controlled; mobilising with help.
+1037|532|18|CRH|06/02/2022 01:01|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1038|533|3|  Compte rendu de sortie|29/04/2023 11:36|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1039|534|16|CRH|19/10/2023 23:36|discharge summary. admitted for cough and fever. recovery progressing well.
+1040|535|22|OBSERVATION|08/06/2024 10:33|Family updated, questions answered.
+1041|535|12|CRH|11/06/2024 03:54|Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+1029|528|5|CRH|null|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1042|536|9|OBSERVATION|18/02/2025 06:13|Family updated, questions answered.
+1043|536|18|CRH|28/02/2025 06:54|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+1044|537|4|OBSERVATION|21/12/2023 19:32|Observations stable overnight. Continue current treatment.
+1045|537|10|CRH|25/12/2023 13:56|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+1046|538|16|OBSERVATION|08/08/2022 02:15|Pain better controlled; mobilising with help.
+1047|538|14|CRH|09/08/2022 00:50|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+1048|539|6|OBSERVATION|03/03/2023 23:02|Patient reviewed on the ward round. Plan unchanged.
+1049|539|10|OBSERVATION|28/02/2023 12:55|Pain better controlled; mobilising with help.
+1050|539|11|  CRH|2023-03-09 15:50:00|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+1051|540|8|OBSERVATION|18/06/2022 02:04|Pain better controlled; mobilising with help.
+1052|540|8|CRH|18/06/2022 12:52|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+1053|541|13|Compte rendu de sortie|19/08/2022 21h52|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1054|542|11|CRH|23/05/2022 16:45|Discharge summary. Admitted for cough and fever. RECOVERY progressing well.
+1055|543|15|OBSERVATION|21/08/2023 04:18|Family updated, questions answered.
+1056|543|18|CRH|05/09/2023 17:50|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+1057|544|12|OBSERVATION|24/12/2023 19:30|Family updated, questions answered.
+1058|544|2|CRH|25/12/2023 18:50|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1059|545|8|CR SORTIE|23/02/2023 02:28|Discharge summary. Admitted for syncope. Condition stable at discharge.
+1060|546|7|OBSERVATION|21/03/2023 13:37|Patient reviewed on the ward round. Plan unchanged.
+1061|546|14|Compte rendu de sortie|25/03/2023 20h56|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+1062|547|3|OBSERVATION|09/09/2023 11:42|Pain better controlled; mobilising with help.
+1063|547|13|CRH|12/09/2023 00:56|Discharge summary. Admitted for fall at home. Recovery progressing well.
+1064|548|20|CRH|27/07/2022 00:10|Discharge summary. Admitted for shortness of breath. recovery progressing well.
+1065|549|3|OBSERVATION|19/12/2022 07:31|Family updated, questions answered.
+1066|549|12|CRH|30/12/2022 00:10|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+1067|550|13|CRH|10/09/2023 15:10|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1068|551|21|OBSERVATION|05/02/2022 20:43|Patient reviewed on the ward round. Plan unchanged.
+1069|551|22|OBSERVATION|06/02/2022 21:04| Pain better controlled; mobilising with help. 
+1070|551|1141|CRH|07/02/2022 06:24|Discharge summary. Admitted for syncope. Condition stable at discharge.
+1071|552|6|CRH|18/05/2022 20:46| Discharge summary. Admitted for syncope. Condition stable at discharge. 
+1072|553|8|CRH|13/01/2024 05:03|Discharge summary. Admitted for cough and fever. Patient died during the stay.
+1073|554|18|OBSERVATION|04/04/2023 11h57|Observations stable overnight. Continue current treatment.
+1074|554|10|CRH|09/04/2023 01:03|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+1075|555|4|OBSERVATION|14/08/2023 22:25|Patient reviewed on the ward round. Plan unchanged.
+1076|555|1|CRH|16/08/2023 11:03|Discharge summary. Admitted for chest pain. recovery progressing well.
+1077|556|12|OBSERVATION|10/02/2024 08:49|Family updated, questions answered.
+1078|556|22|CRH|12/02/2024 08:03|Discharge summary. Admitted for confusion. Recovery progressing well.
+1079|557|15|OBSERVATION|19/04/2024 00:06|Family updated, questions answered.
+1080|557|19|CRH|28/04/2024 01:19|DISCHARGE SUMMARY. ADMITTED FOR SHORTNESS OF BREATH. CONDITION STABLE AT DISCHARGE.
+1081|558|51|CRO|08/11/2022 05:13|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+1082|558|4|CRH|21/11/2022 20:31|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+1083|559|4|OBSERVATION|14/06/2023 00:21|Family updated, questions answered.
+1084|559|14|CRH|14/06/2023 06:31|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1083|559|4| OBSERVATION |14/06/2023 00:21|Family updated, questions answered.
+1085|560|12|OBSERVATION|09/02/2024 11:13|Pain better controlled; mobilising with help.
+1086|560|12|CRH|10/02/2024 01:14|Discharge summary. Admitted for syncope. Recovery progressing well.
+1087|561|4|CRH|21/06/2024 04:14|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1088|562|24|OBSERVATION|15/01/2025 04:47|Family updated, questions answered.
+1089|562|17|CRH|15/01/2025 05:14|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+1090|563|52|CRO|26/08/2024 23:36|N/A
+1091|563|20|CRH|06.09.2024 07:17|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1092|564|16|OBSERVATION|04/04/2025 09:57|Observations stable overnight. Continue current treatment.
+1093|564|17|OBSERVATION|04/04/2025 09:50|  Patient reviewed on the ward round. Plan unchanged.
+1094|564|20|CRH|04/04/2025 10:17|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+1095|565|18|OBSERVATION|29/09/2023 21:06|Observations stable overnight. Continue current treatment.
+1096|565|1|CRH|10/10/2023 22:10|Discharge summary. Admitted for cough and fever. RECOVERY progressing well.
+1097|566|18|OBSERVATION|09/01/2024 22:42|Pain better controlled; mobilising with help.
+1098|566|15|OBSERVATION|09/01/2024 23:02|Observations stable overnight. Continue current treatment.
+1099|566|18|CRH|09/01/2024 23:10|Discharge summary. Admitted for abdominal pain. RECOVERY progressing well.
+1100|567|18|OBSERVATION|29/04/2024 08:46|Observations stable overnight. Continue current treatment.
+1101|567|23|CRH|29/04/2024 09:10|Discharge summary. Admitted for fever. Condition stable at discharge.
+1102|568|4|OBSERVATION|02/08/2022 07:27|Family updated, questions answered.
+1103|568|24|CRH|2022-08-10 12:34:00|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+1104|569|15|CRH|22/06/2023 06:05|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1105|570|21|  CRH|10/06/2023 14:23|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1106|571|49|CRO|11/08/2024 12:09|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+1107|571|3|OBSERVATION|14/08/2024 12:10|Pain better controlled; mobilising with help.
+1108|571|23|CRH|2024-08-14 13:07:00|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1109|572|23|OBSERVATION|04/03/2022 03:04|Patient reviewed on the ward round. Plan unchanged.
+1110|572|14|OBSERVATION|06/03/2022 13:27|-
+1111|572|12|CRH|inconnue|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1112|573|9|OBSERVATION|31/12/2022 16:42|Pain better controlled; mobilising with help.
+1113|573|2|CRH|01/01/2023 07:22|Discharge summary. Admitted for follow-up investigation. Recovery progressing well.
+1114|574|12|OBSERVATION|30/07/2023 14:57|Pain better controlled; mobilising with help.
+1115|574|6|CRH|08/08/2023 00:22|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1116|575|20|OBSERVATION |22/05/2023 00:18|Family updated, questions answered.
+1117|575|14|OBSERVATION|17/05/2023 02:57|Pain better controlled; mobilising with help.
+1118|575|12|CRH|23/05/2023 05:14|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1119|576|11|OBSERVATION|18/12/2023 13:56|Patient reviewed on the ward round. Plan unchanged.
+1120|576|18|CRH|19/12/2023 13:14|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1121|577|19|OBSERVATION|22/02/2024 02:15|Pain better controlled; mobilising with help.
+1122|577|11|CRH|23/02/2024 18:14|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+1123|689|5|OBSERVATION|06/11/2024 23:01|Patient reviewed on the ward round. Plan unchanged.
+1124|578|15|CRH|07/11/2024 00:14|Discharge summary. Admitted for syncope. Condition stable at discharge.
+1125|579|12|OBSERVATION|21/09/2024 18:40|Observations stable overnight. Continue current treatment.
+1126|579|15|CRH|23/09/2024 10:27|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1127|580|15|CRH|21/06/2023 05:28|Discharge summary. Admitted for palpitations. Patient died during the stay.
+1128|581|10|OBSERVATION|17/12/2023 17:49|Pain better controlled; mobilising with help.
+1129|581|22|OBSERVATION|2023-12-23T05:01|Observations stable overnight. Continue current treatment.
+1130|581|20|CRH|25/12/2023 17:56|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+1131|582|18|OBSERVATION|24/05/2024 18:59|Pain better controlled; mobilising with help.
+1132|582|5|CRH|25/05/2024 01:56|  Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1133|583|3|OBSERVATION|15/12/2024 18:28|Family updated, questions answered.
+1134|583|5|CRH|a preciser|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1135|584|2|OBSERVATION|20/07/2025 20:10|Family updated, questions answered.
+1136|584|17|OBSERVATION|20/07/2025 23:36|Family updated, questions answered.
+1137|584|16|CRH|21/07/2025 02:56|Discharge summary. Admitted for chest pain. RECOVERY progressing well.
+1138|585|16|CRH|28/10/2023 18:39|Discharge summary. Admitted for fever. RECOVERY progressing well.
+1139|586|14|CRH|27/06/2024 23:39|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1140|587|20|OBSERVATION|10/01/2023 20:28|Pain better controlled; mobilising with help.
+1141|587|11|Compte rendu de sortie|12/01/2023 10h32|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1142|588|3|observation|09/06/2024 11:41|Patient reviewed on the ward round. Plan unchanged.
+1143|588|9|OBSERVATION|07/06/2024 00:02|Observations stable overnight. Continue current treatment.
+1144|588|2|CRH|21/06/2024 18:41|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1145|589|23|OBSERVATION|23/06/2023 07:24|Family updated, questions answered.
+1146|589|15|OBSERVATION|16/06/2023 22:15|Family updated, questions answered.
+1147|589|4|CRH|26/06/2023 03:06|Discharge  summary. Admitted for cough and fever. Condition stable at discharge.
+1148|590|1|OBSERVATION|28/07/2022 02:51|Pain better controlled; mobilising with help.
+1149|590|18|CRH|30/07/2022 02:00|Discharge summary. Admitted for chest pain. recovery progressing well.
+1150|591|15|oBS MEDICALE|14/04/2022 22:41|Family updated, questions answered.
+1151|591|12|CRH|17/04/2022 23:40|Discharge summary. Admitted for confusion. RECOVERY progressing well.
+1152|592|8|OBSERVATION|08/09/2022 08:58|Patient reviewed on the ward round. Plan unchanged.
+1153|592|4|observation|09/09/2022 01:33|Pain better controlled; mobilising with help.
+1154|592|23|CRH|13/09/2022 18:40|Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+1155|593|5|OBSERVATION|06/06/2023 09:42|Observations stable overnight. Continue current treatment.
+1156|593|14|  OBSERVATION|11/06/2023 21:27|Observations stable overnight. Continue current treatment.
+1157|593|7|CRH|16/05/2023 01:34|Discharge summary. Admitted for shortness of breath. recovery progressing well.
+1158|594|8|Obs medicale|25/09/2024 02:05|Patient reviewed on the ward round. Plan unchanged.
+1159|594|1|OBSERVATION|31/08/2024 18:08|Family updated, questions answered.
+1160|594|15|CRH|07/09/2024 02:05|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1161|595|22|CRH|26/05/2022 00:42|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1162|596|6|CRH|18/08/2022 17:42|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+1163|597|5|Obs medicale|25/03/2022 15:16|Patient reviewed on the ward round. Plan unchanged.
+1164|597|2|CRH|05/04/2022 06:51|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1165|598|8|OBSERVATION|24/10/2024 06:02|Family updated, questions answered.
+1166|598|7|CRH|2024-10-24T23:27|Discharge summary. Admitted for syncope. Condition stable at discharge.
+1167|599|24|OBSERVATION|24/06/2023 17:33|Family updated, questions answered.
+1168|599|13|  CRH|04/07/2023 07:20|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+1169|600|5|CRH|24/03/2024 15:20|Discharge summary. Admitted for general weakness. Recovery progressing well.
+1170|601|12|CRH|16-12-2024 23:20|Discharge summary. Admitted for cough and fever. recovery progressing well.
+1171|602|13|Obs medicale|27.09.2025 01:39|Pain better controlled; mobilising with help.
+1172|602|8|OBSERVATION|26/09/2025 22:03|Pain better controlled; mobilising with help.
+1173|602|6|CRH|29/09/2025 00:20|Discharge summary. Admitted for fever. Recovery progressing well.
+1174|603|2178|CRH|05/01/2024 11h28|Discharge summary. Admitted for cough and fever. RECOVERY progressing well.
+1175|604|14|CRH|26/06/2024 21:28|Discharge summary. Admitted for follow-up investigation. recovery progressing well.
+1176|605|6|CRH|09/11/2024 05:22|Discharge summary. Admitted for confusion. Condition stable at discharge.
+1177|606|13|OBSERVATION|08/02/2025 16:36|Family updated, questions answered.
+1178|606|18|OBSERVATION|06/02/2025 06:14|Patient reviewed on the ward round. Plan unchanged.
+1179|606|7|CRH|2025-02-09T21:22|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1180|607|22|  OBSERVATION|31/08/2022 22:57|Family updated, questions answered.
+1181|607|1|OBSERVATION|20/08/2022 11:36|Family updated, questions answered.
+1182|607|4|CRH|03/09/2022 01:33|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+1183|608|11|OBSERVATION|21/10/2022 21:42|Observations stable overnight. Continue current treatment.
+1184|608|7|CRH|27/10/2022 06:33| Discharge summary. Admitted for fever. recovery progressing well. 
+1185|609|22|OBSERVATION|17/01/2023 09h00|Family updated, questions answered.
+1186|609|5|CRH|17/01/2023 14:33|Discharge summary. Admitted for follow-up investigation. RECOVERY progressing well.
+1187|610|11|OBSERVATION|04/05/2024 16:08|Patient reviewed on the ward round. Plan unchanged.
+1188|610|4|CRH|07/05/2024 16:50|Discharge summary. Admitted for general weakness. Recovery progressing well.
+1189|611|9|OBSERVATION|28/03/2024 20:28|Patient reviewed on the ward round. Plan unchanged.
+1190|611|20|OBSERVATION|28/03/2024 04:02|Pain better controlled; mobilising with help.
+1191|611|6| CRH |29.03.2024 14:56|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1192|612|16|OBSERVATION|04/09/2024 21:14|Family updated, questions answered.
+1193|612|6|crh|10/09/2024 19:56|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1194|613|14|CR SORTIE|26/11/2024 16h56|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+1195|614|14|Obs medicale|24/06/2024 22:10|Patient reviewed on the ward round. Plan unchanged.
+1196|614|13|CRH|30/06/2024 21:45|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1197|615|9|OBSERVATION|22/07/2024 05:01|Family updated, questions answered.
+1198|615|15|OBSERVATION |20/07/2024 07:59|Family updated, questions answered.
+1199|615|1|CRH|28/07/2024 11:13|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1200|616|20|CRH|26/09/2024 22:13|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1201|617|6|  OBSERVATION|01/04/2025 23:36|Observations stable overnight. Continue current treatment.
+1202|617|15|Obs medicale|10/04/2025 05:03|Pain  better controlled; mobilising with help.
+1203|617|10|CRH|13/04/2025 06:13|Discharge summary. Admitted for cough and fever. recovery progressing well.
+1204|618|51|CRO|31/07/2025 16:58|Operative note. Osteosynthese col du femur performed. Patient tolerated the procedure.   
+1205|618|15|OBSERVATION|31/07/2025 13:58|Family updated, questions answered.
+1206|618|22|CRH|07/08/2025 15:13|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+1207|619|5|CRH|28/03/2024 23:44|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1208|620|12|OBSERVATION|18/08/2022 05:09|Patient reviewed on the ward round. Plan unchanged.
+1209|620|2|CRH|19/08/2022 11:26|Discharge summary. Admitted for birth. Condition stable at discharge.
+1210|621|15|OBSERVATION|06/09/2024 01:08|Pain better controlled; mobilising with help.
+1211|621|18|OBSERVATION|06.09.2024 00:04|Patient reviewed on the ward round. Plan unchanged.
+1212|621|17|CRH|06/09/2024 06:25|Discharge summary. Admitted for fever. Recovery progressing well.
+1213|622|21|OBSERVATION|21/03/2023 04:11|Family updated, questions answered.
+1214|622|20|CRH|21/03/2023 14:47|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1215|623|9|CRH|18/10/2024 01:36|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1216|624|1|OBSERVATION|31/01/2025 04:36|Pain better controlled; mobilising with help.
+1217|624|8|CRH|01.02.2025 05:36|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1218|625|12|OBSERVATION|31/05/2024 07:02|Family updated, questions answered.
+1219|625|9|CRH|01/06/2024 19:12| Discharge summary. Admitted for syncope. RECOVERY progressing well. 
+1220|626|51|CRO|2023-10-25T22:53|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+1221|626|24|OBSERVATION|30/10/2023 16:51|Pain better controlled; mobilising with help.
+1222|626|20|Obs medicale|01/11/2023 09:13|Patient reviewed on the ward round. Plan unchanged.
+1223|626|17|CR SORTIE|07/11/2023 08:21|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1224|627|15|CRH|07/09/2022 01:46|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1225|628|47|CRO|10.03.2023 12:16|Operative note. Appendicectomie performed. Patient tolerated the procedure.
+1226|628|14|CRH|15/03/2023 10:50|-
+1227|629|10|CRH|07/07/2023 18:50|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1228|630|1|OBSERVATION|05/10/2023 13:16|Observations stable overnight. Continue current treatment.
+1229|630|5|CRH|12/10/2023 06:23|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1230|631|11|OBSERVATION|16/10/2024 00:18|Patient reviewed on the ward round. Plan unchanged.
+1231|631|16|CRH|27/10/2024 14:22|Discharge summary. Admitted for chest pain. Recovery progressing well.
+1232|632|21|Compte rendu de sortie|01/06/2022 06:46|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+1233|633|19|OBSERVATION|20/05/2023 16:57|Family updated, questions answered.
+1234|633|7|CRH|22/05/2023 23:40|Discharge summary. Admitted for fall at home. RECOVERY progressing well.
+1235|695|6|OBSERVATION|07/08/2022 18:17|Pain better controlled; mobilising with help.
+1236|4118|15|CRH|10/08/2022 13:16|Discharge summary. Admitted for fever. Condition stable at discharge.
+1237|635|49|Compte rendu operatoire|15/05/2024 08:42|Operative note. Cholecystectomie performed. Patient tolerated the procedure.
+1238|635|14|CRH|19/05/2024 02h02|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1239|636|6|Obs medicale|16/04/2024 08:56|Patient reviewed on the ward round. Plan unchanged.
+1240|636|7|CRH|16/04/2024 11:12|Discharge summary. Admitted for fall at home. recovery progressing well.
+1241|637|11|OBSERVATION|25/01/2025 03h16|Observations stable overnight. Continue current treatment.
+1242|637|15|observation|31/01/2025 14:07|Observations stable overnight. Continue current treatment.
+1243|637|2|CRH|02/02/2025 03:12|Discharge summary. Admitted for fever. Condition stable at discharge.
+1244|638|24|OBSERVATION|31/10/2025 00:21|Observations stable overnight. Continue current treatment.
+1245|639|24|CRH|15/02/2022 11:01|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+1246|640|8|OBSERVATION|04/06/2022 05:19|Pain better controlled; mobilising with help.
+1247|640|3|CRH   |11/06/2022 11:01|Discharge summary. Admitted for syncope. RECOVERY progressing well.
+1248|641|6|OBSERVATION|12/07/2022 15:55|Family updated, questions answered.
+1249|641|4|CRH|12/07/2022 20:01|Discharge summary. Admitted for fever. Condition stable at discharge.
+1250|642|18|CRH|11/01/2023 15:01|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+1251|643|3|OBSERVATION|04/09/2024 13:52|Pain better controlled; mobilising with help.
+1252|643|6|OBSERVATION|06/09/2024 00:44|family updated, questions answered.
+1253|643|18|CRH|07/09/2024 00:07|Discharge summary. Admitted for syncope. recovery progressing well.
+1254|644|23|CRH|19/12/2024 12:07|Discharge summary. Admitted for palpitations. Recovery progressing well.
+1255|645|3|OBSERVATION|25/07/2025 16:16|Observations stable overnight. Continue current treatment.
+1256|645|6|OBSERVATION|25/07/2025 12:37|Observations  stable overnight. Continue current treatment.
+1257|645|11|CRH|21/07/2025 12:07|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+1258|646|23|OBSERVATION|24/06/2022 12:57|Family updated, questions answered.
+1259|646|19|CRH|24/06/2022 13:12|Discharge summary. Admitted for birth. Condition stable at discharge.
+1260|647|50|CRO|26/12/2022 22:13|Operative  note. Cure de hernie inguinale performed. Patient tolerated the procedure.
+1261|647|23|OBSERVATION|27/12/2022 03:42|Patient reviewed on the ward round. Plan unchanged.
+1262|647|3|OBSERVATION|01/01/2023 12:25|Pain better controlled; mobilising with help.
+1263|647|12|CRH|05/01/2023 09:12|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1264|648|18|CRH|2022-06-16 14:08:00|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1265|649|50|CRO|25.10.2022 15:04|Operative note. Coronarographie performed. Patient tolerated the procedure.
+1266|649|18|OBSERVATION|27/10/2022 10:17|Patient reviewed on the ward round. Plan unchanged.
+1267|649|10|CRH|28/10/2022 00:08|Discharge summary. Admitted for confusion. Recovery progressing well.
+1268|650|2|OBSERVATION|31/03/2023 00:30|Pain better controlled; mobilising with help.
+1269|650|10|OBSERVATION|20/03/2023 14:59|Patient reviewed on the ward round. Plan unchanged.
+1270|650|3|crh|02/04/2023 17:08|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1271|651|19|null|08/06/2022 07:17|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1272|652|23|OBSERVATION|2023-01-28 19:51:00|Patient reviewed on the ward round. Plan unchanged.
+1265|649|50|CRO|25.10.2022 15:04|operative note. coronarographie performed. patient tolerated the procedure.
+1273|652|2|OBSERVATION|27/01/2023 18:45|Family updated, questions answered.
+1274|652|2|CRH|06/02/2023 02:17|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1275|653|15|OBSERVATION|25/05/2023 07:28|Family updated, questions answered.
+1276|653|4|OBSERVATION|24/05/2023 15:28|PATIENT REVIEWED ON THE WARD ROUND. PLAN UNCHANGED.
+1264|648|18|CRH|2022-06-16 14:08:00|DISCHARGE SUMMARY. ADMITTED FOR ABDOMINAL PAIN. CONDITION STABLE AT DISCHARGE.
+1277|653|17|CRH |29/05/2023 10:17|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1278|654|52|cro|19/09/2022 12:23|Operative note. Osteosynthese col du femur performed. Patient tolerated the procedure.
+1279|654|17|CRH|20/09/2022 08:45|  Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1280|655|17|OBSERVATION|05/08/2023 19:47|N/A
+1268|650|2|OBSERVATION|31/03/2023 00:30|pain better controlled; mobilising with help.
+1281|655|22|OBSERVATION|05/08/2023 19:44|Family updated, questions answered.
+1282|655|11|CRH|05/08/2023 22:44|Discharge summary. Admitted for fall at home. recovery progressing well.
+1283|656|16|CRH|23/05/2024 20:01|Discharge summary. Admitted for general weakness. Condition stable at discharge.
+1284|657|12|CRH|07/07/2024 03:01|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1285|658|1|CRH|26/09/2024 10:01|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1286|659|22|OBSERVATION|08/04/2022 14:15|Family updated, questions answered.
+1287|659|16|CRH|10/04/2022 14:36|Discharge summary. Admitted for confusion. Condition stable at discharge.
+1288|660|4|CRH|06/07/2023 07:36| Discharge summary. Admitted for follow-up investigation. recovery progressing well. 
+1289|661|19|OBSERVATION|24/03/2023 20:27|Pain better controlled; mobilising with help.
+1290|661|6|CRH|31/03/2023 22:37|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1291|662|4|OBSERVATION|18/10/2022 17:38|Patient reviewed on the ward round. Plan unchanged.
+1292|662|12|CRH|23/10/2022 00:09|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1293|663|1345|CRH   |05/04/2023 11:54|Discharge summary. Admitted for chest pain. Condition stable at discharge.
+1294|664|8|CRH|21/09/2022 23:21|discharge summary. admitted for cough and fever. condition stable at discharge.
+1295|665|20|OBSERVATION|02/01/2023 02:00|Observations stable overnight. Continue current treatment.
+1296|665|4|CRH|02/01/2023 02:21|Discharge  summary. Admitted for planned surgery. Condition stable at discharge.
+1297|666|13|CRH|10/05/2023 05:21|Discharge summary. Admitted for palpitations. RECOVERY progressing well.
+1298|667|9|CRH|2023-09-23 15:21:00|Discharge summary. Admitted for planned surgery. Condition stable at discharge.
+1299|668|3|OBSERVATION|28/03/2024 11:55|Patient reviewed on the ward round. Plan unchanged.
+1300|668|17|OBSERVATION|28/03/2024 14:57|Family updated, questions answered.
+1301|668|4|CRH|28/03/2024 18:14|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+1302|669|3713|OBSERVATION|07/02/2024 11:28|Family updated, questions answered.
+1303|669|22|OBSERVATION|07/02/2024 11:11|Pain better controlled; mobilising with help.
+1304|669|23|CRH|07/02/2024 11:30|Discharge summary. Admitted for planned surgery. RECOVERY progressing well.
+1305|670|24|OBSERVATION|30/04/2024 20:32|Observations stable overnight. Continue current treatment.
+1306|670|5|CRH|30/02/2024 06:30|Discharge summary. Admitted for palpitations. recovery progressing well.
+1307|671|18|CRH|09/07/2024 19:30|Discharge summary. Admitted for follow-up investigation. RECOVERY progressing well.
+1308|672|20|CRH|25/05/2023 05:18|Discharge summary. Admitted for palpitations. Patient died during the stay.
+1309|673|17|OBSERVATION|04/04/2023 13:38|Family updated, questions answered.
+1310|673|17|CRH|14/04/2023 11:31|Discharge summary. Admitted for planned surgery. recovery progressing well.
+1311|674|15|Compte rendu de sortie|08/09/2023 03:31|Discharge summary. Admitted for fall at home. Condition stable at discharge.
+1312|675|51|CRO|24/12/2023 01:27|oPERATIVE NOTE. pONTAGE AORTO-CORONARIEN PERFORMED. pATIENT TOLERATED THE PROCEDURE.
+1313|675|21|CRH|06/01/2024 19:31|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+1314|676|15|OBSERVATION|13/10/2024 06:24|Observations stable overnight. Continue current treatment.
+1315|676|2408|CRH |21/10/2024 07:31|Discharge summary. Admitted for chest pain. recovery progressing well.
+1316|677|24|OBSERVATION|12/03/2025 08:49|Observations stable overnight. Continue current treatment.
+1317|677|2|CRH|23/03/2025 10:31|Discharge summary. Admitted for fever. Condition stable at discharge.
+1318|678|21|OBSERVATION|05/03/2023 01:26|Patient reviewed on the ward round. Plan unchanged.
+1319|678|19|OBSERVATION|27/02/2023 02:20|oBSERVATIONS STABLE OVERNIGHT. cONTINUE CURRENT TREATMENT.
+1320|678|5|CRH|05/03/2023 21:02|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+1321|679|52|  CRO|08/12/2023 01:59|Operative note. Coronarographie performed. Patient tolerated the procedure.
+1322|679|15|OBSERVATION|09/12/2023 05:43|Family updated, questions answered.
+1323|679|6|OBSERVATION|09/12/2023 04:36|Pain better controlled; mobilising with help.
+1324|679|14|CRH|09/12/2023 21:02|Discharge summary. Admitted for chest pain. recovery progressing well.
+1325|680|20|OBSERVATION|26/03/2024 07:56|Observations stable overnight. Continue current treatment.
+1326|680|11|CRH|28/03/2024 00:02|Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+1327|681|13|CRH|05/12/2023 00:04|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1328||20|Obs medicale|29/05/2024 13:22|Patient reviewed on the ward round. Plan unchanged.
+1329|693|20|Compte rendu de sortie|06/06/2024 04:18|Discharge summary. Admitted for syncope. RECOVERY progressing well.
+1330|683|15|OBSERVATION|15/12/2022 02:50|Patient reviewed on the ward round. Plan unchanged.
+1331|683|11|CRH|16/12/2022 19:28|Discharge summary. Admitted for planned surgery. Recovery progressing well.
+1332|684|13|OBSERVATION|15/04/2022 23:09|Observations stable overnight. Continue current treatment.
+1333|684|15|CRH|19/04/2022 23:18|Discharge summary. Admitted for palpitations. Recovery progressing well.
+1334|102|16|CRH|14/08/2023 17:50|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.   
+1335|89|4|CRH   |14/03/2023 23:28|Discharge summary. Admitted for abdominal pain. Condition stable at discharge.
+1336|647|12|crh|05/01/2023 09:12|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1337|207|18|CRH|31/01/2023 09:48| Discharge summary. Admitted for syncope. Recovery progressing well.
+1338|344|7| crh|09/02/2022 05:30|Discharge summary. Admitted for shortness of breath. Condition stable at discharge.
+1339|116|18|OBSERVATION|23/11/2022 01:17| Patient reviewed on the ward round. Plan unchanged.
+1340|75|2|CRH|29/12/2023 12:59|Discharge summary. Admitted for cough and fever. Recovery progressing well.
+1341|481|6|observation|28/06/2023 14:01| Family updated, questions answered.
+1342|655|11|CRH|05/08/2023 22:44|Discharge summary. Admitted for fall at home. recovery progressing well.
+1343|338|46|CRO|02/04/2025 07:59|  Operative note. Appendicectomie performed. Patient tolerated the procedure.
+1344|295|15| OBSERVATION |24/10/2024 08:04|FAMILY UPDATED, QUESTIONS ANSWERED.
+1345|162|1|CRH|07/12/2023 22:48| Discharge summary. Admitted for fall at home. Condition stable at discharge.
+1346|489|2|OBSERVATION|18/07/2024 23:39|Pain better controlled; mobilising with help.
+1347|569|15|CRH|22/06/2023 06:05|DISCHARGE SUMMARY. ADMITTED FOR CHEST PAIN. CONDITION STABLE AT DISCHARGE.
+1348|161|19|Observation|16/04/2023 23:01|Patient reviewed on the ward round. Plan unchanged.
+1349|645|6|OBSERVATION|25/07/2025 12:37|OBSERVATIONS  STABLE OVERNIGHT. CONTINUE CURRENT TREATMENT.
+1350|687|18|CRH|30/12/2023 07:34|Discharge summary. Admitted for syncope. recovery progressing well.
+1351|234|18|OBSERVATION|06/12/2024 22:49| Patient reviewed on the ward round. Plan unchanged.
+1352|290|23|OBSERVATION|08/11/2023 06:36|Patient reviewed on the ward round. Plan unchanged.
+1353|639|24|CRH|15/02/2022 11:01|Discharge summary. Admitted for follow-up investigation. Condition stable at discharge.
+1354|487|52|CRO|05/08/2022 12:04|Operative note. Coronarographie performed. Patient tolerated the procedure.
+1355|511|21| CRH|26/11/2024 05:12|Discharge Summary. Admitted For Chest Pain. Condition Stable At Discharge.
+1356|491|12| OBSERVATION|15/08/2022 16:35|observations stable overnight. continue current treatment.
+1357|483|2|Compte rendu de sortie|01/09/2024 22:39|Discharge summary. Admitted for fever. RECOVERY progressing well.
+1358|76|47|CRO|26/09/2022 16:19|Operative note. Pontage aorto-coronarien performed. Patient tolerated the procedure.
+1359|343|24|CRH|20/04/2023 14:53|Discharge summary. Admitted for cough and fever. Condition stable at discharge.
+1360|4|21| OBSERVATION|12/02/2024 21:46|Observations stable overnight. Continue current treatment.
+1361|562|24|OBSERVATION|15/01/2025 04:47|Family updated, questions answered.
+1362|171|19|OBSERVATION|19.03.2025 16:49| Patient reviewed on the ward round. Plan unchanged.
+1363|493|17|observation|08/02/2023 13:39|Pain better controlled; mobilising with help.
+1364|650|2|OBSERVATION|31/03/2023 00:30|Pain better controlled; mobilising with help.
+1365|26|8|OBSERVATION|16/01/2023 05:55|pain better controlled; mobilising with help.
+1366|643|18| CRH|07/09/2024 00:07|Discharge summary. Admitted for syncope. recovery progressing well.
+1367|658|1|crh|26/09/2024 10:01|Discharge summary. Admitted for palpitations. Condition stable at discharge.
+1368|124|7|CRH|24/11/2022 21:52|Discharge summary. Admitted for abdominal pain. Recovery progressing well.
+1369|20|12|OBSERVATION|06/10/2023 14:49|Pain better controlled; mobilising with help.
+1370|679|15|OBSERVATION|09/12/2023 05:43|Family updated, questions answered.
+1371|476|14|  OBSERVATION|24/04/2024 10:28|Family updated, questions answered.
+1372|48|23|OBSERVATION|23/07/2024 04:00|  observations stable overnight. continue current treatment.

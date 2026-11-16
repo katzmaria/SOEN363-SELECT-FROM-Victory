@@ -1,0 +1,718 @@
+num_sortie|num_sejour|medecin_signataire|date_heure_sortie|destination|etat_sortie|ordonnance|consignes|prochain_rdv
+1|1|3|25/05/2023 17:55|Transfert autre hopital|Stable|none|  Follow up with the GP in 2 weeks.|25/06/2023 22:55
+2|2|14|09/11/2022 07:58| SSR (reeducation) |Moyen|none|Physiotherapy twice a week.|26/11/2022 12:58
+3|3|17|07-05-2023 16:58|Domicile avec aide|Ameliore|Ramipril 5 mg|Outpatient clinic appointment booked.|29/05/2023 19:58
+4|4|2|14/02/2024 22:58|Domicile|Moyen|Furosemide 40 mg|Follow up with the GP in 2 weeks.|02/03/2024 22:58
+5|5|22|15/06/2024 05:58|SSR (reeducation)|Ameliore|Ramipril 5 mg|Follow up with the GP in 2 weeks.|03/07/2024 09:58
+6|6|7|27/11/2024 06:58|EHPAD|Moyen|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|11/01/2025 11:58
+7|7|16|12/06/2023 11:53|Domicile avec aide|Moyen|Aspirin 75 mg|Rest and hydration.|09/07/2023 11h53
+8|8|22|28/12/2023 18:53|Domicile|Moyen|Aspirin 75 mg|return to the emergency department if symptoms worsen.|20.01.2024 20:53
+9|?|1|18/03/2023 07:21|EHPAD|Moyen|Atorvastatin 20 mg|Rest and hydration.|01/05/2023 12:21
+10|10|13|14/01/2024 11:21|SSR (reeducation)|Stable|-|Follow up with the GP in 2 weeks.|2024-01-28 14:21:00
+11|11|18|03.08.2024 15:46|null|Ameliore|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|11/09/2024 18:46
+12|12|21|01/10/2024 05:46|Transfert autre hopital|Stable|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|06/11/2024 05:46
+13|13|10|20/07/2025 08:46|EHPAD|Ameliore|Bisoprolol 2.5 mg|Physiotherapy twice a week.|26/08/2025 12:46
+14|2493|15|22/03/2024 16:47|SSR (reeducation)|Ameliore|Atorvastatin 20 mg|Outpatient clinic appointment booked.|01/05/2024 19:47
+15|15|12|05/06/2024 10:55|Domicile avec aide|Stable|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|14.07.2024 14:55
+16|16|13|22/04/2024 17:40|Chambre mortuaire|Decede|||
+17|17|16|02/08/2022 09:45|EHPAD|Moyen|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|10/09/2022 11:45
+18|18|15|04/10/2022 22:45|Domicile avec aide|Stable|Ramipril 5 mg|Rest and hydration.|31/10/2022 22:45
+19|19|10|07/12/2022 19:10|Transfert autre hopital|Ameliore|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|21/12/2022 22:10
+20|20|2|13/10/2023 01:10|EHPAD|Ameliore|N/A|Outpatient clinic appointment booked.|05/11/2023 02:10
+21|1886|21|07/12/2023 04:10|Transfert autre hopital|Ameliore|Aspirin 75 mg|Rest and hydration.|13/01/2024 05:10
+22|22|21|17/03/2024 05:10|EHPAD|Stable|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|29/03/2024 06:10
+23|23|8|21/11/2024 11:10|Domicile|Ameliore|Aspirin 75 mg|Follow up with the GP in 2 weeks.|20/12/2024 13:10
+24|24|23|09/06/2023 14:14|Domicile   |Ameliore|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|21/06/2023 18:14
+25|25|16|26/11/2022 21:04|Domicile avec aide|Stable|Aspirin 75 mg|Outpatient clinic appointment booked.|06/01/2023 00:04
+26|26|9|21/01/2023 14:04|SSR (reeducation)|Ameliore |none|null|03/03/2023 19:04
+27|27|17|21/07/2024 21:33|EHPAD|Moyen|Furosemide 40 mg|outpatient clinic appointment booked.|18/08/2024 22:33
+28|28|7|09/02/2025 18:33|Chambre mortuaire|Decede|||
+21|1886|21|07/12/2023 04:10|Transfert autre hopital|ameliore|Aspirin 75 mg|Rest and hydration.|13/01/2024 05:10
+29|29|17|06/07/2024 15:38|EHPAD|Moyen|Ramipril 5 mg|Outpatient clinic appointment booked.|05/08/2024 15:38
+30|30|10|06/06/2022 15:38|Domicile avec aide|Moyen|Bisoprolol 2.5 mg|Return to the emergency department if symptoms worsen.|14/07/2022 18:38
+31|31|23|31/02/2023 15:14|Transfert autre hopital|Moyen|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|06/01/2024 20:14
+32|32|21|11/08/2024 03:14|?|Moyen|Metformin 850 mg|Return to the emergency department if symptoms worsen.|07/09/2024 04:14
+33|33|17|24/11/2023 06:26|Domicile|Stable|Paracetamol 1 g|Follow up with the GP in 2 weeks.|06/01/2024 07:26
+34|34|21|13/09/2024 07:26|Domicile avec aide|Moyen|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|27/10/2024 11:26
+35|35|13|2024-11-23T11:26|Transfert autre hopital|Moyen|-|Outpatient clinic appointment booked.|10/12/2024 15:26
+36|36|7|21/06/2025 12:26|Domicile avec aide|Ameliore|Aspirin 75 mg|Follow up with the GP in 2 weeks.|04/08/2025 13:26
+37|37|9|16/09/2025 06:26|Domicile avec aide|ameliore|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|
+38|38|22|09/02/2022 09:46|EHPAD|Moyen|Furosemide 40 mg|Outpatient clinic appointment booked.|21/03/2022 11:46
+39|39|6|22/10/2022 11:37|EHPAD|Stable|Metformin 850 mg|Rest and hydration.|03/12/2022 11:37
+40|40|22|15/05/2023 15:37|SSR (reeducation)|Moyen|Paracetamol 1 g|Follow up with the GP in 2 weeks.|02/06/2023 16:37
+41|41|14|11/12/2024 06:24|Domicile|Stable|Paracetamol 1 g|Follow up with the GP in 2 weeks.|16/01/2025 11:24
+42|42|19|13/02/2025 09:24|Chambre mortuaire|Decede|||
+43|43|20|28/05/2023 01:28|Domicile avec aide|Ameliore|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|20/06/2023 07:28
+44|44|20|10/01/2024 09:28|Transfert autre hopital|?|Metformin 850 mg|Physiotherapy twice a week.|23/01/2024 11:28
+45|45|20|23/08/2024 10:28|SSR (reeducation)|Moyen|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|02/09/2024 15:28
+46|46|5|17/10/2024 12:28|Domicile|Ameliore|null|Return to the emergency department if symptoms worsen.|15/11/2024 16:28
+47|47|16|2022-02-02 10:30:00|Transfert autre hopital|Stable|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|20/02/2022 16:30
+48|48|11|07/08/2024 08:34|Domicile avec aide|Ameliore|Furosemide 40 mg|Outpatient clinic appointment booked.|-
+49|49|18|25/01/2025 06:34|Domicile|Moyen|Aspirin 75 mg|Rest and hydration.|14/02/2025 07:34
+50|50|6|04/09/2025 14:34|EHPAD|aMELIORE|none|Outpatient clinic appointment booked.|01/10/2025 17:34
+51|51|24|28/03/2022 18:41|Domicile avec aide|Stable|Paracetamol 1 g|Rest and hydration.|07/05/2022 19:41
+52|52|6|01/09/2022 20:41|Transfert autre hopital|Ameliore|none|Outpatient clinic appointment booked.|
+53|53|16|02/03/2023 09:41|Domicile avec aide|Ameliore|Furosemide 40 mg|Rest and hydration.|23/03/2023 09:41
+54|54|13|10/08/2023 07:41|  EHPAD|Stable|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|23/09/2023 13:41
+55|55|2|31/02/2022 11:35|Domicile avec aide|Stable|Bisoprolol 2.5 mg|  Return to the emergency department if symptoms worsen.|02/11/2022 13:35
+56|56|23|17/10/2024 23:01|Domicile|Stable|Paracetamol 1 g|Follow up with the GP in 2 weeks.   |25/11/2024 01:01
+57|57|14|23/06/2024 17:08|Domicile avec aide|Stable|none|fOLLOW UP WITH THE gp IN 2 WEEKS.|24/07/2024 18:08
+58|58|23|03/08/2024 08:12|Chambre mortuaire|Decede|||
+59|59|22|14/08/2022 00:28|EHPAD|Stable|Amoxicillin 1 g|Outpatient clinic appointment booked.|25/08/2022 06:28
+60|60|19|28/02/2023 12:28|Transfert autre hopital|Moyen|Levothyroxine 50 mcg| Rest and hydration. |01/04/2023 12:28
+61|61|12|26/11/2023 03:28|EHPAD|Stable|Atorvastatin 20 mg|Rest and hydration.|null
+62|62|12|07/01/2025 01:26|Domicile avec aide|Moyen|none|N/A|20/01/2025 07:26
+63|63|11|27/09/2022 23:35|Domicile|Stable|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|19/11/2022 06:35
+64|64|23|02/08/2023 14:35|Domicile avec aide|Stable|none|Rest and hydration.|11/09/2023 19:35
+65|65|10|25/09/2024 16:50|SSR (reeducation)|Moyen|none|Follow up with the GP in 2 weeks.|20/10/2024 21:50
+66|66|23|03/06/2025 01:50|Domicile avec aide|Stable|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|29/07/2025 13:50
+67|67|17|20/05/2022 20:29|Domicile|Moyen||Return to the emergency department if symptoms worsen.|13/06/2022 00:29
+68|68|19|01/08/2022 02:29|Transfert autre hopital|Stable|Aspirin 75 mg|Rest and hydration.|16/08/2022 04:29
+69|69|22|23/11/2023 21:16|Domicile|Ameliore|Ramipril 5 mg|Physiotherapy twice a week.|N/A
+70|70|6|11/04/2024 22:16|SSR (reeducation)|Moyen|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|10/05/2024 02:16
+71|71|24|25/06/2023 03:14|Domicile|Moyen|Aspirin 75 mg|Outpatient clinic appointment booked.|30/07/2023 08:14
+72|72|14|11/08/2023 18:14|?|Stable|Furosemide 40 mg|Follow up with the GP in 2 weeks.|23/09/2023 18:14
+73|73|10|29/08/2023 21:22|Transfert autre hopital|Stable|Metformin 850 mg|Follow up with the GP in 2 weeks.|12/09/2023 22:22
+74|74|20|16/09/2023 03:59|EHPAD|Moyen|Metformin 850 mg|Follow up with the GP in 2 weeks.|28/09/2023 08:59
+75|75|24|29/12/2023 12:59|EHPAD|Moyen|Atorvastatin 20 mg|Physiotherapy twice a week.|19/01/2024 17:59
+76|76|17|02/10/2022 00:25| EHPAD |Stable|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|21/10/2022 06:25
+77|77|23|21/04/2023 13:32|Transfert autre hopital|Moyen|Aspirin 75 mg|Outpatient  clinic appointment booked.|31/05/2023 19:32
+78|78|24|27/01/2024 23:32|EHPAD|Stable|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|15/02/2024 03:32
+79|79|20|07/06/2024 01:32|EHPAD|Moyen|none|Follow up with the GP in 2 weeks.|08/07/2024 01:32
+80|80|20|05/03/2025 19:32|Transfert autre hopital|Stable|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|26/03/2025 01:32
+81|81|23|30/01/2022 06:42|EHPAD| Ameliore |Metformin 850 mg|Outpatient clinic appointment booked.|08/03/2022 11:42
+82|82|19|25/02/2024 11:56|Transfert autre hopital|Moyen|Bisoprolol 2.5 mg|Physiotherapy twice a week.|31/03/2024 13:56
+83|83|6|08/08/2024 07:35|Domicile|-|none|Follow up with the GP in 2 weeks.|09/09/2024 10:35
+84|84|2|30/03/2025 23:35|Domicile|Moyen|Atorvastatin 20 mg|REST AND HYDRATION.|21/04/2025 23:35
+85|85|20|19/05/2022 13:17|EHPAD|Ameliore|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|26/06/2022 17:17
+86|86|6|31/10/2022 00:17|Transfert autre hopital|Moyen|Aspirin 75 mg|Physiotherapy twice a week.|11/12/2022 03:17
+87|87|7|21/06/2023 18:08|Transfert autre hopital|Ameliore|Amoxicillin 1 g|Rest and hydration.|02/08/2023 19:08
+88|88|15|03/11/2023 08:08|EHPAD|-|Metformin 850 mg|Follow up with the GP in 2 weeks.|28/11/2023 08:08
+89|89|2|14/03/2023 23:28|SSR (reeducation)|Stable|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|03/04/2023 23:28
+90|90|20|14.09.2023 09:28|Domicile|Stable|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|27/10/2023 13:28
+91|91|6|15.03.2024 05:28|Transfert autre hopital|Ameliore|Metformin 850 mg|Physiotherapy twice a week.|29/03/2024 08:28
+92|92|4|04/06/2022 00:03|Transfert autre hopital|Moyen|Bisoprolol 2.5 mg|?|28/06/2022 01:03
+93|93|23|07/10/2022 06:03|Chambre mortuaire|Decede|||
+94|94|2|30/04/2024 04:06|Domicile|Ameliore|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|N/A
+95|95|2|10/06/2024 07:06|Transfert autre hopital|Stable|Metformin 850 mg|Rest and hydration.|21/07/2024 07:06
+96|96|24|22/08/2022 16:09|Transfert autre hopital|Ameliore|none|Rest and hydration.|19/09/2022 20:09
+97|97|4|07/05/2022 21:54|Transfert autre hopital|Ameliore|Ramipril 5 mg|Rest and hydration.|05/06/2022 23:54
+98|98|18|16/07/2022 15:54|Domicile avec aide|Moyen|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|04/08/2022 15:54
+99|99|3|18/03/2022 05:54|EHPAD|Moyen|null|Outpatient  clinic appointment booked.|08/04/2022 11:54
+100|100|6|19/08/2024 00:22|SSR (reeducation)|Moyen|Aspirin 75 mg|Follow up with the GP in 2 weeks.|05/09/2024 04:22
+101|101|10|16/04/2025 10:22|Domicile avec aide|Stable||Outpatient clinic appointment booked.|04/05/2025 11:22
+102|102|7|14/08/2023 17:50|Transfert autre hopital|Moyen|Amoxicillin 1 g|Physiotherapy twice a week.|04/09/2023 22:50
+103|103|8|16/08/2023 21:55|Domicile|Stable|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|01/09/2023 22:55
+104|104|18|15/01/2022 07:20|SSR (reeducation)|Moyen|Aspirin 75 mg|Follow up with the GP in 2 weeks.|?
+105|105|23|08/03/2024 10:31|EHPAD|Moyen|Aspirin 75 mg|Follow up with the GP in 2 weeks.|24/04/2024 00:31
+106|106|10|17/07/2022 22:40|Transfert autre hopital|Moyen|Aspirin 75 mg|Physiotherapy twice a week.|17/08/2022 01:40
+107|107|17|08/02/2024 08:55|Domicile avec aide|Ameliore|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|21/02/2024 12:55
+108|108|1|26/08/2024 01:55|Chambre mortuaire|Decede|||
+109|109|16|23-06-2023 21:15|Transfert autre hopital|Ameliore|Furosemide 40 mg|Physiotherapy twice a week.|23/07/2023 01:15
+110|110|24|02/09/2023 03:15|Transfert autre hopital|Stable|Furosemide 40 mg|Follow up with the GP in 2 weeks.|09/10/2023 07:15
+111|111|19|31/05/2023 23:35|Domicile avec aide|Ameliore|Furosemide 40 mg|Rest and hydration.|06/07/2023 01:35
+112|112|7|?|Transfert autre hopital|Ameliore|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|22/09/2022 22:05
+113|113|2|?|EHPAD|Moyen|Ramipril 5 mg|Follow up with the GP in 2 weeks.|23/12/2022 09:05
+114|114|3|06/05/2023 04:05|Transfert autre hopital|Ameliore|Bisoprolol 2.5 mg|REST AND HYDRATION.|26/05/2023 05:05
+115|115|16|28/11/2023 13:05|EHPAD|Stable|Bisoprolol 2.5 mg|Return to the emergency department if symptoms worsen.   |05.01.2024 18:05
+116|116|17|04/12/2022 19:19|EHPAD|Ameliore|Levothyroxine 50 mcg|Physiotherapy twice a week.|29/12/2022 21:19
+117|117|21|04/05/2024 13:33|N/A|Stable|none|Return to the emergency department if symptoms worsen.|17/06/2024 15:33
+118|118|23|12/03/2025 18:33|Domicile avec aide|Ameliore|Atorvastatin 20 mg|Outpatient clinic appointment booked.|18/04/2025 19:33
+119|119|N/A|04/09/2023 20:22|Domicile avec aide|Moyen|Aspirin 75 mg|Return  to the emergency department if symptoms worsen.|25/09/2023 21:22
+120|120|18|02/04/2024 11:22|SSR (reeducation)|Moyen|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|16/04/2024 14:22
+121|121|21|04/11/2024 04:22|Domicile avec aide|Moyen|Bisoprolol 2.5 mg|physiotherapy twice a week.|21/11/2024 08:22
+122|122|10|15/07/2023 09:33|Domicile avec aide|Moyen|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|30/07/2023 13:33
+123|123|24|16/10/2023 12:33|Domicile avec aide|Ameliore|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|07/11/2023 17:33
+124|124|1|24/11/2022 21:52|EHPAD|Stable|Paracetamol 1 g|Return to the emergency department if symptoms worsen.   |06/12/2022 23:52
+125|125|6|16/09/2023 12:36|Domicile avec aide|Stable|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|12/10/2023 18:36
+126|126|3323|21/05/2023 06:44|SSR (reeducation)|Moyen|none|Rest and hydration.|22/06/2023 07:44
+127|127|24|11/05/2022 16:20|Domicile avec aide|Moyen|Ramipril 5 mg|rEST AND HYDRATION.|15/06/2022 16:20
+128|128|15|24/01/2023 15:20|Transfert autre hopital|Stable|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|28/02/2023 17:20
+129|129|17|09/05/2024 04:40|Domicile|Moyen|none|Return to the emergency department if symptoms worsen.|20/05/2024 05:40
+130|130|19|26/03/2023 08:00|dOMICILE|Ameliore|none|Rest and hydration.|24/04/2023 14:00
+131|131|4|12/12/2023 05:00|Domicile avec aide|?|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|23/01/2024 11:00
+132|132|23|14/02/2024 13:00|EHPAD|Moyen|Metformin 850 mg|Outpatient clinic appointment booked.|24/02/2024 15:00
+133|133|6|01/06/2024 04:51|Domicile|Stable|Aspirin 75 mg|Rest and hydration.|28/06/2024 08:51
+134|134|2|08/07/2024 22:51|Domicile avec aide|Moyen|Paracetamol 1 g|Outpatient clinic appointment booked.|21/07/2024 02:51
+135|135|24|05/10/2023 11:17| EHPAD |Ameliore|Metformin 850 mg|Return to the emergency department if symptoms worsen.|26/10/2023 14:17
+136|136|7|16/03/2024 16:17|ssr (REEDUCATION)|Stable|none|Rest and hydration.|09/04/2024 18:17
+137|137|22|29/03/2023 19:24|SSR (reeducation)|Ameliore|Ramipril 5 mg|Rest and hydration.|N/A
+138|138|21|29/09/2023 12:24|Domicile avec aide|Stable|Metformin 850 mg|Physiotherapy twice a week.|15/10/2023 13:24
+139|139|12|30/03/2023 04:54|Transfert autre hopital|Ameliore|Paracetamol 1 g|Outpatient clinic appointment booked.|12/05/2023 10:54
+140|140|21|13/12/2023 21:54|Domicile avec aide|Stable|Atorvastatin 20 mg|Rest and hydration.|09/01/2024 01:54
+141|141|23|30/12/2023 07:34|SSR (reeducation)|Stable|Aspirin 75 mg|Rest and hydration.|11/01/2024 08:34
+142|142|17|16/06/2024 10:34|EHPAD   |-|Paracetamol 1 g|Follow up with the GP in 2 weeks.|03/07/2024 14:34
+143|143|20|03/07/2022 03:30|Domicile|N/A|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|15/08/2022 06:30
+144|144|19|21/04/2024 23:40|SSR (reeducation)|Stable|none|Rest and hydration.|03/06/2024 02:40
+145|145|14|28/01/2025 12:40|SSR (reeducation)|Ameliore|Metformin 850 mg|Return to the emergency department if symptoms worsen.|04/03/2025 18:40
+146|146|21|24/04/2024 16:22| Domicile |Stable|Furosemide 40 mg|Rest and hydration.|23/05/2024 17:22
+147|147|12|18/12/2023 11:40||Ameliore|none|Outpatient clinic appointment booked.|28/01/2024 14:40
+148|148|3062|16/09/2024 11:40|Transfert autre hopital|-|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|26/09/2024 14:40
+149|149|4|17/06/2025 09:40|-|Moyen|Metformin 850 mg|Follow up with the GP in 2 weeks.|06/07/2025 10:40
+150|150|24|20/09/2025 16:40|-|Stable|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|22/10/2025 16h40
+151|151|24|14/03/2023 23:43|Domicile avec aide|Ameliore|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|27/03/2023 03:43
+152|152|1|24/07/2023 21:43|Transfert autre hopital|Ameliore|Levothyroxine 50 mcg|Physiotherapy twice a week.|07/09/2023 00:43
+153|153|4|29/12/2024 09:36|Domicile avec aide|Ameliore|Ramipril 5 mg|Physiotherapy twice a week.|10/01/2025 13:36
+154|4431|16|26/06/2023 20:40|Transfert autre hopital|Stable|Furosemide 40 mg|Physiotherapy twice a week.|09/08/2023 21:40
+155|155|14|15/02/2024 06h40|Domicile|Moyen|none|Return to the emergency department if symptoms worsen.|02/03/2024 08:40
+156|156|18|27/07/2023 06:33|EHPAD| Moyen |Furosemide 40 mg|Return to the emergency department if symptoms worsen.|01/09/2023 06:33
+157|157|21|03/05/2024 08:33|SSR (reeducation)|Ameliore|Furosemide 40 mg|Rest and hydration.|25/05/2024 09:33
+158|158|15|29/09/2024 19:33|SSR (reeducation)|Ameliore|none|Outpatient clinic appointment booked.|26/10/2024 01:33
+159|159|4|25/08/2022 08:19|Transfert autre hopital|Moyen|Paracetamol 1 g|Follow up with the GP in 2 weeks.|11.09.2022 14:19
+160|160|11|10/02/2022 18:33|EHPAD|Moyen|Furosemide 40 mg|Physiotherapy twice a week.   |17/03/2022 23:33
+161|161|15|17/04/2023 00:48|Domicile avec aide|Ameliore|Furosemide 40 mg|Follow up with the GP in 2 weeks.|20/05/2023 03:48
+162|N/A|16|07/12/2023 22:48|EHPAD|Moyen|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|18/01/2024 02:48
+163|163|4|15/03/2024 04:48|Transfert autre hopital|Stable|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|18/04/2024 04:48
+164|164|1|14/04/2022 09:36|SSR (reeducation)|Stable|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|24/04/2022 13:36
+165|165|6|13/01/2023 17:17|EHPAD|Moyen|Amoxicillin 1 g|outpatient clinic appointment booked.|30.01.2023 22:17
+166|166|12|02/05/2023 14:17|SSR (reeducation)|Moyen|Ramipril 5 mg|Rest and hydration.|04/06/2023 22:17
+167|167|20|05/01/2024 08:17|Chambre mortuaire|Decede|||
+168|168|21|27/09/2023 20:38|EHPAD|Stable|Furosemide 40 mg|outpatient clinic appointment booked.|28/10/2023 01:38
+169|169|4|13/06/2024 06:38|Transfert autre hopital|Stable|Furosemide 40 mg|Outpatient clinic appointment booked.|22/07/2024 07:38
+170|170|21|04/12/2024 02:38|SSR (reeducation)|Stable|Metformin 850 mg|Follow up with the GP in 2 weeks.|26/12/2024 02:38
+171|171|23|01/04/2025 03:38|EHPAD|Moyen|Furosemide 40 mg|-|12/05/2025 07:38
+172|172|11|15/02/2023 10:32|null|Ameliore|Amoxicillin 1 g|Rest and hydration.|09/03/2023 11:32
+173|173|1|02/10/2023 19:32|Domicile|Ameliore|none|Return to the emergency department if symptoms worsen.   |09/11/2023 20:32
+174|174|14|02/07/2024 11:32|ssr (REEDUCATION)|Ameliore|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|24/07/2024 14:32
+175|175|17|24/05/2022 01:50|Domicile|Ameliore|Atorvastatin 20 mg|Rest and hydration.|20/06/2022 06:50
+176|176|13|05/12/2023 20:40|Transfert autre hopital|N/A|Aspirin 75 mg|Outpatient clinic appointment booked.|18/01/2024 23:40
+177|177|16|27/01/2024 05:40|Transfert autre hopital|Moyen|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|02/03/2024 09:40
+178|178|14|21/12/2024 04:49|Domicile|Ameliore|Paracetamol 1 g|Outpatient clinic appointment booked.|null
+179|179|17|15/08/2022 14:59|Chambre mortuaire|Decede|||
+180|180|3|13/07/2024 13:50|-|Moyen|Ramipril 5 mg|Rest and hydration.|18/08/2024 13:50
+181|181|3|06/11/2022 14:05|Domicile|Moyen|Metformin 850 mg|Physiotherapy twice a week.|17/11/2022 19:05
+182|182|1|13/03/2023 07:05|SSR (reeducation)|Stable|none|Outpatient clinic appointment booked.|17/04/2023 16:05
+183|183|7|23/02/2022 00:22|EHPAD|Stable|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|14/03/2022 05:22
+184|184|23|25/05/2022 14:49|Domicile avec aide|Stable|Bisoprolol 2.5 mg|Rest and hydration.|29/06/2022 19:49
+185|185|24|25/09/2022 08:49|Domicile|Stable|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|25/10/2022 12:49
+186|186|5|2024-06-24 14:06:00|SSR (reeducation)|Moyen|Aspirin 75 mg|Physiotherapy twice a week.|02/08/2024 20:06
+187|187|11|12/12/2024 21:06|Domicile avec aide|Stable|Aspirin 75 mg|follow up with the gp in 2 weeks.|03/01/2025 23:06
+188|188|15|14/05/2025 21:06|Transfert autre hopital|Stable|none|Outpatient clinic appointment booked.|03/06/2025 21:06
+189|189|20|27/09/2023 06:25|Domicile|Moyen|Furosemide 40 mg|Rest and hydration.|N/A
+190|190|9|29/09/2023 13:42|EHPAD|Moyen|Ramipril 5 mg||01/11/2023 19:42
+191|191|8|10-14-2022 08:57|Domicile avec aide|AMELIORE|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|15/11/2022 08:57
+192|192|8|04/10/2022 06:49|Transfert autre hopital|Ameliore|Atorvastatin 20 mg|Rest and hydration.|06/11/2022 07:49
+193|193|17|21/04/2023 17:49|Domicile|Ameliore|Metformin 850 mg|Follow up with the GP in 2 weeks.|31/05/2023 22:49
+194|194|21|13/03/2022 09:04|SSR (reeducation)|Stable|Bisoprolol 2.5 mg|Rest and hydration.|27/03/2022 10:04
+195|195|23|20/10/2022 07:04|Transfert autre hopital|Stable|Furosemide 40 mg|Follow up with the GP in 2 weeks.|27/11/2022 12:04
+196|196|6|05/09/2022 06:48|SSR (reeducation)|Moyen|Aspirin 75 mg|Physiotherapy twice a week.|23/10/2022 06:48
+197|197|12|19/09/2024 19:22|Domicile avec aide|Moyen|Amoxicillin 1 g|Physiotherapy twice a week.|07/10/2024 00:22
+198|198|6|27/04/2024 17:12|EHPAD|Stable|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|02/06/2024 22:12
+199|199|5|12/09/2023 01:58|EHPAD|Moyen|Metformin 850 mg|Return to the emergency department if symptoms worsen.   |13/10/2023 05:58
+200|200|3|09/08/2023 11:41|Transfert autre hopital|Stable|Metformin 850 mg|Follow up with the GP in 2 weeks.|28/08/2023 15:41
+201|201|15|01/06/2022 16:16|EHPAD|Ameliore|Amoxicillin 1 g|rETURN TO THE EMERGENCY DEPARTMENT IF SYMPTOMS WORSEN.|16/07/2022 22:16
+202|202|16|05/01/2024 20:27|EHPAD|Stable|Aspirin 75 mg|Rest and hydration.|31/01/2024 02:27
+203|203|20|19/05/2024 20:27|Chambre mortuaire|DECEDE|||
+204|204|2|05/04/2023 02:44|Domicile avec aide|Ameliore|Bisoprolol 2.5 mg|Rest and hydration.|10/05/2023 02:44
+205|205|2|15/08/2023 15:44|  Domicile|Moyen|Aspirin 75 mg|Follow up with the GP in 2 weeks.|31/08/2023 16:44
+206|206|19|06/09/2022 23:48|Domicile|Moyen|none|N/A|04/10/2022 01:48
+207|207|5|31/01/2023 09:48|Transfert autre hopital|Moyen|Ramipril 5 mg|Rest and hydration.|05/03/2023 13:48
+208|208|3|24/10/2023 19:48|SSR (reeducation)|Stable|Aspirin 75 mg|Rest and hydration.|08/12/2023 21:48
+209|209|24|2023-11-27T07:48|Transfert autre hopital|Stable|Bisoprolol 2.5 mg|outpatient clinic appointment booked.|10/01/2024 08:48
+210|210|7|16/09/2024 14:17|Domicile|Moyen|none|Rest and hydration.|17/10/2024 20:17
+211|211|10|14/11/2022 10:14|EHPAD|N/A|Ramipril 5 mg|fOLLOW UP WITH THE gp IN 2 WEEKS.|19/12/2022 10:14
+212|212|20|27/12/2024 11:15|Domicile|Stable|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|10/01/2025 13:15
+213|213|9|05/10/2025 20:15|Domicile avec aide|Stable|none|Return to the emergency department if symptoms worsen.|17/10/2025 23:15
+214|214|2|27/02/2024 14:05|SSR (reeducation)|Moyen|Paracetamol 1 g|Rest and hydration.|27/03/2024 18:05
+215|215|2|17/10/2023 16:09|Domicile|Moyen|Furosemide 40 mg|Rest and hydration.|08/11/2023 20:09
+216|216|11|13/05/2024 14:09|EHPAD||Ramipril 5 mg|Physiotherapy twice a week.|09/06/2024 16:09
+217|217|21|04/12/2023 19:26|Transfert autre hopital|Stable|Furosemide 40 mg|Follow up with the GP in 2 weeks.|08/01/2024 22:26
+218|218|12|28/09/2024 15:26|Domicile|?|Paracetamol 1 g|Follow up with the GP in 2 weeks.|16/10/2024 18:26
+219|219|24|03/05/2022 21:16|Transfert autre hopital|Moyen   |Amoxicillin 1 g|Rest and hydration.|04/06/2022 03:16
+220|220|23|14/10/2022 08:16|Domicile|Stable|Amoxicillin 1 g|Return  to the emergency department if symptoms worsen.|05/11/2022 10:16
+221|221|21|10/02/2023 20:01|Domicile avec aide|Ameliore|Ramipril 5 mg|Follow up with the GP in 2 weeks.|14/03/2023 22:01
+222|222|13|20/08/2023 07:01|Domicile avec aide|Ameliore|Bisoprolol 2.5 mg|Return to the emergency department if symptoms worsen.|22/09/2023 11:01
+223|223|13|12/10/2022 14:41|Domicile avec aide|Stable   |Bisoprolol 2.5 mg|Rest and hydration.|27/10/2022 15:41
+224|224|20|13/09/2022 19:13|EHPAD|Stable|Amoxicillin 1 g|Rest and hydration.|28/10/2022 00:13
+225|225|19|26/12/2023 04:26|Chambre mortuaire|Decede|||
+226|226|1|30/06/2024 23:22|Transfert autre hopital|Moyen|Paracetamol 1 g|Follow up with the GP in 2 weeks.|01/08/2024 05:22
+227|227|11|14/12/2023 20:40|-|Ameliore|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|18/01/2024 23:40
+228|228|10|null|SSR (reeducation)|Ameliore|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|22/04/2024 09:40
+229|229|23|31/10/2023 23:58|EHPAD|Moyen|Levothyroxine 50 mcg| Physiotherapy twice a week. |15/12/2023 01:58
+230|230|20|08/07/2022 03:42|Chambre mortuaire|Decede|||
+231|null|21|07/01/2023 09:00|SSR (reeducation)|Stable|Atorvastatin 20 mg|  Return to the emergency department if symptoms worsen.|22/01/2023 10:00
+232|232|20|09/01/2022 02:55|Transfert autre hopital|Ameliore|Paracetamol 1 g|Outpatient clinic appointment booked.|23/02/2022 08:55
+233|233|13|24/07/2024 04h07|SSR (reeducation)|Moyen|Metformin 850 mg|Rest and hydration.|30/08/2024 09:07
+234|234|16|17/12/2024 16:13|EHPAD|null|Furosemide 40 mg|Follow up with the GP in 2 weeks.|02/01/2025 16:13
+235|235|20|30/01/2023 23:11|SSR (reeducation)||none|Outpatient clinic appointment booked.|01/03/2023 23:11
+236|236|22|14/09/2023 20:11|Domicile|Ameliore|Ramipril 5 mg|Physiotherapy twice a week.|15/10/2023 01:11
+237|237|8|19/02/2022 11:40|SSR (reeducation)|Ameliore|Metformin 850 mg|Rest and hydration.|12/03/2022 15:40
+238|238|7|18/08/2022 14:40|?|Decede|||
+239|239|20|09/10/2024 01:50|SSR (reeducation)|Stable|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|28/10/2024 05:50
+240|240|11|15/11/2024 04:08|SSR (reeducation)|Moyen|none|Follow up with the GP in 2 weeks.|17/12/2024 09:08
+241|241|2|15/03/2022 13:04|EHPAD   |Moyen|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|10/04/2022 13:04
+242|242|5|15/02/2023 14:07|Domicile|Ameliore|Atorvastatin 20 mg|Rest and hydration.|27/02/2023 16:07
+243|243|10|2022-12-26 17:35:00|Transfert autre hopital|Stable|Aspirin 75 mg|Rest and hydration.|14/01/2023 21:35
+244|244|16|15/04/2023 15:38|Domicile|Stable|none|Physiotherapy twice a week.|04/05/2023 19:38
+245|245|17|24/04/2023 00:11|SSR (reeducation)|Ameliore|Bisoprolol 2.5 mg||03/06/2023 04:11
+246|246|15|17/12/2023 10:11|SSR (reeducation)|Ameliore|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|?
+247|247|8|25/12/2023 03:20|Domicile avec aide|Moyen|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|03/02/2024 08:20
+248|248|14|15/11/2023 05:11|SSR (reeducation)|Ameliore|none|Rest and hydration.|11/12/2023 05:11
+249|249|12|01-18-2023 18:18|EHPAD|Moyen||Outpatient clinic appointment booked.|27/02/2023 23:18
+250|250|9|04/06/2023 22:01|Transfert autre hopital|moyen|Furosemide 40 mg|Physiotherapy twice a week.|17/07/2023 23:01
+251|251|11|12/09/2023 11:12|Transfert autre hopital||Metformin 850 mg|Physiotherapy twice a week.|29/09/2023 17:12
+252|3543|6|15/06/2023 06:50|Domicile||Metformin 850 mg|Rest and hydration.|20/07/2023 08:50
+253|253|16|19/09/2023 07:50|Transfert autre hopital|Moyen|none|Return to the emergency department if symptoms worsen.|05/10/2023 12h50
+254|254|19|-|dOMICILE|Ameliore|none|Return to the emergency department if symptoms worsen.|28/05/2024 14:50
+255|255|24|06/02/2023 12:56|Domicile avec aide|Moyen|none|Return to the emergency department if symptoms worsen.|23/03/2023 17:56
+256|256|24|04/04/2023 22:56|Domicile avec aide|Stable|N/A|Physiotherapy twice a week.|13/05/2023 01:56
+257|257|19|06/07/2024 04:38|EHPAD|Stable|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|05/08/2024 08:38
+258|258|7|04/04/2025 00:38|Domicile|Stable|Bisoprolol 2.5 mg|Rest and hydration.|15/05/2025 06:38
+259|259|6|23/03/2023 14:40|Domicile avec aide|Ameliore|Ramipril 5 mg|Physiotherapy twice a week.|21/04/2023 16:40
+260|260|14|15/12/2023 21:40|Domicile avec aide|Stable|Amoxicillin 1 g|Rest and hydration.|04/01/2024 01:40
+261|261|8|23/04/2024 02:40|N/A|Moyen|Paracetamol 1 g|Physiotherapy twice a week.|09/05/2024 03h40
+262|262|20|25/06/2024 21:56|Chambre mortuaire|Decede|||
+263|263|12|04/02/2024 22:41|Domicile avec aide|Moyen|Metformin 850 mg|Return to the emergency department if symptoms worsen.|26/02/2024 03:41
+264|264|16|01/06/2024 22:41|Domicile avec aide|Ameliore|Furosemide 40 mg|Rest and hydration.|08/07/2024 04:41
+265|2382|13|27/09/2024 11:38|SSR (reeducation)|Ameliore|none|Return to the emergency department if symptoms worsen.|09/11/2024 14:38
+266|266|1|07/03/2025 01:38|EHPAD|Moyen|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|11/04/2025 02:38
+267|267|6|08/08/2023 11:43|EHPAD|Moyen|none|Outpatient clinic appointment booked.|10/09/2023 13:43
+268|268|5|01/10/2023 07:43|SSR (reeducation)|Ameliore|Bisoprolol 2.5 mg|Return to the emergency department if symptoms worsen.|11/11/2023 08:43
+269|269|12|03/11/2024 08:34|Transfert autre hopital|Stable|-|Follow up with the GP in 2 weeks.|18/11/2024 11:34
+270|270|18|05.07.2025 14:34|Domicile avec aide|Ameliore|Paracetamol 1 g|Rest and hydration.|14/08/2025 17:34
+271|271|18|20/11/2022 08h29|Domicile|Moyen|Bisoprolol 2.5 mg|Rest and hydration.|24/12/2022 14:29
+272|272|1|25/10/2024 03:00|Domicile avec aide|Stable|Levothyroxine 50 mcg|Rest and hydration.|12/11/2024 08:00
+273|273|12|28/03/2024 14:35|Domicile|Stable|Aspirin 75 mg|Physiotherapy twice a week.|04/05/2024 18:35
+274|274|13|21/09/2024 19:35|EHPAD|Stable|Bisoprolol 2.5 mg|Physiotherapy twice a week.|19/10/2024 22:35
+275|275|13|20/06/2024 17:49|Chambre mortuaire|Decede|||
+276|276|2|23/11/2024 06:15|Domicile|Moyen   |Bisoprolol 2.5 mg|Rest and hydration.|28/12/2024 06:15
+277|277|23|22/02/2025 07:15|SSR (reeducation)|Ameliore|none|Outpatient clinic appointment booked.|15/03/2025 07:15
+269|269|12|03/11/2024 08:34| Transfert autre hopital |Stable|-|Follow up with the GP in 2 weeks.|18/11/2024 11:34
+278|278|2|13/05/2025 02:15|Domicile|Stable|Aspirin 75 mg|  Rest and hydration.|27/06/2025 04:15
+279|279|19|23/03/2022 02:56|Domicile avec aide|Moyen|Furosemide 40 mg|Follow up with the GP in 2 weeks.|17/04/2022 03:56
+280|280|19|28/04/2022 07:56|SSR (reeducation)|Stable|Bisoprolol 2.5 mg|Return to the emergency department if symptoms worsen.|31/05/2022 09:56
+281|281|24|11/11/2024 22:14|Domicile|Ameliore|Atorvastatin 20 mg|  Outpatient clinic appointment booked.|
+282|282|2|14/03/2022 04:29|SSR (reeducation)|Stable|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|25/04/2022 05:29
+283|283|11|30/01/2022 01:54|DOMICILE|Ameliore|Atorvastatin 20 mg|Outpatient clinic appointment booked.|01/03/2022 04:54
+284|284|8|28/07/2024 19:24|-|Stable|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|05/09/2024 20:24
+285|285|5|13/12/2023 03:13|Chambre mortuaire|Decede|||
+286|286|22|26/12/2024 13:30|EHPAD|N/A|Furosemide 40 mg|Outpatient clinic appointment booked.|09/02/2025 15:30
+287|287|16|03/02/2025 19:30|Domicile avec aide|Ameliore|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|28/02/2025 20:30
+288|288|24|26/11/2023 22:43|SSR (reeducation)|Ameliore|Metformin 850 mg|Return to the emergency department if symptoms worsen.|09/12/2023 23:43
+289|289|20|22/03/2022 21:21|EHPAD|Moyen|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|15/05/2022 02:21
+290|290|8|08/11/2023 06:55|EHPAD|Ameliore|Amoxicillin 1 g|Rest and hydration.|23/12/2023 06:55
+291|291|24|08/07/2024 11:55|Domicile avec aide|Ameliore|Aspirin 75 mg|Follow up with the GP in 2 weeks.|09/08/2024 15:55
+292|292|3|17/11/2024 13:55|Domicile avec aide|Ameliore|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|29/11/2024 14:55
+293|293|5|17/02/2025 01:55|Domicile avec aide|Stable|none|Rest and hydration.|14/03/2025 05:55
+294|294|24|04/11/2022 11:05|Domicile|Stable|Ramipril 5 mg|Physiotherapy twice a week.|19/12/2022 15:05
+295|295|7|01/11/2024 08:44|SSR (reeducation)|Ameliore|none|Return to the emergency department if symptoms worsen.|08/12/2024 10:44
+296|296|2|15/02/2025 00:44|SSR (reeducation)|Moyen|?|Physiotherapy twice a week.|31/03/2025 17:44
+297|297|21|20/03/2024 12:42|EHPAD|Moyen|Furosemide 40 mg|Rest and hydration.|17/04/2024 12:42
+298|298|15|05/05/2024 03:42|SSR (reeducation)|Stable|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|10/06/2024 09:42
+299|299|19|04/07/2024 09:42|SSR (reeducation)|Ameliore|Amoxicillin 1 g|Physiotherapy twice a week.|14/07/2024 09:42
+300|300|18|20/12/2024 21:42|Domicile|Ameliore|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|18/01/2025 02:42
+301|301|1|24/08/2025 18:42|EHPAD|stable|Furosemide 40 mg|Outpatient clinic appointment booked.|11/09/2025 00:42
+302|302|10|21/11/2023 09:11|SSR (reeducation)|Stable|Amoxicillin 1 g|Physiotherapy twice a week.|13/12/2023 14:11
+303|303|2|21/08/2024 21:11|Domicile avec aide|Moyen|Furosemide 40 mg|Follow up with the GP in 2 weeks.|27/09/2024 21:11
+304|304|2|18/06/2025 00:11|SSR (reeducation)|Moyen|Metformin 850 mg|Outpatient clinic appointment booked.|30/07/2025 03:11
+305|305|23|13/09/2024 16:07|SSR (reeducation)|Ameliore|Levothyroxine 50 mcg|Rest and hydration.|17/10/2024 17:07
+306|306|3|17/01/2024 15:46|TRANSFERT AUTRE HOPITAL|Ameliore|Paracetamol 1 g|Physiotherapy twice a week.|18/02/2024 17:46
+307|307|24|28/06/2024 07:12|SSR (reeducation)|Stable|Furosemide 40 mg|Outpatient clinic appointment booked.|N/A
+308|308|11|21/01/2025 16:12|Domicile avec aide|Stable|Furosemide 40 mg|Physiotherapy twice a week.|
+309|309|22|11/08/2025 19:12|Domicile avec aide|Moyen|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|26/08/2025 00:12
+310|310|4|31/05/2023 23:27|Domicile|Moyen|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|24/06/2023 03:27
+311|311|3|24/08/2024 05:52|Transfert autre hopital|Moyen|Atorvastatin 20 mg|Rest and hydration.|20/09/2024 06:52
+312|312|20|21/12/2023 19:49|SSR (reeducation)|-|Amoxicillin 1 g|Physiotherapy twice a week.|03/02/2024 23:49
+313|313|21|2024-02-05T21:49|Domicile|Moyen|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|19/03/2024 02:49
+314|314|17|14/05/2022 09:05|Domicile avec aide|Ameliore|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|13/06/2022 10:05
+315|315|23|17/12/2023 06:22|SSR (reeducation)|Moyen|Levothyroxine 50 mcg||28/01/2024 12:22
+316|316|12|23/08/2023 20:28|Domicile avec aide|Moyen|Amoxicillin 1 g|Physiotherapy twice a week.|02/10/2023 20:28
+317|317|24|25/12/2023 09:56|Domicile|Ameliore|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|17/01/2024 09:56
+318|318|13|13/04/2024 07:56|ehpad|Ameliore|Ramipril 5 mg|Physiotherapy twice a week.|29/04/2024 07:56
+319|319|2|22/07/2023 17:09|Domicile|Ameliore|Paracetamol 1 g|Rest and hydration.|10/08/2023 18:09
+320|320|12|19/12/2024 17:56|Domicile avec aide|Moyen|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|28/01/2025 20:56
+321|321|15|16/03/2023 03:06|EHPAD|Moyen|Furosemide 40 mg|Rest and hydration.|12/04/2023 05:06
+322|322|9|10/11/2022 21:24|Domicile|Moyen|Furosemide 40 mg|Follow up with the GP in 2 weeks.|22/11/2022 21:24
+323|323|2|09/05/2023 09:24|SSR (reeducation)|Stable|Furosemide 40 mg|Physiotherapy twice a week.|01/06/2023 14:24
+324|324|9|02/05/2022 10:47|SSR (reeducation)|Stable|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|24/05/2022 11:47
+325|325|21|03/08/2022 06:14|Domicile avec aide|N/A|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|18/08/2022 09:14
+326|326|5|12/01/2023 07:14|EHPAD|Ameliore|Ramipril 5 mg|Outpatient clinic appointment booked.|28/01/2023 08:14
+327|327|2|28/08/2024 17:29|EHPAD|Ameliore|Aspirin 75 mg|Rest and hydration.|-
+328|328|10|02/07/2024 11:11|EHPAD|-|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|28/07/2024 11:11
+329|329|2|18/10/2024 07:11|Domicile|null|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|09/11/2024 13:11
+330|330|17|09/07/2025 04:11|Domicile|Stable|?|Outpatient clinic appointment booked.|26/07/2025 09:11
+331|331|10|06/11/2022 02:27|Domicile|Moyen|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|21/11/2022 04:27
+332|332|12|16.06.2024 00:00|SSR  (reeducation)||Ramipril 5 mg|Outpatient clinic appointment booked.|16/07/2024 06:00
+333|333|23|05/10/2024 07:00|Transfert autre hopital|Stable|Levothyroxine 50 mcg|Physiotherapy twice a week.|31/10/2024 08:00
+334|334|7|18/02/2023 17:46|Transfert autre hopital|Stable|Bisoprolol 2.5 mg|Physiotherapy twice a week.|07/03/2023 21:46
+335|335|1|03/12/2023 20:46||Ameliore|Ramipril 5 mg|Physiotherapy twice a week.|10/01/2024 23:46
+336|336|15|25/11/2022 20:35|Transfert autre hopital|Moyen|Levothyroxine 50 mcg|Rest and hydration.|19/12/2022 23:35
+323|323|2|09/05/2023 09:24|SSR (reeducation)|Stable|Furosemide 40 mg|Physiotherapy twice a week.|01/06/2023 14:24
+337|337|22|28/10/2024 00:26|SSR (reeducation)|Moyen|Bisoprolol 2.5 mg|-|29/11/2024 03:26
+338|338|5|17/04/2025 19:26|EHPAD|Moyen|Amoxicillin 1 g|Rest and hydration.|15/05/2025 20:26
+339|339|12|29.01.2023 12:35|Domicile avec aide|Stable|Bisoprolol 2.5 mg|Return to the emergency department if symptoms worsen.|
+340|340|16|07/11/2023 17:35|Domicile|Stable|Amoxicillin 1 g|Rest and hydration.|24/11/2023 23:35
+341|341|4|17/09/2022 11:53|SSR (reeducation)|Ameliore|Metformin 850 mg|Physiotherapy twice a week.|05/10/2022 11:53
+342|342|2|29/01/2023 12:53|-|Moyen|Metformin 850 mg|Rest and hydration.|15/03/2023 15:53
+343|343|17|20/04/2023 14:53|?|Ameliore|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|19/05/2023 20:53
+344|344|14|09/02/2022 05:30|Domicile|Ameliore|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|18/03/2022 05:30
+345|345|17|09/04/2022 08:30|-|Ameliore|Furosemide 40 mg|Follow up with the GP in 2 weeks.|25/04/2022 10:30
+346|346|11|23/05/2022 16:30|Domicile avec aide|Moyen|Levothyroxine 50 mcg|Physiotherapy twice a week.|04/07/2022 16:30
+347|347|11|09/09/2022 11:30|SSR  (reeducation)|Ameliore|Atorvastatin 20 mg|Physiotherapy twice a week.|02/10/2022 13:30
+348|348|24|28/05/2023 06:12|Domicile avec aide|Stable|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|22/06/2023 12:12
+349|349|13|08/03/2024 13:18|Domicile avec aide|Moyen|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|11/04/2024 14:18
+338|338|5|17/04/2025 19:26|EHPAD|Moyen|Amoxicillin 1 g|Rest and hydration.|15/05/2025 20:26
+350|null|10|24/05/2022 05:16|Domicile avec aide|Stable|none|Return to the emergency department if symptoms worsen.|16/06/2022 06:16
+351|351|7|19/11/2022 04:16|Domicile|Moyen|Paracetamol 1 g|fOLLOW UP WITH THE gp IN 2 WEEKS.|23/12/2022 09:16
+352|352|23|15/01/2023 15:16|EHPAD|Stable|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|17/02/2023 15:16
+353|353|17|31/08/2023 20:16|EHPAD|Stable|Metformin 850 mg|Physiotherapy twice a week.|14.09.2023 01:16
+354|354|1|01/11/2023 17:16|Transfert autre hopital|Moyen|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|03/12/2023 21:16
+355|355|14|a preciser|Domicile|Ameliore|Atorvastatin 20 mg|Rest and hydration.|25/12/2022 02:27
+356|356|11|01/04/2022 20:57|Domicile|Ameliore|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|12/05/2022 22:57
+357|357|19|23/07/2022 04:57|EHPAD| Ameliore |Ramipril 5 mg|Follow up with the GP in 2 weeks.|
+358|358|7|22/11/2023 14:34|SSR (reeducation)|Ameliore|none|Return to the emergency department if symptoms worsen.   |02/01/2024 17:34
+359|359|6|10/04/2024 15:34| SSR (reeducation) |Ameliore|none|Outpatient clinic appointment booked.|08/05/2024 17:34
+360|360|9|19/05/2024 18:34|Domicile| Stable |Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|21/06/2024 23:34
+361|361|21|23/01/2025 16:34|EHPAD|N/A|Levothyroxine 50 mcg|Rest and hydration.|06/03/2025 20:34
+362|362|3|22/12/2022 11:30|EHPAD|Ameliore|none|null|03/01/2023 13:30
+363|363|2732|25/04/2022 00:12|Domicile avec aide|Stable|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|-
+364|364|8|21/04/2022 06:27|N/A|Stable|Paracetamol 1 g|Outpatient clinic appointment booked.|03/06/2022 06:27
+365|365|12|08/07/2023 13:55|SSR (reeducation)|Stable|Ramipril 5 mg|Outpatient clinic appointment booked.|14/08/2023 15:55
+366|366|15|21/05/2024 06:32|Transfert autre hopital|Stable|N/A|Outpatient clinic appointment booked.|14/06/2024 11:32
+367|367|16|24/07/2024 09:32|Domicile avec aide|Stable|Paracetamol 1 g|Follow up with the GP in 2 weeks.|18/08/2024 13:32
+368|368|17|17/05/2022 09:26|SSR (reeducation)|Stable|Aspirin 75 mg|Outpatient  clinic appointment booked.|14/06/2022 10:26
+369|369|18|30/08/2023 06:35|Domicile avec aide|Moyen|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|09/09/2023 08:35
+370|370|12|09/11/2023 15:35|SSR (reeducation)|Ameliore|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|20/12/2023 18:35
+371|371|3|23/11/2023 10:15|SSR (reeducation)|Ameliore|none|?|22/12/2023 11:15
+372|372|16|10-02-2024 09:15|Transfert autre hopital|Ameliore|-|Physiotherapy twice a week.|06/03/2024 10:15
+373|373|10|17/08/2024 13:15|EHPAD|Ameliore|Metformin 850 mg|Return to the emergency department if symptoms worsen.|03/09/2024 19:15
+374|374|2|2024-12-01T09:26|Domicile|Moyen|Paracetamol 1 g||12/12/2024 15:26
+375|375|21|31/07/2024 16:54|EHPAD|Ameliore|none|Outpatient clinic appointment booked.|22/08/2024 17:54
+376|376|6|26/08/2024 00:27|Transfert autre hopital|Stable|none|Physiotherapy twice a week.|07/10/2024 00:27
+377|377|19|17/12/2022 20:40|SSR (reeducation)|MOYEN|none|Outpatient clinic appointment booked.|20/01/2023 21:40
+378|378|23|15/09/2023 23:40|Domicile|Ameliore|none|Rest and hydration.|22/10/2023 03:40
+379|379|10|11/09/2022 12:07|EHPAD|Stable|-|Physiotherapy twice a week.|16/10/2022 12:07
+380|380|2|30/05/2023 13:05|Chambre mortuaire|Decede|||
+381|381|18|23/02/2024 09:18|SSR (reeducation)|Stable|Aspirin 75 mg|Rest and hydration.|23/03/2024 12:18
+382|382|13|14/05/2023 12:56|CHAMBRE MORTUAIRE|Decede|||
+383|383|6|25/04/2023 09:56|Domicile avec aide|Ameliore|none|Rest and hydration.|03/06/2023 15:56
+384|384|6|31/08/2022 11:39|EHPAD|Moyen|Metformin 850 mg|Follow up with the GP in 2 weeks.|10/09/2022 16:39
+385|385|12|06/07/2024 07:55|Domicile avec aide|Moyen|Atorvastatin 20 mg|Physiotherapy twice a week.|09/08/2024 12:55
+386|386|21|10/11/2022 16:09|Domicile|mOYEN|Paracetamol 1 g|-|24/11/2022 17:09
+387|387|16|16/06/2023 15:19|EHPAD|Moyen|none|Physiotherapy twice a week.|20/07/2023 17:19
+388|388|11|07/12/2023 04:19|Domicile|Ameliore|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|28/12/2023 09:19
+389|389|17|27/04/2022 23:04|EHPAD|Ameliore|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|11/05/2022 00:04
+390|null|8|10/01/2025 13:57|Domicile|Moyen|Bisoprolol 2.5 mg|Return to the emergency department if symptoms worsen.|22/01/2025 13:57
+391|391|16|01/02/2024 18:17|EHPAD|Stable|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|21/02/2024 23:17
+392|392|11|10/12/2023 23:23|EHPAD|Moyen|Amoxicillin 1 g|N/A|12/01/2024 00:23
+393|393|7|10/02/2022 14:18|EHPAD|Moyen|none|Rest and hydration.|26/02/2022 20:18
+394|394|10|10/10/2024 13:58|Transfert autre hopital|?|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|23/11/2024 13:58
+395|395|18|27/02/2023 02:48|EHPAD|Stable|Levothyroxine 50 mcg|Rest and hydration.|09/03/2023 07:48
+396|396|7|02/10/2022 20:53|SSR (reeducation)|Ameliore|Furosemide 40 mg|Physiotherapy twice a week.|21/10/2022 21:53
+397|397|16|26/09/2023 20:05|Domicile avec aide|Moyen|Amoxicillin 1 g|Physiotherapy twice a week.|31/10/2023 21:05
+398|398|3|19/11/2024 14:29|EHPAD|Moyen|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|21/12/2024 20:29
+399|399|18|31/03/2023 01:18|Transfert autre hopital|Ameliore|Paracetamol 1 g|Physiotherapy twice a week.|25/04/2023 05:18
+400|400|23|13/12/2023 03:18|Domicile avec aide|Stable|Bisoprolol 2.5 mg|Return to the emergency department if symptoms worsen.|30/12/2023 04:18
+401|401|20|14/03/2023 08:27|Domicile|Ameliore|Aspirin 75 mg|N/A|04/04/2023 14:27
+402|402|20|05/07/2023 11:27|EHPAD|Stable|Metformin 850 mg|Rest and hydration.|22/07/2023 17:27
+403|403|21|21/07/2023 05:36|SSR (reeducation)|Stable|Bisoprolol 2.5 mg|Rest and hydration.|12/08/2023 11:36
+404|404|16|04/08/2023 10:48|Domicile|Ameliore|Bisoprolol 2.5 mg|Rest and hydration.|05/09/2023 15:48
+405|405|12|24/10/2024 15:46|Transfert autre hopital|Ameliore|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|02/12/2024 19:46
+406|406|7|11/07/2025 21:46|Transfert autre hopital|Ameliore|Paracetamol 1 g|Physiotherapy twice a week.|26/07/2025 21:46
+407|407|6|05/03/2024 21h56|Domicile|-|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|19/04/2024 22:56
+408|408|21|10/04/2022 21:25|SSR (reeducation)|Ameliore|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|24/05/2022 02:25
+409|409|18|09/12/2022 22:25|Transfert autre hopital|Moyen|Metformin 850 mg|Return to the emergency department if symptoms worsen.|28/12/2022 23:25
+410|410|10|01/02/2024 07:33|SSR (reeducation)|Stable|none|Follow up with the GP in 2 weeks.|13/03/2024 13:33
+411|411|23|04/08/2022 15:47|Transfert autre hopital|Ameliore|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|17/09/2022 17:47
+412|412|17|23/01/2023 17:17|Transfert autre hopital|Moyen|Levothyroxine 50 mcg|Physiotherapy twice a week.|2023-03-08T18:17
+413|413|19|05/07/2023 04:21|Domicile avec aide|Moyen|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|19/08/2023 11:21
+414|414|1|24/01/2022 01:22|Domicile avec aide|Moyen|N/A|Physiotherapy twice a week.|26/02/2022 06:22
+415|415|8|29/10/2022 11:22|SSR (reeducation)|Moyen|Metformin 850 mg|Follow up with the GP in 2 weeks.|08/11/2022 16:22
+416|416|19|09/08/2022 08:03|Domicile|Moyen|Levothyroxine 50 mcg|  Return to the emergency department if symptoms worsen.|29/08/2022 08:03
+411|411|23|04/08/2022 15:47|transfert autre hopital|Ameliore|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|17/09/2022 17:47
+417|417|3|22/04/2023 11:58|EHPAD|Moyen|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|15/05/2023 12:58
+405|405|12|24/10/2024 15:46|Transfert autre hopital|Ameliore|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|02/12/2024 19:46
+418|418|11|29/12/2024 19:27|EHPAD|Stable|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|16/01/2025 01:27
+419|419|12|12/04/2022 06:39|Transfert autre hopital|Stable|Ramipril 5 mg|Follow up with the GP in 2 weeks.|24/05/2022 12:39
+420|420|5|31/12/2024 23:59|EHPAD| Ameliore |Metformin 850 mg|Follow up with the GP in 2 weeks.|09/02/2025 00:59
+421|421|15|09/08/2022 00:33|EHPAD|Stable|none|Outpatient clinic appointment booked.|24/08/2022 15:33
+422|422|19|03/08/2022 08:38|Domicile|Ameliore|Furosemide 40 mg|Outpatient clinic appointment booked.|19.08.2022 14:38
+423|423|24|14/12/2022 18:53|SSR (reeducation)|Moyen|Ramipril 5 mg|Physiotherapy twice a week.|17/01/2023 21:53
+424|424|19|03/02/2023 02:53|Transfert autre hopital|Ameliore|Levothyroxine 50 mcg|Rest and hydration.|06/03/2023 08:53
+425|425|24|05/02/2023 18:54|SSR (reeducation)|Moyen|Furosemide 40 mg|Rest and hydration.|16/02/2023 18:54
+426|426|17|12/11/2023 17:13|EHPAD|Moyen|none|Physiotherapy twice a week.|03/12/2023 21:13
+427|427|12|04/05/2024 18:13|Domicile avec aide|Stable|Bisoprolol 2.5 mg|Physiotherapy twice a week.|13/06/2024 20:13
+428|428|14|25/01/2023 03:03|Chambre mortuaire|Decede|||
+429|429|20|16/08/2023 22:59|N/A|Stable|Furosemide 40 mg|Outpatient clinic appointment booked.|22/09/2023 02:59
+430|1576|22|27/11/2022 04:10|Domicile|Moyen|none|Outpatient clinic appointment booked.|23/12/2022 08:10
+431|431|18|16/01/2023 00:10|SSR (reeducation)|Ameliore   |N/A|Outpatient clinic appointment booked.|28/02/2023 03:10
+432|432|22|26/06/2023 07:10|dOMICILE AVEC AIDE|Ameliore|Aspirin 75 mg|Outpatient clinic appointment booked.|07/08/2023 09:10
+433|1577|19|12/06/2023 00:52|Domicile|Ameliore|Amoxicillin 1 g|N/A|18/07/2023 06:52
+434|434|14|09/05/2024 02:56|Domicile| Ameliore |Metformin 850 mg|Return to the emergency department if symptoms worsen.|12/06/2024 04:56
+435|435|6|18/05/2022 04:51|Domicile avec aide|Moyen|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|11/06/2022 09:51
+436|436|13|13/01/2023 23:51|EHPAD|?|Aspirin 75 mg|Physiotherapy twice a week.|28/01/2023 04:51
+437|437|1|05/07/2023 04:49|Domicile avec aide|Moyen|Paracetamol 1 g|Outpatient clinic appointment booked.|23/07/2023 09:49
+438|438|9|12/04/2024 07:49|Transfert autre hopital|Ameliore|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|13/05/2024 11:49
+439|439|21|01/03/2023 23:34|Domicile|Stable|Bisoprolol 2.5 mg|Rest and hydration.|?
+440|440|19|08/02/2024 01:56|Domicile|Stable|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|02/03/2024 03:56
+441|441|4|09/09/2022 21:19|SSR (reeducation)|Ameliore|Levothyroxine 50 mcg|Rest and hydration.|14/10/2022 22:19
+442|442|15|18/06/2023 22:19|Domicile avec aide|Moyen|Bisoprolol 2.5 mg|Rest and hydration.|28/06/2023 22:19
+439|439|21|01/03/2023 23:34|Domicile|stable|Bisoprolol 2.5 mg|Rest and hydration.|?
+443|443|22|12/04/2024 11:19|Transfert autre hopital|Stable|Amoxicillin 1 g|Rest and hydration.|17/05/2024 11:19
+444|444|1547|08/11/2024 13:17|EHPAD|Moyen|Metformin 850 mg|Rest and hydration.|22/12/2024 17:17
+445|445|1|06/11/2024 04:05|Domicile avec aide|Stable|Paracetamol 1 g|Rest and hydration.|07/12/2024 08:05
+446|446|19|25/12/2024 15:05|Transfert autre hopital|Moyen|Ramipril 5 mg|Follow up with the GP in 2 weeks.|06/01/2025 18:05
+447|447|2|27/06/2022 13:45|Transfert autre hopital|Ameliore|none|Outpatient clinic appointment booked.|17/07/2022 15:45
+448|448|4|14/04/2023 18:45|Domicile avec aide|Moyen|Ramipril 5 mg|Physiotherapy twice a week.|12/05/2023 00:45
+449|449|21|02/11/2023 05:45|cHAMBRE MORTUAIRE|Decede|||
+450|450|8|01/09/2024 18:52|EHPAD|Moyen|Aspirin 75 mg|Physiotherapy twice a week.|20/09/2024 21:52
+451|451|10|10/01/2025 14:52|Domicile||Atorvastatin 20 mg|Outpatient clinic appointment booked.|31/01/2025 19:52
+452|452|24|08/04/2025 11:52|SSR (reeducation)|Stable|Levothyroxine 50 mcg|Physiotherapy twice a week.|20/04/2025 16:52
+453|453|9|27/05/2022 01:27|Chambre mortuaire|Decede|||
+454|454|9|18/10/2022 21:07|Transfert autre hopital|Moyen|Furosemide 40 mg|Follow up with the GP in 2 weeks.|31/10/2022 02:07
+455|455|11|26/07/2023 20:07|SSR (reeducation)|Stable|null|Follow up with the GP in 2 weeks.|07/09/2023 20:07
+456|456|11|03/07/2023 01:30|Domicile avec aide|Moyen|Aspirin 75 mg|Outpatient clinic appointment booked.|11/08/2023 05:30
+457|457|17|14/03/2024 02:30|SSR (reeducation)|Ameliore|Levothyroxine 50 mcg|Rest and hydration.|09/04/2024 06:30
+449|449|21|02/11/2023 05:45|cHAMBRE MORTUAIRE| Decede |||
+458|458|21|29/09/2024 18:51||Ameliore|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|02/11/2024 00:51
+459|459|14|17/06/2022 10:30|Transfert autre hopital|Stable|Ramipril 5 mg|Rest and hydration.|27/07/2022 12:30
+460|460|22|18/02/2023 19:30|Transfert autre hopital|Moyen|Bisoprolol 2.5 mg|Rest and hydration.|16/03/2023 20:30
+461|461|23|11/05/2023 21:17|Transfert autre hopital|Ameliore|Furosemide 40 mg|Physiotherapy twice a week.|10/06/2023 02:17
+462|462|21|11/03/2022 02:43|Transfert autre hopital|Ameliore|Atorvastatin 20 mg|Follow up with the GP in 2 weeks.|22/04/2022 02:43
+463|463|18|07/07/2022 18:49|EHPAD|Moyen|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|12/08/2022 21:49
+464|464|16|13/03/2023 16:49|Domicile|Ameliore|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|null
+465|465|19|30/09/2023 25:49|EHPAD|Moyen|Amoxicillin 1 g|Outpatient clinic appointment booked.|07/11/2023 01:49
+466|466|5|01/08/2022 18:42|Transfert autre hopital|Moyen|Paracetamol 1 g|Follow up with the GP in 2 weeks.|24/08/2022 18:42
+467|467|21|02/13/2023 11:38|Transfert autre hopital|Stable|Amoxicillin 1 g|null|24/09/2023 15:38
+468|468|6|19/04/2024 14:38| SSR (reeducation) |Moyen|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|02/05/2024 17:38
+469|469|21|16.10.2024 06:38|SSR (reeducation)|Stable|Amoxicillin 1 g|Rest and hydration.|22/11/2024 06:38
+470|470|10|19/03/2025 15:38|Transfert autre hopital|Moyen|Furosemide 40 mg|Outpatient clinic appointment booked.|13/04/2025 21:38
+471|471|24|01/10/2023 10:25|SSR (reeducation)|Ameliore|Aspirin 75 mg|Rest and hydration.|20/10/2023 16:25
+472|472|22|01/12/2023 04:25|Domicile avec aide|Ameliore|none|Follow up with the GP in 2 weeks.|02/01/2024 09:25
+473|473|23|02/09/2024 17:25|Domicile|Moyen|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|13/09/2024 22:25
+474|474|1|30/08/2023 15:08|EHPAD|Moyen   |Bisoprolol 2.5 mg||28/09/2023 16:08
+475|475|19|30/02/2023 10:08|?|  Ameliore|Furosemide 40 mg|Outpatient clinic appointment booked.|25/12/2023 11:08
+476|476|13|24/04/2024 11:08|-|Ameliore|Bisoprolol 2.5 mg|Physiotherapy twice a week.|01/06/2024 15:08
+477|477|21|29/11/2024 02:08|EHPAD|Moyen|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|16/12/2024 02:08
+478|478|15|14/04/2024 05:19|Domicile avec aide|Moyen|Bisoprolol 2.5 mg|Rest and hydration.|24/04/2024 11:19
+479|479|9|03/07/2022 14:34|EHPAD|Ameliore|Ramipril 5 mg|Rest and hydration.|07/08/2022 17:34
+480|480|10|12/04/2023 19:34|SSR (reeducation)|Stable|Amoxicillin 1 g|Rest and hydration.|26/05/2023 22:34
+481|481|12|30/06/2023 15:34|?|Stable|Furosemide 40 mg|Follow up with the GP in 2 weeks.|06/08/2023 16:34
+482|482|20|04/04/2024 18:34|SSR (reeducation)|Stable|none|Physiotherapy twice a week.|14/05/2024 00:34
+483|483|14|01/09/2024 22:39|Domicile avec aide| Moyen |Aspirin 75 mg|Physiotherapy twice a week.|29/09/2024 04:39
+484|484|7|32/01/2022 08:42|Domicile avec aide|Stable|Ramipril 5 mg|Physiotherapy twice a week.|11/03/2022 12:42
+485|485|13|17/03/2022 17:42|EHPAD|Ameliore|Bisoprolol 2.5 mg|Rest and hydration.|29/03/2022 20:42
+486|486|7|22/06/2022 19:42|Domicile avec aide|Stable|Aspirin 75 mg|Rest and hydration.|05/08/2022 00:42
+487|487|12|14/08/2022 11:42|SSR (reeducation)|Ameliore|Bisoprolol 2.5 mg|Return to the emergency department if symptoms worsen.|?
+488|488|13|14/02/2023 10:42|EHPAD|Stable|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|31/03/2023 14:42
+489|489|9|23/07/2024 13:24|Domicile|Ameliore|Amoxicillin 1 g|Outpatient clinic appointment booked.|10/08/2024 19:24
+490|490|16|23/02/2022 15:00|Domicile|Moyen|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|29/03/2022 19:00
+491|491|19|18/08/2022 22:49|EHPAD|Ameliore|Aspirin 75 mg|Physiotherapy twice a week.|30/08/2022 02:49
+492|492|21|02/03/2024 07:36|Transfert autre hopital|Stable||Physiotherapy twice a week.|22/03/2024 10:36
+493|493|8|14/02/2023 08:24|SSR (reeducation)|Ameliore|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|15/03/2023 08:24
+494|494|12|14/11/2023 19:44|SSR (reeducation)|Ameliore|Bisoprolol 2.5 mg|Physiotherapy twice a week.|27/11/2023 20:44
+495|495|20|24/06/2024 04:44|Domicile|Moyen|Furosemide 40 mg|Rest and hydration.|03.08.2024 09:44
+496|496|16|02/01/2024 09:27|EHPAD|Stable|Bisoprolol 2.5 mg|Rest and hydration.|06/02/2024 12:27
+497|497|11|01/10/2023 02:49|Domicile avec aide|Stable|Ramipril 5 mg|Rest and hydration.|04/11/2023 02:49
+498|498|18|06/01/2024 02:49|Domicile|Ameliore|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|06/02/2024 06:49
+499|499|19|27/08/2024 21:04|Domicile|Ameliore|Aspirin 75 mg|N/A|16/09/2024 00:04
+500|500|7|09/04/2024 18:39|EHPAD|Moyen|none|Physiotherapy twice a week.|28/04/2024 20:39
+501|501|21|22/12/2023 14:53|EHPAD|Stable|Furosemide 40 mg|Rest and hydration.|08/01/2024 15:53
+502|502|12|22/05/2024 17:53|Transfert autre hopital|Stable|-|Outpatient clinic appointment booked.|16/06/2024 21:53
+492|492|21|02/03/2024 07:36|Transfert autre hopital|Stable||Physiotherapy twice a week.|22/03/2024 10:36
+503|503|12|13/03/2024 04:30|SSR (reeducation)|Ameliore|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|null
+504|504|23|15/06/2022 07:06|SSR (reeducation)|Moyen|Bisoprolol 2.5 mg|Physiotherapy twice a week.|01/07/2022 13:06
+505|505|21|24/12/2022 10:06|Domicile|Stable|Atorvastatin 20 mg|Rest and hydration.|21/01/2023 16:06
+506|506|6|31/08/2022 03:23|Domicile|Moyen|?|Outpatient clinic appointment booked.|15/09/2022 05:23
+507|507|10|13/10/2024 12:58|EHPAD|Ameliore|Metformin 850 mg|Outpatient clinic appointment booked.|14/11/2024 16:58
+508|508|4|2025-03-21 15:58:00|SSR (reeducation)|Stable|Paracetamol 1 g|Follow up with the GP in 2 weeks.|11/04/2025 16:58
+509|509|22|29/11/2024 07:25|Domicile|Stable|Atorvastatin 20 mg|Outpatient clinic appointment booked.|25/12/2024 08:25
+510|510|9|02/08/2025 13:25|Domicile|Moyen|Atorvastatin 20 mg|rETURN TO THE EMERGENCY DEPARTMENT IF SYMPTOMS WORSEN.|30/08/2025 15:25
+511|511|2|26/11/2024 05:12|EHPAD|Ameliore|Ramipril 5 mg|Outpatient clinic appointment booked.|28/12/2024 11:12
+512|512|17|17/03/2025 07:12|Transfert autre hopital|Moyen|Atorvastatin 20 mg|Rest and hydration.|14/04/2025 07:12
+513|513|9|28/11/2024 08:50|SSR (reeducation)|Ameliore|Furosemide 40 mg|Rest and hydration.|15/12/2024 10:50
+514|514|12|10/02/2025 23:50|Domicile avec aide|Stable|Ramipril 5 mg|Rest and hydration.|26/02/2025 00:50
+515|515|17|06/10/2025 23:50|Transfert autre hopital|Stable|Levothyroxine 50 mcg|Physiotherapy twice a week.|?
+516|516|14|28/02/2024 08:21|Transfert autre hopital|Moyen|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|11/04/2024 12:21
+517|517|15|25/12/2024 14:13|EHPAD|Stable|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|
+518|518|22|02/06/2025 20:13|SSR (reeducation)|Moyen|Paracetamol 1 g|Follow up with the GP in 2 weeks.|18/06/2025 01:13
+519|519|20|26/01/2024 22:02|Domicile avec aide   |Moyen|none|Follow up with the GP in 2 weeks.|27/02/2024 23:02
+520|520|1|25/02/2023 04:18|SSR (REEDUCATION)|Stable|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|24/03/2023 10:18
+521|521|2|18/05/2023 04:18|Domicile avec aide|Stable|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|02/06/2023 06:18
+522|522|4|18/07/2022 22:22|EHPAD|Moyen|Furosemide 40 mg|Outpatient clinic appointment booked.|27/08/2022 23:22
+523|523|15|03/11/2024 03:54|EHPAD|Stable|Aspirin 75 mg|  Follow up with the GP in 2 weeks.|09/12/2024 07:54
+524|524|13|09/08/2023 21:01| EHPAD |Ameliore|Amoxicillin 1 g|-|19/08/2023 22:01
+525|525|4|13/11/2023 06:01|Domicile avec aide|Stable|Metformin 850 mg|Rest and hydration.|15/12/2023 07:01
+526|526|1|12/01/2024 22:01|Domicile|Ameliore|Metformin 850 mg|Outpatient clinic appointment booked.|21/02/2024 00:01
+527|527|17|25/06/2024 18:01|EHPAD|Stable|Bisoprolol 2.5 mg|Rest and hydration.|11/07/2024 23:01
+528|528|24|01/03/2023 23:20|Domicile|Stable|Furosemide 40 mg|Rest and hydration.|08/04/2023 04:20
+529|529|24|28/12/2023 08:20|EHPAD|Stable|Metformin 850 mg|Follow up with the GP in 2 weeks.|12/01/2024 11:20
+530|530|24|19/06/2024 15:20|SSR (reeducation)|Stable|Ramipril 5 mg|Follow  up with the GP in 2 weeks.|15/07/2024 21:20
+531|531|4|07/10/2024 21:20|EHPAD|Stable|Ramipril 5 mg|Physiotherapy twice a week.|25/10/2024 22:20
+532|532|3|06/02/2022 01:01|Domicile avec aide|Ameliore|Ramipril 5 mg|Rest and hydration.|25/02/2022 07:01
+533|533|10|29/04/2023 11:36|EHPAD| Stable |Bisoprolol 2.5 mg|Rest and hydration.|08/06/2023 16:36
+534|534|11|19/10/2023 23:36|EHPAD|Moyen|Metformin 850 mg|Follow up with the GP in 2 weeks.|11/11/2023 04:36
+535|535|9|11/06/2024 03:54|EHPAD|Stable|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|08/07/2024 04:54
+536|536|7|28/02/2025 06:54|SSR (reeducation)|Stable|-|Physiotherapy twice a week.|25/03/2025 06:54
+537|537|12|25/12/2023 13:56|Transfert autre hopital|Stable|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|08/02/2024 16:56
+538|538|16|09/08/2022 00:50|EHPAD|Ameliore|none|Physiotherapy twice a week.|21/08/2022 00:50
+539|539|10|09/03/2023 15:50|SSR (reeducation)|Stable|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|21/03/2023 19:50
+540|540|16|18/06/2022 12:52|SSR (reeducation)|Ameliore|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|30/06/2022 15:52
+541|541|10|19/08/2022 21:52|Domicile|MOYEN|none|Return to the emergency department if symptoms worsen.|02/10/2022 01:52
+542|542|14|23/05/2022 16:45|Domicile avec aide|  Moyen|Levothyroxine 50 mcg||10/06/2022 18:45
+543|543|22|05/09/2023 17:50|Domicile avec aide|Ameliore|Amoxicillin 1 g|Outpatient clinic appointment booked.|19/09/2023 19:50
+544|544|6|25/12/2023 18:50|Domicile|Moyen|none|Follow up with the GP in 2 weeks.|01/02/2024 00:50
+545|545|20|23/02/2023 02:28|SSR (reeducation)|Stable|Aspirin 75 mg|Physiotherapy  twice a week.|08/03/2023 02:28
+546|546|11|25.03.2023 20:56|Domicile|Ameliore|none|Physiotherapy twice a week.|06/05/2023 20:56
+547|547|10|12/09/2023 00:56|EHPAD|Stable|none|Return to the emergency department if symptoms worsen.|15/10/2023 01:56
+548|548|17|27/07/2022 00:10|Transfert autre hopital|Stable|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|2022-08-27 03:10:00
+549|549|13|30/12/2022 00:10|Domicile avec aide|Stable   |Paracetamol 1 g|Return to the emergency department if symptoms worsen.|01/02/2023 04:10
+550|550|15|10/09/2023 15:10|SSR (reeducation)|Stable|Ramipril 5 mg|Physiotherapy twice a week.|25/10/2023 17:10
+551|551|5|07/02/2022 06:24|dOMICILE|Ameliore|Bisoprolol 2.5 mg|Rest and hydration.|N/A
+552|552|10|18/05/2022 20:46|Domicile avec aide|Moyen|Furosemide 40 mg|Rest and hydration.|04/06/2022 00:46
+553|553|6|13/01/2024 05:03|N/A|Decede|||
+554|554|11|09/04/2023 01:03|SSR (reeducation)|Moyen|Ramipril 5 mg|-|21/05/2023 02:03
+555|555|12|16/08/2023 11:03|SSR (reeducation)|Ameliore|none|Return to the emergency department if symptoms worsen.|08/09/2023 16:03
+556|556|7|0000-00-00|SSR (reeducation)|Stable|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|06/03/2024 10:03
+557|557|4|28/04/2024 01:19|SSR (reeducation)|Moyen   |none|Outpatient clinic appointment booked.|04/06/2024 06:19
+558|558|8|21/11/2022 20:31|EHPAD|Moyen|Paracetamol 1 g|Rest and hydration.|21/12/2022 23:31
+559|559|1|14/06/2023 06:31|Domicile avec aide|Stable|Paracetamol 1 g|Physiotherapy twice a week.|27/06/2023 06:31
+560|560|23|10/02/2024 01:14|Domicile|Moyen|none|RETURN TO THE EMERGENCY DEPARTMENT IF SYMPTOMS WORSEN.|21/02/2024 05:14
+561|561|19|19/06/2024 10:14|Transfert autre hopital|Stable|Aspirin 75 mg|Rest and hydration.|-
+562|562|24|15/01/2025 05:14|Domicile|Ameliore|Furosemide 40 mg|Physiotherapy twice a week.|25/01/2025 11:14
+563|563|8|06/09/2024 07:17|EHPAD|Ameliore|Aspirin 75 mg|Physiotherapy twice a week.|17/09/2024 08h17
+564|564|21|04/04/2025 10:17|Transfert autre hopital|Moyen|none|Physiotherapy twice a week.|26/04/2025 10:17
+565|565|20|10/10/2023 22:10|SSR (reeducation)|Stable|Furosemide 40 mg|Physiotherapy twice a week.|22/11/2023 01:10
+566|566|3|09/01/2024 23:10|Domicile avec aide|Moyen|Furosemide 40 mg|Outpatient clinic appointment booked.|20/01/2024 23:10
+567|567|18|29/04/2024 09:10|Domicile avec aide|Ameliore|Aspirin 75 mg|Rest and hydration.|24/05/2024 14h10
+568|568|19|10/08/2022 12:34|Domicile avec aide|Ameliore|Bisoprolol 2.5 mg|N/A|05/09/2022 16:34
+569|569|5|22/06/2023 06:05|Transfert autre hopital|Moyen|Furosemide 40 mg|Physiotherapy twice a week.|02/07/2023 08:05
+570|570|5|10/06/2023 14:23|Domicile avec aide|Ameliore|Ramipril 5 mg|Outpatient clinic appointment booked.|25.06.2023 20:23
+571|571|4|14/08/2024 13:07|Domicile avec aide|Moyen|Aspirin 75 mg|Return to the emergency department if symptoms worsen.|25/09/2024 17:07
+572|572|8|06/03/2022 20:22|Domicile|Moyen|Ramipril 5 mg|Rest and hydration.|30/03/2022 20:22
+573|573|21|01/01/2023 07:22|Domicile|Stable|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|24/01/2023 10:22
+574|574|1|08/08/2023 00:22|Domicile avec aide|Stable|Ramipril 5 mg|Physiotherapy twice a week.|30/08/2023 00:22
+575|575|5|23/05/2023 05:14|EHPAD|Stable|Metformin 850 mg|Return to the emergency department if symptoms worsen.|04/06/2023 11:14
+576|576|4|19/12/2023 13:14|EHPAD|Stable|Aspirin 75 mg|Follow up with the GP in 2 weeks.|02.01.2024 13:14
+577|577|18|30/02/2024 18:14|Domicile|Moyen|Aspirin 75 mg|Follow up with the GP in 2 weeks.|16/03/2024 21:14
+578|578|17|07/11/2024 00:14|Transfert autre hopital|Moyen|Ramipril 5 mg|Outpatient clinic appointment booked.|17/12/2024 04:14
+579|579|1|23/09/2024 10:27| SSR (reeducation) |Stable||Rest and hydration.|08/10/2024 14:27
+580|580|22|21/06/2023 05:28|Chambre mortuaire|Decede|||
+581|581|9|25/12/2023 17:56|Transfert autre hopital|Moyen|Metformin 850 mg|Follow up with the GP in 2 weeks.|05/01/2024 18:56
+582|582|18|25/05/2024 01:56|Transfert autre hopital|Ameliore|Atorvastatin 20 mg|Physiotherapy twice a week.|28/06/2024 06:56
+583|583|16|16/12/2024 18:56|Transfert autre hopital|Ameliore|Aspirin 75 mg|Rest and hydration.|19/01/2025 00:56
+584|584|17|21/07/2025 02:56|Transfert autre hopital|-|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|03/08/2025 03:56
+585|585|2|28/10/2023 18:39|Transfert autre hopital|Moyen|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|11/12/2023 21:39
+586|586|2|27/06/2024 23:39|SSR (reeducation)|Moyen|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|?
+587|587|5|12/01/2023 10:32|EHPAD|Moyen|Metformin 850 mg|Outpatient clinic appointment booked.|23/02/2023 13:32
+588|588|9|21/06/2024 18:41|Domicile avec aide|?|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|12/07/2024 21:41
+589|589|2|26/06/2023 03:06|Transfert autre hopital|Ameliore|null|  Follow up with the GP in 2 weeks.|28/07/2023 05:06
+590|590|16|30/07/2022 02:00|Domicile|Moyen|Aspirin 75 mg|Rest and hydration.|11/09/2022 02:00
+585|585|2|28/10/2023 18:39|TRANSFERT AUTRE HOPITAL|Moyen|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|11/12/2023 21:39
+591|591|11|17/04/2022 23:40|SSR (reeducation)|Moyen|Aspirin 75 mg|Physiotherapy twice a week.|07/05/2022 03:40
+592|592|20|13/13/2022 18:40|Domicile|Stable|Paracetamol 1 g|Rest and hydration.|29/09/2022 00:40
+593|593|19|14/06/2023 01:34|SSR (reeducation)|Moyen|none|Return to the emergency department if symptoms worsen.|29/07/2023 03:34
+594|594|21|07/09/2024 02:05|Domicile|Moyen|none|Physiotherapy twice a week.|13/10/2024 02:05
+595|595|1|26/05/2022 00:42|EHPAD|Moyen|none|Follow up with the GP in 2 weeks.|19/06/2022 03:42
+596|596|1|18/08/2022 17:42|EHPAD|Ameliore|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|13/09/2022 21:42
+597|597|24|05/04/2022 06:51|EHPAD|Moyen|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|11/05/2022 11:51
+598|598|1|24/10/2024 23:27|dOMICILE AVEC AIDE|Ameliore|none|Physiotherapy twice a week.|06/12/2024 23:27
+599|599|15|04/07/2023 07:20|ehpad|Moyen|N/A|Follow up with the GP in 2 weeks.|16/07/2023 13:20
+600|600|9|24/03/2024 15:20|EHPAD|Moyen|Aspirin 75 mg|Follow up with the GP in 2 weeks.|18/04/2024 21:20
+601|601|22|16/12/2024 23:20|SSR (reeducation)|Moyen|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|26/12/2024 23:20
+602|602|22|29/09/2025 00:20|Transfert autre hopital|Moyen|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|21/10/2025 01:20
+603|603|15|05/01/2024 11:28|SSR (reeducation)|Ameliore|Metformin 850 mg|Outpatient clinic appointment booked.|null
+604|604|20|26/06/2024 21:28|EHPAD|Ameliore|null|Physiotherapy twice a week.|31/07/2024 00:28
+605|605|1|09/11/2024 05:22|EHPAD|Ameliore|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|24/12/2024 07:22
+606|606|19|09.02.2025 21:22|Transfert autre hopital|Ameliore|Ramipril 5 mg|Follow up with the GP in 2 weeks.|01/03/2025 23:22
+607|607|18|03/09/2022 01:33|Transfert autre hopital|Stable|Bisoprolol 2.5 mg|Rest and hydration.|02/10/2022 03:33
+608|608|8|27/10/2022 06:33|SSR (reeducation)|Stable|none|RETURN TO THE EMERGENCY DEPARTMENT IF SYMPTOMS WORSEN.|04/12/2022 08:33
+609|609|20|17/01/2023 14:33|SSR (reeducation)|Stable|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|25/02/2023 19:33
+610|610|22|07.05.2024 16:50|Domicile avec aide|null|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|19/05/2024 18:50
+611|611|20|29/03/2024 14:56|Transfert autre hopital|Ameliore|Metformin 850 mg|Physiotherapy twice a week.|11/05/2024 15:56
+612|612|7|10/09/2024 19:56|SSR (reeducation)|Stable|Ramipril 5 mg|Rest and hydration.|2024-09-23T20:56
+613|613|15|26/11/2024 16:56|Transfert autre hopital|Moyen|none|Rest and hydration.|17/12/2024 16:56
+614|614|24|30/06/2024 21:45|N/A|Moyen|Amoxicillin 1 g|Outpatient clinic appointment booked.|08/08/2024 00:45
+615|615|8|28/07/2024 11:13|EHPAD|Stable|none|Physiotherapy twice a week.|19/08/2024 16:13
+616|616|9|26/09/2024 22:13|EHPAD|Ameliore|-|Return to the emergency department if symptoms worsen.|23/10/2024 22:13
+617|617|16|13/04/2025 06:13|EHPAD|  Ameliore|Metformin 850 mg|Physiotherapy twice a week.|27/04/2025 09:13
+618|618|17|07/08/2025 15:13|Domicile|Moyen|Levothyroxine 50 mcg|Outpatient clinic appointment booked.|16/09/2025 15:13
+619|619|14|28/03/2024 23:44|Domicile|Ameliore|Bisoprolol 2.5 mg|Rest and hydration.|28/04/2024 03:44
+620|620|2|19/08/2022 11:26|Domicile avec aide|Ameliore|Paracetamol 1 g|Rest and hydration.|14/09/2022 13:26
+621|621|10|06/09/2024 06:25|EHPAD|Ameliore|-|Return to the emergency department if symptoms worsen.|06/10/2024 06:25
+622|622|21|21/03/2023 14:47|  Domicile|Ameliore||Physiotherapy twice a week.|09/04/2023 20:47
+623|623|14|18/10/2024 01:36|EHPAD|Moyen|none| Physiotherapy twice a week. |23/11/2024 07:36
+624|624|1|01/02/2025 05:36|Domicile|Ameliore|Atorvastatin 20 mg|Rest and hydration.|09/03/2025 09:36
+625|625|7|01/06/2024 19:12|tRANSFERT AUTRE HOPITAL|Ameliore|Paracetamol 1 g|Rest and hydration.|01/07/2024 00:12
+626|626|1|07/11/2023 08:21|Domicile   |Ameliore|Ramipril 5 mg|?|09/12/2023 09:21
+625|625|7|01/06/2024 19:12|tRANSFERT AUTRE HOPITAL|Ameliore|Paracetamol 1 g|Rest and hydration.|01/07/2024 00:12
+627|627|20|07/09/2022 01:46|EHPAD|Stable|Amoxicillin 1 g|Rest and hydration.|30/09/2022 06:46
+628|628|9|15/03/2023 10:50|Transfert autre hopital|Moyen|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|16/04/2023 13:50
+629|629|5|07/07/2023 18:50|EHPAD|Moyen|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|02/08/2023 23:50
+630|630|21|12/10/2023 06:23|Domicile|Moyen|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|16/11/2023 06:23
+631|631|18|27/10/2024 14:22|Transfert autre hopital|Moyen|Ramipril 5 mg|Follow up with the GP in 2 weeks.|2024-11-23 17:22:00
+632|632|19|01/06/2022 06:46|SSR (reeducation)|Moyen|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|11/07/2022 08:46
+633|633|12|22/05/2023 23:40|SSR (reeducation)|Moyen|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|27/06/2023 23:40
+634|634|20|10/08/2022 13:16|Transfert autre hopital|Ameliore|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|18/09/2022 13:16
+635|635|7|19/05/2024 02:02|Transfert autre hopital|Stable|Metformin 850 mg|Outpatient clinic appointment booked.|17/06/2024 06:02
+636|636|20|16/04/2024 11:12|Domicile|Moyen|Ramipril 5 mg|Rest and hydration.|15/05/2024 16:12
+637|637|20|02/02/2025 03:12|EHPAD| Moyen |Furosemide 40 mg|Return to the emergency department if symptoms worsen.|07/03/2025 04:12
+638|639|6|15/02/2022 11:01|ehpad|Ameliore|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|20/03/2022 12:01
+639|640|22|11/06/2022 11:01|EHPAD|Moyen|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|13/07/2022 14:01
+640|641|2|12/07/2022 20:01|Transfert autre hopital|Stable|Paracetamol 1 g|Rest and hydration.|23/08/2022 01:01
+641|642|4|11/01/2023 15:01|Domicile avec aide|Stable|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|19/02/2023 15:01
+642|643|13|07/09/2024 00:07|SSR (reeducation)|Ameliore|Aspirin 75 mg|Physiotherapy twice a week.|01/10/2024 03:07
+643|644|9|19/12/2024 12:07|Domicile|Stable|?|Outpatient clinic appointment booked.|31/12/2024 15:07
+644|645|6|25/07/2025 21:07|-|Stable|Aspirin 75 mg|Rest and hydration.|16/08/2025 22:07
+645|646|10|24/06/2022 13:12|SSR (reeducation)|Stable|Furosemide 40 mg|Follow up with the GP in 2 weeks.|06/07/2022 15h12
+646|647|11|05/01/2023 09:12|Domicile|Stable|Paracetamol 1 g|Follow up with the GP in 2 weeks.|17/01/2023 10:12
+647|648|11|a preciser|EHPAD|Stable|Metformin 850 mg|Rest and hydration.|14/07/2022 19:08
+648|649|1|28/10/2022 00:08|EHPAD|Moyen|Amoxicillin 1 g|Outpatient clinic appointment booked.|23/11/2022 05:08
+649|650|5|02/04/2023 17:08|Domicile|Ameliore|Furosemide 40 mg| Return to the emergency department if symptoms worsen. |10/05/2023 20:08
+637|637|20|02/02/2025 03:12|EHPAD| Moyen |Furosemide 40 mg|Return to the emergency department if symptoms worsen.|07/03/2025 04:12
+650|651|21|08/06/2022 07:17|Domicile avec aide|null|Metformin 850 mg|Follow up with the GP in 2 weeks.|03/07/2022 13:17
+651|652|17|06/02/2023 02:17|Domicile avec aide|Stable|Metformin 850 mg|Return to the emergency department if symptoms worsen.|21/03/2023 07:17
+652|653|11|29/05/2023 10:17|Transfert autre hopital|Stable|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|12/06/2023 16:17
+653|654|15|20/09/2022 08:45|Transfert autre hopital|Ameliore|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|11/10/2022 08:45
+654|655|9|05/08/2023 22:44|Domicile avec aide|Moyen||Follow up with the GP in 2 weeks.|15/09/2023 22:44
+655|656|6|23/05/2024 20:01|Domicile|Ameliore|none|Rest and hydration.|08/06/2024 01:01
+656|657|4|07/07/2024 03:01|Transfert autre hopital|Ameliore|Bisoprolol 2.5 mg|Physiotherapy twice a week.|18/08/2024 09:01
+657|658|9|26/09/2024 10:01|SSR (reeducation)|Stable|Ramipril 5 mg|Return to the emergency department if symptoms worsen.|01.11.2024 15:01
+658|659|14|10/04/2022 14:36|SSR (reeducation)|Stable|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|02/05/2022 18:36
+659|660|3|06/07/2023 07:36|Domicile|Moyen|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|?
+660|661|15|31/03/2023 22:37|SSR (reeducation)|Moyen|Amoxicillin 1 g|Return to the emergency department if symptoms worsen.|07/05/2023 00:37
+661|662|17|23/10/2022 00:09|Transfert autre hopital|Stable|Atorvastatin 20 mg|Outpatient clinic appointment booked.|26/11/2022 05:09
+662|663|23|05/04/2023 11:54|Domicile|Moyen|Furosemide 40 mg|Rest and hydration.|06/05/2023 11:54
+663|664|10|21/09/2022 23:21|Transfert autre hopital|Stable|Metformin 850 mg|Rest and hydration.|04/11/2022 05:21
+651|652|17|06/02/2023 02:17|Domicile avec aide|Stable|Metformin 850 mg|Return to the emergency department if symptoms worsen.|21/03/2023 07:17
+664|665|5|02/01/2023 02:21|EHPAD|Moyen|Furosemide 40 mg|Outpatient clinic appointment booked.|01/02/2023 08:21
+665|666|16|10/05/2023 05:21|Domicile|Stable|Aspirin 75 mg|  Physiotherapy twice a week.|26/05/2023 10:21
+666|667|21|23/09/2023 15:21|Transfert autre hopital|Ameliore|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|03/10/2023 16:21
+667|668|21|28/03/2024 18:14|Domicile avec aide|Moyen|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|13/04/2024 23:14
+668|669|14|07/02/2024 11:30|Domicile|stable|Furosemide 40 mg|Return to the emergency department if symptoms worsen.|18/02/2024 13:30
+669|670|3|05/05/2024 06:30|Domicile avec aide|Moyen|Metformin 850 mg|Follow up with the GP in 2 weeks.|12/06/2024 06:30
+670|671|3711|09/07/2024 19:30|Domicile avec aide|Moyen|Paracetamol 1 g|Follow up with the GP in 2 weeks.|30/07/2024 20:30
+671|672|3|25/05/2023 05:18|Chambre mortuaire|Decede|||
+672|673|7|14/04/2023 11:31|Domicile|Ameliore|Furosemide 40 mg|Follow up with the GP in 2 weeks.|29/05/2023 17:31
+673|674|7|08/09/2023 03:31|Transfert autre hopital|Ameliore|Paracetamol 1 g|Physiotherapy twice a week.|17/10/2023 05:31
+674|675|13|06/01/2024 19:31|Transfert autre hopital|Moyen|Furosemide 40 mg|Rest and hydration.|
+675|676|18|21/10/2024 07:31|Transfert autre hopital|Moyen|Bisoprolol 2.5 mg|Rest and hydration.|18/11/2024 10:31
+676|677|2|23/03/2025 10:31|SSR (reeducation)|Moyen|Bisoprolol 2.5 mg|Follow up with the GP in 2 weeks.|18/04/2025 14:31
+677|678|15|05/03/2023 21:02|SSR (reeducation)|Moyen|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|21/03/2023 01:02
+678|679|8|N/A|EHPAD|Stable|Bisoprolol 2.5 mg|Rest and hydration.|
+679|680|14|28/03/2024 00:02|SSR (reeducation)|Moyen|Furosemide 40 mg|Rest and hydration.|23/04/2024 04:02
+680|681|22|05/12/2023 00:04|Domicile|Moyen|-|Rest and hydration.|04/01/2024 00:04
+681|682|11|2024-06-06 04:18:00|Domicile|Moyen|Levothyroxine 50 mcg|Follow up with the GP in 2 weeks.|16/07/2024 06:18
+682|683|5|16/12/2022 19:28|Domicile avec aide|null|Metformin 850 mg|Outpatient clinic appointment booked.|18/01/2023 23:28
+683|684|7|19/04/2022 23:18|Domicile avec aide|Moyen|Paracetamol 1 g|Follow up with the GP in 2 weeks.|03/06/2022 02:18
+684|638|8|17/10/2025 03:12|Domicile|Stable|||
+685|131|4|12/12/2023 05:00|domicile avec aide|?|Amoxicillin 1 g|Follow up with the GP in 2 weeks.|23/01/2024 11:00
+686|334|7|18/02/2023 17h46|Transfert autre hopital|Stable|Bisoprolol 2.5 mg|Physiotherapy twice a week.|07/03/2023 21:46
+687|627|20|07/09/2022 01:46|EHPAD|Stable|Amoxicillin 1 g|Rest and hydration.|30/09/2022 06:46
+688|580|22|21/06/2023 05:28|CHAMBRE MORTUAIRE|Decede|||
+689|98|18|16/07/2022 15:54|Domicile avec aide|Moyen|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|04/08/2022 15:54
+690|386|21|10/11/2022 16:09|Domicile|MOYEN|Paracetamol 1 g|-|24/11/2022 17:09
+691|118|23|12/03/2025 18:33|Domicile Avec Aide|Ameliore|Atorvastatin 20 mg|OUTPATIENT CLINIC APPOINTMENT BOOKED.|18/04/2025 19:33
+692|496|16|02/01/2024 09:27|EHPAD|Stable|Bisoprolol 2.5 mg|Rest and hydration.|06/02/2024 12:27
+693|187|11|2024-12-12T21:06|Domicile avec aide|STABLE|Aspirin 75 mg|follow up with the gp in 2 weeks.|03/01/2025 23:06
+694|94|2|30/04/2024 04:06|Domicile|Ameliore|Levothyroxine 50 mcg|Return to the emergency department if symptoms worsen.|N/A
+695|464|16|13/03/2023 16:49|DOMICILE|Ameliore|Levothyroxine 50 mcg|follow up with the gp in 2 weeks.|null
+696|474|1|30/08/2023 15:08|Ehpad|Moyen   |Bisoprolol 2.5 mg||28/09/2023 16:08
+697|319|2|22/07/2023 17:09|Domicile|Ameliore|Paracetamol 1 g|Rest And Hydration.|10/08/2023 18:09
+698|226|1|30/06/2024 23:22|Transfert autre hopital|Moyen|Paracetamol 1 g|Follow up with the GP in 2 weeks.|01/08/2024 05:22
+699|212|20|27/12/2024 11:15|Domicile|Stable|Bisoprolol 2.5 mg|Outpatient clinic appointment booked.|10/01/2025 13:15
+700|314|17|14/05/2022 09:05|DOMICILE AVEC AIDE|Ameliore|Paracetamol 1 g|Return to the emergency department if symptoms worsen.|13/06/2022 10:05
+701|409|18|09/12/2022 22:25|Transfert autre hopital|Moyen|Metformin 850 mg|Return to the emergency department if symptoms worsen.|28/12/2022 23:25
+702|241|2|15/03/2022 13:04|EHPAD   | Moyen|Ramipril 5 mg|Return To The Emergency Department If Symptoms Worsen.|10/04/2022 13:04
+703|632|19|01/06/2022 06:46|SSR (reeducation)|Moyen|Atorvastatin 20 mg|Return to the emergency department if symptoms worsen.|11/07/2022 08:46
+704|392|11|10/12/2023 23:23|EHPAD|Moyen|Amoxicillin 1 g|N/A|12/01/2024 00:23

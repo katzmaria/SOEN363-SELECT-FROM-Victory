@@ -1,382 +1,379 @@
-source,entity,field,records,present,missing,missing_breakdown,inferred_type,conforming_pct,format_variants,other_types,distinct,top_values,example
-A,professionals,prof_no,40,40,0,,integer,100.0,,,40,,1
-A,professionals,nom_complet,40,40,0,,text,100.0,,,40,,Zoé Olivier
-A,professionals,fonction,40,40,0,,categorical text,100.0,,,5,'PHYSICIAN': 12; 'NURSE': 7; 'SURGEON': 7; 'RADIOLOGIST': 7; 'RADIOLOGY TECHNICIAN': 7,PHYSICIAN
-A,icd9_dictionary,code_cim9,27,27,0,,ICD-9 code (string),100.0,,,27,,401.9
-A,icd9_dictionary,libelle_officiel,27,27,0,,text,100.0,,,27,,Unspecified essential hypertension
-A,icd9_dictionary,description,27,27,0,,text,100.0,,,27,,unspecified essential hypertension
-A,icd9_dictionary,categorie,27,27,0,,categorical text,100.0,,,10,'Circulatory': 6; 'Respiratory': 5; 'Endocrine': 4; 'Digestive': 3; 'Symptoms': 2; 'Infectious': 2; 'Genitourinary': 2; 'Injury': 1; 'Blood': 1; 'Supplementary': 1,Circulatory
-A,patients,pat_no,490,490,0,,integer,100.0,,,483,,464
-A,patients,nom,490,487,3,"'N/A': 2, '': 1",text,100.0,,,287,,Fontaine
-A,patients,prenom,490,490,0,,text,100.0,,,195,,Édith
-A,patients,date_naissance,490,487,3,'': 3,date NN/NN/YYYY,100.0,,,474,,13/04/1995
-A,patients,sexe,490,490,0,,categorical text,100.0,,,3,'F': 215; 'H': 174; 'I': 101,F
-A,patients,adresse,490,462,28,"'': 16, 'N/A': 12",text,100.0,,,451,,"4, avenue Pauline Lagarde, 85913 Vincent-sur-Perrin"
-A,patients,telephone,490,458,32,"'N/A': 19, '': 13",text,75.1,,integer: 114 (e.g. '0279460607'),447,,0279460607
-A,patients,contact_urgence,490,469,21,"'N/A': 11, '': 10",text,100.0,,,458,,Franck Daniel +33 4 81 71 07 94
-A,patients,statut_vital,490,490,0,,categorical text,100.0,,,2,'VIVANT': 455; 'DECEDE': 35,VIVANT
-A,admissions,sejour_no,902,902,0,,integer,100.0,,,894,,1
-A,admissions,pat_no,902,902,0,,integer,100.0,,,448,,1
-A,admissions,medecin_admission,902,902,0,,integer,100.0,,,12,,15
-A,admissions,date_entree,902,898,4,"'': 3, 'N/A': 1",datetime DD/MM/YYYY HH:MM,99.3,,impossible datetime DD/MM/YYYY HH:MM: 3 (e.g. '00/13/2024 08:30'); text: 3 (e.g. '??/??/????'),886,,08/05/2024 14:59
-A,admissions,type_sejour,902,902,0,,categorical text,100.0,,,17,'EMER': 288; 'ELEC': 194; 'AMB': 189; 'URG': 182; 'NN': 14; ' URG ': 5; 'ELEC  ': 5; 'EMER  ': 4; ' AMB ': 4; ' EMER ': 3; 'urg': 3; 'emer': 2,EMER
-A,admissions,motif,902,902,0,,categorical text,100.0,,,11,'Shortness of breath': 109; 'Chest pain': 103; 'Abdominal pain': 92; 'Cough': 92; 'Fever': 88; 'Headache': 86; 'Nausea': 86; 'Weakness': 82; 'Fall injury': 79; 'Dizziness': 71; 'Birth': 14,Shortness of breath
-A,admissions,provenance,902,902,0,,categorical text,100.0,,,4,'walk-in': 240; 'physician referral': 224; 'transfer': 222; 'ambulance': 216,transfer
-A,admissions,assurance,902,804,98,"'': 50, 'N/A': 48",text,100.0,,,797,,Lopes #425443
-A,admissions,date_sortie,902,902,0,,datetime DD/MM/YYYY HH:MM,100.0,,,894,,22/05/2024 22:59
-A,admissions,statut,902,902,0,,categorical text,100.0,,,2,'SORTI': 865; 'DECEDE': 37,SORTI
-A,triage,triage_no,949,949,0,,integer,100.0,,,949,,1
-A,triage,sejour_no,949,949,0,,integer,100.0,,,895,,1
-A,triage,infirmier,949,949,0,,categorical code (integer),100.0,,,7,'11': 157; '16': 148; '6': 148; '26': 133; '31': 130; '21': 120; '36': 113,11
-A,triage,date_heure,949,949,0,,datetime DD/MM/YYYY HH:MM,100.0,,,949,,08/05/2024 15:04
-A,triage,tension,949,949,0,,blood pressure N/N,100.0,,,860,,113/57
-A,triage,fc,949,949,0,,integer,100.0,,,87,,56
-A,triage,fr,949,949,0,,integer,99.4,,text: 6 (e.g. 'abc'),23,,18
-A,triage,temp_c,949,949,0,,decimal (comma),100.0,,,47,,"37,7"
-A,triage,spo2_pct,949,949,0,,integer,100.0,,,18,,86
-A,triage,douleur,949,949,0,,integer,100.0,,,13,,0
-A,triage,symptomes,949,949,0,,text,100.0,,,90,,"fall injury, nausea"
-A,triage,allergies,949,907,42,"'N/A': 22, '': 20",categorical text,100.0,,,6,'Penicillin': 168; 'Latex': 154; 'Shellfish': 151; 'Peanuts': 150; 'Sulfa drugs': 147; 'None known': 137,Peanuts
-A,triage,traitement,949,949,0,,categorical text,100.0,,,8,'Metformin 500 mg': 137; 'Aspirin 81 mg': 127; 'Furosemide 40 mg': 123; 'Atorvastatin 40 mg': 119; 'None': 116; 'Lisinopril 10 mg': 115; 'Metoprolol 25 mg': 107; 'Amoxicillin 500 mg': 105,Atorvastatin 40 mg
-A,triage,priorite,949,949,0,,categorical code (integer),100.0,,,9,'2': 351; '3': 349; '1': 226; '2  ': 5; '3  ': 5; ' 3 ': 4; ' 1 ': 3; ' 2 ': 3; '1  ': 3,1
-A,unit_stays,mvt_no,1499,1499,0,,integer,100.0,,,1499,,1
-A,unit_stays,sejour_no,1499,1499,0,,integer,100.0,,,737,,1
-A,unit_stays,medecin_resp,1499,1499,0,,integer,100.0,,,12,,15
-A,unit_stays,unite,1499,1499,0,,categorical text,100.0,,,19,'MED': 799; 'URGENCES': 310; 'REA': 95; 'REA-CHIR': 84; 'REA-MED': 77; 'USIC': 76; ' MED ': 13; 'MED  ': 12; 'med': 10; ' URGENCES ': 6; 'URGENCES  ': 5; 'urgences': 4,URGENCES
-A,unit_stays,chambre,1499,1499,0,,text,100.0,,,217,,EME-12
-A,unit_stays,lit,1499,1499,0,,categorical code (integer),100.0,,,4,'3': 389; '2': 387; '1': 366; '4': 357,3
-A,unit_stays,entree,1499,1499,0,,datetime DD/MM/YYYY HH:MM,100.0,,,1499,,08/05/2024 15:29
-A,unit_stays,sortie,1499,1499,0,,datetime DD/MM/YYYY HH:MM,100.0,,,1499,,13/05/2024 01:35
-A,unit_stays,motif_transfert,1499,768,731,"'N/A': 372, '': 359",categorical text,100.0,,,4,'post-operative care': 200; 'monitoring required': 196; 'condition worsened': 186; 'condition improved': 186,post-operative care
-A,diagnoses,diag_no,2171,2171,0,,integer,100.0,,,2150,,1
-A,diagnoses,pat_no,2171,2171,0,,integer,100.0,,,443,,1
-A,diagnoses,sejour_no,2171,2171,0,,integer,100.0,,,895,,1
-A,diagnoses,code_cim9,2171,2161,10,'': 10,ICD-9 code (string),100.0,,,30,,250.00
-A,diagnoses,medecin,2171,2171,0,,integer,100.0,,,12,,30
-A,diagnoses,date_heure,2171,2171,0,,datetime DD/MM/YYYY HH:MM,100.0,,,2056,,09/05/2024 05:59
-A,diagnoses,rang,2171,2171,0,,categorical text,100.0,,,2,'S': 1268; 'P': 903,P
-A,orders,demande_no,601,601,0,,integer,100.0,,,601,,1
-A,orders,sejour_no,601,601,0,,integer,100.0,,,470,,1
-A,orders,prescripteur,601,601,0,,integer,100.0,,,12,,2
-A,orders,date_heure,601,601,0,,datetime DD/MM/YYYY HH:MM,100.0,,,599,,10/05/2024 10:29
-A,orders,examen,601,601,0,,categorical text,100.0,,,6,'ECG': 117; 'MRI': 110; 'CT scan': 100; 'Ultrasound': 96; 'Blood panel': 94; 'Chest X-ray': 84,Ultrasound
-A,orders,motif,601,601,0,,categorical text,100.0,,,5,'Rule out obstruction': 138; 'Rule out ischemia': 128; 'Rule out infection': 119; 'Rule out bleeding': 109; 'Rule out fracture': 107,Rule out obstruction
-A,orders,statut,601,601,0,,categorical text,100.0,,,4,'COMPLETED': 437; 'PENDING': 64; 'IN_PROGRESS': 52; 'CANCELLED': 48,PENDING
-A,orders,priorite,601,601,0,,categorical text,100.0,,,3,'ROUTINE': 329; 'URGENT': 186; 'STAT': 86,STAT
-A,radiology,examen_no,318,318,0,,integer,100.0,,,318,,1
-A,radiology,sejour_no,318,318,0,,integer,100.0,,,283,,1
-A,radiology,demande_no,318,318,0,,integer,100.0,,,318,,2
-A,radiology,medecin_ref,318,318,0,,integer,100.0,,,12,,2
-A,radiology,manipulateur,318,318,0,,categorical code (integer),100.0,,,7,'9': 57; '29': 53; '14': 48; '34': 44; '39': 40; '24': 39; '19': 37,14
-A,radiology,type_examen,318,318,0,,categorical text,100.0,,,4,'MRI': 89; 'CT scan': 82; 'Ultrasound': 81; 'Chest X-ray': 66,CT scan
-A,radiology,date_heure,318,318,0,,datetime DD/MM/YYYY HH:MM,100.0,,,314,,09/05/2024 18:08
-A,radiology,zone,318,318,0,,categorical text,100.0,,,3,'Abdomen': 163; 'Head': 89; 'Chest': 66,Abdomen
-A,radiology,statut,318,318,0,,categorical text,100.0,,,2,'COMPLETED': 284; 'SCHEDULED': 34,SCHEDULED
-A,radiology,lien_images,318,318,0,,text,100.0,,,318,,pacs://img/1/1
-A,radiology,compte_rendu,318,318,0,,categorical text,100.0,,,5,'Consolidation in the right lower lobe.': 72; 'Small effusion noted.': 65; 'Findings consistent with clinical suspicion.': 65; 'No acute findings.': 63; 'Mild degenerative changes.': 53,Consolidation in the right lower lobe.
-A,procedures,acte_no,104,104,0,,integer,100.0,,,104,,1
-A,procedures,sejour_no,104,104,0,,integer,100.0,,,104,,1
-A,procedures,chirurgien,104,104,0,,categorical code (integer),100.0,,,7,'7': 24; '22': 20; '27': 18; '32': 13; '37': 12; '17': 9; '12': 8,27
-A,procedures,intervention,104,104,0,,categorical text,100.0,,,6,'Hip fracture repair': 19; 'Coronary artery bypass graft': 19; 'Appendectomy': 17; 'Cardiac catheterization': 17; 'Cholecystectomy': 16; 'Hernia repair': 16,Cholecystectomy
-A,procedures,date_heure,104,104,0,,datetime DD/MM/YYYY HH:MM,100.0,,,104,,14/05/2024 11:24
-A,procedures,resultat,104,104,0,,categorical text,100.0,,,3,'successful': 82; 'complications': 21; 'unsuccessful': 1,successful
-A,notes,note_no,999,999,0,,integer,100.0,,,999,,1
-A,notes,sejour_no,999,999,0,,integer,100.0,,,895,,1
-A,notes,auteur,999,999,0,,integer,100.0,,,19,,22
-A,notes,type_note,999,999,0,,categorical text,100.0,,,2,'DISCHARGE_SUMMARY': 895; 'OPERATIVE_NOTE': 104,OPERATIVE_NOTE
-A,notes,date_heure,999,999,0,,datetime DD/MM/YYYY HH:MM,100.0,,,999,,14/05/2024 13:24
-A,notes,contenu,999,999,0,,text,100.0,,,59,,Operative note. Cholecystectomy performed. Patient tolerated the procedure.
-A,discharges,sortie_no,895,895,0,,integer,100.0,,,895,,1
-A,discharges,sejour_no,895,895,0,,integer,100.0,,,895,,1
-A,discharges,medecin_autorisant,895,895,0,,integer,100.0,,,12,,1
-A,discharges,date_sortie,895,895,0,,datetime DD/MM/YYYY HH:MM,100.0,,,895,,22/05/2024 22:59
-A,discharges,destination,895,895,0,,categorical text,100.0,,,6,'transfer to another hospital': 188; 'rehabilitation facility': 177; 'home with support': 175; 'home': 162; 'long-term care': 157; 'morgue': 36,transfer to another hospital
-A,discharges,etat_sortie,895,895,0,,categorical text,100.0,,,4,'stable': 306; 'improved': 285; 'fair': 268; 'deceased': 36,fair
-A,discharges,ordonnance,895,859,36,"'': 18, 'N/A': 18",categorical text,100.0,,,8,'Lisinopril 10 mg': 118; 'Furosemide 40 mg': 113; 'Atorvastatin 40 mg': 110; 'Metformin 500 mg': 108; 'Aspirin 81 mg': 107; 'None': 107; 'Amoxicillin 500 mg': 99; 'Metoprolol 25 mg': 97,Furosemide 40 mg
-A,discharges,consignes,895,859,36,"'N/A': 19, '': 17",categorical text,100.0,,,3,'Return if symptoms worsen.': 294; 'Rest and hydration.': 286; 'Follow up with family doctor in 2 weeks.': 279,Follow up with family doctor in 2 weeks.
-A,discharges,rdv,895,859,36,"'': 20, 'N/A': 16",date ISO,100.0,,,628,,2024-06-07
-B,professionals,ProviderID,40,40,0,,integer,100.0,,,40,,1
-B,professionals,ProviderName,40,40,0,,text,100.0,,,40,,Justin Mitchell
-B,professionals,Title,40,40,0,,categorical text,100.0,,,5,'Physician': 12; 'Nurse': 7; 'Surgeon': 7; 'Radiologist': 7; 'Radiology Technician': 7,Physician
-B,icd9_dictionary,ICD9Code,27,27,0,,ICD-9 code (string),100.0,,,27,,401.9
-B,icd9_dictionary,Title,27,27,0,,text,100.0,,,27,,Unspecified essential hypertension
-B,icd9_dictionary,LongDescription,27,27,0,,text,100.0,,,27,,Unspecified essential hypertension
-B,icd9_dictionary,Chapter,27,27,0,,categorical text,100.0,,,10,'Circulatory': 6; 'Respiratory': 5; 'Endocrine': 4; 'Digestive': 3; 'Symptoms': 2; 'Infectious': 2; 'Genitourinary': 2; 'Injury': 1; 'Blood': 1; 'Supplementary': 1,Circulatory
-B,patients,PatientID,510,510,0,,integer,100.0,,,503,,32
-B,patients,FullName,510,510,0,,text,100.0,,,501,,"Arnold, Robert"
-B,patients,DOB,510,507,3,"'': 2, 'unknown': 1",date NN/NN/YYYY,100.0,,,491,,12/16/1995
-B,patients,Sex,510,510,0,,categorical text,100.0,,,3,'Female': 205; 'Male': 205; 'Unknown': 100,Unknown
-B,patients,HomeAddress,510,481,29,"'NULL': 12, '': 10, 'unknown': 7",text,100.0,,,469,,"281 James Trace Apt. 200, New Jimmymouth, QC L3M5G2"
-B,patients,Phone,510,475,35,"'unknown': 14, 'NULL': 13, '': 8",text,100.0,,,463,,859-519-9327 x857
-B,patients,EmergencyContact,510,489,21,"'NULL': 10, 'unknown': 8, '': 3",text,100.0,,,477,,Jim Steele (954) 052-8433 x966
-B,patients,Deceased,510,510,0,,categorical text,100.0,,,2,'N': 468; 'Y': 42,N
-B,admissions,EncounterID,975,975,0,,integer,100.0,,,966,,1
-B,admissions,PatientID,975,975,0,,integer,100.0,,,473,,1
-B,admissions,AdmittingProviderID,975,975,0,,integer,100.0,,,12,,25
-B,admissions,AdmitDateTime,975,971,4,'NULL': 4,datetime MM/DD/YYYY hh:mm AM/PM,99.5,,impossible datetime MM/DD/YYYY hh:mm AM/PM: 3 (e.g. '13/45/2024 09:15 PM'); text: 2 (e.g. 'TBD'),959,,11/01/2023 05:08 PM
-B,admissions,AdmitType,975,975,0,,categorical text,100.0,,,23,'Emergency': 265; 'Outpatient': 235; 'Elective': 219; 'Urgent': 194; 'Newborn': 21; 'emergency': 5; ' Urgent ': 5; 'EMERGENCY': 4; 'URGENT': 3; 'OUTPATIENT': 3; 'Elective  ': 3; ' Elective ': 3,Elective
-B,admissions,ChiefComplaint,975,975,0,,categorical text,100.0,,,11,'Fall injury': 105; 'Chest pain': 104; 'Headache': 103; 'Abdominal pain': 99; 'Weakness': 99; 'Shortness of breath': 95; 'Nausea': 94; 'Cough': 86; 'Fever': 84; 'Dizziness': 81; 'Birth': 25,Fever
-B,admissions,AdmitSource,975,975,0,,categorical text,100.0,,,4,'Transfer': 251; 'Physician Referral': 246; 'Walk-In': 241; 'Ambulance': 237,Walk-In
-B,admissions,Insurance,975,887,88,"'NULL': 32, 'unknown': 29, '': 27",text,100.0,,,878,,Campbell-Reynolds #425552
-B,admissions,DischargeDateTime,975,975,0,,datetime MM/DD/YYYY hh:mm AM/PM,99.4,,impossible datetime MM/DD/YYYY hh:mm AM/PM: 5 (e.g. '02/30/2025 10:00 AM'); text: 1 (e.g. 'TBD'),962,,11/18/2023 12:08 PM
-B,admissions,EncounterStatus,975,975,0,,categorical text,100.0,,,2,'Discharged': 932; 'Expired': 43,Discharged
-B,triage,TriageID,1022,1022,0,,integer,100.0,,,1022,,1
-B,triage,EncounterID,1022,1022,0,,integer,100.0,,,970,,1
-B,triage,NurseID,1022,1022,0,,categorical code (integer),100.0,,,7,'31': 161; '26': 160; '21': 159; '16': 136; '11': 136; '36': 136; '6': 134,16
-B,triage,AssessedAt,1022,1022,0,,datetime MM/DD/YYYY hh:mm AM/PM,98.9,,impossible datetime MM/DD/YYYY hh:mm AM/PM: 9 (e.g. '13/45/2024 09:15 PM'); text: 2 (e.g. 'TBD'),1013,,11/01/2023 05:13 PM
-B,triage,BloodPressure,1022,1022,0,,blood pressure N/N,100.0,,,900,,96/80
-B,triage,HeartRate,1022,1022,0,,integer,100.0,,,87,,58
-B,triage,RespRate,1022,1022,0,,integer,99.2,,text: 8 (e.g. 'abc'),23,,28
-B,triage,TempF,1022,1022,0,,decimal,100.0,,,48,,97.7
-B,triage,SpO2,1022,1022,0,,integer,100.0,,,19,,87
-B,triage,PainScore,1022,1022,0,,integer,100.0,,,14,,5
-B,triage,Symptoms,1022,1022,0,,text,100.0,,,90,,"shortness of breath, weakness"
-B,triage,Allergies,1022,971,51,"'NULL': 20, '': 16, 'unknown': 15",categorical text,100.0,,,6,'Latex': 175; 'Shellfish': 172; 'Penicillin': 164; 'Sulfa drugs': 159; 'Peanuts': 158; 'None known': 143,None known
-B,triage,HomeMeds,1022,1022,0,,categorical text,100.0,,,8,'Aspirin 81 mg': 146; 'Amoxicillin 500 mg': 145; 'Metformin 500 mg': 132; 'Furosemide 40 mg': 131; 'Metoprolol 25 mg': 125; 'Atorvastatin 40 mg': 119; 'None': 115; 'Lisinopril 10 mg': 109,Lisinopril 10 mg
-B,triage,Acuity,1022,1022,0,,categorical text,100.0,,,15,'Low': 402; 'Medium': 349; 'High': 224; 'medium': 7; 'MEDIUM': 7; ' Low ': 6; 'Low  ': 6; 'High  ': 4; 'Medium  ': 4; 'HIGH': 3; 'LOW': 3; 'low': 3,Medium
-B,unit_stays,StayID,1538,1538,0,,integer,100.0,,,1538,,1
-B,unit_stays,EncounterID,1538,1538,0,,integer,100.0,,,776,,1
-B,unit_stays,AttendingID,1538,1538,0,,integer,100.0,,,12,,10
-B,unit_stays,Unit,1538,1538,0,,categorical text,100.0,,,22,'General Ward': 842; 'Emergency Department': 301; 'Surgical ICU': 99; 'Medical ICU': 80; 'Intensive Care Unit': 79; 'Coronary Care Unit': 72; 'General Ward  ': 12; 'GENERAL WARD': 9; ' General Ward ': 9; 'EMERGENCY DEPARTMENT': 7; 'general ward': 5; 'Emergency Department  ': 4,General Ward
-B,unit_stays,Room,1538,1538,0,,text,100.0,,,217,,GEN-11
-B,unit_stays,Bed,1538,1538,0,,categorical code (integer),100.0,,,4,'2': 401; '4': 382; '1': 380; '3': 375,3
-B,unit_stays,InTime,1538,1538,0,,datetime MM/DD/YYYY hh:mm AM/PM,98.9,,impossible datetime MM/DD/YYYY hh:mm AM/PM: 10 (e.g. '02/30/2025 10:00 AM'); text: 7 (e.g. 'TBD'),1524,,11/01/2023 05:38 PM
-B,unit_stays,OutTime,1538,1538,0,,datetime MM/DD/YYYY hh:mm AM/PM,99.2,,impossible datetime MM/DD/YYYY hh:mm AM/PM: 8 (e.g. '02/30/2025 10:00 AM'); text: 4 (e.g. 'TBD'),1529,,11/18/2023 12:08 PM
-B,unit_stays,TransferReason,1538,768,770,'': 770,categorical text,100.0,,,4,'post-operative care': 203; 'condition worsened': 197; 'monitoring required': 188; 'condition improved': 180,monitoring required
-B,diagnoses,DxID,2337,2337,0,,integer,100.0,,,2314,,1
-B,diagnoses,PatientID,2337,2337,0,,integer,100.0,,,467,,1
-B,diagnoses,EncounterID,2337,2337,0,,integer,100.0,,,970,,1
-B,diagnoses,ICD9,2337,2326,11,"'unknown': 6, 'NULL': 4, '': 1",ICD-9 code (string),100.0,,,32,,414.01
-B,diagnoses,ProviderID,2337,2337,0,,integer,100.0,,,12,,2
-B,diagnoses,DxDateTime,2337,2337,0,,datetime MM/DD/YYYY hh:mm AM/PM,99.1,,impossible datetime MM/DD/YYYY hh:mm AM/PM: 17 (e.g. '02/30/2025 10:00 AM'); text: 3 (e.g. 'TBD'),2193,,11/02/2023 01:08 AM
-B,diagnoses,DxRank,2337,2337,0,,categorical text,100.0,,,2,'Secondary': 1353; 'Principal': 984,Principal
-B,orders,OrderID,710,710,0,,integer,100.0,,,710,,1
-B,orders,EncounterID,710,710,0,,integer,100.0,,,552,,1
-B,orders,OrderingProviderID,710,710,0,,integer,100.0,,,12,,30
-B,orders,OrderedAt,710,710,0,,datetime MM/DD/YYYY hh:mm AM/PM,98.9,,impossible datetime MM/DD/YYYY hh:mm AM/PM: 6 (e.g. '13/45/2024 09:15 PM'); text: 2 (e.g. 'TBD'),705,,11/03/2023 02:08 PM
-B,orders,Test,710,710,0,,categorical text,100.0,,,6,'ECG': 130; 'Ultrasound': 124; 'CT scan': 119; 'Chest X-ray': 115; 'MRI': 111; 'Blood panel': 111,Chest X-ray
-B,orders,Indication,710,710,0,,categorical text,100.0,,,5,'Rule out ischemia': 149; 'Rule out bleeding': 145; 'Rule out fracture': 142; 'Rule out infection': 139; 'Rule out obstruction': 135,Rule out ischemia
-B,orders,OrderStatus,710,710,0,,categorical text,100.0,,,4,'Completed': 542; 'In_Progress': 60; 'Pending': 54; 'Cancelled': 54,In_Progress
-B,orders,Priority,710,710,0,,categorical text,100.0,,,3,'ROUTINE': 358; 'URGENT': 237; 'STAT': 115,ROUTINE
-B,radiology,ImagingID,397,397,0,,integer,100.0,,,397,,1
-B,radiology,EncounterID,397,397,0,,integer,100.0,,,350,,1
-B,radiology,OrderID,397,397,0,,integer,100.0,,,397,,1
-B,radiology,ReferringProviderID,397,397,0,,integer,100.0,,,12,,5
-B,radiology,TechID,397,397,0,,categorical code (integer),100.0,,,7,'24': 67; '34': 62; '14': 57; '39': 57; '9': 54; '29': 50; '19': 50,14
-B,radiology,Modality,397,397,0,,categorical text,100.0,,,4,'Ultrasound': 104; 'CT scan': 99; 'Chest X-ray': 98; 'MRI': 96,Chest X-ray
-B,radiology,PerformedAt,397,397,0,,datetime MM/DD/YYYY hh:mm AM/PM,99.2,,text: 2 (e.g. 'TBD'); impossible datetime MM/DD/YYYY hh:mm AM/PM: 1 (e.g. '13/45/2024 09:15 PM'),387,,11/03/2023 04:08 PM
-B,radiology,BodyPart,397,397,0,,categorical text,100.0,,,3,'Abdomen': 203; 'Chest': 98; 'Head': 96,Chest
-B,radiology,Status,397,397,0,,categorical text,100.0,,,2,'Completed': 361; 'Scheduled': 36,Scheduled
-B,radiology,ImageURL,397,397,0,,text,100.0,,,397,,pacs://img/1/1
-B,radiology,Impression,397,397,0,,categorical text,100.0,,,5,'No acute findings.': 95; 'Findings consistent with clinical suspicion.': 77; 'Small effusion noted.': 76; 'Consolidation in the right lower lobe.': 75; 'Mild degenerative changes.': 74,Small effusion noted.
-B,procedures,ProcedureID,106,106,0,,integer,100.0,,,106,,1
-B,procedures,EncounterID,106,106,0,,integer,100.0,,,106,,1
-B,procedures,SurgeonID,106,106,0,,categorical code (integer),100.0,,,7,'32': 24; '37': 22; '12': 17; '22': 15; '7': 11; '17': 10; '27': 7,37
-B,procedures,Procedure,106,106,0,,categorical text,100.0,,,6,'Cholecystectomy': 26; 'Appendectomy': 22; 'Hernia repair': 17; 'Coronary artery bypass graft': 16; 'Hip fracture repair': 16; 'Cardiac catheterization': 9,Coronary artery bypass graft
-B,procedures,PerformedAt,106,106,0,,datetime MM/DD/YYYY hh:mm AM/PM,100.0,,,106,,11/08/2023 11:36 PM
-B,procedures,Outcome,106,106,0,,categorical text,100.0,,,3,'Successful': 86; 'Complications': 15; 'Unsuccessful': 5,Successful
-B,notes,NoteID,1076,1076,0,,integer,100.0,,,1076,,1
-B,notes,EncounterID,1076,1076,0,,integer,100.0,,,970,,1
-B,notes,AuthorID,1076,1076,0,,integer,100.0,,,19,,17
-B,notes,NoteType,1076,1076,0,,categorical text,100.0,,,2,'Discharge Summary': 970; 'Operative Note': 106,Operative Note
-B,notes,WrittenAt,1076,1076,0,,datetime MM/DD/YYYY hh:mm AM/PM,99.1,,text: 5 (e.g. 'TBD'); impossible datetime MM/DD/YYYY hh:mm AM/PM: 5 (e.g. '13/45/2024 09:15 PM'),1069,,TBD
-B,notes,NoteText,1076,1076,0,,text,100.0,,,59,,Operative note. Coronary artery bypass graft performed. Patient tolerated the procedure.
-B,discharges,DischargeID,970,970,0,,integer,100.0,,,970,,1
-B,discharges,EncounterID,970,970,0,,integer,100.0,,,970,,1
-B,discharges,AuthorizingProviderID,970,970,0,,integer,100.0,,,12,,10
-B,discharges,DischargedAt,970,970,0,,datetime MM/DD/YYYY hh:mm AM/PM,99.4,,text: 4 (e.g. 'TBD'); impossible datetime MM/DD/YYYY hh:mm AM/PM: 2 (e.g. '13/45/2024 09:15 PM'),966,,11/18/2023 12:08 PM
-B,discharges,Disposition,970,970,0,,categorical text,100.0,,,6,'Long-Term Care': 196; 'Transfer To Another Hospital': 191; 'Home With Support': 190; 'Rehabilitation Facility': 180; 'Home': 171; 'Morgue': 42,Transfer To Another Hospital
-B,discharges,ConditionAtDischarge,970,970,0,,categorical text,100.0,,,4,'Fair': 316; 'Improved': 307; 'Stable': 305; 'Deceased': 42,Improved
-B,discharges,Prescriptions,970,928,42,"'': 19, 'unknown': 13, 'NULL': 10",categorical text,100.0,,,8,'Metformin 500 mg': 130; 'Lisinopril 10 mg': 128; 'Metoprolol 25 mg': 127; 'Atorvastatin 40 mg': 120; 'Aspirin 81 mg': 118; 'None': 116; 'Amoxicillin 500 mg': 102; 'Furosemide 40 mg': 87,Aspirin 81 mg
-B,discharges,Instructions,970,928,42,"'unknown': 16, '': 15, 'NULL': 11",categorical text,100.0,,,3,'Rest and hydration.': 328; 'Return if symptoms worsen.': 300; 'Follow up with family doctor in 2 weeks.': 300,Rest and hydration.
-B,discharges,FollowUp,970,928,42,'': 42,date ISO,100.0,,,659,,2023-12-01
-C,professionals,staffId,40,40,0,,staff code S###,100.0,,,40,,S001
-C,professionals,name,40,40,0,,text,100.0,,,40,,Avni Batta
-C,professionals,role,40,40,0,,categorical text,100.0,,,5,'physician': 12; 'nurse': 7; 'surgeon': 7; 'radiologist': 7; 'radiology technician': 7,physician
-C,icd9_dictionary,code,27,27,0,,ICD-9 code (string),100.0,,,27,,401.9
-C,icd9_dictionary,title,27,27,0,,text,100.0,,,27,,Unspecified essential hypertension
-C,icd9_dictionary,category,27,27,0,,categorical text,100.0,,,10,'Circulatory': 6; 'Respiratory': 5; 'Endocrine': 4; 'Digestive': 3; 'Symptoms': 2; 'Infectious': 2; 'Genitourinary': 2; 'Injury': 1; 'Blood': 1; 'Supplementary': 1,Circulatory
-C,patients,patientNo,512,512,0,,numeric text,100.0,,,505,,384
-C,patients,birthDate,512,509,3,"'': 2, absent: 1",date ISO,100.0,,,494,,1988-12-24
-C,patients,gender,512,512,0,,categorical text,100.0,,,3,'male': 203; 'female': 199; 'unspecified': 110,female
-C,patients,address,512,481,31,"absent: 18, '': 13",text,100.0,,,469,,"35/640, Ramachandran Street, Vasai-Virar 057510"
-C,patients,phone,512,472,40,"absent: 22, '': 18",numeric text,100.0,,,460,,+912170749507
-C,patients,nextOfKin,512,488,24,"absent: 14, '': 10",text,100.0,,,476,,Owen Balay 9876726909
-C,patients,vitalStatus,512,512,0,,categorical text,100.0,,,2,'living': 458; 'dead': 54,dead
-C,patients,name.family,512,509,3,"absent: 2, '': 1",text,100.0,,,338,,bora
-C,patients,name.given,512,512,0,,text,100.0,,,328,,Upkaar
-C,admissions,admissionNo,952,952,0,,numeric text,100.0,,,943,,1
-C,admissions,patientRef,952,952,0,,numeric text,100.0,,,461,,2
-C,admissions,admittedAt,952,948,4,"'': 2, absent: 2",datetime ISO +offset,99.7,,text: 2 (e.g. 'unknown'); impossible datetime ISO +offset: 1 (e.g. '2025-02-30T10:00:00+08:00'),938,,2023-06-23T20:15:42+08:00
-C,admissions,category,952,952,0,,categorical text,100.0,,,21,'ER': 289; 'Scheduled': 212; 'Urgent Care': 207; 'Ambulatory': 192; 'Birth': 8; ' Urgent Care ': 6; 'scheduled': 5; ' Scheduled ': 4; ' ER ': 4; ' Ambulatory ': 4; 'Scheduled  ': 3; 'AMBULATORY': 3,Birth
-C,admissions,reason,952,952,0,,categorical text,100.0,,,11,'Abdominal pain': 107; 'Headache': 107; 'Fall injury': 105; 'Shortness of breath': 102; 'Chest pain': 95; 'Dizziness': 91; 'Fever': 89; 'Weakness': 85; 'Nausea': 83; 'Cough': 78; 'Birth': 10,Birth
-C,admissions,arrivalMode,952,952,0,,categorical text,100.0,,,4,'transfer': 263; 'walk-in': 259; 'physician referral': 215; 'ambulance': 215,transfer
-C,admissions,insurer,952,859,93,"absent: 50, '': 43",text,100.0,,,853,,"Kibe, Mallick and Padmanabhan #972912"
-C,admissions,admittingStaff,952,952,0,,staff code S###,100.0,,,12,,S040
-C,admissions,dischargedAt,952,950,2,absent: 2,datetime ISO +offset,99.5,,text: 3 (e.g. 'unknown'); impossible datetime ISO +offset: 2 (e.g. '2025-02-30T10:00:00+08:00'),938,,2023-07-05T13:15:42+08:00
-C,admissions,status,952,952,0,,categorical text,100.0,,,3,'Discharged': 897; 'Died': 53; 'Admitted': 2,Discharged
-C,triage,admissionNo,988,988,0,,numeric text,100.0,,,943,,1
-C,triage,id,988,988,0,,numeric text,100.0,,,988,,1
-C,triage,nurse,988,988,0,,staff code S###,100.0,,,7,,S031
-C,triage,at,988,988,0,,datetime ISO +offset,99.6,,impossible datetime ISO +offset: 4 (e.g. '2025-02-30T10:00:00+08:00'),986,,2023-06-23T20:20:42+08:00
-C,triage,bp,988,988,0,,blood pressure N/N,100.0,,,886,,158/64
-C,triage,pulse,988,988,0,,numeric text,100.0,,,86,,111
-C,triage,respiration,988,988,0,,numeric text,99.8,,text: 2 (e.g. '--'),22,,25
-C,triage,temperatureC,988,988,0,,decimal,100.0,,,48,,37.7
-C,triage,oxygenSaturation,988,988,0,,decimal,100.0,,,18,,0.96
-C,triage,pain,988,988,0,,numeric text,100.0,,,13,,9
-C,triage,symptoms,988,988,0,,text,100.0,,,90,,"dizziness, cough"
-C,triage,allergies,988,941,47,"'': 29, absent: 18",categorical text,100.0,,,6,'Latex': 178; 'Sulfa drugs': 173; 'Shellfish': 161; 'Peanuts': 152; 'None known': 150; 'Penicillin': 127,None known
-C,triage,medications,988,988,0,,categorical text,100.0,,,8,'Metformin 500 mg': 135; 'Aspirin 81 mg': 131; 'Amoxicillin 500 mg': 128; 'Furosemide 40 mg': 123; 'Atorvastatin 40 mg': 122; 'None': 120; 'Lisinopril 10 mg': 115; 'Metoprolol 25 mg': 114,Atorvastatin 40 mg
-C,triage,level,988,988,0,,categorical text,100.0,,,15,'Green': 372; 'Yellow': 365; 'Red': 202; 'Yellow  ': 9; 'GREEN': 7; 'Red  ': 6; 'green': 5; 'yellow': 4; 'YELLOW': 4; 'red': 3; 'Green  ': 3; ' Green ': 3,Green
-C,unit_stays,admissionNo,1537,1537,0,,numeric text,100.0,,,783,,1
-C,unit_stays,id,1537,1537,0,,numeric text,100.0,,,1537,,1
-C,unit_stays,unit,1537,1537,0,,categorical text,100.0,,,25,'Ward': 823; 'Emergency Room': 295; 'Surgical ICU': 88; 'CCU': 88; 'ICU': 86; 'Medical ICU': 65; 'WARD': 13; 'Ward  ': 11; ' Emergency Room ': 11; ' Ward ': 10; 'Emergency Room  ': 9; 'ward': 9,Ward
-C,unit_stays,room,1537,1537,0,,text,100.0,,,221,,GEN-28
-C,unit_stays,bed,1537,1537,0,,categorical code (numeric text),100.0,,,4,'2': 401; '4': 387; '3': 383; '1': 366,3
-C,unit_stays,in,1537,1537,0,,datetime ISO +offset,99.6,"datetime ISO +offset, fractional seconds: 755 (e.g. '2024-02-10T15:02:06.666193+08:00')",impossible datetime ISO +offset: 5 (e.g. '2024-13-01T08:00:00+08:00'); text: 1 (e.g. 'unknown'),1534,,2023-06-23T20:45:42+08:00
-C,unit_stays,out,1537,1535,2,absent: 2,datetime ISO +offset,99.3,"datetime ISO +offset, fractional seconds: 751 (e.g. '2024-02-10T15:02:06.666193+08:00')",impossible datetime ISO +offset: 7 (e.g. '2025-02-30T10:00:00+08:00'); text: 3 (e.g. 'unknown'),1528,,2023-07-05T13:15:42+08:00
-C,unit_stays,doctor,1537,1537,0,,staff code S###,100.0,,,12,,S030
-C,unit_stays,transferReason,1537,759,778,absent: 778,categorical text,100.0,,,4,'post-operative care': 200; 'condition improved': 200; 'condition worsened': 180; 'monitoring required': 179,post-operative care
-C,diagnoses,admissionNo,2269,2269,0,,numeric text,100.0,,,943,,1
-C,diagnoses,id,2269,2269,0,,numeric text,100.0,,,2247,,1
-C,diagnoses,patientRef,2269,2269,0,,numeric text,100.0,,,454,,2
-C,diagnoses,icd9,2269,2258,11,"absent: 7, '': 4",ICD-9 code (string),100.0,,,29,,V30.00
-C,diagnoses,kind,2269,2269,0,,categorical text,100.0,,,2,'SECONDARY': 1316; 'PRIMARY': 953,PRIMARY
-C,diagnoses,at,2269,2269,0,,datetime ISO +offset,99.4,,impossible datetime ISO +offset: 10 (e.g. '2024-13-01T08:00:00+08:00'); text: 3 (e.g. 'unknown'),2125,,2023-06-24T13:15:42+08:00
-C,diagnoses,doctor,2269,2269,0,,staff code S###,100.0,,,12,,S030
-C,orders,admissionNo,661,661,0,,numeric text,100.0,,,525,,1
-C,orders,id,661,661,0,,numeric text,100.0,,,661,,1
-C,orders,test,661,661,0,,categorical text,100.0,,,6,'Blood panel': 134; 'Ultrasound': 115; 'Chest X-ray': 106; 'MRI': 105; 'CT scan': 102; 'ECG': 99,MRI
-C,orders,at,661,661,0,,datetime ISO +offset,99.5,,impossible datetime ISO +offset: 2 (e.g. '2024-13-01T08:00:00+08:00'); text: 1 (e.g. 'unknown'),660,,2023-06-24T10:17:24+08:00
-C,orders,reason,661,661,0,,categorical text,100.0,,,5,'Rule out ischemia': 137; 'Rule out bleeding': 136; 'Rule out obstruction': 132; 'Rule out fracture': 129; 'Rule out infection': 127,Rule out obstruction
-C,orders,status,661,661,0,,categorical text,100.0,,,4,'completed': 489; 'pending': 76; 'cancelled': 50; 'in_progress': 46,pending
-C,orders,priority,661,661,0,,categorical text,100.0,,,3,'routine': 380; 'urgent': 200; 'stat': 81,routine
-C,orders,doctor,661,661,0,,staff code S###,100.0,,,12,,S020
-C,radiology,admissionNo,348,348,0,,numeric text,100.0,,,314,,2
-C,radiology,orderRef,348,348,0,,numeric text,100.0,,,348,,2
-C,radiology,id,348,348,0,,numeric text,100.0,,,348,,1
-C,radiology,type,348,348,0,,categorical text,100.0,,,4,'Ultrasound': 96; 'CT scan': 88; 'MRI': 83; 'Chest X-ray': 81,Ultrasound
-C,radiology,at,348,348,0,,datetime ISO +offset,99.4,,impossible datetime ISO +offset: 1 (e.g. '2025-02-30T10:00:00+08:00'); text: 1 (e.g. 'unknown'),346,,2023-09-13T16:05:42+08:00
-C,radiology,bodyArea,348,348,0,,categorical text,100.0,,,3,'Abdomen': 184; 'Head': 83; 'Chest': 81,Abdomen
-C,radiology,status,348,348,0,,categorical text,100.0,,,2,'completed': 315; 'scheduled': 33,completed
-C,radiology,images,348,348,0,,text,100.0,,,348,,pacs://img/2/1
-C,radiology,report,348,348,0,,categorical text,100.0,,,5,'Small effusion noted.': 81; 'Mild degenerative changes.': 72; 'No acute findings.': 68; 'Consolidation in the right lower lobe.': 66; 'Findings consistent with clinical suspicion.': 61,Consolidation in the right lower lobe.
-C,radiology,referrer,348,348,0,,staff code S###,100.0,,,12,,S002
-C,radiology,technician,348,348,0,,staff code S###,100.0,,,7,,S024
-C,procedures,admissionNo,109,109,0,,numeric text,100.0,,,109,,4
-C,procedures,id,109,109,0,,numeric text,100.0,,,109,,1
-C,procedures,procedure,109,109,0,,categorical text,100.0,,,6,'Cardiac catheterization': 23; 'Cholecystectomy': 22; 'Hip fracture repair': 21; 'Coronary artery bypass graft': 17; 'Appendectomy': 14; 'Hernia repair': 12,Hernia repair
-C,procedures,at,109,109,0,,datetime ISO +offset,99.1,,impossible datetime ISO +offset: 1 (e.g. '2024-13-01T08:00:00+08:00'),109,,2024-05-02T13:51:47+08:00
-C,procedures,outcome,109,109,0,,categorical text,100.0,,,3,'successful': 95; 'complications': 9; 'unsuccessful': 5,successful
-C,procedures,surgeon,109,109,0,,staff code S###,100.0,,,7,,S017
-C,notes,admissionNo,1050,1050,0,,numeric text,100.0,,,941,,1
-C,notes,id,1050,1050,0,,numeric text,100.0,,,1050,,1
-C,notes,type,1050,1050,0,,categorical text,100.0,,,2,'discharge_summary': 941; 'operative_note': 109,discharge_summary
-C,notes,at,1050,1050,0,,datetime ISO +offset,99.3,,text: 4 (e.g. 'unknown'); impossible datetime ISO +offset: 3 (e.g. '2025-02-30T10:00:00+08:00'),1046,,2023-07-05T13:15:42+08:00
-C,notes,author,1050,1050,0,,staff code S###,100.0,,,19,,S040
-C,notes,text,1050,1050,0,,text,100.0,,,61,,Discharge summary. Admitted for birth. Condition stable at discharge.
-C,discharges,admissionNo,943,943,0,,numeric text,100.0,,,943,,1
-C,discharges,id,943,943,0,,numeric text,100.0,,,943,,1
-C,discharges,at,943,943,0,,datetime ISO +offset,99.6,,impossible datetime ISO +offset: 2 (e.g. '2024-13-01T08:00:00+08:00'); text: 2 (e.g. 'unknown'),942,,2023-07-05T13:15:42+08:00
-C,discharges,destination,943,943,0,,categorical text,100.0,,,6,'rehabilitation facility': 191; 'long-term care': 184; 'transfer to another hospital': 180; 'home with support': 176; 'home': 159; 'morgue': 53,long-term care
-C,discharges,condition,943,943,0,,categorical text,100.0,,,4,'improved': 302; 'fair': 297; 'stable': 291; 'deceased': 53,stable
-C,discharges,medications,943,888,55,"absent: 30, '': 25",categorical text,100.0,,,8,'None': 133; 'Aspirin 81 mg': 113; 'Furosemide 40 mg': 112; 'Metoprolol 25 mg': 111; 'Amoxicillin 500 mg': 111; 'Lisinopril 10 mg': 110; 'Metformin 500 mg': 105; 'Atorvastatin 40 mg': 93,Lisinopril 10 mg
-C,discharges,followUp,943,888,55,"absent: 30, '': 25",categorical text,100.0,,,3,'Return if symptoms worsen.': 306; 'Rest and hydration.': 300; 'Follow up with family doctor in 2 weeks.': 282,Return if symptoms worsen.
-C,discharges,appointment,943,888,55,"absent: 28, '': 27",date ISO,100.0,,,640,,2023-07-23
-C,discharges,authorizedBy,943,943,0,,staff code S###,100.0,,,12,,S015
-D,professionals,practitioner_id,40,40,0,,staff code PR-#,100.0,,,40,,PR-1
-D,professionals,display_name,40,40,0,,text,100.0,,,40,,Dumisani Ndabase
-D,professionals,speciality,40,40,0,,categorical text,100.0,,,5,'physician': 12; 'nurse': 7; 'surgeon': 7; 'radiologist': 7; 'radiology technician': 7,physician
-D,icd9_dictionary,icd9,27,27,0,,ICD-9 code (string),100.0,,,27,,401.9
-D,icd9_dictionary,label,27,27,0,,text,100.0,,,27,,Unspecified essential hypertension
-D,icd9_dictionary,group,27,27,0,,categorical text,100.0,,,10,'Circulatory': 6; 'Respiratory': 5; 'Endocrine': 4; 'Digestive': 3; 'Symptoms': 2; 'Infectious': 2; 'Genitourinary': 2; 'Injury': 1; 'Blood': 1; 'Supplementary': 1,Circulatory
-D,patients,mrn,470,470,0,,json integer,100.0,,,464,,142
-D,patients,surname,470,467,3,"absent: 2, null: 1",text,100.0,,,358,,dludlu
-D,patients,first_names,470,470,0,,text,100.0,,,91,,Sandile
-D,patients,birth_date,470,467,3,null: 3,date ISO,100.0,,,452,,2021-12-29
-D,patients,sex,470,470,0,,categorical text,100.0,,,3,'f': 194; 'm': 185; 'o': 91,f
-D,patients,contact.address,470,442,28,"'': 12, null: 11, 'unknown': 5",text,100.0,,,432,,"8356 Oxford Indlela, Mahikeng, 7976"
-D,patients,contact.phone,470,428,42,"null: 17, '': 14, 'unknown': 11",text,91.8,,numeric text: 35 (e.g. '9139054484'),420,,241-250-3926x65137
-D,patients,contact.next_of_kin,470,444,26,"'': 11, 'unknown': 8, null: 7",text,100.0,,,435,,Zakhele Ndaba 250.375.2509x97423
-D,patients,deceased,470,470,0,,json boolean,100.0,,,2,,False
-D,admissions,encounter_id,808,808,0,,json integer,100.0,,,800,,1
-D,admissions,patient_mrn,808,808,0,,json integer,100.0,,,430,,1
-D,admissions,admitted_by,808,808,0,,staff code PR-#,100.0,,,12,,PR-40
-D,admissions,start,808,804,4,"'': 2, null: 2",datetime ISO UTC (Z),97.9,datetime ISO no zone: 21 (e.g. '2024-06-07T18:06:13'),json integer: 9 (e.g. 1685187524); text: 6 (e.g. '31-31-2024'); impossible datetime ISO UTC (Z): 2 (e.g. '2025-02-30T10:00:00Z'),791,,2025-03-28T23:28:29Z
-D,admissions,encounter_type,808,808,0,,categorical code (json integer),100.0,,,5,1: 256; 3: 212; 4: 167; 2: 162; 5: 11,3
-D,admissions,reason,808,808,0,,categorical text,100.0,,,11,'Dizziness': 93; 'Fall injury': 88; 'Chest pain': 83; 'Headache': 82; 'Fever': 81; 'Cough': 79; 'Nausea': 77; 'Abdominal pain': 75; 'Shortness of breath': 70; 'Weakness': 69; 'Birth': 11,Chest pain
-D,admissions,referral_source,808,808,0,,categorical text,100.0,,,4,'walk-in': 231; 'physician referral': 198; 'transfer': 197; 'ambulance': 182,ambulance
-D,admissions,medical_aid,808,705,103,"'unknown': 37, '': 33, null: 33",text,100.0,,,698,,Mbulazi LLC #769609
-D,admissions,end,808,807,1,null: 1,datetime ISO UTC (Z),97.6,datetime ISO no zone: 19 (e.g. '2024-06-15T09:06:13'),json integer: 10 (e.g. 1746484369); impossible datetime ISO UTC (Z): 5 (e.g. '2025-02-30T10:00:00Z'); text: 4 (e.g. 'not recorded'),795,,2025-04-13T06:28:29Z
-D,admissions,outcome,808,808,0,,categorical text,100.0,,,6,'discharged': 741; 'died': 39; 'DISCHARGED': 12; ' discharged ': 11; 'discharged  ': 4; 'inpatient  ': 1,discharged
-D,triage,encounter_id,834,834,0,,json integer,100.0,,,800,,1
-D,triage,triage_id,834,834,0,,json integer,100.0,,,834,,1
-D,triage,nurse,834,834,0,,staff code PR-#,100.0,,,7,,PR-16
-D,triage,at,834,834,0,,datetime ISO UTC (Z),98.1,datetime ISO no zone: 21 (e.g. '2024-12-07T12:42:43'),json integer: 8 (e.g. 1703091971); text: 7 (e.g. '31-31-2024'); impossible datetime ISO UTC (Z): 1 (e.g. '2025-02-30T10:00:00Z'),829,,2025-03-28T23:33:29Z
-D,triage,bp,834,834,0,,blood pressure N/N,100.0,,,758,,165/103
-D,triage,pulse,834,834,0,,json integer,100.0,numeric text: 111 (e.g. '77'),,152,,90
-D,triage,resp_rate,834,834,0,,json integer,99.8,numeric text: 129 (e.g. '28'),text: 2 (e.g. '--'),42,,30
-D,triage,temp_c,834,834,0,,json decimal,100.0,decimal: 150 (e.g. '39.2'),,91,,39.2
-D,triage,spo2,834,834,0,,json integer,100.0,numeric text: 130 (e.g. '95'),,36,,97
-D,triage,pain_score,834,834,0,,json integer,100.0,numeric text: 103 (e.g. '10'),,24,,0
-D,triage,complaints,834,834,0,,json list,100.0,,,90,,"['abdominal pain', 'chest pain']"
-D,triage,allergies,834,788,46,"'unknown': 17, null: 15, '': 14",categorical text,100.0,,,6,'Latex': 145; 'None known': 144; 'Shellfish': 143; 'Peanuts': 134; 'Penicillin': 122; 'Sulfa drugs': 100,None known
-D,triage,current_meds,834,834,0,,categorical text,100.0,,,8,'Furosemide 40 mg': 116; 'Metoprolol 25 mg': 114; 'Aspirin 81 mg': 109; 'Lisinopril 10 mg': 107; 'None': 101; 'Atorvastatin 40 mg': 100; 'Metformin 500 mg': 98; 'Amoxicillin 500 mg': 89,Atorvastatin 40 mg
-D,triage,category,834,834,0,,categorical text,100.0,,,12,'P3': 318; 'P2': 287; 'P1': 196; 'P2  ': 8; 'p3': 6; 'p1': 5; ' P3 ': 3; 'P1  ': 3; 'p2': 3; ' P2 ': 3; ' P1 ': 1; 'P3  ': 1,P2
-D,unit_stays,encounter_id,1327,1327,0,,json integer,100.0,,,665,,1
-D,unit_stays,movement_id,1327,1327,0,,json integer,100.0,,,1327,,1
-D,unit_stays,ward,1327,1327,0,,categorical text,100.0,,,16,'ward': 713; 'emergency': 273; 'sicu': 79; 'icu': 75; 'ccu': 74; 'micu': 69; ' ward ': 13; 'ward  ': 9; 'WARD': 9; 'EMERGENCY': 3; 'emergency  ': 3; ' icu ': 2,ward
-D,unit_stays,room,1327,1327,0,,text,100.0,,,220,,GEN-33
-D,unit_stays,bed,1327,1327,0,,categorical code (numeric text),100.0,,,4,'2': 373; '1': 348; '4': 307; '3': 299,2
-D,unit_stays,from,1327,1327,0,,datetime ISO UTC (Z),98.6,datetime ISO no zone: 31 (e.g. '2025-09-19T08:58:29'),json integer: 10 (e.g. 1716357495); text: 5 (e.g. 'not recorded'); impossible datetime ISO UTC (Z): 4 (e.g. '2025-02-30T10:00:00Z'),1321,,2025-03-28T23:58:29Z
-D,unit_stays,to,1327,1326,1,null: 1,datetime ISO UTC (Z),98.7,datetime ISO no zone: 47 (e.g. '2023-09-23T09:03:35'),json integer: 11 (e.g. 1696075199); impossible datetime ISO UTC (Z): 4 (e.g. '2025-02-30T10:00:00Z'); text: 2 (e.g. 'not recorded'),1322,,2025-04-13T06:28:29Z
-D,unit_stays,clinician,1327,1327,0,,staff code PR-#,100.0,,,12,,PR-10
-D,unit_stays,why,1327,665,662,null: 662,categorical text,100.0,,,4,'condition improved': 182; 'monitoring required': 175; 'condition worsened': 161; 'post-operative care': 147,post-operative care
-D,diagnoses,encounter_id,1907,1907,0,,json integer,100.0,,,800,,1
-D,diagnoses,dx_id,1907,1907,0,,json integer,100.0,,,1889,,1
-D,diagnoses,patient_mrn,1907,1907,0,,json integer,100.0,,,424,,1
-D,diagnoses,icd9,1907,1898,9,null: 9,ICD-9 code (string),100.0,,,30,,244.9
-D,diagnoses,primary,1907,1907,0,,json boolean,100.0,,,2,,True
-D,diagnoses,at,1907,1907,0,,datetime ISO UTC (Z),98.3,datetime ISO no zone: 61 (e.g. '2024-12-08T00:37:43'),json integer: 24 (e.g. 1694768399); text: 6 (e.g. 'not recorded'); impossible datetime ISO UTC (Z): 2 (e.g. '2025-02-30T10:00:00Z'),1809,,2025-03-29T19:28:29Z
-D,diagnoses,by,1907,1907,0,,staff code PR-#,100.0,,,12,,PR-40
-D,orders,encounter_id,505,505,0,,json integer,100.0,,,406,,2
-D,orders,order_id,505,505,0,,json integer,100.0,,,505,,1
-D,orders,test,505,505,0,,categorical text,100.0,,,6,'Ultrasound': 98; 'Chest X-ray': 96; 'CT scan': 80; 'ECG': 80; 'MRI': 79; 'Blood panel': 72,CT scan
-D,orders,requested_at,505,505,0,,datetime ISO UTC (Z),99.2,datetime ISO no zone: 16 (e.g. '2025-08-04T03:20:18'),text: 2 (e.g. 'not recorded'); json integer: 2 (e.g. 1715319196),505,,2025-09-20T02:26:29Z
-D,orders,requested_by,505,505,0,,staff code PR-#,100.0,,,12,,PR-30
-D,orders,indication,505,505,0,,categorical text,100.0,,,5,'Rule out bleeding': 113; 'Rule out fracture': 107; 'Rule out infection': 106; 'Rule out obstruction': 103; 'Rule out ischemia': 76,Rule out ischemia
-D,orders,state,505,505,0,,categorical text,100.0,,,4,'completed': 367; 'pending': 60; 'in_progress': 41; 'cancelled': 37,completed
-D,orders,urgency,505,505,0,,categorical text,100.0,,,3,'routine': 278; 'urgent': 153; 'stat': 74,routine
-D,radiology,encounter_id,289,289,0,,json integer,100.0,,,253,,2
-D,radiology,imaging_id,289,289,0,,json integer,100.0,,,289,,1
-D,radiology,order_id,289,289,0,,json integer,100.0,,,289,,1
-D,radiology,modality,289,289,0,,categorical text,100.0,,,4,'Ultrasound': 83; 'Chest X-ray': 80; 'MRI': 67; 'CT scan': 59,CT scan
-D,radiology,at,289,289,0,,datetime ISO UTC (Z),97.2,datetime ISO no zone: 8 (e.g. '2025-04-07T08:51:13'),json integer: 7 (e.g. 1680939225); text: 1 (e.g. '31-31-2024'),285,,2025-09-20T12:26:29Z
-D,radiology,region,289,289,0,,categorical text,100.0,,,3,'Abdomen': 142; 'Chest': 80; 'Head': 67,Abdomen
-D,radiology,state,289,289,0,,categorical text,100.0,,,2,'completed': 266; 'scheduled': 23,completed
-D,radiology,pacs_link,289,289,0,,text,100.0,,,289,,pacs://img/2/1
-D,radiology,report,289,289,0,,categorical text,100.0,,,5,'Small effusion noted.': 70; 'Mild degenerative changes.': 60; 'Consolidation in the right lower lobe.': 60; 'Findings consistent with clinical suspicion.': 57; 'No acute findings.': 42,Findings consistent with clinical suspicion.
-D,radiology,referred_by,289,289,0,,staff code PR-#,100.0,,,12,,PR-3
-D,radiology,radiographer,289,289,0,,staff code PR-#,100.0,,,7,,PR-14
-D,procedures,encounter_id,82,82,0,,json integer,100.0,,,82,,1
-D,procedures,procedure_id,82,82,0,,json integer,100.0,,,82,,1
-D,procedures,procedure,82,82,0,,categorical text,100.0,,,6,'Cardiac catheterization': 18; 'Hip fracture repair': 17; 'Cholecystectomy': 14; 'Hernia repair': 13; 'Coronary artery bypass graft': 11; 'Appendectomy': 9,Hip fracture repair
-D,procedures,at,82,82,0,,datetime ISO UTC (Z),98.8,datetime ISO no zone: 1 (e.g. '2023-07-01T05:07:42'),json integer: 1 (e.g. 1690780137),82,,2025-04-02T10:48:09Z
-D,procedures,surgeon,82,82,0,,staff code PR-#,100.0,,,7,,PR-12
-D,procedures,result,82,82,0,,categorical text,100.0,,,3,'successful': 67; 'complications': 10; 'unsuccessful': 5,successful
-D,notes,encounter_id,881,881,0,,json integer,100.0,,,799,,1
-D,notes,note_id,881,881,0,,json integer,100.0,,,881,,1
-D,notes,kind,881,881,0,,categorical text,100.0,,,2,'discharge_summary': 799; 'operative_note': 82,operative_note
-D,notes,at,881,881,0,,datetime ISO UTC (Z),98.2,datetime ISO no zone: 31 (e.g. '2025-03-06T09:32:52'),json integer: 8 (e.g. 1722374320); text: 4 (e.g. 'not recorded'); impossible datetime ISO UTC (Z): 4 (e.g. '2025-02-30T10:00:00Z'),876,,2025-04-02T12:48:09Z
-D,notes,author,881,881,0,,staff code PR-#,100.0,,,19,,PR-22
-D,notes,body,881,881,0,,text,100.0,,,57,,Operative note. Hip fracture repair performed. Patient tolerated the procedure.
-D,discharges,encounter_id,800,800,0,,json integer,100.0,,,800,,1
-D,discharges,discharge_id,800,800,0,,json integer,100.0,,,800,,1
-D,discharges,at,800,800,0,,datetime ISO UTC (Z),98.2,datetime ISO no zone: 33 (e.g. '2025-01-12T06:35:56'),json integer: 7 (e.g. 1690933665); text: 4 (e.g. 'not recorded'); impossible datetime ISO UTC (Z): 3 (e.g. '2025-02-30T10:00:00Z'),796,,2025-04-13T06:28:29Z
-D,discharges,to,800,800,0,,categorical text,100.0,,,6,'home with support': 173; 'home': 161; 'long-term care': 145; 'rehabilitation facility': 144; 'transfer to another hospital': 138; 'morgue': 39,transfer to another hospital
-D,discharges,condition,800,800,0,,categorical text,100.0,,,4,'stable': 269; 'improved': 247; 'fair': 245; 'deceased': 39,fair
-D,discharges,scripts,800,760,40,null: 40,categorical text,100.0,,,8,'Aspirin 81 mg': 109; 'None': 105; 'Metformin 500 mg': 101; 'Atorvastatin 40 mg': 94; 'Amoxicillin 500 mg': 94; 'Furosemide 40 mg': 87; 'Metoprolol 25 mg': 86; 'Lisinopril 10 mg': 84,Aspirin 81 mg
-D,discharges,advice,800,760,40,null: 40,categorical text,100.0,,,3,'Follow up with family doctor in 2 weeks.': 270; 'Return if symptoms worsen.': 253; 'Rest and hydration.': 237,Return if symptoms worsen.
-D,discharges,next_visit,800,760,40,null: 40,date ISO,100.0,,,559,,2025-04-28
-D,discharges,authorised_by,800,800,0,,staff code PR-#,100.0,,,12,,PR-5
+source_system,entity,raw_field,common_field,level,inferred_type,value_formats,non_missing,missing_absent,missing_empty,missing_placeholder,missing_total,missing_pct,placeholders_seen,distinct_values,example_values
+A,professionals,id_pro,professional_id,required,integer,integer 100%,73,0,0,0,0,0.0,,72,1 | 2 | 3 | 4
+A,professionals,titre,title,optional,categorical text,text 100%,38,0,35,0,35,47.9,,2,Dr | Pr
+A,professionals,nom_prenom,full_name,expected,text,text 100%,73,0,0,0,0,0.0,,70,Remi ANDRE | Mathilde CHEVALIER | Ines CHEVALIER | Manon DAVID
+A,professionals,fonction,role,expected,categorical text,text 100%,72,0,0,1,1,1.4,'-'x1,8,MEDECIN | PH | IDE | INF
+A,professionals,service,department,optional,categorical text,text 100%,73,0,0,0,0,0.0,,12,Reanimation | Pneumologie | Medecine interne | Urgences
+A,patients,num_patient,patient_id,required,integer,integer 100%,503,0,0,0,0,0.0,,494,1 | 2 | 3 | 4
+A,patients,nom,last_name,required,text,text 100%,500,0,1,2,3,0.6,"'N/A'x1, 'null'x1",82,ROUX | FAURE | MARTINEZ | THOMAS
+A,patients,prenom,first_name,expected,text,text 100%,503,0,0,0,0,0.0,,75,Ines | Elise | Manon | Jules
+A,patients,date_naissance,date_of_birth,required,date,date 100%,503,0,0,0,0,0.0,,481,22/05/1929 | 15/09/1967 | 22/01/1954 | 06/09/1958
+A,patients,sexe,sex,optional,categorical text,text 100%,487,0,1,15,16,3.2,"'-'x5, 'N/A'x4, 'null'x4, '?'x2",15,F | M |   M | I
+A,patients,adresse,address,optional,text,text 100%,464,0,7,32,39,7.8,"'N/A'x11, 'null'x8, '?'x7, '-'x6",448,"3 rue Victor Hugo, 37257 Vernay | 50 rue du Moulin, 25225 Vernay | 65 rue Victor Hugo, 30743 Vernay | 126 rue des Tilleuls, 26308 Bellerive-en-Val"
+A,patients,telephone,phone,optional,text,"text 97%, integer 3%",470,0,12,21,33,6.6,"'N/A'x7, 'null'x6, '?'x5, '-'x3",455,05 99 21 80 38 | 04 29 08 41 23 | 02 75 24 27 47 | 03 09 40 04 86
+A,patients,personne_a_prevenir,emergency_contact,optional,text,text 100%,478,0,6,19,25,5.0,"'N/A'x7, '?'x5, '-'x4, 'null'x3",466,Juliette Garcia (06 53 52 59 67) | Lucie Lefevre (04 86 26 71 43) | Emma Henry (06 41 28 31 38) | Monique Mathieu (07 90 94 69 92)
+A,patients,statut_vital,life_status,expected,categorical text,text 100%,503,0,0,0,0,0.0,,13,VIVANT | DECEDE | Decede(e) | Vivant(e)
+A,admissions,num_sejour,admission_id,required,integer,integer 100%,717,0,0,0,0,0.0,,704,1 | 2 | 3 | 4
+A,admissions,num_patient,patient_id,required,integer,integer 100%,717,0,0,0,0,0.0,,403,1 | 2 | 3 | 5
+A,admissions,medecin_entree,admitting_professional_id,expected,integer,integer 100%,717,0,0,0,0,0.0,,27,10 | 14 | 6 | 13
+A,admissions,date_heure_entree,admit_time,required,datetime,datetime 100%,715,0,0,2,2,0.3,"'?'x1, '0000-00-00'x1",687,25/05/2023 13:55 | 25/10/2022 21:58 | 07/05/2023 07:58 | 02/02/2024 16:58
+A,admissions,type_sejour,admission_type,required,categorical text,text 100%,715,0,0,2,2,0.3,"'N/A'x1, '?'x1",34,AMBULATOIRE | PROGRAMME | URG | URGENCE
+A,admissions,motif,reason,required,categorical text,text 100%,717,0,0,0,0,0.0,,36,Palpitations | Planned surgery | Syncope | Chest pain
+A,admissions,provenance,admission_source,optional,categorical text,text 100%,648,0,16,53,69,9.6,"'?'x17, 'N/A'x13, '-'x12, 'null'x11",25,SAMU | samu | Transfert | Domicile
+A,admissions,couverture,insurance,optional,text,text 100%,637,0,17,63,80,11.2,"'?'x19, '-'x19, 'null'x18, 'N/A'x7",611,CPAM 40 / MGEN n924365 | CPAM 82 / MGEN n250037 | CPAM 29 / MGEN n810043 | CPAM 22 / Prevoyance Loire n501026
+A,admissions,date_heure_sortie,discharge_time,optional,datetime,datetime 100%,716,0,1,0,1,0.1,,683,25/05/2023 17:55 | 09/11/2022 07:58 | 07/05/2023 16:58 | 14/02/2024 22:58
+A,admissions,statut_sejour,admission_status,expected,categorical text,text 100%,717,0,0,0,0,0.0,,15,SORTI | DECEDE |   SORTI | SORTIE
+A,triage,num_triage,triage_id,required,integer,integer 100%,759,0,0,0,0,0.0,,745,1 | 2 | 3 | 4
+A,triage,num_sejour,admission_id,required,integer,integer 100%,755,0,1,3,4,0.5,"'-'x2, 'N/A'x1",680,1 | 2 | 3 | 4
+A,triage,ide,nurse_id,required,integer,integer 100%,755,0,0,4,4,0.5,"'?'x2, '-'x2",25,36 | 2972 | 37 | 26
+A,triage,date_heure_triage,triage_time,expected,datetime,datetime 100%,759,0,0,0,0,0.0,,725,25/05/2023 14:13 | 25/10/2022 22:21 | 07/05/2023 08:06 | 02/02/2024 17:20
+A,triage,tension,blood_pressure,optional,ratio (n/n),"ratio (n/n) 98%, text 2%",743,0,6,10,16,2.1,"'null'x3, '?'x3, '-'x3, 'N/A'x1",608,104/100 | 155/90 | 153/97 | 169/67
+A,triage,pouls,heart_rate,optional,numeric (mixed formats),"integer 94%, number + unit 4%, text 2%",740,0,4,15,19,2.5,"'null'x5, '-1'x3, 'N/A'x3, '?'x3, '-'x1",102,114 | 108 | 120 | 78
+A,triage,freq_resp,respiratory_rate,optional,numeric (mixed formats),"integer 94%, number + unit 5%, text 1%",737,0,2,20,22,2.9,"'?'x5, '-'x5, 'null'x4, 'N/A'x4, '-1'x2",45,17 | 28 | 16 | 150
+A,triage,temperature,temperature,optional,numeric (mixed formats),"decimal (comma) 66%, number + unit 27%, integer 5%, text 2%",749,0,0,10,10,1.3,"'?'x4, '-'x4, 'null'x1, '-1'x1",185,"38,5 | 36,5 | 38,6 | 37,2"
+A,triage,spo2,spo2,optional,integer,"integer 95%, number + unit 3%, text 1%",747,0,2,10,12,1.6,"'?'x3, 'N/A'x2, 'null'x2, '-1'x2, '-'x1",32,89 | 92 | 94 | 88
+A,triage,eva,pain_score,optional,mixed (mostly integer),"integer 94%, ratio (n/n) 4%, text 2%",743,0,4,12,16,2.1,"'-'x5, '?'x3, '-1'x2, 'N/A'x1, 'null'x1",26,14 | 4 | 5 | 2
+A,triage,symptomes,symptoms,optional,text,text 100%,739,0,6,14,20,2.6,"'null'x5, '-'x4, 'N/A'x3, '?'x2",359,"chest pain | headache | cough, confusion, palpitations | dizziness, fall, abdominal pain"
+A,triage,allergies,allergies,optional,categorical text,text 100%,739,0,3,17,20,2.6,"'?'x9, '-'x3, 'N/A'x3, 'null'x2",44,NKA | Aspirin | no known allergies |   NKA
+A,triage,traitement_habituel,home_medications,optional,categorical text,text 100%,735,0,6,18,24,3.2,"'?'x6, 'null'x6, 'N/A'x4, '-'x2",44,None | Bisoprolol 2.5 mg | Paracetamol 1 g | Ramipril 5 mg
+A,triage,niveau_tri,triage_priority,required,numeric (mixed formats),"integer 93%, text 7%",754,0,1,4,5,0.7,"'?'x2, '-'x1, 'N/A'x1",19,3 | 2 | 1 | Tri 2
+A,diagnoses,num_diag,diagnosis_id,required,integer,integer 100%,1725,0,0,0,0,0.0,,1694,1 | 2 | 3 | 4
+A,diagnoses,num_patient,patient_id,expected,integer,integer 100%,1725,0,0,0,0,0.0,,405,1 | 2 | 3 | 5
+A,diagnoses,num_sejour,admission_id,required,integer,integer 100%,1721,0,0,4,4,0.2,"'N/A'x2, '?'x1, '-'x1",695,1 | 2 | 3 | 4
+A,diagnoses,code_cim9,icd9_code,required,numeric (mixed formats),"decimal 90%, integer 10%, text 0%",1719,0,1,5,6,0.3,"'?'x2, '-'x2, 'N/A'x1",137,786.50 | 599.0 | 780.39 | 401.9
+A,diagnoses,medecin,professional_id,required,integer,integer 100%,1717,0,3,5,8,0.5,"'-'x3, 'N/A'x1, 'null'x1",41,11 | 2936 | 12 | 4
+A,diagnoses,date_heure_diag,diagnosis_time,required,datetime,"datetime 100%, text 0%",1721,0,0,4,4,0.2,"'null'x2, '-'x1, 'N/A'x1",1480,25/05/2023 17:50 | 26/10/2022 03:58 | 25/10/2022 23:58 | 07/05/2023 10:58
+A,diagnoses,type_diag,diagnosis_type,required,categorical text,text 100%,1717,0,2,6,8,0.5,"'-'x3, '?'x3",34,DP | das | DAS | Principal
+A,notes,num_note,note_id,required,integer,integer 100%,1396,0,0,0,0,0.0,,1371,1 | 2 | 3 | 4
+A,notes,num_sejour,admission_id,required,integer,integer 100%,1395,0,1,0,1,0.1,,698,1 | 2 | 3 | 4
+A,notes,auteur,author_id,required,integer,integer 100%,1392,0,2,2,4,0.3,'?'x2,46,10 | 11 | 6 | 14
+A,notes,type_note,note_type,required,categorical text,text 100%,1389,0,1,6,7,0.5,"'N/A'x2, '-'x2, '?'x1, 'null'x1",32,OBSERVATION | CRH | CRO | CRH   
+A,notes,date_heure_note,note_time,required,datetime,"datetime 99%, text 1%",1393,0,0,3,3,0.2,'null'x3,1325,25/05/2023 17:02 | 25/05/2023 14:32 | 25/05/2023 17:55 | 06/11/2022 15:31
+A,notes,texte,note_text,required,text,text 100%,1386,0,1,9,10,0.7,"'-'x5, 'N/A'x2, 'null'x1, '?'x1",162,"Family updated, questions answered. | Patient reviewed on the ward round. Plan unchanged. | Discharge summary. Admitted for palpitations. Condition stable at discharge. | Discharge summary. Admitted for planned surgery. Recovery progressing well."
+A,orders,num_demande,order_id,required,integer,integer 100%,533,0,0,0,0,0.0,,523,1 | 2 | 3 | 4
+A,orders,num_sejour,admission_id,required,integer,integer 100%,533,0,0,0,0,0.0,,392,1 | 2 | 3 | 4
+A,orders,prescripteur,professional_id,required,integer,integer 100%,531,0,1,1,2,0.4,'N/A'x1,28,1 | 10 | 21 | 13
+A,orders,date_heure_demande,order_time,required,datetime,"datetime 100%, text 0%",531,0,0,2,2,0.4,'null'x2,506,25/05/2023 15:27 | 28/10/2022 08:08 | 28/10/2022 09:14 | 07/05/2023 14:30
+A,orders,examen,exam_type,expected,categorical text,text 100%,533,0,0,0,0,0.0,,28,ECG | RADIO THORAX | IRM | ECHOGRAPHIE
+A,orders,indication,indication,required,categorical text,text 100%,533,0,0,0,0,0.0,,28,Follow-up of known lesion | Rule out obstruction | Pre-operative assessment | Rule out fracture
+A,orders,statut_demande,order_status,required,categorical text,text 100%,531,0,2,0,2,0.4,,25,TERMINE | ANNULE | EN ATTENTE | REALISE
+A,orders,priorite,priority,required,categorical text,text 100%,530,0,0,3,3,0.6,"'?'x1, 'N/A'x1, 'null'x1",21,NORMALE | IMMEDIATE    | URGENTE | IMMEDIATE
+A,radiology,num_examen,exam_id,required,integer,integer 100%,339,0,0,0,0,0.0,,333,1 | 2 | 3 | 4
+A,radiology,num_sejour,admission_id,required,integer,integer 100%,336,0,1,2,3,0.9,"'?'x1, 'null'x1",275,2 | 3 | 4 | 8
+A,radiology,num_demande,order_id,optional,integer,integer 100%,309,0,30,0,30,8.8,,295,2 | 3729 | 4 | 6
+A,radiology,medecin_demandeur,referring_professional_id,required,integer,integer 100%,338,0,1,0,1,0.3,,28,10 | 21 | 13 | 12
+A,radiology,manipulateur,technician_id,required,integer,integer 100%,339,0,0,0,0,0.0,,12,63 | 60 | 62 | 64
+A,radiology,type_examen,exam_type,required,categorical text,text 100%,339,0,0,0,0,0.0,,15,RADIO THORAX | IRM | ECHOGRAPHIE | IRM   
+A,radiology,date_heure_examen,exam_time,required,datetime,"datetime 99%, text 1%",339,0,0,0,0,0.0,,319,28/10/2022 09:08 | 28/10/2022 17:14 | 07-05-2023 16:48 | 03/02/2024 01:10
+A,radiology,zone,body_area,optional,categorical text,text 100%,310,0,5,24,29,8.6,"'?'x12, 'N/A'x4, '-'x4, 'null'x3, 'NULL'x1",13,Thorax | Crane | Abdomen | Abdomen 
+A,radiology,statut_examen,exam_status,required,categorical text,text 100%,336,0,0,3,3,0.9,"'?'x2, '-'x1",16,REALISE | Interprete | PROGRAMME | annule
+A,radiology,lien_pacs,image_link,optional,url,url 100%,310,0,5,24,29,8.6,"'-'x10, 'null'x5, '?'x5, 'N/A'x4",295,pacs://chu-montclair/2/1 | pacs://chu-montclair/2/2 | pacs://chu-montclair/3/3 | pacs://chu-montclair/4/4
+A,radiology,conclusion,findings,optional,categorical text,text 100%,268,0,59,12,71,20.9,"'N/A'x5, '?'x3, '-'x3, 'null'x1",15,No acute findings. | No fracture seen. | Findings consistent with clinical suspicion. | Mild degenerative changes.
+A,procedures,num_intervention,procedure_id,required,integer,integer 100%,87,0,0,0,0,0.0,,85,1 | 2 | 3 | 4
+A,procedures,num_sejour,admission_id,required,integer,integer 100%,86,0,0,1,1,1.1,'null'x1,82,5 | 6 | 15 | 25
+A,procedures,chirurgien,surgeon_id,required,integer,integer 100%,87,0,0,0,0,0.0,,8,47 | 48 | 46 | 52
+A,procedures,intervention,procedure_name,required,categorical text,text 100%,86,0,0,1,1,1.1,'?'x1,13,Coronarographie | Appendicectomie | Pontage aorto-coronarien | Cure de hernie inguinale
+A,procedures,date_heure_intervention,procedure_time,required,datetime,"datetime 99%, text 1%",87,0,0,0,0,0.0,,84,10/06/2024 15:34 | 17/11/2024 19:50 | 16/05/2024 09:55 | 24/11/2022 23:37
+A,procedures,resultat,outcome,optional,categorical text,text 100%,68,0,4,15,19,21.8,"'null'x6, 'N/A'x4, '?'x3, '-'x2",7,Succes |  Succes  | Complications | Echec
+A,unit_stays,num_mouvement,stay_id,required,integer,integer 100%,1177,0,0,0,0,0.0,,1156,1 | 2 | 3 | 4
+A,unit_stays,num_sejour,admission_id,required,integer,integer 100%,1172,0,0,5,5,0.4,"'?'x3, 'null'x1, 'N/A'x1",599,2 | 3 | 4 | 5
+A,unit_stays,medecin_responsable,professional_id,required,integer,integer 100%,1173,0,1,3,4,0.3,"'N/A'x1, 'null'x1, '?'x1",32,10 | 17 | 18 | 5
+A,unit_stays,unite,unit_type,required,categorical text,text 100%,1172,0,1,4,5,0.4,"'?'x2, 'null'x1, '-'x1",42,MEDECINE | URGENCES | MED | REA MED
+A,unit_stays,chambre,room,optional,text,text 100%,1076,0,21,80,101,8.6,"'-'x24, 'null'x20, 'N/A'x18, '?'x18",252,GEN-36 | EME-01 | GEN-19 | EME-39
+A,unit_stays,lit,bed,optional,integer,integer 100%,1071,0,25,81,106,9.0,"'?'x30, '-'x23, 'N/A'x15, 'null'x13",4,2 | 4 | 1 | 3
+A,unit_stays,date_heure_entree,entry_time,required,datetime,"datetime 99%, text 1%",1170,0,1,6,7,0.6,"'?'x3, '-'x1, 'null'x1, '0000-00-00'x1",1116,25/10/2022 22:28 | 07/05/2023 08:28 | 02/02/2024 17:28 | 09/06/2024 23:28
+A,unit_stays,date_heure_sortie,exit_time,optional,datetime,datetime 100%,1176,0,1,0,1,0.1,,1122,09/11/2022 07:58 | 07/05/2023 16:58 | 14/02/2024 22:58 | 2024-06-11T05:05
+A,unit_stays,motif_transfert,transfer_reason,optional,categorical text,text 100%,512,0,634,31,665,56.5,"'N/A'x9, '-'x8, 'null'x7, '?'x7",21,monitoring required | condition worsened | condition improved | post-operative care
+A,discharges,num_sortie,discharge_id,required,integer,integer 100%,717,0,0,0,0,0.0,,704,1 | 2 | 3 | 4
+A,discharges,num_sejour,admission_id,required,integer,integer 100%,712,0,0,5,5,0.7,"'null'x3, '?'x1, 'N/A'x1",679,1 | 2 | 3 | 4
+A,discharges,medecin_signataire,professional_id,required,integer,integer 100%,716,0,0,1,1,0.1,'N/A'x1,29,3 | 14 | 17 | 2
+A,discharges,date_heure_sortie,discharge_time,required,datetime,"datetime 100%, text 0%",711,0,0,6,6,0.8,"'?'x2, 'null'x1, '-'x1, '0000-00-00'x1, 'N/A'x1",679,25/05/2023 17:55 | 09/11/2022 07:58 | 07-05-2023 16:58 | 14/02/2024 22:58
+A,discharges,destination,destination,optional,categorical text,text 100%,691,0,3,23,26,3.6,"'-'x9, '?'x6, 'N/A'x6, 'null'x2",31,Transfert autre hopital |  SSR (reeducation)  | Domicile avec aide | Domicile
+A,discharges,etat_sortie,discharge_condition,optional,categorical text,text 100%,685,0,6,26,32,4.5,"'-'x8, '?'x7, 'N/A'x6, 'null'x5",24,Stable | Moyen | Ameliore | Decede
+A,discharges,ordonnance,medications,optional,categorical text,text 100%,657,0,34,26,60,8.4,"'-'x11, 'N/A'x6, 'null'x5, '?'x4",10,none | Ramipril 5 mg | Furosemide 40 mg | Aspirin 75 mg
+A,discharges,consignes,instructions,optional,categorical text,text 100%,664,0,33,20,53,7.4,"'N/A'x8, '-'x6, 'null'x3, '?'x3",32,  Follow up with the GP in 2 weeks. | Physiotherapy twice a week. | Outpatient clinic appointment booked. | Follow up with the GP in 2 weeks.
+A,discharges,prochain_rdv,follow_up_time,optional,datetime,datetime 100%,657,0,35,25,60,8.4,"'?'x8, 'N/A'x7, 'null'x6, '-'x4",628,25/06/2023 22:55 | 26/11/2022 12:58 | 29/05/2023 19:58 | 02/03/2024 22:58
+B,professionals,StaffID,professional_id,required,integer,integer 100%,84,0,0,0,0,0.0,,82,1 | 2 | 3 | 4
+B,professionals,Title,title,optional,categorical text,text 100%,84,0,0,0,0,0.0,,4,Ms | Mr | Dr | Sr
+B,professionals,StaffName,full_name,expected,text,text 100%,83,0,0,1,1,1.2,'?'x1,79,Fatuma Ekwaru | Geoffrey Ainembabazi | Sarah Kyomuhendo | Samuel Adong
+B,professionals,Cadre,role,expected,categorical text,text 100%,83,0,0,1,1,1.2,'N/A'x1,17,Enrolled Nurse | Surgeon | Medical Officer | Radiographer
+B,professionals,Department,department,optional,categorical text,text 100%,84,0,0,0,0,0.0,,16,Nursing | Surgery | Internal Medicine | Radiology
+B,patients,PatientNo,patient_id,required,integer,integer 100%,693,0,0,0,0,0.0,,680,1 | 2 | 3 | 4
+B,patients,PatientName,full_name,required,text,text 100%,692,0,1,0,1,0.1,,618,Joan Mwesigwa | Prossy Ssali | Robert Ainembabazi | Emmanuel Auma
+B,patients,DOB,date_of_birth,required,date,date 100%,690,0,0,3,3,0.4,"'N/A'x1, '0000-00-00'x1, '-'x1",658,14/12/1942 | 08/11/1957 | 10/01/2022 | 08/03/1935
+B,patients,Sex,sex,optional,categorical text,text 100%,675,0,1,17,18,2.6,"'null'x6, 'N/A'x5, '?'x4, '-'x2",12,F | M | Male | Female
+B,patients,Address,address,optional,text,text 100%,673,0,4,16,20,2.9,"'N/A'x4, 'null'x4, '-'x4, '?'x4",640,"Plot 227, Zone G, Lira | Plot 5, Zone D, Arua | Plot 212, Zone E, Fort Portal | Plot 76, Zone B, Mukono"
+B,patients,PhoneNo,phone,optional,text,"text 95%, integer 5%",541,0,131,21,152,21.9,"'N/A'x7, '?'x7, 'null'x6, '-'x1",514,0759 800807 | 0704 214470 | 0742 869702 | 0717 169994
+B,patients,NextOfKin,emergency_contact,optional,text,text 100%,668,0,3,22,25,3.6,"'N/A'x8, '?'x8, '-'x3, 'null'x3",641,Immaculate Nyakato (Sister) 0756 523462 | Prossy Kasozi (Mother) 0755 304602 | Ruth Byamukama (Mother) 0762 649702 | Fred Mukasa (Son) 0743 207282
+B,patients,Status,life_status,expected,categorical text,text 100%,671,0,5,17,22,3.2,"'null'x7, '?'x5, '-'x3, 'N/A'x2",14,A | Alive | Living | Alive 
+B,admissions,AdmissionNo,admission_id,required,integer,integer 100%,876,0,0,0,0,0.0,,859,1 | 2 | 3 | 4
+B,admissions,PatientNo,patient_id,required,integer,integer 100%,876,0,0,0,0,0.0,,670,1 | 2 | 3 | 4
+B,admissions,AdmittingDoctorID,admitting_professional_id,expected,integer,integer 100%,876,0,0,0,0,0.0,,39,69 | 19 | 42 | 40
+B,admissions,AdmitDateTime,admit_time,required,datetime,datetime 100%,875,0,0,1,1,0.1,'null'x1,834,02/01/2022 21:54 | 08/01/2022 03:28 | 10/01/2022 22:50 | 12/01/2022 11:13
+B,admissions,AdmissionCategory,admission_type,required,categorical text,text 100%,875,0,1,0,1,0.1,,33,Urgent Care | Emergency | Newborn | OPD
+B,admissions,PresentingComplaint,reason,required,text,text 100%,874,0,0,2,2,0.2,"'N/A'x1, '?'x1",97,"Elevated BP at clinic | Abdominal pain moving to the right side | Healthy newborn, delivered at UNH | Fatigue and weight gain, known hypothyroid"
+B,admissions,ReferredFrom,admission_source,optional,categorical text,text 100%,833,0,11,32,43,4.9,"'null'x9, '?'x9, '-'x8, 'N/A'x6",25,Self-referral | Health Centre IV referral | Born at UNH | OPD clinic
+B,admissions,PayerScheme,insurance,optional,categorical text,text 100%,822,0,13,41,54,6.2,"'N/A'x12, '?'x10, '-'x10, 'null'x9",25,Private Insurance (Plan A) | Private Insurance (Plan B) | Government (free care) | UNH Staff Scheme
+B,admissions,DischargeDateTime,discharge_time,optional,datetime,datetime 100%,810,0,26,40,66,7.5,"'-'x14, 'N/A'x11, '0000-00-00'x8, 'null'x7",779,04/01/2022 21:52 | 14/01/2022 03:03 | 14/01/2022 12:11 | 2022-01-12T18:59
+B,admissions,AdmStatus,admission_status,expected,categorical text,text 100%,876,0,0,0,0,0.0,,17,Discharged | DISCH | D/C | Discharged    
+B,triage,TriageID,triage_id,required,integer,integer 100%,645,0,0,0,0,0.0,,633,1 | 2 | 3 | 4
+B,triage,AdmissionNo,admission_id,required,integer,integer 100%,641,0,1,3,4,0.6,"'-'x1, 'null'x1, '?'x1",610,1 | 2 | 3 | 5
+B,triage,NurseID,nurse_id,required,integer,integer 100%,640,0,1,4,5,0.8,"'null'x2, 'N/A'x1, '-'x1",32,20 | 8 | 52 | 24
+B,triage,TriageDateTime,triage_time,expected,datetime,datetime 100%,645,0,0,0,0,0.0,,616,02/01/2022 22:31 | 08/01/2022 03:39 | 10/01/2022 23:23 | 13/01/2022 18:02
+B,triage,BP,blood_pressure,optional,mixed (mostly ratio (n/n)),"ratio (n/n) 94%, text 6%",633,0,3,9,12,1.9,"'N/A'x4, 'null'x2, '-'x2, '-1'x1",469,80/0 | 128/83 | 77/39 | 131/87
+B,triage,Pulse,heart_rate,optional,numeric (mixed formats),"integer 92%, number + unit 6%, text 3%",636,0,3,6,9,1.4,"'?'x2, 'N/A'x2, '-'x2",119,90 | 99 | 129 | 70
+B,triage,RespRate,respiratory_rate,optional,numeric (mixed formats),"integer 94%, number + unit 4%, text 2%",625,0,4,16,20,3.1,"'-'x4, 'null'x4, '?'x3, '-1'x3, 'N/A'x2",60,14 | 17 | 52 | 18
+B,triage,Temp,temperature,optional,numeric (mixed formats),"decimal 69%, number + unit 24%, integer 5%, text 3%",632,0,4,9,13,2.0,"'?'x4, 'null'x2, 'N/A'x1, '-1'x1, '-'x1",142,98.6F | 36.8 | 3.7 | 37.3
+B,triage,SpO2,spo2,optional,numeric (mixed formats),"integer 94%, number + unit 4%, text 3%",634,0,1,10,11,1.7,"'?'x3, 'null'x3, 'N/A'x2, '-1'x1, '-'x1",37,96 | 97 | 99 | 98
+B,triage,PainScore,pain_score,optional,mixed (mostly integer),"integer 94%, ratio (n/n) 5%, text 1%",594,0,36,15,51,7.9,"'N/A'x4, 'null'x3, '-'x3, '?'x3, '-1'x2",24,4 | 10 | severe | 0
+B,triage,Symptoms,symptoms,optional,text,text 100%,631,0,2,12,14,2.2,"'-'x5, '?'x4, 'null'x2, 'N/A'x1",81,"blurred vision, headache | routine newborn check | fatigue, dizziness, pallor | exertional angina"
+B,triage,Allergies,allergies,optional,text,text 100%,638,0,1,6,7,1.1,"'null'x3, 'N/A'x2, '-'x1",53,no known allergies | NKA | Latex | none
+B,triage,CurrentMeds,home_medications,optional,categorical text,text 100%,634,0,4,7,11,1.7,"'N/A'x3, '?'x2, '-'x1, 'null'x1",49,Amlodipine 5mg OD; Levothyroxine 100mcg OD | Metformin 500mg BD | NKA | Amlodipine 5mg OD; Ferrous sulphate 200mg OD; Calcium carbonate 500mg TDS
+B,triage,TriageCategory,triage_priority,required,categorical text,text 100%,642,0,0,3,3,0.5,'N/A'x3,29,LOW | HIGH | Hi | MEDIUM
+B,diagnoses,DiagID,diagnosis_id,required,integer,integer 100%,1084,0,0,0,0,0.0,,1063,1 | 2 | 3 | 4
+B,diagnoses,PatientNo,patient_id,expected,integer,integer 100%,1082,0,0,2,2,0.2,"'?'x1, '-'x1",651,1 | 2 | 4 | 5
+B,diagnoses,AdmissionNo,admission_id,required,integer,integer 100%,1078,0,3,3,6,0.6,"'null'x1, 'N/A'x1, '-'x1",814,1 | 2 | 4 | 5
+B,diagnoses,ICD9,icd9_code,required,numeric (mixed formats),"decimal 87%, integer 12%, text 1%",1082,0,1,1,2,0.2,'N/A'x1,111,401.9 | 540.9 | 250.00 | 2449
+B,diagnoses,DiagnosedBy,professional_id,required,integer,integer 100%,1080,0,1,3,4,0.4,'null'x3,42,25 | 19 | 73 | 48
+B,diagnoses,DiagDateTime,diagnosis_time,required,datetime,"datetime 100%, text 0%",1079,0,0,5,5,0.5,"'-'x2, 'N/A'x2, '0000-00-00'x1",1029,03/01/2022 05:00 | 01/08/2022 09:22 PM | 09/01/2022 21:45 | 12/01/2022 11:36
+B,diagnoses,DiagType,diagnosis_type,required,categorical text,text 100%,1083,0,0,1,1,0.1,'N/A'x1,39, PRIMARY   | Primary | Secondary | secondary
+B,notes,NoteID,note_id,required,integer,integer 100%,1356,0,0,0,0,0.0,,1330,1 | 2 | 3 | 4
+B,notes,AdmissionNo,admission_id,required,integer,integer 100%,1350,0,1,5,6,0.4,"'?'x4, 'N/A'x1",670,1 | 2 | 3 | 4
+B,notes,AuthorID,author_id,required,integer,integer 100%,1351,0,1,4,5,0.4,"'N/A'x2, 'null'x1, '-'x1",65,65 | 19 | 78 | 18
+B,notes,NoteCategory,note_type,required,categorical text,text 100%,1351,0,3,2,5,0.4,"'-'x1, '?'x1",50,Admission Note | Ward Round Note | Nursing Note | Discharge Note
+B,notes,NoteDate,note_time,required,datetime,"datetime 100%, text 0%",1354,0,0,2,2,0.1,"'-'x1, '0000-00-00'x1",1295,02/01/2022 21:58 | 08/01/2022 17:35 | 11/01/2022 02:20 | 12/01/2022 11:23
+B,notes,NoteText,note_text,required,text,text 100%,1349,0,4,3,7,0.5,"'null'x2, 'N/A'x1",442," ADMITTED WITH HEADACHE, DIZZINESS. IMPRESSION: HYPERTENSION. BP BETTER CONTROLLED AT 138/86.   | Admitted with abdominal pain, loss of appetite. Impression: appendicitis. Surgical review done, booked for theatre. | Admitted with no complaints. Impression: healthy newborn. Baby feeding well, mother counselled on breastfeeding. | Admitted with tiredness, cold intolerance. Impression: hypothyroidism. Symptoms improving on current dose."
+B,orders,RequestNo,order_id,required,integer,integer 100%,825,0,0,0,0,0.0,,809,1 | 2 | 3 | 4
+B,orders,AdmissionNo,admission_id,required,integer,integer 100%,824,0,0,1,1,0.1,'N/A'x1,596,1 | 895 | 4 | 5
+B,orders,RequestedBy,professional_id,required,integer,integer 100%,819,0,1,5,6,0.7,"'-'x3, 'null'x2",40,69 | 70 | 40 | 65
+B,orders,RequestDateTime,order_time,required,datetime,datetime 100%,825,0,0,0,0,0.0,,791,02/01/2022 23:48 | 03/01/2022 00:56 | 12/01/2022 12:54 | 13/01/2022 20:10
+B,orders,TestRequested,exam_type,expected,text,text 100%,825,0,0,0,0,0.0,,60,ECG | Urinalysis | Free T4 | Full Blood Count
+B,orders,IndicationForTest,indication,required,text,text 100%,824,0,0,1,1,0.1,'?'x1,217,"Assess hypertension | Known hypertension, baseline | Suspected hypothyroidism | Assess anaemia"
+B,orders,RequestStatus,order_status,required,categorical text,text 100%,822,0,2,1,3,0.4,'?'x1,22,Completed | Done | Cancelled | Pending
+B,orders,Urgency,priority,required,categorical text,text 100%,821,0,0,4,4,0.5,"'N/A'x2, '-'x1, '?'x1",29,Routine | STAT | Urgent | R
+B,radiology,ExamID,exam_id,required,integer,integer 100%,195,0,0,0,0,0.0,,191,1 | 2 | 3 | 4
+B,radiology,AdmissionNo,admission_id,required,integer,integer 100%,195,0,0,0,0,0.0,,183,7 | 13 | 20 | 21
+B,radiology,RequestNo,order_id,optional,integer,integer 100%,178,0,17,0,17,8.7,,169,6 | 9 | 14 | 15
+B,radiology,ReferringDr,referring_professional_id,required,integer,integer 100%,194,0,1,0,1,0.5,,35,10 | 60 | 44 | 78
+B,radiology,Radiographer,technician_id,required,integer,integer 100%,194,0,0,1,1,0.5,'-'x1,7,63 | 58 | 54 | 11
+B,radiology,Modality,exam_type,required,categorical text,text 100%,195,0,0,0,0,0.0,,18, X-Ray | X-Ray | CT Scan |  USS
+B,radiology,ExamDateTime,exam_time,required,datetime,datetime 100%,194,0,0,1,1,0.5,'null'x1,186,03/02/2022 08:52 | 13/02/2022 10:15 | 18/02/2022 19:41 | 20/02/2022 12:30
+B,radiology,BodyPart,body_area,optional,categorical text,text 100%,185,0,4,6,10,5.1,"'N/A'x3, '?'x2, '-'x1",13,Chest | Head | Abdomen | Kidneys
+B,radiology,ExamStatus,exam_status,required,categorical text,text 100%,194,0,0,1,1,0.5,'-'x1,13,Done | Reported |   Done | Booked
+B,radiology,PACSLink,image_link,optional,url,url 100%,171,0,16,8,24,12.3,"'?'x4, '-'x2, 'null'x1, 'N/A'x1",165,http://pacs.unh.local/viewer?acc=UNH900696 | http://pacs.unh.local/viewer?acc=UNH299069 | http://pacs.unh.local/viewer?acc=UNH221320 | http://pacs.unh.local/viewer?acc=UNH878488
+B,radiology,Findings,findings,optional,categorical text,text 100%,172,0,15,8,23,11.8,"'null'x3, '?'x2, 'N/A'x2, '-'x1",25,"No acute cardiopulmonary abnormality. | No intracranial haemorrhage. No skull fracture. | Gallstones with gallbladder wall thickening. | Normal sized kidneys, no hydronephrosis."
+B,procedures,OpID,procedure_id,required,integer,integer 100%,124,0,0,0,0,0.0,,122,1 | 2 | 3 | 4
+B,procedures,AdmissionNo,admission_id,required,integer,integer 100%,122,0,0,2,2,1.6,"'?'x1, '-'x1",116,2 | 6 | 28 | 31
+B,procedures,SurgeonID,surgeon_id,required,integer,integer 100%,124,0,0,0,0,0.0,,7,3 | 21 | 74 | 76
+B,procedures,Operation,procedure_name,required,categorical text,text 100%,124,0,0,0,0,0.0,,29,Laparoscopic appendicectomy | Coronary angiography and PCI | Primary PCI | Upper GI endoscopy with haemostasis
+B,procedures,OpDateTime,procedure_time,required,datetime,datetime 100%,124,0,0,0,0,0.0,,118,09/01/2022 22:12 | 29/01/2022 11:21 | 01/03/2022 20:08 | 02/03/2022 07:36
+B,procedures,Outcome,outcome,optional,categorical text,text 100%,103,0,7,14,21,16.9,"'null'x6, '-'x3, '?'x3, 'N/A'x2",8,"Successful, no complications | Post-op fever, treated | Uneventful recovery | Minor bleeding, controlled"
+B,unit_stays,MovementID,stay_id,required,integer,integer 100%,1169,0,0,0,0,0.0,,1147,1 | 2 | 3 | 4
+B,unit_stays,AdmissionNo,admission_id,required,integer,integer 100%,1160,0,1,8,9,0.8,"'?'x3, 'N/A'x3, 'null'x1, '-'x1",731,1 | 2 | 3 | 4
+B,unit_stays,ResponsibleClinician,professional_id,required,integer,integer 100%,1169,0,0,0,0,0.0,,39,10 | 43 | 19 | 46
+B,unit_stays,Unit,unit_type,required,categorical text,text 100%,1162,0,1,6,7,0.6,"'N/A'x2, '?'x2, '-'x2",50,General Ward | SICU | Emergency Dept | Casualty
+B,unit_stays,WardRoom,room,optional,text,text 100%,1108,0,17,44,61,5.2,"'null'x17, 'N/A'x11, '?'x8, '-'x8",265,"Ward 3B, Rm 4 | Ward 3A, Rm 16 | Ward Postnatal, Rm 1 | Ward 4A, Rm 9"
+B,unit_stays,BedNo,bed,optional,mixed (mostly text),"text 67%, integer 33%",1116,0,11,42,53,4.5,"'null'x13, '?'x11, '-'x10, 'N/A'x8",90,18 | Bed 18 | 1 | Bed 6
+B,unit_stays,TimeIn,entry_time,required,datetime,"datetime 100%, text 0%",1164,0,1,4,5,0.4,"'0000-00-00'x2, '-'x1, 'N/A'x1",1114,02/01/2022 22:04 | 08/01/2022 03:36 | 10/01/2022 16:33 | 10/01/2022 23:01
+B,unit_stays,TimeOut,exit_time,optional,datetime,datetime 100%,1113,0,17,39,56,4.8,"'-'x12, 'N/A'x11, '0000-00-00'x9, 'null'x7",1064,04/01/2022 21:52 | 10/01/2022 16:33 | 11/01/2022 13:57 | 14/01/2022 12:11
+B,unit_stays,TransferReason,transfer_reason,optional,categorical text,text 100%,621,0,521,27,548,46.9,"'?'x9, '-'x8, 'N/A'x5, 'null'x5",41,"Post-operative monitoring | Stepped down, clinically stable | Initial placement | Stable for ward"
+B,discharges,DischargeID,discharge_id,required,integer,integer 100%,872,0,0,0,0,0.0,,855,1 | 2 | 3 | 4
+B,discharges,AdmissionNo,admission_id,required,integer,integer 100%,865,0,1,6,7,0.8,"'?'x3, '-'x2, 'N/A'x1",823,1 | 4 | 2 | 5
+B,discharges,AuthorisedBy,professional_id,required,integer,integer 100%,867,0,0,5,5,0.6,"'-'x4, '?'x1",38,69 | 40 | 77 | 80
+B,discharges,DischargeDateTime,discharge_time,required,datetime,datetime 100%,868,0,2,2,4,0.5,"'0000-00-00'x1, '-'x1",829,04-01-2022 21:52 | 2022-01-12 18:59:00 | 14/01/2022 03:03 | 14/01/2022 07:17
+B,discharges,Destination,destination,optional,categorical text,text 100%,834,0,9,29,38,4.4,"'?'x11, '-'x9, 'null'x7, 'N/A'x2",17,Home | Transferred to rehabilitation centre | Referred to regional hospital | Left against medical advice
+B,discharges,ConditionOnDischarge,discharge_condition,optional,categorical text,text 100%,838,0,5,29,34,3.9,"'-'x12, 'null'x9, '?'x5, 'N/A'x3",23,Recovered | Fair | Improved | unchanged
+B,discharges,DischargeMeds,medications,optional,text,text 100%,820,0,24,28,52,6.0,"'N/A'x9, '?'x8, '-'x6, 'null'x5",69,Amlodipine 10mg OD; Hydrochlorothiazide 25mg OD | Levothyroxine 100mcg OD | Paracetamol 1g QID PRN; Metronidazole 400mg TDS x5 days | Ferrous sulphate 200mg TDS; Folic acid 5mg OD
+B,discharges,FollowUp,instructions,optional,categorical text,text 100%,827,0,21,24,45,5.2,"'null'x10, '-'x6, '?'x4, 'N/A'x4",26,"Return immediately if symptoms worsen | Wound review in 7 days | Follow up at Health Centre IV in 1 month | Continue medication, review in specialist clinic"
+B,discharges,NextAppointment,follow_up_time,optional,text,text 100%,554,0,303,15,318,36.5,"'N/A'x7, '-'x4, '?'x3, 'null'x1",517,Specialist clinic 21/01/2022 10:00 | Surgical clinic 10/02/2022 10:00 | Medical clinic 21/01/2022 09:00 | Surgical clinic 28/01/2022 14:00
+C,professionals,@staffId,professional_id,required,code/id,code/id 100%,73,0,0,0,0,0.0,,72,S0001 | S0002 | S0003 | S0004
+C,professionals,name,full_name,expected,text,text 100%,72,1,0,0,1,1.4,,63,Toh Kai Wen | Firdaus bin Kassim | Lee Kai Wen | Low Shu Fen
+C,professionals,designation,role,expected,categorical text,text 100%,73,0,0,0,0,0.0,,9,Medical Officer | medical officer | Nurse | Staff Nurse
+C,professionals,department,department,optional,categorical text,text 100%,73,0,0,0,0,0.0,,19,General Medicine | Respiratory Medicine | Cardiology | Paediatrics
+C,patients,@patientId,patient_id,required,code/id,code/id 100%,503,0,0,0,0,0.0,,494,P000001 | P000002 | P000003 | P000004
+C,patients,name/family,last_name,required,text,text 100%,502,0,0,1,1,0.2,'-'x1,50,Ong | Ng | Chan | Ahmad
+C,patients,name/given,first_name,expected,text,text 100%,503,0,0,0,0,0.0,,62,Chee Keong | Boon Kiat | Shu Fen | Nur Aisyah binte
+C,patients,birthDate,date_of_birth,required,date,"date 100%, text 0%",501,0,1,1,2,0.4,'N/A'x1,480,2010-01-29 | 1984-05-06 | 22-05-1997 | 1951-11-05
+C,patients,sex,sex,optional,categorical text,text 100%,466,10,5,22,37,7.4,"'?'x10, 'null'x6, 'N/A'x3, '-'x3",16,F | M | f | Male
+C,patients,address,address,optional,text,text 100%,481,6,5,11,22,4.4,"'null'x4, 'N/A'x3, '-'x3, '?'x1",464,"Blk 916 Ang Mo Kio Ave 3, #13-417, Singapore 648643 | Blk 486 Serangoon North Ave 1, #17-62, Singapore 682581 | Blk 19 Punggol Field, #08-405, Singapore 579342 | Blk 288 Punggol Field, #11-420, Singapore 287680"
+C,patients,phone,phone,optional,text,"text 95%, integer 5%",473,3,13,14,30,6.0,"'?'x5, '-'x3, 'null'x3, 'N/A'x3",455,+65 6602 1458 | +65 6357 9511 | +65 6495 1838 | +65 8485 2722
+C,patients,nextOfKin,emergency_contact,optional,text,text 100%,480,2,2,19,23,4.6,"'null'x9, '-'x6, '?'x4",466,Ng Wei Ming (+65 6394 9066) | Aminah binte Yusof (+65 6325 6885) | Lakshmi d/o Menon (+65 8739 2419) | Farah binte Salleh (+65 6978 0438)
+C,patients,vitalStatus,life_status,expected,categorical text,text 100%,503,0,0,0,0,0.0,,12,Deceased | Alive | Living | A
+C,admissions,@admissionId,admission_id,required,code/id,code/id 100%,738,0,0,0,0,0.0,,725,E000001 | E000002 | E000003 | E000004
+C,admissions,@patientRef,patient_id,required,code/id,code/id 100%,738,0,0,0,0,0.0,,425,P000001 | P000002 | P000003 | P000004
+C,admissions,admittedBy,admitting_professional_id,expected,code/id,code/id 100%,738,0,0,0,0,0.0,,27,S0004 | S0007 | S0001 | S0005
+C,admissions,admittedAt,admit_time,required,datetime,"datetime 100%, text 0%",737,0,0,1,1,0.1,'-'x1,708,2024-03-13T12:05:00+08:00 | 1983-05-09T09:00:00+08:00 | 2024-03-21T14:08:00+08:00 | 2024-04-23T03:02:00+08:00
+C,admissions,admissionClass,admission_type,required,categorical text,text 100%,735,0,0,3,3,0.4,"'-'x1, '?'x1, 'null'x1",37,Day Case | Elective | A&E | Urgent
+C,admissions,chiefComplaint,reason,required,categorical text,text 100%,738,0,0,0,0,0.0,,33,Breathlessness | Cough and fever | Elective surgery | Syncope
+C,admissions,referralSource,admission_source,optional,categorical text,text 100%,662,17,18,41,76,10.3,"'N/A'x13, '?'x12, '-'x10, 'null'x6",25,Ambulance (995) | Polyclinic referral | Transfer | Walk-in
+C,admissions,payer,insurance,optional,text,text 100%,659,10,13,56,79,10.7,"'N/A'x21, '?'x14, 'null'x11, '-'x9, 'NULL'x1",633,MediShield Life + Eastern Shield IP #54776368 | MediShield Life + Harbour Life IP #56990221 | MediShield Life + Lionshield Assurance IP #34864932 | MediShield Life + Merlion Health IP #78999658
+C,admissions,dischargedAt,discharge_time,optional,datetime,datetime 100%,736,2,0,0,2,0.3,,703,13 Mar 2024 03:05 PM | 2024-10-17T23:38:00+08:00 | 2024-04-03T08:08:00+08:00 | 2024-05-08T11:02:00+08:00
+C,admissions,status,admission_status,expected,categorical text,text 100%,738,0,0,0,0,0.0,,16,Deceased | Discharged | DISCH |  Discharged 
+C,triage,@id,triage_id,required,integer,integer 100%,775,0,0,0,0,0.0,,761,1 | 2 | 3 | 4
+C,triage,@admission,admission_id,required,code/id,code/id 100%,775,0,0,0,0,0.0,,704,E000001 | E000002 | E000003 | E000004
+C,triage,nurse,nurse_id,required,code/id,code/id 100%,770,3,1,1,5,0.6,'-'x1,24,S0034 | S0043 | S0041 | S0026
+C,triage,assessedAt,triage_time,expected,datetime,datetime 100%,775,0,0,0,0,0.0,,743,2024-03-13T12:11:00+08:00 | 2024-10-17T16:55:00+08:00 | 2024-03-21T14:20:00+08:00 | 2024-04-23T03:10:00+08:00
+C,triage,bloodPressure,blood_pressure,optional,ratio (n/n),"ratio (n/n) 99%, text 1%",746,2,8,19,29,3.7,"'-'x8, 'null'x5, '?'x4, 'N/A'x2",608,124/70 | 127/69 | 160/81 | 145/97
+C,triage,heartRate,heart_rate,optional,numeric (mixed formats),"integer 94%, number + unit 4%, text 1%",764,0,4,7,11,1.4,"'N/A'x3, '-'x2, 'null'x1, '?'x1",108,92 | 111 | 98 | 87
+C,triage,respRate,respiratory_rate,optional,numeric (mixed formats),"integer 93%, number + unit 5%, text 2%",761,2,2,10,14,1.8,"'null'x4, '?'x3, 'N/A'x1, '-1'x1, '-'x1",42,150 | 16 | 23 | 0
+C,triage,temperature,temperature,optional,numeric (mixed formats),"decimal 86%, number + unit 7%, integer 5%, text 3%",759,4,3,9,16,2.1,"'-'x3, '?'x2, '-1'x2, 'N/A'x2",124,38.1C | 37.6 | 99.0 | 38.9
+C,triage,oxygenSaturation,spo2,optional,numeric (mixed formats),"decimal 93%, number + unit 6%, text 2%",756,2,4,13,19,2.5,"'null'x6, '-1'x3, '?'x3, '-'x1",37,0.93 | 0.95 | 0.90 | 1.00
+C,triage,painScore,pain_score,optional,mixed (mostly integer),"integer 94%, text 3%, ratio (n/n) 3%",761,2,2,10,14,1.8,"'null'x3, '?'x2, 'N/A'x2, '-1'x2, '-'x1",24,2 | 1 | 4 | 8
+C,triage,symptoms,symptoms,optional,text,text 100%,755,2,2,16,20,2.6,"'N/A'x5, '-'x5, 'null'x3, '?'x3",351,"abdominal pain, confusion | giddiness, vomiting | headache, giddiness | breathlessness"
+C,triage,allergies,allergies,optional,categorical text,text 100%,754,6,4,11,21,2.7,"'N/A'x4, '?'x3, '-'x3, 'null'x1",45,Iodinated contrast | Shellfish | none | Penicillin
+C,triage,homeMedication,home_medications,optional,categorical text,text 100%,754,0,3,18,21,2.7,"'N/A'x5, '-'x5, '?'x4, 'null'x4",38,Metformin 500 mg | Augmentin 625 mg | Simvastatin 20 mg | Atenolol 50 mg
+C,triage,pacLevel,triage_priority,required,categorical text,text 100%,767,1,2,5,8,1.0,"'null'x3, '?'x2",24,P3 | P2 | P1 | PAC 1
+C,triage,temperature@unit,temperature_unit,-,categorical text,text 100%,705,70,0,0,70,9.0,,2,C | F
+C,diagnoses,@id,diagnosis_id,required,integer,integer 100%,1750,0,0,0,0,0.0,,1718,1 | 2 | 3 | 4
+C,diagnoses,@patientRef,patient_id,expected,code/id,code/id 100%,1750,0,0,0,0,0.0,,421,P000001 | P000002 | P000003 | P000004
+C,diagnoses,@admission,admission_id,required,code/id,code/id 100%,1750,0,0,0,0,0.0,,716,E000001 | E000002 | E000003 | E000004
+C,diagnoses,icd9,icd9_code,required,numeric (mixed formats),"decimal 90%, integer 10%, text 0%",1740,4,2,4,10,0.6,"'null'x3, '-'x1",132,415.19 | 244.9 | 428.0 | 574.20
+C,diagnoses,type,diagnosis_type,required,categorical text,text 100%,1744,2,0,4,6,0.3,"'-'x2, 'N/A'x1, 'null'x1",35,Principal | Secondary | Secondary    | S
+C,diagnoses,diagnosedAt,diagnosis_time,required,datetime,"datetime 100%, text 0%",1741,2,0,7,9,0.5,"'-'x3, 'N/A'x2, '?'x1, '0000-00-00'x1",1497,2024-03-13T15:00:00+08:00 | 2024-03-13T13:05:00+08:00 | 2024-10-17 23:33 | 2024-10-17T20:38:00+08:00
+C,diagnoses,doctor,professional_id,required,code/id,code/id 100%,1743,3,2,2,7,0.4,"'?'x1, 'N/A'x1",38,S0005 | S0001 | S0017 | S0012
+C,notes,@id,note_id,required,integer,integer 100%,1406,0,0,0,0,0.0,,1381,1 | 2 | 3 | 4
+C,notes,@type,note_type,required,categorical text,text 100%,1403,2,0,1,3,0.2,'null'x1,34,Progress Note | Discharge Summary |   Progress Note | Ward Round Note
+C,notes,@admission,admission_id,required,code/id,code/id 100%,1406,0,0,0,0,0.0,,718,E000001 | E000002 | E000003 | E000004
+C,notes,writtenAt,note_time,required,datetime,"datetime 100%, text 0%",1399,0,0,7,7,0.5,"'N/A'x4, '0000-00-00'x3",1338,2024-03-13T14:51:00+08:00 | 2024-03-13T15:05:00+08:00 | 2024-10-17T18:12:00+08:00 | 2024-10-17T21:43:00+08:00
+C,notes,author,author_id,required,code/id,code/id 100%,1400,2,0,4,6,0.4,"'-'x1, '?'x1, 'N/A'x1, 'null'x1",46,S0020 | S0004 | S0024 | S0009
+C,notes,text,note_text,required,text,text 100%,1398,0,2,6,8,0.6,"'N/A'x4, '?'x1, '-'x1",158,Vitals stable overnight. Continue current management. | Discharge summary. Admitted for breathlessness. Patient passed away during this admission. | Seen on ward round. Plan unchanged. | Family updated at bedside.
+C,orders,@id,order_id,required,integer,integer 100%,514,0,0,0,0,0.0,,505,1 | 2 | 3 | 4
+C,orders,@admission,admission_id,required,code/id,code/id 100%,514,0,0,0,0,0.0,,378,E000002 | E000003 | E000006 | E000007
+C,orders,test,exam_type,expected,categorical text,text 100%,514,0,0,0,0,0.0,,24,full blood count | Full Blood Count | CT | ECG
+C,orders,orderedAt,order_time,required,datetime,"datetime 100%, text 0%",512,0,2,0,2,0.4,,489,2024-10-17T23:35:00+08:00 | 2024-03-21T21:52:00+08:00 | 2024-03-22T21:22:00+08:00 | 2024-04-14T08:54:00+08:00
+C,orders,indication,indication,required,categorical text,text 100%,511,0,0,3,3,0.6,"'N/A'x1, 'null'x1, '?'x1",29,Rule out obstruction | Rule out infection | Rule out fracture | follow-up of known lesion
+C,orders,status,order_status,required,categorical text,text 100%,513,0,0,1,1,0.2,'-'x1,25,Resulted | In Progress | Cancelled | Ordered
+C,orders,priority,priority,required,categorical text,text 100%,514,0,0,0,0,0.0,,26,Routine | Normal | STAT | Urgent
+C,orders,orderedBy,professional_id,required,code/id,code/id 100%,511,0,0,3,3,0.6,"'?'x2, 'null'x1",30,S0007 | S0017 | S0018 | S0014
+C,radiology,@id,exam_id,required,integer,integer 100%,346,0,0,0,0,0.0,,340,1 | 2 | 3 | 4
+C,radiology,@orderRef,order_id,optional,integer,integer 100%,305,41,0,0,41,11.8,,289,3 | 5 | 6 | 7
+C,radiology,@admission,admission_id,required,code/id,code/id 100%,346,0,0,0,0,0.0,,276,E000003 | E000007 | E000009 | E000010
+C,radiology,modality,exam_type,required,categorical text,text 100%,343,0,0,3,3,0.9,"'N/A'x1, '-'x1, 'null'x1",17,CT | Chest X-Ray | Ultrasound | MRI
+C,radiology,performedAt,exam_time,required,datetime,"datetime 99%, text 1%",345,0,0,1,1,0.3,'-'x1,326,2024-03-23T02:22:00+08:00 | 2023-05-02T12:53:00+08:00 | 2023-01-28T08:54:00+08:00 | 2023-03-32T05:39:00+08:00
+C,radiology,bodyPart,body_area,optional,categorical text,text 100%,315,2,9,20,31,9.0,"'-'x6, 'null'x5, 'N/A'x5, '?'x4",13,ABDOMEN | Abdomen | Chest | Brain
+C,radiology,status,exam_status,required,categorical text,text 100%,345,1,0,0,1,0.3,,21,Reported | Booked | Completed | REPORTED
+C,radiology,pacsUrl,image_link,optional,url,url 100%,324,5,3,14,22,6.4,"'N/A'x7, '?'x5, 'null'x1, '-'x1",310,https://pacs.srmc.example/study/3-1 | https://pacs.srmc.example/study/7-2 | https://pacs.srmc.example/study/9-3 | https://pacs.srmc.example/study/10-4
+C,radiology,report,findings,optional,categorical text,text 100%,275,54,1,16,71,20.5,"'N/A'x9, '?'x4, '-'x2, 'null'x1",20,Findings in keeping with the clinical suspicion. | No fracture seen. | Mild degenerative changes. | Small left pleural effusion.
+C,radiology,referrer,referring_professional_id,required,code/id,code/id 100%,345,0,0,1,1,0.3,'?'x1,29,S0017 | S0014 | S0002 | S0003
+C,radiology,radiographer,technician_id,required,code/id,code/id 100%,345,0,0,1,1,0.3,'N/A'x1,12,S0070 | S0065 | S0067 | S0064
+C,procedures,@id,procedure_id,required,integer,integer 100%,70,0,0,0,0,0.0,,69,1 | 2 | 3 | 4
+C,procedures,@admission,admission_id,required,code/id,code/id 100%,70,0,0,0,0,0.0,,67,E000008 | E000010 | E000013 | E000017
+C,procedures,procedure,procedure_name,required,categorical text,text 100%,70,0,0,0,0,0.0,,11,Coronary artery bypass graft | Hip hemiarthroplasty | Inguinal hernia repair | aPPENDICECTOMY
+C,procedures,performedAt,procedure_time,required,datetime,datetime 100%,70,0,0,0,0,0.0,,68,2022-10-25T00:03:00+08:00 | 2023-03-23T23:07:00+08:00 | 2023-02-17T10:03:00+08:00 | 2024-07-22T23:00:00+08:00
+C,procedures,outcome,outcome,optional,categorical text,text 100%,56,2,2,10,14,20.0,"'N/A'x4, 'null'x4, '-'x1, '?'x1",8,Uneventful | UNEVENTFUL | Complicated | Unsuccessful
+C,procedures,surgeon,surgeon_id,required,code/id,code/id 100%,69,1,0,0,1,1.4,,9,S0046 | S0049 | S0045 | S0050
+C,unit_stays,@id,stay_id,required,integer,integer 100%,1219,0,0,0,0,0.0,,1197,1 | 2 | 3 | 4
+C,unit_stays,@admission,admission_id,required,code/id,code/id 100%,1219,0,0,0,0,0.0,,591,E000002 | E000003 | E000004 | E000005
+C,unit_stays,unit,unit_type,required,categorical text,text 100%,1213,2,1,3,6,0.5,"'-'x1, '?'x1, 'null'x1",52,A&E Department | GENERAL WARD | SICU | General Ward
+C,unit_stays,ward,room,optional,categorical text,text 100%,1107,22,16,74,112,9.2,"'-'x22, 'N/A'x21, '?'x16, 'null'x15",87,Ward 6B | Ward 6A | Ward 9C | Ward 5C
+C,unit_stays,bed,bed,optional,integer,integer 100%,1121,13,19,66,98,8.0,"'-'x20, 'N/A'x17, '?'x15, 'null'x14",40,30 | 33 | 38 | 28
+C,unit_stays,transferIn,entry_time,required,datetime,"datetime 100%, text 0%",1216,0,0,3,3,0.2,"'-'x1, 'null'x1, '0000-00-00'x1",1163,2024-10-17T17:08:00+08:00 | 2024-03-21T14:38:00+08:00 | 2024-03-25T10:29:00+08:00 | 2024-03-29T14:33:00+08:00
+C,unit_stays,transferOut,exit_time,optional,datetime,datetime 100%,1217,2,0,0,2,0.2,,1159,2024-10-17T23:38:00+08:00 | 2024-03-25T10:29:00+08:00 | 2024-03-29T14:33:00+08:00 | 2024-04-03T08:08:00+08:00
+C,unit_stays,transferReason,transfer_reason,optional,categorical text,text 100%,569,614,5,31,650,53.3,"'null'x12, '?'x9, 'N/A'x7, '-'x3",19,condition deteriorated | closer monitoring needed | Condition Deteriorated | condition improved
+C,unit_stays,doctor,professional_id,required,code/id,code/id 100%,1206,2,5,6,13,1.1,"'null'x5, 'N/A'x1",33,S0009 | S0007 | S0013 | S0003
+C,discharges,@id,discharge_id,required,integer,integer 100%,738,0,0,0,0,0.0,,725,1 | 2 | 3 | 4
+C,discharges,@admission,admission_id,required,code/id,code/id 100%,738,0,0,0,0,0.0,,705,E000001 | E000002 | E000003 | E000004
+C,discharges,dischargedAt,discharge_time,required,datetime,"datetime 100%, text 0%",731,0,0,7,7,0.9,"'-'x3, '?'x1, 'N/A'x1, 'null'x1, '0000-00-00'x1",700,2024-03-13T15:05:00+08:00 | 2024-10-17 23:38 | 2024-04-03T08:08:00+08:00 | 2024-05-08T11:02:00+08:00
+C,discharges,destination,destination,optional,categorical text,text 100%,696,7,5,30,42,5.7,"'null'x10, '?'x9, '-'x6, 'N/A'x5",35,mORTUARY | Transferred to another hospital | Community hospital |  Community hospital 
+C,discharges,condition,discharge_condition,optional,categorical text,text 100%,708,7,5,18,30,4.1,"'N/A'x6, '-'x5, '?'x4, 'null'x3",28,Deceased | Improved | Stable | Fair
+C,discharges,medications,medications,optional,categorical text,text 100%,683,37,2,16,55,7.5,"'-'x6, '?'x6, 'N/A'x4",10,Augmentin 625 mg | Simvastatin 20 mg | Paracetamol 1 g | Amlodipine 5 mg
+C,discharges,instructions,instructions,optional,categorical text,text 100%,678,39,5,16,60,8.1,"'-'x5, 'null'x4, '?'x4, 'N/A'x3",34,Polyclinic follow-up in 1 month. | Physiotherapy twice a week. | Rest and adequate fluid intake. | Review at specialist outpatient clinic in 2 weeks.
+C,discharges,followUp,follow_up_time,optional,datetime,datetime 100%,674,37,8,19,64,8.7,"'N/A'x5, '-'x5, 'null'x5, '?'x4",637,2024-11-17T23:00:00+08:00 | 2024-06-05T16:00:00+08:00 | 2024-01-30T12:00:00+08:00 | 2024-04-30T12:00:00+08:00
+C,discharges,authorisedBy,professional_id,required,code/id,code/id 100%,732,2,0,4,6,0.8,"'N/A'x2, '-'x1, 'null'x1",28,S0016 | S0021 | S0024 | S0014
+D,professionals,practitionerId,professional_id,required,integer,integer 100%,96,0,0,0,0,0.0,,94,1 | 2 | 3 | 4
+D,professionals,honorific,title,optional,categorical text,text 100%,96,0,0,0,0,0.0,,6,Mr | Miss | Dr | Ms
+D,professionals,fullName,full_name,expected,text,text 100%,95,1,0,0,1,1.0,,91,Joshua Williams | Georgia Le | Matilda King | thomas KIM
+D,professionals,designation,role,expected,categorical text,text 100%,95,1,0,0,1,1.0,,24,Ward Clerk | Midwife | Registered Nurse | Interventional Cardiologist
+D,professionals,department,department,optional,categorical text,text 100%,91,3,1,1,5,5.2,'?'x1,19,Administration | Maternity | Emergency | Cardiology
+D,patients,patientId,patient_id,required,integer,integer 100%,688,0,0,0,0,0.0,,675,1 | 2 | 3 | 4
+D,patients,patientName,full_name,required,text,text 100%,687,0,0,1,1,0.1,'?'x1,633,"Joshua Thomas | Amelia Thompson | Thomas Edwards | VAN DER BERG, Anh"
+D,patients,dob,date_of_birth,required,date,"date 96%, integer 3%, datetime 1%",685,2,0,1,3,0.4,'0000-00-00'x1,652,1928-07-20 | 1934-09-29 | 2016-07-02 | 2011-10-26
+D,patients,sex,sex,optional,categorical text,text 100%,660,9,6,13,28,4.1,"'N/A'x5, '?'x4, '-'x4",16,M | F | Male | female
+D,patients,address,address,optional,text,text 100%,660,17,4,7,28,4.1,"'-'x4, 'N/A'x2, '?'x1",629,"113 Shell Cl, Tidewater NSW 2484 | 103 Pandanus Ct, Driftwood Park NSW 2486 | 210 Reef Rd, Ironbark Downs NSW 2479 | 36 Pandanus Ct, Bluegum Ridge NSW 2482"
+D,patients,phone,phone,optional,text,"text 96%, integer 4%",565,117,3,3,123,17.9,'N/A'x3,529,(02) 7010 1929 | (02) 7010 1921 | (02) 5550 5073 | (02) 7010 1473
+D,patients,nextOfKin,emergency_contact,optional,text,text 100%,669,10,2,7,19,2.8,"'?'x4, 'N/A'x3",642,Cooper Nakamura (Friend) (02) 7010 7133 | Priya Thompson (Spouse) (02) 7010 0784 | Thomas Scott (Father) (02) 5550 5741 | Ava Taylor (Mother) (02) 5550 3558
+D,patients,deceased,life_status,expected,categorical text,"text 99%, integer 1%",661,12,1,14,27,3.9,"'-'x8, 'N/A'x5, '?'x1",5,false | true | 0 | no
+D,admissions,admissionId,admission_id,required,integer,integer 100%,923,0,0,0,0,0.0,,905,1 | 2 | 125 | 195
+D,admissions,patientId,patient_id,required,integer,integer 100%,923,0,0,0,0,0.0,,670,1 | 2 | 3 | 4
+D,admissions,admittingClinicianId,admitting_professional_id,expected,integer,integer 100%,920,0,2,1,3,0.3,'?'x1,49,23 | 62 | 65 | 60
+D,admissions,admittedAt,admit_time,required,datetime,"datetime 99%, integer 1%",923,0,0,0,0,0.0,,882,2022-01-07T07:30:00+11:00 | 2022-01-09T06:45:00+11:00 | 2022-08-31T11:41:00+10:00 | 2022-12-30T01:07:00+11:00
+D,admissions,encounterClass,admission_type,required,categorical text,text 100%,922,1,0,0,1,0.1,,37,Elective | Urgent | Outpatient Clinic | ED
+D,admissions,presentingProblem,reason,required,text,text 100%,923,0,0,0,0,0.0,,105,"CKD review, for AV fistula | Chronic knee pain, for knee replacement | RUQ pain and fever | Vomiting and diarrhoea, unable to tolerate fluids"
+D,admissions,referralSource,admission_source,optional,categorical text,text 100%,876,23,7,17,47,5.1,"'?'x11, '-'x4, 'N/A'x2",28,Specialist rooms | Elective surgery waitlist | GP referral | Ambulance
+D,admissions,fundingSource,insurance,optional,categorical text,text 100%,865,24,8,26,58,6.3,"'-'x11, '?'x10, 'N/A'x5",26,Medicare (public) | DVA | Private health insurance | Motor accident (CTP)
+D,admissions,separatedAt,discharge_time,optional,datetime,"datetime 98%, integer 2%",865,30,4,24,58,6.3,"'0000-00-00'x20, 'N/A'x4",827,2022-01-12T16:20:00+11:00 | 2022-09-01T17:41:00+10:00 | 2023-01-03T13:37:00+11:00 | 2022-01-12T19:53:00+11:00
+D,admissions,episodeStatus,admission_status,expected,categorical text,text 100%,923,0,0,0,0,0.0,,16,Separated |  SEPARATED   | D/C | Completed
+D,triage,triageId,triage_id,required,integer,integer 100%,668,0,0,0,0,0.0,,655,82 | 127 | 1 | 73
+D,triage,@admission,admission_id,required,integer,integer 100%,668,0,0,0,0,0.0,,636,125 | 195 | 4 | 112
+D,triage,triageNurseId,nurse_id,required,integer,integer 100%,664,2,1,1,4,0.6,'?'x1,42,34 | 18 | 38 | 79
+D,triage,triagedAt,triage_time,expected,datetime,"datetime 99%, integer 1%",668,0,0,0,0,0.0,,637,08.31.2022 12:07 | 2022-12-30T01:26:00+11:00 | 2022-01-12T17:48:00+11:00 | 2022-08-05T04:11:00+10:00
+D,triage,vitals.bp,blood_pressure,optional,mixed (mostly ratio (n/n)),"ratio (n/n) 93%, text 5%, integer 1%",657,6,0,5,11,1.6,"'?'x2, '-1'x2, '-'x1",478,122/87 | 116/85 | 119/86 | 136/64
+D,triage,vitals.hr,heart_rate,optional,integer,"integer 98%, text 2%",650,6,4,8,18,2.7,"'-1'x5, '-'x2, 'N/A'x1",92,94 | 85 | 79 | 67
+D,triage,vitals.rr,respiratory_rate,optional,integer,"integer 98%, text 2%",657,7,1,3,11,1.6,"'-1'x2, '-'x1",38,19 | 17 | 22 | 15
+D,triage,vitals.temp,temperature,optional,numeric (mixed formats),"decimal 89%, number + unit 5%, integer 5%, text 2%",649,8,1,10,19,2.8,"'-1'x4, 'N/A'x3, '-'x2, '?'x1",84,38.6 | 36.8 | 37.0 | 373
+D,triage,vitals.temp@unit,temperature_unit,-,categorical text,text 100%,83,585,0,0,585,87.6,,6,C | degF | F | °C
+D,triage,vitals.spo2,spo2,optional,numeric (mixed formats),"integer 92%, number + unit 4%, text 4%",652,9,2,5,16,2.4,"'N/A'x2, '-'x2, '-1'x1",33,96 | 100 | ok on RA | 97
+D,triage,painScore,pain_score,optional,mixed (mostly integer),"integer 93%, ratio (n/n) 4%, text 3%",639,23,1,5,29,4.3,"'-1'x4, '-'x1",24,8/10 | 1/10 | 3 | 4
+D,triage,symptoms,symptoms,optional,text,text 100%,662,3,1,2,6,0.9,"'N/A'x1, '-'x1",102,"right upper quadrant pain, fever | watery stools, dry mouth | dizzy then fainted | wheeze, tight chest"
+D,triage,allergies,allergies,optional,text,text 100%,654,5,2,7,14,2.1,"'-'x3, 'N/A'x3, '?'x1",60,NKA | Nil known | Peanuts; Shellfish | none
+D,triage,currentMeds,home_medications,optional,text,text 100%,655,7,2,4,13,1.9,"'-'x2, '?'x1, 'N/A'x1",41,nil known | Apixaban 5mg BD | Nil | NKA
+D,triage,atsCategory,triage_priority,required,categorical text,"text 98%, integer 2%",659,6,1,2,9,1.3,"'N/A'x1, '?'x1",48,Cat 3 | Cat 2 | Cat 4 | CAT 1
+D,diagnoses,diagnosisId,diagnosis_id,required,integer,integer 100%,1173,0,0,0,0,0.0,,1151,1 | 2 | 152 | 238
+D,diagnoses,patientId,patient_id,expected,integer,integer 100%,1171,1,0,1,2,0.2,'?'x1,649,1 | 2 | 3 | 4
+D,diagnoses,@admission,admission_id,required,integer,integer 100%,1173,0,0,0,0,0.0,,859,1 | 2 | 125 | 195
+D,diagnoses,icd9,icd9_code,required,numeric (mixed formats),"decimal 89%, integer 11%, text 1%",1168,2,0,3,5,0.4,"'N/A'x2, '?'x1",117,585.9 | 71535 | 574.00 | 27651
+D,diagnoses,diagnosedBy,professional_id,required,integer,integer 100%,1170,2,0,1,3,0.3,'?'x1,54,23 | 62 | 65 | 45
+D,diagnoses,diagnosedAt,diagnosis_time,required,datetime,"datetime 98%, integer 1%, text 0%",1166,4,0,3,7,0.6,'0000-00-00'x3,1115,2022-01-07T21:07:00+11:00 | 2022-01-09T12:59:00+11:00 | 2022-08-31T16:27:00+10:00 | 2022-12-30T16:23:00+11:00
+D,diagnoses,rank,diagnosis_type,required,categorical text,text 100%,1168,2,0,3,5,0.4,"'?'x2, 'N/A'x1",32,Principal | P | PRIMARY | ADDITIONAL
+D,notes,noteId,note_id,required,integer,integer 100%,1497,0,0,0,0,0.0,,1469,1 | 2 | 319 | 323
+D,notes,@admission,admission_id,required,integer,integer 100%,1497,0,0,0,0,0.0,,739,1 | 2 | 195 | 3
+D,notes,authorId,author_id,required,integer,integer 100%,1484,6,2,5,13,0.9,"'?'x4, 'N/A'x1",84,21 | 32 | 41 | 12
+D,notes,noteType,note_type,required,categorical text,text 100%,1491,3,0,3,6,0.4,'?'x3,58,Admission Note | Progress Note | Nursing Note | Discharge Summary
+D,notes,writtenAt,note_time,required,datetime,"datetime 99%, integer 1%, text 0%",1493,0,1,3,4,0.3,"'0000-00-00'x2, 'N/A'x1",1431,2022-01-07T12:43:00+11:00 | 2022-01-09T08:30:00+11:00 | 2022-12-30T11:06:00+11:00 | 2023-01-03T06:11:00+11:00
+D,notes,body,note_text,required,text,text 100%,1491,5,0,1,6,0.4,'-'x1,466,"S: leg swelling, tiredness
+O: obs within normal limits
+A: CKD
+P: Renal team review, fistula planned. | Presented with difficulty walking, knee pain. Impression: knee OA. Day 2 post-op, mobilising with physio. | Presented with vomiting, diarrhoea, dizziness. Impression: dehydration. Rehydrated, passing urine well. | Presented with burning urine, suprapubic pain. Impression: UTI. Urine dipstick positive, antibiotics started."
+D,orders,orderId,order_id,required,integer,integer 100%,855,0,0,0,0,0.0,,839,1 | 2 | 111 | 831
+D,orders,@admission,admission_id,required,integer,integer 100%,855,0,0,0,0,0.0,,612,2 | 125 | 195 | 3
+D,orders,orderedBy,professional_id,required,integer,integer 100%,852,3,0,0,3,0.4,,57,62 | 21 | 65 | 49
+D,orders,orderedAt,order_time,required,datetime,"datetime 98%, integer 1%, text 0%",851,2,1,1,4,0.5,'N/A'x1,814,2022-01-09T15:04:00+11:00 | 2022-01-10T10:32:00+11:00 | 2022-08-31T16:10:00+10:00 | 2022-12-30T07:05:00+11:00
+D,orders,testName,exam_type,expected,text,text 100%,705,89,20,41,150,17.5,"'N/A'x18, '?'x12, '-'x11",60,FBC | X-ray knee | LFT |   LFT
+D,orders,indication,indication,required,text,text 100%,852,0,2,1,3,0.4,'?'x1,211,"Monitoring - knee OA | Assess knee OA | Known cholecystitis, baseline | Rule out dehydration"
+D,orders,status,order_status,required,categorical text,text 100%,852,1,1,1,3,0.4,'?'x1,25,final | cancelled | resulted    | Complete
+D,orders,priority,priority,required,categorical text,text 100%,852,3,0,0,3,0.4,,31,urgent | stat | routine | R
+D,radiology,examId,exam_id,required,integer,integer 100%,210,0,0,0,0,0.0,,206,1 | 4 | 2 | 3
+D,radiology,@admission,admission_id,required,integer,integer 100%,210,0,0,0,0,0.0,,198,2 | 8 | 10 | 11
+D,radiology,orderRef,order_id,optional,integer,integer 100%,189,21,0,0,21,10.0,,180,2 | 11 | 10 | 12
+D,radiology,referrerId,referring_professional_id,required,integer,integer 100%,209,1,0,0,1,0.5,,36,21 | 87 | 63 | 89
+D,radiology,radiographerId,technician_id,required,integer,integer 100%,208,0,1,1,2,1.0,'N/A'x1,10,13 | 35 | 24 | 78
+D,radiology,modality,exam_type,required,categorical text,text 100%,209,1,0,0,1,0.5,,14,XR | US | X-Ray | Plain film
+D,radiology,performedAt,exam_time,required,datetime,"datetime 99%, integer 1%",210,0,0,0,0,0.0,,201,2022-01-11T05:37:00+11:00 | 2022-01-25T09:40:00+11:00 | 2022-01-21T10:42:00+11:00 | 2022-01-23T07:03:00+11:00
+D,radiology,bodySite,body_area,optional,categorical text,text 100%,196,7,0,7,14,6.7,"'N/A'x3, '-'x2, '?'x2",21,Knee | Abdomen | Kidneys | Chest
+D,radiology,status,exam_status,required,categorical text,text 100%,210,0,0,0,0,0.0,,10,reported | final | booked |   cancelled
+D,radiology,imageUrl,image_link,optional,url,url 100%,179,27,0,4,31,14.8,"'-'x2, 'N/A'x1, '?'x1",171,https://pacs.coralcoast.example/viewer?study=CC144733 | https://pacs.coralcoast.example/viewer?study=CC693917 | https://pacs.coralcoast.example/viewer?study=CC434721 | https://pacs.coralcoast.example/viewer?study=CC222855
+D,radiology,report,findings,optional,categorical text,text 100%,182,22,1,5,28,13.3,"'-'x2, '?'x2, 'N/A'x1",25,"Medial compartment joint space narrowing with osteophytes. | Non-compressible appendix 9 mm with free fluid. | Multiple gallstones, no wall thickening. | Small echogenic kidneys bilaterally."
+D,procedures,procedureId,procedure_id,required,integer,integer 100%,142,0,0,0,0,0.0,,139,1 | 17 | 2 | 3
+D,procedures,@admission,admission_id,required,integer,integer 100%,142,0,0,0,0,0.0,,135,2 | 125 | 8 | 10
+D,procedures,surgeonId,surgeon_id,required,integer,integer 100%,142,0,0,0,0,0.0,,15,66 | 64 | 62 | 63
+D,procedures,procedureName,procedure_name,required,categorical text,text 100%,141,1,0,0,1,0.7,,24,Total knee replacement | Laparoscopic cholecystectomy | Open appendicectomy | AV fistula creation
+D,procedures,startedAt,procedure_time,required,datetime,datetime 100%,140,1,0,1,2,1.4,'0000-00-00'x1,132,2022-01-09T11:03:00+11:00 | 2022-08-31T15:44:00+10:00 | 2022-01-21T10:35:00+11:00 | 2022-01-21T10:39:00+11:00
+D,procedures,outcome,outcome,optional,categorical text,text 100%,116,8,7,11,26,18.3,"'?'x5, 'N/A'x5, '-'x1",13,No complications | Converted to open procedure | Uneventful recovery | uneventful recovery
+D,unit_stays,stayId,stay_id,required,integer,integer 100%,1310,0,0,0,0,0.0,,1285,1 | 2 | 168 | 271
+D,unit_stays,@admission,admission_id,required,integer,integer 100%,1310,0,0,0,0,0.0,,772,1 | 2 | 125 | 195
+D,unit_stays,clinicianId,professional_id,required,integer,integer 100%,1299,4,3,4,11,0.8,"'N/A'x3, '?'x1",55,11 | 55 | 6 | 134
+D,unit_stays,unit,unit_type,required,categorical text,text 100%,1301,8,0,1,9,0.7,'N/A'x1,52,INPATIENT ward | Inpatient Ward | ED | SICU
+D,unit_stays,location,room,optional,text,text 100%,1246,33,12,19,64,4.9,"'N/A'x7, '-'x7, '?'x5",380,"Ward 3 South, Room 10 | Ward 7 (Ortho), Room 11 | Ward 6 (Medical), Room 22 | Ward 7 (Ortho), Room 27"
+D,unit_stays,bed,bed,optional,mixed (mostly text),"text 67%, integer 33%",1250,28,10,22,60,4.6,"'-'x9, 'N/A'x7, '?'x6",169,21 | Bed 14 | 10 | 29
+D,unit_stays,startAt,entry_time,required,datetime,"datetime 98%, integer 2%, text 0%",1305,3,2,0,5,0.4,,1247,2022-01-07T07:40:00+11:00 | 2022-01-09T06:45:00+11:00 | 2022-08-31T11:50:00+10:00 | 2022-12-30T01:09:00+11:00
+D,unit_stays,endAt,exit_time,optional,datetime,"datetime 99%, integer 1%",1249,26,9,26,61,4.7,"'0000-00-00'x20, 'N/A'x6",1197,2022-01-09T21:19:00+11:00 | 2022-01-12T16:20:00+11:00 | 2022-09-01T17:41:00+10:00 | 2023-01-03T13:37:00+11:00
+D,unit_stays,transferReason,transfer_reason,optional,categorical text,text 100%,690,602,5,13,620,47.3,"'?'x5, '-'x4, 'N/A'x4",34,Admitted from pre-admission clinic | Initial bed allocation | Admitted under inpatient team | Post-operative monitoring
+D,discharges,separationId,discharge_id,required,integer,integer 100%,922,0,0,0,0,0.0,,904,1 | 2 | 123 | 195
+D,discharges,@admission,admission_id,required,integer,integer 100%,922,0,0,0,0,0.0,,878,1 | 2 | 125 | 195
+D,discharges,authorisedBy,professional_id,required,integer,integer 100%,911,5,2,4,11,1.2,"'?'x2, 'N/A'x2",58,23 | 9 | 65 | 60
+D,discharges,separatedAt,discharge_time,required,datetime,"datetime 98%, integer 2%, text 0%",915,3,2,2,7,0.8,"'0000-00-00'x1, 'N/A'x1",870,09/01/2022 21:19 | 2022-01-12T16:20:00+11:00 | 2022-09-01T17:41:00+10:00 | 2023-01-03T13:37:00+11:00
+D,discharges,separationMode,destination,optional,categorical text,text 100%,877,25,7,13,45,4.9,"'-'x5, '?'x4, 'N/A'x4",26,Discharged against medical advice | Discharged home | Usual residence | Transferred to another hospital
+D,discharges,conditionAtSeparation,discharge_condition,optional,categorical text,text 100%,897,16,4,5,25,2.7,"'?'x3, 'N/A'x2",33,Recovered | Improved | Stable | Unchanged
+D,discharges,dischargeMeds,medications,optional,text,text 100%,875,27,7,13,47,5.1,"'-'x6, '?'x6, 'N/A'x1",34,Paracetamol 1g QID; Enoxaparin 40mg SC daily x14 days | Amoxicillin-clavulanate 875/125mg BD x5 days; Paracetamol 1g PRN | Oral rehydration solution PRN | Cefalexin 500mg BD x5 days
+D,discharges,followUp,instructions,optional,categorical text,text 100%,880,30,1,11,42,4.6,"'-'x5, '?'x3, 'N/A'x3",40,Wound check with GP in 7-10 days | Return to ED if symptoms worsen | Outpatient review in 4-6 weeks | OUTPATIENT REVIEW IN 4-6 WEEKS
+D,discharges,appointments.at,follow_up_time,optional,datetime,"datetime 98%, integer 2%",506,416,0,0,416,45.1,,487,2022-02-13T09:30:00+11:00 | 2022-01-23T15:45:00+11:00 | 2022-01-27T15:15:00+11:00 | 2022-09-02T08:30:00+10:00

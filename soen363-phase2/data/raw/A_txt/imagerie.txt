@@ -1,0 +1,340 @@
+num_examen|num_sejour|num_demande|medecin_demandeur|manipulateur|type_examen|date_heure_examen|zone|statut_examen|lien_pacs|conclusion
+1|2|2|10|63|RADIO THORAX|28/10/2022 09:08|Thorax|REALISE|pacs://chu-montclair/2/1|No acute findings.
+2|2|3729|21|60|IRM|28/10/2022 17:14|Crane|REALISE|pacs://chu-montclair/2/2|No fracture seen.
+3|3|4|13|62|ECHOGRAPHIE|07-05-2023 16:48|Abdomen|REALISE|pacs://chu-montclair/3/3|Findings consistent with clinical suspicion.
+4|4|6|12|64|IRM|03/02/2024 01:10|Crane|REALISE|pacs://chu-montclair/4/4|Mild degenerative changes.
+5|8|8|23|69|ECHOGRAPHIE|28/12/2023 18:43|Abdomen|REALISE|-|Mild degenerative changes.
+6|9|9|19|68|RADIO THORAX|06/03/2023 23:15|Thorax|REALISE|-|Small pleural effusion.
+7|10|10|10|67|ECHOGRAPHIE|08/01/2024 09:06|N/A|REALISE|pacs://chu-montclair/10/7|Mild degenerative changes.
+8|10|11|1|64|ECHOGRAPHIE|09/01/2024 13:10|Abdomen|REALISE|pacs://chu-montclair/10/8|Findings consistent with clinical suspicion.
+9|11||23|64|ECHOGRAPHIE|03/08/2024 11:47|Abdomen|Interprete|pacs://chu-montclair/11/9|Findings consistent with clinical suspicion.
+10|14|13|4|70|IRM|17/03/2024 07:32|Crane|REALISE|pacs://chu-montclair/14/10|Mild degenerative changes.
+11|20||5|64|IRM|10/10/2023 07:17|Crane|REALISE|pacs://chu-montclair/20/11|Consolidation in the right lower lobe.
+12|21|15|7|70|IRM   |06/12/2023 16:46|Crane|PROGRAMME|pacs://chu-montclair/21/12|
+13|22|16|15|61|IRM|07/03/2024 09:04|Crane|REALISE|pacs://chu-montclair/22/13|Mild degenerative changes.
+14|22|17|11|66|SCANNER|08/03/2024 05:44|Abdomen|REALISE|pacs://chu-montclair/22/14|No acute findings.
+15|23|18|4|67|ECHOGRAPHIE|14/11/2024 02:53|Abdomen|REALISE|pacs://chu-montclair/23/15|Consolidation in the right lower lobe.
+16|25|20|4|61|SCANNER|a preciser|Abdomen|REALISE|pacs://chu-montclair/25/16|Mild degenerative changes.
+17|25||23|63|RADIO THORAX|26/11/2022 06:10|Thorax|REALISE|pacs://chu-montclair/25/17|Mild degenerative changes.
+18|30|22|15|61|IRM|22/05/2022 22h11|Crane|REALISE|pacs://chu-montclair/30/18|Findings consistent with clinical suspicion.
+19|32|24|24|62|SCANNER|32/07/2024 06:58|Abdomen|PROGRAMME|pacs://chu-montclair/32/19|
+20|38|25|16|67|SCANNER|01/02/2022 18:54|Abdomen|REALISE|pacs://chu-montclair/38/20|No fracture seen.
+21|41|27|4|65|SCANNER|26/11/2024 03:45|Abdomen|REALISE|pacs://chu-montclair/41/21|Consolidation in the right lower lobe.
+22|46|29|12|64|RADIO THORAX|17/10/2024 12:15|Thorax|annule|pacs://chu-montclair/46/22|
+23|51|31|23|66|ECHOGRAPHIE|15/03/2022 03:46|Abdomen|REALISE|pacs://chu-montclair/51/23|No acute findings.
+24|55|33|12|59|SCANNER|23/09/2022 18:38|Abdomen |ANNULE|pacs://chu-montclair/55/24|
+25|57|37|15|62|RADIO THORAX|08/06/2024 15:42|Thorax|REALISE|pacs://chu-montclair/57/25|Mild degenerative changes.
+26|61|39|15|66|SCANNER|22/11/2023 05:36|Abdomen|ANNULE|pacs://chu-montclair/61/26|
+27|61|40|4|69|ECHOGRAPHIE|21/11/2023 20:51|Abdomen|REALISE||Consolidation in the right lower lobe.
+28|67|44|1|63|SCANNER|11/05/2022 19:47|Abdomen|REALISE|pacs://chu-montclair/67/28|No acute findings.
+29|68|45|8|65|RADIO THORAX|31/07/2022 06:38|Thorax|EN ATTENTE CR|pacs://chu-montclair/68/29|Findings consistent with clinical suspicion.
+30|69|46|16|67|RADIO THORAX|18/11/2023 16:10|Thorax|REALISE|pacs://chu-montclair/69/30|No acute findings.
+31|75|49|10|61|SCANNER|29/12/2023 11:08|Abdomen|REALISE|pacs://chu-montclair/75/31|Mild degenerative changes.
+32|3933|50|1|67|IRM|12/04/2023 15:19|Crane|REALISE|pacs://chu-montclair/77/32|Small pleural effusion.
+33|81|52|18|65|RADIO THORAX|03/02/2022 06:36|Thorax|REALISE|pacs://chu-montclair/81/33|Mild degenerative changes.
+34|83|53|24|70|SCANNER|02/08/2024 04:32|Abdomen|REALISE|pacs://chu-montclair/83/34|Mild degenerative changes.
+35|91|58|24|68|ECHOGRAPHIE|15/03/2024 02:34|Abdomen|REALISE|pacs://chu-montclair/91/35|Consolidation in the right lower lobe.
+36|92|59|8|61|ECHOGRAPHIE|23/05/2022 21:26|  Abdomen|PROGRAMME|pacs://chu-montclair/92/36|
+37|93|60|22|60|IRM|07/10/2022 05:53|Crane|ANNULE|pacs://chu-montclair/93/37|
+38|100|65|19|60|IRM|inconnue|Crane|REALISE|pacs://chu-montclair/100/38|Findings consistent with clinical suspicion.
+39|101|66|16|69|RADIO THORAX|2025-04-16T04:07|?|REALISE|pacs://chu-montclair/101/39|Findings consistent with clinical suspicion.
+40|2389|67|4|70|ECHOGRAPHIE|30.07.2023 20:01|Abdomen|REALISE|pacs://chu-montclair/103/40|No fracture seen.
+41|105|69|21|59|SCANNER|11/03/2024 13:02|Abdomen|PROGRAMME|pacs://chu-montclair/105/41|
+42|105||19|66|SCANNER|10/03/2024 19:06|Abdomen|REALISE|pacs://chu-montclair/105/42|Findings consistent with clinical suspicion.
+43|107|71|15|64|IRM|07/02/2024 02:25|Crane|REALISE|pacs://chu-montclair/107/43|?
+44|110|72|23|69|ECHOGRAPHIE|25/08/2023 04:07|Abdomen|REALISE|pacs://chu-montclair/110/44|No fracture seen.
+45|112|74|5|69|ECHOGRAPHIE|09/08/2022 07:06|Abdomen|PROGRAMME|pacs://chu-montclair/112/45|
+46|113|75|21|60|IRM|14/11/2022 07:16|?|REALISE|pacs://chu-montclair/113/46|No acute findings.
+47|114|76|16|67|IRM|29/04/2023 14:19|Crane|Interprete|pacs://chu-montclair/114/47|No acute findings.
+48|115|77|19|69|SCANNER|23/11/2023 18:22|Abdomen|REALISE|pacs://chu-montclair/115/48|Consolidation in the right lower lobe.
+34|83|53|24|70|SCANNER|02/08/2024 04:32|Abdomen|REALISE|pacs://chu-montclair/83/34|Mild degenerative changes.
+49|119|79|4|61|ECHOGRAPHIE|27/08/2023 14:22|Abdomen|REALISE|pacs://chu-montclair/119/49|No acute findings.
+50|121|81|4|68|SCANNER|28/10/2024 00:58|N/A|REALISE|pacs://chu-montclair/121/50|No acute findings.
+51|124|82|20|65|IRM|23/11/2022 07:01|Crane|REALISE|pacs://chu-montclair/124/51|Mild degenerative changes.
+52|127|85|20|61|SCANNER|08/05/2022 17:05|Abdomen|REALISE|pacs://chu-montclair/127/52|No fracture seen.
+53|128|86|21|60|RADIO THORAX|13/01/2023 09:22|Thorax|REALISE|pacs://chu-montclair/128/53|Small pleural effusion.
+54|129|87|24|61|RADIO THORAX|28/04/2024 04:50|THORAX|REALISE||No fracture seen.
+55|133|89|18|59|ECHOGRAPHIE|23/05/2024 15:35|Abdomen|REALISE|pacs://chu-montclair/133/55|No fracture seen.
+56|135|91|17|68|RADIO THORAX|05/10/2023 11:07|Thorax|PROGRAMME|null|
+57|136|93|1|70|ECHOGRAPHIE|16/03/2024 16:07|Abdomen|REALISE|pacs://chu-montclair/136/57|No fracture seen.
+58|138|94|9|67|RADIO THORAX|23/09/2023 12:46|null|Fait|pacs://chu-montclair/138/58|No acute findings.
+59|139|96|6|67|IRM|24/03/2023 02:16|Crane|REALISE|pacs://chu-montclair/139/59|Consolidation in the right lower lobe.
+60|141|98|16|64|RADIO THORAX|16/12/2023 17:39|Thorax|REALISE|pacs://chu-montclair/141/60|N/A
+61|146|101|20|61|ECHOGRAPHIE|18/04/2024 23:33|Abdomen|REALISE|pacs://chu-montclair/146/61|No fracture seen.
+62|152|102|12|64|IRM|10.07.2023 18:18|Crane|REALISE|pacs://chu-montclair/152/62|No acute findings.
+63|155|104|21|60|RADIO THORAX|07/02/2024 17:07|Thorax|ANNULE|pacs://chu-montclair/155/63|
+64|158|106|8|63|IRM|15/09/2024 03:26|-|REALISE|pacs://chu-montclair/158/64|no acute findings.
+65|159|108|22|59|SCANNER|25/08/2022 08:09|Abdomen|REALISE|pacs://chu-montclair/159/65|Small pleural effusion.
+66|159|109|18|60|SCANNER|25/08/2022 06:39|Abdomen|REALISE|pacs://chu-montclair/159/66|Consolidation in the right lower lobe.
+67|160|110|15|62|SCANNER|01/02/2022 19:05|Abdomen|PROGRAMME|pacs://chu-montclair/160/67|
+68|160|111|14|65|RADIO THORAX|03/02/2022 08:00|Thorax|REALISE|pacs://chu-montclair/160/68|mILD DEGENERATIVE CHANGES.
+69|162|112|11|70|SCANNER|30/11/2023 15:57|Abdomen|REALISE|pacs://chu-montclair/162/69|No acute findings.
+70|162|113|23|59|RADIO THORAX|03/12/2023 02:52||REALISE|pacs://chu-montclair/162/70|Findings consistent with clinical suspicion.
+71|164|114|24|59|ECHOGRAPHIE|12/04/2022 23:56|Abdomen|REALISE|pacs://chu-montclair/164/71|?
+72|168|116|9|65|IRM|19/09/2023 12:54|Crane |PROGRAMME|pacs://chu-montclair/168/72|
+73|170|118|16|61|SCANNER|25/11/2024 11:55|?|REALISE|pacs://chu-montclair/170/73|Mild degenerative changes.
+74|173|119|890|65|RADIO THORAX|02/10/2023 18:38|Thorax|REALISE|pacs://chu-montclair/173/74|Mild degenerative changes.
+75|175|1870|20|60|SCANNER|24/05/2022 01:40|Abdomen|REALISE|pacs://chu-montclair/175/75|Mild degenerative changes.
+76|180|122|23|61|SCANNER|09/07/2024 12:55|Abdomen|REALISE|pacs://chu-montclair/180/76|Small pleural effusion.
+77|181|123|1974|65|ECHOGRAPHIE|23/10/2022 01:52|Abdomen|REALISE|pacs://chu-montclair/181/77|No acute findings.
+78|182|124|7|62|SCANNER|15/03/2023 17:13|Abdomen|REALISE|pacs://chu-montclair/182/78|Mild degenerative changes.
+79|184|125|17|62|ECHOGRAPHIE|11/05/2022 01:00||REALISE|pacs://chu-montclair/184/79|Small pleural effusion.
+80|185|126|23|68|RADIO THORAX|14/09/2022 15:13|Thorax|PROGRAMME|pacs://chu-montclair/185/80|
+81|187|127|14|61|IRM|29/11/2024 21:15|Crane|REALISE|pacs://chu-montclair/187/81|No acute findings.
+82|189|128|24|65|ECHOGRAPHIE|19/09/2023 16:16|-|REALISE|pacs://chu-montclair/189/82|No fracture seen.
+83|194|134|14|59|IRM|06/03/2022 02:43|Crane|REALISE|pacs://chu-montclair/194/83|No fracture seen.
+84|195||10|68|SCANNER|07/10/2022 22:39|Abdomen|REALISE|pacs://chu-montclair/195/84|Consolidation in the right lower lobe.
+85|196|137|7|60|SCANNER|10/09/2022 22:14|Abdomen|REALISE|pacs://chu-montclair/196/85|No fracture seen.
+86|197|138|13|65|IRM|13/09/2024 22:12|Crane|REALISE|pacs://chu-montclair/197/86|No fracture seen.
+87|198|140|18|60|IRM|14/04/2024 19:18|Crane|ANNULE|pacs://chu-montclair/198/87|
+88|201|142|23|66|ECHOGRAPHIE|28/05/2022 13:59|Abdomen|REALISE|pacs://chu-montclair/201/88|Mild degenerative changes.
+89|203||7|63|echographie|11/05/2024 06:54|null|REALISE|pacs://chu-montclair/203/89|No acute findings.
+90|205|145|19|63|ECHOGRAPHIE|11/08/2023 04:32|Abdomen|PROGRAMME|pacs://chu-montclair/205/90|
+91|206||20|66|  SCANNER|21/08/2022 04:36|Abdomen|REALISE|pacs://chu-montclair/206/91|Consolidation in the right lower lobe.
+92|207|146|6|68|SCANNER|14/01/2023 11:03|Abdomen|REALISE|pacs://chu-montclair/207/92|No fracture seen.
+93|207||18|65|ECHOGRAPHIE|30/01/2023 14:45|  Abdomen|REALISE|pacs://chu-montclair/207/93|Findings consistent with clinical suspicion.
+94|211|147|7|63|IRM|03/11/2022 20:49|Crane|realise|pacs://chu-montclair/211/94|No fracture seen.
+95|211|148|3|68|RADIO THORAX|05/11/2022 06:53|Thorax|ANNULE|pacs://chu-montclair/211/95|
+96|213|149|2|70|SCANNER|30/09/2025 20:44|Abdomen|REALISE|pacs://chu-montclair/213/96|No fracture seen.
+97|213|150|17|64|SCANNER|29/09/2025 21:56|Abdomen|PROGRAMME|pacs://chu-montclair/213/97|
+98|220|152|22|63|SCANNER|05/10/2022 19:56|Abdomen|REALISE|pacs://chu-montclair/220/98|Mild degenerative changes.
+99|220|153|3|70|ECHOGRAPHIE|03/10/2022 21:38|Abdomen|Interprete|pacs://chu-montclair/220/99|Mild degenerative changes.
+100|223|154|13|64|RADIO THORAX|12.10.2022 14:31|Thorax|REALISE|pacs://chu-montclair/223/100|Findings consistent with clinical suspicion.
+101|225||21|70|IRM|22/12/2023 20:32|Crane|Interprete|pacs://chu-montclair/225/101|No fracture seen.
+102|226|156|2|64|SCANNER|15/06/2024 22:03|Abdomen|PROGRAMME |pacs://chu-montclair/226/102|
+103|229|160|11|61|RADIO THORAX|31/10/2023 23:48|Thorax|REALISE|pacs://chu-montclair/229/103|N/A
+104|232|162|18|62|RADIO THORAX|06/01/2022 03:13|Thorax|REALISE|pacs://chu-montclair/232/104|Findings consistent with clinical suspicion.
+105|233|163|9|63|IRM|24/07/2024 03:57|Crane|REALISE|pacs://chu-montclair/233/105|Consolidation in the right lower lobe.
+106|235|164|4|67|RADIO THORAX|28/01/2023 09:08|Thorax|Fait|pacs://chu-montclair/235/106|Mild degenerative changes.
+107|240|166|8|68|IRM|06/11/2024 02:25|Crane|REALISE|pacs://chu-montclair/240/107|No fracture seen.
+108|241|167|3|61|IRM|02/03/2022 14:29|Crane|REALISE|N/A|Consolidation in the right lower lobe.
+109|248|170|6|70|RADIO THORAX|14/11/2023 08:40|Thorax|REALISE|pacs://chu-montclair/248/109|Small pleural effusion.
+110|250|171|7|65|SCANNER|27/05/2023 14:49|?|REALISE|pacs://chu-montclair/250/110|Small pleural effusion.
+111|264|176|24|65|RADIO THORAX|25/05/2024 00:33|Thorax|REALISE|pacs://chu-montclair/264/111|Consolidation in the right lower lobe.
+112|266|177|7|65|IRM|17/02/2025 22h09|Crane|RDV pris|pacs://chu-montclair/266/112|
+113|267|178|1866|63|irm|02/08/2023 08:19|Crane|REALISE|pacs://chu-montclair/267/113|Small pleural effusion.
+114|268|179|12|60|SCANNER|19/09/2023 01:33|?|REALISE|pacs://chu-montclair/268/114|Consolidation in the right lower lobe.
+115|268|180|7|59|SCANNER|17/09/2023 06:24|?|REALISE|pacs://chu-montclair/268/115|No fracture seen.
+116|269|181|11|60|SCANNER|29/10/2024 15:17|Abdomen|REALISE|pacs://chu-montclair/269/116|Mild degenerative changes.
+117|270|183|5|64|RADIO THORAX|05/07/2025 12:47|Thorax|REALISE|pacs://chu-montclair/270/117|Small pleural effusion.
+118|271||18|62|RADIO THORAX|09/11/2022 05:37|Thorax|REALISE|-|No fracture seen.
+119|274|185|15|61|RADIO THORAX|07/09/2024 19:03|Thorax|ANNULE|pacs://chu-montclair/274/119|
+120|274|186|7|60|IRM|07/09/2024 10:58|-|REALISE|pacs://chu-montclair/274/120|No acute findings.
+121|279|188|10|64|ECHOGRAPHIE|22/03/2022 08:53|Abdomen|REALISE|null|Small pleural effusion.
+122|281|189|8|61|ECHOGRAPHIE|11/11/2024 22:04|Abdomen|Fait|pacs://chu-montclair/281/122|Findings consistent with clinical suspicion.
+123|285|191|6|59|IRM|13/11/2023 22:13|Crane|realise|pacs://chu-montclair/285/123|No acute findings.
+124|286|193|7|63|SCANNER|21/12/2024 20:26|Abdomen|REALISE|pacs://chu-montclair/286/124|Small pleural effusion.
+125|287|195|2|62|IRM|03/02/2025 19:20|Crane|REALISE|pacs://chu-montclair/287/125|No fracture seen.
+126|289|196|1|61|IRM|28/03/2022 13:11|Crane|REALISE|pacs://chu-montclair/289/126|Consolidation in the right lower lobe.
+127|290|197|14|68|ECHOGRAPHIE|08/11/2023 04:16|Abdomen|REALISE|?|Small pleural effusion.
+128|290|198|17|64|ECHOGRAPHIE|08/11/2023 04:43|Abdomen|ANNULE|pacs://chu-montclair/290/128|
+129|292|200|9|67|SCANNER|17/11/2024 13:45|Abdomen| REALISE |pacs://chu-montclair/292/129|No acute findings.
+130|293|201|11|66|RADIO THORAX|06/02/2025 03:15|Thorax|REALISE|pacs://chu-montclair/293/130|Consolidation in the right lower lobe.
+131|295|202|3|59|RADIO THORAX|17/10/2024 18:11|Thorax|REALISE|pacs://chu-montclair/295/131|No acute findings.
+132|296|204|5|66|IRM|17/02/2025 10:44|Crane|ANNULE|pacs://chu-montclair/296/132|
+133|299|206|21|69|RADIO THORAX|24/06/2024 16:07|Thorax|REALISE|-|Mild degenerative changes.
+134|300|207|15|70|SCANNER|13/12/2024 10:02|Abdomen|REALISE|pacs://chu-montclair/300/134|No acute findings.
+135|303|210|14|62|RADIO THORAX|13/08/2024 20:42|Thorax|REALISE|pacs://chu-montclair/303/135|Findings consistent with clinical suspicion.
+136|303|211|15|63|IRM|13/08/2024 15h10|Crane|ANNULE |pacs://chu-montclair/303/136|
+137|304|212|16|59|ECHOGRAPHIE |16/06/2025 11:59|Abdomen|REALISE|pacs://chu-montclair/304/137|Mild degenerative changes.
+138|305|213|24|60|ECHOGRAPHIE|13/09/2024 15:57|Abdomen|realise|pacs://chu-montclair/305/138|Consolidation in the right lower lobe.
+139|307|215|21|64|ECHOGRAPHIE|19/06/2024 11:24|Abdomen|REALISE|pacs://chu-montclair/307/139|Consolidation in the right lower lobe.
+140|310|217|11|60|SCANNER|20/05/2023 19:17|Abdomen|REALISE|?|Mild degenerative changes.
+141|314|218|23|62|SCANNER|10/05/2022 17:46|Abdomen|REALISE|pacs://chu-montclair/314/141|Small pleural effusion.
+142|317|222|24|68|ECHOGRAPHIE|25/12/2023 09:46|Abdomen|REALISE|N/A|Mild degenerative changes.
+143|320|223|9|59|IRM|07/12/2024 14:08|Crane|REALISE|pacs://chu-montclair/320/143|Findings consistent with clinical suspicion.
+144|321|224|23|67|IRM|16/03/2023 02:56|Crane|PROGRAMME|pacs://chu-montclair/321/144|
+145|322|226|13|59|IRM|30/10/2022 03:47|Crane|REALISE|pacs://chu-montclair/322/145|Findings consistent with clinical suspicion.
+146|328|227|18|61|RADIO THORAX|02/07/2024 11:04|Thorax|PROGRAMME|pacs://chu-montclair/328/146|
+147|328||13|62|RADIO THORAX|01/07/2024 10:11|Thorax|REALISE|pacs://chu-montclair/328/147|No acute findings.
+148|330|229||64|IRM|06-07-2025 05:22|N/A|REALISE|pacs://chu-montclair/330/148|No fracture seen.
+149|334|232|13|69|RADIO THORAX|15/02/2023 09:11|Thorax|REALISE|pacs://chu-montclair/334/149|Small pleural effusion.
+150|335|233|14|59|IRM|28/11/2023 15:44|Crane|REALISE|pacs://chu-montclair/335/150|No fracture seen.
+151|336|234|17|62|RADIO THORAX|20/11/2022 23:21|Thorax|REALISE|pacs://chu-montclair/336/151|Findings consistent with clinical suspicion.
+152|338|236|15|68|IRM|31/03/2025 16:15|Crane|PROGRAMME|pacs://chu-montclair/338/152|
+153|340|237|22|62|IRM|31/10/2023 12:58|Crane|REALISE|pacs://chu-montclair/340/153|Findings consistent with clinical suspicion.
+154|344|241|18|70|RADIO THORAX|27/01/2022 17:40|Thorax|REALISE|pacs://chu-montclair/344/154|Mild degenerative changes.
+155|345|242|5|69|ECHOGRAPHIE|09/04/2022 08:20|Abdomen|REALISE|pacs://chu-montclair/345/155|SMALL PLEURAL EFFUSION.
+156|345|243|7|67|IRM|09/04/2022 08:20|Crane|REALISE|pacs://chu-montclair/345/156|Consolidation in the right lower lobe.
+157|346||4|60|ECHOGRAPHIE|23/05/2022 15:15|Abdomen|REALISE|pacs://chu-montclair/346/157|  Consolidation in the right lower lobe.
+151|336|234|17|62|RADIO THORAX|20/11/2022 23:21|Thorax|REALISE|pacs://chu-montclair/336/151|Findings consistent with clinical suspicion.
+158|356|249|3|65|IRM|30/03/2022 16:14|Crane|REALISE|pacs://chu-montclair/356/158|Findings consistent with clinical suspicion.
+159|362|251|4|68|ECHOGRAPHIE|22/12/2022 11:27|Abdomen|REALISE|pacs://chu-montclair/362/159|No acute findings.
+160|362|252|15|65|ECHOGRAPHIE|22/12/2022 10:51|Abdomen|REALISE|?|Consolidation in the right lower lobe.
+161|365|254|16|62|RADIO THORAX|03/07/2023 15:27|Thorax|REALISE|pacs://chu-montclair/365/161|No acute findings.
+162|368|255|15|70|RADIO THORAX|10/05/2022 16:26|Thorax|REALISE|pacs://chu-montclair/368/162|Small pleural effusion.
+163|369|256|6|64|SCANNER|26/08/2023 18:59|Abdomen|REALISE|pacs://chu-montclair/369/163|Mild degenerative changes.
+164|371|258|1|63|IRM|10/11/2023 02:00|Crane|REALISE|pacs://chu-montclair/371/164|Mild degenerative changes.
+165|374|261|15|68|ECHOGRAPHIE|19/11/2024 16:26|Abdomen|EN ATTENTE CR|pacs://chu-montclair/374/165|No fracture seen.
+166|380|263|3|60|IRM|20/05/2023 11:23|Crane|REALISE|-|No fracture seen.
+167|380|264|22|66|SCANNER|20/05/2023 04:44|Abdomen|REALISE|pacs://chu-montclair/380/167|No acute findings.
+168|382|265|20|62|IRM|14/05/2023 12:46|Crane|REALISE|pacs://chu-montclair/382/168|No acute findings.
+169|382|266|7|59|SCANNER|14/05/2023 12:46|Abdomen|REALISE|-|No acute findings.
+170|387|268|21|67|ECHOGRAPHIE|05/06/2023 05:54|Abdomen|realise|pacs://chu-montclair/387/170|Findings consistent with clinical suspicion.
+171|393|272|20|63|IRM|25/01/2022 01:16|Crane|REALISE|pacs://chu-montclair/393/171|Mild degenerative changes.
+172|397|274|11|63|ECHOGRAPHIE|17/09/2023 10:48|Abdomen|REALISE|pacs://chu-montclair/397/172|Findings consistent with clinical suspicion.
+173|397|275|24|59|SCANNER|16/09/2023 07:34|Abdomen|REALISE|pacs://chu-montclair/397/173|No fracture seen.
+174|398|276|2|66|IRM|19/11/2024 14:19|Crane|REALISE|pacs://chu-montclair/398/174|No acute findings.
+175|398|277|8|61|ECHOGRAPHIE|19/11/2024 14:19|Abdomen|ANNULE|pacs://chu-montclair/398/175|
+176|407|281|17|62|ECHOGRAPHIE|28/02/2024 02:46|Abdomen|REALISE|pacs://chu-montclair/407/176|Consolidation in the right lower lobe.
+177|408|282|18|68|SCANNER|02/04/2022 10:35|Abdomen|programme|pacs://chu-montclair/408/177|
+178|409|284|1|64|IRM|09/12/2022 22:21|Crane|REALISE|pacs://chu-montclair/409/178|Small pleural effusion.
+179|411|285|7|67|SCANNER|03/08/2022 23:02|Abdomen|REALISE|pacs://chu-montclair/411/179|Findings consistent with clinical suspicion.
+180|415||20|62|SCANNER|19/10/2022 18:17|Abdomen|REALISE|pacs://chu-montclair/415/180|Mild degenerative changes.
+181|418|286|5|65|SCANNER|24/12/2024 03:31|Abdomen|REALISE|pacs://chu-montclair/418/181|small pleural effusion.
+182|419|288|8|60|ECHOGRAPHIE|12/04/2022 03:58|Abdomen|ANNULE|pacs://chu-montclair/419/182|
+183|419||22|63|RADIO THORAX|12/04/2022 05:15|Thorax|REALISE|pacs://chu-montclair/419/183|Consolidation in the right lower lobe.
+184|420|289|5|63|SCANNER|20/12/2024 17:00| Abdomen |REALISE|pacs://chu-montclair/420/184|Mild degenerative changes.
+185|422|290|5|64|SCANNER|23/07/2022 10:21|Abdomen|REALISE|pacs://chu-montclair/422/185|Mild degenerative changes.
+186|424|292|22|64|IRM|20/01/2023 00:08|Crane|REALISE|pacs://chu-montclair/424/186|No fracture seen.
+187|427|294|16|63|RADIO THORAX|02/05/2024 04:30|Thorax|ANNULE|pacs://chu-montclair/427/187|
+188|431|298|18|65|RADIO THORAX|05/01/2023 21:09|Thorax|realise|pacs://chu-montclair/431/188|No acute findings.
+189|434||13|63|RADIO THORAX|09/05/2024 02:12|Thorax| REALISE |pacs://chu-montclair/434/189|Small pleural effusion.
+190|440|301|4|61|ECHOGRAPHIE|30/01/2024 04:13|Abdomen|REALISE|pacs://chu-montclair/440/190|No fracture seen.
+191|443|302|7|69|ECHOGRAPHIE|04/04/2024 01:18|Abdomen|REALISE|pacs://chu-montclair/443/191|Consolidation in the right lower lobe.
+192|443|303|15|69|SCANNER|02/04/2024 19:51|-|REALISE|pacs://chu-montclair/443/192|Findings consistent with clinical suspicion.
+193|446|304|8|60|RADIO THORAX|10/12/2024 07:43|Thorax|REALISE|pacs://chu-montclair/446/193|Mild degenerative changes.
+194|449|306|5|67|SCANNER|02/11/2023 00:23|Abdomen|REALISE|pacs://chu-montclair/449/194|Consolidation in the right lower lobe.
+195|450|308|23|70|SCANNER|26/08/2024 19:13|Abdomen|REALISE|pacs://chu-montclair/450/195|No fracture seen.
+196|451|309|2|59|RADIO THORAX|06/01/2025 19:44|?|REALISE|pacs://chu-montclair/451/196|No acute findings.
+197|453|312|4|70|RADIO THORAX|18/05/2022 18:02| Thorax |REALISE|pacs://chu-montclair/453/197|No fracture seen.
+198||313|22|68|ECHOGRAPHIE|08/10/2022 04:22|Abdomen|REALISE|pacs://chu-montclair/454/198|No acute findings.
+199|455|314|10|62|ECHOGRAPHIE|23/07/2023 15:46|Abdomen|ANNULE|null|
+200|456|315|13|62|IRM|23/06/2023 17:20|Crane|REALISE ||Findings consistent with clinical suspicion.
+201|457|316|23|63|ECHOGRAPHIE|01/03/2024 01:07|Abdomen|REALISE|pacs://chu-montclair/457/201|Small pleural effusion.
+202|459|318|21|64|IRM|06-17-2022 10:20|cRANE|REALISE|pacs://chu-montclair/459/202|N/A
+203|460|319|20|61|ECHOGRAPHIE|16/02/2023 23:11|Abdomen|REALISE|N/A|No acute findings.
+204|461|321|6|66|ECHOGRAPHIE|01/05/2023 01:00|Abdomen|REALISE|pacs://chu-montclair/461/204|No acute findings.
+205|461|322|6|59|ECHOGRAPHIE|30/04/2023 05:07|Abdomen|REALISE|pacs://chu-montclair/461/205|Small pleural effusion.
+206|462|323|3|63|IRM|2022-03-09T03:40|Crane|REALISE|pacs://chu-montclair/462/206|Mild degenerative changes.
+207|464|324|22|67|ECHOGRAPHIE|26/02/2023 05:40|Abdomen|REALISE|pacs://chu-montclair/464/207|Mild degenerative changes.
+208|465||9|68|IRM|27/09/2023 12:59|Crane|REALISE|pacs://chu-montclair/465/208|No fracture seen.
+209|469|327|1|64|ECHOGRAPHIE|09/10/2024 19:52|Abdomen|REALISE|pacs://chu-montclair/469/209|No acute findings.
+210|471|328|14|66|SCANNER|20/09/2023 00:39|Abdomen|REALISE|pacs://chu-montclair/471/210|-
+211|472|330|18|62|SCANNER|19/11/2023 07:06|Abdomen|REALISE|pacs://chu-montclair/472/211|Findings consistent with clinical suspicion.
+212|473|331|8|68|RADIO THORAX|28/08/2024 05:36|?|Fait|pacs://chu-montclair/473/212|Mild degenerative changes.
+213|475|334|9|62|IRM|06/11/2023 17:08||REALISE|pacs://chu-montclair/475/213|Findings consistent with clinical suspicion.
+214|477|335|16|60|ECHOGRAPHIE|02/12/2024 03:03|Abdomen|?|pacs://chu-montclair/477/214|
+215|480|338|14|62|IRM|12/04/2023 19:24|Crane|ANNULE|pacs://chu-montclair/480/215|
+216|481|339|12|60|SCANNER|28/06/2023 10:19|Abdomen|REALISE|pacs://chu-montclair/481/216|No fracture seen.
+217|482|341|18|66|SCANNER|04/04/2024 18:24|Abdomen|REALISE|pacs://chu-montclair/482/217|?
+218|483|342|20|69|IRM|24/08/2024 15:52|Crane|PROGRAMME|pacs://chu-montclair/483/218|
+219|484|343|5|61|ECHOGRAPHIE|19/01/2022 09:36|Abdomen|REALISE|pacs://chu-montclair/484/219|Small pleural effusion.
+220|485|344|3|62|ECHOGRAPHIE   |03/03/2022 21:44|Abdomen|PROGRAMME|N/A|
+221|485|345|10|61|SCANNER|03/03/2022 07:05|Abdomen|ANNULE|pacs://chu-montclair/485/221|
+222|489|346|10|64|SCANNER|18/07/2024 14:18|  Abdomen|REALISE|pacs://chu-montclair/489/222|null
+223|490||11|62|RADIO THORAX|16/02/2022 17:48|Thorax|REALISE|pacs://chu-montclair/490/223|Findings consistent with clinical suspicion.
+224|494|350|2|61|ECHOGRAPHIE|14/11/2023 09:18|Abdomen|REALISE|pacs://chu-montclair/494/224|Findings consistent with clinical suspicion.
+215|480|338|14|62|IRM|12/04/2023 19:24|CRANE|ANNULE|pacs://chu-montclair/480/215|
+223|490||11|62|RADIO THORAX|16/02/2022 17:48|Thorax|REALISE|pacs://chu-montclair/490/223|Findings consistent with clinical suspicion.
+225|499|355|3|68|SCANNER|27/08/2024 20:54|Abdomen|realise|pacs://chu-montclair/499/225|No fracture seen.
+214|477|335|16|60|ECHOGRAPHIE|02/12/2024 03:03|Abdomen|?|pacs://chu-montclair/477/214|
+226|499|356|11|62|SCANNER|27/08/2024 20:54|Abdomen|REALISE|pacs://chu-montclair/499/226|Mild degenerative changes.
+227|502|357|22|61|ECHOGRAPHIE|22/05/2024 17:43|Abdomen| REALISE |pacs://chu-montclair/502/227|Mild degenerative changes.
+228|505|360|7|70|SCANNER|09/12/2022 04:39|Abdomen|Interprete|pacs://chu-montclair/505/228|Findings consistent with clinical suspicion.
+229|505|361|1|61|RADIO THORAX|09/12/2022 12:01|Thorax|REALISE|pacs://chu-montclair/505/229|Small pleural effusion.
+230|509||23|62|IRM|21/11/2024 09:45|Crane|realise|pacs://chu-montclair/509/230|Consolidation in the right lower lobe.
+231|510|367|17|67|RADIO THORAX|02/08/2025 13:15|Thorax|REALISE|pacs://chu-montclair/510/231|-
+232|511|368|7|60|ECHOGRAPHIE|26/11/2024 05:02|Abdomen|REALISE|pacs://chu-montclair/511/232|Consolidation in the right lower lobe.
+233|514|369|21|61|IRM|09/02/2025 02:17|Crane|REALISE|?|Mild degenerative changes.
+234|515|370|3|61|SCANNER|01/10/2025 12:48|Abdomen|REALISE|pacs://chu-montclair/515/234|Findings consistent with clinical suspicion.
+235|517|372|1|63|IRM|21/12/2024 23:08|Crane|REALISE|pacs://chu-montclair/517/235|No fracture seen.
+236|518|373|2|69|ECHOGRAPHIE|02/06/2025 20:03|Abdomen|REALISE|null|Findings consistent with clinical suspicion.
+237|519|374|2|66|IRM|26/01/2024 08:15|Crane|REALISE|pacs://chu-montclair/519/237|Mild degenerative changes.
+238|519|375|16|63|ECHOGRAPHIE|26/01/2024 02:51|Abdomen|REALISE|pacs://chu-montclair/519/238|Small pleural effusion.
+239|521|377|5|62|ECHOGRAPHIE|16/05/2023 12:40|Abdomen|realise|null|Findings consistent with clinical suspicion.
+240|521|378|9|60|ECHOGRAPHIE|17/05/2023 07:22|Abdomen|Interprete|pacs://chu-montclair/521/240| No acute findings. 
+241|522||24|65|RADIO THORAX|2022-07-13 02:22:00|Thorax|REALISE|pacs://chu-montclair/522/241|Consolidation in the right lower lobe.
+242|524|379|18|67|SCANNER|09/08/2023 20:51|Abdomen|REALISE|pacs://chu-montclair/524/242|N/A
+243|525|381|20|59|ECHOGRAPHIE|07/11/2023 09:19|Abdomen|PROGRAMME|pacs://chu-montclair/525/243|
+244|527|382|945|66|IRM|15/06/2024 02:05|Crane|REALISE|pacs://chu-montclair/527/244|Small pleural effusion.
+245|527|383|20|62|RADIO THORAX|16/06/2024 00:50|Thorax|PROGRAMME||
+246|528|384|2|63|ECHOGRAPHIE|27.02.2023 17:01|Abdomen|REALISE|pacs://chu-montclair/528/246|No fracture seen.
+247|528||5|63|RADIO THORAX|01/03/2023 03:31|Thorax|REALISE|pacs://chu-montclair/528/247|N/A
+248|529|386|23|59|ECHOGRAPHIE|30/02/2023 22:40|Abdomen|REALISE|pacs://chu-montclair/529/248|Mild degenerative changes.
+249|532|387|7|59|ECHOGRAPHIE|01.02.2022 07:49|Abdomen|REALISE|pacs://chu-montclair/532/249|Findings consistent with clinical suspicion.
+250|535|388|17|68|RADIO THORAX|04/06/2024 15:21|Thorax|REALISE|pacs://chu-montclair/535/250|Small pleural effusion.
+251|537|389|10|70|ECHOGRAPHIE|21/12/2023 19:14|Abdomen|REALISE|pacs://chu-montclair/537/251|Small pleural effusion.
+252|542|390|23|65|ECHOGRAPHIE|09/05/2022 10:38|Abdomen|REALISE|pacs://chu-montclair/542/252|No acute findings.
+253|543|391|3|59|radio thorax|21/08/2023 23:47|Thorax|REALISE|pacs://chu-montclair/543/253|Consolidation in the right lower lobe.
+254|546|393|19|69|IRM|15/03/2023 14:29|Crane|PROGRAMME|pacs://chu-montclair/546/254|
+255|547|396|13|64|ECHOGRAPHIE|31/08/2023 18:37|Abdomen|PROGRAMME|pacs://chu-montclair/547/255|
+256|549|397|9|66|  ECHOGRAPHIE|15/12/2022 09:08|Abdomen|ANNULE|pacs://chu-montclair/549/256|
+257|550|398|14|70|RADIO THORAX|04/09/2023 12:00|Thorax|REALISE|pacs://chu-montclair/550/257|Mild degenerative changes.
+258|551|399|8|59|RADIO THORAX|07/02/2022 02:08|Thorax |Fait|pacs://chu-montclair/551/258|No fracture seen.
+259|551|400|5|67|ECHOGRAPHIE|05/02/2022 18:20|Abdomen|REALISE|pacs://chu-montclair/551/259|Consolidation in the right lower lobe.
+260|554||10|70|RADIO THORAX|04-17-2023 01:03|Thorax|REALISE|pacs://chu-montclair/554/260|No fracture seen.
+261|556|405|22|64|ECHOGRAPHIE|07/02/2024 20:31|Abdomen|REALISE|pacs://chu-montclair/556/261|Findings consistent with clinical suspicion.
+262|558|407|2|66|ECHOGRAPHIE|07/11/2022 11:51|Abdomen|REALISE|-|Consolidation in the right lower lobe.
+263|559|409|12|70|SCANNER|14/06/2023 06:21|Abdomen|REALISE|pacs://chu-montclair/559/263|Consolidation in the right lower lobe.
+264|561|410|10|69|RADIO THORAX|21/06/2024 04:04|Thorax|REALISE|pacs://chu-montclair/561/264|Mild degenerative changes.
+265|562|411|23|64|IRM|15-01-2025 05:04|Crane|REALISE|pacs://chu-montclair/562/265|No acute findings.
+266|564|413|11|61|IRM|04/04/2025 10:07|Crane|PROGRAMME|pacs://chu-montclair/564/266|
+267|565|415|4|69|SCANNER|26/09/2023 01:45|Abdomen|REALISE|pacs://chu-montclair/565/267|Findings consistent with clinical suspicion.
+268|571|420|16|69|RADIO THORAX|12/08/2024 01:57|  Thorax|REALISE|pacs://chu-montclair/571/268|No fracture seen.
+269|571||23|67|SCANNER|12.08.2024 15:49|Abdomen|REALISE|pacs://chu-montclair/571/269|No acute findings.
+270|572|421|18|64|SCANNER|25/02/2022 02:52|Abdomen|REALISE|pacs://chu-montclair/572/270|NO FRACTURE SEEN.
+271|575|424|8|70|ECHOGRAPHIE|08/05/2023 17:56|null|REALISE|pacs://chu-montclair/575/271|No fracture seen.
+272|575|425|19|59|SCANNER|08/05/2023 03:04|Abdomen|REALISE|pacs://chu-montclair/575/272|Findings consistent with clinical suspicion.
+273|577|426|8|61|RADIO THORAX|22/02/2024 04:31|?|annule|pacs://chu-montclair/577/273|
+274|577||11|65|RADIO THORAX|03/03/2024 18:14|Thorax|REALISE|pacs://chu-montclair/577/274|Consolidation in the right lower lobe.
+275|581|428|19|70|SCANNER|15/12/2023 21:46|Abdomen|Annule|pacs://chu-montclair/581/275|
+276|582|429|15|60|scanner|24/05/2024 22h30|Abdomen|REALISE|pacs://chu-montclair/582/276|No fracture seen.
+277|585|432|10|67|ECHOGRAPHIE|28/10/2023 17:58|Abdomen |REALISE|pacs://chu-montclair/585/277|No fracture seen.
+278|587||11|66|SCANNER|11/01/2023 02:00|Abdomen|REALISE|pacs://chu-montclair/587/278|Consolidation in the right lower lobe.
+279|589|434|23|63|RADIO THORAX|14/06/2023 09:39|Thorax|REALISE|pacs://chu-montclair/589/279|No fracture seen.
+280|591|436|20|68|ECHOGRAPHIE|04/04/2022 09:45|Abdomen|REALISE|pacs://chu-montclair/591/280|No acute findings.
+281|597|439|19|60|ECHOGRAPHIE|25/03/2022 17:54|Abdomen|PROGRAMME|pacs://chu-montclair/597/281|
+282|599||13|62|RADIO THORAX|01/07/2023 06:26|Thorax|REALISE|pacs://chu-montclair/599/282|Mild degenerative changes.
+283|606|444|4|65|SCANNER|06/02/2025 07:59|Abdomen|REALISE|pacs://chu-montclair/606/283|No acute findings.
+284|606|445|23|67|IRM|04/02/2025 18:58|Crane|ANNULE|pacs://chu-montclair/606/284|
+285|607|447|21|68|IRM|22.08.2022 13:00|Crane|PROGRAMME|pacs://chu-montclair/607/285|
+286|608|449|2|66|IRM|19/10/2022 04:28|Crane|PROGRAMME|pacs://chu-montclair/608/286|
+287|615|450|3|65|RADIO THORAX|18/07/2024 13:11|Thorax|PROGRAMME|pacs://chu-montclair/615/287|
+288|621|454|24|70|SCANNER|06/09/2024 00:02|Abdomen|ANNULE|pacs://chu-montclair/621/288|
+289|622|455|9|63|RADIO THORAX|18/03/2023 23:29|Thorax|REALISE|pacs://chu-montclair/622/289|No fracture seen.
+290|622||20|70|IRM|20/03/2023 04:43|Crane|Interprete|pacs://chu-montclair/622/290|Small pleural effusion.
+291|623|457|8|59|SCANNER|07/10/2024 10:04|Abdomen|REALISE|?|Mild degenerative changes.
+292|624|458|20|69|RADIO THORAX|25/01/2025 13:39|Thorax|-|pacs://chu-montclair/624/292|Mild degenerative changes.
+293|626|460|11|66|SCANNER|26/10/2023 19:32|Abdomen|ANNULE|pacs://chu-montclair/626/293|
+294|627||15|61|SCANNER|06/09/2022 18:21|Abdomen|REALISE|pacs://chu-montclair/627/294|Consolidation in the right lower lobe.
+295|628|463|5|67|ECHOGRAPHIE|24/02/2023 17:50|Abdomen|REALISE|pacs://chu-montclair/628/295| Small pleural effusion. 
+296|629|465|2|67|IRM|07/07/2023 14:12|Crane|REALISE|-|No fracture seen.
+297|629|466|21|66|IRM|07/07/2023 18:40|Crane|REALISE|pacs://chu-montclair/629/297|No fracture seen.
+298|630|467|21|67|IRM|28/09/2023 07:24|Crane|REALISE|-|Mild degenerative changes.
+299|633|3418|18|59|SCANNER|18/05/2023 10:40|  Abdomen|REALISE|pacs://chu-montclair/633/299|No fracture seen.
+300|635|470|2|60|IRM|15/05/2024 22:45|Crane|REALISE|pacs://chu-montclair/635/300|Consolidation in the right lower lobe.
+301|637|472|7|60|SCANNER   |21/01/2025 21:30|Abdomen|REALISE|pacs://chu-montclair/637/301|Consolidation in the right lower lobe.
+302|637||2|64|SCANNER|29/01/2025 23:10|Abdomen|REALISE|pacs://chu-montclair/637/302|Findings consistent with clinical suspicion.
+303|640|473|13|70|ECHOGRAPHIE|05/06/2022 18:54||Interprete|pacs://chu-montclair/640/303|Consolidation in the right lower lobe.
+304|641|474|12|60|ECHOGRAPHIE|12.07.2022 16:05|Abdomen|REALISE||No fracture seen.
+305|643|476|4|63|RADIO THORAX|04/09/2024 14:22|Thorax|programme|pacs://chu-montclair/643/305|
+306|644|477|14|67|RADIO THORAX|06/01/2025 12:07|Thorax|Fait|pacs://chu-montclair/644/306|No fracture seen.
+307|647|480|1|64|SCANNER|28/12/2022 12:18|Abdomen|REALISE|pacs://chu-montclair/647/307|No fracture seen.
+308|647|481|15|61|ECHOGRAPHIE|27/12/2022 04:43|Abdomen|REALISE|pacs://chu-montclair/647/308|Mild degenerative changes.
+309|648|482|16|66|SCANNER|11/06/2022 20:18|Abdomen|REALISE|pacs://chu-montclair/648/309|Mild degenerative changes.
+310|649|483|12|66|ECHOGRAPHIE|2022-10-27 00:24:00|Abdomen|REALISE|pacs://chu-montclair/649/310|Consolidation in the right lower lobe.
+311|649|484|7|59|SCANNER|27/10/2022 12:13|N/A|REALISE|pacs://chu-montclair/649/311|Mild degenerative changes.
+312|?|487|1|62|RADIO THORAX|30/05/2022 04:42|Thorax|REALISE|pacs://chu-montclair/651/312|Mild degenerative changes.
+313|654|489|23|68|ECHOGRAPHIE|20/09/2022 05:36|Abdomen|REALISE|pacs://chu-montclair/654/313|Findings consistent with clinical suspicion.
+314|655|490|17|69|IRM|05/08/2023 22:34|Crane|PROGRAMME|pacs://chu-montclair/655/314|
+315|655|491|15|65|IRM|05/08/2023 22:34|Crane|REALISE|pacs://chu-montclair/655/315|Findings consistent with clinical suspicion.
+308|647|481|15|61|ECHOGRAPHIE|27/12/2022 04:43|Abdomen|REALISE|pacs://chu-montclair/647/308|Mild degenerative changes.
+316|657|492|13|70|ECHOGRAPHIE|07/07/2024 01:56|Abdomen|REALISE|pacs://chu-montclair/657/316|
+317|664||8|62|IRM|21/09/2022 22:44|cRANE|REALISE|pacs://chu-montclair/664/317|Consolidation in the right lower lobe.
+318|666|1639|7|68|SCANNER|28/04/2023 10:13|Abdomen|REALISE|pacs://chu-montclair/666/318|Consolidation in the right lower lobe.
+319|666|499|18|63|RADIO THORAX|28/04/2023 13:56|Thorax|Fait|pacs://chu-montclair/666/319|-
+320|null|500|2|68|ECHOGRAPHIE|07/02/2024 11:20||REALISE|pacs://chu-montclair/669/320|No acute findings.
+321|670|501|24|60|irm|26/04/2024 12:04|?|REALISE|pacs://chu-montclair/670/321|No fracture seen.
+322|673|503|2|65|IRM|04/04/2023 18:28|Crane|REALISE|-|Consolidation in the right lower lobe.
+323|674|504|8|62|RADIO THORAX|06/09/2023 19:01|Thorax|REALISE|pacs://chu-montclair/674/323|Small pleural effusion.
+324|678|505|5|70|IRM|02/03/2023 02:29|Crane|REALISE|pacs://chu-montclair/678/324|Small pleural effusion.
+325|575|424|8|70|ECHOGRAPHIE|08/05/2023 17:56|NULL|REALISE|pacs://chu-montclair/575/271|No fracture seen.
+326|483|342|20|69|IRM|24/08/2024 15:52|Crane|PROGRAMME|pacs://chu-montclair/483/218|
+327|502|357|22|61|ECHOGRAPHIE|22/05/2024 17:43|Abdomen|  REALISE |pacs://chu-montclair/502/227|Mild degenerative changes.
+328|409|284|1|64|IRM|09/12/2022 22:21|Crane|REALISE|pacs://chu-montclair/409/178|small pleural effusion.
+329|565|415|4|69|SCANNER|26/09/2023 01:45|Abdomen|REALISE|pacs://chu-montclair/565/267|FINDINGS CONSISTENT WITH CLINICAL SUSPICION.
+330|451|309|2|59|RADIO THORAX|06/01/2025 19:44|?|REALISE|pacs://chu-montclair/451/196|No acute findings.
+331|670|501|24|60| irm|26/04/2024 12:04|?|REALISE|pacs://chu-montclair/670/321|No fracture seen.
+332|168|116|9|65|IRM|19/09/2023 12:54|Crane |PROGRAMME|pacs://chu-montclair/168/72|
+333|336|234|17|62|RADIO THORAX|20/11/2022 23:21|Thorax|realise|pacs://chu-montclair/336/151|Findings consistent with clinical suspicion.

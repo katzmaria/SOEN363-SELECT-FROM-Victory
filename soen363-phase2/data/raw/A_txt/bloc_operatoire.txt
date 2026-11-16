@@ -1,0 +1,88 @@
+num_intervention|num_sejour|chirurgien|intervention|date_heure_intervention|resultat
+1|5|47|Coronarographie|10/06/2024 15:34|Succes
+2|6|48|Appendicectomie|17/11/2024 19:50|Succes
+3|15|46|Pontage aorto-coronarien|16/05/2024 09:55|Succes
+4|25|52|Cure de hernie inguinale|24/11/2022 23:37|Succes
+5|32|45|Pontage aorto-coronarien|01/08/2024 07:02|Succes
+6|35|50|Appendicectomie|09/11/2024 07:22|Succes
+7|38|52|Cholecystectomie|02/02/2022 11:42| Succes 
+8|42|50|Pontage aorto-coronarien|30/01/2025 23:33|?
+9|53|50|Cholecystectomie|25/02/2023 17:08|null
+10|54|45|Pontage aorto-coronarien|25/07/2023 23:25|Succes
+11|61|46|Appendicectomie |21/11/2023 09:34|null
+12|73|52|Coronarographie|22/08/2023 02:07|Succes
+13|76|47|pontage aorto-coronarien|26.09.2022 14:19|Succes
+14|79|47|Pontage aorto-coronarien|04/06/2024 04:18|Complications
+15|82|51|Osteosynthese col du femur|22/02/2024 21:56|Complications
+16|88|49|Appendicectomie|19/10/2023 02:24|-
+17|1227|50|Osteosynthese col du femur|24/08/2023 10:57|-
+18|113|50|Cholecystectomie|15/11/2022 13:22|Succes
+19|2733|47|Cure de hernie inguinale|04/03/2025 08:38|Succes
+20|147|48|Cholecystectomie|11/12/2023 18:03|Succes
+21|149|46|Pontage aorto-coronarien|09/06/2025 07:32|N/A
+22|157|47|Appendicectomie|26/04/2024 02:23|null
+23|172|52|Coronarographie|05/02/2023 03:15|Echec
+24|193|46|Coronarographie|14/04/2023 14:12|Echec
+25|201|46|Coronarographie|28/05/2022 11:58|
+26|205|47|Coronarographie|09/08/2023 22:09|Succes
+27|206|47|Cholecystectomie|22/08/2022 19:52|Succes
+28|214|52|Cure de hernie inguinale|15/02/2024 14:11|Succes
+29|230|51|Cholecystectomie|05/07/2022 11:07|Succes
+30|232|50|Cure de hernie inguinale|04/01/2022 21:17|Succes
+31|234|45|Osteosynthese col du femur|08/12/2024 07:23|N/A
+32|235|48|Cure de hernie inguinale|27/01/2023 12:01|
+33|239|51|Osteosynthese col du femur|04/10/2024 16:29|Succes
+34|244|50|Coronarographie|09/04/2023 13:59|Succes
+35|245|49|Pontage aorto-coronarien   |16/04/2023 06:00|Succes
+36|252|49|Pontage aorto-coronarien|09/06/2023 21:14|Succes
+37|272|51|Cure de hernie inguinale|15/10/2024 15:22|Succes
+38|274|51|Osteosynthese col du femur|13/09/2024 14:49|Succes
+39|276|47|  Appendicectomie|13/11/2024 10:33|Complications
+40|282|51|Cholecystectomie|03/03/2022 22:03|Echec
+41|286|51|Coronarographie|2024-12-21 02:30:00|?
+42|293|50|Appendicectomie|09/02/2025 17:19|Echec
+43|303|49|Osteosynthese col du femur|14/08/2024 15:07|Succes
+44|305|45|Appendicectomie|12/09/2024 03:52|Succes
+45|308|51|Coronarographie|17/01/2025 19:50|Echec
+46|314|51|Coronarographie|10/05/2022 10:30|Echec
+47|323|51|Appendicectomie|07.05.2023 06:06|Succes
+48|326|51|Appendicectomie|04/01/2023 01:01| Succes 
+49|331|51|Cure de hernie inguinale|30/10/2022 08:22|SUCCES
+41|286|51|Coronarographie|2024-12-21 02:30:00|?
+50|337|52|Cure de hernie inguinale|15/10/2024 15:44|Complications
+51|338|46|Appendicectomie|07/05/2025 19:26|Succes
+52|379|46|Osteosynthese col du femur|02/09/2022 21:25|Complications
+53|387|45|Cholecystectomie|07/06/2023 17:56|Succes
+54|388|49|Cholecystectomie|03/12/2023 18:33|null
+55|null|49|Cure de hernie inguinale|20/02/2023 13:51|Succes
+56|401|52|Cholecystectomie|26/02/2023 14:44|Succes
+57|414|49|pontage aorto-coronarien|11/01/2022 09:29|null
+58|430|52|Cholecystectomie|16/11/2022 20:07|Succes
+59|432|47|Coronarographie|18/06/2023 17:11|Echec   
+60|444|48|Pontage aorto-coronarien|06/11/2024 01:10|Succes
+61|447|52|Pontage aorto-coronarien|20/06/2022 16:40|Echec
+62|449|49|Cholecystectomie|01/11/2023 00:44|Succes
+63|463|45|Coronarographie|05/07/2022 23:47|Succes
+57|414|49|pontage aorto-coronarien|11/01/2022 09:29|null
+64|473|48|Coronarographie|28/08/2024 23:37|Echec
+65|478|47|Coronarographie|07/04/2024 05:53|N/A
+66|481|47|Pontage aorto-coronarien|27/06/2023 10:49|Complications
+67|487|52| Coronarographie |05/08/2022 10:04|Succes
+68|497|51|Pontage aorto-coronarien|19/09/2023 06:47|Succes
+69|504|50|Pontage aorto-coronarien|01/06/2022 18:28|Succes
+70|520|51|Cholecystectomie|32/02/2023 04:21|Complications
+71|530|51|?|09/06/2024 14:08|Echec
+72|558|51|Appendicectomie|08/11/2022 03:13|Succes
+73|563|52|Appendicectomie|26/08/2024 21:36|Echec
+74|571|49|Appendicectomie|inconnue|Succes
+75|618|51|Osteosynthese col du femur|31/07/2025 14:58|Succes
+76|626|51|appendicectomie|25/10/2023 20:53|Complications
+77|628|47|  Appendicectomie|10/03/2023 10:16|N/A
+78|635|49|Cholecystectomie|15/05/2024 06:42|Succes
+79|647|50|Cure de hernie inguinale|26/12/2022 20:13|
+80|649|50|Coronarographie|25/10/2022 13:04|Succes
+81|654|52|Osteosynthese col du femur|19/09/2022 10:23|Succes
+82|675|51|Pontage aorto-coronarien|23/12/2023 23:27|Succes
+83|679|52|Coronarographie|07/12/2023 23:59|
+84|444|48| Pontage aorto-coronarien|06/11/2024 01:10|succes
+85|487|52| Coronarographie |2022-08-05 10:04:00|succes

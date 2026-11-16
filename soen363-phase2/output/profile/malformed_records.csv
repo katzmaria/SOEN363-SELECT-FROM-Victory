@@ -1,9 +1,60 @@
-source,entity,location,reason,raw
-A,patients,patients.txt:line 217,"wrong_field_count: 7 fields, header has 9","64|Guilbert|Élodie|22/09/1954|H|85, boulevard de Moulin, 55116 Pasquier|0375623246"
-A,admissions,admissions.txt:line 639,"wrong_field_count: 8 fields, header has 10",638|340|35|25/05/2024 08:19|ELEC|Fever|ambulance|Bailly #896956
-B,patients,patients.csv:row 98,"wrong_field_count: 10 fields, header has 8","151,Jensen, Larry,03/21/1974,Male,7908 Robert Mall, North Amandahaven, ON A2G 5T6,615 408 2969,Patrick Sullivan +1 (916) 405-6266,N,EXTRA,FIELD"
-B,patients,patients.csv:row 101,"wrong_field_count: 10 fields, header has 8","446,Myers, Teresa,09/02/1983,Female,86522 Daniels Hills Suite 814, West Karlaberg, NU Y4K1B9,(578) 924-8895,Carolyn Gilbert 217 109 8862,N,EXTRA,FIELD"
-B,admissions,encounters.csv:row 88,"wrong_field_count: 12 fields, header has 10","87,45,10,03/09/2025 06:13 AM,Emergency,Abdominal pain,Transfer,Chapman-Avila #533791,03/11/2025 10:13 PM,Discharged,EXTRA,FIELD"
-B,admissions,encounters.csv:row 300,"wrong_field_count: 12 fields, header has 10","299,156,20,02/11/2024 08:00 AM,Elective,Weakness,Physician Referral,Foley LLC #100239,02/15/2024 06:00 PM,Discharged,EXTRA,FIELD"
-B,admissions,encounters.csv:row 531,"wrong_field_count: 12 fields, header has 10","530,272,25,01/16/2026 05:07 AM,Emergency,Nausea,Physician Referral,Rice-Clark #245003,01/20/2026 09:07 PM,Discharged,EXTRA,FIELD"
-B,admissions,encounters.csv:row 852,"wrong_field_count: 12 fields, header has 10","851,432,35,01/16/2024 06:22 PM,Urgent,Fever,Physician Referral,Williams-Cobb #452046,01/25/2024 12:22 AM,Discharged,EXTRA,FIELD"
+source_system,entity,source_row,reason,raw_record
+A,triage,triage.txt:114,"wrong number of fields: expected 14, found 12","111|107|29|06/02/2024 09:18|162/90|86|27|36,2|95|8|palpitations, abdominal pain|None"
+A,triage,triage.txt:373,"wrong number of fields: expected 14, found 12","365|339|33|18/01/2023 22:55|300/20|57|25|100,9 °F|97|7| cough, chest pain |aucune"
+A,notes,notes_cliniques.txt:598,"wrong number of fields: expected 6, found 4",586|303|49|CRO
+A,unit_stays,mouvements.txt:951,"wrong number of fields: expected 9, found 7",935|563|8|Rea chirurgicale|SIC-10|4|29/08/2024 22:52
+C,notes,admissions/admission[21]/note[14],<note> has no id attribute,"<note type=""Discharge Summary"">
+        <writtenAt>2025-01-27T14:52:00+08:00</writtenAt>
+        <author>S0002</author>
+        <text>Discharge summary. Admitted for further investigation. Recovery is satisfactory.</text>
+      </note>"
+C,unit_stays,admissions/admission[239]/wardMovement[11],<wardMovement> has no id attribute,"<wardMovement>
+        <unit>MICU</unit>
+        <ward>Ward 5A</ward>
+        <bed>03</bed>
+        <transferIn>2024-04-02T05:20:00+08:00</transferIn>
+        <transferOut>2024-04-05T00:26:00+08:00</transferOut>
+        <transferReason>condition deteriorated</transferReason>
+        <doctor>S0016</doctor>
+      </wardMovement>"
+C,triage,admissions/admission[369]/triage[9],<triage> has no id attribute,"<triage>
+        <nurse>S0033</nurse>
+        <assessedAt>2023-06-06T01:58:00+08:00</assessedAt>
+        <bloodPressure>121/66</bloodPressure>
+        <heartRate>101</heartRate>
+        <respRate>20</respRate>
+        <temperature unit=""F"">99.0</temperature>
+        <oxygenSaturation>0.95</oxygenSaturation>
+        <painScore>3</painScore>
+        <symptoms>giddiness, chest pain</symptoms>
+        <allergies>Shellfish</allergies>
+        <homeMedication>Frusemide 40 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,notes,admissions/admission[663]/note[15],<note> has no id attribute,"<note type=""Progress Note"">
+        <writtenAt>2022-06-16T05:50:00+08:00</writtenAt>
+        <author>S0020</author>
+        <text>Family updated at bedside.</text>
+      </note>"
+D,discharges,patients_p1.json:patients[49].admissions[1].separation,separatedAt has the wrong JSON type (boolean),"{""separationId"": 59, ""separatedAt"": true, ""authorisedBy"": 60, ""separationMode"": ""Transferred to another hospital"", ""conditionAtSeparation"": ""Fair"", ""dischargeMeds"": ""Ferrous sulfate 325mg daily"", ""followUp"": ""Return to ED if symptoms worsen"", ""appointments"": []}"
+D,diagnoses,patients_p1.json:patients[74].admissions[0].diagnoses[0],rank has the wrong JSON type (list),"{""diagnosisId"": 95, ""patientId"": 75, ""icd9"": ""  574.20 "", ""rank"": [""Principal"", ""Additional""], ""diagnosedBy"": 49, ""diagnosedAt"": ""2022-06-08T12:40:00+10:00""}"
+D,radiology,patients_p1.json:patients[109].admissions[0].imaging[0],performedAt has the wrong JSON type (list),"{""examId"": 24, ""orderRef"": 103, ""modality"": ""Ultrasound"", ""bodySite"": ""Kidneys"", ""referrerId"": 53, ""radiographerId"": 35, ""performedAt"": [], ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC735847"", ""report"": ""Small echogenic kidneys bilaterally.""}"
+D,notes,patients_p1.json:patients[152].admissions[0].clinicalNotes[1],writtenAt has the wrong JSON type (boolean),"{""noteId"": 278, ""noteType"": ""DISCHARGE summary"", ""authorId"": 87, ""writtenAt"": true, ""body"": ""Clinically improved. Post-op, port sites clean. Medications reconciled, GP letter sent.""}"
+D,radiology,patients_p1.json:patients[163].admissions[0].imaging[0],junk element (empty object),{}
+D,diagnoses,patients_p2.json:patients[14].admissions[2].diagnoses[0],diagnosedAt has the wrong JSON type (dict),"{""diagnosisId"": 1034, ""patientId"": 244, ""icd9"": ""518.81"", ""rank"": ""principal"", ""diagnosedBy"": 32, ""diagnosedAt"": {""$date"": 1700411370841}}"
+D,diagnoses,patients_p2.json:patients[37].admissions[0].diagnoses[1],junk element (str),"""4019"""
+D,unit_stays,patients_p2.json:patients[52].admissions[0].wardStays[0],startAt has the wrong JSON type (dict),"{""stayId"": 479, ""unit"": ""Inpatient Ward"", ""location"": """", ""bed"": ""29B"", ""clinicianId"": 11, ""startAt"": {""date"": ""see bed board"", ""time"": null}, ""endAt"": ""2023-09-11T20:03:00+10:00"", ""transferReason"": ""Admitted from pre-admission clinic""}"
+D,patients,patients_p2.json:patients[84],junk element (object without patientId),"{""_error"": ""RECORD_LOCKED"", ""message"": ""Record locked by another session, retry later""}"
+D,orders,patients_p2.json:patients[90].admissions[1].orders[1],orderedAt has the wrong JSON type (boolean),"{""orderId"": 461, ""testName"": ""Chest X-ray"", ""indication"": ""Assess acute asthma"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 55, ""orderedAt"": false}"
+D,radiology,patients_p2.json:patients[103].admissions[0].imaging[0],modality has the wrong JSON type (number),"{""examId"": 94, ""orderRef"": 380, ""modality"": 7, ""bodySite"": ""Abdomen"", ""referrerId"": 63, ""radiographerId"": 35, ""performedAt"": ""2024-01-12T10:19:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC829529"", ""report"": ""Multiple gallstones, no wall thickening.""}"
+D,orders,patients_p2.json:patients[119].admissions[0].orders[1],junk element (str),"""ERROR: HL7 ORM^O01 parse failure at segment OBR"""
+D,procedures,patients_p2.json:patients[126].admissions[0].procedures[0],startedAt has the wrong JSON type (boolean),"{""procedureId"": 73, ""procedureName"": ""Repair of scalp laceration"", ""surgeonId"": 39, ""startedAt"": true, ""outcome"": ""Uneventful recovery""}"
+D,notes,patients_p2.json:patients[150].admissions[0].clinicalNotes[2],junk element (NoneType),null
+D,triage,patients_p2.json:patients[216].admissions[0].triage,triageNurseId has the wrong JSON type (list),"{""triageId"": 399, ""triagedAt"": ""2024-08-19T21:08:00+10:00"", ""triageNurseId"": [12, 40], ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""106/82"", ""hr"": ""90"", ""rr"": 13, ""temp"": 37.3, ""spo2"": 98}, ""painScore"": 8, ""symptoms"": ""right hip pain after fall"", ""allergies"": [""Morphine"", ""Codeine""], ""currentMeds"": ""NKA""}"
+D,admissions,patients_p2.json:patients[225].admissions[1],junk element (NoneType),null
+D,unit_stays,patients_p3.json:patients[28].admissions[1].wardStays[0],unit has the wrong JSON type (list),"{""stayId"": 1107, ""unit"": [""ICU"", ""Ward""], ""location"": {""ward"": ""ED"", ""room"": ""Resus 3""}, ""bed"": ""1B"", ""clinicianId"": 91, ""startAt"": ""2025-05-21T05:35:00+10:00"", ""endAt"": ""2025-05-21T09:23:00+10:00""}"
+D,notes,patients_p3.json:patients[89].admissions[0].clinicalNotes[1],junk element (str),"""<<truncated>>"""
+D,unit_stays,patients_p3.json:patients[132].admissions[0].wardStays[1],junk element (list),[]
+D,orders,patients_p3.json:patients[139].admissions[1].orders[0],orderedBy has the wrong JSON type (list),"{""orderId"": 746, ""testName"": ""Urinalysis"", ""indication"": ""Monitoring - AKI"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": [82, 7], ""orderedAt"": ""18/07/2025 05:46""}"
+D,notes,patients_p3.json:patients[191].admissions[0].clinicalNotes[0],body has the wrong JSON type (dict),"{""noteId"": 1384, ""noteType"": ""Admission Note"", ""authorId"": 11, ""writtenAt"": ""2025-09-19T16:22:00+10:00"", ""body"": {""format"": ""rtf"", ""content"": ""{\\rtf1\\ansi\\deff0 {\\fonttbl {\\f0 Arial;}} \\f0 Obs stable.}""}}"
+D,procedures,patients_p3.json:patients[228].admissions[0].procedures[0],procedureName has the wrong JSON type (dict),"{""procedureId"": 104, ""procedureName"": {""code"": ""30443-00""}, ""surgeonId"": 39, ""startedAt"": ""2024-12-06T13:13:00+11:00"", ""outcome"": ""No complications""}"

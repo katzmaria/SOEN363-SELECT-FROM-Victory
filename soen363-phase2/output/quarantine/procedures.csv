@@ -1,0 +1,104 @@
+source_system,entity,source_record_id,source_row,disposition,duplicate_of,reason_codes,reason_details,raw_record
+A,procedures,3,bloc_operatoire.txt:4,rejected,,chronology:procedure_time,chronology:procedure_time: procedure_time 2024-05-16T07:55:00Z before admission 2024-06-01T07:55:00Z,3|15|46|Pontage aorto-coronarien|16/05/2024 09:55|Succes
+A,procedures,17,bloc_operatoire.txt:18,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1227 does not exist in source A,17|1227|50|Osteosynthese col du femur|24/08/2023 10:57|-
+A,procedures,18,bloc_operatoire.txt:19,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 113 is in the quarantine,18|113|50|Cholecystectomie|15/11/2022 13:22|Succes
+A,procedures,19,bloc_operatoire.txt:20,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 2733 does not exist in source A,19|2733|47|Cure de hernie inguinale|04/03/2025 08:38|Succes
+A,procedures,24,bloc_operatoire.txt:25,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 193 is in the quarantine,24|193|46|Coronarographie|14/04/2023 14:12|Echec
+A,procedures,28,bloc_operatoire.txt:29,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 214 is in the quarantine,28|214|52|Cure de hernie inguinale|15/02/2024 14:11|Succes
+A,procedures,44,bloc_operatoire.txt:45,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 305 is in the quarantine,44|305|45|Appendicectomie|12/09/2024 03:52|Succes
+A,procedures,41,bloc_operatoire.txt:51,duplicate_removed,41,exact_duplicate,exact_duplicate: same ID and same values as bloc_operatoire.txt:42,41|286|51|Coronarographie|2024-12-21 02:30:00|?
+A,procedures,51,bloc_operatoire.txt:53,rejected,,chronology:procedure_time,chronology:procedure_time: procedure_time 2025-05-07T17:26:00Z after discharge 2025-04-17T17:26:00Z,51|338|46|Appendicectomie|07/05/2025 19:26|Succes
+A,procedures,55,bloc_operatoire.txt:57,rejected,,missing_required:admission_id,missing_required:admission_id: raw value 'null',55|null|49|Cure de hernie inguinale|20/02/2023 13:51|Succes
+A,procedures,57,bloc_operatoire.txt:66,duplicate_removed,57,exact_duplicate,exact_duplicate: same ID and same values as bloc_operatoire.txt:59,57|414|49|pontage aorto-coronarien|11/01/2022 09:29|null
+A,procedures,70,bloc_operatoire.txt:73,rejected,,invalid_date:procedure_time,invalid_date:procedure_time: '32/02/2023 04:21': day is out of range for month,70|520|51|Cholecystectomie|32/02/2023 04:21|Complications
+A,procedures,71,bloc_operatoire.txt:74,rejected,,missing_required:procedure_name,missing_required:procedure_name: raw value '?',71|530|51|?|09/06/2024 14:08|Echec
+A,procedures,74,bloc_operatoire.txt:77,rejected,,invalid_date:procedure_time,invalid_date:procedure_time: 'inconnue': not a recognised date format,74|571|49|Appendicectomie|inconnue|Succes
+A,procedures,84,bloc_operatoire.txt:87,duplicate_removed,60,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 60",84|444|48| Pontage aorto-coronarien|06/11/2024 01:10|succes
+A,procedures,85,bloc_operatoire.txt:88,duplicate_removed,67,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 67",85|487|52| Coronarographie |2022-08-05 10:04:00|succes
+B,procedures,11,theatre.csv:12,rejected,,ambiguous_date:procedure_time,ambiguous_date:procedure_time: '03-05-2022 12:49': day/month order cannot be decided,"11,64,3,Coronary angiography and PCI,03-05-2022 12:49,"
+B,procedures,16,theatre.csv:17,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 106 is in the quarantine,"16,106,74,Laparoscopic cholecystectomy,02/07/2022 12:17,""Post-op fever, treated"""
+B,procedures,23,theatre.csv:24,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '?',"23,?,71,Coronary angiography and PCI,10/10/2022 15:12,Uneventful recovery"
+B,procedures,57,theatre.csv:58,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '-',"57,-,49,Laparoscopic cholecystectomy,10/13/2023 12:15 PM,""Post-op fever, treated"""
+B,procedures,60,theatre.csv:61,rejected,,invalid_date:procedure_time,invalid_date:procedure_time: '28/14/2023 14:32': month must be in 1..12,"60,400,71,Diagnostic upper GI endoscopy,28/14/2023 14:32,""Minor bleeding, controlled"""
+B,procedures,43,theatre.csv:62,duplicate_removed,43,exact_duplicate,exact_duplicate: same ID and same values as theatre.csv:44,"43,264,3,Diagnostic upper GI endoscopy,06/04/2023 14:23,""Successful, no complications"""
+B,procedures,66,theatre.csv:68,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 441 is in the quarantine,"66,441,3, Laparoscopic cholecystectomy,28/01/2024 10:56,N/A"
+B,procedures,73,theatre.csv:75,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 505 is in the quarantine,"73,505,76,Diagnostic upper GI endoscopy,22/05/2024 10:32,""Wound infection, on antibiotics"""
+B,procedures,74,theatre.csv:76,rejected,,chronology:procedure_time,chronology:procedure_time: procedure_time 2024-05-07T01:24:00Z before admission 2024-05-26T06:30:00Z,"74,508,74,Coronary angiography and PCI,07/05/2024 04:24,""Successful, no complications"""
+B,procedures,83,theatre.csv:85,rejected,,chronology:procedure_time,chronology:procedure_time: procedure_time 2024-10-22T05:47:00Z after discharge 2024-09-22T21:46:00Z,"83,575,74,Laparoscopic cholecystectomy,10/22/2024 08:47 AM,""Successful, no complications"""
+B,procedures,93,theatre.csv:95,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 681 is in the quarantine,"93,681,3,Coronary angiography and PCI,10/03/2025 15:12,""Post-op fever, treated"""
+B,procedures,95,theatre.csv:97,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 904 does not exist in source B,"95,904,21,Laparoscopic appendicectomy,01/04/2025 09:28,""Successful, no complications"""
+B,procedures,103,theatre.csv:105,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 733 is in the quarantine,"103,733,3,Diagnostic upper GI endoscopy,21/05/2025 12:12,""Successful, no complications"""
+B,procedures,108,theatre.csv:110,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 763 is in the quarantine,"108,763,21,Total knee replacement,14/07/2025 11:12,""Minor bleeding, controlled"""
+B,procedures,112,theatre.csv:114,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 800 is in the quarantine,"112,800,3,Laparoscopic cholecystectomy,08/09/2025 14:04,""Successful, no complications"""
+B,procedures,115,theatre.csv:117,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1162 does not exist in source B,"115,1162,31,Open appendicectomy,20/10/2025 11:08,""Minor bleeding, controlled"""
+B,procedures,108,theatre.csv:121,duplicate_removed,108,exact_duplicate,exact_duplicate: same ID and same values as theatre.csv:110,"108,763,21,Total knee replacement  ,14/07/2025 11:12,""Minor bleeding, controlled"""
+B,procedures,119,theatre.csv:122,duplicate_removed,45,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 45","119,302,74,DIAGNOSTIC UPPER GI ENDOSCOPY,31/05/2023 12:21,"
+B,procedures,120,theatre.csv:123,duplicate_removed,65,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 65","120,433,21,AV fistula creation  ,16/01/2024 14:40,""Successful, no complications"""
+B,procedures,121,theatre.csv:124,duplicate_removed,72,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 72","121,497,31,Laparoscopic cholecystectomy,08/05/2024 09:54,Uneventful recovery"
+B,procedures,122,theatre.csv:125,duplicate_removed,78,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 78","122,550,3,AV fistula creation,04/08/2024 13:37,""successful, no complications"""
+C,procedures,21,admissions/admission[249]/operation[17],rejected,,orphan_reference:surgeon_id,orphan_reference:surgeon_id: professionals 707 does not exist in source C,"<operation id=""21"">
+        <procedure>Inguinal hernia repair</procedure>
+        <performedAt>2024-10-22T07:35:00+08:00</performedAt>
+        <outcome>Uneventful</outcome>
+        <surgeon>S0707</surgeon>
+      </operation>"
+C,procedures,69,admissions/admission[307]/operation[14],duplicate_removed,29,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 29","<operation id=""69"">
+        <procedure>Coronary angiography</procedure>
+        <performedAt>2024-05-06T10:28:00+08:00</performedAt>
+        <outcome>Uneventful</outcome>
+        <surgeon>S0049</surgeon>
+      </operation>"
+C,procedures,32,admissions/admission[326]/operation[15],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 320 is in the quarantine,"<operation id=""32"">
+        <procedure>Appendicectomy</procedure>
+        <performedAt>2025-04-11T14:16:00+08:00</performedAt>
+        <surgeon>S0048</surgeon>
+      </operation>"
+C,procedures,68,admissions/admission[338]/operation[15],duplicate_removed,34,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 34","<operation id=""68"">
+        <procedure>Hip hemiarthroplasty</procedure>
+        <performedAt>2022-07-17T01:27:00+08:00</performedAt>
+        <outcome>Uneventful</outcome>
+        <surgeon>S0045</surgeon>
+      </operation>"
+C,procedures,35,admissions/admission[352]/operation[14],rejected,,missing_required:surgeon_id,missing_required:surgeon_id: raw value None,"<operation id=""35"">
+        <procedure>Coronary artery bypass graft</procedure>
+        <performedAt>2022-09-28T09:53:00Z</performedAt>
+        <outcome>Uneventful</outcome>
+      </operation>"
+C,procedures,47,admissions/admission[509]/operation[13],rejected,,invalid_date:procedure_time,invalid_date:procedure_time: '2023-13-24T00:56:00+08:00': month must be in 1..12,"<operation id=""47"">
+        <procedure>Hip hemiarthroplasty</procedure>
+        <performedAt>2023-13-24T00:56:00+08:00</performedAt>
+        <outcome>Uneventful</outcome>
+        <surgeon>S0049</surgeon>
+      </operation>"
+C,procedures,47,admissions/admission[509]/operation[14],duplicate_removed,47,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[509]/operation[13],"<operation id=""47"">
+        <procedure>Hip hemiarthroplasty</procedure>
+        <performedAt>2023-13-24T00:56:00+08:00</performedAt>
+        <outcome>Uneventful</outcome>
+        <surgeon>S0049</surgeon>
+      </operation>"
+C,procedures,61,admissions/admission[612]/operation[13],rejected,,chronology:procedure_time,chronology:procedure_time: procedure_time 2023-07-19T17:47:00Z before admission 2023-07-22T17:47:00Z,"<operation id=""61"">
+        <procedure>Appendicectomy</procedure>
+        <performedAt>2023-07-20T01:47:00+08:00</performedAt>
+        <outcome>Uneventful </outcome>
+        <surgeon>S0045</surgeon>
+      </operation>"
+D,procedures,34,patients_p1.json:patients[16].admissions[1].procedures[0],rejected,,missing_required:procedure_name,missing_required:procedure_name: raw value None,"{""procedureId"": 34, ""surgeonId"": 63, ""startedAt"": ""2023-01-18T12:39:00+11:00"", ""outcome"": ""uneventful recovery""}"
+D,procedures,61,patients_p1.json:patients[24].admissions[2].procedures[1],duplicate_removed,61,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[24].admissions[2].procedures[0],"{""procedureId"": 61, ""procedureName"": ""Dynamic hip screw fixation"", ""surgeonId"": 29, ""startedAt"": ""2023-10-08T19:46:00+11:00"", ""outcome"": """"}"
+D,procedures,28,patients_p1.json:patients[42].admissions[2].procedures[0],rejected,,orphan_reference:surgeon_id,orphan_reference:surgeon_id: professionals 102 does not exist in source D,"{""procedureId"": 28, ""procedureName"": ""Laparoscopic cholecystectomy"", ""surgeonId"": 102, ""startedAt"": ""2022-11-24T12:41:00+11:00"", ""outcome"": ""No complications""}"
+D,procedures,13,patients_p1.json:patients[84].admissions[0].procedures[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 88 is in the quarantine,"{""procedureId"": 13, ""procedureName"": ""AV fistula creation"", ""surgeonId"": 39, ""startedAt"": ""2022-07-01T14:11:00+10:00"", ""outcome"": ""No complications""}"
+D,procedures,141,patients_p1.json:patients[84].admissions[0].procedures[1],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 88 is in the quarantine,"{""procedureId"": 141, ""procedureName"": ""av fistula creation"", ""surgeonId"": 39, ""startedAt"": ""2022-07-01T14:11:00+10:00"", ""outcome"": ""No complications""}"
+D,procedures,19,patients_p1.json:patients[130].admissions[0].procedures[0],rejected,,orphan_reference:surgeon_id,orphan_reference:surgeon_id: professionals 119 does not exist in source D,"{""procedureId"": 19, ""procedureName"": ""Total knee replacement"", ""surgeonId"": 119, ""startedAt"": ""2022-09-30T10:09:00+10:00"", ""outcome"": ""Superficial wound infection, oral antibiotics""}"
+D,procedures,57,patients_p1.json:patients[167].admissions[1].procedures[1],duplicate_removed,57,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[167].admissions[1].procedures[0],"{""procedureId"": 57, ""procedureName"": ""Laparoscopic cholecystectomy"", ""surgeonId"": 58, ""startedAt"": ""2023-09-23T18:28:00+10:00"", ""outcome"": ""No complications""}"
+D,procedures,32,patients_p1.json:patients[171].admissions[0].procedures[0],rejected,,orphan_reference:surgeon_id,orphan_reference:surgeon_id: professionals 131 does not exist in source D,"{""procedureId"": 32, ""procedureName"": ""Laparoscopic appendicectomy"", ""surgeonId"": 131, ""startedAt"": ""2023-01-04T07:48:00+11:00"", ""outcome"": ""Converted to open procedure""}"
+D,procedures,138,patients_p1.json:patients[201].admissions[0].procedures[1],duplicate_removed,39,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 39","{""procedureId"": 138, ""procedureName"": ""Laparoscopic cholecystectomy"", ""surgeonId"": 63, ""startedAt"": ""2023-03-04T06:28:00+11:00"", ""outcome"": """"}"
+D,procedures,55,patients_p2.json:patients[39].admissions[0].procedures[0],rejected,,chronology:procedure_time,chronology:procedure_time: procedure_time 2023-08-26T21:33:00Z after discharge 2023-08-23T17:31:00Z,"{""procedureId"": 55, ""procedureName"": ""AV fistula creation"", ""surgeonId"": 64, ""startedAt"": ""2023-08-27T07:33:00+10:00"", ""outcome"": ""Superficial wound infection, oral antibiotics""}"
+D,procedures,65,patients_p2.json:patients[85].admissions[0].procedures[0],rejected,,invalid_date:procedure_time,invalid_date:procedure_time: '2023-13-24T03:57:00+10:00': month must be in 1..12,"{""procedureId"": 65, ""procedureName"": ""Repair of scalp laceration"", ""surgeonId"": 63, ""startedAt"": ""2023-13-24T03:57:00+10:00"", ""outcome"": ""Uneventful recovery""}"
+D,procedures,71,patients_p2.json:patients[112].admissions[0].procedures[0],rejected,,missing_required:procedure_time,missing_required:procedure_time: raw value '0000-00-00',"{""procedureId"": 71, ""procedureName"": ""Gastroscopy with haemostasis"", ""surgeonId"": 19, ""startedAt"": ""0000-00-00"", ""outcome"": ""No complications""}"
+D,procedures,72,patients_p2.json:patients[124].admissions[0].procedures[0],rejected,,missing_required:procedure_time,missing_required:procedure_time: raw value None,"{""procedureId"": 72, ""procedureName"": ""Coronary angiography and PCI"", ""surgeonId"": 4, ""startedAt"": null, ""outcome"": ""No complications""}"
+D,procedures,85,patients_p2.json:patients[133].admissions[1].procedures[1],duplicate_removed,85,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[133].admissions[1].procedures[0],"{""procedureId"": 85, ""procedureName"": ""Laparoscopic cholecystectomy"", ""surgeonId"": 29, ""startedAt"": ""2024-06-01T12:52:00+10:00"", ""outcome"": ""No complications""}"
+D,procedures,74,patients_p2.json:patients[138].admissions[0].procedures[0],rejected,,chronology:procedure_time,chronology:procedure_time: procedure_time 2024-03-25T12:02:00Z after discharge 2024-03-21T03:59:00Z,"{""procedureId"": 74, ""procedureName"": ""Diagnostic gastroscopy"", ""surgeonId"": 19, ""startedAt"": ""2024-03-25T23:02:00+11:00"", ""outcome"": ""Uneventful recovery""}"
+D,procedures,140,patients_p2.json:patients[141].admissions[0].procedures[1],duplicate_removed,76,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 76","{""procedureId"": 140, ""procedureName"": ""Laparoscopic cholecystectomy"", ""surgeonId"": 63, ""startedAt"": ""2024-03-18T10:06:00+11:00"", ""outcome"": null}"
+D,procedures,90,patients_p2.json:patients[211].admissions[0].procedures[0],rejected,,ambiguous_date:procedure_time,ambiguous_date:procedure_time: '10.08.2024 08:41': day/month order cannot be decided,"{""procedureId"": 90, ""procedureName"": ""Laparoscopic  cholecystectomy"", ""surgeonId"": 62, ""startedAt"": ""10.08.2024 08:41"", ""outcome"": ""No complications""}"
+D,procedures,133,patients_p3.json:patients[99].admissions[1].procedures[0],rejected,,chronology:procedure_time,chronology:procedure_time: procedure_time 2025-10-18T02:53:00Z after discharge 2025-09-09T02:34:00Z,"{""procedureId"": 133, ""procedureName"": ""Coronary angiography and PCI"", ""surgeonId"": 84, ""startedAt"": ""2025-10-18T13:53:00+11:00"", ""outcome"": ""No complications""}"
+D,procedures,139,patients_p3.json:patients[103].admissions[0].procedures[1],duplicate_removed,115,near_duplicate,"near_duplicate: same admission_id, procedure_time, procedure_name as procedure_id 115","{""procedureId"": 139, ""procedureName"": ""Dynamic hip screw fixation"", ""surgeonId"": 63, ""startedAt"": ""2025-03-20T14:53:00+11:00"", ""outcome"": ""No complications""}"
+D,procedures,137,patients_p3.json:patients[207].admissions[0].procedures[0],rejected,,invalid_date:procedure_time,invalid_date:procedure_time: '2025-13-29T04:53:00+10:00': month must be in 1..12,"{""procedureId"": 137, ""procedureName"": ""Hemiarthroplasty of hip"", ""surgeonId"": 29, ""startedAt"": ""2025-13-29T04:53:00+10:00"", ""outcome"": ""No complications""}"

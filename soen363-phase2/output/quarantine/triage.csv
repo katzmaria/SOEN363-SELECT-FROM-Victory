@@ -1,0 +1,1497 @@
+source_system,entity,source_record_id,source_row,disposition,duplicate_of,reason_codes,reason_details,raw_record
+A,triage,2,triage.txt:3,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 2972 does not exist in source A,"2|2|2972|25/10/2022 22:21|155/90|108|28|36,5|92|4|headache|Aspirin|Bisoprolol 2.5 mg|3"
+A,triage,25,triage.txt:35,duplicate_removed,25,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:26,"25|23|34|11/11/2024 06:05|144/87|84|null|36,5|95|5|dizziness, fever|Latex|Metformin 850 mg|3"
+A,triage,36,triage.txt:38,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '?',"36|34|?|02/09/2024 06:36|133/80|111|?|36,6|97|8|headache, fall, cough|Iodine contrast|Levothyroxine 50 mcg|ORANGE"
+A,triage,41,triage.txt:43,rejected,,unmappable_label:triage_priority,unmappable_label:triage_priority: 'GRIS' has no standard triage_priority value,"41|39|29|10.10.2022 19:45|124/92|114|14|410||0|dizziness, fever, weakness|none|Levothyroxine 50 mcg|GRIS"
+A,triage,49,triage.txt:51,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 4513 does not exist in source A,"49|4513|40|2024-10-16 11:18:00|150/88|0|16|38,9|99|6|chest pain, dizziness, palpitations|Peanuts   |Aspirin 75 mg|1"
+A,triage,77,triage.txt:86,duplicate_removed,77,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:79,"77|73|36|14/08/2023 21:37|145/84|99|28|36,8|98|9|fall, cough|None|Levothyroxine 50 mcg|3"
+A,triage,105,triage.txt:108,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 101 is in the quarantine,"105|101|31|16/04/2025 00:32|153/94|69 bpm|15|37,1|98|6|cough, confusion, weakness|Latex|NKA|ORANGE"
+A,triage,110,triage.txt:113,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '',"110|106|29|17/07/2022 13:49|null|75|16|36,6|-3|5|dizziness, confusion|aucune|Aspirin 75 mg|"
+A,triage,116,triage.txt:119,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 112 is in the quarantine,"116|112|35|06/08/2022 07:30|111/82|65|13|36,2|90|1|confusion, cough, headache|none|Paracetamol 1 g|3"
+A,triage,117,triage.txt:120,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 113 is in the quarantine,"117|113|37|13/11/2022 22:27|108/71|71|95|39,5|93|7|confusion, palpitations|none|Metformin 850 mg|1"
+A,triage,132,triage.txt:135,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '?',"132|125|38|13/09/2023 12:01|107/67|116|17|97,5F|96|3/10|shortness of breath, fever, cough|penicillin|Paracetamol 1 g|?"
+A,triage,157,triage.txt:160,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '-',"157|146|-|16/04/2024 12:31|107/68|93|18|103,6 F|88|8/10|weakness|Aspirin|Furosemide 40 mg|ORANGE"
+A,triage,186,triage.txt:189,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1998 does not exist in source A,"186|1998|30|02/10/2023 10:45|0/0|118 bpm|17|36,6|91|1|fall, confusion, nausea|?|aucun|3"
+A,triage,197,triage.txt:200,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 184 is in the quarantine,"197|184|39|08/05/2022 06:13|167/73|68|21 c/min|38,7|88|5|confusion|Sulfa drugs|Metformin 850 mg|3"
+A,triage,200,triage.txt:203,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 2538 does not exist in source A,"200|2538|39|29/11/2024 14:21|12/8000|55|16|103,6|88|7|chest pain, weakness, cough|Penicillin|?|1"
+A,triage,206,triage.txt:209,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 192 is in the quarantine,"206|192|36|26/09/2022 06:12|117/74|112 bpm|16|38,8|88|9|fever|NKA|NKA|1"
+A,triage,207,triage.txt:210,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 193 is in the quarantine,"207|193|25|14/04/2023 06:58|153/72|109|-|36,0|-3|8|nausea|none|Metformin 850 mg|2"
+A,triage,208,triage.txt:211,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 3659 does not exist in source A,"208|3659|39|04/03/2022 04:25|163/93|103|null|36,3|97|-2|confusion, weakness|Peanuts|none|3"
+A,triage,209,triage.txt:212,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 692 does not exist in source A,"209|195|692|04/10/2022 09:12|152/91|57|24|39,6|91|0|cough|NKA|Paracetamol 1 g|2"
+A,triage,213,triage.txt:216,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '',"213||37|26/08/2023 07:05|129/70|100|26|37,6|97|5|headache, confusion, fall|No Known Allergies|Paracetamol  1 g|2"
+A,triage,231,triage.txt:234,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 214 is in the quarantine,"231|214|38|11/02/2024 21:11|114/87|122|12|102,9 °F|91|1|abdominal pain, fall|no known allergies|aucun|1"
+A,triage,236,triage.txt:248,duplicate_removed,236,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:239,"236|219|37|29/04/2022 07:27|159/65|125|23|37,5|94|8|headache, palpitations, confusion|  Sulfa drugs|None|2"
+A,triage,271,triage.txt:277,duplicate_removed,271,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:275,"271|251|35|08/09/2023 15:27|158/81|60|20|37,6|140|3|abdominal pain|aucune|none|2"
+A,triage,273,triage.txt:284,duplicate_removed,273,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:278,"273|253|27|2023-09-19 07:00:00|138/83|67|18|97,7 °F|97|14|ABDOMINAL PAIN, NAUSEA, FEVER|no known allergies|Bisoprolol 2.5 mg|2"
+A,triage,268,triage.txt:287,duplicate_removed,268,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:272,"268|248|42|13/11/2023 20:24|118/61|82|18|97,7 F|95|4|cough, abdominal pain|No Known Allergies|furosemide 40 mg|1"
+A,triage,294,triage.txt:301,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1953 does not exist in source A,294|1953|38|23/03/2024 19:50|146/91|68|22|410|96|1|shortness of breath|Sulfa drugs|aucun|1
+A,triage,303,triage.txt:310,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 281 is in the quarantine,"303|281|36|11/11/2024 16:35|116/62|999|13|100,9 °F|88 %|2|abdominal pain|AUCUNE|aucun|2"
+A,triage,311,triage.txt:318,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '-',"311|289|-|25/03/2022 10:33|127/82|72|12|37,8|140|2|nausea, chest pain, headache|NKA|NKA|1"
+A,triage,328,triage.txt:335,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 305 is in the quarantine,"328|305|37|12/09/2024 02:29|145/69|97|27|99,1|140|6|weakness, headache|no known allergies|Amoxicillin 1 g|2"
+A,triage,340,triage.txt:347,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '-',"340|-|43|14/12/2023 07:40|138/85|107|13|38,4|89|0|dizziness, confusion|Peanuts|none|2"
+A,triage,329,triage.txt:351,duplicate_removed,329,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:336,"329|306|30|17/01/2024 10:10|300/20|92|19|102,4 °F|100|2|abdominal pain|no known allergies|Levothyroxine 50 mcg|3"
+A,triage,360,triage.txt:368,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 334 is in the quarantine,"360|334|29|14.02.2023 03:56|152/99|57|150|36,1|99|1|abdominal pain, palpitations|aucune|Paracetamol 1 g|1"
+A,triage,361,triage.txt:378,duplicate_removed,361,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:369,"361|335|43|27/11/2023 17:57|158/68|115|27|39,8|94|1|abdominal pain, shortness of breath, chest pain|no known allergies|NKA|2"
+A,triage,376,triage.txt:385,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 349 is in the quarantine,"376|349|34|29/02/2024 06:31|12/8000|74|13|36,9|88|6|confusion, headache|None|aucun|2"
+A,triage,379,triage.txt:388,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '?',"379|352|?|29/12/2022 04:29|138/87|104|22|36,1|90|1|headache, weakness|Aspirin|none|2"
+A,triage,383,triage.txt:397,duplicate_removed,383,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:392,"383|356|32|29/03/2022 16:06|124/60|84|26|36,5|92|7|abdominal pain, shortness of breath|Penicillin|none|Tri 2"
+A,triage,390,triage.txt:400,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 363 is in the quarantine,"390|363|26|23/04/2022 09:18|129/80|104|13|36,1|91|0|fever, palpitations, headache|No Known Allergies|Atorvastatin 20 mg|Tri 2"
+A,triage,400,triage.txt:410,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 2367 does not exist in source A,"400|2367|35|23/01/2024 10:22|131/67|113|27|36,0|97|10|dizziness, confusion, headache|aucune|NKA|3"
+A,triage,408,triage.txt:418,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 380 is in the quarantine,"408|380|39|18/05/2023 19:21|145/63|125|13|39,1C|92|4|confusion, fall|Sulfa drugs|NKA|1"
+A,triage,436,triage.txt:447,duplicate_removed,436,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:446,"436|407|27|26/02/2024 05:03|146/69|73|12|39,1|96|fort|abdominal pain, cough, confusion|No Known Allergies|Levothyroxine 50 mcg|3   "
+A,triage,440,triage.txt:451,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '-',"440|-|43|03/08/2022 07:52|130/90|83|23|39,1|93|1|confusion, palpitations|Iodine contrast|Ramipril 5 mg|3"
+A,triage,452,triage.txt:474,duplicate_removed,452,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:463,"452|423|44|14/12/2022 10:01|155/100|109|19 c/min|39,5|90|9|abdominal pain|No Known Allergies|Atorvastatin 20 mg|3"
+A,triage,472,triage.txt:484,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 2155 does not exist in source A,"472|441|2155|09/09/2022 16:26|300/20|65|28|98,8 F|90|4|dizziness, weakness, nausea|aucune|None|2"
+A,triage,476,triage.txt:488,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 445 is in the quarantine,"476|445|34|28/10/2024 09:27|154/98|94/min|21|39,6|140|4|headache|Penicillin|Aspirin 75 mg|2"
+A,triage,508,triage.txt:520,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '-',"508|475|39|03/11/2023 15:32|158/89|0|22|37,5|95|6|headache, abdominal pain|No Known Allergies|Metformin 850 mg|-"
+A,triage,519,triage.txt:531,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value 'N/A',"519|486|39|22/06/2022 17:57|102/98|94|21|100,2F|99|4|headache, fever, cough|No Known Allergies|None|N/A"
+A,triage,537,triage.txt:549,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '?',"537|503|29|09/03/2024 05:37|105/94|56|xx|37,0|96|1|weakness|aucune|null|?"
+A,triage,539,triage.txt:551,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 1220 does not exist in source A,"539|505|1220|08/12/2022 07:26|138/91|67|13|38,2|90|7|confusion, shortness of breath|Peanuts|aucun|1"
+A,triage,540,triage.txt:552,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 4153 does not exist in source A,"540|4153|26|15/08/2022 01:30|142/66|109|18|38,4|100|14|shortness of breath, chest pain, headache|no known allergies|none|3"
+A,triage,547,triage.txt:559,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 4519 does not exist in source A,"547|4519|32|18/11/2024 02:59|105/82|103|25|37,9|93%|6|headache|null|Paracetamol 1 g|2"
+A,triage,579,triage.txt:591,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 542 is in the quarantine,"579|542|37|2022-05-08 06:01:00|105/93||21|38,6|96|4|nausea, fall|Peanuts|none|2"
+A,triage,584,triage.txt:596,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 547 is in the quarantine,"584|547|40|28/08/2023 21:03|122/100|81|25|36,6|98|1|chest pain|NKA| Ramipril 5 mg |2"
+A,triage,602,triage.txt:623,duplicate_removed,602,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:614,"602|565|31|25/09/2023 09:27|abc/def|100|22|102,7 F|98|2|shortness of breath, cough, abdominal pain|none|None|3"
+A,triage,630,triage.txt:643,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 592 is in the quarantine,"630|592|32|04/09/2022 23:55|139/69|103|15|38,7|89|6|fever, weakness|Iodine contrast|Furosemide 40 mg|3"
+A,triage,633,triage.txt:646,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 595 is in the quarantine,"633|595|31|25/05/2022 21:49|0/0|107|27|100,4 F|90|9|headache, abdominal pain|none|Paracetamol 1 g|3"
+A,triage,634,triage.txt:647,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 596 is in the quarantine,"634|596|38|14/08/2022 01:02|125/77|78/min|24|98,1F|98|9|weakness|Sulfa drugs|?|2"
+A,triage,684,triage.txt:697,rejected,,missing_required:admission_id,missing_required:admission_id: raw value 'N/A',"684|N/A|25|13/12/2024 00:26|141/83|122|150|39,2|89|8|fall, dizziness|Peanuts|Metformin 850 mg|1"
+A,triage,694,triage.txt:707,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 1807 does not exist in source A,"694|654|1807|19/09/2022 09:09|149/86|117|23|37,4|89|0|-|Aspirin|Bisoprolol 2.5 mg|2"
+A,triage,719,triage.txt:734,duplicate_removed,719,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:732,"719|678|42|26/02/2023 23:25|121/88|null|17|99,3 °F|95|14|fall, weakness|Latex|Metformin 850 mg|1"
+A,triage,724,triage.txt:738,rejected,,unmappable_label:triage_priority,unmappable_label:triage_priority: 'GRIS' has no standard triage_priority value,"724|682|43|23/05/2024 15:27|142/79|84|17|37,0|92|4|dizziness|NKA|None|GRIS"
+A,triage,726,triage.txt:741,duplicate_removed,726,exact_duplicate,exact_duplicate: same ID and same values as triage.txt:740,"726|684|35|02/04/2022 23:41|109/73|115|15|97,5F|140|1| confusion, palpitations |Sulfa drugs|Ramipril 5 mg|3"
+A,triage,727,triage.txt:742,duplicate_removed,678,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 678","727|638|25|15/10/2025 03:25|168/89|102|15|36,3|100|10|  cough, palpitations, dizziness|aspirin|Metformin 850 mg|1"
+A,triage,728,triage.txt:743,duplicate_removed,623,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 623","728|585|32|28/10/2023 08:55|167/89|abc|27|37,4|95|1|weakness, palpitations|?|Atorvastatin 20 Mg| 2"
+A,triage,729,triage.txt:744,duplicate_removed,144,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 144","729|135|29|02/10/2023 09:25|abc/def|106|24|39,6|94|7|fever, dizziness, cough|peanuts|Paracetamol 1 g|2"
+A,triage,730,triage.txt:745,duplicate_removed,505,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 505","730|472|37|18/11/2023 10:44|151/92|108|23|38,4|100|6|Chest Pain|aucune|Aspirin 75 mg|3"
+A,triage,731,triage.txt:746,duplicate_removed,385,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 385","731|358|33|13/11/2023 04:59|100/71|96|20|36,7|89|6|CHEST PAIN, DIZZINESS|  NO KNOWN ALLERGIES|aucun|1"
+A,triage,732,triage.txt:747,duplicate_removed,441,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 441","732|412|36|26/01/2023 09:23|100/66|75|25|101,3 °F|92|0|weakness|NONE|Amoxicillin 1 g|1"
+A,triage,733,triage.txt:748,duplicate_removed,612,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 612","733|574|34|21/07/2023 08:13|163/98|81|22|98,6 F|99|7|weakness, chest pain, fall|no known allergies|None|3"
+A,triage,734,triage.txt:749,duplicate_removed,286,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 286","734|265|41|24/09/2024 06:56|134/69|65|20|chaud|93|6|chest pain, shortness of breath, cough|Peanuts|LEVOTHYROXINE 50 MCG|2"
+A,triage,735,triage.txt:750,duplicate_removed,603,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 603","735|566|41|09/01/2024 22:17|115/95|82|13|36,2|89|11|dizziness, chest pain, abdominal pain|Sulfa drugs|aucun|3"
+A,triage,736,triage.txt:751,duplicate_removed,70,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 70","736|66|36|04/06/2025 16:56|134/65|92|20|99,7 F|89|11|abdominal pain|None|amoxicillin 1 g|1"
+A,triage,737,triage.txt:752,duplicate_removed,13,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 13","737|13|35|15/07/2025 06:00|133/87|124|18|102,7 °F|95|9|nausea, cough|Sulfa drugs|none|3"
+A,triage,738,triage.txt:753,duplicate_removed,418,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 418","738|390|28|26/12/2024 18:12|144/78|67|12|100,8 F|94|6|weakness, dizziness, nausea|Latex| Paracetamol 1 g|3"
+A,triage,739,triage.txt:754,duplicate_removed,449,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 449","739|420|40|18/12/2024 06:23|110/76|60|25|102,2 F|88|0|nausea, weakness, chest pain|SULFA DRUGS|Paracetamol 1 g|1"
+A,triage,740,triage.txt:755,duplicate_removed,22,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 22","740|21|29|06/12/2023 01:22|157/60||xx|38,6|94|10|headache| None|Paracetamol 1 g|1"
+A,triage,741,triage.txt:756,duplicate_removed,130,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 130","741|123|42|29/09/2023 09:50|abc/def|70/min|24|36,6|92|-|weakness, nausea| Sulfa drugs|aucun|2   "
+A,triage,742,triage.txt:757,duplicate_removed,679,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 679","742|639|33|02/02/2022 11:18|133/82|68|22|37,9|93|3|HEADACHE, DIZZINESS, PALPITATIONS|aucune|none|1"
+A,triage,743,triage.txt:758,duplicate_removed,645,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 645",743|606|32|04/02/2025 05:46||104|15|52|97|0| dizziness|lATEX|none|2
+A,triage,744,triage.txt:759,duplicate_removed,69,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 69","744|65|32|11/09/2024 08:07|162/64|90|20|300|100|6|fall, chest pain, confusion|aucune|NKA|3"
+A,triage,745,triage.txt:760,duplicate_removed,662,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 662","745|623|36|04/10/2024 22:41|115/77|107|25 c/min|37,5|98|9||Penicillin| Furosemide 40 mg |Tri 2"
+A,triage,746,triage.txt:761,duplicate_removed,495,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 495","746|462|36|06/03/2022 06:33|114/82|122|24|102,6 °F|-3|10|weakness|None|metformin 850 mg|ROUGE"
+A,triage,747,triage.txt:762,duplicate_removed,20,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 20","747|19|39|02/12/2022 16:11|161/72|103|27|97,3 F|95|4| weakness, abdominal pain|aucune|Metformin 850 Mg|1"
+B,triage,17,triage.csv:18,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 19 is in the quarantine,"17,19,27,18/02/2022 04:14,100/58,104,N/A,39.3,99,4,""high fever, rigors, weakness"",Ibuprofen,none,HIGH"
+B,triage,51,triage.csv:52,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value 'N/A',"51,69,N/A,17/05/2022 14:14,1200/80,75,28,98.2F,84,0,""laboured breathing, confusion"",nka,Amlodipine 5mg OD,HIGH"
+B,triage,64,triage.csv:65,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '-',"64,-,23,08/06/2022 01:14,120/,78,19,36.3,96,4,brief loss of consciousness,NKA,Metformin 500mg BD,P2"
+B,triage,80,triage.csv:81,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 106 is in the quarantine,"80,106,56,02/07/2022 10:03,133/65,85,16,37.1,95,severe,bloating after meals,NKA,None,MEDIUM"
+B,triage,85,triage.csv:86,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 127 does not exist in source B,"85,112,127,09/07/2022 08:12,120/84,76,14 /min,-4,97 %,0,""headache, brief loss of consciousness"",Latex,None,MEDIUM"
+B,triage,100,triage.csv:101,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1025 does not exist in source B,"100,1025,59,11/08/2022 03:41,106/78,89,23,39.5,92,2,""productive cough, chest pain, fever"",Fansidar,NKA,HIGH"
+B,triage,112,triage.csv:113,rejected,,unmappable_label:triage_priority,unmappable_label:triage_priority: 'Blue' has no standard triage_priority value,"112,145,61,10/09/2022 08:11,120/,71,16,37.4,96,11,""right iliac fossa pain, vomiting, fever"",No Known Allergies,None,Blue"
+B,triage,120,triage.csv:121,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 914 does not exist in source B,"120,914,79,29/09/2022 19:09,131/69,-88,20,null,101,8,""chest discomfort, anxiety"",none,none,LOW"
+B,triage,76,triage.csv:130,duplicate_removed,76,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:77,"76,100,56,26/06/2022 19:14,106/87,98,19,36.6,95,0,""reduced urine, leg swelling"",None,none,hi"
+B,triage,130,triage.csv:132,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 172 is in the quarantine,"130,172,27,03/11/2022 18:26,1200/80,78,20,36.7,100,1,shortness of breath on exertion,Aspirin,Ferrous sulphate 200mg OD,MEDIUM"
+B,triage,135,triage.csv:137,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 967 does not exist in source B,"135,967,23,16/11/2022 14:45,102/42,121 bpm,16,40.1,100,2,""high fever, rigors, weakness"",Peanuts; Penicillin,none,HIGH"
+B,triage,138,triage.csv:140,rejected,,missing_required:admission_id,missing_required:admission_id: raw value 'null',"138,null,56,24/11/2022 21:17,129/67,83,14,36.6,101,3,""seizure, confusion afterwards"",no known allergies,none,HIGH"
+B,triage,157,triage.csv:159,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value 'N/A',"157,211,53,14/01/2023 01:15,130/72,118,14,36.2,97,1,""racing heart, breathlessness"",none, none,N/A"
+B,triage,192,triage.csv:194,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 255 is in the quarantine,"192,255,8,22/03/2023 13:03,138/69,68,14,300,97,9,chest pain,None,none,MEDIUM"
+B,triage,197,triage.csv:199,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '-',"197,261,-,05/04/2023 02:02,149/99,92,99,-4,83,1,""cough, fever, breathlessness"",Latex,Amlodipine 5mg OD,MEDIUM"
+B,triage,201,triage.csv:203,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 266 is in the quarantine,"201,266,55,2023-04-12T06:13,120/,87,17,36.6,o2 ok,7/10,chest pain,Penicillin,Amlodipine 5mg OD; Metformin 500mg BD,MEDIUM"
+B,triage,34,triage.csv:215,duplicate_removed,34,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:35,"34,47,8,2022-03-27 10:28:00,136-64,95,17,36.2°C,95,2,brief loss of consciousness,no known allergies,none,LOW"
+B,triage,228,triage.csv:231,rejected,,unmappable_label:triage_priority,unmappable_label:triage_priority: 'Category X' has no standard triage_priority value,"228,297,61,21/05/2023 22:46,109-71,75,24,101.8F,,14,""cough, fever, breathlessness"",NKA,None,Category X"
+B,triage,230,triage.csv:233,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '',"230,,72,2023-05-27T10:53,167/106,64 bpm,17,37.1,99,2,""heartburn, regurgitation"",none,Amlodipine 5mg OD; Metformin 500mg BD,LOW"
+B,triage,233,triage.csv:236,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1190 does not exist in source B,"233,1190,52,06/06/2023 09:55,169/105,95,14,39.6,99 %,6,""pain after fatty meals, vomiting"",NKA,Amlodipine 5mg OD,MEDIUM"
+B,triage,255,triage.csv:258,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 127 does not exist in source B,"255,332,127,28/07/2023 08:13,167/109,-72,17,36.8,100,0,bloating after meals,No Known Allergies,Amlodipine 5mg OD,LOW"
+B,triage,284,triage.csv:287,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1033 does not exist in source B,"284,1033,72,02/10/2023 11:03,123/80,112,-16,373,83,6,""sudden breathlessness, pleuritic chest pain"",Sulfa drugs; Aspirin,Amlodipine 5mg OD,HIGH"
+B,triage,324,triage.csv:327,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 431 is in the quarantine,"324,431,61,13/01/2024 10:59,116/83,85,19,37.4,97,3,dizziness then fainted,Penicillin,none,MEDIUM"
+B,triage,344,triage.csv:347,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 459 is in the quarantine,"344,459,16,2024-02-27T17:34,90/49,123,16,39.2,96,1,""fever, chills, confusion"",No Known Allergies,Amlodipine 5mg OD, HIGH  "
+B,triage,363,triage.csv:366,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1186 does not exist in source B,"363,1186,35,21/04/2024 07:17,123/77,-88,13,36.2,97,1,intermittent right upper quadrant pain,Peanuts,Amlodipine 5mg OD; Metformin 500mg BD; Atorvastatin 20mg nocte,LOW"
+B,triage,225,triage.csv:375,duplicate_removed,225,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:228,"225,293,72,19/05/2023 07:07,105/88,63,17,36.3,100,3,shortness of breath on exertion,NKA,None,Yellow"
+B,triage,388,triage.csv:392,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 116 does not exist in source B,"388,519,116,08/06/2024 18:17,115/79,88,19,36.6,98,7,abdominal pain radiating to back,None,None,HIGH"
+B,triage,290,triage.csv:395,duplicate_removed,290,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:293,"290,381,9,19/10/2023 14:33,137/66,85,14,36.7,96,0,morning cough, SULFA DRUGS  ,none,LOW"
+B,triage,398,triage.csv:403,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value 'N/A',"398,536,20,07/07/2024 18:18,137/69,96,34/min,99.0 F,87,1,""cough, swollen legs"",none,none,N/A"
+B,triage,435,triage.csv:440,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 135 does not exist in source B,"435,590,135,12/10/2024 10:48,105/65,85,16,37.3,99,2/10,""difficulty walking, knee pain"",None,Metformin 500mg BD    ,LOW"
+B,triage,436,triage.csv:441,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value 'null',"436,591,null,13/10/2024 08:47,107/76,70,16,3.7,99 %,3,""vomiting, diarrhoea, dizziness"",NKA,Metformin 500mg BD,P2"
+B,triage,186,triage.csv:464,duplicate_removed,186,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:188,"186,245,36,07/03/2023 21:38,136/82,90,14,37.4C,140,2,-,None,NKA,HIGH"
+B,triage,342,triage.csv:465,duplicate_removed,342,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:345,"342,457,67,25/02/2024 05:30,108/66,450,17,36.6,100,2,?,none,None    ,HIGH"
+B,triage,95,triage.csv:475,duplicate_removed,95,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:96,"95,122,27,05/08/2022 05:45,173/105,79,22,37.1,96,3,""wheeze, tight chest"",Penicillin,Amlodipine 5mg OD; Metformin 500mg BD,HIGH"
+B,triage,35,triage.csv:493,duplicate_removed,35,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:36,"35,48,57,28/03/2022 00:59,138/84,139,?,37.1,101,0,""racing heart, breathlessness"",no known allergies,none,HIGH"
+B,triage,502,triage.csv:511,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 681 is in the quarantine,"502,681,36,10/03/2025 10:57,110/76,-72,13,36.6,96,0,?,None,none,MEDIUM"
+B,triage,504,triage.csv:513,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 685 is in the quarantine,"504,685,8,18/03/2025 17:32,78/62,116bpm,16,100.6,95,2,""fever, vomiting, drowsiness"",Chloroquine,Amlodipine 5mg OD,HIGH"
+B,triage,517,triage.csv:526,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '?',"517,?,27,18/04/2025 10:21,1200/80,87,-,300,99,9,""chest discomfort, anxiety"",Aspirin,NKA,MEDIUM"
+B,triage,521,triage.csv:530,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '',"521,708,,2025-04-26 06:59:00,128/86,88,16,36.4°C,96,1,dizziness then fainted,No Known Allergies  ,Amlodipine 5mg OD; Metformin 500mg BD; Levothyroxine 100mcg OD,MEDIUM"
+B,triage,551,triage.csv:560,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value 'N/A',"551,754,2,25/06/2025 11:54,92/53,106bpm,-1,40.1,98,3,""fever, chills, confusion"",no known allergies,Amlodipine 5mg OD,N/A"
+B,triage,399,triage.csv:562,duplicate_removed,399,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:404,"399,537,15,07/07/2024 22:18,118/71,7O,13,97.7F,97,0,""reduced urine, leg swelling"",Fansidar; Latex,BISOPROLOL 5MG OD,HIGH"
+B,triage,554,triage.csv:564,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value 'null',"554,757,null,03/07/2025 16:49,136/85,67,29,120.5,86,0,""severe breathlessness, drowsiness"",N/A,NONE,HIGH"
+B,triage,546,triage.csv:573,duplicate_removed,546,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:555,"546,747,27,17/06/2025 00:10,174/109,85,180,36.5,97,0,""reduced urine, leg swelling"",NKA,Amlodipine 5mg OD; Metformin 500mg BD,HIGH"
+B,triage,568,triage.csv:579,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 140 does not exist in source B,"568,774,140,31/07/2025 14:23,64/36,165,99,37.3,100,,""fatigue, dizziness, pallor"",No Known Allergies,None,HIGH"
+B,triage,573,triage.csv:584,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 779 is in the quarantine,"573,779,36,04/08/2025 01:10,132/67,64,34,36.8,96,-3,""breathlessness, night cough"",Fansidar,NKA,MEDIUM"
+B,triage,589,triage.csv:600,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 800 is in the quarantine,"589,800,20,08/09/2025 10:00,113/78,83,null,36.7,96,4,bloating after meals,None,None,medium"
+B,triage,533,triage.csv:611,duplicate_removed,533,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:542,"533,726,59,13/05/2025 21:35,N/A,65,17,hot,99,3,dizziness then fainted,NONE,None,HIGH"
+B,triage,534,triage.csv:618,duplicate_removed,534,exact_duplicate,exact_duplicate: same ID and same values as triage.csv:543,"534,729,64,18/05/2025 17:41,82/56,129,16,36.3,96,20,""haematemesis, dizziness"",NKA, NKA,HIGH"
+B,triage,610,triage.csv:623,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1203 does not exist in source B,"610,1203,8,25/10/2025 23:43,67/48,159 bpm,44,37.3,96,,routine newborn check,No Known Allergies,NKA,LOW"
+B,triage,615,triage.csv:628,duplicate_removed,602,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 602","615,818,55,11/10/2025 08:42,181/101,91,15,37.3,99,2,""   blurred vision, headache"",Sulfa drugs; Peanuts,None,Routine"
+B,triage,616,triage.csv:629,duplicate_removed,379,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 379","616,506,9,22/05/2024 09:08,113/68,74,17,37.0,o2 ok,2,shortness of breath on exertion,no known allergies,NKA,MEDIUM"
+B,triage,617,triage.csv:630,duplicate_removed,319,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 319","617,421,52,29/12/2023 22:00,78/46,,60,37.3,100,,routine newborn check,None,none,LOW"
+B,triage,618,triage.csv:631,duplicate_removed,572,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 572","618,778,24,2025-08-03 09:26:00,,70,15,97.3 F,97,8,chest pain,No Known Allergies,none,HIGH"
+B,triage,619,triage.csv:632,duplicate_removed,581,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 581","619,791,23,25/08/2025 11:38,171/111,85,16,,99,20,""headache, dizziness"",Fansidar,Levothyroxine 100mcg OD,LOW"
+B,triage,620,triage.csv:633,duplicate_removed,374,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 374","620,499,29,13/05/2024 14:18,69/45,143,60,36.7,98,,""vomiting, diarrhoea, dizziness"",none,NKA,MEDIUM"
+B,triage,621,triage.csv:634,duplicate_removed,196,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 196","621,260,57,03/04/2023 20:24,124/80,95,15,98.2 °F,100,2,""vomiting, diarrhoea, dizziness"",None,,LOW"
+B,triage,622,triage.csv:635,duplicate_removed,91,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 91","622,118,24,22/07/2022 20:27,,142,34,hot,85,10,""sudden breathlessness, pleuritic chest pain"",None,Levothyroxine 100mcg OD,HIGH"
+B,triage,623,triage.csv:636,duplicate_removed,449,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 449","623,614,20,09/11/2024 14:51,106/76,89,20,97.7 F,95,3,""polyuria, thirst"",No Known Allergies,none,MEDIUM"
+B,triage,624,triage.csv:637,duplicate_removed,156,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 156","624,210,55,11/01/2023 20:35,97/46,109,20,101.1 F,100,3,""high fever, rigors, weakness"",NKA,NKA,HIGH"
+B,triage,625,triage.csv:638,duplicate_removed,89,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 89","625,116,72,16/07/2022 18:30,121/66,64,22,38.5,86,11,""cough, fever, breathlessness"",Ibuprofen,none,HIGH"
+B,triage,626,triage.csv:639,duplicate_removed,421,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 421","626,571,59,07/09/2024 07:42,127/77,84,15,36.4,95,6,pain in right hip after fall,Latex,Ferrous sulphate 200mg OD,HIGH"
+B,triage,627,triage.csv:640,duplicate_removed,86,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 86","627,113,64,09/07/2022 11:45,173/105,99,13,103.8 F,99%,20,""right upper quadrant pain, fever"",No Known Allergies,Amlodipine 5mg OD,MEDIUM"
+B,triage,628,triage.csv:641,duplicate_removed,508,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 508","628,691,57,2025-03-28T15:08,80/0,73,16,36.6,o2 ok,1,no complaints,Latex,Metformin 500mg BD,LOW"
+B,triage,629,triage.csv:642,duplicate_removed,46,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 46","629,63,55,23/04/2022 09:37,121/74,97 bpm,99,38.8,99,9,""right upper quadrant pain, fever"",No Known Allergies,NKA,MEDIUM"
+B,triage,630,triage.csv:643,duplicate_removed,380,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 380","630,509,34,26/05/2024 22:23,105/70,83,24,97.9 F,98,4,""breathlessness, night cough"",None,none,MEDIUM"
+B,triage,631,triage.csv:644,duplicate_removed,114,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 114","631,147,24,11/09/2022 09:24,124/86,87,16/min,36.8,98,,""watery stools, dry mouth"",no known allergies    ,NKA,MEDIUM"
+B,triage,632,triage.csv:645,duplicate_removed,183,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 183","632,242,23,2023-03-05 11:59:00,156/104,83,13,36.2,98,0,no complaints,No Known Allergies ,,LOW"
+B,triage,633,triage.csv:646,duplicate_removed,586,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 586","633,796,36,29/08/2025 10:48,133/76,73,20,3.7,96,3,shortness of breath on exertion,No Known Allergies,Amlodipine 5mg OD; Metformin 500mg BD,MEDIUM"
+C,triage,2,admissions/admission[2]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 2 is in the quarantine,"<triage id=""2"">
+        <nurse>S0043</nurse>
+        <assessedAt>2024-10-17T16:55:00+08:00</assessedAt>
+        <bloodPressure>127/69</bloodPressure>
+        <heartRate>111</heartRate>
+        <respRate>16</respRate>
+        <temperature unit=""C"">37.6</temperature>
+        <oxygenSaturation>0.93</oxygenSaturation>
+        <painScore>1</painScore>
+        <symptoms>giddiness, vomiting</symptoms>
+        <allergies>Iodinated contrast</allergies>
+        <homeMedication>Metformin 500 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,743,admissions/admission[14]/triage[10],duplicate_removed,14,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 14","<triage id=""743"">
+        <nurse>S0025</nurse>
+        <assessedAt>2023-09-23T16:00:00+08:00</assessedAt>
+        <bloodPressure>126/60</bloodPressure>
+        <heartRate>55</heartRate>
+        <respRate>21</respRate>
+        <temperature unit=""C"">36.6</temperature>
+        <oxygenSaturation>0.91</oxygenSaturation>
+        <painScore>7</painScore>
+        <symptoms>Cough</symptoms>
+        <allergies>NKA</allergies>
+        <homeMedication>None</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,15,admissions/admission[15]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 15 is in the quarantine,"<triage id=""15"">
+        <nurse>S0030</nurse>
+        <assessedAt>2024-04-03T13:52:00+08:00</assessedAt>
+        <bloodPressure>133/74</bloodPressure>
+        <heartRate>107</heartRate>
+        <temperature unit=""C"">39.1</temperature>
+        <oxygenSaturation>0.96</oxygenSaturation>
+        <painScore>2</painScore>
+        <symptoms>chest pain, confusion, weakness</symptoms>
+        <allergies>None</allergies>
+        <homeMedication>Simvastatin 20 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,20,admissions/admission[20]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 20 is in the quarantine,"<triage id=""20"">
+        <nurse>S0034</nurse>
+        <assessedAt>2024-09-11T19:14:00+08:00</assessedAt>
+        <bloodPressure>114/60</bloodPressure>
+        <heartRate>69</heartRate>
+        <respRate>18</respRate>
+        <temperature>102.2F</temperature>
+        <oxygenSaturation>0.89</oxygenSaturation>
+        <painScore>5</painScore>
+        <symptoms>chest pain, giddiness</symptoms>
+        <allergies>none</allergies>
+        <homeMedication>Metformin 500 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,21,admissions/admission[21]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 21 is in the quarantine,"<triage id=""21"">
+        <nurse>S0042</nurse>
+        <assessedAt>2025-01-14T15:17:00+08:00</assessedAt>
+        <bloodPressure>164/99</bloodPressure>
+        <heartRate>62/min</heartRate>
+        <respRate>xx</respRate>
+        <temperature unit=""C"">38.2</temperature>
+        <oxygenSaturation>0.93</oxygenSaturation>
+        <painScore>3</painScore>
+        <symptoms>giddiness</symptoms>
+        <allergies>Shellfish</allergies>
+        <homeMedication>Metformin 500 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,28,admissions/admission[28]/triage[10],duplicate_removed,28,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[28]/triage[9],"<triage id=""28"">
+        <nurse>S0031</nurse>
+        <assessedAt>2023-01-31T11:55:00+08:00</assessedAt>
+        <bloodPressure>124/89</bloodPressure>
+        <heartRate>91</heartRate>
+        <respRate>19</respRate>
+        <temperature unit=""C"">37.6</temperature>
+        <oxygenSaturation>98 %</oxygenSaturation>
+        <painScore>6</painScore>
+        <symptoms>abdominal pain, chest pain, giddiness</symptoms>
+        <allergies>penicillin</allergies>
+        <homeMedication>Atenolol 50 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,30,admissions/admission[30]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 30 is in the quarantine,"<triage id=""30"">
+        <nurse>S0028</nurse>
+        <assessedAt>2024-01-29T00:16:00+08:00</assessedAt>
+        <bloodPressure>103/88</bloodPressure>
+        <heartRate>125/min</heartRate>
+        <respRate>28</respRate>
+        <temperature unit=""C"">hot</temperature>
+        <oxygenSaturation>0.92</oxygenSaturation>
+        <painScore>5</painScore>
+        <symptoms>giddiness, weakness, fever</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Amlodipine 5 mg</homeMedication>
+        <pacLevel>PAC 3</pacLevel>
+      </triage>"
+C,triage,744,admissions/admission[42]/triage[11],duplicate_removed,42,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 42","<triage id=""744"">
+        <nurse>S0029</nurse>
+        <assessedAt>2024-11-29T23:13:00+08:00</assessedAt>
+        <bloodPressure>120/72</bloodPressure>
+        <heartRate>78</heartRate>
+        <respRate>20</respRate>
+        <temperature>99.0 °F</temperature>
+        <oxygenSaturation>0.94</oxygenSaturation>
+        <painScore>5</painScore>
+        <symptoms> headache</symptoms>
+        <allergies>NSAIDS</allergies>
+        <homeMedication>Simvastatin 20 Mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,54,admissions/admission[53]/triage[10],duplicate_removed,54,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[53]/triage[9],"<triage id=""54"">
+        <nurse>S0033</nurse>
+        <assessedAt>2023-01-02T07:53:00+08:00</assessedAt>
+        <bloodPressure>300/20</bloodPressure>
+        <heartRate>124</heartRate>
+        <respRate>27</respRate>
+        <temperature unit=""C"">38.1</temperature>
+        <oxygenSaturation>0.93</oxygenSaturation>
+        <painScore>9</painScore>
+        <symptoms>chest pain, fever</symptoms>
+        <allergies>no known allergies</allergies>
+        <homeMedication>NKA</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,61,admissions/admission[60]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 59 is in the quarantine,"<triage id=""61"">
+        <nurse>S0039</nurse>
+        <assessedAt>2022-01-17T01:19:00+08:00</assessedAt>
+        <bloodPressure>122/66</bloodPressure>
+        <heartRate>81</heartRate>
+        <respRate>21</respRate>
+        <temperature />
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms>vomiting</symptoms>
+        <allergies>NKA</allergies>
+        <homeMedication>Nil</homeMedication>
+        <pacLevel>p2</pacLevel>
+      </triage>"
+C,triage,75,admissions/admission[74]/triage[10],duplicate_removed,75,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[74]/triage[9],"<triage id=""75"">
+        <nurse>S0033</nurse>
+        <assessedAt>2024-04-14T08:02:00+08:00</assessedAt>
+        <bloodPressure>121/86</bloodPressure>
+        <heartRate>111</heartRate>
+        <respRate>27</respRate>
+        <temperature unit=""C"">37.7</temperature>
+        <oxygenSaturation>1.05</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms>confusion</symptoms>
+        <allergies>none</allergies>
+        <homeMedication>Atenolol 50 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,82,admissions/admission[80]/triage[11],duplicate_removed,82,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[80]/triage[10],"<triage id=""82"">
+        <nurse>S0038</nurse>
+        <assessedAt>2025-04-08T22:17:00+08:00</assessedAt>
+        <bloodPressure>121/85 mmHg</bloodPressure>
+        <heartRate>96</heartRate>
+        <respRate>16</respRate>
+        <temperature unit=""C"">38.9</temperature>
+        <oxygenSaturation>0.97</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms>fever, abdominal pain, breathlessness</symptoms>
+        <allergies>NKDA</allergies>
+        <homeMedication>Paracetamol 1 g</homeMedication>
+        <pacLevel>Major</pacLevel>
+      </triage>"
+C,triage,84,admissions/admission[82]/triage[9],rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value 'null',"<triage id=""84"">
+        <nurse>S0026</nurse>
+        <assessedAt>2024-10-06T01:19:00+08:00</assessedAt>
+        <bloodPressure>125/83</bloodPressure>
+        <heartRate>999</heartRate>
+        <respRate>16/min</respRate>
+        <temperature unit=""C"">36.7</temperature>
+        <oxygenSaturation>0.94</oxygenSaturation>
+        <painScore>6</painScore>
+        <symptoms>palpitations, abdominal pain, confusion</symptoms>
+        <allergies>Penicillin</allergies>
+        <homeMedication>Augmentin 625 mg</homeMedication>
+        <pacLevel>null</pacLevel>
+      </triage>"
+C,triage,751,admissions/admission[86]/triage[10],duplicate_removed,88,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 88","<triage id=""751"">
+        <nurse>S0036</nurse>
+        <assessedAt>2022-01-11T00:21:00+08:00</assessedAt>
+        <bloodPressure>163/81</bloodPressure>
+        <heartRate>73</heartRate>
+        <respRate>26</respRate>
+        <temperature unit=""C"">37.9</temperature>
+        <oxygenSaturation>0.88</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms> vomiting, cough</symptoms>
+        <allergies>no known allergies</allergies>
+        <homeMedication>Nil</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,753,admissions/admission[100]/triage[10],duplicate_removed,102,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 102","<triage id=""753"">
+        <nurse>S0036</nurse>
+        <assessedAt>2024-11-14T03:36:00+08:00</assessedAt>
+        <bloodPressure>120/65</bloodPressure>
+        <heartRate>117</heartRate>
+        <respRate>22</respRate>
+        <temperature unit=""F"">100.6</temperature>
+        <oxygenSaturation>0.91</oxygenSaturation>
+        <painScore>11</painScore>
+        <symptoms>CHEST PAIN</symptoms>
+        <allergies> Sulfonamides</allergies>
+        <homeMedication>Nil</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,118,admissions/admission[117]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 114 is in the quarantine,"<triage id=""118"">
+        <nurse>S0040</nurse>
+        <assessedAt>2024-09-09T00:05:00+08:00</assessedAt>
+        <bloodPressure>167/68</bloodPressure>
+        <heartRate>92</heartRate>
+        <respRate>26</respRate>
+        <temperature unit=""F"">99.1</temperature>
+        <oxygenSaturation>0.96</oxygenSaturation>
+        <painScore>severe</painScore>
+        <symptoms>chest pain, confusion, fall</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Metformin 500 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,162,admissions/admission[156]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 152 is in the quarantine,"<triage id=""162"">
+        <nurse>S0029</nurse>
+        <assessedAt>2023-10-21T04:44:00+08:00</assessedAt>
+        <bloodPressure>147/72</bloodPressure>
+        <heartRate>115</heartRate>
+        <respRate>28</respRate>
+        <temperature unit=""F"">100.9</temperature>
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>4</painScore>
+        <symptoms>cough, weakness</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Aspirin 100 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,163,admissions/admission[156]/triage[10],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 152 is in the quarantine,"<triage id=""163"">
+        <nurse>S0042</nurse>
+        <assessedAt>2023-10-21T05:29:00+08:00</assessedAt>
+        <bloodPressure>110/82</bloodPressure>
+        <heartRate>420</heartRate>
+        <respRate>14</respRate>
+        <temperature unit=""C"">39.5</temperature>
+        <oxygenSaturation>0.96</oxygenSaturation>
+        <painScore>9</painScore>
+        <symptoms>giddiness</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>-</homeMedication>
+        <pacLevel> P1 </pacLevel>
+      </triage>"
+C,triage,168,admissions/admission[161]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 157 is in the quarantine,"<triage id=""168"">
+        <nurse>S0044</nurse>
+        <assessedAt>2023-05-18T15:04:00+08:00</assessedAt>
+        <bloodPressure>126/97</bloodPressure>
+        <heartRate>78</heartRate>
+        <respRate>15</respRate>
+        <temperature unit=""C"">36.9</temperature>
+        <oxygenSaturation>0.88</oxygenSaturation>
+        <painScore>3</painScore>
+        <symptoms>palpitations, fall</symptoms>
+        <allergies>NKA</allergies>
+        <homeMedication>Amlodipine 5 mg</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,174,admissions/admission[167]/triage[10],duplicate_removed,174,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[167]/triage[9],"<triage id=""174"">
+        <nurse>S0026</nurse>
+        <assessedAt>2025-08-03T06:12:00+08:00</assessedAt>
+        <bloodPressure>300/20</bloodPressure>
+        <heartRate>85</heartRate>
+        <respRate>13</respRate>
+        <temperature unit=""C"">37.4</temperature>
+        <oxygenSaturation>null</oxygenSaturation>
+        <painScore>6</painScore>
+        <symptoms>headache</symptoms>
+        <allergies>none</allergies>
+        <homeMedication>Frusemide 40 mg</homeMedication>
+        <pacLevel>Major</pacLevel>
+      </triage>"
+C,triage,185,admissions/admission[178]/triage[9],rejected,,unmappable_label:triage_priority,unmappable_label:triage_priority: 'PAC 4' has no standard triage_priority value,"<triage id=""185"">
+        <nurse>S0034</nurse>
+        <assessedAt>2023-11-04T03:25:00+08:00</assessedAt>
+        <bloodPressure>111/76</bloodPressure>
+        <heartRate>999</heartRate>
+        <respRate>19</respRate>
+        <temperature unit=""C"">37.3</temperature>
+        <oxygenSaturation>0.88</oxygenSaturation>
+        <painScore>9</painScore>
+        <symptoms>chest pain, headache   </symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Metformin 500 mg</homeMedication>
+        <pacLevel>PAC 4</pacLevel>
+      </triage>"
+C,triage,747,admissions/admission[195]/triage[10],duplicate_removed,203,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 203","<triage id=""747"">
+        <nurse>S0035</nurse>
+        <assessedAt>2022-12-11T15:46:00+08:00</assessedAt>
+        <bloodPressure>109/70</bloodPressure>
+        <heartRate>91</heartRate>
+        <respRate>19</respRate>
+        <temperature unit=""C"">36.6</temperature>
+        <oxygenSaturation>0.96</oxygenSaturation>
+        <painScore>14</painScore>
+        <symptoms>PALPITATIONS, WEAKNESS, CHEST PAIN</symptoms>
+        <allergies>Sulfonamides</allergies>
+        <homeMedication>None</homeMedication>
+        <pacLevel>p3</pacLevel>
+      </triage>"
+C,triage,754,admissions/admission[199]/triage[11],duplicate_removed,208,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 208","<triage id=""754"">
+        <nurse>S0026</nurse>
+        <assessedAt>26 Apr 2024 12:10 AM</assessedAt>
+        <bloodPressure>-</bloodPressure>
+        <heartRate>121</heartRate>
+        <respRate>12</respRate>
+        <temperature unit=""C"">38.4</temperature>
+        <oxygenSaturation>0.89</oxygenSaturation>
+        <painScore>severe</painScore>
+        <symptoms>Vomiting</symptoms>
+        <allergies>Nsaids</allergies>
+        <homeMedication>Nil</homeMedication>
+        <pacLevel>PAC 3</pacLevel>
+      </triage>"
+C,triage,226,admissions/admission[218]/triage[10],duplicate_removed,226,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[218]/triage[9],"<triage id=""226"">
+        <nurse>S0037</nurse>
+        <assessedAt>2025-08-02T00:13:00+08:00</assessedAt>
+        <bloodPressure>140/70</bloodPressure>
+        <heartRate>65</heartRate>
+        <respRate>19</respRate>
+        <temperature unit=""F"">102.4</temperature>
+        <oxygenSaturation>1.05</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms>weakness, giddiness</symptoms>
+        <allergies>NONE</allergies>
+        <homeMedication>atenolol 50 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,758,admissions/admission[218]/triage[11],duplicate_removed,226,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 226","<triage id=""758"">
+        <nurse>S0037</nurse>
+        <assessedAt>2025-08-02T00:13:00+08:00</assessedAt>
+        <bloodPressure>140/70</bloodPressure>
+        <heartRate>65</heartRate>
+        <respRate>19</respRate>
+        <temperature unit=""F"">102.4</temperature>
+        <oxygenSaturation>1.05</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms>Weakness, Giddiness</symptoms>
+        <allergies>NONE</allergies>
+        <homeMedication>Atenolol 50 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,239,admissions/admission[231]/triage[10],duplicate_removed,239,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[231]/triage[9],"<triage id=""239"">
+        <nurse>S0042</nurse>
+        <assessedAt>2024-12-27T23:44:00+08:00</assessedAt>
+        <bloodPressure>107/60</bloodPressure>
+        <heartRate>116</heartRate>
+        <respRate>17</respRate>
+        <temperature unit=""F"">98.2</temperature>
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>3</painScore>
+        <symptoms>vomiting, confusion, breathlessness</symptoms>
+        <allergies>NKA</allergies>
+        <homeMedication>none</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,742,admissions/admission[237]/triage[10],duplicate_removed,245,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 245","<triage id=""742"">
+        <nurse>S0041</nurse>
+        <assessedAt>2023-08-19T21:27:00+08:00</assessedAt>
+        <bloodPressure>165/81 mmHg</bloodPressure>
+        <heartRate>119</heartRate>
+        <respRate>21</respRate>
+        <temperature unit=""F"">102.6</temperature>
+        <oxygenSaturation>0.88</oxygenSaturation>
+        <painScore>3</painScore>
+        <symptoms>N/A</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Simvastatin 20 Mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,258,admissions/admission[250]/triage[10],duplicate_removed,258,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[250]/triage[9],"<triage id=""258"">
+        <nurse>S0044</nurse>
+        <assessedAt>2024-12-22 16:05</assessedAt>
+        <bloodPressure>132/61</bloodPressure>
+        <heartRate>59</heartRate>
+        <respRate>15</respRate>
+        <temperature unit=""C"">hot</temperature>
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>3</painScore>
+        <symptoms>vomiting, palpitations, breathlessness</symptoms>
+        <allergies>NKDA</allergies>
+        <homeMedication>None</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,748,admissions/admission[250]/triage[11],duplicate_removed,258,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 258","<triage id=""748"">
+        <nurse>S0044</nurse>
+        <assessedAt>2024-12-22T16:05:00+08:00</assessedAt>
+        <bloodPressure>132/61</bloodPressure>
+        <heartRate>59</heartRate>
+        <respRate>15</respRate>
+        <temperature unit=""C"">hot</temperature>
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>3</painScore>
+        <symptoms>vomiting, palpitations, breathlessness</symptoms>
+        <allergies> NKDA</allergies>
+        <homeMedication>None</homeMedication>
+        <pacLevel> P2</pacLevel>
+      </triage>"
+C,triage,276,admissions/admission[267]/triage[9],rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '?',"<triage id=""276"">
+        <nurse>S0039</nurse>
+        <assessedAt>2022-09-09 14:42</assessedAt>
+        <bloodPressure>152/80</bloodPressure>
+        <heartRate>124</heartRate>
+        <respRate>26</respRate>
+        <temperature unit=""C"">38.5</temperature>
+        <oxygenSaturation>0.89</oxygenSaturation>
+        <painScore>11</painScore>
+        <symptoms>vomiting, weakness</symptoms>
+        <allergies>Shellfish</allergies>
+        <homeMedication>Atenolol 50 mg</homeMedication>
+        <pacLevel>?</pacLevel>
+      </triage>"
+C,triage,281,admissions/admission[271]/triage[10],duplicate_removed,281,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[271]/triage[9],"<triage id=""281"">
+        <nurse>S0025</nurse>
+        <assessedAt>2023-06-04T04:17:00+08:00</assessedAt>
+        <bloodPressure>130/61</bloodPressure>
+        <heartRate>59</heartRate>
+        <respRate>14</respRate>
+        <temperature unit=""C"">37.1</temperature>
+        <oxygenSaturation>0.93</oxygenSaturation>
+        <painScore>1</painScore>
+        <symptoms>headache</symptoms>
+        <allergies>Iodinated contrast</allergies>
+        <homeMedication>Paracetamol 1 g</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,291,admissions/admission[280]/triage[10],duplicate_removed,291,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[280]/triage[9],"<triage id=""291"">
+        <nurse>S0043</nurse>
+        <assessedAt>2024-11-02T06:39:00+08:00</assessedAt>
+        <bloodPressure>139/67</bloodPressure>
+        <heartRate>73</heartRate>
+        <respRate>23</respRate>
+        <temperature unit=""C"">300</temperature>
+        <oxygenSaturation>0.91</oxygenSaturation>
+        <painScore>1</painScore>
+        <symptoms>fever</symptoms>
+        <allergies>Iodinated contrast</allergies>
+        <homeMedication>NKA</homeMedication>
+        <pacLevel>p3</pacLevel>
+      </triage>"
+C,triage,296,admissions/admission[285]/triage[9],rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value None,"<triage id=""296"">
+        <assessedAt>2023-10-06T18:19:00+08:00</assessedAt>
+        <bloodPressure>140/63</bloodPressure>
+        <heartRate>62</heartRate>
+        <respRate>28</respRate>
+        <temperature>-</temperature>
+        <oxygenSaturation>0.88</oxygenSaturation>
+        <painScore>11</painScore>
+        <symptoms>breathlessness, chest pain, abdominal pain</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Aspirin 100 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,312,admissions/admission[298]/triage[9],rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 319 does not exist in source C,"<triage id=""312"">
+        <nurse>S0319</nurse>
+        <assessedAt>2023-01-05T18:33:00+08:00</assessedAt>
+        <bloodPressure>119/95</bloodPressure>
+        <heartRate>-72</heartRate>
+        <respRate>23</respRate>
+        <temperature unit=""C"">36.1</temperature>
+        <oxygenSaturation>0.98</oxygenSaturation>
+        <painScore>0</painScore>
+        <symptoms>breathlessness, chest pain</symptoms>
+        <allergies>Shellfish</allergies>
+        <homeMedication>NKA</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,326,admissions/admission[311]/triage[9],rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value 'null',"<triage id=""326"">
+        <nurse>S0027</nurse>
+        <assessedAt>2023-05-25T10:06:00+08:00</assessedAt>
+        <bloodPressure>300/20</bloodPressure>
+        <heartRate>96</heartRate>
+        <respRate>17</respRate>
+        <temperature unit=""F"">102.0</temperature>
+        <oxygenSaturation>0.94</oxygenSaturation>
+        <painScore>8</painScore>
+        <symptoms>chest pain, giddiness, fall</symptoms>
+        <allergies>Penicillin</allergies>
+        <homeMedication>Frusemide 40 mg</homeMedication>
+        <pacLevel>null</pacLevel>
+      </triage>"
+C,triage,755,admissions/admission[317]/triage[10],duplicate_removed,333,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 333","<triage id=""755"">
+        <nurse>S0032</nurse>
+        <assessedAt>2025-07-22T12:19:00+08:00</assessedAt>
+        <bloodPressure>125/92</bloodPressure>
+        <heartRate>115</heartRate>
+        <respRate>13</respRate>
+        <temperature unit=""F"">99.3</temperature>
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>11</painScore>
+        <symptoms>Vomiting</symptoms>
+        <allergies>SHELLFISH</allergies>
+        <homeMedication>Atenolol 50 Mg</homeMedication>
+        <pacLevel>Minor</pacLevel>
+      </triage>"
+C,triage,342,admissions/admission[326]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 320 is in the quarantine,"<triage id=""342"">
+        <nurse>S0044</nurse>
+        <assessedAt>2025-04-10T17:23:00+08:00</assessedAt>
+        <bloodPressure>148/75</bloodPressure>
+        <heartRate>110</heartRate>
+        <respRate>22</respRate>
+        <temperature unit=""C"">36.8</temperature>
+        <oxygenSaturation>abc</oxygenSaturation>
+        <painScore>0</painScore>
+        <symptoms>vomiting, chest pain, giddiness</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Augmentin 625 mg</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,756,admissions/admission[335]/triage[10],duplicate_removed,350,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 350","<triage id=""756"">
+        <nurse>S0027</nurse>
+        <assessedAt>2023-09-08T20:37:00+08:00</assessedAt>
+        <bloodPressure>-</bloodPressure>
+        <heartRate>83</heartRate>
+        <respRate>22</respRate>
+        <temperature unit=""C"">38.0</temperature>
+        <oxygenSaturation>1.05</oxygenSaturation>
+        <painScore>4</painScore>
+        <symptoms>Breathlessness</symptoms>
+        <allergies>Penicillin</allergies>
+        <homeMedication>NKA</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,760,admissions/admission[336]/triage[10],duplicate_removed,351,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 351","<triage id=""760"">
+        <nurse>S0036</nurse>
+        <assessedAt>2024-11-01T13:45:00+08:00</assessedAt>
+        <bloodPressure>107/70</bloodPressure>
+        <heartRate>60</heartRate>
+        <respRate>22</respRate>
+        <temperature unit=""C"">37.1</temperature>
+        <oxygenSaturation>0.99</oxygenSaturation>
+        <painScore>6</painScore>
+        <symptoms> cough, giddiness, palpitations</symptoms>
+        <allergies>nka</allergies>
+        <homeMedication>Frusemide 40 mg</homeMedication>
+        <pacLevel> P2</pacLevel>
+      </triage>"
+C,triage,355,admissions/admission[340]/triage[10],duplicate_removed,355,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[340]/triage[9],"<triage id=""355"">
+        <nurse>S0033</nurse>
+        <assessedAt>2022-11-09T14:46:00+08:00</assessedAt>
+        <bloodPressure>119/81</bloodPressure>
+        <heartRate>92</heartRate>
+        <respRate>12</respRate>
+        <temperature unit=""F"">96.8</temperature>
+        <oxygenSaturation>0.94</oxygenSaturation>
+        <painScore>8</painScore>
+        <symptoms>CHEST PAIN</symptoms>
+        <allergies>NKA</allergies>
+        <homeMedication>Metformin 500 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,363,admissions/admission[346]/triage[9],rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 812 does not exist in source C,"<triage id=""363"">
+        <nurse>S0812</nurse>
+        <assessedAt>2022-09-25T22:13:00+08:00</assessedAt>
+        <bloodPressure>150/77</bloodPressure>
+        <heartRate>103</heartRate>
+        <respRate>22</respRate>
+        <temperature unit=""C"">37.8</temperature>
+        <oxygenSaturation>0.95</oxygenSaturation>
+        <painScore>0</painScore>
+        <symptoms>giddiness, breathlessness, cough</symptoms>
+        <allergies>Iodinated contrast</allergies>
+        <homeMedication>Thyroxine 50 mcg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,414,admissions/admission[396]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 388 is in the quarantine,"<triage id=""414"">
+        <nurse>S0030</nurse>
+        <assessedAt>2022-09-21T11:24:00+08:00</assessedAt>
+        <bloodPressure>0/0</bloodPressure>
+        <heartRate>77/min</heartRate>
+        <respRate>19</respRate>
+        <temperature unit=""C"">39.2</temperature>
+        <oxygenSaturation>0.96</oxygenSaturation>
+        <painScore>4</painScore>
+        <symptoms>chest pain, cough, headache</symptoms>
+        <allergies>Iodinated contrast</allergies>
+        <homeMedication>Atenolol 50 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,416,admissions/admission[398]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 390 is in the quarantine,"<triage id=""416"">
+        <nurse>S0032</nurse>
+        <assessedAt>2023-04-29T17:18:00+08:00</assessedAt>
+        <bloodPressure>127/71</bloodPressure>
+        <heartRate>83</heartRate>
+        <respRate>150</respRate>
+        <temperature unit=""C"">37.1</temperature>
+        <oxygenSaturation>0.91</oxygenSaturation>
+        <painScore>5</painScore>
+        <symptoms>fever, abdominal pain, weakness</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>NKA</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,422,admissions/admission[404]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 396 is in the quarantine,"<triage id=""422"">
+        <nurse>S0034</nurse>
+        <assessedAt>2025-02-16T14:24:00+08:00</assessedAt>
+        <bloodPressure>139/85</bloodPressure>
+        <heartRate>70</heartRate>
+        <respRate>27</respRate>
+        <temperature unit=""F"">100.4</temperature>
+        <oxygenSaturation>1.00</oxygenSaturation>
+        <painScore>1</painScore>
+        <symptoms>vomiting, breathlessness</symptoms>
+        <allergies>Latex</allergies>
+        <homeMedication>None</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,762,admissions/admission[409]/triage[10],duplicate_removed,427,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 427","<triage id=""762"">
+        <nurse>S0034</nurse>
+        <assessedAt>2024-06-10T02:58:00+08:00</assessedAt>
+        <bloodPressure>N/A</bloodPressure>
+        <heartRate>67</heartRate>
+        <respRate>13</respRate>
+        <temperature unit=""C"">39.4</temperature>
+        <oxygenSaturation>0.93</oxygenSaturation>
+        <painScore>severe</painScore>
+        <symptoms>giddiness, vomiting</symptoms>
+        <allergies>none</allergies>
+        <homeMedication>Atenolol 50 Mg</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,434,admissions/admission[415]/triage[9],rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '-',"<triage id=""434"">
+        <nurse>-</nurse>
+        <assessedAt>2024-07-22T04:52:00+08:00</assessedAt>
+        <bloodPressure>149/79</bloodPressure>
+        <heartRate>91</heartRate>
+        <respRate>22</respRate>
+        <temperature unit=""C"">36.5</temperature>
+        <oxygenSaturation>0.88</oxygenSaturation>
+        <painScore>2</painScore>
+        <symptoms>fever, chest pain</symptoms>
+        <allergies>-</allergies>
+        <homeMedication>Augmentin 625 mg</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,752,admissions/admission[443]/triage[10],duplicate_removed,463,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 463","<triage id=""752"">
+        <nurse>S0037</nurse>
+        <assessedAt>2023-07-09T09:08:00+08:00</assessedAt>
+        <bloodPressure>?</bloodPressure>
+        <heartRate>109</heartRate>
+        <respRate>13</respRate>
+        <temperature unit=""F"">102.9</temperature>
+        <oxygenSaturation>0.97</oxygenSaturation>
+        <painScore>4</painScore>
+        <symptoms>abdominal pain, weakness, chest pain</symptoms>
+        <allergies>NONE</allergies>
+        <homeMedication>AUGMENTIN 625 MG</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,746,admissions/admission[444]/triage[10],duplicate_removed,464,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 464","<triage id=""746"">
+        <nurse>S0037</nurse>
+        <assessedAt>2023-09-19T19:14:00+08:00</assessedAt>
+        <bloodPressure>117/75</bloodPressure>
+        <heartRate>95</heartRate>
+        <respRate>21</respRate>
+        <temperature unit=""C"">38.0</temperature>
+        <oxygenSaturation>0.95</oxygenSaturation>
+        <painScore>14</painScore>
+        <symptoms>giddiness, chest pain, headache</symptoms>
+        <allergies>Nka</allergies>
+        <homeMedication>atenolol 50 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,466,admissions/admission[446]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 438 is in the quarantine,"<triage id=""466"">
+        <nurse>S0025</nurse>
+        <assessedAt>2022-05-20T16:58:00+08:00</assessedAt>
+        <bloodPressure>110/91</bloodPressure>
+        <heartRate>66</heartRate>
+        <respRate>21</respRate>
+        <temperature>39.3C</temperature>
+        <oxygenSaturation>0.96</oxygenSaturation>
+        <painScore>9</painScore>
+        <symptoms>chest pain, weakness</symptoms>
+        <allergies>Iodinated contrast</allergies>
+        <homeMedication>none</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,470,admissions/admission[450]/triage[9],rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value None,"<triage id=""470"">
+        <assessedAt>2023-01-26T22:58:00+08:00</assessedAt>
+        <bloodPressure>161/82</bloodPressure>
+        <heartRate>89</heartRate>
+        <respRate>18 bpm</respRate>
+        <temperature unit=""F"">101.3</temperature>
+        <oxygenSaturation>0.97</oxygenSaturation>
+        <painScore>3</painScore>
+        <symptoms>?</symptoms>
+        <allergies>Latex</allergies>
+        <homeMedication>Atenolol 50 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,501,admissions/admission[480]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 472 is in the quarantine,"<triage id=""501"">
+        <nurse>S0032</nurse>
+        <assessedAt>2024-05-06T22:57:00+08:00</assessedAt>
+        <bloodPressure>118/75</bloodPressure>
+        <heartRate>109</heartRate>
+        <respRate>21</respRate>
+        <temperature unit=""F"">103.5</temperature>
+        <oxygenSaturation>0.95</oxygenSaturation>
+        <painScore>5</painScore>
+        <symptoms>vomiting</symptoms>
+        <allergies>Latex</allergies>
+        <homeMedication>Amlodipine 5 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,540,admissions/admission[519]/triage[9],rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value 'null',"<triage id=""540"">
+        <nurse>S0034</nurse>
+        <assessedAt>2022-02-02T18:04:00+08:00</assessedAt>
+        <bloodPressure>163/68</bloodPressure>
+        <heartRate>76</heartRate>
+        <respRate>21</respRate>
+        <temperature>97.9 °F</temperature>
+        <oxygenSaturation>0.88</oxygenSaturation>
+        <painScore>0</painScore>
+        <symptoms>confusion, fall</symptoms>
+        <allergies>no known allergies</allergies>
+        <homeMedication>Nil</homeMedication>
+        <pacLevel>null</pacLevel>
+      </triage>"
+C,triage,550,admissions/admission[529]/triage[9],rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '',"<triage id=""550"">
+        <nurse>S0042</nurse>
+        <assessedAt>2023-05-20T23:52:00+08:00</assessedAt>
+        <bloodPressure>116/95</bloodPressure>
+        <heartRate>63</heartRate>
+        <respRate>23</respRate>
+        <temperature unit=""C"">38.2</temperature>
+        <oxygenSaturation>0.93</oxygenSaturation>
+        <painScore>9</painScore>
+        <symptoms>giddiness, vomiting</symptoms>
+        <allergies>Latex</allergies>
+        <homeMedication>none</homeMedication>
+        <pacLevel />
+      </triage>"
+C,triage,566,admissions/admission[545]/triage[9],rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value None,"<triage id=""566"">
+        <nurse>S0037</nurse>
+        <assessedAt>2023-03-19T12:27:00+08:00</assessedAt>
+        <bloodPressure>143/77</bloodPressure>
+        <heartRate>59</heartRate>
+        <respRate>23</respRate>
+        <temperature unit=""C"">36.6</temperature>
+        <oxygenSaturation>abc</oxygenSaturation>
+        <painScore>4</painScore>
+        <symptoms>cough</symptoms>
+        <allergies>None</allergies>
+        <homeMedication>NKA</homeMedication>
+      </triage>"
+C,triage,745,admissions/admission[552]/triage[10],duplicate_removed,573,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 573","<triage id=""745"">
+        <nurse>S0026</nurse>
+        <assessedAt>2022-11-20T19:31:00+08:00</assessedAt>
+        <bloodPressure />
+        <heartRate>109</heartRate>
+        <respRate>24</respRate>
+        <temperature unit=""C"">37.6</temperature>
+        <oxygenSaturation>0.91</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms>headache</symptoms>
+        <allergies>nkda</allergies>
+        <homeMedication>Amlodipine 5 mg</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,749,admissions/admission[567]/triage[10],duplicate_removed,590,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 590","<triage id=""749"">
+        <nurse>S0044</nurse>
+        <assessedAt>2024-10-30T06:08:00+08:00</assessedAt>
+        <bloodPressure>100/98</bloodPressure>
+        <heartRate>86</heartRate>
+        <respRate>0</respRate>
+        <temperature unit=""C"">37.1</temperature>
+        <oxygenSaturation>0.98</oxygenSaturation>
+        <painScore>7</painScore>
+        <symptoms>cough, confusion, chest pain</symptoms>
+        <allergies>no known allergies</allergies>
+        <homeMedication>Aspirin 100 mg</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,594,admissions/admission[571]/triage[9],rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 478 does not exist in source C,"<triage id=""594"">
+        <nurse>S0478</nurse>
+        <assessedAt>2023-06-09T01:32:00+08:00</assessedAt>
+        <bloodPressure>12/8000</bloodPressure>
+        <heartRate>62</heartRate>
+        <respRate>21 bpm</respRate>
+        <temperature unit=""F"">103.3</temperature>
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>6</painScore>
+        <symptoms>chest pain</symptoms>
+        <allergies>Sulfonamides</allergies>
+        <homeMedication>Paracetamol 1 g</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,595,admissions/admission[572]/triage[9],rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '',"<triage id=""595"">
+        <nurse />
+        <assessedAt>2023-12-23T23:39:00+08:00</assessedAt>
+        <bloodPressure>137/69</bloodPressure>
+        <heartRate>71</heartRate>
+        <respRate>13</respRate>
+        <temperature unit=""C"">4.5</temperature>
+        <oxygenSaturation>0.94</oxygenSaturation>
+        <painScore>6</painScore>
+        <symptoms>cough, headache</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Nil</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,599,admissions/admission[576]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 567 is in the quarantine,"<triage id=""599"">
+        <nurse>S0041</nurse>
+        <assessedAt>2022-10-08T11:11:00+08:00</assessedAt>
+        <bloodPressure>149 / 83</bloodPressure>
+        <heartRate>0</heartRate>
+        <respRate>12</respRate>
+        <temperature unit=""C"">36.6</temperature>
+        <oxygenSaturation>0.99</oxygenSaturation>
+        <painScore>5/10</painScore>
+        <symptoms>cough, confusion</symptoms>
+        <allergies>Shellfish</allergies>
+        <homeMedication>Nil</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,602,admissions/admission[579]/triage[10],duplicate_removed,602,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[579]/triage[9],"<triage id=""602"">
+        <nurse>S0029</nurse>
+        <assessedAt>2023-09-25T08:28:00+08:00</assessedAt>
+        <bloodPressure>126/68</bloodPressure>
+        <heartRate>117</heartRate>
+        <respRate>25</respRate>
+        <temperature unit=""C"">38.8</temperature>
+        <oxygenSaturation>93 %</oxygenSaturation>
+        <painScore>14</painScore>
+        <symptoms>confusion, abdominal pain</symptoms>
+        <allergies />
+        <homeMedication>none</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,757,admissions/admission[582]/triage[10],duplicate_removed,605,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 605","<triage id=""757"">
+        <nurse>S0031</nurse>
+        <assessedAt>2022-12-17T15:15:00+08:00</assessedAt>
+        <bloodPressure>154/96</bloodPressure>
+        <heartRate>77</heartRate>
+        <respRate>23</respRate>
+        <temperature unit=""C"">39.3</temperature>
+        <oxygenSaturation>1.40</oxygenSaturation>
+        <painScore>4</painScore>
+        <symptoms>chest pain, confusion</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>amlodipine 5 mg</homeMedication>
+        <pacLevel> P3</pacLevel>
+      </triage>"
+C,triage,609,admissions/admission[586]/triage[10],duplicate_removed,609,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[586]/triage[9],"<triage id=""609"">
+        <nurse>S0035</nurse>
+        <assessedAt>2023-11-19T21:48:00+08:00</assessedAt>
+        <bloodPressure>141/88</bloodPressure>
+        <heartRate>68</heartRate>
+        <respRate>17</respRate>
+        <temperature unit=""C"">hot</temperature>
+        <oxygenSaturation>0.97</oxygenSaturation>
+        <painScore>8</painScore>
+        <symptoms>confusion, weakness, palpitations</symptoms>
+        <allergies>None</allergies>
+        <homeMedication>N/A</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,616,admissions/admission[593]/triage[9],rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '',"<triage id=""616"">
+        <nurse>S0042</nurse>
+        <assessedAt>2024-12-02T07:53:00+08:00</assessedAt>
+        <bloodPressure>12/8000</bloodPressure>
+        <heartRate>90</heartRate>
+        <respRate>26</respRate>
+        <temperature unit=""C"">36.9</temperature>
+        <oxygenSaturation>0.89</oxygenSaturation>
+        <painScore>6</painScore>
+        <symptoms>vomiting, palpitations</symptoms>
+        <allergies>Latex</allergies>
+        <homeMedication>Aspirin 100 mg</homeMedication>
+        <pacLevel />
+      </triage>"
+C,triage,632,admissions/admission[610]/triage[10],duplicate_removed,632,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[610]/triage[9],"<triage id=""632"">
+        <nurse>S0026</nurse>
+        <assessedAt>2025-01-29T11:20:00+08:00</assessedAt>
+        <bloodPressure>157/70</bloodPressure>
+        <heartRate>116</heartRate>
+        <respRate>95</respRate>
+        <temperature unit=""C"">39.5</temperature>
+        <oxygenSaturation>0.94</oxygenSaturation>
+        <painScore>1</painScore>
+        <symptoms>weakness, chest pain</symptoms>
+        <allergies>NSAIDs</allergies>
+        <homeMedication>None</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,633,admissions/admission[611]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 601 is in the quarantine,"<triage id=""633"">
+        <nurse>S0043</nurse>
+        <assessedAt>2025-05-24T14:39:00+08:00</assessedAt>
+        <bloodPressure>119/65</bloodPressure>
+        <heartRate>98</heartRate>
+        <respRate>16</respRate>
+        <temperature unit=""C"">37.9</temperature>
+        <oxygenSaturation>0.91</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms>fever, breathlessness</symptoms>
+        <allergies>pENICILLIN</allergies>
+        <homeMedication>None</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,639,admissions/admission[616]/triage[10],rejected,,unmappable_label:triage_priority,unmappable_label:triage_priority: 'PAC 4' has no standard triage_priority value,"<triage id=""639"">
+        <nurse>S0032</nurse>
+        <assessedAt>2023-06-01T12:59:00+08:00</assessedAt>
+        <bloodPressure>149/100</bloodPressure>
+        <heartRate>105</heartRate>
+        <respRate>21</respRate>
+        <temperature unit=""C"">37.3</temperature>
+        <oxygenSaturation>0.96</oxygenSaturation>
+        <painScore>7</painScore>
+        <symptoms>vomiting, chest pain, palpitations</symptoms>
+        <allergies>None</allergies>
+        <homeMedication>NKA</homeMedication>
+        <pacLevel>PAC 4</pacLevel>
+      </triage>"
+C,triage,662,admissions/admission[638]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 628 is in the quarantine,"<triage id=""662"">
+        <nurse>S0037</nurse>
+        <assessedAt>2023-06-27T22:02:00+08:00</assessedAt>
+        <bloodPressure>156/78</bloodPressure>
+        <heartRate>98</heartRate>
+        <respRate>20</respRate>
+        <temperature unit=""C"">38.9</temperature>
+        <oxygenSaturation>0.96</oxygenSaturation>
+        <painScore>severe</painScore>
+        <symptoms>vomiting</symptoms>
+        <allergies>none</allergies>
+        <homeMedication>Metformin 500 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,663,admissions/admission[638]/triage[10],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 628 is in the quarantine,"<triage id=""663"">
+        <nurse>S0030</nurse>
+        <assessedAt>2023-06-27T22:40:00+08:00</assessedAt>
+        <bloodPressure>100/93</bloodPressure>
+        <heartRate>84</heartRate>
+        <respRate>24</respRate>
+        <temperature unit=""C"">36.4</temperature>
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>0</painScore>
+        <symptoms>fever, vomiting</symptoms>
+        <allergies>Latex</allergies>
+        <homeMedication>Simvastatin 20 mg</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,670,admissions/admission[645]/triage[9],rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '?',"<triage id=""670"">
+        <nurse>S0028</nurse>
+        <assessedAt>2024-11-11T14:09:00+08:00</assessedAt>
+        <bloodPressure>111/60</bloodPressure>
+        <heartRate>79</heartRate>
+        <respRate>27</respRate>
+        <temperature unit=""C"">37.4</temperature>
+        <oxygenSaturation>0.99</oxygenSaturation>
+        <painScore>14</painScore>
+        <symptoms>palpitations, abdominal pain</symptoms>
+        <allergies>Sulfonamides</allergies>
+        <homeMedication>Nil</homeMedication>
+        <pacLevel>?</pacLevel>
+      </triage>"
+C,triage,676,admissions/admission[652]/triage[9],rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 402 does not exist in source C,"<triage id=""676"">
+        <nurse>S0402</nurse>
+        <assessedAt>2024-12-07T12:38:00+08:00</assessedAt>
+        <bloodPressure>131/77</bloodPressure>
+        <heartRate>108</heartRate>
+        <respRate>21</respRate>
+        <temperature unit=""F"">103.5</temperature>
+        <oxygenSaturation>89 %</oxygenSaturation>
+        <painScore>1</painScore>
+        <symptoms>confusion, giddiness</symptoms>
+        <allergies>None</allergies>
+        <homeMedication>Metformin 500 mg</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,679,admissions/admission[655]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 644 is in the quarantine,"<triage id=""679"">
+        <nurse>S0041</nurse>
+        <assessedAt>2024-11-04T07:06:00+08:00</assessedAt>
+        <bloodPressure>138/95</bloodPressure>
+        <heartRate>68</heartRate>
+        <respRate>26</respRate>
+        <temperature unit=""C"">37.7</temperature>
+        <oxygenSaturation>0.96</oxygenSaturation>
+        <painScore>14</painScore>
+        <symptoms>fever, headache</symptoms>
+        <allergies>None</allergies>
+        <homeMedication>none</homeMedication>
+        <pacLevel>P2</pacLevel>
+      </triage>"
+C,triage,680,admissions/admission[657]/triage[8],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 645 is in the quarantine,"<triage id=""680"">
+        <nurse>S0036</nurse>
+        <assessedAt>2025-06-06T21:10:00+08:00</assessedAt>
+        <bloodPressure>123/76</bloodPressure>
+        <heartRate>108</heartRate>
+        <respRate>22</respRate>
+        <temperature unit=""C"">39.6</temperature>
+        <oxygenSaturation>abc</oxygenSaturation>
+        <painScore>0</painScore>
+        <symptoms>giddiness</symptoms>
+        <allergies>Iodinated contrast</allergies>
+        <homeMedication>Amlodipine 5 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,759,admissions/admission[662]/triage[10],duplicate_removed,685,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 685","<triage id=""759"">
+        <nurse>S0029</nurse>
+        <assessedAt>2022-04-16T04:14:00+08:00</assessedAt>
+        <bloodPressure>142/65</bloodPressure>
+        <heartRate>61</heartRate>
+        <respRate>24</respRate>
+        <temperature unit=""C"">37.9</temperature>
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>14</painScore>
+        <symptoms>vomiting, weakness, cough</symptoms>
+        <allergies>Iodinated contrast</allergies>
+        <homeMedication>AMLODIPINE 5 MG</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,693,admissions/admission[670]/triage[8],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 658 is in the quarantine,"<triage id=""693"">
+        <nurse>S0035</nurse>
+        <assessedAt>2024-03-12T09:34:00+08:00</assessedAt>
+        <bloodPressure>123/68</bloodPressure>
+        <heartRate>62</heartRate>
+        <respRate>25</respRate>
+        <temperature unit=""C"">38.2</temperature>
+        <oxygenSaturation>96%</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms>confusion</symptoms>
+        <allergies>Sulfonamides</allergies>
+        <homeMedication>Amlodipine 5 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,694,admissions/admission[671]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 659 is in the quarantine,"<triage id=""694"">
+        <nurse>S0036</nurse>
+        <assessedAt>2024-04-24T10:19:00+08:00</assessedAt>
+        <bloodPressure>154-86</bloodPressure>
+        <heartRate>86</heartRate>
+        <respRate>18</respRate>
+        <temperature unit=""C"">36.3</temperature>
+        <oxygenSaturation>0.91</oxygenSaturation>
+        <painScore>8/10</painScore>
+        <symptoms>confusion, chest pain</symptoms>
+        <allergies>None</allergies>
+        <homeMedication>Simvastatin 20 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,695,admissions/admission[672]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 660 is in the quarantine,"<triage id=""695"">
+        <nurse>S0031</nurse>
+        <assessedAt>2024-10-31T19:23:00+08:00</assessedAt>
+        <bloodPressure>104/92</bloodPressure>
+        <heartRate>115</heartRate>
+        <respRate>27</respRate>
+        <temperature unit=""C"">38.3</temperature>
+        <oxygenSaturation>0.97</oxygenSaturation>
+        <painScore />
+        <symptoms>weakness, breathlessness, palpitations</symptoms>
+        <allergies>Sulfonamides</allergies>
+        <homeMedication>Amlodipine 5 mg</homeMedication>
+        <pacLevel>P1</pacLevel>
+      </triage>"
+C,triage,750,admissions/admission[683]/triage[10],duplicate_removed,706,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 706","<triage id=""750"">
+        <nurse>S0034</nurse>
+        <assessedAt>2024-06-12T06:51:00+08:00</assessedAt>
+        <bloodPressure>127/73</bloodPressure>
+        <heartRate>89</heartRate>
+        <respRate>22/min</respRate>
+        <temperature unit=""C"">39.5</temperature>
+        <oxygenSaturation>0.95</oxygenSaturation>
+        <painScore>7</painScore>
+        <symptoms>Cough, Headache, Vomiting</symptoms>
+        <allergies>None</allergies>
+        <homeMedication>Aspirin 100 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,708,admissions/admission[685]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 673 is in the quarantine,"<triage id=""708"">
+        <nurse>S0028</nurse>
+        <assessedAt>23/03/2024 08:07</assessedAt>
+        <bloodPressure>118/69</bloodPressure>
+        <heartRate>95</heartRate>
+        <respRate>27</respRate>
+        <temperature unit=""C"">36.0</temperature>
+        <oxygenSaturation>0.98</oxygenSaturation>
+        <painScore>8</painScore>
+        <symptoms>breathlessness, headache</symptoms>
+        <allergies>Latex</allergies>
+        <homeMedication>Aspirin 100 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,711,admissions/admission[687]/triage[10],rejected,,chronology:triage_time,chronology:triage_time: triage_time 2025-07-26T18:05:00Z after discharge 2025-07-26T17:59:00Z,"<triage id=""711"">
+        <nurse>S0039</nurse>
+        <assessedAt>2025-07-27T02:05:00+08:00</assessedAt>
+        <bloodPressure>133/87</bloodPressure>
+        <heartRate>56</heartRate>
+        <respRate>16 bpm</respRate>
+        <temperature unit=""C"">410</temperature>
+        <oxygenSaturation>0.90</oxygenSaturation>
+        <painScore>10</painScore>
+        <symptoms>fall</symptoms>
+        <allergies>Sulfonamides</allergies>
+        <homeMedication>Metformin 500 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,727,admissions/admission[703]/triage[9],rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value None,"<triage id=""727"">
+        <assessedAt>2023-06-30T07:11:00+08:00</assessedAt>
+        <bloodPressure>168/89</bloodPressure>
+        <heartRate>74</heartRate>
+        <respRate>28</respRate>
+        <temperature unit=""F"">102.0</temperature>
+        <oxygenSaturation>0.98</oxygenSaturation>
+        <painScore>1</painScore>
+        <symptoms>breathlessness, cough, confusion</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Amlodipine 5 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,735,admissions/admission[712]/triage[9],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 699 is in the quarantine,"<triage id=""735"">
+        <nurse>S0044</nurse>
+        <assessedAt>2023-03-24T21:16:00+08:00</assessedAt>
+        <bloodPressure>100/82</bloodPressure>
+        <heartRate>109 bpm</heartRate>
+        <respRate>24</respRate>
+        <temperature unit=""C"">39.0</temperature>
+        <oxygenSaturation>0.92</oxygenSaturation>
+        <painScore>7</painScore>
+        <symptoms>confusion, cough, vomiting</symptoms>
+        <allergies>No Known Drug Allergy</allergies>
+        <homeMedication>Frusemide 40 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,761,admissions/admission[712]/triage[10],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 699 is in the quarantine,"<triage id=""761"">
+        <nurse>S0044</nurse>
+        <assessedAt>2023-03-24T21:16:00+08:00</assessedAt>
+        <bloodPressure>100/82</bloodPressure>
+        <heartRate>109 bpm</heartRate>
+        <respRate>24</respRate>
+        <temperature unit=""C"">39.0</temperature>
+        <oxygenSaturation>0.92</oxygenSaturation>
+        <painScore>7</painScore>
+        <symptoms>confusion, cough, vomiting</symptoms>
+        <allergies>no known drug allergy</allergies>
+        <homeMedication>Frusemide 40 mg</homeMedication>
+        <pacLevel>P3</pacLevel>
+      </triage>"
+C,triage,49,unlinkedRecords/triage[1],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 2427 does not exist in source C,"<triage id=""49"" admissionRef=""E002427"">
+      <nurse>S0039</nurse>
+      <assessedAt>2024-09-10T20:48:00+08:00</assessedAt>
+      <bloodPressure>124/78</bloodPressure>
+      <heartRate>71</heartRate>
+      <respRate>21</respRate>
+      <temperature unit=""C"">hot</temperature>
+      <oxygenSaturation>1.00</oxygenSaturation>
+      <painScore>4</painScore>
+      <symptoms>fall,  fever</symptoms>
+      <allergies>NSAIDs</allergies>
+      <homeMedication>Frusemide 40 mg</homeMedication>
+      <pacLevel>P1</pacLevel>
+    </triage>"
+C,triage,252,unlinkedRecords/triage[2],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1700 does not exist in source C,"<triage id=""252"" admissionRef=""E001700"">
+      <nurse>S0026</nurse>
+      <assessedAt>2025-01-01T12:43:00+08:00</assessedAt>
+      <bloodPressure>133/97</bloodPressure>
+      <heartRate>106</heartRate>
+      <respRate>14</respRate>
+      <temperature unit=""F"">103.3</temperature>
+      <oxygenSaturation>0.95</oxygenSaturation>
+      <painScore>4</painScore>
+      <symptoms>fall, confusion, abdominal pain</symptoms>
+      <allergies>N/A</allergies>
+      <homeMedication>Thyroxine 50 mcg</homeMedication>
+      <pacLevel>P3</pacLevel>
+    </triage>"
+C,triage,344,unlinkedRecords/triage[3],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 2653 does not exist in source C,"<triage id=""344"" admissionRef=""E002653"">
+      <nurse>S0027</nurse>
+      <assessedAt>2024-04-16 05:54</assessedAt>
+      <bloodPressure>107/95</bloodPressure>
+      <heartRate>420</heartRate>
+      <respRate>27</respRate>
+      <temperature unit=""C"">38.4</temperature>
+      <oxygenSaturation>0.88</oxygenSaturation>
+      <painScore>1</painScore>
+      <symptoms>confusion, fever, breathlessness</symptoms>
+      <allergies>NSAIDs</allergies>
+      <homeMedication />
+      <pacLevel>P3</pacLevel>
+    </triage>"
+C,triage,354,unlinkedRecords/triage[4],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1210 does not exist in source C,"<triage id=""354"" admissionRef=""E001210"">
+      <nurse>S0041</nurse>
+      <assessedAt>2022-08-23T02:46:00+08:00</assessedAt>
+      <bloodPressure>129/78</bloodPressure>
+      <heartRate>110</heartRate>
+      <respRate>18 bpm</respRate>
+      <temperature unit=""C"">37.5</temperature>
+      <oxygenSaturation>0.95</oxygenSaturation>
+      <painScore>3</painScore>
+      <symptoms>breathlessness, confusion</symptoms>
+      <allergies>Penicillin   </allergies>
+      <homeMedication>Aspirin 100 mg</homeMedication>
+      <pacLevel>P3</pacLevel>
+    </triage>"
+C,triage,372,unlinkedRecords/triage[5],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 2573 does not exist in source C,"<triage id=""372"" admissionRef=""E002573"">
+      <nurse>S0043</nurse>
+      <assessedAt>13 May 2023 04:06 AM</assessedAt>
+      <bloodPressure>113/80</bloodPressure>
+      <heartRate>96</heartRate>
+      <respRate>24</respRate>
+      <temperature unit=""C"">38.2</temperature>
+      <oxygenSaturation>1.00</oxygenSaturation>
+      <painScore>1</painScore>
+      <symptoms>chest pain</symptoms>
+      <allergies>none</allergies>
+      <homeMedication>Amlodipine 5 mg</homeMedication>
+      <pacLevel>P2</pacLevel>
+    </triage>"
+C,triage,440,unlinkedRecords/triage[6],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 4132 does not exist in source C,"<triage id=""440"" admissionRef=""E004132"">
+      <nurse>S0028</nurse>
+      <assessedAt>2023-09-21T19:03:00+08:00</assessedAt>
+      <bloodPressure>105/63</bloodPressure>
+      <heartRate>76</heartRate>
+      <respRate>24</respRate>
+      <temperature unit=""F"">102.2</temperature>
+      <oxygenSaturation>0.88</oxygenSaturation>
+      <painScore>2</painScore>
+      <symptoms>palpitations, breathlessness, cough</symptoms>
+      <allergies>Latex</allergies>
+      <homeMedication>Atenolol 50 mg</homeMedication>
+      <pacLevel>P2</pacLevel>
+    </triage>"
+C,triage,506,unlinkedRecords/triage[7],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1676 does not exist in source C,"<triage id=""506"" admissionRef=""E001676"">
+      <nurse>S0028</nurse>
+      <assessedAt>17 Jul 2023 12:18 AM</assessedAt>
+      <bloodPressure>154/78</bloodPressure>
+      <heartRate>70</heartRate>
+      <respRate>28</respRate>
+      <temperature unit=""F"">100.8</temperature>
+      <oxygenSaturation>1.00</oxygenSaturation>
+      <painScore>9</painScore>
+      <symptoms>giddiness</symptoms>
+      <allergies>NKA</allergies>
+      <homeMedication>Metformin 500 mg</homeMedication>
+      <pacLevel>P2</pacLevel>
+    </triage>"
+C,triage,592,unlinkedRecords/triage[8],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 2315 does not exist in source C,"<triage id=""592"" admissionRef=""E002315"">
+      <nurse>S0033</nurse>
+      <assessedAt>2025-05-30T02:05:00+08:00</assessedAt>
+      <bloodPressure>128/71</bloodPressure>
+      <heartRate>98</heartRate>
+      <respRate>13</respRate>
+      <temperature unit=""C"">38.9</temperature>
+      <oxygenSaturation>0.91</oxygenSaturation>
+      <painScore>5</painScore>
+      <symptoms>fever</symptoms>
+      <allergies>none</allergies>
+      <homeMedication>Nil</homeMedication>
+      <pacLevel>P1</pacLevel>
+    </triage>"
+C,triage,741,unlinkedRecords/triage[9],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 3644 does not exist in source C,"<triage id=""741"" admissionRef=""E003644"">
+      <nurse>S0029</nurse>
+      <assessedAt>2023-02-03T01:25:00+08:00</assessedAt>
+      <bloodPressure>128/72</bloodPressure>
+      <heartRate>111</heartRate>
+      <respRate>24</respRate>
+      <temperature unit=""C"">39.1</temperature>
+      <oxygenSaturation>0.96</oxygenSaturation>
+      <painScore>8</painScore>
+      <symptoms>confusion</symptoms>
+      <allergies>none</allergies>
+      <homeMedication>Simvastatin 20 mg</homeMedication>
+      <pacLevel>P3</pacLevel>
+    </triage>"
+D,triage,4,patients_p1.json:patients[8].admissions[0].triage,rejected,,unmappable_label:triage_priority,unmappable_label:triage_priority: 'Not triaged' has no standard triage_priority value,"{""triageId"": 4, ""triagedAt"": ""2022-01-20T17:07:00+11:00"", ""triageNurseId"": 18, ""atsCategory"": ""Not triaged"", ""vitals"": {""bp"": ""71/48"", ""hr"": 139, ""rr"": 52, ""temp"": 37.0, ""spo2"": 1000}, ""painScore"": null, ""symptoms"": ""routine newborn check"", ""allergies"": [""nil known""], ""currentMeds"": ""NKA""}"
+D,triage,5,patients_p1.json:patients[11].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 12 is in the quarantine,"{""triageId"": 5, ""triagedAt"": ""2022-01-26T15:01:00+11:00"", ""triageNurseId"": 20, ""atsCategory"": ""Cat 1"", ""vitals"": {""bp"": ""138/86"", ""hr"": -72, ""rr"": 19, ""temp"": ""36.9"", ""spo2"": ""100""}, ""painScore"": 3, ""symptoms"": ""facial droop, confusion"", ""allergies"": ""Ibuprofen"", ""currentMeds"": [""Perindopril 5mg daily"", ""Atorvastatin 20mg nocte""]}"
+D,triage,28,patients_p1.json:patients[45].admissions[0].triage,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value None,"{""triageId"": 28, ""triagedAt"": ""2022-04-02T18:38:00+11:00"", ""triageNurseId"": null, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""184 / 110"", ""hr"": 98, ""rr"": 13, ""temp"": ""99.3F"", ""spo2"": ""97%""}, ""painScore"": 10, ""symptoms"": ""right  iliac fossa pain, vomiting, fever"", ""allergies"": [""Nil known""], ""currentMeds"": ""Perindopril 5mg daily""}"
+D,triage,35,patients_p1.json:patients[58].admissions[0].triage,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value None,"{""triageId"": 35, ""triagedAt"": ""2022-04-29T11:05:00+10:00"", ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""114/65"", ""hr"": 73, ""rr"": 24, ""temp"": 36.8, ""spo2"": ""ok on RA""}, ""painScore"": 3, ""symptoms"": ""wheeze, tight chest"", ""allergies"": ""NKDA"", ""currentMeds"": [""NKA""]}"
+D,triage,644,patients_p1.json:patients[62].admissions[0].triage[1],duplicate_removed,39,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 39","{""triageId"": 644, ""triagedAt"": ""2022-05-14T12:07:00+10:00"", ""triageNurseId"": 18, ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""133/84"", ""hr"": 85, ""rr"": 25, ""temp"": 36.3, ""spo2"": ""ok on RA""}, ""symptoms"": ""breathlessness, night cough"", ""allergies"": "" Nil known"", ""currentMeds"": [""Nil""]}"
+D,triage,654,patients_p1.json:patients[68].admissions[1].triage[1],duplicate_removed,151,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 151","{""triageId"": 654, ""triagedAt"": ""2023-03-02T02:43:00+11:00"", ""triageNurseId"": 2, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""179/102"", ""hr"": 78, ""rr"": 12, ""temp"": ""98.1F"", ""spo2"": ""ok on RA""}, ""painScore"": 11, ""symptoms"": ""chest discomfort, anxiety"", ""allergies"": ""None"", ""currentMeds"": [""Perindopril 5mg daily"", ""Apixaban 5mg BD""]}"
+D,triage,46,patients_p1.json:patients[71].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 74 is in the quarantine,"{""triageId"": 46, ""triagedAt"": ""2022-05-27T22:49:00+10:00"", ""triageNurseId"": 5, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""111/72"", ""hr"": 92, ""rr"": 32, ""temp"": 39.9, ""spo2"": 86}, ""painScore"": 1, ""symptoms"": ""productive cough, chest pain, fever"", ""allergies"": ""nil known"", ""currentMeds"": [""Perindopril 5mg daily""]}"
+D,triage,645,patients_p1.json:patients[72].admissions[0].triage[1],duplicate_removed,47,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 47","{""triageId"": 645, ""triagedAt"": ""2022-06-03T20:36:00+10:00"", ""triageNurseId"": 59, ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""165/90"", ""hr"": 95, ""rr"": 16, ""temp"": 0, ""spo2"": ""ok on RA""}, ""painScore"": 0, ""symptoms"": ""no complaints"", ""allergies"": [""NKDA""], ""currentMeds"": [""Metformin XR 1g nocte"", ""Atorvastatin 20mg nocte""]}"
+D,triage,640,patients_p1.json:patients[78].admissions[0].triage[1],duplicate_removed,51,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 51","{""triageId"": 640, ""triagedAt"": ""2022-06-13T02:27:00+10:00"", ""triageNurseId"": 74, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""183/101"", ""hr"": -88, ""rr"": 30, ""temp"": {""value"": 36.9, ""unit"": ""Cel""}, ""spo2"": """"}, ""painScore"": 4, ""symptoms"": ""breathlessness, night cough"", ""allergies"": ""nkda"", ""currentMeds"": [""Perindopril 5mg daily""]}"
+D,triage,215,patients_p1.json:patients[78].admissions[1].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 149 does not exist in source D,"{""triageId"": 215, ""triagedAt"": ""2023-08-02T08:13:00+10:00"", ""triageNurseId"": 149, ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""160/90"", ""hr"": 76, ""rr"": 19, ""temp"": 38.2, ""spo2"": 97}, ""painScore"": 8, ""symptoms"": ""right upper quadrant pain, fever"", ""allergies"": ""none"", ""currentMeds"": [""Perindopril 5mg daily""]}"
+D,triage,56,patients_p1.json:patients[84].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 88 is in the quarantine,"{""triageId"": 56, ""triagedAt"": ""2022-07-01T11:17:00+10:00"", ""triageNurseId"": 71, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""109/65"", ""hr"": 74, ""rr"": 12, ""temp"": 36.5, ""spo2"": 99}, ""painScore"": ""severe"", ""symptoms"": ""leg swelling, tiredness"", ""allergies"": ""None"", ""currentMeds"": ""nil known""}"
+D,triage,60,patients_p1.json:patients[90].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 94 is in the quarantine,"{""triageId"": 60, ""triagedAt"": ""2022-07-15T06:16:00+10:00"", ""triageNurseId"": 75, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""101/56"", ""hr"": 109, ""rr"": 14, ""temp"": -1, ""spo2"": 96}, ""painScore"": 4, ""symptoms"": ""fever, rigors, confusion"", ""allergies"": ""Nil known"", ""currentMeds"": [""Perindopril 5mg daily"", ""Metformin XR 1g nocte"", ""Atorvastatin 20mg nocte""]}"
+D,triage,169,patients_p1.json:patients[94].admissions[1].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 135 does not exist in source D,"{""triageId"": 169, ""triagedAt"": ""2023-04-18T20:56:00+10:00"", ""triageNurseId"": 135, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""122/80"", ""hr"": 85, ""rr"": 17, ""temp"": 37.3, ""spo2"": 97}, ""painScore"": 0, ""symptoms"": ""nausea, oliguria"", ""allergies"": [""Peanuts""], ""currentMeds"": ""none   ""}"
+D,triage,642,patients_p1.json:patients[94].admissions[2].triage[1],duplicate_removed,275,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 275","{""triageId"": 642, ""triagedAt"": ""2023-12-07T08:27:00+11:00"", ""triageNurseId"": 79, ""atsCategory"": ""ATS 3"", ""vitals"": {""bp"": ""107/85"", ""hr"": 87, ""rr"": 13, ""temp"": 97.3, ""spo2"": 98}, ""painScore"": 0, ""symptoms"": ""exertional angina"", ""allergies"": [""Peanuts""], ""currentMeds"": [""none""]}"
+D,triage,641,patients_p1.json:patients[96].admissions[2].triage[1],duplicate_removed,343,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 343","{""triageId"": 641, ""triagedAt"": ""2024-04-23T21:55:00+10:00"", ""triageNurseId"": 70, ""atsCategory"": ""Cat  4"", ""vitals"": {""bp"": ""120/"", ""hr"": 87, ""rr"": 16, ""spo2"": 100}, ""painScore"": 0, ""symptoms"": ""vomiting, diarrhoea, dizziness"", ""allergies"": [""Cephalosporins""], ""currentMeds"": ""Nil""}"
+D,triage,646,patients_p1.json:patients[98].admissions[0].triage[1],duplicate_removed,64,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 64","{""triageId"": 646, ""triagedAt"": ""2022-07-24T08:07:00+10:00"", ""triageNurseId"": 71, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""114/84"", ""hr"": 81, ""rr"": 18, ""spo2"": 96}, ""painScore"": 2, ""symptoms"": ""dizzy then fainted"", ""allergies"": "" none"", ""currentMeds"": ""NKA""}"
+D,triage,66,patients_p1.json:patients[100].admissions[0].triage[1],duplicate_removed,66,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[100].admissions[0].triage[0],"{""triageId"": 66, ""triagedAt"": ""2022-07-26T07:15:00+10:00"", ""triageNurseId"": 54, ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""129/76"", ""hr"": 88, ""rr"": 14, ""temp"": 101.3, ""spo2"": 99}, ""painScore"": 1, ""symptoms"": ""dysuria, frequency, fever"", ""allergies"": ""Nil known"", ""currentMeds"": [""Perindopril 5mg daily"", ""Metformin XR 1g nocte""]}"
+D,triage,75,patients_p1.json:patients[110].admissions[0].triage,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value None,"{""triageId"": 75, ""triagedAt"": ""2022-08-12T01:18:00+10:00"", ""triageNurseId"": 70, ""atsCategory"": null, ""vitals"": {""bp"": ""105/70"", ""hr"": 87, ""rr"": 12, ""temp"": 36.3, ""spo2"": 100}, ""painScore"": 3, ""symptoms"": ""dizzy then fainted"", ""allergies"": ""Nil known"", ""currentMeds"": ""NONE""}"
+D,triage,76,patients_p1.json:patients[111].admissions[0].triage[1],duplicate_removed,76,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[111].admissions[0].triage[0],"{""triageId"": 76, ""triagedAt"": ""2022-08-13T11:46:00+10:00"", ""triageNurseId"": 75, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""128/75"", ""hr"": 75, ""rr"": 29, ""temp"": 36.9, ""spo2"": 99}, ""painScore"": 0, ""symptoms"": ""breathlessness, night cough"", ""allergies"": ""none  "", ""currentMeds"": [""Atorvastatin 20mg nocte""]}"
+D,triage,85,patients_p1.json:patients[120].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 130 is in the quarantine,"{""triageId"": 85, ""triagedAt"": ""2022-09-12T23:54:00+10:00"", ""triageNurseId"": 74, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""89/44"", ""hr"": 114, ""rr"": -16, ""temp"": ""102.2F"", ""spo2"": 100}, ""painScore"": 2, ""symptoms"": ""fever, rigors, confusion"", ""allergies"": ""NKA"", ""currentMeds"": [""Perindopril 5mg daily"", ""Metformin XR 1g nocte""]}"
+D,triage,88,patients_p1.json:patients[126].admissions[0].triage,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value None,"{""triageId"": 88, ""triagedAt"": ""2022-09-21T17:40:00+10:00"", ""triageNurseId"": 48, ""vitals"": {""bp"": ""120/"", ""hr"": 96, ""rr"": 19, ""temp"": 37.0, ""spo2"": 98}, ""painScore"": 1, ""symptoms"": ""watery   stools, dry mouth"", ""allergies"": ""NKA"", ""currentMeds"": [""Perindopril 5mg daily""]}"
+D,triage,254,patients_p1.json:patients[127].admissions[1].triage,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value None,"{""triageId"": 254, ""triagedAt"": ""2023-10-10T19:50:00+11:00"", ""triageNurseId"": 34, ""vitals"": {""bp"": ""110/77"", ""hr"": 78, ""rr"": 33, ""temp"": 36.4, ""spo2"": 97}, ""painScore"": 1, ""symptoms"": ""wheeze,  tight chest"", ""allergies"": ""none"", ""currentMeds"": ""none""}"
+D,triage,336,patients_p1.json:patients[127].admissions[2].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 107 does not exist in source D,"{""triageId"": 336, ""triagedAt"": ""2024-04-08T14:59:00+10:00"", ""triageNurseId"": 107, ""atsCategory"": ""Cat 3  "", ""vitals"": {""bp"": ""171/105"", ""hr"": 80, ""rr"": 13, ""temp"": ""98.4F"", ""spo2"": ""ok on RA""}, ""painScore"": 3, ""symptoms"": ""no complaints"", ""allergies"": ""none"", ""currentMeds"": ""nil known""}"
+D,triage,648,patients_p1.json:patients[139].admissions[1].triage[1],duplicate_removed,120,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 120","{""triageId"": 648, ""triagedAt"": ""2022-12-12T08:43:00+11:00"", ""triageNurseId"": 59, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""127/77"", ""hr"": ""73"", ""rr"": ""13"", ""temp"": 37.1, ""spo2"": 101}, ""painScore"": 11, ""symptoms"": ""nausea, oliguria"", ""allergies"": [""Codeine"", ""Ibuprofen""], ""currentMeds"": [""Metformin XR 1g nocte""]}"
+D,triage,113,patients_p1.json:patients[154].admissions[0].triage[1],duplicate_removed,113,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[154].admissions[0].triage[0],"{""triageId"": 113, ""triagedAt"": ""2022-11-25T00:53:00+11:00"", ""triageNurseId"": 54, ""atsCategory"": ""CAT 3"", ""vitals"": {""bp"": ""118/87"", ""hr"": 61, ""rr"": 28, ""temp"": 36.7, ""spo2"": ""93%""}, ""painScore"": 4, ""symptoms"": ""severe breathlessness, drowsiness"", ""allergies"": [""None""], ""currentMeds"": [""NKA""]}"
+D,triage,118,patients_p1.json:patients[160].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 181 is in the quarantine,"{""triageId"": 118, ""triagedAt"": ""2022-12-03T10:26:00+11:00"", ""triageNurseId"": 37, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""137/79"", ""hr"": 71, ""rr"": 14, ""temp"": 37.1, ""spo2"": 100}, ""painScore"": 0, ""symptoms"": ""brief loss of consciousness"", ""allergies"": ""nil known"", ""currentMeds"": [""none""]}"
+D,triage,652,patients_p1.json:patients[164].admissions[0].triage[1],duplicate_removed,123,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 123","{""triageId"": 652, ""triagedAt"": ""2022-12-21T11:03:00+11:00"", ""triageNurseId"": 37, ""atsCategory"": 2, ""vitals"": {""bp"": ""116/83"", ""hr"": 94, ""rr"": 99, ""temp"": 37.2, ""spo2"": 95}, ""painScore"": 4, ""symptoms"": ""nausea, oliguria"", ""allergies"": ""NKDA"", ""currentMeds"": [""Perindopril 5mg daily"", ""Metformin XR 1g nocte""]}"
+D,triage,135,patients_p1.json:patients[178].admissions[0].triage,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '?',"{""triageId"": 135, ""triagedAt"": ""2023-01-19T10:37:00+11:00"", ""triageNurseId"": ""?"", ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""118/83"", ""hr"": 84, ""rr"": 13, ""temp"": 36.2, ""spo2"": -5}, ""painScore"": 1, ""symptoms"": ""knee pain, stiffness"", ""allergies"": ""Nil known"", ""currentMeds"": [""Levothyroxine 100mcg mane""]}"
+D,triage,650,patients_p1.json:patients[202].admissions[1].triage[1],duplicate_removed,165,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 165","{""triageId"": 650, ""triagedAt"": ""2023-04-09T22:41:00+10:00"", ""triageNurseId"": 8, ""atsCategory"": ""CAT 4"", ""vitals"": {""bp"": ""164/105"", ""hr"": 86, ""rr"": 15, ""temp"": 36.4, ""spo2"": 95}, ""painScore"": 9, ""symptoms"": ""chest pain"", ""allergies"": ""Nil known"", ""currentMeds"": [""Perindopril 5mg daily""]}"
+D,triage,656,patients_p1.json:patients[227].admissions[0].triage[1],duplicate_removed,176,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 176","{""triageId"": 656, ""triagedAt"": ""2023-05-08T17:07:00+10:00"", ""triageNurseId"": 5, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""300/400"", ""hr"": 69, ""rr"": 15, ""temp"": 36.8, ""spo2"": 98}, ""painScore"": ""severe"", ""symptoms"": ""severe epigastric pain, vomiting"", ""allergies"": """", ""currentMeds"": [""Perindopril 5mg daily""]}"
+D,triage,180,patients_p2.json:patients[0].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 272 is in the quarantine,"{""triageId"": 180, ""triagedAt"": ""2023-05-14T03:49:00+10:00"", ""triageNurseId"": 81, ""atsCategory"": "" CAT 2  "", ""vitals"": {""bp"": ""125/67"", ""hr"": 77, ""rr"": 29, ""temp"": 37.0, ""spo2"": 83}, ""painScore"": 14, ""symptoms"": ""laboured breathing, confusion"", ""allergies"": [""NKA""], ""currentMeds"": [""Perindopril 5mg daily"", ""Atorvastatin 20mg nocte"", ""Levothyroxine 100mcg mane""]}"
+D,triage,191,patients_p2.json:patients[8].admissions[0].triage,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value 'N/A',"{""triageId"": 191, ""triagedAt"": ""2023-05-31T17:54:00+10:00"", ""triageNurseId"": 44, ""atsCategory"": ""N/A"", ""vitals"": {""bp"": ""121/84"", ""hr"": 82, ""rr"": 13, ""temp"": 36.7, ""spo2"": 100}, ""painScore"": 2, ""symptoms"": ""vomiting, diarrhoea, dizziness"", ""allergies"": [""nil known""], ""currentMeds"": ""Nil""}"
+D,triage,199,patients_p2.json:patients[15].admissions[0].triage,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value None,"{""triageId"": 199, ""triagedAt"": ""2023-06-28T11:24:00+10:00"", ""triageNurseId"": 5, ""vitals"": {""bp"": ""131/76"", ""hr"": 87, ""rr"": 20, ""temp"": 37.2, ""spo2"": 100}, ""painScore"": 2, ""symptoms"": ""jerking movements, tongue bite"", ""allergies"": [""NKDA""], ""currentMeds"": [""Calcium carbonate 600mg TDS"", ""Levothyroxine 100mcg mane""]}"
+D,triage,206,patients_p2.json:patients[19].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 303 is in the quarantine,"{""triageId"": 206, ""triagedAt"": ""2023-07-10T10:46:00+10:00"", ""triageNurseId"": 10, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""135/67"", ""hr"": 68, ""rr"": 20, ""temp"": 37.1, ""spo2"": 99}, ""painScore"": 0, ""symptoms"": ""leg swelling, tiredness"", ""allergies"": ""NKA"", ""currentMeds"": [""None""]}"
+D,triage,207,patients_p2.json:patients[21].admissions[0].triage[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 306 is in the quarantine,"{""triageId"": 207, ""triagedAt"": ""2023-07-14T13:08:00+10:00"", ""triageNurseId"": 15, ""atsCategory"": 3, ""vitals"": {""bp"": ""120/67"", ""hr"": 92, ""rr"": 15, ""temp"": {""value"": 97.7, ""unit"": ""degF""}, ""spo2"": 99}, ""painScore"": 1, ""symptoms"": ""short of breath on exertion"", ""allergies"": [""none""], ""currentMeds"": ""None""}"
+D,triage,207,patients_p2.json:patients[21].admissions[0].triage[1],duplicate_removed,207,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[21].admissions[0].triage[0],"{""triageId"": 207, ""triagedAt"": ""2023-07-14T13:08:00+10:00"", ""triageNurseId"": 15, ""atsCategory"": 3, ""vitals"": {""bp"": ""120/67"", ""hr"": 92, ""rr"": 15, ""temp"": {""value"": 97.7, ""unit"": ""degF""}, ""spo2"": 99}, ""painScore"": 1, ""symptoms"": ""short of breath on exertion  "", ""allergies"": [""none""], ""currentMeds"": ""None""}"
+D,triage,419,patients_p2.json:patients[26].admissions[1].triage,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value None,"{""triageId"": 419, ""triagedAt"": ""2024-09-18T14:01:00+10:00"", ""triageNurseId"": 5, ""vitals"": {""bp"": ""148/97"", ""hr"": 81, ""rr"": 18, ""temp"": 37.3, ""spo2"": 99}, ""painScore"": 0, ""symptoms"": ""tiredness, frequent urination"", ""allergies"": ""NKA"", ""currentMeds"": [""Perindopril 5mg daily""]}"
+D,triage,639,patients_p2.json:patients[30].admissions[0].triage[1],duplicate_removed,217,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 217","{""triageId"": 639, ""triagedAt"": ""2023-08-07T03:07:00+10:00"", ""triageNurseId"": 54, ""atsCategory"": ""Cat 5"", ""vitals"": {""bp"": ""78/44"", ""hr"": 141, ""rr"": 40, ""temp"": 37.2, ""spo2"": 97}, ""painScore"": null, ""symptoms"": ""routine newborn check"", ""allergies"": ""NKDA"", ""currentMeds"": [""Nil""]}"
+D,triage,649,patients_p2.json:patients[35].admissions[2].triage[1],duplicate_removed,488,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 488","{""triageId"": 649, ""triagedAt"": ""2025-01-03T19:23:00+11:00"", ""triageNurseId"": 8, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""105/75"", ""hr"": 63, ""rr"": null, ""temp"": 36.7, ""spo2"": 99}, ""painScore"": 3, ""symptoms"": ""reduced urine, leg swelling"", ""allergies"": [""Codeine""], ""currentMeds"": ""Nil""}"
+D,triage,230,patients_p2.json:patients[45].admissions[0].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 112 does not exist in source D,"{""triageId"": 230, ""triagedAt"": ""2023-08-25T04:54:00+10:00"", ""triageNurseId"": 112, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""107/86"", ""hr"": 79, ""rr"": 17, ""temp"": {""value"": 99.0, ""unit"": ""degF""}, ""spo2"": 101}, ""painScore"": 0, ""symptoms"": ""facial droop, confusion"", ""allergies"": [""Aspirin""], ""currentMeds"": ""Nil""}"
+D,triage,318,patients_p2.json:patients[70].admissions[1].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 111 does not exist in source D,"{""triageId"": 318, ""triagedAt"": ""2024-03-16T22:05:00+11:00"", ""triageNurseId"": 111, ""atsCategory"": ""Cat 1"", ""vitals"": {""bp"": ""127/80"", ""hr"": 83, ""rr"": 13, ""temp"": -1, ""spo2"": 100}, ""painScore"": 14, ""symptoms"": ""nausea, oliguria"", ""allergies"": ""NKDA"", ""currentMeds"": ""nil known""}"
+D,triage,260,patients_p2.json:patients[72].admissions[0].triage[1],duplicate_removed,260,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[72].admissions[0].triage[0],"{""triageId"": 260, ""triagedAt"": ""2023-10-25T13:03:00+11:00"", ""triageNurseId"": 71, ""atsCategory"": ""Cat 5"", ""vitals"": {""bp"": ""119/66"", ""hr"": 85, ""rr"": 16, ""temp"": ""37.1"", ""spo2"": 99}, ""painScore"": 1, ""symptoms"": ""morning cough"", ""allergies"": [""NKDA""], ""currentMeds"": [""Metformin XR 1g nocte""]}"
+D,triage,532,patients_p2.json:patients[108].admissions[3].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 96 does not exist in source D,"{""triageId"": 532, ""triagedAt"": ""2025-03-28T03:51:00+11:00"", ""triageNurseId"": 96, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""300/400"", ""hr"": 81, ""rr"": 16, ""temp"": 36.8, ""spo2"": ""-""}, ""painScore"": 1, ""symptoms"": ""nausea, oliguria"", ""allergies"": [""Cephalosporins""], ""currentMeds"": ""None""}"
+D,triage,311,patients_p2.json:patients[133].admissions[0].triage[1],duplicate_removed,311,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[133].admissions[0].triage[0],"{""triageId"": 311, ""triagedAt"": ""2024-03-08T16:59:00+11:00"", ""triageNurseId"": 71, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""115/83"", ""hr"": 83, ""rr"": 14, ""temp"": 36.3, ""spo2"": 100}, ""painScore"": 4, ""symptoms"": ""nausea, oliguria"", ""allergies"": [""Penicillin""], ""currentMeds"": ""None""}"
+D,triage,393,patients_p2.json:patients[135].admissions[1].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 113 does not exist in source D,"{""triageId"": 393, ""triagedAt"": ""2024-08-13T04:01:00+10:00"", ""triageNurseId"": 113, ""atsCategory"": ""Cat 3   "", ""vitals"": {""bp"": ""135/71"", ""hr"": ""abc"", ""rr"": 0, ""temp"": {""value"": 98.6, ""unit"": ""°F""}, ""spo2"": 95}, ""painScore"": 4, ""symptoms"": ""reduced urine, leg swelling"", ""allergies"": ""Cephalosporins"", ""currentMeds"": ""None""}"
+D,triage,326,patients_p2.json:patients[145].admissions[0].triage,rejected,,missing_required:nurse_id,missing_required:nurse_id: raw value '',"{""triageId"": 326, ""triagedAt"": ""2024-03-23T23:56:00+11:00"", ""triageNurseId"": """", ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""122/65"", ""hr"": -72, ""rr"": 14, ""temp"": 36.4, ""spo2"": 97}, ""painScore"": 14, ""symptoms"": ""dizzy then fainted"", ""allergies"": ""NKDA"", ""currentMeds"": ""nil known""}"
+D,triage,369,patients_p2.json:patients[148].admissions[1].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 534 is in the quarantine,"{""triageId"": 369, ""triagedAt"": ""2024-06-14T17:45:00+10:00"", ""triageNurseId"": 48, ""atsCategory"": ""Cat 5"", ""vitals"": {""bp"": ""173/103"", ""hr"": 89, ""rr"": 12, ""temp"": ""97.9F"", ""spo2"": -5}, ""painScore"": ""4"", ""symptoms"": ""blurred vision, headache"", ""allergies"": ""None"", ""currentMeds"": ""Perindopril 5mg daily; Levothyroxine 100mcg mane""}"
+D,triage,345,patients_p2.json:patients[165].admissions[0].triage[1],duplicate_removed,345,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[165].admissions[0].triage[0],"{""triageId"": 345, ""triagedAt"": ""2024-04-24T06:57:00+10:00"", ""triageNurseId"": 74, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""121/67"", ""hr"": 62, ""rr"": 20, ""temp"": 97.5, ""spo2"": 99}, ""painScore"": ""7/10"", ""symptoms"": ""crushing chest pain, sweating"", ""allergies"": [""Shellfish""], ""currentMeds"": [""Metformin XR 1g nocte""]}"
+D,triage,651,patients_p2.json:patients[183].admissions[0].triage[1],duplicate_removed,362,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 362","{""triageId"": 651, ""triagedAt"": ""2024-06-03T04:51:00+10:00"", ""triageNurseId"": 18, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""158/106"", ""hr"": 64, ""rr"": 17, ""temp"": 37.2, ""spo2"": 98}, ""painScore"": 8, ""symptoms"": ""CHEST DISCOMFORT, ANXIETY"", ""allergies"": [""Shellfish"", ""Aspirin""], ""currentMeds"": [""Perindopril 5mg daily"", ""Atorvastatin 20mg nocte""]}"
+D,triage,374,patients_p2.json:patients[192].admissions[0].triage,rejected,,unmappable_label:triage_priority,unmappable_label:triage_priority: 'Cat 0' has no standard triage_priority value,"{""triageId"": 374, ""triagedAt"": ""2024-06-28T06:10:00+10:00"", ""triageNurseId"": 75, ""atsCategory"": ""Cat 0"", ""vitals"": {""bp"": ""131/72"", ""hr"": 92, ""rr"": 16, ""temp"": 36.4, ""spo2"": 97}, ""painScore"": 7, ""symptoms"": ""chest pain"", ""allergies"": ""none"", ""currentMeds"": [""Metformin XR 1g nocte""]}"
+D,triage,382,patients_p2.json:patients[201].admissions[0].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 122 does not exist in source D,"{""triageId"": 382, ""triagedAt"": ""2024-07-22T07:43:00+10:00"", ""triageNurseId"": 122, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""124/64"", ""hr"": 62, ""rr"": 25, ""temp"": 37.3, ""spo2"": 86}, ""painScore"": 2, ""symptoms"": ""wheeze, cough, breathlessness"", ""allergies"": [""Shellfish"", ""Ibuprofen""], ""currentMeds"": [""none""]}"
+D,triage,386,patients_p2.json:patients[207].admissions[0].triage[1],duplicate_removed,386,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[207].admissions[0].triage[0],"{""triageId"": 386, ""triagedAt"": ""2024-07-31T11:52:00+10:00"", ""triageNurseId"": 5, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""133/65"", ""hr"": 60, ""rr"": 13, ""temp"": 36.4, ""spo2"": 99}, ""painScore"": 1, ""symptoms"": ""brief loss of consciousness"", ""allergies"": ""none"", ""currentMeds"": [""none""]}"
+D,triage,428,patients_p3.json:patients[12].admissions[0].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 103 does not exist in source D,"{""triageId"": 428, ""triagedAt"": ""2024-09-24T11:04:00+10:00"", ""triageNurseId"": 103, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": 12080, ""hr"": 64, ""rr"": 19, ""temp"": 36.9, ""spo2"": 100}, ""painScore"": 1, ""symptoms"": ""short of breath on exertion"", ""allergies"": ""NKDA"", ""currentMeds"": ""Calcium carbonate 600mg TDS""}"
+D,triage,433,patients_p3.json:patients[15].admissions[0].triage[1],duplicate_removed,433,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[15].admissions[0].triage[0],"{""triageId"": 433, ""triagedAt"": ""2024-10-04T20:31:00+10:00"", ""triageNurseId"": 70, ""atsCategory"": ""Cat 5"", ""vitals"": {""bp"": ""78/50"", ""hr"": 143, ""rr"": 37, ""temp"": 37.0, ""spo2"": 96}, ""symptoms"": ""routine newborn check"", ""allergies"": [""Shellfish""], ""currentMeds"": [""NKA""]}"
+D,triage,441,patients_p3.json:patients[21].admissions[0].triage[1],duplicate_removed,441,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[21].admissions[0].triage[0],"{""triageId"": 441, ""triagedAt"": ""2024-10-13T09:10:00+11:00"", ""triageNurseId"": 27, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""131/80"", ""hr"": 64, ""rr"": 99, ""temp"": ""98.1F"", ""spo2"": 96}, ""painScore"": 9, ""symptoms"": ""severe epigastric pain, vomiting"", ""allergies"": [""None""], ""currentMeds"": ""none""}"
+D,triage,443,patients_p3.json:patients[23].admissions[1].triage[1],duplicate_removed,443,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[23].admissions[1].triage[0],"{""triageId"": 443, ""triagedAt"": ""2024-10-17T09:31:00+11:00"", ""triageNurseId"": 44, ""atsCategory"": ""Category 4"", ""vitals"": {""bp"": ""115/65"", ""hr"": 75, ""rr"": 18, ""temp"": 36.7, ""spo2"": 99}, ""painScore"": 1, ""symptoms"": ""no complaints"", ""allergies"": ""None"", ""currentMeds"": [""Calcium carbonate 600mg TDS""]}"
+D,triage,653,patients_p3.json:patients[26].admissions[1].triage[1],duplicate_removed,570,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 570","{""triageId"": 653, ""triagedAt"": ""2025-06-07T10:13:00+10:00"", ""triageNurseId"": 18, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""122/69"", ""hr"": 76, ""rr"": 14, ""temp"": null, ""spo2"": 98}, ""painScore"": ""severe"", ""symptoms"": ""tiredness, frequent urination"", ""allergies"": ""none"", ""currentMeds"": ""None""}"
+D,triage,454,patients_p3.json:patients[34].admissions[0].triage,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value None,"{""triageId"": 454, ""triagedAt"": ""2024-11-04T03:39:00+11:00"", ""triageNurseId"": 36, ""vitals"": {""bp"": ""127/65"", ""hr"": ""92"", ""rr"": 19, ""temp"": 36.9, ""spo2"": 98}, ""painScore"": 2, ""symptoms"": ""nausea, oliguria"", ""allergies"": [""nil known""], ""currentMeds"": [""nil known""]}"
+D,triage,474,patients_p3.json:patients[50].admissions[0].triage,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '',"{""triageId"": 474, ""triagedAt"": ""2024-12-08T07:49:00+11:00"", ""triageNurseId"": 48, ""atsCategory"": """", ""vitals"": {""bp"": ""122/75"", ""hr"": 69, ""rr"": 99, ""temp"": 36.8, ""spo2"": 95}, ""painScore"": 0, ""symptoms"": ""chest tightness on exertion"", ""allergies"": [""Aspirin"", ""Peanuts""], ""currentMeds"": ""Perindopril 5mg daily""}"
+D,triage,647,patients_p3.json:patients[59].admissions[0].triage[1],duplicate_removed,484,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 484","{""triageId"": 647, ""triagedAt"": ""2024-12-26T00:19:00+11:00"", ""triageNurseId"": 54, ""atsCategory"": "" CAT 4  "", ""vitals"": {""bp"": ""186/92"", ""hr"": 88, ""rr"": 27, ""temp"": 38.1, ""spo2"": 91}, ""painScore"": 0, ""symptoms"": ""cough, fever, breathlessness"", ""allergies"": ""none"", ""currentMeds"": [""Perindopril 5mg daily""]}"
+D,triage,509,patients_p3.json:patients[86].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 722 is in the quarantine,"{""triageId"": 509, ""triagedAt"": ""2025-02-20T07:50:00+11:00"", ""triageNurseId"": 72, ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""107/67"", ""hr"": 64, ""rr"": 19, ""temp"": 36.4, ""spo2"": ""97""}, ""painScore"": ""3"", ""symptoms"": ""tiredness, frequent urination"", ""allergies"": [""NKA""], ""currentMeds"": [""Metformin XR 1g nocte"", ""Ferrous sulfate 325mg daily""]}"
+D,triage,516,patients_p3.json:patients[93].admissions[0].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 97 does not exist in source D,"{""triageId"": 516, ""triagedAt"": ""2025-03-02T20:04:00+11:00"", ""triageNurseId"": 97, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""96/60"", ""hr"": 137, ""rr"": 13, ""temp"": 39.8, ""spo2"": ""99""}, ""painScore"": 1, ""symptoms"": ""fever, vomiting, drowsy"", ""allergies"": [""Ibuprofen"", ""Peanuts""], ""currentMeds"": [""Perindopril 5mg daily"", ""Apixaban 5mg BD""]}"
+D,triage,521,patients_p3.json:patients[98].admissions[0].triage[1],duplicate_removed,521,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[98].admissions[0].triage[0],"{""triageId"": 521, ""triagedAt"": ""2025-03-08T19:37:00+11:00"", ""triageNurseId"": 7, ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""abc/def"", ""hr"": 106, ""rr"": 18, ""temp"": 36.5, ""spo2"": 99}, ""painScore"": 3, ""symptoms"": ""racing heart, SOB"", ""allergies"": ""None"", ""currentMeds"": [""Perindopril 5mg daily"", ""Atorvastatin 20mg nocte""]}"
+D,triage,522,patients_p3.json:patients[99].admissions[0].triage[1],duplicate_removed,522,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[99].admissions[0].triage[0],"{""triageId"": 522, ""triagedAt"": ""2025-03-09T09:15:00+11:00"", ""triageNurseId"": 81, ""atsCategory"": ""Cat 3  "", ""vitals"": {""bp"": ""112/74"", ""hr"": 83, ""rr"": 14, ""temp"": 36.3, ""spo2"": 98}, ""painScore"": -3, ""symptoms"": ""no complaints"", ""allergies"": ""Nil known"", ""currentMeds"": ""Metformin XR 1g nocte; Atorvastatin 20mg nocte""}"
+D,triage,529,patients_p3.json:patients[104].admissions[0].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 151 does not exist in source D,"{""triageId"": 529, ""triagedAt"": ""2025-03-20T03:38:00+11:00"", ""triageNurseId"": 151, ""atsCategory"": ""Cat 2"", ""vitals"": {""bp"": ""111/83"", ""hr"": 84, ""rr"": 16, ""temp"": 36.7, ""spo2"": 95}, ""painScore"": 14, ""symptoms"": ""jerking movements, tongue bite"", ""allergies"": ""NKA"", ""currentMeds"": ""None""}"
+D,triage,531,patients_p3.json:patients[106].admissions[0].triage,rejected,,unmappable_label:triage_priority,unmappable_label:triage_priority: 'Cat 6' has no standard triage_priority value,"{""triageId"": 531, ""triagedAt"": ""2025-03-23T14:27:00+11:00"", ""triageNurseId"": 10, ""atsCategory"": ""Cat 6"", ""vitals"": {""bp"": ""107/86"", ""hr"": 90, ""rr"": ""17"", ""temp"": 97.7, ""spo2"": 140}, ""painScore"": 1, ""symptoms"": ""brief loss of consciousness"", ""allergies"": ""NKDA"", ""currentMeds"": [""Nil""]}"
+D,triage,638,patients_p3.json:patients[135].admissions[0].triage[1],duplicate_removed,565,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 565","{""triageId"": 638, ""triagedAt"": ""2025-06-02T04:41:00+10:00"", ""triageNurseId"": ""44"", ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""181/93"", ""hr"": 93, ""rr"": 17, ""temp"": 39.8, ""spo2"": 95}, ""painScore"": 0, ""symptoms"": ""dysuria, frequency, fever"", ""allergies"": ""NKDA"", ""currentMeds"": [""Perindopril 5mg daily"", ""Ferrous sulfate 325mg daily""]}"
+D,triage,567,patients_p3.json:patients[137].admissions[0].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 97 does not exist in source D,"{""triageId"": 567, ""triagedAt"": ""2025-06-05T14:48:00+10:00"", ""triageNurseId"": 97, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""122/81"", ""hr"": ""94"", ""rr"": 12, ""temp"": 37.2, ""spo2"": ""96%""}, ""painScore"": 14, ""symptoms"": ""chest discomfort, anxiety"", ""allergies"": ""none"", ""currentMeds"": ""Nil""}"
+D,triage,580,patients_p3.json:patients[150].admissions[0].triage,rejected,,orphan_reference:nurse_id,orphan_reference:nurse_id: professionals 116 does not exist in source D,"{""triageId"": 580, ""triagedAt"": ""2025-07-03T01:43:00+10:00"", ""triageNurseId"": 116, ""atsCategory"": ""Category 2"", ""vitals"": {""bp"": ""115 / 86"", ""hr"": 65, ""rr"": 14, ""temp"": 36.9, ""spo2"": ""100%""}, ""painScore"": 10, ""symptoms"": ""severe epigastric pain, vomiting"", ""allergies"": [""NKDA""], ""currentMeds"": [""NKA""]}"
+D,triage,584,patients_p3.json:patients[155].admissions[0].triage,rejected,,missing_required:triage_priority,missing_required:triage_priority: raw value '?',"{""triageId"": 584, ""triagedAt"": ""2025-07-09T20:23:00+10:00"", ""triageNurseId"": 20, ""atsCategory"": ""?"", ""vitals"": {""bp"": ""93/62"", ""hr"": 136, ""rr"": 15, ""temp"": 36.4, ""spo2"": 98}, ""painScore"": 1, ""symptoms"": ""vomiting blood, dizziness"", ""allergies"": ""N/A"", ""currentMeds"": [""none""]}"
+D,triage,596,patients_p3.json:patients[166].admissions[0].triage[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 821 is in the quarantine,"{""triageId"": 596, ""triagedAt"": ""2025-07-29T03:59:00+10:00"", ""triageNurseId"": 20, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""136/74"", ""hr"": 70, ""rr"": 29, ""temp"": 0, ""spo2"": 87}, ""painScore"": 3, ""symptoms"": ""productive cough, chest pain, fever"", ""allergies"": ""Nil known"", ""currentMeds"": [""nil known""]}"
+D,triage,643,patients_p3.json:patients[166].admissions[0].triage[1],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 821 is in the quarantine,"{""triageId"": 643, ""triagedAt"": ""2025-07-29T03:59:00+10:00"", ""triageNurseId"": 20, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""136/74"", ""hr"": 70, ""rr"": 29, ""temp"": 0, ""spo2"": 87}, ""painScore"": 3, ""symptoms"": ""productive cough, chest pain, fever"", ""allergies"": ""Nil known"", ""currentMeds"": [""None""]}"
+D,triage,626,patients_p3.json:patients[196].admissions[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 865 is in the quarantine,"{""triageId"": 626, ""triagedAt"": ""2025-09-29T15:26:00+10:00"", ""triageNurseId"": 74, ""atsCategory"": ""Cat 3"", ""vitals"": {""bp"": ""110/79"", ""hr"": 81, ""rr"": ""x"", ""temp"": 36.9, ""spo2"": ""100%""}, ""painScore"": 2, ""symptoms"": ""wheeze, tight chest"", ""allergies"": [""None""], ""currentMeds"": ""-""}"
+D,triage,655,patients_p3.json:patients[228].admissions[0].triage[1],duplicate_removed,473,near_duplicate,"near_duplicate: same admission_id, triage_time, triage_priority as triage_id 473","{""triageId"": 655, ""triagedAt"": ""2024-12-06T10:35:00+11:00"", ""triageNurseId"": 75, ""atsCategory"": ""Cat 5"", ""vitals"": {""bp"": ""109/66"", ""hr"": 66, ""rr"": 20, ""temp"": 3.7, ""spo2"": ""95%""}, ""painScore"": 2, ""symptoms"": "" DIFFICULTY WALKING, KNEE PAIN  "", ""allergies"": [""Nil known""]}"
+D,triage,112,patients_p3.json:unlinkedEncounters[0].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 172 is in the quarantine,"{""triageId"": 112, ""triagedAt"": ""2022-11-24T18:40:00+11:00"", ""triageNurseId"": 27, ""atsCategory"": ""cat 4"", ""vitals"": {""bp"": ""108/87"", ""hr"": 65, ""rr"": 19, ""temp"": {""value"": 36.7, ""unit"": ""Cel""}, ""spo2"": 95}, ""painScore"": 20, ""symptoms"": ""chest pain"", ""allergies"": [""Penicillin"", ""Morphine""], ""currentMeds"": [""Atorvastatin 20mg nocte""]}"
+D,triage,416,patients_p3.json:unlinkedEncounters[3].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 600 is in the quarantine,"{""triageId"": 416, ""triagedAt"": ""2024-09-12T01:15:00+10:00"", ""triageNurseId"": 15, ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""126/83"", ""hr"": 62, ""rr"": 16, ""temp"": {""value"": 37.2, ""unit"": ""C""}, ""spo2"": 98}, ""painScore"": ""3/10"", ""symptoms"": ""brief loss of consciousness"", ""allergies"": ""NKDA"", ""currentMeds"": [""nil known""]}"
+D,triage,480,patients_p3.json:unlinkedEncounters[4].triage,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 677 is in the quarantine,"{""triageId"": 480, ""triagedAt"": ""2024-12-18T15:23:00+11:00"", ""triageNurseId"": 3, ""atsCategory"": ""Cat 4"", ""vitals"": {""bp"": ""135/69"", ""hr"": 77, ""rr"": 19, ""temp"": 36.3, ""spo2"": 97}, ""painScore"": 0, ""symptoms"": ""brief loss of consciousness"", ""allergies"": [""NKDA""], ""currentMeds"": [""nil known""]}"

@@ -1,0 +1,1281 @@
+source_system,entity,source_record_id,source_row,disposition,duplicate_of,reason_codes,reason_details,raw_record
+A,orders,13,demandes_examens.txt:14,rejected,,missing_required:order_time,missing_required:order_time: raw value 'null',13|14|4|null|IRM|Rule out obstruction|TERMINE|NORMALE
+A,orders,16,demandes_examens.txt:17,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '07-03-2024 01:04': day/month order cannot be decided,16|22|15|07-03-2024 01:04|IRM|Follow-up of known lesion|TERMINE|URGENTE
+A,orders,14,demandes_examens.txt:25,duplicate_removed,14,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:15,14|21|11|06/12/2023 23:23|SCANNER|Rule out fracture|EN ATTENTE|URGENTE
+A,orders,36,demandes_examens.txt:38,rejected,,chronology:order_time,chronology:order_time: order_time 2024-10-31T22:01:00Z after discharge 2024-10-17T21:01:00Z,36|56|13|2024-10-31 23:01:00|ECG|Rule out fracture|TERMINE|URGENTE
+A,orders,33,demandes_examens.txt:44,duplicate_removed,33,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:35,33|55|12|23/09/2022 14:38| SCANNER |rule out infection|ANNULE|NORMALE
+A,orders,44,demandes_examens.txt:47,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '11-05-2022 17:47': day/month order cannot be decided,44|67|1|11-05-2022 17:47|SCANNER|Rule out fracture|TERMINE|IMMEDIATE
+A,orders,45,demandes_examens.txt:48,rejected,,missing_required:professional_id,missing_required:professional_id: raw value 'N/A',45|68|N/A|31/07/2022 03:38|RADIO THORAX|Rule out infection|REALISE|IMMEDIATE
+A,orders,59,demandes_examens.txt:62,rejected,,invalid_date:order_time,invalid_date:order_time: 'inconnue': not a recognised date format,59|92|8|inconnue|ECHOGRAPHIE   |Rule out ischaemia|EN COURS|IMMEDIATE
+A,orders,50,demandes_examens.txt:67,duplicate_removed,50,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:53,50|77|1|12/04/2023 13:19|IRM|Rule out fracture|TERMINE|IMMEDIATE
+A,orders,66,demandes_examens.txt:70,rejected,,unmappable_label:order_status,unmappable_label:order_status: 'SUSPENDU' has no standard order_status value,66|101|16|16/04/2025 02:07|RADIO THORAX|Pre-operative assessment|SUSPENDU|IMMEDIATE
+A,orders,74,demandes_examens.txt:78,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 112 is in the quarantine,74|112|5|09/08/2022 00:06|ECHOGRAPHIE|Rule out bleeding|EN COURS|NORMALE
+A,orders,75,demandes_examens.txt:79,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 113 is in the quarantine,75|113|21|14/11/2022 00:16|IRM|Follow-up of known lesion|REALISE|URGENTE
+A,orders,80,demandes_examens.txt:84,rejected,,chronology:order_time,chronology:order_time: order_time 2024-11-22T03:22:00Z after discharge 2024-11-04T03:22:00Z,80|121|20|22/11/2024 04:22|BILAN SANGUIN|Rule out ischaemia|ANNULE|NORMALE
+A,orders,83,demandes_examens.txt:87,rejected,,chronology:order_time,chronology:order_time: order_time 2023-04-26T11:44:00Z before admission 2023-05-15T11:44:00Z,83|126|18|26/04/2023 13:44|ECG|Rule out ischaemia|TERMINE|IMMEDIATE
+A,orders,86,demandes_examens.txt:90,rejected,,chronology:order_time,chronology:order_time: order_time 2023-02-05T14:20:00Z after discharge 2023-01-24T14:20:00Z,86|128|21|05/02/2023 15:20|RADIO THORAX|Rule out fracture|TERMINE|NORMALE
+A,orders,91,demandes_examens.txt:95,rejected,,chronology:order_time,chronology:order_time: order_time 2023-10-13T09:17:00Z after discharge 2023-10-05T09:17:00Z,91|135|17|13/10/2023 11:17|RADIO THORAX|Rule out infection|EN COURS|IMMEDIATE
+A,orders,125,demandes_examens.txt:129,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 184 is in the quarantine,125|184|17|10/05/2022 17:00|ECHOGRAPHIE|Rule out fracture|termine|IMMEDIATE
+A,orders,127,demandes_examens.txt:131,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 187 is in the quarantine,127|187|14|29/11/2024 15:15|IRM|Follow-up of known lesion|TERMINE|NORMALE
+A,orders,128,demandes_examens.txt:132,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 3099 does not exist in source A,128|3099|24|19/09/2023 12:16|ECHOGRAPHIE|Rule out infection|TERMINE|NORMALE
+A,orders,133,demandes_examens.txt:137,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 193 is in the quarantine,133|193|3|15/04/2023 17:28|BILAN SANGUIN|Rule out fracture|TERMINE|IMMEDIATE
+A,orders,149,demandes_examens.txt:153,rejected,,missing_required:priority,missing_required:priority: raw value '?',149|213|2|30/09/2025 15:44|SCANNER|Pre-operative assessment|TERMINE|?
+A,orders,144,demandes_examens.txt:155,duplicate_removed,144,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:148,144|205|4|09/08/2023 19:20|BILAN SANGUIN|Rule out fracture|TERMINE|N
+A,orders,152,demandes_examens.txt:157,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '05-10-2022 11:56': day/month order cannot be decided,152|220|22|05-10-2022 11:56|SCANNER|Follow-up of known lesion|TERMINE|URGENTE
+A,orders,153,demandes_examens.txt:158,rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 1693 does not exist in source A,153|220|1693|03/10/2022 13:38|ECHOGRAPHIE|Rule out ischaemia|TERMINE|NORMALE
+A,orders,172,demandes_examens.txt:177,rejected,,missing_required:professional_id,missing_required:professional_id: raw value '',172|251||10/09/2023 03:06|BILAN SANGUIN|Rule out bleeding|EN COURS|NORMALE
+A,orders,166,demandes_examens.txt:185,duplicate_removed,166,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:171,166|240|8|05/11/2024 17:25|IRM|Rule out ischaemia|TERMINE|IMMEDIATE
+A,orders,189,demandes_examens.txt:195,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 281 is in the quarantine,189|281|8|11/11/2024 16:45|ECHOGRAPHIE|Rule out infection|TERMINE |NORMALE
+A,orders,199,demandes_examens.txt:205,rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 3515 does not exist in source A,199|291|3515|26/06/2024 22:10|ECG|Rule out bleeding|EN COURS|NORMALE
+A,orders,213,demandes_examens.txt:219,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 305 is in the quarantine,213|305|24|13/09/2024 10:14|ECHOGRAPHIE|Follow-up of known lesion|TERMINE|IMMEDIATE
+A,orders,214,demandes_examens.txt:220,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 305 is in the quarantine,214|305|24|12/09/2024 18:54|ECG|Rule out infection|ANNULE|URGENTE
+A,orders,231,demandes_examens.txt:237,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1383 does not exist in source A,231|1383|16|14/02/2023 11:45|RADIO THORAX|Rule out fracture|EN ATTENTE|  NORMALE
+A,orders,232,demandes_examens.txt:238,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 334 is in the quarantine,232|334|13|14/02/2023 23:11|RADIO THORAX|Rule out fracture|Fait|NORMALE
+A,orders,227,demandes_examens.txt:245,duplicate_removed,227,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:233,227|328|18|02/07/2024 11:04|RADIO THORAX|Pre-operative assessment|En cours de realisation|IMMEDIATE
+A,orders,240,demandes_examens.txt:247,rejected,,invalid_date:order_time,invalid_date:order_time: 'inconnue': not a recognised date format,240|344|9|inconnue|IRM|Rule out infection|EN ATTENTE|IMMEDIATE
+A,orders,246,demandes_examens.txt:253,rejected,,invalid_date:order_time,invalid_date:order_time: '30/02/2023 05:54': day is out of range for month,246|348|23|30/02/2023 05:54|IRM|Rule out obstruction|EN ATTENTE|URGENTE
+A,orders,247,demandes_examens.txt:254,rejected,,unmappable_label:order_status,unmappable_label:order_status: 'SUSPENDU' has no standard order_status value,247|349|6|29/02/2024 15:07|ECG|Rule out ischaemia|SUSPENDU|Routine
+A,orders,250,demandes_examens.txt:259,duplicate_removed,250,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:257,250|361|4|10/01/2025 04:39|BILAN SANGUIN|Rule out fracture|TERMINE|URGENTE
+A,orders,253,demandes_examens.txt:261,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 363 is in the quarantine,253|363|9|24/04/2022 20:55|ECG|Rule out fracture|EN COURS|IMMEDIATE
+A,orders,263,demandes_examens.txt:271,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 380 is in the quarantine,263|380|3|20/05/2023 06:23|IRM|Pre-operative assessment|TERMINE|URGENTE
+A,orders,264,demandes_examens.txt:272,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 380 is in the quarantine,264|380|22|19/05/2023 18:44|SCANNER|Rule out infection|TERMINE|NORMALE
+A,orders,277,demandes_examens.txt:285,rejected,,chronology:order_time,chronology:order_time: order_time 2024-11-16T12:29:00Z before admission 2024-11-19T12:29:00Z,277|398|8|16/11/2024 13:29|ECHOGRAPHIE|Follow-up of known lesion|ANNULE|NORMALE
+A,orders,289,demandes_examens.txt:297,rejected,,chronology:order_time,chronology:order_time: order_time 2024-11-30T04:59:00Z before admission 2024-12-18T04:59:00Z,289|420|5|30/11/2024 05:59|SCANNER|Follow-up of known lesion|TERMINE|NORMALE
+A,orders,328,demandes_examens.txt:336,rejected,,invalid_date:order_time,invalid_date:order_time: '30/02/2023 17:39': day is out of range for month,328|471|14|30/02/2023 17:39|SCANNER|Rule out ischaemia|TERMINE|NORMALE
+A,orders,331,demandes_examens.txt:339,rejected,,invalid_date:order_time,invalid_date:order_time: '32/08/2024 01:36': day is out of range for month,331|473|8|32/08/2024 01:36|RADIO THORAX|Rule out ischaemia|TERMINE|N
+A,orders,362,demandes_examens.txt:370,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1241 does not exist in source A,362|1241|14|15/08/2022 20:00|ECG|Rule out fracture|EN COURS|URGENTE
+A,orders,363,demandes_examens.txt:371,rejected,,invalid_date:order_time,invalid_date:order_time: '15/13/2022 03:58': month must be in 1..12,363|506|24|15/13/2022 03:58|BILAN SANGUIN|Rule out infection|TERMINE|IMMEDIATE
+A,orders,357,demandes_examens.txt:375,duplicate_removed,357,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:365,357|502|22|22/05/2024 17:23|ECHOGRAPHIE|Pre-operative assessment|TERMINE|URGENTE
+A,orders,370,demandes_examens.txt:379,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 3285 does not exist in source A,370|3285|3|01/10/2025 04:48|SCANNER|Rule out ischaemia|TERMINE|IMMEDIATE
+A,orders,371,demandes_examens.txt:380,rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 1118 does not exist in source A,371|515|1118|01/10/2025 18:55|ECG|Rule out ischaemia|TERMINE|normale
+A,orders,372,demandes_examens.txt:381,rejected,,missing_required:order_status,missing_required:order_status: raw value '',372|517|1|21/12/2024 14:08|IRM|Rule out obstruction||NORMALE
+A,orders,376,demandes_examens.txt:385,rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 1699 does not exist in source A,376|520|1699|13/02/2023 11:04|BILAN SANGUIN|Pre-operative assessment|TERMINE|URGENTE
+A,orders,390,demandes_examens.txt:399,rejected,,missing_required:priority,missing_required:priority: raw value 'N/A',390|542|23|09/05/2022 02:38|ECHOGRAPHIE|Rule out fracture|TERMINE|N/A
+A,orders,391,demandes_examens.txt:400,rejected,,chronology:order_time,chronology:order_time: order_time 2023-09-18T15:50:00Z after discharge 2023-09-05T15:50:00Z,391|543|3|18/09/2023 17:50|RADIO THORAX|Rule out bleeding   |TERMINE|IMMEDIATE
+A,orders,395,demandes_examens.txt:404,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 547 is in the quarantine,395|547|19|30/08/2023 10:30|ECG|Rule out ischaemia|TERMINE|NORMALE
+A,orders,396,demandes_examens.txt:405,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 547 is in the quarantine,396|547|13|31/08/2023 12:37|ECHOGRAPHIE|Follow-up of known lesion|EN COURS|NORMALE
+A,orders,417,demandes_examens.txt:427,duplicate_removed,417,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:426,417|566|2|09/01/2024 23:04|SCANNER|Rule out obstruction|EN ATTENTE|URGENTE
+A,orders,438,demandes_examens.txt:448,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 596 is in the quarantine,438|596|3|14/08/2022 19:26|ECG|Follow-up of known lesion|TERMINE|NORMALE
+A,orders,447,demandes_examens.txt:457,rejected,,chronology:order_time,chronology:order_time: order_time 2022-09-14T23:33:00Z after discharge 2022-09-02T23:33:00Z,447|607|21|15/09/2022 01:33|IRM| Follow-up of known lesion |EN COURS|NORMALE
+A,orders,472,demandes_examens.txt:482,rejected,,missing_required:order_status,missing_required:order_status: raw value '',472|637|7|21/01/2025 13:30|SCANNER|Rule out obstruction||NORMALE
+A,orders,487,demandes_examens.txt:497,rejected,,missing_required:order_time,missing_required:order_time: raw value 'null',487|651|1|null|RADIO THORAX|Rule out ischaemia|TERMINE|NORMALE
+A,orders,495,demandes_examens.txt:505,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1364 does not exist in source A,495|1364|3|20/06/2023 17:24|SCANNER|Rule out obstruction|EN ATTENTE|URGENTE
+A,orders,502,demandes_examens.txt:512,rejected,,missing_required:priority,missing_required:priority: raw value 'null',502|672|12|2023-05-15T18:31|BILAN SANGUIN|Rule out obstruction|TERMINE|null
+A,orders,495,demandes_examens.txt:519,duplicate_removed,495,exact_duplicate,exact_duplicate: same ID and same values as demandes_examens.txt:505,495|1364|3|20/06/2023 17:24|SCANNER|Rule out obstruction|EN ATTENTE|URGENTE
+A,orders,509,demandes_examens.txt:520,duplicate_removed,345,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 345",509|485|10|02/03/2022 21:05|SCANNER|Rule out bleeding|ANNULE|NORMALE   
+A,orders,510,demandes_examens.txt:521,duplicate_removed,357,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 357",510|502|22|22/05/2024 17:23|ECHOGRAPHIE|Pre-operative assessment|TERMINE|URGENTE
+A,orders,511,demandes_examens.txt:522,duplicate_removed,303,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 303",511|443|15|02/04/2024 18:51|scanner|Rule out obstruction|TERMINE|IMMEDIATE
+A,orders,512,demandes_examens.txt:523,duplicate_removed,269,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 269",512|388|19|04.12.2023 12:26|ECG|Rule out bleeding|TERMINE|NORMALE
+A,orders,513,demandes_examens.txt:524,duplicate_removed,46,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 46",513|69|16|18/11/2023 13:10| RADIO THORAX|Rule out infection|TERMINE|NORMALE
+A,orders,514,demandes_examens.txt:525,duplicate_removed,457,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 457",514|623|8|07/10/2024 03:04| SCANNER|Rule out fracture|TERMINE|NORMALE
+A,orders,515,demandes_examens.txt:526,duplicate_removed,497,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 497",515|665|12|02/01/2023 00:02| SCANNER|Rule out infection|en attente|urgente
+A,orders,516,demandes_examens.txt:527,duplicate_removed,373,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 373",516|518|2|02/06/2025 18:49|ECHOGRAPHIE|Rule out fracture|TERMINE|NORMALE
+A,orders,517,demandes_examens.txt:528,duplicate_removed,479,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 479",517|645|19|25/07/2025 15:02|ECG| Follow-up of known lesion|Termine|N
+A,orders,518,demandes_examens.txt:529,duplicate_removed,389,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 389",518|537|10|21/12/2023 14:14|ECHOGRAPHIE|Pre-operative assessment|TERMINE| NORMALE
+A,orders,519,demandes_examens.txt:530,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 380 is in the quarantine,519|380|22|19/05/2023 18:44|SCANNER| Rule out infection|termine|Normale
+A,orders,520,demandes_examens.txt:531,duplicate_removed,366,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 366",520|509|19|17/11/2024 17:39|BILAN SANGUIN|Rule out infection|TERMINE|NORMALE
+A,orders,521,demandes_examens.txt:532,duplicate_removed,195,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 195",521|287|2|03/02/2025 18:31| IRM|Follow-up of known lesion|TERMINE|URG
+A,orders,522,demandes_examens.txt:533,duplicate_removed,209,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 209",522|301|15|18/08/2025 10:10|  RADIO THORAX|RULE OUT OBSTRUCTION| EN ATTENTE|IMMEDIATE
+A,orders,523,demandes_examens.txt:534,duplicate_removed,169,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 169",523|245|24|17/04/2023 13:55| ECG   |Rule out bleeding|Fait|URGENTE
+B,orders,2,investigation_requests.csv:3,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 895 does not exist in source B,"2,895,70,03/01/2022 00:56,Urinalysis,""Known hypertension, baseline"",Completed,Routine"
+B,orders,24,investigation_requests.csv:25,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1124 does not exist in source B,"24,1124,44,01/03/2022 23:17,Full Blood Count,Suspected GI bleed,Completed,Urgent"
+B,orders,45,investigation_requests.csv:46,rejected,,invalid_date:order_time,invalid_date:order_time: '13/15/2022 06:35': month must be in 1..12,"45,57,39,13/15/2022 06:35,Abdominal ultrasound,Assess acute cholecystitis,Resulted,  Urgent"
+B,orders,51,investigation_requests.csv:52,rejected,,chronology:order_time,chronology:order_time: order_time 2022-05-06T13:11:00Z after discharge 2022-04-28T07:45:00Z,"51,61,51,06/05/2022 16:11,Serum amylase,Assess pancreatitis,Completed,Urgent"
+B,orders,67,investigation_requests.csv:68,rejected,,chronology:order_time,chronology:order_time: order_time 2022-07-04T15:26:00Z after discharge 2022-05-25T09:01:00Z,"67,75,25,04/07/2022 18:26,Urinalysis,Monitoring - urinary tract infection,completed,R"
+B,orders,77,investigation_requests.csv:78,rejected,,chronology:order_time,chronology:order_time: order_time 2022-06-26T00:48:00Z after discharge 2022-06-10T16:43:00Z,"77,80,46,26/06/2022 03:48,Serum amylase,Assess pancreatitis,Completed,STAT"
+B,orders,81,investigation_requests.csv:82,rejected,,unmappable_label:order_status,unmappable_label:order_status: 'On Hold' has no standard order_status value,"81,86,43,08/06/2022 01:21,Random blood sugar,?syncope,On Hold,Urgent"
+B,orders,88,investigation_requests.csv:89,rejected,,chronology:order_time,chronology:order_time: order_time 2022-06-10T05:15:00Z before admission 2022-06-11T08:55:00Z,"88,92,77,10/06/2022 08:15,ECG,Suspected myocardial infarction,Completed,STAT"
+B,orders,103,investigation_requests.csv:104,rejected,,chronology:order_time,chronology:order_time: order_time 2022-08-20T12:01:00Z after discharge 2022-07-11T05:36:00Z,"103,113,80,20/08/2022 15:01,Liver function tests,Assess acute cholecystitis,Completed,Urgent"
+B,orders,104,investigation_requests.csv:105,rejected,,chronology:order_time,chronology:order_time: order_time 2022-07-03T19:14:00Z before admission 2022-07-09T04:32:00Z,"104,112,25,03/07/2022 22:14,CT head,Assess concussion,Pending,Routine"
+B,orders,112,investigation_requests.csv:113,rejected,,missing_required:priority,missing_required:priority: raw value 'N/A',"112,123,48,06/08/2022 03:02,Renal function tests,""Known heart failure, baseline"",Completed,N/A"
+B,orders,117,investigation_requests.csv:118,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 129 is in the quarantine,"117,129,70,08/12/2022 02:07 AM,Chest X-ray,Rule out pneumonia,Done,Routine"
+B,orders,123,investigation_requests.csv:124,rejected,,missing_required:indication,missing_required:indication: raw value '?',"123,136,80,21/08/2022 02:59,Chest X-ray,?,Completed,Urgent"
+B,orders,125,investigation_requests.csv:126,rejected,,missing_required:order_status,missing_required:order_status: raw value '?',"125,138,78,28/08/2022 13:56,HbA1c,Suspected uncontrolled diabetes,?,Routine"
+B,orders,127,investigation_requests.csv:128,rejected,,missing_required:professional_id,missing_required:professional_id: raw value '-',"127,143,-,08/09/2022 13:31,Abdominal ultrasound,Assess acute cholecystitis,Completed,Routine"
+B,orders,19,investigation_requests.csv:146,duplicate_removed,19,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:20,"19,26,39,26/02/2022 17:53,Peak flow,Assess acute asthma,Pending,Routine"
+B,orders,145,investigation_requests.csv:147,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1111 does not exist in source B,"145,1111,44,07/10/2022 21:37,ECG,Suspected hypertension,Completed,Routine"
+B,orders,146,investigation_requests.csv:148,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '08-10-2022 11:15': day/month order cannot be decided,"146,159,19,08-10-2022 11:15,Full Blood Count,Suspected syncope,Completed,Urgent"
+B,orders,152,investigation_requests.csv:154,rejected,,invalid_date:order_time,invalid_date:order_time: '27/19/2022 11:19': month must be in 1..12,"152,167,45,27/19/2022 11:19,Malaria RDT,Monitoring - sepsis,Pending,STAT"
+B,orders,153,investigation_requests.csv:155,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 172 is in the quarantine,"153,172,77,03/11/2022 21:53,Blood smear for MPs,?anaemia,Completed,Routine"
+B,orders,166,investigation_requests.csv:168,rejected,,missing_required:priority,missing_required:priority: raw value 'N/A',"166,192,38,12/12/2022 05:37,Full Blood Count,Rule out acute cholecystitis,Pending,N/A"
+B,orders,190,investigation_requests.csv:192,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 975 does not exist in source B,"190,975,60,21/01/2023 18:51,ECG,Assess atrial fibrillation,Completed,Urgent"
+B,orders,219,investigation_requests.csv:221,rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 138 does not exist in source B,"219,249,138,12/03/2023 14:56,Renal ultrasound,""Known chronic kidney disease, baseline"",Completed,Routine"
+B,orders,223,investigation_requests.csv:225,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 255 is in the quarantine,"223,255,46,22/03/2023 13:02,Chest X-ray,Monitoring - chest pain,Completed,Urgent"
+B,orders,233,investigation_requests.csv:235,rejected,,chronology:order_time,chronology:order_time: order_time 2023-05-09T16:00:00Z after discharge 2023-04-09T09:31:00Z,"233,264,44,09/05/2023 19:00,H. pylori stool antigen,Assess reflux disease,Completed,Routine"
+B,orders,236,investigation_requests.csv:238,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 266 is in the quarantine,"236,266,65,12/04/2023 14:15,Chest X-ray,Assess chest pain,Completed,Normal"
+B,orders,9,investigation_requests.csv:240,duplicate_removed,9,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:10,"9,13,60,2022-02-12 09:44:00,Chest X-ray,Rule out acute asthma,Completed,Urgent"
+B,orders,238,investigation_requests.csv:241,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 266 is in the quarantine,"238,266,19,12/04/2023 22:33,ECG,Suspected chest pain,Completed,Routine"
+B,orders,255,investigation_requests.csv:258,rejected,,chronology:order_time,chronology:order_time: order_time 2023-05-03T20:28:00Z before admission 2023-05-06T05:22:00Z,"255,284,22,03/05/2023 23:28,ECG,Assess syncope,Completed,Urgent"
+B,orders,262,investigation_requests.csv:265,rejected,,invalid_date:order_time,invalid_date:order_time: '16/14/2023 00:33': month must be in 1..12,"262,290,40,16/14/2023 00:33,Lipid profile,Suspected coronary artery disease,Completed,Urgent"
+B,orders,277,investigation_requests.csv:280,rejected,,missing_required:order_status,missing_required:order_status: raw value '',"277,310,39,11/06/2023 14:16,Full Blood Count,Assess syncope,,Routine"
+B,orders,283,investigation_requests.csv:286,rejected,,chronology:order_time,chronology:order_time: order_time 2023-07-23T19:48:00Z after discharge 2023-06-21T18:42:00Z,"283,316,4,23-07-2023 22:48,Chest X-ray,Assess acute asthma,Completed,Routine"
+B,orders,290,investigation_requests.csv:293,rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 125 does not exist in source B,"290,321,125,04/07/2023 04:59,Full Blood Count,""Known syncope, baseline"",Completed,Urgent"
+B,orders,301,investigation_requests.csv:304,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1009 does not exist in source B,"301,1009,77,25/07/2023 11:41,Urinalysis, MONITORING - URINARY TRACT INFECTION  ,Completed,Routine"
+B,orders,303,investigation_requests.csv:306,rejected,,chronology:order_time,chronology:order_time: order_time 2023-07-18T20:34:00Z before admission 2023-08-01T04:47:00Z,"303,334,7,18/07/2023 23:34,Stool analysis,Rule out dehydration,Pending,STAT"
+B,orders,318,investigation_requests.csv:321,rejected,,missing_required:professional_id,missing_required:professional_id: raw value '',"318,348,,25/08/2023 10:48,Troponin I,Suspected chest pain,Completed,Urgent"
+B,orders,328,investigation_requests.csv:331,rejected,,missing_required:priority,missing_required:priority: raw value '-',"328,359,42,05/09/2023 13:46,CT head,Suspected concussion,Done,-"
+B,orders,341,investigation_requests.csv:344,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 884 does not exist in source B,"341,884,39,11/10/2023 10:57,Full Blood Count,Assess appendicitis,Completed,Urgent"
+B,orders,356,investigation_requests.csv:359,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 936 does not exist in source B,"356,936,60,02/11/2023 08:41,Full Blood Count,?pneumonia,Cancelled,Urgent"
+B,orders,40,investigation_requests.csv:360,duplicate_removed,40,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:41,"40,50,78,02/04/2022 03:10,Renal ultrasound,Assess acute kidney injury,Done, R"
+B,orders,362,investigation_requests.csv:366,rejected,,invalid_date:order_time,invalid_date:order_time: '30/02/2023 16:08': day is out of range for month,"362,395,60,30/02/2023 16:08,Troponin I,Rule out myocardial infarction,Completed,Stat"
+B,orders,364,investigation_requests.csv:368,rejected,,missing_required:priority,missing_required:priority: raw value '?',"364,397,66,2023-11-17T17:23,Malaria RDT,Monitoring - pneumonia,Completed,?"
+B,orders,369,investigation_requests.csv:373,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '01-12-2023 17:13': day/month order cannot be decided,"369,401,80,01-12-2023 17:13,Renal function tests,""Known acute kidney injury, baseline"",Completed,Urgent"
+B,orders,374,investigation_requests.csv:378,rejected,,missing_required:professional_id,missing_required:professional_id: raw value '-',"374,410,-,14/12/2023 19:23,Troponin I,""Known chest pain, baseline"",Completed,Urgent"
+B,orders,398,investigation_requests.csv:402,rejected,,missing_required:order_status,missing_required:order_status: raw value '',"398,434,69,17/01/2024 07:40,Chest X-ray,Monitoring - heart failure,,STAT"
+B,orders,406,investigation_requests.csv:410,rejected,,missing_required:admission_id,missing_required:admission_id: raw value 'N/A',"406,N/A,73,25/01/2024 12:16,Blood smear for MPs,?anaemia,Cancelled,Urgent"
+B,orders,411,investigation_requests.csv:415,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 445 is in the quarantine,"411,445,69,05/02/2024 17:02,Renal function tests,Assess hypertension,Completed,Urgent"
+B,orders,414,investigation_requests.csv:418,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '10-02-2024 12:35': day/month order cannot be decided,"414,449,71,10-02-2024 12:35,H. pylori stool antigen,?reflux disease,Pending,Routine"
+B,orders,423,investigation_requests.csv:427,rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 127 does not exist in source B,"423,453,127,19/02/2024 19:20,Renal ultrasound,""Known chronic kidney disease, baseline"",Completed,Routine"
+B,orders,215,investigation_requests.csv:428,duplicate_removed,215,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:217,"215,240,19,02/27/2023 06:34 PM,Renal function tests,?dehydration,Completed,Routine"
+B,orders,429,investigation_requests.csv:434,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 459 is in the quarantine,"429,459,44,29/02/2024 03:12,Full Blood Count,""Known sepsis, baseline"",Completed,Routine"
+B,orders,136,investigation_requests.csv:437,duplicate_removed,136,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:137,"136,150,10,13/09/2022 01:45,Liver function tests,Suspected acute cholecystitis,Completed,Urgent"
+B,orders,228,investigation_requests.csv:455,duplicate_removed,228,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:230,"228,259,80,01/04/2023 17:25, Renal function tests,Assess uncontrolled diabetes,Completed,Normal"
+B,orders,457,investigation_requests.csv:464,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '02-05-2024 14:28': day/month order cannot be decided,"457,489,48,02-05-2024 14:28,Renal function tests,Rule out acute kidney injury,Resulted,STAT"
+B,orders,461,investigation_requests.csv:468,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1162 does not exist in source B,"461,1162,10,05/06/2024 05:11 AM,Chest X-ray,?acute asthma,Completed,Urgent"
+B,orders,462,investigation_requests.csv:469,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 897 does not exist in source B,"462,897,25,06/05/2024 05:22,Lipid profile,?coronary artery disease,Completed,Urgent"
+B,orders,476,investigation_requests.csv:483,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 505 is in the quarantine,"476,505,48,23/05/2024 12:24, H. PYLORI STOOL ANTIGEN  ,Rule out reflux disease,Completed,Routine"
+B,orders,483,investigation_requests.csv:490,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 514 is in the quarantine,"483,514,73,02/06/2024 13:58,Chest X-ray,  Suspected tobacco use,Completed,Routine"
+B,orders,499,investigation_requests.csv:506,rejected,,invalid_date:order_time,invalid_date:order_time: '29/15/2024 09:45': month must be in 1..12,"499,529,40,29/15/2024 09:45,Abdominal ultrasound,Monitoring - gallstones,Cancelled,R"
+B,orders,502,investigation_requests.csv:509,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 533 is in the quarantine,"502,533,42,04/07/2024 10:41,Free T4,Assess hypothyroidism,Completed,Routine"
+B,orders,505,investigation_requests.csv:512,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 898 does not exist in source B,"505,898,4,06/07/2024 10:42,Renal function tests,Assess chronic kidney disease,Completed,Routine"
+B,orders,510,investigation_requests.csv:517,rejected,,chronology:order_time,chronology:order_time: order_time 2024-08-19T17:31:00Z after discharge 2024-07-14T11:19:00Z,"510,538,39,19/08/2024 20:31,CT pulmonary angiogram,""Known pulmonary embolism, baseline"", COMPLETED  ,Urgent"
+B,orders,536,investigation_requests.csv:543,rejected,,invalid_date:order_time,invalid_date:order_time: '20/13/2024 02:24': month must be in 1..12,"536,559,80,20/13/2024 02:24,Random blood sugar,Rule out seizure,Completed,Urgent"
+B,orders,540,investigation_requests.csv:547,rejected,,invalid_date:order_time,invalid_date:order_time: '00/08/2024 01:41': day is out of range for month,"540,566,22,00/08/2024 01:41,Iron studies,Monitoring - anaemia,Completed,Urgent"
+B,orders,548,investigation_requests.csv:555,rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 86 does not exist in source B,"548,578,86,20/09/2024 22:37,Arterial blood gas,Suspected respiratory failure,Completed,STAT"
+B,orders,552,investigation_requests.csv:559,rejected,,chronology:order_time,chronology:order_time: order_time 2024-09-03T13:26:00Z before admission 2024-09-27T15:08:00Z,"552,581,66,03/09/2024 16:26,Urinalysis,Suspected appendicitis,Completed,STAT"
+B,orders,558,investigation_requests.csv:565,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 591 is in the quarantine,"558,591,77,13/10/2024 09:17,Stool analysis,Suspected dehydration,Completed,Routine"
+B,orders,560,investigation_requests.csv:567,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 591 is in the quarantine,"560,591,70,2024-10-13 20:07:00,Serum electrolytes,Suspected dehydration,Completed,Urgent"
+B,orders,563,investigation_requests.csv:570,rejected,,chronology:order_time,chronology:order_time: order_time 2024-10-30T22:14:00Z after discharge 2024-10-25T18:28:00Z,"563,594,28,31/10/2024 01:14,Troponin I,?myocardial infarction,Completed,Urgent"
+B,orders,506,investigation_requests.csv:587,duplicate_removed,506,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:513,"506,535,73,06/07/2024 11:02,Random blood sugar,""Known uncontrolled diabetes, baseline"",Completed  ,Urgent"
+B,orders,586,investigation_requests.csv:594,rejected,,invalid_date:order_time,invalid_date:order_time: '31/09/2024 14:10': day is out of range for month,"586,627,38,31/09/2024 14:10,HbA1c,Assess uncontrolled diabetes,Completed,Routine"
+B,orders,587,investigation_requests.csv:595,rejected,,unmappable_label:priority,unmappable_label:priority: 'Level 2' has no standard priority value,"587,626,80,30/11/2024 11:19, Chest X-ray,Suspected respiratory failure,Resulted,Level 2"
+B,orders,591,investigation_requests.csv:599,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '03-12-2024 23:40': day/month order cannot be decided,"591,629,42,03-12-2024 23:40,Serum amylase,""Known pancreatitis, baseline"",Completed,Urgent"
+B,orders,211,investigation_requests.csv:608,duplicate_removed,211,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:213,"211,236,70,2023-02-23 06:57:00,Chest X-ray,Suspected heart failure,Completed,STAT"
+B,orders,573,investigation_requests.csv:616,duplicate_removed,573,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:580,"573,608,60,03/11/2024 13:30,Liver function tests,Monitoring - acute cholecystitis,completed,Routine"
+B,orders,607,investigation_requests.csv:617,rejected,,unmappable_label:order_status,unmappable_label:order_status: 'Sent' has no standard order_status value,"607,646,66,08/01/2025 07:23,Chest X-ray,Monitoring - respiratory failure,Sent,Routine"
+B,orders,620,investigation_requests.csv:630,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '04-02-2025 10:40': day/month order cannot be decided,"620,660,65,04-02-2025 10:40,Renal function tests,Suspected hypertension,Resulted,Routine"
+B,orders,622,investigation_requests.csv:632,rejected,,missing_required:professional_id,missing_required:professional_id: raw value 'null',"622,659,null,05/02/2025 21:48,Urinalysis,Monitoring - appendicitis,Completed,Urgent"
+B,orders,627,investigation_requests.csv:637,rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '08-02-2025 01:34': day/month order cannot be decided,"627,662,4,08-02-2025 01:34,Liver function tests,Rule out acute cholecystitis,Completed,Routine"
+B,orders,629,investigation_requests.csv:639,rejected,,chronology:order_time,chronology:order_time: order_time 2025-02-06T14:45:00Z before admission 2025-02-07T20:15:00Z,"629,664,39,06/02/2025 17:45,Troponin I,?chest pain,Cancelled,Urgent"
+B,orders,642,investigation_requests.csv:652,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 681 is in the quarantine,"642,681,74,12/03/2025 06:25,Renal function tests,Monitoring - coronary artery disease,Completed,STAT"
+B,orders,647,investigation_requests.csv:657,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 690 is in the quarantine,"647,690,78,28/03/2025 12:00,Urinalysis,?urinary tract infection,Completed,Routine"
+B,orders,655,investigation_requests.csv:665,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 966 does not exist in source B,"655,966,46,14/04/2025 23:55,Malaria RDT,""Known sepsis, baseline"",Completed,STAT"
+B,orders,694,investigation_requests.csv:704,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 733 is in the quarantine,"694,733,78,21/05/2025 23:02,H. pylori stool antigen,Monitoring   - reflux disease,In Progress,Routine"
+B,orders,720,investigation_requests.csv:730,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 763 is in the quarantine,"720,763,31,15/07/2025 00:39,Full Blood Count,Assess osteoarthritis of knee,Completed,Routine  "
+B,orders,724,investigation_requests.csv:734,rejected,,missing_required:professional_id,missing_required:professional_id: raw value '-',"724,768,-,27/07/2025 23:04,Random blood sugar,Suspected seizure,Completed,STAT"
+B,orders,664,investigation_requests.csv:736,duplicate_removed,664,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:674,"664,706,39,25/04/2025 11:46,TSH,""Known hypothyroidism, baseline"",Completed,Urgent"
+B,orders,734,investigation_requests.csv:745,rejected,,missing_required:professional_id,missing_required:professional_id: raw value 'null',"734,781,null,09/08/2025 09:36,CT abdomen,Rule out pancreatitis,Completed,STAT"
+B,orders,644,investigation_requests.csv:746,duplicate_removed,644,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:654,"644,683,43,14/03/2025 16:27,Random blood sugar,Monitoring - uncontrolled diabetes,Completed,Routine"
+B,orders,657,investigation_requests.csv:749,duplicate_removed,657,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:667,"657,699,66,15/04/2025 06:17,TSH,Assess atrial fibrillation,completed    ,Routine"
+B,orders,676,investigation_requests.csv:756,duplicate_removed,676,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:686,"676,714,25,01/05/2025 14:15,Renal function tests,Suspected chronic kidney disease,Completed,Urgent"
+B,orders,756,investigation_requests.csv:770,rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 800 is in the quarantine,"756,800,21,08/09/2025 19:55,Abdominal ultrasound,Assess gallstones ,Completed,Routine"
+B,orders,712,investigation_requests.csv:774,duplicate_removed,712,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:722,"712,754,66,25/06/2025 19:29,Blood culture,""Known sepsis, baseline"",Completed,STAT"
+B,orders,763,investigation_requests.csv:778,rejected,,chronology:order_time,chronology:order_time: order_time 2025-08-29T07:32:00Z before admission 2025-09-25T08:18:00Z,"763,808,70,29/08/2025 10:32,Renal function tests,Monitoring - acute kidney injury,Completed,Urgent"
+B,orders,765,investigation_requests.csv:783,duplicate_removed,765,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:780,"765,811,70,01/10/2025 10:38,ECG,Rule out pulmonary embolism,Completed,Urgent"
+B,orders,754,investigation_requests.csv:790,duplicate_removed,754,exact_duplicate,exact_duplicate: same ID and same values as investigation_requests.csv:768,"754,797,73,31/08/2025 16:36,Troponin I,Rule out chest pain,Completed,Routine"
+B,orders,787,investigation_requests.csv:804,duplicate_removed,141,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 141","787,155,74,30/09/2022 19:04,Abdominal ultrasound,Monitoring - gallstones,Completed,  Routine"
+B,orders,788,investigation_requests.csv:805,duplicate_removed,30,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 30","788,39,10,14/03/2022 21:39,serum electrolytes,""Known dehydration, baseline"",Completed,Routine"
+B,orders,789,investigation_requests.csv:806,duplicate_removed,775,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 775","789,823,42,21/10/2025 06:06,Full Blood Count,Suspected anaemia,In Progress,R"
+B,orders,790,investigation_requests.csv:807,duplicate_removed,727,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 727","790,770,4,07/29/2025 09:31 AM,SPUTUM CULTURE,Rule out pneumonia,Completed,Routine"
+B,orders,791,investigation_requests.csv:808,duplicate_removed,491,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 491","791,520,4,11/06/2024 01:32,CT head,Monitoring - concussion,Completed,Urgent    "
+B,orders,792,investigation_requests.csv:809,duplicate_removed,59,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 59","792,67,69,14/05/2022 12:51,ECG,monitoring - syncope,Completed,U"
+B,orders,793,investigation_requests.csv:810,duplicate_removed,64,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 64","793,71,45,21/05/2022 08:32,ECG,?coronary artery disease,Completed,Urgent"
+B,orders,794,investigation_requests.csv:811,duplicate_removed,321,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 321","794,349,78,25/08/2023 23:14,Blood culture,?sepsis,Completed,STAT"
+B,orders,795,investigation_requests.csv:812,duplicate_removed,650,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 650","795,694,73,04/04/2025 07:01,Abdominal ultrasound,?pancreatitis,Completed,STAT"
+B,orders,796,investigation_requests.csv:813,duplicate_removed,690,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 690","796,731,46,19/05/2025 10:06,Blood smear for MPs,Assess anaemia,Completed,STAT"
+B,orders,797,investigation_requests.csv:814,duplicate_removed,687,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 687","797,728,28,15/05/2025 14:41,Iron studies,""Known anaemia, baseline"",Completed,Routine"
+B,orders,798,investigation_requests.csv:815,duplicate_removed,753,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 753","798,795,40,30/08/2025 13:21,Chest X-ray,Rule out acute asthma,Completed,Routine"
+B,orders,799,investigation_requests.csv:816,duplicate_removed,399,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 399","799,433,80,18/01/2024 02:07,Renal ultrasound,?chronic kidney disease,Completed,Routine"
+B,orders,800,investigation_requests.csv:817,duplicate_removed,617,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 617","800,658,19,02/01/2025 05:29 AM,Full Blood Count,?anaemia,Completed,Urgent"
+B,orders,801,investigation_requests.csv:818,duplicate_removed,437,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 437","801,470,39,20/03/2024 16:05,Full Blood Count,Assess pneumonia,Completed,Routine"
+B,orders,802,investigation_requests.csv:819,duplicate_removed,472,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 472","802,499,80,13/05/2024 16:18,Full Blood Count,Monitoring - dehydration,Pending,Urgent"
+B,orders,803,investigation_requests.csv:820,duplicate_removed,34,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 34","803,44,69,20/03/2022 01:36,Full Blood Count,Suspected syncope,Completed,Routine"
+B,orders,804,investigation_requests.csv:821,duplicate_removed,334,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 334","804,367,45,09/20/2023 04:35 AM,Serum electrolytes,Suspected acute kidney injury,Completed,Urgent"
+B,orders,805,investigation_requests.csv:822,duplicate_removed,161,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 161","805,187,25,05/12/2022 23:40,  CT head,Rule out concussion,Completed,Urgent"
+B,orders,806,investigation_requests.csv:823,duplicate_removed,748,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 748","806,792,10,26/08/2025 17:28,Chest X-ray,?acute asthma,Completed  ,URG"
+B,orders,807,investigation_requests.csv:824,duplicate_removed,493,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 493","807,522,44,16/06/2024 09:14,Serum electrolytes,""known seizure, BASELINE"",Completed,STAT"
+B,orders,808,investigation_requests.csv:825,duplicate_removed,561,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 561","808,593,78,15/10/2024 09:45,Serum electrolytes,Assess atrial fibrillation,Completed,Routine"
+B,orders,809,investigation_requests.csv:826,duplicate_removed,280,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 280","809,312,25,15/06/2023 19:20,ecg,""Known syncope, baseline"",Completed,STAT"
+C,orders,1,admissions/admission[2]/labOrder[14],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 2 is in the quarantine,"<labOrder id=""1"">
+        <test>full blood count</test>
+        <orderedAt>2024-10-17T23:35:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0007</orderedBy>
+      </labOrder>"
+C,orders,5,admissions/admission[7]/labOrder[12],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '02-05-2023 11:44': day/month order cannot be decided,"<labOrder id=""5"">
+        <test>CT</test>
+        <orderedAt>02-05-2023 11:44</orderedAt>
+        <indication>follow-up of known lesion</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0014</orderedBy>
+        <imaging id=""2"">
+          <modality>CT</modality>
+          <performedAt>2023-05-02T12:53:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/7-2</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0014</referrer>
+          <radiographer>S0065</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,6,admissions/admission[9]/labOrder[14],duplicate_removed,6,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[9]/labOrder[13],"<labOrder id=""6"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2023-01-28T03:54:00+08:00</orderedAt>
+        <indication>Rule out bleeding</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0002</orderedBy>
+      </labOrder>"
+C,orders,7,admissions/admission[10]/labOrder[13],rejected,,chronology:order_time,chronology:order_time: order_time 2023-03-15T14:56:00Z before admission 2023-03-22T14:56:00Z,"<labOrder id=""7"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2023-03-15T22:56:00+08:00</orderedAt>
+        <indication>Rule out ischaemia   </indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0003</orderedBy>
+        <imaging id=""4"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2023-03-32T05:39:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/10-4</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0003</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,499,admissions/admission[14]/labOrder[21],duplicate_removed,9,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 9","<labOrder id=""499"">
+        <test>ECG</test>
+        <orderedAt>2023-09-24T13:23:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Resulted</status>
+        <priority>STAT</priority>
+        <orderedBy>S0010</orderedBy>
+      </labOrder>"
+C,orders,11,admissions/admission[15]/labOrder[15],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 15 is in the quarantine,"<labOrder id=""11"">
+        <test>ECG</test>
+        <orderedAt>2024-04-05T14:25:00+08:00</orderedAt>
+        <indication>Rule out ischaemia</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0001</orderedBy>
+      </labOrder>"
+C,orders,12,admissions/admission[15]/labOrder[16],rejected,,invalid_date:order_time,invalid_date:order_time: 'TBC': not a recognised date format,"<labOrder id=""12"">
+        <test>Chest X-Ray</test>
+        <orderedAt>TBC</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>In Progress</status>
+        <priority>Routine</priority>
+        <orderedBy>S0002</orderedBy>
+        <imaging id=""7"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2024-04-05T03:15:00+08:00</performedAt>
+          <bodyPart>null</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/15-7</pacsUrl>
+          <referrer>S0002</referrer>
+          <radiographer>S0070</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,15,admissions/admission[17]/labOrder[13],rejected,,invalid_date:order_time,invalid_date:order_time: '2024-02-31T07:21:00+08:00': day is out of range for month,"<labOrder id=""15"">
+        <test>MRI</test>
+        <orderedAt>2024-02-31T07:21:00+08:00</orderedAt>
+        <indication>rULE OUT ISCHAEMIA</indication>
+        <status>Ordered</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0014</orderedBy>
+      </labOrder>"
+C,orders,19,admissions/admission[20]/labOrder[12],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 20 is in the quarantine,"<labOrder id=""19"">
+        <test>MRI</test>
+        <orderedAt>2024-09-13T22:43:00+08:00</orderedAt>
+        <indication>Rule out ischaemia</indication>
+        <status>In Progress</status>
+        <priority>Routine</priority>
+        <orderedBy>S0010</orderedBy>
+        <imaging id=""11"">
+          <modality>MRI</modality>
+          <performedAt>2024-09-14T00:43:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/20-11</pacsUrl>
+          <referrer>S0010</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,20,admissions/admission[21]/labOrder[13],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 21 is in the quarantine,"<labOrder id=""20"">
+        <test>MRI</test>
+        <orderedAt>2025-01-16T09:15:00+08:00</orderedAt>
+        <indication>Rule out bleeding</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0020</orderedBy>
+        <imaging id=""12"">
+          <modality>MRI</modality>
+          <performedAt>2025-01-16T16:15:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Completed</status>
+          <pacsUrl>https://pacs.srmc.example/study/21-12</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0020</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,27,admissions/admission[31]/labOrder[15],rejected,,chronology:order_time,chronology:order_time: order_time 2024-04-24T01:57:00Z before admission 2024-05-08T01:57:00Z,"<labOrder id=""27"">
+        <test>MRI</test>
+        <orderedAt>2024-04-24T09:57:00+08:00</orderedAt>
+        <indication>Rule out fracture</indication>
+        <status>Ordered</status>
+        <priority>Routine</priority>
+        <orderedBy>S0007</orderedBy>
+      </labOrder>"
+C,orders,494,admissions/admission[35]/labOrder[17],duplicate_removed,32,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 32","<labOrder id=""494"">
+        <test>MRI</test>
+        <orderedAt>2023-02-25T19:42:00+08:00</orderedAt>
+        <indication> Rule out obstruction</indication>
+        <status> Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0005</orderedBy>
+      </labOrder>"
+C,orders,43,admissions/admission[47]/labOrder[17],duplicate_removed,43,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[47]/labOrder[16],"<labOrder id=""43"">
+        <test> Ultrasound </test>
+        <orderedAt>2025-02-10T07:33:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0008</orderedBy>
+      </labOrder>"
+C,orders,51,admissions/admission[60]/labOrder[18],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 59 is in the quarantine,"<labOrder id=""51"">
+        <test>Full Blood Count</test>
+        <orderedAt>2022-01-17T18:18:00+08:00</orderedAt>
+        <indication>Follow-up of known lesion</indication>
+        <status>  Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0019</orderedBy>
+      </labOrder>"
+C,orders,83,admissions/admission[113]/labOrder[12],rejected,,unmappable_label:order_status,unmappable_label:order_status: 'On Hold' has no standard order_status value,"<labOrder id=""83"">
+        <test>Ultrasound</test>
+        <orderedAt>2023-07-14T14:42:00+08:00</orderedAt>
+        <indication>Follow-up of known lesion</indication>
+        <status>On Hold</status>
+        <priority>Routine</priority>
+        <orderedBy>S0021</orderedBy>
+        <imaging id=""50"">
+          <modality>Ultrasound</modality>
+          <performedAt>2023-07-14T16:42:00+08:00</performedAt>
+          <bodyPart>N/A</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/110-50</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0021</referrer>
+          <radiographer>S0063</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,89,admissions/admission[123]/labOrder[15],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 448 does not exist in source C,"<labOrder id=""89"">
+        <test>Ultrasound</test>
+        <orderedAt>22/05/2023 09:15</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>Processing</status>
+        <priority>Routine</priority>
+        <orderedBy>S0448</orderedBy>
+        <imaging id=""56"">
+          <modality>Ultrasound</modality>
+          <performedAt>2023-05-22T13:15:00+08:00</performedAt>
+          <bodyPart />
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/120-56</pacsUrl>
+          <referrer>S0024</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,90,admissions/admission[124]/labOrder[12],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 844 does not exist in source C,"<labOrder id=""90"">
+        <test>CT</test>
+        <orderedAt>2022-08-19T16:55:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Resulted</status>
+        <priority>STAT</priority>
+        <orderedBy>S0844</orderedBy>
+        <imaging id=""57"">
+          <modality>CT</modality>
+          <performedAt>2022-08-20T02:55:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/121-57</pacsUrl>
+          <report>?</report>
+          <referrer>S0023</referrer>
+          <radiographer>S0065</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,99,admissions/admission[138]/labOrder[18],rejected,,chronology:order_time,chronology:order_time: order_time 2022-07-02T20:19:00Z after discharge 2022-06-15T20:19:00Z,"<labOrder id=""99"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2022-07-03T04:19:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Resulted</status>
+        <priority>STAT</priority>
+        <orderedBy>S0005</orderedBy>
+        <imaging id=""64"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2022-06-05 08:35</performedAt>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/134-64</pacsUrl>
+          <report>RIGHT LOWER ZONE CONSOLIDATION.</report>
+          <referrer>S0005</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,103,admissions/admission[146]/labOrder[14],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 759 does not exist in source C,"<labOrder id=""103"">
+        <test>ECG</test>
+        <orderedAt>2022-04-30T17:32:00+08:00</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>Void</status>
+        <priority>Routine</priority>
+        <orderedBy>S0759</orderedBy>
+      </labOrder>"
+C,orders,105,admissions/admission[155]/labOrder[21],rejected,,missing_required:indication,missing_required:indication: raw value 'N/A',"<labOrder id=""105"">
+        <test>ct</test>
+        <orderedAt>2023-08-15T08:07:00+08:00</orderedAt>
+        <indication>N/A</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0009</orderedBy>
+        <imaging id=""69"">
+          <modality>CT</modality>
+          <performedAt>2023-08-15T11:07:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/151-69</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0009</referrer>
+          <radiographer>S0061</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,106,admissions/admission[156]/labOrder[15],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 152 is in the quarantine,"<labOrder id=""106"">
+        <test>Full Blood Count</test>
+        <orderedAt>2023-10-23T23:49:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Resulted   </status>
+        <priority>Routine</priority>
+        <orderedBy>S0009</orderedBy>
+      </labOrder>"
+C,orders,109,admissions/admission[161]/labOrder[17],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 157 is in the quarantine,"<labOrder id=""109"">
+        <test>ECG</test>
+        <orderedAt>2023-05-21T08:03:00+08:00</orderedAt>
+        <indication>Follow-up of known lesion</indication>
+        <status>Resulted</status>
+        <priority>STAT</priority>
+        <orderedBy>S0011</orderedBy>
+      </labOrder>"
+C,orders,495,admissions/admission[168]/labOrder[14],duplicate_removed,113,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 113","<labOrder id=""495"">
+        <test>CT</test>
+        <orderedAt>2024-06-28T12:43:00+08:00</orderedAt>
+        <indication>Rule out bleeding</indication>
+        <status>resulted</status>
+        <priority>STAT</priority>
+        <orderedBy>S0022</orderedBy>
+      </labOrder>"
+C,orders,118,admissions/admission[172]/labOrder[15],rejected,,invalid_date:order_time,invalid_date:order_time: '2024-02-31T04:56:00+08:00': day is out of range for month,"<labOrder id=""118"">
+        <test>Ultrasound</test>
+        <orderedAt>2024-02-31T04:56:00+08:00</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>In Progress</status>
+        <priority>Routine</priority>
+        <orderedBy>S0001</orderedBy>
+        <imaging id=""75"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-08-21T06:56:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/168-75</pacsUrl>
+          <referrer>S0001</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>
+        <imaging id=""332"">
+          <modality>ultrasound</modality>
+          <performedAt>21 Aug 2024 06:56 AM</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/168-75</pacsUrl>
+          <referrer>S0001</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,123,admissions/admission[177]/labOrder[15],rejected,,missing_required:order_time,missing_required:order_time: raw value '',"<labOrder id=""123"">
+        <test>Chest X-Ray</test>
+        <orderedAt />
+        <indication>Rule out fracture</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0017</orderedBy>
+        <imaging id=""79"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2023-03-17T09:12:00+08:00</performedAt>
+          <bodyPart />
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/173-79</pacsUrl>
+          <report>Mild degenerative changes.</report>
+          <referrer>S0017</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,504,admissions/admission[177]/labOrder[17],duplicate_removed,124,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 124","<labOrder id=""504"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2023-03-19T00:43:00+08:00</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>Ordered</status>
+        <priority>urgent</priority>
+        <orderedBy>S0011</orderedBy>
+      </labOrder>"
+C,orders,503,admissions/admission[183]/labOrder[18],duplicate_removed,128,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 128","<labOrder id=""503"">
+        <test>ECG</test>
+        <orderedAt>2024-01-05T09:49:00+08:00</orderedAt>
+        <indication>Rule out infection</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0008</orderedBy>
+      </labOrder>"
+C,orders,136,admissions/admission[190]/labOrder[13],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 369 does not exist in source C,"<labOrder id=""136"">
+        <test>CT</test>
+        <orderedAt>2024-02-02T20:28:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Done</status>
+        <priority>Routine</priority>
+        <orderedBy>S0369</orderedBy>
+        <imaging id=""84"">
+          <modality>CT</modality>
+          <performedAt>2024-02-02T21:20:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/186-84</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0010</referrer>
+          <radiographer>S0063</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,154,admissions/admission[216]/labOrder[15],rejected,,invalid_date:order_time,invalid_date:order_time: '2024-02-31T15:45:00+08:00': day is out of range for month,"<labOrder id=""154"">
+        <test>MRI</test>
+        <orderedAt>2024-02-31T15:45:00+08:00</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0024</orderedBy>
+        <imaging id=""94"">
+          <modality>MRI</modality>
+          <performedAt>2024-03-30T15:53:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/211-94</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0024</referrer>
+          <radiographer>S0062</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,158,admissions/admission[223]/labOrder[15],rejected,,unmappable_label:order_status,unmappable_label:order_status: 'On Hold' has no standard order_status value,"<labOrder id=""158"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2023-06-20T03:53:00+08:00</orderedAt>
+        <indication>Rule out fracture</indication>
+        <status>On Hold</status>
+        <priority>STAT</priority>
+        <orderedBy>S0020</orderedBy>
+        <imaging id=""95"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>20-06-2023 10:53</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>?</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0020</referrer>
+          <radiographer>S0069</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,165,admissions/admission[233]/labOrder[14],rejected,,chronology:order_time,chronology:order_time: order_time 2024-03-15T06:56:00Z after discharge 2024-02-24T06:56:00Z,"<labOrder id=""165"">
+        <test>MRI</test>
+        <orderedAt>2024-03-15T14:56:00+08:00</orderedAt>
+        <indication>Rule out bleeding</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0005</orderedBy>
+        <imaging id=""102"">
+          <modality>MRI</modality>
+          <performedAt>2024-02-20T18:13:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/227-102</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0005</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,170,admissions/admission[242]/labOrder[13],rejected,,invalid_date:order_time,invalid_date:order_time: '2023-12-32T14:31:00+08:00': day is out of range for month,"<labOrder id=""170"">
+        <test>MRI</test>
+        <orderedAt>2023-12-32T14:31:00+08:00</orderedAt>
+        <indication>Rule out infection</indication>
+        <status>Ordered</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0006</orderedBy>
+      </labOrder>"
+C,orders,176,admissions/admission[253]/labOrder[16],duplicate_removed,176,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[253]/labOrder[15],"<labOrder id=""176"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2022-10-18T17:12:00+08:00</orderedAt>
+        <indication>Rule out fracture</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0010</orderedBy>
+      </labOrder>"
+C,orders,505,admissions/admission[263]/labOrder[14],duplicate_removed,180,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 180","<labOrder id=""505"">
+        <test>ECG</test>
+        <orderedAt>2024-01-17T13:10:00+08:00</orderedAt>
+        <indication>rule out infection</indication>
+        <status>Cancelled</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0006</orderedBy>
+      </labOrder>"
+C,orders,502,admissions/admission[285]/labOrder[15],duplicate_removed,195,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 195","<labOrder id=""502"">
+        <test>Full Blood Count</test>
+        <orderedAt>2023-10-09T06:10:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Ordered</status>
+        <priority>Routine</priority>
+        <orderedBy>S0024</orderedBy>
+      </labOrder>"
+C,orders,204,admissions/admission[304]/labOrder[16],duplicate_removed,204,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[304]/labOrder[15],"<labOrder id=""204"">
+        <test>ECG</test>
+        <orderedAt>2023-07-09T05:42:00+08:00</orderedAt>
+        <indication>RULE OUT ISCHAEMIA</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0004</orderedBy>
+      </labOrder>"
+C,orders,493,admissions/admission[309]/labOrder[16],duplicate_removed,208,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 208","<labOrder id=""493"">
+        <test>Full Blood Count</test>
+        <orderedAt>2022-11-15T20:23:00+08:00</orderedAt>
+        <indication>RULE OUT BLEEDING</indication>
+        <status>  Resulted</status>
+        <priority>routine</priority>
+        <orderedBy>S0022</orderedBy>
+      </labOrder>"
+C,orders,210,admissions/admission[310]/labOrder[17],rejected,,chronology:order_time,chronology:order_time: order_time 2023-01-31T21:33:00Z after discharge 2023-01-22T21:33:00Z,"<labOrder id=""210"">
+        <test>MRI</test>
+        <orderedAt>2023-02-01T05:33:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0008</orderedBy>
+        <imaging id=""131"">
+          <modality>MRI</modality>
+          <performedAt>2023-01-07T14:50:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>null</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0008</referrer>
+          <radiographer>S0069</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,497,admissions/admission[313]/labOrder[17],duplicate_removed,212,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 212","<labOrder id=""497"">
+        <test>chest x-ray</test>
+        <orderedAt>2022-10-05T00:18:00+08:00</orderedAt>
+        <indication>follow-up of known lesion</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0004</orderedBy>
+      </labOrder>"
+C,orders,216,admissions/admission[319]/labOrder[13],duplicate_removed,216,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[319]/labOrder[12],"<labOrder id=""216"">
+        <test>CT</test>
+        <orderedAt>31 Dec 2024 07:14 PM</orderedAt>
+        <indication>Rule out bleeding</indication>
+        <status>RESULTED</status>
+        <priority>Routine</priority>
+        <orderedBy>S0008</orderedBy>
+      </labOrder>"
+C,orders,220,admissions/admission[323]/labOrder[13],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '08-05-2024 19:51': day/month order cannot be decided,"<labOrder id=""220"">
+        <test>MRI</test>
+        <orderedAt>08-05-2024 19:51</orderedAt>
+        <indication>Follow-up of known lesion</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0004</orderedBy>
+        <imaging id=""140"">
+          <modality>MRI</modality>
+          <performedAt>2024-05-08T21:51:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/317-140</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0004</referrer>
+          <radiographer>S0061</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,224,admissions/admission[329]/labOrder[14],rejected,,chronology:order_time,chronology:order_time: order_time 2024-10-22T00:42:00Z after discharge 2024-10-05T00:42:00Z,"<labOrder id=""224"">
+        <test>Ultrasound</test>
+        <orderedAt>2024-10-22T08:42:00+08:00</orderedAt>
+        <indication>Rule out bleeding</indication>
+        <status>Ordered</status>
+        <priority>Routine</priority>
+        <orderedBy>S0019</orderedBy>
+      </labOrder>"
+C,orders,228,admissions/admission[332]/labOrder[16],rejected,,chronology:order_time,chronology:order_time: order_time 2022-12-11T23:08:00Z before admission 2022-12-30T23:08:00Z,"<labOrder id=""228"">
+        <test>Ultrasound</test>
+        <orderedAt>2022-12-12T07:08:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0008</orderedBy>
+        <imaging id=""144"">
+          <modality>Ultrasound</modality>
+          <performedAt>2023-01-02T16:32:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/326-144</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0008</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,235,admissions/admission[340]/labOrder[18],rejected,,missing_required:indication,missing_required:indication: raw value 'null',"<labOrder id=""235"">
+        <test>Ultrasound</test>
+        <orderedAt>2022-11-11T07:19:00+08:00</orderedAt>
+        <indication>null</indication>
+        <status>In Progress</status>
+        <priority>Routine</priority>
+        <orderedBy>S0023</orderedBy>
+        <imaging id=""147"">
+          <modality>Ultrasound</modality>
+          <performedAt>2022-11-11T17:19:00+08:00</performedAt>
+          <bodyPart>null</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/333-147</pacsUrl>
+          <referrer>S0023</referrer>
+          <radiographer>S0067</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,239,admissions/admission[346]/labOrder[14],rejected,,missing_required:professional_id,missing_required:professional_id: raw value 'null',"<labOrder id=""239"">
+        <test>CT</test>
+        <orderedAt>2022-09-26T07:41:00+08:00</orderedAt>
+        <indication>Rule out ischaemia</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>null</orderedBy>
+        <imaging id=""149"">
+          <modality>CT</modality>
+          <performedAt>2022-09-26T25:41:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/339-149</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0003</referrer>
+          <radiographer>S0070</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,246,admissions/admission[353]/labOrder[12],rejected,,missing_required:order_time,missing_required:order_time: raw value '',"<labOrder id=""246"">
+        <test>Chest X-Ray</test>
+        <orderedAt />
+        <indication>Rule out infection</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0015</orderedBy>
+        <imaging id=""156"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2024-08-12T11:50:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/346-156</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0015</referrer>
+          <radiographer>S0059</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,265,admissions/admission[366]/labOrder[15],duplicate_removed,265,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[366]/labOrder[14],"<labOrder id=""265"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2023-02-16T02:06:00+08:00</orderedAt>
+        <indication>Rule out ischaemia</indication>
+        <status>Cancelled</status>
+        <priority>STAT</priority>
+        <orderedBy>S0021</orderedBy>
+      </labOrder>"
+C,orders,274,admissions/admission[377]/labOrder[15],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 400 does not exist in source C,"<labOrder id=""274"">
+        <test>MRI</test>
+        <orderedAt>2022-07-26T15:47:00+08:00</orderedAt>
+        <indication>Rule out infection</indication>
+        <status>In Progress</status>
+        <priority>urgent</priority>
+        <orderedBy>S0400</orderedBy>
+        <imaging id=""176"">
+          <modality>MRI</modality>
+          <performedAt>2022-07-26T18:47:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>N/A</pacsUrl>
+          <referrer>S0014</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>
+        <imaging id=""339"">
+          <modality>MRI</modality>
+          <performedAt>2022-07-26T18:47:00+08:00</performedAt>
+          <bodyPart>brain</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>N/A</pacsUrl>
+          <referrer>S0014</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,496,admissions/admission[395]/labOrder[14],duplicate_removed,283,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 283","<labOrder id=""496"">
+        <test>CT</test>
+        <orderedAt>2023-03-25T07:44:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>resulted</status>
+        <priority>STAT</priority>
+        <orderedBy>S0019</orderedBy>
+      </labOrder>"
+C,orders,285,admissions/admission[396]/labOrder[14],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 388 is in the quarantine,"<labOrder id=""285"">
+        <test>CT</test>
+        <orderedAt>2022-09-23T07:15:00+08:00</orderedAt>
+        <indication>Rule out fracture</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0016</orderedBy>
+        <imaging id=""186"">
+          <modality>CT</modality>
+          <performedAt>2022-09-23T14:15:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Done</status>
+          <pacsUrl>https://pacs.srmc.example/study/388-186</pacsUrl>
+          <report>N/A</report>
+          <referrer>S0016</referrer>
+          <radiographer>S0059</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,289,admissions/admission[404]/labOrder[13],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 396 is in the quarantine,"<labOrder id=""289"">
+        <test>Full Blood Count</test>
+        <orderedAt>2025-02-16T14:54:00+08:00</orderedAt>
+        <indication>Follow-up of known lesion</indication>
+        <status>Ordered</status>
+        <priority>Routine</priority>
+        <orderedBy>S0020</orderedBy>
+      </labOrder>"
+C,orders,501,admissions/admission[412]/labOrder[15],duplicate_removed,296,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 296","<labOrder id=""501"">
+        <test>ECG</test>
+        <orderedAt>2024-01-30T00:47:00+08:00</orderedAt>
+        <indication>Rule out fracture</indication>
+        <status>Resulted</status>
+        <priority> Routine</priority>
+        <orderedBy>S0006</orderedBy>
+      </labOrder>"
+C,orders,301,admissions/admission[416]/labOrder[17],rejected,,invalid_date:order_time,invalid_date:order_time: '2023-05-32T23:28:00+08:00': day is out of range for month,"<labOrder id=""301"">
+        <test>Ultrasound</test>
+        <orderedAt>2023-05-32T23:28:00+08:00</orderedAt>
+        <indication>Rule out bleeding</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0004</orderedBy>
+      </labOrder>"
+C,orders,319,admissions/admission[442]/labOrder[13],rejected,,missing_required:indication,missing_required:indication: raw value '?',"<labOrder id=""319"">
+        <test>Ultrasound</test>
+        <orderedAt>2024-03-20T04:31:00+08:00</orderedAt>
+        <indication>?</indication>
+        <status>In Progress</status>
+        <priority>Normal</priority>
+        <orderedBy>S0022</orderedBy>
+        <imaging id=""205"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-03-20T12:31:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/434-205</pacsUrl>
+          <referrer>S0022</referrer>
+          <radiographer>S0063</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,492,admissions/admission[478]/labOrder[15],duplicate_removed,341,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 341","<labOrder id=""492"">
+        <test>ECG</test>
+        <orderedAt>2023-12-12T04:43:00+08:00</orderedAt>
+        <indication>Rule Out Bleeding</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0004</orderedBy>
+      </labOrder>"
+C,orders,342,admissions/admission[480]/labOrder[15],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 472 is in the quarantine,"<labOrder id=""342"">
+        <test>CT</test>
+        <orderedAt>2024-05-09T09:15:00+08:00</orderedAt>
+        <indication>Follow-up of known lesion</indication>
+        <status>Cancelled</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0016</orderedBy>
+        <imaging id=""223"">
+          <modality>CT</modality>
+          <performedAt>2024-05-09T11:15:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Cancelled</status>
+          <pacsUrl>https://pacs.srmc.example/study/472-223</pacsUrl>
+          <referrer>S0016</referrer>
+          <radiographer>S0061</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,498,admissions/admission[511]/labOrder[16],duplicate_removed,360,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 360","<labOrder id=""498"">
+        <test>ECG</test>
+        <orderedAt>2024-07-26T13:22:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Ordered</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0001</orderedBy>
+      </labOrder>"
+C,orders,379,admissions/admission[535]/labOrder[17],duplicate_removed,379,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[535]/labOrder[16],"<labOrder id=""379"">
+        <test>MRI</test>
+        <orderedAt>2024-11-17T06:33:00+08:00</orderedAt>
+        <indication>Rule out infection</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0005</orderedBy>
+      </labOrder>"
+C,orders,383,admissions/admission[541]/labOrder[16],rejected,,chronology:order_time,chronology:order_time: order_time 2024-04-10T09:40:00Z before admission 2024-04-19T09:40:00Z,"<labOrder id=""383"">
+        <test>CT</test>
+        <orderedAt>2024-04-10T17:40:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>Resulted</status>
+        <priority>STAT</priority>
+        <orderedBy>S0020</orderedBy>
+        <imaging id=""251"">
+          <modality>CT</modality>
+          <performedAt>2024-04-19T20:56:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/532-251</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0020</referrer>
+          <radiographer>S0059</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,404,admissions/admission[571]/labOrder[13],rejected,,missing_required:order_status,missing_required:order_status: raw value '-',"<labOrder id=""404"">
+        <test>ECG</test>
+        <orderedAt>2023-06-09T08:35:00+08:00</orderedAt>
+        <indication>Rule out fracture</indication>
+        <status>-</status>
+        <priority>Routine </priority>
+        <orderedBy>S0002</orderedBy>
+      </labOrder>"
+C,orders,409,admissions/admission[589]/labOrder[15],duplicate_removed,409,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[589]/labOrder[14],"<labOrder id=""409"">
+        <test>Full Blood Count</test>
+        <orderedAt>2023-02-16T05:12:00+08:00</orderedAt>
+        <indication>Rule out ischaemia</indication>
+        <status>In Progress</status>
+        <priority> ASAP </priority>
+        <orderedBy>S0014</orderedBy>
+      </labOrder>"
+C,orders,412,admissions/admission[592]/labOrder[15],rejected,,missing_required:professional_id,missing_required:professional_id: raw value '?',"<labOrder id=""412"">
+        <test>Ultrasound</test>
+        <orderedAt>2024-09-17T02:49:00+08:00</orderedAt>
+        <indication>Rule out ischaemia</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>?</orderedBy>
+        <imaging id=""274"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-09-17T08:31:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0016</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,434,admissions/admission[625]/labOrder[14],rejected,,chronology:order_time,chronology:order_time: order_time 2022-07-07T05:04:00Z after discharge 2022-06-23T05:04:00Z,"<labOrder id=""434"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2022-07-07T13:04:00+08:00</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0023</orderedBy>
+        <imaging id=""292"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2022-06-22T06:17:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/615-292</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0023</referrer>
+          <radiographer>S0063</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,443,admissions/admission[648]/labOrder[13],rejected,,invalid_date:order_time,invalid_date:order_time: '2025-13-25T15:13:00+08:00': month must be in 1..12,"<labOrder id=""443"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2025-13-25T15:13:00+08:00</orderedAt>
+        <indication>Rule out bleeding</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0007</orderedBy>
+        <imaging id=""296"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2025-10-25T17:13:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/637-296</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0007</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,446,admissions/admission[655]/labOrder[15],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 644 is in the quarantine,"<labOrder id=""446"">
+        <test>CT</test>
+        <orderedAt>2024-11-05T12:50:00+08:00</orderedAt>
+        <indication>Rule out bleeding</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0022</orderedBy>
+        <imaging id=""299"">
+          <modality>CT</modality>
+          <performedAt>2024-11-05T11:50:00Z</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>?</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0022</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,447,admissions/admission[657]/labOrder[16],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 645 is in the quarantine,"<labOrder id=""447"">
+        <test>ECG</test>
+        <orderedAt>2025-06-08T02:36:00Z</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0018</orderedBy>
+      </labOrder>"
+C,orders,448,admissions/admission[657]/labOrder[17],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 645 is in the quarantine,"<labOrder id=""448"">
+        <test>Chest X-Ray</test>
+        <orderedAt>2025-06-06T21:13:00+08:00</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>In Progress</status>
+        <priority>Routine</priority>
+        <orderedBy>S0014</orderedBy>
+        <imaging id=""300"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2025-06-06T22:13:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/645-300</pacsUrl>
+          <referrer>S0014</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,500,admissions/admission[665]/labOrder[14],duplicate_removed,458,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 458","<labOrder id=""500"">
+        <test>Ultrasound</test>
+        <orderedAt>2023-10-17T14:17:00+08:00</orderedAt>
+        <indication>Rule Out Bleeding</indication>
+        <status>Resulted</status>
+        <priority>urgent</priority>
+        <orderedBy>S0010</orderedBy>
+      </labOrder>"
+C,orders,461,admissions/admission[667]/labOrder[15],rejected,,missing_required:professional_id,missing_required:professional_id: raw value '?',"<labOrder id=""461"">
+        <test>ECG</test>
+        <orderedAt>2022-07-25T09:31:00+08:00</orderedAt>
+        <indication>Rule out infection</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>?</orderedBy>
+      </labOrder>"
+C,orders,462,admissions/admission[671]/labOrder[12],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 659 is in the quarantine,"<labOrder id=""462"">
+        <test>Full Blood Count</test>
+        <orderedAt>2024-04-24T10:45:00+08:00</orderedAt>
+        <indication>Follow-up of known lesion</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0003</orderedBy>
+      </labOrder>"
+C,orders,463,admissions/admission[671]/labOrder[13],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 659 is in the quarantine,"<labOrder id=""463"">
+        <test>Ultrasound</test>
+        <orderedAt>2024-04-24T13:02:00+08:00</orderedAt>
+        <indication>Pre-operative assessment</indication>
+        <status>Resulted</status>
+        <priority>Routine</priority>
+        <orderedBy>S0009</orderedBy>
+        <imaging id=""311"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-04-24T19:01:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/659-311</pacsUrl>
+          <report>Mild degenerative changes.</report>
+          <referrer>S0009</referrer>
+          <radiographer>S0067</radiographer>
+        </imaging>
+      </labOrder>"
+C,orders,471,admissions/admission[685]/labOrder[15],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 673 is in the quarantine,"<labOrder id=""471"">
+        <test>ECG</test>
+        <orderedAt>2024-03-24T14:53:00+08:00</orderedAt>
+        <indication>Rule out ischaemia</indication>
+        <status>Resulted</status>
+        <priority>Urgent</priority>
+        <orderedBy>S0012</orderedBy>
+      </labOrder>"
+C,orders,482,admissions/admission[707]/labOrder[15],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 373 does not exist in source C,"<labOrder id=""482"">
+        <test>ecg</test>
+        <orderedAt>2022-11-01T11:01:00+08:00</orderedAt>
+        <indication>Rule out obstruction</indication>
+        <status>In Progress</status>
+        <priority>STAT</priority>
+        <orderedBy>S0373</orderedBy>
+      </labOrder>"
+C,orders,188,unlinkedRecords/labOrder[38],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 4149 does not exist in source C,"<labOrder id=""188"" admissionRef=""E004149"">
+      <test>CT</test>
+      <orderedAt>2024-05-14T21:38:00+08:00</orderedAt>
+      <indication>Rule out obstruction</indication>
+      <status>Resulted</status>
+      <priority>Urgent</priority>
+      <orderedBy>S0007</orderedBy>
+    </labOrder>"
+C,orders,234,unlinkedRecords/labOrder[39],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 3557 does not exist in source C,"<labOrder id=""234"" admissionRef=""E003557"">
+      <test>ECG</test>
+      <orderedAt>2022-11-11T02:30:00+08:00</orderedAt>
+      <indication>Rule out bleeding</indication>
+      <status>Resulted</status>
+      <priority>Routine</priority>
+      <orderedBy>S0024</orderedBy>
+    </labOrder>"
+C,orders,234,unlinkedRecords/labOrder[40],duplicate_removed,234,exact_duplicate,exact_duplicate: same ID and same values as unlinkedRecords/labOrder[39],"<labOrder id=""234"" admissionRef=""E003557"">
+      <test>ECG</test>
+      <orderedAt>2022-11-11T02:30:00+08:00</orderedAt>
+      <indication>Rule out bleeding</indication>
+      <status>Resulted</status>
+      <priority> Routine </priority>
+      <orderedBy>S0024</orderedBy>
+    </labOrder>"
+C,orders,479,unlinkedRecords/labOrder[41],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1332 does not exist in source C,"<labOrder id=""479"" admissionRef=""E001332"">
+      <test>Ultrasound</test>
+      <orderedAt>2022-09-06T18:52:00+08:00</orderedAt>
+      <indication>Follow-up of known lesion</indication>
+      <status>Resulted</status>
+      <priority>Routine</priority>
+      <orderedBy>S0005</orderedBy>
+    </labOrder>"
+D,orders,831,patients_p1.json:patients[1].admissions[1].orders[1],duplicate_removed,111,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 111","{""orderId"": 831, ""testName"": ""  LFT"", ""indication"": ""Known cholecystitis, baseline"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 65, ""orderedAt"": ""2022-08-31T16:10:00+10:00""}"
+D,orders,7,patients_p1.json:patients[6].admissions[0].orders[1],rejected,,missing_required:professional_id,missing_required:professional_id: raw value None,"{""orderId"": 7, ""testName"": ""Faecal MCS"", ""indication"": ""Monitoring - dehydration"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": null, ""orderedAt"": ""2022-01-17T23:29:00+11:00""}"
+D,orders,839,patients_p1.json:patients[6].admissions[0].orders[2],duplicate_removed,6,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 6","{""orderId"": 839, ""testName"": null, ""indication"": ""Rule out dehydration"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 41, ""orderedAt"": ""2022-01-17T14:42:00+11:00""}"
+D,orders,12,patients_p1.json:patients[10].admissions[0].orders[1],duplicate_removed,12,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[10].admissions[0].orders[0],"{""orderId"": 12, ""testName"": ""Ultrasound renal"", ""indication"": ""Monitoring   - CKD"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 89, ""orderedAt"": ""2022-01-23T06:34:00+11:00""}"
+D,orders,13,patients_p1.json:patients[11].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 12 is in the quarantine,"{""orderId"": 13, ""indication"": ""Rule out stroke"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 46, ""orderedAt"": ""2022-01-27T22:39:00+11:00""}"
+D,orders,14,patients_p1.json:patients[11].admissions[0].orders[1],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 12 is in the quarantine,"{""orderId"": 14, ""testName"": null, ""indication"": ""Assess stroke"", ""status"": ""REQUESTED"", ""priority"": ""urgent"", ""orderedBy"": 69, ""orderedAt"": ""2022-01-28T19:35:00+11:00""}"
+D,orders,15,patients_p1.json:patients[12].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2022-02-23T11:35:00Z after discharge 2022-01-31T05:09:00Z,"{""orderId"": 15, ""indication"": ""Monitoring - anaemia"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 87, ""orderedAt"": ""2022-02-23T22:35:00+11:00""}"
+D,orders,834,patients_p1.json:patients[13].admissions[0].orders[2],duplicate_removed,17,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 17","{""orderId"": 834, ""testName"": "" LFT  "", ""indication"": ""Assess cholecystitis"", ""status"": ""cancelled"", ""priority"": ""routine"", ""orderedBy"": 85, ""orderedAt"": ""2022-02-01T08:15:00+11:00""}"
+D,orders,177,patients_p1.json:patients[16].admissions[1].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 205 is in the quarantine,"{""orderId"": 177, ""testName"": ""Ultrasound abdomen"", ""indication"": ""Assess cholelithiasis"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 6, ""orderedAt"": ""2023-01-19T01:20:00+11:00""}"
+D,orders,25,patients_p1.json:patients[23].admissions[0].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 96 does not exist in source D,"{""orderId"": 25, ""testName"": ""UEC"", ""indication"": ""Known AF, baseline"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 96, ""orderedAt"": ""01/03/2022 06:26""}"
+D,orders,50,patients_p1.json:patients[51].admissions[0].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 135 does not exist in source D,"{""orderId"": 50, ""testName"": ""VBG"", ""indication"": ""Suspected dehydration"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 135, ""orderedAt"": ""2022-04-15T12:30:00+10:00""}"
+D,orders,77,patients_p1.json:patients[59].admissions[1].orders[1],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 120 does not exist in source D,"{""orderId"": 77, ""indication"": ""Suspected pneumonia"", ""status"": ""  resulted"", ""priority"": ""urgent"", ""orderedBy"": 120, ""orderedAt"": ""2022-06-26T10:39:00+10:00""}"
+D,orders,65,patients_p1.json:patients[70].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2022-05-25T00:52:00Z before admission 2022-05-26T05:13:00Z,"{""orderId"": 65, ""testName"": ""Iron studies"", ""indication"": ""Monitoring - anaemia"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 87, ""orderedAt"": ""2022-05-25T10:52:00+10:00""}"
+D,orders,67,patients_p1.json:patients[71].admissions[0].orders[0],rejected,,missing_required:priority,missing_required:priority: raw value None,"{""orderId"": 67, ""testName"": ""FBC"", ""indication"": ""?pneumonia"", ""status"": ""in-progress"", ""orderedBy"": 23, ""orderedAt"": ""2022-05-28T04:53:00+10:00""}"
+D,orders,110,patients_p1.json:patients[74].admissions[1].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 121 does not exist in source D,"{""orderId"": 110, ""testName"": ""VBG"", ""indication"": ""Suspected AKI"", ""status"": ""cancelled"", ""priority"": ""stat"", ""orderedBy"": 121, ""orderedAt"": ""2022-08-31T16:04:00+10:00""}"
+D,orders,72,patients_p1.json:patients[79].admissions[0].orders[1],duplicate_removed,72,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[79].admissions[0].orders[0],"{""orderId"": 72, ""testName"": ""Blood cultures"", ""indication"": ""?pneumonia"", ""status"": ""FINAL"", ""priority"": ""stat"", ""orderedBy"": 76, ""orderedAt"": ""2022-06-14T20:50:00+10:00""}"
+D,orders,833,patients_p1.json:patients[83].admissions[0].orders[2],duplicate_removed,80,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 80","{""orderId"": 833, ""testName"": ""ECG"", ""indication"": ""Suspected chest pain"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 90, ""orderedAt"": ""2022-07-01T08:33:00+10:00""}"
+D,orders,81,patients_p1.json:patients[84].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 88 is in the quarantine,"{""orderId"": 81, ""testName"": ""-"", ""indication"": ""Monitoring - CKD"", ""status"": ""resulted"", ""priority"": ""routine"", ""orderedBy"": 63, ""orderedAt"": ""01/07/2022 14:59""}"
+D,orders,82,patients_p1.json:patients[85].admissions[0].orders[2],duplicate_removed,82,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[85].admissions[0].orders[0],"{""orderId"": 82, ""testName"": ""Chest X-ray"", ""indication"": ""Known chest pain, baseline"", ""status"": ""FINAL"", ""priority"": ""routine"", ""orderedBy"": 46, ""orderedAt"": ""2022-07-03T00:39:00+10:00""}"
+D,orders,155,patients_p1.json:patients[86].admissions[1].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '02.12.2022 15:40': day/month order cannot be decided,"{""orderId"": 155, ""testName"": ""UEC"", ""indication"": ""Monitoring - hypertension"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 28, ""orderedAt"": ""02.12.2022 15:40""}"
+D,orders,87,patients_p1.json:patients[88].admissions[0].orders[0],rejected,,missing_required:priority,missing_required:priority: raw value None,"{""orderId"": 87, ""testName"": ""CT brain"", ""indication"": ""Assess concussion"", ""status"": ""final"", ""orderedBy"": 49, ""orderedAt"": ""2022-07-09T13:20:00+10:00""}"
+D,orders,88,patients_p1.json:patients[89].admissions[0].orders[0],rejected,,invalid_date:order_time,invalid_date:order_time: '2022-13-13T17:44:00+10:00': month must be in 1..12,"{""orderId"": 88, ""testName"": ""FBC"", ""indication"": ""Monitoring - upper GI bleed"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 82, ""orderedAt"": ""2022-13-13T17:44:00+10:00""}"
+D,orders,822,patients_p1.json:patients[89].admissions[0].orders[2],duplicate_removed,89,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 89","{""orderId"": 822, ""testName"": ""Group and hold"", ""indication"": ""Assess upper GI bleed"", ""status"": ""final"", ""priority"": "" STAT  "", ""orderedBy"": 32, ""orderedAt"": ""2022-07-14T00:26:00+10:00""}"
+D,orders,90,patients_p1.json:patients[90].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 94 is in the quarantine,"{""orderId"": 90, ""testName"": ""Chest X-ray"", ""indication"": ""Suspected sepsis"", ""status"": ""  requested"", ""priority"": ""stat"", ""orderedBy"": 69, ""orderedAt"": ""2022-07-16T19:36:00.000+10:00""}"
+D,orders,186,patients_p1.json:patients[100].admissions[1].orders[0],rejected,,invalid_date:order_time,invalid_date:order_time: '2023-02-01T26:52:00+10:00': hour must be in 0..23,"{""orderId"": 186, ""testName"": ""H. pylori breath test"", ""indication"": ""Known GORD, baseline"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 88, ""orderedAt"": ""2023-02-01T26:52:00+10:00""}"
+D,orders,99,patients_p1.json:patients[102].admissions[0].orders[1],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 140 does not exist in source D,"{""orderId"": 99, ""testName"": ""Ultrasound abdomen"", ""indication"": ""Monitoring - pancreatitis"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 140, ""orderedAt"": ""2022-07-31T12:25:00+10:00""}"
+D,orders,102,patients_p1.json:patients[109].admissions[0].orders[0],rejected,,missing_required:indication,missing_required:indication: raw value '',"{""orderId"": 102, ""testName"": null, ""indication"": """", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 76, ""orderedAt"": ""2022-08-11T09:42:00+10:00""}"
+D,orders,116,patients_p1.json:patients[120].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 130 is in the quarantine,"{""orderId"": 116, ""testName"": null, ""indication"": ""Known sepsis, baseline"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 46, ""orderedAt"": ""2022-09-14T20:04:00+10:00""}"
+D,orders,820,patients_p1.json:patients[141].admissions[0].orders[2],duplicate_removed,136,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 136","{""orderId"": 820, ""testName"": """", ""indication"": ""Monitoring - appendicitis"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 45, ""orderedAt"": ""2022-10-19T03:08:00+11:00""}"
+D,orders,251,patients_p1.json:patients[154].admissions[1].orders[0],rejected,,missing_required:order_status,missing_required:order_status: raw value None,"{""orderId"": 251, ""testName"": ""UEC"", ""indication"": ""Suspected dehydration"", ""priority"": ""urgent"", ""orderedBy"": 11, ""orderedAt"": ""2023-05-16T09:48:00+10:00""}"
+D,orders,148,patients_p1.json:patients[155].admissions[0].orders[2],duplicate_removed,148,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[155].admissions[0].orders[0],"{""orderId"": 148, ""testName"": ""Chest X-ray"", ""indication"": ""Rule out chest pain"", ""status"": ""final"", ""priority"": ""R"", ""orderedBy"": 11, ""orderedAt"": ""2022-11-27T00:31:00+11:00""}"
+D,orders,350,patients_p1.json:patients[157].admissions[1].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '01.11.2023 09:32': day/month order cannot be decided,"{""orderId"": 350, ""testName"": ""H. pylori breath test"", ""indication"": ""Assess GORD"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 53, ""orderedAt"": ""01.11.2023 09:32""}"
+D,orders,156,patients_p1.json:patients[160].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 181 is in the quarantine,"{""orderId"": 156, ""testName"": ""BSL"", ""indication"": ""Monitoring - syncope"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 80, ""orderedAt"": ""2022-12-04T07:25:00+11:00""}"
+D,orders,838,patients_p1.json:patients[167].admissions[2].orders[1],duplicate_removed,422,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 422","{""orderId"": 838, ""indication"": ""Rule out PE"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 21, ""orderedAt"": ""2024-03-19T08:47:00+11:00""}"
+D,orders,170,patients_p1.json:patients[171].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2022-12-31T12:24:00Z before admission 2023-01-01T20:25:00Z,"{""orderId"": 170, ""testName"": ""FBC"", ""indication"": ""Assess appendicitis"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 49, ""orderedAt"": ""2022-12-31T23:24:00+11:00""}"
+D,orders,174,patients_p1.json:patients[173].admissions[0].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '12.01.2023 08:59': day/month order cannot be decided,"{""orderId"": 174, ""testName"": ""Blood cultures"", ""indication"": ""Assess sepsis"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 73, ""orderedAt"": ""12.01.2023 08:59""}"
+D,orders,175,patients_p1.json:patients[175].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2023-01-26T03:52:00Z after discharge 2023-01-13T00:35:00Z,"{""orderId"": 175, ""testName"": ""H. pylori breath test"", ""indication"": ""Known GORD, baseline"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 25, ""orderedAt"": ""2023-01-26T14:52:00+11:00""}"
+D,orders,821,patients_p1.json:patients[187].admissions[0].orders[2],duplicate_removed,193,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 193","{""orderId"": 821, ""testName"": ""VBG"", ""indication"": ""Monitoring - COPD exacerbation"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 65, ""orderedAt"": ""2023-02-10T17:58:00+11:00""}"
+D,orders,255,patients_p1.json:patients[208].admissions[1].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 96 does not exist in source D,"{""orderId"": 255, ""indication"": ""Monitoring - cholecystitis"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 96, ""orderedAt"": ""2023-05-22T09:53:00+10:00""}"
+D,orders,224,patients_p1.json:patients[211].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2023-05-11T03:18:00Z after discharge 2023-04-02T21:35:00Z,"{""orderId"": 224, ""testName"": ""Chest X-ray"", ""indication"": ""Known   chest pain, baseline"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 73, ""orderedAt"": ""2023-05-11T13:18:00+10:00""}"
+D,orders,229,patients_p1.json:patients[216].admissions[0].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '09.04.2023 15:23': day/month order cannot be decided,"{""orderId"": 229, ""testName"": ""ECG"", ""indication"": ""Suspected chest pain"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 90, ""orderedAt"": ""09.04.2023 15:23""}"
+D,orders,232,patients_p1.json:patients[218].admissions[0].orders[0],rejected,,missing_required:professional_id,missing_required:professional_id: raw value None,"{""orderId"": 232, ""testName"": ""ECG"", ""indication"": ""Assess AMI"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": null, ""orderedAt"": ""2023-04-15T06:37:00+10:00""}"
+D,orders,235,patients_p1.json:patients[221].admissions[0].orders[0],rejected,,invalid_date:order_time,invalid_date:order_time: '2023-04-30T28:01:00+10:00': hour must be in 0..23,"{""orderId"": 235, ""testName"": ""Ultrasound renal"", ""indication"": ""Suspected AKI"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 83, ""orderedAt"": ""2023-04-30T28:01:00+10:00""}"
+D,orders,837,patients_p1.json:patients[221].admissions[0].orders[2],duplicate_removed,236,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 236","{""orderId"": 837, ""testName"": ""VBG"", ""indication"": "" ?AKI  "", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 91, ""orderedAt"": ""2023-04-30T17:09:00.000+10:00""}"
+D,orders,240,patients_p1.json:patients[224].admissions[0].orders[2],duplicate_removed,240,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[224].admissions[0].orders[1],"{""orderId"": 240, ""testName"": ""Peak flow"", ""indication"": ""?acute asthma"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 80, ""orderedAt"": ""2023-05-05T02:23:00+10:00""}"
+D,orders,244,patients_p1.json:patients[225].admissions[0].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '07.05.2023 01:52': day/month order cannot be decided,"{""orderId"": 244, ""testName"": ""ECG"", ""indication"": ""?chest pain"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 41, ""orderedAt"": ""07.05.2023 01:52""}"
+D,orders,719,patients_p1.json:patients[225].admissions[2].orders[2],duplicate_removed,719,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[225].admissions[2].orders[0],"{""orderId"": 719, ""testName"": ""ECG"", ""indication"": ""KNOWN CHEST PAIN, BASELINE"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 55, ""orderedAt"": ""2025-06-03T04:06:00+10:00""}"
+D,orders,357,patients_p2.json:patients[11].admissions[2].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2023-10-28T23:10:00Z before admission 2023-11-22T23:30:00Z,"{""orderId"": 357, ""testName"": ""N/A"", ""indication"": ""Rule out CKD"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 53, ""orderedAt"": ""2023-10-29T10:10:00+11:00""}"
+D,orders,264,patients_p2.json:patients[13].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 293 is in the quarantine,"{""orderId"": 264, ""testName"": ""UEC"", ""indication"": ""Known hypertension, baseline"", ""status"": ""final"", ""priority"": ""Routine"", ""orderedBy"": 69, ""orderedAt"": ""2023-06-22T09:39:00+10:00""}"
+D,orders,274,patients_p2.json:patients[19].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 303 is in the quarantine,"{""orderId"": 274, ""testName"": ""Ultrasound renal"", ""indication"": ""Rule out CKD"", ""status"": ""resulted"", ""priority"": ""urgent"", ""orderedBy"": 49, ""orderedAt"": ""2023-07-10T20:45:00+10:00""}"
+D,orders,276,patients_p2.json:patients[21].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 306 is in the quarantine,"{""orderId"": 276, ""testName"": ""Blood film"", ""indication"": ""Known anaemia, baseline"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 49, ""orderedAt"": ""2023-07-14T13:19:00+10:00""}"
+D,orders,823,patients_p2.json:patients[24].admissions[0].orders[1],duplicate_removed,279,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 279","{""orderId"": 823, ""testName"": ""ABG"", ""indication"": ""Suspected respiratory failure"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 80, ""orderedAt"": ""2023-07-20T04:12:00+10:00""}"
+D,orders,431,patients_p2.json:patients[24].admissions[1].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 121 does not exist in source D,"{""orderId"": 431, ""testName"": ""ECG"", ""indication"": ""Assess chest pain"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 121, ""orderedAt"": ""2024-03-29T12:26:00+11:00""}"
+D,orders,283,patients_p2.json:patients[26].admissions[0].orders[0],rejected,,invalid_date:order_time,invalid_date:order_time: '31/04/2023 05:29': day is out of range for month,"{""orderId"": 283, ""testName"": ""FBC"", ""indication"": ""?COPD exacerbation"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 21, ""orderedAt"": ""31/04/2023 05:29""}"
+D,orders,703,patients_p2.json:patients[26].admissions[2].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '05.04.2025 02:12': day/month order cannot be decided,"{""orderId"": 703, ""testName"": ""Chest X-ray"", ""indication"": ""Known pneumonia, baseline"", ""status"": ""cancelled"", ""priority"": ""routine"", ""orderedBy"": 69, ""orderedAt"": ""05.04.2025 02:12""}"
+D,orders,512,patients_p2.json:patients[31].admissions[1].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 138 does not exist in source D,"{""orderId"": 512, ""testName"": ""LFT"", ""indication"": ""Monitoring - cholelithiasis"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 138, ""orderedAt"": ""2024-08-22T11:43:00+10:00""}"
+D,orders,289,patients_p2.json:patients[32].admissions[0].orders[0],rejected,,unmappable_label:priority,unmappable_label:priority: 'asap' has no standard priority value,"{""orderId"": 289, ""testName"": ""CTPA"", ""indication"": ""Rule out PE"", ""status"": ""final"", ""priority"": ""asap"", ""orderedBy"": 6, ""orderedAt"": ""2023-08-10T12:32:00+10:00""}"
+D,orders,300,patients_p2.json:patients[38].admissions[1].orders[0],rejected,,missing_required:order_time,missing_required:order_time: raw value '',"{""orderId"": 300, ""testName"": ""FBC"", ""indication"": ""Known respiratory failure, baseline"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 91, ""orderedAt"": """"}"
+D,orders,302,patients_p2.json:patients[42].admissions[0].orders[0],rejected,,invalid_date:order_time,invalid_date:order_time: '2023-14-24T06:30:00+10:00': month must be in 1..12,"{""orderId"": 302, ""testName"": ""FBC"", ""indication"": ""Suspected syncope"", ""status"": ""canceled"", ""priority"": ""routine"", ""orderedBy"": 90, ""orderedAt"": ""2023-14-24T06:30:00+10:00""}"
+D,orders,305,patients_p2.json:patients[45].admissions[0].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 136 does not exist in source D,"{""orderId"": 305, ""testName"": ""BSL"", ""indication"": ""Known stroke, baseline"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 136, ""orderedAt"": ""2023-08-25T14:27:00+10:00""}"
+D,orders,306,patients_p2.json:patients[46].admissions[0].orders[0],rejected,,missing_required:indication,missing_required:indication: raw value '',"{""orderId"": 306, ""testName"": ""BSL"", ""indication"": """", ""status"": ""cancelled"", ""priority"": ""urgent"", ""orderedBy"": 55, ""orderedAt"": ""2023-08-25T16:45:00+10:00""}"
+D,orders,321,patients_p2.json:patients[54].admissions[0].orders[2],duplicate_removed,321,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[54].admissions[0].orders[1],"{""orderId"": 321, ""indication"": ""Suspected pneumonia"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 69, ""orderedAt"": ""2023-09-14T16:24:00+10:00""}"
+D,orders,322,patients_p2.json:patients[55].admissions[0].orders[0],rejected,,missing_required:order_status,missing_required:order_status: raw value '?',"{""orderId"": 322, ""testName"": ""FBC"", ""indication"": ""?UTI"", ""status"": ""?"", ""priority"": ""routine"", ""orderedBy"": 90, ""orderedAt"": ""2023-09-15T04:51:00+10:00""}"
+D,orders,835,patients_p2.json:patients[62].admissions[0].orders[1],duplicate_removed,330,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 330","{""orderId"": 835, ""testName"": null, ""indication"": ""Rule out hyperlipidaemia"", ""status"": ""requested"", ""priority"": "" ROUTINE  "", ""orderedBy"": 32, ""orderedAt"": ""2023-09-29T12:01:00+10:00""}"
+D,orders,333,patients_p2.json:patients[64].admissions[0].orders[0],rejected,,missing_required:professional_id,missing_required:professional_id: raw value None,"{""orderId"": 333, ""testName"": ""ECG"", ""indication"": ""?AMI"", ""status"": ""final"", ""priority"": ""stat"", ""orderedAt"": ""2023-10-02T16:17:00+11:00""}"
+D,orders,335,patients_p2.json:patients[64].admissions[0].orders[2],duplicate_removed,335,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[64].admissions[0].orders[1],"{""orderId"": 335, ""testName"": ""Fasting lipids"", ""indication"": ""Rule out AMI"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 41, ""orderedAt"": ""2023-10-03T13:16:00+11:00""}"
+D,orders,841,patients_p2.json:patients[67].admissions[0].orders[2],duplicate_removed,341,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 341","{""orderId"": 841, ""testName"": """", ""indication"": ""Known dehydration, baseline"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 11, ""orderedAt"": ""2023-10-09T20:58:00+11:00""}"
+D,orders,362,patients_p2.json:patients[91].admissions[0].orders[1],duplicate_removed,362,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[91].admissions[0].orders[0],"{""orderId"": 362, ""testName"": "" H. PYLORI BREATH TEST  "", ""indication"": ""Known GORD, baseline"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 11, ""orderedAt"": ""2023-12-06T10:17:00+11:00""}"
+D,orders,825,patients_p2.json:patients[93].admissions[1].orders[2],duplicate_removed,596,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 596","{""orderId"": 825, ""testName"": ""Urinalysis"", ""indication"": ""Rule out appendicitis"", ""status"": ""final"", ""priority"": ""  stat"", ""orderedBy"": 76, ""orderedAt"": ""2024-11-29T18:04:00+11:00""}"
+D,orders,396,patients_p2.json:patients[118].admissions[0].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '02.07.2024 20:40': day/month order cannot be decided,"{""orderId"": 396, ""indication"": ""?CCF"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 49, ""orderedAt"": ""02.07.2024 20:40""}"
+D,orders,397,patients_p2.json:patients[120].admissions[0].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 141 does not exist in source D,"{""orderId"": 397, ""testName"": ""Chest X-ray"", ""indication"": ""Rule out acute asthma"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 141, ""orderedAt"": ""2024-02-11T04:07:00+11:00""}"
+D,orders,410,patients_p2.json:patients[129].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 452 is in the quarantine,"{""orderId"": 410, ""testName"": ""Blood film"", ""indication"": ""?anaemia"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 49, ""orderedAt"": ""2024-02-26T11:52:00+11:00""}"
+D,orders,417,patients_p2.json:patients[137].admissions[0].orders[1],rejected,,invalid_date:order_time,invalid_date:order_time: '1.7e+18': not a recognised date format,"{""orderId"": 417, ""testName"": ""ECG"", ""indication"": ""Assess AMI"", ""status"": ""cancelled"", ""priority"": ""stat"", ""orderedBy"": 82, ""orderedAt"": 1.7e+18}"
+D,orders,420,patients_p2.json:patients[141].admissions[0].orders[0],rejected,,invalid_date:order_time,invalid_date:order_time: '-62135596800000': not a recognised date format,"{""orderId"": 420, ""testName"": ""Ultrasound abdomen"", ""indication"": ""?cholelithiasis"", ""status"": ""\tfinal"", ""priority"": ""routine"", ""orderedBy"": 39, ""orderedAt"": -62135596800000}"
+D,orders,480,patients_p2.json:patients[148].admissions[1].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 534 is in the quarantine,"{""orderId"": 480, ""testName"": ""ECG"", ""indication"": ""Assess hypertension"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 32, ""orderedAt"": ""2024-06-14T21:45:00+10:00""}"
+D,orders,698,patients_p2.json:patients[152].admissions[1].orders[1],duplicate_removed,698,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[152].admissions[1].orders[0],"{""orderId"": 698, ""testName"": ""Fasting lipids"", ""indication"": ""?hyperlipidaemia"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 45, ""orderedAt"": ""2025-04-22T14:19:00+10:00""}"
+D,orders,439,patients_p2.json:patients[154].admissions[0].orders[1],duplicate_removed,439,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[154].admissions[0].orders[0],"{""orderId"": 439, ""testName"": ""Ultrasound abdomen"", ""indication"": ""Known appendicitis, baseline"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 76, ""orderedAt"": ""2024-04-08T23:43:00+10:00""}"
+D,orders,437,patients_p2.json:patients[157].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 486 is in the quarantine,"{""orderId"": 437, ""testName"": ""H. pylori breath test"", ""indication"": ""Monitoring - GORD"", ""status"": ""requested"", ""priority"": ""urgent"", ""orderedBy"": 87, ""orderedAt"": ""2024-04-07T17:20:00+10:00""}"
+D,orders,442,patients_p2.json:patients[160].admissions[0].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 107 does not exist in source D,"{""orderId"": 442, ""testName"": ""Group and hold"", ""indication"": ""Suspected upper GI bleed"", ""status"": ""  in-progress"", ""priority"": ""urgent"", ""orderedBy"": 107, ""orderedAt"": ""2024-04-15T06:39:00+10:00""}"
+D,orders,448,patients_p2.json:patients[165].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2024-03-26T17:19:00Z before admission 2024-04-23T20:48:00Z,"{""orderId"": 448, ""testName"": ""Troponin"", ""indication"": ""Monitoring - AMI"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 53, ""orderedAt"": ""2024-03-27T04:19:00+11:00""}"
+D,orders,817,patients_p2.json:patients[165].admissions[0].orders[2],duplicate_removed,449,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 449","{""orderId"": 817, ""testName"": ""Fasting lipids"", ""indication"": ""Known AMI, baseline"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 53, ""orderedAt"": ""2024-04-25T06:28:00+10:00""}"
+D,orders,452,patients_p2.json:patients[166].admissions[0].orders[1],rejected,,chronology:order_time,chronology:order_time: order_time 2024-06-04T01:08:00Z after discharge 2024-04-28T15:58:00Z,"{""orderId"": 452, ""testName"": ""Chest X-ray"", ""indication"": ""Assess pneumonia"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 60, ""orderedAt"": ""2024-06-04T11:08:00+10:00""}"
+D,orders,826,patients_p2.json:patients[169].admissions[0].orders[2],duplicate_removed,455,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 455","{""orderId"": 826, ""indication"": ""Rule out pneumonia"", ""status"": ""final   "", ""priority"": ""urgent"", ""orderedBy"": 60, ""orderedAt"": ""2024-05-06T06:15:00+10:00""}"
+D,orders,466,patients_p2.json:patients[178].admissions[0].orders[1],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 101 does not exist in source D,"{""orderId"": 466, ""testName"": ""VBG"", ""indication"": ""Known dehydration, baseline"", ""status"": ""cancelled"", ""priority"": ""urgent"", ""orderedBy"": 101, ""orderedAt"": ""2024-05-23T08:45:00+10:00""}"
+D,orders,472,patients_p2.json:patients[183].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2024-06-21T12:26:00Z after discharge 2024-06-03T05:13:00Z,"{""orderId"": 472, ""testName"": ""ECG"", ""indication"": ""?chest pain"", ""status"": ""Complete"", ""priority"": ""stat"", ""orderedBy"": 65, ""orderedAt"": ""2024-06-21T22:26:00+10:00""}"
+D,orders,474,patients_p2.json:patients[185].admissions[0].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 105 does not exist in source D,"{""orderId"": 474, ""testName"": ""Chest X-ray"", ""indication"": ""?acute asthma"", ""status"": ""in-progress"", ""priority"": ""urgent"", ""orderedBy"": 105, ""orderedAt"": ""2024-06-07T12:52:00+10:00""}"
+D,orders,479,patients_p2.json:patients[187].admissions[0].orders[1],duplicate_removed,479,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[187].admissions[0].orders[0],"{""orderId"": 479, ""testName"": ""Blood cultures"", ""indication"": ""?anaemia"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 55, ""orderedAt"": ""2024-06-13T16:01:00+10:00""}"
+D,orders,502,patients_p2.json:patients[211].admissions[0].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '10.08.2024 07:11': day/month order cannot be decided,"{""orderId"": 502, ""testName"": ""Ultrasound abdomen"", ""indication"": ""ASSESS CHOLELITHIASIS"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 11, ""orderedAt"": ""10.08.2024 07:11""}"
+D,orders,504,patients_p2.json:patients[212].admissions[0].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '08.10.2024 08:58': day/month order cannot be decided,"{""orderId"": 504, ""testName"": ""Fasting lipids"", ""indication"": ""Suspected CAD"", ""status"": ""cancelled"", ""priority"": ""routine"", ""orderedBy"": 84, ""orderedAt"": ""08.10.2024 08:58""}"
+D,orders,612,patients_p2.json:patients[223].admissions[1].orders[1],rejected,,chronology:order_time,chronology:order_time: order_time 2024-11-28T21:39:00Z before admission 2024-12-11T00:23:00Z,"{""orderId"": 612, ""testName"": ""LFT"", ""indication"": ""Suspected pancreatitis"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 23, ""orderedAt"": ""2024-11-29T08:39:00+11:00""}"
+D,orders,830,patients_p2.json:patients[223].admissions[1].orders[2],duplicate_removed,611,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 611","{""orderId"": 830, ""testName"": ""Lipase"", ""indication"": ""Monitoring - pancreatitis"", ""status"": "" FINAL  "", ""priority"": ""stat"", ""orderedBy"": 83, ""orderedAt"": ""2024-12-11T20:18:00+11:00""}"
+D,orders,772,patients_p2.json:patients[227].admissions[2].orders[0],rejected,,missing_required:order_time,missing_required:order_time: raw value None,"{""orderId"": 772, ""testName"": ""TSH"", ""indication"": ""Known hypothyroidism, baseline"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 21, ""orderedAt"": null}"
+D,orders,773,patients_p2.json:patients[227].admissions[2].orders[1],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 120 does not exist in source D,"{""orderId"": 773, ""indication"": ""Rule out hypothyroidism"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 120, ""orderedAt"": ""2025-08-18T08:45:00+10:00""}"
+D,orders,819,patients_p3.json:patients[4].admissions[0].orders[1],duplicate_removed,533,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 533","{""orderId"": 819, ""testName"": """", ""indication"": ""Monitoring - seizure"", ""status"": "" FINAL  "", ""priority"": ""urgent"", ""orderedBy"": 50, ""orderedAt"": ""2024-09-12T02:48:00+10:00""}"
+D,orders,541,patients_p3.json:patients[8].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 605 is in the quarantine,"{""orderId"": 541, ""testName"": ""UEC"", ""indication"": ""?T2DM"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 28, ""orderedAt"": ""2024-09-27T14:07:00+10:00""}"
+D,orders,650,patients_p3.json:patients[13].admissions[1].orders[1],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '06.02.2025 18:51': day/month order cannot be decided,"{""orderId"": 650, ""indication"": ""Suspected acute asthma"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 31, ""orderedAt"": ""06.02.2025 18:51""}"
+D,orders,557,patients_p3.json:patients[16].admissions[0].orders[1],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '07.10.2024 04:33': day/month order cannot be decided,"{""orderId"": 557, ""testName"": ""Peak flow"", ""indication"": ""Assess acute asthma"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 55, ""orderedAt"": ""07.10.2024 04:33""}"
+D,orders,554,patients_p3.json:patients[18].admissions[0].orders[2],duplicate_removed,554,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[18].admissions[0].orders[0],"{""orderId"": 554, ""testName"": null, ""indication"": ""Suspected AF"", ""status"": ""final"", ""priority"": ""routine  "", ""orderedBy"": 76, ""orderedAt"": ""2024-10-06T07:37:00+11:00""}"
+D,orders,562,patients_p3.json:patients[19].admissions[0].orders[0],rejected,,unmappable_label:order_status,unmappable_label:order_status: 'on-hold' has no standard order_status value,"{""orderId"": 562, ""testName"": ""VBG"", ""indication"": ""Monitoring - dehydration"", ""status"": ""on-hold"", ""priority"": ""routine"", ""orderedBy"": 6, ""orderedAt"": ""2024-10-11T22:21:00+11:00""}"
+D,orders,567,patients_p3.json:patients[25].admissions[0].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 152 does not exist in source D,"{""orderId"": 567, ""testName"": ""Ultrasound renal"", ""indication"": ""Suspected CKD"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 152, ""orderedAt"": ""19/10/2024 11:54""}"
+D,orders,569,patients_p3.json:patients[25].admissions[0].orders[1],rejected,,chronology:order_time,chronology:order_time: order_time 2024-11-22T14:48:00Z after discharge 2024-10-23T04:54:00Z,"{""orderId"": 569, ""testName"": null, ""indication"": ""Rule out CKD"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 62, ""orderedAt"": ""2024-11-23T01:48:00+11:00""}"
+D,orders,840,patients_p3.json:patients[27].admissions[0].orders[2],duplicate_removed,571,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 571","{""orderId"": 840, ""testName"": ""VBG"", ""indication"": ""Monitoring - dehydration"", ""status"": ""final"", ""priority"": ""  urgent"", ""orderedBy"": 21, ""orderedAt"": ""2024-10-22T13:15:00+11:00""}"
+D,orders,580,patients_p3.json:patients[31].admissions[0].orders[0],rejected,,missing_required:order_time,missing_required:order_time: raw value 'N/A',"{""orderId"": 580, ""testName"": ""FBC"", ""indication"": ""Rule out pneumonia"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 49, ""orderedAt"": ""N/A""}"
+D,orders,602,patients_p3.json:patients[45].admissions[0].orders[0],rejected,,missing_required:priority,missing_required:priority: raw value None,"{""orderId"": 602, ""testName"": ""CT brain"", ""indication"": ""Known concussion, baseline"", ""status"": ""cancelled"", ""priority"": null, ""orderedBy"": 69, ""orderedAt"": ""2024-12-03T01:20:00+11:00""}"
+D,orders,603,patients_p3.json:patients[46].admissions[0].orders[0],rejected,,missing_required:order_status,missing_required:order_status: raw value '',"{""orderId"": 603, ""testName"": ""urinalysis"", ""indication"": ""Assess AKI"", ""status"": """", ""priority"": ""urgent"", ""orderedBy"": 12, ""orderedAt"": ""2024-12-05T20:06:00+11:00""}"
+D,orders,619,patients_p3.json:patients[57].admissions[0].orders[0],rejected,,invalid_date:order_time,invalid_date:order_time: '2024-12-24T28:40:00+10:00': hour must be in 0..23,"{""orderId"": 619, ""testName"": ""Blood film"", ""indication"": ""Monitoring - anaemia"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 21, ""orderedAt"": ""2024-12-24T28:40:00+10:00""}"
+D,orders,632,patients_p3.json:patients[69].admissions[0].orders[0],rejected,,missing_required:order_time,missing_required:order_time: raw value None,"{""orderId"": 632, ""testName"": ""Ultrasound abdomen"", ""indication"": ""Known appendicitis, baseline"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 65, ""orderedAt"": null}"
+D,orders,824,patients_p3.json:patients[73].admissions[0].orders[1],duplicate_removed,640,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 640","{""orderId"": 824, ""testName"": ""Faecal MCS"", ""indication"": ""Suspected dehydration"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 88, ""orderedAt"": ""2025-01-19T13:10:00+11:00""}"
+D,orders,656,patients_p3.json:patients[86].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 722 is in the quarantine,"{""orderId"": 656, ""testName"": ""HbA1c"", ""indication"": ""Known T2DM, baseline"", ""status"": ""in-progress"", ""priority"": ""routine"", ""orderedBy"": 60, ""orderedAt"": ""2025-02-20T20:36:00+11:00""}"
+D,orders,829,patients_p3.json:patients[98].admissions[0].orders[2],duplicate_removed,670,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 670","{""orderId"": 829, ""testName"": ""ecg"", ""indication"": ""Known AF, baseline"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 53, ""orderedAt"": ""2025-03-09T09:42:00+11:00""}"
+D,orders,683,patients_p3.json:patients[105].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2025-02-21T17:15:00Z before admission 2025-03-19T19:15:00Z,"{""orderId"": 683, ""testName"": ""LFT"", ""indication"": ""Monitoring - cholelithiasis"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 55, ""orderedAt"": ""22/02/2025 04:15""}"
+D,orders,686,patients_p3.json:patients[107].admissions[0].orders[2],duplicate_removed,686,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[107].admissions[0].orders[1],"{""orderId"": 686, ""testName"": null, ""indication"": ""Suspected cholelithiasis"", ""status"": ""requested"", ""priority"": ""routine"", ""orderedBy"": 80, ""orderedAt"": ""2025-03-25T10:52:00+11:00""}"
+D,orders,705,patients_p3.json:patients[125].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2025-05-18T15:17:00Z after discharge 2025-05-08T12:29:00Z,"{""orderId"": 705, ""indication"": ""?upper GI bleed"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 91, ""orderedAt"": ""2025-05-19T01:17:00+10:00""}"
+D,orders,717,patients_p3.json:patients[133].admissions[0].orders[0],rejected,,missing_required:indication,missing_required:indication: raw value '?',"{""orderId"": 717, ""testName"": ""LFT"", ""indication"": ""?"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 52, ""orderedAt"": ""2025-05-26T11:26:00+10:00""}"
+D,orders,725,patients_p3.json:patients[138].admissions[0].orders[0],rejected,,ambiguous_date:order_time,ambiguous_date:order_time: '08.06.2025 00:39': day/month order cannot be decided,"{""orderId"": 725, ""testName"": ""CTPA"", ""indication"": ""Suspected PE"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 80, ""orderedAt"": ""08.06.2025 00:39""}"
+D,orders,828,patients_p3.json:patients[146].admissions[0].orders[2],duplicate_removed,736,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 736","{""orderId"": 828, ""testName"": ""Chest X-ray"", ""indication"": ""Suspected AMI"", ""status"": ""requested"", ""priority"": ""stat"", ""orderedBy"": 41, ""orderedAt"": ""2025-06-29T19:35:00+10:00""}"
+D,orders,818,patients_p3.json:patients[163].admissions[0].orders[2],duplicate_removed,758,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 758","{""orderId"": 818, ""testName"": ""FBC"", ""indication"": ""Rule out sepsis"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 60, ""orderedAt"": ""2025-07-25T09:29:00+10:00""}"
+D,orders,775,patients_p3.json:patients[177].admissions[0].orders[0],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 126 does not exist in source D,"{""orderId"": 775, ""testName"": ""Chest X-ray"", ""indication"": ""?chest pain"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 126, ""orderedAt"": ""2025-08-24T21:30:00+10:00""}"
+D,orders,778,patients_p3.json:patients[179].admissions[0].orders[1],rejected,,orphan_reference:professional_id,orphan_reference:professional_id: professionals 97 does not exist in source D,"{""orderId"": 778, ""indication"": ""Suspected dehydration"", ""status"": ""cancelled"", ""priority"": ""urgent"", ""orderedBy"": 97, ""orderedAt"": ""2025-08-27T01:34:00+10:00""}"
+D,orders,836,patients_p3.json:patients[179].admissions[0].orders[2],duplicate_removed,777,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 777","{""orderId"": 836, ""testName"": """", ""indication"": ""?dehydration"", ""status"": "" FINAL  "", ""priority"": ""URG"", ""orderedBy"": 50, ""orderedAt"": ""2025-08-26T22:28:00+10:00""}"
+D,orders,801,patients_p3.json:patients[196].admissions[0].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 865 is in the quarantine,"{""orderId"": 801, ""testName"": ""Chest X-ray"", ""indication"": ""Assess acute asthma"", ""status"": ""cancelled"", ""priority"": ""Routine"", ""orderedBy"": 11, ""orderedAt"": ""2025-09-29T19:36:00+10:00""}"
+D,orders,802,patients_p3.json:patients[196].admissions[0].orders[1],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 865 is in the quarantine,"{""orderId"": 802, ""testName"": ""Peak flow"", ""indication"": ""?acute asthma"", ""status"": ""final"", ""priority"": ""stat"", ""orderedBy"": 11, ""orderedAt"": ""2025-09-30T09:13:00+10:00""}"
+D,orders,801,patients_p3.json:patients[196].admissions[0].orders[2],duplicate_removed,801,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[196].admissions[0].orders[0],"{""orderId"": 801, ""testName"": ""Chest X-ray"", ""indication"": ""Assess acute asthma"", ""status"": ""cancelled"", ""priority"": ""Routine"", ""orderedBy"": 11, ""orderedAt"": ""2025-09-29T19:36:00+10:00""}"
+D,orders,832,patients_p3.json:patients[203].admissions[0].orders[1],duplicate_removed,811,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 811","{""orderId"": 832, ""testName"": ""CT brain"", ""indication"": ""?concussion"", ""status"": ""final"", ""priority"": ""routine"", ""orderedBy"": 41, ""orderedAt"": ""2025-10-12T01:23:00+11:00""}"
+D,orders,815,patients_p3.json:patients[208].admissions[0].orders[0],rejected,,chronology:order_time,chronology:order_time: order_time 2025-10-12T08:04:00Z before admission 2025-10-28T17:34:00Z,"{""orderId"": 815, ""testName"": ""?"", ""indication"": ""Assess pancreatitis"", ""status"": ""requested"", ""priority"": ""urgent"", ""orderedBy"": 23, ""orderedAt"": ""2025-10-12T19:04:00+11:00""}"
+D,orders,446,patients_p3.json:patients[210].admissions[0].orders[1],duplicate_removed,446,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[210].admissions[0].orders[0],"{""orderId"": 446, ""testName"": ""VBG"", ""indication"": ""Known dehydration, baseline"", ""status"": ""cancelled"", ""priority"": ""stat"", ""orderedBy"": 21, ""orderedAt"": ""2024-04-21T13:18:00+10:00""}"
+D,orders,575,patients_p3.json:patients[213].admissions[0].orders[1],rejected,,unmappable_label:priority,unmappable_label:priority: 'timed' has no standard priority value,"{""orderId"": 575, ""testName"": ""FBC"", ""indication"": ""Assess UTI"", ""status"": ""final"", ""priority"": ""timed"", ""orderedBy"": 69, ""orderedAt"": ""2024-10-27T10:03:00+11:00""}"
+D,orders,827,patients_p3.json:unlinkedEncounters[2].orders[1],duplicate_removed,411,near_duplicate,"near_duplicate: same admission_id, order_time, exam_type as order_id 411","{""orderId"": 827, ""testName"": ""UEC"", ""indication"": ""Known dehydration, baseline"", ""status"": ""final"", ""priority"": ""routine  "", ""orderedBy"": 55, ""orderedAt"": ""2024-03-01T23:18:00+11:00""}"
+D,orders,535,patients_p3.json:unlinkedEncounters[3].orders[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 600 is in the quarantine,"{""orderId"": 535, ""testName"": ""BSL"", ""indication"": ""Known syncope, baseline"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 50, ""orderedAt"": ""2024-09-12T22:05:00+10:00""}"
+D,orders,536,patients_p3.json:unlinkedEncounters[3].orders[1],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 600 is in the quarantine,"{""orderId"": 536, ""testName"": ""?"", ""indication"": ""Suspected syncope"", ""status"": ""final"", ""priority"": ""urgent"", ""orderedBy"": 50, ""orderedAt"": ""2024-09-22T02:20:00+10:00""}"

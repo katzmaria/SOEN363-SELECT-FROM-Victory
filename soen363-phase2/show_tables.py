@@ -1,351 +1,133 @@
 """
-Print the tables of the Phase 2 reports in the terminal.
+Runs Tasks 1 and 2 and prints EVERY report table in the terminal (numbered Figure 1, 2, ... like the report).
 
-    python show_tables.py          list all tables with their number
-    python show_tables.py 3        print table 3
-    python show_tables.py 3 7 12   print several tables
-    python show_tables.py all      print every table
+    python show_tables.py                     run everything, then print all tables
+    python show_tables.py 7 12                run everything, then print only Figures 7 and 12
+    python show_tables.py --no-run            print the tables of the last run (no re-run)
+    python show_tables.py --no-run --list     list the figures
+    python show_tables.py --width 160         table width in characters (default: terminal width)
 
-  Short views made for the README:
-    python show_tables.py counts     record counts by entity
-    python show_tables.py missingcounts  missing values per entity and source
-    python show_tables.py duplicates duplicate counts
-    python show_tables.py layout     record layout of the TXT files
-    python show_tables.py fields     field profile of source D triage
-    python show_tables.py formats    the same information written by each source
-    python show_tables.py invalid    invalid values found, one example each
-    python show_tables.py malformed  malformed lines that were logged
-    python show_tables.py examples   before / after examples of the cleaning
-    python show_tables.py missing | timezones | units | categories | chronology   cleaning rules
+Options for the run: --icd9 <path> (default ../soen363-phase1/data/icd9_dictionary.csv), --sources A B C D.
+Standard library only. No Word document is created.
 """
 
-import csv
+import argparse
 import re
+import shutil
 import sys
 import textwrap
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-FILES = ["output/profile_report.md", "output/cleaning_report.md", "cleaning/README.md"]
-MAX_COL = 40  # wrap cells wider than this
-
+sys.path.insert(0, str(ROOT))
 try:
-    sys.stdout.reconfigure(errors="replace")
-except AttributeError:
+    sys.stdout.reconfigure(errors="replace")      # Windows consoles: never crash on a special character
+except Exception:
     pass
 
 
-def clean(cell):
-    cell = re.sub(r"\\+\|", "|", cell.strip())
-    cell = cell.replace("<br>", " / ").replace("`", "").replace("**", "")
-    return cell
+def plain(s):
+    """Remove the **bold** and `code` markers used by the report."""
+    return re.sub(r"\*\*(.+?)\*\*", r"\1", str("" if s is None else s)).replace("`", "")
 
 
-def find_tables():
-    tables = []
-    for rel in FILES:
-        path = ROOT / rel
-        if not path.exists():
-            continue
-        lines = path.read_text(encoding="utf-8").split("\n")
-        title, section, i, in_code = "", "", 0, False
-        while i < len(lines):
-            line = lines[i]
-            if line.startswith("```"):
-                in_code = not in_code
-                i += 1
-                continue
-            if in_code:
-                i += 1
-                continue
-            if line.startswith("#"):
-                title = section = line.lstrip("#").strip()
-            elif re.match(r"^\*\*[^*]+\*\*", line) and not line.startswith("|"):
-                bold = re.match(r"^\*\*([^*]+)\*\*", line).group(1)
-                # per-entity tables: say which source they belong to
-                title = f"{section.split('(')[0].strip()} - {bold}" if section.startswith("Source") else bold
-            if line.startswith("|"):
-                rows = []
-                while i < len(lines) and lines[i].startswith("|"):
-                    if not re.fullmatch(r"[|\-: ]+", lines[i].strip()):
-                        rows.append([clean(c) for c in re.split(r"(?<!\\)\|", lines[i].strip())[1:-1]])
-                    i += 1
-                tables.append((rel, title, rows))
-                continue
-            i += 1
-    return tables
-
-
-def render(rows, max_col=MAX_COL):
-    ncol = max(len(r) for r in rows)
-    rows = [r + [""] * (ncol - len(r)) for r in rows]
-    # width = widest data value (headers wrap onto several lines), capped at MAX_COL
-    widths = [min(max_col, max([len(r[c]) for r in rows[1:]] + [max(map(len, rows[0][c].split() or [""]))]))
-              for c in range(ncol)]
-    sep = "+" + "+".join("-" * (w + 2) for w in widths) + "+"
-    out = [sep]
-    for n, r in enumerate(rows):
-        cells = [textwrap.wrap(r[c], widths[c]) or [""] for c in range(ncol)]
-        for k in range(max(len(x) for x in cells)):
-            out.append("| " + " | ".join((cells[c][k] if k < len(cells[c]) else "").ljust(widths[c])
-                                         for c in range(ncol)) + " |")
-        if n == 0:
-            out.append(sep.replace("-", "="))
-    out.append(sep)
-    return "\n".join(out)
-
-
-# ---------------------------------------------------------------------------
-# Short views (compact versions of the report tables, used in the README)
-# ---------------------------------------------------------------------------
-
-def get_table(tables, title_start):
-    return next((rows for _, t, rows in tables if t.startswith(title_start)), None)
-
-
-def read_csv(rel):
-    path = ROOT / rel
-    if not path.exists():
-        return None
-    with open(path, encoding="utf-8") as f:
-        return list(csv.DictReader(f))
-
-
-def view_counts(tables):
-    return "Record counts by entity", get_table(tables, "2. Record counts")
-
-
-def view_duplicates(tables):
-    return "Duplicate counts", get_table(tables, "4. Duplicate counts")
-
-
-def view_missingcounts(tables):
-    rows = read_csv("output/profile/field_profile.csv")
-    if rows is None:
-        return None, None
-    order, tot = [], {}
-    for r in rows:
-        key = r["entity"]
-        if key not in order:
-            order.append(key)
-        tot[(key, r["source"])] = tot.get((key, r["source"]), 0) + int(r["missing"])
-    out = [["Entity", "A (TXT)", "B (CSV)", "C (XML)", "D (JSON)"]]
-    for e in order:
-        out.append([e] + [str(tot.get((e, S), 0)) for S in "ABCD"])
-    out.append(["Total"] + [str(sum(v for (e, S), v in tot.items() if S == src)) for src in "ABCD"])
-    return "Missing values per entity (all fields; details per field in field_profile.csv)", out
-
-def view_missingcounts(tables):
-    rows = read_csv("output/profile/field_profile.csv")
-    if rows is None:
-        return None, None
-    order, tot = [], {}
-    for r in rows:
-        key = r["entity"]
-        if key not in order:
-            order.append(key)
-        tot[(key, r["source"])] = tot.get((key, r["source"]), 0) + int(r["missing"])
-    out = [["Entity", "A (TXT)", "B (CSV)", "C (XML)", "D (JSON)"]]
-    for e in order:
-        out.append([e] + [str(tot.get((e, S), 0)) for S in "ABCD"])
-    out.append(["Total"] + [str(sum(v for (e, S), v in tot.items() if S == src)) for src in "ABCD"])
-    return "Missing values per entity (all fields; details per field in field_profile.csv)", out
-
-def view_layout(tables):
-    rows = get_table(tables, "1.1 Source A")
-    out = [["File", "Fields in order (separated by | in the file)"]]
-    for r in rows[1:]:
-        out.append([r[0], r[2].replace(" | ", ", ")])
-    return "Record layout of the source A TXT files", out
-
-
-def view_fields(tables, source="D", entity="triage"):
-    rows = read_csv("output/profile/field_profile.csv")
-    out = [["Field", "Inferred type", "Missing", "Other formats in the field"]]
-    for r in rows:
-        if r["source"] == source and r["entity"] == entity:
-            missing = r["missing"] if r["missing"] == "0" else f"{r['missing']} ({r['missing_breakdown']})"
-            other = "; ".join(x for x in (r["format_variants"], r["other_types"]) if x)
-            other = re.sub(r" \(e\.g\. [^)]*\)", "", other)  # keep only "format: count"
-            out.append([r["field"], r["inferred_type"], missing, other])
-    return f"Field profile of source {source}, {entity}", out
-
-
-def view_formats(tables):
-    rows = get_table(tables, "5. Formatting differences")
-    skip = {"Patient id", "Family name", "Birth date", "Symptoms"}  # values differ between runs
-    rename = {"Admitting staff ref": "Staff reference"}
-    out = [["Concept", "A (TXT)", "B (CSV)", "C (XML)", "D (JSON)"]]
-    for r in rows[1:]:
-        if r[0] in skip:
-            continue
-        # a cell looks like "field = value / inferred type": keep only the value
-        out.append([rename.get(r[0], r[0])] + [re.sub(r"^.*? = ", "", c).split(" / ")[0] for c in r[1:]])
-    return "The same information written by each source", out
-
-
-def view_invalid(tables):
-    rows = get_table(tables, "6. Invalid and suspicious values")
-    found = read_csv("output/profile/invalid_values.csv")
-    out = [["Check", "A", "B", "C", "D", "Example"]]
-    for r in rows[1:]:
-        cands = [x for x in found if x["check"] == r[0]]
-        ex = next((x for x in cands if x["entity"] != "patients"), cands[0] if cands else None)
-        if ex is None:
-            text = ""
-        elif ex["entity"] == "patients":  # names differ between runs: show the field only
-            text = f"{ex['source']} patients.{ex['field']}"
+def fit(natural, avail):
+    """Column widths: natural widths if they fit, else cap the widest columns (water-filling)."""
+    if sum(natural) <= avail:
+        return natural
+    lo, hi = 1, max(natural)
+    while lo < hi:
+        mid = (lo + hi + 1) // 2
+        if sum(min(w, mid) for w in natural) <= avail:
+            lo = mid
         else:
-            text = f"{ex['source']} {ex['entity']}.{ex['field']} = {ex['value']}"
-        out.append(r[:5] + [text])
-    return "Invalid and suspicious values in the raw data", out
+            hi = mid - 1
+    return [min(w, lo) for w in natural]
 
 
-def view_malformed(tables):
-    rows = read_csv("output/profile/malformed_records.csv")
-    out = [["Src", "Entity", "Location", "Problem"]]
+def box(header, rows, width):
+    header = [plain(h) for h in header]
+    rows = [[plain(c) for c in r] + [""] * (len(header) - len(r)) for r in rows]
+    n = len(header)
+    natural = [max([len(header[i])] + [len(r[i]) for r in rows]) for i in range(n)]
+    widths = [max(3, w) for w in fit(natural, max(n * 6, width - (3 * n + 1)))]
+    line = "+" + "+".join("-" * (w + 2) for w in widths) + "+"
+    head_line = "+" + "+".join("=" * (w + 2) for w in widths) + "+"
+
+    def emit(cells):
+        parts = [textwrap.wrap(c, w, break_long_words=True, break_on_hyphens=False) or [""]
+                 for c, w in zip(cells, widths)]
+        for k in range(max(len(p) for p in parts)):
+            print("| " + " | ".join((p[k] if k < len(p) else "").ljust(w) for p, w in zip(parts, widths)) + " |")
+
+    print(line)
+    emit(header)
+    print(head_line)
     for r in rows:
-        m = re.search(r"(\d+) fields, header has (\d+)", r["reason"])
-        prob = f"{m.group(1)} fields, expected {m.group(2)}" if m else r["reason"]
-        out.append([r["source"], r["entity"], r["location"], prob])
-    return "Malformed lines (logged, not loaded)", out
+        emit(r)
+        print(line)
 
 
-EXAMPLES = [  # (issue code, preferred source, readable name)
-    ("messy_category_label", "A", "Messy category label"),
-    ("messy_category_label", "C", "Messy category label"),
-    ("ambiguous_date_mm_dd", "A", "Ambiguous DD/MM date"),
-    ("timestamp_as_epoch_seconds", "D", "Epoch timestamp"),
-    ("timestamp_without_timezone", "D", "Timestamp without zone"),
-    ("icd9_leading_zero_lost", "B", "ICD-9 leading zero lost"),
-    ("invalid_temperature", "B", "Temperature out of range"),
-    ("invalid_oxygen_saturation", "C", "SpO2 out of range"),
-    ("invalid_heart_rate", "D", "Heart rate out of range"),
-    ("non_numeric_value", "A", "Not a number"),
-    ("invalid_timestamp", "B", "Impossible date"),
-    ("discharge_before_admission", "C", "Discharge before admit"),
-]
+class TerminalDoc:
+    """Same interface as the Word writer, but prints the tables (and section titles) instead."""
 
+    def __init__(self, only=None, listing=False, width=120):
+        self.only, self.listing, self.width = only, listing, width
+        self.table_no, self.section, self.printed_section = 0, "", None
 
-def view_examples(tables):
-    issues = read_csv("output/cleaning_log/issues.csv")
-    if issues is None:
-        return None, None
-    cut = lambda v: re.sub(r"\s*\(.*$", "", v) if v else "NULL"
-    out = [["Problem", "Src", "Field", "Before", "After", "Action"]]
-    for code, src, name in EXAMPLES:
-        i = next((x for x in issues if x["issue"] == code and x["source"] == src), None) \
-            or next((x for x in issues if x["issue"] == code), None)
-        if i:
-            out.append([name, i["source"], i["field"], cut(i["before"]), cut(i["after"]), i["action"]])
-    return "Before and after cleaning", out
+    def h(self, text, level=1):
+        self.section = plain(text)
 
-
-# Cleaning rules (Task 2). Written here so they can be shown without other files.
-RULES = {
-    "missing": ("When a record is corrected, kept with NULL or quarantined", [
-        ["Situation", "What we do"],
-        ["Optional value missing (phone, insurance, allergies...)", "Kept as NULL and logged"],
-        ["Optional value invalid (heart rate 420, pain 15...)", "Value set to NULL, record kept"],
-        ["Required value missing in one copy but present in another copy", "Filled from the other copy"],
-        ["Discharge time missing, but the discharge record has it (or the reverse)", "Filled from the record of the same discharge"],
-        ["Required value missing or invalid, no evidence anywhere", "Record quarantined with the reason"],
-        ["Invalid unit exit or discharge time (NULL would mean 'still there')", "Record quarantined"],
-    ]),
-    "timezones": ("Time zones and how timestamps are converted to UTC", [
-        ["Source", "Written as", "Source time zone", "What we do"],
-        ["A", "DD/MM/YYYY HH:MM", "Europe/Paris, no offset", "Local time -> UTC (DST aware)"],
-        ["B", "MM/DD/YYYY hh:mm AM/PM", "America/Toronto, no offset", "Local time -> UTC (DST aware)"],
-        ["C", "ISO 8601 with +08:00", "Asia/Singapore", "Written offset used"],
-        ["D", "ISO 8601 with Z", "UTC", "Used as written"],
-        ["D", "ISO 8601 without zone", "unknown", "Assumed Africa/Johannesburg, flagged"],
-        ["D", "Unix epoch seconds", "UTC", "Converted"],
-    ]),
-    "units": ("Unit conversions and valid ranges", [
-        ["Field", "Conversion", "Valid range"],
-        ["Temperature", "B: Fahrenheit -> Celsius; A: 37,2 -> 37.2", "25 - 45 C"],
-        ["SpO2", "C: fraction -> percent (0.97 -> 97)", "50 - 100 %"],
-        ["Heart rate", "-", "20 - 300 bpm"],
-        ["Respiratory rate", "text like 'abc' -> NULL", "4 - 80 per min"],
-        ["Pain score", "must be a whole number", "0 - 10"],
-        ["Blood pressure", "'120/80' -> systolic 120, diastolic 80", "50-300 / 20-200"],
-        ["ICD-9 code", "kept as text; B: '38.9' -> '038.9'", "must exist in the dictionary"],
-    ]),
-    "categories": ("Source labels mapped to common values", [
-        ["Common value", "A", "B", "C", "D"],
-        ["emergency", "EMER", "Emergency", "ER", "1"],
-        ["urgent", "URG", "Urgent", "Urgent Care", "2"],
-        ["elective", "ELEC", "Elective", "Scheduled", "3"],
-        ["outpatient", "AMB", "Outpatient", "Ambulatory", "4"],
-        ["newborn", "NN", "Newborn", "Birth", "5"],
-        ["high / medium / low", "1 / 2 / 3", "High / Medium / Low", "Red / Yellow / Green", "P1 / P2 / P3"],
-        ["Emergency Department", "URGENCES", "Emergency Department", "Emergency Room", "emergency"],
-        ["ICU", "REA", "Intensive Care Unit", "ICU", "icu"],
-        ["CCU", "USIC", "Coronary Care Unit", "CCU", "ccu"],
-        ["MICU", "REA-MED", "Medical ICU", "Medical ICU", "micu"],
-        ["SICU", "REA-CHIR", "Surgical ICU", "Surgical ICU", "sicu"],
-        ["General Ward", "MED", "General Ward", "Ward", "ward"],
-        ["discharged", "SORTI", "Discharged", "Discharged", "discharged"],
-        ["deceased", "DECEDE", "Expired", "Died", "died"],
-        ["active", "EN COURS", "In House", "Admitted", "inpatient"],
-        ["female / male / unspecified", "F / H / I", "Female / Male / Unknown", "female / male / unspecified", "f / m / o"],
-    ]),
-    "chronology": ("Chronology checks", [
-        ["Rule", "If it fails"],
-        ["discharge time >= admission time", "Corrected from the discharge record if it has a valid time, otherwise quarantined"],
-        ["admission date >= patient birth date", "Admission quarantined"],
-        ["unit exit >= unit entry", "Unit stay quarantined"],
-        ["triage, unit stay, order, exam, procedure, note and discharge record inside the admission", "Record quarantined"],
-        ["diagnosis time >= admission time", "Diagnosis quarantined"],
-        ["radiology exam >= its order time", "Exam quarantined"],
-        ["unit stays of one admission do not overlap", "Only flagged"],
-    ]),
-}
-
-
-def rule_view(name):
-    return lambda tables: RULES[name]
-
-
-VIEWS = {"counts": view_counts, "missingcounts": view_missingcounts, "duplicates": view_duplicates, "layout": view_layout, "fields": view_fields, "formats": view_formats, "invalid": view_invalid,
-         "malformed": view_malformed, "examples": view_examples,
-         **{k: rule_view(k) for k in RULES}}
-
-
-def main():
-    tables = find_tables()
-    if sys.argv[1:2] and sys.argv[1] in VIEWS:
-        title, rows = VIEWS[sys.argv[1]](tables)
-        if rows is None:
-            print("Run the profiling and cleaning scripts first.")
+    def table(self, header, rows, caption=None, **_):
+        if not caption:
             return
+        self.table_no += 1
+        title = f"Figure {self.table_no}: {plain(caption)}"
+        if self.listing:
+            print(f"{title}   [{self.section}]")
+            return
+        if self.only and self.table_no not in self.only:
+            return
+        if self.section != self.printed_section and not self.only:
+            print("\n" + "#" * min(self.width, 100) + f"\n# {self.section}\n" + "#" * min(self.width, 100))
+            self.printed_section = self.section
         print(f"\n{title}")
-        print(render(rows, max_col=44 if sys.argv[1] in RULES else 32))
-        return
-    if not tables:
-        print("No reports found. Run profiling/profile_sources.py and cleaning/run_cleaning.py first.")
-        return
-    args = sys.argv[1:]
-    if not args:
-        current = None
-        for n, (rel, title, rows) in enumerate(tables, start=1):
-            if rel != current:
-                print(f"\n{rel}")
-                current = rel
-            print(f"  {n:3d}  {title}  ({len(rows) - 1} rows)")
-        print("\nShow a table with:  python show_tables.py <number>   (or: all)")
-        print("Short views:  counts, missingcounts, duplicates, layout, fields, formats, invalid, malformed, examples")
-        print("Cleaning rules: missing, timezones, units, categories, chronology")
-        return
-    picks = range(1, len(tables) + 1) if args == ["all"] else [int(a) for a in args]
-    for n in picks:
-        if not 1 <= n <= len(tables):
-            print(f"No table {n} (there are {len(tables)}).")
-            continue
-        rel, title, rows = tables[n - 1]
-        print(f"\nTable {n} - {title}   [{rel}]")
-        print(render(rows))
+        box(header, rows or [["(no rows)"] + [""] * (len(header) - 1)], self.width)
+
+    # everything else the report writes (text, lists, captions) is not printed
+    def p(self, *a, **k): pass
+    def title(self, *a, **k): pass
+    def bullets(self, *a, **k): pass
+    def code(self, *a, **k): pass
+    def caption(self, *a, **k): pass
+    def page_break(self, *a, **k): pass
+    def save(self, *a, **k): pass
 
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("figures", nargs="*", type=int, help="figure numbers to print (default: all)")
+    ap.add_argument("--no-run", action="store_true", help="do not re-run Tasks 1 and 2, use the last results")
+    ap.add_argument("--list", action="store_true", help="only list the figures")
+    ap.add_argument("--width", type=int, default=max(80, shutil.get_terminal_size((140, 40)).columns - 1))
+    ap.add_argument("--sources", nargs="+", default=["A", "B", "C", "D"])
+    ap.add_argument("--icd9", default=str(ROOT.parent / "soen363-phase1" / "data" / "icd9_dictionary.csv"))
+    a = ap.parse_args()
+
+    import run_all
+    run_all.check_files(a.sources)
+    if not a.no_run:
+        from cleaning.clean_sources import OUT, run
+        from profiling.profile_sources import profile
+        print("Task 1 - loading and profiling the raw sources ...")
+        profile(tuple(a.sources), Path(a.icd9), OUT)
+        print("Task 2 - cleaning and standardizing ...")
+        run(tuple(a.sources), Path(a.icd9), OUT, quiet=True)
+        print(f"Results written to {OUT}")
+
+    import reporting.make_report as mr
+    doc = TerminalDoc(only=set(a.figures), listing=a.list, width=a.width)
+    mr.Docx = lambda: doc                         # the report code fills the terminal instead of a Word file
+    mr.build(out_path=ROOT / "output" / ".unused.docx")
+    if not a.list:
+        print(f"\n{doc.table_no} figures. Print one again with:  python show_tables.py --no-run <number>")

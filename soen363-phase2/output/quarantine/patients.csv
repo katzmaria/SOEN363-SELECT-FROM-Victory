@@ -1,0 +1,444 @@
+source_system,entity,source_record_id,source_row,disposition,duplicate_of,reason_codes,reason_details,raw_record
+A,patients,16,patients.txt:30,duplicate_removed,16,exact_duplicate,exact_duplicate: same ID and same values as patients.txt:17,"16|O'NEILL|Julien|14/05/1966|M|21 rue des Ecoles, 70743 Les Ormeaux|02 83 92 71 18|Yvette de La Tour (02 86 19 04 88)|VIVANT"
+A,patients,22,patients.txt:39,duplicate_removed,22,exact_duplicate,exact_duplicate: same ID and same values as patients.txt:23,"22|LEROY|Juliette|13/06/2022|F|15 quai Saint-Martin, 96786 Vernay|04 43 16 67 81|FRANCOIS CLEMENT (05 58 45 18 38)|DECEDE"
+A,patients,47,patients.txt:63,duplicate_removed,47,exact_duplicate,exact_duplicate: same ID and same values as patients.txt:50,"47|CLEMENT|bernard|04/03/1947|H|71 avenue de la Loire, 65975 Montclair-sur-Loire|06 22 10 78 65|Adam Blanc (+33605043423)|VIVANT"
+A,patients,123,patients.txt:127,rejected,,missing_required:last_name,missing_required:last_name: raw value 'N/A',"123|N/A|Lucas|28/05/1930|M|1 impasse des Lilas, 41995 Chasseneuil-Bas|01 33 64 34 67|Remi Leroy (+33 2 50 64 63 17)|VIVANT"
+A,patients,134,patients.txt:143,duplicate_removed,134,exact_duplicate,exact_duplicate: same ID and same values as patients.txt:138,"134|ROBERT|Mathilde|22/01/1978|F|106 impasse des Lilas, 75113 Bellerive-en-Val|07 42 63 04 37||VIVANT"
+A,patients,151,patients.txt:160,duplicate_removed,151,exact_duplicate,exact_duplicate: same ID and same values as patients.txt:156,"151|ROUSSEL|Anne|18/10/1984|F|29 place du Marche, 99640 Saint-Avold-le-Haut|03 06 20 27 17|Gerard Mercier (01 94 80 69 41)|VIVANT"
+A,patients,190,patients.txt:196,rejected,,invalid_date:date_of_birth,invalid_date:date_of_birth: '31/02/2021': day is out of range for month,"190|RICHARD|Yvette|31/02/2021|F|11 rue des Tilleuls, 27505 Vernay|01 68 55 79 18|Bernard Dupont (04 29 90 95 19)|VIVANT"
+A,patients,245,patients.txt:251,rejected,,missing_required:last_name,missing_required:last_name: raw value 'null',"245|null|Eric|26/09/1989|M|120 chemin des Vignes, 29989 Vernay|03 14 01 90 75|Philippe Henry (04 10 55 74 88)|VIVANT"
+A,patients,308,patients.txt:325,duplicate_removed,308,exact_duplicate,exact_duplicate: same ID and same values as patients.txt:314,"308|PETIT|Brigitte|31/01/1957|F|86 rue Jean Jaures, 26939 Vernay|05 27 88 64 42|Bernard Martinez (04 11 69 33 05)|  VIVANT"
+A,patients,325,patients.txt:336,duplicate_removed,325,exact_duplicate,exact_duplicate: same ID and same values as patients.txt:332,"325|duval|Agathe|11/03/2004|FEM|20 rue Victor Hugo, 97679 Bellerive-en-Val|05 79 90 74 77|Michel Petit (02 19 77 95 97)|vivant"
+A,patients,382,patients.txt:390,rejected,,missing_required:last_name,missing_required:last_name: raw value '',"382||Marcel|02/10/1987|M|10 allee des Peupliers, 61805 Les Ormeaux|03 62 08 89 45|Lea Chevalier (07 05 99 72 11)|VIVANT"
+A,patients,415,patients.txt:423,rejected,,invalid_date:date_of_birth,invalid_date:date_of_birth: '31/02/1974': day is out of range for month,"415|MULLER|Mathilde|31/02/1974|F|77 quai Saint-Martin, 19425 Bellerive-en-Val|+33 3 94 77 76 89|Lucie Da Silva (03 77 74 75 28)|VIVANT"
+A,patients,424,patients.txt:434,duplicate_removed,424,exact_duplicate,exact_duplicate: same ID and same values as patients.txt:432,"424|ROGER|  Anne|08/07/1979|-|83 avenue de la Loire, 42529 Les Ormeaux|07 04 31 02 72|Lucie Lemaire (02 56 90 52 42)|VIVANT"
+A,patients,435,patients.txt:451,duplicate_removed,435,exact_duplicate,exact_duplicate: same ID and same values as patients.txt:444,"435|GAUTHIER|Jules|22/09/1953|M|106 avenue des Acacias, 14560 Les Ormeaux|07 65 79 36 58|Olivier Gautier (02 63 53 65 86)|VIVANT"
+A,patients,481,patients.txt:491,duplicate_removed,97,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 97","481|ANDRE|Helene|27/10/1998|F|5 rue des Tilleuls, 93748 Vernay|| Michel Martinez (07 13 08 40 86)|Vivant(E)"
+A,patients,482,patients.txt:492,duplicate_removed,259,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 259","482|LEROY|Yvette|29 dec. 1983|F| 130 rue des Ecoles, 97711 Vernay||SANDRINE ROGER (07 64 85 80 86)|Decede"
+A,patients,483,patients.txt:493,duplicate_removed,135,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 135","483|DUMONT|Julien|08/11/1948|M|41 chemin des Vignes, 41431 Saint-Avold-le-Haut|03 77 73 94 53|Michel Durand (0306515570)|VIVANT"
+A,patients,484,patients.txt:494,duplicate_removed,455,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 455",484|LE ROUX|Andre|22 janv. 1960|Homme|N/A||Camille Thomas (06 45 07 01 22)|VIVANT
+A,patients,485,patients.txt:495,duplicate_removed,114,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 114","485|LEROY|Odile|13/06/1974|F|140 rue Pierre Curie, 71849 Chasseneuil-Bas||Lucas Garnier (05 03 11 84 52)|vivant"
+A,patients,486,patients.txt:496,duplicate_removed,30,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 30","486| ROUX|Jacques|22/12/1972|M|114 rue du moulin, 53406 bellerive-en-val|07 93 92 67 32|celine michel (01 30 55 29 14)|DECEDE"
+A,patients,487,patients.txt:497,duplicate_removed,460,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 460","487|LE ROUX|Anne|16 janv. 1963|F|76 Rue Du Moulin, 94151 Montclair-Sur-Loire|01 24 73 48 55|-| VIVANT"
+A,patients,488,patients.txt:498,duplicate_removed,379,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 379","488|LE ROUX|Eric|16/02/1990|M|4 allee des Peupliers, 14614 Chasseneuil-Bas|null| Andre Bertrand (03 32 03 86 77)|VIVANT"
+A,patients,489,patients.txt:499,duplicate_removed,282,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 282","489|MOREAU|Chloe|12/10/2024|Femme|22 rue des Ecoles, 14713 Bellerive-en-Val|05 90 53 55 02|Pierre Moreau (03 94 42 62 86)|vivant"
+A,patients,490,patients.txt:500,duplicate_removed,12,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 12","490| SAINT-CLAIR|Elise|27/12/1965|F|95 allee des Peupliers, 45512 Bellerive-en-Val||christophe chevalier (04 60 78 33 60)|VIVANT"
+A,patients,491,patients.txt:501,duplicate_removed,457,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 457","491|GARCIA|Agathe|26/11/2014|F|28 Rue Des Tilleuls, 73548 Les Ormeaux|03 20 16 54 16|Sarah Girard (03 47 99 89 09)|vivant"
+A,patients,492,patients.txt:502,duplicate_removed,253,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 253","492|ROGER|Agathe|24/11/2024|F|135 rue des Ecoles, 47802 Les Ormeaux||arthur joly (05 79 21 18 73)|VIVANT"
+A,patients,493,patients.txt:503,duplicate_removed,155,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 155","493|muller|Yvette|1935-09-22|F| 24 quai Saint-Martin, 82899 Saint-Avold-le-Haut|02.44.70.65.79|GABRIEL JOLY (03 63 91 39 02)|vivant"
+A,patients,494,patients.txt:504,duplicate_removed,417,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 417","494|CLEMENT|Louis|19/08/2019|M|37 place du marche, 99785 montclair-sur-loire|| Marie Garnier (04 91 04 50 64)|VIVANT"
+B,patients,18,patients.csv:19,rejected,,missing_required:full_name,missing_required:full_name: raw value '',"18,,13/08/1929,F,""Plot 156, Zone G, Mukono"",0777 254778,Collins Tugume (Brother) 0725 895558,Alive"
+B,patients,98,patients.csv:99,rejected,,invalid_date:date_of_birth,invalid_date:date_of_birth: '14/02/0202': year 202 outside 1900-2100,"98,Ronald Ariong,14/02/0202,M,""Plot 62, Zone G, Wakiso"",0767 036465,Prossy Masika (Mother) 0787 223805,Alive"
+B,patients,114,patients.csv:131,duplicate_removed,114,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:115,"114,Annet Masika,31/07/2022,F,"" Plot 22, Zone E, Wakiso"",,Florence Babirye (Mother) 0713 640872,Alive"
+B,patients,41,patients.csv:201,duplicate_removed,41,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:42,"41,Fred Edward Kizza,2022-03-19,M,""plot 93, zone e, wakiso"",,Agnes Kemigisha (Mother) 0762 488244,Alive"
+B,patients,229,patients.csv:232,rejected,,invalid_date:date_of_birth,invalid_date:date_of_birth: '1947-11-31': day is out of range for month,"229,Ruth Tugume,1947-11-31,F,""Plot 54, Zone B, Entebbe"",0754 675549,Gloria Ojok (Daughter) 0789 619197,Alive"
+B,patients,117,patients.csv:256,duplicate_removed,117,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:118,"117,Immaculate Kato,06/03/1940,Female,""Plot 121, Zone A, Mityana"",0716 631782,Andrew Atwine (Guardian) 0756 212539,Alive"
+B,patients,122,patients.csv:320,duplicate_removed,122,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:123,"122,Edward Lubega,20/08/2022,M,""PLOT 151, ZONE C, MUKONO"",,Rebecca Bukenya (Mother) 0715 179530,Alive"
+B,patients,23,patients.csv:338,duplicate_removed,23,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:24,"23,Edward Muhindo,14/04/1993,M,""Plot 225, Zone F, Iganga"",0706 353948,Irene Muhindo (Mother) 0786 289503,Alive"
+B,patients,359,patients.csv:365,rejected,,missing_required:date_of_birth,missing_required:date_of_birth: raw value 'N/A',"359,Martin Ojok,N/A,M,""Plot 11, Zone F, Mukono"",0709 054930,Robert Wasswa (Brother) 0755 923794,"
+B,patients,362,patients.csv:368,rejected,,missing_required:date_of_birth,missing_required:date_of_birth: raw value '0000-00-00',"362,Charles Robert Kato,0000-00-00,M,""Plot 209, Zone D, Gulu"",0763 957054,Shamim Kato (Aunt) 0724 703259,Living"
+B,patients,392,patients.csv:405,duplicate_removed,392,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:398,"392,Hassan Joseph Atwine,30/09/2002,M,""PLOT 192, ZONE D, HOIMA"",0725 193058,Hassan Kasozi (Uncle) 0729241460,Alive"
+B,patients,538,patients.csv:545,rejected,,missing_required:date_of_birth,missing_required:date_of_birth: raw value '-',"538,Prossy Kyomuhendo,-,F,""Plot 218, Zone A, Gulu"",0767 204571,Moses Ariong (Guardian) 0702 095207,Deceased"
+B,patients,397,patients.csv:557,duplicate_removed,397,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:403,"397,Collins Kyomuhendo,1942-12-05,Male,""Plot 102, Zone A, Mbarara"",0782-709-156,Prossy Kato (Sister) 0710 526430,Alive"
+B,patients,506,patients.csv:558,duplicate_removed,506,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:513,"506,John Kabugo,10/03/2010,M,""Plot 171, Zone E, Lira"",0711 005224,Joan Byaruhanga (Mother) 0770 753776,Alive"
+B,patients,125,patients.csv:575,duplicate_removed,125,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:126,"125,Grace Okello,16/03/1982,F,""Plot 222, Zone G, Lira"",0760 426938,Grace Mugisha (Sister) 0720 803948,Alive"
+B,patients,568,patients.csv:585,duplicate_removed,568,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:578,"568,Joan Kasozi,04/11/1984,F,""Plot 239, Zone B, Fort Portal"",0743 694094,Prossy Kule (Aunt) 0721 041967,Alive"
+B,patients,233,patients.csv:589,duplicate_removed,233,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:236,"233,Irene Namubiru,26/12/1955,F,""Plot 166, Zone G, Fort Portal  "",0710576276,Fred Odongo (Son) 0746 048297,Alive"
+B,patients,422,patients.csv:629,duplicate_removed,422,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:429,"422,Doreen Fatuma Kemigisha,25 Apr 1995,F,""Plot 10, Zone H, Mbarara"",0701 492287,Ruth Ariong (Daughter) 0727 646329,Alive"
+B,patients,617,patients.csv:630,rejected,,invalid_date:date_of_birth,invalid_date:date_of_birth: '31/06/2003': day is out of range for month,"617,Florence Auma,31/06/2003,F,-,0787 179971,Harriet Oryem (Guardian) 0780 351619,Alive"
+B,patients,228,patients.csv:659,duplicate_removed,228,exact_duplicate,exact_duplicate: same ID and same values as patients.csv:231,"228,John Acen,7 Jun 2016,M,""Plot 202, Zone E, Masaka"",,Juliet Akello (Mother) +256 787 972962,Alive"
+B,patients,661,patients.csv:675,duplicate_removed,157,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 157","661,Doreen Bwambale,09/10/1963,Female,""Plot 63, Zone B, Wakiso"",0715 003753,Martin Lamwaka (Brother) 0741 491103,Alive"
+B,patients,662,patients.csv:676,duplicate_removed,284,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 284","662,Rose Atwine,03/05/1965,F,""Plot 147, Zone B, Wakiso    "",0712 194151,Juliet Masika (Aunt) 0773 298854,Alive"
+B,patients,663,patients.csv:677,duplicate_removed,112,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 112","663,Ibrahim Nakato,25/11/1986,M,""Plot 98, Zone F, Mityana"",0784 546825,Doreen Nalubega (Spouse) +256 705 250517,Living"
+B,patients,664,patients.csv:678,duplicate_removed,253,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 253","664,Florence Otim,19/04/1992,F,""Plot 201, Zone F, Masaka"",0720 381572,,Alive"
+B,patients,665,patients.csv:679,duplicate_removed,441,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 441","665,Agnes Odongo,30/05/1961,F,""Plot 22, Zone D, Lira"",0757 889175,Richard Nyakato (Spouse) 0757 801542,Alive"
+B,patients,666,patients.csv:680,duplicate_removed,106,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 106","666,Brenda Tugume,03/06/1946,F,""Plot 258, Zone D, Kabale"",0777 271198,Henry Tugume (Father) 0781 092283,Alive"
+B,patients,667,patients.csv:681,duplicate_removed,316,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 316","667, Rose Byamukama,14/11/1990,F,""Plot 92, Zone G, Soroti"",0755 628925,Sylvia Nabukeera (Mother) 0745 638518,Living"
+B,patients,668,patients.csv:682,duplicate_removed,92,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 92","668,Grace Nalubega,09/02/1970,F,""Plot 68, Zone F, Mukono"",0767 199602,Moses Babirye (Uncle) 0789 949293,Alive"
+B,patients,669,patients.csv:683,duplicate_removed,434,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 434","669,Irene Ouma,1948-06-06,F,"" PLOT 154, ZONE E, MBALE  "",0784 241204,Moses Lubega (Father) 0707 061703,Alive"
+B,patients,670,patients.csv:684,duplicate_removed,6,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 6","670,Edward Kisakye,26 Jan 1959,M,""Plot 132, Zone A, Iganga"",0727 229912,Joseph Akello (Son) 0784 759575,"
+B,patients,671,patients.csv:685,duplicate_removed,193,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 193","671,Joseph Kisakye,23/11/1996,M,""Plot 214, Zone H, Mbarara"",0705 985622,Sarah Kasozi (Mother) 0748 010565,Alive"
+B,patients,672,patients.csv:686,duplicate_removed,405,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 405","672,Emmanuel Paul Ainembabazi,06/08/1987,M,""   Plot 86, Zone F, Gulu"",0722 773380,Brian Amongi (Spouse) +256 786 237986,Alive"
+B,patients,673,patients.csv:687,duplicate_removed,14,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 14","673,Julius Byaruhanga,12/04/2001,M,""Plot 179, Zone H, Wakiso"",0744 190498,Musa Byamukama (Father) 0758 596473,"
+B,patients,674,patients.csv:688,duplicate_removed,335,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 335","674,Musa Nantongo,25/09/1984,M,""Plot 243, Zone G, Hoima"",0761 921141,Sylvia Mwesigwa (Daughter) 0709 418707,Alive"
+B,patients,675,patients.csv:689,duplicate_removed,437,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 437","675,Ibrahim Kabugo,25/09/1981,M,""Plot 89, Zone C, Mbarara"",0708 801510,Josephine Nakato (Aunt) 256716962763,Alive"
+B,patients,676,patients.csv:690,duplicate_removed,458,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 458","676,Collins Namatovu,29/06/1940,M,""Plot 258, Zone A, Arua"",0748 760591,Patrick Opio (Father) 0722 907851,Alive"
+B,patients,677,patients.csv:691,duplicate_removed,336,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 336","677,Esther Okello,17 Jan 1984, F,""Plot 171, Zone D, Gulu"",0773 564895,Henry Odongo (Son) 0771 640268,Alive"
+B,patients,678,patients.csv:692,duplicate_removed,116,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 116","678,Musa Robert Tugume,28 Dec 1984,M,""Plot 88, Zone F, Wakiso"",0784 651060,Ivan Auma (Spouse) 0707 547518,Alive"
+B,patients,679,patients.csv:693,duplicate_removed,132,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 132","679,Harriet Oryem,21/07/1994,F,""Plot 108, Zone G, Mbarara"",0711 945451,Immaculate Ssali (Daughter) 0715 796151,Alive"
+B,patients,680,patients.csv:694,duplicate_removed,16,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 16","680,Joseph Amongi,10/11/1974,M,""Plot 217, Zone E, Mbale"",0764 709971,Ronald Auma (Brother) 0721 133800,Alive"
+C,patients,P000016,patients/patient[16],rejected,,invalid_date:date_of_birth,invalid_date:date_of_birth: '1948-01-32': day is out of range for month,"<patient patientId=""P000016"">
+      <name>
+        <family>Pillai</family>
+        <given>Shalini d/o</given>
+      </name>
+      <birthDate>1948-01-32</birthDate>
+      <sex>F</sex>
+      <address>Blk 481 Bedok North St 2, #17-358, Singapore 523832</address>
+      <phone>+65 8452 6064</phone>
+      <nextOfKin>Lee Jia Hui (+65 9594 6096)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000044,patients/patient[44],rejected,,invalid_date:date_of_birth,invalid_date:date_of_birth: 'TBC': not a recognised date format,"<patient patientId=""P000044"">
+      <name>
+        <family>Ng</family>
+        <given>Xiu Ling</given>
+      </name>
+      <birthDate>TBC</birthDate>
+      <sex>?</sex>
+      <address>Blk 268 Punggol Field, #22-321, Singapore 766764</address>
+      <phone>+65 6799 8057</phone>
+      <nextOfKin>Ang Pei Shan (80347107)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000057,patients/patient[58],duplicate_removed,P000057,exact_duplicate,exact_duplicate: same ID and same values as patients/patient[57],"<patient patientId=""P000057"">
+      <name>
+        <family>Sim</family>
+        <given>Yong Sheng</given>
+      </name>
+      <birthDate>1960-04-15</birthDate>
+      <sex>M</sex>
+      <address>Blk 772 Ang Mo Kio Ave 3, #12-179, Singapore 382817</address>
+      <phone>+65 6195 3657</phone>
+      <nextOfKin>Ong Li Ting (6586952498)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000100,patients/patient[102],duplicate_removed,P000100,exact_duplicate,exact_duplicate: same ID and same values as patients/patient[101],"<patient patientId=""P000100"">
+      <name>
+        <family>ONG</family>
+        <given>Shu Fen</given>
+      </name>
+      <birthDate>2006-05-19</birthDate>
+      <sex>?</sex>
+      <address>Blk 265 Serangoon North Ave 1, #25-72, Singapore 691637</address>
+      <phone>+65 8540 2934</phone>
+      <nextOfKin>Low Shu Fen (+65 6066 8674)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000132,patients/patient[135],duplicate_removed,P000132,exact_duplicate,exact_duplicate: same ID and same values as patients/patient[134],"<patient patientId=""P000132"">
+      <name>
+        <family>Goh</family>
+        <given>Shu Fen</given>
+      </name>
+      <birthDate>1984-12-20</birthDate>
+      <sex>F</sex>
+      <address>Blk 948 Jurong West St 41, #02-256, Singapore 502986</address>
+      <phone>+65 8111 8968</phone>
+      <nextOfKin>Koh Shu Fen (+65 9660 9888)</nextOfKin>
+      <vitalStatus>Deceased</vitalStatus>
+    </patient>"
+C,patients,P000228,patients/patient[232],duplicate_removed,P000228,exact_duplicate,exact_duplicate: same ID and same values as patients/patient[231],"<patient patientId=""P000228"">
+      <name>
+        <family>Ng</family>
+        <given>Hui Min</given>
+      </name>
+      <birthDate>2009-07-19</birthDate>
+      <sex>M</sex>
+      <address>Blk 74 Hougang Ave 8, #10-203, Singapore 153376</address>
+      <phone>+65 8063 7258</phone>
+      <nextOfKin>Kumar s/o Menon (+65 9686 6322)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000238,patients/patient[243],duplicate_removed,P000238,exact_duplicate,exact_duplicate: same ID and same values as patients/patient[242],"<patient patientId=""P000238"">
+      <name>
+        <family>Raman</family>
+        <given>Rajesh s/o</given>
+      </name>
+      <birthDate>1977-05-17</birthDate>
+      <sex>M</sex>
+      <address>Blk 252 Jurong West St 41, #12-293, Singapore 781773</address>
+      <phone>+65 8263 4961</phone>
+      <nextOfKin>Ravi s/o Subramaniam (+65 8944 9972)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000257,patients/patient[263],duplicate_removed,P000257,exact_duplicate,exact_duplicate: same ID and same values as patients/patient[262],"<patient patientId=""P000257"">
+      <name>
+        <family>Osman</family>
+        <given>Iskandar bin</given>
+      </name>
+      <birthDate>1992-06-30</birthDate>
+      <sex>M</sex>
+      <address>Blk 208 Ang Mo Kio Ave 3, #03-277, Singapore 174080</address>
+      <phone>6562309933</phone>
+      <nextOfKin>Tay Boon Kiat (+65 9646 6353)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000283,patients/patient[290],duplicate_removed,P000283,exact_duplicate,exact_duplicate: same ID and same values as patients/patient[289],"<patient patientId=""P000283"">
+      <name>
+        <family>Koh</family>
+        <given>Boon Kiat</given>
+      </name>
+      <birthDate>1961-11-29</birthDate>
+      <sex>F</sex>
+      <address>Blk 187 Sengkang East Way, #21-306, Singapore 456406</address>
+      <phone>+65 8591 9130</phone>
+      <nextOfKin>Goh Hui Min (+65 8971 2066)</nextOfKin>
+      <vitalStatus> Alive </vitalStatus>
+    </patient>"
+C,patients,P000317,patients/patient[325],duplicate_removed,P000317,exact_duplicate,exact_duplicate: same ID and same values as patients/patient[324],"<patient patientId=""P000317"">
+      <name>
+        <family>Tay</family>
+        <given>Siew Lan</given>
+      </name>
+      <birthDate>1947-04-06</birthDate>
+      <sex>F</sex>
+      <address>Blk 721 Woodlands Dr 14, #08-210, Singapore 472987</address>
+      <phone>+65 8345 2195</phone>
+      <nextOfKin>null</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000343,patients/patient[352],duplicate_removed,P000343,exact_duplicate,exact_duplicate: same ID and same values as patients/patient[351],"<patient patientId=""P000343"">
+      <name>
+        <family>Ong</family>
+        <given>Jun Jie</given>
+      </name>
+      <birthDate>1930-07-06</birthDate>
+      <address>Blk 115 Punggol Field, #02-110, Singapore 685313</address>
+      <phone>+65 8689 0954</phone>
+      <nextOfKin>Chua Jia Hui (+65 8401 1971)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000425,patients/patient[434],rejected,,missing_required:date_of_birth,missing_required:date_of_birth: raw value 'N/A',"<patient patientId=""P000425"">
+      <name>
+        <family>Chua</family>
+        <given>Zhi Hao</given>
+      </name>
+      <birthDate>N/A</birthDate>
+      <sex>Male</sex>
+      <address>Blk 951 Clementi Ave 2, #22-313, Singapore 812601</address>
+      <phone>+65 9990 6262</phone>
+      <nextOfKin>Ng Shu Fen ((65) 83086140)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000434,patients/patient[443],rejected,,missing_required:last_name,missing_required:last_name: raw value '-',"<patient patientId=""P000434"">
+      <name>
+        <family>-</family>
+        <given>Li Ting</given>
+      </name>
+      <birthDate>1973-07-09</birthDate>
+      <sex>F</sex>
+      <address>Blk 691 Yishun Ring Rd, #05-24, Singapore 503790</address>
+      <phone>+65 9803 4116</phone>
+      <nextOfKin>Chua Yong Sheng (+65 6246 1663)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000446,patients/patient[455],rejected,,missing_required:date_of_birth,missing_required:date_of_birth: raw value '',"<patient patientId=""P000446"">
+      <name>
+        <family>Subramaniam</family>
+        <given>Revathi d/o</given>
+      </name>
+      <birthDate />
+      <sex>F</sex>
+      <address>Blk 184 Bedok North St 2, #09-124, Singapore 797281</address>
+      <phone>+65 8824 7497</phone>
+      <nextOfKin>Chia Pei Shan (+65 8133 3762)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000481,patients/patient[490],duplicate_removed,P000037,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 37","<patient patientId=""P000481"">
+      <name>
+        <family>Chong</family>
+        <given>Jun Jie</given>
+      </name>
+      <birthDate>1957-12-28</birthDate>
+      <sex> F</sex>
+      <address>BLK 140 PUNGGOL FIELD, #15-375, SINGAPORE 386487</address>
+      <phone />
+      <nextOfKin>Yeo Zhi Hao (6562080112)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000482,patients/patient[491],duplicate_removed,P000120,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 120","<patient patientId=""P000482"">
+      <name>
+        <family>Chong</family>
+        <given>Boon Kiat</given>
+      </name>
+      <birthDate>2008-08-04</birthDate>
+      <sex>m</sex>
+      <address>Blk 600 Woodlands Dr 14, #14-158, Singapore 325786</address>
+      <phone />
+      <nextOfKin>Sim Xiu Ling (+65 8118 5424)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000483,patients/patient[492],duplicate_removed,P000314,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 314","<patient patientId=""P000483"">
+      <name>
+        <family>Ng</family>
+        <given>Shu Fen</given>
+      </name>
+      <birthDate>1950-09-02</birthDate>
+      <sex>M</sex>
+      <address>BLK 953 PASIR RIS DR 6, #18-295, SINGAPORE 745833</address>
+      <phone>+65 6779 7275</phone>
+      <nextOfKin>Chong Mei Ling (+65 6820 7523)</nextOfKin>
+      <vitalStatus>ALIVE</vitalStatus>
+    </patient>"
+C,patients,P000484,patients/patient[493],duplicate_removed,P000442,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 442","<patient patientId=""P000484"">
+      <name>
+        <family>Low</family>
+        <given>Pei Shan</given>
+      </name>
+      <birthDate>1927-09-28</birthDate>
+      <sex>F</sex>
+      <address>Blk 741 Bedok North St 2, #20-312, Singapore 583944</address>
+      <phone />
+      <nextOfKin>null</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000485,patients/patient[494],duplicate_removed,P000282,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 282","<patient patientId=""P000485"">
+      <name>
+        <family>hASSAN</family>
+        <given>hidayah binte</given>
+      </name>
+      <birthDate>1999-08-11</birthDate>
+      <sex>F</sex>
+      <address>null</address>
+      <phone />
+      <nextOfKin> Ravi s/o Krishnan (+65 9148 6735)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000486,patients/patient[495],duplicate_removed,P000401,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 401","<patient patientId=""P000486"">
+      <name>
+        <family>Low</family>
+        <given>Pei Shan</given>
+      </name>
+      <birthDate>1970-12-28</birthDate>
+      <sex>f</sex>
+      <address>Blk 247 Yishun Ring Rd, #07-41, Singapore 807553</address>
+      <phone>6944-0217</phone>
+      <nextOfKin>Kavitha D/O Pillai (6563466831)</nextOfKin>
+      <vitalStatus> Alive</vitalStatus>
+    </patient>"
+C,patients,P000487,patients/patient[496],duplicate_removed,P000448,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 448","<patient patientId=""P000487"">
+      <name>
+        <family>Subramaniam</family>
+        <given>Prakash s/o</given>
+      </name>
+      <birthDate>1982-06-09</birthDate>
+      <sex>m</sex>
+      <address>BLK 495 ANG MO KIO AVE 3, #05-154, SINGAPORE 255015</address>
+      <phone>+65 8403 6909</phone>
+      <nextOfKin>Arun S/O Menon (+65 8140 0139)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000488,patients/patient[497],duplicate_removed,P000092,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 92","<patient patientId=""P000488"">
+      <name>
+        <family>Subramaniam</family>
+        <given>Rajesh s/o</given>
+      </name>
+      <birthDate>1991-09-04</birthDate>
+      <sex>M</sex>
+      <address>Blk 172 Woodlands Dr 14, #24-10, Singapore 694129</address>
+      <phone>+65 8996 2754</phone>
+      <nextOfKin> Koh Xiu Ling (+65 8211 4532)</nextOfKin>
+      <vitalStatus>ALIVE</vitalStatus>
+    </patient>"
+C,patients,P000489,patients/patient[498],duplicate_removed,P000291,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 291","<patient patientId=""P000489"">
+      <name>
+        <family>WONG</family>
+        <given>Boon Kiat</given>
+      </name>
+      <birthDate>1969-06-26</birthDate>
+      <sex> F</sex>
+      <address>Blk 723 Ang Mo Kio Ave 3, #22-129, Singapore 391492</address>
+      <phone>+65 6921 6629</phone>
+      <nextOfKin>Wong Pei Shan (+65 6459 4707)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000490,patients/patient[499],duplicate_removed,P000256,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 256","<patient patientId=""P000490"">
+      <name>
+        <family>Lim</family>
+        <given>Jia Hui</given>
+      </name>
+      <birthDate>1999-03-22</birthDate>
+      <sex>M</sex>
+      <address>BLK 409 YISHUN RING RD, #08-179, SINGAPORE 155801</address>
+      <phone>+65 9642 5857</phone>
+      <nextOfKin>null</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000491,patients/patient[500],duplicate_removed,P000054,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 54","<patient patientId=""P000491"">
+      <name>
+        <family>NG</family>
+        <given>Zhi Hao</given>
+      </name>
+      <birthDate>1962-03-02</birthDate>
+      <sex>M</sex>
+      <address>BLK 795 SERANGOON NORTH AVE 1, #23-369, SINGAPORE 418438</address>
+      <phone>9636-6831</phone>
+      <nextOfKin>Deepa d/o Subramaniam (+65 6446 4110)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000492,patients/patient[501],duplicate_removed,P000398,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 398","<patient patientId=""P000492"">
+      <name>
+        <family>Goh</family>
+        <given>Zhi Hao</given>
+      </name>
+      <birthDate>1953-05-04</birthDate>
+      <sex>M</sex>
+      <address>Blk 638 Tampines St 81, #04-245, Singapore 438810</address>
+      <phone />
+      <nextOfKin> Low Yong Sheng (88749622)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+C,patients,P000493,patients/patient[502],duplicate_removed,P000046,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 46","<patient patientId=""P000493"">
+      <name>
+        <family>Koh</family>
+        <given>Wei Ming</given>
+      </name>
+      <birthDate>2017-12-26</birthDate>
+      <sex>F</sex>
+      <address>Blk 955 Yishun Ring Rd, #09-174, Singapore 285734</address>
+      <phone>6585265369</phone>
+      <nextOfKin>Lim Kai Wen (+65 9109 5295)</nextOfKin>
+      <vitalStatus> Alive</vitalStatus>
+    </patient>"
+C,patients,P000494,patients/patient[503],duplicate_removed,P000234,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 234","<patient patientId=""P000494"">
+      <name>
+        <family>  Ang</family>
+        <given>Kai Wen</given>
+      </name>
+      <birthDate>15 Jan 1956</birthDate>
+      <sex>M</sex>
+      <address>Blk 416 Yishun Ring Rd, #14-75, Singapore 757273</address>
+      <phone>+65 6857 2792</phone>
+      <nextOfKin>chua jia hui (+65 6108 0832)</nextOfKin>
+      <vitalStatus>Alive</vitalStatus>
+    </patient>"
+D,patients,85,patients_p1.json:patients[84],rejected,,invalid_date:date_of_birth,invalid_date:date_of_birth: '1995-20-19': month must be in 1..12,"{""patientId"": 85, ""patientName"": ""Emily O'Brien"", ""dob"": ""1995-20-19"", ""sex"": ""F"", ""address"": {""line"": ""227 Wattle Ave"", ""suburb"": ""Mangrove Bend"", ""state"": ""NSW"", ""postcode"": ""2477""}, ""phone"": ""(02) 5550 9064"", ""nextOfKin"": {""name"": ""Priya Walker"", ""relationship"": ""Partner"", ""phone"": ""(02) 5550 6011""}, ""deceased"": false}"
+D,patients,91,patients_p1.json:patients[90],rejected,,missing_required:date_of_birth,missing_required:date_of_birth: raw value None,"{""patientId"": 91, ""patientName"": "" ANDREW TRAN  "", ""dob"": null, ""sex"": ""M"", ""address"": {""line"": ""Unit 9/84 Banksia St"", ""suburb"": ""Reefton"", ""state"": ""NSW"", ""postcode"": ""2480""}, ""phone"": ""(02) 7010 5643"", ""nextOfKin"": {""name"": ""Jack Tran"", ""relationship"": ""Father"", ""phone"": ""(02) 7010 7551""}, ""deceased"": false}"
+D,patients,161,patients_p1.json:patients[160],rejected,,ambiguous_date:date_of_birth,ambiguous_date:date_of_birth: '11.02.1931': day/month order cannot be decided,"{""patientId"": 161, ""patientName"": ""Mei Le"", ""dob"": ""11.02.1931"", ""sex"": ""F"", ""address"": {""line"": ""208 Pandanus Ct"", ""suburb"": ""Bluegum Ridge"", ""state"": ""NSW"", ""postcode"": ""2482""}, ""phone"": ""(02) 5550 7411"", ""nextOfKin"": {""name"": ""Jack Le"", ""relationship"": ""Father"", ""phone"": ""(02) 7010 4241""}, ""deceased"": false}"
+D,patients,87,patients_p1.json:patients[219],duplicate_removed,87,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[86],"{""patientId"": 87, ""patientName"": ""ALI, Olivia"", ""dob"": ""23-Sep-1932"", ""sex"": ""F"", ""address"": {""line"": ""45 Frangipani Way"", ""suburb"": ""Sandpiper Beach"", ""state"": ""NSW"", ""postcode"": ""2487""}, ""phone"": ""(02) 7010 5591"", ""nextOfKin"": {""name"": ""Fatima Kelly"", ""relationship"": ""  Daughter"", ""phone"": ""+61 2 7010 3294""}, ""deceased"": ""no""}"
+D,patients,230,patients_p2.json:patients[0],rejected,,missing_required:date_of_birth,missing_required:date_of_birth: raw value None,"{""patientId"": 230, ""patientName"": ""Margaret D'Souza"", ""dob"": null, ""sex"": ""F"", ""address"": {""line"": ""Unit 18/93 Mariner Blvd"", ""suburb"": ""Kookaburra Hill"", ""state"": ""NSW"", ""postcode"": ""2485""}, ""phone"": ""(02) 7010 7534"", ""nextOfKin"": {""name"": ""Giulia D'Souza"", ""relationship"": ""Sister"", ""phone"": ""(02) 5550 2916""}, ""deceased"": false}"
+D,patients,385,patients_p2.json:patients[156],rejected,,missing_required:full_name,missing_required:full_name: raw value '?',"{""patientId"": 385, ""patientName"": ""?"", ""dob"": ""1933-09-05"", ""sex"": ""M"", ""address"": {""line"": ""15 Pandanus Ct"", ""suburb"": ""Pelican Shores"", ""state"": ""NSW"", ""postcode"": ""2478""}, ""phone"": ""02 7010 5789"", ""nextOfKin"": {""name"": ""Sarah Wilson"", ""relationship"": ""Mother"", ""phone"": ""(02) 7010 4766""}, ""deceased"": false}"
+D,patients,254,patients_p2.json:patients[175],duplicate_removed,254,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[24],"{""patientId"": 254, ""patientName"": ""Sophie Van der Berg"", ""dob"": ""1969-01-20"", ""sex"": ""F"", ""address"": {""line"": ""103 Frangipani Way"", ""suburb"": ""Turtle Cove"", ""state"": ""NSW"", ""postcode"": ""2490""}, ""phone"": ""+61270107104"", ""nextOfKin"": {""name"": ""Noah Van der Berg"", ""relationship"": ""Father"", ""phone"": ""(02) 5550 3328""}, ""deceased"": false}"
+D,patients,241,patients_p2.json:patients[203],duplicate_removed,241,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[11],"{""patientId"": 241, ""patientName"": ""James King"", ""dob"": ""1989-12-11"", ""sex"": ""Male"", ""address"": {""line"": ""62 Reef Rd"", ""suburb"": ""Pelican Shores"", ""state"": ""NSW"", ""postcode"": ""2478""}, ""phone"": ""(02) 5550 9013"", ""nextOfKin"": {""name"": ""Sophie King  "", ""relationship"": ""Spouse"", ""phone"": ""(02) 5550 0910""}, ""deceased"": false}"
+D,patients,454,patients_p2.json:patients[229],duplicate_removed,454,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[227],"{""patientId"": 454, ""patientName"": ""Zoe Van der Berg"", ""dob"": ""1966-10-26"", ""sex"": ""F"", ""address"": {""line"": ""111 Lagoon Rd"", ""suburb"": ""Reefton"", ""state"": ""NSW"", ""postcode"": ""2480""}, ""phone"": ""(02) 5550 9344"", ""nextOfKin"": {""name"": ""Paul Van der Berg"", ""relationship"": ""Son"", ""phone"": ""(02) 5550 4522""}, ""deceased"": false}"
+D,patients,364,patients_p3.json:patients[33],duplicate_removed,364,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[135],"{""patientId"": 364, ""patientName"": ""matthew clarke"", ""dob"": ""2003-11-19"", ""sex"": ""M"", ""address"": {""line"": ""Unit 21/227 Ocean Pde"", ""suburb"": ""Tidewater"", ""state"": ""NSW"", ""postcode"": ""2484""}, ""phone"": ""(02) 7010 2562"", ""nextOfKin"": {""name"": ""Mia Hughes"", ""relationship"": ""Friend"", ""phone"": ""(02) 5550 0087""}, ""deceased"": false}"
+D,patients,90,patients_p3.json:patients[67],duplicate_removed,90,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[89],"{""patientId"": 90, ""patientName"": ""KING, Giulia Chloe"", ""dob"": ""19/07/1993"", ""sex"": ""F"", ""address"": {""line"": ""81 Tern Pl"", ""suburb"": ""Mangrove Bend"", ""state"": ""NSW"", ""postcode"": ""2477""}, ""phone"": ""(02) 7010 1089"", ""nextOfKin"": {""name"": ""Leilani King"", ""relationship"": ""Sister"", ""phone"": ""(02) 7010 0504""}, ""deceased"": false}"
+D,patients,540,patients_p3.json:patients[86],rejected,,missing_required:date_of_birth,missing_required:date_of_birth: raw value '0000-00-00',"{""patientId"": 540, ""patientName"": ""Mark Matthew Anderson"", ""dob"": ""0000-00-00"", ""sex"": ""male"", ""address"": {""line"": ""6 Ocean Pde"", ""suburb"": ""Sandpiper Beach"", ""state"": ""NSW"", ""postcode"": ""2487""}, ""phone"": ""(02) 7010 5452"", ""nextOfKin"": {""name"": ""Angus Anderson"", ""relationship"": ""Father"", ""phone"": ""(02) 5550 2239""}, ""deceased"": false}"
+D,patients,450,patients_p3.json:patients[88],duplicate_removed,450,exact_duplicate,exact_duplicate: same ID and same values as patients_p2.json:patients[223],"{""patientId"": 450, ""patientName"": ""Leilani D'Souza"", ""dob"": ""23/05/1943"", ""sex"": ""F"", ""address"": {""line"": ""204 Coastal Hwy"", ""suburb"": ""Kookaburra Hill"", ""state"": ""NSW"", ""postcode"": ""2485""}, ""phone"": ""(02) 5550 9080"", ""nextOfKin"": {""name"": ""jack d'souza"", ""relationship"": ""Father"", ""phone"": ""(02) 5550 4069""}, ""deceased"": false}"
+D,patients,190,patients_p3.json:patients[97],duplicate_removed,190,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[189],"{""patientId"": 190, ""patientName"": ""James Rossi"", ""dob"": ""1993-09-24"", ""sex"": ""M"", ""address"": {""line"": ""Unit 6/51 Reef Rd"", ""suburb"": ""Turtle Cove"", ""state"": ""NSW"", ""postcode"": ""2490""}, ""phone"": ""(02) 5550 9941"", ""nextOfKin"": {""name"": ""Olivia Russo"", ""relationship"": ""Friend"", ""phone"": ""(02) 5550 4414""}, ""deceased"": false}"
+D,patients,152,patients_p3.json:patients[117],duplicate_removed,152,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[151],"{""patientId"": 152, ""patientName"": ""Lachlan William Johnson"", ""dob"": ""2022-11-21"", ""sex"": ""M"", ""address"": {""line"": ""3 Frangipani Way"", ""suburb"": ""Turtle Cove"", ""state"": ""NSW"", ""postcode"": ""2490""}, ""phone"": null, ""nextOfKin"": {""name"": ""Siobhan Johnson"", ""relationship"": ""Mother"", ""phone"": ""02 7010 4086""}, ""deceased"": false}"
+D,patients,37,patients_p3.json:patients[119],duplicate_removed,37,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[36],"{""patientId"": 37, ""patientName"": ""Omar Lucas O'Brien"", ""dob"": ""1928-11-07"", ""sex"": ""M"", ""address"": {""line"": ""25 Shell Cl"", ""suburb"": ""Ironbark Downs"", ""state"": ""NSW"", ""postcode"": ""2479""}, ""phone"": ""(02) 5550 5905"", ""nextOfKin"": {""name"": ""Bronwyn O'Brien"", ""relationship"": ""Sister"", ""phone"": ""(02) 5550 6746""}, ""deceased"": false}"
+D,patients,43,patients_p3.json:patients[130],duplicate_removed,43,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[42],"{""patientId"": 43, ""patientName"": ""Hamish Liam Thompson"", ""dob"": ""1971-01-17"", ""sex"": ""M"", ""address"": """", ""phone"": ""(02) 5550 6224"", ""nextOfKin"": {""name"": ""Harrison Thompson"", ""relationship"": ""Father"", ""phone"": ""(02) 5550 9939""}, ""deceased"": false}"
+D,patients,26,patients_p3.json:patients[156],duplicate_removed,26,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[25],"{""patientId"": 26, ""patientName"": ""Hamish Le"", ""dob"": ""1934-09-01"", ""sex"": ""M"", ""address"": {""line"": ""152 Dune St"", ""suburb"": ""Ironbark Downs"", ""state"": ""NSW"", ""postcode"": ""2479""}, ""phone"": ""(02) 5550 2421"", ""nextOfKin"": {""name"": ""Mei Taylor"", ""relationship"": ""Guardian"", ""phone"": ""(02) 5550 9998""}, ""deceased"": false}"
+D,patients,644,patients_p3.json:patients[196],rejected,,ambiguous_date:date_of_birth,ambiguous_date:date_of_birth: '11.04.1990': day/month order cannot be decided,"{""patientId"": 644, ""patientName"": ""Henry Clarke"", ""dob"": ""11.04.1990"", ""sex"": ""M"", ""address"": ""210 Shell Cl, Mangrove Bend NSW 2477"", ""phone"": ""(02) 7010 2385"", ""nextOfKin"": {""name"": ""Ruby Fernando"", ""relationship"": ""Friend"", ""phone"": ""(02) 7010 7310""}, ""deceased"": false}"
+D,patients,460,patients_p3.json:patients[198],duplicate_removed,460,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[4],"{""patientId"": 460, ""patientName"": ""Linda Matilda Le"", ""dob"": ""30/08/1966"", ""sex"": ""F"", ""address"": {""line"": ""55 Marine Dr"", ""suburb"": ""Saltwater Flats"", ""state"": ""NSW"", ""postcode"": ""2489""}, ""phone"": ""(02) 7010 6190"", ""nextOfKin"": {""name"": ""Thomas Le"", ""relationship"": ""Friend"", ""phone"": ""(02) 7010 3886""}, ""deceased"": false}"
+D,patients,656,patients_p3.json:patients[209],duplicate_removed,517,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 517","{""patientId"": 656, ""patientName"": ""Giulia Grace Haddad"", ""dob"": ""1960-12-07"", ""sex"": ""F"", ""address"": {""line"": ""Unit 9/23 Coastal Hwy"", ""suburb"": ""Bluegum Ridge"", ""state"": ""NSW"", ""postcode"": ""2482""}, ""phone"": ""(02) 7010 0589"", ""nextOfKin"": {""name"": ""  Michael Bennett"", ""relationship"": ""Partner"", ""phone"": ""(02) 7010 2773""}, ""deceased"": false}"
+D,patients,657,patients_p3.json:patients[210],duplicate_removed,216,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 216","{""patientId"": 657, ""patientName"": ""HANNAH AHMED"", ""dob"": ""1968-09-12"", ""sex"": ""F"", ""address"": {""line"": ""Unit 1/192 Ocean Pde"", ""suburb"": ""Pelican Shores"", ""state"": ""NSW"", ""postcode"": ""2478""}, ""phone"": ""(02) 7010 4343"", ""nextOfKin"": {""name"": ""Bronwyn Ahmed"", ""relationship"": ""Daughter"", ""phone"": ""(02) 7010 8255""}, ""deceased"": false}"
+D,patients,658,patients_p3.json:patients[211],duplicate_removed,18,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 18","{""patientId"": 658, ""patientName"": ""Liam Michael O'Connor"", ""dob"": ""1969-03-08"", ""sex"": ""M"", ""address"": {""line"": ""3 Marine Dr"", ""suburb"": ""Bluegum Ridge"", ""state"": ""NSW"", ""postcode"": ""2482""}, ""phone"": ""(02) 5550 4142"", ""nextOfKin"": {""name"": ""Fatima O'Connor"", ""relationship"": ""Daughter"", ""phone"": ""(02) 7010 0120""}, ""deceased"": false}"
+D,patients,659,patients_p3.json:patients[212],duplicate_removed,179,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 179","{""patientId"": 659, ""patientName"": ""Callum Green"", ""dob"": ""1956-04-30"", ""sex"": ""  M"", ""address"": {""line"": ""205 Shell Cl"", ""suburb"": ""Kookaburra Hill"", ""state"": ""NSW"", ""postcode"": ""2485""}, ""phone"": ""(02) 7010 4915"", ""nextOfKin"": {""name"": ""Ling Green"", ""relationship"": ""Sister"", ""phone"": ""(02) 7010 6587""}, ""deceased"": false}"
+D,patients,660,patients_p3.json:patients[213],duplicate_removed,402,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 402","{""patientId"": 660, ""patientName"": ""Sarah Jones"", ""dob"": ""1931-07-21"", ""sex"": ""F"", ""address"": {""line"": ""235 Ocean Pde"", ""suburb"": ""Sandpiper Beach"", ""state"": ""NSW"", ""postcode"": ""2487""}, ""phone"": ""(02) 7010 8071"", ""nextOfKin"": {""name"": ""Eleni Wilson"", ""relationship"": ""Sister"", ""phone"": ""(02) 7010 8598""}, ""deceased"": null}"
+D,patients,661,patients_p3.json:patients[214],duplicate_removed,312,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 312","{""patientId"": 661, ""patientName"": ""Omar King"", ""dob"": ""1980-06-17"", ""sex"": ""male"", ""address"": {""line"": ""58 Seagull Lane"", ""suburb"": ""Tidewater"", ""state"": ""NSW"", ""postcode"": ""2484""}, ""phone"": ""(02) 7010 3379"", ""nextOfKin"": {""name"": ""Amelia Ryan"", ""relationship"": ""Mother"", ""phone"": ""(02) 7010 1909""}, ""deceased"": false}"
+D,patients,662,patients_p3.json:patients[215],duplicate_removed,381,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 381","{""patientId"": 662, ""patientName"": ""Hamish Wei Kowalski"", ""dob"": ""1982-03-11"", ""sex"": ""M"", ""address"": """", ""phone"": ""(02) 5550 8783"", ""nextOfKin"": {""name"": ""Jack Kowalski"", ""relationship"": ""Brother"", ""phone"": ""(02) 7010 9533""}, ""deceased"": false}"
+D,patients,663,patients_p3.json:patients[216],duplicate_removed,302,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 302","{""patientId"": 663, ""patientName"": ""Dimitri Singh"", ""dob"": ""1945-12-23T00:00:00+10:00"", ""sex"": ""M"", ""address"": {""line"": ""Unit 9/234 Lagoon Rd"", ""suburb"": ""Sandpiper Beach"", ""state"": ""NSW"", ""postcode"": ""2487""}, ""phone"": ""(02) 5550 0982"", ""nextOfKin"": {""name"": ""Paul Green"", ""relationship"": ""Friend"", ""phone"": ""(02) 5550 3021""}, ""deceased"": false}"
+D,patients,664,patients_p3.json:patients[217],duplicate_removed,433,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 433","{""patientId"": 664, ""patientName"": ""Fatima Mia Patel"", ""dob"": ""1954-11-21"", ""sex"": ""f"", ""address"": {""line"": ""209 Lagoon Rd"", ""suburb"": ""Coral Heights"", ""state"": ""NSW"", ""postcode"": ""2481""}, ""phone"": ""(02) 7010 7698"", ""nextOfKin"": {""name"": ""Liam Fitzgerald"", ""relationship"": ""Friend"", ""phone"": ""(02) 5550 0560""}, ""deceased"": false}"
+D,patients,665,patients_p3.json:patients[218],duplicate_removed,346,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 346","{""patientId"": 665, ""patientName"": ""Ethan Nikolaidis"", ""dob"": ""1943-01-31"", ""sex"": ""M"", ""address"": {""line"": ""Unit 20/175 Tern Pl"", ""suburb"": ""Driftwood Park"", ""state"": ""NSW"", ""postcode"": ""2486""}, ""phone"": ""(02) 5550 2794"", ""nextOfKin"": {""name"": ""Harper Lee"", ""relationship"": ""Guardian"", ""phone"": ""(02) 5550 4485""}, ""deceased"": false}"
+D,patients,666,patients_p3.json:patients[219],duplicate_removed,142,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 142","{""patientId"": 666, ""patientName"": ""Jack O'Connor"", ""dob"": ""1933-06-25"", ""sex"": ""M"", ""address"": {""line"": ""Unit 24/13 Jacaranda Cres"", ""suburb"": ""Reefton"", ""state"": ""NSW"", ""postcode"": ""2480""}, ""phone"": ""(02) 5550 1330"", ""nextOfKin"": {""name"": ""CHARLOTTE HARRIS"", ""relationship"": ""Daughter"", ""phone"": ""(02) 7010 7302""}, ""deceased"": false}"
+D,patients,667,patients_p3.json:patients[220],duplicate_removed,195,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 195","{""patientId"": 667, ""patientName"": ""Omar Thomas"", ""dob"": ""1999-09-14"", ""sex"": ""M"", ""address"": {""line"": ""4 Marine Dr"", ""suburb"": ""Turtle Cove"", ""state"": ""NSW"", ""postcode"": ""2490""}, ""phone"": ""(02) 7010 4655"", ""nextOfKin"": {""name"": ""Andrew D'Souza"", ""relationship"": ""Friend"", ""phone"": ""(02) 5550 7162""}, ""deceased"": false}"
+D,patients,668,patients_p3.json:patients[221],duplicate_removed,484,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 484","{""patientId"": 668, ""patientName"": ""Harrison Ahmed"", ""dob"": ""2014-04-08"", ""sex"": ""M"", ""address"": {""line"": ""Unit 17/54 Mariner Blvd"", ""suburb"": ""Banksia Point"", ""state"": ""NSW"", ""postcode"": ""2483""}, ""nextOfKin"": {""name"": ""Harper Ahmed"", ""relationship"": ""Mother"", ""phone"": ""(02) 5550 7480""}, ""deceased"": false}"
+D,patients,669,patients_p3.json:patients[222],duplicate_removed,232,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 232","{""patientId"": 669, ""patientName"": ""Raj Smith"", ""dob"": ""2002-03-03"", ""sex"": ""M"", ""address"": {""line"": ""27 seagull lane"", ""suburb"": ""Reefton"", ""state"": ""NSW"", ""postcode"": ""2480""}, ""phone"": ""(02) 7010 6621"", ""nextOfKin"": {""name"": ""Stephen Smith"", ""relationship"": ""Son"", ""phone"": ""(02) 7010 5769""}, ""deceased"": false}"
+D,patients,670,patients_p3.json:patients[223],duplicate_removed,32,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 32","{""patientId"": 670, ""patientName"": ""Amelia D'Souza"", ""dob"": ""1997-01-08"", ""sex"": ""F"", ""address"": {""line"": ""145 Pandanus Ct"", ""suburb"": ""Sandpiper Beach"", ""state"": ""NSW"", ""postcode"": ""2487""}, ""phone"": ""(02) 7010 3877"", ""nextOfKin"": {""name"": ""Anh Edwards"", ""relationship"": ""Mother"", ""phone"": ""(02) 5550 4414""}, ""deceased"": false}"
+D,patients,671,patients_p3.json:patients[224],duplicate_removed,214,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 214","{""patientId"": 671, ""patientName"": ""Luca Johnson"", ""dob"": ""1980-05-29"", ""sex"": ""M"", ""address"": {""line"": ""166 Marine Dr"", ""suburb"": ""Saltwater Flats"", ""state"": ""NSW"", ""postcode"": ""2489""}, ""phone"": ""(02) 5550 5751"", ""nextOfKin"": {""name"": ""Cooper Bennett"", ""relationship"": ""Friend"", ""phone"": ""(02) 7010 0883""}, ""deceased"": false}"
+D,patients,672,patients_p3.json:patients[225],duplicate_removed,218,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 218","{""patientId"": 672, ""patientName"": ""Omar Bennett"", ""dob"": ""02-Dec-1940"", ""sex"": ""M"", ""address"": null, ""phone"": ""(02) 5550 5938"", ""nextOfKin"": {""name"": ""James Silva"", ""relationship"": ""Partner"", ""phone"": ""(02) 5550 5242""}, ""deceased"": false}"
+D,patients,673,patients_p3.json:patients[226],duplicate_removed,41,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 41","{""patientId"": 673, ""patientName"": ""Angus Wright"", ""dob"": ""2005-02-07"", ""sex"": """", ""address"": {""line"": ""44 Wattle Ave"", ""suburb"": ""Turtle  Cove"", ""state"": ""NSW"", ""postcode"": ""2490""}, ""phone"": ""(02) 5550 7330"", ""nextOfKin"": {""name"": ""Stephen Martin"", ""relationship"": ""Partner"", ""phone"": ""(02) 7010 1700""}, ""deceased"": false}"
+D,patients,674,patients_p3.json:patients[227],duplicate_removed,440,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 440","{""patientId"": 674, ""patientName"": ""Ling Van der Berg"", ""dob"": ""1943-04-29"", ""sex"": ""F"", ""address"": {""line"": ""Unit 21/209 Dune St"", ""suburb"": ""Sandpiper Beach"", ""state"": ""NSW"", ""postcode"": ""2487""}, ""phone"": ""(02) 7010 0474"", ""nextOfKin"": {""name"": ""Sarah Jones"", ""relationship"": ""Guardian"", ""phone"": ""(02) 5550 2099""}, ""deceased"": true}"
+D,patients,675,patients_p3.json:patients[228],duplicate_removed,342,near_duplicate,"near_duplicate: same full_name_key, date_of_birth as patient_id 342","{""patientId"": 675, ""patientName"": ""Andrew Rossi"", ""dob"": ""1950-02-27"", ""sex"": "" M  "", ""address"": {""line"": ""236 Marine Dr"", ""suburb"": ""Lighthouse Point"", ""state"": ""NSW"", ""postcode"": ""2488""}, ""nextOfKin"": {""name"": ""Chloe Rossi"", ""relationship"": ""Daughter"", ""phone"": ""(02) 5550 0249""}, ""deceased"": false}"

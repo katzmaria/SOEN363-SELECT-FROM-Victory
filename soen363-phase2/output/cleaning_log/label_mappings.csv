@@ -1,0 +1,1204 @@
+source_system,entity,field,raw_label,standard_value,count
+A,admissions,admission_source,DOMICILE,self_referral,1
+A,admissions,admission_source,Domicile,self_referral,150
+A,admissions,admission_source,MEDECIN TRAITANT,gp_referral,1
+A,admissions,admission_source,Medecin traitant,gp_referral,153
+A,admissions,admission_source,SAMU,ambulance,144
+A,admissions,admission_source,TRANSFERT,transfer,1
+A,admissions,admission_source,Transfert,transfer,174
+A,admissions,admission_source,dOMICILE,self_referral,1
+A,admissions,admission_source,domicile,self_referral,3
+A,admissions,admission_source,medecin traitant,gp_referral,2
+A,admissions,admission_source,samu,ambulance,3
+A,admissions,admission_source,tRANSFERT,transfer,1
+A,admissions,admission_source,transfert,transfer,1
+A,admissions,admission_status,DECEDE,deceased,23
+A,admissions,admission_status,Decede(e),deceased,1
+A,admissions,admission_status,HOSPITALISE,active,1
+A,admissions,admission_status,SORTI,discharged,623
+A,admissions,admission_status,SORTI(E),discharged,1
+A,admissions,admission_status,SORTIE,discharged,23
+A,admissions,admission_status,Sorti,discharged,2
+A,admissions,admission_status,Sorti(e),discharged,18
+A,admissions,admission_status,sorti,discharged,12
+A,admissions,admission_type,AMBU,outpatient,3
+A,admissions,admission_type,AMBULATOIRE,outpatient,123
+A,admissions,admission_type,AUTRE,<unmapped>,1
+A,admissions,admission_type,DIVERS,<unmapped>,1
+A,admissions,admission_type,HDJ,outpatient,2
+A,admissions,admission_type,HOSPIT PROGRAMMEE,elective,4
+A,admissions,admission_type,Hopital de jour,outpatient,1
+A,admissions,admission_type,NAISSANCE,newborn,10
+A,admissions,admission_type,NN,newborn,1
+A,admissions,admission_type,PROG,elective,3
+A,admissions,admission_type,PROGRAMME,elective,170
+A,admissions,admission_type,Programmee,elective,3
+A,admissions,admission_type,SAU,emergency,2
+A,admissions,admission_type,SEMI URG,urgent,3
+A,admissions,admission_type,SEMI-URGENT,urgent,160
+A,admissions,admission_type,Semi-urgence,urgent,5
+A,admissions,admission_type,URG,emergency,3
+A,admissions,admission_type,URGENCE,emergency,191
+A,admissions,admission_type,Urgences,emergency,5
+A,admissions,admission_type,ambulatoire,outpatient,1
+A,admissions,admission_type,programme,elective,5
+A,admissions,admission_type,semi-urgent,urgent,3
+A,admissions,admission_type,urgence,emergency,2
+A,diagnoses,diagnosis_type,Associe,secondary,29
+A,diagnoses,diagnosis_type,DAS,secondary,879
+A,diagnoses,diagnosis_type,DP,primary,638
+A,diagnoses,diagnosis_type,Das,secondary,3
+A,diagnoses,diagnosis_type,Dp,primary,2
+A,diagnoses,diagnosis_type,P,primary,19
+A,diagnoses,diagnosis_type,Principal,primary,16
+A,diagnoses,diagnosis_type,S,secondary,24
+A,diagnoses,diagnosis_type,aSSOCIE,secondary,1
+A,diagnoses,diagnosis_type,associe,secondary,2
+A,diagnoses,diagnosis_type,das,secondary,48
+A,diagnoses,diagnosis_type,dp,primary,20
+A,diagnoses,diagnosis_type,p,primary,1
+A,diagnoses,diagnosis_type,pRINCIPAL,primary,1
+A,diagnoses,diagnosis_type,principal,primary,1
+A,diagnoses,diagnosis_type,s,secondary,2
+A,discharges,destination,CHAMBRE MORTUAIRE,mortuary,2
+A,discharges,destination,Chambre mortuaire,mortuary,19
+A,discharges,destination,DOMICILE,home,2
+A,discharges,destination,DOMICILE AVEC AIDE,home_with_support,1
+A,discharges,destination,Domicile,home,126
+A,discharges,destination,Domicile Avec Aide,home_with_support,1
+A,discharges,destination,Domicile avec aide,home_with_support,123
+A,discharges,destination,EHPAD,nursing_home,142
+A,discharges,destination,Ehpad,nursing_home,1
+A,discharges,destination,SSR (REEDUCATION),rehabilitation,1
+A,discharges,destination,SSR (reeducation),rehabilitation,125
+A,discharges,destination,TRANSFERT AUTRE HOPITAL,other_hospital,1
+A,discharges,destination,Transfert autre hopital,other_hospital,121
+A,discharges,destination,cHAMBRE MORTUAIRE,mortuary,1
+A,discharges,destination,dOMICILE,home,3
+A,discharges,destination,dOMICILE AVEC AIDE,home_with_support,2
+A,discharges,destination,domicile avec aide,home_with_support,1
+A,discharges,destination,ehpad,nursing_home,3
+A,discharges,destination,ssr (REEDUCATION),rehabilitation,2
+A,discharges,destination,tRANSFERT AUTRE HOPITAL,other_hospital,1
+A,discharges,discharge_condition,AMELIORE,improved,1
+A,discharges,discharge_condition,Ameliore,improved,199
+A,discharges,discharge_condition,DECEDE,deceased,1
+A,discharges,discharge_condition,Decede,deceased,23
+A,discharges,discharge_condition,MOYEN,fair,3
+A,discharges,discharge_condition,Moyen,fair,231
+A,discharges,discharge_condition,STABLE,stable,1
+A,discharges,discharge_condition,Stable,stable,207
+A,discharges,discharge_condition,aMELIORE,improved,1
+A,discharges,discharge_condition,ameliore,improved,1
+A,discharges,discharge_condition,mOYEN,fair,1
+A,discharges,discharge_condition,moyen,fair,1
+A,discharges,discharge_condition,stable,stable,2
+A,notes,note_type,CR SORTIE,discharge_summary,22
+A,notes,note_type,CRH,discharge_summary,631
+A,notes,note_type,CRO,operative_note,77
+A,notes,note_type,Compte rendu de sortie,discharge_summary,22
+A,notes,note_type,Compte rendu operatoire,operative_note,6
+A,notes,note_type,OBS MEDICALE,progress_note,1
+A,notes,note_type,OBSERVATION,progress_note,534
+A,notes,note_type,Obs medicale,progress_note,35
+A,notes,note_type,Observation,progress_note,1
+A,notes,note_type,cOMPTE RENDU OPERATOIRE,operative_note,1
+A,notes,note_type,crh,discharge_summary,20
+A,notes,note_type,cro,operative_note,1
+A,notes,note_type,oBS MEDICALE,progress_note,1
+A,notes,note_type,observation,progress_note,12
+A,orders,exam_type,BILAN SANGUIN,Blood panel,80
+A,orders,exam_type,ECG,ECG,102
+A,orders,exam_type,ECHOGRAPHIE,Ultrasound,90
+A,orders,exam_type,IRM,MRI,82
+A,orders,exam_type,RADIO THORAX,Chest X-ray,71
+A,orders,exam_type,SCANNER,CT scan,94
+A,orders,exam_type,bilan sanguin,Blood panel,2
+A,orders,exam_type,radio thorax,Chest X-ray,1
+A,orders,exam_type,scanner,CT scan,1
+A,orders,order_status,ANN,cancelled,1
+A,orders,order_status,ANNULE,cancelled,35
+A,orders,order_status,ATT,pending,3
+A,orders,order_status,Annule,cancelled,1
+A,orders,order_status,EN ATTENTE,pending,44
+A,orders,order_status,EN COURS,in_progress,45
+A,orders,order_status,En cours de realisation,in_progress,5
+A,orders,order_status,Fait,completed,18
+A,orders,order_status,REALISE,completed,16
+A,orders,order_status,SUSPENDU,<unmapped>,2
+A,orders,order_status,TERMINE,completed,341
+A,orders,order_status,Termine,completed,1
+A,orders,order_status,en attente,pending,2
+A,orders,order_status,en cours,in_progress,1
+A,orders,order_status,termine,completed,6
+A,orders,priority,IMMEDIATE,stat,73
+A,orders,priority,Immediat,stat,1
+A,orders,priority,N,routine,13
+A,orders,priority,NORMALE,routine,266
+A,orders,priority,Normale,routine,1
+A,orders,priority,Routine,routine,4
+A,orders,priority,STAT,stat,4
+A,orders,priority,U,urgent,4
+A,orders,priority,URG,urgent,6
+A,orders,priority,URGENTE,urgent,142
+A,orders,priority,immediate,stat,1
+A,orders,priority,normale,routine,2
+A,orders,priority,urgente,urgent,3
+A,patients,life_status,DECEDE,deceased,22
+A,patients,life_status,Decede,deceased,1
+A,patients,life_status,Decede(e),deceased,2
+A,patients,life_status,V,alive,10
+A,patients,life_status,VIVANT,alive,436
+A,patients,life_status,Vivant(E),alive,1
+A,patients,life_status,Vivant(e),alive,13
+A,patients,life_status,vivant,alive,9
+A,patients,sex,F,female,212
+A,patients,sex,FEM,female,6
+A,patients,sex,Femme,female,6
+A,patients,sex,H,male,13
+A,patients,sex,Homme,male,7
+A,patients,sex,I,unknown,26
+A,patients,sex,M,male,204
+A,patients,sex,MASC,male,3
+A,patients,sex,f,female,1
+A,patients,sex,fEMME,female,1
+A,procedures,outcome,Complications,complications,8
+A,procedures,outcome,Echec,failure,11
+A,procedures,outcome,SUCCES,success,1
+A,procedures,outcome,Succes,success,46
+A,procedures,outcome,succes,success,2
+A,procedures,procedure_name,Appendicectomie,Appendectomy,15
+A,procedures,procedure_name,Cholecystectomie,Cholecystectomy,14
+A,procedures,procedure_name,Coronarographie,Coronary angiography,18
+A,procedures,procedure_name,Cure de hernie inguinale,Inguinal hernia repair,10
+A,procedures,procedure_name,Osteosynthese col du femur,Femoral neck osteosynthesis,9
+A,procedures,procedure_name,Pontage aorto-coronarien,Coronary artery bypass graft,15
+A,procedures,procedure_name,appendicectomie,Appendectomy,1
+A,procedures,procedure_name,pontage aorto-coronarien,Coronary artery bypass graft,2
+A,professionals,role,CHIRURGIEN,surgeon,8
+A,professionals,role,IDE,nurse,20
+A,professionals,role,INF,nurse,1
+A,professionals,role,MANIP RADIO,radiology_technician,12
+A,professionals,role,MEDECIN,physician,23
+A,professionals,role,PH,physician,1
+A,professionals,role,RADIOLOGUE,radiologist,5
+A,professionals,role,Radiologue,radiologist,1
+A,radiology,body_area,Abdomen,Abdomen,159
+A,radiology,body_area,Crane,Head,75
+A,radiology,body_area,THORAX,Chest,1
+A,radiology,body_area,Thorax,Chest,67
+A,radiology,body_area,cRANE,Head,2
+A,radiology,exam_status,ANNULE,cancelled,20
+A,radiology,exam_status,Annule,cancelled,1
+A,radiology,exam_status,EN ATTENTE CR,<unmapped>,2
+A,radiology,exam_status,Fait,completed,7
+A,radiology,exam_status,Interprete,completed,8
+A,radiology,exam_status,PROGRAMME,scheduled,29
+A,radiology,exam_status,RDV pris,scheduled,1
+A,radiology,exam_status,REALISE,completed,250
+A,radiology,exam_status,annule,cancelled,2
+A,radiology,exam_status,programme,scheduled,2
+A,radiology,exam_status,realise,completed,9
+A,radiology,exam_type,ECHOGRAPHIE,Ultrasound,88
+A,radiology,exam_type,IRM,MRI,81
+A,radiology,exam_type,RADIO THORAX,Chest X-ray,74
+A,radiology,exam_type,SCANNER,CT scan,84
+A,radiology,exam_type,echographie,Ultrasound,1
+A,radiology,exam_type,irm,MRI,3
+A,radiology,exam_type,radio thorax,Chest X-ray,1
+A,radiology,exam_type,scanner,CT scan,1
+A,triage,triage_priority,1,high,168
+A,triage,triage_priority,2,medium,248
+A,triage,triage_priority,3,low,275
+A,triage,triage_priority,GRIS,<unmapped>,2
+A,triage,triage_priority,ORANGE,medium,11
+A,triage,triage_priority,ROUGE,high,7
+A,triage,triage_priority,Tri 1,high,4
+A,triage,triage_priority,Tri 2,medium,9
+A,triage,triage_priority,Tri 3,low,7
+A,triage,triage_priority,VERT,low,9
+A,unit_stays,unit_type,HOSPITALISATION CONVENTIONNELLE,General Ward,1
+A,unit_stays,unit_type,Hospitalisation conventionnelle,General Ward,17
+A,unit_stays,unit_type,MED,General Ward,17
+A,unit_stays,unit_type,MEDECINE,General Ward,627
+A,unit_stays,unit_type,REA,ICU,48
+A,unit_stays,unit_type,REA CHIR,SICU,90
+A,unit_stays,unit_type,REA MED,MICU,45
+A,unit_stays,unit_type,REA POLY,ICU,1
+A,unit_stays,unit_type,REA-CHIR,SICU,3
+A,unit_stays,unit_type,REA-MED,MICU,2
+A,unit_stays,unit_type,Rea chirurgicale,SICU,6
+A,unit_stays,unit_type,SAU,Emergency Department,13
+A,unit_stays,unit_type,SSR,<unmapped>,2
+A,unit_stays,unit_type,URGENCES,Emergency Department,213
+A,unit_stays,unit_type,USC,<unmapped>,1
+A,unit_stays,unit_type,USIC,CCU,30
+A,unit_stays,unit_type,USIC CARDIO,CCU,2
+A,unit_stays,unit_type,Urgences adultes,Emergency Department,5
+A,unit_stays,unit_type,hospitalisation conventionnelle,General Ward,1
+A,unit_stays,unit_type,medecine,General Ward,12
+A,unit_stays,unit_type,rea,ICU,1
+A,unit_stays,unit_type,sau,Emergency Department,3
+A,unit_stays,unit_type,urgences,Emergency Department,8
+A,unit_stays,unit_type,usic,CCU,3
+B,admissions,admission_source,Ambulance,ambulance,60
+B,admissions,admission_source,Born at UNH,born_in_hospital,47
+B,admissions,admission_source,Health Centre III referral,clinic_referral,34
+B,admissions,admission_source,Health Centre IV referral,clinic_referral,92
+B,admissions,admission_source,OPD CLINIC,clinic_referral,1
+B,admissions,admission_source,OPD clinic,clinic_referral,126
+B,admissions,admission_source,PRIVATE CLINIC referral,clinic_referral,1
+B,admissions,admission_source,Police,police,51
+B,admissions,admission_source,Private clinic referral,clinic_referral,83
+B,admissions,admission_source,SELF-REFERRAL,self_referral,2
+B,admissions,admission_source,Self-referral,self_referral,241
+B,admissions,admission_source,Specialist clinic referral,clinic_referral,76
+B,admissions,admission_source,opd clinic,clinic_referral,2
+B,admissions,admission_source,police,police,1
+B,admissions,admission_status,Admitted,active,6
+B,admissions,admission_status,D/C,discharged,22
+B,admissions,admission_status,DISCH,discharged,29
+B,admissions,admission_status,DISCHARGED,discharged,4
+B,admissions,admission_status,Deceased,deceased,1
+B,admissions,admission_status,Died,deceased,15
+B,admissions,admission_status,Discharged,discharged,773
+B,admissions,admission_status,RIP,deceased,1
+B,admissions,admission_status,Still Admitted,active,1
+B,admissions,admission_status,discharged,discharged,7
+B,admissions,admission_type,A&E,emergency,4
+B,admissions,admission_type,Booked,elective,5
+B,admissions,admission_type,Born in Hospital,newborn,2
+B,admissions,admission_type,Casualty,emergency,6
+B,admissions,admission_type,Day Case,outpatient,7
+B,admissions,admission_type,ELECTIVE,elective,2
+B,admissions,admission_type,EMERG,emergency,5
+B,admissions,admission_type,EMERGENCY,emergency,4
+B,admissions,admission_type,Elective,elective,130
+B,admissions,admission_type,Emergency,emergency,328
+B,admissions,admission_type,Emergency Dept,emergency,5
+B,admissions,admission_type,Newborn,newborn,44
+B,admissions,admission_type,OPD,outpatient,148
+B,admissions,admission_type,Outpatient,outpatient,5
+B,admissions,admission_type,Planned,elective,5
+B,admissions,admission_type,Transfer In,<unmapped>,3
+B,admissions,admission_type,URG,urgent,6
+B,admissions,admission_type,URGENT,urgent,6
+B,admissions,admission_type,Urgent,urgent,124
+B,admissions,admission_type,Urgent Care,urgent,9
+B,admissions,admission_type,elective,elective,1
+B,admissions,admission_type,emergency,emergency,3
+B,admissions,admission_type,emergency dept,emergency,1
+B,admissions,admission_type,newborn,newborn,1
+B,admissions,admission_type,opd,outpatient,2
+B,admissions,admission_type,urgent,urgent,2
+B,diagnoses,diagnosis_type,Additional,secondary,2
+B,diagnoses,diagnosis_type,COMORBIDITY,secondary,1
+B,diagnoses,diagnosis_type,Comorbidity,secondary,1
+B,diagnoses,diagnosis_type,Differential,<unmapped>,2
+B,diagnoses,diagnosis_type,MAIN,primary,4
+B,diagnoses,diagnosis_type,Main,primary,23
+B,diagnoses,diagnosis_type,P,primary,21
+B,diagnoses,diagnosis_type,PRIMARY,primary,31
+B,diagnoses,diagnosis_type,PRINCIPAL,primary,1
+B,diagnoses,diagnosis_type,Primary,primary,716
+B,diagnoses,diagnosis_type,Principal,primary,12
+B,diagnoses,diagnosis_type,Provisional,<unmapped>,2
+B,diagnoses,diagnosis_type,S,secondary,8
+B,diagnoses,diagnosis_type,SECONDARY,secondary,11
+B,diagnoses,diagnosis_type,Secondary,secondary,199
+B,diagnoses,diagnosis_type,p,primary,1
+B,diagnoses,diagnosis_type,primary,primary,18
+B,diagnoses,diagnosis_type,principal,primary,2
+B,diagnoses,diagnosis_type,secondary,secondary,7
+B,discharges,destination,HOME,home,15
+B,discharges,destination,Home,home,594
+B,discharges,destination,Hospice care,hospice,18
+B,discharges,destination,LEFT AGAINST MEDICAL ADVICE,left_against_advice,1
+B,discharges,destination,Left against medical advice,left_against_advice,45
+B,discharges,destination,Mortuary,mortuary,16
+B,discharges,destination,Referred to regional hospital,other_hospital,72
+B,discharges,destination,Transferred to rehabilitation centre,rehabilitation,53
+B,discharges,destination,home,home,3
+B,discharges,discharge_condition,DECEASED,deceased,1
+B,discharges,discharge_condition,Deceased,deceased,15
+B,discharges,discharge_condition,FAIR,fair,1
+B,discharges,discharge_condition,Fair,fair,128
+B,discharges,discharge_condition,IMPROVED,improved,5
+B,discharges,discharge_condition,Improved,improved,274
+B,discharges,discharge_condition,RECOVERED,recovered,2
+B,discharges,discharge_condition,Recovered,recovered,121
+B,discharges,discharge_condition,STABLE,stable,1
+B,discharges,discharge_condition,Stable,stable,141
+B,discharges,discharge_condition,UNCHANGED,unchanged,3
+B,discharges,discharge_condition,Unchanged,unchanged,128
+B,discharges,discharge_condition,unchanged,unchanged,1
+B,notes,note_type,ADMISSION NOTE,admission_note,17
+B,notes,note_type,ADMISSION note,admission_note,1
+B,notes,note_type,Admission Note,admission_note,641
+B,notes,note_type,DISCHARGE NOTE,discharge_summary,2
+B,notes,note_type,DISCHARGE note,discharge_summary,1
+B,notes,note_type,Discharge Note,discharge_summary,167
+B,notes,note_type,NURSING NOTE,nursing_note,3
+B,notes,note_type,NURSING note,nursing_note,1
+B,notes,note_type,Nursing Note,nursing_note,135
+B,notes,note_type,PROGRESS NOTE,progress_note,2
+B,notes,note_type,Progress Note,progress_note,175
+B,notes,note_type,WARD ROUND NOTE,ward_round_note,2
+B,notes,note_type,Ward Round Note,ward_round_note,157
+B,notes,note_type,admission NOTE,admission_note,1
+B,notes,note_type,admission note,admission_note,11
+B,notes,note_type,discharge note,discharge_summary,1
+B,notes,note_type,nursing note,nursing_note,1
+B,notes,note_type,progress note,progress_note,2
+B,notes,note_type,ward ROUND NOTE,ward_round_note,2
+B,notes,note_type,ward round note,ward_round_note,3
+B,orders,exam_type,Abdominal ultrasound,<kept as text>,43
+B,orders,exam_type,Arterial blood gas,<kept as text>,11
+B,orders,exam_type,BNP,<kept as text>,4
+B,orders,exam_type,Blood culture,<kept as text>,13
+B,orders,exam_type,Blood grouping and crossmatch,<kept as text>,8
+B,orders,exam_type,Blood smear for MPs,<kept as text>,20
+B,orders,exam_type,CT abdomen,<kept as text>,4
+B,orders,exam_type,CT head,<kept as text>,20
+B,orders,exam_type,CT pulmonary angiogram,<kept as text>,5
+B,orders,exam_type,Chest X-ray,Chest X-ray,72
+B,orders,exam_type,D-dimer,<kept as text>,3
+B,orders,exam_type,ECG,ECG,62
+B,orders,exam_type,FULL BLOOD COUNT,Blood panel,1
+B,orders,exam_type,FULL blood count,Blood panel,1
+B,orders,exam_type,Free T4,<kept as text>,8
+B,orders,exam_type,Full Blood Count,Blood panel,105
+B,orders,exam_type,H. PYLORI STOOL ANTIGEN,<kept as text>,1
+B,orders,exam_type,H. pylori stool antigen,<kept as text>,28
+B,orders,exam_type,HbA1c,<kept as text>,15
+B,orders,exam_type,Iron studies,<kept as text>,14
+B,orders,exam_type,Lipid profile,<kept as text>,16
+B,orders,exam_type,Liver function tests,<kept as text>,36
+B,orders,exam_type,MRI brain,<kept as text>,7
+B,orders,exam_type,Malaria RDT,<kept as text>,17
+B,orders,exam_type,Peak flow,<kept as text>,14
+B,orders,exam_type,RANDOM BLOOD SUGAR,<kept as text>,1
+B,orders,exam_type,RENAL FUNCTION TESTS,<kept as text>,1
+B,orders,exam_type,Random blood sugar,<kept as text>,30
+B,orders,exam_type,Renal function tests,<kept as text>,66
+B,orders,exam_type,Renal ultrasound,<kept as text>,28
+B,orders,exam_type,SPUTUM CULTURE,<kept as text>,1
+B,orders,exam_type,Serum amylase,<kept as text>,9
+B,orders,exam_type,Serum electrolytes,<kept as text>,42
+B,orders,exam_type,Serum lactate,<kept as text>,2
+B,orders,exam_type,Sputum culture,<kept as text>,7
+B,orders,exam_type,Stool analysis,<kept as text>,11
+B,orders,exam_type,TROPONIN I,<kept as text>,1
+B,orders,exam_type,TSH,<kept as text>,19
+B,orders,exam_type,Troponin I,<kept as text>,14
+B,orders,exam_type,Urinalysis,<kept as text>,32
+B,orders,exam_type,Urine culture,<kept as text>,4
+B,orders,exam_type,X-ray knee,<kept as text>,4
+B,orders,exam_type,X-ray pelvis,<kept as text>,1
+B,orders,exam_type,blood SMEAR for MPS,<kept as text>,1
+B,orders,exam_type,chest x-ray,Chest X-ray,1
+B,orders,exam_type,ecg,ECG,2
+B,orders,exam_type,full blood count,Blood panel,1
+B,orders,exam_type,serum electrolytes,<kept as text>,2
+B,orders,exam_type,x-ray KNEE,<kept as text>,1
+B,orders,order_status,Awaiting,pending,2
+B,orders,order_status,COMPLETED,completed,7
+B,orders,order_status,CXL,cancelled,1
+B,orders,order_status,Canceled,cancelled,1
+B,orders,order_status,Cancelled,cancelled,42
+B,orders,order_status,Completed,completed,627
+B,orders,order_status,Done,completed,22
+B,orders,order_status,In Progress,in_progress,27
+B,orders,order_status,On Hold,<unmapped>,1
+B,orders,order_status,PENDING,pending,2
+B,orders,order_status,Pending,pending,39
+B,orders,order_status,Requested,pending,1
+B,orders,order_status,Resulted,completed,27
+B,orders,order_status,Sent,<unmapped>,1
+B,orders,order_status,completed,completed,5
+B,orders,order_status,pending,pending,1
+B,orders,priority,ASAP,stat,4
+B,orders,priority,Immediate,stat,4
+B,orders,priority,Level 2,<unmapped>,1
+B,orders,priority,Normal,routine,12
+B,orders,priority,R,routine,11
+B,orders,priority,ROUTINE,routine,2
+B,orders,priority,Routine,routine,298
+B,orders,priority,STAT,stat,142
+B,orders,priority,Stat,stat,4
+B,orders,priority,U,urgent,15
+B,orders,priority,URG,urgent,10
+B,orders,priority,URGENT,urgent,1
+B,orders,priority,Urgent,urgent,292
+B,orders,priority,asap,stat,1
+B,orders,priority,normal,routine,1
+B,orders,priority,routine,routine,3
+B,orders,priority,urgent,urgent,4
+B,patients,life_status,A,alive,19
+B,patients,life_status,ALIVE,alive,8
+B,patients,life_status,Alive,alive,583
+B,patients,life_status,Deceased,deceased,16
+B,patients,life_status,Living,alive,28
+B,patients,life_status,RIP,deceased,1
+B,patients,life_status,alive,alive,3
+B,patients,sex,F,female,310
+B,patients,sex,Female,female,30
+B,patients,sex,M,male,292
+B,patients,sex,Male,male,25
+B,patients,sex,f,female,3
+B,patients,sex,m,male,2
+B,procedures,outcome,"Minor bleeding, controlled",complications,11
+B,procedures,outcome,"Post-op fever, treated",complications,11
+B,procedures,outcome,"SUCCESSFUL, NO complications",success,1
+B,procedures,outcome,"Successful, no complications",success,54
+B,procedures,outcome,Uneventful recovery,success,17
+B,procedures,outcome,"Wound infection, on antibiotics",complications,6
+B,procedures,outcome,"successful, no complications",success,1
+B,procedures,procedure_name,AV FISTULA CREATION,<kept as text>,1
+B,procedures,procedure_name,AV fistula creation,<kept as text>,14
+B,procedures,procedure_name,CORONARY ANGIOGRAPHY AND PCI,<kept as text>,1
+B,procedures,procedure_name,Coronary angiography and PCI,<kept as text>,10
+B,procedures,procedure_name,DIAGNOSTIC UPPER GI ENDOSCOPY,<kept as text>,1
+B,procedures,procedure_name,DIAGNOSTIC upper GI ENDOSCOPY,<kept as text>,1
+B,procedures,procedure_name,Diagnostic upper GI endoscopy,<kept as text>,12
+B,procedures,procedure_name,Dynamic hip screw fixation,<kept as text>,1
+B,procedures,procedure_name,Hemiarthroplasty of hip,<kept as text>,1
+B,procedures,procedure_name,INCISION AND DRAINAGE OF ABSCESS,<kept as text>,1
+B,procedures,procedure_name,Incision and drainage of abscess,<kept as text>,2
+B,procedures,procedure_name,LAPAROSCOPIC CHOLECYSTECTOMY,<kept as text>,1
+B,procedures,procedure_name,Laparoscopic appendicectomy,<kept as text>,8
+B,procedures,procedure_name,Laparoscopic cholecystectomy,<kept as text>,37
+B,procedures,procedure_name,Open appendicectomy,<kept as text>,4
+B,procedures,procedure_name,PRIMARY PCI,<kept as text>,1
+B,procedures,procedure_name,Primary PCI,<kept as text>,2
+B,procedures,procedure_name,Suturing of scalp laceration,<kept as text>,4
+B,procedures,procedure_name,Total knee replacement,<kept as text>,8
+B,procedures,procedure_name,Tracheostomy,<kept as text>,2
+B,procedures,procedure_name,Upper GI endoscopy with haemostasis,<kept as text>,7
+B,procedures,procedure_name,av fistula creation,<kept as text>,1
+B,procedures,procedure_name,laparoscopic cholecystectomy,<kept as text>,1
+B,procedures,procedure_name,total knee replacement,<kept as text>,1
+B,professionals,role,Clinical Officer,clinical_officer,6
+B,professionals,role,Consultant Physician,physician,6
+B,professionals,role,Consultant Surgeon,surgeon,3
+B,professionals,role,Enrolled Nurse,nurse,11
+B,professionals,role,Intern Doctor,physician,4
+B,professionals,role,Laboratory Technologist,laboratory_scientist,4
+B,professionals,role,Medical Officer,physician,14
+B,professionals,role,Midwife,midwife,4
+B,professionals,role,NURSING OFFICER,nurse,1
+B,professionals,role,Nursing Officer,nurse,13
+B,professionals,role,RECORDS OFFICER,administrative,1
+B,professionals,role,Radiographer,radiology_technician,6
+B,professionals,role,Radiologist,radiologist,3
+B,professionals,role,Records Officer,administrative,1
+B,professionals,role,Surgeon,surgeon,4
+B,radiology,body_area,Abdomen,Abdomen,41
+B,radiology,body_area,BRAIN,Head,1
+B,radiology,body_area,Brain,Head,5
+B,radiology,body_area,Chest,Chest,80
+B,radiology,body_area,Head,Head,21
+B,radiology,body_area,KIDNEYS,<kept as text>,1
+B,radiology,body_area,Kidneys,<kept as text>,24
+B,radiology,body_area,Knee,<kept as text>,4
+B,radiology,body_area,Pelvis/Hip,<kept as text>,1
+B,radiology,body_area,abdomen,Abdomen,1
+B,radiology,body_area,chest,Chest,1
+B,radiology,body_area,kidneys,<kept as text>,1
+B,radiology,exam_status,Booked,scheduled,5
+B,radiology,exam_status,CANCELLED,cancelled,1
+B,radiology,exam_status,Canceled,cancelled,1
+B,radiology,exam_status,Cancelled,cancelled,4
+B,radiology,exam_status,Completed,completed,9
+B,radiology,exam_status,DNA,<unmapped>,1
+B,radiology,exam_status,DONE,completed,2
+B,radiology,exam_status,Done,completed,160
+B,radiology,exam_status,Reported,completed,5
+B,radiology,exam_status,done,completed,2
+B,radiology,exam_type,C.T.,CT scan,1
+B,radiology,exam_type,CT Scan,CT scan,32
+B,radiology,exam_type,MRI,MRI,5
+B,radiology,exam_type,MRI Scan,MRI,1
+B,radiology,exam_type,Plain Film,X-ray,3
+B,radiology,exam_type,Sonography,Ultrasound,3
+B,radiology,exam_type,U/S,Ultrasound,5
+B,radiology,exam_type,USS,Ultrasound,3
+B,radiology,exam_type,Ultrasound,Ultrasound,59
+B,radiology,exam_type,X-RAY,X-ray,1
+B,radiology,exam_type,X-Ray,X-ray,73
+B,radiology,exam_type,XR,X-ray,3
+B,radiology,exam_type,XRAY,X-ray,2
+B,triage,triage_priority,Blue,<unmapped>,1
+B,triage,triage_priority,Category X,<unmapped>,1
+B,triage,triage_priority,Green,low,3
+B,triage,triage_priority,HIGH,high,194
+B,triage,triage_priority,Hi,high,9
+B,triage,triage_priority,LOW,low,128
+B,triage,triage_priority,Lo,low,4
+B,triage,triage_priority,MEDIUM,medium,247
+B,triage,triage_priority,Med,medium,7
+B,triage,triage_priority,P1,high,5
+B,triage,triage_priority,P2,medium,8
+B,triage,triage_priority,P3,low,5
+B,triage,triage_priority,Red,high,3
+B,triage,triage_priority,Routine,low,1
+B,triage,triage_priority,Yellow,medium,7
+B,triage,triage_priority,hi,high,1
+B,triage,triage_priority,high,high,2
+B,triage,triage_priority,medium,medium,4
+B,unit_stays,unit_type,A&E,Emergency Department,4
+B,unit_stays,unit_type,CASUALTY,Emergency Department,1
+B,unit_stays,unit_type,CCU,CCU,19
+B,unit_stays,unit_type,Cardiac Care Unit,CCU,2
+B,unit_stays,unit_type,Casualty,Emergency Department,12
+B,unit_stays,unit_type,EMERGENCY DEPT,Emergency Department,6
+B,unit_stays,unit_type,Emergency Dept,Emergency Department,251
+B,unit_stays,unit_type,GENERAL WARD,General Ward,12
+B,unit_stays,unit_type,GENERAL ward,General Ward,1
+B,unit_stays,unit_type,Gen Ward,General Ward,11
+B,unit_stays,unit_type,General Ward,General Ward,694
+B,unit_stays,unit_type,HDU,<unmapped>,3
+B,unit_stays,unit_type,I.C.U,ICU,2
+B,unit_stays,unit_type,ICU,ICU,21
+B,unit_stays,unit_type,Intensive Care Unit,ICU,2
+B,unit_stays,unit_type,MICU,MICU,19
+B,unit_stays,unit_type,Medical ICU,MICU,1
+B,unit_stays,unit_type,Medical Ward,General Ward,12
+B,unit_stays,unit_type,SICU,SICU,19
+B,unit_stays,unit_type,Surgical ICU,SICU,4
+B,unit_stays,unit_type,Surgical Ward,General Ward,13
+B,unit_stays,unit_type,Theatre Recovery,<unmapped>,1
+B,unit_stays,unit_type,Ward,General Ward,14
+B,unit_stays,unit_type,ccu,CCU,1
+B,unit_stays,unit_type,emergency DEPT,Emergency Department,1
+B,unit_stays,unit_type,emergency dept,Emergency Department,5
+B,unit_stays,unit_type,general WARD,General Ward,3
+B,unit_stays,unit_type,general ward,General Ward,5
+B,unit_stays,unit_type,sicu,SICU,1
+C,admissions,admission_source,Ambulance (995),ambulance,118
+C,admissions,admission_source,GP REFERRAL,gp_referral,1
+C,admissions,admission_source,GP referral,gp_referral,121
+C,admissions,admission_source,POLYCLINIC REFERRAL,gp_referral,2
+C,admissions,admission_source,Polyclinic referral,gp_referral,116
+C,admissions,admission_source,TRANSFER,transfer,1
+C,admissions,admission_source,Transfer,transfer,143
+C,admissions,admission_source,WALK-IN,self_referral,1
+C,admissions,admission_source,Walk-In,self_referral,1
+C,admissions,admission_source,Walk-in,self_referral,137
+C,admissions,admission_source,aMBULANCE (995),ambulance,1
+C,admissions,admission_source,ambulance (995),ambulance,2
+C,admissions,admission_source,gp referral,gp_referral,2
+C,admissions,admission_source,wALK-IN,self_referral,2
+C,admissions,admission_source,walk-in,self_referral,1
+C,admissions,admission_status,DISCH,discharged,16
+C,admissions,admission_status,DISCHARGED,discharged,5
+C,admissions,admission_status,Deceased,deceased,30
+C,admissions,admission_status,Discharged,discharged,640
+C,admissions,admission_status,Home,discharged,19
+C,admissions,admission_status,Inpatient,active,2
+C,admissions,admission_status,dISCHARGED,discharged,8
+C,admissions,admission_status,disch,discharged,2
+C,admissions,admission_status,discharged,discharged,2
+C,admissions,admission_status,hOME,discharged,1
+C,admissions,admission_type,A&E,emergency,203
+C,admissions,admission_type,DAY CASE,outpatient,1
+C,admissions,admission_type,Day Case,outpatient,148
+C,admissions,admission_type,ELECTIVE,elective,1
+C,admissions,admission_type,ER,emergency,8
+C,admissions,admission_type,Elective,elective,144
+C,admissions,admission_type,Emergency,emergency,8
+C,admissions,admission_type,NEWBORN,newborn,1
+C,admissions,admission_type,Newborn,newborn,25
+C,admissions,admission_type,Observation,<unmapped>,1
+C,admissions,admission_type,Planned,elective,8
+C,admissions,admission_type,Priority,urgent,2
+C,admissions,admission_type,SOC,outpatient,3
+C,admissions,admission_type,Scheduled,elective,4
+C,admissions,admission_type,Specialist Outpatient,outpatient,6
+C,admissions,admission_type,Transfer-In,<unmapped>,1
+C,admissions,admission_type,URG,urgent,4
+C,admissions,admission_type,URGENT,urgent,2
+C,admissions,admission_type,Urgent,urgent,144
+C,admissions,admission_type,a&e,emergency,4
+C,admissions,admission_type,day case,outpatient,1
+C,admissions,admission_type,uRGENT,urgent,1
+C,admissions,admission_type,urgent,urgent,2
+C,diagnoses,diagnosis_type,Additional,secondary,33
+C,diagnoses,diagnosis_type,P,primary,19
+C,diagnoses,diagnosis_type,PRIMARY,primary,3
+C,diagnoses,diagnosis_type,PRINCIPAL,primary,25
+C,diagnoses,diagnosis_type,Primary,primary,25
+C,diagnoses,diagnosis_type,Principal,primary,616
+C,diagnoses,diagnosis_type,S,secondary,25
+C,diagnoses,diagnosis_type,SECONDARY,secondary,20
+C,diagnoses,diagnosis_type,Secondary,secondary,868
+C,diagnoses,diagnosis_type,pRINCIPAL,primary,15
+C,diagnoses,diagnosis_type,principal,primary,15
+C,diagnoses,diagnosis_type,sECONDARY,secondary,22
+C,diagnoses,diagnosis_type,secondary,secondary,26
+C,discharges,destination,Community hospital,rehabilitation,130
+C,discharges,destination,HOME WITH CAREGIVER,home_with_support,4
+C,discharges,destination,Home,home,129
+C,discharges,destination,Home With Caregiver,home_with_support,1
+C,discharges,destination,Home with caregiver,home_with_support,125
+C,discharges,destination,Mortuary,mortuary,25
+C,discharges,destination,NURSING HOME,nursing_home,1
+C,discharges,destination,Nursing Home,nursing_home,1
+C,discharges,destination,Nursing home,nursing_home,131
+C,discharges,destination,TRANSFERRED TO ANOTHER HOSPITAL,other_hospital,1
+C,discharges,destination,Transferred To Another Hospital,other_hospital,1
+C,discharges,destination,Transferred to another hospital,other_hospital,122
+C,discharges,destination,cOMMUNITY HOSPITAL,rehabilitation,2
+C,discharges,destination,community hospital,rehabilitation,1
+C,discharges,destination,hOME WITH CAREGIVER,home_with_support,1
+C,discharges,destination,mORTUARY,mortuary,2
+C,discharges,destination,nURSING HOME,nursing_home,2
+C,discharges,destination,tRANSFERRED TO ANOTHER HOSPITAL,other_hospital,1
+C,discharges,destination,transferred to another hospital,other_hospital,4
+C,discharges,discharge_condition,Deceased,deceased,22
+C,discharges,discharge_condition,FAIR,fair,2
+C,discharges,discharge_condition,Fair,fair,209
+C,discharges,discharge_condition,IMPROVED,improved,4
+C,discharges,discharge_condition,Improved,improved,215
+C,discharges,discharge_condition,STABLE,stable,2
+C,discharges,discharge_condition,Stable,stable,230
+C,discharges,discharge_condition,fAIR,fair,1
+C,discharges,discharge_condition,fair,fair,2
+C,discharges,discharge_condition,iMPROVED,improved,1
+C,discharges,discharge_condition,improved,improved,4
+C,discharges,discharge_condition,sTABLE,stable,2
+C,discharges,discharge_condition,stable,stable,3
+C,notes,note_type,DISCHARGE SUMMARY,discharge_summary,13
+C,notes,note_type,DS,discharge_summary,26
+C,notes,note_type,Discharge Note,discharge_summary,20
+C,notes,note_type,Discharge Summary,discharge_summary,650
+C,notes,note_type,OP NOTE,operative_note,1
+C,notes,note_type,Op Note,operative_note,3
+C,notes,note_type,Operation Note,operative_note,65
+C,notes,note_type,PROGRESS NOTE,progress_note,9
+C,notes,note_type,Progress Note,progress_note,524
+C,notes,note_type,WARD ROUND NOTE,progress_note,1
+C,notes,note_type,Ward Round Note,progress_note,39
+C,notes,note_type,dISCHARGE sUMMARY,discharge_summary,4
+C,notes,note_type,discharge summary,discharge_summary,4
+C,notes,note_type,ds,discharge_summary,1
+C,notes,note_type,pROGRESS nOTE,progress_note,7
+C,notes,note_type,progress note,progress_note,11
+C,orders,exam_type,CT,CT scan,82
+C,orders,exam_type,Chest X-Ray,Chest X-ray,78
+C,orders,exam_type,ECG,ECG,82
+C,orders,exam_type,Full Blood Count,Blood panel,87
+C,orders,exam_type,MRI,MRI,83
+C,orders,exam_type,ULTRASOUND,Ultrasound,1
+C,orders,exam_type,Ultrasound,Ultrasound,86
+C,orders,exam_type,chest x-ray,Chest X-ray,1
+C,orders,exam_type,ct,CT scan,1
+C,orders,exam_type,ecg,ECG,1
+C,orders,exam_type,fULL bLOOD cOUNT,Blood panel,1
+C,orders,exam_type,full blood count,Blood panel,1
+C,orders,exam_type,uLTRASOUND,Ultrasound,1
+C,orders,order_status,CANCELLED,cancelled,1
+C,orders,order_status,Cancelled,cancelled,24
+C,orders,order_status,Completed,completed,9
+C,orders,order_status,Done,completed,8
+C,orders,order_status,In Progress,in_progress,40
+C,orders,order_status,New,pending,3
+C,orders,order_status,On Hold,<unmapped>,2
+C,orders,order_status,Ordered,pending,52
+C,orders,order_status,Processing,in_progress,2
+C,orders,order_status,Resulted,completed,352
+C,orders,order_status,Void,cancelled,3
+C,orders,order_status,cANCELLED,cancelled,1
+C,orders,order_status,done,completed,1
+C,orders,order_status,iN pROGRESS,in_progress,1
+C,orders,order_status,in progress,in_progress,1
+C,orders,order_status,rESULTED,completed,2
+C,orders,order_status,resulted,completed,2
+C,orders,priority,ASAP,urgent,4
+C,orders,priority,Immediate,stat,3
+C,orders,priority,Normal,routine,5
+C,orders,priority,R,routine,3
+C,orders,priority,ROUTINE,routine,1
+C,orders,priority,Routine,routine,252
+C,orders,priority,STAT,stat,65
+C,orders,priority,Stat,stat,2
+C,orders,priority,U,urgent,6
+C,orders,priority,URGENT,urgent,2
+C,orders,priority,Urgent,urgent,153
+C,orders,priority,nORMAL,routine,1
+C,orders,priority,rOUTINE,routine,1
+C,orders,priority,routine,routine,2
+C,orders,priority,stat,stat,1
+C,orders,priority,urgent,urgent,4
+C,patients,life_status,A,alive,11
+C,patients,life_status,ALIVE,alive,3
+C,patients,life_status,Alive,alive,439
+C,patients,life_status,D,deceased,1
+C,patients,life_status,Dead,deceased,1
+C,patients,life_status,Deceased,deceased,27
+C,patients,life_status,Living,alive,10
+C,patients,life_status,aLIVE,alive,2
+C,patients,sex,F,female,203
+C,patients,sex,Female,female,3
+C,patients,sex,M,male,215
+C,patients,sex,Male,male,7
+C,patients,sex,U,unknown,8
+C,patients,sex,Unknown,unknown,1
+C,patients,sex,f,female,10
+C,patients,sex,m,male,12
+C,procedures,outcome,Complicated,complications,7
+C,procedures,outcome,UNEVENTFUL,success,1
+C,procedures,outcome,Uneventful,success,41
+C,procedures,outcome,Unsuccessful,failure,5
+C,procedures,outcome,unsuccessful,failure,1
+C,procedures,procedure_name,Appendicectomy,Appendectomy,10
+C,procedures,procedure_name,Coronary angiography,Coronary angiography,11
+C,procedures,procedure_name,Coronary artery bypass graft,Coronary artery bypass graft,13
+C,procedures,procedure_name,Hip hemiarthroplasty,Hip hemiarthroplasty,11
+C,procedures,procedure_name,Inguinal hernia repair,Inguinal hernia repair,10
+C,procedures,procedure_name,Laparoscopic cholecystectomy,Cholecystectomy,11
+C,procedures,procedure_name,aPPENDICECTOMY,Appendectomy,1
+C,procedures,procedure_name,appendicectomy,Appendectomy,1
+C,procedures,procedure_name,hIP HEMIARTHROPLASTY,Hip hemiarthroplasty,1
+C,professionals,role,Medical Officer,physician,24
+C,professionals,role,Nurse,nurse,1
+C,professionals,role,RN,nurse,1
+C,professionals,role,Radiographer,radiology_technician,13
+C,professionals,role,Radiologist,radiologist,6
+C,professionals,role,Staff Nurse,nurse,18
+C,professionals,role,Surgeon,surgeon,8
+C,professionals,role,medical officer,physician,1
+C,radiology,body_area,ABDOMEN,Abdomen,1
+C,radiology,body_area,Abdomen,Abdomen,150
+C,radiology,body_area,Brain,Head,79
+C,radiology,body_area,CHEST,Chest,1
+C,radiology,body_area,Chest,Chest,73
+C,radiology,body_area,aBDOMEN,Abdomen,1
+C,radiology,body_area,abdomen,Abdomen,2
+C,radiology,body_area,brain,Head,1
+C,radiology,body_area,cHEST,Chest,1
+C,radiology,exam_status,Awaiting Report,<unmapped>,2
+C,radiology,exam_status,BOOKED,scheduled,1
+C,radiology,exam_status,Booked,scheduled,30
+C,radiology,exam_status,Cancelled,cancelled,14
+C,radiology,exam_status,Completed,completed,9
+C,radiology,exam_status,Done,completed,10
+C,radiology,exam_status,REPORTED,completed,5
+C,radiology,exam_status,Reported,completed,257
+C,radiology,exam_status,Scheduled,scheduled,2
+C,radiology,exam_status,Void,cancelled,2
+C,radiology,exam_status,booked,scheduled,1
+C,radiology,exam_status,dONE,completed,1
+C,radiology,exam_status,rEPORTED,completed,1
+C,radiology,exam_status,reported,completed,4
+C,radiology,exam_type,CT,CT scan,86
+C,radiology,exam_type,Chest X-Ray,Chest X-ray,83
+C,radiology,exam_type,MRI,MRI,83
+C,radiology,exam_type,ULTRASOUND,Ultrasound,1
+C,radiology,exam_type,Ultrasound,Ultrasound,81
+C,radiology,exam_type,chest x-ray,Chest X-ray,1
+C,radiology,exam_type,mri,MRI,1
+C,radiology,exam_type,ultrasound,Ultrasound,1
+C,triage,triage_priority,Major,medium,9
+C,triage,triage_priority,Minor,low,11
+C,triage,triage_priority,P1,high,155
+C,triage,triage_priority,P2,medium,265
+C,triage,triage_priority,P3,low,269
+C,triage,triage_priority,PAC 1,high,8
+C,triage,triage_priority,PAC 2,medium,11
+C,triage,triage_priority,PAC 3,low,12
+C,triage,triage_priority,PAC 4,<unmapped>,2
+C,triage,triage_priority,Resus,high,4
+C,triage,triage_priority,p1,high,3
+C,triage,triage_priority,p2,medium,1
+C,triage,triage_priority,p3,low,3
+C,unit_stays,unit_type,A&E DEPARTMENT,Emergency Department,3
+C,unit_stays,unit_type,A&E Department,Emergency Department,237
+C,unit_stays,unit_type,CCU,CCU,59
+C,unit_stays,unit_type,Cardiac ICU,CCU,1
+C,unit_stays,unit_type,Ccu,CCU,1
+C,unit_stays,unit_type,Coronary Care Unit,CCU,2
+C,unit_stays,unit_type,ED,Emergency Department,12
+C,unit_stays,unit_type,Emergency Department,Emergency Department,8
+C,unit_stays,unit_type,GENERAL WARD,General Ward,11
+C,unit_stays,unit_type,GW,General Ward,25
+C,unit_stays,unit_type,General ICU,ICU,1
+C,unit_stays,unit_type,General Ward,General Ward,583
+C,unit_stays,unit_type,HDU,<unmapped>,1
+C,unit_stays,unit_type,ICU,ICU,54
+C,unit_stays,unit_type,Icu,ICU,1
+C,unit_stays,unit_type,Intensive Care Unit,ICU,2
+C,unit_stays,unit_type,Isolation Ward,<unmapped>,2
+C,unit_stays,unit_type,MICU,MICU,48
+C,unit_stays,unit_type,Medical ICU,MICU,4
+C,unit_stays,unit_type,SICU,SICU,96
+C,unit_stays,unit_type,Surgical ICU,SICU,4
+C,unit_stays,unit_type,WARD,General Ward,2
+C,unit_stays,unit_type,Ward,General Ward,19
+C,unit_stays,unit_type,a&e dEPARTMENT,Emergency Department,2
+C,unit_stays,unit_type,a&e department,Emergency Department,1
+C,unit_stays,unit_type,ccu,CCU,1
+C,unit_stays,unit_type,gENERAL wARD,General Ward,3
+C,unit_stays,unit_type,general ward,General Ward,6
+C,unit_stays,unit_type,icu,ICU,1
+C,unit_stays,unit_type,ward,General Ward,1
+D,admissions,admission_source,Ambulance,ambulance,118
+D,admissions,admission_source,Born at Coral Coast,born_in_hospital,42
+D,admissions,admission_source,Elective surgery waitlist,waitlist,68
+D,admissions,admission_source,GP REFERRAL,gp_referral,3
+D,admissions,admission_source,GP referral,gp_referral,167
+D,admissions,admission_source,INTER-HOSPITAL TRANSFER,transfer,1
+D,admissions,admission_source,Inter-hospital transfer,transfer,59
+D,admissions,admission_source,Outpatient clinic,clinic_referral,67
+D,admissions,admission_source,Police,police,48
+D,admissions,admission_source,SELF-PRESENTED,self_referral,2
+D,admissions,admission_source,SPECIALIST REFERRAL,clinic_referral,3
+D,admissions,admission_source,SPECIALIST ROOMS,clinic_referral,1
+D,admissions,admission_source,Self-presented,self_referral,153
+D,admissions,admission_source,Specialist referral,clinic_referral,33
+D,admissions,admission_source,Specialist rooms,clinic_referral,63
+D,admissions,admission_source,Urgent care clinic,clinic_referral,29
+D,admissions,admission_source,ambulance,ambulance,1
+D,admissions,admission_source,elective surgery waitlist,waitlist,1
+D,admissions,admission_source,self-presented,self_referral,1
+D,admissions,admission_status,Completed,discharged,22
+D,admissions,admission_status,Current,active,3
+D,admissions,admission_status,D/C,discharged,12
+D,admissions,admission_status,Deceased,deceased,1
+D,admissions,admission_status,Died,deceased,13
+D,admissions,admission_status,Discharged,discharged,12
+D,admissions,admission_status,SEPARATED,discharged,11
+D,admissions,admission_status,Separated,discharged,822
+D,admissions,admission_status,d/c,discharged,1
+D,admissions,admission_status,separated,discharged,8
+D,admissions,admission_type,BIRTH,newborn,1
+D,admissions,admission_type,Birth,newborn,42
+D,admissions,admission_type,Booked Elective,elective,4
+D,admissions,admission_type,Clinic,outpatient,2
+D,admissions,admission_type,ED,emergency,381
+D,admissions,admission_type,ELECTIVE,elective,1
+D,admissions,admission_type,EMERG,emergency,12
+D,admissions,admission_type,Elective,elective,128
+D,admissions,admission_type,Emerg Dept,emergency,7
+D,admissions,admission_type,Emergency,emergency,11
+D,admissions,admission_type,Non-admitted,outpatient,3
+D,admissions,admission_type,OPD,outpatient,3
+D,admissions,admission_type,OUTPATIENT CLINIC,outpatient,1
+D,admissions,admission_type,Other,<unmapped>,2
+D,admissions,admission_type,Outpatient Clinic,outpatient,145
+D,admissions,admission_type,Planned,elective,3
+D,admissions,admission_type,Transfer In,<unmapped>,1
+D,admissions,admission_type,UCC,urgent,5
+D,admissions,admission_type,URGENT,urgent,1
+D,admissions,admission_type,Urgent,urgent,136
+D,admissions,admission_type,Urgent Care,urgent,5
+D,admissions,admission_type,ed,emergency,5
+D,admissions,admission_type,elective,elective,2
+D,admissions,admission_type,outpatient clinic,outpatient,1
+D,admissions,admission_type,ucc,urgent,1
+D,admissions,admission_type,urgent,urgent,1
+D,diagnoses,diagnosis_type,A,secondary,4
+D,diagnoses,diagnosis_type,ADDITIONAL,secondary,11
+D,diagnoses,diagnosis_type,Additional,secondary,237
+D,diagnoses,diagnosis_type,Comorbidity,secondary,3
+D,diagnoses,diagnosis_type,P,primary,21
+D,diagnoses,diagnosis_type,PRIMARY,primary,27
+D,diagnoses,diagnosis_type,PRINCIPAL,primary,52
+D,diagnoses,diagnosis_type,PRINCIPAL DX,primary,1
+D,diagnoses,diagnosis_type,Principal,primary,744
+D,diagnoses,diagnosis_type,Principal Dx,primary,8
+D,diagnoses,diagnosis_type,Provisional,<unmapped>,3
+D,diagnoses,diagnosis_type,Rule out,<unmapped>,1
+D,diagnoses,diagnosis_type,SECONDARY,secondary,1
+D,diagnoses,diagnosis_type,Secondary,secondary,4
+D,diagnoses,diagnosis_type,a,secondary,1
+D,diagnoses,diagnosis_type,additional,secondary,6
+D,diagnoses,diagnosis_type,p,primary,1
+D,diagnoses,diagnosis_type,principal,primary,21
+D,discharges,destination,DISCHARGED HOME,home,10
+D,discharges,destination,DISCHARGED home,home,1
+D,discharges,destination,Died,mortuary,11
+D,discharges,destination,Discharged against medical advice,left_against_advice,47
+D,discharges,destination,Discharged home,home,523
+D,discharges,destination,Hospital in the Home,hospital_in_the_home,30
+D,discharges,destination,Residential aged care facility,nursing_home,34
+D,discharges,destination,STATISTICAL DISCHARGE,statistical_discharge,1
+D,discharges,destination,Statistical discharge,statistical_discharge,36
+D,discharges,destination,TRANSFERRED TO ANOTHER HOSPITAL,other_hospital,1
+D,discharges,destination,Transferred to another hospital,other_hospital,52
+D,discharges,destination,Usual residence,home,105
+D,discharges,destination,discharged HOME,home,1
+D,discharges,destination,discharged home,home,5
+D,discharges,destination,hospital in the home,hospital_in_the_home,2
+D,discharges,destination,statistical discharge,statistical_discharge,1
+D,discharges,discharge_condition,DECEASED,deceased,2
+D,discharges,discharge_condition,Deceased,deceased,11
+D,discharges,discharge_condition,FAIR,fair,3
+D,discharges,discharge_condition,Fair,fair,140
+D,discharges,discharge_condition,IMPROVED,improved,4
+D,discharges,discharge_condition,Improved,improved,276
+D,discharges,discharge_condition,RECOVERED,recovered,3
+D,discharges,discharge_condition,Recovered,recovered,122
+D,discharges,discharge_condition,STABLE,stable,3
+D,discharges,discharge_condition,Stable,stable,158
+D,discharges,discharge_condition,UNCHANGED,unchanged,2
+D,discharges,discharge_condition,Unchanged,unchanged,149
+D,discharges,discharge_condition,fair,fair,2
+D,discharges,discharge_condition,improved,improved,1
+D,discharges,discharge_condition,recovered,recovered,1
+D,discharges,discharge_condition,stable,stable,2
+D,notes,note_type,ADMISSION NOTE,admission_note,9
+D,notes,note_type,ADMISSION note,admission_note,4
+D,notes,note_type,Admission Note,admission_note,553
+D,notes,note_type,DISCHARGE SUMMARY,discharge_summary,2
+D,notes,note_type,Discharge Summary,discharge_summary,199
+D,notes,note_type,ED CLINICIAN NOTE,ed_note,5
+D,notes,note_type,ED Clinician Note,ed_note,171
+D,notes,note_type,ED clinician NOTE,ed_note,1
+D,notes,note_type,NURSING NOTE,nursing_note,6
+D,notes,note_type,Nursing Note,nursing_note,177
+D,notes,note_type,PROGRESS NOTE,progress_note,3
+D,notes,note_type,PROGRESS note,progress_note,1
+D,notes,note_type,Progress Note,progress_note,153
+D,notes,note_type,WARD ROUND,ward_round_note,2
+D,notes,note_type,Ward Round,ward_round_note,156
+D,notes,note_type,admission NOTE,admission_note,1
+D,notes,note_type,admission note,admission_note,3
+D,notes,note_type,discharge SUMMARY,discharge_summary,1
+D,notes,note_type,discharge summary,discharge_summary,2
+D,notes,note_type,ed clinician NOTE,ed_note,2
+D,notes,note_type,ed clinician note,ed_note,2
+D,notes,note_type,nursing NOTE,nursing_note,1
+D,notes,note_type,nursing note,nursing_note,2
+D,notes,note_type,progress note,progress_note,3
+D,notes,note_type,ward round,ward_round_note,4
+D,orders,exam_type,ABG,<kept as text>,11
+D,orders,exam_type,BNP,<kept as text>,2
+D,orders,exam_type,BSL,<kept as text>,27
+D,orders,exam_type,Blood cultures,<kept as text>,10
+D,orders,exam_type,Blood film,<kept as text>,9
+D,orders,exam_type,CHEST X-RAY,Chest X-ray,1
+D,orders,exam_type,CRP,<kept as text>,4
+D,orders,exam_type,CT abdomen,<kept as text>,3
+D,orders,exam_type,CT brain,<kept as text>,27
+D,orders,exam_type,CTPA,<kept as text>,6
+D,orders,exam_type,Chest X-ray,Chest X-ray,64
+D,orders,exam_type,D-dimer,<kept as text>,5
+D,orders,exam_type,ECG,ECG,38
+D,orders,exam_type,Echocardiogram,<kept as text>,2
+D,orders,exam_type,FBC,Blood panel,89
+D,orders,exam_type,Faecal MCS,<kept as text>,22
+D,orders,exam_type,Fasting lipids,<kept as text>,21
+D,orders,exam_type,Free T4,<kept as text>,4
+D,orders,exam_type,GROUP AND HOLD,<kept as text>,1
+D,orders,exam_type,Group and hold,<kept as text>,12
+D,orders,exam_type,H. PYLORI BREATH TEST,<kept as text>,1
+D,orders,exam_type,H. pylori breath test,<kept as text>,28
+D,orders,exam_type,HbA1c,<kept as text>,13
+D,orders,exam_type,Iron studies,<kept as text>,8
+D,orders,exam_type,LFT,<kept as text>,39
+D,orders,exam_type,Lipase,<kept as text>,3
+D,orders,exam_type,MRI brain,<kept as text>,4
+D,orders,exam_type,Peak flow,<kept as text>,18
+D,orders,exam_type,Sputum MCS,<kept as text>,6
+D,orders,exam_type,TSH,<kept as text>,11
+D,orders,exam_type,Troponin,<kept as text>,20
+D,orders,exam_type,UEC,<kept as text>,57
+D,orders,exam_type,Ultrasound abdomen,<kept as text>,31
+D,orders,exam_type,Ultrasound renal,<kept as text>,22
+D,orders,exam_type,Urinalysis,<kept as text>,27
+D,orders,exam_type,Urine MCS,<kept as text>,6
+D,orders,exam_type,VBG,<kept as text>,28
+D,orders,exam_type,X-ray knee,<kept as text>,3
+D,orders,exam_type,X-ray pelvis,<kept as text>,2
+D,orders,exam_type,bsl,<kept as text>,1
+D,orders,exam_type,ecg,ECG,1
+D,orders,exam_type,echocardiogram,<kept as text>,1
+D,orders,exam_type,fbc,Blood panel,1
+D,orders,exam_type,lft,<kept as text>,1
+D,orders,exam_type,uec,<kept as text>,1
+D,orders,exam_type,urinalysis,<kept as text>,1
+D,orders,order_status,CXL,cancelled,2
+D,orders,order_status,Complete,completed,20
+D,orders,order_status,FINAL,completed,14
+D,orders,order_status,IN-PROGRESS,in_progress,1
+D,orders,order_status,REQUESTED,pending,2
+D,orders,order_status,canceled,cancelled,1
+D,orders,order_status,cancelled,cancelled,57
+D,orders,order_status,collected,in_progress,2
+D,orders,order_status,final,completed,658
+D,orders,order_status,in-progress,in_progress,31
+D,orders,order_status,on-hold,<unmapped>,1
+D,orders,order_status,requested,pending,28
+D,orders,order_status,resulted,completed,19
+D,orders,priority,Immediate,stat,5
+D,orders,priority,R,routine,10
+D,orders,priority,ROUTINE,routine,11
+D,orders,priority,Routine,routine,11
+D,orders,priority,STAT,stat,6
+D,orders,priority,U,urgent,10
+D,orders,priority,URG,urgent,7
+D,orders,priority,URGENT,urgent,5
+D,orders,priority,asap,<unmapped>,1
+D,orders,priority,routine,routine,333
+D,orders,priority,stat,stat,138
+D,orders,priority,timed,<unmapped>,1
+D,orders,priority,urgent,urgent,298
+D,patients,life_status,0,alive,8
+D,patients,life_status,N,alive,5
+D,patients,life_status,false,alive,614
+D,patients,life_status,no,alive,7
+D,patients,life_status,true,deceased,14
+D,patients,sex,F,female,310
+D,patients,sex,FEMALE,female,2
+D,patients,sex,Female,female,4
+D,patients,sex,M,male,297
+D,patients,sex,Male,male,6
+D,patients,sex,f,female,2
+D,patients,sex,female,female,9
+D,patients,sex,m,male,1
+D,patients,sex,male,male,16
+D,procedures,outcome,Converted to open procedure,complications,7
+D,procedures,outcome,"Minor bleeding, controlled intra-op",complications,11
+D,procedures,outcome,No complications,success,53
+D,procedures,outcome,"POST-OP FEVER, TREATED",complications,1
+D,procedures,outcome,"Post-op fever, treated",complications,10
+D,procedures,outcome,"Superficial wound infection, oral antibiotics",complications,10
+D,procedures,outcome,Uneventful recovery,success,20
+D,procedures,outcome,uneventful recovery,success,2
+D,procedures,procedure_name,AV fistula creation,<kept as text>,12
+D,procedures,procedure_name,Coronary angiography and PCI,<kept as text>,12
+D,procedures,procedure_name,DIAGNOSTIC gastroscopy,<kept as text>,1
+D,procedures,procedure_name,Diagnostic gastroscopy,<kept as text>,12
+D,procedures,procedure_name,Dynamic hip screw fixation,<kept as text>,5
+D,procedures,procedure_name,Gastroscopy with haemostasis,<kept as text>,9
+D,procedures,procedure_name,Hemiarthroplasty of hip,<kept as text>,8
+D,procedures,procedure_name,Incision and drainage of abscess,<kept as text>,2
+D,procedures,procedure_name,LAPAROSCOPIC CHOLECYSTECTOMY,<kept as text>,2
+D,procedures,procedure_name,Laparoscopic appendicectomy,<kept as text>,13
+D,procedures,procedure_name,Laparoscopic cholecystectomy,<kept as text>,34
+D,procedures,procedure_name,Open appendicectomy,<kept as text>,4
+D,procedures,procedure_name,Primary PCI,<kept as text>,6
+D,procedures,procedure_name,Repair of scalp laceration,<kept as text>,5
+D,procedures,procedure_name,Total knee replacement,<kept as text>,8
+D,procedures,procedure_name,Tracheostomy,<kept as text>,2
+D,procedures,procedure_name,av fistula creation,<kept as text>,1
+D,procedures,procedure_name,diagnostic gastroscopy,<kept as text>,2
+D,professionals,role,Clinical Nurse Specialist,nurse,5
+D,professionals,role,Consultant Physician,physician,8
+D,professionals,role,Emergency Physician,physician,6
+D,professionals,role,Emergency Registrar,physician,5
+D,professionals,role,Enrolled Nurse,nurse,6
+D,professionals,role,Gastroenterologist,physician,2
+D,professionals,role,General Surgeon,surgeon,3
+D,professionals,role,Interventional Cardiologist,physician,2
+D,professionals,role,MEDICAL IMAGING TECHNOLOGIST,radiology_technician,1
+D,professionals,role,MEDICAL SCIENTIST,laboratory_scientist,1
+D,professionals,role,Medical Imaging Technologist,radiology_technician,4
+D,professionals,role,Medical Registrar,physician,5
+D,professionals,role,Medical Scientist,laboratory_scientist,2
+D,professionals,role,Midwife,midwife,3
+D,professionals,role,Orthopaedic Surgeon,surgeon,2
+D,professionals,role,Paediatrician,physician,2
+D,professionals,role,REGISTERED NURSE,nurse,1
+D,professionals,role,Radiologist,radiologist,2
+D,professionals,role,Registered Nurse,nurse,17
+D,professionals,role,Resident Medical Officer,physician,8
+D,professionals,role,Sonographer,radiology_technician,2
+D,professionals,role,Surgical Registrar,surgeon,3
+D,professionals,role,Ward Clerk,administrative,3
+D,radiology,body_area,ABDOMEN,Abdomen,1
+D,radiology,body_area,Abdomen,Abdomen,39
+D,radiology,body_area,Abdomen/Pelvis,<kept as text>,5
+D,radiology,body_area,Brain,Head,5
+D,radiology,body_area,CHEST,Chest,4
+D,radiology,body_area,Chest,Chest,79
+D,radiology,body_area,HEAD,Head,1
+D,radiology,body_area,Head,Head,24
+D,radiology,body_area,Heart,<kept as text>,2
+D,radiology,body_area,Kidneys,<kept as text>,25
+D,radiology,body_area,Knee,<kept as text>,3
+D,radiology,body_area,Pelvis/Hip,<kept as text>,1
+D,radiology,body_area,abdomen,Abdomen,1
+D,radiology,body_area,chest,Chest,1
+D,radiology,body_area,kidneys,<kept as text>,1
+D,radiology,exam_status,Completed,completed,4
+D,radiology,exam_status,DNA,<unmapped>,1
+D,radiology,exam_status,REPORTED,completed,1
+D,radiology,exam_status,booked,scheduled,12
+D,radiology,exam_status,cancelled,cancelled,6
+D,radiology,exam_status,final,completed,5
+D,radiology,exam_status,reported,completed,177
+D,radiology,exam_type,CT,CT scan,39
+D,radiology,exam_type,CT Scan,CT scan,2
+D,radiology,exam_type,DX,X-ray,1
+D,radiology,exam_type,MR,MRI,5
+D,radiology,exam_type,Plain film,X-ray,4
+D,radiology,exam_type,US,Ultrasound,66
+D,radiology,exam_type,USS,Ultrasound,5
+D,radiology,exam_type,X-Ray,X-ray,1
+D,radiology,exam_type,XR,X-ray,79
+D,radiology,exam_type,us,Ultrasound,2
+D,radiology,exam_type,xr,X-ray,1
+D,triage,triage_priority,2,high,6
+D,triage,triage_priority,3,medium,6
+D,triage,triage_priority,4,low,2
+D,triage,triage_priority,ATS 1,high,3
+D,triage,triage_priority,ATS 2,high,3
+D,triage,triage_priority,ATS 3,medium,3
+D,triage,triage_priority,ATS 4,low,2
+D,triage,triage_priority,CAT 1,high,2
+D,triage,triage_priority,CAT 2,high,3
+D,triage,triage_priority,CAT 3,medium,3
+D,triage,triage_priority,CAT 4,low,5
+D,triage,triage_priority,CAT 5,low,1
+D,triage,triage_priority,CAT1,high,1
+D,triage,triage_priority,CAT2,high,1
+D,triage,triage_priority,CAT3,medium,4
+D,triage,triage_priority,CATEGORY 1,high,1
+D,triage,triage_priority,Cat 0,<unmapped>,1
+D,triage,triage_priority,Cat 1,high,38
+D,triage,triage_priority,Cat 2,high,188
+D,triage,triage_priority,Cat 3,medium,217
+D,triage,triage_priority,Cat 4,low,104
+D,triage,triage_priority,Cat 5,low,32
+D,triage,triage_priority,Cat 6,<unmapped>,1
+D,triage,triage_priority,Category 1,high,1
+D,triage,triage_priority,Category 2,high,1
+D,triage,triage_priority,Category 3,medium,3
+D,triage,triage_priority,Category 4,low,6
+D,triage,triage_priority,Not triaged,<unmapped>,1
+D,triage,triage_priority,cat 1,high,1
+D,triage,triage_priority,cat 3,medium,3
+D,triage,triage_priority,cat 4,low,2
+D,triage,triage_priority,cat 5,low,1
+D,unit_stays,unit_type,CCU,CCU,24
+D,unit_stays,unit_type,ED,Emergency Department,283
+D,unit_stays,unit_type,Emergency,Emergency Department,8
+D,unit_stays,unit_type,Emergency Dept,Emergency Department,6
+D,unit_stays,unit_type,GICU,ICU,3
+D,unit_stays,unit_type,Gen Med,General Ward,14
+D,unit_stays,unit_type,HDU,<unmapped>,2
+D,unit_stays,unit_type,ICU,ICU,27
+D,unit_stays,unit_type,INPATIENT WARD,General Ward,14
+D,unit_stays,unit_type,INPATIENT ward,General Ward,2
+D,unit_stays,unit_type,Inpatient Ward,General Ward,725
+D,unit_stays,unit_type,MEDICAL WARD,General Ward,1
+D,unit_stays,unit_type,MICU,MICU,34
+D,unit_stays,unit_type,Medical ICU,MICU,3
+D,unit_stays,unit_type,Medical Ward,General Ward,13
+D,unit_stays,unit_type,PACU,<unmapped>,3
+D,unit_stays,unit_type,Resus,Emergency Department,46
+D,unit_stays,unit_type,Resus Bay,Emergency Department,8
+D,unit_stays,unit_type,SICU,SICU,21
+D,unit_stays,unit_type,SURGICAL ward,General Ward,1
+D,unit_stays,unit_type,Surgical ICU,SICU,1
+D,unit_stays,unit_type,Surgical Ward,General Ward,11
+D,unit_stays,unit_type,Ward,General Ward,10
+D,unit_stays,unit_type,ed,Emergency Department,1
+D,unit_stays,unit_type,emergency DEPT,Emergency Department,1
+D,unit_stays,unit_type,icu,ICU,1
+D,unit_stays,unit_type,inpatient WARD,General Ward,2
+D,unit_stays,unit_type,inpatient ward,General Ward,7
+D,unit_stays,unit_type,medical ward,General Ward,2
+D,unit_stays,unit_type,micu,MICU,2

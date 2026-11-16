@@ -1,365 +1,359 @@
-source,procedure_id,admission_id,surgeon_id,procedure,performed_at_utc,outcome
-A,2,11,17,Appendectomy,2024-05-29T07:34:00Z,complications
-A,3,19,22,Appendectomy,2026-06-30T07:14:00Z,complications
-A,4,30,22,Cholecystectomy,2025-12-21T01:12:00Z,complications
-A,5,33,7,Hip fracture repair,2023-05-04T13:56:00Z,successful
-A,6,55,32,Hernia repair,2023-12-30T07:16:00Z,successful
-A,7,64,27,Hernia repair,2025-07-05T22:42:00Z,successful
-A,8,70,32,Hip fracture repair,2026-10-27T01:12:00Z,successful
-A,9,90,27,Coronary artery bypass graft,2026-05-04T21:04:00Z,successful
-A,10,91,12,Hip fracture repair,2025-03-09T00:40:00Z,successful
-A,11,98,22,Cholecystectomy,2024-11-15T23:02:00Z,successful
-A,12,109,32,Hernia repair,2026-04-04T07:40:00Z,successful
-A,13,112,7,Coronary artery bypass graft,2023-11-25T06:40:00Z,successful
-A,14,134,27,Cardiac catheterization,2025-07-11T10:12:00Z,successful
-A,15,138,32,Coronary artery bypass graft,2023-01-21T01:16:00Z,successful
-A,16,142,17,Cholecystectomy,2024-05-11T19:50:00Z,successful
-A,17,156,22,Hip fracture repair,2024-05-12T04:06:00Z,successful
-A,18,157,27,Cholecystectomy,2025-01-23T13:10:00Z,successful
-A,19,163,27,Hernia repair,2025-12-02T22:41:00Z,successful
-A,20,173,27,Hernia repair,2023-11-09T17:28:00Z,successful
-A,21,189,22,Coronary artery bypass graft,2023-03-16T02:00:00Z,successful
-A,22,190,7,Cardiac catheterization,2023-12-22T08:43:00Z,successful
-A,23,192,12,Coronary artery bypass graft,2025-04-07T00:28:00Z,successful
-A,24,224,7,Hip fracture repair,2025-12-22T22:13:00Z,successful
-A,25,230,27,Cardiac catheterization,2023-01-31T13:18:00Z,successful
-A,26,236,12,Cardiac catheterization,2025-05-14T07:24:00Z,successful
-A,27,243,27,Appendectomy,2025-02-16T02:48:00Z,successful
-A,28,310,27,Cholecystectomy,2024-05-27T07:29:00Z,successful
-A,29,343,7,Hip fracture repair,2025-05-22T20:23:00Z,successful
-A,30,345,27,Hernia repair,2025-06-07T20:16:00Z,complications
-A,31,361,22,Hernia repair,2025-05-01T05:37:00Z,complications
-A,36,376,7,Hip fracture repair,2023-11-24T02:53:00Z,successful
-A,37,385,27,Coronary artery bypass graft,2025-01-13T09:21:00Z,complications
-A,38,395,32,Hip fracture repair,2024-03-01T07:06:00Z,successful
-A,39,396,22,Cardiac catheterization,2024-07-17T00:01:00Z,complications
-A,40,400,12,Coronary artery bypass graft,2025-07-22T04:28:00Z,successful
-A,41,402,7,Appendectomy,2024-02-06T20:23:00Z,successful
-A,42,412,37,Appendectomy,2024-10-31T15:08:00Z,successful
-A,43,432,37,Hernia repair,2023-11-05T07:20:00Z,successful
-A,44,438,27,Coronary artery bypass graft,2026-07-11T02:59:00Z,successful
-A,45,443,7,Coronary artery bypass graft,2025-01-17T15:50:00Z,successful
-A,46,445,17,Hip fracture repair,2024-10-25T02:40:00Z,complications
-A,47,448,37,Appendectomy,2024-04-23T22:48:00Z,successful
-A,48,457,32,Cholecystectomy,2026-05-12T07:21:00Z,successful
-A,50,480,7,Cardiac catheterization,2025-08-22T11:27:00Z,successful
-A,51,484,7,Appendectomy,2023-11-11T03:41:00Z,successful
-A,52,504,12,Coronary artery bypass graft,2024-11-03T15:38:00Z,complications
-A,53,513,22,Hip fracture repair,2025-04-29T02:11:00Z,successful
-A,54,514,22,Cardiac catheterization,2024-01-24T14:41:00Z,successful
-A,55,518,22,Appendectomy,2024-10-15T18:26:00Z,successful
-A,56,524,32,Hip fracture repair,2024-12-03T16:34:00Z,complications
-A,57,537,17,Coronary artery bypass graft,2025-02-06T10:03:00Z,successful
-A,58,543,7,Cardiac catheterization,2024-08-12T11:12:00Z,complications
-A,59,546,32,Hip fracture repair,2024-07-15T14:20:00Z,successful
-A,60,552,22,Hernia repair,2024-12-14T07:33:00Z,successful
-A,61,555,37,Cholecystectomy,2024-06-18T16:10:00Z,complications
-A,64,573,27,Cardiac catheterization,2026-05-19T19:34:00Z,successful
-A,66,580,22,Coronary artery bypass graft,2024-10-13T00:30:00Z,successful
-A,68,604,17,Hernia repair,2025-06-11T17:28:00Z,successful
-A,69,606,22,Appendectomy,2026-05-21T07:47:00Z,successful
-A,70,611,32,Cholecystectomy,2023-06-30T08:50:00Z,successful
-A,71,622,37,Cholecystectomy,2024-01-11T23:09:00Z,successful
-A,72,623,12,Coronary artery bypass graft,2024-04-29T15:44:00Z,complications
-A,73,630,27,Hip fracture repair,2026-02-11T18:27:00Z,successful
-A,74,634,27,Appendectomy,2023-09-21T18:48:00Z,complications
-A,75,649,22,Cholecystectomy,2024-09-05T17:59:00Z,successful
-A,76,650,37,Appendectomy,2025-06-11T01:01:00Z,complications
-A,77,659,27,Hernia repair,2025-05-29T18:20:00Z,complications
-A,78,665,17,Hernia repair,2023-01-19T18:44:00Z,successful
-A,79,672,7,Appendectomy,2023-01-08T00:30:00Z,successful
-A,80,682,7,Cardiac catheterization,2026-02-17T13:42:00Z,successful
-A,81,701,7,Hip fracture repair,2023-07-19T05:48:00Z,unsuccessful
-A,82,731,32,Appendectomy,2024-01-08T05:22:00Z,successful
-A,83,738,37,Hernia repair,2025-07-21T12:12:00Z,successful
-A,84,744,27,Appendectomy,2023-10-27T16:42:00Z,successful
-A,85,750,37,Coronary artery bypass graft,2023-07-19T11:02:00Z,successful
-A,86,751,7,Coronary artery bypass graft,2024-04-30T20:11:00Z,complications
-A,87,754,37,Cardiac catheterization,2025-01-01T00:02:00Z,complications
-A,88,759,17,Cardiac catheterization,2023-10-12T12:30:00Z,successful
-A,89,763,7,Coronary artery bypass graft,2026-06-10T19:17:00Z,successful
-A,90,796,7,Appendectomy,2025-06-30T15:05:00Z,successful
-A,91,800,32,Hernia repair,2024-12-24T02:24:00Z,successful
-A,92,815,22,Cardiac catheterization,2023-10-13T16:37:00Z,successful
-A,93,824,7,Cardiac catheterization,2023-04-05T21:55:00Z,successful
-A,94,833,7,Hip fracture repair,2025-02-14T09:47:00Z,successful
-A,95,837,32,Hernia repair,2026-06-20T03:01:00Z,successful
-A,96,839,7,Cholecystectomy,2023-04-14T03:48:00Z,complications
-A,97,847,7,Hip fracture repair,2023-01-24T02:37:00Z,successful
-A,98,849,17,Cholecystectomy,2023-03-08T14:56:00Z,successful
-A,99,852,37,Cholecystectomy,2024-01-31T03:26:00Z,successful
-A,100,858,22,Cholecystectomy,2023-10-22T17:58:00Z,successful
-A,101,875,32,Hip fracture repair,2023-03-12T02:05:00Z,complications
-A,102,881,37,Cholecystectomy,2025-04-05T06:33:00Z,successful
-A,104,887,22,Appendectomy,2025-07-11T07:26:00Z,successful
-B,1,1,37,Coronary artery bypass graft,2023-11-09T04:36:00Z,successful
-B,3,4,12,Hip fracture repair,2026-02-18T05:47:00Z,successful
-B,4,44,12,Coronary artery bypass graft,2024-06-11T14:31:00Z,successful
-B,5,51,32,Appendectomy,2024-08-14T04:48:00Z,successful
-B,7,67,32,Hernia repair,2024-06-11T05:17:00Z,successful
-B,8,71,32,Cardiac catheterization,2025-06-09T12:37:00Z,successful
-B,9,81,12,Hernia repair,2025-05-01T16:08:00Z,successful
-B,10,91,32,Hip fracture repair,2024-01-03T16:52:00Z,successful
-B,11,95,32,Coronary artery bypass graft,2025-07-10T10:26:00Z,successful
-B,12,127,37,Hernia repair,2024-12-09T17:08:00Z,successful
-B,13,128,37,Cholecystectomy,2023-08-06T10:05:00Z,successful
-B,14,132,32,Appendectomy,2023-07-08T19:31:00Z,successful
-B,16,144,27,Hernia repair,2024-10-26T01:12:00Z,successful
-B,17,148,22,Coronary artery bypass graft,2023-12-28T23:11:00Z,successful
-B,18,156,32,Hernia repair,2025-07-19T01:18:00Z,successful
-B,19,159,7,Cardiac catheterization,2025-04-18T23:51:00Z,successful
-B,20,169,17,Coronary artery bypass graft,2023-04-21T09:37:00Z,successful
-B,21,171,32,Appendectomy,2024-05-07T09:47:00Z,successful
-B,22,194,22,Appendectomy,2024-05-07T04:54:00Z,successful
-B,23,207,32,Appendectomy,2023-12-11T15:46:00Z,successful
-B,24,209,22,Appendectomy,2023-01-15T19:59:00Z,successful
-B,25,215,12,Hernia repair,2023-08-28T14:25:00Z,complications
-B,26,220,12,Cholecystectomy,2025-07-22T06:07:00Z,successful
-B,27,223,22,Appendectomy,2025-06-26T21:42:00Z,complications
-B,28,225,17,Cholecystectomy,2026-07-22T15:16:00Z,complications
-B,29,253,37,Appendectomy,2024-03-08T08:14:00Z,successful
-B,30,259,22,Hernia repair,2024-01-03T08:42:00Z,successful
-B,31,269,37,Cholecystectomy,2024-06-01T23:51:00Z,unsuccessful
-B,32,274,37,Cholecystectomy,2024-11-07T12:05:00Z,successful
-B,34,305,32,Hip fracture repair,2024-01-18T11:30:00Z,successful
-B,35,310,32,Hip fracture repair,2025-07-03T06:38:00Z,successful
-B,36,316,7,Cholecystectomy,2026-06-30T13:49:00Z,successful
-B,38,337,37,Hip fracture repair,2023-08-17T08:21:00Z,successful
-B,39,338,17,Coronary artery bypass graft,2023-12-14T17:34:00Z,successful
-B,41,353,12,Cardiac catheterization,2025-02-06T07:01:00Z,successful
-B,42,362,17,Cholecystectomy,2024-07-12T04:27:00Z,complications
-B,43,379,7,Coronary artery bypass graft,2023-02-06T03:39:00Z,unsuccessful
-B,45,434,22,Coronary artery bypass graft,2026-06-21T08:02:00Z,complications
-B,46,435,12,Appendectomy,2026-09-11T21:47:00Z,successful
-B,47,440,37,Hernia repair,2023-01-09T17:31:00Z,successful
-B,48,444,32,Cardiac catheterization,2023-03-24T01:18:00Z,complications
-B,49,447,37,Hernia repair,2024-07-11T02:18:00Z,successful
-B,50,466,27,Cholecystectomy,2026-08-14T07:47:00Z,successful
-B,51,471,37,Hernia repair,2025-08-12T03:53:00Z,successful
-B,52,487,7,Cardiac catheterization,2024-09-13T22:19:00Z,complications
-B,53,500,27,Hip fracture repair,2025-12-11T07:05:00Z,complications
-B,54,503,32,Hernia repair,2025-04-11T18:18:00Z,successful
-B,55,507,37,Appendectomy,2023-01-13T07:16:00Z,successful
-B,56,519,37,Cholecystectomy,2025-09-17T09:42:00Z,complications
-B,57,523,12,Appendectomy,2025-02-17T15:49:00Z,successful
-B,58,532,27,Coronary artery bypass graft,2024-08-04T10:22:00Z,successful
-B,59,545,32,Cholecystectomy,2024-11-23T03:23:00Z,unsuccessful
-B,60,562,17,Cardiac catheterization,2024-03-11T03:29:00Z,successful
-B,61,577,7,Cholecystectomy,2024-10-25T23:07:00Z,successful
-B,62,579,7,Appendectomy,2024-02-27T20:19:00Z,complications
-B,63,600,12,Appendectomy,2024-07-26T16:21:00Z,successful
-B,64,613,7,Appendectomy,2024-09-19T08:40:00Z,complications
-B,65,621,12,Cholecystectomy,2023-04-06T00:45:00Z,successful
-B,66,622,37,Coronary artery bypass graft,2023-07-16T03:01:00Z,successful
-B,67,625,32,Hip fracture repair,2023-05-26T16:39:00Z,successful
-B,68,632,17,Cholecystectomy,2024-02-03T15:28:00Z,successful
-B,69,633,12,Cardiac catheterization,2024-08-28T08:06:00Z,complications
-B,70,636,32,Coronary artery bypass graft,2024-07-06T15:26:00Z,successful
-B,71,643,27,Cholecystectomy,2025-09-21T14:15:00Z,successful
-B,72,644,12,Cholecystectomy,2025-12-07T02:05:00Z,complications
-B,73,666,7,Appendectomy,2025-11-04T18:13:00Z,successful
-B,74,677,17,Appendectomy,2026-05-19T17:39:00Z,successful
-B,75,686,32,Cholecystectomy,2025-09-23T15:18:00Z,successful
-B,76,693,37,Hernia repair,2023-12-28T06:17:00Z,successful
-B,77,715,7,Appendectomy,2024-04-13T22:30:00Z,successful
-B,78,723,37,Hernia repair,2025-09-16T16:34:00Z,successful
-B,79,725,37,Hip fracture repair,2023-06-06T16:54:00Z,successful
-B,80,744,12,Hip fracture repair,2025-10-19T16:07:00Z,successful
-B,81,751,12,Hip fracture repair,2025-06-12T02:25:00Z,complications
-B,82,763,12,Appendectomy,2025-11-01T16:42:00Z,unsuccessful
-B,83,782,12,Cholecystectomy,2025-08-17T10:12:00Z,successful
-B,84,791,32,Appendectomy,2024-12-21T23:56:00Z,successful
-B,85,792,27,Cholecystectomy,2025-05-07T16:01:00Z,successful
-B,86,799,37,Cholecystectomy,2023-03-28T20:40:00Z,successful
-B,87,810,17,Coronary artery bypass graft,2025-04-05T00:30:00Z,successful
-B,88,822,32,Cholecystectomy,2025-05-19T12:51:00Z,successful
-B,89,825,32,Coronary artery bypass graft,2025-03-02T15:54:00Z,successful
-B,90,833,7,Hip fracture repair,2026-09-12T01:19:00Z,successful
-B,91,845,37,Hip fracture repair,2025-12-19T06:18:00Z,successful
-B,92,849,22,Hip fracture repair,2024-10-23T17:51:00Z,unsuccessful
-B,93,869,22,Cholecystectomy,2024-06-12T16:32:00Z,successful
-B,94,871,7,Hernia repair,2025-07-22T03:39:00Z,successful
-B,96,882,32,Hernia repair,2025-09-05T01:30:00Z,successful
-B,97,886,32,Hernia repair,2023-04-19T22:29:00Z,successful
-B,98,887,22,Hernia repair,2023-05-28T11:07:00Z,successful
-B,99,888,22,Cholecystectomy,2023-05-31T00:23:00Z,successful
-B,100,890,32,Hip fracture repair,2024-05-14T10:14:00Z,successful
-B,101,913,17,Cardiac catheterization,2025-04-24T14:39:00Z,successful
-B,102,930,32,Appendectomy,2025-11-19T13:33:00Z,successful
-B,103,951,12,Coronary artery bypass graft,2025-09-15T18:01:00Z,successful
-B,104,953,22,Appendectomy,2024-03-09T17:43:00Z,successful
-B,105,956,37,Appendectomy,2024-05-20T01:25:00Z,successful
-B,106,966,22,Coronary artery bypass graft,2025-04-07T12:03:00Z,complications
-C,1,4,17,Hernia repair,2024-05-02T05:51:47Z,successful
-C,2,8,32,Appendectomy,2023-02-26T19:37:28Z,successful
-C,3,14,37,Cholecystectomy,2024-11-16T21:10:03Z,successful
-C,5,23,22,Cholecystectomy,2026-01-18T01:36:04Z,successful
-C,6,40,22,Hip fracture repair,2026-03-05T10:39:46Z,successful
-C,7,49,17,Hip fracture repair,2025-01-20T20:04:06Z,unsuccessful
-C,8,52,12,Cardiac catheterization,2024-09-28T21:39:32Z,successful
-C,9,89,17,Coronary artery bypass graft,2024-01-26T23:44:28Z,successful
-C,10,130,32,Hernia repair,2023-09-23T21:52:08Z,successful
-C,11,132,7,Cholecystectomy,2025-01-16T00:57:40Z,successful
-C,12,137,32,Hip fracture repair,2026-03-11T10:34:32Z,successful
-C,13,143,12,Coronary artery bypass graft,2025-06-05T08:39:01Z,successful
-C,14,144,27,Cholecystectomy,2026-02-25T13:57:20Z,successful
-C,15,150,7,Appendectomy,2024-11-16T00:08:42Z,successful
-C,16,156,37,Cholecystectomy,2024-04-04T15:46:50Z,successful
-C,17,157,37,Cardiac catheterization,2024-11-25T14:12:48Z,successful
-C,19,178,12,Cardiac catheterization,2024-03-15T04:19:57Z,successful
-C,20,180,7,Hernia repair,2023-03-21T11:50:55Z,successful
-C,22,194,12,Cholecystectomy,2024-10-17T03:33:47Z,successful
-C,23,201,32,Hernia repair,2023-11-29T06:24:34Z,successful
-C,24,206,22,Cardiac catheterization,2025-02-03T00:00:20Z,successful
-C,25,208,37,Appendectomy,2024-11-13T04:15:28Z,successful
-C,26,212,17,Coronary artery bypass graft,2023-08-28T20:57:21Z,successful
-C,27,223,37,Coronary artery bypass graft,2023-12-17T14:20:55Z,successful
-C,28,228,17,Cardiac catheterization,2023-10-30T05:37:58Z,successful
-C,29,234,7,Cholecystectomy,2025-02-21T08:17:31Z,successful
-C,30,237,17,Cardiac catheterization,2023-07-20T09:06:10Z,successful
-C,31,253,27,Cardiac catheterization,2025-02-03T06:08:41Z,complications
-C,32,255,27,Cardiac catheterization,2026-04-03T22:15:13Z,successful
-C,33,256,7,Appendectomy,2026-09-13T14:41:20Z,successful
-C,34,259,7,Hip fracture repair,2025-08-27T08:23:06Z,successful
-C,35,275,17,Hernia repair,2024-04-28T15:10:56Z,successful
-C,36,288,12,Hernia repair,2023-05-25T17:33:00Z,successful
-C,37,299,32,Coronary artery bypass graft,2024-03-06T01:22:02Z,unsuccessful
-C,38,301,7,Appendectomy,2024-10-27T14:36:56Z,successful
-C,39,304,22,Hip fracture repair,2023-05-24T03:57:13Z,successful
-C,40,325,17,Hip fracture repair,2023-10-25T09:30:38Z,unsuccessful
-C,41,328,37,Hernia repair,2023-01-17T10:42:18Z,successful
-C,43,362,37,Hip fracture repair,2024-01-09T20:40:38Z,successful
-C,44,363,12,Appendectomy,2024-05-10T14:07:06Z,successful
-C,45,378,37,Hernia repair,2025-04-19T08:34:21Z,complications
-C,46,381,37,Coronary artery bypass graft,2025-01-05T17:33:56Z,successful
-C,47,385,37,Hernia repair,2025-08-15T01:29:59Z,successful
-C,48,389,27,Coronary artery bypass graft,2023-11-19T01:52:59Z,successful
-C,49,395,27,Hernia repair,2024-04-13T04:08:39Z,successful
-C,50,399,7,Appendectomy,2025-06-02T13:43:40Z,successful
-C,51,410,27,Cardiac catheterization,2024-06-20T00:57:40Z,unsuccessful
-C,53,424,32,Cholecystectomy,2025-10-17T14:12:37Z,successful
-C,54,428,7,Hip fracture repair,2024-10-24T21:00:50Z,successful
-C,55,429,12,Appendectomy,2025-05-23T04:44:26Z,successful
-C,56,436,22,Appendectomy,2023-07-21T11:24:56Z,complications
-C,57,440,17,Appendectomy,2023-04-12T21:54:48Z,successful
-C,58,441,17,Appendectomy,2023-10-07T01:25:47Z,successful
-C,59,443,32,Cardiac catheterization,2023-04-04T10:05:29Z,successful
-C,60,448,27,Hip fracture repair,2025-04-23T07:12:31Z,successful
-C,61,455,22,Cholecystectomy,2023-08-26T12:13:35Z,successful
-C,62,473,32,Cholecystectomy,2023-10-04T23:42:05Z,successful
-C,63,485,17,Coronary artery bypass graft,2025-05-29T04:21:17Z,successful
-C,64,496,7,Cardiac catheterization,2023-10-20T13:06:35Z,successful
-C,65,525,17,Hip fracture repair,2026-04-15T00:43:13Z,successful
-C,67,561,27,Cholecystectomy,2023-11-01T17:00:00Z,successful
-C,68,562,27,Hip fracture repair,2024-08-07T17:42:32Z,successful
-C,70,601,7,Coronary artery bypass graft,2026-04-13T18:01:38Z,successful
-C,71,609,32,Coronary artery bypass graft,2025-05-22T17:39:59Z,complications
-C,72,611,37,Cardiac catheterization,2023-03-04T00:41:15Z,successful
-C,73,612,22,Hip fracture repair,2023-04-25T13:57:24Z,successful
-C,74,616,27,Cardiac catheterization,2025-05-11T21:03:16Z,successful
-C,75,618,7,Cholecystectomy,2025-09-21T02:39:04Z,successful
-C,76,633,37,Cardiac catheterization,2024-02-03T13:58:41Z,successful
-C,77,654,12,Hip fracture repair,2026-05-04T15:34:01Z,successful
-C,78,671,22,Cholecystectomy,2025-04-24T10:15:56Z,successful
-C,79,682,7,Cardiac catheterization,2024-09-09T09:11:27Z,complications
-C,80,693,27,Hip fracture repair,2026-07-11T18:59:46Z,complications
-C,81,703,27,Cholecystectomy,2023-11-09T03:40:57Z,successful
-C,82,708,22,Appendectomy,2026-01-20T13:53:04Z,successful
-C,83,710,27,Cholecystectomy,2023-01-21T05:48:58Z,successful
-C,84,712,17,Cholecystectomy,2024-06-12T09:29:43Z,successful
-C,85,718,32,Hip fracture repair,2024-07-03T06:14:52Z,successful
-C,86,723,12,Hernia repair,2025-03-08T23:44:25Z,complications
-C,87,731,37,Hip fracture repair,2025-04-13T11:30:27Z,successful
-C,88,741,17,Cardiac catheterization,2024-06-17T00:39:03Z,successful
-C,89,750,32,Cardiac catheterization,2023-08-03T09:09:44Z,successful
-C,90,755,27,Cardiac catheterization,2025-03-20T03:24:39Z,successful
-C,91,756,7,Coronary artery bypass graft,2025-11-11T01:23:09Z,successful
-C,92,765,27,Cholecystectomy,2023-07-01T17:25:59Z,successful
-C,93,773,32,Cardiac catheterization,2025-04-19T19:51:27Z,unsuccessful
-C,94,783,32,Coronary artery bypass graft,2026-06-29T11:27:34Z,successful
-C,95,812,37,Cholecystectomy,2025-09-25T05:27:14Z,successful
-C,96,813,7,Coronary artery bypass graft,2023-05-01T12:15:51Z,complications
-C,98,833,12,Cardiac catheterization,2025-08-19T12:56:06Z,successful
-C,99,856,37,Appendectomy,2025-04-30T15:32:11Z,successful
-C,100,858,12,Hip fracture repair,2026-05-31T01:07:41Z,successful
-C,102,888,37,Appendectomy,2023-12-14T16:53:29Z,successful
-C,103,894,7,Cholecystectomy,2025-02-27T05:14:02Z,successful
-C,105,906,22,Cardiac catheterization,2024-09-29T10:45:11Z,successful
-C,106,921,27,Coronary artery bypass graft,2025-07-02T23:20:58Z,successful
-C,107,925,12,Hip fracture repair,2024-07-27T10:31:47Z,successful
-C,108,931,7,Coronary artery bypass graft,2023-06-08T15:06:30Z,successful
-C,109,939,37,Hip fracture repair,2026-02-23T22:10:29Z,successful
-D,1,1,12,Hip fracture repair,2025-04-02T10:48:09Z,successful
-D,2,5,17,Hernia repair,2023-09-21T04:42:23Z,successful
-D,3,9,32,Hip fracture repair,2024-02-13T12:24:56Z,unsuccessful
-D,4,12,17,Coronary artery bypass graft,2025-12-23T05:18:44Z,complications
-D,5,13,37,Hip fracture repair,2026-03-07T18:24:14Z,successful
-D,6,14,7,Cardiac catheterization,2025-02-28T06:21:40Z,complications
-D,7,23,22,Hernia repair,2024-06-14T06:32:33Z,successful
-D,8,36,37,Coronary artery bypass graft,2025-03-14T20:39:31Z,successful
-D,9,37,7,Cardiac catheterization,2023-07-01T03:07:42Z,successful
-D,10,44,27,Cholecystectomy,2024-11-05T16:51:00Z,successful
-D,11,50,27,Hip fracture repair,2024-08-02T22:25:56Z,successful
-D,12,51,17,Hernia repair,2025-05-22T22:23:33Z,unsuccessful
-D,13,68,27,Cholecystectomy,2024-01-11T13:51:41Z,successful
-D,15,89,37,Cardiac catheterization,2025-06-10T01:14:35Z,successful
-D,17,112,7,Cardiac catheterization,2024-02-07T04:27:30Z,successful
-D,18,118,27,Hip fracture repair,2024-08-18T12:28:47Z,successful
-D,19,127,12,Cardiac catheterization,2026-01-12T08:57:24Z,successful
-D,20,142,37,Cholecystectomy,2025-10-18T06:52:37Z,unsuccessful
-D,21,149,17,Cholecystectomy,2023-03-15T04:51:09Z,successful
-D,22,153,32,Cardiac catheterization,2024-07-07T06:05:21Z,successful
-D,23,156,7,Hip fracture repair,2024-11-15T16:05:51Z,successful
-D,24,171,12,Cardiac catheterization,2024-03-23T08:20:40Z,successful
-D,25,187,17,Appendectomy,2024-07-04T19:24:51Z,successful
-D,26,235,27,Coronary artery bypass graft,2024-06-06T04:04:18Z,successful
-D,27,237,22,Hernia repair,2025-08-10T04:39:23Z,successful
-D,28,249,7,Cardiac catheterization,2025-04-24T09:54:29Z,successful
-D,29,266,7,Hip fracture repair,2025-09-21T06:03:57Z,complications
-D,30,269,17,Cardiac catheterization,2023-03-12T04:59:37Z,successful
-D,31,276,32,Hip fracture repair,2024-07-30T19:18:40Z,successful
-D,32,277,7,Appendectomy,2025-01-23T06:19:46Z,successful
-D,35,307,12,Hernia repair,2023-12-11T06:36:33Z,successful
-D,36,309,27,Hernia repair,2023-04-30T00:18:56Z,successful
-D,37,318,7,Hip fracture repair,2025-07-29T09:47:47Z,successful
-D,38,323,32,Cardiac catheterization,2026-02-03T18:36:07Z,successful
-D,39,326,27,Cholecystectomy,2026-05-29T19:05:45Z,complications
-D,40,327,7,Cardiac catheterization,2026-08-07T01:48:28Z,successful
-D,41,330,22,Hernia repair,2025-12-16T04:55:03Z,successful
-D,42,356,12,Cholecystectomy,2026-01-08T03:43:26Z,successful
-D,43,377,22,Appendectomy,2024-11-08T21:48:18Z,successful
-D,44,391,32,Cholecystectomy,2024-10-18T17:54:44Z,complications
-D,45,400,12,Hip fracture repair,2025-04-06T17:06:12Z,complications
-D,46,432,37,Coronary artery bypass graft,2026-05-24T17:23:50Z,successful
-D,48,441,12,Cardiac catheterization,2023-06-10T12:15:52Z,successful
-D,49,448,32,Cardiac catheterization,2023-07-31T05:08:57Z,successful
-D,50,455,27,Cardiac catheterization,2024-01-02T23:46:05Z,complications
-D,51,460,22,Coronary artery bypass graft,2025-04-20T16:59:48Z,complications
-D,52,487,32,Appendectomy,2024-12-23T16:37:53Z,successful
-D,53,493,7,Hip fracture repair,2024-12-02T15:26:29Z,successful
-D,54,497,7,Cholecystectomy,2025-07-19T16:42:38Z,successful
-D,55,498,22,Hernia repair,2025-10-08T06:07:45Z,successful
-D,56,505,37,Coronary artery bypass graft,2025-08-27T07:27:10Z,successful
-D,57,522,32,Cardiac catheterization,2025-04-05T18:08:09Z,successful
-D,58,528,7,Hip fracture repair,2024-10-24T13:00:31Z,successful
-D,59,529,22,Cholecystectomy,2024-12-01T12:41:09Z,successful
-D,60,530,32,Appendectomy,2024-12-29T20:54:46Z,successful
-D,61,531,27,Cholecystectomy,2025-05-15T15:04:07Z,successful
-D,62,548,27,Hernia repair,2025-08-24T12:59:55Z,successful
-D,64,567,27,Cholecystectomy,2024-08-06T07:43:30Z,successful
-D,66,591,22,Appendectomy,2023-12-29T19:37:25Z,successful
-D,67,598,12,Cholecystectomy,2025-06-22T02:19:12Z,successful
-D,68,601,22,Appendectomy,2024-08-12T07:51:33Z,successful
-D,69,606,17,Coronary artery bypass graft,2025-02-24T15:18:29Z,successful
-D,70,613,17,Hip fracture repair,2025-05-01T02:47:23Z,successful
-D,71,619,37,Hernia repair,2023-10-09T06:55:00Z,successful
-D,73,630,27,Coronary artery bypass graft,2024-12-10T11:54:51Z,successful
-D,74,658,37,Coronary artery bypass graft,2026-04-18T06:02:00Z,successful
-D,75,670,37,Cholecystectomy,2025-05-02T22:58:17Z,successful
-D,76,680,12,Hernia repair,2025-04-10T15:42:52Z,successful
-D,77,691,7,Hernia repair,2023-12-15T15:55:17Z,successful
-D,78,701,27,Coronary artery bypass graft,2025-06-18T05:49:28Z,successful
-D,79,725,12,Hip fracture repair,2023-08-06T17:55:51Z,successful
-D,80,738,32,Hip fracture repair,2023-10-24T10:07:37Z,unsuccessful
-D,81,754,32,Hip fracture repair,2024-05-16T10:28:31Z,successful
-D,82,795,22,Appendectomy,2024-12-10T20:11:40Z,successful
+source_system,source_record_id,procedure_id,admission_id,surgeon_id,procedure_name,procedure_time,outcome,quality_flags
+A,1,1,5,47,Coronary angiography,2024-06-10T13:34:00Z,success,
+A,2,2,6,48,Appendectomy,2024-11-17T18:50:00Z,success,
+A,4,4,25,52,Inguinal hernia repair,2022-11-24T22:37:00Z,success,
+A,5,5,32,45,Coronary artery bypass graft,2024-08-01T05:02:00Z,success,
+A,6,6,35,50,Appendectomy,2024-11-09T06:22:00Z,success,
+A,7,7,38,52,Cholecystectomy,2022-02-02T10:42:00Z,success,
+A,8,8,42,50,Coronary artery bypass graft,2025-01-30T22:33:00Z,,
+A,9,9,53,50,Cholecystectomy,2023-02-25T16:08:00Z,,
+A,10,10,54,45,Coronary artery bypass graft,2023-07-25T21:25:00Z,success,
+A,11,11,61,46,Appendectomy,2023-11-21T08:34:00Z,,
+A,12,12,73,52,Coronary angiography,2023-08-22T00:07:00Z,success,
+A,13,13,76,47,Coronary artery bypass graft,2022-09-26T12:19:00Z,success,
+A,14,14,79,47,Coronary artery bypass graft,2024-06-04T02:18:00Z,complications,
+A,15,15,82,51,Femoral neck osteosynthesis,2024-02-22T20:56:00Z,complications,
+A,16,16,88,49,Appendectomy,2023-10-19T00:24:00Z,,
+A,20,20,147,48,Cholecystectomy,2023-12-11T17:03:00Z,success,
+A,21,21,149,46,Coronary artery bypass graft,2025-06-09T05:32:00Z,,
+A,22,22,157,47,Appendectomy,2024-04-26T00:23:00Z,,
+A,23,23,172,52,Coronary angiography,2023-02-05T02:15:00Z,failure,
+A,25,25,201,46,Coronary angiography,2022-05-28T09:58:00Z,,
+A,26,26,205,47,Coronary angiography,2023-08-09T20:09:00Z,success,
+A,27,27,206,47,Cholecystectomy,2022-08-22T17:52:00Z,success,
+A,29,29,230,51,Cholecystectomy,2022-07-05T09:07:00Z,success,
+A,30,30,232,50,Inguinal hernia repair,2022-01-04T20:17:00Z,success,
+A,31,31,234,45,Femoral neck osteosynthesis,2024-12-08T06:23:00Z,,
+A,32,32,235,48,Inguinal hernia repair,2023-01-27T11:01:00Z,,
+A,33,33,239,51,Femoral neck osteosynthesis,2024-10-04T14:29:00Z,success,
+A,34,34,244,50,Coronary angiography,2023-04-09T11:59:00Z,success,
+A,35,35,245,49,Coronary artery bypass graft,2023-04-16T04:00:00Z,success,
+A,36,36,252,49,Coronary artery bypass graft,2023-06-09T19:14:00Z,success,
+A,37,37,272,51,Inguinal hernia repair,2024-10-15T13:22:00Z,success,
+A,38,38,274,51,Femoral neck osteosynthesis,2024-09-13T12:49:00Z,success,
+A,39,39,276,47,Appendectomy,2024-11-13T09:33:00Z,complications,
+A,40,40,282,51,Cholecystectomy,2022-03-03T21:03:00Z,failure,
+A,41,41,286,51,Coronary angiography,2024-12-21T01:30:00Z,,
+A,42,42,293,50,Appendectomy,2025-02-09T16:19:00Z,failure,
+A,43,43,303,49,Femoral neck osteosynthesis,2024-08-14T13:07:00Z,success,
+A,45,45,308,51,Coronary angiography,2025-01-17T18:50:00Z,failure,
+A,46,46,314,51,Coronary angiography,2022-05-10T08:30:00Z,failure,
+A,47,47,323,51,Appendectomy,2023-05-07T04:06:00Z,success,
+A,48,48,326,51,Appendectomy,2023-01-04T00:01:00Z,success,
+A,49,49,331,51,Inguinal hernia repair,2022-10-30T07:22:00Z,success,
+A,50,50,337,52,Inguinal hernia repair,2024-10-15T13:44:00Z,complications,
+A,52,52,379,46,Femoral neck osteosynthesis,2022-09-02T19:25:00Z,complications,
+A,53,53,387,45,Cholecystectomy,2023-06-07T15:56:00Z,success,
+A,54,54,388,49,Cholecystectomy,2023-12-03T17:33:00Z,,
+A,56,56,401,52,Cholecystectomy,2023-02-26T13:44:00Z,success,
+A,57,57,414,49,Coronary artery bypass graft,2022-01-11T08:29:00Z,,
+A,58,58,430,52,Cholecystectomy,2022-11-16T19:07:00Z,success,
+A,59,59,432,47,Coronary angiography,2023-06-18T15:11:00Z,failure,
+A,60,60,444,48,Coronary artery bypass graft,2024-11-06T00:10:00Z,success,
+A,61,61,447,52,Coronary artery bypass graft,2022-06-20T14:40:00Z,failure,
+A,62,62,449,49,Cholecystectomy,2023-10-31T23:44:00Z,success,
+A,63,63,463,45,Coronary angiography,2022-07-05T21:47:00Z,success,
+A,64,64,473,48,Coronary angiography,2024-08-28T21:37:00Z,failure,
+A,65,65,478,47,Coronary angiography,2024-04-07T03:53:00Z,,
+A,66,66,481,47,Coronary artery bypass graft,2023-06-27T08:49:00Z,complications,
+A,67,67,487,52,Coronary angiography,2022-08-05T08:04:00Z,success,
+A,68,68,497,51,Coronary artery bypass graft,2023-09-19T04:47:00Z,success,
+A,69,69,504,50,Coronary artery bypass graft,2022-06-01T16:28:00Z,success,
+A,72,72,558,51,Appendectomy,2022-11-08T02:13:00Z,success,
+A,73,73,563,52,Appendectomy,2024-08-26T19:36:00Z,failure,
+A,75,75,618,51,Femoral neck osteosynthesis,2025-07-31T12:58:00Z,success,
+A,76,76,626,51,Appendectomy,2023-10-25T18:53:00Z,complications,
+A,77,77,628,47,Appendectomy,2023-03-10T09:16:00Z,,
+A,78,78,635,49,Cholecystectomy,2024-05-15T04:42:00Z,success,
+A,79,79,647,50,Inguinal hernia repair,2022-12-26T19:13:00Z,,
+A,80,80,649,50,Coronary angiography,2022-10-25T11:04:00Z,success,
+A,81,81,654,52,Femoral neck osteosynthesis,2022-09-19T08:23:00Z,success,
+A,82,82,675,51,Coronary artery bypass graft,2023-12-23T22:27:00Z,success,
+A,83,83,679,52,Coronary angiography,2023-12-07T22:59:00Z,,
+B,1,1,2,3,Laparoscopic appendicectomy,2022-01-09T19:12:00Z,success,
+B,2,2,6,21,Coronary angiography and PCI,2022-01-29T08:21:00Z,,
+B,3,3,28,3,Primary PCI,2022-03-01T17:08:00Z,complications,
+B,4,4,31,74,Upper GI endoscopy with haemostasis,2022-03-02T04:36:00Z,,
+B,5,5,38,76,Diagnostic upper GI endoscopy,2022-03-13T11:03:00Z,success,
+B,6,6,41,3,Laparoscopic cholecystectomy,2022-03-17T09:29:00Z,success,
+B,7,7,42,74,Laparoscopic cholecystectomy,2022-03-19T11:19:00Z,,
+B,8,8,49,74,Total knee replacement,2022-03-29T08:05:00Z,,
+B,9,9,57,3,Laparoscopic cholecystectomy,2022-04-09T04:22:00Z,success,
+B,10,10,63,71,Laparoscopic cholecystectomy,2022-04-23T15:42:00Z,,
+B,12,12,71,74,Coronary angiography and PCI,2022-05-20T10:07:00Z,success,
+B,13,13,74,3,Hemiarthroplasty of hip,2022-05-25T17:14:00Z,complications,
+B,14,14,76,21,Laparoscopic cholecystectomy,2022-05-26T10:59:00Z,complications,
+B,15,15,85,31,Upper GI endoscopy with haemostasis,2022-06-07T21:14:00Z,complications,
+B,17,17,108,71,AV fistula creation,2022-07-05T09:22:00Z,success,
+B,18,18,125,74,Laparoscopic cholecystectomy,2022-08-07T15:40:00Z,success,
+B,19,19,126,49,Incision and drainage of abscess,2022-08-09T01:54:00Z,success,
+B,20,20,143,71,Laparoscopic cholecystectomy,2022-09-08T01:51:00Z,success,
+B,21,21,145,74,Laparoscopic appendicectomy,2022-09-11T04:43:00Z,complications,
+B,22,22,155,3,Laparoscopic cholecystectomy,2022-09-30T10:29:00Z,success,
+B,24,24,165,3,Suturing of scalp laceration,2022-10-17T07:10:00Z,success,
+B,25,25,168,3,Laparoscopic cholecystectomy,2022-10-25T10:39:00Z,success,
+B,26,26,171,31,Laparoscopic cholecystectomy,2022-11-01T10:32:00Z,success,
+B,27,27,177,3,Coronary angiography and PCI,2022-11-12T11:49:00Z,complications,
+B,28,28,179,3,Incision and drainage of abscess,2022-11-18T12:43:00Z,success,
+B,29,29,186,74,AV fistula creation,2022-12-02T09:18:00Z,success,
+B,30,30,190,49,Total knee replacement,2022-12-10T10:00:00Z,success,
+B,31,31,194,31,Primary PCI,2022-12-15T14:12:00Z,success,
+B,32,32,198,74,AV fistula creation,2022-12-24T09:12:00Z,complications,
+B,33,33,204,74,Laparoscopic cholecystectomy,2023-01-05T14:07:00Z,success,
+B,34,34,207,3,Laparoscopic cholecystectomy,2023-01-06T08:35:00Z,success,
+B,35,35,216,71,Laparoscopic cholecystectomy,2023-01-20T11:33:00Z,success,
+B,36,36,220,3,Upper GI endoscopy with haemostasis,2023-01-24T17:28:00Z,complications,
+B,37,37,225,74,Coronary angiography and PCI,2023-01-27T10:11:00Z,success,
+B,38,38,239,3,Laparoscopic cholecystectomy,2023-02-27T16:35:00Z,complications,
+B,39,39,249,71,AV fistula creation,2023-03-12T09:59:00Z,complications,
+B,40,40,250,3,Laparoscopic cholecystectomy,2023-03-15T07:35:00Z,complications,
+B,41,41,254,3,Laparoscopic cholecystectomy,2023-03-21T08:03:00Z,success,
+B,42,42,253,21,Diagnostic upper GI endoscopy,2023-03-21T10:29:00Z,,
+B,43,43,264,3,Diagnostic upper GI endoscopy,2023-04-06T11:23:00Z,success,
+B,44,44,269,49,Open appendicectomy,2023-04-15T22:14:00Z,success,
+B,45,45,302,74,Diagnostic upper GI endoscopy,2023-05-31T09:21:00Z,,
+B,46,46,304,74,AV fistula creation,2023-06-03T12:10:00Z,complications,
+B,47,47,317,3,Total knee replacement,2023-06-24T11:02:00Z,,
+B,48,48,332,21,Laparoscopic cholecystectomy,2023-07-28T07:57:00Z,,
+B,49,49,336,74,Laparoscopic appendicectomy,2023-08-03T11:59:00Z,success,
+B,50,50,338,74,AV fistula creation,2023-08-08T09:32:00Z,success,
+B,51,51,340,76,Laparoscopic cholecystectomy,2023-08-14T10:07:00Z,complications,
+B,52,52,355,31,Laparoscopic cholecystectomy,2023-09-01T20:30:00Z,success,
+B,53,53,361,3,Coronary angiography and PCI,2023-09-09T10:13:00Z,success,
+B,54,54,370,74,AV fistula creation,2023-09-24T09:08:00Z,complications,
+B,55,55,374,3,Open appendicectomy,2023-10-04T19:49:00Z,success,
+B,56,56,377,74,Laparoscopic appendicectomy,2023-10-09T20:53:00Z,success,
+B,58,58,385,3,Total knee replacement,2023-10-26T12:50:00Z,complications,
+B,59,59,393,21,Laparoscopic cholecystectomy,2023-11-09T09:08:00Z,success,
+B,61,61,411,3,Open appendicectomy,2023-12-14T17:29:00Z,success,
+B,62,62,424,3,Suturing of scalp laceration,2024-01-02T05:08:00Z,success,
+B,63,63,428,74,Total knee replacement,2024-01-10T11:39:00Z,success,
+B,64,64,429,71,Coronary angiography and PCI,2024-01-11T10:06:00Z,success,
+B,65,65,433,21,AV fistula creation,2024-01-16T11:40:00Z,success,
+B,67,67,449,3,Diagnostic upper GI endoscopy,2024-02-10T12:17:00Z,success,
+B,68,68,452,3,Upper GI endoscopy with haemostasis,2024-02-16T23:02:00Z,success,
+B,69,69,453,74,AV fistula creation,2024-02-18T10:49:00Z,success,
+B,70,70,456,74,Upper GI endoscopy with haemostasis,2024-02-26T20:36:00Z,,
+B,71,71,476,3,Tracheostomy,2024-04-09T10:13:00Z,success,
+B,72,72,497,31,Laparoscopic cholecystectomy,2024-05-08T06:54:00Z,success,
+B,75,75,523,71,AV fistula creation,2024-06-17T12:47:00Z,success,
+B,76,76,539,3,Laparoscopic cholecystectomy,2024-07-12T11:57:00Z,success,
+B,77,77,543,74,Upper GI endoscopy with haemostasis,2024-07-18T04:45:00Z,success,
+B,78,78,550,3,AV fistula creation,2024-08-04T10:37:00Z,success,
+B,79,79,552,31,Diagnostic upper GI endoscopy,2024-08-06T09:40:00Z,,
+B,80,80,553,74,Total knee replacement,2024-08-07T11:14:00Z,complications,
+B,81,81,557,74,Laparoscopic cholecystectomy,2024-08-18T22:54:00Z,success,
+B,82,82,573,3,Diagnostic upper GI endoscopy,2024-09-16T09:28:00Z,success,
+B,84,84,586,74,Diagnostic upper GI endoscopy,2024-10-06T09:38:00Z,,
+B,85,85,590,3,Total knee replacement,2024-10-12T10:57:00Z,success,
+B,86,86,605,3,Upper GI endoscopy with haemostasis,2024-10-31T23:10:00Z,,
+B,87,87,646,3,Tracheostomy,2025-01-08T08:25:00Z,success,
+B,88,88,649,71,Laparoscopic cholecystectomy,2025-01-12T09:19:00Z,success,
+B,89,89,659,74,Laparoscopic appendicectomy,2025-02-04T14:53:00Z,,
+B,90,90,661,3,Laparoscopic cholecystectomy,2025-02-06T21:58:00Z,success,
+B,91,91,662,3,Laparoscopic cholecystectomy,2025-02-07T08:23:00Z,complications,
+B,92,92,670,71,Coronary angiography and PCI,2025-02-17T11:26:00Z,success,
+B,94,94,684,74,AV fistula creation,2025-03-15T10:52:00Z,,
+B,96,96,696,74,Diagnostic upper GI endoscopy,2025-04-10T11:12:00Z,success,
+B,97,97,698,31,Incision and drainage of abscess,2025-04-14T21:06:00Z,success,
+B,98,98,704,71,Suturing of scalp laceration,2025-04-21T13:20:00Z,success,
+B,99,99,707,3,Primary PCI,2025-04-27T01:10:00Z,success,
+B,100,100,714,71,AV fistula creation,2025-04-30T13:11:00Z,success,
+B,101,101,716,74,Laparoscopic cholecystectomy,2025-05-03T04:13:00Z,success,
+B,102,102,723,3,Total knee replacement,2025-05-11T08:37:00Z,success,
+B,104,104,735,3,Laparoscopic cholecystectomy,2025-05-22T11:04:00Z,success,
+B,105,105,740,71,Dynamic hip screw fixation,2025-06-09T05:17:00Z,complications,
+B,106,106,746,3,Laparoscopic cholecystectomy,2025-06-16T04:54:00Z,success,
+B,107,107,750,3,Laparoscopic cholecystectomy,2025-06-20T04:29:00Z,complications,
+B,109,109,767,3,Laparoscopic cholecystectomy,2025-07-26T12:30:00Z,success,
+B,110,110,772,21,Laparoscopic appendicectomy,2025-07-31T21:41:00Z,,
+B,111,111,793,31,Laparoscopic cholecystectomy,2025-08-28T08:35:00Z,,
+B,113,113,809,3,AV fistula creation,2025-09-27T09:50:00Z,success,
+B,114,114,821,71,Diagnostic upper GI endoscopy,2025-10-12T09:55:00Z,complications,
+B,116,116,824,21,Laparoscopic cholecystectomy,2025-10-23T09:43:00Z,complications,
+B,117,117,829,3,Laparoscopic appendicectomy,2025-10-28T01:42:00Z,,
+B,118,118,834,49,Suturing of scalp laceration,2025-10-29T05:26:00Z,success,
+C,1,1,8,46,Coronary artery bypass graft,2022-10-24T16:03:00Z,,
+C,2,2,10,49,Hip hemiarthroplasty,2023-03-23T15:07:00Z,success,
+C,3,3,13,45,Coronary artery bypass graft,2023-02-17T02:03:00Z,success,
+C,4,4,17,50,Inguinal hernia repair,2024-07-22T15:00:00Z,,
+C,5,5,45,47,Appendectomy,2023-11-14T12:48:00Z,success,
+C,6,6,58,47,Appendectomy,2022-03-30T08:20:00Z,success,
+C,7,7,89,52,Hip hemiarthroplasty,2023-08-30T17:55:00Z,success,
+C,8,8,90,48,Appendectomy,2024-06-07T10:15:00Z,complications,
+C,9,9,91,48,Coronary artery bypass graft,2024-11-06T11:59:00Z,success,
+C,10,10,95,47,Coronary angiography,2024-05-07T13:19:00Z,success,
+C,11,11,108,50,Hip hemiarthroplasty,2025-01-24T22:26:00Z,complications,
+C,12,12,125,51,Coronary artery bypass graft,2022-10-26T10:03:00Z,success,
+C,13,13,145,45,Cholecystectomy,2025-06-03T22:14:00Z,success,
+C,14,14,149,48,Coronary angiography,2024-12-08T19:26:00Z,success,
+C,15,15,168,48,Hip hemiarthroplasty,2024-08-20T03:16:00Z,success,
+C,16,16,170,50,Cholecystectomy,2023-05-01T19:43:00Z,failure,
+C,17,17,173,46,Appendectomy,2023-03-16T09:16:00Z,complications,
+C,18,18,203,45,Hip hemiarthroplasty,2023-03-18T22:25:00Z,success,
+C,19,19,210,51,Appendectomy,2023-05-15T11:42:00Z,,
+C,20,20,226,48,Cholecystectomy,2025-08-27T14:29:00Z,success,
+C,22,22,251,46,Inguinal hernia repair,2022-06-22T22:30:00Z,success,
+C,23,23,255,45,Coronary artery bypass graft,2025-01-03T10:56:00Z,,
+C,24,24,269,49,Cholecystectomy,2022-07-13T08:40:00Z,failure,
+C,25,25,283,51,Coronary artery bypass graft,2023-05-07T05:10:00Z,failure,
+C,26,26,285,49,Inguinal hernia repair,2023-09-24T15:56:00Z,success,
+C,27,27,286,46,Cholecystectomy,2023-07-16T10:55:00Z,complications,
+C,28,28,291,48,Inguinal hernia repair,2023-04-18T16:20:00Z,,
+C,29,29,301,49,Coronary angiography,2024-05-06T02:28:00Z,success,
+C,30,30,303,52,Coronary angiography,2022-11-15T11:52:00Z,success,
+C,31,31,318,46,Coronary angiography,2024-06-14T23:45:00Z,,
+C,33,33,330,49,Coronary artery bypass graft,2025-08-04T11:45:00Z,success,
+C,34,34,331,45,Hip hemiarthroplasty,2022-07-16T17:27:00Z,success,
+C,36,36,362,51,Coronary angiography,2023-06-06T23:10:00Z,failure,
+C,37,37,381,51,Inguinal hernia repair,2024-03-10T13:15:00Z,,
+C,38,38,400,49,Coronary angiography,2023-10-05T07:40:00Z,complications,
+C,39,39,415,52,Hip hemiarthroplasty,2023-07-08T04:11:00Z,success,
+C,40,40,421,50,Cholecystectomy,2023-03-18T20:39:00Z,success,
+C,41,41,424,47,Coronary artery bypass graft,2023-01-19T23:50:00Z,success,
+C,42,42,458,50,Appendectomy,2022-07-04T12:14:00Z,success,
+C,43,43,464,47,Inguinal hernia repair,2024-03-01T21:23:00Z,success,
+C,44,44,465,49,Hip hemiarthroplasty,2023-11-14T08:11:00Z,success,
+C,45,45,483,48,Cholecystectomy,2023-12-21T04:48:00Z,success,
+C,46,46,485,51,Hip hemiarthroplasty,2024-11-28T17:43:00Z,,
+C,48,48,505,48,Coronary angiography,2024-07-13T06:27:00Z,success,
+C,49,49,510,48,Coronary artery bypass graft,2022-02-07T02:18:00Z,complications,
+C,50,50,512,48,Appendectomy,2022-09-15T13:19:00Z,,
+C,51,51,521,45,Hip hemiarthroplasty,2024-02-11T10:37:00Z,,
+C,52,52,542,50,Cholecystectomy,2022-06-14T06:48:00Z,,
+C,53,53,546,50,Coronary artery bypass graft,2023-02-18T02:06:00Z,success,
+C,54,54,548,46,Inguinal hernia repair,2023-04-06T10:30:00Z,success,
+C,55,55,562,52,Coronary artery bypass graft,2023-06-09T03:27:00Z,success,
+C,56,56,564,48,Cholecystectomy,2023-04-16T18:05:00Z,complications,
+C,57,57,568,49,Cholecystectomy,2022-05-11T19:32:00Z,success,
+C,58,58,572,46,Coronary angiography,2022-05-24T16:55:00Z,success,
+C,59,59,580,47,Appendectomy,2023-02-16T11:38:00Z,success,
+C,60,60,590,52,Inguinal hernia repair,2024-02-19T03:25:00Z,,
+C,62,62,603,52,Cholecystectomy,2022-12-28T17:35:00Z,success,
+C,63,63,620,49,Appendectomy,2024-12-31T10:56:00Z,success,
+C,64,64,666,46,Inguinal hernia repair,2024-03-28T19:04:00Z,failure,
+C,65,65,668,46,Coronary artery bypass graft,2025-04-22T00:02:00Z,failure,
+C,66,66,671,45,Coronary angiography,2024-06-13T13:01:00Z,,
+C,67,67,678,47,Appendectomy,2023-06-15T17:25:00Z,success,
+D,1,1,2,66,Total knee replacement,2022-01-09T00:03:00Z,,
+D,17,17,125,64,Laparoscopic cholecystectomy,2022-08-31T05:44:00Z,success,
+D,2,2,8,62,Open appendicectomy,2022-01-20T23:35:00Z,complications,
+D,3,3,10,63,Laparoscopic cholecystectomy,2022-01-20T23:39:00Z,success,
+D,4,4,11,29,AV fistula creation,2022-01-22T20:58:00Z,success,
+D,61,61,365,29,Dynamic hip screw fixation,2023-10-08T08:46:00Z,,
+D,5,5,31,29,Laparoscopic cholecystectomy,2022-03-04T22:01:00Z,success,
+D,6,6,33,64,Incision and drainage of abscess,2022-03-08T16:26:00Z,success,
+D,7,7,38,4,Primary PCI,2022-03-14T10:01:00Z,success,role_mismatch:surgeon_id
+D,8,8,40,29,Hemiarthroplasty of hip,2022-03-15T01:16:00Z,complications,
+D,25,25,157,19,Gastroscopy with haemostasis,2022-10-26T05:00:00Z,complications,role_mismatch:surgeon_id
+D,9,9,46,57,Open appendicectomy,2022-04-03T12:29:00Z,complications,
+D,48,48,267,66,Hemiarthroplasty of hip,2023-05-09T11:47:00Z,,
+D,10,10,70,63,Laparoscopic cholecystectomy,2022-05-22T00:49:00Z,success,
+D,11,11,77,62,Laparoscopic cholecystectomy,2022-06-08T01:01:00Z,complications,
+D,12,12,80,19,Gastroscopy with haemostasis,2022-06-12T19:28:00Z,complications,role_mismatch:surgeon_id
+D,14,14,92,39,Repair of scalp laceration,2022-07-09T01:15:00Z,success,
+D,15,15,93,51,Gastroscopy with haemostasis,2022-07-12T21:03:00Z,success,role_mismatch:surgeon_id
+D,66,66,399,84,Coronary angiography and PCI,2023-12-06T22:09:00Z,success,role_mismatch:surgeon_id
+D,16,16,100,19,Diagnostic gastroscopy,2022-07-22T05:36:00Z,success,role_mismatch:surgeon_id
+D,36,36,212,19,Diagnostic gastroscopy,2023-01-31T22:46:00Z,complications,role_mismatch:surgeon_id
+D,35,35,213,63,AV fistula creation,2023-01-31T21:50:00Z,success,
+D,18,18,138,29,Laparoscopic appendicectomy,2022-09-23T15:48:00Z,success,
+D,21,21,149,39,Hemiarthroplasty of hip,2022-10-05T01:26:00Z,success,
+D,20,20,150,19,Diagnostic gastroscopy,2022-10-05T00:12:00Z,success,role_mismatch:surgeon_id
+D,22,22,154,39,Laparoscopic appendicectomy,2022-10-18T09:51:00Z,complications,
+D,23,23,155,51,Diagnostic gastroscopy,2022-10-19T23:45:00Z,success,role_mismatch:surgeon_id
+D,24,24,158,84,Coronary angiography and PCI,2022-10-24T05:05:00Z,complications,role_mismatch:surgeon_id
+D,26,26,165,19,Gastroscopy with haemostasis,2022-11-17T04:26:00Z,success,role_mismatch:surgeon_id
+D,27,27,169,58,Laparoscopic cholecystectomy,2022-11-22T00:39:00Z,complications,
+D,63,63,380,19,Diagnostic gastroscopy,2023-10-31T23:52:00Z,complications,role_mismatch:surgeon_id
+D,29,29,186,62,AV fistula creation,2022-12-16T01:03:00Z,complications,
+D,30,30,190,84,Coronary angiography and PCI,2022-12-25T23:27:00Z,complications,role_mismatch:surgeon_id
+D,57,57,355,58,Laparoscopic cholecystectomy,2023-09-23T08:28:00Z,success,
+D,31,31,193,19,Diagnostic gastroscopy,2022-12-28T21:57:00Z,complications,role_mismatch:surgeon_id
+D,33,33,200,66,Laparoscopic cholecystectomy,2023-01-08T20:27:00Z,success,
+D,37,37,220,51,Diagnostic gastroscopy,2023-02-10T21:05:00Z,complications,role_mismatch:surgeon_id
+D,38,38,228,63,Total knee replacement,2023-02-24T02:47:00Z,complications,
+D,52,52,301,39,Laparoscopic cholecystectomy,2023-07-05T13:38:00Z,complications,
+D,53,53,309,63,Laparoscopic cholecystectomy,2023-07-18T21:25:00Z,success,
+D,39,39,236,63,Laparoscopic cholecystectomy,2023-03-03T19:28:00Z,success,
+D,40,40,240,63,Laparoscopic cholecystectomy,2023-03-18T21:56:00Z,success,
+D,41,41,242,63,Laparoscopic appendicectomy,2023-03-25T17:12:00Z,,
+D,42,42,243,29,Laparoscopic cholecystectomy,2023-03-25T22:41:00Z,success,
+D,43,43,244,84,Coronary angiography and PCI,2023-03-26T21:51:00Z,,role_mismatch:surgeon_id
+D,44,44,245,39,Hemiarthroplasty of hip,2023-03-30T08:58:00Z,,
+D,45,45,252,84,Coronary angiography and PCI,2023-04-07T01:52:00Z,,role_mismatch:surgeon_id
+D,46,46,256,84,Primary PCI,2023-04-15T06:18:00Z,complications,role_mismatch:surgeon_id
+D,47,47,266,39,AV fistula creation,2023-05-06T01:42:00Z,success,
+D,49,49,275,58,Laparoscopic appendicectomy,2023-05-17T10:50:00Z,,
+D,50,50,288,19,Diagnostic gastroscopy,2023-06-16T03:33:00Z,success,role_mismatch:surgeon_id
+D,87,87,544,66,Hemiarthroplasty of hip,2024-06-29T23:51:00Z,,
+D,54,54,320,66,Laparoscopic cholecystectomy,2023-08-07T00:59:00Z,success,
+D,56,56,330,58,Tracheostomy,2023-08-19T13:44:00Z,,
+D,110,110,703,84,Coronary angiography and PCI,2025-01-18T23:26:00Z,success,role_mismatch:surgeon_id
+D,122,122,763,64,Laparoscopic cholecystectomy,2025-04-28T17:39:00Z,,
+D,58,58,356,19,Diagnostic gastroscopy,2023-09-24T02:04:00Z,complications,role_mismatch:surgeon_id
+D,59,59,361,84,Primary PCI,2023-10-01T02:27:00Z,success,role_mismatch:surgeon_id
+D,60,60,362,62,Laparoscopic appendicectomy,2023-10-01T12:49:00Z,success,
+D,68,68,405,51,Diagnostic gastroscopy,2023-12-14T22:07:00Z,,role_mismatch:surgeon_id
+D,117,117,749,63,Repair of scalp laceration,2025-03-29T18:36:00Z,success,
+D,62,62,376,58,Repair of scalp laceration,2023-10-26T00:02:00Z,,
+D,64,64,381,39,Laparoscopic cholecystectomy,2023-11-02T00:04:00Z,success,
+D,96,96,626,19,Diagnostic gastroscopy,2024-10-11T00:13:00Z,success,role_mismatch:surgeon_id
+D,75,75,464,19,Diagnostic gastroscopy,2024-03-16T21:49:00Z,success,role_mismatch:surgeon_id
+D,119,119,755,29,AV fistula creation,2025-04-17T23:05:00Z,complications,
+D,102,102,659,57,Laparoscopic appendicectomy,2024-11-28T05:33:00Z,complications,
+D,67,67,403,39,Laparoscopic cholecystectomy,2023-12-11T16:51:00Z,success,
+D,69,69,414,19,Gastroscopy with haemostasis,2023-12-28T08:04:00Z,complications,role_mismatch:surgeon_id
+D,106,106,685,57,Laparoscopic cholecystectomy,2024-12-26T20:49:00Z,success,
+D,70,70,420,62,Laparoscopic cholecystectomy,2024-01-11T23:49:00Z,success,
+D,85,85,524,29,Laparoscopic cholecystectomy,2024-06-01T02:52:00Z,success,
+D,76,76,467,63,Laparoscopic cholecystectomy,2024-03-17T23:06:00Z,complications,
+D,77,77,475,29,Laparoscopic cholecystectomy,2024-03-24T02:28:00Z,complications,
+D,82,82,506,29,AV fistula creation,2024-05-04T03:14:00Z,success,
+D,78,78,483,66,Total knee replacement,2024-04-05T21:23:00Z,complications,
+D,79,79,484,57,Open appendicectomy,2024-04-06T22:41:00Z,success,
+D,80,80,492,19,Gastroscopy with haemostasis,2024-04-15T18:38:00Z,success,role_mismatch:surgeon_id
+D,81,81,501,84,Coronary angiography and PCI,2024-04-24T02:49:00Z,,role_mismatch:surgeon_id
+D,83,83,521,29,AV fistula creation,2024-05-26T01:34:00Z,success,
+D,84,84,523,51,Diagnostic gastroscopy,2024-05-31T03:47:00Z,complications,role_mismatch:surgeon_id
+D,86,86,537,63,Repair of scalp laceration,2024-06-25T13:48:00Z,,
+D,88,88,547,84,Primary PCI,2024-07-06T22:16:00Z,success,role_mismatch:surgeon_id
+D,121,121,762,29,Laparoscopic cholecystectomy,2025-04-28T00:10:00Z,success,
+D,123,123,771,19,Gastroscopy with haemostasis,2025-05-07T23:26:00Z,success,role_mismatch:surgeon_id
+D,89,89,564,84,Coronary angiography and PCI,2024-08-09T22:14:00Z,complications,role_mismatch:surgeon_id
+D,91,91,573,39,Hemiarthroplasty of hip,2024-08-20T12:22:00Z,success,
+D,92,92,587,62,Total knee replacement,2024-08-30T02:29:00Z,success,
+D,93,93,595,19,Diagnostic gastroscopy,2024-09-10T01:40:00Z,success,role_mismatch:surgeon_id
+D,130,130,836,62,Laparoscopic appendicectomy,2025-08-21T03:28:00Z,complications,
+D,94,94,611,62,Laparoscopic cholecystectomy,2024-09-22T23:19:00Z,,
+D,112,112,719,39,Total knee replacement,2025-02-14T02:56:00Z,success,
+D,95,95,615,39,Laparoscopic cholecystectomy,2024-09-24T23:56:00Z,success,
+D,97,97,632,58,AV fistula creation,2024-10-18T22:42:00Z,complications,
+D,98,98,647,29,Laparoscopic cholecystectomy,2024-11-04T00:25:00Z,,
+D,99,99,649,58,Laparoscopic appendicectomy,2024-11-13T23:44:00Z,success,
+D,108,108,696,39,Laparoscopic cholecystectomy,2025-01-10T00:58:00Z,,
+D,100,100,651,29,AV fistula creation,2024-11-13T23:44:00Z,success,
+D,101,101,652,39,Total knee replacement,2024-11-15T03:13:00Z,complications,
+D,103,103,661,66,Tracheostomy,2024-12-01T00:48:00Z,complications,
+D,105,105,673,39,Laparoscopic cholecystectomy,2024-12-14T00:47:00Z,success,
+D,107,107,687,63,Dynamic hip screw fixation,2024-12-30T23:18:00Z,success,
+D,109,109,697,66,Laparoscopic appendicectomy,2025-01-13T08:58:00Z,success,
+D,111,111,718,29,Laparoscopic appendicectomy,2025-02-13T04:32:00Z,,
+D,113,113,737,84,Primary PCI,2025-03-14T04:13:00Z,complications,role_mismatch:surgeon_id
+D,115,115,741,63,Dynamic hip screw fixation,2025-03-20T03:53:00Z,success,
+D,114,114,743,62,Laparoscopic cholecystectomy,2025-03-19T21:34:00Z,success,
+D,116,116,745,57,Laparoscopic cholecystectomy,2025-03-25T00:38:00Z,success,
+D,118,118,751,62,Dynamic hip screw fixation,2025-04-02T20:22:00Z,success,
+D,120,120,760,63,Laparoscopic cholecystectomy,2025-04-23T03:35:00Z,success,
+D,124,124,775,62,Laparoscopic appendicectomy,2025-05-15T20:59:00Z,success,
+D,125,125,781,51,Gastroscopy with haemostasis,2025-05-25T03:28:00Z,complications,role_mismatch:surgeon_id
+D,126,126,797,84,Primary PCI,2025-06-29T05:55:00Z,success,role_mismatch:surgeon_id
+D,127,127,808,84,Coronary angiography and PCI,2025-07-17T22:12:00Z,,role_mismatch:surgeon_id
+D,128,128,812,84,Coronary angiography and PCI,2025-07-21T01:23:00Z,success,role_mismatch:surgeon_id
+D,131,131,839,63,Laparoscopic appendicectomy,2025-08-27T09:18:00Z,,
+D,132,132,842,29,Laparoscopic cholecystectomy,2025-08-29T00:10:00Z,,
+D,134,134,855,29,AV fistula creation,2025-09-18T00:16:00Z,complications,
+D,135,135,869,63,Hemiarthroplasty of hip,2025-10-05T14:46:00Z,complications,
+D,136,136,870,62,Open appendicectomy,2025-10-05T19:02:00Z,,
+D,51,51,300,29,Total knee replacement,2023-07-05T02:05:00Z,complications,
+D,129,129,818,58,Incision and drainage of abscess,2025-07-25T07:36:00Z,success,

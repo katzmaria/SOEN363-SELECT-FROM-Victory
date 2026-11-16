@@ -1,0 +1,28 @@
+source_system,entity,source_record_id,source_row,disposition,duplicate_of,reason_codes,reason_details,raw_record
+A,professionals,39,professionnels.txt:50,duplicate_removed,39,exact_duplicate,exact_duplicate: same ID and same values as professionnels.txt:40,39||Juliette SAINT-CLAIR|IDE|Medecine interne
+A,professionals,71,professionnels.txt:73,duplicate_removed,66,near_duplicate,"near_duplicate: same full_name_key, role, department_key as professional_id 66",71||Isabelle RICHARD|MANIP RADIO|Imagerie
+A,professionals,72,professionnels.txt:74,duplicate_removed,31,near_duplicate,"near_duplicate: same full_name_key, role, department_key as professional_id 31",72||Sandrine DENIS|IDE|Reanimation
+B,professionals,29,staff.csv:38,duplicate_removed,29,exact_duplicate,exact_duplicate: same ID and same values as staff.csv:30,"29,Mr,Geoffrey Tumusiime,Nursing Officer,Nursing"
+B,professionals,10,staff.csv:39,duplicate_removed,10,exact_duplicate,exact_duplicate: same ID and same values as staff.csv:11,"10,Dr,Winnie Muhindo,Intern Doctor,INTERNAL MEDICINE"
+B,professionals,81,staff.csv:84,duplicate_removed,19,near_duplicate,"near_duplicate: same full_name_key, role, department_key as professional_id 19","81,Dr,Irene Nsubuga,Clinical Officer,Emergency Medicine"
+B,professionals,82,staff.csv:85,duplicate_removed,16,near_duplicate,"near_duplicate: same full_name_key, role, department_key as professional_id 16","82,Mr,David Ariong,Enrolled Nurse,Nursing"
+C,professionals,S0019,staff/member[20],duplicate_removed,S0019,exact_duplicate,exact_duplicate: same ID and same values as staff/member[19],"<member staffId=""S0019"">
+      <name>Low Kok Wai</name>
+      <designation>Medical Officer</designation>
+      <department>Intensive Care</department>
+    </member>"
+C,professionals,S0071,staff/member[72],duplicate_removed,S0059,near_duplicate,"near_duplicate: same full_name_key, role, department_key as professional_id 59","<member staffId=""S0071"">
+      <name>Lim Kai Wen</name>
+      <designation> Radiographer</designation>
+      <department>Radiology</department>
+    </member>"
+C,professionals,S0072,staff/member[73],duplicate_removed,S0022,near_duplicate,"near_duplicate: same full_name_key, role, department_key as professional_id 22","<member staffId=""S0072"">
+      <name>Shalini d/o Subramaniam</name>
+      <designation>Medical Officer</designation>
+      <department>PAEDIATRICS</department>
+    </member>"
+D,professionals,41,practitioners.json:practitioners[55],duplicate_removed,41,exact_duplicate,exact_duplicate: same ID and same values as practitioners.json:practitioners[40],"{""practitionerId"": 41, ""honorific"": ""Dr"", ""fullName"": ""Bronwyn Thomas"", ""designation"": ""Resident Medical Officer"", ""department"": ""Emergency"", ""employmentType"": ""Full-time"", ""active"": true}"
+D,professionals,33,practitioners.json:practitioners[71],duplicate_removed,33,exact_duplicate,exact_duplicate: same ID and same values as practitioners.json:practitioners[32],"{""practitionerId"": 33, ""honorific"": ""Mrs"", ""fullName"": ""Linda Khoury"", ""designation"": ""Registered Nurse"", ""department"": ""ICU"", ""employmentType"": ""Part-time"", ""active"": true}"
+D,professionals,92,practitioners.json:practitioners[93],duplicate_removed,37,near_duplicate,"near_duplicate: same full_name_key, role, department_key as professional_id 37","{""practitionerId"": 92, ""honorific"": ""Ms"", ""fullName"": ""Lachlan Park"", ""designation"": ""Registered Nurse"", ""department"": ""ICU"", ""employmentType"": ""Full-time"", ""active"": true}"
+D,professionals,93,practitioners.json:practitioners[94],duplicate_removed,72,near_duplicate,"near_duplicate: same full_name_key, role, department_key as professional_id 72","{""practitionerId"": 93, ""honorific"": ""Mr"", ""fullName"": ""Hamish Smith"", ""designation"": ""Registered Nurse"", ""department"": ""Surgical Ward"", ""active"": true}"
+D,professionals,94,practitioners.json:practitioners[95],duplicate_removed,73,near_duplicate,"near_duplicate: same full_name_key, role, department_key as professional_id 73","{""practitionerId"": ""94"", ""honorific"": ""Dr"", ""fullName"": ""OMAR WRIGHT"", ""designation"": ""Consultant Physician"", ""department"": ""General Medicine"", ""employmentType"": ""Casual"", ""active"": true}"

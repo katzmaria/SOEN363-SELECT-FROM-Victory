@@ -1,0 +1,1497 @@
+source_system,entity,raw_field,kind,format_shape,count,example
+A,professionals,id_pro,id,99,64,10
+A,professionals,id_pro,id,9,9,1
+A,professionals,nom_prenom,name,double spaces,1,Yves  GARCIA
+A,professionals,nom_prenom,name,ALL CAPS,1,AURELIE BLANC
+A,professionals,fonction,label:role,ALL CAPS,48,MEDECIN
+A,professionals,fonction,label:role,8 distinct labels,72,"MEDECIN (23), IDE (21), MANIP RADIO (12), CHIRURGIEN (8), RADIOLOGUE (5), PH (1), INF (1), Radiologue (1)"
+A,professionals,service,text,leading/trailing spaces,1,Pediatrie   
+A,professionals,service,text,inverted case,1,pEDIATRIE
+A,patients,num_patient,id,999,401,100
+A,patients,num_patient,id,99,93,10
+A,patients,num_patient,id,9,9,1
+A,patients,nom,name,ALL CAPS,474,FAURE
+A,patients,nom,name,leading/trailing spaces,8,MULLER 
+A,patients,prenom,name,leading/trailing spaces,10,Chloe 
+A,patients,prenom,name,inverted case,2,rENE
+A,patients,date_naissance,date,99/99/9999,435,22/05/1929
+A,patients,date_naissance,date,9999-99-99,28,1993-03-28
+A,patients,date_naissance,date,99 a. 9999,19,26 sept. 2016
+A,patients,date_naissance,date,99 a 9999,7,30 aout 2010
+A,patients,date_naissance,date,9 a. 9999,6,9 fevr. 1955
+A,patients,date_naissance,date,99-99-9999,5,01-21-2012
+A,patients,date_naissance,date,9 a 9999,3,2 juin 1952
+A,patients,sexe,label:sex,leading/trailing spaces,8,  M
+A,patients,sexe,label:sex,inverted case,1,fEMME
+A,patients,sexe,label:sex,10 distinct labels,487,"F (216), M (206), I (26), H (14), Homme (7), FEM (7), Femme (6), MASC (3), f (1), fEMME (1)"
+A,patients,adresse,free_text,leading/trailing spaces,8," 33 rue de la Gare, 82357 Chasseneuil-Bas "
+A,patients,adresse,free_text,ALL CAPS,1,"98 PLACE DU MARCHE, 57949 VERNAY"
+A,patients,telephone,phone,99 99 99 99 99,437,05 99 21 80 38
+A,patients,telephone,phone,+99 9 99 99 99 99,13,+33 4 08 21 64 61
+A,patients,telephone,phone,9999999999,9,0585912073
+A,patients,telephone,phone,99.99.99.99.99,7,02.44.70.65.79
+A,patients,telephone,phone,+99999999999,4,+33304299197
+A,patients,statut_vital,label:life_status,ALL CAPS,466,VIVANT
+A,patients,statut_vital,label:life_status,leading/trailing spaces,9, VIVANT 
+A,patients,statut_vital,label:life_status,8 distinct labels,503,"VIVANT (443), DECEDE (23), Vivant(e) (13), V (10), vivant (10), Decede(e) (2), Vivant(E) (1), Decede (1)"
+A,admissions,num_sejour,id,999,617,100
+A,admissions,num_sejour,id,99,91,10
+A,admissions,num_sejour,id,9,9,1
+A,admissions,num_patient,fk:patients,999,563,490
+A,admissions,num_patient,fk:patients,99,138,10
+A,admissions,num_patient,fk:patients,9,16,1
+A,admissions,medecin_entree,fk:professionals,99,467,10
+A,admissions,medecin_entree,fk:professionals,9,247,6
+A,admissions,medecin_entree,fk:professionals,9999,2,1576
+A,admissions,medecin_entree,fk:professionals,999,1,665
+A,admissions,date_heure_entree,datetime,99/99/9999 99:99,669,25/05/2023 13:55
+A,admissions,date_heure_entree,datetime,99.99.9999 99:99,15,13.11.2022 22:05
+A,admissions,date_heure_entree,datetime,99/99/9999 99a99,14,08/06/2023 06h53
+A,admissions,date_heure_entree,datetime,9999-99-99a99:99,7,2023-08-23T21:15
+A,admissions,date_heure_entree,datetime,9999-99-99 99:99:99,5,2023-05-15 13:44:00
+A,admissions,date_heure_entree,datetime,99-99-9999 99:99,5,19-12-2024 00:30
+A,admissions,type_sejour,label:admission_type,ALL CAPS,675,AMBULATOIRE
+A,admissions,type_sejour,label:admission_type,leading/trailing spaces,14,PROGRAMME   
+A,admissions,type_sejour,label:admission_type,23 distinct labels,715,"URGENCE (192), PROGRAMME (176), SEMI-URGENT (163), AMBULATOIRE (124), NAISSANCE (10), Semi-urgence (7), programme (5), Urgences (5), HOSPIT PROGRAMMEE (4), URG (3), SEMI URG (3), semi-urgent (3)"
+A,admissions,motif,text,leading/trailing spaces,11, Fall at home 
+A,admissions,motif,text,ALL CAPS,3,SYNCOPE
+A,admissions,motif,text,inverted case,2,sYNCOPE
+A,admissions,motif,text,double spaces,3,Cough  and fever
+A,admissions,provenance,label:admission_source,ALL CAPS,7,DOMICILE
+A,admissions,provenance,label:admission_source,leading/trailing spaces,16,  SAMU
+A,admissions,provenance,label:admission_source,inverted case,2,dOMICILE
+A,admissions,provenance,label:admission_source,13 distinct labels,648,"Transfert (177), Domicile (153), Medecin traitant (153), SAMU (150), samu (3), domicile (3), medecin traitant (2), transfert (2), DOMICILE (1), dOMICILE (1), tRANSFERT (1), MEDECIN TRAITANT (1)"
+A,admissions,couverture,free_text,leading/trailing spaces,9, CPAM 81 / Mutuelle Generale n102679 
+A,admissions,couverture,free_text,double spaces,3,CPAM  89 / Sante Plus n901971
+A,admissions,couverture,free_text,ALL CAPS,4,CPAM 71 / PREVOYANCE LOIRE N304416
+A,admissions,date_heure_sortie,datetime,99/99/9999 99:99,682,25/05/2023 17:55
+A,admissions,date_heure_sortie,datetime,99/99/9999 99a99,14,02/09/2023 03h15
+A,admissions,date_heure_sortie,datetime,99.99.9999 99:99,10,26.08.2024 01:55
+A,admissions,date_heure_sortie,datetime,99-99-9999 99:99,5,01-30-2023 23:11
+A,admissions,date_heure_sortie,datetime,9999-99-99 99:99:99,3,2022-06-06 15:38:00
+A,admissions,date_heure_sortie,datetime,9999-99-99a99:99,2,2023-03-01T23:20
+A,admissions,statut_sejour,label:admission_status,ALL CAPS,684,SORTI
+A,admissions,statut_sejour,label:admission_status,leading/trailing spaces,24,  SORTI
+A,admissions,statut_sejour,label:admission_status,9 distinct labels,717,"SORTI (636), DECEDE (23), SORTIE (23), Sorti(e) (18), sorti (12), Sorti (2), SORTI(E) (1), Decede(e) (1), HOSPITALISE (1)"
+A,triage,num_triage,id,999,658,100
+A,triage,num_triage,id,99,92,10
+A,triage,num_triage,id,9,9,1
+A,triage,num_sejour,fk:admissions,999,638,100
+A,triage,num_sejour,fk:admissions,99,100,10
+A,triage,num_sejour,fk:admissions,9,9,1
+A,triage,num_sejour,fk:admissions,9999,8,4513
+A,triage,ide,fk:professionals,99,750,36
+A,triage,ide,fk:professionals,9999,4,2972
+A,triage,ide,fk:professionals,999,1,692
+A,triage,date_heure_triage,datetime,99/99/9999 99:99,728,25/05/2023 14:13
+A,triage,date_heure_triage,datetime,99/99/9999 99a99,10,27/10/2024 11h28
+A,triage,date_heure_triage,datetime,99.99.9999 99:99,9,10.10.2022 19:45
+A,triage,date_heure_triage,datetime,9999-99-99 99:99:99,8,2024-10-16 11:18:00
+A,triage,date_heure_triage,datetime,9999-99-99a99:99,3,2023-08-02T05:48
+A,triage,date_heure_triage,datetime,99-99-9999 99:99,1,28-04-2022 03:02
+A,triage,tension,bp,999/99,667,155/90
+A,triage,tension,bp,999/999,18,104/100
+A,triage,tension,bp,a/a,12,abc/def
+A,triage,tension,bp,99/9999,11,12/8000
+A,triage,tension,bp,999/99 a,10,131/64 mmHg
+A,triage,tension,bp,999-99,9,166-75
+A,triage,tension,bp,9/9,9,0/0
+A,triage,tension,bp,999 / 99,7,157 / 70
+A,triage,pouls,vital:heart_rate,99,410,78
+A,triage,pouls,vital:heart_rate,999,262,114
+A,triage,pouls,vital:heart_rate,9,16,0
+A,triage,pouls,vital:heart_rate,a,15,abc
+A,triage,pouls,vital:heart_rate,99/a,10,84/min
+A,triage,pouls,vital:heart_rate,99 a,8,75 bpm
+A,triage,pouls,vital:heart_rate,-99,7,-72
+A,triage,pouls,vital:heart_rate,999 a,7,109 bpm
+A,triage,pouls,vital:heart_rate,999/a,5,125/min
+A,triage,freq_resp,vital:respiratory_rate,99,666,17
+A,triage,freq_resp,vital:respiratory_rate,99 a/a,23,23 c/min
+A,triage,freq_resp,vital:respiratory_rate,999,16,150
+A,triage,freq_resp,vital:respiratory_rate,99/a,12,21/min
+A,triage,freq_resp,vital:respiratory_rate,9,11,0
+A,triage,freq_resp,vital:respiratory_rate,a,9,xx
+A,triage,temperature,temperature,"99,9",471,"38,5"
+A,triage,temperature,temperature,"99,9a",42,"39,0C"
+A,triage,temperature,temperature,"999,9 a",34,"101,7 F"
+A,triage,temperature,temperature,"999,9 °a",34,"102,7 °F"
+A,triage,temperature,temperature,"99,9 °a",31,"97,3 °F"
+A,triage,temperature,temperature,"99,9 a",27,"97,3 F"
+A,triage,temperature,temperature,999,23,300
+A,triage,temperature,temperature,"999,9a",22,"102,4F"
+A,triage,temperature,temperature,"999,9",16,"100,6"
+A,triage,temperature,temperature,99,15,52
+A,triage,temperature,temperature,a,14,chaud
+A,triage,temperature,temperature,"99,9°a",13,"38,9°C"
+A,triage,temperature,temperature,"9,9",7,"4,5"
+A,triage,spo2,spo2,99,616,89
+A,triage,spo2,spo2,999,80,140
+A,triage,spo2,spo2,99%,17,92%
+A,triage,spo2,spo2,-9,16,-3
+A,triage,spo2,spo2,a,11,abc
+A,triage,spo2,spo2,99 %,6,88 %
+A,triage,spo2,spo2,999 %,1,100 %
+A,triage,eva,vital:pain_score,9,578,4
+A,triage,eva,vital:pain_score,99,101,14
+A,triage,eva,vital:pain_score,9/99,28,0/10
+A,triage,eva,vital:pain_score,a,18,fort
+A,triage,eva,vital:pain_score,-9,16,-2
+A,triage,eva,vital:pain_score,99/99,2,10/10
+A,triage,symptomes,lower_list,leading/trailing spaces,17,palpitations   
+A,triage,symptomes,lower_list,ALL CAPS,14,"DIZZINESS, NAUSEA, CONFUSION"
+A,triage,symptomes,lower_list,double spaces,2,"cough,  chest pain, fall"
+A,triage,allergies,none_or_text,leading/trailing spaces,25,  NKA
+A,triage,allergies,none_or_text,ALL CAPS,7,  NKA
+A,triage,allergies,none_or_text,double spaces,1,Iodine  contrast
+A,triage,allergies,none_or_text,inverted case,3,lATEX
+A,triage,traitement_habituel,none_or_text,double spaces,4,Ramipril  5 mg
+A,triage,traitement_habituel,none_or_text,leading/trailing spaces,20,None   
+A,triage,traitement_habituel,none_or_text,ALL CAPS,6,ATORVASTATIN 20 MG
+A,triage,traitement_habituel,none_or_text,inverted case,2,lEVOTHYROXINE 50 MCG
+A,triage,niveau_tri,label:triage_priority,ALL CAPS,18,ORANGE
+A,triage,niveau_tri,label:triage_priority,leading/trailing spaces,20,1 
+A,triage,niveau_tri,label:triage_priority,10 distinct labels,754,"3 (282), 2 (252), 1 (170), ORANGE (11), Tri 2 (10), VERT (9), ROUGE (7), Tri 3 (7), Tri 1 (4), GRIS (2)"
+A,diagnoses,num_diag,id,999,923,100
+A,diagnoses,num_diag,id,9999,703,1000
+A,diagnoses,num_diag,id,99,90,10
+A,diagnoses,num_diag,id,9,9,1
+A,diagnoses,num_patient,fk:patients,999,1325,376
+A,diagnoses,num_patient,fk:patients,99,350,10
+A,diagnoses,num_patient,fk:patients,9,50,1
+A,diagnoses,num_sejour,fk:admissions,999,1442,100
+A,diagnoses,num_sejour,fk:admissions,99,241,10
+A,diagnoses,num_sejour,fk:admissions,9,25,1
+A,diagnoses,num_sejour,fk:admissions,9999,13,1789
+A,diagnoses,code_cim9,icd9,999.9,756,599.0
+A,diagnoses,code_cim9,icd9,999.99,666,786.50
+A,diagnoses,code_cim9,icd9,9999,66,2449
+A,diagnoses,code_cim9,icd9,99999,57,57420
+A,diagnoses,code_cim9,icd9,999,39,486
+A,diagnoses,code_cim9,icd9,999.99 ,28,715.35 
+A,diagnoses,code_cim9,icd9, 999.9,22, 244.9
+A,diagnoses,code_cim9,icd9,99.9,18,38.9
+A,diagnoses,code_cim9,icd9,  999.99 ,18,  715.35 
+A,diagnoses,code_cim9,icd9, 999.99,14, 491.21
+A,diagnoses,code_cim9,icd9,  999.9 ,14,  578.9 
+A,diagnoses,code_cim9,icd9,999.9 ,10,410.9 
+A,diagnoses,code_cim9,icd9,a99.9,4,V99.9
+A,diagnoses,code_cim9,icd9, 999,3, 486
+A,diagnoses,code_cim9,icd9,999 ,3,486 
+A,diagnoses,code_cim9,icd9,  999 ,1,  486 
+A,diagnoses,medecin,fk:professionals,99,1068,11
+A,diagnoses,medecin,fk:professionals,9,632,4
+A,diagnoses,medecin,fk:professionals,9999,13,2936
+A,diagnoses,medecin,fk:professionals,999,4,886
+A,diagnoses,date_heure_diag,datetime,99/99/9999 99:99,1623,25/05/2023 17:50
+A,diagnoses,date_heure_diag,datetime,99/99/9999 99a99,23,07/05/2023 16h53
+A,diagnoses,date_heure_diag,datetime,99.99.9999 99:99,23,10.06.2024 14:58
+A,diagnoses,date_heure_diag,datetime,9999-99-99a99:99,20,2024-09-18T06:46
+A,diagnoses,date_heure_diag,datetime,99-99-9999 99:99,14,04-10-2023 15:10
+A,diagnoses,date_heure_diag,datetime,9999-99-99 99:99:99,10,2023-06-08 20:53:00
+A,diagnoses,date_heure_diag,datetime,a,4,inconnue
+A,diagnoses,date_heure_diag,datetime,a a,4,a preciser
+A,diagnoses,type_diag,label:diagnosis_type,leading/trailing spaces,186,DAS 
+A,diagnoses,type_diag,label:diagnosis_type,ALL CAPS,61,  DAS
+A,diagnoses,type_diag,label:diagnosis_type,inverted case,2,pRINCIPAL
+A,diagnoses,type_diag,label:diagnosis_type,16 distinct labels,1717,"DAS (895), DP (652), das (48), Associe (30), S (24), dp (20), P (19), Principal (16), Das (3), s (2), associe (2), Dp (2)"
+A,notes,num_note,id,999,918,100
+A,notes,num_note,id,9999,378,1000
+A,notes,num_note,id,99,91,10
+A,notes,num_note,id,9,9,1
+A,notes,num_sejour,fk:admissions,999,1181,100
+A,notes,num_sejour,fk:admissions,99,184,10
+A,notes,num_sejour,fk:admissions,9,20,1
+A,notes,num_sejour,fk:admissions,9999,10,3832
+A,notes,auteur,fk:professionals,99,899,10
+A,notes,auteur,fk:professionals,9,479,6
+A,notes,auteur,fk:professionals,9999,12,2698
+A,notes,auteur,fk:professionals,999,2,915
+A,notes,type_note,label:note_type,ALL CAPS,583,OBSERVATION
+A,notes,type_note,label:note_type,leading/trailing spaces,66,CRH   
+A,notes,type_note,label:note_type,double spaces,2,CR  SORTIE
+A,notes,type_note,label:note_type,inverted case,2,cOMPTE RENDU OPERATOIRE
+A,notes,type_note,label:note_type,14 distinct labels,1389,"CRH (645), OBSERVATION (540), CRO (79), Obs medicale (35), CR SORTIE (22), Compte rendu de sortie (22), crh (21), observation (14), Compte rendu operatoire (6), OBS MEDICALE (1), cOMPTE RENDU OPERATOIRE (1), oBS MEDICALE (1)"
+A,notes,date_heure_note,datetime,99/99/9999 99:99,1294,25/05/2023 17:02
+A,notes,date_heure_note,datetime,99.99.9999 99:99,29,01.09.2022 20:41
+A,notes,date_heure_note,datetime,99/99/9999 99a99,26,17/03/2024 05h10
+A,notes,date_heure_note,datetime,9999-99-99a99:99,13,2023-06-12T11:53
+A,notes,date_heure_note,datetime,9999-99-99 99:99:99,11,2023-06-25 03:14:00
+A,notes,date_heure_note,datetime,99-99-9999 99:99,10,03-22-2024 16:47
+A,notes,date_heure_note,datetime,a,6,inconnue
+A,notes,date_heure_note,datetime,a a,4,a preciser
+A,notes,texte,free_text,double spaces,20,Discharge  summary. Admitted for confusion. Recovery progressing well.
+A,notes,texte,free_text,leading/trailing spaces,55,  Pain better controlled; mobilising with help.
+A,notes,texte,free_text,inverted case,14,dISCHARGE SUMMARY. aDMITTED FOR SHORTNESS OF BREATH. rECOVERY PROGRESSING WELL.
+A,notes,texte,free_text,ALL CAPS,19,"FAMILY UPDATED, QUESTIONS ANSWERED."
+A,orders,num_demande,id,999,431,100
+A,orders,num_demande,id,99,93,10
+A,orders,num_demande,id,9,9,1
+A,orders,num_sejour,fk:admissions,999,459,100
+A,orders,num_sejour,fk:admissions,99,59,10
+A,orders,num_sejour,fk:admissions,9,9,1
+A,orders,num_sejour,fk:admissions,9999,6,3099
+A,orders,prescripteur,fk:professionals,99,317,10
+A,orders,prescripteur,fk:professionals,9,210,1
+A,orders,prescripteur,fk:professionals,9999,4,1693
+A,orders,date_heure_demande,datetime,99/99/9999 99:99,502,25/05/2023 15:27
+A,orders,date_heure_demande,datetime,99/99/9999 99a99,7,02/02/2024 22h10
+A,orders,date_heure_demande,datetime,99-99-9999 99:99,7,07-03-2024 01:04
+A,orders,date_heure_demande,datetime,99.99.9999 99:99,7,23.11.2023 08:22
+A,orders,date_heure_demande,datetime,9999-99-99 99:99:99,3,2024-10-31 23:01:00
+A,orders,date_heure_demande,datetime,9999-99-99a99:99,3,2023-10-28T16:58
+A,orders,date_heure_demande,datetime,a,2,inconnue
+A,orders,examen,label:exam_type,ALL CAPS,347,RADIO THORAX
+A,orders,examen,label:exam_type,leading/trailing spaces,24,ECG 
+A,orders,examen,label:exam_type,9 distinct labels,533,"ECG (102), SCANNER (98), ECHOGRAPHIE (91), IRM (84), BILAN SANGUIN (82), RADIO THORAX (72), bilan sanguin (2), radio thorax (1), scanner (1)"
+A,orders,indication,text,ALL CAPS,3,PRE-OPERATIVE ASSESSMENT
+A,orders,indication,text,leading/trailing spaces,11, Rule out bleeding 
+A,orders,indication,text,double spaces,4,Rule  out fracture
+A,orders,indication,text,inverted case,5,rULE OUT ISCHAEMIA
+A,orders,statut_demande,label:order_status,ALL CAPS,492,TERMINE
+A,orders,statut_demande,label:order_status,leading/trailing spaces,13,TERMINE 
+A,orders,statut_demande,label:order_status,15 distinct labels,531,"TERMINE (346), EN ATTENTE (47), EN COURS (45), ANNULE (36), Fait (18), REALISE (16), termine (6), En cours de realisation (6), ATT (3), SUSPENDU (2), en attente (2), ANN (1)"
+A,orders,priorite,label:priority,ALL CAPS,490,NORMALE
+A,orders,priorite,label:priority,leading/trailing spaces,13,IMMEDIATE   
+A,orders,priorite,label:priority,13 distinct labels,530,"NORMALE (267), URGENTE (147), IMMEDIATE (76), N (14), URG (6), STAT (4), Routine (4), U (4), urgente (3), normale (2), immediate (1), Immediat (1)"
+A,radiology,num_examen,id,999,239,100
+A,radiology,num_examen,id,99,91,10
+A,radiology,num_examen,id,9,9,1
+A,radiology,num_sejour,fk:admissions,999,297,100
+A,radiology,num_sejour,fk:admissions,99,31,10
+A,radiology,num_sejour,fk:admissions,9,6,2
+A,radiology,num_sejour,fk:admissions,9999,2,3933
+A,radiology,num_demande,fk:orders,999,249,101
+A,radiology,num_demande,fk:orders,99,51,10
+A,radiology,num_demande,fk:orders,9,5,2
+A,radiology,num_demande,fk:orders,9999,4,3729
+A,radiology,medecin_demandeur,fk:professionals,99,206,10
+A,radiology,medecin_demandeur,fk:professionals,9,128,1
+A,radiology,medecin_demandeur,fk:professionals,999,2,890
+A,radiology,medecin_demandeur,fk:professionals,9999,2,1974
+A,radiology,manipulateur,fk:professionals,99,339,63
+A,radiology,type_examen,label:exam_type,ALL CAPS,252,RADIO THORAX
+A,radiology,type_examen,label:exam_type,leading/trailing spaces,7,IRM   
+A,radiology,type_examen,label:exam_type,8 distinct labels,339,"ECHOGRAPHIE (90), SCANNER (85), IRM (82), RADIO THORAX (76), irm (3), echographie (1), radio thorax (1), scanner (1)"
+A,radiology,date_heure_examen,datetime,99/99/9999 99:99,316,28/10/2022 09:08
+A,radiology,date_heure_examen,datetime,99.99.9999 99:99,8,30.07.2023 20:01
+A,radiology,date_heure_examen,datetime,99-99-9999 99:99,5,07-05-2023 16:48
+A,radiology,date_heure_examen,datetime,99/99/9999 99a99,4,22/05/2022 22h11
+A,radiology,date_heure_examen,datetime,9999-99-99a99:99,2,2025-04-16T04:07
+A,radiology,date_heure_examen,datetime,9999-99-99 99:99:99,2,2022-07-13 02:22:00
+A,radiology,date_heure_examen,datetime,a a,1,a preciser
+A,radiology,date_heure_examen,datetime,a,1,inconnue
+A,radiology,zone,label:body_area,leading/trailing spaces,12,Abdomen 
+A,radiology,zone,label:body_area,ALL CAPS,2,THORAX
+A,radiology,zone,label:body_area,inverted case,2,cRANE
+A,radiology,zone,label:body_area,6 distinct labels,310,"Abdomen (162), Crane (75), Thorax (69), cRANE (2), THORAX (1), CRANE (1)"
+A,radiology,statut_examen,label:exam_status,ALL CAPS,306,REALISE
+A,radiology,statut_examen,label:exam_status,leading/trailing spaces,7,PROGRAMME 
+A,radiology,statut_examen,label:exam_status,11 distinct labels,336,"REALISE (254), PROGRAMME (29), ANNULE (21), realise (9), Interprete (8), Fait (7), annule (2), EN ATTENTE CR (2), programme (2), RDV pris (1), Annule (1)"
+A,radiology,conclusion,free_text,inverted case,1,mILD DEGENERATIVE CHANGES.
+A,radiology,conclusion,free_text,ALL CAPS,3,SMALL PLEURAL EFFUSION.
+A,radiology,conclusion,free_text,leading/trailing spaces,3,  Consolidation in the right lower lobe.
+A,procedures,num_intervention,id,99,78,10
+A,procedures,num_intervention,id,9,9,1
+A,procedures,num_sejour,fk:admissions,999,68,113
+A,procedures,num_sejour,fk:admissions,99,14,15
+A,procedures,num_sejour,fk:admissions,9,2,5
+A,procedures,num_sejour,fk:admissions,9999,2,1227
+A,procedures,chirurgien,fk:professionals,99,87,47
+A,procedures,intervention,label:procedure,leading/trailing spaces,7,Appendicectomie 
+A,procedures,intervention,label:procedure,8 distinct labels,86,"Coronarographie (19), Appendicectomie (15), Pontage aorto-coronarien (15), Cholecystectomie (14), Cure de hernie inguinale (10), Osteosynthese col du femur (9), pontage aorto-coronarien (3), appendicectomie (1)"
+A,procedures,date_heure_intervention,datetime,99/99/9999 99:99,81,10/06/2024 15:34
+A,procedures,date_heure_intervention,datetime,9999-99-99 99:99:99,3,2024-12-21 02:30:00
+A,procedures,date_heure_intervention,datetime,99.99.9999 99:99,2,26.09.2022 14:19
+A,procedures,date_heure_intervention,datetime,a,1,inconnue
+A,procedures,resultat,label:outcome,leading/trailing spaces,3, Succes 
+A,procedures,resultat,label:outcome,ALL CAPS,1,SUCCES
+A,procedures,resultat,label:outcome,5 distinct labels,68,"Succes (46), Echec (11), Complications (8), succes (2), SUCCES (1)"
+A,unit_stays,num_mouvement,id,999,915,100
+A,unit_stays,num_mouvement,id,9999,162,1000
+A,unit_stays,num_mouvement,id,99,90,10
+A,unit_stays,num_mouvement,id,9,10,1
+A,unit_stays,num_sejour,fk:admissions,999,990,102
+A,unit_stays,num_sejour,fk:admissions,99,158,10
+A,unit_stays,num_sejour,fk:admissions,9,12,2
+A,unit_stays,num_sejour,fk:admissions,9999,12,2526
+A,unit_stays,medecin_responsable,fk:professionals,99,757,10
+A,unit_stays,medecin_responsable,fk:professionals,9,408,5
+A,unit_stays,medecin_responsable,fk:professionals,9999,6,3667
+A,unit_stays,medecin_responsable,fk:professionals,999,2,581
+A,unit_stays,unite,label:unit_type,ALL CAPS,1001,MEDECINE
+A,unit_stays,unite,label:unit_type,leading/trailing spaces,52, URGENCES 
+A,unit_stays,unite,label:unit_type,24 distinct labels,1172,"MEDECINE (637), URGENCES (218), REA CHIR (90), REA (49), REA MED (45), USIC (31), MED (18), Hospitalisation conventionnelle (17), SAU (13), medecine (12), urgences (9), Rea chirurgicale (6)"
+A,unit_stays,date_heure_entree,datetime,99/99/9999 99:99,1100,25/10/2022 22:28
+A,unit_stays,date_heure_entree,datetime,99/99/9999 99a99,19,02/09/2024 06h56
+A,unit_stays,date_heure_entree,datetime,99.99.9999 99:99,16,11.11.2024 05:40
+A,unit_stays,date_heure_entree,datetime,99-99-9999 99:99,15,02-06-2023 11:30
+A,unit_stays,date_heure_entree,datetime,9999-99-99a99:99,9,2023-12-05T05:17
+A,unit_stays,date_heure_entree,datetime,a,4,inconnue
+A,unit_stays,date_heure_entree,datetime,9999-99-99 99:99:99,4,2022-07-05 17:37:00
+A,unit_stays,date_heure_entree,datetime,a a,3,a preciser
+A,unit_stays,date_heure_sortie,datetime,99/99/9999 99:99,1108,09/11/2022 07:58
+A,unit_stays,date_heure_sortie,datetime,99.99.9999 99:99,23,03.08.2024 15:46
+A,unit_stays,date_heure_sortie,datetime,99/99/9999 99a99,21,09/02/2025 18h33
+A,unit_stays,date_heure_sortie,datetime,9999-99-99a99:99,9,2024-06-11T05:05
+A,unit_stays,date_heure_sortie,datetime,9999-99-99 99:99:99,9,2024-07-06 15:38:00
+A,unit_stays,date_heure_sortie,datetime,99-99-9999 99:99,6,29-09-2023 12:24
+A,unit_stays,motif_transfert,text,ALL CAPS,15,MONITORING REQUIRED
+A,unit_stays,motif_transfert,text,leading/trailing spaces,12,  monitoring required
+A,unit_stays,motif_transfert,text,double spaces,6,monitoring  required
+A,discharges,num_sortie,id,999,617,100
+A,discharges,num_sortie,id,99,91,10
+A,discharges,num_sortie,id,9,9,1
+A,discharges,num_sejour,fk:admissions,999,606,100
+A,discharges,num_sejour,fk:admissions,99,90,10
+A,discharges,num_sejour,fk:admissions,9,8,1
+A,discharges,num_sejour,fk:admissions,9999,8,2493
+A,discharges,medecin_signataire,fk:professionals,99,471,14
+A,discharges,medecin_signataire,fk:professionals,9,240,3
+A,discharges,medecin_signataire,fk:professionals,9999,5,3323
+A,discharges,date_heure_sortie,datetime,99/99/9999 99:99,679,25/05/2023 17:55
+A,discharges,date_heure_sortie,datetime,99.99.9999 99:99,10,03.08.2024 15:46
+A,discharges,date_heure_sortie,datetime,99-99-9999 99:99,5,07-05-2023 16:58
+A,discharges,date_heure_sortie,datetime,9999-99-99a99:99,5,2024-11-23T11:26
+A,discharges,date_heure_sortie,datetime,9999-99-99 99:99:99,5,2022-02-02 10:30:00
+A,discharges,date_heure_sortie,datetime,99/99/9999 99a99,5,15/02/2024 06h40
+A,discharges,date_heure_sortie,datetime,a a,2,a preciser
+A,discharges,destination,label:destination,leading/trailing spaces,18, SSR (reeducation) 
+A,discharges,destination,label:destination,ALL CAPS,152,EHPAD
+A,discharges,destination,label:destination,inverted case,11,dOMICILE
+A,discharges,destination,label:destination,double spaces,2,SSR  (reeducation)
+A,discharges,destination,label:destination,21 distinct labels,691,"EHPAD (144), Domicile (127), SSR (reeducation) (126), Transfert autre hopital (125), Domicile avec aide (124), Chambre mortuaire (19), dOMICILE (3), ehpad (3), ssr (REEDUCATION) (2), DOMICILE (2), TRANSFERT AUTRE HOPITAL (2), CHAMBRE MORTUAIRE (2)"
+A,discharges,etat_sortie,label:discharge_condition,leading/trailing spaces,24,Ameliore 
+A,discharges,etat_sortie,label:discharge_condition,inverted case,2,aMELIORE
+A,discharges,etat_sortie,label:discharge_condition,ALL CAPS,6,AMELIORE
+A,discharges,etat_sortie,label:discharge_condition,13 distinct labels,685,"Moyen (234), Stable (211), Ameliore (202), Decede (24), stable (3), MOYEN (3), ameliore (2), aMELIORE (1), AMELIORE (1), DECEDE (1), moyen (1), mOYEN (1)"
+A,discharges,consignes,free_text,leading/trailing spaces,20,  Follow up with the GP in 2 weeks.
+A,discharges,consignes,free_text,inverted case,6,fOLLOW UP WITH THE gp IN 2 WEEKS.
+A,discharges,consignes,free_text,double spaces,7,Outpatient  clinic appointment booked.
+A,discharges,consignes,free_text,ALL CAPS,5,REST AND HYDRATION.
+A,discharges,prochain_rdv,datetime,99/99/9999 99:99,634,25/06/2023 22:55
+A,discharges,prochain_rdv,datetime,99.99.9999 99:99,11,20.01.2024 20:53
+A,discharges,prochain_rdv,datetime,99/99/9999 99a99,7,09/07/2023 11h53
+A,discharges,prochain_rdv,datetime,9999-99-99 99:99:99,3,2024-01-28 14:21:00
+A,discharges,prochain_rdv,datetime,9999-99-99a99:99,2,2023-03-08T18:17
+B,professionals,StaffID,id,99,75,10
+B,professionals,StaffID,id,9,9,1
+B,professionals,StaffName,name,double spaces,1,Musa  Ekwaru
+B,professionals,Cadre,label:role,leading/trailing spaces,2,  Midwife
+B,professionals,Cadre,label:role,ALL CAPS,2,NURSING OFFICER
+B,professionals,Cadre,label:role,15 distinct labels,83,"Medical Officer (14), Nursing Officer (14), Enrolled Nurse (11), Radiographer (6), Clinical Officer (6), Consultant Physician (6), Intern Doctor (5), Surgeon (4), Laboratory Technologist (4), Midwife (4), Consultant Surgeon (3), Radiologist (3)"
+B,professionals,Department,text,ALL CAPS,2,MEDICAL RECORDS
+B,professionals,Department,text,leading/trailing spaces,1,Internal Medicine 
+B,patients,PatientNo,id,999,592,100
+B,patients,PatientNo,id,99,92,10
+B,patients,PatientNo,id,9,9,1
+B,patients,PatientName,name,leading/trailing spaces,7,  Hassan Nantongo
+B,patients,PatientName,name,double spaces,4,Paul  Auma
+B,patients,PatientName,name,ALL CAPS,2, GEOFFREY NABUKEERA  
+B,patients,DOB,date,99/99/9999,605,14/12/1942
+B,patients,DOB,date,9999-99-99,42,1985-08-04
+B,patients,DOB,date,99 a 9999,24,15 Mar 2005
+B,patients,DOB,date,9 a 9999,16,9 Apr 1966
+B,patients,DOB,date,99-99-9999,3,01-19-1930
+B,patients,Sex,label:sex,leading/trailing spaces,13,  F
+B,patients,Sex,label:sex,6 distinct labels,675,"F (315), M (298), Female (31), Male (26), f (3), m (2)"
+B,patients,Address,free_text,ALL CAPS,7,"PLOT 141, ZONE D, JINJA"
+B,patients,Address,free_text,leading/trailing spaces,9,"Plot 144, Zone H, Iganga  "
+B,patients,Address,free_text,double spaces,3,"Plot   107, Zone B, Mbale"
+B,patients,PhoneNo,phone,9999 999999,491,0759 800807
+B,patients,PhoneNo,phone,999999999999,15,256779700171
+B,patients,PhoneNo,phone,+999 999 999999,14,+256 788 016856
+B,patients,PhoneNo,phone,9999999999,12,0707669614
+B,patients,PhoneNo,phone,9999-999-999,9,0702-916-214
+B,patients,Status,label:life_status,leading/trailing spaces,11,Alive 
+B,patients,Status,label:life_status,ALL CAPS,8,ALIVE
+B,patients,Status,label:life_status,7 distinct labels,671,"Alive (596), Living (28), A (19), Deceased (16), ALIVE (8), alive (3), RIP (1)"
+B,admissions,AdmissionNo,id,999,773,100
+B,admissions,AdmissionNo,id,99,94,10
+B,admissions,AdmissionNo,id,9,9,1
+B,admissions,PatientNo,fk:patients,999,739,670
+B,admissions,PatientNo,fk:patients,99,125,10
+B,admissions,PatientNo,fk:patients,9,12,1
+B,admissions,AdmittingDoctorID,fk:professionals,99,804,69
+B,admissions,AdmittingDoctorID,fk:professionals,9,71,3
+B,admissions,AdmittingDoctorID,fk:professionals,999,1,127
+B,admissions,AdmitDateTime,datetime,99/99/9999 99:99,814,02/01/2022 21:54
+B,admissions,AdmitDateTime,datetime,99/99/9999 99:99 a,29,03/02/2022 04:09 PM
+B,admissions,AdmitDateTime,datetime,9999-99-99 99:99:99,18,2022-08-20 13:57:00
+B,admissions,AdmitDateTime,datetime,9999-99-99a99:99,10,2022-01-29T08:45
+B,admissions,AdmitDateTime,datetime,99-99-9999 99:99,4,11-08-2022 03:10
+B,admissions,AdmissionCategory,label:admission_type,ALL CAPS,21,EMERG
+B,admissions,AdmissionCategory,label:admission_type,leading/trailing spaces,8,  Outpatient
+B,admissions,AdmissionCategory,label:admission_type,26 distinct labels,875,"Emergency (335), OPD (148), Elective (133), Urgent (125), Newborn (46), Urgent Care (9), URGENT (8), Day Case (7), EMERG (6), URG (6), Casualty (6), Emergency Dept (5)"
+B,admissions,PresentingComplaint,text,double spaces,5,Acute  asthma attack
+B,admissions,PresentingComplaint,text,ALL CAPS,7,LOWER ABDOMINAL PAIN AND FREQUENT URINATION
+B,admissions,PresentingComplaint,text,leading/trailing spaces,5,  Convulsions
+B,admissions,ReferredFrom,label:admission_source,ALL CAPS,3,SELF-REFERRAL
+B,admissions,ReferredFrom,label:admission_source,leading/trailing spaces,10,  Health Centre IV referral
+B,admissions,ReferredFrom,label:admission_source,double spaces,3,Health   Centre III referral
+B,admissions,ReferredFrom,label:admission_source,14 distinct labels,833,"Self-referral (245), OPD clinic (128), Health Centre IV referral (94), Private clinic referral (85), Specialist clinic referral (78), Ambulance (60), Police (52), Born at UNH (49), Health Centre III referral (35), SELF-REFERRAL (2), opd clinic (2), PRIVATE CLINIC referral (1)"
+B,admissions,PayerScheme,free_text,leading/trailing spaces,19,  Government (free care)
+B,admissions,PayerScheme,free_text,ALL CAPS,8,GOVERNMENT (FREE CARE)
+B,admissions,DischargeDateTime,datetime,99/99/9999 99:99,751,04/01/2022 21:52
+B,admissions,DischargeDateTime,datetime,99/99/9999 99:99 a,21,03/17/2022 02:52 PM
+B,admissions,DischargeDateTime,datetime,9999-99-99 99:99:99,19,2022-02-21 18:18:00
+B,admissions,DischargeDateTime,datetime,9999-99-99a99:99,15,2022-01-12T18:59
+B,admissions,DischargeDateTime,datetime,99-99-9999 99:99,4,18-04-2023 09:15
+B,admissions,AdmStatus,label:admission_status,ALL CAPS,33,DISCH
+B,admissions,AdmStatus,label:admission_status,leading/trailing spaces,20,Discharged    
+B,admissions,AdmStatus,label:admission_status,10 distinct labels,876,"Discharged (789), DISCH (29), D/C (22), Died (15), discharged (7), Admitted (6), DISCHARGED (4), Deceased (2), RIP (1), Still Admitted (1)"
+B,triage,TriageID,id,999,542,100
+B,triage,TriageID,id,99,94,10
+B,triage,TriageID,id,9,9,1
+B,triage,AdmissionNo,fk:admissions,999,560,838
+B,triage,AdmissionNo,fk:admissions,99,68,10
+B,triage,AdmissionNo,fk:admissions,9,8,1
+B,triage,AdmissionNo,fk:admissions,9999,5,1025
+B,triage,NurseID,fk:professionals,99,534,20
+B,triage,NurseID,fk:professionals,9,101,8
+B,triage,NurseID,fk:professionals,999,5,127
+B,triage,TriageDateTime,datetime,99/99/9999 99:99,605,02/01/2022 22:31
+B,triage,TriageDateTime,datetime,9999-99-99a99:99,16,2022-11-29T14:47
+B,triage,TriageDateTime,datetime,99/99/9999 99:99 a,12,02/11/2022 09:23 AM
+B,triage,TriageDateTime,datetime,9999-99-99 99:99:99,12,2022-02-22 12:59:00
+B,triage,BP,bp,999/99,445,128/83
+B,triage,BP,bp,99/99,57,77/39
+B,triage,BP,bp,999/999,54,159/105
+B,triage,BP,bp,999-99,13,107-81
+B,triage,BP,bp,999/,13,120/
+B,triage,BP,bp,99/9,12,80/0
+B,triage,BP,bp,9999/99,12,1200/80
+B,triage,BP,bp,a/a,11,abc/def
+B,triage,BP,bp,999/99 a,10,122/71 mmHg
+B,triage,BP,bp,999 / 99,4,114 / 72
+B,triage,BP,bp,999/999 a,1,164/101 mmHg
+B,triage,BP,bp,99-99,1,83-45
+B,triage,Pulse,vital:heart_rate,99,450,90
+B,triage,Pulse,vital:heart_rate,999,98,129
+B,triage,Pulse,vital:heart_rate,-99,24,-88
+B,triage,Pulse,vital:heart_rate,99a,14,85bpm
+B,triage,Pulse,vital:heart_rate,99 a,14,79 bpm
+B,triage,Pulse,vital:heart_rate,9,10,0
+B,triage,Pulse,vital:heart_rate,a,10,abc
+B,triage,Pulse,vital:heart_rate,9a,7,7O
+B,triage,Pulse,vital:heart_rate,999a,6,129bpm
+B,triage,Pulse,vital:heart_rate,999 a,3,121 bpm
+B,triage,RespRate,vital:respiratory_rate,99,555,14
+B,triage,RespRate,vital:respiratory_rate,99/a,20,15/min
+B,triage,RespRate,vital:respiratory_rate,9,13,0
+B,triage,RespRate,vital:respiratory_rate,999,12,180
+B,triage,RespRate,vital:respiratory_rate,a,10,x
+B,triage,RespRate,vital:respiratory_rate,-99,9,-16
+B,triage,RespRate,vital:respiratory_rate,99 /a,6,14 /min
+B,triage,Temp,temperature,99.9,404,36.8
+B,triage,Temp,temperature,99.9 °a,48,99.1 °F
+B,triage,Temp,temperature,99.9a,39,98.6F
+B,triage,Temp,temperature,99.9 a,34,97.7 F
+B,triage,Temp,temperature,999.9,19,120.5
+B,triage,Temp,temperature,a,17,hot
+B,triage,Temp,temperature,999,17,373
+B,triage,Temp,temperature,9.9,11,3.7
+B,triage,Temp,temperature,99.9°a,11,36.2°C
+B,triage,Temp,temperature,-9,9,-4
+B,triage,Temp,temperature,999.9 °a,7,103.5 °F
+B,triage,Temp,temperature,999.9a,7,101.1F
+B,triage,Temp,temperature,9,5,0
+B,triage,Temp,temperature,999.9 a,4,101.8 F
+B,triage,SpO2,spo2,99,469,96
+B,triage,SpO2,spo2,999,107,100
+B,triage,SpO2,spo2,a9 a,16,o2 ok
+B,triage,SpO2,spo2,99%,12,97%
+B,triage,SpO2,spo2,99 %,11,97 %
+B,triage,SpO2,spo2,9999,11,1000
+B,triage,SpO2,spo2,-9,6,-5
+B,triage,SpO2,spo2,999%,1,100%
+B,triage,SpO2,spo2,999 %,1,100 %
+B,triage,PainScore,vital:pain_score,9,487,4
+B,triage,PainScore,vital:pain_score,99,63,10
+B,triage,PainScore,vital:pain_score,9/99,30,4/10
+B,triage,PainScore,vital:pain_score,-9,7,-3
+B,triage,PainScore,vital:pain_score,a,6,severe
+B,triage,PainScore,vital:pain_score,99/99,1,10/10
+B,triage,Symptoms,lower_list,leading/trailing spaces,8,   routine newborn check
+B,triage,Symptoms,lower_list,double spaces,5,brief  loss of consciousness
+B,triage,Symptoms,lower_list,ALL CAPS,5," BLURRED VISION, HEADACHE  "
+B,triage,Symptoms,lower_list,inverted case,1,"chest DISCOMFORT, ANXIETY"
+B,triage,Allergies,none_or_text,leading/trailing spaces,9, PEANUTS  
+B,triage,Allergies,none_or_text,ALL CAPS,9, PEANUTS  
+B,triage,CurrentMeds,none_or_text,ALL CAPS,6,AMLODIPINE 5MG OD; ATORVASTATIN 20MG NOCTE
+B,triage,CurrentMeds,none_or_text,leading/trailing spaces,14, none
+B,triage,CurrentMeds,none_or_text,double spaces,1,Bisoprolol  5mg OD
+B,triage,TriageCategory,label:triage_priority,ALL CAPS,255,MEDIUM
+B,triage,TriageCategory,label:triage_priority,leading/trailing spaces,18,LOW    
+B,triage,TriageCategory,label:triage_priority,18 distinct labels,642,"MEDIUM (247), HIGH (202), LOW (130), Hi (9), Yellow (8), P2 (8), Med (7), P1 (5), P3 (5), Lo (4), medium (4), Red (3)"
+B,diagnoses,DiagID,id,999,920,100
+B,diagnoses,DiagID,id,99,90,10
+B,diagnoses,DiagID,id,9999,64,1000
+B,diagnoses,DiagID,id,9,10,1
+B,diagnoses,PatientNo,fk:patients,999,914,223
+B,diagnoses,PatientNo,fk:patients,99,152,10
+B,diagnoses,PatientNo,fk:patients,9,16,1
+B,diagnoses,AdmissionNo,fk:admissions,999,937,838
+B,diagnoses,AdmissionNo,fk:admissions,99,122,10
+B,diagnoses,AdmissionNo,fk:admissions,9,12,1
+B,diagnoses,AdmissionNo,fk:admissions,9999,7,1217
+B,diagnoses,ICD9,icd9,999.9,492,401.9
+B,diagnoses,ICD9,icd9,999.99,357,250.00
+B,diagnoses,ICD9,icd9,9999,52,2449
+B,diagnoses,ICD9,icd9,99999,39,78650
+B,diagnoses,ICD9,icd9,999,39,486
+B,diagnoses,ICD9,icd9, 999.99,22, 250.00
+B,diagnoses,ICD9,icd9, 999.9,15, 578.9
+B,diagnoses,ICD9,icd9,  999.9 ,15,  285.9 
+B,diagnoses,ICD9,icd9,999.9 ,11,780.2 
+B,diagnoses,ICD9,icd9,  999.99 ,10,  250.00 
+B,diagnoses,ICD9,icd9,999.99 ,10,427.31 
+B,diagnoses,ICD9,icd9,99.9,8,38.9
+B,diagnoses,ICD9,icd9,a999.9,4,E999.9
+B,diagnoses,ICD9,icd9,999 ,4,486 
+B,diagnoses,ICD9,icd9,a99.9,2,V99.9
+B,diagnoses,ICD9,icd9,  999 ,1,  486 
+B,diagnoses,ICD9,icd9,9a9.9,1,4O1.9
+B,diagnoses,DiagnosedBy,fk:professionals,99,999,25
+B,diagnoses,DiagnosedBy,fk:professionals,9,76,3
+B,diagnoses,DiagnosedBy,fk:professionals,999,5,129
+B,diagnoses,DiagDateTime,datetime,99/99/9999 99:99,985,03/01/2022 05:00
+B,diagnoses,DiagDateTime,datetime,99/99/9999 99:99 a,39,01/08/2022 09:22 PM
+B,diagnoses,DiagDateTime,datetime,9999-99-99a99:99,27,2022-01-13T20:36
+B,diagnoses,DiagDateTime,datetime,9999-99-99 99:99:99,15,2022-03-18 02:47:00
+B,diagnoses,DiagDateTime,datetime,99-99-9999 99:99,10,05-12-2022 19:28
+B,diagnoses,DiagDateTime,datetime,9999-99-99 99:99,2,2025-13-05 01:02
+B,diagnoses,DiagDateTime,datetime,99/99/999 99:99,1,24/03/224 17:01
+B,diagnoses,DiagType,label:diagnosis_type,leading/trailing spaces,92, PRIMARY  
+B,diagnoses,DiagType,label:diagnosis_type,ALL CAPS,45, PRIMARY  
+B,diagnoses,DiagType,label:diagnosis_type,19 distinct labels,1083,"Primary (734), Secondary (201), PRIMARY (31), Main (23), P (21), primary (18), Principal (13), SECONDARY (11), S (8), secondary (7), MAIN (4), Provisional (2)"
+B,notes,NoteID,id,999,917,100
+B,notes,NoteID,id,9999,340,1000
+B,notes,NoteID,id,99,90,10
+B,notes,NoteID,id,9,9,1
+B,notes,AdmissionNo,fk:admissions,999,1178,844
+B,notes,AdmissionNo,fk:admissions,99,150,12
+B,notes,AdmissionNo,fk:admissions,9,12,1
+B,notes,AdmissionNo,fk:admissions,9999,10,1028
+B,notes,AuthorID,fk:professionals,99,1252,65
+B,notes,AuthorID,fk:professionals,9,94,4
+B,notes,AuthorID,fk:professionals,999,5,101
+B,notes,NoteCategory,label:note_type,double spaces,13,Progress   Note
+B,notes,NoteCategory,label:note_type,ALL CAPS,27,ADMISSION NOTE
+B,notes,NoteCategory,label:note_type,leading/trailing spaces,46, ADMISSION NOTE  
+B,notes,NoteCategory,label:note_type,inverted case,2,ward ROUND NOTE
+B,notes,NoteCategory,label:note_type,20 distinct labels,1351,"Admission Note (656), Progress Note (178), Discharge Note (170), Ward Round Note (157), Nursing Note (137), ADMISSION NOTE (18), admission note (12), ward round note (3), NURSING NOTE (3), PROGRESS NOTE (2), ward ROUND NOTE (2), DISCHARGE NOTE (2)"
+B,notes,NoteDate,datetime,99/99/9999 99:99,1250,02/01/2022 21:58
+B,notes,NoteDate,datetime,99/99/9999 99:99 a,50,02/18/2022 02:58 PM
+B,notes,NoteDate,datetime,9999-99-99 99:99:99,19,2022-04-11 00:38:00
+B,notes,NoteDate,datetime,9999-99-99a99:99,17,2022-07-07T03:21
+B,notes,NoteDate,datetime,99-99-9999 99:99,16,03-02-2022 07:51
+B,notes,NoteDate,datetime,99/99/99999 99:99,1,17/05/20025 02:59
+B,notes,NoteDate,datetime,9999-99-99 99:99,1,2023-00-12 15:13
+B,notes,NoteText,free_text,leading/trailing spaces,44," ADMITTED WITH HEADACHE, DIZZINESS. IMPRESSION: HYPERTENSION. BP BETTER CONTROLLED AT 138/86.  "
+B,notes,NoteText,free_text,ALL CAPS,21," ADMITTED WITH HEADACHE, DIZZINESS. IMPRESSION: HYPERTENSION. BP BETTER CONTROLLED AT 138/86.  "
+B,notes,NoteText,free_text,double spaces,14,"Reviewed  on ward round, comfortable. Peak flow 80% of predicted. Plan: continue current management."
+B,notes,NoteText,free_text,inverted case,2,"admitted with WHEEZE, tight CHEST. IMPRESSION: ACUTE ASTHMA. BACK-TO-BACK NEBS GIVEN, improving."
+B,orders,RequestNo,id,999,723,100
+B,orders,RequestNo,id,99,92,10
+B,orders,RequestNo,id,9,10,1
+B,orders,AdmissionNo,fk:admissions,999,723,895
+B,orders,AdmissionNo,fk:admissions,99,90,13
+B,orders,AdmissionNo,fk:admissions,9,7,1
+B,orders,AdmissionNo,fk:admissions,9999,4,1124
+B,orders,RequestedBy,fk:professionals,99,748,69
+B,orders,RequestedBy,fk:professionals,9,68,3
+B,orders,RequestedBy,fk:professionals,999,3,138
+B,orders,RequestDateTime,datetime,99/99/9999 99:99,766,02/01/2022 23:48
+B,orders,RequestDateTime,datetime,99/99/9999 99:99 a,22,03/20/2022 12:38 AM
+B,orders,RequestDateTime,datetime,9999-99-99 99:99:99,19,2022-02-12 09:44:00
+B,orders,RequestDateTime,datetime,99-99-9999 99:99,9,08-10-2022 11:15
+B,orders,RequestDateTime,datetime,9999-99-99a99:99,9,2023-03-14T04:49
+B,orders,TestRequested,label:exam_type,leading/trailing spaces,11,  Blood smear for MPs
+B,orders,TestRequested,label:exam_type,ALL CAPS,6, RANDOM BLOOD SUGAR  
+B,orders,TestRequested,label:exam_type,double spaces,3,Renal   function tests
+B,orders,TestRequested,label:exam_type,49 distinct labels,825,"Full Blood Count (105), Chest X-ray (74), Renal function tests (69), ECG (63), Abdominal ultrasound (43), Serum electrolytes (42), Liver function tests (38), Urinalysis (32), Random blood sugar (32), Renal ultrasound (29), H. pylori stool antigen (28), TSH (21)"
+B,orders,IndicationForTest,text,ALL CAPS,14,"KNOWN CHEST PAIN, BASELINE"
+B,orders,IndicationForTest,text,leading/trailing spaces,15, SUSPECTED SEPSIS  
+B,orders,IndicationForTest,text,double spaces,4,Rule  out acute kidney injury
+B,orders,RequestStatus,label:order_status,ALL CAPS,9,COMPLETED
+B,orders,RequestStatus,label:order_status,leading/trailing spaces,17, PENDING  
+B,orders,RequestStatus,label:order_status,16 distinct labels,822,"Completed (639), Cancelled (42), Pending (40), In Progress (27), Resulted (27), Done (23), completed (7), COMPLETED (7), PENDING (2), Awaiting (2), On Hold (1), Requested (1)"
+B,orders,Urgency,label:priority,leading/trailing spaces,20,  Routine
+B,orders,Urgency,label:priority,ALL CAPS,6,URGENT
+B,orders,Urgency,label:priority,17 distinct labels,821,"Routine (304), Urgent (298), STAT (144), U (15), Normal (13), R (12), URG (10), Stat (4), urgent (4), ASAP (4), Immediate (4), routine (3)"
+B,radiology,ExamID,id,999,94,100
+B,radiology,ExamID,id,99,91,10
+B,radiology,ExamID,id,9,10,1
+B,radiology,AdmissionNo,fk:admissions,999,167,100
+B,radiology,AdmissionNo,fk:admissions,99,26,13
+B,radiology,AdmissionNo,fk:admissions,9,1,7
+B,radiology,AdmissionNo,fk:admissions,9999,1,1090
+B,radiology,RequestNo,fk:orders,999,150,104
+B,radiology,RequestNo,fk:orders,99,25,14
+B,radiology,RequestNo,fk:orders,9,3,6
+B,radiology,ReferringDr,fk:professionals,99,177,10
+B,radiology,ReferringDr,fk:professionals,9,15,3
+B,radiology,ReferringDr,fk:professionals,999,2,115
+B,radiology,Radiographer,fk:professionals,99,183,63
+B,radiology,Radiographer,fk:professionals,9,10,5
+B,radiology,Radiographer,fk:professionals,999,1,130
+B,radiology,Modality,label:exam_type,leading/trailing spaces,4, X-Ray
+B,radiology,Modality,label:exam_type,double spaces,1,CT  Scan
+B,radiology,Modality,label:exam_type,ALL CAPS,1,X-RAY
+B,radiology,Modality,label:exam_type,13 distinct labels,195,"X-Ray (76), Ultrasound (60), CT Scan (32), U/S (5), MRI (5), USS (3), Sonography (3), XR (3), Plain Film (3), XRAY (2), MRI Scan (1), C.T. (1)"
+B,radiology,ExamDateTime,datetime,99/99/9999 99:99,178,03/02/2022 08:52
+B,radiology,ExamDateTime,datetime,99/99/9999 99:99 a,6,10/01/2022 03:26 AM
+B,radiology,ExamDateTime,datetime,9999-99-99 99:99:99,4,2022-04-05 16:44:00
+B,radiology,ExamDateTime,datetime,9999-99-99a99:99,3,2023-04-13T18:44
+B,radiology,ExamDateTime,datetime,99-99-9999 99:99,3,12-02-2025 11:46
+B,radiology,BodyPart,label:body_area,leading/trailing spaces,2, KIDNEYS  
+B,radiology,BodyPart,label:body_area,ALL CAPS,2, KIDNEYS  
+B,radiology,BodyPart,label:body_area,12 distinct labels,185,"Chest (83), Abdomen (41), Kidneys (25), Head (21), Brain (5), Knee (4), KIDNEYS (1), kidneys (1), abdomen (1), Pelvis/Hip (1), BRAIN (1), chest (1)"
+B,radiology,ExamStatus,label:exam_status,leading/trailing spaces,5,  Done
+B,radiology,ExamStatus,label:exam_status,ALL CAPS,1, CANCELLED  
+B,radiology,ExamStatus,label:exam_status,10 distinct labels,194,"Done (164), Completed (9), Reported (5), Booked (5), Cancelled (4), DONE (2), done (2), DNA (1), CANCELLED (1), Canceled (1)"
+B,radiology,Findings,free_text,leading/trailing spaces,3, Right lower lobe consolidation consistent with pneumonia.
+B,radiology,Findings,free_text,double spaces,1,No   intracranial haemorrhage. No skull fracture.
+B,procedures,OpID,id,99,91,10
+B,procedures,OpID,id,999,24,100
+B,procedures,OpID,id,9,9,1
+B,procedures,AdmissionNo,fk:admissions,999,106,106
+B,procedures,AdmissionNo,fk:admissions,99,13,28
+B,procedures,AdmissionNo,fk:admissions,9,2,2
+B,procedures,AdmissionNo,fk:admissions,9999,1,1162
+B,procedures,SurgeonID,fk:professionals,99,76,21
+B,procedures,SurgeonID,fk:professionals,9,48,3
+B,procedures,Operation,label:procedure,leading/trailing spaces,8, INCISION AND DRAINAGE OF ABSCESS  
+B,procedures,Operation,label:procedure,ALL CAPS,6, INCISION AND DRAINAGE OF ABSCESS  
+B,procedures,Operation,label:procedure,double spaces,1,Coronary   angiography and PCI
+B,procedures,Operation,label:procedure,24 distinct labels,124,"Laparoscopic cholecystectomy (37), AV fistula creation (14), Diagnostic upper GI endoscopy (13), Coronary angiography and PCI (10), Total knee replacement (9), Laparoscopic appendicectomy (8), Upper GI endoscopy with haemostasis (7), Suturing of scalp laceration (4), Open appendicectomy (4), Primary PCI (2), Incision and drainage of abscess (2), Tracheostomy (2)"
+B,procedures,OpDateTime,datetime,99/99/9999 99:99,117,09/01/2022 22:12
+B,procedures,OpDateTime,datetime,99/99/9999 99:99 a,4,09/08/2022 04:51 AM
+B,procedures,OpDateTime,datetime,99-99-9999 99:99,2,03-05-2022 12:49
+B,procedures,OpDateTime,datetime,9999-99-99 99:99:99,1,2025-10-29 08:26:00
+B,procedures,Outcome,label:outcome,leading/trailing spaces,1,"Successful, no complications    "
+B,procedures,Outcome,label:outcome,7 distinct labels,103,"Successful, no complications (55), Uneventful recovery (17), Minor bleeding, controlled (12), Post-op fever, treated (11), Wound infection, on antibiotics (6), SUCCESSFUL, NO complications (1), successful, no complications (1)"
+B,unit_stays,MovementID,id,999,920,100
+B,unit_stays,MovementID,id,9999,149,1000
+B,unit_stays,MovementID,id,99,91,10
+B,unit_stays,MovementID,id,9,9,1
+B,unit_stays,AdmissionNo,fk:admissions,999,1018,844
+B,unit_stays,AdmissionNo,fk:admissions,99,123,10
+B,unit_stays,AdmissionNo,fk:admissions,9,13,1
+B,unit_stays,AdmissionNo,fk:admissions,9999,6,1120
+B,unit_stays,ResponsibleClinician,fk:professionals,99,1103,10
+B,unit_stays,ResponsibleClinician,fk:professionals,9,58,4
+B,unit_stays,ResponsibleClinician,fk:professionals,999,8,137
+B,unit_stays,Unit,label:unit_type,leading/trailing spaces,31, EMERGENCY DEPT  
+B,unit_stays,Unit,label:unit_type,ALL CAPS,27, EMERGENCY DEPT  
+B,unit_stays,Unit,label:unit_type,double spaces,9,General   Ward
+B,unit_stays,Unit,label:unit_type,29 distinct labels,1162,"General Ward (709), Emergency Dept (253), ICU (21), SICU (20), MICU (19), CCU (19), Ward (14), GENERAL WARD (14), Surgical Ward (13), Casualty (12), Medical Ward (12), Gen Ward (12)"
+B,unit_stays,TimeIn,datetime,99/99/9999 99:99,1074,02/01/2022 22:04
+B,unit_stays,TimeIn,datetime,99/99/9999 99:99 a,37,02/12/2022 03:10 PM
+B,unit_stays,TimeIn,datetime,9999-99-99a99:99,26,2022-08-06T08:32
+B,unit_stays,TimeIn,datetime,9999-99-99 99:99:99,15,2022-05-29 03:42:00
+B,unit_stays,TimeIn,datetime,99-99-9999 99:99,7,11-02-2022 23:28
+B,unit_stays,TimeIn,datetime,99/99/999 99:99,3,29/12/223 02:49
+B,unit_stays,TimeIn,datetime,9999-99-99 99:99,2,2022-00-12 14:10
+B,unit_stays,TimeOut,datetime,99/99/9999 99:99,1039,04/01/2022 21:52
+B,unit_stays,TimeOut,datetime,99/99/9999 99:99 a,38,02/12/2022 03:10 PM
+B,unit_stays,TimeOut,datetime,9999-99-99 99:99:99,22,2022-01-14 03:03:00
+B,unit_stays,TimeOut,datetime,9999-99-99a99:99,14,2022-03-05T20:17
+B,unit_stays,TransferReason,text,double spaces,7,Stable   for ward
+B,unit_stays,TransferReason,text,ALL CAPS,11,INITIAL PLACEMENT
+B,unit_stays,TransferReason,text,leading/trailing spaces,12, HAEMODYNAMICALLY UNSTABLE  
+B,discharges,DischargeID,id,999,773,100
+B,discharges,DischargeID,id,99,90,10
+B,discharges,DischargeID,id,9,9,1
+B,discharges,AdmissionNo,fk:admissions,999,756,844
+B,discharges,AdmissionNo,fk:admissions,99,90,10
+B,discharges,AdmissionNo,fk:admissions,9,10,1
+B,discharges,AdmissionNo,fk:admissions,9999,9,1051
+B,discharges,AuthorisedBy,fk:professionals,99,802,69
+B,discharges,AuthorisedBy,fk:professionals,9,63,4
+B,discharges,AuthorisedBy,fk:professionals,999,2,127
+B,discharges,DischargeDateTime,datetime,99/99/9999 99:99,801,14/01/2022 03:03
+B,discharges,DischargeDateTime,datetime,99/99/9999 99:99 a,27,02/15/2022 09:47 AM
+B,discharges,DischargeDateTime,datetime,9999-99-99a99:99,16,2022-02-21T18:18
+B,discharges,DischargeDateTime,datetime,9999-99-99 99:99:99,15,2022-01-12 18:59:00
+B,discharges,DischargeDateTime,datetime,99-99-9999 99:99,9,04-01-2022 21:52
+B,discharges,Destination,label:destination,leading/trailing spaces,15, HOME  
+B,discharges,Destination,label:destination,ALL CAPS,10, HOME  
+B,discharges,Destination,label:destination,double spaces,2,Referred   to regional hospital
+B,discharges,Destination,label:destination,9 distinct labels,834,"Home (605), Referred to regional hospital (73), Transferred to rehabilitation centre (55), Left against medical advice (45), Hospice care (19), HOME (16), Mortuary (16), home (3), LEFT AGAINST MEDICAL ADVICE (2)"
+B,discharges,ConditionOnDischarge,label:discharge_condition,leading/trailing spaces,17,Fair  
+B,discharges,ConditionOnDischarge,label:discharge_condition,ALL CAPS,13,STABLE
+B,discharges,ConditionOnDischarge,label:discharge_condition,13 distinct labels,838,"Improved (280), Stable (142), Fair (130), Unchanged (130), Recovered (126), Deceased (15), IMPROVED (6), UNCHANGED (3), RECOVERED (2), unchanged (1), STABLE (1), DECEASED (1)"
+B,discharges,DischargeMeds,none_or_text,leading/trailing spaces,14,Rivaroxaban 15mg BD x21 days then 20mg OD    
+B,discharges,DischargeMeds,none_or_text,ALL CAPS,15,LEVOTHYROXINE 100MCG OD
+B,discharges,DischargeMeds,none_or_text,double spaces,3,Omeprazole  20mg BD x8 weeks
+B,discharges,FollowUp,free_text,double spaces,4,Wound  review in 7 days
+B,discharges,FollowUp,free_text,leading/trailing spaces,13,Review in OPD after 2 weeks 
+B,discharges,FollowUp,free_text,ALL CAPS,12,REVIEW IN OPD AFTER 2 WEEKS
+B,discharges,NextAppointment,datetime,a a 99/99/9999 99:99,415,Specialist clinic 21/01/2022 10:00
+B,discharges,NextAppointment,datetime,a 99/99/9999 99:99,139,OPD 12/02/2022 14:00
+C,professionals,@staffId,id,a9999,73,S0001
+C,professionals,name,name,leading/trailing spaces,1,Ang Jun Jie   
+C,professionals,designation,label:role,leading/trailing spaces,1, Radiographer
+C,professionals,designation,label:role,8 distinct labels,73,"Medical Officer (25), Staff Nurse (18), Radiographer (13), Surgeon (8), Radiologist (6), medical officer (1), Nurse (1), RN (1)"
+C,professionals,department,text,inverted case,2,rESPIRATORY mEDICINE
+C,professionals,department,text,leading/trailing spaces,2,ICU 
+C,professionals,department,text,ALL CAPS,1,PAEDIATRICS
+C,patients,@patientId,id,a999999,503,P000001
+C,patients,name/family,name,ALL CAPS,1,GOVINDASAMY
+C,patients,name/family,name,leading/trailing spaces,4,Osman 
+C,patients,name/family,name,inverted case,3,lIM
+C,patients,name/given,name,ALL CAPS,4,NURUL HUDA BINTE
+C,patients,name/given,name,leading/trailing spaces,5,Kai Wen   
+C,patients,name/given,name,double spaces,1,Shu  Fen
+C,patients,name/given,name,inverted case,1,mEI lING
+C,patients,birthDate,date,9999-99-99,436,2010-01-29
+C,patients,birthDate,date,99/99/9999,34,27/11/1961
+C,patients,birthDate,date,9 a 9999,14,7 Aug 1965
+C,patients,birthDate,date,99 a 9999,11,19 Feb 1994
+C,patients,birthDate,date,99-99-9999,5,22-05-1997
+C,patients,birthDate,date,a,1,TBC
+C,patients,sex,label:sex,leading/trailing spaces,11,F   
+C,patients,sex,label:sex,8 distinct labels,466,"M (219), F (206), m (12), f (10), U (8), Male (7), Female (3), Unknown (1)"
+C,patients,address,free_text,leading/trailing spaces,4,"  Blk 919 Sengkang East Way, #07-437, Singapore 222570"
+C,patients,address,free_text,inverted case,2,"bLK 595 wOODLANDS dR 14, #18-267, sINGAPORE 490775"
+C,patients,address,free_text,ALL CAPS,7,"BLK 802 PUNGGOL FIELD, #23-255, SINGAPORE 608146"
+C,patients,address,free_text,double spaces,1,"Blk  885 Choa Chu Kang Ave 4, #24-168, Singapore 351327"
+C,patients,phone,phone,+99 9999 9999,428,+65 6602 1458
+C,patients,phone,phone,9999999999,16,6590308576
+C,patients,phone,phone,9999-9999,13,8328-3266
+C,patients,phone,phone,(99) 99999999,9,(65) 69042163
+C,patients,phone,phone,99999999,7,61726142
+C,patients,vitalStatus,label:life_status,leading/trailing spaces,6,Alive 
+C,patients,vitalStatus,label:life_status,ALL CAPS,3,ALIVE
+C,patients,vitalStatus,label:life_status,inverted case,2,aLIVE
+C,patients,vitalStatus,label:life_status,8 distinct labels,503,"Alive (447), Deceased (28), A (11), Living (10), ALIVE (3), aLIVE (2), D (1), Dead (1)"
+C,admissions,@admissionId,id,a999999,738,E000001
+C,admissions,@patientRef,fk:patients,a999999,738,P000001
+C,admissions,admittedBy,fk:professionals,a9999,738,S0004
+C,admissions,admittedAt,datetime,9999-99-99a99:99:99+99:99,676,2024-03-13T12:05:00+08:00
+C,admissions,admittedAt,datetime,9999-99-99 99:99,18,2023-05-02 11:03
+C,admissions,admittedAt,datetime,9999-99-99a99:99:99a,17,2024-07-18T05:35:00Z
+C,admissions,admittedAt,datetime,99/99/9999 99:99,13,06/11/2024 01:25
+C,admissions,admittedAt,datetime,99 a 9999 99:99 a,9,21 Sep 2024 12:17 PM
+C,admissions,admittedAt,datetime,99-99-9999 99:99,3,08-30-2025 06:42
+C,admissions,admittedAt,datetime,a a,1,unknown date
+C,admissions,admissionClass,label:admission_type,double spaces,2,Day  Case
+C,admissions,admissionClass,label:admission_type,leading/trailing spaces,21,Urgent   
+C,admissions,admissionClass,label:admission_type,ALL CAPS,5,URGENT
+C,admissions,admissionClass,label:admission_type,inverted case,1,uRGENT
+C,admissions,admissionClass,label:admission_type,23 distinct labels,735,"A&E (206), Urgent (150), Day Case (148), Elective (147), Newborn (26), Planned (8), Emergency (8), ER (8), Specialist Outpatient (6), a&e (4), URG (4), Scheduled (4)"
+C,admissions,chiefComplaint,text,leading/trailing spaces,11,Further investigation   
+C,admissions,chiefComplaint,text,inverted case,2,pALPITATIONS
+C,admissions,chiefComplaint,text,ALL CAPS,4,CONFUSION
+C,admissions,chiefComplaint,text,double spaces,1,Fall  at home
+C,admissions,referralSource,label:admission_source,leading/trailing spaces,14, Walk-in 
+C,admissions,referralSource,label:admission_source,double spaces,1,Ambulance  (995)
+C,admissions,referralSource,label:admission_source,ALL CAPS,5,GP REFERRAL
+C,admissions,referralSource,label:admission_source,inverted case,3,wALK-IN
+C,admissions,referralSource,label:admission_source,15 distinct labels,662,"Transfer (146), Walk-in (139), GP referral (124), Polyclinic referral (120), Ambulance (995) (119), wALK-IN (2), POLYCLINIC REFERRAL (2), ambulance (995) (2), gp referral (2), GP REFERRAL (1), aMBULANCE (995) (1), TRANSFER (1)"
+C,admissions,payer,free_text,double spaces,2,MediShield  Life + Lionshield Assurance IP #31811530
+C,admissions,payer,free_text,leading/trailing spaces,10,MediShield Life + Lionshield Assurance IP #41034413   
+C,admissions,payer,free_text,inverted case,3,mEDIsHIELD lIFE + eASTERN sHIELD ip #87778366
+C,admissions,payer,free_text,ALL CAPS,4,MEDISHIELD LIFE + MERLION HEALTH IP #43733034
+C,admissions,dischargedAt,datetime,9999-99-99a99:99:99+99:99,666,2024-10-17T23:38:00+08:00
+C,admissions,dischargedAt,datetime,9999-99-99 99:99,21,2023-09-02 03:42
+C,admissions,dischargedAt,datetime,99 a 9999 99:99 a,18,13 Mar 2024 03:05 PM
+C,admissions,dischargedAt,datetime,9999-99-99a99:99:99a,16,2023-02-02T17:41:00Z
+C,admissions,dischargedAt,datetime,99/99/9999 99:99,13,18/01/2024 10:59
+C,admissions,dischargedAt,datetime,99-99-9999 99:99,2,23-02-2023 15:35
+C,admissions,status,label:admission_status,ALL CAPS,21,DISCH
+C,admissions,status,label:admission_status,leading/trailing spaces,23, Discharged 
+C,admissions,status,label:admission_status,inverted case,9,dISCHARGED
+C,admissions,status,label:admission_status,10 distinct labels,738,"Discharged (653), Deceased (30), Home (19), DISCH (16), dISCHARGED (8), DISCHARGED (5), disch (2), Inpatient (2), discharged (2), hOME (1)"
+C,triage,@id,id,999,672,743
+C,triage,@id,id,99,94,10
+C,triage,@id,id,9,9,1
+C,triage,@admission,fk:admissions,a999999,775,E000001
+C,triage,nurse,fk:professionals,a9999,770,S0034
+C,triage,assessedAt,datetime,9999-99-99a99:99:99+99:99,722,2024-03-13T12:11:00+08:00
+C,triage,assessedAt,datetime,9999-99-99 99:99,17,2024-03-20 20:49
+C,triage,assessedAt,datetime,99 a 9999 99:99 a,13,07 Mar 2024 10:43 AM
+C,triage,assessedAt,datetime,99/99/9999 99:99,11,03/09/2023 01:38
+C,triage,assessedAt,datetime,9999-99-99a99:99:99a,10,2022-10-22T01:52:00Z
+C,triage,assessedAt,datetime,99-99-9999 99:99,2,08-18-2023 20:14
+C,triage,bloodPressure,bp,999/99,668,124/70
+C,triage,bloodPressure,bp,999/999,15,166/100
+C,triage,bloodPressure,bp,999/99 a,14,111/76 mmHg
+C,triage,bloodPressure,bp,99/9999,12,12/8000
+C,triage,bloodPressure,bp,a/a,11,abc/def
+C,triage,bloodPressure,bp,999 / 99,9,131 / 88
+C,triage,bloodPressure,bp,999-99,8,119-82
+C,triage,bloodPressure,bp,9/9,8,0/0
+C,triage,bloodPressure,bp,999-999,1,103-100
+C,triage,heartRate,vital:heart_rate,99,438,92
+C,triage,heartRate,vital:heart_rate,999,259,111
+C,triage,heartRate,vital:heart_rate,-99,13,-72
+C,triage,heartRate,vital:heart_rate,99/a,12,62/min
+C,triage,heartRate,vital:heart_rate,9,10,0
+C,triage,heartRate,vital:heart_rate,a,10,abc
+C,triage,heartRate,vital:heart_rate,999/a,8,125/min
+C,triage,heartRate,vital:heart_rate,99 a,7,64 bpm
+C,triage,heartRate,vital:heart_rate,999 a,7,113 bpm
+C,triage,respRate,vital:respiratory_rate,99,681,16
+C,triage,respRate,vital:respiratory_rate,99 a,22,19 bpm
+C,triage,respRate,vital:respiratory_rate,99/a,17,16/min
+C,triage,respRate,vital:respiratory_rate,9,15,0
+C,triage,respRate,vital:respiratory_rate,999,14,150
+C,triage,respRate,vital:respiratory_rate,a,12,xx
+C,triage,temperature,temperature,99.9,541,37.6
+C,triage,temperature,temperature,999.9,98,100.2
+C,triage,temperature,temperature,99.9 °a,31,99.0 °F
+C,triage,temperature,temperature,999,25,300
+C,triage,temperature,temperature,a,20,hot
+C,triage,temperature,temperature,99.9a,13,38.1C
+C,triage,temperature,temperature,9.9,11,4.5
+C,triage,temperature,temperature,99,10,52
+C,triage,temperature,temperature,999.9a,8,102.2F
+C,triage,temperature,temperature,999.9 °a,2,101.8 °F
+C,triage,oxygenSaturation,spo2,9.99,693,0.93
+C,triage,oxygenSaturation,spo2,99 %,26,98 %
+C,triage,oxygenSaturation,spo2,99%,14,94%
+C,triage,oxygenSaturation,spo2,a,13,abc
+C,triage,oxygenSaturation,spo2,-9.99,8,-0.03
+C,triage,oxygenSaturation,spo2,999%,2,100%
+C,triage,painScore,vital:pain_score,9,590,2
+C,triage,painScore,vital:pain_score,99,106,10
+C,triage,painScore,vital:pain_score,a,26,severe
+C,triage,painScore,vital:pain_score,-9,19,-2
+C,triage,painScore,vital:pain_score,9/99,19,5/10
+C,triage,painScore,vital:pain_score,99/99,1,10/10
+C,triage,symptoms,lower_list,ALL CAPS,9,WEAKNESS
+C,triage,symptoms,lower_list,leading/trailing spaces,18," giddiness, chest pain, cough "
+C,triage,symptoms,lower_list,double spaces,4,"palpitations,  breathlessness, headache"
+C,triage,allergies,none_or_text,leading/trailing spaces,22,Iodinated contrast   
+C,triage,allergies,none_or_text,ALL CAPS,13,NSAIDS
+C,triage,allergies,none_or_text,inverted case,3,iODINATED CONTRAST
+C,triage,allergies,none_or_text,double spaces,1,No  Known Drug Allergy
+C,triage,homeMedication,none_or_text,leading/trailing spaces,12,  Nil
+C,triage,homeMedication,none_or_text,ALL CAPS,6,AMLODIPINE 5 MG
+C,triage,homeMedication,none_or_text,inverted case,1,aUGMENTIN 625 MG
+C,triage,homeMedication,none_or_text,double spaces,1,Thyroxine  50 mcg
+C,triage,pacLevel,label:triage_priority,ALL CAPS,33,PAC 1
+C,triage,pacLevel,label:triage_priority,leading/trailing spaces,19,  P2
+C,triage,pacLevel,label:triage_priority,13 distinct labels,767,"P3 (274), P2 (269), P1 (157), PAC 3 (12), PAC 2 (11), Major (11), Minor (11), PAC 1 (8), Resus (4), p3 (4), p1 (3), PAC 4 (2)"
+C,diagnoses,@id,id,999,919,100
+C,diagnoses,@id,id,9999,731,1685
+C,diagnoses,@id,id,99,91,10
+C,diagnoses,@id,id,9,9,1
+C,diagnoses,@patientRef,fk:patients,a999999,1750,P000001
+C,diagnoses,@admission,fk:admissions,a999999,1750,E000001
+C,diagnoses,icd9,icd9,999.9,785,244.9
+C,diagnoses,icd9,icd9,999.99,653,415.19
+C,diagnoses,icd9,icd9,9999,65,7802
+C,diagnoses,icd9,icd9,99999,57,41401
+C,diagnoses,icd9,icd9,999,47,486
+C,diagnoses,icd9,icd9,  999.9 ,23,  285.9 
+C,diagnoses,icd9,icd9,999.9 ,21,820.8 
+C,diagnoses,icd9,icd9, 999.9,19, 244.9
+C,diagnoses,icd9,icd9, 999.99,19, 574.20
+C,diagnoses,icd9,icd9,  999.99 ,15,  415.19 
+C,diagnoses,icd9,icd9,999.99 ,14,250.00 
+C,diagnoses,icd9,icd9,99.9,11,38.9
+C,diagnoses,icd9,icd9,a99.9,6,V99.9
+C,diagnoses,icd9,icd9, 999,2, 486
+C,diagnoses,icd9,icd9,  999 ,2,  486 
+C,diagnoses,icd9,icd9,999 ,1,486 
+C,diagnoses,type,label:diagnosis_type,leading/trailing spaces,162,Secondary   
+C,diagnoses,type,label:diagnosis_type,inverted case,38,sECONDARY
+C,diagnoses,type,label:diagnosis_type,ALL CAPS,49,SECONDARY
+C,diagnoses,type,label:diagnosis_type,14 distinct labels,1744,"Secondary (884), Principal (622), Additional (33), secondary (31), PRINCIPAL (26), Primary (26), S (25), sECONDARY (23), SECONDARY (20), P (19), principal (16), pRINCIPAL (15)"
+C,diagnoses,diagnosedAt,datetime,9999-99-99a99:99:99+99:99,1603,2024-03-13T15:00:00+08:00
+C,diagnoses,diagnosedAt,datetime,9999-99-99 99:99,34,2024-10-17 23:33
+C,diagnoses,diagnosedAt,datetime,9999-99-99a99:99:99a,32,2024-04-27T01:18:00Z
+C,diagnoses,diagnosedAt,datetime,99/99/9999 99:99,26,05/08/2023 16:56
+C,diagnoses,diagnosedAt,datetime,99 a 9999 99:99 a,25,28 May 2024 10:24 PM
+C,diagnoses,diagnosedAt,datetime,99-99-9999 99:99,18,10-31-2023 18:24
+C,diagnoses,diagnosedAt,datetime,a a,2,unknown date
+C,diagnoses,diagnosedAt,datetime,a,1,TBC
+C,diagnoses,doctor,fk:professionals,a9999,1743,S0005
+C,notes,@id,id,999,921,100
+C,notes,@id,id,9999,386,1382
+C,notes,@id,id,99,90,10
+C,notes,@id,id,9,9,1
+C,notes,@type,label:note_type,leading/trailing spaces,47,  Progress Note
+C,notes,@type,label:note_type,double spaces,23,Operation  Note
+C,notes,@type,label:note_type,ALL CAPS,25,DISCHARGE SUMMARY
+C,notes,@type,label:note_type,inverted case,12,pROGRESS nOTE
+C,notes,@type,label:note_type,16 distinct labels,1403,"Discharge Summary (661), Progress Note (532), Operation Note (66), Ward Round Note (40), DS (26), Discharge Note (20), DISCHARGE SUMMARY (13), progress note (12), PROGRESS NOTE (10), pROGRESS nOTE (7), dISCHARGE sUMMARY (5), discharge summary (5)"
+C,notes,@admission,fk:admissions,a999999,1406,E000001
+C,notes,writtenAt,datetime,9999-99-99a99:99:99+99:99,1282,2024-03-13T14:51:00+08:00
+C,notes,writtenAt,datetime,9999-99-99 99:99,40,2024-03-30 10:01
+C,notes,writtenAt,datetime,9999-99-99a99:99:99a,23,2025-07-12T00:45:00Z
+C,notes,writtenAt,datetime,99 a 9999 99:99 a,22,13 Oct 2024 09:11 AM
+C,notes,writtenAt,datetime,99/99/9999 99:99,20,18/10/2023 19:40
+C,notes,writtenAt,datetime,99-99-9999 99:99,8,04-06-2025 08:14
+C,notes,writtenAt,datetime,a a,3,unknown date
+C,notes,writtenAt,datetime,a,1,TBC
+C,notes,author,fk:professionals,a9999,1400,S0020
+C,notes,text,free_text,ALL CAPS,23,DISCHARGE SUMMARY. ADMITTED FOR ABDOMINAL PAIN. RECOVERY IS SATISFACTORY.
+C,notes,text,free_text,leading/trailing spaces,56,  Discharge summary. Admitted for elective surgery. Condition stable on discharge.
+C,notes,text,free_text,double spaces,15,Discharge  summary. Admitted for abdominal pain. recovery is satisfactory.
+C,notes,text,free_text,inverted case,15,dISCHARGE SUMMARY. aDMITTED FOR FURTHER INVESTIGATION. pATIENT PASSED AWAY DURING THIS ADMISSION.
+C,orders,@id,id,999,413,499
+C,orders,@id,id,99,91,10
+C,orders,@id,id,9,10,1
+C,orders,@admission,fk:admissions,a999999,514,E000002
+C,orders,test,label:exam_type,leading/trailing spaces,10, MRI 
+C,orders,test,label:exam_type,ALL CAPS,5, MRI 
+C,orders,test,label:exam_type,inverted case,2,fULL bLOOD cOUNT
+C,orders,test,label:exam_type,double spaces,1,Chest  X-Ray
+C,orders,test,label:exam_type,13 distinct labels,514,"Full Blood Count (88), Ultrasound (87), ECG (84), MRI (84), CT (83), Chest X-Ray (81), full blood count (1), ct (1), fULL bLOOD cOUNT (1), ULTRASOUND (1), chest x-ray (1), uLTRASOUND (1)"
+C,orders,orderedAt,datetime,9999-99-99a99:99:99+99:99,474,2024-10-17T23:35:00+08:00
+C,orders,orderedAt,datetime,9999-99-99 99:99,13,2024-11-30 00:40
+C,orders,orderedAt,datetime,99/99/9999 99:99,8,02/06/2025 03:53
+C,orders,orderedAt,datetime,99 a 9999 99:99 a,8,03 Jan 2023 10:32 AM
+C,orders,orderedAt,datetime,9999-99-99a99:99:99a,6,2022-10-11T16:39:00Z
+C,orders,orderedAt,datetime,99-99-9999 99:99,2,02-05-2023 11:44
+C,orders,orderedAt,datetime,a,1,TBC
+C,orders,indication,text,leading/trailing spaces,11,Rule out ischaemia   
+C,orders,indication,text,inverted case,3,rULE OUT ISCHAEMIA
+C,orders,indication,text,double spaces,5,Rule  out obstruction
+C,orders,indication,text,ALL CAPS,4,RULE OUT ISCHAEMIA
+C,orders,status,label:order_status,leading/trailing spaces,11, Resulted
+C,orders,status,label:order_status,inverted case,4,rESULTED
+C,orders,status,label:order_status,ALL CAPS,2,RESULTED
+C,orders,status,label:order_status,18 distinct labels,513,"Resulted (358), Ordered (52), In Progress (41), Cancelled (25), Completed (9), Done (8), New (3), Void (3), Processing (2), rESULTED (2), On Hold (2), resulted (2)"
+C,orders,priority,label:priority,leading/trailing spaces,16,  STAT
+C,orders,priority,label:priority,ALL CAPS,6,  STAT
+C,orders,priority,label:priority,inverted case,2,nORMAL
+C,orders,priority,label:priority,16 distinct labels,514,"Routine (259), Urgent (153), STAT (66), U (6), Normal (5), ASAP (5), urgent (4), R (3), Immediate (3), routine (2), Stat (2), URGENT (2)"
+C,orders,orderedBy,fk:professionals,a9999,511,S0007
+C,radiology,@id,id,999,247,334
+C,radiology,@id,id,99,90,10
+C,radiology,@id,id,9,9,1
+C,radiology,@orderRef,fk:orders,999,243,102
+C,radiology,@orderRef,fk:orders,99,54,12
+C,radiology,@orderRef,fk:orders,9,5,3
+C,radiology,@orderRef,fk:orders,9999,3,1342
+C,radiology,@admission,fk:admissions,a999999,346,E000003
+C,radiology,modality,label:exam_type,ALL CAPS,4,ULTRASOUND
+C,radiology,modality,label:exam_type,leading/trailing spaces,11,  Chest X-Ray
+C,radiology,modality,label:exam_type,double spaces,1,Chest  X-Ray
+C,radiology,modality,label:exam_type,8 distinct labels,343,"CT (89), Chest X-Ray (84), MRI (84), Ultrasound (82), ULTRASOUND (1), ultrasound (1), mri (1), chest x-ray (1)"
+C,radiology,performedAt,datetime,9999-99-99a99:99:99+99:99,311,2024-03-23T02:22:00+08:00
+C,radiology,performedAt,datetime,9999-99-99a99:99:99a,11,2023-09-05T19:42:00Z
+C,radiology,performedAt,datetime,99/99/9999 99:99,9,13/05/2022 01:56
+C,radiology,performedAt,datetime,99 a 9999 99:99 a,7,10 May 2024 12:23 AM
+C,radiology,performedAt,datetime,9999-99-99 99:99,3,2022-06-05 08:35
+C,radiology,performedAt,datetime,99-99-9999 99:99,2,16-02-2022 07:07
+C,radiology,performedAt,datetime,a a,1,unknown date
+C,radiology,performedAt,datetime,a,1,TBC
+C,radiology,bodyPart,label:body_area,ALL CAPS,2,ABDOMEN
+C,radiology,bodyPart,label:body_area,leading/trailing spaces,7, Chest 
+C,radiology,bodyPart,label:body_area,inverted case,2,cHEST
+C,radiology,bodyPart,label:body_area,9 distinct labels,315,"Abdomen (154), Brain (80), Chest (74), abdomen (2), ABDOMEN (1), CHEST (1), cHEST (1), brain (1), aBDOMEN (1)"
+C,radiology,status,label:exam_status,ALL CAPS,6,REPORTED
+C,radiology,status,label:exam_status,leading/trailing spaces,10, Scheduled 
+C,radiology,status,label:exam_status,inverted case,2,rEPORTED
+C,radiology,status,label:exam_status,14 distinct labels,345,"Reported (262), Booked (31), Cancelled (14), Done (10), Completed (9), REPORTED (5), reported (4), Scheduled (2), Void (2), Awaiting Report (2), rEPORTED (1), booked (1)"
+C,radiology,report,free_text,leading/trailing spaces,5,Mild degenerative changes.   
+C,radiology,report,free_text,inverted case,1,nO FRACTURE SEEN.
+C,radiology,report,free_text,ALL CAPS,2,RIGHT LOWER ZONE CONSOLIDATION.
+C,radiology,report,free_text,double spaces,2,No  acute abnormality.
+C,radiology,referrer,fk:professionals,a9999,345,S0017
+C,radiology,radiographer,fk:professionals,a9999,345,S0070
+C,procedures,@id,id,99,61,10
+C,procedures,@id,id,9,9,1
+C,procedures,@admission,fk:admissions,a999999,70,E000008
+C,procedures,procedure,label:procedure,inverted case,2,aPPENDICECTOMY
+C,procedures,procedure,label:procedure,leading/trailing spaces,2,  Appendicectomy
+C,procedures,procedure,label:procedure,9 distinct labels,70,"Coronary artery bypass graft (13), Hip hemiarthroplasty (12), Coronary angiography (11), Laparoscopic cholecystectomy (11), Inguinal hernia repair (10), Appendicectomy (10), aPPENDICECTOMY (1), hIP HEMIARTHROPLASTY (1), appendicectomy (1)"
+C,procedures,performedAt,datetime,9999-99-99a99:99:99+99:99,64,2022-10-25T00:03:00+08:00
+C,procedures,performedAt,datetime,99 a 9999 99:99 a,2,06 May 2024 10:28 AM
+C,procedures,performedAt,datetime,9999-99-99 99:99,2,2024-03-02 05:23
+C,procedures,performedAt,datetime,9999-99-99a99:99:99a,1,2022-09-28T09:53:00Z
+C,procedures,performedAt,datetime,99-99-9999 99:99,1,13-07-2024 14:27
+C,procedures,outcome,label:outcome,ALL CAPS,1,UNEVENTFUL
+C,procedures,outcome,label:outcome,leading/trailing spaces,3,  Unsuccessful
+C,procedures,outcome,label:outcome,5 distinct labels,56,"Uneventful (42), Complicated (7), Unsuccessful (5), UNEVENTFUL (1), unsuccessful (1)"
+C,procedures,surgeon,fk:professionals,a9999,69,S0046
+C,unit_stays,@id,id,999,917,100
+C,unit_stays,@id,id,9999,201,1179
+C,unit_stays,@id,id,99,92,10
+C,unit_stays,@id,id,9,9,1
+C,unit_stays,@admission,fk:admissions,a999999,1219,E000002
+C,unit_stays,unit,label:unit_type,ALL CAPS,24,GENERAL WARD
+C,unit_stays,unit,label:unit_type,leading/trailing spaces,48,General Ward   
+C,unit_stays,unit,label:unit_type,double spaces,11,A&E  Department
+C,unit_stays,unit,label:unit_type,inverted case,5,a&e dEPARTMENT
+C,unit_stays,unit,label:unit_type,31 distinct labels,1213,"General Ward (594), A&E Department (240), SICU (98), CCU (60), ICU (56), MICU (48), GW (25), Ward (19), GENERAL WARD (13), ED (12), Emergency Department (8), general ward (6)"
+C,unit_stays,transferIn,datetime,9999-99-99a99:99:99+99:99,1101,2024-10-17T17:08:00+08:00
+C,unit_stays,transferIn,datetime,9999-99-99 99:99,34,2024-01-06 04:58
+C,unit_stays,transferIn,datetime,9999-99-99a99:99:99a,22,2025-06-03T06:39:00Z
+C,unit_stays,transferIn,datetime,99 a 9999 99:99 a,20,05 Dec 2023 11:59 PM
+C,unit_stays,transferIn,datetime,99/99/9999 99:99,19,28/08/2022 11:14
+C,unit_stays,transferIn,datetime,99-99-9999 99:99,14,02-06-2025 12:56
+C,unit_stays,transferIn,datetime,a a,4,unknown date
+C,unit_stays,transferIn,datetime,a,2,TBC
+C,unit_stays,transferOut,datetime,9999-99-99a99:99:99+99:99,1124,2024-10-17T23:38:00+08:00
+C,unit_stays,transferOut,datetime,9999-99-99 99:99,30,2023-06-17 00:58
+C,unit_stays,transferOut,datetime,99 a 9999 99:99 a,19,09 Mar 2024 03:28 AM
+C,unit_stays,transferOut,datetime,99/99/9999 99:99,18,18/01/2024 10:59
+C,unit_stays,transferOut,datetime,9999-99-99a99:99:99a,18,2024-06-07T11:45:00Z
+C,unit_stays,transferOut,datetime,99-99-9999 99:99,8,01-16-2024 02:46
+C,unit_stays,transferReason,text,leading/trailing spaces,12, closer monitoring needed 
+C,unit_stays,transferReason,text,double spaces,5,condition  improved
+C,unit_stays,transferReason,text,ALL CAPS,7,CONDITION IMPROVED
+C,unit_stays,doctor,fk:professionals,a9999,1206,S0009
+C,discharges,@id,id,999,639,712
+C,discharges,@id,id,99,90,10
+C,discharges,@id,id,9,9,1
+C,discharges,@admission,fk:admissions,a999999,738,E000001
+C,discharges,dischargedAt,datetime,9999-99-99a99:99:99+99:99,665,2024-03-13T15:05:00+08:00
+C,discharges,dischargedAt,datetime,9999-99-99 99:99,18,2024-10-17 23:38
+C,discharges,dischargedAt,datetime,99/99/9999 99:99,15,26/12/2024 08:08
+C,discharges,dischargedAt,datetime,9999-99-99a99:99:99a,13,2024-05-20T23:52:00Z
+C,discharges,dischargedAt,datetime,99-99-9999 99:99,9,08-30-2022 15:02
+C,discharges,dischargedAt,datetime,99 a 9999 99:99 a,9,20 Nov 2024 07:12 AM
+C,discharges,dischargedAt,datetime,a,1,TBC
+C,discharges,dischargedAt,datetime,a a,1,unknown date
+C,discharges,destination,label:destination,inverted case,8,mORTUARY
+C,discharges,destination,label:destination,leading/trailing spaces,23, Community hospital 
+C,discharges,destination,label:destination,ALL CAPS,6,NURSING HOME
+C,discharges,destination,label:destination,double spaces,4,Transferred  to another hospital
+C,discharges,destination,label:destination,19 distinct labels,696,"Nursing home (136), Community hospital (132), Home (132), Home with caregiver (125), Transferred to another hospital (123), Mortuary (26), transferred to another hospital (4), HOME WITH CAREGIVER (4), mORTUARY (2), nURSING HOME (2), cOMMUNITY HOSPITAL (2), NURSING HOME (1)"
+C,discharges,condition,label:discharge_condition,leading/trailing spaces,26,Improved   
+C,discharges,condition,label:discharge_condition,ALL CAPS,7,IMPROVED
+C,discharges,condition,label:discharge_condition,inverted case,4,iMPROVED
+C,discharges,condition,label:discharge_condition,13 distinct labels,708,"Stable (234), Improved (217), Fair (212), Deceased (22), IMPROVED (4), improved (4), stable (3), FAIR (3), STABLE (3), sTABLE (2), fair (2), iMPROVED (1)"
+C,discharges,instructions,free_text,leading/trailing spaces,21,  Physiotherapy twice a week.
+C,discharges,instructions,free_text,inverted case,6,rEVIEW AT SPECIALIST OUTPATIENT CLINIC IN 2 WEEKS.
+C,discharges,instructions,free_text,double spaces,4,Return  to A&E if symptoms worsen.
+C,discharges,instructions,free_text,ALL CAPS,6,REST AND ADEQUATE FLUID INTAKE.
+C,discharges,followUp,datetime,9999-99-99a99:99:99+99:99,615,2024-11-17T23:00:00+08:00
+C,discharges,followUp,datetime,9999-99-99 99:99,23,2022-11-28 23:00
+C,discharges,followUp,datetime,9999-99-99a99:99:99a,13,2024-06-01T13:00:00Z
+C,discharges,followUp,datetime,99 a 9999 99:99 a,12,02 Feb 2025 01:00 AM
+C,discharges,followUp,datetime,99/99/9999 99:99,7,10/06/2024 17:00
+C,discharges,followUp,datetime,99-99-9999 99:99,4,29-06-2022 03:00
+C,discharges,authorisedBy,fk:professionals,a9999,732,S0016
+D,professionals,practitionerId,id,99,87,10
+D,professionals,practitionerId,id,9,9,1
+D,professionals,fullName,name,ALL CAPS,3,HENRY MORRIS
+D,professionals,designation,label:role,ALL CAPS,3,REGISTERED NURSE
+D,professionals,designation,label:role,leading/trailing spaces,1,  Surgical Registrar
+D,professionals,designation,label:role,23 distinct labels,95,"Registered Nurse (18), Resident Medical Officer (9), Consultant Physician (8), Enrolled Nurse (6), Emergency Physician (6), Clinical Nurse Specialist (5), Emergency Registrar (5), Medical Registrar (5), Medical Imaging Technologist (4), Ward Clerk (3), Midwife (3), General Surgeon (3)"
+D,professionals,department,text,ALL CAPS,1,CARDIOLOGY
+D,professionals,department,text,double spaces,1,Medical   Ward
+D,professionals,department,text,leading/trailing spaces,1, Emergency
+D,patients,patientId,id,999,584,100
+D,patients,patientId,id,99,95,10
+D,patients,patientId,id,9,9,1
+D,patients,patientName,name,double spaces,2,Olivia  Harper Nguyen
+D,patients,patientName,name,leading/trailing spaces,6,"PAPADOPOULOS, James "
+D,patients,patientName,name,ALL CAPS,6, REBECCA HARRIS  
+D,patients,dob,date,9999-99-99,608,1928-07-20
+D,patients,dob,date,99/99/9999,32,18/07/1961
+D,patients,dob,date,9999-99-99a99:99:99+99:99,10,1997-01-08T00:00:00+11:00
+D,patients,dob,date,99-a-9999,10,07-Dec-1986
+D,patients,dob,date,-999999999999,9,-568807200000
+D,patients,dob,date,99 a 9999,4,22 Nov 1942
+D,patients,dob,date,999999999999,4,246895200000
+D,patients,dob,date,9999999999999,4,1705237200000
+D,patients,dob,date,99.99.9999,2,11.02.1931
+D,patients,dob,date,-9999999999999,1,-1026381600000
+D,patients,dob,date,9 a 9999,1,7 Aug 2023
+D,patients,sex,label:sex,leading/trailing spaces,15, F
+D,patients,sex,label:sex,ALL CAPS,2, FEMALE  
+D,patients,sex,label:sex,9 distinct labels,660,"F (316), M (303), male (16), female (9), Male (7), Female (4), f (2), FEMALE (2), m (1)"
+D,patients,address,free_text,double spaces,17,"163 Shell Cl, Coral   Heights NSW 2481"
+D,patients,address,free_text,leading/trailing spaces,1,"  9 Marine Dr, Pelican Shores NSW 2478"
+D,patients,phone,phone,(99) 9999 9999,529,(02) 7010 1929
+D,patients,phone,phone,9999999999,11,0255500792
+D,patients,phone,phone,+99999999999,9,+61270108596
+D,patients,phone,phone,99 9999 9999,9,02 5550 7960
+D,patients,phone,phone,+99 9 9999 9999,7,+61 2 7010 5237
+D,patients,deceased,label:life_status,5 distinct labels,661,"false (626), true (14), 0 (8), no (8), N (5)"
+D,admissions,admissionId,id,999,821,125
+D,admissions,admissionId,id,99,92,10
+D,admissions,admissionId,id,9,10,1
+D,admissions,patientId,fk:patients,999,776,100
+D,admissions,patientId,fk:patients,99,134,10
+D,admissions,patientId,fk:patients,9,13,1
+D,admissions,admittingClinicianId,fk:professionals,99,887,23
+D,admissions,admittingClinicianId,fk:professionals,9,30,6
+D,admissions,admittingClinicianId,fk:professionals,999,3,117
+D,admissions,admittedAt,datetime,9999-99-99a99:99:99+99:99,861,2022-01-07T07:30:00+11:00
+D,admissions,admittedAt,datetime,99/99/9999 99:99,22,02/04/2022 21:05
+D,admissions,admittedAt,datetime,9999999999,10,1645125300
+D,admissions,admittedAt,datetime,9999-99-99a99:99:99a,7,2022-02-28T04:46:00Z
+D,admissions,admittedAt,datetime,9999-99-99a99:99:99.999+99:99,7,2022-03-11T14:17:00.000+11:00
+D,admissions,admittedAt,datetime,99.99.9999 99:99,6,04.29.2022 10:31
+D,admissions,admittedAt,datetime,99/9/9999 9:99 a,3,26/7/2022 6:43 am
+D,admissions,admittedAt,datetime,9999-99-99a99:99+99:99,3,2024-04-02T19:50+11:00
+D,admissions,admittedAt,datetime,9999999999999,2,1652476500000
+D,admissions,admittedAt,datetime,99/9/9999 99:99 a,1,12/9/2022 11:37 pm
+D,admissions,admittedAt,datetime,-99999999999999,1,-62135596800000
+D,admissions,encounterClass,label:admission_type,ALL CAPS,17,ELECTIVE
+D,admissions,encounterClass,label:admission_type,leading/trailing spaces,13, OUTPATIENT CLINIC  
+D,admissions,encounterClass,label:admission_type,double spaces,1,Emerg  Dept
+D,admissions,encounterClass,label:admission_type,26 distinct labels,922,"ED (389), Outpatient Clinic (149), Urgent (138), Elective (131), Birth (42), EMERG (12), Emergency (11), Emerg Dept (7), UCC (5), Urgent Care (5), ed (5), Booked Elective (4)"
+D,admissions,presentingProblem,text,leading/trailing spaces,17," Well baby, born at Coral Coast"
+D,admissions,presentingProblem,text,ALL CAPS,11,SEVERE PAIN UNDER RIGHT RIBS AFTER MEALS
+D,admissions,presentingProblem,text,double spaces,3,Acute   asthma
+D,admissions,presentingProblem,text,inverted case,1,"diabetes REVIEW, HIGH BSLS"
+D,admissions,referralSource,label:admission_source,leading/trailing spaces,15, GP REFERRAL  
+D,admissions,referralSource,label:admission_source,ALL CAPS,10, GP REFERRAL  
+D,admissions,referralSource,label:admission_source,double spaces,3,Elective  surgery waitlist
+D,admissions,referralSource,label:admission_source,19 distinct labels,876,"GP referral (170), Self-presented (154), Ambulance (119), Elective surgery waitlist (70), Outpatient clinic (69), Specialist rooms (64), Inter-hospital transfer (60), Police (50), Born at Coral Coast (42), Specialist referral (34), Urgent care clinic (29), GP REFERRAL (3)"
+D,admissions,fundingSource,free_text,leading/trailing spaces,12,Medicare (public) 
+D,admissions,fundingSource,free_text,double spaces,3,Private   health insurance
+D,admissions,fundingSource,free_text,ALL CAPS,8,MEDICARE (PUBLIC)
+D,admissions,separatedAt,datetime,9999-99-99a99:99:99+99:99,795,2022-01-12T16:20:00+11:00
+D,admissions,separatedAt,datetime,99/99/9999 99:99,26,16/01/2022 14:31
+D,admissions,separatedAt,datetime,9999999999,11,1654660440
+D,admissions,separatedAt,datetime,9999-99-99a99:99:99a,10,2022-06-14T03:23:00Z
+D,admissions,separatedAt,datetime,9999-99-99a99:99+99:99,9,2022-03-14T15:51+11:00
+D,admissions,separatedAt,datetime,99.99.9999 99:99,5,03.26.2022 12:25
+D,admissions,separatedAt,datetime,99/9/9999 9:99 a,3,23/1/2024 2:53 pm
+D,admissions,separatedAt,datetime,9999999999999,3,1737776100000
+D,admissions,separatedAt,datetime,9999-99-99a99:99:99.999+99:99,2,2024-08-26T18:04:00.000+10:00
+D,admissions,separatedAt,datetime,99/99/9999 99:99 a,1,17/10/2024 12:46 pm
+D,admissions,episodeStatus,label:admission_status,leading/trailing spaces,19, SEPARATED  
+D,admissions,episodeStatus,label:admission_status,ALL CAPS,11, SEPARATED  
+D,admissions,episodeStatus,label:admission_status,10 distinct labels,923,"Separated (838), Completed (23), Died (13), D/C (12), Discharged (12), SEPARATED (11), separated (8), Current (4), d/c (1), Deceased (1)"
+D,triage,triageId,id,999,567,127
+D,triage,triageId,id,99,92,82
+D,triage,triageId,id,9,9,1
+D,triage,@admission,fk:admissions,999,604,125
+D,triage,@admission,fk:admissions,99,60,12
+D,triage,@admission,fk:admissions,9,4,4
+D,triage,triageNurseId,fk:professionals,99,541,34
+D,triage,triageNurseId,fk:professionals,9,113,8
+D,triage,triageNurseId,fk:professionals,999,10,149
+D,triage,triagedAt,datetime,9999-99-99a99:99:99+99:99,612,2022-12-30T01:26:00+11:00
+D,triage,triagedAt,datetime,99/99/9999 99:99,18,09/11/2022 17:55
+D,triage,triagedAt,datetime,99.99.9999 99:99,9,08.31.2022 12:07
+D,triage,triagedAt,datetime,9999-99-99a99:99+99:99,6,2023-08-16T20:15+10:00
+D,triage,triagedAt,datetime,9999999999,5,1669239300
+D,triage,triagedAt,datetime,9999-99-99a99:99:99a,5,2023-01-12T18:42:00Z
+D,triage,triagedAt,datetime,9999-99-99a99:99:99.999+99:99,4,2022-05-18T00:23:00.000+10:00
+D,triage,triagedAt,datetime,99/9/9999 9:99 a,3,11/2/2023 9:33 am
+D,triage,triagedAt,datetime,9999999999999,3,1715109180000
+D,triage,triagedAt,datetime,99/99/9999 99:99 a,1,16/10/2022 10:04 pm
+D,triage,triagedAt,datetime,9/9/9999 9:99 a,1,3/1/2025 5:34 pm
+D,triage,triagedAt,datetime,99/9/9999 99:99 a,1,12/3/2025 10:35 am
+D,triage,vitals.bp,bp,999/99,497,122/87
+D,triage,vitals.bp,bp,999/999,51,300/400
+D,triage,vitals.bp,bp,99/99,43,71/48
+D,triage,vitals.bp,bp,999/,14,120/
+D,triage,vitals.bp,bp,a/a,11,abc/def
+D,triage,vitals.bp,bp,9999/99,10,1200/80
+D,triage,vitals.bp,bp,99/9,8,80/0
+D,triage,vitals.bp,bp,99999,8,12080
+D,triage,vitals.bp,bp,999/99 a,7,106/71 mmHg
+D,triage,vitals.bp,bp,999 / 99,6,106 / 64
+D,triage,vitals.bp,bp,999 / 999,1,184 / 110
+D,triage,vitals.bp,bp,999/999 a,1,160/106 mmHg
+D,triage,vitals.hr,vital:heart_rate,99,520,94
+D,triage,vitals.hr,vital:heart_rate,999,90,139
+D,triage,vitals.hr,vital:heart_rate,-99,17,-72
+D,triage,vitals.hr,vital:heart_rate,9999,9,1200
+D,triage,vitals.hr,vital:heart_rate,9a,6,7O
+D,triage,vitals.hr,vital:heart_rate,9,4,0
+D,triage,vitals.hr,vital:heart_rate,a,4,abc
+D,triage,vitals.rr,vital:respiratory_rate,99,609,19
+D,triage,vitals.rr,vital:respiratory_rate,-99,14,-16
+D,triage,vitals.rr,vital:respiratory_rate,a,14,x
+D,triage,vitals.rr,vital:respiratory_rate,999,13,180
+D,triage,vitals.rr,vital:respiratory_rate,9,7,0
+D,triage,vitals.temp,temperature,99.9,541,38.6
+D,triage,vitals.temp,temperature,99.9a,26,99.0F
+D,triage,vitals.temp,temperature,999.9,25,101.1
+D,triage,vitals.temp,temperature,a,12,hot
+D,triage,vitals.temp,temperature,-9,11,-4
+D,triage,vitals.temp,temperature,9,11,0
+D,triage,vitals.temp,temperature,9.9,9,3.7
+D,triage,vitals.temp,temperature,999,8,373
+D,triage,vitals.temp,temperature,999.9a,6,103.8F
+D,triage,vitals.spo2,spo2,99,479,96
+D,triage,vitals.spo2,spo2,999,98,100
+D,triage,vitals.spo2,spo2,a a a,23,ok on RA
+D,triage,vitals.spo2,spo2,99%,22,96%
+D,triage,vitals.spo2,spo2,-9,15,-5
+D,triage,vitals.spo2,spo2,9999,11,1000
+D,triage,vitals.spo2,spo2,999%,4,100%
+D,triage,painScore,vital:pain_score,9,513,3
+D,triage,painScore,vital:pain_score,99,68,10
+D,triage,painScore,vital:pain_score,9/99,25,8/10
+D,triage,painScore,vital:pain_score,a,18,severe
+D,triage,painScore,vital:pain_score,-9,15,-3
+D,triage,symptoms,lower_list,double spaces,9,"racing  heart, SOB"
+D,triage,symptoms,lower_list,leading/trailing spaces,17, DIZZY THEN FAINTED  
+D,triage,symptoms,lower_list,ALL CAPS,15, DIZZY THEN FAINTED  
+D,triage,allergies,none_or_text,leading/trailing spaces,11, Nil known
+D,triage,allergies,none_or_text,ALL CAPS,5, NONE  
+D,triage,currentMeds,none_or_text,leading/trailing spaces,7,nil known   
+D,triage,atsCategory,label:triage_priority,ALL CAPS,27,CAT 1
+D,triage,atsCategory,label:triage_priority,leading/trailing spaces,18,  Cat 2
+D,triage,atsCategory,label:triage_priority,double spaces,5,Cat   4
+D,triage,atsCategory,label:triage_priority,32 distinct labels,659,"Cat 3 (220), Cat 2 (191), Cat 4 (106), Cat 1 (38), Cat 5 (34), 3 (7), Category 4 (7), 2 (6), CAT 4 (5), CAT 3 (4), CAT3 (4), ATS 3 (3)"
+D,diagnoses,diagnosisId,id,999,917,152
+D,diagnoses,diagnosisId,id,9999,155,1123
+D,diagnoses,diagnosisId,id,99,92,10
+D,diagnoses,diagnosisId,id,9,9,1
+D,diagnoses,patientId,fk:patients,999,992,100
+D,diagnoses,patientId,fk:patients,99,164,10
+D,diagnoses,patientId,fk:patients,9,15,1
+D,diagnoses,@admission,fk:admissions,999,1050,125
+D,diagnoses,@admission,fk:admissions,99,114,10
+D,diagnoses,@admission,fk:admissions,9,9,1
+D,diagnoses,icd9,icd9,999.9,522,585.9
+D,diagnoses,icd9,icd9,999.99,423,574.00
+D,diagnoses,icd9,icd9,9999,55,8208
+D,diagnoses,icd9,icd9,999,41,486
+D,diagnoses,icd9,icd9,99999,28,71535
+D,diagnoses,icd9,icd9,999.99 ,19,250.00 
+D,diagnoses,icd9,icd9, 999.9,18, 401.9
+D,diagnoses,icd9,icd9,  999.99 ,15,  250.00 
+D,diagnoses,icd9,icd9,  999.9 ,13,  272.4 
+D,diagnoses,icd9,icd9, 999.99,11, 574.20
+D,diagnoses,icd9,icd9,999.9 ,10,585.9 
+D,diagnoses,icd9,icd9,99.9,5,38.9
+D,diagnoses,icd9,icd9,a999.9,3,E000.0
+D,diagnoses,icd9,icd9,a.a,2,XXX.X
+D,diagnoses,icd9,icd9,999 ,1,486 
+D,diagnoses,icd9,icd9,a99.99,1,V99.99
+D,diagnoses,icd9,icd9, 999,1, 486
+D,diagnoses,diagnosedBy,fk:professionals,99,1114,23
+D,diagnoses,diagnosedBy,fk:professionals,9,43,6
+D,diagnoses,diagnosedBy,fk:professionals,999,13,119
+D,diagnoses,diagnosedAt,datetime,9999-99-99a99:99:99+99:99,1067,2022-01-07T21:07:00+11:00
+D,diagnoses,diagnosedAt,datetime,99/99/9999 99:99,32,09/03/2022 10:09
+D,diagnoses,diagnosedAt,datetime,99.99.9999 99:99,17,04.08.2024 22:22
+D,diagnoses,diagnosedAt,datetime,9999999999,14,1645515420
+D,diagnoses,diagnosedAt,datetime,9999-99-99a99:99:99.999+99:99,11,2022-09-19T16:03:00.000+10:00
+D,diagnoses,diagnosedAt,datetime,9999-99-99a99:99:99a,10,2022-08-11T17:27:00Z
+D,diagnoses,diagnosedAt,datetime,9999-99-99a99:99+99:99,6,2022-09-16T01:25+10:00
+D,diagnoses,diagnosedAt,datetime,9999999999999,3,1688303460000
+D,diagnoses,diagnosedAt,datetime,99/99/99999 99:99,2,17/08/20225 15:35
+D,diagnoses,diagnosedAt,datetime,99/9/9999 99:99 a,2,27/2/2024 10:49 pm
+D,diagnoses,diagnosedAt,datetime,99/9/9999 9:99 a,1,19/7/2023 7:14 am
+D,diagnoses,diagnosedAt,datetime,9/9/9999 99:99 a,1,6/4/2025 10:18 am
+D,diagnoses,rank,label:diagnosis_type,ALL CAPS,94,PRIMARY
+D,diagnoses,rank,label:diagnosis_type,leading/trailing spaces,108,  Principal
+D,diagnoses,rank,label:diagnosis_type,18 distinct labels,1168,"Principal (758), Additional (241), PRINCIPAL (54), PRIMARY (27), principal (23), P (21), ADDITIONAL (11), Principal Dx (8), additional (6), Secondary (4), A (4), Provisional (3)"
+D,notes,noteId,id,999,919,319
+D,notes,noteId,id,9999,479,1471
+D,notes,noteId,id,99,90,11
+D,notes,noteId,id,9,9,1
+D,notes,@admission,fk:admissions,999,1329,195
+D,notes,@admission,fk:admissions,99,153,10
+D,notes,@admission,fk:admissions,9,15,1
+D,notes,authorId,fk:professionals,99,1387,21
+D,notes,authorId,fk:professionals,9,69,9
+D,notes,authorId,fk:professionals,999,28,134
+D,notes,noteType,label:note_type,ALL CAPS,29,DISCHARGE SUMMARY
+D,notes,noteType,label:note_type,leading/trailing spaces,55, NURSING NOTE  
+D,notes,noteType,label:note_type,double spaces,20,Ward  Round
+D,notes,noteType,label:note_type,25 distinct labels,1491,"Admission Note (564), Discharge Summary (199), Nursing Note (178), ED Clinician Note (171), Ward Round (161), Progress Note (159), ADMISSION NOTE (10), NURSING NOTE (6), ward round (6), ED CLINICIAN NOTE (5), progress note (4), ADMISSION note (4)"
+D,notes,writtenAt,datetime,9999-99-99a99:99:99+99:99,1358,2022-01-07T12:43:00+11:00
+D,notes,writtenAt,datetime,99/99/9999 99:99,46,03/03/2022 13:49
+D,notes,writtenAt,datetime,99.99.9999 99:99,20,23.03.2022 19:54
+D,notes,writtenAt,datetime,9999999999,14,1696674780
+D,notes,writtenAt,datetime,9999-99-99a99:99:99.999+99:99,14,2022-03-08T08:14:00.000+11:00
+D,notes,writtenAt,datetime,9999-99-99a99:99:99a,12,2022-01-21T10:02:00Z
+D,notes,writtenAt,datetime,99/9/9999 9:99 a,8,31/8/2022 7:34 am
+D,notes,writtenAt,datetime,9999999999999,5,1693933440000
+D,notes,writtenAt,datetime,9999-99-99a99:99+99:99,5,2022-12-22T00:22+11:00
+D,notes,writtenAt,datetime,99/99/9999 9:99 a,3,27/11/2022 1:09 pm
+D,notes,writtenAt,datetime,9/9/9999 9:99 a,2,7/2/2025 5:26 pm
+D,notes,writtenAt,datetime,99999999999999999,1,99999999999999999
+D,notes,writtenAt,datetime,9.9a+99,1,1.7e+18
+D,notes,writtenAt,datetime,99/9/9999 99:99 a,1,16/5/2024 11:27 am
+D,notes,writtenAt,datetime,9/99/9999 9:99 a,1,2/12/2024 1:10 am
+D,notes,writtenAt,datetime,99/99/9999 99:99 a,1,15/12/2024 11:13 am
+D,notes,writtenAt,datetime,99/99/99999 99:99,1,16/04/20225 08:51
+D,notes,body,free_text,double spaces,13,"Presented  with laboured breathing, confusion. Impression: respiratory failure. Weaned to nasal prongs, more alert."
+D,notes,body,free_text,leading/trailing spaces,40,"S: epigastric pain after meals
+O: obs within normal limits
+A: GORD
+P: PPI commenced, lifestyle advice.   "
+D,notes,body,free_text,ALL CAPS,37,"PRESENTED WITH RIGHT HIP PAIN AFTER FALL. IMPRESSION: NOF FRACTURE. POST-OP, MOBILISING WITH FRAME."
+D,notes,body,free_text,inverted case,2,"pain SETTLED, LIKELY MUSCULOSKELETAL."
+D,orders,orderId,id,999,753,111
+D,orders,orderId,id,99,93,11
+D,orders,orderId,id,9,9,1
+D,orders,@admission,fk:admissions,999,758,125
+D,orders,@admission,fk:admissions,99,87,10
+D,orders,@admission,fk:admissions,9,10,2
+D,orders,orderedBy,fk:professionals,99,810,62
+D,orders,orderedBy,fk:professionals,9,28,6
+D,orders,orderedBy,fk:professionals,999,14,135
+D,orders,orderedAt,datetime,9999-99-99a99:99:99+99:99,765,2022-01-09T15:04:00+11:00
+D,orders,orderedAt,datetime,99/99/9999 99:99,30,20/01/2022 19:37
+D,orders,orderedAt,datetime,99.99.9999 99:99,16,02.12.2022 15:40
+D,orders,orderedAt,datetime,9999-99-99a99:99:99.999+99:99,8,2022-04-05T16:22:00.000+10:00
+D,orders,orderedAt,datetime,9999-99-99a99:99+99:99,6,2023-08-17T15:44+10:00
+D,orders,orderedAt,datetime,9999999999,6,1656787260
+D,orders,orderedAt,datetime,9999999999999,5,1647131880000
+D,orders,orderedAt,datetime,9999-99-99a99:99:99a,4,2023-02-10T22:22:00Z
+D,orders,orderedAt,datetime,99/9/9999 9:99 a,4,23/9/2023 4:33 pm
+D,orders,orderedAt,datetime,99/99/9999 9:99 a,2,20/12/2023 1:25 pm
+D,orders,orderedAt,datetime,99/9/9999 99:99 a,2,11/3/2023 10:15 am
+D,orders,orderedAt,datetime,9/9/9999 99:99 a,1,6/5/2023 10:06 am
+D,orders,orderedAt,datetime,9.9a+99,1,1.7e+18
+D,orders,orderedAt,datetime,-99999999999999,1,-62135596800000
+D,orders,testName,label:exam_type,leading/trailing spaces,15,  LFT
+D,orders,testName,label:exam_type,ALL CAPS,9,  LFT
+D,orders,testName,label:exam_type,double spaces,3,Chest   X-ray
+D,orders,testName,label:exam_type,46 distinct labels,705,"FBC (89), Chest X-ray (67), UEC (57), LFT (39), ECG (39), Ultrasound abdomen (32), VBG (29), H. pylori breath test (28), BSL (27), Urinalysis (27), CT brain (27), Ultrasound renal (23)"
+D,orders,indication,text,leading/trailing spaces,8,  ?dehydration
+D,orders,indication,text,double spaces,5,Monitoring   - CKD
+D,orders,indication,text,ALL CAPS,21,SUSPECTED CHEST PAIN
+D,orders,status,label:order_status,leading/trailing spaces,29,resulted   
+D,orders,status,label:order_status,ALL CAPS,19,REQUESTED
+D,orders,status,label:order_status,13 distinct labels,852,"final (669), cancelled (59), in-progress (31), requested (29), Complete (20), resulted (19), FINAL (16), REQUESTED (2), CXL (2), collected (2), canceled (1), on-hold (1)"
+D,orders,priority,label:priority,leading/trailing spaces,33, ROUTINE  
+D,orders,priority,label:priority,ALL CAPS,18, ROUTINE  
+D,orders,priority,label:priority,13 distinct labels,852,"routine (339), urgent (301), stat (143), Routine (12), R (11), ROUTINE (11), U (10), URG (7), STAT (6), URGENT (5), Immediate (5), asap (1)"
+D,radiology,examId,id,999,110,109
+D,radiology,examId,id,99,91,36
+D,radiology,examId,id,9,9,1
+D,radiology,@admission,fk:admissions,999,191,205
+D,radiology,@admission,fk:admissions,99,17,10
+D,radiology,@admission,fk:admissions,9,2,2
+D,radiology,orderRef,fk:orders,999,168,177
+D,radiology,orderRef,fk:orders,99,20,11
+D,radiology,orderRef,fk:orders,9,1,2
+D,radiology,referrerId,fk:professionals,99,200,21
+D,radiology,referrerId,fk:professionals,9,9,6
+D,radiology,radiographerId,fk:professionals,99,205,13
+D,radiology,radiographerId,fk:professionals,999,3,140
+D,radiology,modality,label:exam_type,leading/trailing spaces,4,  CT
+D,radiology,modality,label:exam_type,ALL CAPS,1, USS  
+D,radiology,modality,label:exam_type,11 distinct labels,209,"XR (82), US (67), CT (39), USS (5), MR (5), Plain film (4), us (2), CT Scan (2), X-Ray (1), xr (1), DX (1)"
+D,radiology,performedAt,datetime,9999-99-99a99:99:99+99:99,197,2022-01-11T05:37:00+11:00
+D,radiology,performedAt,datetime,99/99/9999 99:99,6,26/03/2023 15:47
+D,radiology,performedAt,datetime,99.99.9999 99:99,4,03.14.2023 18:09
+D,radiology,performedAt,datetime,9999999999,2,1691056080
+D,radiology,performedAt,datetime,9999-99-99a99:99+99:99,1,2025-05-07T18:58+10:00
+D,radiology,bodySite,label:body_area,leading/trailing spaces,8,  Head
+D,radiology,bodySite,label:body_area,ALL CAPS,5,CHEST
+D,radiology,bodySite,label:body_area,15 distinct labels,196,"Chest (82), Abdomen (39), Kidneys (26), Head (24), Abdomen/Pelvis (5), Brain (5), CHEST (4), Knee (3), Heart (2), abdomen (1), kidneys (1), Pelvis/Hip (1)"
+D,radiology,status,label:exam_status,leading/trailing spaces,4,  cancelled
+D,radiology,status,label:exam_status,ALL CAPS,1,REPORTED
+D,radiology,status,label:exam_status,7 distinct labels,210,"reported (181), booked (12), cancelled (6), final (5), Completed (4), DNA (1), REPORTED (1)"
+D,radiology,report,free_text,double spaces,2,"Normal   sized kidneys, no hydronephrosis."
+D,radiology,report,free_text,leading/trailing spaces,4,No acute cardiopulmonary abnormality.  
+D,radiology,report,free_text,ALL CAPS,1, NO ACUTE CARDIOPULMONARY ABNORMALITY.  
+D,procedures,procedureId,id,99,92,17
+D,procedures,procedureId,id,999,41,141
+D,procedures,procedureId,id,9,9,1
+D,procedures,@admission,fk:admissions,999,126,125
+D,procedures,@admission,fk:admissions,99,14,10
+D,procedures,@admission,fk:admissions,9,2,2
+D,procedures,surgeonId,fk:professionals,99,137,66
+D,procedures,surgeonId,fk:professionals,999,3,102
+D,procedures,surgeonId,fk:professionals,9,2,4
+D,procedures,procedureName,label:procedure,ALL CAPS,2,LAPAROSCOPIC CHOLECYSTECTOMY
+D,procedures,procedureName,label:procedure,double spaces,5,Repair  of scalp laceration
+D,procedures,procedureName,label:procedure,leading/trailing spaces,1,Laparoscopic appendicectomy   
+D,procedures,procedureName,label:procedure,18 distinct labels,141,"Laparoscopic cholecystectomy (36), Laparoscopic appendicectomy (13), AV fistula creation (12), Coronary angiography and PCI (12), Diagnostic gastroscopy (12), Gastroscopy with haemostasis (9), Total knee replacement (8), Hemiarthroplasty of hip (8), Dynamic hip screw fixation (6), Primary PCI (6), Repair of scalp laceration (5), Open appendicectomy (4)"
+D,procedures,startedAt,datetime,9999-99-99a99:99:99+99:99,132,2022-01-09T11:03:00+11:00
+D,procedures,startedAt,datetime,99/9/9999 9:99 a,2,23/1/2022 7:58 am
+D,procedures,startedAt,datetime,99/99/9999 99:99,2,16/06/2023 13:33
+D,procedures,startedAt,datetime,99.99.9999 99:99,2,10.08.2024 08:41
+D,procedures,startedAt,datetime,9999-99-99a99:99:99a,1,2022-07-12T21:03:00Z
+D,procedures,startedAt,datetime,9999-99-99a99:99:99.999+99:99,1,2022-10-05T12:26:00.000+11:00
+D,procedures,outcome,label:outcome,ALL CAPS,1,"POST-OP FEVER, TREATED"
+D,procedures,outcome,label:outcome,double spaces,2,Uneventful   recovery
+D,procedures,outcome,label:outcome,leading/trailing spaces,3,"Minor bleeding, controlled intra-op "
+D,procedures,outcome,label:outcome,8 distinct labels,116,"No complications (55), Uneventful recovery (20), Minor bleeding, controlled intra-op (11), Superficial wound infection, oral antibiotics (10), Post-op fever, treated (10), Converted to open procedure (7), uneventful recovery (2), POST-OP FEVER, TREATED (1)"
+D,unit_stays,stayId,id,999,916,168
+D,unit_stays,stayId,id,9999,293,1280
+D,unit_stays,stayId,id,99,92,11
+D,unit_stays,stayId,id,9,9,1
+D,unit_stays,@admission,fk:admissions,999,1174,125
+D,unit_stays,@admission,fk:admissions,99,126,10
+D,unit_stays,@admission,fk:admissions,9,10,1
+D,unit_stays,clinicianId,fk:professionals,99,1213,11
+D,unit_stays,clinicianId,fk:professionals,9,61,6
+D,unit_stays,clinicianId,fk:professionals,999,25,134
+D,unit_stays,unit,label:unit_type,double spaces,7,Inpatient   Ward
+D,unit_stays,unit,label:unit_type,leading/trailing spaces,30,  ED
+D,unit_stays,unit,label:unit_type,ALL CAPS,19, INPATIENT WARD  
+D,unit_stays,unit,label:unit_type,30 distinct labels,1301,"Inpatient Ward (738), ED (286), Resus (47), MICU (35), ICU (27), CCU (26), SICU (22), INPATIENT WARD (15), Medical Ward (14), Gen Med (14), Surgical Ward (11), Ward (10)"
+D,unit_stays,startAt,datetime,9999-99-99a99:99:99+99:99,1181,2022-01-07T07:40:00+11:00
+D,unit_stays,startAt,datetime,99/99/9999 99:99,36,20/01/2023 02:10
+D,unit_stays,startAt,datetime,99.99.9999 99:99,16,26.01.2022 14:41
+D,unit_stays,startAt,datetime,9999-99-99a99:99+99:99,16,2022-02-24T14:40+11:00
+D,unit_stays,startAt,datetime,9999999999,16,1648884060
+D,unit_stays,startAt,datetime,9999-99-99a99:99:99.999+99:99,10,2022-01-31T12:58:00.000+11:00
+D,unit_stays,startAt,datetime,9999-99-99a99:99:99a,7,2022-11-26T06:15:00Z
+D,unit_stays,startAt,datetime,99/9/9999 9:99 a,6,23/1/2022 6:02 am
+D,unit_stays,startAt,datetime,9999999999999,4,1647137220000
+D,unit_stays,startAt,datetime,99/9/9999 99:99 a,3,20/5/2023 12:35 am
+D,unit_stays,startAt,datetime,99/99/9999 9:99 a,3,21/11/2022 7:44 am
+D,unit_stays,startAt,datetime,9/9/9999 9:99 a,2,4/2/2022 2:47 am
+D,unit_stays,startAt,datetime,99/99/99 99:99,2,01/01/23 03:01
+D,unit_stays,startAt,datetime,9.9a+99,1,1.7e+18
+D,unit_stays,startAt,datetime,99/99/99999 99:99,1,19/09/20225 17:32
+D,unit_stays,startAt,datetime,99999999999999999,1,99999999999999999
+D,unit_stays,endAt,datetime,9999-99-99a99:99:99+99:99,1165,2022-01-09T21:19:00+11:00
+D,unit_stays,endAt,datetime,99/99/9999 99:99,35,20/05/2023 00:35
+D,unit_stays,endAt,datetime,9999999999999,9,1649187240000
+D,unit_stays,endAt,datetime,9999-99-99a99:99+99:99,8,2022-05-20T05:47+10:00
+D,unit_stays,endAt,datetime,9999-99-99a99:99:99.999+99:99,8,2022-08-08T14:32:00.000+10:00
+D,unit_stays,endAt,datetime,99.99.9999 99:99,6,07.18.2022 19:49
+D,unit_stays,endAt,datetime,9999999999,6,1657983180
+D,unit_stays,endAt,datetime,9999-99-99a99:99:99a,5,2023-07-08T04:30:00Z
+D,unit_stays,endAt,datetime,99/9/9999 9:99 a,3,28/5/2024 2:03 am
+D,unit_stays,endAt,datetime,99/99/9999 99:99 a,2,17/10/2024 12:46 pm
+D,unit_stays,endAt,datetime,99/99/9999 9:99 a,1,31/12/2024 5:10 am
+D,unit_stays,endAt,datetime,99/9/9999 99:99 a,1,16/2/2025 12:17 am
+D,unit_stays,transferReason,text,double spaces,5,"MET   call, deteriorating"
+D,unit_stays,transferReason,text,leading/trailing spaces,14,"Stepped down, clinically stable   "
+D,unit_stays,transferReason,text,ALL CAPS,6,STABLE FOR WARD
+D,discharges,separationId,id,999,823,123
+D,discharges,separationId,id,99,90,11
+D,discharges,separationId,id,9,9,1
+D,discharges,@admission,fk:admissions,999,820,125
+D,discharges,@admission,fk:admissions,99,92,10
+D,discharges,@admission,fk:admissions,9,10,1
+D,discharges,authorisedBy,fk:professionals,99,861,23
+D,discharges,authorisedBy,fk:professionals,9,34,9
+D,discharges,authorisedBy,fk:professionals,999,16,124
+D,discharges,separatedAt,datetime,9999-99-99a99:99:99+99:99,841,2022-01-12T16:20:00+11:00
+D,discharges,separatedAt,datetime,99/99/9999 99:99,26,09/01/2022 21:19
+D,discharges,separatedAt,datetime,9999999999,12,1649899620
+D,discharges,separatedAt,datetime,99.99.9999 99:99,9,07.03.2022 04:20
+D,discharges,separatedAt,datetime,9999-99-99a99:99+99:99,5,2022-03-07T01:15+11:00
+D,discharges,separatedAt,datetime,9999-99-99a99:99:99a,4,2023-08-05T14:50:00Z
+D,discharges,separatedAt,datetime,9999999999999,4,1657034520000
+D,discharges,separatedAt,datetime,9999-99-99a99:99:99.999+99:99,4,2024-01-06T13:49:00.000+11:00
+D,discharges,separatedAt,datetime,-99999999999999,3,-62135596800000
+D,discharges,separatedAt,datetime,9/9/9999 9:99 a,2,3/6/2023 6:01 am
+D,discharges,separatedAt,datetime,99/9/9999 9:99 a,1,14/7/2023 5:36 pm
+D,discharges,separatedAt,datetime,99/99/99999 99:99,1,25/03/20225 02:24
+D,discharges,separatedAt,datetime,99/99/99 99:99,1,25/04/24 08:00
+D,discharges,separatedAt,datetime,99/99/9999 99:99 a,1,17/10/2024 12:46 pm
+D,discharges,separatedAt,datetime,99/99/9999 9:99 a,1,14/12/2024 5:10 pm
+D,discharges,separationMode,label:destination,double spaces,7,Discharged  home
+D,discharges,separationMode,label:destination,leading/trailing spaces,14,  Discharged home
+D,discharges,separationMode,label:destination,ALL CAPS,12, DISCHARGED HOME  
+D,discharges,separationMode,label:destination,16 distinct labels,877,"Discharged home (530), Usual residence (109), Transferred to another hospital (53), Discharged against medical advice (48), Residential aged care facility (37), Statistical discharge (36), Hospital in the Home (31), Died (11), DISCHARGED HOME (10), discharged home (5), hospital in the home (2), TRANSFERRED TO ANOTHER HOSPITAL (1)"
+D,discharges,conditionAtSeparation,label:discharge_condition,leading/trailing spaces,28,  Unchanged
+D,discharges,conditionAtSeparation,label:discharge_condition,ALL CAPS,15, FAIR  
+D,discharges,conditionAtSeparation,label:discharge_condition,16 distinct labels,897,"Improved (279), Stable (165), Unchanged (152), Fair (144), Recovered (123), Deceased (11), IMPROVED (4), FAIR (3), STABLE (3), RECOVERED (3), stable (2), UNCHANGED (2)"
+D,discharges,followUp,free_text,ALL CAPS,17,OUTPATIENT REVIEW IN 4-6 WEEKS
+D,discharges,followUp,free_text,leading/trailing spaces,31,  Wound check with GP in 7-10 days
+D,discharges,followUp,free_text,double spaces,6,Wound   check with GP in 7-10 days
+D,discharges,appointments.at,datetime,9999-99-99a99:99:99+99:99,455,2022-02-13T09:30:00+11:00
+D,discharges,appointments.at,datetime,99/99/9999 99:99,13,22/03/2022 15:45
+D,discharges,appointments.at,datetime,9999999999,8,1649544300
+D,discharges,appointments.at,datetime,99.99.9999 99:99,8,23.10.2022 09:15
+D,discharges,appointments.at,datetime,9999-99-99a99:99:99a,6,2023-04-17T23:30:00Z
+D,discharges,appointments.at,datetime,99/9/9999 9:99 a,4,15/5/2023 3:45 pm
+D,discharges,appointments.at,datetime,9999-99-99a99:99+99:99,3,2022-12-23T14:00+11:00
+D,discharges,appointments.at,datetime,9999999999999,3,1690756200000
+D,discharges,appointments.at,datetime,9999-99-99a99:99:99.999+99:99,3,2023-04-25T10:30:00.000+10:00
+D,discharges,appointments.at,datetime,9/9/9999 9:99 a,2,8/1/2024 8:00 am
+D,discharges,appointments.at,datetime,99/9/9999 99:99 a,1,26/1/2023 10:15 am

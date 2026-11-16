@@ -1,0 +1,576 @@
+"""
+Common target model, field rules and source-specific label mappings used by the cleaning pipeline.
+
+Everything that is a *decision* (which field is required, which raw label means what) lives in this
+file, so the rules are documented in one place and the pipeline code stays generic.
+
+Field levels
+    REQUIRED  missing (absent, empty or a placeholder) -> the record is REJECTED (quarantined).
+              These are identifiers, references and the clinical facts that define the record.
+    EXPECTED  missing -> record RETAINED, value NULL, row flagged `missing_expected:<field>`.
+              Descriptive values that should be there but whose absence does not make the record
+              unusable, and which we must not invent (e.g. a staff member's name: dozens of clinical
+              records point to that staff ID, so rejecting it would cascade and destroy valid facts).
+    OPTIONAL  missing -> NULL, nothing else (counted in the cleaning log).
+"""
+
+PIPELINE_VERSION = "2026.11.15-abcd"   # run_all.py checks that every file has the same version
+
+# -----------------------------------------------------------------------------
+# Missing-value placeholders (compared after trimming and lower-casing)
+# -----------------------------------------------------------------------------
+PLACEHOLDERS = {"", "n/a", "na", "null", "nil value", "-", "--", "?", "0000-00-00", "0000-00-00 00:00"}
+NUMERIC_PLACEHOLDERS = {"-1"}                       # only in numeric vital-sign fields
+NONE_KNOWN = {"none", "nka", "nkda", "no known allergies", "no known drug allergy", "no known drug allergies",
+              "aucune", "aucun", "nil", "rien", "nil known"}      # = "none", NOT missing (allergies / medications)
+
+# -----------------------------------------------------------------------------
+# Source configuration
+# -----------------------------------------------------------------------------
+#   dates: source date conventions passed to parsers.parse_temporal (see its docstring)
+#   usual_ts / usual_date: the format names that are this source's normal format (others are logged as fixes)
+#   ts_offset: True if this source normally writes an offset, so a timestamp without one is flagged
+SOURCES = {
+    "A": dict(name="CHU de Montclair-sur-Loire", continent="Europe", timezone="Europe/Paris",
+              format="TXT", extract_time_local="2025-10-31 18:00", decimal_comma=True, spo2_scale="percent",
+              phone_country="33", phone_national_len=9, phone_trunk="0", name_order="given_first",
+              dates={}, usual_ts={"slash_dmy"}, usual_date={"slash_dmy"}, ts_offset=False,
+              raw_time="local wall-clock time, no offset (DD/MM/YYYY HH:MM)"),
+    "B": dict(name="Uganda National Hospital", continent="Africa", timezone="Africa/Kampala",
+              format="CSV", extract_time_local="2025-10-31 18:00", decimal_comma=False, spo2_scale="percent",
+              phone_country="256", phone_national_len=9, phone_trunk="0", name_order="as_written",
+              dates={"slash_ampm": "mdy"}, usual_ts={"slash_dmy"}, usual_date={"slash_dmy"}, ts_offset=False,
+              raw_time="local wall-clock time, no offset (DD/MM/YYYY HH:MM; slash dates with AM/PM are "
+                       "month-first)"),
+    "C": dict(name="Straits Regional Medical Centre", continent="Asia", timezone="Asia/Singapore",
+              format="XML", extract_time_local="2025-10-31 18:00", decimal_comma=False, spo2_scale="fraction",
+              phone_country="65", phone_national_len=8, phone_trunk="",
+              name_order="family_first_unless_patronymic",
+              dates={}, usual_ts={"iso+offset"}, usual_date={"iso"}, ts_offset=True,
+              raw_time="ISO 8601 with +08:00 (some with Z = UTC, some without offset = local)"),
+    "D": dict(name="Coral Coast Health Service", continent="Oceania", timezone="Australia/Sydney",
+              format="JSON", extract_time_local="2025-10-31 18:00", decimal_comma=False, spo2_scale="percent",
+              phone_country="61", phone_national_len=9, phone_trunk="0", name_order="as_written",
+              dates={"dot": "either", "epoch": True}, usual_ts={"iso+offset"}, usual_date={"iso"}, ts_offset=True,
+              raw_time="ISO 8601 with +10:00/+11:00 (daylight saving); also Z, Unix seconds/milliseconds, local "
+                       "day-first slash dates, dot dates in either order"),
+}
+
+# -----------------------------------------------------------------------------
+# Raw field -> common field, per source and entity
+# -----------------------------------------------------------------------------
+COLUMN_MAP = {
+    "A": {
+        "professionals": {"id_pro": "professional_id", "titre": "title", "nom_prenom": "full_name",
+                          "fonction": "role", "service": "department"},
+        "patients": {"num_patient": "patient_id", "nom": "last_name", "prenom": "first_name",
+                     "date_naissance": "date_of_birth", "sexe": "sex", "adresse": "address", "telephone": "phone",
+                     "personne_a_prevenir": "emergency_contact", "statut_vital": "life_status"},
+        "admissions": {"num_sejour": "admission_id", "num_patient": "patient_id",
+                       "medecin_entree": "admitting_professional_id", "date_heure_entree": "admit_time",
+                       "type_sejour": "admission_type", "motif": "reason", "provenance": "admission_source",
+                       "couverture": "insurance", "date_heure_sortie": "discharge_time",
+                       "statut_sejour": "admission_status"},
+        "triage": {"num_triage": "triage_id", "num_sejour": "admission_id", "ide": "nurse_id",
+                   "date_heure_triage": "triage_time", "tension": "blood_pressure", "pouls": "heart_rate",
+                   "freq_resp": "respiratory_rate", "temperature": "temperature", "spo2": "spo2",
+                   "eva": "pain_score", "symptomes": "symptoms", "allergies": "allergies",
+                   "traitement_habituel": "home_medications", "niveau_tri": "triage_priority"},
+        "diagnoses": {"num_diag": "diagnosis_id", "num_patient": "patient_id", "num_sejour": "admission_id",
+                      "code_cim9": "icd9_code", "medecin": "professional_id", "date_heure_diag": "diagnosis_time",
+                      "type_diag": "diagnosis_type"},
+        "notes": {"num_note": "note_id", "num_sejour": "admission_id", "auteur": "author_id",
+                  "type_note": "note_type", "date_heure_note": "note_time", "texte": "note_text"},
+        "orders": {"num_demande": "order_id", "num_sejour": "admission_id", "prescripteur": "professional_id",
+                   "date_heure_demande": "order_time", "examen": "exam_type", "indication": "indication",
+                   "statut_demande": "order_status", "priorite": "priority"},
+        "radiology": {"num_examen": "exam_id", "num_sejour": "admission_id", "num_demande": "order_id",
+                      "medecin_demandeur": "referring_professional_id", "manipulateur": "technician_id",
+                      "type_examen": "exam_type", "date_heure_examen": "exam_time", "zone": "body_area",
+                      "statut_examen": "exam_status", "lien_pacs": "image_link", "conclusion": "findings"},
+        "procedures": {"num_intervention": "procedure_id", "num_sejour": "admission_id", "chirurgien": "surgeon_id",
+                       "intervention": "procedure_name", "date_heure_intervention": "procedure_time",
+                       "resultat": "outcome"},
+        "unit_stays": {"num_mouvement": "stay_id", "num_sejour": "admission_id",
+                       "medecin_responsable": "professional_id", "unite": "unit_type", "chambre": "room",
+                       "lit": "bed", "date_heure_entree": "entry_time", "date_heure_sortie": "exit_time",
+                       "motif_transfert": "transfer_reason"},
+        "discharges": {"num_sortie": "discharge_id", "num_sejour": "admission_id",
+                       "medecin_signataire": "professional_id", "date_heure_sortie": "discharge_time",
+                       "destination": "destination", "etat_sortie": "discharge_condition",
+                       "ordonnance": "medications", "consignes": "instructions", "prochain_rdv": "follow_up_time"},
+    },
+    "C": {
+        "professionals": {"@staffId": "professional_id", "name": "full_name", "designation": "role",
+                          "department": "department"},
+        "patients": {"@patientId": "patient_id", "name/family": "last_name", "name/given": "first_name",
+                     "birthDate": "date_of_birth", "sex": "sex", "address": "address", "phone": "phone",
+                     "nextOfKin": "emergency_contact", "vitalStatus": "life_status"},
+        "admissions": {"@admissionId": "admission_id", "@patientRef": "patient_id",
+                       "admittedBy": "admitting_professional_id", "admittedAt": "admit_time",
+                       "admissionClass": "admission_type", "chiefComplaint": "reason",
+                       "referralSource": "admission_source", "payer": "insurance", "dischargedAt": "discharge_time",
+                       "status": "admission_status"},
+        "triage": {"@id": "triage_id", "@admission": "admission_id", "nurse": "nurse_id", "assessedAt": "triage_time",
+                   "bloodPressure": "blood_pressure", "heartRate": "heart_rate", "respRate": "respiratory_rate",
+                   "temperature": "temperature", "temperature@unit": "temperature_unit", "oxygenSaturation": "spo2",
+                   "painScore": "pain_score", "symptoms": "symptoms", "allergies": "allergies",
+                   "homeMedication": "home_medications", "pacLevel": "triage_priority"},
+        "diagnoses": {"@id": "diagnosis_id", "@patientRef": "patient_id", "@admission": "admission_id",
+                      "icd9": "icd9_code", "doctor": "professional_id", "diagnosedAt": "diagnosis_time",
+                      "type": "diagnosis_type"},
+        "notes": {"@id": "note_id", "@admission": "admission_id", "author": "author_id", "@type": "note_type",
+                  "writtenAt": "note_time", "text": "note_text"},
+        "orders": {"@id": "order_id", "@admission": "admission_id", "orderedBy": "professional_id",
+                   "orderedAt": "order_time", "test": "exam_type", "indication": "indication", "status": "order_status",
+                   "priority": "priority"},
+        "radiology": {"@id": "exam_id", "@admission": "admission_id", "@orderRef": "order_id",
+                      "referrer": "referring_professional_id", "radiographer": "technician_id", "modality": "exam_type",
+                      "performedAt": "exam_time", "bodyPart": "body_area", "status": "exam_status",
+                      "pacsUrl": "image_link", "report": "findings"},
+        "procedures": {"@id": "procedure_id", "@admission": "admission_id", "surgeon": "surgeon_id",
+                       "procedure": "procedure_name", "performedAt": "procedure_time", "outcome": "outcome"},
+        "unit_stays": {"@id": "stay_id", "@admission": "admission_id", "doctor": "professional_id", "unit": "unit_type",
+                       "ward": "room", "bed": "bed", "transferIn": "entry_time", "transferOut": "exit_time",
+                       "transferReason": "transfer_reason"},
+        "discharges": {"@id": "discharge_id", "@admission": "admission_id", "authorisedBy": "professional_id",
+                       "dischargedAt": "discharge_time", "destination": "destination",
+                       "condition": "discharge_condition", "medications": "medications",
+                       "instructions": "instructions", "followUp": "follow_up_time"},
+    },
+}
+
+COLUMN_MAP["B"] = {
+    "professionals": {"StaffID": "professional_id", "Title": "title", "StaffName": "full_name", "Cadre": "role",
+                      "Department": "department"},
+    "patients": {"PatientNo": "patient_id", "PatientName": "full_name", "DOB": "date_of_birth", "Sex": "sex",
+                 "Address": "address", "PhoneNo": "phone", "NextOfKin": "emergency_contact", "Status": "life_status"},
+    "admissions": {"AdmissionNo": "admission_id", "PatientNo": "patient_id", "AdmittingDoctorID": "admitting_professional_id",
+                   "AdmitDateTime": "admit_time", "AdmissionCategory": "admission_type",
+                   "PresentingComplaint": "reason", "ReferredFrom": "admission_source", "PayerScheme": "insurance",
+                   "DischargeDateTime": "discharge_time", "AdmStatus": "admission_status"},
+    "triage": {"TriageID": "triage_id", "AdmissionNo": "admission_id", "NurseID": "nurse_id",
+               "TriageDateTime": "triage_time", "BP": "blood_pressure", "Pulse": "heart_rate",
+               "RespRate": "respiratory_rate", "Temp": "temperature", "SpO2": "spo2", "PainScore": "pain_score",
+               "Symptoms": "symptoms", "Allergies": "allergies", "CurrentMeds": "home_medications",
+               "TriageCategory": "triage_priority"},
+    "diagnoses": {"DiagID": "diagnosis_id", "PatientNo": "patient_id", "AdmissionNo": "admission_id",
+                  "ICD9": "icd9_code", "DiagnosedBy": "professional_id", "DiagDateTime": "diagnosis_time",
+                  "DiagType": "diagnosis_type"},
+    "notes": {"NoteID": "note_id", "AdmissionNo": "admission_id", "AuthorID": "author_id",
+              "NoteCategory": "note_type", "NoteDate": "note_time", "NoteText": "note_text"},
+    "orders": {"RequestNo": "order_id", "AdmissionNo": "admission_id", "RequestedBy": "professional_id",
+               "RequestDateTime": "order_time", "TestRequested": "exam_type", "IndicationForTest": "indication",
+               "RequestStatus": "order_status", "Urgency": "priority"},
+    "radiology": {"ExamID": "exam_id", "AdmissionNo": "admission_id", "RequestNo": "order_id",
+                  "ReferringDr": "referring_professional_id", "Radiographer": "technician_id",
+                  "Modality": "exam_type", "ExamDateTime": "exam_time", "BodyPart": "body_area",
+                  "ExamStatus": "exam_status", "PACSLink": "image_link", "Findings": "findings"},
+    "procedures": {"OpID": "procedure_id", "AdmissionNo": "admission_id", "SurgeonID": "surgeon_id",
+                   "Operation": "procedure_name", "OpDateTime": "procedure_time", "Outcome": "outcome"},
+    "unit_stays": {"MovementID": "stay_id", "AdmissionNo": "admission_id", "ResponsibleClinician": "professional_id",
+                   "Unit": "unit_type", "WardRoom": "room", "BedNo": "bed", "TimeIn": "entry_time",
+                   "TimeOut": "exit_time", "TransferReason": "transfer_reason"},
+    "discharges": {"DischargeID": "discharge_id", "AdmissionNo": "admission_id", "AuthorisedBy": "professional_id",
+                   "DischargeDateTime": "discharge_time", "Destination": "destination",
+                   "ConditionOnDischarge": "discharge_condition", "DischargeMeds": "medications",
+                   "FollowUp": "instructions", "NextAppointment": "follow_up_time"},
+}
+# Source D: keys of the flattened JSON records (see profiling/load_sources.py load_source_d)
+COLUMN_MAP["D"] = {
+    "professionals": {"practitionerId": "professional_id", "honorific": "title", "fullName": "full_name",
+                      "designation": "role", "department": "department"},
+    "patients": {"patientId": "patient_id", "patientName": "full_name", "dob": "date_of_birth", "sex": "sex",
+                 "address": "address", "phone": "phone", "nextOfKin": "emergency_contact", "deceased": "life_status"},
+    "admissions": {"admissionId": "admission_id", "patientId": "patient_id",
+                   "admittingClinicianId": "admitting_professional_id", "admittedAt": "admit_time",
+                   "encounterClass": "admission_type", "presentingProblem": "reason",
+                   "referralSource": "admission_source", "fundingSource": "insurance", "separatedAt": "discharge_time",
+                   "episodeStatus": "admission_status"},
+    "triage": {"triageId": "triage_id", "@admission": "admission_id", "triageNurseId": "nurse_id",
+               "triagedAt": "triage_time", "vitals.bp": "blood_pressure", "vitals.hr": "heart_rate",
+               "vitals.rr": "respiratory_rate", "vitals.temp": "temperature", "vitals.temp@unit": "temperature_unit",
+               "vitals.spo2": "spo2", "painScore": "pain_score", "symptoms": "symptoms", "allergies": "allergies",
+               "currentMeds": "home_medications", "atsCategory": "triage_priority"},
+    "diagnoses": {"diagnosisId": "diagnosis_id", "patientId": "patient_id", "@admission": "admission_id",
+                  "icd9": "icd9_code", "diagnosedBy": "professional_id", "diagnosedAt": "diagnosis_time",
+                  "rank": "diagnosis_type"},
+    "notes": {"noteId": "note_id", "@admission": "admission_id", "authorId": "author_id", "noteType": "note_type",
+              "writtenAt": "note_time", "body": "note_text"},
+    "orders": {"orderId": "order_id", "@admission": "admission_id", "orderedBy": "professional_id",
+               "orderedAt": "order_time", "testName": "exam_type", "indication": "indication", "status": "order_status",
+               "priority": "priority"},
+    "radiology": {"examId": "exam_id", "@admission": "admission_id", "orderRef": "order_id",
+                  "referrerId": "referring_professional_id", "radiographerId": "technician_id",
+                  "modality": "exam_type", "performedAt": "exam_time", "bodySite": "body_area", "status": "exam_status",
+                  "imageUrl": "image_link", "report": "findings"},
+    "procedures": {"procedureId": "procedure_id", "@admission": "admission_id", "surgeonId": "surgeon_id",
+                   "procedureName": "procedure_name", "startedAt": "procedure_time", "outcome": "outcome"},
+    "unit_stays": {"stayId": "stay_id", "@admission": "admission_id", "clinicianId": "professional_id",
+                   "unit": "unit_type", "location": "room", "bed": "bed", "startAt": "entry_time",
+                   "endAt": "exit_time", "transferReason": "transfer_reason"},
+    "discharges": {"separationId": "discharge_id", "@admission": "admission_id", "authorisedBy": "professional_id",
+                   "separatedAt": "discharge_time", "separationMode": "destination",
+                   "conditionAtSeparation": "discharge_condition", "dischargeMeds": "medications",
+                   "followUp": "instructions", "appointments.at": "follow_up_time"},
+}
+
+# -----------------------------------------------------------------------------
+# Common entities: field kinds and levels
+#   kind: id | fk:<entity> | name | text | free_text | code | lower_list | none_or_text | label:<map>
+#         | datetime | date | phone | contact | bp | vital:<name> | temperature | spo2 | icd9
+# -----------------------------------------------------------------------------
+ENTITY_SPECS = {
+    "professionals": dict(
+        pk="professional_id",
+        fields={"professional_id": "id", "title": "text", "full_name": "name", "role": "label:role",
+                "department": "text"},
+        required=["professional_id"], expected=["full_name", "role"],
+        dup_key=["full_name_key", "role", "department_key"]),
+    "patients": dict(
+        pk="patient_id",
+        fields={"patient_id": "id", "first_name": "name", "last_name": "name", "full_name": "name",
+                "date_of_birth": "date", "sex": "label:sex", "address": "free_text", "phone": "phone",
+                "emergency_contact": "contact", "life_status": "label:life_status"},
+        required=["patient_id", "date_of_birth"], expected=["life_status"],
+        dup_key=["full_name_key", "date_of_birth"]),
+    "admissions": dict(
+        pk="admission_id",
+        fields={"admission_id": "id", "patient_id": "fk:patients", "admitting_professional_id": "fk:professionals",
+                "admit_time": "datetime", "admission_type": "label:admission_type", "reason": "text",
+                "admission_source": "label:admission_source", "insurance": "free_text",
+                "discharge_time": "datetime", "admission_status": "label:admission_status"},
+        required=["admission_id", "patient_id", "admit_time", "admission_type", "reason"],
+        expected=["admitting_professional_id", "admission_status"],
+        dup_key=["patient_id", "admit_time"]),
+    "triage": dict(
+        pk="triage_id",
+        fields={"triage_id": "id", "admission_id": "fk:admissions", "nurse_id": "fk:professionals",
+                "triage_time": "datetime", "blood_pressure": "bp", "heart_rate": "vital:heart_rate",
+                "respiratory_rate": "vital:respiratory_rate", "temperature": "temperature", "spo2": "spo2",
+                "pain_score": "vital:pain_score", "symptoms": "lower_list", "allergies": "none_or_text",
+                "home_medications": "none_or_text", "triage_priority": "label:triage_priority"},
+        required=["triage_id", "admission_id", "nurse_id", "triage_priority"], expected=["triage_time"],
+        dup_key=["admission_id", "triage_time", "triage_priority"]),
+    "diagnoses": dict(
+        pk="diagnosis_id",
+        fields={"diagnosis_id": "id", "admission_id": "fk:admissions", "patient_id": "fk:patients",
+                "icd9_code": "icd9", "professional_id": "fk:professionals", "diagnosis_time": "datetime",
+                "diagnosis_type": "label:diagnosis_type"},
+        required=["diagnosis_id", "admission_id", "icd9_code", "professional_id", "diagnosis_time", "diagnosis_type"],
+        expected=["patient_id"],
+        dup_key=["admission_id", "diagnosis_time", "icd9_code"]),
+    "notes": dict(
+        pk="note_id",
+        fields={"note_id": "id", "admission_id": "fk:admissions", "author_id": "fk:professionals",
+                "note_type": "label:note_type", "note_time": "datetime", "note_text": "free_text"},
+        required=["note_id", "admission_id", "author_id", "note_type", "note_time", "note_text"], expected=[],
+        dup_key=["admission_id", "note_time", "note_type"]),
+    "orders": dict(
+        pk="order_id",
+        fields={"order_id": "id", "admission_id": "fk:admissions", "professional_id": "fk:professionals",
+                "order_time": "datetime", "exam_type": "label:exam_type", "indication": "text",
+                "order_status": "label:order_status", "priority": "label:priority"},
+        required=["order_id", "admission_id", "professional_id", "order_time", "indication", "order_status",
+                  "priority"],
+        expected=["exam_type"],
+        dup_key=["admission_id", "order_time", "exam_type"]),
+    "radiology": dict(
+        pk="exam_id",
+        fields={"exam_id": "id", "admission_id": "fk:admissions", "order_id": "fk:orders",
+                "referring_professional_id": "fk:professionals", "technician_id": "fk:professionals",
+                "exam_type": "label:exam_type", "exam_time": "datetime", "body_area": "label:body_area",
+                "exam_status": "label:exam_status", "image_link": "free_text", "findings": "free_text"},
+        required=["exam_id", "admission_id", "referring_professional_id", "technician_id", "exam_type", "exam_time",
+                  "exam_status"],
+        expected=[],
+        dup_key=["admission_id", "exam_time", "exam_type"]),
+    "procedures": dict(
+        pk="procedure_id",
+        fields={"procedure_id": "id", "admission_id": "fk:admissions", "surgeon_id": "fk:professionals",
+                "procedure_name": "label:procedure", "procedure_time": "datetime", "outcome": "label:outcome"},
+        required=["procedure_id", "admission_id", "surgeon_id", "procedure_name", "procedure_time"], expected=[],
+        dup_key=["admission_id", "procedure_time", "procedure_name"]),
+    "unit_stays": dict(
+        pk="stay_id",
+        fields={"stay_id": "id", "admission_id": "fk:admissions", "professional_id": "fk:professionals",
+                "unit_type": "label:unit_type", "room": "room", "bed": "code", "entry_time": "datetime",
+                "exit_time": "datetime", "transfer_reason": "text"},
+        required=["stay_id", "admission_id", "professional_id", "unit_type", "entry_time"], expected=[],
+        dup_key=["admission_id", "entry_time", "unit_type"]),
+    "discharges": dict(
+        pk="discharge_id",
+        fields={"discharge_id": "id", "admission_id": "fk:admissions", "professional_id": "fk:professionals",
+                "discharge_time": "datetime", "destination": "label:destination",
+                "discharge_condition": "label:discharge_condition", "medications": "none_or_text",
+                "instructions": "free_text", "follow_up_time": "datetime"},
+        required=["discharge_id", "admission_id", "professional_id", "discharge_time"], expected=[],
+        dup_key=["admission_id", "discharge_time"]),
+}
+
+# Source-specific levels. A and C give the name in two parts (family name required), B and D in one field.
+LEVEL_OVERRIDES = {
+    "A": {"patients": {"last_name": "required", "first_name": "expected"}},
+    "C": {"patients": {"last_name": "required", "first_name": "expected"}},
+    "B": {"patients": {"full_name": "required"}},
+    "D": {"patients": {"full_name": "required"}},
+}
+
+# Order in which entities are cleaned (parents before children, orders before radiology)
+PROCESS_ORDER = ["professionals", "patients", "admissions", "orders", "radiology", "triage", "diagnoses",
+                 "notes", "procedures", "unit_stays", "discharges"]
+
+# The event time of each child entity, checked against its admission [admit, discharge or extract time]
+EVENT_TIME = {"triage": "triage_time", "diagnoses": "diagnosis_time", "notes": "note_time", "orders": "order_time",
+              "radiology": "exam_time", "procedures": "procedure_time", "unit_stays": "entry_time",
+              "discharges": "discharge_time"}
+
+# Columns written to output/clean/<entity>.csv (in this order). Every table also gets
+# source_system, source_record_id and quality_flags.
+OUTPUT_COLUMNS = {
+    "professionals": ["professional_id", "title", "full_name", "role", "department"],
+    "patients": ["patient_id", "first_name", "last_name", "full_name", "date_of_birth", "sex", "address", "phone",
+                 "emergency_contact_name", "emergency_contact_relationship", "emergency_contact_phone", "life_status"],
+    "admissions": ["admission_id", "patient_id", "admitting_professional_id", "admit_time", "admission_type",
+                   "reason", "admission_source", "insurance", "discharge_time", "admission_status", "source_timezone"],
+    "triage": ["triage_id", "admission_id", "nurse_id", "triage_time", "systolic_bp", "diastolic_bp", "heart_rate",
+               "respiratory_rate", "temperature_c", "spo2_pct", "pain_score", "symptoms", "allergies",
+               "home_medications", "triage_priority"],
+    "diagnoses": ["diagnosis_id", "admission_id", "patient_id", "icd9_code", "professional_id", "diagnosis_time",
+                  "diagnosis_type"],
+    "notes": ["note_id", "admission_id", "author_id", "note_type", "note_time", "note_text"],
+    "orders": ["order_id", "admission_id", "professional_id", "order_time", "exam_type", "indication",
+               "order_status", "priority"],
+    "radiology": ["exam_id", "admission_id", "order_id", "referring_professional_id", "technician_id", "exam_type",
+                  "exam_time", "body_area", "exam_status", "image_link", "findings"],
+    "procedures": ["procedure_id", "admission_id", "surgeon_id", "procedure_name", "procedure_time", "outcome"],
+    "unit_stays": ["stay_id", "admission_id", "professional_id", "unit_type", "room", "bed", "entry_time",
+                   "exit_time", "transfer_reason"],
+    "discharges": ["discharge_id", "admission_id", "professional_id", "discharge_time", "destination",
+                   "discharge_condition", "medications", "instructions", "follow_up_time"],
+}
+
+# Plausible ranges for vital signs (inclusive). Outside -> invalid -> NULL + flag (vitals are optional).
+VITAL_RANGES = {"systolic_bp": (50, 260), "diastolic_bp": (20, 160), "heart_rate": (20, 250),
+                "respiratory_rate": (4, 60), "temperature_c": (30.0, 45.0), "spo2_pct": (50, 100),
+                "pain_score": (0, 10)}
+
+
+# -----------------------------------------------------------------------------
+# Label mappings: standard value -> raw labels (matched case-insensitively, whitespace collapsed)
+# -----------------------------------------------------------------------------
+def _inv(d):
+    out = {}
+    for std, labels in d.items():
+        for lab in labels:
+            out[" ".join(lab.lower().split())] = std
+    return out
+
+
+LABEL_MAPS = {
+    "A": {
+        "admission_type": {"emergency": ["URGENCE", "URG", "SAU", "Urgences"],
+                           "urgent": ["SEMI-URGENT", "SEMI URG", "Semi-urgence"],
+                           "elective": ["PROGRAMME", "PROG", "Programmee", "HOSPIT PROGRAMMEE"],
+                           "outpatient": ["AMBULATOIRE", "AMBU", "HDJ", "Hopital de jour"],
+                           "newborn": ["NAISSANCE", "NOUVEAU-NE", "NN"]},
+        "admission_status": {"discharged": ["SORTI", "SORTIE", "Sorti(e)"], "deceased": ["DECEDE", "DCD", "Decede(e)"],
+                             "active": ["HOSPITALISE", "EN COURS", "Present"]},
+        "life_status": {"alive": ["VIVANT", "V", "Vivant(e)"], "deceased": ["DECEDE", "DCD", "Decede(e)"]},
+        "sex": {"female": ["F", "Femme", "FEM"], "male": ["M", "Homme", "H", "MASC"], "unknown": ["I", "Indetermine"]},
+        "triage_priority": {"high": ["1", "ROUGE", "Tri 1"], "medium": ["2", "ORANGE", "Tri 2"],
+                            "low": ["3", "VERT", "Tri 3"]},
+        "unit_type": {"Emergency Department": ["URGENCES", "SAU", "Urgences adultes"],
+                      "ICU": ["REA", "Reanimation", "REA POLY"], "CCU": ["USIC", "Soins intensifs cardio", "USIC CARDIO"],
+                      "MICU": ["REA MED", "Rea medicale", "REA-MED"], "SICU": ["REA CHIR", "Rea chirurgicale", "REA-CHIR"],
+                      "General Ward": ["MEDECINE", "MED", "Hospitalisation conventionnelle"]},
+        "order_status": {"pending": ["EN ATTENTE", "Demande", "ATT"], "in_progress": ["EN COURS", "En cours de realisation"],
+                         "completed": ["TERMINE", "Fait", "REALISE"], "cancelled": ["ANNULE", "Annule", "ANN"]},
+        "priority": {"routine": ["NORMALE", "Routine", "N"], "urgent": ["URGENTE", "URG", "U"],
+                     "stat": ["IMMEDIATE", "STAT", "Immediat"]},
+        "exam_status": {"scheduled": ["PROGRAMME", "RDV pris", "Planifie"],
+                        "completed": ["REALISE", "Fait", "Interprete"], "cancelled": ["ANNULE", "Annule"]},
+        "diagnosis_type": {"primary": ["DP", "Principal", "P"], "secondary": ["DAS", "Associe", "S"]},
+        "note_type": {"discharge_summary": ["CRH", "Compte rendu de sortie", "CR SORTIE"],
+                      "operative_note": ["CRO", "Compte rendu operatoire"],
+                      "progress_note": ["OBSERVATION", "Obs medicale"]},
+        "role": {"physician": ["MEDECIN", "Medecin", "PH"], "nurse": ["IDE", "Infirmier(e)", "INF"],
+                 "surgeon": ["CHIRURGIEN", "Chirurgien"], "radiologist": ["RADIOLOGUE", "Radiologue"],
+                 "radiology_technician": ["MANIP RADIO", "Manipulateur radio", "MERM"]},
+        "exam_type": {"Chest X-ray": ["RADIO THORAX"], "CT scan": ["SCANNER"], "MRI": ["IRM"],
+                      "Ultrasound": ["ECHOGRAPHIE"], "ECG": ["ECG"], "Blood panel": ["BILAN SANGUIN"]},
+        "body_area": {"Chest": ["Thorax"], "Abdomen": ["Abdomen"], "Head": ["Crane", "Crâne"]},
+        "procedure": {"Appendectomy": ["Appendicectomie"], "Cholecystectomy": ["Cholecystectomie"],
+                      "Femoral neck osteosynthesis": ["Osteosynthese col du femur"],
+                      "Coronary artery bypass graft": ["Pontage aorto-coronarien"],
+                      "Coronary angiography": ["Coronarographie"],
+                      "Inguinal hernia repair": ["Cure de hernie inguinale"]},
+        "outcome": {"success": ["Succes", "Succès"], "complications": ["Complications"], "failure": ["Echec", "Échec"]},
+        "destination": {"home": ["Domicile"], "home_with_support": ["Domicile avec aide"],
+                        "rehabilitation": ["SSR (reeducation)"], "nursing_home": ["EHPAD"],
+                        "other_hospital": ["Transfert autre hopital"], "mortuary": ["Chambre mortuaire"]},
+        "discharge_condition": {"stable": ["Stable"], "improved": ["Ameliore"], "fair": ["Moyen"],
+                                "deceased": ["Decede"]},
+        "admission_source": {"self_referral": ["Domicile"], "ambulance": ["SAMU"],
+                             "gp_referral": ["Medecin traitant"], "transfer": ["Transfert"]},
+    },
+    "C": {
+        "admission_type": {"emergency": ["A&E", "Emergency", "ER"], "urgent": ["Urgent", "Priority", "URG"],
+                           "elective": ["Elective", "Planned", "Scheduled"],
+                           "outpatient": ["Day Case", "Specialist Outpatient", "SOC"],
+                           "newborn": ["Newborn", "Birth", "Neonate"]},
+        "admission_status": {"discharged": ["Discharged", "Home", "DISCH"], "deceased": ["Deceased", "Expired", "Died"],
+                             "active": ["Inpatient", "Admitted", "Current"]},
+        "life_status": {"alive": ["Alive", "Living", "A"], "deceased": ["Deceased", "Dead", "D"]},
+        "sex": {"female": ["F", "Female"], "male": ["M", "Male"], "unknown": ["U", "Unknown"]},
+        "triage_priority": {"high": ["P1", "PAC 1", "Resus"], "medium": ["P2", "PAC 2", "Major"],
+                            "low": ["P3", "PAC 3", "Minor"]},
+        "unit_type": {"Emergency Department": ["A&E Department", "Emergency Department", "ED"],
+                      "ICU": ["ICU", "Intensive Care Unit", "General ICU"],
+                      "CCU": ["CCU", "Coronary Care Unit", "Cardiac ICU"], "MICU": ["MICU", "Medical ICU"],
+                      "SICU": ["SICU", "Surgical ICU"], "General Ward": ["General Ward", "Ward", "GW"]},
+        "order_status": {"pending": ["Ordered", "Pending", "New"], "in_progress": ["In Progress", "Processing", "IP"],
+                         "completed": ["Resulted", "Completed", "Done"], "cancelled": ["Cancelled", "Void", "Cancel"]},
+        "priority": {"routine": ["Routine", "R", "Normal"], "urgent": ["Urgent", "U", "ASAP"],
+                     "stat": ["STAT", "Immediate"]},
+        "exam_status": {"scheduled": ["Booked", "Scheduled"], "completed": ["Reported", "Completed", "Done"],
+                        "cancelled": ["Cancelled", "Void"]},
+        "diagnosis_type": {"primary": ["Principal", "Primary", "P"], "secondary": ["Secondary", "Additional", "S"]},
+        "note_type": {"discharge_summary": ["Discharge Summary", "DS", "Discharge Note"],
+                      "operative_note": ["Operation Note", "Op Note"],
+                      "progress_note": ["Progress Note", "Ward Round Note"]},
+        "role": {"physician": ["Medical Officer", "Consultant", "Doctor"], "nurse": ["Staff Nurse", "RN", "Nurse"],
+                 "surgeon": ["Surgeon", "Consultant Surgeon"], "radiologist": ["Radiologist", "Consultant Radiologist"],
+                 "radiology_technician": ["Radiographer", "Radiology Technologist"]},
+        "exam_type": {"Chest X-ray": ["Chest X-Ray"], "CT scan": ["CT"], "MRI": ["MRI"], "Ultrasound": ["Ultrasound"],
+                      "ECG": ["ECG"], "Blood panel": ["Full Blood Count"]},
+        "body_area": {"Chest": ["Chest"], "Abdomen": ["Abdomen"], "Head": ["Brain"]},
+        "procedure": {"Appendectomy": ["Appendicectomy"], "Cholecystectomy": ["Laparoscopic cholecystectomy"],
+                      "Hip hemiarthroplasty": ["Hip hemiarthroplasty"],
+                      "Coronary artery bypass graft": ["Coronary artery bypass graft"],
+                      "Coronary angiography": ["Coronary angiography"],
+                      "Inguinal hernia repair": ["Inguinal hernia repair"]},
+        "outcome": {"success": ["Uneventful"], "complications": ["Complicated"], "failure": ["Unsuccessful"]},
+        "destination": {"home": ["Home"], "home_with_support": ["Home with caregiver"],
+                        "rehabilitation": ["Community hospital"], "nursing_home": ["Nursing home"],
+                        "other_hospital": ["Transferred to another hospital"], "mortuary": ["Mortuary"]},
+        "discharge_condition": {"stable": ["Stable"], "improved": ["Improved"], "fair": ["Fair"],
+                                "deceased": ["Deceased"]},
+        "admission_source": {"self_referral": ["Walk-in"], "ambulance": ["Ambulance (995)"],
+                             "gp_referral": ["GP referral", "Polyclinic referral"], "transfer": ["Transfer"]},
+    },
+}
+LABEL_MAPS["B"] = {
+    "admission_type": {"emergency": ["Emergency", "A&E", "Casualty", "Emergency Dept", "EMERG"],
+                       "urgent": ["Urgent", "URG", "Urgent Care"], "elective": ["Elective", "Planned", "Booked"],
+                       "outpatient": ["OPD", "Outpatient", "Day Case"],
+                       "newborn": ["Newborn", "Neonate", "Born in Hospital"]},
+    "admission_status": {"discharged": ["Discharged", "DISCH", "D/C"],
+                         "active": ["Admitted", "In-patient", "Active", "Still Admitted"],
+                         "deceased": ["Died", "Deceased", "Expired", "RIP"]},
+    "life_status": {"alive": ["Alive", "Living", "A"], "deceased": ["Deceased", "Dead", "Died", "RIP"]},
+    "sex": {"female": ["F", "Female"], "male": ["M", "Male"]},
+    "triage_priority": {"high": ["HIGH", "Hi", "Red", "P1"], "medium": ["MEDIUM", "Med", "Yellow", "P2"],
+                        "low": ["LOW", "Lo", "Green", "Routine", "P3"]},
+    "unit_type": {"Emergency Department": ["Emergency Dept", "A&E", "Casualty"],
+                  "ICU": ["ICU", "Intensive Care Unit", "I.C.U"], "CCU": ["CCU", "Cardiac Care Unit", "Coronary Care"],
+                  "MICU": ["MICU", "Medical ICU"], "SICU": ["SICU", "Surgical ICU"],
+                  "General Ward": ["General Ward", "Gen Ward", "Medical Ward", "Surgical Ward", "Ward"]},
+    "order_status": {"pending": ["Pending", "Awaiting", "Requested"],
+                     "in_progress": ["In Progress", "Processing", "Sample Received"],
+                     "completed": ["Completed", "Done", "Resulted"], "cancelled": ["Cancelled", "Canceled", "CXL"]},
+    "priority": {"routine": ["Routine", "R", "Normal"], "urgent": ["Urgent", "URG", "U"],
+                 "stat": ["STAT", "Immediate", "ASAP"]},
+    "exam_status": {"completed": ["Done", "Completed", "Reported"], "scheduled": ["Booked", "Scheduled", "Pending"],
+                    "cancelled": ["Cancelled", "Canceled"]},
+    "diagnosis_type": {"primary": ["Primary", "Principal", "Main", "P"],
+                       "secondary": ["Secondary", "Comorbidity", "Additional", "S"]},
+    "note_type": {"admission_note": ["Admission Note"], "progress_note": ["Progress Note"],
+                  "discharge_summary": ["Discharge Note"], "ward_round_note": ["Ward Round Note"],
+                  "nursing_note": ["Nursing Note"]},
+    "role": {"physician": ["Medical Officer", "Consultant Physician", "Intern Doctor"],
+             "clinical_officer": ["Clinical Officer"], "nurse": ["Nursing Officer", "Enrolled Nurse"],
+             "midwife": ["Midwife"], "surgeon": ["Surgeon", "Consultant Surgeon"], "radiologist": ["Radiologist"],
+             "radiology_technician": ["Radiographer"], "laboratory_scientist": ["Laboratory Technologist"],
+             "administrative": ["Records Officer"]},
+    "exam_type": {"Chest X-ray": ["Chest X-ray"], "X-ray": ["X-Ray", "XR", "XRAY", "Plain Film"],
+                  "CT scan": ["CT Scan", "CT", "C.T."], "Ultrasound": ["Ultrasound", "USS", "U/S", "Sonography"],
+                  "MRI": ["MRI", "MRI Scan", "M.R.I"], "ECG": ["ECG"], "Blood panel": ["Full Blood Count"]},
+    "body_area": {"Chest": ["Chest"], "Abdomen": ["Abdomen"], "Head": ["Head", "Brain"]},
+    "procedure": {},
+    "outcome": {"success": ["Successful, no complications", "Uneventful recovery"],
+                "complications": ["Minor bleeding, controlled", "Post-op fever, treated",
+                                  "Wound infection, on antibiotics"]},
+    "destination": {"home": ["Home"], "other_hospital": ["Referred to regional hospital"],
+                    "rehabilitation": ["Transferred to rehabilitation centre"],
+                    "left_against_advice": ["Left against medical advice"], "hospice": ["Hospice care"],
+                    "mortuary": ["Mortuary"]},
+    "discharge_condition": {"improved": ["Improved"], "stable": ["Stable"], "unchanged": ["Unchanged"],
+                            "fair": ["Fair"], "recovered": ["Recovered"], "deceased": ["Deceased"]},
+    "admission_source": {"self_referral": ["Self-referral"], "ambulance": ["Ambulance"], "police": ["Police"],
+                         "clinic_referral": ["OPD clinic", "Health Centre IV referral", "Health Centre III referral",
+                                             "Private clinic referral", "Specialist clinic referral"],
+                         "born_in_hospital": ["Born at UNH"]},
+}
+_ATS = lambda *n: [f"{p}{k}" for k in n for p in ("Cat ", "ATS ", "Category ", "CAT", "")]
+LABEL_MAPS["D"] = {
+    "admission_type": {"emergency": ["ED", "Emergency", "EMERG", "Emerg Dept"],
+                       "urgent": ["Urgent", "UCC", "Urgent Care"],
+                       "elective": ["Elective", "Planned", "Booked Elective", "Day Surgery"],
+                       "outpatient": ["Outpatient Clinic", "OPD", "Clinic", "Non-admitted"],
+                       "newborn": ["Birth", "Newborn", "Neonatal"]},
+    "admission_status": {"discharged": ["Separated", "Discharged", "D/C", "Completed"],
+                         "active": ["Current", "Admitted", "In Progress", "Inpatient"],
+                         "deceased": ["Died", "Deceased", "Died in hospital"]},
+    "life_status": {"deceased": ["true", "Y", "yes", "1"], "alive": ["false", "N", "no", "0"]},
+    "sex": {"male": ["M", "Male"], "female": ["F", "Female"]},
+    "triage_priority": {"high": _ATS(1, 2), "medium": _ATS(3), "low": _ATS(4, 5)},
+    "unit_type": {"Emergency Department": ["ED", "Emergency", "Emergency Dept", "Resus", "Resus Bay"],
+                  "ICU": ["ICU", "Intensive Care", "GICU"], "CCU": ["CCU", "Coronary Care"],
+                  "MICU": ["MICU", "Medical ICU"], "SICU": ["SICU", "Surgical ICU", "Post-op ICU"],
+                  "General Ward": ["Inpatient Ward", "Ward", "Gen Med", "Medical Ward", "Surgical Ward"]},
+    "order_status": {"pending": ["requested", "ordered", "Pending"], "in_progress": ["in-progress", "collected", "In Lab"],
+                     "completed": ["final", "resulted", "Complete"], "cancelled": ["cancelled", "canceled", "CXL"]},
+    "priority": {"routine": ["routine", "R"], "urgent": ["urgent", "URG", "U"], "stat": ["stat", "Immediate"]},
+    "exam_status": {"completed": ["reported", "final", "Completed"], "scheduled": ["booked", "scheduled"],
+                    "cancelled": ["cancelled", "canceled"]},
+    "diagnosis_type": {"primary": ["Principal", "Principal Dx", "P", "PRIMARY"],
+                       "secondary": ["Additional", "Comorbidity", "Secondary", "A"]},
+    "note_type": {"admission_note": ["Admission Note"], "discharge_summary": ["Discharge Summary"],
+                  "nursing_note": ["Nursing Note"], "ed_note": ["ED Clinician Note"],
+                  "ward_round_note": ["Ward Round"], "progress_note": ["Progress Note"]},
+    "role": {"nurse": ["Registered Nurse", "Enrolled Nurse", "Clinical Nurse Specialist"],
+             "physician": ["Resident Medical Officer", "Consultant Physician", "Emergency Physician",
+                           "Emergency Registrar", "Medical Registrar", "Interventional Cardiologist",
+                           "Gastroenterologist", "Paediatrician"],
+             "surgeon": ["General Surgeon", "Orthopaedic Surgeon", "Surgical Registrar"],
+             "radiology_technician": ["Medical Imaging Technologist", "Sonographer"], "radiologist": ["Radiologist"],
+             "midwife": ["Midwife"], "laboratory_scientist": ["Medical Scientist"], "administrative": ["Ward Clerk"]},
+    "exam_type": {"Chest X-ray": ["Chest X-ray"], "X-ray": ["XR", "X-Ray", "Plain film", "DX"],
+                  "CT scan": ["CT", "CT Scan"], "Ultrasound": ["US", "Ultrasound", "USS"], "MRI": ["MR", "MRI"],
+                  "ECG": ["ECG"], "Blood panel": ["FBC"]},
+    "body_area": {"Chest": ["Chest"], "Abdomen": ["Abdomen"], "Head": ["Head", "Brain"]},
+    "procedure": {},
+    "outcome": {"success": ["No complications", "Uneventful recovery"],
+                "complications": ["Post-op fever, treated", "Minor bleeding, controlled intra-op",
+                                  "Superficial wound infection, oral antibiotics", "Converted to open procedure"]},
+    "destination": {"home": ["Discharged home", "Usual residence"], "other_hospital": ["Transferred to another hospital"],
+                    "left_against_advice": ["Discharged against medical advice"],
+                    "statistical_discharge": ["Statistical discharge"],
+                    "nursing_home": ["Residential aged care facility"],
+                    "hospital_in_the_home": ["Hospital in the home"], "mortuary": ["Died"]},
+    "discharge_condition": {"improved": ["Improved"], "stable": ["Stable"], "unchanged": ["Unchanged"],
+                            "fair": ["Fair"], "recovered": ["Recovered"], "deceased": ["Deceased"]},
+    "admission_source": {"gp_referral": ["GP referral"], "self_referral": ["Self-presented"],
+                         "ambulance": ["Ambulance"], "waitlist": ["Elective surgery waitlist"],
+                         "clinic_referral": ["Outpatient clinic", "Specialist rooms", "Specialist referral",
+                                             "Urgent care clinic"],
+                         "transfer": ["Inter-hospital transfer"], "police": ["Police"],
+                         "born_in_hospital": ["Born at Coral Coast"]},
+}
+LABEL_MAPS = {k: LABEL_MAPS[k] for k in ("A", "B", "C", "D")}
+LABEL_LOOKUP = {src: {key: _inv(m) for key, m in maps.items()} for src, maps in LABEL_MAPS.items()}
+
+# The documented common values (used in the report)
+STANDARD_VALUES = {key: sorted({std for src in LABEL_MAPS.values() for std in src[key]})
+                   for key in LABEL_MAPS["A"]}

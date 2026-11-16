@@ -1,0 +1,950 @@
+source_system,entity,source_record_id,source_row,disposition,duplicate_of,reason_codes,reason_details,raw_record
+A,radiology,2,imagerie.txt:3,rejected,,orphan_reference:order_id,orphan_reference:order_id: orders 3729 does not exist in source A,2|2|3729|21|60|IRM|28/10/2022 17:14|Crane|REALISE|pacs://chu-montclair/2/2|No fracture seen.
+A,radiology,3,imagerie.txt:4,rejected,,ambiguous_date:exam_time,ambiguous_date:exam_time: '07-05-2023 16:48': day/month order cannot be decided,3|3|4|13|62|ECHOGRAPHIE|07-05-2023 16:48|Abdomen|REALISE|pacs://chu-montclair/3/3|Findings consistent with clinical suspicion.
+A,radiology,10,imagerie.txt:11,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 13 is in the quarantine,10|14|13|4|70|IRM|17/03/2024 07:32|Crane|REALISE|pacs://chu-montclair/14/10|Mild degenerative changes.
+A,radiology,13,imagerie.txt:14,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 16 is in the quarantine,13|22|16|15|61|IRM|07/03/2024 09:04|Crane|REALISE|pacs://chu-montclair/22/13|Mild degenerative changes.
+A,radiology,16,imagerie.txt:17,rejected,,invalid_date:exam_time,invalid_date:exam_time: 'a preciser': not a recognised date format,16|25|20|4|61|SCANNER|a preciser|Abdomen|REALISE|pacs://chu-montclair/25/16|Mild degenerative changes.
+A,radiology,19,imagerie.txt:20,rejected,,invalid_date:exam_time,invalid_date:exam_time: '32/07/2024 06:58': day is out of range for month,19|32|24|24|62|SCANNER|32/07/2024 06:58|Abdomen|PROGRAMME|pacs://chu-montclair/32/19|
+A,radiology,28,imagerie.txt:29,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 44 is in the quarantine,28|67|44|1|63|SCANNER|11/05/2022 19:47|Abdomen|REALISE|pacs://chu-montclair/67/28|No acute findings.
+A,radiology,29,imagerie.txt:30,rejected,,unmappable_label:exam_status,unmappable_label:exam_status: 'EN ATTENTE CR' has no standard exam_status value,29|68|45|8|65|RADIO THORAX|31/07/2022 06:38|Thorax|EN ATTENTE CR|pacs://chu-montclair/68/29|Findings consistent with clinical suspicion.
+A,radiology,32,imagerie.txt:33,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 3933 does not exist in source A,32|3933|50|1|67|IRM|12/04/2023 15:19|Crane|REALISE|pacs://chu-montclair/77/32|Small pleural effusion.
+A,radiology,36,imagerie.txt:37,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 59 is in the quarantine,36|92|59|8|61|ECHOGRAPHIE|23/05/2022 21:26|  Abdomen|PROGRAMME|pacs://chu-montclair/92/36|
+A,radiology,38,imagerie.txt:39,rejected,,invalid_date:exam_time,invalid_date:exam_time: 'inconnue': not a recognised date format,38|100|65|19|60|IRM|inconnue|Crane|REALISE|pacs://chu-montclair/100/38|Findings consistent with clinical suspicion.
+A,radiology,39,imagerie.txt:40,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 101 is in the quarantine | parent_quarantined:order_id: orders 66 is in the quarantine,39|101|66|16|69|RADIO THORAX|2025-04-16T04:07|?|REALISE|pacs://chu-montclair/101/39|Findings consistent with clinical suspicion.
+A,radiology,40,imagerie.txt:41,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 2389 does not exist in source A,40|2389|67|4|70|ECHOGRAPHIE|30.07.2023 20:01|Abdomen|REALISE|pacs://chu-montclair/103/40|No fracture seen.
+A,radiology,45,imagerie.txt:46,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 112 is in the quarantine | parent_quarantined:order_id: orders 74 is in the quarantine,45|112|74|5|69|ECHOGRAPHIE|09/08/2022 07:06|Abdomen|PROGRAMME|pacs://chu-montclair/112/45|
+A,radiology,46,imagerie.txt:47,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 113 is in the quarantine | parent_quarantined:order_id: orders 75 is in the quarantine,46|113|75|21|60|IRM|14/11/2022 07:16|?|REALISE|pacs://chu-montclair/113/46|No acute findings.
+A,radiology,34,imagerie.txt:50,duplicate_removed,34,exact_duplicate,exact_duplicate: same ID and same values as imagerie.txt:35,34|83|53|24|70|SCANNER|02/08/2024 04:32|Abdomen|REALISE|pacs://chu-montclair/83/34|Mild degenerative changes.
+A,radiology,53,imagerie.txt:55,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 86 is in the quarantine,53|128|86|21|60|RADIO THORAX|13/01/2023 09:22|Thorax|REALISE|pacs://chu-montclair/128/53|Small pleural effusion.
+A,radiology,56,imagerie.txt:58,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 91 is in the quarantine,56|135|91|17|68|RADIO THORAX|05/10/2023 11:07|Thorax|PROGRAMME|null|
+A,radiology,74,imagerie.txt:76,rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 890 does not exist in source A,74|173|119|890|65|RADIO THORAX|02/10/2023 18:38|Thorax|REALISE|pacs://chu-montclair/173/74|Mild degenerative changes.
+A,radiology,75,imagerie.txt:77,rejected,,orphan_reference:order_id,orphan_reference:order_id: orders 1870 does not exist in source A,75|175|1870|20|60|SCANNER|24/05/2022 01:40|Abdomen|REALISE|pacs://chu-montclair/175/75|Mild degenerative changes.
+A,radiology,77,imagerie.txt:79,rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 1974 does not exist in source A,77|181|123|1974|65|ECHOGRAPHIE|23/10/2022 01:52|Abdomen|REALISE|pacs://chu-montclair/181/77|No acute findings.
+A,radiology,79,imagerie.txt:81,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 184 is in the quarantine | parent_quarantined:order_id: orders 125 is in the quarantine,79|184|125|17|62|ECHOGRAPHIE|11/05/2022 01:00||REALISE|pacs://chu-montclair/184/79|Small pleural effusion.
+A,radiology,81,imagerie.txt:83,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 187 is in the quarantine | parent_quarantined:order_id: orders 127 is in the quarantine,81|187|127|14|61|IRM|29/11/2024 21:15|Crane|REALISE|pacs://chu-montclair/187/81|No acute findings.
+A,radiology,82,imagerie.txt:84,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 128 is in the quarantine,82|189|128|24|65|ECHOGRAPHIE|19/09/2023 16:16|-|REALISE|pacs://chu-montclair/189/82|No fracture seen.
+A,radiology,96,imagerie.txt:98,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 149 is in the quarantine,96|213|149|2|70|SCANNER|30/09/2025 20:44|Abdomen|REALISE|pacs://chu-montclair/213/96|No fracture seen.
+A,radiology,98,imagerie.txt:100,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 152 is in the quarantine,98|220|152|22|63|SCANNER|05/10/2022 19:56|Abdomen|REALISE|pacs://chu-montclair/220/98|Mild degenerative changes.
+A,radiology,99,imagerie.txt:101,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 153 is in the quarantine,99|220|153|3|70|ECHOGRAPHIE|03/10/2022 21:38|Abdomen|Interprete|pacs://chu-montclair/220/99|Mild degenerative changes.
+A,radiology,113,imagerie.txt:115,rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 1866 does not exist in source A,113|267|178|1866|63|irm|02/08/2023 08:19|Crane|REALISE|pacs://chu-montclair/267/113|Small pleural effusion.
+A,radiology,122,imagerie.txt:124,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 281 is in the quarantine | parent_quarantined:order_id: orders 189 is in the quarantine,122|281|189|8|61|ECHOGRAPHIE|11/11/2024 22:04|Abdomen|Fait|pacs://chu-montclair/281/122|Findings consistent with clinical suspicion.
+A,radiology,123,imagerie.txt:125,rejected,,chronology:exam_time,chronology:exam_time: exam_time 2023-11-13T21:13:00Z before admission 2023-11-29T21:13:00Z,123|285|191|6|59|IRM|13/11/2023 22:13|Crane|realise|pacs://chu-montclair/285/123|No acute findings.
+A,radiology,138,imagerie.txt:140,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 305 is in the quarantine | parent_quarantined:order_id: orders 213 is in the quarantine,138|305|213|24|60|ECHOGRAPHIE|13/09/2024 15:57|Abdomen|realise|pacs://chu-montclair/305/138|Consolidation in the right lower lobe.
+A,radiology,148,imagerie.txt:150,rejected,,missing_required:referring_professional_id;ambiguous_date:exam_time,missing_required:referring_professional_id: raw value '' | ambiguous_date:exam_time: '06-07-2025 05:22': day/month order cannot be decided,148|330|229||64|IRM|06-07-2025 05:22|N/A|REALISE|pacs://chu-montclair/330/148|No fracture seen.
+A,radiology,149,imagerie.txt:151,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 334 is in the quarantine | parent_quarantined:order_id: orders 232 is in the quarantine,149|334|232|13|69|RADIO THORAX|15/02/2023 09:11|Thorax|REALISE|pacs://chu-montclair/334/149|Small pleural effusion.
+A,radiology,151,imagerie.txt:160,duplicate_removed,151,exact_duplicate,exact_duplicate: same ID and same values as imagerie.txt:153,151|336|234|17|62|RADIO THORAX|20/11/2022 23:21|Thorax|REALISE|pacs://chu-montclair/336/151|Findings consistent with clinical suspicion.
+A,radiology,165,imagerie.txt:168,rejected,,unmappable_label:exam_status,unmappable_label:exam_status: 'EN ATTENTE CR' has no standard exam_status value,165|374|261|15|68|ECHOGRAPHIE|19/11/2024 16:26|Abdomen|EN ATTENTE CR|pacs://chu-montclair/374/165|No fracture seen.
+A,radiology,166,imagerie.txt:169,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 380 is in the quarantine | parent_quarantined:order_id: orders 263 is in the quarantine,166|380|263|3|60|IRM|20/05/2023 11:23|Crane|REALISE|-|No fracture seen.
+A,radiology,167,imagerie.txt:170,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 380 is in the quarantine | parent_quarantined:order_id: orders 264 is in the quarantine,167|380|264|22|66|SCANNER|20/05/2023 04:44|Abdomen|REALISE|pacs://chu-montclair/380/167|No acute findings.
+A,radiology,175,imagerie.txt:178,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 277 is in the quarantine,175|398|277|8|61|ECHOGRAPHIE|19/11/2024 14:19|Abdomen|ANNULE|pacs://chu-montclair/398/175|
+A,radiology,184,imagerie.txt:187,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 289 is in the quarantine,184|420|289|5|63|SCANNER|20/12/2024 17:00| Abdomen |REALISE|pacs://chu-montclair/420/184|Mild degenerative changes.
+A,radiology,198,imagerie.txt:201,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '',198||313|22|68|ECHOGRAPHIE|08/10/2022 04:22|Abdomen|REALISE|pacs://chu-montclair/454/198|No acute findings.
+A,radiology,210,imagerie.txt:213,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 328 is in the quarantine,210|471|328|14|66|SCANNER|20/09/2023 00:39|Abdomen|REALISE|pacs://chu-montclair/471/210|-
+A,radiology,212,imagerie.txt:215,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 331 is in the quarantine,212|473|331|8|68|RADIO THORAX|28/08/2024 05:36|?|Fait|pacs://chu-montclair/473/212|Mild degenerative changes.
+A,radiology,214,imagerie.txt:217,rejected,,missing_required:exam_status,missing_required:exam_status: raw value '?',214|477|335|16|60|ECHOGRAPHIE|02/12/2024 03:03|Abdomen|?|pacs://chu-montclair/477/214|
+A,radiology,215,imagerie.txt:228,duplicate_removed,215,exact_duplicate,exact_duplicate: same ID and same values as imagerie.txt:218,215|480|338|14|62|IRM|12/04/2023 19:24|CRANE|ANNULE|pacs://chu-montclair/480/215|
+A,radiology,223,imagerie.txt:229,duplicate_removed,223,exact_duplicate,exact_duplicate: same ID and same values as imagerie.txt:226,223|490||11|62|RADIO THORAX|16/02/2022 17:48|Thorax|REALISE|pacs://chu-montclair/490/223|Findings consistent with clinical suspicion.
+A,radiology,214,imagerie.txt:231,duplicate_removed,214,exact_duplicate,exact_duplicate: same ID and same values as imagerie.txt:217,214|477|335|16|60|ECHOGRAPHIE|02/12/2024 03:03|Abdomen|?|pacs://chu-montclair/477/214|
+A,radiology,234,imagerie.txt:240,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 370 is in the quarantine,234|515|370|3|61|SCANNER|01/10/2025 12:48|Abdomen|REALISE|pacs://chu-montclair/515/234|Findings consistent with clinical suspicion.
+A,radiology,235,imagerie.txt:241,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 372 is in the quarantine,235|517|372|1|63|IRM|21/12/2024 23:08|Crane|REALISE|pacs://chu-montclair/517/235|No fracture seen.
+A,radiology,244,imagerie.txt:250,rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 945 does not exist in source A,244|527|382|945|66|IRM|15/06/2024 02:05|Crane|REALISE|pacs://chu-montclair/527/244|Small pleural effusion.
+A,radiology,248,imagerie.txt:254,rejected,,invalid_date:exam_time,invalid_date:exam_time: '30/02/2023 22:40': day is out of range for month,248|529|386|23|59|ECHOGRAPHIE|30/02/2023 22:40|Abdomen|REALISE|pacs://chu-montclair/529/248|Mild degenerative changes.
+A,radiology,252,imagerie.txt:258,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 542 is in the quarantine | parent_quarantined:order_id: orders 390 is in the quarantine,252|542|390|23|65|ECHOGRAPHIE|09/05/2022 10:38|Abdomen|REALISE|pacs://chu-montclair/542/252|No acute findings.
+A,radiology,253,imagerie.txt:259,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 391 is in the quarantine,253|543|391|3|59|radio thorax|21/08/2023 23:47|Thorax|REALISE|pacs://chu-montclair/543/253|Consolidation in the right lower lobe.
+A,radiology,255,imagerie.txt:261,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 547 is in the quarantine | parent_quarantined:order_id: orders 396 is in the quarantine,255|547|396|13|64|ECHOGRAPHIE|31/08/2023 18:37|Abdomen|PROGRAMME|pacs://chu-montclair/547/255|
+A,radiology,260,imagerie.txt:266,rejected,,chronology:exam_time,chronology:exam_time: exam_time 2023-04-16T23:03:00Z after discharge 2023-04-08T23:03:00Z,260|554||10|70|RADIO THORAX|04-17-2023 01:03|Thorax|REALISE|pacs://chu-montclair/554/260|No fracture seen.
+A,radiology,274,imagerie.txt:280,rejected,,chronology:exam_time,chronology:exam_time: exam_time 2024-03-03T17:14:00Z after discharge 2024-02-23T17:14:00Z,274|577||11|65|RADIO THORAX|03/03/2024 18:14|Thorax|REALISE|pacs://chu-montclair/577/274|Consolidation in the right lower lobe.
+A,radiology,285,imagerie.txt:291,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 447 is in the quarantine,285|607|447|21|68|IRM|22.08.2022 13:00|Crane|PROGRAMME|pacs://chu-montclair/607/285|
+A,radiology,292,imagerie.txt:298,rejected,,missing_required:exam_status,missing_required:exam_status: raw value '-',292|624|458|20|69|RADIO THORAX|25/01/2025 13:39|Thorax|-|pacs://chu-montclair/624/292|Mild degenerative changes.
+A,radiology,295,imagerie.txt:301,rejected,,chronology:exam_time,chronology:exam_time: exam_time 2023-02-24T16:50:00Z before admission 2023-03-08T16:50:00Z,295|628|463|5|67|ECHOGRAPHIE|24/02/2023 17:50|Abdomen|REALISE|pacs://chu-montclair/628/295| Small pleural effusion. 
+A,radiology,299,imagerie.txt:305,rejected,,orphan_reference:order_id,orphan_reference:order_id: orders 3418 does not exist in source A,299|633|3418|18|59|SCANNER|18/05/2023 10:40|  Abdomen|REALISE|pacs://chu-montclair/633/299|No fracture seen.
+A,radiology,301,imagerie.txt:307,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 472 is in the quarantine,301|637|472|7|60|SCANNER   |21/01/2025 21:30|Abdomen|REALISE|pacs://chu-montclair/637/301|Consolidation in the right lower lobe.
+A,radiology,306,imagerie.txt:312,rejected,,chronology:exam_time,chronology:exam_time: exam_time 2025-01-06T11:07:00Z after discharge 2024-12-19T11:07:00Z,306|644|477|14|67|RADIO THORAX|06/01/2025 12:07|Thorax|Fait|pacs://chu-montclair/644/306|No fracture seen.
+A,radiology,312,imagerie.txt:318,rejected,,missing_required:admission_id,missing_required:admission_id: raw value '?',312|?|487|1|62|RADIO THORAX|30/05/2022 04:42|Thorax|REALISE|pacs://chu-montclair/651/312|Mild degenerative changes.
+A,radiology,308,imagerie.txt:322,duplicate_removed,308,exact_duplicate,exact_duplicate: same ID and same values as imagerie.txt:314,308|647|481|15|61|ECHOGRAPHIE|27/12/2022 04:43|Abdomen|REALISE|pacs://chu-montclair/647/308|Mild degenerative changes.
+A,radiology,318,imagerie.txt:325,rejected,,orphan_reference:order_id,orphan_reference:order_id: orders 1639 does not exist in source A,318|666|1639|7|68|SCANNER|28/04/2023 10:13|Abdomen|REALISE|pacs://chu-montclair/666/318|Consolidation in the right lower lobe.
+A,radiology,320,imagerie.txt:327,rejected,,missing_required:admission_id,missing_required:admission_id: raw value 'null',320|null|500|2|68|ECHOGRAPHIE|07/02/2024 11:20||REALISE|pacs://chu-montclair/669/320|No acute findings.
+A,radiology,325,imagerie.txt:332,duplicate_removed,271,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 271",325|575|424|8|70|ECHOGRAPHIE|08/05/2023 17:56|NULL|REALISE|pacs://chu-montclair/575/271|No fracture seen.
+A,radiology,326,imagerie.txt:333,duplicate_removed,218,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 218",326|483|342|20|69|IRM|24/08/2024 15:52|Crane|PROGRAMME|pacs://chu-montclair/483/218|
+A,radiology,327,imagerie.txt:334,duplicate_removed,227,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 227",327|502|357|22|61|ECHOGRAPHIE|22/05/2024 17:43|Abdomen|  REALISE |pacs://chu-montclair/502/227|Mild degenerative changes.
+A,radiology,328,imagerie.txt:335,duplicate_removed,178,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 178",328|409|284|1|64|IRM|09/12/2022 22:21|Crane|REALISE|pacs://chu-montclair/409/178|small pleural effusion.
+A,radiology,329,imagerie.txt:336,duplicate_removed,267,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 267",329|565|415|4|69|SCANNER|26/09/2023 01:45|Abdomen|REALISE|pacs://chu-montclair/565/267|FINDINGS CONSISTENT WITH CLINICAL SUSPICION.
+A,radiology,330,imagerie.txt:337,duplicate_removed,196,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 196",330|451|309|2|59|RADIO THORAX|06/01/2025 19:44|?|REALISE|pacs://chu-montclair/451/196|No acute findings.
+A,radiology,331,imagerie.txt:338,duplicate_removed,321,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 321",331|670|501|24|60| irm|26/04/2024 12:04|?|REALISE|pacs://chu-montclair/670/321|No fracture seen.
+A,radiology,332,imagerie.txt:339,duplicate_removed,72,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 72",332|168|116|9|65|IRM|19/09/2023 12:54|Crane |PROGRAMME|pacs://chu-montclair/168/72|
+A,radiology,333,imagerie.txt:340,duplicate_removed,151,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 151",333|336|234|17|62|RADIO THORAX|20/11/2022 23:21|Thorax|realise|pacs://chu-montclair/336/151|Findings consistent with clinical suspicion.
+B,radiology,8,radiology.csv:14,duplicate_removed,8,exact_duplicate,exact_duplicate: same ID and same values as radiology.csv:9,"8,28,22,65,11,X-Ray,03/03/2022 07:25,Chest,  Done,http://pacs.unh.local/viewer?acc=UNH402240,"
+B,radiology,15,radiology.csv:17,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 45 is in the quarantine,"15,57,45,39,30,Ultrasound,09/04/2022 14:57,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH553956,Gallstones with gallbladder wall thickening."
+B,radiology,17,radiology.csv:19,rejected,,chronology:exam_time,chronology:exam_time: exam_time 2022-04-22T02:00:00Z before admission 2022-04-23T06:24:00Z,"17,63,52,78,58,U/S,22/04/2022 05:00,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH392838,Gallstones with gallbladder wall thickening."
+B,radiology,23,radiology.csv:25,rejected,,unmappable_label:exam_status,unmappable_label:exam_status: 'DNA' has no standard exam_status value,"23,92,87,46,11,X-Ray,15/06/2022 10:44,Chest,DNA,http://pacs.unh.local/viewer?acc=UNH122017,No acute cardiopulmonary abnormality."
+B,radiology,25,radiology.csv:27,rejected,,missing_required:referring_professional_id,missing_required:referring_professional_id: raw value '',"25,100,94,,54,Ultrasound,29/06/2022 01:26,Kidneys,Done,,""Normal sized kidneys, no hydronephrosis."""
+B,radiology,26,radiology.csv:28,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 104 is in the quarantine,"26,112,104,25,54,CT Scan,12/07/2022 00:24,Head,Cancelled,,"
+B,radiology,30,radiology.csv:32,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 129 is in the quarantine | parent_quarantined:order_id: orders 117 is in the quarantine,"30,129,117,70,5,X-Ray,12/08/2022 18:57,,Done,http://pacs.unh.local/viewer?acc=UNH197955, Right lower lobe consolidation consistent with pneumonia."
+B,radiology,31,radiology.csv:33,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 123 is in the quarantine,"31,136,123,80,58,X-Ray,21/08/2022 14:11,Chest,Reported,http://pacs.unh.local/viewer?acc=UNH474649,Right lower lobe consolidation consistent with pneumonia."
+B,radiology,32,radiology.csv:34,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 127 is in the quarantine,"32,143,127,39,54,Ultrasound,09/09/2022 07:09,?,Done,http://pacs.unh.local/viewer?acc=UNH892618,Gallstones with gallbladder wall thickening."
+B,radiology,37,radiology.csv:39,rejected,,chronology:exam_time,chronology:exam_time: exam_time 2022-09-20T03:02:00Z before admission 2022-10-08T05:46:00Z,"37,160,,78,5,Sonography,20/09/2022 06:02,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH373518,null"
+B,radiology,38,radiology.csv:40,rejected,,invalid_date:exam_time,invalid_date:exam_time: '17/10/2022 29:13': hour must be in 0..23,"38,165,148,69,30,CT Scan,17/10/2022 29:13,Head,Done,http://pacs.unh.local/viewer?acc=UNH628283,No intracranial haemorrhage. No skull fracture."
+B,radiology,54,radiology.csv:56,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 219 is in the quarantine,"54,249,219,71,54,Ultrasound,13/03/2023 23:20,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH649899,Small echogenic kidneys bilaterally."
+B,radiology,55,radiology.csv:57,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 255 is in the quarantine | parent_quarantined:order_id: orders 223 is in the quarantine,"55,255,223,46,58,X-Ray,22/03/2023 16:35,Chest,Done,http://pacs.unh.local/viewer?acc=UNH970730,No acute cardiopulmonary abnormality."
+B,radiology,58,radiology.csv:60,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 266 is in the quarantine | parent_quarantined:order_id: orders 236 is in the quarantine,"58,266,236,65,54,X-Ray,2023-04-13T18:44,Chest,Done,http://pacs.unh.local/viewer?acc=UNH668393,No acute cardiopulmonary abnormality."
+B,radiology,67,radiology.csv:69,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 283 is in the quarantine,"67,316,283,4,11,X-Ray,20/06/2023 18:09,Chest,Done,http://pacs.unh.local/viewer?acc=UNH232745,No acute cardiopulmonary abnormality."
+B,radiology,71,radiology.csv:73,rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 115 does not exist in source B,"71,335,305,115,58,MRI,04/08/2023 13:54,Brain,Done,http://pacs.unh.local/viewer?acc=UNH257730,No structural lesion identified."
+B,radiology,76,radiology.csv:78,rejected,,parent_quarantined:order_id;orphan_reference:technician_id,parent_quarantined:order_id: orders 328 is in the quarantine | orphan_reference:technician_id: professionals 130 does not exist in source B,"76,359,328,42,130,C.T.,06/09/2023 01:28,Head,Done,http://pacs.unh.local/viewer?acc=UNH728823,No intracranial haemorrhage. No skull fracture."
+B,radiology,88,radiology.csv:90,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 398 is in the quarantine,"88,434,398,69,30,X-Ray,19/01/2024 04:08,Chest,Done,http://pacs.unh.local/viewer?acc=UNH507744,Cardiomegaly with bilateral pleural effusions."
+B,radiology,92,radiology.csv:94,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 423 is in the quarantine,"92,453,423,69,11,Ultrasound,20/02/2024 11:39,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH503316,null"
+B,radiology,103,radiology.csv:105,rejected,,chronology:exam_time,chronology:exam_time: exam_time 2024-04-11T03:50:00Z before admission 2024-04-11T10:55:00Z,"103,482,449,42,11,X-Ray,2024-04-11T06:50,Chest,Done,http://pacs.unh.local/viewer?acc=UNH900098,Right lower lobe consolidation consistent with pneumonia."
+B,radiology,105,radiology.csv:107,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 461 is in the quarantine,"105,494,461,10,11,X-Ray,07/05/2024 12:51,Chest,Done,http://pacs.unh.local/viewer?acc=UNH171023,No acute cardiopulmonary abnormality."
+B,radiology,108,radiology.csv:110,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 514 is in the quarantine | parent_quarantined:order_id: orders 483 is in the quarantine,"108,514,483,73,58,XRAY,02/06/2024 14:43,Chest,Done,http://pacs.unh.local/viewer?acc=UNH779472,No acute cardiopulmonary abnormality."
+B,radiology,109,radiology.csv:111,rejected,,missing_required:technician_id,missing_required:technician_id: raw value '-',"109,513,484,38,-,X-Ray,03/06/2024 17:44,Knee,Done,http://pacs.unh.local/viewer?acc=UNH736025,""Joint space narrowing and osteophytes, medial compartment."""
+B,radiology,116,radiology.csv:118,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 510 is in the quarantine,"116,538,510,39,54,CT Scan,12/07/2024 15:27,Chest,Done,http://pacs.unh.local/viewer?acc=UNH571476,?"
+B,radiology,117,radiology.csv:119,rejected,,invalid_date:exam_time,invalid_date:exam_time: '31/09/2024 05:50': day is out of range for month,"117,550,525,49,54,Ultrasound,31/09/2024 05:50,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH988199,Small echogenic kidneys bilaterally."
+B,radiology,62,radiology.csv:122,duplicate_removed,62,exact_duplicate,exact_duplicate: same ID and same values as radiology.csv:64,"62,271,240,19,11,X-Ray,19/04/2023 15:40,Chest,Done,http://pacs.unh.local/viewer?acc=UNH236783,Bilateral diffuse opacities."
+B,radiology,130,radiology.csv:133,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 587 is in the quarantine,"130,626,587,80,58,Plain Film,02/12/2024 10:12,Chest,Done,http://pacs.unh.local/viewer?acc=UNH516929,Bilateral diffuse opacities."
+B,radiology,132,radiology.csv:135,rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 1090 does not exist in source B,"132,1090,592,38,58,X-Ray,05/12/2024 12:01,Chest,Done,http://pacs.unh.local/viewer?acc=UNH968541,null"
+B,radiology,139,radiology.csv:142,rejected,,missing_required:exam_status,missing_required:exam_status: raw value '-',"139,646,607,66,30,XRAY,09/01/2025 09:57,Chest,-,http://pacs.unh.local/viewer?acc=UNH750448,Bilateral diffuse opacities."
+B,radiology,147,radiology.csv:150,rejected,,ambiguous_date:exam_time,ambiguous_date:exam_time: '12-02-2025 11:46': day/month order cannot be decided,"147,667,632,39,54,MRI,12-02-2025 11:46,BRAIN,Done,http://pacs.unh.local/viewer?acc=UNH273782,No structural lesion identified."
+B,radiology,154,radiology.csv:157,rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 109 does not exist in source B,"154,704,662,109,58,CT Scan,21/04/2025 14:49,Head,Done,http://pacs.unh.local/viewer?acc=UNH568353,No   intracranial haemorrhage. No skull fracture."
+B,radiology,156,radiology.csv:159,rejected,,ambiguous_date:exam_time,ambiguous_date:exam_time: '04-05-2025 19:55': day/month order cannot be decided,"156,717,678,43,54,X-Ray,04-05-2025 19:55,Chest,Reported,http://pacs.unh.local/viewer?acc=UNH798559,Right lower lobe consolidation consistent with pneumonia."
+B,radiology,163,radiology.csv:169,duplicate_removed,163,exact_duplicate,exact_duplicate: same ID and same values as radiology.csv:166,"163,747,708,70,30,Ultrasound,19/06/2025 01:37,Kidneys,Done,http://pacs.unh.local/viewer?acc=UNH302644,""Normal sized kidneys, no hydronephrosis."""
+B,radiology,170,radiology.csv:174,rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 734 is in the quarantine,"170,781,734,42,54,CT Scan,11/08/2025 06:33,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH858025,""Peripancreatic fat stranding, no necrosis."""
+B,radiology,137,radiology.csv:177,duplicate_removed,137,exact_duplicate,exact_duplicate: same ID and same values as radiology.csv:140,"137,639,600,78,11,X-Ray,22/12/2024 16:41,Chest,Done,http://pacs.unh.local/viewer?acc=UNH597312,No acute cardiopulmonary abnormality."
+B,radiology,177,radiology.csv:182,rejected,,missing_required:exam_time,missing_required:exam_time: raw value 'null',"177,797,,65,54,X-Ray,null,Chest,Done,http://pacs.unh.local/viewer?acc=UNH987510,No acute cardiopulmonary abnormality."
+B,radiology,178,radiology.csv:183,rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 800 is in the quarantine | parent_quarantined:order_id: orders 756 is in the quarantine,"178,800,756,21,58,Ultrasound,08/09/2025 22:58,Abdomen,Done,http://pacs.unh.local/viewer?acc=UNH317125,""Multiple gallstones, no wall thickening."""
+B,radiology,182,radiology.csv:187,rejected,,chronology:exam_time,chronology:exam_time: exam_time 2025-10-09T13:57:00Z before admission 2025-10-09T17:57:00Z,"182,817,773,66,30,Ultrasound,09/10/2025 16:57,N/A,Done,http://pacs.unh.local/viewer?acc=UNH764377,Gallstones with gallbladder wall thickening."
+B,radiology,187,radiology.csv:192,duplicate_removed,186,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 186","187,834,785,46,54,CT Scan,10/30/2025 03:13 AM,Head,Booked,,"
+B,radiology,188,radiology.csv:193,duplicate_removed,5,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 5","188,26,18,78,63,X-Ray,26/02/2022 20:35,chest,Done,http://pacs.unh.local/viewer?acc=UNH221320,"
+B,radiology,189,radiology.csv:194,duplicate_removed,138,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 138","189,643,603,25,63,X-Ray,06/01/2025 15:43,Chest,Done,http://pacs.unh.local/viewer?acc=UNH961110,No acute cardiopulmonary abnormality."
+B,radiology,190,radiology.csv:195,duplicate_removed,152,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 152","190,698,656,39,11,X-Ray,15/04/2025 12:58,Chest,Done,http://pacs.unh.local/viewer?acc=UNH360997,No acute cardiopulmonary abnormality."
+B,radiology,191,radiology.csv:196,duplicate_removed,2,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 2","191,13,9,60,58,X-RAY,13/02/2022 10:15,Chest,Done,,No acute cardiopulmonary abnormality."
+C,radiology,2,admissions/admission[7]/labOrder[12]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 5 is in the quarantine,"<imaging id=""2"">
+          <modality>CT</modality>
+          <performedAt>2023-05-02T12:53:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/7-2</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0014</referrer>
+          <radiographer>S0065</radiographer>
+        </imaging>"
+C,radiology,4,admissions/admission[10]/labOrder[13]/imaging[1],rejected,,invalid_date:exam_time,invalid_date:exam_time: '2023-03-32T05:39:00+08:00': day is out of range for month,"<imaging id=""4"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2023-03-32T05:39:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/10-4</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0003</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,7,admissions/admission[15]/labOrder[16]/imaging[1],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 15 is in the quarantine | parent_quarantined:order_id: orders 12 is in the quarantine,"<imaging id=""7"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2024-04-05T03:15:00+08:00</performedAt>
+          <bodyPart>null</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/15-7</pacsUrl>
+          <referrer>S0002</referrer>
+          <radiographer>S0070</radiographer>
+        </imaging>"
+C,radiology,8,admissions/admission[16]/labOrder[11]/imaging[1],rejected,,missing_required:technician_id,missing_required:technician_id: raw value 'N/A',"<imaging id=""8"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2024-07-18T15:10:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/16-8</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0024</referrer>
+          <radiographer>N/A</radiographer>
+        </imaging>"
+C,radiology,11,admissions/admission[20]/labOrder[12]/imaging[1],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 20 is in the quarantine | parent_quarantined:order_id: orders 19 is in the quarantine,"<imaging id=""11"">
+          <modality>MRI</modality>
+          <performedAt>2024-09-14T00:43:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/20-11</pacsUrl>
+          <referrer>S0010</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,12,admissions/admission[21]/labOrder[13]/imaging[1],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 21 is in the quarantine | parent_quarantined:order_id: orders 20 is in the quarantine,"<imaging id=""12"">
+          <modality>MRI</modality>
+          <performedAt>2025-01-16T16:15:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Completed</status>
+          <pacsUrl>https://pacs.srmc.example/study/21-12</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0020</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,23,admissions/admission[40]/labOrder[12]/imaging[1],rejected,,invalid_date:exam_time,invalid_date:exam_time: '2024-13-14T13:27:00+08:00': month must be in 1..12,"<imaging id=""23"">
+          <modality>MRI</modality>
+          <performedAt>2024-13-14T13:27:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/40-23</pacsUrl>
+          <report>N/A</report>
+          <referrer>S0022</referrer>
+          <radiographer>S0067</radiographer>
+        </imaging>"
+C,radiology,31,admissions/admission[66]/labOrder[17]/imaging[1],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2024-01-28T01:31:00Z after discharge 2024-01-19T01:31:00Z,"<imaging id=""31"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-01-28T09:31:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/65-31</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0014</referrer>
+          <radiographer>S0069</radiographer>
+        </imaging>"
+C,radiology,38,admissions/admission[82]/imaging[15],rejected,,invalid_date:exam_time,invalid_date:exam_time: 'unknown date': not a recognised date format,"<imaging id=""38"">
+        <modality>CT</modality>
+        <performedAt>unknown date</performedAt>
+        <bodyPart>-</bodyPart>
+        <status>Reported</status>
+        <pacsUrl>https://pacs.srmc.example/study/80-38</pacsUrl>
+        <report>Mild degenerative changes.</report>
+        <referrer>S0007</referrer>
+        <radiographer>S0069</radiographer>
+      </imaging>"
+C,radiology,334,admissions/admission[105]/labOrder[15]/imaging[2],duplicate_removed,48,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 48","<imaging id=""334"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2024-09-29T05:08:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Completed</status>
+          <pacsUrl>https://pacs.srmc.example/study/103-48</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0016</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,49,admissions/admission[108]/labOrder[14]/imaging[1],rejected,,missing_required:exam_type,missing_required:exam_type: raw value 'N/A',"<imaging id=""49"">
+          <modality>N/A</modality>
+          <performedAt>2024-11-17T19:25:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/105-49</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0005</referrer>
+          <radiographer>S0063</radiographer>
+        </imaging>"
+C,radiology,50,admissions/admission[113]/labOrder[12]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 83 is in the quarantine,"<imaging id=""50"">
+          <modality>Ultrasound</modality>
+          <performedAt>2023-07-14T16:42:00+08:00</performedAt>
+          <bodyPart>N/A</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/110-50</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0021</referrer>
+          <radiographer>S0063</radiographer>
+        </imaging>"
+C,radiology,52,admissions/admission[114]/labOrder[14]/imaging[1],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2023-09-05T19:42:00Z after discharge 2023-09-01T19:42:00Z,"<imaging id=""52"">
+          <modality>Ultrasound</modality>
+          <performedAt>2023-09-05T19:42:00Z</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>?</pacsUrl>
+          <report>Mild degenerative changes.</report>
+          <referrer>S0018</referrer>
+          <radiographer>S0069</radiographer>
+        </imaging>"
+C,radiology,331,admissions/admission[116]/labOrder[16]/imaging[2],duplicate_removed,53,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 53","<imaging id=""331"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>10 May 2024 12:23 AM</performedAt>
+          <bodyPart>CHEST</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/113-53</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0009</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,55,admissions/admission[118]/labOrder[15]/imaging[1],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2022-09-13T08:50:00Z after discharge 2022-08-27T08:50:00Z,"<imaging id=""55"">
+          <modality>MRI</modality>
+          <performedAt>2022-09-13T16:50:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/115-55</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0012</referrer>
+          <radiographer>S0062</radiographer>
+        </imaging>"
+C,radiology,56,admissions/admission[123]/labOrder[15]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 89 is in the quarantine,"<imaging id=""56"">
+          <modality>Ultrasound</modality>
+          <performedAt>2023-05-22T13:15:00+08:00</performedAt>
+          <bodyPart />
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/120-56</pacsUrl>
+          <referrer>S0024</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,57,admissions/admission[124]/labOrder[12]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 90 is in the quarantine,"<imaging id=""57"">
+          <modality>CT</modality>
+          <performedAt>2022-08-20T02:55:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/121-57</pacsUrl>
+          <report>?</report>
+          <referrer>S0023</referrer>
+          <radiographer>S0065</radiographer>
+        </imaging>"
+C,radiology,61,admissions/admission[134]/labOrder[13]/imaging[1],rejected,,invalid_date:exam_time,invalid_date:exam_time: 'TBC': not a recognised date format,"<imaging id=""61"">
+          <modality>MRI</modality>
+          <performedAt>TBC</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/130-61</pacsUrl>
+          <report>Mild degenerative changes.</report>
+          <referrer>S0018</referrer>
+          <radiographer>S0059</radiographer>
+        </imaging>"
+C,radiology,64,admissions/admission[138]/labOrder[18]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 99 is in the quarantine,"<imaging id=""64"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2022-06-05 08:35</performedAt>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/134-64</pacsUrl>
+          <report>RIGHT LOWER ZONE CONSOLIDATION.</report>
+          <referrer>S0005</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,336,admissions/admission[141]/labOrder[17]/imaging[2],duplicate_removed,65,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 65","<imaging id=""336"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2023-01-21T16:57:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/137-65</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0008</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,69,admissions/admission[155]/labOrder[21]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 105 is in the quarantine,"<imaging id=""69"">
+          <modality>CT</modality>
+          <performedAt>2023-08-15T11:07:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/151-69</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0009</referrer>
+          <radiographer>S0061</radiographer>
+        </imaging>"
+C,radiology,335,admissions/admission[168]/labOrder[13]/imaging[2],duplicate_removed,71,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 71","<imaging id=""335"">
+          <modality> CT</modality>
+          <performedAt>2024-06-28T14:28:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/164-71</pacsUrl>
+          <report>Mild degenerative changes.</report>
+          <referrer>S0022</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,75,admissions/admission[172]/labOrder[15]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 118 is in the quarantine,"<imaging id=""75"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-08-21T06:56:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/168-75</pacsUrl>
+          <referrer>S0001</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>"
+C,radiology,332,admissions/admission[172]/labOrder[15]/imaging[2],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 118 is in the quarantine,"<imaging id=""332"">
+          <modality>ultrasound</modality>
+          <performedAt>21 Aug 2024 06:56 AM</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/168-75</pacsUrl>
+          <referrer>S0001</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>"
+C,radiology,76,admissions/admission[173]/labOrder[13]/imaging[1],rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 597 does not exist in source C,"<imaging id=""76"">
+          <modality>Ultrasound</modality>
+          <performedAt>2023-02-24T20:37:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/169-76</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0597</referrer>
+          <radiographer>S0070</radiographer>
+        </imaging>"
+C,radiology,78,admissions/admission[175]/labOrder[14]/imaging[1],rejected,,missing_required:exam_type,missing_required:exam_type: raw value '-',"<imaging id=""78"">
+          <modality>-</modality>
+          <performedAt>15/02/2024 02:54</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/171-78</pacsUrl>
+          <report>Findings in keeping with the clinical suspicion.</report>
+          <referrer>S0015</referrer>
+          <radiographer>S0065</radiographer>
+        </imaging>"
+C,radiology,79,admissions/admission[177]/labOrder[15]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 123 is in the quarantine,"<imaging id=""79"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2023-03-17T09:12:00+08:00</performedAt>
+          <bodyPart />
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/173-79</pacsUrl>
+          <report>Mild degenerative changes.</report>
+          <referrer>S0017</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,84,admissions/admission[190]/labOrder[13]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 136 is in the quarantine,"<imaging id=""84"">
+          <modality>CT</modality>
+          <performedAt>2024-02-02T21:20:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/186-84</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0010</referrer>
+          <radiographer>S0063</radiographer>
+        </imaging>"
+C,radiology,94,admissions/admission[216]/labOrder[15]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 154 is in the quarantine,"<imaging id=""94"">
+          <modality>MRI</modality>
+          <performedAt>2024-03-30T15:53:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/211-94</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0024</referrer>
+          <radiographer>S0062</radiographer>
+        </imaging>"
+C,radiology,95,admissions/admission[223]/labOrder[15]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 158 is in the quarantine,"<imaging id=""95"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>20-06-2023 10:53</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>?</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0020</referrer>
+          <radiographer>S0069</radiographer>
+        </imaging>"
+C,radiology,102,admissions/admission[233]/labOrder[14]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 165 is in the quarantine,"<imaging id=""102"">
+          <modality>MRI</modality>
+          <performedAt>2024-02-20T18:13:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/227-102</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0005</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,115,admissions/admission[267]/labOrder[13]/imaging[1],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2022-09-29T10:30:00Z after discharge 2022-09-09T10:30:00Z,"<imaging id=""115"">
+          <modality>CT</modality>
+          <performedAt>2022-09-29T18:30:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/261-115</pacsUrl>
+          <report>Findings in keeping with the clinical suspicion.</report>
+          <referrer>S0002</referrer>
+          <radiographer>S0070</radiographer>
+        </imaging>"
+C,radiology,340,admissions/admission[273]/labOrder[15]/imaging[2],duplicate_removed,117,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 117","<imaging id=""340"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2023-11-11T07:47:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>REPORTED</status>
+          <pacsUrl>https://pacs.srmc.example/study/267-117</pacsUrl>
+          <report>No Fracture Seen.</report>
+          <referrer>S0014</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,121,admissions/admission[284]/labOrder[14]/imaging[1],rejected,,missing_required:exam_time,missing_required:exam_time: raw value '-',"<imaging id=""121"">
+          <modality>MRI</modality>
+          <performedAt>-</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/278-121</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0004</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,131,admissions/admission[310]/labOrder[17]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 210 is in the quarantine,"<imaging id=""131"">
+          <modality>MRI</modality>
+          <performedAt>2023-01-07T14:50:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>null</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0008</referrer>
+          <radiographer>S0069</radiographer>
+        </imaging>"
+C,radiology,140,admissions/admission[323]/labOrder[13]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 220 is in the quarantine,"<imaging id=""140"">
+          <modality>MRI</modality>
+          <performedAt>2024-05-08T21:51:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/317-140</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0004</referrer>
+          <radiographer>S0061</radiographer>
+        </imaging>"
+C,radiology,141,admissions/admission[325]/labOrder[12]/imaging[1],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2025-01-04T05:13:00Z before admission 2025-01-17T05:13:00Z,"<imaging id=""141"">
+          <modality>Ultrasound</modality>
+          <performedAt>2025-01-04T13:13:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Done</status>
+          <pacsUrl>https://pacs.srmc.example/study/319-141</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0005</referrer>
+          <radiographer>S0062</radiographer>
+        </imaging>"
+C,radiology,142,admissions/admission[330]/imaging[15],rejected,,orphan_reference:order_id,orphan_reference:order_id: orders 1342 does not exist in source C,"<imaging id=""142"" orderRef=""1342"">
+        <modality>Ultrasound</modality>
+        <performedAt>2025-06-12T07:45:00+08:00</performedAt>
+        <bodyPart>Abdomen</bodyPart>
+        <status>Reported</status>
+        <pacsUrl>https://pacs.srmc.example/study/324-142</pacsUrl>
+        <report>Small left pleural effusion.</report>
+        <referrer>S0003</referrer>
+        <radiographer>S0068</radiographer>
+      </imaging>"
+C,radiology,144,admissions/admission[332]/labOrder[16]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 228 is in the quarantine,"<imaging id=""144"">
+          <modality>Ultrasound</modality>
+          <performedAt>2023-01-02T16:32:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/326-144</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0008</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>"
+C,radiology,147,admissions/admission[340]/labOrder[18]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 235 is in the quarantine,"<imaging id=""147"">
+          <modality>Ultrasound</modality>
+          <performedAt>2022-11-11T17:19:00+08:00</performedAt>
+          <bodyPart>null</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/333-147</pacsUrl>
+          <referrer>S0023</referrer>
+          <radiographer>S0067</radiographer>
+        </imaging>"
+C,radiology,149,admissions/admission[346]/labOrder[14]/imaging[1],rejected,,invalid_date:exam_time,invalid_date:exam_time: '2022-09-26T25:41:00+08:00': hour must be in 0..23,"<imaging id=""149"">
+          <modality>CT</modality>
+          <performedAt>2022-09-26T25:41:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/339-149</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0003</referrer>
+          <radiographer>S0070</radiographer>
+        </imaging>"
+C,radiology,155,admissions/admission[352]/labOrder[13]/imaging[1],rejected,,unmappable_label:exam_status,unmappable_label:exam_status: 'Awaiting Report' has no standard exam_status value,"<imaging id=""155"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2022-09-26T03:05:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Awaiting Report</status>
+          <pacsUrl>https://pacs.srmc.example/study/345-155</pacsUrl>
+          <report>Findings in keeping with the clinical suspicion.</report>
+          <referrer>S0022</referrer>
+          <radiographer>S0062</radiographer>
+        </imaging>"
+C,radiology,156,admissions/admission[353]/labOrder[12]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 246 is in the quarantine,"<imaging id=""156"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2024-08-12T11:50:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/346-156</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0015</referrer>
+          <radiographer>S0059</radiographer>
+        </imaging>"
+C,radiology,168,admissions/admission[363]/labOrder[15]/imaging[2],duplicate_removed,168,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[363]/labOrder[15]/imaging[1],"<imaging id=""168"">
+          <modality>CT</modality>
+          <performedAt>2025-02-25T18:47:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/356-168</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0003</referrer>
+          <radiographer>S0065</radiographer>
+        </imaging>"
+C,radiology,172,admissions/admission[372]/labOrder[17]/imaging[1],rejected,,unmappable_label:exam_status,unmappable_label:exam_status: 'Awaiting Report' has no standard exam_status value,"<imaging id=""172"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-06-04T15:00:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Awaiting Report</status>
+          <pacsUrl>https://pacs.srmc.example/study/364-172</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0010</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>"
+C,radiology,175,admissions/admission[374]/labOrder[17]/imaging[1],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2023-07-05T13:25:00Z before admission 2023-07-11T13:25:00Z,"<imaging id=""175"">
+          <modality>MRI</modality>
+          <performedAt>2023-07-05T21:25:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/366-175</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0022</referrer>
+          <radiographer>S0065</radiographer>
+        </imaging>"
+C,radiology,176,admissions/admission[377]/labOrder[15]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 274 is in the quarantine,"<imaging id=""176"">
+          <modality>MRI</modality>
+          <performedAt>2022-07-26T18:47:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>N/A</pacsUrl>
+          <referrer>S0014</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,339,admissions/admission[377]/labOrder[15]/imaging[2],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 274 is in the quarantine,"<imaging id=""339"">
+          <modality>MRI</modality>
+          <performedAt>2022-07-26T18:47:00+08:00</performedAt>
+          <bodyPart>brain</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>N/A</pacsUrl>
+          <referrer>S0014</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,178,admissions/admission[379]/imaging[18],rejected,,missing_required:exam_type,missing_required:exam_type: raw value 'null',"<imaging id=""178"">
+        <modality>null</modality>
+        <performedAt>2024-09-08T00:12:00+08:00</performedAt>
+        <bodyPart>Abdomen</bodyPart>
+        <status>Reported</status>
+        <pacsUrl>https://pacs.srmc.example/study/371-178</pacsUrl>
+        <report>Mild degenerative changes.</report>
+        <referrer>S0008</referrer>
+        <radiographer>S0070</radiographer>
+      </imaging>"
+C,radiology,337,admissions/admission[395]/labOrder[12]/imaging[2],duplicate_removed,185,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 185","<imaging id=""337"">
+          <modality>  CT</modality>
+          <performedAt>2023-03-25T14:44:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status> Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/387-185</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0019</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,186,admissions/admission[396]/labOrder[14]/imaging[1],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 388 is in the quarantine | parent_quarantined:order_id: orders 285 is in the quarantine,"<imaging id=""186"">
+          <modality>CT</modality>
+          <performedAt>2022-09-23T14:15:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Done</status>
+          <pacsUrl>https://pacs.srmc.example/study/388-186</pacsUrl>
+          <report>N/A</report>
+          <referrer>S0016</referrer>
+          <radiographer>S0059</radiographer>
+        </imaging>"
+C,radiology,191,admissions/admission[410]/labOrder[16]/imaging[1],rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 500 does not exist in source C,"<imaging id=""191"">
+          <modality>CT</modality>
+          <performedAt>2023-02-23T14:27:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/402-191</pacsUrl>
+          <report />
+          <referrer>S0500</referrer>
+          <radiographer>S0061</radiographer>
+        </imaging>"
+C,radiology,195,admissions/admission[416]/imaging[18],rejected,,orphan_reference:order_id,orphan_reference:order_id: orders 3949 does not exist in source C,"<imaging id=""195"" orderRef=""3949"">
+        <modality>Ultrasound</modality>
+        <performedAt>2023-05-27T02:28:00+08:00</performedAt>
+        <bodyPart>Abdomen</bodyPart>
+        <status>Reported</status>
+        <pacsUrl>N/A</pacsUrl>
+        <report>Mild degenerative changes.</report>
+        <referrer>S0004</referrer>
+        <radiographer>S0062</radiographer>
+      </imaging>"
+C,radiology,198,admissions/admission[433]/labOrder[14]/imaging[2],duplicate_removed,198,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[433]/labOrder[14]/imaging[1],"<imaging id=""198"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2023-03-19T06:07:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/425-198</pacsUrl>
+          <report>?</report>
+          <referrer>S0019</referrer>
+          <radiographer>S0066</radiographer>
+        </imaging>"
+C,radiology,199,admissions/admission[435]/labOrder[14]/imaging[1],rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 771 does not exist in source C,"<imaging id=""199"">
+          <modality>CT</modality>
+          <performedAt>2022-06-01T09:43:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/427-199</pacsUrl>
+          <referrer>S0771</referrer>
+          <radiographer>S0059</radiographer>
+        </imaging>"
+C,radiology,200,admissions/admission[435]/labOrder[15]/imaging[2],duplicate_removed,200,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[435]/labOrder[15]/imaging[1],"<imaging id=""200"">
+          <modality>CT</modality>
+          <performedAt>2022-06-03T22:22:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/427-200</pacsUrl>
+          <report>findings in keeping with the clinical suspicion.</report>
+          <referrer>S0008</referrer>
+          <radiographer>S0061</radiographer>
+        </imaging>"
+C,radiology,202,admissions/admission[438]/labOrder[15]/imaging[1],rejected,,invalid_date:exam_time,invalid_date:exam_time: '2022-13-20T06:16:00+08:00': month must be in 1..12,"<imaging id=""202"">
+          <modality>CT</modality>
+          <performedAt>2022-13-20T06:16:00+08:00</performedAt>
+          <bodyPart>abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/430-202</pacsUrl>
+          <report>Mild degenerative changes.</report>
+          <referrer>S0021</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>"
+C,radiology,205,admissions/admission[442]/labOrder[13]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 319 is in the quarantine,"<imaging id=""205"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-03-20T12:31:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/434-205</pacsUrl>
+          <referrer>S0022</referrer>
+          <radiographer>S0063</radiographer>
+        </imaging>"
+C,radiology,214,admissions/admission[461]/labOrder[14]/imaging[1],rejected,,missing_required:exam_status,missing_required:exam_status: raw value None,"<imaging id=""214"">
+          <modality>CT</modality>
+          <performedAt>2024-12-25T02:14:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <pacsUrl>https://pacs.srmc.example/study/453-214</pacsUrl>
+          <report>Mild degenerative changes.</report>
+          <referrer>S0020</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,218,admissions/admission[467]/labOrder[17]/imaging[1],rejected,,invalid_date:exam_time,invalid_date:exam_time: '2024-02-30T05:42:00+08:00': day is out of range for month,"<imaging id=""218"">
+          <modality>MRI</modality>
+          <performedAt>2024-02-30T05:42:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Cancelled</status>
+          <pacsUrl>https://pacs.srmc.example/study/459-218</pacsUrl>
+          <referrer>S0006</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,223,admissions/admission[480]/labOrder[15]/imaging[1],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 472 is in the quarantine | parent_quarantined:order_id: orders 342 is in the quarantine,"<imaging id=""223"">
+          <modality>CT</modality>
+          <performedAt>2024-05-09T11:15:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Cancelled</status>
+          <pacsUrl>https://pacs.srmc.example/study/472-223</pacsUrl>
+          <referrer>S0016</referrer>
+          <radiographer>S0061</radiographer>
+        </imaging>"
+C,radiology,338,admissions/admission[495]/labOrder[15]/imaging[2],duplicate_removed,231,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 231","<imaging id=""338"">
+          <modality>MRI</modality>
+          <performedAt>2022-05-24T12:42:00+08:00</performedAt>
+          <bodyPart>N/A</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/487-231</pacsUrl>
+          <report> Right lower zone consolidation.</report>
+          <referrer>S0010</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,238,admissions/admission[519]/labOrder[15]/imaging[1],rejected,,missing_required:referring_professional_id,missing_required:referring_professional_id: raw value '?',"<imaging id=""238"">
+          <modality>CT</modality>
+          <performedAt>2022-02-05T02:19:00Z</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/510-238</pacsUrl>
+          <report>Findings in keeping with the clinical suspicion.</report>
+          <referrer>?</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,242,admissions/admission[524]/labOrder[13]/imaging[2],duplicate_removed,242,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[524]/labOrder[13]/imaging[1],"<imaging id=""242"">
+          <modality>MRI</modality>
+          <performedAt>2023-10-31T02:42:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/515-242</pacsUrl>
+          <referrer>S0005</referrer>
+          <radiographer>S0067</radiographer>
+        </imaging>"
+C,radiology,251,admissions/admission[541]/labOrder[16]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 383 is in the quarantine,"<imaging id=""251"">
+          <modality>CT</modality>
+          <performedAt>2024-04-19T20:56:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/532-251</pacsUrl>
+          <report>No acute abnormality.</report>
+          <referrer>S0020</referrer>
+          <radiographer>S0059</radiographer>
+        </imaging>"
+C,radiology,258,admissions/admission[554]/imaging[14],rejected,,orphan_reference:order_id,orphan_reference:order_id: orders 1490 does not exist in source C,"<imaging id=""258"" orderRef=""1490"">
+        <modality>CT</modality>
+        <performedAt>2022-07-12T19:26:00+08:00</performedAt>
+        <bodyPart>Abdomen</bodyPart>
+        <status>Booked</status>
+        <pacsUrl>https://pacs.srmc.example/study/545-258</pacsUrl>
+        <referrer>S0020</referrer>
+        <radiographer>S0062</radiographer>
+      </imaging>"
+C,radiology,271,admissions/admission[586]/labOrder[16]/imaging[1],rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 589 does not exist in source C,"<imaging id=""271"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2023-11-22T08:50:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/577-271</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0589</referrer>
+          <radiographer>S0062</radiographer>
+        </imaging>"
+C,radiology,274,admissions/admission[592]/labOrder[15]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 412 is in the quarantine,"<imaging id=""274"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-09-17T08:31:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0016</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,285,admissions/admission[610]/labOrder[13]/imaging[1],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2025-02-05T06:15:00Z after discharge 2025-01-29T06:15:00Z,"<imaging id=""285"">
+          <modality>MRI</modality>
+          <performedAt>2025-02-05T14:15:00+08:00</performedAt>
+          <bodyPart>Brain</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/600-285</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0004</referrer>
+          <radiographer>S0066</radiographer>
+        </imaging>"
+C,radiology,286,admissions/admission[614]/labOrder[16]/imaging[1],rejected,,orphan_reference:referring_professional_id,orphan_reference:referring_professional_id: professionals 317 does not exist in source C,"<imaging id=""286"">
+          <modality>Ultrasound</modality>
+          <performedAt>2023-04-22T06:45:00+08:00</performedAt>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/604-286</pacsUrl>
+          <report>Findings in keeping with the clinical suspicion.</report>
+          <referrer>S0317</referrer>
+          <radiographer>S0061</radiographer>
+        </imaging>"
+C,radiology,333,admissions/admission[619]/labOrder[15]/imaging[2],duplicate_removed,290,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 290","<imaging id=""333"">
+          <modality>chest x-ray</modality>
+          <performedAt>2023-02-26T16:12:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/609-290</pacsUrl>
+          <report>no  acute abnormality.</report>
+          <referrer>S0006</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>"
+C,radiology,292,admissions/admission[625]/labOrder[14]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 434 is in the quarantine,"<imaging id=""292"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2022-06-22T06:17:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/615-292</pacsUrl>
+          <report>Right lower zone consolidation.</report>
+          <referrer>S0023</referrer>
+          <radiographer>S0063</radiographer>
+        </imaging>"
+C,radiology,296,admissions/admission[648]/labOrder[13]/imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 443 is in the quarantine,"<imaging id=""296"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2025-10-25T17:13:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/637-296</pacsUrl>
+          <report>No fracture seen.</report>
+          <referrer>S0007</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,299,admissions/admission[655]/labOrder[15]/imaging[1],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 644 is in the quarantine | parent_quarantined:order_id: orders 446 is in the quarantine,"<imaging id=""299"">
+          <modality>CT</modality>
+          <performedAt>2024-11-05T11:50:00Z</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>?</pacsUrl>
+          <report>Small left pleural effusion.</report>
+          <referrer>S0022</referrer>
+          <radiographer>S0068</radiographer>
+        </imaging>"
+C,radiology,300,admissions/admission[657]/labOrder[17]/imaging[1],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 645 is in the quarantine | parent_quarantined:order_id: orders 448 is in the quarantine,"<imaging id=""300"">
+          <modality>Chest X-Ray</modality>
+          <performedAt>2025-06-06T22:13:00+08:00</performedAt>
+          <bodyPart>Chest</bodyPart>
+          <status>Booked</status>
+          <pacsUrl>https://pacs.srmc.example/study/645-300</pacsUrl>
+          <referrer>S0014</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,311,admissions/admission[671]/labOrder[13]/imaging[1],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 659 is in the quarantine | parent_quarantined:order_id: orders 463 is in the quarantine,"<imaging id=""311"">
+          <modality>Ultrasound</modality>
+          <performedAt>2024-04-24T19:01:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/659-311</pacsUrl>
+          <report>Mild degenerative changes.</report>
+          <referrer>S0009</referrer>
+          <radiographer>S0067</radiographer>
+        </imaging>"
+C,radiology,317,admissions/admission[687]/labOrder[13]/imaging[2],duplicate_removed,317,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[687]/labOrder[13]/imaging[1],"<imaging id=""317"">
+          <modality>CT</modality>
+          <performedAt>2025-07-27T01:49:00+08:00</performedAt>
+          <bodyPart>Abdomen</bodyPart>
+          <status>Reported</status>
+          <pacsUrl>https://pacs.srmc.example/study/675-317</pacsUrl>
+          <report>Findings in keeping with the clinical suspicion.</report>
+          <referrer>S0012</referrer>
+          <radiographer>S0064</radiographer>
+        </imaging>"
+C,radiology,321,admissions/admission[701]/labOrder[16]/imaging[2],duplicate_removed,321,exact_duplicate,exact_duplicate: same ID and same values as admissions/admission[701]/labOrder[16]/imaging[1],"<imaging id=""321"">
+          <modality>Ultrasound</modality>
+          <performedAt>2022-04-07T15:12:00+08:00</performedAt>
+          <bodyPart>Abdomen   </bodyPart>
+          <status>Reported</status>
+          <pacsUrl>?</pacsUrl>
+          <report>Findings in keeping with the clinical suspicion.</report>
+          <referrer>S0004</referrer>
+          <radiographer>S0060</radiographer>
+        </imaging>"
+C,radiology,273,unlinkedRecords/imaging[42],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 2960 does not exist in source C,"<imaging id=""273"" admissionRef=""E002960"">
+      <modality>Ultrasound</modality>
+      <performedAt>2024-03-03T22:31:00+08:00</performedAt>
+      <bodyPart>Abdomen</bodyPart>
+      <status>Reported</status>
+      <pacsUrl>https://pacs.srmc.example/study/582-273</pacsUrl>
+      <report>Right lower zone consolidation.</report>
+      <referrer>S0022</referrer>
+      <radiographer>S0064</radiographer>
+    </imaging>"
+C,radiology,284,unlinkedRecords/imaging[43],rejected,,orphan_reference:admission_id,orphan_reference:admission_id: admissions 4062 does not exist in source C,"<imaging id=""284"" admissionRef=""E004062"">
+      <modality>CT</modality>
+      <performedAt>2024-10-26T13:18:00+08:00</performedAt>
+      <bodyPart>Abdomen</bodyPart>
+      <status>Reported</status>
+      <pacsUrl>https://pacs.srmc.example/study/598-284</pacsUrl>
+      <report>No fracture seen.</report>
+      <referrer>S0023</referrer>
+      <radiographer>S0067</radiographer>
+    </imaging>"
+D,radiology,36,patients_p1.json:patients[16].admissions[1].imaging[0],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 205 is in the quarantine | parent_quarantined:order_id: orders 177 is in the quarantine,"{""examId"": 36, ""orderRef"": 177, ""modality"": ""US"", ""bodySite"": ""abdomen"", ""referrerId"": 6, ""radiographerId"": 35, ""performedAt"": ""2023-01-19T04:32:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC519346"", ""report"": ""Multiple gallstones, no wall thickening.""}"
+D,radiology,62,patients_p1.json:patients[71].admissions[1].imaging[0],rejected,,orphan_reference:order_id,orphan_reference:order_id: orders 866 does not exist in source D,"{""examId"": 62, ""orderRef"": 866, ""modality"": ""CT"", ""bodySite"": ""Chest"", ""referrerId"": 12, ""radiographerId"": 78, ""performedAt"": ""2023-06-01T10:53:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC652795"", ""report"": ""Filling defects in segmental pulmonary arteries consistent with PE.""}"
+D,radiology,18,patients_p1.json:patients[88].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 87 is in the quarantine,"{""examId"": 18, ""orderRef"": 87, ""modality"": ""  CT"", ""bodySite"": ""Head"", ""referrerId"": 49, ""radiographerId"": ""13"", ""performedAt"": ""2022-07-09T23:45:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC489158"", ""report"": ""No intracranial haemorrhage. No skull fracture.""}"
+D,radiology,19,patients_p1.json:patients[90].admissions[0].imaging[0],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 94 is in the quarantine | parent_quarantined:order_id: orders 90 is in the quarantine,"{""examId"": 19, ""orderRef"": 90, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 69, ""radiographerId"": 78, ""performedAt"": ""2022-07-18T15:19:00+10:00"", ""status"": ""  cancelled""}"
+D,radiology,22,patients_p1.json:patients[102].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 99 is in the quarantine,"{""examId"": 22, ""orderRef"": 99, ""modality"": ""US"", ""bodySite"": ""N/A"", ""referrerId"": 90, ""radiographerId"": 35, ""performedAt"": ""2022-08-01T13:23:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC786405"", ""report"": ""Bulky oedematous pancreas.""}"
+D,radiology,26,patients_p1.json:patients[123].admissions[0].imaging[1],duplicate_removed,26,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[123].admissions[0].imaging[0],"{""examId"": 26, ""orderRef"": 121, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 50, ""radiographerId"": 47, ""performedAt"": ""2022-09-19T14:49:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC581647"", ""report"": ""No acute cardiopulmonary abnormality.  ""}"
+D,radiology,206,patients_p1.json:patients[154].admissions[2].imaging[1],duplicate_removed,91,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 91","{""examId"": 206, ""orderRef"": 372, ""modality"": ""US"", ""bodySite"": ""kidneys"", ""referrerId"": 73, ""radiographerId"": 35, ""performedAt"": ""2023-12-20T13:59:00+11:00"", ""status"": ""reported"", ""report"": ""Normal sized kidneys, no hydronephrosis.""}"
+D,radiology,73,patients_p1.json:patients[158].admissions[1].imaging[0],rejected,,invalid_date:exam_time,invalid_date:exam_time: '2023-08-18T24:49:00+10:00': hour must be in 0..23,"{""examId"": 73, ""orderRef"": 293, ""modality"": ""CT"", ""referrerId"": 11, ""radiographerId"": 78, ""performedAt"": ""2023-08-18T24:49:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC997672"", ""report"": ""No intracranial haemorrhage. No skull fracture.""}"
+D,radiology,34,patients_p1.json:patients[166].admissions[0].imaging[0],rejected,,invalid_date:exam_time,invalid_date:exam_time: '2022-12-27T28:12:00+10:00': hour must be in 0..23,"{""examId"": 34, ""orderRef"": 164, ""modality"": ""CT"", ""bodySite"": ""  Head"", ""referrerId"": 45, ""radiographerId"": 13, ""performedAt"": ""2022-12-27T28:12:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC527643"", ""report"": ""No intracranial haemorrhage. No skull fracture.""}"
+D,radiology,35,patients_p1.json:patients[173].admissions[0].imaging[1],duplicate_removed,35,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[173].admissions[0].imaging[0],"{""examId"": 35, ""orderRef"": null, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 80, ""radiographerId"": 68, ""performedAt"": ""2023-01-09T17:40:00+11:00"", ""status"": ""reported  "", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC814263"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,38,patients_p1.json:patients[184].admissions[0].imaging[1],duplicate_removed,38,exact_duplicate,exact_duplicate: same ID and same values as patients_p1.json:patients[184].admissions[0].imaging[0],"{""examId"": 38, ""orderRef"": 191, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 12, ""radiographerId"": 78, ""performedAt"": ""2023-02-09T13:44:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC189084"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,42,patients_p1.json:patients[193].admissions[0].imaging[0],rejected,,orphan_reference:technician_id,orphan_reference:technician_id: professionals 140 does not exist in source D,"{""examId"": 42, ""orderRef"": 200, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 11, ""radiographerId"": 140, ""performedAt"": ""2023-02-15T13:51:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC611691"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,121,patients_p1.json:patients[199].admissions[2].imaging[0],rejected,,unmappable_label:exam_status,unmappable_label:exam_status: 'DNA' has no standard exam_status value,"{""examId"": 121, ""orderRef"": 473, ""modality"": ""USS"", ""bodySite"": ""Abdomen"", ""referrerId"": 69, ""radiographerId"": 35, ""performedAt"": ""2024-06-08T10:25:00+10:00"", ""status"": ""DNA"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC179651"", ""report"": ""Gallstones with gallbladder wall thickening and positive sonographic Murphy's sign.""}"
+D,radiology,205,patients_p1.json:patients[203].admissions[0].imaging[1],duplicate_removed,45,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 45","{""examId"": 205, ""orderRef"": 214, ""modality"": ""MR"", ""bodySite"": ""Brain"", ""referrerId"": 88, ""radiographerId"": 47, ""performedAt"": ""03.14.2023 18:09"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC948633"", ""report"": ""No structural lesion identified.""}"
+D,radiology,60,patients_p1.json:patients[208].admissions[1].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 255 is in the quarantine,"{""examId"": 60, ""orderRef"": 255, ""modality"": ""US"", ""bodySite"": ""Abdomen"", ""referrerId"": 32, ""radiographerId"": 24, ""performedAt"": ""2023-05-23T19:25:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC728091"", ""report"": ""Gallstones with gallbladder wall thickening and positive sonographic Murphy's sign.""}"
+D,radiology,52,patients_p1.json:patients[210].admissions[0].imaging[0],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2023-03-24T05:10:00Z before admission 2023-04-01T09:20:00Z,"{""examId"": 52, ""orderRef"": 225, ""modality"": ""CT"", ""bodySite"": ""Head"", ""referrerId"": 89, ""radiographerId"": 47, ""performedAt"": ""2023-03-24T16:10:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC313943"", ""report"": ""Early hypodensity left MCA territory, no haemorrhage.""}"
+D,radiology,50,patients_p1.json:patients[211].admissions[0].imaging[0],rejected,,parent_quarantined:order_id;orphan_reference:technician_id,parent_quarantined:order_id: orders 224 is in the quarantine | orphan_reference:technician_id: professionals 124 does not exist in source D,"{""examId"": 50, ""orderRef"": 224, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 73, ""radiographerId"": 124, ""performedAt"": ""2023-04-02T15:24:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC728702"", ""report"": ""N/A""}"
+D,radiology,51,patients_p1.json:patients[213].admissions[0].imaging[0],rejected,,orphan_reference:technician_id,orphan_reference:technician_id: professionals 135 does not exist in source D,"{""examId"": 51, ""modality"": ""US"", ""bodySite"": ""Abdomen"", ""referrerId"": 31, ""radiographerId"": 135, ""performedAt"": ""2023-04-03T09:38:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC449305"", ""report"": ""Non-compressible appendix 9 mm with free fluid.""}"
+D,radiology,55,patients_p1.json:patients[221].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 235 is in the quarantine,"{""examId"": 55, ""orderRef"": 235, ""modality"": ""US"", ""bodySite"": ""Kidneys  "", ""referrerId"": 83, ""radiographerId"": 35, ""performedAt"": ""2023-04-30T12:04:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC761900"", ""report"": ""Normal sized kidneys, no hydronephrosis.""}"
+D,radiology,69,patients_p2.json:patients[11].admissions[1].imaging[0],rejected,,missing_required:technician_id,missing_required:technician_id: raw value 'N/A',"{""examId"": 69, ""orderRef"": 288, ""modality"": ""CT Scan"", ""bodySite"": ""Head"", ""referrerId"": 50, ""radiographerId"": ""N/A"", ""performedAt"": 1691056080, ""status"": ""booked"", ""imageUrl"": null}"
+D,radiology,87,patients_p2.json:patients[11].admissions[2].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 357 is in the quarantine,"{""examId"": 87, ""orderRef"": 357, ""modality"": ""US"", ""bodySite"": ""Kidneys"", ""referrerId"": 53, ""radiographerId"": 35, ""performedAt"": ""2023-11-26T00:55:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC487411"", ""report"": ""Small echogenic kidneys bilaterally.""}"
+D,radiology,64,patients_p2.json:patients[19].admissions[0].imaging[0],rejected,,parent_quarantined:admission_id;parent_quarantined:order_id,parent_quarantined:admission_id: admissions 303 is in the quarantine | parent_quarantined:order_id: orders 274 is in the quarantine,"{""examId"": 64, ""orderRef"": 274, ""modality"": ""US"", ""bodySite"": ""Kidneys"", ""referrerId"": 49, ""radiographerId"": 35, ""performedAt"": ""2023-07-12T10:53:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC608854"", ""report"": ""Small echogenic kidneys bilaterally.""}"
+D,radiology,203,patients_p2.json:patients[24].admissions[2].imaging[1],duplicate_removed,175,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 175","{""examId"": 203, ""orderRef"": 712, ""modality"": ""XR"", ""bodySite"": ""\tChest"", ""referrerId"": 6, ""radiographerId"": 47, ""performedAt"": ""2025-05-20T15:03:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC671902"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,172,patients_p2.json:patients[26].admissions[2].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 703 is in the quarantine,"{""examId"": 172, ""orderRef"": 703, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 69, ""radiographerId"": 13, ""performedAt"": ""2025-05-04T07:12:00+10:00"", ""status"": ""cancelled"", ""imageUrl"": null, ""report"": null}"
+D,radiology,71,patients_p2.json:patients[32].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 289 is in the quarantine,"{""examId"": 71, ""orderRef"": 289, ""modality"": ""CT"", ""bodySite"": ""Chest"", ""referrerId"": 6, ""radiographerId"": 13, ""performedAt"": ""2023-08-10T23:56:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC958490"", ""report"": ""Filling defects in segmental pulmonary arteries consistent with PE.""}"
+D,radiology,75,patients_p2.json:patients[40].admissions[0].imaging[0],rejected,,missing_required:referring_professional_id,missing_required:referring_professional_id: raw value None,"{""examId"": 75, ""orderRef"": 299, ""modality"": ""US"", ""bodySite"": ""Abdomen"", ""referrerId"": null, ""radiographerId"": 35, ""performedAt"": ""2023-08-21T02:56:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC969727"", ""report"": ""Gallstones with gallbladder wall thickening and positive sonographic Murphy's sign.""}"
+D,radiology,78,patients_p2.json:patients[44].admissions[0].imaging[0],rejected,,invalid_date:exam_time,invalid_date:exam_time: '2023-14-25T00:48:00+10:00': month must be in 1..12,"{""examId"": 78, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 50, ""radiographerId"": 78, ""performedAt"": ""2023-14-25T00:48:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC792245"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,129,patients_p2.json:patients[54].admissions[1].imaging[0],rejected,,missing_required:technician_id,missing_required:technician_id: raw value '',"{""examId"": 129, ""orderRef"": 508, ""modality"": ""US"", ""bodySite"": ""Abdomen"", ""referrerId"": 50, ""radiographerId"": """", ""performedAt"": ""2024-08-20T12:04:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC407936"", ""report"": ""?""}"
+D,radiology,115,patients_p2.json:patients[90].admissions[1].imaging[0],rejected,,orphan_reference:order_id,orphan_reference:order_id: orders 461 does not exist in source D,"{""examId"": 115, ""orderRef"": 461, ""modality"": ""Plain film"", ""bodySite"": "" CHEST  "", ""referrerId"": 55, ""radiographerId"": 68, ""performedAt"": ""2024-04-28T19:37:00+10:00"", ""status"": ""final"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC999267"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,97,patients_p2.json:patients[118].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 396 is in the quarantine,"{""examId"": 97, ""orderRef"": 396, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 49, ""radiographerId"": 47, ""performedAt"": ""2024-02-09T04:54:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC655705"", ""report"": ""Cardiomegaly with bilateral pleural effusions.""}"
+D,radiology,98,patients_p2.json:patients[120].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 397 is in the quarantine,"{""examId"": 98, ""orderRef"": 397, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 32, ""radiographerId"": 61, ""performedAt"": ""2024-02-12T08:39:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC806391"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,208,patients_p2.json:patients[137].admissions[0].imaging[1],duplicate_removed,104,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 104","{""examId"": 208, ""orderRef"": 415, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 82, ""radiographerId"": 68, ""performedAt"": ""2024-03-19T18:30:00+11:00"", ""status"": ""booked"", ""report"": null}"
+D,radiology,103,patients_p2.json:patients[141].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 420 is in the quarantine,"{""examId"": 103, ""orderRef"": 420, ""modality"": ""US"", ""bodySite"": ""Abdomen"", ""referrerId"": 39, ""radiographerId"": 35, ""performedAt"": ""2024-03-19T01:17:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC645080"", ""report"": ""Multiple gallstones, no wall thickening.""}"
+D,radiology,111,patients_p2.json:patients[166].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 452 is in the quarantine,"{""examId"": 111, ""orderRef"": 452, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 60, ""radiographerId"": 47, ""performedAt"": ""26.04.2024 16:02"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC569371"", ""report"": ""Right lower lobe consolidation consistent with pneumonia.""}"
+D,radiology,114,patients_p2.json:patients[176].admissions[0].imaging[0],rejected,,missing_required:exam_type,missing_required:exam_type: raw value None,"{""examId"": 114, ""orderRef"": 462, ""bodySite"": ""Chest"", ""referrerId"": 60, ""radiographerId"": 61, ""performedAt"": ""2024-05-15T15:16:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC309878"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,120,patients_p2.json:patients[185].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 474 is in the quarantine,"{""examId"": 120, ""orderRef"": 474, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 41, ""radiographerId"": 78, ""performedAt"": ""2024-06-07T15:23:00+10:00"", ""status"": ""booked"", ""imageUrl"": null, ""report"": null}"
+D,radiology,123,patients_p2.json:patients[192].admissions[0].imaging[0],rejected,,invalid_date:exam_time,invalid_date:exam_time: '2024-02-30T09:11:00+11:00': day is out of range for month,"{""examId"": 123, ""orderRef"": 486, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 25, ""radiographerId"": 13, ""performedAt"": ""2024-02-30T09:11:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC263506"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,142,patients_p2.json:patients[208].admissions[2].imaging[0],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2024-11-19T09:39:00Z after discharge 2024-10-12T03:03:00Z,"{""examId"": 142, ""orderRef"": 559, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 50, ""radiographerId"": 47, ""performedAt"": ""2024-11-19T20:39:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC867918"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,126,patients_p2.json:patients[211].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 502 is in the quarantine,"{""examId"": 126, ""orderRef"": 502, ""modality"": ""US"", ""bodySite"": ""Abdomen"", ""referrerId"": 11, ""radiographerId"": 24, ""performedAt"": ""2024-08-10T08:03:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC628637"", ""report"": ""Multiple gallstones, no wall thickening.""}"
+D,radiology,130,patients_p2.json:patients[218].admissions[0].imaging[0],rejected,,chronology:exam_time,chronology:exam_time: exam_time 2024-09-02T23:29:00Z after discharge 2024-08-25T16:49:00Z,"{""examId"": 130, ""orderRef"": 514, ""modality"": ""CT"", ""bodySite"": ""Head"", ""referrerId"": 12, ""radiographerId"": 13, ""performedAt"": ""2024-09-03T09:29:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC398570"", ""report"": ""No intracranial haemorrhage. No skull fracture.""}"
+D,radiology,158,patients_p3.json:patients[13].admissions[1].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 650 is in the quarantine,"{""examId"": 158, ""orderRef"": 650, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 31, ""radiographerId"": 13, ""performedAt"": ""2025-02-07T13:18:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""-"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,145,patients_p3.json:patients[25].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 567 is in the quarantine,"{""examId"": 145, ""orderRef"": 567, ""modality"": ""US"", ""bodySite"": ""Kidneys"", ""referrerId"": 62, ""radiographerId"": 35, ""performedAt"": ""19/10/2024 21:08"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC797104"", ""report"": ""Small echogenic kidneys bilaterally.""}"
+D,radiology,154,patients_p3.json:patients[69].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 632 is in the quarantine,"{""examId"": 154, ""orderRef"": 632, ""modality"": ""US"", ""bodySite"": ""Abdomen"", ""referrerId"": 65, ""radiographerId"": 24, ""performedAt"": ""2025-01-14T04:50:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC965018"", ""report"": ""Non-compressible appendix 9 mm with free fluid.""}"
+D,radiology,204,patients_p3.json:patients[69].admissions[0].imaging[1],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 632 is in the quarantine,"{""examId"": 204, ""orderRef"": 632, ""modality"": "" US"", ""referrerId"": 65, ""radiographerId"": 24, ""performedAt"": ""2025-01-14T04:50:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC965018"", ""report"": ""Non-compressible appendix 9 mm with free fluid.""}"
+D,radiology,157,patients_p3.json:patients[80].admissions[0].imaging[0],rejected,,ambiguous_date:exam_time,ambiguous_date:exam_time: '06.02.2025 15:27': day/month order cannot be decided,"{""examId"": 157, ""orderRef"": 648, ""modality"": ""US"", ""bodySite"": ""Abdomen"", ""referrerId"": 32, ""radiographerId"": 35, ""performedAt"": ""06.02.2025 15:27"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC935055"", ""report"": ""Multiple gallstones, no wall thickening.""}"
+D,radiology,164,patients_p3.json:patients[101].admissions[0].imaging[0],rejected,,chronology:exam_time,chronology:exam_time: exam 2025-03-16T05:31:00Z before its order 2025-04-09T10:57:00Z,"{""examId"": 164, ""orderRef"": 676, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 91, ""radiographerId"": 13, ""performedAt"": ""2025-03-16T16:31:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC924587"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,167,patients_p3.json:patients[109].admissions[0].imaging[1],duplicate_removed,167,exact_duplicate,exact_duplicate: same ID and same values as patients_p3.json:patients[109].admissions[0].imaging[0],"{""examId"": 167, ""orderRef"": 688, ""modality"": ""US"", ""bodySite"": ""Kidneys"", ""referrerId"": 28, ""radiographerId"": 35, ""performedAt"": ""2025-03-30T05:38:00+11:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC925771"", ""report"": ""Normal sized kidneys, no hydronephrosis.""}"
+D,radiology,179,patients_p3.json:patients[138].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 725 is in the quarantine,"{""examId"": 179, ""orderRef"": 725, ""modality"": ""CT"", ""bodySite"": ""Chest"", ""referrerId"": 80, ""radiographerId"": 47, ""performedAt"": ""09/06/2025 04:40"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC199738"", ""report"": ""Filling defects in segmental pulmonary arteries consistent with PE.""}"
+D,radiology,185,patients_p3.json:patients[166].admissions[0].imaging[0],rejected,,parent_quarantined:admission_id,parent_quarantined:admission_id: admissions 821 is in the quarantine,"{""examId"": 185, ""orderRef"": null, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 12, ""radiographerId"": 61, ""performedAt"": ""2025-07-29T10:02:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC457245"", ""report"": ""Right lower lobe consolidation consistent with pneumonia.""}"
+D,radiology,188,patients_p3.json:patients[177].admissions[0].imaging[0],rejected,,parent_quarantined:order_id,parent_quarantined:order_id: orders 775 is in the quarantine,"{""examId"": 188, ""orderRef"": 775, ""modality"": ""XR"", ""bodySite"": ""Chest"", ""referrerId"": 50, ""radiographerId"": 78, ""performedAt"": ""2025-08-26T14:02:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC367522"", ""report"": ""No acute cardiopulmonary abnormality.""}"
+D,radiology,207,patients_p3.json:patients[178].admissions[0].imaging[1],duplicate_removed,189,near_duplicate,"near_duplicate: same admission_id, exam_time, exam_type as exam_id 189","{""examId"": 207, ""orderRef"": 776, ""modality"": ""US"", ""bodySite"": "" ABDOMEN  "", ""referrerId"": 83, ""radiographerId"": 24, ""performedAt"": ""2025-08-28T15:36:00+10:00"", ""status"": ""reported"", ""imageUrl"": ""https://pacs.coralcoast.example/viewer?study=CC679187"", ""report"": """"}"

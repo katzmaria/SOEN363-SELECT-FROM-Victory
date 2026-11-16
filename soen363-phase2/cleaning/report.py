@@ -1,332 +1,260 @@
-"""
-Writes the cleaned datasets, the quarantine datasets, the cleaning logs and a
-Markdown report (summary + before/after examples + check against the
-generator's injection manifest).
-"""
+"""Builds output/cleaning_report.md from the results of cleaning/clean_sources.py."""
 
-import csv
-import json
-import shutil
-from collections import Counter, defaultdict
+from __future__ import annotations
 
-from config import (MANIFEST, OUT_CLEAN, OUT_LOG, OUT_QUARANTINE, REPORT, SCHEMA, SOURCES, ENTITY_ORDER,
-                    MISSING_MARKERS, VITAL_RANGES, TEMPERATURE_UNIT, SPO2_UNIT)
-from pipeline import fmt_val
+PIPELINE_VERSION = "2026.11.15-abcd"   # run_all.py checks that every file has the same version
+
+from collections import Counter
+
+from cleaning.tabular import md_table
+from cleaning.standards import (ENTITY_SPECS, LABEL_MAPS, NONE_KNOWN, NUMERIC_PLACEHOLDERS, PLACEHOLDERS, SOURCES,
+                                VITAL_RANGES)
 
 
-def out_columns(E):
-    cols = ["source"]
-    for f, kind, _ in SCHEMA[E]:
-        cols += ["bp_systolic", "bp_diastolic"] if kind == "bp" else [f]
-    return cols
+def _md(rows, columns=None):
+    return md_table(rows, columns)
 
 
-def _write(path, header, rows):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=header, extrasaction="ignore")
-        w.writeheader()
-        for r in rows:
-            w.writerow(r)
+def _code(x):
+    return "" if x in (None, "") else f"`{x}`"
 
 
-def clean_row(rec):
-    row = {"source": rec["_source"]}
-    for k, v in rec["_clean"].items():
-        row[k] = "" if v is None else fmt_val(v)
-    return row
+RULE_TEXT = {
+    "whitespace_trimmed": "leading/trailing/double spaces removed",
+    "case_standardised": "capitalisation standardised",
+    "date_format_standardised": "non-standard date format converted to ISO 8601 UTC",
+    "written_in_utc": "timestamp written in UTC (Z) - kept as UTC",
+    "no_offset_local_time_assumed": "timestamp without offset read as source local time",
+    "decimal_comma": "decimal comma converted to a decimal point",
+    "unit_text_removed": "unit text removed from a number",
+    "fahrenheit_converted_to_celsius": "temperature converted from Fahrenheit to Celsius",
+    "fahrenheit_converted_to_celsius_unit_inferred": "temperature with no unit, value in the Fahrenheit range, "
+                                                     "converted to Celsius",
+    "fraction_converted_to_percent": "SpO2 fraction converted to percent",
+    "bp_format_normalised": "blood pressure written as systolic/diastolic",
+    "leading_zero_restored": "ICD-9 leading zero restored (38.9 -> 038.9)",
+    "decimal_point_restored": "ICD-9 decimal point restored (4019 -> 401.9)",
+    "none_known_standardised": "'no known allergies/medication' variants -> none",
+    "placeholder_to_null": "placeholder (N/A, null, -, ?, -1, 0000-00-00) -> NULL",
+    "repointed_to_kept_duplicate": "reference to a near-duplicate re-pointed to the kept record",
+    "filled_from_duplicate": "missing value filled from the merged near-duplicate",
+    "derived_from_admission": "missing diagnosis patient taken from its admission",
+    "not_in_standard_list": "procedure not in the standard list - kept as text",
+    "time_part_dropped": "time part removed from a date-only field",
+}
 
 
-def raw_json(rec):
-    return json.dumps(rec["_raw"], ensure_ascii=False, default=str)
-
-
-def write_outputs(data, rejects, ctx):
-    for d in (OUT_CLEAN, OUT_QUARANTINE, OUT_LOG):
-        if d.exists():
-            shutil.rmtree(d)
-        d.mkdir(parents=True)
-
-    counts = {}
-    for E in ENTITY_ORDER:
-        rows = []
-        for S in SOURCES:
-            for r in data[S][E]:
-                if not r.get("_quarantined") and not r.get("_removed"):
-                    rows.append(clean_row(r))
-        rows.sort(key=lambda r: (r["source"], _sortkey(r.get(out_columns(E)[1]))))
-        _write(OUT_CLEAN / f"{E}.csv", out_columns(E), rows)
-        counts[E] = len(rows)
-
-    q_by_entity = defaultdict(list)
-    for r in rejects + ctx.quarantine:
-        q_by_entity[r["_entity"]].append({
-            "source": r["_source"], "record_id": "" if r.get("_id") is None else r["_id"],
-            "location": r["_loc"], "rejection_type": r.get("_qkind", "direct"),
-            "reasons": "; ".join(r["_reasons"]), "raw_record": raw_json(r)})
-    for E in ENTITY_ORDER:
-        rows = sorted(q_by_entity.get(E, []), key=lambda r: (r["source"], _sortkey(r["record_id"])))
-        _write(OUT_QUARANTINE / f"{E}_quarantine.csv",
-               ["source", "record_id", "location", "rejection_type", "reasons", "raw_record"], rows)
-
-    _write(OUT_LOG / "issues.csv", ["source", "entity", "record_id", "location", "field", "issue", "action",
-                                    "before", "after"], ctx.issues)
-    _write(OUT_LOG / "duplicates_removed.csv", ["source", "entity", "record_id", "kind", "removed_location",
-                                                "kept_location"], ctx.duplicates)
-    _write(OUT_LOG / "patient_crosswalk.csv", ["source", "duplicate_patient_id", "master_patient_id", "rule",
-                                               "duplicate_location", "master_location"], ctx.crosswalk)
-    _write(OUT_LOG / "transformations.csv", ["source", "entity", "field", "transformation", "records"],
-           [{"source": s, "entity": e, "field": f, "transformation": t, "records": n}
-            for (s, e, f, t), n in sorted(ctx.transforms.items())])
-    return counts
-
-
-def _sortkey(v):
-    try:
-        return (0, int(v))
-    except (TypeError, ValueError):
-        return (1, str(v))
-
-
-# ---------------------------------------------------------------------------
-# Report
-# ---------------------------------------------------------------------------
-
-def md_table(header, rows):
-    out = ["| " + " | ".join(header) + " |", "|" + "|".join("---" for _ in header) + "|"]
-    for r in rows:
-        out.append("| " + " | ".join(str(x).replace("|", "\\|").replace("\n", " ") for x in r) + " |")
-    return "\n".join(out)
-
-
-def _distinct(issues, **cond):
-    return len({(i["source"], i["entity"], i["record_id"]) for i in issues
-                if all(i[k] == v for k, v in cond.items())})
-
-
-def _rows(issues, **cond):
-    return sum(all(i[k] == v for k, v in cond.items()) for i in issues)
-
-
-def detected_counts(S, ctx, rejects):
-    I = [i for i in ctx.issues if i["source"] == S]
-    Q = [r for r in ctx.quarantine if r["_source"] == S]
-    D = [d for d in ctx.duplicates if d["source"] == S]
-    qr = lambda ent, prefix: sum(any(x.startswith(prefix) for x in r["_reasons"]) for r in Q if r["_entity"] == ent)
-    return {
-        "exact_duplicate_patient": sum(d["entity"] == "patients" for d in D),
-        "exact_duplicate_admission": sum(d["entity"] == "admissions" for d in D),
-        "exact_duplicate_diagnosis": sum(d["entity"] == "diagnoses" for d in D),
-        "entity_duplicate_patient": sum(c["source"] == S for c in ctx.crosswalk),
-        "missing_required_patient_name": _distinct(I, issue="missing_required_value", field="family_name"),
-        "missing_required_date_of_birth": _distinct(I, issue="missing_required_value", field="birth_date"),
-        "missing_required_admission_time": _distinct(I, issue="missing_required_value", field="admit_time_utc"),
-        "missing_required_icd9_code": _distinct(I, issue="missing_required_value", field="icd9_code"),
-        "missing_optional_phone": _distinct(I, issue="missing_optional_value", field="phone"),
-        "missing_optional_address": _distinct(I, issue="missing_optional_value", field="address"),
-        "missing_optional_emergency_contact": _distinct(I, issue="missing_optional_value", field="emergency_contact"),
-        "missing_optional_insurance": _distinct(I, issue="missing_optional_value", field="insurance"),
-        "missing_optional_allergies": _distinct(I, issue="missing_optional_value", field="allergies"),
-        "messy_name_text": _distinct(I, issue="name_text_standardised", field="family_name"),
-        "messy_category_label": _rows(I, issue="messy_category_label"),
-        "invalid_date": _rows(I, issue="invalid_timestamp") + _rows(I, issue="invalid_date"),
-        "ambiguous_date_mm_dd": _rows(I, issue="ambiguous_date_mm_dd") + _rows(I, issue="date_only_valid_as_mm_dd"),
-        "timestamp_without_timezone": _rows(I, issue="timestamp_without_timezone"),
-        "timestamp_as_epoch_seconds": _rows(I, issue="timestamp_as_epoch_seconds"),
-        "invalid_heart_rate": _rows(I, issue="invalid_heart_rate"),
-        "invalid_pain_level": _rows(I, issue="invalid_pain_level"),
-        "invalid_temperature": _rows(I, issue="invalid_temperature"),
-        "invalid_oxygen_saturation": _rows(I, issue="invalid_oxygen_saturation"),
-        "non_numeric_respiratory_rate": _rows(I, issue="non_numeric_value", field="resp_rate_per_min"),
-        "icd9_leading_zero_lost": _rows(I, issue="icd9_leading_zero_lost"),
-        "broken_admission_patient_ref": qr("admissions", "missing_parent_patient"),
-        "broken_diagnosis_icd9_ref": _distinct(I, issue="unknown_icd9_code"),
-        "broken_unitstay_admission_ref": qr("unit_stays", "missing_parent_admission"),
-        "broken_radiology_order_ref": qr("radiology", "missing_parent_order"),
-        "diagnosis_patient_mismatch": qr("diagnoses", "diagnosis_patient_mismatch"),
-        "discharge_before_admission": _distinct(I, issue="discharge_before_admission")
-                                      + qr("admissions", "discharge_before_admission"),
-        "unit_exit_before_entry": qr("unit_stays", "unit_exit_before_entry"),
-        "procedure_outside_admission": qr("procedures", "procedure_before_admission"),
-        "exam_outside_admission": qr("radiology", "radiology_exam_after_discharge"),
-        "discharge_record_for_active_admission": qr("discharges", "discharge_record_for_active_admission"),
-        "malformed_line_wrong_field_count": sum(r["_source"] == S for r in rejects) if S == "A" else 0,
-        "malformed_line_extra_fields": sum(r["_source"] == S for r in rejects) if S == "B" else 0,
-    }
-
-
-MANIFEST_KEYS = {"A": "A_europe_txt", "B": "B_north_america_csv", "C": "C_asia_xml", "D": "D_africa_json"}
-
-
-def write_report(data, rejects, ctx, counts, d_codebook_ok):
-    manifest = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else None
+def write_report(out_dir, sm, log, lab, quarantine, malformed, all_recs, icd9_path):
+    srcs = list(dict.fromkeys(r["source_system"] for r in sm))
     L = []
     w = L.append
-    w("# Phase 2 - Task 2: Cleaning and Standardisation Report\n")
-    w("_Generated automatically by `cleaning/run_cleaning.py`. Re-running the script on the unchanged raw files "
-      "reproduces this report byte-for-byte._\n")
+    w("# Cleaning report (Task 2)\n")
+    w("Generated by `cleaning/clean_sources.py`. Re-running it on the same raw files gives the same output. "
+      "All counts below come from the run itself.\n")
+    w("Sources cleaned: " + ", ".join(f"**{s}** ({SOURCES[s]['name']}, {SOURCES[s]['timezone']})"
+                                      for s in srcs) + ".")
+    w(f"ICD-9 dictionary: `{icd9_path}`.\n" if icd9_path else
+      "ICD-9 dictionary: **not found** - codes were only checked for a valid ICD-9 format. Run with "
+      "`--icd9 ../soen363-phase1/data/icd9_dictionary.csv`.\n")
 
-    # ---- 1. Summary -------------------------------------------------------
-    w("## 1. Summary of the cleaning results\n")
-    rows, tot = [], Counter()
-    for S in SOURCES:
-        raw_n = sum(len(data[S][E]) for E in ENTITY_ORDER) + sum(r["_source"] == S for r in rejects)
-        dup_n = sum(d["source"] == S for d in ctx.duplicates)
-        ent_n = sum(c["source"] == S for c in ctx.crosswalk)
-        q = [r for r in ctx.quarantine if r["_source"] == S] + [r for r in rejects if r["_source"] == S]
-        qd = sum(r.get("_qkind", "direct") == "direct" for r in q)
-        qc = len(q) - qd
-        clean_n = sum(1 for E in ENTITY_ORDER for r in data[S][E] if not r.get("_quarantined") and not r.get("_removed"))
-        iss = sum(i["source"] == S for i in ctx.issues)
-        rows.append([SOURCES[S]["label"], raw_n, dup_n, ent_n, qd, qc, clean_n, f"{clean_n / raw_n:.1%}", iss])
-        for k, v in zip(["raw", "dup", "ent", "qd", "qc", "clean", "iss"], [raw_n, dup_n, ent_n, qd, qc, clean_n, iss]):
-            tot[k] += v
-    rows.append(["**Total**", tot["raw"], tot["dup"], tot["ent"], tot["qd"], tot["qc"], tot["clean"],
-                 f"{tot['clean'] / tot['raw']:.1%}", tot["iss"]])
-    w(md_table(["Source", "Raw records", "Same-key duplicates removed", "Patients merged (same person)",
-                "Quarantined (direct)", "Quarantined (cascade)", "Clean records", "Kept", "Logged issues"], rows))
-    w("\nRaw records = duplicates removed + patients merged + quarantined + clean, so every raw record is accounted for. "
-      "*Direct* = the record itself failed a rule; *cascade* = the record is valid but its parent "
-      "(patient, admission or order) was quarantined, so it cannot be linked.\n")
+    # ------------------------------------------------------------------ results
+    w("## 1. Results\n")
+    num = [c for c in sm[0] if c not in ("source_system", "entity")]
+    tot = [{"source_system": s, "entity": "**all**",
+            **{c: sum(r[c] for r in sm if r["source_system"] == s) for c in num}} for s in srcs]
+    w(_md(sm + tot))
+    w("`rejected_cascade` = records whose only problem is that their parent (patient, admission, order, staff) "
+      "was quarantined. Clean rows can still carry non-blocking `quality_flags`.\n")
+    w("Output files: `output/clean/<entity>.csv` (clean rows of all sources; key = `source_system` + id), "
+      "`output/quarantine/<entity>.csv` (rejected rows and removed duplicates, with reasons and the raw record), "
+      "`output/quarantine/malformed_records.csv`, `output/cleaning_log/cleaning_log.csv` (one row per change), "
+      "`output/cleaning_log/label_mappings.csv`.\n")
 
-    w("### Records per entity (clean / quarantined)\n")
+    q = [r for v in quarantine.values() for r in v]
+    if q:
+        c = Counter((code.split(":")[0], r["source_system"]) for r in q for code in r["reason_codes"].split(";"))
+        reasons = sorted({k for k, _ in c}, key=lambda k: (-c[(k, srcs[0])], k))
+        w("### Quarantine by reason (a record can have several reasons)\n")
+        w(_md([{"reason": k, **{s: c[(k, s)] for s in srcs}} for k in reasons]))
+    acts = [r for r in log if r["action"] in ("corrected", "set_null", "flagged")]
+    if acts:
+        c = Counter((r["action"], r["rule"], r["source_system"]) for r in acts)
+        keys = sorted({(a, b) for a, b, _ in c})
+        w("### Corrections, NULLs and flags by rule (records kept)\n")
+        w(_md([{"action": a, "rule": b, **{s: c[(a, b, s)] for s in srcs}, "meaning": RULE_TEXT.get(b, "")}
+               for a, b in keys]))
+
+    # ------------------------------------------------------------------ rules
+    w("## 2. Cleaning rules\n")
+    w("### 2.1 Missing values: required, expected, optional\n")
+    w("A value is **missing** when the field/element is absent, empty, or one of the placeholders "
+      + ", ".join(_code(p) for p in sorted(PLACEHOLDERS) if p) + " (and " + ", ".join(_code(p) for p in NUMERIC_PLACEHOLDERS)
+      + " in numeric vital signs). The words " + ", ".join(_code(p) for p in sorted(NONE_KNOWN))
+      + " in allergies/medications mean **none** and are kept as the value `none`, not as missing.\n")
+    w("- **Required** - missing or invalid -> the record is **rejected** (quarantined). These are the ID, the "
+      "references to the parent records and the clinical facts that define the record. We never invent them.")
+    w("- **Expected** - missing -> record **retained**, value NULL, row flagged `missing_expected:<field>`. Used when "
+      "rejecting would destroy other valid facts (e.g. a staff member with no name: many clinical records point to "
+      "that staff ID).")
+    w("- **Optional** - missing -> NULL. Invalid optional values (e.g. a pulse of 420) are set to NULL and flagged; "
+      "the record is kept.")
+    w("- **Corrected** - only when the right value is certain from the data itself: format, unit, case, whitespace, "
+      "ICD-9 punctuation, references to a merged duplicate, a diagnosis patient taken from its admission.\n")
     rows = []
-    for E in ENTITY_ORDER:
-        r = [E]
-        for S in SOURCES:
-            c = sum(1 for x in data[S][E] if not x.get("_quarantined") and not x.get("_removed"))
-            q = sum(1 for x in ctx.quarantine + rejects if x["_source"] == S and x["_entity"] == E)
-            r.append(f"{c} / {q}")
-        rows.append(r)
-    w(md_table(["Entity"] + [f"{S}: clean / quar." for S in SOURCES], rows))
+    for e, s in ENTITY_SPECS.items():
+        opt = [f for f in s["fields"] if f not in s["required"] and f not in s["expected"]]
+        rows.append({"entity": e, "required (reject)": ", ".join(s["required"]),
+                     "expected (NULL + flag)": ", ".join(s["expected"]), "optional (NULL)": ", ".join(opt)})
+    w(_md(rows))
 
-    w("\n### Actions taken on fields (issue log)\n")
-    by = Counter((i["issue"], i["action"], i["source"]) for i in ctx.issues)
-    codes = sorted({(c, a) for c, a, _ in by})
-    rows = [[c, a] + [by.get((c, a, S), 0) for S in SOURCES] + [sum(by.get((c, a, S), 0) for S in SOURCES)]
-            for c, a in codes]
-    w(md_table(["Issue", "Action", "A", "B", "C", "D", "Total"], rows))
+    w("### 2.2 Duplicates\n")
+    w("- **Exact duplicate**: same ID and every field equal after trimming spaces and ignoring case -> the first "
+      "copy is kept, the others are removed (listed in the quarantine as `duplicate_removed`). The same ID with "
+      "*different* content is a conflict -> the later copy is rejected (`duplicate_id_conflict`).")
+    w("- **Duplicate entity (near duplicate)**: different IDs, same entity key after cleaning (dates parsed, labels "
+      "mapped, case ignored) **and no other field with two different non-empty values** -> the lowest ID is kept, "
+      "the other is removed, missing values of the kept record are filled from it, and every reference to the "
+      "removed ID is re-pointed to the kept one.")
+    w("- Same key but a conflicting value elsewhere (e.g. two exams of the same type at the same minute for "
+      "different orders, two notes at the same minute by different authors) -> both are real records: both kept "
+      "and flagged `possible_duplicate`.")
+    w("- Staff have no date of birth, so name + role + department is a weak key: two such staff records are merged "
+      "unless BOTH IDs are used by 10+ clinical records; then they are most likely two people with the same name "
+      "-> both kept and flagged `possible_duplicate`. Keys:")
+    w(_md([{"entity": e, "duplicate key": " + ".join(s["dup_key"]).replace("_key", " (case-insensitive)")}
+           for e, s in ENTITY_SPECS.items()]))
 
-    w("\n### Quarantine reasons\n")
-    rc = Counter()
-    for r in ctx.quarantine + rejects:
-        for x in r["_reasons"]:
-            rc[(x.split("(")[0].split(":")[0], r["_source"])] += 1
-    reasons = sorted({k for k, _ in rc})
-    w(md_table(["Reason", "A", "B", "C", "D", "Total"],
-               [[k] + [rc.get((k, S), 0) for S in SOURCES] + [sum(rc.get((k, S), 0) for S in SOURCES)] for k in reasons]))
-    w("\nA record can carry several reasons, so this table can sum to more than the number of quarantined records.\n")
+    w("### 2.3 Text\n")
+    w("- Whitespace: trimmed and runs of spaces collapsed to one space, in every text field.")
+    w("- Person names: each word capitalised (`DUBOIS` -> `Dubois`, `o'neill` -> `O'Neill`), particles in lower "
+      "case (`de`, `van`, `der`, `bin`, `binte`, `s/o`, `d/o`). Source A writes given name + family name; Source C "
+      "writes Chinese names family-first and Malay/Indian names given-first; B and D give one name field (D "
+      "sometimes as `SURNAME, Given`, reordered to `Given Surname`). `full_name` follows each hospital's "
+      "convention.")
+    w("- Short descriptive text (reasons, departments, indications, allergies...): the spelling used most often "
+      "for the same value in that column is applied to all its variants (`CHEST PAIN`, `cHEST pAIN` -> "
+      "`Chest pain`). Symptoms are lower case. Room/bed codes upper case.")
+    w("- Clinical free text (notes, findings, instructions, addresses) keeps its case; only whitespace is "
+      "normalised, so nothing a clinician wrote is changed.")
+    w("- Phones -> E.164 (`+33612345678`, `+6591234567`); the emergency contact is split into name and phone.\n")
 
-    w("\n### Routine conversions applied to every record (not logged individually)\n")
-    tc = Counter()
-    for (S, E, f, t), n in ctx.transforms.items():
-        tc[(t, S)] += n
-    ts = sorted({t for t, _ in tc})
-    w(md_table(["Conversion", "A", "B", "C", "D"], [[t] + [tc.get((t, S), 0) for S in SOURCES] for t in ts]))
+    w("### 2.4 Dates and timestamps\n")
+    w(_md([{"source": k, "hospital": v["name"], "format": v["format"], "time zone": v["timezone"],
+            "raw timestamps are": v["raw_time"], "extract time (local)": v["extract_time_local"]}
+           for k, v in SOURCES.items() if k in srcs]))
+    w("- Every timestamp is stored in **UTC**, ISO 8601 (`2024-05-08T12:59:00Z`); dates of birth as `YYYY-MM-DD`. "
+      "`admissions.source_timezone` keeps the hospital's zone so local time can be recovered.")
+    w("- Formats read: `DD/MM/YYYY HH:MM`, `DD/MM/YYYY 14h59`, `DD.MM.YYYY HH:MM`, ISO with or without `T`, "
+      "offset or `Z`, `08 May 2024 02:59 PM`, `5 mars 1980` / `05-Mar-1980` (French and English month names), "
+      "Unix seconds / milliseconds (D). Source conventions: slash dates are day-first, except B slash dates "
+      "with AM/PM, which are month-first; dot dates are day-first in A but come in both orders in D.")
+    w("- Dash dates `NN-NN-YYYY`: day-first if the first number is over 12, month-first if the second is over 12; "
+      "if both are 12 or less (and differ) the date is **ambiguous** and is not guessed -> rejected when the field "
+      "is required, NULL + flag otherwise. The same rule applies to D's dot dates. Impossible dates (`31/02`, month 13, hour 25, a year outside 1900-2100 such "
+      "as `0202` or `20225`, two-digit years, `a preciser`, `TBC`) -> invalid, same treatment.")
+    w("- A timestamp with no offset is read in the source's zone. Europe/Paris has daylight saving time: a time in "
+      "the autumn repeated hour (02:00-02:59 on the last Sunday of October) is **ambiguous**; we take the first "
+      "occurrence (summer time, UTC+2) and flag it `dst_ambiguous_time_assumed_first`. A time in the spring gap "
+      "does not exist; it is shifted forward one hour and flagged. Australia/Sydney has DST too (AEST UTC+10 / "
+      "AEDT UTC+11, October to April) and gets the same treatment. Kampala (UTC+3) and Singapore (UTC+8) have no "
+      "DST. A date of birth sent as a Unix instant (D) is converted to the local date in Sydney. A value with an "
+      "explicit offset or `Z` is converted exactly. An unknown time zone would be a configuration error (the run "
+      "stops) rather than a guess.\n")
 
-    # ---- 2. Manifest check ------------------------------------------------
-    if manifest:
-        w("\n## 2. Detection check against the injection manifest\n")
-        w("The manifest is **not** used by the cleaning code; it is only compared afterwards to show that the rules "
-          "find the injected problems. Differences are explained below the table.\n")
-        det = {S: detected_counts(S, ctx, rejects) for S in SOURCES}
-        keys = sorted({k for S in SOURCES for k in manifest[MANIFEST_KEYS[S]]["injected_problems"]} | set(det["A"]))
-        rows = []
-        for k in keys:
-            row = [k]
-            for S in SOURCES:
-                inj = manifest[MANIFEST_KEYS[S]]["injected_problems"].get(k, 0)
-                got = det[S].get(k, "n/a")
-                mark = "" if got == inj or got == "n/a" else " *"
-                row.append(f"{inj} / {got}{mark}")
-            rows.append(row)
-        w(md_table(["Problem", "A inj / det", "B inj / det", "C inj / det", "D inj / det"], rows))
-        w("""
-`*` = detected count differs from injected count. The remaining differences are expected:
+    w("### 2.5 Numbers and units (triage vital signs)\n")
+    w("- Decimal comma -> point; unit text removed (`88 bpm`, `96%`, `4/10`, `120/80 mmHg`, `120-80`).")
+    w("- Temperature -> Celsius. The unit comes from the XML `unit` attribute, else from the text (`F`, `°F`, `C`), "
+      "else from the value: 86-113 can only be Fahrenheit for a living patient, 30-45 only Celsius.")
+    w("- SpO2 -> percent: Source C stores a fraction (`0.97` -> 97); a value written with `%` is already a percent.")
+    w("- Blood pressure split into `systolic_bp` / `diastolic_bp`.")
+    w("- After conversion, values outside these ranges are **invalid** -> NULL + flag `out_of_range:<field>`; "
+      "non-numbers -> NULL + flag `invalid_number:<field>` (vitals are optional, the triage record is kept):\n")
+    w(_md([{"field": k, "min": a, "max": b} for k, (a, b) in VITAL_RANGES.items()]))
+    w("- ICD-9: trimmed, upper case, leading zero and decimal point restored; a code not in the Phase 1 ICD-9 "
+      "dictionary is **rejected** (`unknown_icd9_code`) - we do not replace it with another code.\n")
 
-* **messy_category_label**: the generator picks one of `label.upper()`, `label.lower()`, `" label "`, `"label  "`. When the source label is already upper case (A: `EMER`, `REA`; C: `ICU`; D: `P1`) or a digit (A triage `1`/`2`/`3`), `upper()` / `lower()` return the **identical** string, so there is nothing wrong in the data and nothing to detect. Every label that actually differs from the codebook is detected and mapped.
-* **ambiguous_date_mm_dd**: a date written MM/DD in a DD/MM source is only detectable when the documented DD/MM reading contradicts related events (triage / unit entry minutes after admission, the discharge record, the admission window) and the MM/DD reading agrees with them. When both readings are consistent with every related event, the documented DD/MM reading is kept; no method can tell these apart.
-* Detected counts for duplicates and missing values are on distinct record ids; invalid dates and labels are counted per written value (duplicate copies included), which is how the generator counts them.
-""")
-        w(f"Source D's embedded `facility.codebook` agrees with the codebook used here: **{d_codebook_ok}**.\n")
-
-    # ---- 3. Examples ------------------------------------------------------
-    w("\n## 3. Representative before-and-after examples\n")
-    w("### 3.1 Field-level examples (one per issue and source)\n")
-    seen, rows = set(), []
-    for i in ctx.issues:
-        k = (i["issue"], i["source"])
-        if k in seen:
-            continue
-        seen.add(k)
-        rows.append([i["issue"], i["source"], i["entity"], i["record_id"], i["field"], f"`{i['before']}`",
-                     f"`{i['after']}`" if i["after"] else "", i["action"]])
-    rows.sort()
-    w(md_table(["Issue", "Src", "Entity", "Id", "Field", "Before (raw)", "After (clean)", "Action"], rows))
-
-    w("\n### 3.2 Whole-record examples\n")
-    for title, S, E, issue in [
-        ("Source A admission: ambiguous date resolved, label normalised", "A", "admissions", "ambiguous_date_mm_dd"),
-        ("Source A triage: decimal comma, numeric codes, Paris time to UTC", "A", "triage", None),
-        ("Source B patient: 'Last, First' split, US date, missing marker", "B", "patients", "missing_optional_value"),
-        ("Source B triage: Fahrenheit to Celsius, messy acuity label", "B", "triage", "messy_category_label"),
-        ("Source B diagnosis: ICD-9 leading zero restored", "B", "diagnoses", "icd9_leading_zero_lost"),
-        ("Source C triage: SpO2 fraction to percent, +08:00 to UTC", "C", "triage", None),
-        ("Source D encounter: epoch seconds converted", "D", "admissions", "timestamp_as_epoch_seconds"),
-        ("Source D triage: numbers stored as strings, invalid heart rate nulled", "D", "triage", "invalid_heart_rate"),
-    ]:
-        rec = _pick(data, ctx, S, E, issue)
-        if rec is None:
-            continue
-        w(f"**{title}** (`{rec['_loc']}`)\n")
-        w("Raw:\n```json\n" + json.dumps(rec["_raw"], ensure_ascii=False, indent=1, default=str) + "\n```")
-        w("Clean:\n```json\n" + json.dumps(clean_row(rec), ensure_ascii=False, indent=1) + "\n```\n")
-
-    w("### 3.3 Duplicate and entity-resolution examples\n")
-    for d in ctx.duplicates[:1] + [x for x in ctx.duplicates if x["kind"] == "duplicate_merged_complementary"][:1]:
-        w(f"* `{d['source']}` {d['entity']} id {d['record_id']}: **{d['kind']}** - removed `{d['removed_location']}`, "
-          f"kept `{d['kept_location']}`.")
-    for c in ctx.crosswalk[:3]:
-        dup = _find_loc(data, c["source"], "patients", c["duplicate_location"])
-        mas = _find_loc(data, c["source"], "patients", c["master_location"])
-        w(f"* `{c['source']}` patient {c['duplicate_patient_id']} merged into master {c['master_patient_id']}:")
-        w(f"  * duplicate raw: `{json.dumps(dup['_raw'], ensure_ascii=False, default=str)}`")
-        w(f"  * master raw: `{json.dumps(mas['_raw'], ensure_ascii=False, default=str)}`")
-        w(f"  * master clean: `{json.dumps(clean_row(mas), ensure_ascii=False)}`")
-
-    w("\n### 3.4 Quarantine examples\n")
-    shown = set()
+    w("### 2.6 Clinical categories\n")
+    w("Source labels are matched case-insensitively after collapsing spaces. A label that maps to nothing is "
+      "**unmappable**: rejected if the field is required, NULL + flag otherwise. The full count of every raw label "
+      "is in `output/cleaning_log/label_mappings.csv`.\n")
     rows = []
-    for r in rejects + ctx.quarantine:
-        key = (r["_reasons"][0].split("(")[0].split(":")[0])
-        if key in shown:
+    for key in ["admission_type", "admission_status", "triage_priority", "unit_type", "order_status", "priority",
+                "exam_status", "diagnosis_type", "note_type", "role", "sex", "life_status", "exam_type", "body_area",
+                "outcome", "destination", "discharge_condition", "admission_source"]:
+        stds = sorted({s for src in LABEL_MAPS.values() for s in src[key]})
+        for std in stds:
+            rows.append({"category": key, "standard value": std,
+                         **{f"Source {s} labels": ", ".join(LABEL_MAPS[s][key].get(std, [])) for s in LABEL_MAPS}})
+    w(_md(rows))
+    if lab:
+        w("Unmappable labels found in this run:\n")
+        w(_md([r for r in lab if r["standard_value"] == "<unmapped>"],
+              ["source_system", "entity", "field", "raw_label", "count"]))
+
+    w("### 2.7 Relationships\n")
+    w("- References are checked parent-first: professionals, patients, admissions, orders, radiology, then the "
+      "other admission children.")
+    w("- `orphan_reference`: the referenced ID does not exist anywhere in the source -> rejected.")
+    w("- `parent_quarantined`: the parent exists but was rejected -> the child is rejected too (it cannot be "
+      "loaded without its parent). Counted as *cascade* in section 1.")
+    w("- `inconsistent_reference`: a diagnosis whose patient differs from its admission's patient; a radiology exam "
+      "whose admission differs from its order's admission -> rejected. A radiology exam with no order is a "
+      "legitimate walk-in exam (`order_id` NULL); one pointing to a non-existent order is rejected, because "
+      "blanking the reference would turn it into a walk-in exam, which is a fact we do not know.")
+    w("- In Source C the parent admission of a nested record is its enclosing `<admission>`; records in "
+      "`<unlinkedRecords>` use their `admissionRef`. A staff member with the wrong role for a field "
+      "(e.g. a triage nurse who is not a nurse) is flagged `role_mismatch`.\n")
+
+    w("### 2.8 Chronology (all comparisons in UTC)\n")
+    w("Rejected:")
+    w("- date of birth after the extract date; admission before the patient's date of birth; admission or "
+      "discharge after the extract time; discharge before admission;")
+    w("- triage, diagnosis, note, order, radiology exam, procedure, unit-stay entry and discharge record before the "
+      "admission or after its discharge (after the extract time for an active admission);")
+    w("- unit exit before unit entry or after the admission's discharge; radiology exam before its order; "
+      "a discharge record for an admission that is still active.\n")
+    w("Flagged only (kept): discharge-record time different from the admission's discharge time, follow-up before "
+      "discharge, overlapping unit stays, open unit stay after discharge, status `active` with a discharge time "
+      "(or discharged without one), patient `alive` with an admission that ended in death, age over 120.\n")
+
+    # ------------------------------------------------------------------ examples
+    w("## 3. Before and after examples\n")
+    w("### 3.1 Field corrections (one example per rule and source)\n")
+    picks, seen = [], set()
+    for r in acts:
+        if (r["rule"], r["source_system"]) not in seen:
+            seen.add((r["rule"], r["source_system"]))
+            picks.append(r)
+    w(_md(picks, ["source_system", "entity", "source_record_id", "field", "rule", "action", "before", "after"]))
+
+    w("### 3.2 Whole records\n")
+    from cleaning.clean_sources import to_output
+    n_changes = Counter((r["source_system"], r["entity"], r["source_record_id"]) for r in log
+                        if r["action"] in ("corrected", "set_null"))
+    want = [(src, ent) for src in ("A", "B", "C", "D") for ent in ("patients", "admissions", "triage")] + \
+           [("A", "diagnoses"), ("B", "unit_stays"), ("C", "discharges"), ("D", "discharges")]
+    for src, ent in want:
+        if src not in all_recs:
             continue
-        shown.add(key)
-        rows.append([r["_source"], r["_entity"], r.get("_id", ""), r.get("_qkind", "direct"), "; ".join(r["_reasons"]),
-                     "`" + raw_json(r)[:160] + ("…" if len(raw_json(r)) > 160 else "") + "`"])
-    w(md_table(["Src", "Entity", "Id", "Type", "Reasons", "Raw record (truncated)"], rows))
+        cands = [r for r in all_recs[src][ent] if r.status == "ok"]
+        if not cands:
+            continue
+        r = max(cands, key=lambda x: (n_changes[(src, ent, x.sid)], -(x.id or 0)))
+        o = to_output(r)
+        w(f"**Source {src}, {ent} `{r.sid}`** ({r.loc}) - {n_changes[(src, ent, r.sid)]} field changes\n")
+        w("Before (raw):\n")
+        w("```\n" + str(r.raw_record).strip() + "\n```\n")
+        w("After (clean row):\n")
+        w(_md([{"column": k, "value": v} for k, v in o.items()]))
 
-    w("\n## 4. Output files\n")
-    w("""* `output/clean/<entity>.csv` - cleaned, standardised records of all four sources (column `source` + local id form the key).
-* `output/quarantine/<entity>_quarantine.csv` - rejected records with `rejection_type`, `reasons` and the untouched raw record.
-* `output/cleaning_log/issues.csv` - every field-level correction, nulling, flag and missing value (before/after).
-* `output/cleaning_log/duplicates_removed.csv` - every removed same-key duplicate copy and the copy that was kept.
-* `output/cleaning_log/patient_crosswalk.csv` - duplicate patient registrations mapped to their master patient.
-* `output/cleaning_log/transformations.csv` - counts of routine conversions (UTC, units, codes, categories).
-""")
-    REPORT.write_text("\n".join(L) + "\n", encoding="utf-8")
+    w("### 3.3 Quarantined records (one example per reason)\n")
+    first = {}
+    for r in q:
+        first.setdefault((r["reason_codes"].split(";")[0].split(":")[0], r["source_system"]), r)
+    w(_md([first[k] for k in sorted(first)],
+          ["source_system", "entity", "source_record_id", "disposition", "reason_details", "raw_record"]))
 
+    w("### 3.4 Malformed records (could not be read; logged by the loader)\n")
+    w(_md(malformed, ["source_system", "entity", "source_row", "reason", "raw_record"]))
 
-def _find_loc(data, S, E, loc):
-    return next(r for r in data[S][E] if r["_loc"] == loc)
-
-
-def _pick(data, ctx, S, E, issue):
-    ok = [r for r in data[S][E] if not r.get("_quarantined") and not r.get("_removed")]
-    if issue is None:
-        return ok[0] if ok else None
-    locs = {i["location"] for i in ctx.issues if i["source"] == S and i["entity"] == E and i["issue"] == issue}
-    for r in ok:
-        if r["_loc"] in locs:
-            return r
-    return None
+    (out_dir / "cleaning_report.md").write_text("\n".join(L) + "\n", encoding="utf-8")

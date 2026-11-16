@@ -1,49 +1,45 @@
-source,entity,records,key_field,exact_duplicate_rows,keys_appearing_more_than_once,extra_rows_on_repeated_keys,repeated_key_examples,possible_same_person_new_id,same_person_examples
-A,professionals,40,prof_no,0,0,0,,,
-A,icd9_dictionary,27,code_cim9,0,0,0,,,
-A,patients,490,pat_no,7,7,7,"464, 478, 155, 166, 366, 450",4,430/484; 332/482; 275/483; 49/481
-A,admissions,902,sejour_no,7,8,8,"95, 221, 296, 402, 513, 684",,
-A,triage,949,triage_no,0,0,0,,,
-A,unit_stays,1499,mvt_no,0,0,0,,,
-A,diagnoses,2171,diag_no,21,21,21,"6, 20, 102, 152, 336, 358",,
-A,orders,601,demande_no,0,0,0,,,
-A,radiology,318,examen_no,0,0,0,,,
-A,procedures,104,acte_no,0,0,0,,,
-A,notes,999,note_no,0,0,0,,,
-A,discharges,895,sortie_no,0,0,0,,,
-B,professionals,40,ProviderID,0,0,0,,,
-B,icd9_dictionary,27,ICD9Code,0,0,0,,,
-B,patients,510,PatientID,7,7,7,"66, 279, 389, 223, 489, 147",5,440/502; 201/503; 251/505; 311/504; 130/501
-B,admissions,975,EncounterID,9,9,9,"33, 327, 340, 416, 504, 599",,
-B,triage,1022,TriageID,0,0,0,,,
-B,unit_stays,1538,StayID,0,0,0,,,
-B,diagnoses,2337,DxID,23,23,23,"65, 528, 647, 737, 763, 832",,
-B,orders,710,OrderID,0,0,0,,,
-B,radiology,397,ImagingID,0,0,0,,,
-B,procedures,106,ProcedureID,0,0,0,,,
-B,notes,1076,NoteID,0,0,0,,,
-B,discharges,970,DischargeID,0,0,0,,,
-C,professionals,40,staffId,0,0,0,,,
-C,icd9_dictionary,27,code,0,0,0,,,
-C,patients,512,patientNo,7,7,7,"345, 98, 469, 3, 34, 284",5,404/503; 44/501; 172/504; 357/505; 30/502
-C,admissions,952,admissionNo,7,9,9,"17, 141, 179, 182, 302, 309",,
-C,triage,988,id,0,0,0,,,
-C,unit_stays,1537,id,0,0,0,,,
-C,diagnoses,2269,id,22,22,22,"12, 63, 71, 183, 464, 467",,
-C,orders,661,id,0,0,0,,,
-C,radiology,348,id,0,0,0,,,
-C,procedures,109,id,0,0,0,,,
-C,notes,1050,id,0,0,0,,,
-C,discharges,943,id,0,0,0,,,
-D,professionals,40,practitioner_id,0,0,0,,,
-D,icd9_dictionary,27,icd9,0,0,0,,,
-D,patients,470,mrn,4,6,6,"311, 242, 140, 266, 7, 51",4,161/464; 250/461; 356/463; 202/462
-D,admissions,808,encounter_id,5,8,8,"114, 162, 322, 442, 545, 588",,
-D,triage,834,triage_id,0,0,0,,,
-D,unit_stays,1327,movement_id,0,0,0,,,
-D,diagnoses,1907,dx_id,18,18,18,"68, 109, 362, 388, 406, 549",,
-D,orders,505,order_id,0,0,0,,,
-D,radiology,289,imaging_id,0,0,0,,,
-D,procedures,82,procedure_id,0,0,0,,,
-D,notes,881,note_id,0,0,0,,,
-D,discharges,800,discharge_id,0,0,0,,,
+source_system,entity,records,exact_duplicate_rows,duplicate_ids,same_id_different_values,duplicate_entity_key,records_sharing_a_key_with_an_earlier_record,example
+A,professionals,73,1,1,0,full_name + role + department,3,66 ~ 71
+A,patients,503,9,9,0,full_name + date_of_birth,23,97 ~ 481
+A,admissions,717,13,13,0,patient_id + admit_time,32,512 ~ 685
+A,triage,759,14,14,0,admission_id + triage_time + triage_priority,35,678 ~ 727
+A,diagnoses,1725,31,31,0,admission_id + diagnosis_time + icd9_code,79,518 ~ 1647
+A,notes,1396,25,25,0,admission_id + note_time + note_type,62,201 ~ 1334
+A,orders,533,10,10,0,admission_id + order_time + exam_type,25,345 ~ 509
+A,radiology,339,6,6,0,admission_id + exam_time + exam_type,17,225 ~ 226
+A,procedures,87,2,2,0,admission_id + procedure_time + procedure_name,4,60 ~ 84
+A,unit_stays,1177,21,21,0,admission_id + entry_time + unit_type,53,624 ~ 1125
+A,discharges,717,13,13,0,admission_id + discharge_time,33,131 ~ 685
+B,professionals,84,2,2,0,full_name + role + department,4,19 ~ 81
+B,patients,693,13,13,0,full_name + date_of_birth,33,157 ~ 661
+B,admissions,876,17,17,0,patient_id + admit_time,42,620 ~ 835
+B,triage,645,12,12,0,admission_id + triage_time + triage_priority,31,602 ~ 615
+B,diagnoses,1084,21,21,0,admission_id + diagnosis_time + icd9_code,52,578 ~ 1033
+B,notes,1356,26,26,0,admission_id + note_time + note_type,65,719 ~ 1292
+B,orders,825,16,16,0,admission_id + order_time + exam_type,39,141 ~ 787
+B,radiology,195,4,4,0,admission_id + exam_time + exam_type,9,186 ~ 187
+B,procedures,124,2,2,0,admission_id + procedure_time + procedure_name,6,45 ~ 119
+B,unit_stays,1169,22,22,0,admission_id + entry_time + unit_type,56,349 ~ 1114
+B,discharges,872,17,17,0,admission_id + discharge_time,42,337 ~ 831
+C,professionals,73,1,1,0,full_name + role + department,5,S0010 ~ S0021
+C,patients,503,9,9,0,full_name + date_of_birth,23,P000037 ~ P000481
+C,admissions,738,13,13,0,patient_id + admit_time,33,E000005 ~ E000706
+C,triage,775,14,14,0,admission_id + triage_time + triage_priority,35,14 ~ 743
+C,diagnoses,1750,32,32,0,admission_id + diagnosis_time + icd9_code,78,30 ~ 1685
+C,notes,1406,25,25,0,admission_id + note_time + note_type,65,75 ~ 1382
+C,orders,514,9,9,0,admission_id + order_time + exam_type,23,9 ~ 499
+C,radiology,346,6,6,0,admission_id + exam_time + exam_type,16,48 ~ 334
+C,procedures,70,1,1,0,admission_id + procedure_time + procedure_name,2,29 ~ 69
+C,unit_stays,1219,22,22,0,admission_id + entry_time + unit_type,54,3 ~ 1179
+C,discharges,738,13,13,0,admission_id + discharge_time,32,16 ~ 712
+D,professionals,96,2,2,0,full_name + role + department,5,37 ~ 92
+D,patients,688,13,13,0,full_name + date_of_birth,33,517 ~ 656
+D,admissions,923,18,18,0,patient_id + admit_time,44,38 ~ 890
+D,triage,668,13,13,0,admission_id + triage_time + triage_priority,32,39 ~ 644
+D,diagnoses,1173,22,22,0,admission_id + diagnosis_time + icd9_code,56,136 ~ 1123
+D,notes,1497,28,28,0,admission_id + note_time + note_type,71,23 ~ 1471
+D,orders,855,16,16,0,admission_id + order_time + exam_type,26,111 ~ 831
+D,radiology,210,4,4,0,admission_id + exam_time + exam_type,10,91 ~ 206
+D,procedures,142,3,3,0,admission_id + procedure_time + procedure_name,7,13 ~ 141
+D,unit_stays,1310,25,25,0,admission_id + entry_time + unit_type,62,381 ~ 1280
+D,discharges,922,18,18,0,admission_id + discharge_time,44,5 ~ 884

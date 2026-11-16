@@ -1,0 +1,762 @@
+num_triage|num_sejour|ide|date_heure_triage|tension|pouls|freq_resp|temperature|spo2|eva|symptomes|allergies|traitement_habituel|niveau_tri
+1|1|36|25/05/2023 14:13|104/100|114|17|38,5|89|14|chest pain|NKA|None|3
+2|2|2972|25/10/2022 22:21|155/90|108|28|36,5|92|4|headache|Aspirin|Bisoprolol 2.5 mg|3
+3|3|37|07/05/2023 08:06|153/97|120|16|38,6|94|5|cough, confusion, palpitations|no known allergies|Paracetamol 1 g|2
+4|4|26|02/02/2024 17:20|169/67|78|150|37,2|88|2|dizziness, fall, abdominal pain|NKA|Ramipril 5 mg|3
+5|5|36|09/06/2024 23:13|103/73|117|23 c/min|37,4|88|3|cough|  NKA|Furosemide 40 mg|1
+6|6|43|16/11/2024 06:06|N/A|114|23|39,6|99|4|chest pain, palpitations, nausea|no known allergies|aucun|1
+7|7|40|08/06/2023 07:07|131/64 mmHg|81|17|36,1|91||fever, cough|none|Bisoprolol 2.5 mg|Tri 2
+8|8|29|28/12/2023 12:02|156/65|95|150|39,6|95|2|headache, dizziness|None|None|2
+9|9|33|03/03/2023 22:45|124/76|57|27|38,9°C|140|5|chest pain|None|none|2
+10|10|25|07/01/2024 07:45|157/96|75 bpm|18|37,8|98||chest pain, fall|aucune|none|1
+11|11|42|31/07/2024 19:06|154/99|0|15|101,7 F|98|4|palpitations, confusion|aucune|Amoxicillin 1 g|1
+12|12|41|17/09/2024 16:05|150/95|56|26|37,5|92|8|confusion, dizziness|aucune|None|1
+13|13|35|15/07/2025 06:00|133/87|124|18|102,7 °F|95|9|nausea, cough|Sulfa drugs|none|3
+14|14|38|16/03/2024 14:05|152/60|64|18|39,0C|98|6|nausea, cough|  No Known Allergies|Furosemide 40 mg|3
+15|15|31|01/06/2024 10:10|142/100|118|18|36,2|91|2|headache, nausea|None|-|2
+16|16|31|15/04/2024 20:03|169/70|83|17|97,3 °F|99|8|weakness|aucune|Amoxicillin 1 g|2
+17|17|39|02/08/2022 00:04|105/98|-|25|39,4|94|5|headache, fever, shortness of breath|no known allergies|Ramipril 5 mg|3
+18|18|32|03/10/2022 10:08|167/83 mmHg|101|23|?|93|7|fever|Peanuts|Amoxicillin 1 g|1
+19|19|33|02/12/2022 15:21|143/97|70|14|300|100|0|headache, weakness|Penicillin|Ramipril  5 mg|3
+20|19|39|02/12/2022 16:11|161/72|103|27|97,3 F|95|4|weakness, abdominal pain|aucune|Metformin 850 mg|1
+21|20|44|03/10/2023 19:18|128/65|116|23|39,0|100|0|chest pain|none|None|3
+22|21|29|06/12/2023 01:22|157/60||xx|38,6|94|10|headache|None|Paracetamol 1 g|1
+23|22|32|06/03/2024 04:21|164/61|84|14|37,9|98|6|palpitations   |no known allergies|Amoxicillin 1 g|3
+24|23|43|11/11/2024 05:24|112/69|120|17|52|94|6|cough, fever, weakness|None|Ramipril 5 mg|3
+25|23|34|11/11/2024 06:05|144/87|84|null|36,5|95|5|dizziness, fever|Latex|Metformin 850 mg|3
+26|24|37|30/05/2023 12:29|132/77|-72|22|37,8|97|4|chest pain, fall|Aspirin|Bisoprolol 2.5 mg|1
+27|25|44|24/11/2022 21:29|138/86|99|27|37,8|99|0|weakness, headache|Latex|Amoxicillin 1 g|2
+28|26|28|12/01/2023 21:12|300/20|72|18|38,1|91|0|DIZZINESS, NAUSEA, CONFUSION|Iodine contrast|None|VERT
+29|27|26|03/07/2024 23:48|117/65|89|23|100,2 F|88|14|weakness, abdominal pain, dizziness|Aspirin|NKA|3
+30|28|38|25/01/2025 21:42|109/75|116|18|38,6|89|0|nausea|Sulfa drugs|none|1
+31|29|41|06/07/2024 05:43|105/78|114|25|37,8|92|4|abdominal pain, chest pain, fall| Peanuts |Atorvastatin 20 mg|3
+32|30|27|20/05/2022 02:00|135/79|78|150|98,4 °F|89|2|null|NKA|Bisoprolol 2.5 mg|2
+33|31|28|05/12/2023 16:34|300/20|63|21|38,3|99|4|confusion, nausea, headache|aucune|NKA|1
+25|23|34|11/11/2024 06:05|144/87|84|null|36,5|95|5|dizziness, fever|Latex|Metformin 850 mg|3
+34|32|44|24/07/2024 15:35|143/85|59|20|38,6|92|14||no known allergies|Bisoprolol 2.5 mg|1
+35|33|43|13/11/2023 22:39|110/93|114|23|37,6|96|fort|fever, dizziness|Sulfa drugs|Levothyroxine 50 mcg|3
+36|34|?|02/09/2024 06:36|133/80|111|?|36,6|97|8|headache, fall, cough|Iodine contrast|Levothyroxine 50 mcg|ORANGE
+37|35|36|08/11/2024 07:35|118/85|106|19|36,7|97|7|shortness of breath, chest pain|PENICILLIN|Metformin 850 mg|3
+38|36|30|21/06/2025 11:48|142/85|59|12|52|92%|4|headache, confusion|none|Aspirin 75 mg|2
+39|37|31|11/09/2025 12:36|138/60|80|24|38,1|90|4|fall|none|Bisoprolol 2.5 mg|2
+40|38|39|30/01/2022 14:55|149/96|65|20|102,4F|99|0/10|confusion|NKA|Metformin 850 mg|2
+41|39|29|10.10.2022 19:45|124/92|114|14|410||0|dizziness, fever, weakness|none|Levothyroxine 50 mcg|GRIS
+42|40|42|02/05/2023 11:43|131/60|88|15|38,0C|99|4|headache, palpitations, abdominal pain|  Peanuts|NKA|2
+43|41|27|23/11/2024 06:29|106/80|99|24|38,5|89%|3|headache, abdominal pain, nausea|No Known Allergies|None   |2
+44|42|39|29/01/2025 06:34|166-75|68|27|39,5|140|0|nausea, weakness, fever|Penicillin|Bisoprolol 2.5 mg|ROUGE
+45|43|37|12/05/2023 22:41|169/83|125|24|96,8F|97|-2|confusion, palpitations|Peanuts|Paracetamol  1 g|2
+46|44|28|31/12/2023 01:37|abc/def|125|14|101,3 F|?|7/10|shortness of breath, confusion, abdominal pain|Latex|Paracetamol 1 g|3
+47|45|29|07/08/2024 09:34|300/20|97|21/min|36,8|90|3|weakness, chest pain|none|Atorvastatin 20 mg|2
+48|46|40|16/10/2024 10:43|159/72|73|15|38,3|99|fort|confusion, palpitations|Peanuts|none|1 
+49|4513|40|2024-10-16 11:18:00|150/88|0|16|38,9|99|6|chest pain, dizziness, palpitations|Peanuts   |Aspirin 75 mg|1
+50|47|37|24/01/2022 13:44|135/79|102|16|38,5|94|-|headache, nausea|NKA|Atorvastatin 20 mg|2
+51|48|29|23/07/2024 01:47|168/61|77|12|39,3|94|9|confusion|No Known Allergies|Ramipril 5 mg|1
+52|49|38|20/01/2025 08:45|140/85|122|23|chaud|91|10|nausea, shortness of breath|NKA|Amoxicillin 1 g|3
+53|50|28|30/08/2025 06:41|131/100|-72|28|98,4 °F|88|2|confusion, palpitations|NKA|Ramipril 5 mg|3
+54|51|26|13/03/2022 23:46|153/68|90|21|52|90|2|nausea, weakness|NKA|?|3
+55|52|43|01/09/2022 18:56|157 / 70|55|13|99,0F|95|9|nausea, palpitations|NKA|ATORVASTATIN 20 MG|3
+56|53|33|22/02/2023 21:03|163/83|59|27|98,8 F|98|0|nausea, cough, confusion|None|Ramipril 5 mg|1
+57|54|41|25/07/2023 10:04|155/98|111|26|-|140|7|palpitations|no known allergies|Ramipril 5 mg|3
+58|55|41|21/09/2022 18:44|123/93|999||39,1|98|7|shortness of breath, dizziness, headache|None|None|3
+59|56|43|02/10/2024 07:06|118/99 mmHg|87|14|37,5|99|14|fever, nausea|None|Amoxicillin 1 g|3
+60|57|32|06/06/2024 11:19|155-90|120|25|4,5|96|10|shortness of breath, fall, nausea|Penicillin|Paracetamol 1 g|2
+61|58|43|22/07/2024 08:33|160/86|63|13|100,9F|-3|10|palpitations, fall, dizziness|none|aucun|1
+62|59|31|13/08/2022 21:33|142/80 mmHg|102|12|chaud|N/A|4|cough, confusion|Peanuts|NKA|1
+63|60|34|13/02/2023 00:41|131/77|93|12|39,5|105|8|fall|No Known Allergies|none|2
+64|61|40|20/11/2023 12:46|134/99|77|15|37,4|97|9|chest pain|aucune|Amoxicillin 1 g|1
+65|62|44|22/12/2024 17:44|106/68|65|20|39,4|92|4|nausea|aucune|Bisoprolol 2.5 mg|2
+66|63|39|30/09/2022 07:41|107/96|120|16|100,6|88|8|cough, abdominal pain, weakness|aucune|Atorvastatin 20 mg|2
+67|63|43|30/09/2022 08:41|134/87|99|21|38,0|90|0|dizziness, cough|Sulfa drugs|NKA|3
+68|64|34|2023-08-02T05:48|107/94|0|17|100,4 °F|94|5|cough|No Known Allergies|NKA|2
+69|65|32|11/09/2024 08:07|162/64|90|20|300|100|6|fall, chest pain, confusion|aucune|NKA|3
+70|66|36|04/06/2025 16:56|134/65|92|20|99,7 F|89|11|abdominal pain|None|Amoxicillin 1 g|1
+71|67|44|10/05/2022 19:46|119/94|83|16|38,2|140|5|headache|none|Metformin 850 mg|3
+72|68|38|28/07/2022 20:40|140/76|105|14|36,1|99|6|confusion, palpitations, headache|Latex|Furosemide 40 mg|2
+73|69|41|17/11/2023 21:37|149/92|67|25|4,5|94|9|chest pain|Aspirin|aucun|ORANGE
+74|70|32|07/04/2024 21:40|122/76|66|13 c/min|37,4|93%|1|shortness of breath, chest pain, palpitations|no known allergies|Paracetamol 1 g|1
+75|71|27|24/06/2023 17:27|158/62|68|0|37,5|95|1|headache, shortness of breath, chest pain|NKA|Atorvastatin 20 mg|3
+76|72|38|09/08/2023 03:20|150/82|68|95|37,5|92|8|nausea|none|Ramipril 5 mg|3
+77|73|36|14/08/2023 21:37|145/84|99|28|36,8|98|9|fall, cough|None|Levothyroxine 50 mcg|3
+78|74|30|31/08/2023 01:22|102/67|84/min|14|36,2|98|6|dizziness|Sulfa drugs|Paracetamol 1 g|1
+79|75|39|29/12/2023 04:13|158/78|420|19|100,6 °F|88|1|weakness|aucune|PARACETAMOL 1 G|3
+80|76|43|26.09.2022 08:44|153/100|-1|25|chaud|97|9|palpitations, headache|None|NKA|3
+81|77|40|10/04/2023 08:53|154/99|116|17|38,6|95|11|cough, palpitations|Peanuts|Atorvastatin 20 mg|2
+82|78|38|24/01/2024 13:53|142/96|112|15 c/min|102,7 F|94|8|palpitations, shortness of breath, chest pain|Aspirin|Levothyroxine 50 mcg|2
+83|79|35|03/06/2024 23:57|150/90|57|25|36,5|92|3|abdominal pain|?|Bisoprolol 2.5 mg|3
+77|73|36|14/08/2023 21:37|145/84|99|28|36,8|98|9|fall, cough|None|Levothyroxine 50 mcg|3
+84|80|31|27/02/2025 01:44|158/83|64|17|37,5|93|10|palpitations, dizziness, shortness of breath|no known allergies|Ramipril 5 mg|2
+85|81|39|01/02/2022 18:51|116/81|125|150|103,1|97|-|dizziness, headache, shortness of breath|Sulfa drugs|Ramipril 5 mg|2
+86|82|37|22/02/2024 19:21|125/84|87|95|37,5|89%|7|abdominal pain|Aspirin|Atorvastatin 20 mg|1
+87|83|29|30/07/2024 11:54|0/0|104|22|39,6||4|DIZZINESS|no known allergies|aucun|1
+88|84|33|28/03/2025 07:59|136/95|0|15|36,5|93|1|confusion|Sulfa drugs|Aspirin 75 mg|3
+89|85|32|19/05/2022 04:33|102/89|999|24|36,3|99|2|fall, nausea|Iodine contrast|aucun|2
+90|86|33|24/10/2022 13:40|abc/def|111|25|38,3|88|5|  headache|?|none|3
+91|87|43|04/06/2023 17:13||999|25|36,4|96|5|fall, confusion|Peanuts|Furosemide 40 mg|1
+92|88|43|16/10/2023 18:22|129/86|91|28|38,1C|99|3|cough, dizziness|No Known Allergies|NKA|3
+93|89|33|28/02/2023 15:43|110/84|114|26|99,0|-3|7/10|fever, dizziness, headache|None|Paracetamol 1 g|3
+94|90|41|13/09/2023 23:52|107/64|120|13|37,7|90%|6|cough, shortness of breath, dizziness|Sulfa drugs|Atorvastatin 20 mg|2
+95|91|42|14/03/2024 09:40|145/72|59|28/min|39,8°C|89|0|fall, fever, palpitations|Iodine contrast|Amoxicillin 1 g|2
+96|92|27|23/05/2022 03:27|124/61|97|26|37,5|91|-2|cough|no known allergies|Levothyroxine 50 mcg|Tri 3
+97|93|38|07/10/2022 00:13|112/88|abc|20|38,1|91|3|palpitations, abdominal pain|None|Metformin 850 mg|3
+98|94|44|18/04/2024 21:20|118/90|112|20|?|91|8|shortness of breath|aucune|Amoxicillin 1 g|3
+99|95|34|01/06/2024 04:17|162/78|72|12 c/min|38,0|99%|10|fall|Penicillin|NKA|1
+100|96|30|20/08/2022 19:32|125/92|112|0|39,0|100|6|chest pain|Latex|Ramipril 5 mg|2
+101|97|37|26/04/2022 20:15|129-85|97|15 c/min|39,5|97|1|shortness of breath, fever, headache|no known allergies|None|3
+102|98|34|02/07/2022 22:10|134/67|79|15|38,3|97|10|fall, headache|Iodine contrast|Bisoprolol 2.5 mg|3
+103|99|39|17/03/2022 23:14|137/99|95|15|?|91|10|palpitations|Aspirin|Metformin 850 mg|3
+104|100|40|18/08/2024 18:45|105/69|420|19|103,5 °F|98|8|headache, cough, abdominal pain|Sulfa drugs|None|3
+105|101|31|16/04/2025 00:32|153/94|69 bpm|15|37,1|98|6|cough, confusion, weakness|Latex|NKA|ORANGE
+106|102|35|10/08/2023 01:56|160/67|69|15|36,7|-3|9|fall, nausea, fever|Peanuts|Ramipril 5 mg|3
+107|103|38|30/07/2023 10:04|127/87|114|17|39,6|97|2|confusion, nausea, chest pain|Sulfa drugs|Ramipril 5 mg|1
+108|104|31|2022-01-15T00:25|150/84|75|17|37,5|90|14|fever|Peanuts|Ramipril 5 mg|3
+109|105|38|2024-03-10 02:46:00|115/68|103|16|102,9 °F|98|10|palpitations|No Known Allergies|Paracetamol 1 g|2
+110|106|29|17/07/2022 13:49|null|75|16|36,6|-3|5|dizziness, confusion|aucune|Aspirin 75 mg|
+111|107|29|06/02/2024 09:18|162/90|86|27|36,2|95|8|palpitations, abdominal pain|None
+112|108|39|10/08/2024 09:03|142 / 89|111|26|38,9|90|8|abdominal pain, palpitations, nausea|Iodine contrast|Aspirin 75 mg|3
+113|109|29|15/06/2023 02:25|0/0|121|18|37,8|100|7|chest pain, fever, weakness|Iodine contrast|Levothyroxine 50 mcg|1
+114|110|38|23/08/2023 21:24|153/99|86|13|36,6|91|6|cough, headache|Latex|Metformin 850 mg|3
+115|111|36|27/05/2023 12:56|147/68|0|15|100,0 °F|98|8|weakness, nausea, cough|Peanuts|none|3
+116|112|35|06/08/2022 07:30|111/82|65|13|36,2|90|1|confusion, cough, headache|none|Paracetamol 1 g|3
+117|113|37|13/11/2022 22:27|108/71|71|95|39,5|93|7|confusion, palpitations|none|Metformin 850 mg|1
+118|114|37|29/04/2023 03:14|?|121|14|38,5|89|4|chest pain|Peanuts|Metformin 850 mg| 2 
+119|115|31|22/11/2023 04:12|152/71|71|20 c/min|37,0|abc|1|-|no known allergies|None|2
+120|116|33|20/11/2022 04:42|153/100|109 bpm|14|36,1|91|-2|abdominal pain, dizziness, fall|no known allergies|Paracetamol 1 g|2
+121|117|26|04/05/2024 12:54|abc/def|102|17|38,5°C|-|0|abdominal pain, palpitations|No Known Allergies|Metformin 850 mg|3
+122|118|34|25/02/2025 13:52|153/65|55|25|37,6|98|14|headache, confusion, cough|aucune|Paracetamol 1 g|3
+123|118|40|25/02/2025 14:31|113/84|86|20|101,5F|92|4|dizziness|Iodine contrast|Aspirin 75 mg|2
+124|119|38|24/08/2023 23:34|121/90|N/A|19 c/min|98,4F|90|6|abdominal pain|Latex|Ramipril 5 mg|1
+125|119|34|25/08/2023 00:26|123/95|71|25|36,1|95|14|fever, abdominal pain|  NKA|Paracetamol 1 g|2
+126|120|32|19/03/2024 20:28|160/60|119|26|103,1F|96|2|confusion, palpitations|Latex|aucun|3
+127|120|34|19/03/2024 21:30|-|69|16|36,7|91|2|cough, abdominal pain, shortness of breath|Latex|None|1
+128|121|26|27/10/2024 11h28|111/61|72|16|38,1|100|3|fall, nausea|Iodine contrast|None|3
+129|122|42|11/07/2023 17:40|159/79|65|20|102,7 F|94|3|dizziness, cough, nausea|NKA|lEVOTHYROXINE 50 MCG|3
+130|123|42|29/09/2023 09:50|abc/def|70/min|24|36,6|92|-|weakness, nausea|Sulfa drugs|aucun|2   
+131|124|28|22/11/2022 00:10|165/68|112|15|38,2|98|7|null|Latex|None|3
+132|125|38|13/09/2023 12:01|107/67|116|17|97,5F|96|3/10|shortness of breath, fever, cough|penicillin|Paracetamol 1 g|?
+133|126|40|15/05/2023 13:56|138/85|75|12|100,9 F|96|7|headache, dizziness|none|Aspirin 75 mg|2
+134|126|42|15/05/2023 14:37|145/88|123|24|98,4 F|90|9|fever|Penicillin|null|2
+135|127|33|05/05/2022 18:33|113/61|93|21|37,4|88|2|palpitations|no known allergies|NKA|3
+136|128|30|10/01/2023 16:31|141/78|71|14|chaud|96|10|dizziness, chest pain, headache|Aspirin|Levothyroxine 50 mcg|3   
+137|129|40|26/04/2024 10:05|150/70|91|22|36,9|94|1|fever, chest pain|None|Paracetamol 1 g|3
+138|129|37|26/04/2024 10:32|168/61|110|12|36,4°C|105|6|abdominal pain|Sulfa drugs|Ramipril 5 mg|3
+139|130|41|25/03/2023 03:05|129/100|116|17|38,3|93|14|abdominal pain, fever|No Known Allergies|Levothyroxine 50 mcg|1
+140|131|44|24/11/2023 08:23|134/76|110|18|38,4|97|9|weakness, fever|None|none|2
+141|132|38|10/02/2024 05:17|167/97|76|25|38,5|91|6|weakness, cough|Sulfa drugs|Ramipril 5 mg|3
+142|133|35|23/05/2024 06:15|147/89|95|12 c/min|99,7 F|96|6|cough, dizziness, weakness|NKA|NKA|3
+143|134|41|03/07/2024 05:00|139/74|58|17|36,7|105|1|headache|Sulfa drugs|  Furosemide 40 mg|2
+144|135|29|02/10/2023 09:25|abc/def|106|24|39,6|94|7|fever, dizziness, cough|Peanuts|Paracetamol 1 g|2
+145|136|38|16/03/2024 11h37|122/69|105|28|37,2|100|10|abdominal pain, weakness, dizziness|Sulfa drugs|Atorvastatin 20 mg|3
+146|137|36|22/03/2023 21:48|300/20|65|22|36,6|98|0|fall|none|None|2
+147|138|26|22/09/2023 19:36|140/94|abc|N/A|97,0 F|98|7/10|PALPITATIONS, FEVER|Peanuts|NKA|3
+148|139|39|22/03/2023 23:02|154/96|82|15|37,6|95|9|weakness, abdominal pain|aucune|Ramipril 5 mg|3
+149|140|32|04/12/2023 05:13|163/99|0|20|101,3 F|98|0|confusion|Aspirin|Furosemide 40 mg|2
+150|141|35|14/12/2023 10:47|146/76|61|17|37,8|97|4|nausea|NKA|none|1
+151|142|34|08/06/2024 07:45|109/95|73|17|38,0|90|5|chest pain, dizziness, headache|Iodine contrast|NKA|2
+152|143|28|23/06/2022 23:38|126/78|59|19|97,2|93|3|weakness, abdominal pain, shortness of breath|Penicillin|Ramipril 5 mg|Tri 3
+153|143|37|24/06/2022 00:37|101/79|94|20|37,1|92|5|chest pain, fall, cough|aucune|Ramipril 5 mg|3
+154|144|43|05/04/2024 10:46|170/70|115|25|37,0|96|1|palpitations, dizziness, shortness of breath|Iodine contrast|Furosemide 40 mg|3
+155|145|38|24/01/2025 23:57|105/100|89|20|38,6|89|6|confusion||Metformin 850 mg|3
+156|146|43|16/04/2024 11:27|127/80|121|21|100,4 °F|88|2|confusion|none|Aspirin 75 mg|1
+157|146|-|16/04/2024 12:31|107/68|93|18|103,6 F|88|8/10|weakness|Aspirin|Furosemide 40 mg|ORANGE
+158|147|39|11/12/2023 16:05|101/81|68|13|chaud|97|4|fever|Penicillin|Metformin 850 mg|2
+159|148|32|03/09/2024 11h59|300/20|95|24|100,4F|97|7/10|chest pain, abdominal pain, cough|no known allergies|Paracetamol 1 g|2
+160|149|39|06/06/2025 11:52|112/74|74|26|?|98|4|headache, weakness|no known allergies|NKA|1
+161|150|30|12/09/2025 10:03|116/85|96|95|97,3|90|5|fall, chest pain|NKA|Atorvastatin 20 mg|3
+162|151|44|11/03/2023 00:57|100/99|73|17|38,8|96|7|weakness, headache|Penicillin|None|2
+163|152|25|08/07/2023 23:59|148/87|106|15|300|96|5|fever, dizziness|Sulfa drugs|None|2
+164|153|34|25/12/2024 03:53|167/92|84|15|102,2 F|95|10|shortness of breath, dizziness, headache|No Known Allergies|Atorvastatin 20 mg|2
+165|154|44|11/06/2023 05:02|152/71|87|19|36,5|92|3|weakness|None|None|2
+166|155|29|05/02/2024 20:58|300/20|114|13|36,5|100|3|nausea, palpitations|Penicillin|NKA|2
+167|156|28|12/07/2023 09:53|115/74|90|20|38,7C|93|4|headache, fall|Penicillin|Furosemide 40 mg|2
+168|156|43|12/07/2023 10:40|111/93|106|20|102,9|100|8|headache|Peanuts|Metformin 850 mg|3
+169|157|30|25/04/2024 06:39|125/84|420|19|39,7|92|4|fever|none|Metformin 850 mg|1
+170|158|29|12/09/2024 08:57|147/98|98|28|37,0|98|9|headache, fall, confusion|-|aucun|2
+171|159|36|25/08/2022 02:39|12/8000|117|19|36,8|99|6|palpitations|Latex|Ramipril 5 mg|2
+172|160|25|31/01/2022 09:50|111/71|107|16|100,2 °F|98|3|chest pain|Peanuts|Bisoprolol 2.5 mg|1
+173|161|30|09/04/2023 01:04|142/67|64|14|4,5|88|6|nausea, fall, headache|NKA|Amoxicillin 1 g|3
+174|162|42|30/11/2023 00:53|128/61 mmHg|119|15|98,6|94|0|abdominal pain, shortness of breath|Latex|Paracetamol 1 g|3
+175|163|27|14/03/2024 23:02|104/88|113 bpm|17|38,6|88|4|abdominal pain|None|Amoxicillin 1 g|3
+176|164|38|11/04/2022 13:53|103/93|119|22|39,1|abc|1|fall, cough|aucune|Bisoprolol 2.5 mg|1
+177|165|37|13/01/2023 15:23|128/93|83|21|38,8|-3|4|chest pain|aucune|Paracetamol 1 g|3
+178|166|32|02/05/2023 17:32|148/89|72|13|38,0|95|5|nausea|aucune|Atorvastatin 20 mg|3
+179|167|41|25/12/2023 21:22|102/65|-72|20|39,4|88|0|shortness of breath, fever, nausea|Aspirin|None|3
+180|168|41|17/09/2023 03:02|139/64|83|24|100,8F|89|10|palpitations, confusion, abdominal pain|NKA|Aspirin 75 mg|ROUGE
+181|168|43|17/09/2023 03:43|139/96|-1|22|101,8 °F|90|4|cough, confusion|Aspirin|None|1 
+182|169|35|06/06/2024 20:46|104/70|?|21|36,1|96|0|nausea, palpitations, headache|aucune|Furosemide 40 mg| 3 
+183|170|33|24/11/2024 07:01|152/83|91|21|410|92|2|PALPITATIONS, CONFUSION, ABDOMINAL PAIN|Aspirin|NKA|1
+184|171|30|19/03/2025 02:57|166/73|87|21|36,8|97|7|abdominal pain, palpitations|None|Atorvastatin 20 mg|3
+185|172|39|03/02/2023 04:44|168 / 81|86|20|37,6|92|4|dizziness, chest pain   |Peanuts|aucun|2
+186|1998|30|02/10/2023 10:45|0/0|118 bpm|17|36,6|91|1|fall, confusion, nausea|?|aucun|3
+187|174|27|18/06/2024 19:43|136/92|107|16|36,5|99|7|HEADACHE, CONFUSION, CHEST PAIN|No Known Allergies|Aspirin 75 mg|3
+188|175|34|23/05/2022 16:09|129/80|101|150|39,7|90|3|palpitations, dizziness|Aspirin|Paracetamol 1 g|Tri 3
+189|176|43|05/12/2023 19:04|164/85|79/min|150|99,3 °F|92|8/10|chest pain, fever, headache|Peanuts|-|VERT
+190|177|44|19/01/2024 21:03|115/65|84|19|36,2|105|1|abdominal pain, fever|no known allergies|Levothyroxine 50 mcg|3
+191|178|40|04/12/2024 01:55|103/86|60|26|38,8|98|11|?|None|None|1
+192|179|38|30/07/2022 10h24|137/74|125|23|39,5|98|fort|chest pain|None|Aspirin 75 mg|3
+193|180|27|08/07/2024 23:00|106/83|82|18|97,9F|100|5|nausea, fall|Iodine contrast|aucun|3
+194|181|39|20/10/2022 06:27|0/0|57|?|100,8 F|97|2|headache|Iodine contrast|Atorvastatin 20 mg|3
+195|182|42|14/03/2023 14:10|105/94|89|12|39,1|91|4|abdominal pain, shortness of breath|none|None|1
+196|183|30|13/02/2022 10:33|122/100|60|22|38,9|89|3|confusion, cough|NKA|Bisoprolol 2.5 mg|1
+197|184|39|08/05/2022 06:13|167/73|68|21 c/min|38,7|88|5|confusion|Sulfa drugs|Metformin 850 mg|3
+198|185|36|11/09/2022 14:54|137/83|59|28|100,6 F|90|10|palpitations, headache, fall|no known allergies|Aspirin 75 mg|3
+199|186|29|19/06/2024 08:23|133/67|94|20|37,9|99|-2|cough, shortness of breath|No Known Allergies|Atorvastatin 20 mg|ROUGE
+200|2538|39|29/11/2024 14:21|12/8000|55|16|103,6|88|7|chest pain, weakness, cough|Penicillin|?|1
+201|188|29|06/05/2025 21:20|105/88|76|19|99,7|abc|8|fever|none|Paracetamol 1 g|2
+202|189|27|16/09/2023 23:41|124 / 83|0|25|36,3|94|0|PALPITATIONS|none||3
+203|189|43|17/09/2023 00:15|131/86|82|12|36,1|98|fort|cough|none|Paracetamol 1 g|1
+204|190|31|29/09/2023 07:51|115/86|90|24|37,5|94|3|abdominal pain, palpitations|none|NKA|3
+205|191|32|02.10.2022 09:07|158/81|91|?|99,1 °F|88|10|shortness of breath, fever, abdominal pain|NKA|NKA|3
+206|192|36|26/09/2022 06:12|117/74|112 bpm|16|38,8|88|9|fever|NKA|NKA|1
+207|193|25|14/04/2023 06:58|153/72|109|-|36,0|-3|8|nausea|none|Metformin 850 mg|2
+208|3659|39|04/03/2022 04:25|163/93|103|null|36,3|97|-2|confusion, weakness|Peanuts|none|3
+209|195|692|04/10/2022 09:12|152/91|57|24|39,6|91|0|cough|NKA|Paracetamol 1 g|2
+210|196|37|08/09/2022 04:59|158/72|87|16|38,2|99|8|confusion, fall|aucune|Furosemide 40 mg|2
+211|197|35|11/09/2024 08:32|114/72|66|15|101,5 F|99|2|shortness of breath, dizziness, palpitations|Peanuts|None|3
+212|198|41|11/04/2024 13:28|118/84|59|20|37,9|96|8|fever, nausea, fall|Latex|none|2
+213||37|26/08/2023 07:05|129/70|100|26|37,6|97|5|headache, confusion, fall|No Known Allergies|Paracetamol  1 g|2
+214|200|39|09/08/2023 07:51|118/92|95|14|39,8|91|5|null|Iodine contrast|Aspirin 75 mg|3   
+215|201|25|27/05/2022 18:36|152/84|105|20/min|38,4|90|6|chest pain, shortness of breath|Sulfa drugs| none |Tri 1
+216|202|44|30/12/2023 14:45|148/86|77|27|102,9 F|97|5|fall, shortness of breath, fever|Aspirin|NKA|3
+217|203|42|05/05/2024 20:41|122/96|999|22|39,7|95||dizziness, abdominal pain, weakness|Sulfa drugs|None|3
+218|204|28|04/04/2023 22:01|157/97|73|12 c/min|38,1|95|11|weakness, fever|No Known Allergies|Amoxicillin 1 g|3
+219|204|43|04/04/2023 22:39|141/77|68|xx|38,4|100|1|shortness of breath, confusion|N/A|aucun|2
+220|205|31|08/08/2023 03:06|104/75|105|25|36,8|91|3|confusion, nausea, fever   |No Known Allergies|NKA|3
+221|206|34|20/08/2022 10:10|164/73|117|22|102,7 °F|91|-1|abdominal pain, nausea, confusion|No Known Allergies|None|1
+222|207|44|14/01/2023 00:11|131/93|80|22|36,6|91|0/10|confusion, nausea, dizziness|Penicillin|Amoxicillin 1 g|Tri 2
+223|208|27|17/10/2023 09:59|170/88|114|27|98,2 F|100|9|dizziness||aucun   |2
+224|209|30|24/11/2023 20:09|155/67|101|26|37,7|88|4|confusion, cough|Iodine contrast|Metformin 850 mg|2
+225|209|42|24/11/2023 20:44|154/87|null|0|38,5|89|9|chest pain, shortness of breath, confusion|none|Atorvastatin 20 mg|1
+226|210|32|11/09/2024 06:30|132/97|420|25|36,4|93|5|chest pain, cough|No Known Allergies|Ramipril 5 mg|1
+227|211|41|02/11/2022 18:29|123/99|60|18|36,5°C|95|2|weakness|None|Amoxicillin 1 g|3
+228|212|36|13/12/2024 10:24|151/98|78|18|38,1|89|14|headache|Aspirin|None|1
+229|212|37|13/12/2024 11:23|133/100|59|21|102,6 F|90|5|chest pain, nausea, abdominal pain|Latex|none|2
+230|213|40|28/09/2025 11:35|135/85 mmHg|N/A|16|39,5|93|6|fever|none|Levothyroxine  50 mcg|3
+231|214|38|11/02/2024 21:11|114/87|122|12|102,9 °F|91|1|abdominal pain, fall|no known allergies|aucun|1
+232|215|40|07/10/2023 09:29|114/92|108|22|37,2|92|11|fever, palpitations|Penicillin|None|1
+233|216|28|11/05/2024 16:15|156/88|123|22|4,5|91|5|cough|Penicillin|none|2   
+234|217|33|25/11/2023 10:47|?|86|19 c/min|38,5|88 %|10|shortness of breath|NKA|None|3
+235|218|44|12/09/2024 19:39|156/74|123|24|36,8|92|3|weakness, fall, chest pain|Peanuts|Furosemide 40 mg|ORANGE
+236|219|37|29/04/2022 07:27|159/65|125|23|37,5|94|8|headache, palpitations, confusion|  Sulfa drugs|None|2
+237|220|32|02/10/2022 21:24|300/20|57|28|101,3 °F|94|9|nausea|no known allergies|Amoxicillin 1 g|2
+238|221|25|23/01/2023 22:14|115/83|69|12|38,2|91|14|cough, abdominal pain|Aspirin|Levothyroxine 50 mcg|1
+239|221|28|23/01/2023 22:59|113/89|107|16|-|-3|5|palpitations, shortness of breath, nausea|None|none|1
+240|222|26|16/08/2023 20:17|126/74|89|12|99,3|92|0|-|no known allergies|aucun|3
+241|223|42|12/10/2022 07:56|113/65|106|23 c/min|52|89|1|palpitations, chest pain, shortness of breath|Latex|aTORVASTATIN 20 MG|3
+242|223|37|12/10/2022 08:35|117/92|abc|19|36,5|93|3|fall, chest pain, shortness of breath|none|N/A|3
+243|224|36|13/09/2022 13:32|146/73|97|15|100,8F|90|0|dizziness, chest pain|No Known Allergies|aucun|2
+244|225|34|20/12/2023 18:44|153/69|95|17|36,2|88|3|fever, nausea, headache|Sulfa drugs|Atorvastatin 20 mg|2
+236|219|37|29/04/2022 07:27|159/65|125|23|37,5|94|8|headache, palpitations, confusion|  Sulfa drugs|None|2
+245|226|27|13/06/2024 13:30|153/94|113|28|101,7 °F|92|7|cough, fever|none|Furosemide 40 mg|1
+246|227|33|13/12/2023 03:48||103|95|36,6|94|8|dizziness, cough|None|None|3 
+247|228|25|07.03.2024 21:04|119/69|67|18|99,0F|96|4|shortness of breath, fever, nausea|null|none|2
+248|229|39|31/10/2023 18:11|166/71|113|27|99,9F|95|7|nausea, shortness of breath|Peanuts|NKA|2
+249|230|28|05/07/2022 05:52|101/90|92|28|36,4|98|8|weakness, fall, cough|Penicillin|none|2
+250|231|33|29/12/2022 09:10|null|84|28|36,4|95|9|shortness of breath, weakness, chest pain|aucune|aucun|1
+251|232|33|04/01/2022 05:03|126/71|114|27|300|95%|6/10|nausea|NKA|Furosemide 40 mg|Tri 3
+252|233|41|23/07/2024 23:20|166/76|85|24|36,3|96|1|nausea, dizziness|NKA|Amoxicillin 1 g|3
+253|234|40|06/12/2024 00:18|167/77|80|26|37,2|98|3|weakness, fever|None|Bisoprolol 2.5 mg|2
+254|235|39|27/01/2023 04:17|113/70|79|26|36,3|abc|3|cough|no known allergies|Aspirin 75 mg|3
+255|236|30|13/09/2023 23:25|106/88|?|16|37,5|99|5|dizziness, headache, weakness|NKA|Levothyroxine 50 mcg|2
+256|237|30|06/02/2022 05:00|113/88|124|21|100,6 F|93|-2|headache|NKA|none|3
+257|238|41|18/08/2022 12:03|152/99|57 bpm|23|36,9|91|6|nausea, abdominal pain|None|None|3
+258|239|26|03/10/2024 09:55|126/69|112|26|36,8|93|1|weakness, fever, palpitations|None|Amoxicillin 1 g|3
+259|240|31|05/11/2024 13:22|141/96|107|18|37,4|93|8/10|fever, dizziness|aucune|aucun|2
+260|241|26|28/02/2022 22:10|106/74|77|20|102,2 °F|92|2|weakness, confusion|none|Furosemide 40 mg| 1 
+261|242|40|12/02/2023 19:21|abc/def|67|12|97,5 °F|90|9|dizziness|Iodine contrast|Aspirin 75 mg|ORANGE
+262|243|39|22/12/2022 03:44|106/64|77|24|100,2F|92|8|palpitations, nausea, abdominal pain|aucune|Metformin 850 mg|1
+263|243|31|22/12/2022 04:42|154/62|0|22|36,5|90|7|dizziness, cough|aucune|aucun|2
+264|244|32|08/04/2023 14:53|112/89|57|21|98,1 F|92|-2|CHEST PAIN, NAUSEA, SHORTNESS OF BREATH|?|none|1
+265|245|37|14/04/2023 21:23|149/100|119|0|97,0 °F|100|6/10|chest pain, weakness|none|Atorvastatin 20 mg|1
+266|246|33|15/12/2023 00:34|107/89|78 bpm|28|38,6|105|3|weakness|Sulfa drugs|Paracetamol 1 g|3
+267|247|28|07/12/2023 11:45|144/84|78|18|37,5|97|2|fever, confusion, abdominal pain|Penicillin|aucun|1
+268|248|42|13/11/2023 20:24|118/61|82|18|97,7 F|95|4|cough, abdominal pain|No Known Allergies|Furosemide 40 mg|1
+269|249|39|13/01/2023 14:35|157/64|95|21|38,9|92%|7|headache|Latex|Ramipril 5 mg|1
+270|250|41|26/05/2023 21:23|139/73|99|26|39,1|99|14|palpitations, confusion|none|aucun|3
+271|251|35|08/09/2023 15:27|158/81|60|20|37,6|140|3|abdominal pain|aucune|none|2
+272|252|42|09/06/2023 16h57|0/0|116|15|36,5|89|9|cough, palpitations|none|Ramipril 5 mg|2
+271|251|35|08/09/2023 15:27|158/81|60|20|37,6|140|3|abdominal pain|aucune|none|2
+273|253|27|2023-09-19 07:00:00|138/83|67|18|97,7 °F|97|14|abdominal pain, nausea, fever|no known allergies|Bisoprolol 2.5 mg|2
+274|254|27|04/05/2024 07:58|129/80|91|18|36,2|95|-2|headache|Penicillin|none|1
+275|255|34|31/01/2023 23:07|158/71|107|27|39,4|105|7|abdominal pain, palpitations, shortness of breath|Aspirin|none|3
+276|256|28|04/04/2023 13:05|149/83|107|16|37,4|96|3|palpitations, weakness|Sulfa drugs|Metformin 850 mg|3
+277|256|36|04/04/2023 13:53|151/61|84|14|97,7 °F|100|10|palpitations, shortness of breath, headache|none|Atorvastatin 20 mg|2
+278|257|34|24/06/2024 09:47|147/87|121|16|38,1|95|0|palpitations, headache|Peanuts|Furosemide 40 mg|3
+273|253|27|2023-09-19 07:00:00|138/83|67|18|97,7 °F|97|14|ABDOMINAL PAIN, NAUSEA, FEVER|no known allergies|Bisoprolol 2.5 mg|2
+279|258|40|24/03/2025 04:45|126/78|95|21|39,6|88|2|shortness of breath, headache, chest pain|Aspirin|Aspirin 75 mg|2
+280|259|42|14/03/2023 04:01|105/63|0|20|102,4 F|88|8|headache|NKA|NKA|2
+268|248|42|13/11/2023 20:24|118/61|82|18|97,7 F|95|4|cough, abdominal pain|No Known Allergies|furosemide 40 mg|1
+281|260|44|05/12/2023 14:58|158/97|110|15|37,0°C|92|8|abdominal pain|Latex|none|2
+282|261|32|18/04/2024 21:45|170/69|104|95|37,8|99|10|cough, abdominal pain|None|Ramipril 5 mg|1
+283|262|41|25/06/2024 17:12|133/69|abc|26|39,1|91|5|fall, palpitations|Aspirin|Furosemide 40 mg|2
+284|263|39|04/02/2024 20:03|125/97|66|27|38,5|91|9|weakness, chest pain, abdominal pain|NKA|Furosemide 40 mg|3
+285|264|27|21/05/2024 23:02|127/76|68|25|98,2 °F|97|fort|dizziness|aucune|Bisoprolol 2.5 mg|1
+286|265|41|24/09/2024 06:56|134/69|65|20|chaud|93|6|chest pain, shortness of breath, cough|Peanuts|Levothyroxine 50 mcg|2
+287|266|42|17/02/2025 11:55|146/63|78|19|36,9|90|5|N/A|None|Paracetamol 1 g|1
+288|267|26|31/07/2023 06:57|134/91|63|20|36,9|95|5|chest pain, shortness of breath, headache|NKA|None|2
+289|268|39|16/09/2023 12:07|151/65|420|24|36,4|94|6|shortness of breath, headache|No Known Allergies|Furosemide 40 mg|3
+290|269|40|28/10/2024 08:45|168/97|abc|14|37,2°C|93|6|confusion, fall|Sulfa drugs|Amoxicillin 1 g|1
+291|270|35|05/07/2025 08:46|166/81|90|19|38,0|99|10|fever, headache|Latex|NKA|2
+292|271|44|05/11/2022 12:41|161/82|65|17|36,8|96|1/10|fall|Latex|Paracetamol 1 g|3
+293|272|39|08/10/2024 21:12|133-76|69|19|101,8 F|99|4|nausea|NKA|null|2
+294|1953|38|23/03/2024 19:50|146/91|68|22|410|96|1|shortness of breath|Sulfa drugs|aucun|1
+295|274|26|05/09/2024 14:41|148/86|89|23|38,0|88|4| dizziness, weakness |NKA|None|3
+296|275|39|11/06/2024 00:14|156/79|108 bpm|14/min|97,0|98|2|headache, abdominal pain, fall   |aucune|Amoxicillin 1 g|3
+297|275|30|11/06/2024 00:48|102/81|102|23|39,0|89|0|weakness, headache, palpitations|Latex|aucun|3
+298|276|40|13/11/2024 02:24|145/61|89|21|37,6|105|10|weakness|Iodine contrast|Paracetamol 1 g|3
+299|277|44|14/02/2025 06:39|12/8000|87|16|38,8|89|5|dizziness|No Known Allergies|aucun|2
+300|278|40|2025-05-11 07:31:00|116/87|79|0|101,5F|94|7|palpitations, fever, cough|no known allergies|Amoxicillin 1 g|2
+301|279|43|20/03/2022 20:14|125/76|-72|15|39,4|96|5|confusion|NKA|Ramipril 5 mg|2
+302|280|33|28-04-2022 03:02|100/79|-72|-|99,3F|98|10|abdominal pain, fall, chest pain|None|Bisoprolol 2.5 mg|3
+303|281|36|11/11/2024 16:35|116/62|999|13|100,9 °F|88 %|2|abdominal pain|AUCUNE|aucun|2
+304|282|44|01/03/2022 03:48|0/0|74|19|39,0|?|1|fever, cough, headache|Sulfa drugs|none|2
+305|283|38|18/01/2022 15:17|147/64|125|24|103,3F|93|3|chest pain, fall|NKA|none|2
+306|284|40|28/07/2024 11:47|163/82|85|150|36,8|88|1|nausea|no known allergies|Amoxicillin 1 g|3
+307|285|35|29/11/2023 22:35|142/78|62|xx|37,1|100|8|dizziness, nausea, fall|No Known Allergies|None|3
+308|286|42|19/12/2024 00:49|0/0|58/min|20|101,3F|91|10|chest pain, weakness, nausea|None|Amoxicillin 1 g|3
+309|287|29|02/02/2025 13:36|167/70|87|22|39,2 °C|91|9|chest pain|Penicillin|aucun |1
+310|288|43|18/11/2023 12:58|123/67|59|18|38,3°C|91|6/10|abdominal pain, headache|Latex|Amoxicillin 1 g|1
+311|289|-|25/03/2022 10:33|127/82|72|12|37,8|140|2|nausea, chest pain, headache|NKA|NKA|1
+312|290|29|08/11/2023 02:06|166/64|57|23|37,4|95|5|headache, abdominal pain|None|Metformin 850 mg|3
+313|291|27|24/06/2024 07:01|119/68||16|39,2|91|9|palpitations|Sulfa drugs|Aspirin 75 mg|1
+314|292|43|17/11/2024 12:10|113/61|96|28|37,3|105|2|nausea, cough|Peanuts|aucun|2
+315|293|38|03/02/2025 14:00|12/8000|57|28|36,2|97|6|weakness, cough|none|Levothyroxine 50 mcg|1
+316|294|36|24/10/2022 04:22|300/20|94|12|38,8|91|5|palpitations, dizziness|Iodine contrast|Ramipril 5 mg|1
+317|295|25|15/10/2024 15:57|130/72|abc|16|100,8F|93|2|fever, nausea, cough|aucune|Aspirin 75 mg|2
+318|296|29|17/02/2025 08:54|139/71|84|xx|37,0|98|10|dizziness, headache|None|Aspirin 75 mg|2
+319|297|44|04/03/2024 22:52|103/90|116|27|36,5|93%|2|shortness of breath, fever, confusion|NKA|Metformin 850 mg|2
+320|297|37|04/03/2024 23:39|131/93|103|150|36,1|99|9|shortness of breath, confusion, fever|No Known Allergies|Ramipril 5 mg|2
+321|298|28|28/04/2024 12:54|110/61|119|13|98,8|91|6|weakness, abdominal pain|NKA|Bisoprolol 2.5 mg   |2
+322|299|30|22/06/2024 04:01|133-85|84|21|37,4|94|11|cough, fever, weakness|no known allergies|none|2
+323|300|36|10/12/2024 09:57|124/79|77|15|38,5|100|5|dizziness, confusion, fever|No Known Allergies|None|3
+324|301|40|15/08/2025 21:53|142/72|97|27|97,2 F|97|6|dizziness|None|None|2
+325|302|36|21/11/2023 07:36|170/99|92|13|300|92|7|cough|Penicillin|Atorvastatin 20 mg|3
+326|303|43|12/08/2024 09:27|12/8000|104|22|38,3 °C|90|9|palpitations, fever|aucune|None|2
+327|304|31|15/06/2025 21:26|155/77|67|14|39,8|94|5|cough, nausea, abdominal pain|None|NKA|3
+328|305|37|12/09/2024 02:29|145/69|97|27|99,1|140|6|weakness, headache|no known allergies|Amoxicillin 1 g|2
+329|306|30|17/01/2024 10:10|300/20|92|19|102,4 °F|100|2|abdominal pain|no known allergies|Levothyroxine 50 mcg|3
+330|307|35|18/06/2024 07:26|12/8000|65|27|39,6|95|8|confusion|Penicillin|None|2
+331|307|44|18/06/2024 08:18|157/91|122|16|100,4 °F|98|N/A|headache, fever, abdominal pain|Latex|aucun|ORANGE
+332|308|38|14/01/2025 07:31|-|59|26|36,6|88|1|weakness, palpitations, confusion|Latex| Bisoprolol 2.5 mg |VERT
+333|308|36|14/01/2025 08:11|145/94|65/min|20|38,5|93|1|  cough, abdominal pain, headache|Aspirin|none|2
+334|309|31|30/07/2025 16:26|128/89|103|13|36,5 °C|93|0/10|nausea, fall|Aspirin|Levothyroxine 50 mcg|VERT
+335|310|43|18/05/2023 02:32|127/89|121|13|39,6|105|9|confusion|no known allergies|Levothyroxine 50 mcg|2
+336|311|41|18/08/2024 01:17|167/83|0|15|38,3|100|10|palpitations, cough, nausea|Sulfa drugs|NKA|3
+337|312|36|21/12/2023 19:13|163/72|80|18|37,0|93|3|fall|Sulfa drugs|aucun|2
+338|313|36|05/02/2024 20:14|117/90|118|13|300|92|9|palpitations, dizziness|ASPIRIN|aucun|1
+339|314|32|08/05/2022 00:18|152/67|61|26|101,5 F|97|5|headache, nausea, cough|NKA||VERT
+340|-|43|14/12/2023 07:40|138/85|107|13|38,4|89|0|dizziness, confusion|Peanuts|none|2
+341|316|38|23/08/2023 12:51|100/89|70|21|102,2|94|10|weakness|None|aucun| 2 
+342|317|42|25/12/2023 06:08|115/87|67|25|38,1|94|6|abdominal pain|none|Paracetamol 1 g|2
+343|318|37|27/03/2024 10:20|104/75|?|19|36,0|-3|4|chest pain, abdominal pain|  none|NKA|1
+329|306|30|17/01/2024 10:10|300/20|92|19|102,4 °F|100|2|abdominal pain|no known allergies|Levothyroxine 50 mcg|3
+344|319|30|22/07/2023 07:32|164/74|80|14|36,3|93|11|fever, shortness of breath|Iodine contrast|none|3
+345|320|26|05/12/2024 21:12|167/64|123|18|37,3|abc|7|abdominal pain, nausea|Iodine contrast   |Atorvastatin 20 mg|VERT
+346|321|32|15/03/2023 21:22|120/90|75|26|39,7|92|9|fever, fall|None|Paracetamol 1 g|2
+347|322|43|29/10/2022 23:43|300/20|117|20|36,2|98|5|fall|No Known Allergies|Levothyroxine 50 mcg|2
+348|323|26|06/05/2023 21:46|100/69|61|27|101,3 F|abc|2|fall, weakness, fever|Sulfa drugs|NKA|2
+349|324|44|27/04/2022 09:59|145/77|70|150|96,8F|99|8|fever, headache|NKA|Aspirin 75 mg|2
+350|325|37|26/07/2022 00:29|114/99|65|25|39,4|88|-2|fall|Aspirin|Furosemide 40 mg|1
+351|326|25|01/01/2023 06:39|148/63|-1|20|36,9 °C|88|6|cough, palpitations|No Known Allergies|none|3
+352|327|34|12/08/2024 12:42|113/76|57|16|52|91|9|abdominal pain, shortness of breath, chest pain|None| none |3
+353|328|40|01/07/2024 09:19|164/95|64|14 c/min|99,1F|-3|8|weakness, palpitations, dizziness| Latex |None|1
+354|329|29|04/10/2024 11:24|136/64|125/min|27|100,4F|140|3|fall, cough|NKA|  Atorvastatin 20 mg|2
+355|330|40|04/07/2025 07:27|118/90|82/min|N/A|36,6C|90|3|weakness|Latex|aucun|2
+356|331|34|27/10/2022 02:48|143/96|107|25|37,0|90|fort|chest pain, weakness, shortness of breath|None|none|1
+357|332|25|12/06/2024 10:18|148/98 mmHg|121|20|103,6F|89|10|palpitations|Latex|None|3
+358|333|29|05/10/2024 00:20|129/95|93|19|36,6|91|9|CHEST PAIN, CONFUSION, HEADACHE|Sulfa drugs|aucun|Tri 2
+359|333|36|05/10/2024 01:01|136/62|103|21|102,9|89|4|headache|Peanuts|Furosemide 40 mg|3
+360|334|29|14.02.2023 03:56|152/99|57|150|36,1|99|1|abdominal pain, palpitations|aucune|Paracetamol 1 g|1
+361|335|43|27/11/2023 17:57|158/68|115|27|39,8|94|1|abdominal pain, shortness of breath, chest pain|no known allergies|NKA|2
+362|336|35|18/11/2022 06:51|156/87|84|27|102,9 F|90|0|nausea, weakness, shortness of breath|No Known Allergies|Bisoprolol 2.5 mg|2
+363|337|34|14/10/2024 08:43|12/8000|67|19|36,4|92|8/10|cough|none|NKA|1
+364|338|25|31/03/2025 00:35|133/60|67|27|36,1|98|4|fever, fall, abdominal pain|Latex|Ramipril 5 mg|1
+365|339|33|18/01/2023 22:55|300/20|57|25|100,9 °F|97|7| cough, chest pain |aucune
+366|340|44|28/10/2023 12:43|118/93|75|28|37,0|90|2|chest pain, abdominal pain, dizziness|Sulfa drugs|Aspirin 75 mg|ORANGE
+367|340|34|28/10/2023 13:32|116/63|73|-1|36,0|94|-2|confusion|no known allergies|Ramipril 5 mg|3
+368|341|37|12/09/2022 04:00|104/89|87|17|97,9F|92|14|confusion|None|Levothyroxine 50 mcg|1
+369|342|40|29/01/2023 12h12|161/68|104|14|96,8F|96|2|shortness of breath, fall|aucune|Ramipril 5 mg|2
+361|335|43|27/11/2023 17:57|158/68|115|27|39,8|94|1|abdominal pain, shortness of breath, chest pain|no known allergies|NKA|2
+370|343|27|19/04/2023 13:02|153/62|76|13|38,7|90%|3|cough, dizziness, nausea|Aspirin|  NKA|3
+371|344|38|27/01/2022 03:43|144/61|103|23|36,5|91|9|confusion, cough|none|Paracetamol 1 g|Tri 2
+372|345|37|09/04/2022 05:44|null|117|28|36,6|96|1|fever, shortness of breath, palpitations|Latex|aucun|2
+373|346|26|19/05/2022 08:38|161 / 83|null|17|37,5°C|100|2|abdominal pain, fall, weakness|Iodine  contrast|aucun|1
+374|347|40|01/09/2022 16:44|139/91|119|15/min|38,6|100|6|DIZZINESS, PALPITATIONS, COUGH|Iodine contrast|None|2
+375|348|38|28/05/2023 03:36|109/66|99|21|101,5 °F|90|7|shortness of breath|None|Atorvastatin 20 mg|2
+376|349|34|29/02/2024 06:31|12/8000|74|13|36,9|88|6|confusion, headache|None|aucun|2
+377|350|36|23/05/2022 21:32|165/95|116|21|39,5|93|2|cough, palpitations|Latex|NKA|1
+378|351|44|17/11/2022 05:22|116-65|92|25|39,3|99|4|confusion, nausea, weakness|Aspirin|Bisoprolol 2.5 mg|ORANGE
+379|352|?|29/12/2022 04:29|138/87|104|22|36,1|90|1|headache, weakness|Aspirin|none|2
+380|353|34|20/08/2023 15:36|122/63|109|20|38,3|90|10|shortness of breath, nausea|Latex|Furosemide 40 mg|3
+381|354|28|26/10/2023 20:39|127/73|70|17|39,7|88|7|dizziness|no known allergies|Atorvastatin 20 mg|1
+382|355|43|02/11/2022 17:40|153/71|69|26|38,9|93|2|headache, fever, palpitations|Peanuts|NKA|2
+383|356|32|29/03/2022 16:06|124/60|84|26|36,5|92|7|abdominal pain, shortness of breath|Penicillin|none|Tri 2
+384|357|29|07/07/2022 21:09|105/94|abc|N/A|38,4|92|6|fever, palpitations, weakness|Penicillin|Amoxicillin 1 g|Tri 2
+385|358|33|13/11/2023 04:59|100/71|96|20|36,7|89|6|chest pain, dizziness|  No Known Allergies|aucun|1
+386|359|28|30/03/2024 14:39|165/79|abc|25|100,6F|94|4/10|chest pain|Sulfa drugs|Atorvastatin 20 mg|3
+387|360|42|19/05/2024 15:49|158/60|115|12|100,2 °F|92|3|chest pain, dizziness, fever|Latex|null|3
+383|356|32|29/03/2022 16:06|124/60|84|26|36,5|92|7|abdominal pain, shortness of breath|Penicillin|none|Tri 2
+388|361|26|08/01/2025 18:53|118/60|58|16 c/min|36,1|-3|4|confusion, weakness|Peanuts|Bisoprolol 2.5 mg|2
+389|362|37|22/12/2022 09:50|148/90|112|17|103,1 F|90|8|cough,  chest pain, fall|NKA|none|2
+390|363|26|23/04/2022 09:18|129/80|104|13|36,1|91|0|fever, palpitations, headache|No Known Allergies|Atorvastatin 20 mg|Tri 2
+391|364|25|19/04/2022 17:35|141/70|68|22|chaud|99|9|chest pain, headache|Peanuts|Metformin 850 mg|2
+392|365|39|02/07/2023 13:14|145/69|75|14|39,1|-3|1|shortness of breath|none|Levothyroxine 50 mcg|3
+393|366|38|07/05/2024 09:56|126/72|57|12|37,6|94|1|fall, abdominal pain|no known allergies|Atorvastatin 20 mg|3
+394|366|37|07/05/2024 10:35|147/88|85|13|97,7 F|96|10|confusion|None|Metformin 850 mg|3
+395|367|44|21/07/2024 06:46|136/81|120|24|100,0 °F|89|5|dizziness, palpitations|Iodine contrast|?|1
+396|368|34|10/05/2022 04:39|157/96|55|15|39,7|98|fort|chest pain|none|NKA|3
+397|369|41|24/08/2023 02:42|145/74|120|17/min|101,3 F|98|1|abdominal pain, fever, weakness|Peanuts|Aspirin 75 mg|2
+398|370|39|29/10/2023 06:40|129/60|118|21|39,4|97|-2|headache, weakness|no known allergies|Bisoprolol 2.5 mg|ROUGE
+399|371|31|08/11/2023 03:34|137/94|114/min|17|39,7|90|2|N/A|None|Levothyroxine 50 mcg|3
+400|2367|35|23/01/2024 10:22|131/67|113|27|36,0|97|10|dizziness, confusion, headache|aucune|NKA|3
+401|373|39|17/08/2024 09:21|107/60|77|18/min|chaud|100|2|palpitations|Latex|Aspirin 75 mg|2
+402|374|37|24/11/2024 16:51|156/89|60|0|39,1 °C|91|8|headache, shortness of breath|aucune|Ramipril 5 mg|1
+403|375|31|28/07/2024 13:19|120/87|999|28|97,3F|94|4|headache, shortness of breath, fall|None|Metformin 850 mg|1
+404|376|26|08/08/2024 03:33|131/100|91|28|36,2|94|2|palpitations, abdominal pain|Aspirin|none|3
+405|377|26|17/12/2022 19:49|102/68|0|25|38,4|92|1|cough|No Known Allergies|Levothyroxine 50 mcg|2
+406|378|31|01/09/2023 20:47|105/85|420|12|99,3F|89|3|fever|NKA|Amoxicillin 1 g|1
+407|379|26|30/08/2022 00:32|113/72|60|21|38,0|100|7|nausea|none|Bisoprolol 2.5 mg|1
+408|380|39|18/05/2023 19:21|145/63|125|13|39,1C|92|4|confusion, fall|Sulfa drugs|NKA|1
+409|381|26|06/02/2024 01:23|140/70|105|12|37,7|97|7|headache|Iodine contrast|none|1
+410|382|35|14/05/2023 12:19|150/94|73|28|99,0F|98|4|headache|Sulfa drugs|Metformin 850 mg|3
+411|383|32|22/04/2023 07h07|102/60|85|15|410|100|8|headache, dizziness|Latex|Aspirin 75 mg|3
+412|384|35|26/08/2022 13:55|148/68|66|16|410|91|4|abdominal pain, palpitations, chest pain|aucune|Metformin 850 mg|3
+413|385|31|28/06/2024 02:00|137/92|58|19|36,4|100|1|chest pain, cough, dizziness|NKA|Metformin 850 mg|3
+414|386|33|01/11/2022 20:23|155/70|78|95|98,4|98|0|palpitations, fever|Penicillin|Furosemide 40 mg|3
+415|387|28|04/06/2023 18:43|170/87|81|25|37,6|97|9|dizziness, fall|No Known Allergies|Metformin 850 mg|2
+416|388|41|02/12/2023 15:32|105/81|102|16 c/min|99,1 F|99|9|dizziness|Penicillin|Ramipril 5 mg|Tri 1
+417|389|28|27/04/2022 22:10|116/72|420|-1|99,9|93|3|chest pain, headache, weakness|aucune|NKA|VERT
+418|390|28|26.12.2024 18:12|144/78|67|12|100,8 F|94|6|weakness, dizziness, nausea|Latex|Paracetamol 1 g|3
+419|391|41|2024-01-27 23:33:00|130/77|111|15|98,4|93|10|abdominal pain|-|Bisoprolol 2.5 mg|2
+420|392|30|01/12/2023 04:37|114/88|62|24|410|98|2|headache, shortness of breath|Penicillin|Furosemide 40 mg|3
+421|393|36|23/01/2022 16:41|106/91|86|26/min|36,6|93|6|confusion, cough, shortness of breath|Iodine contrast|Furosemide 40 mg|3
+422|394|29|10/10/2024 11:21|160/72|89|19|37,6|96|5|confusion, fever, headache|Iodine contrast|Levothyroxine 50 mcg|3
+423|395|27|17/02/2023 23:58|161/83|57|24|36,2|90|-2|chest pain, headache|Peanuts|aucun|3
+424|396|38|25/09/2022 22:17|114/74|71|24|37,9|90|0|cough, abdominal pain|Iodine contrast|Ramipril 5 mg|3
+425|396|25|25/09/2022 22:49|112/64|92|24|410|90|0|shortness of breath|aucune|none|2
+426|397|29|14/09/2023 11:24|170/78|91|N/A|38,8|90|14|chest pain|Aspirin|none|2
+427|398|29|19/11/2024 13:36|147/66|95|24|38,7|93|10|palpitations, shortness of breath|?|Atorvastatin 20 mg|3
+428|399|33|16/03/2023 08:29|108/72|117/min|12|38,7|88|3|nausea|none|Ramipril 5 mg|2
+429|400|43|29/11/2023 01:30|149/77|122|12|37,9|90|0|fall, palpitations|Iodine contrast|RAMIPRIL 5 MG|2
+430|401|41|25/02/2023 19:48|130-77|114|150|36,7|88|0|shortness of breath|?|Ramipril 5 mg|1
+431|402|37|28/06/2023 08:37|108/88|78|27|100,8|92|0|shortness of breath|Latex|Furosemide 40 mg|3
+432|403|35|03/07/2023 21:59|134/83|107|16|101,5|null|10|nausea, dizziness, chest pain|none|Paracetamol 1 g|ORANGE
+433|404|29|23/07/2023 06:02|134/76|abc|14|36,9|97|4|dizziness, shortness of breath, abdominal pain|Penicillin|Furosemide 40 mg|3
+434|405|42|12/10/2024 19:52|150/62|99|15|37,1|abc|5|cough, abdominal pain, confusion|Sulfa drugs|Paracetamol 1 g|2
+435|406|30|11/07/2025 16:09|120/80|420|13/min|38,7|97|5|shortness of breath, headache, palpitations|Aspirin|none|3
+436|407|27|26/02/2024 05:03|146/69|73|12|39,1|96|fort|abdominal pain, cough, confusion|No Known Allergies|Levothyroxine 50 mcg|3   
+436|407|27|26/02/2024 05:03|146/69|73|12|39,1|96|fort|abdominal pain, cough, confusion|No Known Allergies|Levothyroxine 50 mcg|3   
+437|408|33|31/03/2022 04:48|132/65|999|17|37,2 °C|91%|5|dizziness|none|aucun|1
+438|409|31|09/12/2022 21:35|144/66|999|-|38,2|98|6|palpitations|Peanuts|none|1
+439|410|25|31/01/2024 03:56|113/74|112|17|38,0|90|9|dizziness, shortness of breath|aucune|none|2 
+440|-|43|03/08/2022 07:52|130/90|83|23|39,1|93|1|confusion, palpitations|Iodine contrast|Ramipril 5 mg|3
+441|412|36|26/01/2023 09:23|100/66|75|25|101,3 °F|92|0|weakness|none|Amoxicillin 1 g|1
+442|413|32|07/07/2023 03:45|0/0|60|21|38,9 °C|99|4|palpitations, dizziness, cough|No Known Allergies|Ramipril 5 mg|3
+443|414|29|10/01/2022 23:43|148/67|74|22|37,0|89|10|nausea, headache, fall|Latex|Paracetamol 1 g|1
+444|415|35|15/10/2022 01:27|151/63|67|95|39,8|99|4|cough, chest pain|Peanuts|Levothyroxine 50 mcg|2
+445|416|29|09/08/2022 02:21|107 / 85|98|23|300|89|4|palpitations|None|Paracetamol 1 g|2
+446|417|30|09/04/2023 04:15|128/61|94|17|36,1C|92|fort|nausea, dizziness, confusion|none|Levothyroxine 50 mcg|3
+447|418|31|22/12/2024 04:32|156/62|92|28|37,0|94|3|headache, confusion, cough|No Known Allergies|Furosemide 40 mg|2
+448|419|31|11/04/2022 23:59|140/86|110|14|38,6C|99|7|nausea, abdominal pain, headache|aucune   |Atorvastatin 20 mg|3
+449|420|40|18/12/2024 06:23|110/76|60|25|102,2 F|88|0|nausea, weakness, chest pain|Sulfa drugs|Paracetamol 1 g|1
+450|421|31|10/08/2022 05:48|103/83|90|15|98,6F|95|9|headache|Iodine contrast|Furosemide 40 mg|3
+451|422|39|21/07/2022 07:43|111/90|75|95|39,8|95|6|dizziness|NONE|Ramipril 5 mg|2
+452|423|44|14/12/2022 10:01|155/100|109|19 c/min|39,5|90|9|abdominal pain|No Known Allergies|Atorvastatin 20 mg|3
+453|423|27|14/12/2022 10:47|157/83|87|18|39,2 °C|88|4|weakness, nausea, dizziness|Penicillin|none|2
+454|424|27|19/01/2023 18:58|131/61|57|14|102,4 °F|100|14|weakness, shortness of breath|Latex|Levothyroxine 50 mcg|2
+455|425|33|05/02/2023 17:04|127/98|109|13|38,0|97|4|fever, cough, shortness of breath|Aspirin   |none|3
+456|426|39|29/10/2023 17:38|abc/def|98|24|39,2|88|8|palpitations|Sulfa drugs|Metformin 850 mg|3
+457|426|35|29/10/2023 18:14|106/66|78|15|37,4|94|8|weakness|no known allergies|None|3
+458|427|30|30/04/2024 17:38|300/20|89|17|37,5|98|3|shortness of breath, fall|No Known Allergies||2
+459|428|44|09/01/2023 15:15|161/67|64|24|98,4 F|89|9|nausea, palpitations|aucune|Amoxicillin 1 g|2
+460|429|32|12/08/2023 07:14|149/86|61|20|36,3|96|6|weakness, dizziness|aucune|Metformin 850 mg|3
+461|430|44|14/11/2022 02:25|121/98|77|95|99,9 F|95|3|abdominal pain|Latex|none|3
+462|431|36|04/01/2023 04:18|127/97|72|14|36,0|99|4|cough, fever|Iodine contrast|None|3
+452|423|44|14/12/2022 10:01|155/100|109|19 c/min|39,5|90|9|abdominal pain|No Known Allergies|Atorvastatin 20 mg|3
+463|432|27|15/06/2023 00:25|143/69|91|28|39,6|abc|9|dizziness|Aspirin|Aspirin 75 mg|2
+464|433|31|04/06/2023 01:01|100/96|91|14|37,0|99|2|palpitations, headache, fall|Latex|Aspirin 75 mg|2
+465|434|32|08/05/2024 18:18|139/76|102|15|37,3|95|-2|dizziness|Penicillin|null|3
+466|435|39|17/05/2022 22:05|131/91|72|13|36,9|140|3|cough|No Known Allergies|Aspirin 75 mg|1
+467|436|43|04/01/2023 05:16|127/91|121|21|97,2F|92|2|shortness of breath|No Known Allergies|aucun|2
+468|437|38|05/07/2023 00:58|169/70|72 bpm|27|99,7F|96|0|shortness of breath, nausea|aucune|Bisoprolol 2.5 mg|2
+469|438|43|02/04/2024 05:11|147/74|62|27|36,0|88|3|abdominal pain|Peanuts|Metformin 850 mg|1
+470|439|35|13/02/2023 02:44|125/85|117|12|97,9|98|-2|chest pain, palpitations, shortness of breath|Latex|?|2
+471|440|31|27/01/2024 18:01|159/92|111||97,5|97|0|abdominal pain|Peanuts|aucun|2
+472|441|2155|09/09/2022 16:26|300/20|65|28|98,8 F|90|4|dizziness, weakness, nausea|aucune|None|2
+473|442|39|18/06/2023 21:40|151/88|113/min|15|102,6F|99|9|fever|Peanuts|Metformin 850 mg|3
+474|443|29|31/03/2024 22:33|124/73|abc|22|38,4|88|7|palpitations|No Known Allergies|Metformin 850 mg|Tri 1
+475|444|28|05/11/2024 13:36|164/80|88|15|52|100|4|CHEST PAIN|none|Furosemide 40 mg|2
+476|445|34|28/10/2024 09:27|154/98|94/min|21|39,6|140|4|headache|Penicillin|Aspirin 75 mg|2
+477|446|32|10/12/2024 04:30|159/81|119 bpm|17|101,3|91|-1|weakness, palpitations, dizziness|None|Paracetamol 1 g|2
+478|447|44|14/06/2022 18:08|102/98|110|18|39,2|90|4|fall|aucune|Amoxicillin 1 g|3
+479|448|41|05/04/2023 14:08|145/61|999|15|36,6|94|10|dizziness|Aspirin|Metformin 850 mg|2
+480|449|37|31/10/2023 18:56|122/97|55|16|36,7|98|10|cough|Sulfa drugs|Ramipril 5 mg|3
+481|450|40|26/08/2024 01:10|138/83|108|26|39,1|91|6|nausea, shortness of breath|Latex|Metformin 850 mg|2
+482|451|36|05/01/2025 19:04|121/84|abc|23|36,5|94%|1|headache, nausea, shortness of breath|Aspirin|Atorvastatin 20 mg|2
+483|452|25|07/04/2025 15:17||125|27|97,3 °F|94|8|  confusion, fall, weakness|Iodine contrast|NKA|2
+484|453|43|15/05/2022 22:33|141/100|112|21/min|39,6|92|3|weakness, cough, fall|no known allergies|Levothyroxine 50 mcg|1
+485|454|36|06/10/2022 00:14|153/78|71|17|38,7|94|3|chest pain|Sulfa drugs|NKA|2
+486|455|41|21/07/2023 21:32|132/65|67|24|37,4|90|8|abdominal pain|Latex|Atorvastatin 20 mg|3
+487|456|31|22/06/2023 00:36|153/71|117|22|36,9|100|null|fall, abdominal pain, cough|None|Bisoprolol 2.5 mg|2
+488|457|31|28/02/2024 01:55|103/91 mmHg|58|28|37,2|88|11|fever, fall|  aucune|Metformin 850 mg|ROUGE
+489|457|33|28/02/2024 02:30|106/60|78 bpm|26|38,0|98|9|confusion, dizziness|Aspirin|aucun|1
+490|458|25|21/09/2024 07:11|170/98|115|12|98,4 °F|95|6|dizziness, chest pain, confusion|no known allergies|aucun   |1
+491|459|27|17/06/2022 07:53|169/87|65|150|99,9 °F|95|0|confusion, nausea|aucune|Furosemide 40 mg|3
+492|460|29|16/02/2023 10:38|169/68|94|13|38,8|93|fort|chest pain, confusion|Sulfa drugs|Levothyroxine 50 mcg|1
+493|461|34|29/04/2023 03:42|141/85|114|17|36,6|95|10|headache, palpitations, cough|Penicillin|Furosemide 40 mg|3
+494|462|26|06/03/2022 06:07|163/70|65|15|36,1|99|4|palpitations, confusion, headache|Iodine contrast|none|1
+495|462|36|06/03/2022 06:33|114/82|122|24|102,6 °F|-3|10|weakness|None|Metformin 850 mg|ROUGE
+496|463|29|05/07/2022 12:12|132/60|76|19|37,2|-3|5|fever, confusion||aucun|2
+497|464|31|25/02/2023 19:14|151/62|84|20|36,8|88|4|cough, shortness of breath, confusion|Latex|Furosemide 40 mg|3
+498|465|30|26/09/2023 17:02|141/89|114|22|100,4|100|10|abdominal pain, chest pain|NKA|aucun|2
+499|466|27|01/08/2022 08:50|169/90|61|13|-|88|4|fever, confusion|none|NKA|3
+500|467|31|30/08/2023 16:03|101/87|60|20|39,4|96|4|shortness of breath|Iodine contrast|Atorvastatin 20 mg|3
+501|468|44|19/04/2024 11h45|160/63|96|19|39,0|90|8|-|no known allergies|none|3
+502|469|41|09/10/2024 14:58|116/78|107|13|39,0|95|10/10|dizziness|Penicillin|NKA|1
+503|470|25|05/03/2025 06:47|115/60|115|16|38,6|98|4|nausea, cough, weakness|Iodine contrast|Paracetamol 1 g|3
+504|471|32|18/09/2023 15:44|104/72|123|16|38,5|94|fort|headache|No Known Allergies|Bisoprolol 2.5 mg|2
+505|472|37|18/11/2023 10:44|151/92|108|23|38,4|100|6|chest pain|aucune|Aspirin 75 mg|3
+506|473|29|26/08/2024 04:42|106/89|62|27|96,8|140|9|null|No Known Allergies   |Metformin 850 mg|VERT
+507|474|38|24/08/2023 00:16|110/95|95|21|37,3|96|0|abdominal pain, cough|Peanuts|Atorvastatin 20 mg|1
+508|475|39|03/11/2023 15:32|158/89|0|22|37,5|95|6|headache, abdominal pain|No Known Allergies|Metformin 850 mg|-
+509|476|36|24/04/2024 10:25|abc/def|102|20|37,4|99|6|confusion, cough|no known allergies|Aspirin 75 mg| 2 
+510|477|44|30/11/2024 11:31|170/61|57|?|98,8F|95|4|cough, fever|Penicillin|Ramipril 5 mg|1
+511|478|37|03/04/2024 06:40|144/70|55|19|103,5F|92|4|palpitations, confusion, cough|Penicillin|None|3
+512|479|27|29/06/2022 13:55|170/94|56|22|39,2C|97|3|null|Penicillin|Aspirin 75 mg|2
+513|480|28|12/04/2023 14:58|115/75|91|13|102,7 °F|90|5|nausea, chest pain, headache|aucune|NKA|3
+514|481|27|26/06/2023 19:47|162/97|120|14|98,8F|90|11|fever, fall, weakness|None|Bisoprolol 2.5 mg|2
+515|482|31|04/04/2024 15:44|149/94|100|12|chaud|93|9|fever|aucune|Paracetamol 1 g|2
+516|483|39|24/08/2024 05:45|170/69|109|18|410|88|3|shortness of breath, confusion, fall|Peanuts|Furosemide 40 mg|2
+517|484|42|18/01/2022 23:58|161/77|63/min|22|36,5|92|1|weakness, abdominal pain, chest pain|Aspirin|Atorvastatin 20 mg|3
+518|485|32|02/03/2022 08:52|121/77|-72|28|36,2|100|0|cough, abdominal pain|NKA|aucun|2
+519|486|39|22/06/2022 17:57|102/98|94|21|100,2F|99|4|headache, fever, cough|No Known Allergies|None|N/A
+520|487|44|04/08/2022 19:51|110/62|121|28|100,4 °F|93|14|nausea|Latex|none|2
+521|488|32|29/01/2023 11:55|100/65|71|22|38,8|N/A|9|headache, palpitations, shortness of breath|No Known Allergies|Amoxicillin 1 g|1
+522|489|27|17/07/2024 11:35|134/82|80|25|39,1|95|1|cough|None|Levothyroxine 50 mcg|2
+523|490|32|08/02/2022 08:13|121/74|102|14|36,4|95|10|?|Aspirin|Bisoprolol 2.5 mg|3
+524|491|27|15/08/2022 02:14|133/77|120|14|300|88|2|fall, confusion, palpitations|Peanuts|Ramipril 5 mg|3 
+525|492|37|29/02/2024 22:56|109/62|0|13|97,3|100|10|chest pain, dizziness|No Known Allergies|None|3
+526|493|40|30/01/2023 20:30|166/97|93|95|38,0|94|4|abdominal pain, fall|no known allergies|None|2
+527|494|35|11/11/2023 06:03|117/78|72|25|38,7|93|4|confusion, abdominal pain, palpitations| aucune |N/A|2
+528|495|34|14/06/2024 20:03|144/88|60|28|101,5F|91|5|headache, weakness|NKA|Levothyroxine 50 mcg|2
+529|496|38|21/12/2023 14:40|144/83|97|14|39,6|90|1|dizziness|no known allergies|Aspirin 75 mg|3
+530|497|41|16/09/2023 10:09|123/87|98|27|38,3|97|8/10|cough, confusion|Penicillin|none|1
+531|498|39|30/12/2023 02:54|163/79|67|23|36,3|93|?|headache|Peanuts|Paracetamol 1 g|1
+532|499|42|27/08/2024 19:12|138/94|98|24|38,5|98|fort|fever|NKA|Levothyroxine 50 mcg|2
+533|500|26|09/04/2024 17:51|144-95|102|13|38,4|abc|8|weakness, fall|none|NKA|2
+534|500|31|09/04/2024 18:37|114 / 68|99|20|37,2|95|11|fever|Aspirin|NKA|2
+535|501|30|14/12/2023 14:10|146/85|125|23|39,7|100|4|weakness|Penicillin   |Ramipril 5 mg|1
+536|502|35|22/05/2024 15:13|112/78|64|28|36,2|88|14|confusion, cough, fever|None|Amoxicillin 1 g|3
+537|503|29|09/03/2024 05:37|105/94|56|xx|37,0|96|1|weakness|aucune|null|?
+538|504|38|29/05/2022 03:13|154/87|420|14|103,5 F|90|9/10|abdominal pain   |Penicillin|Paracetamol 1 g|1
+539|505|1220|08/12/2022 07:26|138/91|67|13|38,2|90|7|confusion, shortness of breath|Peanuts|aucun|1
+540|4153|26|15/08/2022 01:30|142/66|109|18|38,4|100|14|shortness of breath, chest pain, headache|no known allergies|none|3
+541|507|31|06/10/2024 23:07|123/88|87|14|38,4|90|4/10|weakness, nausea|aucune|Ramipril 5 mg|1
+542|508|30|21/03/2025 13:16|125/88|59|xx|39,6|88|2|abdominal pain, headache, shortness of breath|Sulfa drugs|Amoxicillin 1 g|3
+543|509|43|16/11/2024 05:35|138/76|61|19|38,6|99|?|dizziness, cough, shortness of breath|NKA|Metformin 850 mg|2
+544|510|25|02/08/2025 07:46|136/87|67|21|37,4|99|14|chest pain|Penicillin|None|3
+545|511|35|25/11/2024 09:30|155/98|93|25|103,5|91|1|abdominal pain|No Known Allergies|Metformin 850 mg|1
+546|512|34|05/03/2025 05:28|106/75|93|14|98,1F|97|6|dizziness|None|Bisoprolol 2.5 mg|3
+547|4519|32|18/11/2024 02:59|105/82|103|25|37,9|93%|6|headache|null|Paracetamol 1 g|2
+548|513|33|18/11/2024 03:52|158/61|104|12|36,9|95%|7|nausea, cough|NKA|Bisoprolol 2.5 mg|1
+549|514|35|07/02/2025 09:13|114/86|112|26|4,5|90|4|fall, chest pain, shortness of breath|No Known Allergies|Aspirin 75 mg|3
+550|515|39|30/09/2025 23:56|155/74|81|26|36,1|-3|4|cough|aucune|Paracetamol 1 g|3
+551|516|38|22/02/2024 13:34|134/90|82|14|39,5|99|10|shortness of breath, fall|Latex|Amoxicillin 1 g|1
+552|517|44|20/12/2024 02:38|130/100|66|19|39,2|100|0|palpitations, fall|aucune|Ramipril 5 mg|1
+553|518|40|02/06/2025 14:26|157/96|82|23|52|96|7|abdominal pain|aucune|Atorvastatin 20 mg|3
+554|519|31|25/01/2024 19:21|162/77|109|12|36,1|100|fort||None|Amoxicillin 1 g|2
+555|520|29|11/02/2023 13:36|118/81|96|0|37,1|98|0|dizziness, palpitations|no known allergies|None|1
+556|520|27|11/02/2023 14:16|109/90|113|16|52|92 %|1|cough, weakness|-|None|2
+557|521|42|14/05/2023 04:42|168/65|79|17|38,9|90|5|shortness of breath, abdominal pain, nausea|No Known Allergies|Amoxicillin 1 g|3
+558|522|32|12/07/2022 15h32|107/94|113|26|39,3|105|0|abdominal pain, weakness, palpitations|none|Furosemide 40 mg|3
+559|523|32|25/10/2024 04:06|133/98|84|21|chaud|91 %|5|palpitations, chest pain, fall|none|Metformin 850 mg|2
+560|524|35|09/08/2023 20:08|131/91|91|19|39,6|90|fort|fall|Sulfa drugs|none|3
+561|525|30|04/11/2023 21:24|105/93|122|19|97,2 °F|88|11|fever, nausea|NKA|Ramipril 5 mg|3
+562|525|28|04/11/2023 22:06|151/70|61|26|37,9|97|4|dizziness, headache|Iodine contrast|none|3
+563|526|44|08/01/2024 06:22|12/8000|60|17|39,0|89|9||None|Atorvastatin 20 mg|3
+564|527|43|13/06/2024 22:08|101/82|114 bpm|12|97,3 F|97|8|fall, weakness|aucune|None|1 
+565|528|26|26/02/2023 22:40||118|21|38,8|88%|2|weakness|No Known Allergies|NKA|1
+566|529|34|13/12/2023 23:37|117/71|89|18|36,8|100|7/10|headache, dizziness, fall|None|none|1
+567|530|41|08/06/2024 08:26|161/75|117|21|39,4|96|5|fever, fall, chest pain|NKA|Levothyroxine 50 mcg|1
+568|531|34|03/10/2024 15:35|112/73|87|22|52|98|1|cough|Peanuts|Metformin 850 mg|1
+569|532|37|30/01/2022 04:19|111/74|0|17|38,6|92|6|headache, fever|NKA|none|3
+570|533|30|25/04/2023 18h51|158/95|114|14|99,3 F|105|7|nausea, weakness|no known allergies|Amoxicillin 1 g|2
+571|534|44|16/10/2023 11:52|137/74|89|0|97,3 °F|null|4|nausea, fall|Peanuts|None|2
+572|535|37|04/06/2024 05:09|103/83|118|20|102,4 °F|92|5|palpitations, cough, abdominal pain|Penicillin|Levothyroxine 50 mcg|2
+573|536|38|16/02/2025 04:12|300/20|100|16|39,5|91|-|nausea, dizziness|no known allergies|Ramipril 5 mg|2
+574|537|33|19/12/2023 23:06|156/94|74|12/min|52|94|9|confusion, chest pain, weakness|aucune|Paracetamol 1 g|2
+575|538|31|03/08/2022 20:01|153/85|55|18|null|90|6|cough|NKA|Atorvastatin 20 mg|1
+576|539|39|28/02/2023 01:06|139/83|102|18|37,8|91|7|fever, abdominal pain, palpitations|No Known Allergies|Ramipril 5 mg|3
+577|540|44|04/06/2022 22:00|132/85|101|27|98,1F|95|2|weakness|Latex|N/A|VERT
+578|541|26|19/08/2022 13:11|165/75|106|12|410|94|4|cough|no known allergies|aucun|3
+579|542|37|2022-05-08 06:01:00|105/93||21|38,6|96|4|nausea, fall|Peanuts|none|2
+580|543|40|20/08/2023 21:14|130/90|65|17|410|88|10|nausea, fever|None|aucun|1
+581|544|37|08/12/2023 17:59|144/82|55|15|38,0|99|1|dizziness, weakness, palpitations|Peanuts|Metformin 850 mg|2
+582|545|35|22/02/2023 18:43|150/73|84|25|39,5|91|7|abdominal pain|No Known Allergies|Ramipril 5 mg|3
+583|546|37|14/03/2023 00:21|133/68|77|26|36,5|93|5|palpitations|Penicillin|Ramipril 5 mg|2
+584|547|40|28/08/2023 21:03|122/100|81|25|36,6|98|1|chest pain|NKA| Ramipril 5 mg |2
+585|548|39|26/07/2022 22:29|130/80|0|20|36,1°C|92|7|cough|Latex|Metformin 850 mg|3
+586|549|28|14/12/2022 00:21|136/67|94|20|38,2|92 %|7|cough, fever|Peanuts|Metformin 850 mg|3
+587|550|38|04/09/2023 00:18|134/96|61|19|99,1 °F|91|11|headache|Latex|None|2
+588|551|28|05/02/2022 04:32|106/67|81|150|99,0F|98|4|headache|Peanuts|none|3
+589|552|40|15/05/2022 17:52|109/93|78|16|39,3|92|3|shortness of breath, nausea|no known allergies|aucun|1
+590|553|25|12/01/2024 22:11|166/74|123|16|37,8|91|5|abdominal pain|No Known Allergies|NKA|3
+591|554|44|25/03/2023 22:17|104/77|120|17|99,7|98|9|nausea|Iodine contrast|Levothyroxine 50 mcg|3
+592|555|33|10.08.2023 01:17|134/83|-72|28|39,0|89|1|nausea, headache|Peanuts|Ramipril 5 mg|2
+593|556|35|05/02/2024 11:19|12/8000|116|12|37,1|92|10|nausea|NKA|?|2
+594|557|42|17/04/2024 12:37|158/75|87|12 c/min|37,4|92|-2|fall, chest pain, nausea|no known allergies|none|2
+595|558|42|05/11/2022 07:39|104/77|69|17|300|91|9|headache|NKA|NKA|1
+596|559|44|13/06/2023 20:37|126/85|66|26|37,0|88|0|cough, chest pain|None|NKA|3
+597|560|43|08/02/2024 14:26|103/90|104|150|37,1|89|1|dizziness, cough, headache|None|NKA|1
+598|561|40|21/06/2024 01:21|127/61|101|17|chaud|98|3|fall, abdominal pain, dizziness|aucune|ramipril 5 mg|3
+599|562|43|15/01/2025 04:32|147/99|114/min|17|36,2|99|0|shortness of breath|None|Aspirin 75 mg   |2
+600|563|30|26/08/2024 07:33|153/63|110|21|38,7|92|5|nausea|Iodine contrast|None|Tri 3
+601|564|35|04/04/2025 07:36|129/72|57 bpm|27|chaud|92|4|fall, shortness of breath, cough|no known allergies|Atorvastatin 20 mg|3
+602|565|31|25/09/2023 09:27|abc/def|100|22|102,7 F|98|2|shortness of breath, cough, abdominal pain|none|None|3
+603|566|41|09/01/2024 22:17|115/95|82|13|36,2|89|11|dizziness, chest pain, abdominal pain|Sulfa drugs|aucun|3
+604|567|37|28/04/2024 23:29|125/81|73|25|99,0|97|11|confusion|none|Bisoprolol 2.5 mg|2
+605|568|40|24/07/2022 08:59|142/95|101|16|98,4F|89|6/10|confusion, cough|Latex|aucun|3
+606|569|26|18/06/2023 01:23|108/65|123|19|102,9|99|1|headache, fall, nausea|None|Amoxicillin 1 g|1
+607|570|27|10/06/2023 08:46|102/69|102|16|-|97|4|fall, fever|aucune|Levothyroxine 50 mcg|2
+608|571|26|10/08/2024 19:14|152/80|72|17|38,5|98|2|chest pain|aucune||1
+609|572|26|24/02/2022 00:37|142/76|63|?|98,6|92|14|dizziness, palpitations|Iodine contrast|Levothyroxine 50 mcg|ORANGE
+610|573|38|26/12/2022 20:40|118/85|999|18|97,9 F|96|1|fever, shortness of breath, headache|Aspirin|Aspirin 75 mg|1
+602|565|31|25/09/2023 09:27|abc/def|100|22|102,7 F|98|2|shortness of breath, cough, abdominal pain|none|None|3
+611|574|32|21/07/2023 07:30|151/67|68|xx|38,0|-1|4|chest pain, palpitations|None|Atorvastatin 20 mg|3
+612|574|34|21/07/2023 08:13|163/98|81|22|98,6 F|99|7|weakness, chest pain, fall|no known allergies|None|3
+613|575|31|07/05/2023 09:31|167/91|null|21|410|96%|9|cough|Peanuts|Levothyroxine 50 mcg|3
+614|576|37|14/12/2023 05:20|132/62|96|28|36,5|92|8|shortness of breath, fall|none|Atorvastatin 20 mg|2
+615|577|44|21/02/2024 13:25|?|125|18|39,1|91|-2|headache, abdominal pain|Sulfa drugs|Bisoprolol 2.5 mg|3
+616|578|31|06/11/2024 18:23|150/83|70|17 c/min|37,8°C|92|11|fall, headache, cough|none|Furosemide 40 mg|3
+617|579|39|19/09/2024 05:45|133/77|91|18|38,4|90|10|shortness of breath, weakness, chest pain|Peanuts|Paracetamol 1 g|3
+618|580|28|06/06/2023 01:41|103/84|73|150|36,6|98|5|fall, fever, abdominal pain|no known allergies|Atorvastatin 20 mg|1
+619|581|39|14.12.2023 02:07|141/68|64|19|37,3|140|4|shortness of breath, fall, confusion|Sulfa drugs|None|2
+620|582|33|24/05/2024 18:06|146/97|84|22 c/min|36,8|92|0|nausea, fall|None|Amoxicillin 1 g|3
+621|583|34|13/12/2024 02:04|158/67|123|21|98,6 °F|105|10/10|chest pain|?|aucun|1
+622|584|41|20/07/2025 19:07|146/83|72|14|36,9 °C|98|2|shortness of breath, cough, confusion|none|none|3
+623|585|32|28/10/2023 08:55|167/89|abc|27|37,4|95|1|weakness, palpitations|?|Atorvastatin 20 mg|2
+624|586|29|21/06/2024 19:01|149/64|116|14|37,3|-3|10|palpitations, nausea, cough|NKA|None|3
+625|587|40|09/01/2023 19:43|112/72|66|21|97,2 F|95|3|fever, abdominal pain|Aspirin|null|3
+626|588|37|06/06/2024 15:48|161/88|93|25|37,2 °C|93|11|dizziness, confusion|No Known Allergies| Bisoprolol 2.5 mg |1
+627|589|38|11/06/2023 16:15|116/76|N/A|20|37,2|93|2|fall, chest pain, shortness of breath|no known allergies|none|1
+628|590|38|27/07/2022 18:07|133/98|85 bpm|95|38,9|88|6|fever, confusion|NKA|Furosemide 40 mg|1
+629|591|42|01/04/2022 06:04|114/97|71|17|101,5 F|89|6/10|headache, cough, dizziness|aucune |Aspirin 75 mg|1
+630|592|32|04/09/2022 23:55|139/69|103|15|38,7|89|6|fever, weakness|Iodine contrast|Furosemide 40 mg|3
+631|593|25|04/06/2023 01:52|163/61 mmHg|abc|18|37,3|-1|3|nausea, dizziness, palpitations|NKA|none|3
+632|594|35|30/08/2024 08:28|-|119|12|39,8|99|2|headache|aucune|Ramipril 5 mg|3
+633|595|31|25/05/2022 21:49|0/0|107|27|100,4 F|90|9|headache, abdominal pain|none|Paracetamol 1 g|3
+634|596|38|14/08/2022 01:02|125/77|78/min|24|98,1F|98|9|weakness|Sulfa drugs|?|2
+635|597|31|24/03/2022 04:01|157/85|112|23|36,9|94|11|headache, nausea, fever|None|none|2
+636|598|27|22/10/2024 23:45|124/79|104|17|36,3|98|4|fever, nausea, dizziness|None|Metformin 850 mg|2
+637|599|31|17/06/2023 12:41|100/85|119|21|103,3F|94|2|abdominal pain|None|Aspirin 75 mg|3
+638|600|44|24/03/2024 07:32|122/95|70|27/min|37,6|97|10|cough, chest pain, weakness|None|none|3
+639|601|32|16/12/2024 15:27|139/63|78|28|98,4|88|1/10|abdominal pain|NKA|Bisoprolol 2.5 mg|3
+640|601|29|16/12/2024 16:25|169/82|118|14|37,5|92|5/10|cough|aucune|Bisoprolol 2.5 mg|3
+641|602|35|17/09/2025 23:43|137/69|122|xx|97,7 F|100|10|shortness of breath|Aspirin|Metformin 850 mg|2
+642|603|27|03/01/2024 00:40|114/90|98|26|38,8°C|90|9|headache|Aspirin|Amoxicillin 1 g|2
+643|604|35|21/06/2024 11:43|146/93|56|22|37,7|100 %||fall, cough|Iodine contrast|Aspirin 75 mg|3
+644|605|41|29/10/2024 23:45|148/96|69|15|37,9|90|8|cough|N/A|None|2
+645|606|32|04/02/2025 05:46||104|15|52|97|0|dizziness|lATEX|none|2
+646|607|42|20/08/2022 09:40|130/68|99|19|52|94|5|dizziness|NKA|Amoxicillin 1 g|3
+647|608|34|17/10/2022 01:50|137/72|83|23|52|97|6|shortness of breath, cough|no known allergies|Paracetamol 1 g|3
+648|609|38|17/01/2023 06:56|123/99|92|18|38,4|97|2/10|fever|NKA| None |2
+649|610|36|01/05/2024 15:15|167/72|102|18|37,0|105|9|confusion|No Known Allergies|none|1
+650|611|37|16/03/2024 15:20|134/69|83|23|37,4|90|1|shortness of breath, headache, abdominal pain|nO kNOWN aLLERGIES|none|2
+651|612|26|31/08/2024 15:10|159/61|117|27|37,9C|96|10|cough|No Known Allergies|aucun|3
+652|613|28|18/11/2024 20:01|115/80|100|19|36,3|?|14|confusion|Penicillin|Atorvastatin 20 mg|3
+653|614|43|23/06/2024 21:01|159/88|63|17|38,5|91|7|headache, chest pain, shortness of breath|none|Paracetamol 1 g|2
+654|615|27|18/07/2024 01:30|157/74|118|17|36,8|105|9|  nausea, headache|Penicillin||2
+655|616|28|19/09/2024 11:31|131/71|102|15|39,0|89|2|confusion, fall, headache|NKA|none|2
+656|617|31|30/03/2025 22:34|170/99|86|16|100,2 °F|100|4|fall, palpitations|No Known Allergies|Paracetamol 1 g|3
+657|618|34|29/07/2025 06:18|152/69|121|22|36,8|abc|0|chest  pain|Sulfa drugs|Aspirin 75 mg|Tri 3
+658|619|40|24/03/2024 16:08|300/20|69|20|101,3|97|6|nausea|None|Metformin 850 mg|2
+659|620|29|17/08/2022 09:38|111/93|118|28|38,5|92|9|headache| None |NKA|1
+660|621|41|05/09/2024 20:47|160/82|123|12|chaud|97|8|fever, confusion|No Known Allergies|Metformin 850 mg|2
+661|622|34|17/03/2023 12:00|138/92|61|18|38,1|90|fort|dizziness, palpitations|Iodine contrast|none|3
+662|623|36|04/10/2024 22:41|115/77|107|25 c/min|37,5|98|9||Penicillin| Furosemide 40 mg |Tri 2
+663|624|28|23/01/2025 01:47|146/74|108|13|52|91|1|chest pain, headache|Penicillin|Ramipril 5 mg|1
+664|625|42|30/05/2024 04:25|159/94|103|26|37,7|105|8|fever, fall|no known allergies|NKA|2
+665|626|32|25/10/2023 09:42|129/75|77|25|36,7|95|3|abdominal pain, headache|Aspirin|aucun|2
+666|627|25|06/09/2022 18:06|154/88|117|15|4,5|95|3|palpitations|Penicillin|None|3
+667|628|27|08/03/2023 18:13|159/69|106|17|37,1|95|5|dizziness|Sulfa drugs| Bisoprolol 2.5 mg |3
+668|629|29|07/07/2023 11:02|107/98|76|26|38,7|91|0|palpitations|no known allergies|Aspirin 75 mg|2
+669|629|27|07/07/2023 11:55|121/97|999|14|39,7|91|4|palpitations, confusion, cough|no known allergies|Bisoprolol 2.5 mg|2
+670|630|39|27/09/2023 18:40|108/92|61|21|99,9 °F|98|6/10|fever, abdominal pain, dizziness|Iodine contrast|Paracetamol 1 g|3
+671|631|39|14/10/2024 01:28|137/79|61|16|37,7|100|7|shortness of breath|penicillin|none|1
+672|632|25|15/05/2022 14:09|133/66|77|16|39,5|91|4|fall|Penicillin|Levothyroxine 50 mcg|3
+673|633|38|16/05/2023 04:04|143/61|105|27|101,7 F|98|14|weakness, fall, shortness of breath|N/A|NKA|2
+674|634|28|04/08/2022 14:22|123/89|83|27|99,3 F|140|9|palpitations, fall, abdominal pain|no known allergies|None|2
+675|635|39|15/05/2024 04:21|144/82|92|27|410|88|8|fever|No Known Allergies|N/A|3 
+676|636|25|16/04/2024 08:30|145/81|61|17|38,4|99|9|dizziness, confusion|NKA|none|3
+677|637|30|20/01/2025 11:20|168/61|72|0|39,1|100|7|chest pain, palpitations, nausea|Penicillin|Amoxicillin 1 g|2
+678|638|25|15/10/2025 03:25|168/89|102|15|36,3|100|10|  cough, palpitations, dizziness|Aspirin|Metformin 850 mg|1
+679|639|33|02/02/2022 11:18|133/82|68|22|37,9|93|3|headache, dizziness, palpitations|aucune|none|1
+680|640|31|03/06/2022 11:23|122/62|88|20|39,5|94|8|cough, abdominal pain, weakness|Latex|Ramipril 5 mg|2
+681|641|35|2022-07-12T11:07|146/98|97|24|38,3|abc|4|dizziness|Aspirin|NKA|3
+682|642|42|02/01/2023 20:22|114-84|94|25|39,3|95|10|headache|No Known Allergies|none|3
+683|643|25|03/09/2024 23:22|12/8000|64|19|38,4|91|7|nausea|Latex|Bisoprolol 2.5 mg|1
+684|N/A|25|13/12/2024 00:26|141/83|122|150|39,2|89|8|fall, dizziness|Peanuts|Metformin 850 mg|1
+685|645|38|25/07/2025 12:28|144/88|119|null|103,3F|91|5|abdominal pain, cough, headache|No Known Allergies|None|3
+686|646|26|22/06/2022 20:31|119/97|122|16|300|98|4|nausea|no known allergies|Amoxicillin 1 g|3
+687|647|30|25/12/2022 13:30|116/100|abc|12|102,0 F|91|4|fever|Peanuts|Aspirin 75 mg|2
+688|648|33|2022-06-11 08:17:00|102/63|58|17|36,6|96|2|chest pain, headache|Sulfa drugs|Bisoprolol 2.5 mg|2
+689|649|35|24.10.2022 14:22|113/83|420|24|37,6|92|3|nausea, confusion|Sulfa drugs|NKA|1
+690|650|30|17/03/2023 00:28|159/68|75|14|99,0F|91|6|fall|None||Tri 1
+691|651|32|28/05/2022 09:32|159/86|119|25|37,7|140|7|weakness|Peanuts|Metformin 850 mg|3
+692|652|44|27/01/2023 07:41|149/83|99|21|98,4|93|fort|N/A|Sulfa drugs|Aspirin 75 mg|3
+693|653|42|19/05/2023 02:32|162/68|62|-|37,8|98|5|fever, palpitations, weakness|No Known Allergies|Metformin 850 mg|3
+694|654|1807|19/09/2022 09:09|149/86|117|23|37,4|89|0|-|Aspirin|Bisoprolol 2.5 mg|2
+695|655|29|05/08/2023 14:03|141/88|93|23|100,2 °F|89|fort|dizziness, abdominal pain|none|Amoxicillin 1 g|3
+696|656|25|11/05/2024 02:22|104/100|58|-|100,6 °F|140|7|dizziness, abdominal pain|No Known Allergies|Bisoprolol 2.5 mg|3
+697|657|43|06/07/2024 20:26|131/97|102|12|102,7 F|90|4|fall|none|None|3
+698|658|33|20/09/2024 03:22|160/61|55|17|38,1°C|92|0|cough, confusion, shortness of breath|Peanuts|Paracetamol 1 g|2
+699|659|34|06/04/2022 10:57|156/85|66|20|96,8|95%|7|weakness, fall, cough|no known allergies|Levothyroxine 50 mcg|1
+700|660|37|20/06/2023 06:44|116/72 mmHg|999|17|100,8|92|7|headache, dizziness, confusion   |NKA|None|1
+701|661|25|15/03/2023 11:01|170/70|125|17|97,5 F|97|6|nausea|Latex|none   |2
+702|662|42|05/10/2022 05:22|161/69|76|28|37,8|93|8|PALPITATIONS|no known allergies|Furosemide 40 mg|2
+703|663|30|04/04/2023 14:17|101/60|93|19|99,3F|99|14|confusion, abdominal pain, headache|NKA|Metformin 850 mg|1
+704|664|25|21/09/2022 21:32|111/93|87|22|38,9|90|0|dizziness|Penicillin|None|3
+705|665|27|01/01/2023 23:46|106/94|75|17|38,7|95|6|palpitations, shortness of breath, headache|None|aucun|2
+706|666|32|27/04/2023 02:41|125/98|86|21|101,5F|140|9/10||Peanuts|Atorvastatin 20 mg|1
+707|667|37|23/09/2023 05:29|140/92|89|0|37,9|92|?|confusion, nausea, palpitations|No Known Allergies|NKA|3
+708|668|30|28/03/2024 09:39|118/96|61|27|97,2F|98|10|nausea, shortness of breath|no known allergies|aucun|Tri 3
+709|668|35|28/03/2024 10:08|130/91|109|0|38,3|88|9|fall, weakness|Latex|Aspirin 75 mg|3
+710|669|37|07/02/2024 10:52|116/92|57|19|101,5 °F|94|10|abdominal pain|Latex|Aspirin 75 mg|3
+711|670|37|24/04/2024 11:52|158/66|0|22|38,4|100|8|cough|None|None|1
+712|671|33|25/06/2024 06:48|124/96|81|16|100,2|96 %|8|dizziness, chest pain, shortness of breath|aucune|Ramipril 5 mg|2
+713|672|42|15/05/2023 08:40|153/61|70|18 c/min|38,8|98|2|palpitations|Peanuts|Atorvastatin 20 mg|1
+714|673|40|03/04/2023 23:45|153/63|101|27|39,7|94|3|confusion, dizziness, fever|NKA|aucun|2
+715|674|33|06/09/2023 11:44|136/94|999|19|98,4F|91|1|nausea, fall|Latex |Bisoprolol 2.5 mg|1
+716|675|35|20/12/2023 03:48|107/61|76|21|4,5|95|2|headache, cough, weakness|Iodine contrast|Metformin 850 mg|2
+717|676|25|08/10/2024 19:38|170/64|96|25|38,9|88|0|palpitations, fall, confusion|Aspirin|None|2
+718|677|28|11/03/2025 07:48|126/68|112|23|38,9|91|9|fall, chest pain, dizziness|Aspirin|Bisoprolol 2.5 mg|1
+719|678|42|26/02/2023 23:25|121/88|null|17|99,3 °F|95|14|fall, weakness|Latex|Metformin 850 mg|1
+720|679|27|07/12/2023 21:26|151/62|420|18|102,9|97|3|abdominal pain|No Known Allergies|aucun|2
+719|678|42|26/02/2023 23:25|121/88|null|17|99,3 °F|95|14|fall, weakness|Latex|Metformin 850 mg|1
+721|680|37|16/03/2024 21:23|145/82|71|17|99,3F|93|3|fall|None|NKA|3
+722|680|42|16/03/2024 22:11|163/74|119|14|-1|99|0|abdominal pain, shortness of breath|None|Metformin 850 mg|2
+723|681|29|19/11/2023 15:14|130/94|119|17|38,1|97|11|shortness of breath, abdominal pain, fever|  No Known Allergies|None|2
+724|682|43|23/05/2024 15:27|142/79|84|17|37,0|92|4|dizziness|NKA|None|GRIS
+725|683|38|15/12/2022 00:39|131/65|66|19|37,8|99|4|palpitations, weakness|no known allergies|AUCUN|2
+726|684|35|02/04/2022 23:41|109/73|115|15|97,5F|140|1| confusion, palpitations |Sulfa drugs|Ramipril 5 mg|3
+726|684|35|02/04/2022 23:41|109/73|115|15|97,5F|140|1| confusion, palpitations |Sulfa drugs|Ramipril 5 mg|3
+727|638|25|15/10/2025 03:25|168/89|102|15|36,3|100|10|  cough, palpitations, dizziness|aspirin|Metformin 850 mg|1
+728|585|32|28/10/2023 08:55|167/89|abc|27|37,4|95|1|weakness, palpitations|?|Atorvastatin 20 Mg| 2
+729|135|29|02/10/2023 09:25|abc/def|106|24|39,6|94|7|fever, dizziness, cough|peanuts|Paracetamol 1 g|2
+730|472|37|18/11/2023 10:44|151/92|108|23|38,4|100|6|Chest Pain|aucune|Aspirin 75 mg|3
+731|358|33|13/11/2023 04:59|100/71|96|20|36,7|89|6|CHEST PAIN, DIZZINESS|  NO KNOWN ALLERGIES|aucun|1
+732|412|36|26/01/2023 09:23|100/66|75|25|101,3 °F|92|0|weakness|NONE|Amoxicillin 1 g|1
+733|574|34|21/07/2023 08:13|163/98|81|22|98,6 F|99|7|weakness, chest pain, fall|no known allergies|None|3
+734|265|41|24/09/2024 06:56|134/69|65|20|chaud|93|6|chest pain, shortness of breath, cough|Peanuts|LEVOTHYROXINE 50 MCG|2
+735|566|41|09/01/2024 22:17|115/95|82|13|36,2|89|11|dizziness, chest pain, abdominal pain|Sulfa drugs|aucun|3
+736|66|36|04/06/2025 16:56|134/65|92|20|99,7 F|89|11|abdominal pain|None|amoxicillin 1 g|1
+737|13|35|15/07/2025 06:00|133/87|124|18|102,7 °F|95|9|nausea, cough|Sulfa drugs|none|3
+738|390|28|26/12/2024 18:12|144/78|67|12|100,8 F|94|6|weakness, dizziness, nausea|Latex| Paracetamol 1 g|3
+739|420|40|18/12/2024 06:23|110/76|60|25|102,2 F|88|0|nausea, weakness, chest pain|SULFA DRUGS|Paracetamol 1 g|1
+740|21|29|06/12/2023 01:22|157/60||xx|38,6|94|10|headache| None|Paracetamol 1 g|1
+741|123|42|29/09/2023 09:50|abc/def|70/min|24|36,6|92|-|weakness, nausea| Sulfa drugs|aucun|2   
+742|639|33|02/02/2022 11:18|133/82|68|22|37,9|93|3|HEADACHE, DIZZINESS, PALPITATIONS|aucune|none|1
+743|606|32|04/02/2025 05:46||104|15|52|97|0| dizziness|lATEX|none|2
+744|65|32|11/09/2024 08:07|162/64|90|20|300|100|6|fall, chest pain, confusion|aucune|NKA|3
+745|623|36|04/10/2024 22:41|115/77|107|25 c/min|37,5|98|9||Penicillin| Furosemide 40 mg |Tri 2
+746|462|36|06/03/2022 06:33|114/82|122|24|102,6 °F|-3|10|weakness|None|metformin 850 mg|ROUGE
+747|19|39|02/12/2022 16:11|161/72|103|27|97,3 F|95|4| weakness, abdominal pain|aucune|Metformin 850 Mg|1

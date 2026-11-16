@@ -1,0 +1,504 @@
+num_patient|nom|prenom|date_naissance|sexe|adresse|telephone|personne_a_prevenir|statut_vital
+1|ROUX|Ines|22/05/1929|F|3 rue Victor Hugo, 37257 Vernay|05 99 21 80 38|Juliette Garcia (06 53 52 59 67)|VIVANT
+2|FAURE|Elise|15/09/1967|F|50 rue du Moulin, 25225 Vernay|04 29 08 41 23|Lucie Lefevre (04 86 26 71 43)|VIVANT
+3|MARTINEZ|Manon|22/01/1954|F|65 rue Victor Hugo, 30743 Vernay|02 75 24 27 47|Emma Henry (06 41 28 31 38)|VIVANT
+4|THOMAS|Jules|06/09/1958|M|126 rue des Tilleuls, 26308 Bellerive-en-Val|03 09 40 04 86|Monique Mathieu (07 90 94 69 92)|VIVANT
+5|ANDRE|Yves|06/08/1977|M|17 rue Pierre Curie, 34105 Vernay|03 45 77 96 57|Arthur Henry (03 79 11 32 48)|VIVANT
+6|ROBERT|Remi|1993-03-28|M|23 quai Saint-Martin, 20122 Montclair-sur-Loire|06 11 39 23 44|Isabelle Perrin (05 70 95 56 19)|VIVANT
+7|MOREAU|Margaux|05/02/1982|F|66 boulevard Pasteur, 40599 Montclair-sur-Loire|05 38 65 14 77|Sandrine Martin (04 57 92 86 37)|VIVANT
+8|VINCENT|Adam|01/04/1951|  M|4 rue de la Gare, 13486 Saint-Avold-le-Haut|04 76 14 90 96|Monique Boyer (0491593074)|VIVANT
+9|GARNIER|Lea|26 sept. 2016|F|10 boulevard Pasteur, 76244 Bellerive-en-Val|02 08 38 85 30|Isabelle Le Gall (03 74 67 69 02)|DECEDE
+10|LEFEVRE|Chloe |18/10/1956|I|5 chemin des Vignes, 58178 Les Ormeaux|05 51 73 38 84|Nathalie Simon (04 92 80 01 76)|VIVANT
+11|BERTRAND|Francois|27/11/1954|I|12 quai Saint-Martin, 59752 Vernay|06 07 22 33 05|Rene Bernard (05 79 45 99 61)|VIVANT
+12|SAINT-CLAIR|Elise|27/12/1965|F|95 allee des Peupliers, 45512 Bellerive-en-Val|01 47 89 69 04|Christophe Chevalier (04 60 78 33 60)|VIVANT
+13|LE ROUX|Olivier|04/04/1975|M|109 chemin des Vignes, 28833 Les Ormeaux|03 23 14 55 26|?|VIVANT
+14|FAURE|Emma|11/06/1941|F|15 chemin des Vignes, 48243 Chasseneuil-Bas|06 03 15 48 78|Claire Thomas (04 24 15 89 06)|VIVANT
+15|BLANC|Nathan|25/01/2005|M|79 allee des Peupliers, 10244 Saint-Avold-le-Haut|05 62 38 37 63|Claire Bertrand (03 22 41 47 63)|Decede(e)
+16|O'NEILL|Julien|14/05/1966|M|21 rue des Ecoles, 70743 Les Ormeaux|02 83 92 71 18|Yvette de La Tour (02 86 19 04 88)|VIVANT
+17|THOMAS|Bernard|23/11/1965|M|22 rue de la Gare, 69123 Vernay|03 62 18 20 30|Rene Bonnet (03 69 91 52 31)|VIVANT
+18|lefevre|Camille|20/02/2006|F|81 rue des Ecoles, 67513 Saint-Avold-le-Haut|02 10 09 93 24|Gerard Petit (07 07 26 68 75)|VIVANT
+19|SANCHEZ|Brigitte|23 sept. 1931|F|115 rue des Ecoles, 93939 Chasseneuil-Bas|03 13 64 93 21|Alain Faure (02 19 60 44 73)|Vivant(e)
+20|MERCIER|Pauline|1931-09-07|F|24 rue de la Gare, 78506 Bellerive-en-Val|03 13 87 16 38|Marcel Lefebvre (04 73 70 97 74)|VIVANT
+21|O'NEILL|Hugo|09/12/1966|H|69 impasse des Lilas, 63719 Saint-Avold-le-Haut|03 13 53 42 50|Yvette Lopez (05 76 07 91 24)|VIVANT
+22|LEROY|Juliette|13/06/2022|F|15 quai Saint-Martin, 96786 Vernay|04 43 16 67 81|Francois Clement (05 58 45 18 38)|DECEDE
+23|GIRARD|Monique|17/07/1961|F|117 allee des Peupliers, 87902 Vernay|07 83 35 68 14|Lea Thomas (+33 2 68 20 36 78)|VIVANT
+24|ROUSSEAU|Julien|08/12/1965|M|65 rue Jean Jaures, 48552 Bellerive-en-Val|01 39 41 94 25|Gabriel Denis (01 98 49 23 47)|VIVANT
+25|ANDRE|Michel|04/08/1935|M|107 avenue des Acacias, 90821 Vernay|03 38 97 74 06|mARGAUX lAURENT (07 40 82 96 89)|VIVANT
+26|LE GALL|Emma|19/06/1961|F|45 place du Marche, 32255 Bellerive-en-Val||Eric Faure (04 68 91 29 77)|V
+27|ANDRE|Antoine|27/07/2012|M|70 rue du Moulin, 14123 Saint-Avold-le-Haut|03 32 08 71 68|Lea Roussel (05 10 85 20 45)|VIVANT
+28|ANDRE|Hugo|30/04/1977|M|36 rue Pierre Curie, 28950 Chasseneuil-Bas|0585912073|Monique Garcia (02 01 51 63 79)|VIVANT
+16|O'NEILL|Julien|14/05/1966|M|21 rue des Ecoles, 70743 Les Ormeaux|02 83 92 71 18|Yvette de La Tour (02 86 19 04 88)|VIVANT
+29|BOYER|Marcel|31/01/2017|M|32 rue Pierre Curie, 45615 Bellerive-en-Val|05 78 49 57 02|Marie Roche (07 84 31 86 31)|VIVANT
+30|ROUX|Jacques|22/12/1972|M|114 rue du Moulin, 53406 Bellerive-en-Val|07 93 92 67 32|Celine Michel (01 30 55 29 14)|DECEDE
+31|MASSON|Lucas|24/03/1998|M |60 impasse des Lilas, 29784 Chasseneuil-Bas|07 21 85 83 40|Philippe Durand (06 26 41 79 87)|Vivant(e)
+32|CHEVALIER|Helene|9 fevr. 1955|F|19 rue de la Gare, 46315 Vernay|01 93 31 71 32|Sophie Moreau (01 54 39 51 64)|VIVANT
+33|GAUTHIER|Helene|28/12/1973|F|74 place du Marche, 88426 Vernay|04 30 49 54 31|Sarah Le Roux (06 46 51 83 50)|VIVANT
+34|BERTRAND|Thomas|23/02/1958|M|73 rue Jean Jaures, 76303 Les Ormeaux|01 10 10 82 14|Jacques Gautier (04 32 71 21 62)|VIVANT
+35|DA SILVA|Juliette|03/12/1965|F|132 chemin des Vignes, 64235 Vernay|06 46 54 45 14|Helene Lambert (01 54 24 83 43)|VIVANT
+36|SIMON|Arthur|12/07/1931|M|133 impasse des Lilas, 17180 Saint-Avold-le-Haut|04 23 73 94 12|Manon Roger (01 30 34 24 03)|VIVANT
+22|LEROY|Juliette|13/06/2022|F|15 quai Saint-Martin, 96786 Vernay|04 43 16 67 81|FRANCOIS CLEMENT (05 58 45 18 38)|DECEDE
+37|DAVID| Christophe |2002-06-01|M|N/A|0366869507|Sarah Bonnet (06 10 34 02 32)|VIVANT
+38|MICHEL|Agathe|23/08/1963|F|93 place du Marche, 85648 Bellerive-en-Val|01 95 86 44 16|Mathilde Andre (06 30 89 30 30)|VIVANT
+39|HENRY|Helene|26/03/1974|F|-|04 87 67 15 61|Yvette Martin (06 98 07 82 92)|VIVANT
+40|GAUTIER|Agathe|19/04/1958|F|50 rue Pierre Curie, 95872 Montclair-sur-Loire|01 08 79 81 94|Lucie Garcia (0794455892)|VIVANT
+41|RICHARD|Emma|1986-12-29|F|12 rue du Moulin, 19548 Bellerive-en-Val|N/A|Sarah Martinez (07 31 09 35 88)|VIVANT
+42|ANDRE|Bernard|11/11/1997|M|41 quai Saint-Martin, 33766 Vernay|07 40 87 99 56|Antoine Garcia (02 84 90 11 35)|Vivant(e)
+43|MOREAU|Louis |17/08/2012|M|86 rue Pierre Curie, 35650 Chasseneuil-Bas|02 31 65 42 16|Brigitte Gauthier (07 18 44 73 69)|VIVANT
+44|DUPONT|Sophie|18/05/1972|F|41 rue du Moulin, 14672 Bellerive-en-Val|03 53 88 62 90|Sophie Henry (05 20 82 04 12)|VIVANT
+45|FOURNIER|Monique|17/10/2016|F|77 avenue de la Loire, 11125 Vernay|01 59 74 61 94|Yves Saint-Clair (02 86 41 38 19)|VIVANT
+46|DUBOIS|Louise|03/10/1957|F|56 chemin des Vignes, 45755 Bellerive-en-Val|03 52 93 25 56|Andre Simon (04 43 36 77 05)|VIVANT
+47|CLEMENT|Bernard|04/03/1947|H|71 avenue de la Loire, 65975 Montclair-sur-Loire|06 22 10 78 65|Adam Blanc (+33605043423)|VIVANT
+48|ANDRE|Julien|16/01/1967|M|122 chemin des Vignes, 98103 Chasseneuil-Bas|07 61 85 17 80|Aurelie O'Neill (0720912103)|VIVANT
+49|MATHIEU|Marcel|25/05/1961|M|3 rue des Ecoles, 16270 Saint-Avold-le-Haut|06 65 90 99 23|Jade Petit (+33243632219)|VIVANT
+50|HENRY|Rene|20/08/2010|M|41 allee des Peupliers, 92397 Saint-Avold-le-Haut|07 31 89 51 18|Andre Dumont (+33301667527)|VIVANT
+51|ROBERT|Gerard|02/07/1943|MASC|121 allee des Peupliers, 91510 Montclair-sur-Loire|02 57 67 79 02|Bernard Leroy (01 44 08 17 58)|VIVANT
+52|THOMAS|Sophie|29/10/1934|F|71 rue Pierre Curie, 50836 Les Ormeaux|06 48 37 60 05|Eric Petit (07 27 72 90 91)|VIVANT
+53|ANDRE|Josette|16/02/1953|F|51 rue du Moulin, 48540 Bellerive-en-Val|03 53 89 91 11|Gabriel Roussel (06 59 63 16 54)|VIVANT
+54|BOYER|Jade|01/10/1964|F|68 avenue de la Loire, 85596 Montclair-sur-Loire|06 84 20 64 92|Juliette Lambert (02 21 45 11 66)|VIVANT
+55|GIRARD|Thomas|22/01/2006|M|104 avenue de la Loire, 74981 Vernay|01 62 14 30 80|Julien Sanchez (01 63 17 10 53)|VIVANT
+56|GUERIN|Mathilde|15/04/1975|N/A|138 impasse des Lilas, 71302 Bellerive-en-Val|03 27 40 83 16|Marie Laurent (01 74 16 07 63)|VIVANT
+57|ROCHE|Alain|21/02/2021|M|134 rue de la Gare, 39170 Saint-Avold-le-Haut|03 86 45 31 35|Ines Morel (03 96 25 92 80)|DECEDE
+58|LAMBERT|Monique|17/09/2003|F|102 avenue des Acacias, 56375 Montclair-sur-Loire|01 29 39 23 68|Gabriel Petit (0303209768)|vivant
+59|O'NEILL|Mathieu|2012-10-16|M|90 boulevard Pasteur, 21591 Bellerive-en-Val|06 65 80 47 40|Lucas Roux (07 37 18 38 66)|VIVANT
+47|CLEMENT|bernard|04/03/1947|H|71 avenue de la Loire, 65975 Montclair-sur-Loire|06 22 10 78 65|Adam Blanc (+33605043423)|VIVANT
+60|MARTIN|Juliette|23/09/1965|F|107 chemin des Vignes, 80898 Montclair-sur-Loire|07 29 61 77 34|Lea Morel (07 52 33 31 31)|VIVANT
+61|BERNARD|Lucas|18/04/1949|H|N/A|05 54 32 30 17|Jacques Duval (01 16 64 74 75)|VIVANT
+62|ROCHE|Ines|22/07/2006|I|19 rue des Ecoles, 66718 Saint-Avold-le-Haut|07 01 70 97 15|Nathan Rousseau (03 81 94 27 50)|VIVANT
+63|LE GALL|Hugo|14/08/2005|M|101 avenue de la Loire, 96523 Les Ormeaux|04 30 92 64 42|Bernard Bonnet (06 79 83 85 13)|VIVANT
+64|LE ROUX|Aurelie|24/05/1993|F|100 rue de la Gare, 21264 Saint-Avold-le-Haut|07 56 46 89 40|Christophe Denis (02 27 97 05 83)|VIVANT
+65|da silva|Andre|12/09/1955|Homme|74 allee des Peupliers, 51519 Saint-Avold-le-Haut|05 03 74 07 25|Jules Saint-Clair (05 82 91 84 93)|VIVANT
+66|MARTINEZ|Lucas|16/07/1943|M|63 allee des Peupliers, 59805 Bellerive-en-Val|02 10 59 51 79|Louise Nicolas (04.28.27.27.50)|VIVANT
+67|SAINT-CLAIR|Gerard|10/06/1978|M|102 impasse des Lilas, 35607 Vernay|04 58 17 78 12|?|VIVANT
+68|HENRY|Yves|06/09/1983|M|97 rue Pierre Curie, 94812 Les Ormeaux|03 34 59 81 15|Camille Laurent (+33 1 97 92 35 91)|VIVANT
+69|LEFEBVRE|Michel|18/11/2020|  I|131 avenue des Acacias, 95640 Bellerive-en-Val|04 42 71 17 12|Sarah Lemaire (07.78.02.75.61)|DECEDE
+70|ANDRE|Ines|15/08/1960|F|110 rue Jean Jaures, 40103 Les Ormeaux|| Jacques Lefevre (04 84 03 28 73) |VIVANT
+71|DUVAL|Mathilde|11/12/2014|F|140 quai Saint-Martin, 95263 Vernay|06 74 74 68 44|Adam Legrand (06.28.19.28.50)|VIVANT
+72|LAMBERT|Agathe|15/04/1981|f|18 quai Saint-Martin, 16810 Saint-Avold-le-Haut|02 89 74 08 49|Celine Leroy (04 45 62 47 06)|VIVANT
+73|BONNET|Francois|06/08/2022|M|137 rue du Moulin, 52646 Bellerive-en-Val|01 08 91 27 61|Marie Roux (03 87 88 22 65)|VIVANT
+74|ROBERT|Elise|03/02/1953|F|28 rue des Ecoles, 95785 Chasseneuil-Bas|05 72 82 73 34|Gerard Petit (03 74 06 90 53)|VIVANT
+75|PERRIN|Stephane|1951-11-10|M|1 quai Saint-Martin, 19506 Chasseneuil-Bas|07 65 89 73 67|Andre Le Roux (01 81 81 79 83)   |VIVANT
+76|LEFEBVRE|Marie|25/11/2023|F|20 boulevard Pasteur, 51299 Vernay|04 92 75 86 32|Josette Lopez (05 29 67 04 85)|Vivant(e)
+77|MOREL|Lucas|08/07/2020|M|44 impasse des Lilas, 67273 Vernay|03 58 32 70 69|Ines Rousseau (04 21 45 95 93)|VIVANT
+78|MORIN|Marcel|09/03/1953|M|79 avenue des Acacias, 23463 Saint-Avold-le-Haut|01 51 68 47 99|Agathe Michel (01 76 98 72 40)|VIVANT
+79|DURAND|Jeanne|23/02/1952|F|107 rue Victor Hugo, 13506 Saint-Avold-le-Haut|03 50 74 96 73|Francois Masson (04 38 07 24 78)|VIVANT
+80|LEGRAND|Brigitte|04/01/1973|F|?|02 97 20 67 74|Mathilde Garcia (05 11 65 23 06)|VIVANT
+81|PETIT|Anne|16/10/2008|F|9 place du Marche, 63374 Montclair-sur-Loire|02 45 59 55 23|Arthur Simon (01 28 55 72 41)|VIVANT
+82|THOMAS|Aurelie|2 juin 1952|F|21 avenue de la Loire, 80472 Bellerive-en-Val|02 13 12 40 13|Jade Le Roux (06 14 62 60 68)|VIVANT
+83|VINCENT|Gerard|11/02/2005|M|-|02 72 65 99 46|Michel Gautier (01 43 21 56 58)|VIVANT
+84|NICOLAS|Agathe|29/01/1937|F|90 rue Pierre Curie, 40905 Montclair-sur-Loire|03 71 81 77 63|Josette Blanc (01 73 86 03 56)|VIVANT
+85|boyer|Jules|7 oct. 1981|N/A|97 rue Victor Hugo, 26489 Vernay|07 10 34 35 45|Christophe Bertrand (07 26 81 34 13)|VIVANT
+86|SIMON|Emma|26/04/1941|I|119 rue des Ecoles, 18362 Bellerive-en-Val|03 93 70 55 85|Josette Durand (04 10 78 01 99)|VIVANT
+87|MERCIER|Josette|04/01/2002|F|113 boulevard Pasteur, 95763 Bellerive-en-Val|06 12 66 08 65|Helene Clement (01 47 79 23 56)|VIVANT
+88|RICHARD|Lucie|07/10/2021|F|92 quai Saint-Martin, 67922 Vernay|01 07 76 50 70|Claire Fontaine (01 48 38 52 40)|VIVANT
+89|LEFEVRE|Lea|29/06/1930|F||06 72 47 69 38|Nathan Blanc (04 19 14 30 71)|VIVANT
+90|O'NEILL|Manon|25/12/1987|F|52 boulevard Pasteur, 21590 Vernay|02 85 02 08 55|Ines Morin (04 19 47 35 49)|VIVANT
+91|SANCHEZ|Michel|01/12/1968|M|49 rue Pierre Curie, 91512 Saint-Avold-le-Haut|+33 4 08 21 64 61|Antoine O'Neill (06 95 36 09 13)|VIVANT
+92|BLANC|Camille|16/09/1957|F|51 rue Pierre Curie, 87744 Montclair-sur-Loire|0632840611|Brigitte Denis (06 45 01 79 73)|VIVANT
+93|MULLER |Pierre|23/06/2022|M|null|06 46 20 27 59|Lea Guerin (02 80 27 92 45)|VIVANT
+94|FONTAINE|Rene|06/06/1948|M|?|04 99 35 70 09|Celine Faure (05 98 07 79 06)|VIVANT
+95|GUERIN|Bernard|27/12/1999|H|55 boulevard Pasteur, 17870 Bellerive-en-Val|03 97 98 77 21|Marcel Lemaire (06 28 78 83 40)|VIVANT
+96|GAUTHIER|Marie|14/09/1990|F|34 rue du Moulin, 15858 Chasseneuil-Bas|03 86 58 55 43|Elise Andre (04 92 77 29 28)|VIVANT
+97|ANDRE|Helene|27/10/1998|F|5 rue des Tilleuls, 93748 Vernay|03 16 03 65 02|Michel Martinez (07 13 08 40 86)|Vivant(e)
+98|GAUTHIER|Marie|04/10/1942|F|-|04 35 50 12 77|Lucas Andre (0110231971)|vivant
+99|HENRY|Louis|10/11/1938|M|99 boulevard Pasteur, 31891 Chasseneuil-Bas|02 22 24 94 49|Philippe Fontaine (01 28 32 58 82)|VIVANT
+100|MARTINEZ|Chloe|12/01/2014|F|17 rue des Tilleuls, 24524 Saint-Avold-le-Haut|01 97 61 26 18|Lucas Durand (+33 5 61 98 60 13)|VIVANT
+101|DE LA TOUR|Odile|03/09/1987|F|64 quai Saint-Martin, 77277 Saint-Avold-le-Haut|02 52 74 29 78|Rene Mercier (04 49 18 26 84)|VIVANT
+102|FOURNIER|Alain   |18/03/1948|M|18 impasse des Lilas, 59995 Saint-Avold-le-Haut|05 11 30 59 63|Yvette Lefevre (0183886304)|VIVANT
+103|VINCENT|Anne|04/12/1927|F|89 avenue des Acacias, 78982 Vernay|0125226758|Hugo O'Neill (07 52 46 64 31)|VIVANT
+104|HENRY|Claire|25/05/1959|F|100 rue Pierre Curie, 78305 Montclair-sur-Loire|05 65 30 51 99|Andre Richard (04 71 39 00 85)|VIVANT
+105|BONNET|Adam|01/09/1995|H|17 rue Victor Hugo, 43897 Montclair-sur-Loire|02 58 49 23 81|Jade Fournier (03 75 65 88 37)|VIVANT
+106|ROBIN|Louise|10/07/1996|Femme|38 rue du Moulin, 72503 Chasseneuil-Bas|01 21 37 76 36|Monique Lopez (05 80 85 62 74)|VIVANT
+107|NICOLAS|Aurelie|1 mai 1954||125 rue des Ecoles, 68888 Montclair-sur-Loire|03 61 98 23 84|Agathe Michel (02 71 42 86 93)|DECEDE
+108|ROUX|Rene|21/09/2009|Homme|122 rue Victor Hugo, 48238 Saint-Avold-le-Haut|03 00 81 74 55|Jules Roger (02 99 54 42 03)|VIVANT
+109|BONNET|Yves|03/04/2009|M|42 rue des Tilleuls, 81169 Les Ormeaux|02 04 83 67 92|Pauline Francois (04 94 50 88 09)|VIVANT
+110|DUPONT|Stephane|04/05/1938|I| 33 rue de la Gare, 82357 Chasseneuil-Bas |03 39 72 98 88|Hugo Richard (01 89 49 09 90)|VIVANT
+111|LOPEZ|Brigitte|13/07/1936|F|5 boulevard Pasteur, 39590 Montclair-sur-Loire|?|Bernard Morin (01 54 48 58 34)|VIVANT
+112|GARCIA|Francois|19/12/1971|M|2 rue de la Gare, 68992 Les Ormeaux|04 72 86 65 77|Camille Fournier (01 48 54 22 91)|VIVANT
+113|MASSON|Gerard|05/12/1993|M|114 quai Saint-Martin, 89844 Saint-Avold-le-Haut|06 45 31 48 52|Marcel Clement (01 36 92 14 59)|DECEDE
+114|LEROY|Odile|13/06/1974|F|140 rue Pierre Curie, 71849 Chasseneuil-Bas|03 35 15 38 64|Lucas Garnier (05 03 11 84 52)|VIVANT
+115|ROUSSEAU|Camille|29/09/1935|F|78 rue Victor Hugo, 66119 Les Ormeaux|03 74 06 89 04||VIVANT
+116|ANDRE|Hugo|07/09/1967|I|62 boulevard Pasteur, 80630 Chasseneuil-Bas|03 17 04 10 87|Pierre Gautier (01 51 43 73 05)|VIVANT
+117|BERTRAND|Lucas|08/05/2022|M|11 allee des Peupliers, 69584 Chasseneuil-Bas|03 49 55 88 37|Sarah Girard (03 71 79 85 58)|VIVANT
+118|LAMBERT|Claire|24/05/1938|I|103 place du Marche, 63817 Montclair-sur-Loire|04 19 39 08 15|Lucie Denis (03 08 80 28 91)|VIVANT
+119|ROUX|Emma|28/06/1929|F|59 rue de la Gare, 68615 Saint-Avold-le-Haut|+33304299197|null|VIVANT
+120|NICOLAS|Mathieu|01-21-2012|M|6 quai Saint-Martin, 71185 Vernay|0178585759|Hugo Durand (02 17 78 76 56)|VIVANT
+121|LEFEBVRE|Isabelle|04/04/2020|F|N/A|01 27 46 69 46|Mathilde Faure (04 71 98 63 27)|VIVANT
+122|MOREL|Mathieu|26/10/1985|M   |122 impasse des Lilas, 17107 Les Ormeaux|06 29 30 94 67|Jacques Le Roux (07 81 86 71 19)|VIVANT
+123|N/A|Lucas|28/05/1930|M|1 impasse des Lilas, 41995 Chasseneuil-Bas|01 33 64 34 67|Remi Leroy (+33 2 50 64 63 17)|VIVANT
+124|DUPONT|Ines|04/02/1970|F|103 allee des Peupliers, 17596 Saint-Avold-le-Haut|+33 4 06 75 53 62|Jeanne Le Gall (02 10 26 58 92)|VIVANT
+125|ROUSSEL|Jade|13/12/1996|F||03 08 09 10 19|Lucas Robin (04 79 52 50 98)|VIVANT
+126|GIRARD|Laurent|13/02/2017|M|38 avenue de la Loire, 25797 Bellerive-en-Val|07 36 25 42 42|Isabelle Masson (06 81 59 92 08)|VIVANT
+127|GAUTHIER| Elise |02/08/2005|F|34 rue des Ecoles, 51262 Bellerive-en-Val|04 73 53 98 19|Ines Rousseau (03 99 10 85 15)|VIVANT
+128|LE GALL|Emma|04/09/2008|F|null|02 44 16 80 82|Nathalie Lambert (01 84 55 97 93)|VIVANT
+129|MULLER|Pauline|30/12/1942|F|135 chemin des Vignes, 33727 Saint-Avold-le-Haut|02 25 82 67 01|Agathe Simon (06 96 74 55 87)|V
+130|ROCHE|Christophe|16/08/1934|I|53 avenue de la Loire, 30184 Les Ormeaux|01 86 08 83 47|Odile Martin (02 44 43 54 59)|VIVANT
+131|O'NEILL|Alain|10/04/1974|M|20 rue de la Gare, 55419 Les Ormeaux|06 94 11 28 88|Louis O'Neill (04 66 98 49 37)|DECEDE
+132|FOURNIER|Antoine|13/10/1933|H|127 rue du Moulin, 29779 Vernay|01 65 18 75 82|Antoine Andre (07 83 72 52 53)|VIVANT
+133|ROUSSEAU|Josette|16/09/1978|F|85 rue de la Gare, 73926 Bellerive-en-Val|04 37 13 45 08|Gerard Fontaine (05 16 72 79 95)|VIVANT
+134|ROBERT|Mathilde|22/01/1978|F|106 impasse des Lilas, 75113 Bellerive-en-Val|07 42 63 04 37||VIVANT
+135|DUMONT|Julien|08/11/1948|M|41 chemin des Vignes, 41431 Saint-Avold-le-Haut|03 77 73 94 53|Michel Durand (0306515570)|VIVANT
+136|DENIS|Claire|24/12/1984|F|17 chemin des Vignes, 43939 Saint-Avold-le-Haut|06 25 18 13 03|Jeanne Robert (05 39 18 00 54)|VIVANT
+137|LEMAIRE|Sandrine|12/03/1961|F|null|02 72 47 13 35|Louis Masson (06 06 06 41 43)|VIVANT
+138|DE LA TOUR|Christophe|03/09/1956|I|22 avenue des Acacias, 91694 Saint-Avold-le-Haut|06 95 28 04 29|Pauline Le Roux (01 07 77 07 90)|VIVANT
+134|ROBERT|Mathilde|22/01/1978|F|106 impasse des Lilas, 75113 Bellerive-en-Val|07 42 63 04 37||VIVANT
+139|SANCHEZ|Jacques|30/03/1938|M|24 rue des Ecoles, 18767 Saint-Avold-le-Haut|02 51 10 86 99|Brigitte Boyer (07 51 34 03 98)|VIVANT
+140|PERRIN|Nicolas|24/12/1945|M|57 quai Saint-Martin, 42895 Vernay|07 85 19 90 17|Marcel Roussel (02 52 79 40 30)|VIVANT
+141|LEROY|Laurent|2002-01-29|MASC|58 impasse des Lilas, 37353 Bellerive-en-Val|05 14 89 50 10|Jacques Girard (06 64 37 36 80)|VIVANT
+142|SANCHEZ|Gerard|15/04/1972|M|2 rue Jean Jaures, 75255 Saint-Avold-le-Haut|07 64 75 52 29|Stephane Richard (04 19 04 92 74)| VIVANT 
+143|ROBERT|Louis|17/05/1960|M|106 chemin des Vignes, 39931 Saint-Avold-le-Haut||Thomas Durand (02 49 40 64 40)|VIVANT
+144|DUVAL|Gerard|23/04/1949|M|96 place du Marche, 65987 Saint-Avold-le-Haut|+33 2 84 13 92 66|Andre Chevalier (07 57 58 25 42)|VIVANT
+145|GARNIER|Mathieu|30 dec. 1940|M|132 rue Victor Hugo, 74161 Saint-Avold-le-Haut|03 80 24 38 80|Mathieu Petit (07 77 20 36 66)|VIVANT
+146|DUPONT|Nathalie|13/05/1974|N/A|99 boulevard Pasteur, 77267 Les Ormeaux|07 44 35 49 56|Louise Martin (02 39 03 16 94)|DECEDE
+147|ROUSSEL|Jacques|11/12/1953|M|36 rue Victor Hugo, 33847 Saint-Avold-le-Haut|06 62 70 18 53|Gerard Petit (06 44 64 39 17)|VIVANT
+148|ROCHE|Margaux|28/11/2018|F|94 allee des Peupliers, 50713 Saint-Avold-le-Haut|+33 4 49 15 02 51|Celine Muller (02.66.15.55.96)|VIVANT
+149|GAUTHIER|Stephane|17/10/1949|M|34 chemin des Vignes, 36127 Bellerive-en-Val|03 39 54 91 62|Celine Da Silva (04 17 31 31 65)|VIVANT
+150|DAVID|Stephane|30/04/1941|M|103 impasse des Lilas, 88939 Les Ormeaux|05 54 31 49 80|Odile Roche (07 04 74 06 42)|DECEDE
+151|ROUSSEL|Anne|18/10/1984|F|29 place du Marche, 99640 Saint-Avold-le-Haut|03 06 20 27 17|Gerard Mercier (01 94 80 69 41)|VIVANT
+152|BERTRAND|Francois|26/01/1994|M|127 rue Pierre Curie, 47567 Bellerive-en-Val|07 79 60 04 08|Yvette Garcia (02 03 56 84 97)| VIVANT 
+153|BERTRAND|Marie|05/03/1965|F|8 rue Victor Hugo, 86788 Les Ormeaux|03 97 45 07 09|Marie Da Silva (03 17 58 24 89)|VIVANT
+154|LEGRAND|Arthur|04/08/1937|M|98 PLACE DU MARCHE, 57949 VERNAY|+33 5 48 30 13 93|Margaux Lemaire (01 38 83 95 06)|VIVANT
+151|ROUSSEL|Anne|18/10/1984|F|29 place du Marche, 99640 Saint-Avold-le-Haut|03 06 20 27 17|Gerard Mercier (01 94 80 69 41)|VIVANT
+155|MULLER|Yvette|22/09/1935|F|24 quai Saint-Martin, 82899 Saint-Avold-le-Haut|02.44.70.65.79|Gabriel Joly (03 63 91 39 02)|VIVANT
+156|DUMONT|Jade|22/12/1972|F|34 rue de la Gare, 48638 Chasseneuil-Bas|04 27 87 66 99|Pauline Lopez (04 75 73 50 65)|VIVANT
+157|FOURNIER|  Louis|19/09/1976|M|108 rue des Tilleuls, 89468 Bellerive-en-Val|02.31.52.98.31|Celine Saint-Clair (07 58 73 49 93)|VIVANT
+158|DE LA TOUR|Manon|04-15-1946|FEM|99 rue Jean Jaures, 34850 Vernay|04 60 30 02 13|Christophe Roux (01 19 50 65 77)|DECEDE
+159|LOPEZ|Camille|13/04/1982|F|16 place du Marche, 84159 Les Ormeaux|01 03 61 11 72|Lucas Lopez (07 36 29 04 28)|VIVANT
+160|MATHIEU|Marcel|04/05/1986|  M|62 impasse des Lilas, 19858 Montclair-sur-Loire|03 99 56 68 52|Josette Bertrand (+33470352765)|VIVANT
+161|DURAND|Louise|10/05/1960|F|132 rue des Ecoles, 93337 Vernay|06 85 02 93 54|Emma Martin (06.30.24.92.29)|VIVANT
+162|BERTRAND|Marie|24/03/1980|I|null|03 35 13 98 99|Juliette Roche (01 31 48 68 33)|VIVANT
+163|MICHEL|Julien|10/05/1988|M|63 place du Marche, 11926 Saint-Avold-le-Haut|01 89 08 13 67|Jacques Morel (01 50 64 33 14)|VIVANT
+164|CLEMENT|Odile|08/10/1952|F|18 boulevard Pasteur, 66423 Chasseneuil-Bas|07 10 10 19 13|Francois Garcia (0583052214)|VIVANT
+165|SAINT-CLAIR|Alain|27 nov. 1943|M|96 rue du Moulin, 25838 Bellerive-en-Val|01 72 16 37 10|Nicolas Perrin (+33505796046)|VIVANT
+166|FRANCOIS|Sarah|04/03/1990|F|48 avenue des Acacias, 47123 Montclair-sur-Loire|06 54 89 89 31|Laurent Martin (07 59 37 14 82)|VIVANT
+167|BOYER|Isabelle|05/06/1950|F|123 chemin des Vignes, 77180 Montclair-sur-Loire|06 04 12 97 67|Gerard Sanchez (04 59 47 19 00)|VIVANT
+168|ROUSSEL|Arthur|30 aout 2010|M|62 rue Victor Hugo, 88805 Chasseneuil-Bas|06 69 48 85 34|Louise Morin (04 15 69 67 90)|VIVANT
+169|VINCENT|Bernard|10/04/1998|M|21 chemin des Vignes, 21325 Montclair-sur-Loire|03 67 29 97 40|Aurelie Joly (04 17 67 08 93)|VIVANT
+170|GIRARD|Gabriel|18/12/1944|M|71 rue Pierre Curie, 38463 Chasseneuil-Bas|07 67 99 88 63|Yvette Dubois (02 23 71 17 59)|VIVANT
+171|DUMONT|Eric|05/05/2014|M|86 quai Saint-Martin, 95654 Bellerive-en-Val|02 95 53 92 86|Helene Dumont (04 12 77 48 43)|VIVANT
+172|LEMAIRE|Celine|15/06/2011|F|104 rue Jean Jaures, 23877 Chasseneuil-Bas|07 43 84 06 71|Marcel Lemaire (02 76 85 32 45)|VIVANT
+173|ROUSSEL|Ines|13/10/1972|F|121 impasse des Lilas, 94671 Les Ormeaux|02 37 40 97 57|Arthur David (04 24 14 14 59)|VIVANT
+174|DUMONT|Josette|02/10/2018|F|88 impasse des Lilas, 70544 Saint-Avold-le-Haut|01 76 08 68 53|Mathilde Petit (06 16 25 60 53)|VIVANT
+175|GAUTIER|Louis|19/07/1930|M|74 rue de la Gare, 51708 Chasseneuil-Bas|01 42 98 14 31|Mathilde Gautier (03 33 69 64 24)|VIVANT
+176|BERTRAND|Helene|01/04/2007|F|129 rue Jean Jaures, 62793 Vernay|02 32 05 41 73|Rene Garcia (03 12 47 29 13)|VIVANT
+177|PETIT|Isabelle|02/01/1999|F|42 rue Pierre Curie, 18556 Montclair-sur-Loire|01 82 62 05 58|Celine Guerin (06 89 40 98 19)|VIVANT
+178|HENRY|Pauline|26 janv. 1968|F|110 place du Marche, 95385 Chasseneuil-Bas|02 94 22 64 31|Nicolas Roger (04 35 40 21 43)|VIVANT
+179|MULLER|Yvette|20/01/1962|I|50 rue de la Gare, 82743 Chasseneuil-Bas|01 77 94 16 33|Manon Lopez (05 77 57 81 55)|DECEDE
+180| DURAND |Michel|18/01/1941|H|2 rue de la Gare, 49171 Les Ormeaux|06 94 88 36 06|Josette Da Silva (06 55 43 28 71)|VIVANT
+181|LEGRAND|Adam|14/01/2009|M|11 rue Jean Jaures, 12213 Les Ormeaux|07 72 71 64 84|Margaux Moreau (02 61 69 12 35)|vivant
+182|LEROY|Jeanne|10/03/1989|F|76 avenue des Acacias, 23280 Chasseneuil-Bas|03 06 72 83 11|Marcel Roche (07 25 86 06 31)|VIVANT
+183|LEROY|Bernard|1981-02-22|M|104 rue des Ecoles, 87767 Bellerive-en-Val|06 86 58 88 67|Sandrine Morel (05.36.85.62.64)   |V
+184|THOMAS|Margaux|03/02/1984|F|97 impasse des Lilas, 38552 Bellerive-en-Val|05 72 83 92 96|Olivier Morel (05 69 87 24 23)| VIVANT 
+185|CHEVALIER|Gerard|14/04/1978|  M|115 rue des Tilleuls, 61835 Montclair-sur-Loire|04 53 44 80 74|Bernard Petit (04 95 08 55 34)|VIVANT
+186|DUBOIS|Claire|04/08/1954|F|19 boulevard Pasteur, 60833 Montclair-sur-Loire|05 79 18 74 07|-|VIVANT
+187|THOMAS|Andre|22/02/1958|M|125 chemin des Vignes, 42750 Montclair-sur-Loire|06 75 51 18 68|Hugo Laurent (04 00 97 17 47)|DECEDE
+188|FRANCOIS|Alain|13-04-1947|M|23 impasse des Lilas, 48725 Bellerive-en-Val|06 00 24 30 27|Manon Sanchez (06 32 21 92 73)|VIVANT
+189|SAINT-CLAIR|Agathe|21 oct. 1995|F|23 rue Pierre Curie, 12923 Chasseneuil-Bas|+33 2 61 43 04 87|Olivier Francois (06 97 19 71 07)|VIVANT
+190|RICHARD|Yvette|31/02/2021|F|11 rue des Tilleuls, 27505 Vernay|01 68 55 79 18|Bernard Dupont (04 29 90 95 19)|VIVANT
+191|GIRARD|Olivier|18/06/2020|M|35 rue des Ecoles, 45751 Vernay|01 22 16 82 89|Pauline Faure (07 68 76 68 23)|VIVANT
+192|LE ROUX|Mathieu|29/09/1966|H|122 rue du Moulin, 86152 Montclair-sur-Loire|06 83 27 16 58|Julien Le Roux (06 18 78 17 66)|VIVANT
+193|GAUTIER|Thomas|10/02/1965|M|138 rue du Moulin, 81125 Les Ormeaux|05 10 13 40 87|Laurent Blanc (04 46 35 23 80)|VIVANT
+194|ROUSSEL|Thomas|1976-01-14|M|121 boulevard Pasteur, 16549 Bellerive-en-Val|07 17 70 24 78|Mathilde Legrand (02 32 27 75 94)|VIVANT
+195|MULLER|Juliette|23/09/2000|F|?|03 20 62 97 76|Odile Bonnet (05 05 44 81 69)|DECEDE
+196|O'NEILL|Mathilde|26/01/1958|F|7 place du Marche, 14538 Les Ormeaux|03 07 83 35 27|Elise Garcia (06 24 99 55 55)|VIVANT
+197|O'NEILL|Nathan|02/06/1948|M|137 rue Victor Hugo, 54155 Vernay|07 40 16 02 33|Christophe Legrand (+33 1 67 63 00 38)|VIVANT
+198| ROUSSEL |Rene|05/12/1986|M|55 quai Saint-Martin, 62834 Vernay|04 87 72 78 36|Lea Le Roux (04 36 52 63 59)|VIVANT
+199|MORIN|Anne|24 aout 1975|F|111 impasse des Lilas, 35916 Saint-Avold-le-Haut|02 21 58 17 63|Jules Nicolas (+33321133669)|VIVANT
+200|ROCHE|Elise|20/06/1991|F|100 place du Marche, 47492 Saint-Avold-le-Haut|07 72 70 02 43|Olivier Leroy (05 46 81 55 70)|VIVANT
+201|DENIS|Lucas|21/04/1977|M|2 quai Saint-Martin, 15920 Montclair-sur-Loire|07 94 47 15 38|Brigitte de La Tour (+33 4 40 78 35 23)|VIVANT
+202|JOLY|Helene|19/04/1968|F|14 allee des Peupliers, 10177 Les Ormeaux|03 02 98 50 04|Laurent Lemaire (05 17 42 52 88)|VIVANT
+203|LAMBERT|Jules|22/10/1962|I|80 avenue de la Loire, 16199 Chasseneuil-Bas|02 14 28 73 61|Rene Thomas (04 28 24 53 01)|VIVANT
+204|MORIN|Jules|23/03/1952|M|54 rue Pierre Curie, 84940 Montclair-sur-Loire|05 17 89 84 83|null|VIVANT
+205|DE LA TOUR| Nicolas |09/12/1982|M|95 avenue de la Loire, 46909 Les Ormeaux|02 17 96 89 24|Anne Legrand (01 58 61 27 26)|VIVANT
+206|LEFEBVRE|Hugo|06/09/1964|H|40 rue des Ecoles, 12681 Vernay|05 88 05 95 44|Manon Dubois (07 93 26 39 62)|VIVANT
+207|CHEVALIER|Olivier|07/05/2013|M|31 rue de la Gare, 99123 Saint-Avold-le-Haut|?|Isabelle Morin (06 55 43 91 04)|VIVANT
+208|MASSON|Pierre|02/11/1960|M|-|05 47 60 97 42|Odile Le Roux (03 09 12 25 56)|VIVANT
+209|LEFEVRE|Mathieu|19/08/1989|M|113 rue du Moulin, 84358 Bellerive-en-Val|05 27 97 94 77|Sarah Francois (04 13 16 42 76)|VIVANT
+210|CHEVALIER|Juliette|14/03/2002|F|31 boulevard Pasteur, 45941 Chasseneuil-Bas|N/A|Juliette Morel (05 44 35 24 56)|VIVANT
+211|JOLY|Eric|22/10/2003|M|100 chemin des Vignes, 93867 Les Ormeaux|01 26 68 45 71|Sarah Roussel (04 54 97 18 79)|VIVANT
+212|DAVID|Louise|21/02/1948|I|97 rue du Moulin, 33729 Saint-Avold-le-Haut||Odile Le Roux (03 58 00 23 49)|VIVANT
+213|LEMAIRE|Jeanne|13/01/1999|FEM|24 rue des Ecoles, 62622 Montclair-sur-Loire|04 20 75 30 04|Josette Michel (05 78 44 49 97)|VIVANT
+214|MOREL|rENE|1940-10-13|null|19 rue des Ecoles, 86447 Montclair-sur-Loire|07 63 36 66 85|Bernard Morin (+33378849317)|VIVANT
+215|lopez|Hugo|02/10/1967|M|4 rue Pierre Curie, 41686 Les Ormeaux|06 34 86 05 51|Francois Duval (07 93 78 31 99)|VIVANT
+216|DE LA TOUR|Chloe|03/02/1963|Femme|79 rue Jean Jaures, 80364 Saint-Avold-le-Haut|07 27 84 34 68|Margaux Henry (03 81 39 33 44)|VIVANT
+217|BLANC|Lucas|08/03/1996|MASC|24 rue des Ecoles, 47661 Saint-Avold-le-Haut|06 94 13 90 04|Philippe Nicolas (07 06 56 43 53)|VIVANT
+218|RICHARD|Bernard|27/01/1951|M|71 avenue des Acacias, 46426 Chasseneuil-Bas|07 12 15 84 58|Monique Martin (07 20 91 44 05)|VIVANT
+219|LEMAIRE|Yves|14/06/2023|M|46 impasse des Lilas, 81293 Montclair-sur-Loire|0397734334|Stephane Clement (07 19 36 41 85)|VIVANT
+220|SIMON|Stephane|16/11/2018|M|44 place du Marche, 44327 Saint-Avold-le-Haut|05 62 86 22 93|Eric Roussel (07 44 51 40 13)|VIVANT
+221|VINCENT|Elise|10/08/2008|F|51 boulevard Pasteur, 32246 Bellerive-en-Val|02 79 25 30 42|Laurent Lambert (05 70 25 28 64)|VIVANT
+222|ROCHE|Claire|07/11/1997|F|6 rue du Moulin, 68653 Vernay|01 08 73 19 45|Sarah Joly (07 43 98 64 48)|VIVANT
+223|ROCHE|Yves|16/11/2003|M|94 rue des Tilleuls, 90120 Chasseneuil-Bas|+33755556431|N/A|VIVANT
+224|DURAND|Agathe|27 sept. 1935|F|37 rue Victor Hugo, 85788 Saint-Avold-le-Haut|07 50 74 54 26|Pauline Garcia (02.09.70.73.40)|VIVANT
+225|ROUSSEAU|Elise|1952-12-04|F|137 rue Pierre Curie, 13543 Chasseneuil-Bas|06 55 56 65 72|Jules Leroy (05 81 81 92 33)|V
+226|BERNARD|Marcel|17/02/1971|M|2 rue de la Gare, 80915 Bellerive-en-Val|06 49 55 16 65|Philippe Le Gall (02 98 31 76 32)|VIVANT
+227|MOREAU|Louis|03/07/1990|M|134 place du Marche, 34315 Bellerive-en-Val|02 05 27 71 85|Hugo David (07 94 23 78 93)|VIVANT
+228|DUMONT|Brigitte|03/04/1985|F|52 quai Saint-Martin, 64416 Saint-Avold-le-Haut|07 80 42 41 23|Lucie Masson (02 56 75 24 37)|VIVANT
+229|O'NEILL|Sandrine|09/06/2014|F|80 quai Saint-Martin, 37341 Chasseneuil-Bas|07 35 17 23 83|Helene Saint-Clair (07 01 79 02 60)|VIVANT
+230|NICOLAS|Michel|07/07/1958|M|4 rue Victor Hugo, 69836 Les Ormeaux|05 40 12 49 41|Julien Robert (05 06 33 67 57)|VIVANT
+231|MOREL|Celine|13/05/1989|F|110 rue Victor Hugo, 87497 Montclair-sur-Loire|04 39 30 26 72|Nicolas Joly (03 85 50 22 59)|VIVANT
+232|GUERIN|Michel|29/07/1957|I|80 rue Jean Jaures, 78619 Chasseneuil-Bas|07 37 98 90 53|Laurent Lopez (03 72 87 35 52)|VIVANT
+233|LOPEZ|Agathe|21/03/2009|F|35 boulevard Pasteur, 74236 Chasseneuil-Bas|03 63 47 75 51|Lea Nicolas (0421823646)|VIVANT
+234|LE ROUX|Jules|15/04/1965|M|65 rue du Moulin, 20310 Vernay|04 37 85 33 83|Margaux Chevalier (07 93 16 64 57)|VIVANT
+235|MARTINEZ|Bernard|1991-09-22|M|N/A|06 54 83 04 07|Camille Sanchez (05 63 67 04 81)|VIVANT
+236|MATHIEU|Gabriel|04/12/2020|M ||01 95 77 77 04|Arthur Muller (05 17 40 01 04)|VIVANT
+237|BONNET|Jeanne|26/05/2008|F|21 rue des Ecoles, 53625 Les Ormeaux|02.72.84.54.58|N/A|VIVANT
+238|MARTINEZ|Juliette|04/05/1947|F|26 quai Saint-Martin, 41236 Bellerive-en-Val|-|  Josette Roche (07 89 13 87 53)|VIVANT
+239|FRANCOIS|Alain|22 oct. 2000|M|68 rue Victor Hugo, 20958 Saint-Avold-le-Haut|07 79 86 71 15|Jade Roux (02 81 52 59 97)|VIVANT
+240|MATHIEU|Yves|12/05/1940|M|22 allee des Peupliers, 15451 Chasseneuil-Bas|01 15 80 16 43|Jeanne de La Tour (02 41 10 08 52)|VIVANT
+241|SIMON|Emma|12/03/1971|F|90 avenue des Acacias, 56702 Montclair-sur-Loire|01 15 57 47 65|Nathan Garnier (07 01 02 94 29)|VIVANT
+242|BONNET|Michel|21/04/2014|M|59 boulevard Pasteur, 67762 Chasseneuil-Bas|06 44 95 50 45|Brigitte Perrin (04 89 41 68 60)|VIVANT
+243|GARCIA|Yvette|01/12/2015|F|7 rue des Ecoles, 78133 Les Ormeaux|04 16 79 76 64|N/A|VIVANT
+244|MOREAU|Aurelie|23/07/1952|F|31 rue du moulin, 92274 bellerive-en-val|0259680239|Nicolas Mercier (02 09 76 76 89)|VIVANT
+245|null|Eric|26/09/1989|M|120 chemin des Vignes, 29989 Vernay|03 14 01 90 75|Philippe Henry (04 10 55 74 88)|VIVANT
+246|LE ROUX|Margaux|17/06/1939|F|89 rue Pierre Curie, 52670 Saint-Avold-le-Haut|05 71 06 51 77|Sandrine Mathieu (03 82 38 69 63)|VIVANT
+247|GARNIER|Christophe|29/10/2013|M|19 avenue des Acacias, 72697 Les Ormeaux|06 06 36 95 94|Chloe Richard (03 45 41 48 96)|VIVANT
+248|LEFEBVRE|Jacques|03/03/2009|M|103 boulevard Pasteur, 82616 Chasseneuil-Bas|03 55 47 64 11|Louise Robin (05 53 73 74 04)|VIVANT
+249|ROUSSEL|Olivier|1980-06-15|null|22 quai Saint-Martin, 11222 Chasseneuil-Bas|06 55 77 57 66|Remi Martinez (03 32 33 15 91)|VIVANT
+250|DUVAL|Mathilde|30/09/2001|F|1 boulevard Pasteur, 84199 Montclair-sur-Loire|02 36 44 43 05|Laurent Dumont (05 24 35 88 78)|VIVANT
+251|MARTIN|Philippe|8 nov. 2023|M|N/A|05 12 72 48 19|Louis Perrin (04 98 49 72 77)|VIVANT
+252|ROUX|Christophe|25 dec. 1961|M|50 avenue des Acacias, 42550 Bellerive-en-Val|03 78 28 00 42|Helene Robin (06 64 14 05 55)|VIVANT
+253|ROGER|Agathe|24/11/2024|F|135 rue des Ecoles, 47802 Les Ormeaux|04 08 91 70 24|Arthur Joly (05 79 21 18 73)|VIVANT
+254|THOMAS|Claire|26/02/1997|F|129 boulevard Pasteur, 20125 Les Ormeaux|06 23 26 91 37|Juliette Francois (04 83 20 93 16)|VIVANT
+255|BLANC|Bernard|2004-05-01|M||+33 1 19 48 02 77|Josette Roche (01 83 07 93 64)|VIVANT
+256|O'NEILL|Louise|18/09/1991|F|138 quai Saint-Martin, 73377 Les Ormeaux|04 92 36 18 18|Pierre Rousseau (03.10.24.82.21)|VIVANT
+257|ROBERT|Elise|15/12/1974|FEM|23 allee des Peupliers, 77363 Vernay|06 44 87 81 39|Christophe Lefevre (+33438090295)|VIVANT
+258|DENIS|Yvette|16/08/1980|F|2 rue Pierre Curie, 32134 Chasseneuil-Bas|03 72 94 43 93|Claire Clement (02 59 99 29 19)|VIVANT
+259|LEROY|Yvette|29/12/1983|F|130 rue des Ecoles, 97711 Vernay||Sandrine Roger (07 64 85 80 86)|DECEDE
+260|MERCIER|Lucie|14/07/2021|F|83 rue de la Gare, 62507 Vernay|02 56 43 15 11|Hugo Denis (01 76 19 38 37)|VIVANT
+261|  MICHEL|Yves|14 sept. 2017|M|?|02 40 19 28 59|Odile Francois (05 46 16 05 15)|DECEDE
+262|DAVID|Nathan|01/06/1976|M|89 impasse des Lilas, 22760 Bellerive-en-Val|03 96 13 32 40|Louis Bernard (06 04 95 11 25)|VIVANT
+263|GIRARD|Elise|12/01/2002|F|24 rue Pierre Curie, 31747 Vernay|N/A|Josette Chevalier (02.84.25.56.12)|VIVANT
+264|ROBIN|Celine|20 mars 1991|F|110 rue Pierre Curie, 31897 Montclair-sur-Loire|07 06 95 50 23|Olivier Lefebvre (01 30 88 66 23)|VIVANT
+265|DENIS|Francois|04/04/1932|?|34 avenue des Acacias, 85585 Bellerive-en-Val|04 69 87 60 66|Jacques Girard (03 05 48 78 03)|VIVANT
+266|MASSON|Sarah|08/05/2022|F|128 quai Saint-Martin, 53217 Saint-Avold-le-Haut|04 76 11 22 38|Antoine Blanc (03 66 15 31 71)|VIVANT
+267|LEMAIRE|Louis|27/10/2009|M|105 chemin des vignes, 94123 montclair-sur-loire|01 23 45 10 31|Yvette Dupont (01 97 27 86 78)|VIVANT
+268|SANCHEZ|Pauline|09/10/1941|F|70 rue des Tilleuls, 86610 Vernay|05 40 71 37 64|Philippe Roche (03 65 23 90 36)|VIVANT
+269|MULLER|Marie|26/05/1953|F|116 rue de la Gare, 70360 Bellerive-en-Val|01 13 29 31 82|Manon Martinez (01 35 47 08 82)|VIVANT
+270|FRANCOIS|Stephane|1938-06-04|M|40 rue de la Gare, 17187 Les Ormeaux|06 06 75 11 61|Anne Andre (07 45 00 75 98)|VIVANT
+271|DUVAL|Manon|01/12/2003|F|114 quai Saint-Martin, 65946 Saint-Avold-le-Haut|04 74 78 82 95|Remi Henry (07 30 46 22 62)|VIVANT
+272|GIRARD|Isabelle|14/11/1930|I|100 rue Jean Jaures, 19705 Saint-Avold-le-Haut|05 07 07 09 74|Francois David (01 23 00 03 46)|VIVANT
+273|ROBERT|Anne|29/08/1960|F|107 rue du Moulin, 72493 Montclair-sur-Loire|07 59 02 27 66|  Thomas Lefevre (+33 1 82 51 38 03)|VIVANT
+274|RICHARD|Christophe|1970-04-06|M|121 rue des Ecoles, 32715 Saint-Avold-le-Haut|06 41 44 77 94|Louis Mathieu (01 43 76 45 79)|VIVANT
+275|RICHARD|Michel|18/08/1955|M|36 chemin des Vignes, 65805 Les Ormeaux|02 06 81 31 30|Arthur Garcia (02 51 20 07 23)|VIVANT
+276|BLANC|Agathe|10/09/1936|F|29 PLACE DU mARCHE, 21334 lES oRMEAUX|02 05 80 42 29|Margaux Vincent (03 99 16 72 84)|VIVANT
+277|FONTAINE|Philippe|19 oct. 1972|M|12 avenue des Acacias, 83492 Montclair-sur-Loire|07 87 49 37 34|Emma Morin (01 79 93 11 39)|VIVANT
+278|DURAND|Juliette|16/03/2023|F|133 boulevard Pasteur, 99851 Chasseneuil-Bas|05 62 35 00 00|Pierre Roche (05 13 17 35 56)|VIVANT
+279|ROUSSEAU|Lea|28/03/2012|null|109 rue des Tilleuls, 20288 Les Ormeaux|07 24 79 86 04|Anne Le Gall (01 21 48 48 80)|VIVANT
+280|DUVAL|Anne|25/06/1976|F|null|02 99 54 51 06|Emma Lefebvre (04 74 23 64 87)|VIVANT
+281|DUMONT|Odile|29/09/1932|F|18 allee des peupliers, 27197 les ormeaux|06 66 36 02 26|Nathan Boyer (01 22 13 43 34)|VIVANT
+282|MOREAU|Chloe|12/10/2024|Femme|22 rue des Ecoles, 14713 Bellerive-en-Val|05 90 53 55 02|Pierre Moreau (03 94 42 62 86)|VIVANT
+283|DUMONT|Jeanne|12/02/1955|F|85 rue Victor Hugo, 98444 Montclair-sur-Loire|05 60 52 42 84|Pierre Duval (02 37 94 57 81)|VIVANT
+284|GARCIA|Isabelle|1974-12-14|F|91 chemin des Vignes, 12559 Saint-Avold-le-Haut|01 34 77 39 26|Ines Roux (05 46 15 24 10)|VIVANT
+285|BERTRAND|Anne|11/09/1970|F|122 place du Marche, 15915 Montclair-sur-Loire|null|Margaux Roux (04 03 12 85 13)|VIVANT
+286|MARTINEZ|Chloe|15/02/2006|F|19 chemin des Vignes, 98896 Les Ormeaux|04 03 41 37 34|Thomas Fontaine (06 64 44 78 22)|VIVANT
+287|LEFEVRE|Josette|11/10/1968|F||01 30 03 83 29|Aurelie Martinez (05 08 58 73 75)|VIVANT
+288|ANDRE|Eric|25/04/2021|H|88 impasse des Lilas, 14302 Les Ormeaux|02 58 52 26 83|Nathalie Thomas (07 58 18 44 20)|VIVANT
+289|DUPONT|mATHIEU|03/03/1970|M|81 rue Victor Hugo, 16562 Chasseneuil-Bas|06 46 95 55 46|Manon Garnier (06.81.69.49.47)|VIVANT
+290|GAUTIER|Sophie|06/10/1952|F|44 impasse des Lilas, 95934 Saint-Avold-le-Haut|03 35 15 82 46|Sophie Bertrand (07 26 55 28 75)|VIVANT
+291|LE ROUX|Celine|05/11/1961|F|52 avenue des Acacias, 43681 Bellerive-en-Val|07 99 49 90 00|Pierre Thomas (02 21 79 25 77)|VIVANT 
+292|GARNIER|Elise|06/08/1962|F|97 quai Saint-Martin, 42335 Les Ormeaux|05 20 96 67 13|Gerard Lambert (06 75 27 36 51)   |VIVANT
+293|FRANCOIS|Yvette|01/12/1944|F|61 quai Saint-Martin, 62852 Chasseneuil-Bas|03 42 45 83 64|Elise Morel (01 77 88 42 25)|VIVANT
+294|JOLY|Bernard|2003-09-29|M|79 rue Pierre Curie, 12989 Chasseneuil-Bas|03 22 82 97 03|Thomas Da Silva (04 68 70 61 06)|VIVANT
+295|LOPEZ|Marie|22/02/1931|I|93 rue Jean Jaures, 21445 Chasseneuil-Bas|03 72 48 30 88|Hugo Dubois (01 09 01 29 44)|VIVANT
+296|JOLY|Lucie|29/01/1982|I|20 rue du Moulin, 12474 Chasseneuil-Bas|03 41 26 81 28|Sophie Andre (02 16 45 20 49)|VIVANT
+297|DUBOIS|Christophe|18/08/2003|-|6 rue du Moulin, 72341 Bellerive-en-Val|07 09 81 57 99|Jade Morin (06 29 88 54 87)|VIVANT
+298|ANDRE|Lea|06/01/1962|F|3 avenue des Acacias, 91314 Bellerive-en-Val|03 68 71 44 88|Francois Henry (01 97 08 18 85)|VIVANT
+299|LEMAIRE|Laurent|26/06/1966|M|117 rue Jean Jaures, 46878 Les Ormeaux|03 63 62 70 73|Christophe Bertrand (06 70 27 06 43)|VIVANT
+300|GARCIA|Marcel|16/07/2013|M|37 rue de la Gare, 77366 Montclair-sur-Loire|02 09 07 53 91|Adam Roche (03 06 20 18 17)|VIVANT
+301|MOREAU|Thomas|15/11/2010|M|112 rue du Moulin, 14697 Les Ormeaux|03 55 80 09 39|Isabelle Robert (06 74 90 32 04)|VIVANT
+302|MICHEL|Jade|07/05/1997|F|138 rue du Moulin, 85594 Saint-Avold-le-Haut|0562044138|Arthur Guerin (05 00 10 70 09)|VIVANT
+303|DUVAL|Lucie|09/11/1992|F|8 allee des Peupliers, 93428 Bellerive-en-Val|06 07 99 80 94|Jacques Vincent (05 46 53 58 99)|VIVANT
+304|SIMON|Sophie|08/03/1982|fEMME|67 impasse des Lilas, 30567 Chasseneuil-Bas|03 49 05 69 87|Josette Petit (04 68 34 74 77)|VIVANT
+305|LAURENT|Pauline|1997-09-02|F|  84 boulevard Pasteur, 89100 Vernay|05 08 65 69 22|Nathalie Durand (0184610220)|VIVANT
+306|GUERIN|Monique|23/09/1969|F|69 rue Victor Hugo, 34603 Les Ormeaux|01 05 02 63 47|Mathieu Saint-Clair (05 89 89 65 66)|DECEDE
+307|ROUX|Lea|08/07/1940|F|55 avenue des Acacias, 99613 Vernay|02 84 04 45 98|Marcel Roche (06 51 31 92 96)|VIVANT
+308|PETIT|Brigitte|31/01/1957|F|86 rue Jean Jaures, 26939 Vernay|05 27 88 64 42|Bernard Martinez (04 11 69 33 05)|  VIVANT
+309|MERCIER|Celine|14/11/1989|F|107 avenue de la Loire, 36961 Vernay|02 04 74 33 28|Josette Andre (01 46 51 84 46)|VIVANT
+310|DE LA TOUR|Jacques|10/12/1974|M|103 quai Saint-Martin, 31321 Bellerive-en-Val|01 48 72 21 70|Monique Legrand (02 03 00 85 48)|VIVANT
+311|LE ROUX|Manon|17/07/1953|F|N/A|07 75 48 46 76|Pauline Bernard (01 43 37 90 13)|VIVANT
+312|LEFEVRE|Remi|19/08/2021|M|117 rue de la Gare, 74221 Vernay|06 04 76 31 98|Adam Le Gall (01 40 49 28 38)|VIVANT
+313|ANDRE|Christophe|11/06/2020|M|15 rue du Moulin, 79175 Les Ormeaux|05 21 98 48 59|Nathan Roche (0249191779)|VIVANT
+314|GARNIER|Camille|05/01/1946|Femme|65 boulevard Pasteur, 55677 Montclair-sur-Loire|02 74 68 61 75|Claire Joly (01 52 43 04 78)|Vivant(e)
+315|LEGRAND|Lucas|01/07/1959|M|7 allee des Peupliers, 36293 Saint-Avold-le-Haut|01 22 09 70 21|Monique Vincent (07 23 37 85 50)|VIVANT
+316|SIMON|Elise|18/12/1965|F|82 rue des Ecoles, 42634 Vernay|+33741911145|Pierre Lefevre (06 06 69 50 51)|VIVANT
+317|LOPEZ|Nathan|1931-04-03|M|138 rue Victor Hugo, 79629 Les Ormeaux|01 89 39 21 37|Agathe Clement (03 13 65 34 05)|VIVANT
+318|LEFEBVRE|Marcel|23/02/1969|M|81 quai Saint-Martin, 63516 Les Ormeaux|01 83 44 74 39|Louise Muller (05 64 47 84 28)|DECEDE
+308|PETIT|Brigitte|31/01/1957|F|86 rue Jean Jaures, 26939 Vernay|05 27 88 64 42|Bernard Martinez (04 11 69 33 05)|  VIVANT
+319|MERCIER|Yves|26/05/1963|M|125 chemin des Vignes, 98825 Chasseneuil-Bas|04 76 22 01 16|Manon Roux (04 06 61 02 85)|VIVANT
+320|ROUX|Louise|21 juil. 1988|I|29 avenue de la Loire, 50729 Vernay|06 05 63 99 22|Louise Sanchez (06 65 72 27 83)|DECEDE
+321|FRANCOIS|Andre|07/12/1969|M|102 rue du Moulin, 15556 Chasseneuil-Bas|04 60 57 33 04|-|VIVANT
+322|JOLY|Ines|08/03/1985|I|129 quai Saint-Martin, 24179 Vernay|04 18 33 96 88|Ines Faure (07 47 91 58 36)|VIVANT
+323|BONNET|Sarah|20/10/1973|F|98 rue des Tilleuls, 16245 Vernay|07 62 59 24 89|Lucie Boyer (07 89 93 78 20)|VIVANT
+324|BLANC|Jules|02/09/1955|M|87 avenue des Acacias, 58919 Montclair-sur-Loire|03 99 37 78 19|Odile Michel (07 67 50 69 49)|VIVANT
+325|DUVAL|Agathe|11/03/2004|FEM|20 rue Victor Hugo, 97679 Bellerive-en-Val|05 79 90 74 77|Michel Petit (02 19 77 95 97)|vivant
+326|MASSON|Lea|07/08/1932|I|14 allee des Peupliers, 11274 Vernay|01 44 22 09 39|Adam Legrand (02 23 98 25 84)|V
+327|DE LA TOUR|Antoine|18/07/1981|M|4 avenue de la Loire, 85938 Montclair-sur-Loire|06 93 32 90 16|Sandrine Le Gall (03 00 31 62 55)|VIVANT
+328|DAVID|Margaux|05/03/2005|F|88 boulevard Pasteur, 27572 Saint-Avold-le-Haut|07 07 47 49 30|Jade Saint-Clair (03 66 67 01 48)|VIVANT
+325|duval|Agathe|11/03/2004|FEM|20 rue Victor Hugo, 97679 Bellerive-en-Val|05 79 90 74 77|Michel Petit (02 19 77 95 97)|vivant
+329|THOMAS|Yves|31/07/1939|M|113 rue Pierre Curie, 81669 Chasseneuil-Bas|04 93 85 01 90|Louis Laurent (03 58 21 60 87)|V
+330|FONTAINE|Anne|14/11/1998|F|62 rue des Tilleuls, 12224 Montclair-sur-Loire|07.05.09.75.84|Odile Joly (03 30 09 00 71)|VIVANT
+331|FONTAINE|Manon|3 aout 1988|F|64 allee des Peupliers, 86339 Bellerive-en-Val|05 53 71 62 25|Stephane Moreau (0628015075)|VIVANT
+332|MATHIEU|Philippe|28/04/1937|M|127 impasse des Lilas, 46425 Montclair-sur-Loire|06 98 54 68 28|?|VIVANT
+333|SIMON|Isabelle|17/10/1998|F|42 allee des Peupliers, 59890 Les Ormeaux|05.06.14.29.34|Hugo O'Neill (01 48 15 37 88)|VIVANT
+334|MARTINEZ|Sophie|1939-09-16|F|92 chemin des Vignes, 48466 Montclair-sur-Loire|07 43 43 63 44|Bernard Garcia (06 03 79 48 90)|VIVANT
+335|DURAND|Jules|06/08/1987|M|84 rue Victor Hugo, 19357 Montclair-sur-Loire|01 05 68 45 72|Olivier Andre (03 16 82 81 59)|VIVANT
+336|BLANC|Pierre|09/12/1971|M|104 rue Jean Jaures, 12552 Bellerive-en-Val|05 32 65 45 04|Lucie Perrin (06 52 62 67 92)|V
+337|GUERIN|Sandrine|30/12/1951|F|82 ALLEE DES pEUPLIERS, 58594 bELLERIVE-EN-vAL|02 44 61 55 85|Monique Dubois (05 49 45 49 35)|VIVANT
+338|MORIN|Stephane|24/07/1979|M|?|03 34 75 99 16|Juliette Roger (04 19 42 90 07)|Vivant(e)
+339|GARNIER|Philippe|06/05/1956|M|86 rue Pierre Curie, 74479 Montclair-sur-Loire|+33 5 44 15 47 15|Gabriel  Lefevre (01 32 11 60 92)|VIVANT
+340|GIRARD|Rene|12/09/1931|I|13 rue de la Gare, 78651 Montclair-sur-Loire|06 01 76 93 42|LUCIE ROUSSEL (04 06 72 40 23)|VIVANT
+341|O'NEILL|Thomas|7 dec. 1970|M|101 impasse des Lilas, 59771 Bellerive-en-Val|07 84 52 06 11|?|VIVANT
+342|ROUSSEAU|Lucas|20/08/1963|M|85 place du Marche, 40460 Vernay|04 39 57 83 55|Agathe Richard (06 01 11 59 79)|VIVANT
+343|LOPEZ|Monique|28/12/1991|F|38 rue Victor Hugo, 31558 Les Ormeaux|01 49 29 55 46|Alain Laurent (+33529829227)|VIVANT
+344|DAVID|Anne|21/12/2023|F|70 boulevard Pasteur, 38466 Vernay|04 17 94 01 28|Arthur Lefevre (07 01 50 58 04)|VIVANT
+345|ROBERT|Camille|04-18-2012|F|null|02 24 11 31 63|Marie Dubois (04 14 05 32 08)|VIVANT
+346|ROBIN|Yves|26/04/2007|M|115 rue Jean Jaures, 23471 Saint-Avold-le-Haut|02 15 85 67 70|Antoine Denis (03 78 96 44 48)|VIVANT
+347|MERCIER|Yves|18/09/2000|M|N/A|03 79 06 33 91|Pauline Simon (04 76 13 84 63)|VIVANT
+348|VINCENT|Nathan|21/04/1969|M|64 chemin des Vignes, 48699 Bellerive-en-Val|07 75 32 96 76|Margaux Lefevre (02 14 13 25 13)|VIVANT
+349|GARCIA|Nicolas|13/11/1946|M|7 place du Marche, 65899 Montclair-sur-Loire|06 75 94 34 23|Ines Martinez (05 18 69 94 92)|VIVANT   
+350|O'NEILL|Michel|2016-07-29|M|66 avenue de la Loire, 78537 Bellerive-en-Val   |03 16 08 46 71|Sandrine Bernard (+33503882209)|VIVANT
+351|GIRARD|Nathan|11/04/1979|M|null|02 02 63 91 10|Bernard Faure (03 99 51 38 95)|VIVANT
+352|VINCENT|Ines|24/07/1982|F|24 rue des Tilleuls, 13256 Les Ormeaux|07 76 96 74 92|Brigitte Sanchez (+33593280562)|VIVANT
+353|GARCIA|Celine|2018-08-13|F|8 chemin des Vignes, 44998 Saint-Avold-le-Haut|03 24 32 35 02|Laurent Guerin (05 86 28 17 66)|VIVANT
+354|ROBERT|Camille|12 nov. 2016|F|120 quai Saint-Martin, 63709 Vernay|02 44 49 05 36|Stephane Duval (07 37 19 46 57)|VIVANT
+355|GUERIN|ERIC|02/12/1963|M|null|03 71 76 17 53|Marie Rousseau (06 49 79 63 89)|VIVANT
+356|SIMON|Jeanne|11/12/1952|F|118 rue du Moulin, 36694 Saint-Avold-le-Haut|02 79 76 41 62|Francois Saint-Clair (+33 6 97 71 10 41)|VIVANT
+357|MERCIER|Isabelle|22 dec. 1981|F|122 rue Victor Hugo, 75124 Saint-Avold-le-Haut|07 23 55 41 48|Nathan Denis (02 76 25 87 93)|VIVANT
+358|SAINT-CLAIR|Nathan|15/02/1968|M|  56 rue Victor Hugo, 13742 Vernay|02 66 63 05 02|Lucas Roche (01 47 51 77 91)|VIVANT
+359|LE GALL|Mathilde|28/01/1978|F|118 impasse des Lilas, 15825 Saint-Avold-le-Haut|null|Stephane Gauthier (01 74 31 52 15)|VIVANT
+360|GAUTHIER|Lucas|01/01/2013|M|100 rue Victor Hugo, 51140 Vernay|07 03 50 37 67|Lea Martin (01 25 83 42 61)|VIVANT
+361|ROUSSEAU|Elise|30/04/1980|F|84 rue Pierre Curie, 30859 Saint-Avold-le-Haut|05 18 22 58 38|Sarah Muller (05 25 69 65 81)|VIVANT
+362|MARTIN|Thomas|19/04/1958|M|71 rue Victor Hugo, 29369 Chasseneuil-Bas|02 30 12 36 82|Julien Guerin (06.50.21.75.51)|V
+363|MOREL|Eric|1 dec. 1950|I|113 rue des Ecoles, 13273 Saint-Avold-le-Haut|07 93 29 52 56||VIVANT
+364|ROUSSEL|Isabelle|10/11/2012|F|118 rue du Moulin, 30639 Chasseneuil-Bas|05 65 60 09 84|Francois Gautier (06 22 27 47 42)|Vivant(e)
+365|LAURENT|Marie|22/12/1954|F|38 avenue des Acacias, 54998 Bellerive-en-Val|02 87 81 53 71|Jules Saint-Clair (04.65.81.21.28)|Vivant(e)
+366|DE LA TOUR|Ines|30/07/1979|F|72 avenue de la Loire, 75360 Bellerive-en-Val|07 66 82 28 80|Claire Mathieu (06 47 28 53 28)|VIVANT
+367|DA SILVA|Olivier|04/09/1990|?|37 rue Jean Jaures, 68974 Montclair-sur-Loire|+33645366996|Helene Lambert (04 79 93 26 14)|VIVANT
+368|LEMAIRE|Brigitte|24/07/1972|F|125 rue du Moulin, 84446 Saint-Avold-le-Haut|01.93.35.70.93|Chloe Gauthier (03 40 88 33 96)|VIVANT
+369|MOREL|Josette|09/11/2021|F|32 place du Marche, 75337 Chasseneuil-Bas|01 06 21 93 06|Jacques Dupont (01 62 44 63 82)|VIVANT
+370|DURAND|Sarah|17/07/2009|F|53 avenue de la Loire, 95734 Saint-Avold-le-Haut|06 82 87 44 74|Gerard Gautier (01 28 70 85 26)|V
+371|LE GALL|Camille|29/10/1937|F|63 impasse des Lilas, 42890 Bellerive-en-Val|04 22 90 78 03|Mathieu Lambert (03 36 30 15 66)|VIVANT
+372|LAMBERT|Alain   |17/02/1935|H|113 rue Pierre Curie, 83592 Montclair-sur-Loire|05 18 14 11 50|Philippe Roussel (01 49 76 24 48)|VIVANT
+373|BERTRAND|Jade|11/03/1956|F|65 rue Victor Hugo, 93927 Vernay|04 77 08 75 73| Anne Morel (06 27 57 38 83) |VIVANT
+374|MARTINEZ|Francois|31/10/2005|-|77 rue du Moulin, 89920 Vernay|01 75 80 31 15|Marcel Richard (03 73 30 12 56)|VIVANT
+375|GARNIER|Louis|08/05/1937|M|72 rue Victor Hugo, 85941 Vernay|N/A|Adam Leroy (06 41 11 39 99)|VIVANT
+376|JOLY|Jules|08/10/1931|M|110 rue Jean Jaures, 77468 Les Ormeaux|+33 6 09 74 86 41|Margaux Duval (01 21 94 06 63)|VIVANT
+377|FAURE|Philippe|27/11/1955|I|91 quai Saint-Martin, 33631 Les Ormeaux|06 39 61 45 18|Louise Duval (01 37 38 71 20)|VIVANT
+378|VINCENT|Pierre|26/09/1957|M|15 avenue des Acacias, 77660 Les Ormeaux|06 94 86 37 89|Mathieu Lemaire (0293764710)|VIVANT
+379|LE ROUX|Eric|16 fevr. 1990|M|4 allee des Peupliers, 14614 Chasseneuil-Bas|null|Andre Bertrand (03 32 03 86 77)|VIVANT
+380|GAUTHIER|Lea|25/01/2004|F|113 avenue de la Loire, 97686 Saint-Avold-le-Haut|+33 3 41 28 56 11|Helene Bernard (06 71 42 12 50)|VIVANT
+381|O'NEILL|Pauline|08/05/1933|F|-|01 58 46 74 97|Manon Bertrand (+33434447181)|VIVANT
+382||Marcel|02/10/1987|M|10 allee des Peupliers, 61805 Les Ormeaux|03 62 08 89 45|Lea Chevalier (07 05 99 72 11)|VIVANT
+383|ANDRE|Sophie|08/03/1967|F|41 impasse des Lilas, 33453 Vernay|01 49 26 68 39|Sophie Laurent (04 22 73 06 64)|VIVANT
+384|BERNARD|Elise|04/05/1959|F|96 boulevard Pasteur, 25341 Saint-Avold-le-Haut|06 39 57 27 51|Jules Garcia (02 25 82 36 43)|VIVANT
+385|BONNET|Aurelie|25/05/2002|F|24 rue Jean Jaures, 25210 Vernay|06 05 01 75 76|Jacques Denis (01 36 77 69 67)|VIVANT
+386|CHEVALIER|Laurent|20/11/1936|M|N/A|05 98 08 34 03|Jade Muller (+33306963347)|VIVANT
+387|ROUSSEL|Gabriel|29/05/2024|M|24 boulevard Pasteur, 83951 Montclair-sur-Loire|+33 4 23 81 54 25|Sandrine Saint-Clair (07 02 96 50 15)|VIVANT
+388|clement|Francois|06/06/1984|M||04 74 52 43 18|Juliette Joly (05 84 74 26 50)|DECEDE
+389|NICOLAS|Rene|29/03/1942|M|46 impasse des Lilas, 59864 Saint-Avold-le-Haut|03 80 71 60 44|N/A|VIVANT
+390|MATHIEU|Thomas|28/02/1936|H|33 rue Pierre Curie, 84744 Bellerive-en-Val|05 08 73 37 81|Pierre Dubois (03 21 99 61 43)|VIVANT
+391|MARTIN|Christophe|1987-07-13|M|52 quai Saint-Martin, 62949 Saint-Avold-le-Haut|04 46 91 23 18|Yves Morin (03 67 35 52 42)|VIVANT
+392|LEFEBVRE|Jules|06/10/1945|M|?|05 40 28 00 20|Remi Gautier (03 77 10 21 83)|vivant
+393|DA SILVA|Anne|13/11/1932|F|49 chemin des Vignes, 81469 Montclair-sur-Loire|06 85 49 13 66|Sarah Petit (03 79 23 22 31)|VIVANT
+394|MARTIN|Jacques|08/10/1979|M|3 rue Pierre Curie, 96582 Les Ormeaux|02 42 84 35 79|Christophe Martinez (+33 6 10 63 50 02)|VIVANT
+395|LEFEBVRE|Anne|01/12/1936|F|N/A|06 62 86 16 61|Manon Faure (01 28 30 24 52)|VIVANT
+396|FRANCOIS|Hugo|02/04/2013|M|47 rue Victor Hugo, 87919 Les Ormeaux|03 23 03 36 75|Mathilde Martin (04 90 88 24 14)|VIVANT
+397|LEGRAND|Brigitte|2006-12-28|F|132 rue Pierre Curie, 46491 Montclair-sur-Loire|05 21 81 52 90|Gabriel Da Silva (05 12 71 07 00)|VIVANT
+398|MOREAU|Lucas|10 juin 1949|null|34 avenue des Acacias, 55155 Bellerive-en-Val|04 48 07 20 25|Pierre Vincent (07 43 28 53 33)|VIVANT
+399|MULLER|Bernard|23/05/1981|M|115 rue des Ecoles, 43373 Saint-Avold-le-Haut|06 08 29 63 10|Jade Francois (03 72 00 87 65)|VIVANT
+400|JOLY|Adam|22/11/1950|M|1 rue du Moulin, 13351 Montclair-sur-Loire|01 93 83 11 23|Hugo Roussel (06 86 02 58 36)|VIVANT
+401|DE LA TOUR|Christophe|08/04/2012|M|81 chemin des Vignes, 13163 Saint-Avold-le-Haut|04 17 25 23 89|Julien Guerin (05 00 88 55 45)|VIVANT
+402|ROBIN|Emma|10/01/2020|F|139 impasse des Lilas, 33818 Chasseneuil-Bas|07 08 65 29 18|Jacques Roux (02 69 28 00 54)|VIVANT
+403|DE LA TOUR|Thomas|14/07/1958|M|18 place du Marche, 54666 Vernay|03 13 09 83 71|Sandrine Bonnet (01 03 27 21 92)|VIVANT
+404|MASSON|Nicolas|17/12/1983|M|60 rue de la Gare, 85216 Saint-Avold-le-Haut|04 37 64 62 35|Eric Saint-Clair (01 46 10 18 09)|Decede(e)
+405|ROBERT|Remi|19/08/1938|M|56 rue des Tilleuls, 21609 Chasseneuil-Bas|03 41 64 59 34|Thomas Muller (02 09 68 70 76)|VIVANT
+406|FONTAINE |Olivier|06/01/1975|M|53 avenue de la Loire, 70197 Les Ormeaux|06 42 82 07 97|N/A|VIVANT
+407|LE ROUX|Josette|16/02/1950|F|82 rue Pierre Curie, 62880 Les Ormeaux|?|Antoine Sanchez (03 49 69 60 87)|VIVANT
+408|BOYER|Alain|28/11/1964|M|130 rue des Ecoles, 13506 Les Ormeaux|02 89 75 79 53|Celine Roussel (01 94 33 63 12)|VIVANT
+409|JOLY|Adam|27/10/1969|M|80 rue du Moulin, 21177 Bellerive-en-Val|02 50 71 61 45|Michel Thomas (07 12 89 71 45)|VIVANT
+410|DA SILVA|Philippe|23/12/2007|M|70 rue de la Gare, 89650 Saint-Avold-le-Haut|N/A|Monique de La Tour (02 17 98 05 09)|VIVANT
+411|MASSON|Michel|19/05/2006|M|35 chemin des Vignes, 15467 Vernay|07 80 81 62 21|Jeanne Bernard (02 20 76 33 03)|VIVANT
+412|LEMAIRE|Sarah|21/07/1985|F|128 quai Saint-Martin, 14788 Vernay|01 20 41 89 15|Manon Da Silva (05 83 54 03 22)|VIVANT
+413|MOREL|Yves|11/01/2001|M|129 chemin des Vignes, 63628 Saint-Avold-le-Haut|03 33 49 39 72|Eric Bertrand (+33231558142)|VIVANT
+414|SANCHEZ|Monique|16/01/2017|F|87 avenue de la Loire, 62102 Vernay|04 83 30 44 66|N/A|VIVANT
+415|MULLER|Mathilde|31/02/1974|F|77 quai Saint-Martin, 19425 Bellerive-en-Val|+33 3 94 77 76 89|Lucie Da Silva (03 77 74 75 28)|VIVANT
+416|MERCIER|Ines|18/09/1947|F|10 allee des Peupliers, 16910 Bellerive-en-Val|02 50 75 09 74|Odile Da Silva (+33 7 92 55 89 19)|VIVANT
+417|CLEMENT|Louis|19/08/2019|M|37 place du Marche, 99785 Montclair-sur-Loire|04 04 50 86 06|Marie Garnier (04 91 04 50 64)|VIVANT
+418|THOMAS|Andre|06/12/1964|M|37 rue Victor Hugo, 21693 Saint-Avold-le-Haut|05 39 53 52 59||VIVANT
+419|ROBERT|Agathe|17/10/1949|F|66 boulevard Pasteur, 80847 Montclair-sur-Loire|05 71 90 62 75|Odile  de La Tour (06 47 40 95 47)|VIVANT
+420|BLANC|Yves|06/08/1994|M|14 rue Victor Hugo, 61447 Les Ormeaux|02 32 59 24 20|Marie Roger (+33269963327)|VIVANT
+421|MASSON |Camille|20/10/1986|F|138 rue du Moulin, 52607 Montclair-sur-Loire|-|Gabriel Duval (0432513034)|VIVANT
+422|JOLY|Jade|09/02/2016|FEM|27 quai Saint-Martin, 36717 Chasseneuil-Bas|06 29 97 61 51|Nathalie Mercier (03 32 59 89 90)|VIVANT
+423|PETIT|Arthur|28/01/1989|M|49 rue Jean Jaures, 96450 Chasseneuil-Bas|02 98 63 47 02|Andre Vincent (03 66 93 10 76)|VIVANT
+424|ROGER|  Anne|08/07/1979|-|83 avenue de la Loire, 42529 Les Ormeaux|07 04 31 02 72|Lucie Lemaire (02 56 90 52 42)|VIVANT
+425|LAMBERT|Laurent|11/05/2001|M|  124 rue Victor Hugo, 46553 Saint-Avold-le-Haut|04 91 38 16 09|N/A|VIVANT
+424|ROGER|  Anne|08/07/1979|-|83 avenue de la Loire, 42529 Les Ormeaux|07 04 31 02 72|Lucie Lemaire (02 56 90 52 42)|VIVANT
+426|FOURNIER|Rene|06/10/1968|H|25 place du Marche, 84838 Les Ormeaux|07 58 76 18 57|Jacques Masson (01 87 40 63 95)|VIVANT
+427|DUMONT|Aurelie|02/06/1960|F|27 rue de la Gare, 56375 Montclair-sur-Loire|02 22 94 11 06|Mathilde Boyer (02 21 49 97 80)|VIVANT
+428|BERNARD|Laurent|15/07/1983|M|117 quai Saint-Martin, 49504 Vernay|?|Nicolas Perrin (03 52 34 20 37)|VIVANT
+429|RICHARD|Hugo|20/09/1953|Homme|113 rue Pierre Curie, 79237 Montclair-sur-Loire|06 72 50 88 09||V
+430|MERCIER|Philippe|17/08/2022|M||06 78 53 99 87|Pierre Petit (+33 1 30 57 39 76)|VIVANT
+431|THOMAS|Lucas|06/04/2021|M|105 avenue des Acacias, 77729 Chasseneuil-Bas|0190390664|Margaux Denis (03 30 39 12 71)|VIVANT
+432|GAUTIER|Jules|17/06/1944|M|81 rue du Moulin, 44884 Saint-Avold-le-Haut|04 60 15 17 83|Emma Bertrand (01 46 90 71 49)|VIVANT
+433|BOYER|Odile|14/06/1995|F|100 place du Marche, 47990 Chasseneuil-Bas|07 39 03 73 70|Sarah Guerin (05 28 58 86 40)|VIVANT
+434|JOLY|Jules|27/07/2009|Homme|?|05 91 08 46 36|Nathalie Boyer (06 66 36 17 11)|VIVANT
+435|GAUTHIER|Jules|22/09/1953|M|106 avenue des Acacias, 14560 Les Ormeaux|07 65 79 36 58|Olivier Gautier (02 63 53 65 86)|VIVANT
+436|FAURE|Thomas|03/12/1956|M|16 rue de la Gare, 60591 Chasseneuil-Bas|01 25 63 04 55|Louise Morin (03 16 81 76 54)|VIVANT
+437|ANDRE|Brigitte|04/05/2022|I|42 avenue des Acacias, 67685 Vernay|02 89 59 13 64|Marcel Chevalier (07 39 86 92 50)|VIVANT
+438|BOYER|Olivier|04/04/1939|M|17 rue Victor Hugo, 63873 Saint-Avold-le-Haut|+33 6 30 91 64 16|Rene Thomas (07 02 89 10 14)|VIVANT
+439|GARNIER|Emma|12/01/1985|F|86 impasse des Lilas, 66832 Les Ormeaux|03 50 36 36 80|Christophe Roger (03 12 49 47 43)|VIVANT
+440|LAMBERT|Laurent|01/09/1951|M|25 boulevard Pasteur, 41452 Les Ormeaux|?|Eric Andre (07 32 57 13 96)|VIVANT
+441|MARTINEZ|Ines|22/05/1987|F|132 rue Jean Jaures, 42929 Montclair-sur-Loire|01 78 93 87 64|Jade Le Roux (06 99 85 67 22)|VIVANT
+435|GAUTHIER|Jules|22/09/1953|M|106 avenue des Acacias, 14560 Les Ormeaux|07 65 79 36 58|Olivier Gautier (02 63 53 65 86)|VIVANT
+442|BOYER|Alain|11 mars 1951|M|47 boulevard Pasteur, 10395 Saint-Avold-le-Haut|02 06 38 52 09|Francois Martin (06 08 80 44 30)|VIVANT
+443|MOREL|Nathalie|22/08/1944|F|11 place du Marche, 19811 Vernay|01 18 48 14 79|Rene Martin (07 55 21 39 23)|VIVANT
+444|DA SILVA|Philippe|26/08/2007|M|6 rue Pierre Curie, 18758 Montclair-sur-Loire|null|Elise Roussel (02 02 86 39 11)|VIVANT
+445|GAUTHIER|Lea|7 nov. 1985|I|26 chemin des Vignes, 90121 Montclair-sur-Loire|03 92 30 60 85|Claire Fournier (02 04 58 49 88)|VIVANT
+446|david|Jacques|19-07-2005|M|8 boulevard Pasteur, 45198 Vernay|03 58 97 30 20|Olivier Andre (05 27 35 56 23)|VIVANT
+447|GAUTIER|Claire|22/03/1974|FEM|101 chemin des Vignes, 65931 Chasseneuil-Bas|01 46 27 31 20|Jacques Dubois (06 85 25 36 77)|VIVANT
+448|DURAND|Pierre|15/06/1967|M|128 rue des Tilleuls, 44671 Vernay|06 28 84 83 94|Yves O'Neill (02 97 14 46 51)|VIVANT
+449|GARCIA|Sophie|2005-01-24|F|74 impasse des Lilas, 92603 Chasseneuil-Bas|01 97 18 13 36|Odile Robin (01 26 22 93 06)|VIVANT
+450|BERNARD|Helene|08/09/1961|F|84 rue Pierre Curie, 22306 Montclair-sur-Loire|02 99 93 88 83|Pauline Nicolas (06 40 60 51 75)|VIVANT
+451|DAVID|Christophe|22/06/2022|M|-|06 83 90 96 29|Andre Leroy (04.55.94.56.48)|  VIVANT
+452|ROUX|Camille|02/03/1961|F|137 rue des Tilleuls, 50421 Vernay|01 17 77 36 22|?|VIVANT
+453|LE ROUX|Louise|19/06/1991|F|130 chemin des Vignes, 68567 Montclair-sur-Loire|05 14 66 10 50|Remi Durand (04 03 09 58 31)|VIVANT
+454|GUERIN|Odile|02/07/1936|F|73 rue de la Gare, 93715 Montclair-sur-Loire|05 30 99 49 05|Jade Lambert (07 61 85 75 49)|VIVANT
+455|LE ROUX|Andre|22/01/1960|Homme|N/A|06 84 67 76 39|Camille Thomas (06 45 07 01 22)|VIVANT
+456|PETIT|Chloe|20/05/1950|F|  15 rue Jean Jaures, 78791 Montclair-sur-Loire|06 57 54 47 17|Christophe Morin (02 76 80 23 91)|Vivant(e)
+457|GARCIA|Agathe|26/11/2014|F|28 rue des Tilleuls, 73548 Les Ormeaux|03 20 16 54 16|Sarah Girard (03 47 99 89 09)|VIVANT
+458|LEFEVRE|Christophe|17/06/2002|M|31 avenue de la Loire, 36405 Bellerive-en-Val|N/A|Thomas David (07 11 10 65 03)|VIVANT
+459|GUERIN|Agathe|22/01/1950|Femme|138 rue des Tilleuls, 38401 Saint-Avold-le-Haut|05 37 15 67 87|Odile Fournier (05 25 67 31 00)|VIVANT
+460|LE ROUX|Anne|16/01/1963|F|76 rue du Moulin, 94151 Montclair-sur-Loire|01 24 73 48 55|-|VIVANT
+461|ROCHE|Pauline|24/06/1977|F|48 avenue des Acacias, 85870 Chasseneuil-Bas|01 14 01 68 01|Jeanne Masson (03 70 22 84 24)|Vivant(e)
+462|LE GALL|Brigitte|21/01/2021|F|73 rue du Moulin, 43901 Les Ormeaux|06 01 36 65 73|Mathilde Masson (02 55 84 36 67)|VIVANT
+463|ROUSSEAU|Mathilde|04/10/2000|N/A|80 chemin des Vignes, 96991 Bellerive-en-Val|01 23 31 96 28|Yves Garnier (07 31 28 21 75)|Vivant(e)
+464|CHEVALIER|Odile|26/01/1945|F|9 chemin des Vignes, 82764 Montclair-sur-Loire|04 78 13 13 50|Nicolas Lemaire (01 23 99 23 24)|VIVANT
+465|FOURNIER|Louise|11/06/1942|F|36 rue des Tilleuls, 26722 Les Ormeaux|07 10 76 41 28|Nicolas Fontaine (02 26 01 19 43)|VIVANT
+466|DURAND|Monique|07/09/1953|-|134 rue Jean Jaures, 10129 Vernay|07 14 16 56 28|Mathilde Denis (03 89 98 48 64)|VIVANT
+467|MICHEL|Adam|14/10/1979|M|31 rue Pierre Curie, 95507 Bellerive-en-Val|null|Lea Chevalier (+33 2 58 67 47 97)   |VIVANT
+468|LAURENT|Nathan|25/02/1994|M|3 rue Jean Jaures, 48787 Chasseneuil-Bas|01 09 90 60 00|null|VIVANT
+469|ROUSSEAU|Juliette|25/03/1936|F|113 place du Marche, 44490 Bellerive-en-Val|04 83 43 44 51|Francois Andre (07 98 15 62 04)|DECEDE
+470|BOYER|Adam|24/07/1933|M|48 chemin des Vignes, 48459 Vernay|02 54 02 43 33|Jules Morin (+33175682816)|VIVANT
+471|HENRY|Emma|07/09/2023|F|48 impasse des Lilas, 51224 Chasseneuil-Bas|07 35 93 67 23|Chloe Dupont (01 72 76 61 22)|Vivant(e)
+472|VINCENT|Thomas|17 mars 1998|M|128 allee des Peupliers, 29231 Chasseneuil-Bas|N/A|Nicolas Martinez (02 92 43 53 10)|VIVANT
+473|GARNIER|Gerard|24/11/1987|M|95 avenue des Acacias, 14396 Chasseneuil-Bas|-|Francois Richard (+33 4 65 22 17 43)|VIVANT
+474|PETIT|Agathe|20 avr. 1948|F|7 rue Jean Jaures, 85150 Les Ormeaux|02 92 28 42 71|Sophie Dumont (02 43 43 61 27)|VIVANT
+475|ROUSSEAU|Thomas|2011-05-24|Homme|114 boulevard Pasteur, 62853 Chasseneuil-Bas|02 15 97 89 09|Pauline Dupont (07 32 08 91 99)|VIVANT
+476|DUPONT|Adam|01/12/1982|M|73 allee des Peupliers, 20598 Chasseneuil-Bas|02 58 14 14 69|Louis Roche (05 96 27 18 72)|VIVANT
+477|GIRARD|Thomas|11/11/1943| M |16 rue Victor Hugo, 41436 Bellerive-en-Val|03 61 62 22 98|Elise Denis (06 42 67 45 80)|VIVANT
+478|BONNET|Philippe|09/03/1963|M|78 boulevard Pasteur, 89513 Montclair-sur-Loire|06 00 12 08 27|Julien Morel (02 82 46 48 62)|VIVANT
+479|ANDRE|Gerard|24 mai 1959|M|74 rue de la Gare, 19863 Chasseneuil-Bas|01 24 87 24 13|Sarah Bonnet (07 38 03 19 74)|VIVANT
+480|LEMAIRE|Juliette|20/02/1986|F|72 rue du Moulin, 46125 Bellerive-en-Val|06 23 48 54 43|Celine Francois (05 05 27 57 42)|VIVANT
+481|ANDRE|Helene|27/10/1998|F|5 rue des Tilleuls, 93748 Vernay|| Michel Martinez (07 13 08 40 86)|Vivant(E)
+482|LEROY|Yvette|29 dec. 1983|F| 130 rue des Ecoles, 97711 Vernay||SANDRINE ROGER (07 64 85 80 86)|Decede
+483|DUMONT|Julien|08/11/1948|M|41 chemin des Vignes, 41431 Saint-Avold-le-Haut|03 77 73 94 53|Michel Durand (0306515570)|VIVANT
+484|LE ROUX|Andre|22 janv. 1960|Homme|N/A||Camille Thomas (06 45 07 01 22)|VIVANT
+485|LEROY|Odile|13/06/1974|F|140 rue Pierre Curie, 71849 Chasseneuil-Bas||Lucas Garnier (05 03 11 84 52)|vivant
+486| ROUX|Jacques|22/12/1972|M|114 rue du moulin, 53406 bellerive-en-val|07 93 92 67 32|celine michel (01 30 55 29 14)|DECEDE
+487|LE ROUX|Anne|16 janv. 1963|F|76 Rue Du Moulin, 94151 Montclair-Sur-Loire|01 24 73 48 55|-| VIVANT
+488|LE ROUX|Eric|16/02/1990|M|4 allee des Peupliers, 14614 Chasseneuil-Bas|null| Andre Bertrand (03 32 03 86 77)|VIVANT
+489|MOREAU|Chloe|12/10/2024|Femme|22 rue des Ecoles, 14713 Bellerive-en-Val|05 90 53 55 02|Pierre Moreau (03 94 42 62 86)|vivant
+490| SAINT-CLAIR|Elise|27/12/1965|F|95 allee des Peupliers, 45512 Bellerive-en-Val||christophe chevalier (04 60 78 33 60)|VIVANT
+491|GARCIA|Agathe|26/11/2014|F|28 Rue Des Tilleuls, 73548 Les Ormeaux|03 20 16 54 16|Sarah Girard (03 47 99 89 09)|vivant
+492|ROGER|Agathe|24/11/2024|F|135 rue des Ecoles, 47802 Les Ormeaux||arthur joly (05 79 21 18 73)|VIVANT
+493|muller|Yvette|1935-09-22|F| 24 quai Saint-Martin, 82899 Saint-Avold-le-Haut|02.44.70.65.79|GABRIEL JOLY (03 63 91 39 02)|vivant
+494|CLEMENT|Louis|19/08/2019|M|37 place du marche, 99785 montclair-sur-loire|| Marie Garnier (04 91 04 50 64)|VIVANT

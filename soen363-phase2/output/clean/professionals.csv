@@ -1,161 +1,312 @@
-source,professional_id,full_name,role
-A,1,Zoé Olivier,physician
-A,2,David Prévost,physician
-A,3,Gérard Potier,physician
-A,4,Luce Gilbert,physician
-A,5,David Launay,physician
-A,6,Thierry Dupuy,nurse
-A,7,Céline Aubert,surgeon
-A,8,William Da Silva,radiologist
-A,9,Auguste Dumas,radiology technician
-A,10,Audrey Masse,physician
-A,11,Bertrand Bernard,nurse
-A,12,Corinne Pineau,surgeon
-A,13,Jeanne Goncalves,radiologist
-A,14,Corinne Lebrun,radiology technician
-A,15,Thomas Klein,physician
-A,16,Noémi Letellier,nurse
-A,17,Anastasie Foucher,surgeon
-A,18,Jérôme Prévost,radiologist
-A,19,Jules Guillet,radiology technician
-A,20,Monique Pereira,physician
-A,21,Luce Jean,nurse
-A,22,Capucine Rousseau,surgeon
-A,23,Marine Menard,radiologist
-A,24,Élisabeth Gillet,radiology technician
-A,25,Claire Da Costa,physician
-A,26,Danielle Maurice,nurse
-A,27,Marguerite Buisson,surgeon
-A,28,Josette Boulay,radiologist
-A,29,Chantal Marin,radiology technician
-A,30,Suzanne Boulanger,physician
-A,31,Renée Charles,nurse
-A,32,Adèle Bonnet,surgeon
-A,33,Suzanne Roger,radiologist
-A,34,Susan Lebon,radiology technician
-A,35,Jeannine Pires,physician
-A,36,Marcel Gautier,nurse
-A,37,Susan Delaunay,surgeon
-A,38,Luc Hoarau,radiologist
-A,39,Stéphane Lévêque,radiology technician
-A,40,Julien Monnier,physician
-B,1,Justin Mitchell,physician
-B,2,James Hernandez,physician
-B,3,Karen Hendricks,physician
-B,4,Douglas Collins,physician
-B,5,Kimberly Hebert,physician
-B,6,Richard Williams,nurse
-B,7,Edward Aguirre,surgeon
-B,8,Christopher Delgado,radiologist
-B,9,Joanne Jones,radiology technician
-B,10,Nichole Gonzalez,physician
-B,11,Raven Kane,nurse
-B,12,Matthew Mitchell,surgeon
-B,13,Katelyn Norris,radiologist
-B,14,James Wright,radiology technician
-B,15,Stephanie Carson,physician
-B,16,Sharon Preston,nurse
-B,17,Christine Elliott,surgeon
-B,18,Martin Collins,radiologist
-B,19,Joseph Cannon,radiology technician
-B,20,Michael Odom,physician
-B,21,Brittany French,nurse
-B,22,Brett Ramirez,surgeon
-B,23,Bradley Jensen,radiologist
-B,24,Hannah Ellison,radiology technician
-B,25,James Pacheco,physician
-B,26,Sharon Chavez,nurse
-B,27,Cole Harris,surgeon
-B,28,Allen Alexander,radiologist
-B,29,Robert Chavez,radiology technician
-B,30,Linda Mclaughlin,physician
-B,31,Sierra Lee,nurse
-B,32,Christina Cherry,surgeon
-B,33,Pamela French,radiologist
-B,34,Kenneth Martin,radiology technician
-B,35,Kara Hayes,physician
-B,36,Daniel Cook,nurse
-B,37,Jacqueline Delacruz,surgeon
-B,38,Victoria Ferguson,radiologist
-B,39,Michael Abbott,radiology technician
-B,40,Gary Cox,physician
-C,1,Avni Batta,physician
-C,2,Riya Viswanathan,physician
-C,3,Pavani Choudhury,physician
-C,4,Yashvi Seshadri,physician
-C,5,Yochana Talwar,physician
-C,6,Fitan Tailor,nurse
-C,7,Madhav Shetty,surgeon
-C,8,Riya Sane,radiologist
-C,9,Ishanvi Lad,radiology technician
-C,10,Lekha Ahuja,physician
-C,11,Lohit Bhargava,nurse
-C,12,Dayita Samra,surgeon
-C,13,Chanchal Banik,radiologist
-C,14,Zaitra Rama,radiology technician
-C,15,Dayita Hans,physician
-C,16,Samaksh Sha,nurse
-C,17,Lopa Mangal,surgeon
-C,18,Advay Raghavan,radiologist
-C,19,Vasana Dass,radiology technician
-C,20,Nisha Tak,physician
-C,21,Fariq Sandal,nurse
-C,22,Jonathan Kala,surgeon
-C,23,Sai Pillai,radiologist
-C,24,Ucchal Narain,radiology technician
-C,25,Qadim Wali,physician
-C,26,Jackson Tara,nurse
-C,27,Nandini Ghosh,surgeon
-C,28,Rushil Dave,radiologist
-C,29,Netra Jain,radiology technician
-C,30,Chanakya Varghese,physician
-C,31,Yoshita Bal,nurse
-C,32,Ijaya Choudhury,surgeon
-C,33,Nitara Hora,radiologist
-C,34,Patrick Bains,radiology technician
-C,35,Ishita Khosla,physician
-C,36,Krishna Mukhopadhyay,nurse
-C,37,Shivani Ray,surgeon
-C,38,Udarsh Gala,radiologist
-C,39,Pahal Solanki,radiology technician
-C,40,Ishita Dash,physician
-D,1,Dumisani Ndabase,physician
-D,2,Sibusisiwe Silangwe,physician
-D,3,Sithembiso Nkomoye,physician
-D,4,Bandile Mhlanya,physician
-D,5,Thembile Nyembezi,physician
-D,6,Thabisa Ndwandwe,nurse
-D,7,Zakhele Mbhobho,surgeon
-D,8,Gugulethu Mnguni,radiologist
-D,9,Bhekokwakhe Cibane,radiology technician
-D,10,Bhekani Mnguni,physician
-D,11,Thuthukile Chonco,nurse
-D,12,Lungile Malinga,surgeon
-D,13,Mandlakhe Magutshwa,radiologist
-D,14,Silondile Gumbi,radiology technician
-D,15,Silondile Nzama,physician
-D,16,Owethu Manyoni,nurse
-D,17,Gugulethu Mkhumbuzi,surgeon
-D,18,Olwethu Mcambe,radiologist
-D,19,Minenhle Phuthini,radiology technician
-D,20,Thembisile Mnqayi,physician
-D,21,SimphiweyiNkosi Nyanda,nurse
-D,22,Nqobizitha Andile,surgeon
-D,23,Siphesihle Mcwaye,radiologist
-D,24,Nomalanga Mafuleka,radiology technician
-D,25,Nobuhle Thembekwayo,physician
-D,26,Sibonelo Kubheka,nurse
-D,27,Bhekani Kheswa,surgeon
-D,28,Dumisani Thango,radiologist
-D,29,Silondile Shengele,radiology technician
-D,30,SimphiweyiNkosi Thusini,physician
-D,31,Khanyisile Magubane,nurse
-D,32,Thalente Bophela,surgeon
-D,33,Dumisani Mzukase,radiologist
-D,34,Silondile Mzilankatha,radiology technician
-D,35,Vusumuzi Sishiya,physician
-D,36,Nomathalente Msamkhulu,nurse
-D,37,Londiwe Mcanyana,surgeon
-D,38,Luyanda Mzulwini,radiologist
-D,39,Nomagugu Mhlophe,radiology technician
-D,40,Nomasonto Ngotsha,physician
+source_system,source_record_id,professional_id,title,full_name,role,department,quality_flags
+A,1,1,Dr,Remi Andre,physician,Reanimation,
+A,2,2,Dr,Mathilde Chevalier,physician,Reanimation,
+A,3,3,Dr,Ines Chevalier,physician,Pneumologie,
+A,4,4,Dr,Manon David,physician,Medecine interne,
+A,5,5,Dr,Gabriel Boyer,physician,Urgences,
+A,6,6,Dr,Ines Mercier,physician,Medecine interne,
+A,7,7,Dr,Nathalie Masson,physician,Pneumologie,
+A,8,8,Dr,Christophe Thomas,physician,Reanimation,
+A,9,9,Dr,Sophie Lambert,physician,Urgences,
+A,10,10,Dr,Manon Garcia,physician,Medecine interne,
+A,11,11,Dr,Louis Roger,physician,Cardiologie,
+A,12,12,Dr,Andre Andre,physician,Pediatrie,
+A,13,13,Dr,Christophe Gautier,physician,Reanimation,
+A,14,14,Dr,Antoine Moreau,physician,Pediatrie,
+A,15,15,Dr,Bernard Thomas,physician,Cardiologie,
+A,16,16,Dr,Agathe Martinez,physician,Reanimation,
+A,17,17,Dr,Jules Guerin,physician,Cardiologie,
+A,18,18,Dr,Pierre Moreau,physician,Reanimation,
+A,19,19,Dr,Aurelie Guerin,physician,Reanimation,
+A,20,20,Dr,Camille Gauthier,physician,Pediatrie,
+A,21,21,Dr,Pauline Clement,physician,Reanimation,
+A,22,22,Dr,Margaux Thomas,physician,Reanimation,
+A,23,23,Dr,Michel Robert,physician,Medecine interne,
+A,24,24,Dr,Isabelle Bonnet,physician,Medecine interne,
+A,25,25,,Yves Fournier,nurse,Reanimation,
+A,26,26,,Louise Duval,nurse,Medecine interne,
+A,27,27,,Claire Legrand,nurse,Reanimation,
+A,28,28,,Michel Roux,nurse,Reanimation,
+A,29,29,,Arthur Masson,nurse,Medecine interne,
+A,30,30,,Marcel Lefevre,nurse,Urgences,
+A,31,31,,Sandrine Denis,nurse,Reanimation,
+A,32,32,,Camille Dumont,nurse,Reanimation,
+A,33,33,,Christophe Le Gall,nurse,Reanimation,
+A,34,34,,Remi Leroy,nurse,Medecine interne,
+A,35,35,,Jacques O'Neill,nurse,Cardiologie,
+A,36,36,,Mathieu Denis,nurse,Reanimation,
+A,37,37,,Gabriel Garnier,nurse,Medecine interne,
+A,38,38,,Yves Garcia,nurse,Reanimation,
+A,39,39,,Juliette Saint-Clair,nurse,Medecine interne,
+A,40,40,,Louise Lefevre,nurse,Reanimation,
+A,41,41,,Andre Durand,nurse,Urgences,
+A,42,42,,Elise Roussel,nurse,Medecine interne,
+A,43,43,,Mathieu Blanc,nurse,Medecine interne,
+A,44,44,,Marie Duval,nurse,Reanimation,
+A,45,45,Pr,Michel Perrin,surgeon,Chirurgie viscerale,
+A,46,46,Pr,Olivier Petit,surgeon,Chirurgie orthopedique,
+A,47,47,Pr,Monique Fournier,surgeon,Chirurgie cardiaque,
+A,48,48,Pr,Marie Sanchez,surgeon,Chirurgie orthopedique,
+A,49,49,Pr,Hugo Laurent,surgeon,Chirurgie orthopedique,
+A,50,50,Pr,Louise Lemaire,surgeon,Chirurgie orthopedique,
+A,51,51,Pr,Gerard Laurent,surgeon,Chirurgie orthopedique,
+A,52,52,Pr,Elise Lopez,surgeon,Chirurgie cardiaque,
+A,53,53,Dr,Sarah Roger,radiologist,Imagerie,
+A,54,54,Dr,Agathe Faure,radiologist,Imagerie,
+A,55,55,Dr,Yvette Martin,radiologist,Imagerie,
+A,56,56,Dr,Bernard Faure,radiologist,Imagerie,
+A,57,57,Dr,Camille Roussel,radiologist,Imagerie,
+A,58,58,Dr,Hugo Girard,radiologist,Imagerie,
+A,59,59,,Mathieu Dumont,radiology_technician,Imagerie,
+A,60,60,,Juliette Legrand,radiology_technician,Imagerie,
+A,61,61,,Yvette Le Gall,radiology_technician,Imagerie,
+A,62,62,,Sophie Legrand,radiology_technician,Imagerie,
+A,63,63,,Jacques Guerin,radiology_technician,Imagerie,
+A,64,64,,Aurelie Blanc,radiology_technician,Imagerie,
+A,65,65,,Jeanne Roux,,Imagerie,missing_expected:role
+A,66,66,,Isabelle Richard,radiology_technician,Imagerie,
+A,67,67,,Yves de La Tour,radiology_technician,Imagerie,
+A,68,68,,Lucas Petit,radiology_technician,Imagerie,
+A,69,69,,Lea Lambert,radiology_technician,Imagerie,
+A,70,70,,Aurelie Muller,radiology_technician,Imagerie,
+B,1,1,Ms,Fatuma Ekwaru,nurse,Nursing,
+B,2,2,Mr,Geoffrey Ainembabazi,nurse,Nursing,
+B,3,3,Dr,Sarah Kyomuhendo,surgeon,Surgery,
+B,4,4,Dr,Samuel Adong,physician,Internal Medicine,
+B,5,5,Mr,Charles Byamukama,radiology_technician,Radiology,
+B,6,6,Sr,Harriet Ssempala,nurse,Nursing,
+B,7,7,Dr,Fatuma Ssali,physician,Internal Medicine,
+B,8,8,Mr,Joseph Lubega,nurse,Nursing,
+B,9,9,Sr,Gloria Otim,nurse,Nursing,
+B,10,10,Dr,Winnie Muhindo,physician,Internal Medicine,
+B,11,11,Mr,David Masika,radiology_technician,Radiology,
+B,12,12,Mr,Isaac Arinaitwe,laboratory_scientist,Laboratory,
+B,13,13,Ms,Florence Byamukama,administrative,Medical Records,
+B,14,14,Mr,Richard Akello,nurse,Nursing,
+B,15,15,Ms,Shamim Akello,nurse,Nursing,
+B,16,16,Mr,David Ariong,nurse,Nursing,
+B,17,17,Dr,Esther Kizza,physician,Paediatrics,
+B,18,18,Dr,Samuel Kasozi,physician,Emergency Medicine,
+B,19,19,Dr,Irene Nsubuga,clinical_officer,Emergency Medicine,
+B,20,20,Mr,Moses Nankya,midwife,Maternity,
+B,21,21,Dr,Julius Tugume,surgeon,Surgery,
+B,22,22,Dr,Emmanuel Nantongo,clinical_officer,Emergency Medicine,
+B,23,23,Mr,Joseph Muhindo,nurse,Nursing,
+B,24,24,Mr,Ronald Odongo,nurse,Nursing,
+B,25,25,Dr,Patience Turyasingura,physician,Emergency Medicine,
+B,26,26,Ms,Prossy Muhindo,laboratory_scientist,Laboratory,
+B,27,27,Sr,Christine Akello,nurse,Nursing,
+B,28,28,Dr,Christine Nankya,physician,Internal Medicine,
+B,29,29,Mr,Geoffrey Tumusiime,nurse,Nursing,
+B,30,30,Ms,Fatuma Arinaitwe,radiology_technician,Radiology,
+B,31,31,Dr,Annet Nankya,surgeon,Orthopaedics,
+B,32,32,Mr,Patrick Kisakye,laboratory_scientist,Laboratory,
+B,33,33,Dr,Henry Mukasa,radiologist,Radiology,
+B,34,34,Mr,Collins Namatovu,nurse,Nursing,
+B,35,35,Ms,Christine Kizza,nurse,Nursing,
+B,36,36,Mr,Patrick Otim,nurse,Nursing,
+B,37,37,Mr,Hassan Nyakato,nurse,Nursing,
+B,38,38,Dr,Martha Nakato,physician,Emergency Medicine,
+B,39,39,Dr,Ronald Kyomuhendo,physician,Emergency Medicine,
+B,40,40,Dr,Josephine Ariong,physician,Internal Medicine,
+B,41,41,Dr,,radiologist,Radiology,missing_expected:full_name
+B,42,42,Dr,Hassan Byaruhanga,physician,Emergency Medicine,
+B,43,43,Dr,Julius Lamwaka,physician,Internal Medicine,
+B,44,44,Dr,Fatuma Lamwaka,physician,Cardiology,
+B,45,45,Dr,Godfrey Kemigisha,physician,Emergency Medicine,
+B,46,46,Dr,Rebecca Atwine,physician,Paediatrics,
+B,47,47,Dr,Denis Ochieng,clinical_officer,Outpatients,
+B,48,48,Dr,Andrew Nankya,physician,Cardiology,
+B,49,49,Dr,David Nantongo,surgeon,Orthopaedics,
+B,50,50,Dr,Brenda Kisakye,radiologist,Radiology,
+B,51,51,Dr,Denis Ssempala,physician,Internal Medicine,
+B,52,52,Sr,Josephine Tugume,nurse,Nursing,
+B,53,53,Sr,Harriet Tumusiime,nurse,Nursing,
+B,54,54,Ms,Rebecca Kyomuhendo,radiology_technician,Radiology,
+B,55,55,Sr,Brenda Asiimwe,nurse,Nursing,
+B,56,56,Sr,Prossy Kizza,midwife,Maternity,
+B,57,57,Mr,Ronald Nakato,midwife,Maternity,
+B,58,58,Ms,Joan Adong,radiology_technician,Radiology,
+B,59,59,Sr,Martha Acen,nurse,Nursing,
+B,60,60,Dr,Martin Nakato,physician,Emergency Medicine,
+B,61,61,Ms,Immaculate Nalubega,nurse,Nursing,
+B,62,62,Mr,Fred Kule,administrative,Medical Records,
+B,63,63,Ms,Patience Tugume,radiology_technician,Radiology,
+B,64,64,Mr,Fred Nantongo,nurse,Nursing,
+B,65,65,Dr,Ruth Lubega,physician,Internal Medicine,
+B,66,66,Dr,Joan Tumusiime,physician,Internal Medicine,
+B,67,67,Ms,Esther Bwambale,nurse,Nursing,
+B,68,68,Mr,Musa Ekwaru,,Medical Records,missing_expected:role
+B,69,69,Dr,Geoffrey Auma,clinical_officer,Outpatients,
+B,70,70,Dr,Moses Ainembabazi,clinical_officer,Outpatients,
+B,71,71,Dr,Godfrey Okello,surgeon,Surgery,
+B,72,72,Mr,Brian Lamwaka,midwife,Maternity,
+B,73,73,Dr,Betty Ssekandi,physician,Cardiology,
+B,74,74,Dr,Emmanuel Byamukama,surgeon,Surgery,
+B,75,75,Mr,Richard Kasozi,laboratory_scientist,Laboratory,
+B,76,76,Dr,Emmanuel Bukenya,surgeon,Surgery,
+B,77,77,Dr,Denis Kasozi,physician,Emergency Medicine,
+B,78,78,Dr,Joan Namubiru,physician,Internal Medicine,
+B,79,79,Mr,Ronald Bwambale,nurse,Nursing,
+B,80,80,Dr,Godfrey Atwine,physician,Internal Medicine,
+C,S0001,1,,Toh Kai Wen,physician,General Medicine,
+C,S0002,2,,Firdaus bin Kassim,physician,Respiratory Medicine,
+C,S0003,3,,Lee Kai Wen,physician,Cardiology,
+C,S0004,4,,Low Shu Fen,physician,General Medicine,
+C,S0005,5,,Ang Siew Lan,physician,Paediatrics,
+C,S0006,6,,Lee Yong Sheng,physician,Cardiology,
+C,S0007,7,,Chong Yong Sheng,physician,Emergency Medicine,
+C,S0008,8,,Tay Jia Hui,physician,Respiratory Medicine,
+C,S0009,9,,Rahim bin Ibrahim,physician,Intensive Care,
+C,S0010,10,,Toh Li Ting,physician,Respiratory Medicine,possible_duplicate:professional_id
+C,S0011,11,,Tan Zhi Hao,physician,General Medicine,
+C,S0012,12,,Kavitha d/o Raman,physician,Respiratory Medicine,
+C,S0013,13,,Chua Kai Wen,physician,Paediatrics,
+C,S0014,14,,,physician,Intensive Care,missing_expected:full_name
+C,S0015,15,,Koh Chee Keong,physician,Respiratory Medicine,
+C,S0016,16,,Chan Wei Ming,physician,Emergency Medicine,
+C,S0017,17,,Chia Pei Shan,physician,Intensive Care,
+C,S0018,18,,Goh Li Ting,physician,Paediatrics,
+C,S0019,19,,Low Kok Wai,physician,Intensive Care,
+C,S0020,20,,Zarina binte Rahman,physician,Emergency Medicine,
+C,S0021,21,,Toh Li Ting,physician,Respiratory Medicine,possible_duplicate:professional_id
+C,S0022,22,,Shalini d/o Subramaniam,physician,Paediatrics,
+C,S0023,23,,Ganesh s/o Subramaniam,physician,General Medicine,
+C,S0024,24,,Tan Jia Hui,physician,Emergency Medicine,
+C,S0025,25,,Lee Hui Min,nurse,Medical Ward,
+C,S0026,26,,Sim Li Ting,nurse,ICU,
+C,S0027,27,,Chong Chee Keong,nurse,Medical Ward,
+C,S0028,28,,Ong Yong Sheng,nurse,Emergency,
+C,S0029,29,,Ong Yong Sheng,nurse,Cardiology,
+C,S0030,30,,Iskandar bin Salleh,nurse,Emergency,
+C,S0031,31,,Lee Xiu Ling,nurse,ICU,
+C,S0032,32,,Arun s/o Rajan,nurse,Cardiology,
+C,S0033,33,,Ho Shu Fen,nurse,Emergency,
+C,S0034,34,,Suresh s/o Krishnan,nurse,Medical Ward,
+C,S0035,35,,Ho Zhi Hao,nurse,Emergency,
+C,S0036,36,,Wong Xiu Ling,nurse,Emergency,
+C,S0037,37,,Iskandar bin Rahman,nurse,Emergency,
+C,S0038,38,,Goh Mei Ling,nurse,Medical Ward,
+C,S0039,39,,Tay Kok Wai,nurse,Emergency,
+C,S0040,40,,Ang Jun Jie,nurse,ICU,
+C,S0041,41,,Tay Yong Sheng,nurse,Cardiology,
+C,S0042,42,,Low Pei Shan,nurse,Emergency,
+C,S0043,43,,Iskandar bin Osman,nurse,Emergency,
+C,S0044,44,,Zarina binte Salleh,nurse,Medical Ward,
+C,S0045,45,,Wong Boon Kiat,surgeon,Cardiothoracic Surgery,
+C,S0046,46,,Chan Hui Min,surgeon,Cardiothoracic Surgery,
+C,S0047,47,,Sim Mei Ling,surgeon,General Surgery,
+C,S0048,48,,Tay Jun Jie,surgeon,General Surgery,
+C,S0049,49,,Farah binte Ismail,surgeon,Cardiothoracic Surgery,
+C,S0050,50,,Lee Yong Sheng,surgeon,Orthopaedics,
+C,S0051,51,,Lee Wei Ming,surgeon,Orthopaedics,
+C,S0052,52,,Tan Xiu Ling,surgeon,General Surgery,
+C,S0053,53,,Ng Kai Wen,radiologist,Radiology,
+C,S0054,54,,Muhammad Faiz bin Salleh,radiologist,Radiology,
+C,S0055,55,,Tay Kai Wen,radiologist,Radiology,
+C,S0056,56,,Ang Xiu Ling,radiologist,Radiology,
+C,S0057,57,,Teo Yong Sheng,radiologist,Radiology,
+C,S0058,58,,Khairul bin Kassim,radiologist,Radiology,
+C,S0059,59,,Lim Kai Wen,radiology_technician,Radiology,
+C,S0060,60,,Ong Boon Kiat,radiology_technician,Radiology,possible_duplicate:professional_id
+C,S0061,61,,Ong Boon Kiat,radiology_technician,Radiology,possible_duplicate:professional_id
+C,S0062,62,,Tay Zhi Hao,radiology_technician,Radiology,
+C,S0063,63,,Sim Siew Lan,radiology_technician,Radiology,
+C,S0064,64,,Tan Li Ting,radiology_technician,Radiology,
+C,S0065,65,,Teo Mei Ling,radiology_technician,Radiology,
+C,S0066,66,,Toh Li Ting,radiology_technician,Radiology,
+C,S0067,67,,Tan Zhi Hao,radiology_technician,Radiology,
+C,S0068,68,,Lakshmi d/o Raman,radiology_technician,Radiology,
+C,S0069,69,,Chan Shu Fen,radiology_technician,Radiology,
+C,S0070,70,,Ho Chee Keong,radiology_technician,Radiology,
+D,1,1,Mr,Joshua Williams,administrative,Administration,
+D,2,2,Miss,Georgia Le,midwife,Maternity,
+D,3,3,Miss,Matilda King,nurse,Emergency,
+D,4,4,Dr,Thomas Kim,physician,Cardiology,
+D,5,5,Miss,Bronwyn Kelly,nurse,Surgical Ward,
+D,6,6,Dr,Omar Kelly,physician,General Medicine,
+D,7,7,Ms,Grace Mitchell,nurse,Emergency,
+D,8,8,Mr,Henry Morris,nurse,Emergency,
+D,9,9,Dr,Giulia Walker,physician,General Medicine,
+D,10,10,Mx,Benjamin Edwards,nurse,Medical Ward,
+D,11,11,Dr,Olivia Martin,physician,Emergency,
+D,12,12,Dr,Callum Ali,physician,Emergency,
+D,13,13,Mr,Benjamin White,radiology_technician,Medical Imaging,
+D,14,14,Dr,Liam Green,physician,Cardiology,
+D,15,15,Mr,Wei O'Brien,nurse,Medical Ward,
+D,16,16,Miss,Rebecca Watson,nurse,ICU,
+D,17,17,Ms,Ava Nikolaidis,administrative,,
+D,18,18,Mrs,Mai Wilson,nurse,Surgical Ward,
+D,19,19,Dr,Ruby Rossi,physician,Gastroenterology,
+D,20,20,Ms,Omar Thompson,nurse,ICU,
+D,21,21,Dr,Hamish Fitzgerald,physician,Surgery,
+D,22,22,Dr,Dimitri Russo,radiologist,Medical Imaging,
+D,23,23,Dr,Mei White,physician,Cardiology,
+D,24,24,Miss,Anh Young,radiology_technician,Medical Imaging,
+D,25,25,Dr,Fatima Wright,physician,Emergency,
+D,26,26,Miss,Georgia Martin,laboratory_scientist,,
+D,27,27,Mr,Cooper Young,nurse,Medical Ward,
+D,28,28,Dr,Noah Kelly,physician,Emergency,
+D,29,29,Dr,Michelle Green,surgeon,General Surgery,
+D,30,30,Ms,Dimitri Johnson,laboratory_scientist,Pathology,
+D,31,31,Dr,Anh Ahmed,physician,Paediatrics,
+D,32,32,Dr,Karen Watson,physician,Emergency,
+D,33,33,Mrs,Linda Khoury,nurse,ICU,
+D,34,34,Miss,Harper O'Brien,midwife,Maternity,
+D,35,35,Ms,Peter Rossi,radiology_technician,Medical Imaging,
+D,36,36,Ms,Anh Fitzgerald,midwife,Maternity,
+D,37,37,Ms,Lachlan Park,nurse,ICU,
+D,38,38,Ms,James Murphy,nurse,Surgical Ward,
+D,39,39,Dr,Wei Russo,surgeon,Orthopaedics,
+D,40,40,Miss,Giulia Kowalski,nurse,ICU,
+D,41,41,Dr,Bronwyn Thomas,physician,Emergency,
+D,42,42,Dr,Lachlan Williams,radiologist,,
+D,43,43,Ms,,administrative,Administration,missing_expected:full_name
+D,44,44,Miss,Georgia Thomas,nurse,Surgical Ward,
+D,45,45,Dr,Charlotte Mcdonald,physician,Cardiology,
+D,46,46,Dr,Mai Ali,physician,General Medicine,
+D,47,47,Ms,Matilda Hall,radiology_technician,Medical Imaging,
+D,48,48,Ms,Giulia Fernando,nurse,Surgical Ward,
+D,49,49,Dr,David Smith,physician,Emergency,
+D,50,50,Dr,Amelia Tran,physician,Surgery,
+D,51,51,Dr,Ethan Thomas,physician,Gastroenterology,
+D,52,52,Dr,Georgia Ryan,physician,Emergency,
+D,53,53,Dr,Cooper Ryan,physician,Cardiology,
+D,54,54,Mrs,Isla Edwards,nurse,ICU,
+D,55,55,Dr,Emily Mcdonald,physician,,
+D,56,56,Miss,Harper Young,nurse,ICU,
+D,57,57,Dr,Dimitri Ahmed,surgeon,General Surgery,
+D,58,58,Dr,Matthew D'Souza,surgeon,General Surgery,
+D,59,59,Mrs,Grace Bennett,nurse,Medical Ward,
+D,60,60,Dr,Chloe Bennett,physician,Emergency,
+D,61,61,Mr,Hamish Johnson,radiology_technician,Medical Imaging,
+D,62,62,Dr,David Ahmed,surgeon,General Surgery,
+D,63,63,Dr,Harper Ali,surgeon,Orthopaedics,
+D,64,64,Dr,Mei Nikolaidis,surgeon,General Surgery,
+D,65,65,Dr,Emma Wright,physician,Emergency,
+D,66,66,Dr,Margaret Brown,surgeon,Orthopaedics,
+D,67,67,Mr,Peter Ali,nurse,Medical Ward,
+D,68,68,Ms,Fatima Khoury,radiology_technician,Medical Imaging,
+D,69,69,Dr,Ethan Kowalski,physician,Emergency,
+D,70,70,Mr,Callum van der Berg,nurse,Medical Ward,
+D,71,71,Ms,Ruby Nakamura,nurse,Emergency,
+D,72,72,Mr,Hamish Smith,nurse,Surgical Ward,
+D,73,73,Dr,Omar Wright,physician,General Medicine,
+D,74,74,Miss,Isla Kowalski,nurse,Surgical Ward,
+D,75,75,Mrs,Amelia Cooper,nurse,Medical Ward,
+D,76,76,Dr,Lachlan Lee,physician,General Medicine,
+D,77,77,Mr,Lucas van der Berg,laboratory_scientist,Pathology,
+D,78,78,Ms,Luca O'Brien,radiology_technician,Medical Imaging,
+D,79,79,Mr,Hamish Thomas,nurse,ICU,
+D,80,80,Dr,Amelia Nikolaidis,physician,Emergency,
+D,81,81,Mr,Dimitri Fitzgerald,nurse,Surgical Ward,
+D,82,82,Dr,Stephen King,physician,Emergency,
+D,83,83,Dr,Angus Haddad,physician,Emergency,
+D,84,84,Dr,Giulia Wilson,physician,Cardiology,
+D,85,85,Dr,Harper Singh,physician,Paediatrics,
+D,86,86,Dr,Stephen Smith,,Medical Imaging,missing_expected:role
+D,87,87,Dr,Luca Nakamura,physician,Respiratory,
+D,88,88,Dr,Omar Hall,physician,General Medicine,
+D,89,89,Dr,Joshua Ryan,physician,Respiratory,
+D,90,90,Dr,Hannah Cooper,physician,Emergency,
+D,91,91,Dr,Wei Johnson,physician,,
