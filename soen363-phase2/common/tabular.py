@@ -6,10 +6,12 @@ Minimal table helpers (standard library only - no pandas needed).
 
 from __future__ import annotations
 
-PIPELINE_VERSION = "2026.11.15-abcd"   # run_all.py checks that every file has the same version
+PIPELINE_VERSION = "2026.11.17-tasks"   # run_all.py checks that every file has the same version
 
 import csv
+import re
 from collections import Counter
+from pathlib import Path
 
 
 class Table:
@@ -65,3 +67,36 @@ def md_table(rows, columns=None, max_rows=None, max_len=140):
             cells.append(s if len(s) <= max_len else s[:max_len - 3] + "...")
         out.append("| " + " | ".join(cells) + " |")
     return "\n".join(out) + "\n"
+
+
+# -----------------------------------------------------------------------------
+# Helpers for the result tables (task*/tables.py)
+# -----------------------------------------------------------------------------
+ENT = ["professionals", "patients", "admissions", "triage", "diagnoses", "notes", "orders", "radiology",
+       "procedures", "unit_stays", "discharges"]
+ENT_NAME = {"professionals": "HealthcareProfessional", "patients": "Patient", "admissions": "Admission",
+            "triage": "TriageAssessment", "diagnoses": "Diagnosis", "notes": "ClinicalNote",
+            "orders": "DiagnosticOrder", "radiology": "RadiologyExamination", "procedures": "SurgicalProcedure",
+            "unit_stays": "UnitStay", "discharges": "DischargeRecord"}
+
+
+def rows(path):
+    """The rows of an output CSV as dicts ([] if the file does not exist yet)."""
+    return read_csv(path)[1] if Path(path).exists() else []
+
+
+def n(x):
+    return f"{int(x):,}"
+
+
+def cut(s, k=90):
+    s = re.sub(r"\s+", " ", str(s or "")).strip()
+    return s if len(s) <= k else s[:k - 3] + "..."
+
+
+def vis(s):
+    """Make removed spaces visible: leading/trailing spaces and double spaces shown as a middle dot."""
+    s = str(s or "")
+    core = s.strip(" ")
+    lead, trail = len(s) - len(s.lstrip(" ")), len(s) - len(s.rstrip(" "))
+    return "\u00b7" * lead + re.sub(r" {2,}", lambda m: "\u00b7" * len(m.group(0)), core) + "\u00b7" * trail

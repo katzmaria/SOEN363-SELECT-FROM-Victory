@@ -5,14 +5,14 @@ raising, so the caller can decide whether a problem means "fix", "NULL + flag" o
 
 from __future__ import annotations
 
-PIPELINE_VERSION = "2026.11.15-abcd"   # run_all.py checks that every file has the same version
+PIPELINE_VERSION = "2026.11.17-tasks"   # run_all.py checks that every file has the same version
 
 import datetime as dt
 import re
 import unicodedata
 from dataclasses import dataclass, field
 
-from cleaning.standards import NONE_KNOWN, NUMERIC_PLACEHOLDERS, PLACEHOLDERS
+from common.standards import NONE_KNOWN, NUMERIC_PLACEHOLDERS, PLACEHOLDERS
 
 UTC = dt.timezone.utc
 
@@ -242,7 +242,7 @@ def parse_temporal(raw, tz=None, want_time=True, opts=None):
 
     Timestamps: returned as aware UTC datetimes. A value with an explicit offset or 'Z' uses it; a value
     without one is local time of the source time zone `tz`.
-    Source conventions (`opts`, see cleaning/standards.py SOURCES[..]["dates"]):
+    Source conventions (`opts`, see common/standards.py SOURCES[..]["dates"]):
         slash_ampm  'mdy' -> a slash date WITH AM/PM is month-first (Source B); default day-first
         dot         'either' -> dot dates come in both orders (Source D); default day-first
         epoch       True -> 9-13 digit numbers are Unix seconds / milliseconds (Source D)

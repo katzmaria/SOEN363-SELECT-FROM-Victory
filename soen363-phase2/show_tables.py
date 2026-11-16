@@ -3,21 +3,19 @@ Runs the Phase 2 tasks and prints their result tables in the terminal, one task 
 
     python show_tables.py --task 1            run Task 1 (load + profile), print its tables
     python show_tables.py --task 2            run Task 2 (clean + standardize), print its tables
-    python show_tables.py                     run Tasks 1 and 2, print all tables
+    python show_tables.py                     run every task, print all tables
     python show_tables.py --task 2 --no-run   print the Task 2 tables of the last run (no re-run)
     python show_tables.py --list              list the figures of every task
-    python show_tables.py 12 13               print only Figures 12 and 13 (add --no-run to skip the run)
+    python show_tables.py 12 13 --no-run      print only Figures 12 and 13
     python show_tables.py --width 120         table width in characters (default: terminal width)
 
 Every task's tables are also saved to output/tables/task<N>_tables.txt, to open in VS Code instead of scrolling.
 Options for the run: --icd9 <path> (default ../soen363-phase1/data/icd9_dictionary.csv), --sources A B C D.
-Standard library only. No Word document is created.
-
-Tasks 3 to 6: add an entry to TASKS below (a function that runs the task) and give their tables a heading
-"N. Task K: ..." in reporting/make_report.py; they are then split out the same way.
+Standard library only.
 """
 
 import argparse
+import importlib
 import re
 import shutil
 import sys
@@ -33,63 +31,37 @@ except Exception:
     pass
 
 
+# -----------------------------------------------------------------------------------------------------------
+# The tasks: how to run each one, and where its tables are (a module with a tables(d) function)
+# -----------------------------------------------------------------------------------------------------------
 def run_task1(a):
-    from cleaning.clean_sources import OUT
-    from profiling.profile_sources import profile
+    from task1_load_profile.profile_sources import profile
     print("Task 1 - loading and profiling the raw sources ...")
-    profile(tuple(a.sources), Path(a.icd9), OUT)
+    profile(tuple(a.sources), Path(a.icd9), ROOT / "output")
 
 
 def run_task2(a):
-    from cleaning.clean_sources import OUT, run
+    from task2_clean.clean_sources import run
     print("Task 2 - cleaning and standardizing ...")
-    run(tuple(a.sources), Path(a.icd9), OUT, quiet=True)
+    run(tuple(a.sources), Path(a.icd9), ROOT / "output", quiet=True)
+
+
+TASKS = {
+    1: (run_task1, "task1_load_profile.tables"),
+    2: (run_task2, "task2_clean.tables"),
+    # Tasks 3 to 6 - not written yet. When a task's code exists in its folder (see the README.md there):
+    #   1. write a run_taskK(a) function above that runs it,
+    #   2. write taskK_.../tables.py with a tables(d) function: d.h("Task K: ...") then d.table(...) per result,
+    #   3. add it here, e.g.  3: (run_task3, "task3_integration.tables"),
+    # Then `python show_tables.py --task K` runs it and prints its tables like Tasks 1 and 2.
+}
+
 
 # -----------------------------------------------------------------------------------------------------------
-# Tasks 3 to 6 - not written yet. When a task's code exists:
-#   1. uncomment its function below and point it to the real code,
-#   2. add it to TASKS (e.g. 3: run_task3),
-#   3. give its tables a section heading "N. Task K: ..." in reporting/make_report.py, so that
-#      `python show_tables.py --task K` prints only that task's tables.
+# Printing
 # -----------------------------------------------------------------------------------------------------------
-
-# Task 3 - Integration and schema refinement (integration lead, report section 9):
-#   revise the Phase 1 schema, build the identifier-mapping table (source, continent, original id ->
-#   integrated id) and the source-traceability columns. Tables to show: schema changes, id mapping counts.
-# def run_task3(a):
-#     from integration.integrate import integrate          # hypothetical module: src/integrate/
-#     print("Task 3 - integrating the four clean sources ...")
-#     integrate()
-
-# Task 4 - Import into the SQL database (integration lead, report section 10):
-#   load the clean tables into SQLite in parent-first order, with parameterized statements and transactions.
-#   Tables to show: rows imported per table and source, rerun behaviour.
-# def run_task4(a):
-#     from integration.import_db import import_all         # hypothetical module
-#     print("Task 4 - importing into the database ...")
-#     import_all()
-
-# Task 5 - Integrity enforcement and validation (Source A owner, report section 11):
-#   constraints and triggers, then validation queries (orphans, chronology, duplicate ids).
-#   Tables to show: each validation query and its result (expected: 0 problems).
-# def run_task5(a):
-#     from validation.validate import run_validation        # hypothetical module: sql/ + a small runner
-#     print("Task 5 - running the validation queries ...")
-#     run_validation()
-
-# Task 6 - Demonstration of the integrated database (Source C owner, report section 12):
-#   integration queries (counts by source/continent, admission types, top ICD-9 by continent, average stay)
-#   and the Phase 1 queries rerun on the integrated database. Tables to show: each query's result.
-# def run_task6(a):
-#     from demo.queries import run_demo_queries              # hypothetical module
-#     print("Task 6 - running the demonstration queries ...")
-#     run_demo_queries()
-
-TASKS = {1: run_task1, 2: run_task2}        # later: {1: run_task1, 2: run_task2, 3: run_task3, 4: run_task4, ...}
-
-
 def plain(s):
-    """Remove the **bold** and `code` markers used by the report."""
+    """Remove the **bold** and `code` markers used in the table cells."""
     return re.sub(r"\*\*(.+?)\*\*", r"\1", str("" if s is None else s)).replace("`", "")
 
 
@@ -132,18 +104,18 @@ def box(header, rows, width):
 
 
 class TerminalDoc:
-    """Same interface as the report writer, but prints the tables instead (and keeps them per task)."""
+    """Receives the section titles and tables of each task and prints the selected ones."""
 
     def __init__(self, tasks=None, figures=None, listing=False, width=120):
         self.tasks, self.figures, self.listing, self.width = tasks, figures, listing, width
-        self.table_no, self.task, self.section, self.printed = 0, 1, "", None
+        self.table_no, self.task, self.section, self.printed = 0, 0, "", None
         self.saved = defaultdict(list)                      # task -> text lines
 
     def h(self, text, level=1):
         text = plain(text)
         if level == 1:
             m = re.search(r"Task (\d+)", text)
-            self.task = int(m.group(1)) if m else (1 if self.table_no == 0 else 0)   # introduction -> Task 1
+            self.task = int(m.group(1)) if m else 0
         self.section = text
 
     def table(self, header, rows, caption=None, **_):
@@ -154,9 +126,7 @@ class TerminalDoc:
         if self.listing:
             print(f"  Task {self.task}  {title}   [{self.section}]")
             return
-        if self.tasks and self.task not in self.tasks:
-            return
-        if self.figures and self.table_no not in self.figures:
+        if (self.tasks and self.task not in self.tasks) or (self.figures and self.table_no not in self.figures):
             return
         lines = []
         if self.section != self.printed:
@@ -166,15 +136,6 @@ class TerminalDoc:
         lines += ["", title] + box(header, rows or [["(no rows)"] + [""] * (len(header) - 1)], self.width)
         print("\n".join(lines))
         self.saved[self.task] += lines
-
-    # everything else the report writes (text, lists, captions) is not printed
-    def p(self, *a, **k): pass
-    def title(self, *a, **k): pass
-    def bullets(self, *a, **k): pass
-    def code(self, *a, **k): pass
-    def caption(self, *a, **k): pass
-    def page_break(self, *a, **k): pass
-    def save(self, *a, **k): pass
 
 
 if __name__ == "__main__":
@@ -195,20 +156,18 @@ if __name__ == "__main__":
     run_all.check_files(a.sources)
     out = ROOT / "output"
     if not (a.no_run or a.list):
-        todo = sorted(a.task or TASKS)
-        # the tables read the results of both tasks: run the other one too if it has never been run
-        if 1 not in todo and not (out / "profile" / "record_counts.csv").exists():
-            todo.insert(0, 1)
-        if 2 not in todo and not (out / "cleaning_log" / "summary.csv").exists():
-            todo.append(2)
-        for t in todo:
-            TASKS[t](a)
+        for t in sorted(a.task or TASKS):
+            TASKS[t][0](a)
         print(f"Results written to {out}")
 
-    import reporting.make_report as mr
     doc = TerminalDoc(tasks=set(a.task or []), figures=set(a.figures), listing=a.list, width=a.width)
-    mr.Docx = lambda: doc                         # the report code fills the terminal instead of a Word file
-    mr.build(out_path=out / ".unused.docx")
+    for t in sorted(TASKS):                     # every task, so the figure numbers stay the same
+        try:
+            importlib.import_module(TASKS[t][1]).tables(doc)
+        except SystemExit as exc:               # this task has no results yet
+            if not a.task or t in a.task:
+                raise
+            print(f"(Task {t} has no results yet; its figures are not numbered: {exc})")
     if not a.list:
         (out / "tables").mkdir(parents=True, exist_ok=True)
         for t, lines in sorted(doc.saved.items()):

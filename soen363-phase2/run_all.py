@@ -1,14 +1,13 @@
 """
-Runs EVERYTHING for Phase 2 Tasks 1 and 2, from the soen363-phase2 folder:
+Runs the Phase 2 pipeline, from the soen363-phase2 folder:
 
     python run_all.py --icd9 ../soen363-phase1/data/icd9_dictionary.csv
 
-1. checks that every code file is the current version (and names any outdated file)
-2. Task 1: loads and profiles the four raw sources      -> output/profile/, output/profile_report.md
-3. Task 2: cleans and standardizes them                 -> output/clean/, output/quarantine/, output/cleaning_log/,
-                                                           output/cleaning_report.md
-4. writes the report with every table                   -> output/Phase2_Tasks1-2_report.docx
-
+1. checks that every code file is the current version (and names any outdated or missing file)
+2. Task 1: loads and profiles the four raw sources   -> output/profile/, output/profile_report.md
+3. Task 2: cleans and standardizes them              -> output/clean/, output/quarantine/, output/cleaning_log/,
+                                                        output/cleaning_report.md
+To see the result tables in the terminal, use show_tables.py instead (it runs the same steps).
 Standard library only: nothing to install.
 """
 
@@ -21,9 +20,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-PIPELINE_VERSION = "2026.11.15-abcd"
-MODULES = ["cleaning.tabular", "cleaning.standards", "cleaning.parsers", "cleaning.clean_sources", "cleaning.report",
-           "profiling.load_sources", "profiling.profile_sources", "reporting.docx_writer", "reporting.make_report"]
+PIPELINE_VERSION = "2026.11.17-tasks"
+MODULES = ["common.tabular", "common.standards", "common.parsers",
+           "task1_load_profile.load_sources", "task1_load_profile.profile_sources", "task1_load_profile.tables",
+           "task2_clean.clean_sources", "task2_clean.cleaning_report", "task2_clean.tables"]
+OLD_FOLDERS = ["cleaning", "profiling", "reporting"]          # replaced by common/ and the task folders
 RAW = {"A": "data/raw/A_txt/sejours.txt", "B": "data/raw/B_csv/admissions.csv",
        "C": "data/raw/C_xml/hospital_records.xml", "D": "data/raw/D_json/patients_p1.json"}
 
@@ -50,27 +51,27 @@ def check_files(sources):
         if Path(mod.__file__).resolve().parent.parent != ROOT:
             print(f"Cannot run - {m} is imported from {mod.__file__}, not from this folder.")
             sys.exit(1)
+    old = [f for f in OLD_FOLDERS if any((ROOT / f).glob("*.py"))]
+    if old:
+        print("Note: old folder(s) " + ", ".join(f"{f}/" for f in old) + " are no longer used and can be deleted "
+              "(the code is now in common/ and the task folders).")
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--sources", nargs="+", default=["A", "B", "C", "D"])
     ap.add_argument("--icd9", default=str(ROOT.parent / "soen363-phase1" / "data" / "icd9_dictionary.csv"))
-    ap.add_argument("--no-report", action="store_true", help="skip the Word report")
     a = ap.parse_args()
     t0 = time.time()
     check_files(a.sources)
     print(f"Code files OK (version {PIPELINE_VERSION}).")
 
-    from cleaning.clean_sources import OUT, run
-    from profiling.profile_sources import profile
+    from task1_load_profile.profile_sources import profile
+    from task2_clean.clean_sources import OUT, run
 
     print("Task 1 - loading and profiling the raw sources ...")
     profile(tuple(a.sources), Path(a.icd9), OUT)
     print(f"  -> {OUT / 'profile_report.md'}")
     print("Task 2 - cleaning and standardizing ...")
     run(tuple(a.sources), Path(a.icd9), OUT)
-    if not a.no_report:
-        from reporting.make_report import build
-        print(f"Report -> {build()}")
-    print(f"Done in {time.time() - t0:.1f} s.")
+    print(f"Done in {time.time() - t0:.1f} s. To see the tables: python show_tables.py --task 1  (or --task 2)")

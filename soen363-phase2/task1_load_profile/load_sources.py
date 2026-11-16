@@ -2,7 +2,7 @@
 Task 1 - Load the raw sources into tables (standard library only, no pandas).
 
 Every loader returns a `LoadedSource`:
-    .entities   dict  entity name -> Table (cleaning/tabular.py: .columns + .rows, one dict per raw record,
+    .entities   dict  entity name -> Table (common/tabular.py: .columns + .rows, one dict per raw record,
                       every value kept as raw text;
                       an XML element that is absent is None, an empty element is "")
     .malformed  list  records that could not be read; they are LOGGED here, never silently dropped
@@ -40,7 +40,7 @@ Source C  (Straits Regional Medical Centre, Asia/Singapore) - data/raw/C_xml/hos
 
 from __future__ import annotations
 
-PIPELINE_VERSION = "2026.11.15-abcd"   # run_all.py checks that every file has the same version
+PIPELINE_VERSION = "2026.11.17-tasks"   # run_all.py checks that every file has the same version
 
 import sys
 import xml.etree.ElementTree as ET
@@ -51,7 +51,7 @@ PHASE2 = Path(__file__).resolve().parents[1]
 if str(PHASE2) not in sys.path:
     sys.path.insert(0, str(PHASE2))
 
-from cleaning.tabular import Table  # noqa: E402
+from common.tabular import Table  # noqa: E402
 RAW_DIR = PHASE2 / "data" / "raw"
 
 ENTITIES = ["professionals", "patients", "admissions", "triage", "diagnoses", "notes", "orders",
@@ -381,7 +381,7 @@ D_ID = {"professionals": "practitionerId", "patients": "patientId", "admissions"
 def _flatten_d(entity, obj):
     """One D record -> flat dict of text values (None = missing). Returns (flat, problem) where problem names a
     field with the wrong JSON type (the record is then malformed)."""
-    from cleaning.standards import COLUMN_MAP
+    from common.standards import COLUMN_MAP
     flat = {}
     for key in COLUMN_MAP["D"][entity]:
         if key == "@admission" or key.endswith("@unit"):
@@ -398,7 +398,7 @@ def _flatten_d(entity, obj):
             elif sub == "bp" and isinstance(v, dict):
                 v = f"{v.get('systolic')}/{v.get('diastolic')}"
         elif head == "appointments":                       # follow-up: the first appointment's time
-            from cleaning.parsers import is_missing
+            from common.parsers import is_missing
             if isinstance(v, str) and is_missing(v):          # placeholder instead of the array = missing
                 v = None
             if v is not None and not isinstance(v, list):
@@ -438,7 +438,7 @@ def load_source_d(folder: Path | None = None) -> LoadedSource:
     (admissions carrying their own patientId). The parent of a nested record is the enclosing object.
     Numbers are kept as their exact text. Junk array elements (null, strings, [], {}, error objects) and records
     with a field of the wrong JSON type are logged as malformed."""
-    from cleaning.standards import COLUMN_MAP
+    from common.standards import COLUMN_MAP
     folder = Path(folder or RAW_DIR / "D_json")
     src = LoadedSource("D", "Coral Coast Health Service")
     rows = {e: [] for e in ENTITIES}

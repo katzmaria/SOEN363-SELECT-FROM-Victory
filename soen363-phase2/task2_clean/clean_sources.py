@@ -1,8 +1,8 @@
 """
 Task 2 - Clean and standardise the raw sources (reproducible: same input -> same output).
 
-    python cleaning/clean_sources.py                    (run from soen363-phase2/)
-    python cleaning/clean_sources.py --icd9 ../soen363-phase1/data/icd9_dictionary.csv
+    python task2_clean/clean_sources.py                    (run from soen363-phase2/)
+    python task2_clean/clean_sources.py --icd9 ../soen363-phase1/data/icd9_dictionary.csv
 
 Writes
     output/clean/<entity>.csv              clean records of all sources (key = source_system + <entity>_id)
@@ -35,7 +35,7 @@ Pipeline per source (in this order):
 
 from __future__ import annotations
 
-PIPELINE_VERSION = "2026.11.15-abcd"   # run_all.py checks that every file has the same version
+PIPELINE_VERSION = "2026.11.17-tasks"   # run_all.py checks that every file has the same version
 
 import argparse
 import datetime as dt
@@ -48,12 +48,12 @@ PHASE2 = Path(__file__).resolve().parents[1]
 if str(PHASE2) not in sys.path:
     sys.path.insert(0, str(PHASE2))
 
-from cleaning import parsers as P
-from cleaning.tabular import md_table, read_csv, write_csv
-from cleaning.standards import (COLUMN_MAP, ENTITY_SPECS, EVENT_TIME, LABEL_LOOKUP, LEVEL_OVERRIDES, OUTPUT_COLUMNS,
+from common import parsers as P
+from common.tabular import md_table, read_csv, write_csv
+from common.standards import (COLUMN_MAP, ENTITY_SPECS, EVENT_TIME, LABEL_LOOKUP, LEVEL_OVERRIDES, OUTPUT_COLUMNS,
                                 PROCESS_ORDER,
                                 SOURCES, VITAL_RANGES)
-from profiling.load_sources import ENTITIES, load_all
+from task1_load_profile.load_sources import ENTITIES, load_all
 
 OUT = PHASE2 / "output"
 ICD_DEFAULT = PHASE2.parent / "soen363-phase1" / "data" / "icd9_dictionary.csv"
@@ -743,7 +743,7 @@ def run(codes=("A", "B", "C", "D"), icd9_path=ICD_DEFAULT, out_dir=OUT, quiet=Fa
               ["source_system", "entity", "field", "raw_label", "standard_value", "count"])
     write_csv(out_dir / "cleaning_log" / "summary.csv", summary, list(summary[0]))
 
-    from cleaning.report import write_report
+    from task2_clean.cleaning_report import write_report
     write_report(out_dir, summary, LOG, lab, quarantine, malformed, all_recs, icd9_path if icd9 else None)
     if not quiet:
         print(md_table(summary))

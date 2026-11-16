@@ -14,7 +14,7 @@ Field levels
     OPTIONAL  missing -> NULL, nothing else (counted in the cleaning log).
 """
 
-PIPELINE_VERSION = "2026.11.15-abcd"   # run_all.py checks that every file has the same version
+PIPELINE_VERSION = "2026.11.17-tasks"   # run_all.py checks that every file has the same version
 
 # -----------------------------------------------------------------------------
 # Missing-value placeholders (compared after trimming and lower-casing)
@@ -176,7 +176,7 @@ COLUMN_MAP["B"] = {
                    "ConditionOnDischarge": "discharge_condition", "DischargeMeds": "medications",
                    "FollowUp": "instructions", "NextAppointment": "follow_up_time"},
 }
-# Source D: keys of the flattened JSON records (see profiling/load_sources.py load_source_d)
+# Source D: keys of the flattened JSON records (see task1_load_profile/load_sources.py load_source_d)
 COLUMN_MAP["D"] = {
     "professionals": {"practitionerId": "professional_id", "honorific": "title", "fullName": "full_name",
                       "designation": "role", "department": "department"},
