@@ -32,24 +32,25 @@ Report (Google Doc): https://docs.google.com/document/d/1_8G-2PNgWdFukLguN9jDbjH
 | Source B and Source D raw data | Samuel Richard |
 | Source A and Source C raw data | Maria-Christine Catiche |
 | Task 1 and Task 2 code for all four sources (loading, profiling, cleaning) | Maria-Christine Catiche |
-| Report sections 7 and 8.2–8.3 | Samuel Richard and Maria-Christine Catiche |
+| Report sections 7 and 8.2–8.3 | Maria-Christine Catiche |
 
 ### Remaining work
 
-| Role | Owner | Covers |
+| Task | Owner | Covers |
 |---|---|---|
-| Integration lead | Kigham Kerry Kinyuy | Revised schema, ID mapping and traceability, import pipeline (report sections 9, 10) |
-| Integrity and validation | Vanessa Cherbaka | Constraints in the schema before the import, triggers, validation queries, limitations (section 11) |
-| Demonstration and report | Maria Celena Said | Task 6 queries, record counts, data-quality table, AI disclosure, overview, final PDF and submission (sections 5, 6, 12.1, 12.3) |
+| Task 3: Integration and schema refinement | Samuel Richard | Revised schema, ID mapping and traceability, column mapping from the cleaned files (report section 9) |
+| Task 4: Import | Kigham Kerry Kinyuy | Python import pipeline (section 10) |
+| Task 5: Integrity and validation | Vanessa Cherbaka | Constraints in the schema before the import, triggers, validation queries, limitations (section 11) |
+| Task 6 and report | Maria Celena Said | Task 6 queries, record counts, data-quality table, AI disclosure, overview, final PDF and submission (sections 5, 6, 12.1, 12.3) |
 
 Everyone who wrote Phase 1 queries reruns their own five on the integrated database (section 12.2).
 
 ### Order of work
 
-1. **Integration lead** shares the revised schema: by Nov 19.
-2. **Integrity and validation** adds the constraints to the schema: by Nov 20.
-3. **Integration lead** runs the full import: Nov 21–24.
-4. **Validation queries, demo queries and Phase 1 reruns** in parallel, once the database exists.
+1. **Samuel** shares the revised schema: by Nov 19.
+2. **Vanessa** adds the constraints to the schema: by Nov 20.
+3. **Kerry** runs the full import: Nov 21–24.
+4. **Validation queries, Task 6 queries and Phase 1 reruns** in parallel, once the database exists.
 5. All report sections done: Nov 27.
 6. **Maria Celena** assembles the report and submits: Nov 29.
 
