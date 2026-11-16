@@ -11,33 +11,20 @@ Team **SELECT \* FROM Victory**.
 
 ## Phase 2: Multi-Source Data Integration
 
-Four synthetic hospital sources (TXT, CSV, XML, JSON), each from a different continent, are loaded, cleaned and standardized with Python, then imported into one integrated version of the Phase 1 database. Full details, folder layout and working rules: [`soen363-phase2/README.md`](soen363-phase2/README.md).
+Folder: [`soen363-phase2/`](soen363-phase2/)
 
-Report (Google Doc): https://docs.google.com/document/d/1_8G-2PNgWdFukLguN9jDbjHN7lLbCaVB2wM0P9N4pjw/edit
+Report (Google Doc): https://docs.google.com/document/d/1iXljZzHY5cRejdzYDqD--PLoNmUBPs-2YIBLBFgsMjM/edit
 
-### Roles
-
-| Role | Owner | Covers |
-|---|---|---|
-| Data contract + Source B (CSV) | Samuel Richard | `docs/contract.md`, shared ICD-9 dictionary, common cleaning rules, Source B |
-| Source A (TXT) | to be chosen | Source A + constraints in the schema (before import) + triggers and integrity validation queries (after import) |
-| Integration lead | to be chosen | Schema revisions, ID mapping and traceability, import pipeline |
-| Source C (XML) | to be chosen | Source C + Task 6 demonstration queries |
-| Source D (JSON) | to be chosen | Source D + report assembly and submission |
-
-Everyone who wrote Phase 1 queries reruns them against the integrated database.
-
-### Order of work
-
-1. **Contract** (Samuel): Nov 15. Objections by Nov 17, then it's final.
-2. **Integration lead** shares the revised schema: by Nov 19.
-3. **Source A** adds constraints to the schema: by Nov 20.
-4. **Sources A, C, D** clean their data in parallel: deadline Nov 23.
-5. **Integration lead** runs the full import: Nov 24–26.
-6. **Validation queries (A), demo queries (C), Phase 1 reruns** in parallel.
-7. **Source D** assembles the report and submits: Nov 29.
-
-Raw data can be generated and profiled at any time. Only cleaning waits for the contract.
+| Task | Who |
+|---|---|
+| Synthetic source data (A–D) and data contract | Samuel Richard (B, D, contract), Maria-Christine Catiche (A, C) |
+| Task 1: Inspect and load the data | Maria-Christine Catiche |
+| Task 2: Clean and standardize the data | Maria-Christine Catiche |
+| Task 3: Integration and schema refinement | To be decided |
+| Task 4: Import into the SQL database | To be decided |
+| Task 5: Integrity enforcement and validation | To be decided |
+| Task 6: Demonstration of the integrated database | To be decided |
+| Report assembly and submission | To be decided |
 
 ## Phase 1: Relational Database
 
