@@ -7,6 +7,8 @@ Runs the Phase 2 pipeline, from the soen363-phase2 folder:
 2. Task 1: loads and profiles the four raw sources   -> output/profile/, output/profile_report.md
 3. Task 2: cleans and standardizes them              -> output/clean/, output/quarantine/, output/cleaning_log/,
                                                         output/cleaning_report.md
+4. Task 3: integrates the clean sources             -> output/integrated/hospital.db, id_mapping.csv,
+                                                        patient_match_candidates.csv
 To see the result tables in the terminal, use show_tables.py instead (it runs the same steps).
 Standard library only: nothing to install.
 """
@@ -23,7 +25,8 @@ sys.path.insert(0, str(ROOT))
 PIPELINE_VERSION = "2026.11.17-tasks"
 MODULES = ["common.tabular", "common.standards", "common.parsers",
            "task1_load_profile.load_sources", "task1_load_profile.profile_sources", "task1_load_profile.tables",
-           "task2_clean.clean_sources", "task2_clean.cleaning_report", "task2_clean.tables"]
+           "task2_clean.clean_sources", "task2_clean.cleaning_report", "task2_clean.tables",
+           "task3_integration.integrate", "task3_integration.tables"]
 OLD_FOLDERS = ["cleaning", "profiling", "reporting"]          # replaced by common/ and the task folders
 RAW = {"A": "data/raw/A_txt/sejours.txt", "B": "data/raw/B_csv/admissions.csv",
        "C": "data/raw/C_xml/hospital_records.xml", "D": "data/raw/D_json/patients_p1.json"}
@@ -74,4 +77,9 @@ if __name__ == "__main__":
     print(f"  -> {OUT / 'profile_report.md'}")
     print("Task 2 - cleaning and standardizing ...")
     run(tuple(a.sources), Path(a.icd9), OUT)
-    print(f"Done in {time.time() - t0:.1f} s. To see the tables: python show_tables.py --task 1  (or --task 2)")
+    # task 3 reads what task 2 just wrote to output/clean/, so it has to come after it.
+    # imported under another name so it doesn't shadow task 2's run()
+    from task3_integration.integrate import run as integrate
+    print("Task 3 - integrating the sources ...")
+    integrate()
+    print(f"Done in {time.time() - t0:.1f} s. To see the tables: python show_tables.py --task 1  (or --task 2, --task 3)")
