@@ -20,11 +20,12 @@ Report (Google Doc): https://docs.google.com/document/d/1iXljZzHY5cRejdzYDqD--PL
 | Synthetic source data (A–D) and data contract | Samuel Richard (B, D, contract), Maria-Christine Catiche (A, C) |
 | Task 1: Inspect and load the data | Maria-Christine Catiche |
 | Task 2: Clean and standardize the data | Maria-Christine Catiche |
-| Task 3: Integration and schema refinement | To be decided |
-| Task 4: Import into the SQL database | To be decided |
-| Task 5: Integrity enforcement and validation | To be decided |
-| Task 6: Demonstration of the integrated database | To be decided |
-| Report assembly and submission | To be decided |
+| Task 3a: Schema revisions | Vanessa Cherbaka |
+| Task 3b: Identifier management and traceability | Maria Celena Said |
+| Task 4: Import into the SQL database | Samuel Richard |
+| Task 5: Integrity enforcement and validation | Kigham Kerry Kinyuy |
+| Task 6: Demonstration of the integrated database | Kigham Kerry Kinyuy |
+| Report assembly and submission | Samuel Richard |
 
 ## Phase 1: Relational Database
 

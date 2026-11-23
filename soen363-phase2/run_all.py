@@ -9,6 +9,8 @@ Runs the Phase 2 pipeline, from the soen363-phase2 folder:
                                                         output/cleaning_report.md
 4. Task 3: integrates the clean sources             -> output/integrated/hospital.db, id_mapping.csv,
                                                         patient_match_candidates.csv
+5. Task 4: rebuilds hospital.db in one transaction  -> output/integrated/hospital.db, import_log.csv
+   (rerun check: import_log.csv says whether every table is identical to the previous import)
 To see the result tables in the terminal, use show_tables.py instead (it runs the same steps).
 Standard library only: nothing to install.
 """
@@ -26,7 +28,8 @@ PIPELINE_VERSION = "2026.11.17-tasks"
 MODULES = ["common.tabular", "common.standards", "common.parsers",
            "task1_load_profile.load_sources", "task1_load_profile.profile_sources", "task1_load_profile.tables",
            "task2_clean.clean_sources", "task2_clean.cleaning_report", "task2_clean.tables",
-           "task3_integration.integrate", "task3_integration.tables"]
+           "task3_integration.integrate", "task3_integration.tables",
+           "task4_import.import_db", "task4_import.tables"]
 OLD_FOLDERS = ["cleaning", "profiling", "reporting"]          # replaced by common/ and the task folders
 RAW = {"A": "data/raw/A_txt/sejours.txt", "B": "data/raw/B_csv/admissions.csv",
        "C": "data/raw/C_xml/hospital_records.xml", "D": "data/raw/D_json/patients_p1.json"}
@@ -82,4 +85,7 @@ if __name__ == "__main__":
     from task3_integration.integrate import run as integrate
     print("Task 3 - integrating the sources ...")
     integrate()
-    print(f"Done in {time.time() - t0:.1f} s. To see the tables: python show_tables.py --task 1  (or --task 2, --task 3)")
+    from task4_import.import_db import run as import_db
+    print("Task 4 - importing into the SQL database ...")
+    import_db()
+    print(f"Done in {time.time() - t0:.1f} s. To see the tables: python show_tables.py --task 1  (or --task 2, 3, 4)")
