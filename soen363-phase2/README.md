@@ -16,9 +16,9 @@ Report (Google Doc): https://docs.google.com/document/d/1iXljZzHY5cRejdzYDqD--PL
 | Task 3b: Identifier management and traceability (global IDs, mapping, patient matching) | Maria Celena Said | `task3_integration/` | Done |
 | Task 4: Import into the SQL database | Samuel Richard | `task4_import/` | Done |
 | Task 5: Integrity enforcement and validation | Kigham Kerry Kinyuy | `task5_validation/` | Done (code, README and outputs; text for the shared report not yet pasted) |
-| Task 6: Demonstration of the integrated database | Kigham Kerry Kinyuy | `task6_demo/` | Not started |
+| Task 6: Demonstration of the integrated database | Kigham Kerry Kinyuy | `task6_demo/` | Drafted (6 demo queries + 20 Phase 1 queries; report text not pasted) |
 | Report assembly and submission | Samuel Richard (document format: Maria-Christine Catiche) | Google Doc | In progress (Phase 2 Tasks 1–4 written) |
-| Rerunning the Phase 1 queries on the integrated database | Each member reruns their own Phase 1 queries | `task6_demo/` | Not started |
+| Rerunning the Phase 1 queries on the integrated database | Each member reruns their own Phase 1 queries | `task6_demo/` | Drafted for all 20; owners to check their own |
 
 Each task folder for Tasks 3 to 6 has a `README.md` with that task's requirements from the handout; the Task 3, 4 and
 5 READMEs also explain how the task was done.
@@ -49,6 +49,7 @@ Python 3.10 or newer, **standard library only**: nothing to install (no pandas).
 | `python show_tables.py --task 3` | Runs Task 3 and prints its tables (Figures 36–39) |
 | `python show_tables.py --task 4` | Runs Task 4 and prints its tables (Figures 40–41) |
 | `python show_tables.py --task 5` | Runs Task 5 (validation checks and negative tests) and prints its tables (Figures 42–48) |
+| `python show_tables.py --task 6` | Runs the demonstration and Phase 1 queries and prints their tables (Figures 49 onward) |
 | `python show_tables.py --task 2 --no-run` | Prints the Task 2 tables of the last run, without running again |
 | `python show_tables.py --list` | Lists every figure and the task it belongs to |
 | `python show_tables.py 12 13 --no-run` | Prints only Figures 12 and 13 |
@@ -89,7 +90,10 @@ soen363-phase2/
 │   ├── validate.py             the 118 validation checks on hospital.db (read-only)
 │   ├── negative_tests.py       16 attempts to break the rules, on a copy of the database
 │   └── tables.py               the Task 5 result tables
-├── task6_demo/                 Task 6
+├── task6_demo/                 Task 6: demonstrate the integrated database
+│   ├── run_demo.py             runs the queries read-only, writes output/demo/
+│   ├── queries/                demo_1 to demo_6 (handout) and q01 to q20 (Phase 1, adapted)
+│   └── tables.py               the Task 6 result tables
 ├── data/raw/                   the four raw sources (A_txt, B_csv, C_xml, D_json)
 ├── generator/                  the script that generated the synthetic data
 ├── docs/                       data contract and generative AI disclosure
