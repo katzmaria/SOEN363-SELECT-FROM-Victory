@@ -58,15 +58,27 @@ def run_task4(a):
     run(quiet=True)
 
 
+def run_task5(a: argparse.Namespace) -> None:
+    from task5_validation import negative_tests, validate
+    db = ROOT / "output" / "integrated" / "hospital.db"
+    if not db.exists():
+        raise SystemExit("No database to validate: run Task 4 first (python show_tables.py --task 4)")
+    print("Task 5 - validating data integrity ...")
+    out = ROOT / "output" / "validation"
+    validate.write_results(validate.run_checks(db), out)
+    negative_tests.write_results(negative_tests.run_negative_tests(db), out)
+
+
 TASKS = {
     1: (run_task1, "task1_load_profile.tables"),
     2: (run_task2, "task2_clean.tables"),
     3: (run_task3, "task3_integration.tables"),
     4: (run_task4, "task4_import.tables"),
-    # Tasks 5 and 6 - not written yet. When a task's code exists in its folder (see the README.md there):
+    5: (run_task5, "task5_validation.tables"),
+    # Task 6 - not written yet. When a task's code exists in its folder (see the README.md there):
     #   1. write a run_taskK(a) function above that runs it,
     #   2. write taskK_.../tables.py with a tables(d) function: d.h("Task K: ...") then d.table(...) per result,
-    #   3. add it here, e.g.  3: (run_task3, "task3_integration.tables"),
+    #   3. add it here, e.g.  5: (run_task5, "task5_validation.tables"),
     # Then `python show_tables.py --task K` runs it and prints its tables like Tasks 1 and 2.
 }
 
