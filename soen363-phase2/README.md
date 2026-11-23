@@ -3,6 +3,8 @@
 Phase 2 takes four independent hospital data sources, one per continent, and turns them into one clean, integrated SQL
 database. Each source has its own file format, language, identifiers, date formats, units and data-quality problems.
 
+Report (Google Doc): https://docs.google.com/document/d/1iXljZzHY5cRejdzYDqD--PLoNmUBPs-2YIBLBFgsMjM/edit
+
 ## Team and tasks
 
 | Task | Who | Folder | Status |
@@ -10,13 +12,16 @@ database. Each source has its own file format, language, identifiers, date forma
 | Synthetic source data (A–D) and data contract | Samuel Richard (B, D, contract), Maria-Christine Catiche (A, C) | `data/raw/`, `generator/`, `docs/` | Done |
 | Task 1: Inspect and load the data | Maria-Christine Catiche | `task1_load_profile/` | Done |
 | Task 2: Clean and standardize the data | Maria-Christine Catiche | `task2_clean/` | Done |
-| Task 3: Integration and schema refinement | To be decided | `task3_integration/` | Not started |
-| Task 4: Import into the SQL database | To be decided | `task4_import/` | Not started |
-| Task 5: Integrity enforcement and validation | To be decided | `task5_validation/` | Not started |
-| Task 6: Demonstration of the integrated database | To be decided | `task6_demo/` | Not started |
-| Report assembly and submission | To be decided | Google Doc | Not started |
+| Task 3a: Schema revisions (tables, keys, types, constraints, ER diagram) | Vanessa Cherbaka | `task3_integration/schema.sql` | Done |
+| Task 3b: Identifier management and traceability (global IDs, mapping, patient matching) | Maria Celena Said | `task3_integration/` | Done |
+| Task 4: Import into the SQL database | Samuel Richard | `task4_import/` | Done |
+| Task 5: Integrity enforcement and validation | Kigham Kerry Kinyuy | `task5_validation/` | Not started |
+| Task 6: Demonstration of the integrated database | Kigham Kerry Kinyuy | `task6_demo/` | Not started |
+| Report assembly and submission | Samuel Richard (document format: Maria-Christine Catiche) | Google Doc | In progress (Phase 2 Tasks 1–4 written) |
+| Rerunning the Phase 1 queries on the integrated database | Each member reruns their own Phase 1 queries | `task6_demo/` | Not started |
 
-Each task folder for Tasks 3 to 6 has a `README.md` with that task's requirements from the handout.
+Each task folder for Tasks 3 to 6 has a `README.md` with that task's requirements from the handout; the Task 3 and 4
+READMEs also explain how the task was done.
 
 ## The four sources
 
@@ -34,13 +39,15 @@ recorded in `docs/ai_disclosure.md` and `docs/ai_prompts/`.
 
 ## How to run
 
-Python 3.9 or newer, **standard library only**: nothing to install (no pandas). Run from the `soen363-phase2` folder.
+Python 3.10 or newer, **standard library only**: nothing to install (no pandas). Run from the `soen363-phase2` folder.
 
 | Command | What it does |
 |---|---|
-| `python run_all.py` | Runs Task 1 and Task 2 and writes every result to `output/` |
+| `python run_all.py` | Runs Tasks 1 to 4 and writes every result to `output/` (about 10 seconds) |
 | `python show_tables.py --task 1` | Runs Task 1 and prints its result tables (Figures 1–17) in the terminal |
 | `python show_tables.py --task 2` | Runs Task 2 and prints its result tables (Figures 18–35) |
+| `python show_tables.py --task 3` | Runs Task 3 and prints its tables (Figures 36–39) |
+| `python show_tables.py --task 4` | Runs Task 4 and prints its tables (Figures 40–41) |
 | `python show_tables.py --task 2 --no-run` | Prints the Task 2 tables of the last run, without running again |
 | `python show_tables.py --list` | Lists every figure and the task it belongs to |
 | `python show_tables.py 12 13 --no-run` | Prints only Figures 12 and 13 |
@@ -56,7 +63,7 @@ file is not where it should be, they name the file and stop. The tables are also
 
 ```
 soen363-phase2/
-├── run_all.py                  runs Task 1 and Task 2
+├── run_all.py                  runs Tasks 1 to 4
 ├── show_tables.py              runs a task and prints its result tables
 ├── common/                     code shared by every task
 │   ├── standards.py            the target model: source settings, column mappings, field levels, label maps
@@ -70,8 +77,13 @@ soen363-phase2/
 │   ├── clean_sources.py        the cleaning rules, duplicates, relationships, quarantine
 │   ├── cleaning_report.py      writes output/cleaning_report.md
 │   └── tables.py               the Task 2 result tables
-├── task3_integration/          Task 3 (README.md with the requirements)
-├── task4_import/               Task 4
+├── task3_integration/          Task 3: integrate the sources and refine the schema
+│   ├── schema.sql              the integrated schema (15 tables)
+│   ├── integrate.py            global keys, IdMapping, foreign-key rewriting, patient matching
+│   └── tables.py               the Task 3 result tables
+├── task4_import/               Task 4: import into the SQL database
+│   ├── import_db.py            parents-first load in one transaction, checks, atomic rebuild
+│   └── tables.py               the Task 4 result tables
 ├── task5_validation/           Task 5
 ├── task6_demo/                 Task 6
 ├── data/raw/                   the four raw sources (A_txt, B_csv, C_xml, D_json)
@@ -106,6 +118,16 @@ values and duplicates.
 Every rejected record goes to `output/quarantine/` with its original values and the reason. Every change is written to
 `output/cleaning_log/`.
 
+## What Tasks 3 and 4 do
+
+**Task 3, integrate.** Every clean record gets a global surrogate key, recorded in `IdMapping` with its source and
+original ID, and every foreign key is rewritten through that mapping. Patients are matched across sources with fixed
+rules and uncertain matches are kept apart. Details: `task3_integration/README.md`.
+
+**Task 4, import.** The integrated rows are loaded into `output/integrated/hospital.db`, parents first, with
+parameterized inserts in one transaction. A rerun rebuilds the database and swaps it in only after every check
+passed. Details: `task4_import/README.md`.
+
 ## Output files
 
 | Path | Task | Content |
@@ -118,23 +140,15 @@ Every rejected record goes to `output/quarantine/` with its original values and 
 | `output/cleaning_log/cleaning_log.csv` | 2 | Every individual change made to a value |
 | `output/cleaning_log/label_mappings.csv` | 2 | Every label mapping used (local value to standard value) |
 | `output/cleaning_report.md` | 2 | The cleaning rules and results as a readable report |
-| `output/tables/task<N>_tables.txt` | 1, 2 | The result tables printed by `show_tables.py` |
+| `output/integrated/hospital.db` | 3, 4 | The integrated SQLite database (git-ignored; rebuilt by every run) |
+| `output/integrated/id_mapping.csv` | 3 | Every source record and the integrated ID it was given |
+| `output/integrated/patient_match_candidates.csv` | 3 | Cross-source patient match candidates and their decision |
+| `output/integrated/import_log.csv` | 4 | Rows and checksum per table, compared with the previous run |
+| `output/tables/task<N>_tables.txt` | 1–4 | The result tables printed by `show_tables.py` |
 
-Task 3 starts from `output/clean/`.
+Task 3 starts from `output/clean/`; Task 5 starts from `output/integrated/hospital.db`.
 
-## Adding Tasks 3 to 6
+## Adding Tasks 5 and 6
 
 Put the task's code in its folder, then add it to `TASKS` in `show_tables.py` (the comment there explains the three
 steps). `python show_tables.py --task K` then runs it and prints its tables the same way as Tasks 1 and 2.
-Report (Google Doc): https://docs.google.com/document/d/1iXljZzHY5cRejdzYDqD--PLoNmUBPs-2YIBLBFgsMjM/edit
-
-| Task | Who |
-|---|---|
-| Synthetic source data (A–D) and data contract | Samuel Richard (B, D, contract), Maria-Christine Catiche (A, C) |
-| Task 1: Inspect and load the data | Maria-Christine Catiche |
-| Task 2: Clean and standardize the data | Maria-Christine Catiche |
-| Task 3: Integration and schema refinement | To be decided |
-| Task 4: Import into the SQL database | To be decided |
-| Task 5: Integrity enforcement and validation | To be decided |
-| Task 6: Demonstration of the integrated database | To be decided |
-| Report assembly and submission | To be decided |
