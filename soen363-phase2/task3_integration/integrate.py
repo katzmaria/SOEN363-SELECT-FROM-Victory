@@ -27,7 +27,6 @@ Standard library only.
 PIPELINE_VERSION = "2026.11.17-tasks"   # run_all.py checks that every file has the same version
 
 import re
-import sqlite3
 import unicodedata
 from collections import defaultdict
 from datetime import date, timedelta
@@ -271,23 +270,9 @@ def integrate():
 
 
 def build_db(out, id_rows, db_path):
-    db_path.unlink(missing_ok=True)
-    con = sqlite3.connect(db_path)
-    con.executescript(SCHEMA.read_text(encoding="utf-8"))
-    con.executemany("INSERT INTO SourceSystem VALUES (?, ?, ?, ?, ?)",
-                    [(s, SOURCES[s]["continent"], SOURCES[s]["name"], SOURCES[s]["format"], SOURCES[s]["timezone"])
-                     for s in SOURCE_ORDER])
-    _, icd = read_csv(CLEAN / "icd9_codes.csv")
-    tables = {"ICD9Dictionary": icd, "IdMapping": id_rows, **out}
-    for table, rows in tables.items():
-        cols = [c[1] for c in con.execute(f"PRAGMA table_info({table})")]
-        con.executemany(f"INSERT INTO {table} ({', '.join(cols)}) VALUES ({', '.join('?' * len(cols))})",
-                        [[None if r.get(c) in ("", None) else r[c] for c in cols] for r in rows])
-    con.commit()
-    bad = con.execute("PRAGMA foreign_key_check").fetchall()
-    con.close()
-    if bad:
-        raise SystemExit(f"Foreign key check failed: {bad[:5]}")
+    # loading is Task 4's job (parents first, one transaction, atomic swap): see task4_import/import_db.py
+    from task4_import.import_db import collect_rows, import_all
+    import_all(db_path, collect_rows(out, id_rows))
 
 
 def run(out_dir=OUT, quiet=False):

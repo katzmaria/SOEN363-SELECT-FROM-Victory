@@ -52,11 +52,18 @@ def run_task3(a):
     run(quiet=True)
 
 
+def run_task4(a):
+    from task4_import.import_db import run
+    print("Task 4 - importing into the SQL database ...")
+    run(quiet=True)
+
+
 TASKS = {
     1: (run_task1, "task1_load_profile.tables"),
     2: (run_task2, "task2_clean.tables"),
     3: (run_task3, "task3_integration.tables"),
-    # Tasks 4 to 6 - not written yet. When a task's code exists in its folder (see the README.md there):
+    4: (run_task4, "task4_import.tables"),
+    # Tasks 5 and 6 - not written yet. When a task's code exists in its folder (see the README.md there):
     #   1. write a run_taskK(a) function above that runs it,
     #   2. write taskK_.../tables.py with a tables(d) function: d.h("Task K: ...") then d.table(...) per result,
     #   3. add it here, e.g.  3: (run_task3, "task3_integration.tables"),
