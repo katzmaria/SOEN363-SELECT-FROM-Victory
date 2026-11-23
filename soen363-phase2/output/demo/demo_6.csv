@@ -1,0 +1,17 @@
+check_name,violations,result
+Admission without an existing patient,0,PASS
+Diagnosis without an existing admission,0,PASS
+Diagnosis with an ICD-9 code missing from the dictionary,0,PASS
+Diagnosis whose patient differs from its admission's patient,0,PASS
+TriageAssessment without an existing admission,0,PASS
+ClinicalNote without an existing admission,0,PASS
+DiagnosticOrder without an existing admission,0,PASS
+RadiologyExamination without an existing admission,0,PASS
+RadiologyExamination pointing at a missing order,0,PASS
+SurgicalProcedure without an existing admission,0,PASS
+UnitStay without an existing admission,0,PASS
+DischargeRecord without an existing admission,0,PASS
+Discharge before admission,0,PASS
+Unit exit before unit entry,0,PASS
+Radiology exam outside its admission period,0,PASS
+Surgical procedure outside its admission period,0,PASS

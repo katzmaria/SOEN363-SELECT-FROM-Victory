@@ -1,0 +1,13 @@
+local_patient_id,continent,source,original_id,integrated_patient_id,admissions
+1,Europe,A,1,1,1
+1,Africa,B,1,476,1
+1,Asia,C,P000001,1129,1
+1,Oceania,D,1,1604,1
+2,Europe,A,2,2,5
+2,Africa,B,2,477,1
+2,Asia,C,P000002,1130,0
+2,Oceania,D,2,1605,3
+3,Europe,A,3,3,2
+3,Africa,B,3,478,3
+3,Asia,C,P000003,1131,1
+3,Oceania,D,3,1606,1

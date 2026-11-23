@@ -1,0 +1,6 @@
+admission_type,Europe,Africa,Asia,Oceania,total
+emergency,192,341,211,396,1140
+urgent,162,139,146,140,587
+elective,176,132,146,131,585
+outpatient,125,152,152,146,575
+newborn,8,46,25,41,120
