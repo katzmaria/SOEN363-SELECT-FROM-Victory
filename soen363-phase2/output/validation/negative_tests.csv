@@ -1,0 +1,17 @@
+id,rule,mechanism,attempted_change,rejected,error,expected_reject
+NEG-pk-patient,Patient id is unique,PRIMARY KEY,INSERT Patient with existing patient_id=1,True,UNIQUE constraint failed: Patient.patient_id,True
+NEG-fk-admission-patient,Admission needs an existing patient,FOREIGN KEY,INSERT Admission with patient_id=-1,True,FOREIGN KEY constraint failed,True
+NEG-fk-diagnosis-patient-mismatch,Diagnosis patient must equal its admission's patient,FOREIGN KEY (composite),INSERT Diagnosis copy of #1 with patient_id=2 (admission is of 1),True,FOREIGN KEY constraint failed,True
+NEG-fk-diagnosis-icd9,Diagnosis ICD-9 code must be in the dictionary,FOREIGN KEY,INSERT Diagnosis copy of #1 with icd9_code='NOT-A-CODE',True,FOREIGN KEY constraint failed,True
+NEG-check-admission-times,Discharge must not be before admission,CHECK,INSERT Admission with discharge_time 2020-01-01 < admit_time 2020-01-02,True,CHECK constraint failed: discharge_time IS NULL OR discharge_time >= admit_time,True
+NEG-check-unitstay-times,Unit exit must not be before entry,CHECK,INSERT UnitStay copy of #1 with exit 2020-01-01 < entry 2020-01-02,True,CHECK constraint failed: exit_time IS NULL OR exit_time >= entry_time,True
+NEG-check-sex,sex is female / male / unknown,CHECK,UPDATE Patient #1 SET sex='other',True,"CHECK constraint failed: sex IN ('female', 'male', 'unknown')",True
+NEG-notnull-patient-name,Patient full_name is required,NOT NULL,INSERT Patient with full_name NULL,True,NOT NULL constraint failed: Patient.full_name,True
+NEG-notnull-icd9-key,ICD9Dictionary key is never NULL,NOT NULL,INSERT ICD9Dictionary with icd9_code NULL,True,NOT NULL constraint failed: ICD9Dictionary.icd9_code,True
+NEG-unique-professional-source,One professional row per source record,UNIQUE,"INSERT HealthcareProfessional with existing (A, 1) and a new id",True,"UNIQUE constraint failed: HealthcareProfessional.source_system, HealthcareProfessional.source_record_id",True
+NEG-unique-discharge-per-admission,At most one discharge record per admission,UNIQUE,INSERT DischargeRecord for admission 1 that already has one,True,UNIQUE constraint failed: DischargeRecord.admission_id,True
+NEG-trg-radiology-window,Radiology exam inside its admission window,trigger,INSERT RadiologyExamination copy of #1 (admission 2) with exam_time 1900-01-01T00:00:00Z,True,exam_time must be inside its admission period (admit_time to discharge_time),True
+NEG-trg-procedure-window,Surgical procedure inside its admission window,trigger,INSERT SurgicalProcedure copy of #1 (admission 5) with procedure_time 1900-01-01T00:00:00Z,True,procedure_time must be inside its admission period (admit_time to discharge_time),True
+NEG-trg-discharge-active,Discharge record only for a discharged/deceased admission,trigger,INSERT DischargeRecord for active admission 617,True,DischargeRecord requires an admission with status discharged or deceased,True
+NEG-trg-shrink-window,Admission window cannot exclude its radiology exams,trigger,UPDATE Admission 2 SET admit_time = 1 day after exam #1,True,admission period cannot exclude its radiology exams or procedures,True
+POS-control-radiology-valid,Valid exam (exam_time = admit_time) is accepted,none (positive control),INSERT RadiologyExamination copy of #1 with exam_time = its admission's admit_time,False,,False

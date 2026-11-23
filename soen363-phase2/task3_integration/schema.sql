@@ -4,7 +4,7 @@
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE SourceSystem (
-    source_system      TEXT PRIMARY KEY CHECK (source_system IN ('A', 'B', 'C', 'D')),
+    source_system      TEXT NOT NULL PRIMARY KEY CHECK (source_system IN ('A', 'B', 'C', 'D')),
     continent          TEXT NOT NULL UNIQUE,
     hospital_name      TEXT NOT NULL,
     file_format        TEXT NOT NULL CHECK (file_format IN ('TXT', 'CSV', 'XML', 'JSON')),
@@ -39,7 +39,7 @@ CREATE TABLE HealthcareProfessional (
 );
 
 CREATE TABLE ICD9Dictionary (
-    icd9_code          TEXT PRIMARY KEY,
+    icd9_code          TEXT NOT NULL PRIMARY KEY,
     official_title     TEXT NOT NULL,
     description        TEXT,
     disease_category   TEXT
@@ -250,3 +250,65 @@ CREATE INDEX idx_note_admission        ON ClinicalNote(admission_id);
 CREATE INDEX idx_triage_admission      ON TriageAssessment(admission_id);
 CREATE INDEX idx_order_admission       ON DiagnosticOrder(admission_id);
 CREATE INDEX idx_idmap_integrated    ON IdMapping(entity_type, integrated_id);
+
+-- Cross-table rules a CHECK cannot express (SQLite CHECKs see one row only). Timestamps are ISO 8601 UTC text
+-- ('YYYY-MM-DDTHH:MM:SSZ'), so string comparison is chronological. For radiology and procedures an admission_id
+-- that does not exist passes the trigger and is rejected by the foreign key; the DischargeRecord trigger rejects it itself.
+CREATE TRIGGER trg_radiology_in_admission_insert BEFORE INSERT ON RadiologyExamination
+BEGIN
+    SELECT RAISE(ABORT, 'exam_time must be inside its admission period (admit_time to discharge_time)')
+    WHERE EXISTS (SELECT 1 FROM Admission a WHERE a.admission_id = NEW.admission_id
+                  AND (NEW.exam_time < a.admit_time OR (a.discharge_time IS NOT NULL AND NEW.exam_time > a.discharge_time)));
+END;
+
+CREATE TRIGGER trg_radiology_in_admission_update BEFORE UPDATE ON RadiologyExamination
+BEGIN
+    SELECT RAISE(ABORT, 'exam_time must be inside its admission period (admit_time to discharge_time)')
+    WHERE EXISTS (SELECT 1 FROM Admission a WHERE a.admission_id = NEW.admission_id
+                  AND (NEW.exam_time < a.admit_time OR (a.discharge_time IS NOT NULL AND NEW.exam_time > a.discharge_time)));
+END;
+
+CREATE TRIGGER trg_procedure_in_admission_insert BEFORE INSERT ON SurgicalProcedure
+BEGIN
+    SELECT RAISE(ABORT, 'procedure_time must be inside its admission period (admit_time to discharge_time)')
+    WHERE EXISTS (SELECT 1 FROM Admission a WHERE a.admission_id = NEW.admission_id
+                  AND (NEW.procedure_time < a.admit_time OR (a.discharge_time IS NOT NULL AND NEW.procedure_time > a.discharge_time)));
+END;
+
+CREATE TRIGGER trg_procedure_in_admission_update BEFORE UPDATE ON SurgicalProcedure
+BEGIN
+    SELECT RAISE(ABORT, 'procedure_time must be inside its admission period (admit_time to discharge_time)')
+    WHERE EXISTS (SELECT 1 FROM Admission a WHERE a.admission_id = NEW.admission_id
+                  AND (NEW.procedure_time < a.admit_time OR (a.discharge_time IS NOT NULL AND NEW.procedure_time > a.discharge_time)));
+END;
+
+CREATE TRIGGER trg_discharge_record_completed_insert BEFORE INSERT ON DischargeRecord
+BEGIN
+    SELECT RAISE(ABORT, 'DischargeRecord requires an admission with status discharged or deceased')
+    WHERE NOT EXISTS (SELECT 1 FROM Admission a WHERE a.admission_id = NEW.admission_id
+                      AND a.admission_status IN ('discharged', 'deceased'));
+END;
+
+CREATE TRIGGER trg_discharge_record_completed_update BEFORE UPDATE ON DischargeRecord
+BEGIN
+    SELECT RAISE(ABORT, 'DischargeRecord requires an admission with status discharged or deceased')
+    WHERE NOT EXISTS (SELECT 1 FROM Admission a WHERE a.admission_id = NEW.admission_id
+                      AND a.admission_status IN ('discharged', 'deceased'));
+END;
+
+-- Admission changes must not strand its children.
+CREATE TRIGGER trg_admission_keep_completed BEFORE UPDATE OF admission_status ON Admission
+BEGIN
+    SELECT RAISE(ABORT, 'admission_status cannot leave discharged/deceased while a DischargeRecord exists')
+    WHERE EXISTS (SELECT 1 FROM DischargeRecord d WHERE d.admission_id = NEW.admission_id)
+      AND (NEW.admission_status IS NULL OR NEW.admission_status NOT IN ('discharged', 'deceased'));
+END;
+
+CREATE TRIGGER trg_admission_keep_window BEFORE UPDATE OF admit_time, discharge_time ON Admission
+BEGIN
+    SELECT RAISE(ABORT, 'admission period cannot exclude its radiology exams or procedures')
+    WHERE EXISTS (SELECT 1 FROM RadiologyExamination e WHERE e.admission_id = NEW.admission_id
+                  AND (e.exam_time < NEW.admit_time OR (NEW.discharge_time IS NOT NULL AND e.exam_time > NEW.discharge_time)))
+       OR EXISTS (SELECT 1 FROM SurgicalProcedure p WHERE p.admission_id = NEW.admission_id
+                  AND (p.procedure_time < NEW.admit_time OR (NEW.discharge_time IS NOT NULL AND p.procedure_time > NEW.discharge_time)));
+END;
