@@ -63,7 +63,8 @@ CREATE TABLE Patient (
 );
 
 -- Possible cross-source duplicates found by the matching rules (task3_integration/README.md).
--- 'merged' pairs share one Patient; 'uncertain' pairs stay separate patients.
+-- 'merged' pairs share one Patient; 'uncertain' pairs stay separate patients; 'merged_transitive' pairs were
+-- uncertain on their own but share one Patient because both records were merged with the same other record.
 CREATE TABLE PatientMatchCandidate (
     candidate_id       INTEGER PRIMARY KEY,
     source_system_1    TEXT    NOT NULL REFERENCES SourceSystem(source_system),
@@ -74,10 +75,10 @@ CREATE TABLE PatientMatchCandidate (
     patient_id_2       INTEGER NOT NULL REFERENCES Patient(patient_id),
     rule_code          TEXT    NOT NULL,
     evidence           TEXT    NOT NULL,
-    decision           TEXT    NOT NULL CHECK (decision IN ('merged', 'uncertain')),
+    decision           TEXT    NOT NULL CHECK (decision IN ('merged', 'merged_transitive', 'uncertain')),
     CHECK (source_system_1 < source_system_2),
     UNIQUE (source_system_1, source_local_id_1, source_system_2, source_local_id_2),
-    CHECK ((decision = 'merged') = (patient_id_1 = patient_id_2))
+    CHECK ((decision IN ('merged', 'merged_transitive')) = (patient_id_1 = patient_id_2))
 );
 
 CREATE TABLE Admission (

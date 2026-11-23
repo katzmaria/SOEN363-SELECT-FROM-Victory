@@ -17,6 +17,8 @@ lowercasing, removing accents and punctuation; phones as digits only, without th
              same last name and date of birth, different first name               (LASTNAME_DOB)
              same first + last name, date of birth one day apart or day/month swapped (NAME_DOB_NEAR)
              -> kept as separate patients, the pair is stored in PatientMatchCandidate
+  MERGED_TRANSITIVE  an uncertain pair whose two records still end up as one patient because each was merged
+             with the same other record; the pair keeps its rule and evidence, only the decision changes
   Anything else (including the same name alone) is not a match.
 Healthcare professionals are never merged across sources: the hospitals are on different continents.
 Standard library only.
@@ -229,12 +231,18 @@ def integrate():
 
     candidates = []
     for i, (p, q, decision, rule, ev) in enumerate(pairs, 1):
+        pid1 = mapping[("Patient", p["source_system"], p["patient_id"])]
+        pid2 = mapping[("Patient", q["source_system"], q["patient_id"])]
+        # an 'uncertain' pair can still end up as one patient if both sides got merged with the same third record
+        # (A1~B1 merged, B1~C1 merged, A1~C1 uncertain). union-find already joined them, so relabel the pair
+        # instead of letting the CHECK on PatientMatchCandidate blow up. rule + evidence stay as they were
+        if decision == "uncertain" and pid1 == pid2:
+            decision = "merged_transitive"
+            ev += "; same patient through other merged pairs"
         candidates.append(dict(
             candidate_id=i,
-            source_system_1=p["source_system"], source_local_id_1=p["patient_id"],
-            patient_id_1=mapping[("Patient", p["source_system"], p["patient_id"])],
-            source_system_2=q["source_system"], source_local_id_2=q["patient_id"],
-            patient_id_2=mapping[("Patient", q["source_system"], q["patient_id"])],
+            source_system_1=p["source_system"], source_local_id_1=p["patient_id"], patient_id_1=pid1,
+            source_system_2=q["source_system"], source_local_id_2=q["patient_id"], patient_id_2=pid2,
             rule_code=rule, evidence=ev, decision=decision))
     out["PatientMatchCandidate"] = candidates
 
@@ -291,7 +299,7 @@ def run(out_dir=OUT, quiet=False):
     cand = out["PatientMatchCandidate"]
     write_csv(out_dir / "patient_match_candidates.csv", cand, list(cand[0]) if cand else ["candidate_id"])
     if not quiet:
-        merged = sum(c["decision"] == "merged" for c in cand)
+        merged = sum(c["decision"] in ("merged", "merged_transitive") for c in cand)   # both mean same patient
         print(f"  {len(id_rows)} source records mapped; {len(out['Patient'])} patients "
               f"({merged} merged pairs, {len(cand) - merged} uncertain pairs kept separate)")
         print(f"  -> {out_dir / 'hospital.db'}")
