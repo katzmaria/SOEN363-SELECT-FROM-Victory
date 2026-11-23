@@ -46,10 +46,17 @@ def run_task2(a):
     run(tuple(a.sources), Path(a.icd9), ROOT / "output", quiet=True)
 
 
+def run_task3(a):
+    from task3_integration.integrate import run
+    print("Task 3 - integrating the sources ...")
+    run(quiet=True)
+
+
 TASKS = {
     1: (run_task1, "task1_load_profile.tables"),
     2: (run_task2, "task2_clean.tables"),
-    # Tasks 3 to 6 - not written yet. When a task's code exists in its folder (see the README.md there):
+    3: (run_task3, "task3_integration.tables"),
+    # Tasks 4 to 6 - not written yet. When a task's code exists in its folder (see the README.md there):
     #   1. write a run_taskK(a) function above that runs it,
     #   2. write taskK_.../tables.py with a tables(d) function: d.h("Task K: ...") then d.table(...) per result,
     #   3. add it here, e.g.  3: (run_task3, "task3_integration.tables"),

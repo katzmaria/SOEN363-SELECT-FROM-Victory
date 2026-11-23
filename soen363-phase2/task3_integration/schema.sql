@@ -11,12 +11,19 @@ CREATE TABLE SourceSystem (
     source_timezone    TEXT NOT NULL
 );
 
+-- Global surrogate keys (handout 6.1, 6.2). Every clean record gets one row: its source (continent via
+-- SourceSystem), its local key from the clean files, its original raw ID, and the integrated key it was given.
+-- integrated_id is not unique on purpose: a merged patient keeps one row per source record.
 CREATE TABLE IdMapping (
-    entity_type        TEXT NOT NULL,
-    source_system      TEXT NOT NULL REFERENCES SourceSystem(source_system),
-    source_record_id   TEXT NOT NULL,
+    entity_type        TEXT    NOT NULL CHECK (entity_type IN ('Patient', 'HealthcareProfessional', 'Admission',
+                           'TriageAssessment', 'Diagnosis', 'ClinicalNote', 'DiagnosticOrder',
+                           'RadiologyExamination', 'SurgicalProcedure', 'UnitStay', 'DischargeRecord')),
+    source_system      TEXT    NOT NULL REFERENCES SourceSystem(source_system),
+    source_local_id    INTEGER NOT NULL,
+    source_record_id   TEXT    NOT NULL,
     integrated_id      INTEGER NOT NULL,
-    PRIMARY KEY (entity_type, source_system, source_record_id)
+    PRIMARY KEY (entity_type, source_system, source_local_id),
+    UNIQUE (entity_type, source_system, source_record_id)
 );
 
 CREATE TABLE HealthcareProfessional (
@@ -38,9 +45,8 @@ CREATE TABLE ICD9Dictionary (
     disease_category   TEXT
 );
 
+-- No source columns here: a merged patient can come from several sources. Its source records are in IdMapping.
 CREATE TABLE Patient (
-    source_system                   TEXT NOT NULL REFERENCES SourceSystem(source_system),
-    source_record_id                TEXT NOT NULL,
     patient_id                      INTEGER PRIMARY KEY,
     first_name                      TEXT,
     last_name                       TEXT,
@@ -53,8 +59,25 @@ CREATE TABLE Patient (
     emergency_contact_relationship  TEXT,
     emergency_contact_phone         TEXT,
     life_status                     TEXT CHECK (life_status IN ('alive', 'deceased')),
-    quality_flags                   TEXT,
-    UNIQUE (source_system, source_record_id)
+    quality_flags                   TEXT
+);
+
+-- Possible cross-source duplicates found by the matching rules (task3_integration/README.md).
+-- 'merged' pairs share one Patient; 'uncertain' pairs stay separate patients.
+CREATE TABLE PatientMatchCandidate (
+    candidate_id       INTEGER PRIMARY KEY,
+    source_system_1    TEXT    NOT NULL REFERENCES SourceSystem(source_system),
+    source_local_id_1  INTEGER NOT NULL,
+    patient_id_1       INTEGER NOT NULL REFERENCES Patient(patient_id),
+    source_system_2    TEXT    NOT NULL REFERENCES SourceSystem(source_system),
+    source_local_id_2  INTEGER NOT NULL,
+    patient_id_2       INTEGER NOT NULL REFERENCES Patient(patient_id),
+    rule_code          TEXT    NOT NULL,
+    evidence           TEXT    NOT NULL,
+    decision           TEXT    NOT NULL CHECK (decision IN ('merged', 'uncertain')),
+    CHECK (source_system_1 < source_system_2),
+    UNIQUE (source_system_1, source_local_id_1, source_system_2, source_local_id_2),
+    CHECK ((decision = 'merged') = (patient_id_1 = patient_id_2))
 );
 
 CREATE TABLE Admission (
@@ -225,3 +248,4 @@ CREATE INDEX idx_procedure_admission   ON SurgicalProcedure(admission_id);
 CREATE INDEX idx_note_admission        ON ClinicalNote(admission_id);
 CREATE INDEX idx_triage_admission      ON TriageAssessment(admission_id);
 CREATE INDEX idx_order_admission       ON DiagnosticOrder(admission_id);
+CREATE INDEX idx_idmap_integrated    ON IdMapping(entity_type, integrated_id);
