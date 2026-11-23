@@ -1,0 +1,6 @@
+source,continent,patient_source_records,integrated_patients,admission_source_records,integrated_admissions
+A,Europe,475,475,663,663
+B,Africa,653,653,810,810
+C,Asia,475,475,680,680
+D,Oceania,648,648,854,854
+All,All,2251,2251,3007,3007

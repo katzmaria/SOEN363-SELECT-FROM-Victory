@@ -1,0 +1,8 @@
+measure,value
+Patient local IDs used by more than one source,651
+Admission local IDs used by more than one source,826
+Patient source records (IdMapping rows),2251
+Integrated patients (Patient rows),2251
+Integrated patients made from more than one source record (merged),0
+Cross-source match pairs kept separate (uncertain),0
+Admissions pointing at a patient of another source (must be 0),0

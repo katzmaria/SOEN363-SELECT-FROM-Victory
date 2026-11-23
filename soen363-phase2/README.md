@@ -9,19 +9,19 @@ Report (Google Doc): https://docs.google.com/document/d/1iXljZzHY5cRejdzYDqD--PL
 
 | Task | Who | Folder | Status |
 |---|---|---|---|
-| Synthetic source data (A–D) and data contract | Samuel Richard (B, D, contract), Maria-Christine Catiche (A, C) | `data/raw/`, `generator/`, `docs/` | Done |
+| Synthetic source data (A–D) and data contract | Samuel Richard (B, D, contract), Maria-Christine Catiche (A, C) | `data/raw/`, `docs/` | Done |
 | Task 1: Inspect and load the data | Maria-Christine Catiche | `task1_load_profile/` | Done |
 | Task 2: Clean and standardize the data | Maria-Christine Catiche | `task2_clean/` | Done |
 | Task 3a: Schema revisions (tables, keys, types, constraints, ER diagram) | Vanessa Cherbaka | `task3_integration/schema.sql` | Done |
 | Task 3b: Identifier management and traceability (global IDs, mapping, patient matching) | Maria Celena Said | `task3_integration/` | Done |
 | Task 4: Import into the SQL database | Samuel Richard | `task4_import/` | Done |
-| Task 5: Integrity enforcement and validation | Kigham Kerry Kinyuy | `task5_validation/` | Done (code, README and outputs; text for the shared report not yet pasted) |
-| Task 6: Demonstration of the integrated database | Kigham Kerry Kinyuy | `task6_demo/` | Not started |
-| Report assembly and submission | Samuel Richard (document format: Maria-Christine Catiche) | Google Doc | In progress (Phase 2 Tasks 1–4 written) |
-| Rerunning the Phase 1 queries on the integrated database | Each member reruns their own Phase 1 queries | `task6_demo/` | Not started |
+| Task 5: Integrity enforcement and validation | Kigham Kerry Kinyuy | `task5_validation/` | Done |
+| Task 6: Demonstration of the integrated database | Kigham Kerry Kinyuy | `task6_demo/` | Done |
+| Report assembly and submission | Samuel Richard (document format: Maria-Christine Catiche) | Google Doc | In progress (Phase 2 Tasks 1–6 written) |
+| Rerunning the Phase 1 queries on the integrated database | Each member reruns their own Phase 1 queries | `task6_demo/` | Done |
 
-Each task folder for Tasks 3 to 6 has a `README.md` with that task's requirements from the handout; the Task 3, 4 and
-5 READMEs also explain how the task was done.
+Each task folder for Tasks 3 to 6 has a `README.md` with that task's requirements from the handout; the Task 3, 4, 5 and
+6 READMEs also explain how the task was done.
 
 ## The four sources
 
@@ -43,12 +43,13 @@ Python 3.10 or newer, **standard library only**: nothing to install (no pandas).
 
 | Command | What it does |
 |---|---|
-| `python run_all.py` | Runs Tasks 1 to 5 and writes every result to `output/` (about 10 seconds) |
+| `python run_all.py` | Runs Tasks 1 to 6 and writes every result to `output/` (about 10 seconds) |
 | `python show_tables.py --task 1` | Runs Task 1 and prints its result tables (Figures 1–17) in the terminal |
 | `python show_tables.py --task 2` | Runs Task 2 and prints its result tables (Figures 18–35) |
 | `python show_tables.py --task 3` | Runs Task 3 and prints its tables (Figures 36–39) |
 | `python show_tables.py --task 4` | Runs Task 4 and prints its tables (Figures 40–41) |
 | `python show_tables.py --task 5` | Runs Task 5 (validation checks and negative tests) and prints its tables (Figures 42–48) |
+| `python show_tables.py --task 6` | Runs the demonstration and Phase 1 queries and prints their tables (Figures 49 onward) |
 | `python show_tables.py --task 2 --no-run` | Prints the Task 2 tables of the last run, without running again |
 | `python show_tables.py --list` | Lists every figure and the task it belongs to |
 | `python show_tables.py 12 13 --no-run` | Prints only Figures 12 and 13 |
@@ -64,7 +65,7 @@ file is not where it should be, they name the file and stop. The tables are also
 
 ```
 soen363-phase2/
-├── run_all.py                  runs Tasks 1 to 5
+├── run_all.py                  runs Tasks 1 to 6
 ├── show_tables.py              runs a task and prints its result tables
 ├── common/                     code shared by every task
 │   ├── standards.py            the target model: source settings, column mappings, field levels, label maps
@@ -89,10 +90,12 @@ soen363-phase2/
 │   ├── validate.py             the 118 validation checks on hospital.db (read-only)
 │   ├── negative_tests.py       16 attempts to break the rules, on a copy of the database
 │   └── tables.py               the Task 5 result tables
-├── task6_demo/                 Task 6
+├── task6_demo/                 Task 6: demonstrate the integrated database
+│   ├── run_demo.py             runs the queries read-only, writes output/demo/
+│   ├── queries/                demo_1 to demo_6 (handout) and q01 to q20 (Phase 1, adapted)
+│   └── tables.py               the Task 6 result tables
 ├── data/raw/                   the four raw sources (A_txt, B_csv, C_xml, D_json)
-├── generator/                  the script that generated the synthetic data
-├── docs/                       data contract and generative AI disclosure
+├── docs/                       data contract, generative AI disclosure and the AI generator scripts and prompts (ai_prompts/)
 └── output/                     everything the pipeline writes (rebuilt on every run)
 ```
 
@@ -122,7 +125,7 @@ values and duplicates.
 Every rejected record goes to `output/quarantine/` with its original values and the reason. Every change is written to
 `output/cleaning_log/`.
 
-## What Tasks 3 to 5 do
+## What Tasks 3 to 6 do
 
 **Task 3, integrate.** Every clean record gets a global surrogate key, recorded in `IdMapping` with its source and
 original ID, and every foreign key is rewritten through that mapping. Patients are matched across sources with fixed
@@ -138,6 +141,11 @@ cannot express (radiology and procedures inside the admission, discharge record 
 `negative_tests.py` tries 16 changes on a copy of it (15 must be rejected, 1 valid control accepted). Unresolved
 limitations, such as 295 completed admissions without a primary diagnosis, are reported, not repaired. Details:
 `task5_validation/README.md`.
+
+**Task 6, demonstrate.** Six demonstration queries (counts by source and continent, admissions by type,
+top primary ICD-9 by continent, average completed stay, resolved duplicate identifiers, orphan and chronology checks)
+and the 20 Phase 1 queries rerun on the integrated database, with an explanation of every result that changed.
+Details: `task6_demo/README.md`.
 
 ## Output files
 
@@ -158,11 +166,7 @@ limitations, such as 295 completed admissions without a primary diagnosis, are r
 | `output/validation/validation_results.csv` | 5 | One row per validation check: rule, enforced by, severity, violations, status |
 | `output/validation/violations_sample.csv` | 5 | The first 20 offending rows of every check that is not PASS |
 | `output/validation/negative_tests.csv` | 5 | Each attempt to break a rule, and the error the database returned |
-| `output/tables/task<N>_tables.txt` | 1–5 | The result tables printed by `show_tables.py` |
+| `output/demo/demo_*.csv`, `output/demo/summary.csv` | 6 | Results of the six demonstration queries; per query: Phase 1 rows, rows now, why it changed (the 20 Phase 1 results `qNN.csv` are regenerated by `run_demo.py` and not committed) |
+| `output/tables/task<N>_tables.txt` | 1–6 | The result tables printed by `show_tables.py` |
 
-Task 3 starts from `output/clean/`; Task 5 starts from `output/integrated/hospital.db`.
-
-## Adding Task 6
-
-Put the task's code in its folder, then add it to `TASKS` in `show_tables.py` (the comment there explains the three
-steps). `python show_tables.py --task K` then runs it and prints its tables the same way as Tasks 1 and 2.
+Task 3 starts from `output/clean/`; Tasks 5 and 6 start from `output/integrated/hospital.db`.

@@ -1,0 +1,5 @@
+continent,completed_admissions,avg_duration_days,min_days,max_days
+Africa,800,3.39,0.09,11.97
+Asia,678,7.47,0.04,18.0
+Europe,662,7.71,0.04,18.0
+Oceania,847,3.22,0.06,11.62

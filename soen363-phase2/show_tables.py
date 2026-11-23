@@ -69,17 +69,21 @@ def run_task5(a: argparse.Namespace) -> None:
     negative_tests.write_results(negative_tests.run_negative_tests(db), out)
 
 
+def run_task6(a: argparse.Namespace) -> None:
+    from task6_demo.run_demo import run
+    if not (ROOT / "output" / "integrated" / "hospital.db").exists():
+        raise SystemExit("No database for the demonstration: run Task 4 first (python show_tables.py --task 4)")
+    print("Task 6 - running the demonstration queries ...")
+    run(quiet=True)
+
+
 TASKS = {
     1: (run_task1, "task1_load_profile.tables"),
     2: (run_task2, "task2_clean.tables"),
     3: (run_task3, "task3_integration.tables"),
     4: (run_task4, "task4_import.tables"),
     5: (run_task5, "task5_validation.tables"),
-    # Task 6 - not written yet. When a task's code exists in its folder (see the README.md there):
-    #   1. write a run_taskK(a) function above that runs it,
-    #   2. write taskK_.../tables.py with a tables(d) function: d.h("Task K: ...") then d.table(...) per result,
-    #   3. add it here, e.g.  5: (run_task5, "task5_validation.tables"),
-    # Then `python show_tables.py --task K` runs it and prints its tables like Tasks 1 and 2.
+    6: (run_task6, "task6_demo.tables"),
 }
 
 

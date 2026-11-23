@@ -1,16 +1,30 @@
 # Our data contract
 
+This was the plan the team agreed before the pipeline was written. Sections 1 and 4 to 7 still hold. Where the final
+pipeline differs from sections 2, 3, 5 and 8, the differences are listed here, and the code and its output are the
+reference.
+
+## 0. What the final pipeline does differently
+
+| Topic | In this plan | In the final pipeline |
+|---|---|---|
+| Clean files | `data/clean/<source>_<table>.csv`, one file per source and table | `output/clean/<entity>.csv`, one file per entity with all four sources together (`admissions.csv`, `patients.csv`, ...) |
+| Source columns | `source_id`, `source_record_id` at the end | `source_system`, `source_record_id` at the start of every row, plus a `quality_flags` column |
+| Column names | Same as the Phase 1 schema | The names of the integrated schema (`task3_integration/schema.sql`), for example `admit_time`, `discharge_time`, `admission_status`, `triage_priority`, `exam_status`, `note_text` |
+| Timestamps | `YYYY-MM-DD HH:MM:SS` in UTC | ISO 8601 in UTC with a `T` and a `Z`, for example `2024-05-08T12:59:00Z`; the source time zone is kept in `source_timezone` |
+| Rejected records | `data/rejected/<source>_rejected.csv`, reason codes such as `BROKEN_REFERENCE` | `output/quarantine/<entity>.csv` with `source_system`, `entity`, `source_record_id`, `source_row`, `disposition`, `duplicate_of`, `reason_codes`, `reason_details`, `raw_record`; reason codes are lower case, for example `orphan_reference`, `chronology`, `near_duplicate`, `unknown_icd9_code`, `unmappable_label` |
+| Unreadable records | Rejected as `MALFORMED` | Logged in `output/profile/malformed_records.csv` and `output/quarantine/malformed_records.csv` |
+| Duplicates | The first record is kept, the rest are rejected as `DUPLICATE` | The lowest id is kept, its empty fields are filled from the duplicate, references are re-pointed, and the removed copy is logged with `duplicate_of` |
+| Identifiers | Source owners keep local IDs | Task 3 assigns global IDs and records every source ID in `IdMapping` (see `task3_integration/README.md`) |
 
 ## 1. Sources
 
 | Source | Format | Continent | Hospital system name | Source time zone | Owner |
 |---|---|---|---|---|---|
-| A | TXT | | | | to be chosen |
+| A | TXT | Europe | CHU de Montclair-sur-Loire | Europe/Paris | Maria-Christine |
 | B | CSV | Africa | Uganda National Hospital | Africa/Kampala (UTC+3, no DST) | Samuel |
-| C | XML | | | | to be chosen |
-| D | JSON | | | | to be chosen |
-
-Everyone picks a different continent from everyone else. 
+| C | XML | Asia | Straits Regional Medical Centre | Asia/Singapore (UTC+8, no DST) | Maria-Christine |
+| D | JSON | Oceania | Coral Coast Health Service | Australia/Sydney (UTC+10/+11, has DST) | Samuel |
 
 ## 2. Cleaned output files
 
@@ -36,7 +50,7 @@ Everyone picks a different continent from everyone else.
 
 ## 3. Formats
 
-- Timestamps: `YYYY-MM-DD HH:MM:SS` in UTC. Convert from the source's time zone (section 1). We went with UTC because Eastern time repeats an hour in the fall when DST ends.
+- Timestamps: `YYYY-MM-DD HH:MM:SS` in UTC. Convert from the source's time zone (section 1). We went with UTC because two sources (Europe/Paris and Australia/Sydney) have daylight saving time, which repeats an hour once a year.
 - Dates with no time (date_of_birth): `YYYY-MM-DD`, no conversion.
 - Ambiguous dates: if a date could be read two ways (e.g. `03/04/2025` in a source that mixes day-first and month-first), reject it as `AMBIGUOUS_DATE` instead of guessing.
 - Missing values: leave the field empty so it loads as NULL. Placeholders like `N/A`, `null`, `-`, `?`, `none`, `0000-00-00` or `-1` should be turned into empty fields too. Don't write the word `NULL`.

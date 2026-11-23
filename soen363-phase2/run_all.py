@@ -12,6 +12,7 @@ Runs the Phase 2 pipeline, from the soen363-phase2 folder:
 5. Task 4: rebuilds hospital.db in one transaction  -> output/integrated/hospital.db, import_log.csv
    (rerun check: import_log.csv says whether every table is identical to the previous import)
 6. Task 5: validates hospital.db and runs the negative tests -> output/validation/
+7. Task 6: runs the demonstration queries and the 20 Phase 1 queries -> output/demo/
 To see the result tables in the terminal, use show_tables.py instead (it runs the same steps).
 Standard library only: nothing to install.
 """
@@ -31,7 +32,8 @@ MODULES = ["common.tabular", "common.standards", "common.parsers",
            "task2_clean.clean_sources", "task2_clean.cleaning_report", "task2_clean.tables",
            "task3_integration.integrate", "task3_integration.tables",
            "task4_import.import_db", "task4_import.tables",
-           "task5_validation.validate", "task5_validation.negative_tests", "task5_validation.tables"]
+           "task5_validation.validate", "task5_validation.negative_tests", "task5_validation.tables",
+           "task6_demo.run_demo", "task6_demo.tables"]
 OLD_FOLDERS = ["cleaning", "profiling", "reporting"]          # replaced by common/ and the task folders
 RAW = {"A": "data/raw/A_txt/sejours.txt", "B": "data/raw/B_csv/admissions.csv",
        "C": "data/raw/C_xml/hospital_records.xml", "D": "data/raw/D_json/patients_p1.json"}
@@ -94,4 +96,7 @@ if __name__ == "__main__":
     print("Task 5 - validating data integrity ...")
     validate.write_results(validate.run_checks(), OUT / "validation")
     negative_tests.write_results(negative_tests.run_negative_tests(), OUT / "validation")
-    print(f"Done in {time.time() - t0:.1f} s. To see the tables: python show_tables.py --task 1  (or --task 2, 3, 4, 5)")
+    from task6_demo.run_demo import run as demo
+    print("Task 6 - running the demonstration queries ...")
+    demo()
+    print(f"Done in {time.time() - t0:.1f} s. To see the tables: python show_tables.py --task 1  (or --task 2, 3, 4, 5, 6)")
