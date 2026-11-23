@@ -102,13 +102,22 @@ UNIQUE, and triggers. Representative lines:
 
 ## Warnings (kept and reported)
 
-- **229 completed admissions have no DischargeRecord.** The four sources all export discharge records, and no
-  DischargeRecord was imported for these admissions. The cause is not established here; Task 2 may have
-  quarantined some of them (`output/quarantine/discharges.csv`). The admissions are kept.
+- **229 completed admissions have no DischargeRecord.** Cause, traced to the raw files:
+  - **43** have no discharge record in the raw source (A 12, B 20, C 9, D 2). Nothing was lost; the record never existed.
+  - **186** have a raw discharge record that Task 2 quarantined (187 quarantined records, `output/quarantine/discharges.csv`).
+    Reasons: discharge before admission 60, invalid date 37, unknown professional 25, ambiguous date 22, missing
+    professional 22, missing discharge time 21.
+
+  The admissions are kept with their own discharge time. Not repaired: a rejected discharge record cannot be restored
+  without inventing its values.
 - **5 event rows lie outside their admission period:** 1 diagnostic order, 3 diagnoses and 1 clinical note. All five are after the
-  admission's discharge, by about 7 to 35 days, so this is not rounding. The cause is not established. The rows are kept and
-  reported; no trigger enforces these three, so they could be imported. Radiology, procedures, triage
-  and unit stays have 0 such rows.
+  admission's discharge, by about 7 to 35 days, so this is not rounding. **Cause:** all five belong to admissions whose
+  discharge time was recovered in Task 3 from the same source's discharge record (flag
+  `discharge_time_from_discharge_record`). In Task 2 those admissions had no discharge time, so the chronology check had
+  nothing to compare the events with. The recovered discharge time or the event time is wrong; the data does not say
+  which. The rows are kept and reported; no trigger enforces these three, so they could be imported. Radiology,
+  procedures, triage and unit stays have 0 such rows. The handout only requires examinations and procedures to be
+  inside the admission period, so this is an additional check.
 
 ## Known limitations
 
