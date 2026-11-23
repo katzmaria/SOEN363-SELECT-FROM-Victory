@@ -1,0 +1,272 @@
+####################################################################################################
+# 5.1 Summary of all checks
+####################################################################################################
+
+Figure 42: Checks by group (PK, FK, REQ, DOM, FMT, TIME, STAT, PAT, LIM, EVID) and result
++-------------+-------------+------+------+---------+------------+--------+
+| Check group | Enforced by | PASS | FAIL | WARNING | LIMITATION | Checks |
++=============+=============+======+======+=========+============+========+
+| PK          | constraint  | 15   | 0    | 0       | 0          | 15     |
++-------------+-------------+------+------+---------+------------+--------+
+| FK          | constraint  | 38   | 0    | 0       | 0          | 38     |
++-------------+-------------+------+------+---------+------------+--------+
+| REQ         | query       | 15   | 0    | 0       | 0          | 15     |
++-------------+-------------+------+------+---------+------------+--------+
+| DOM         | constraint  | 11   | 0    | 0       | 0          | 11     |
++-------------+-------------+------+------+---------+------------+--------+
+| FMT         | query       | 13   | 0    | 0       | 0          | 13     |
++-------------+-------------+------+------+---------+------------+--------+
+| TIME        | constraint  | 2    | 0    | 0       | 0          | 2      |
++-------------+-------------+------+------+---------+------------+--------+
+| TIME        | query       | 3    | 0    | 3       | 0          | 6      |
++-------------+-------------+------+------+---------+------------+--------+
+| TIME        | trigger     | 2    | 0    | 0       | 0          | 2      |
++-------------+-------------+------+------+---------+------------+--------+
+| STAT        | constraint  | 1    | 0    | 0       | 0          | 1      |
++-------------+-------------+------+------+---------+------------+--------+
+| STAT        | query       | 2    | 0    | 1       | 0          | 3      |
++-------------+-------------+------+------+---------+------------+--------+
+| STAT        | trigger     | 1    | 0    | 0       | 0          | 1      |
++-------------+-------------+------+------+---------+------------+--------+
+| PAT         | constraint  | 1    | 0    | 0       | 0          | 1      |
++-------------+-------------+------+------+---------+------------+--------+
+| LIM         | query       | 0    | 0    | 0       | 8          | 8      |
++-------------+-------------+------+------+---------+------------+--------+
+| EVID        | query       | 2    | 0    | 0       | 0          | 2      |
++-------------+-------------+------+------+---------+------------+--------+
+| Total       |             | 106  | 0    | 4       | 8          | 118    |
++-------------+-------------+------+------+---------+------------+--------+
+
+####################################################################################################
+# 5.2 Checks that are not PASS
+####################################################################################################
+
+Figure 43: Warnings (data kept, reported) and limitations (information missing from the integrated database; see each rule)
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| Check                                   | Severity   | Result     | Violations | Rule                                                   |
++=========================================+============+============+============+========================================================+
+| STAT-completed-without-discharge-record | WARNING    | WARNING    | 229        | Every discharged / deceased admission has a            |
+|                                         |            |            |            | DischargeRecord. WARNING: no DischargeRecord was       |
+|                                         |            |            |            | imported for this admission (it may have been          |
+|                                         |            |            |            | quarantined in Task 2); the admission is kept and      |
+|                                         |            |            |            | reported.                                              |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| TIME-DiagnosticOrder-in-admission       | WARNING    | WARNING    | 1          | DiagnosticOrder.order_time is not before the           |
+|                                         |            |            |            | admission's admit_time and, when the admission has a   |
+|                                         |            |            |            | discharge_time, not after it. Known: a few records     |
+|                                         |            |            |            | have a timestamp outside the admission period (the     |
+|                                         |            |            |            | offending rows are days before admit or after          |
+|                                         |            |            |            | discharge); they are kept and reported as a warning,   |
+|                                         |            |            |            | not rejected.                                          |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| TIME-Diagnosis-in-admission             | WARNING    | WARNING    | 3          | Diagnosis.diagnosis_time is not before the admission's |
+|                                         |            |            |            | admit_time and, when the admission has a               |
+|                                         |            |            |            | discharge_time, not after it. Known: a few records     |
+|                                         |            |            |            | have a timestamp outside the admission period (the     |
+|                                         |            |            |            | offending rows are days before admit or after          |
+|                                         |            |            |            | discharge); they are kept and reported as a warning,   |
+|                                         |            |            |            | not rejected.                                          |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| TIME-ClinicalNote-in-admission          | WARNING    | WARNING    | 1          | ClinicalNote.note_time is not before the admission's   |
+|                                         |            |            |            | admit_time and, when the admission has a               |
+|                                         |            |            |            | discharge_time, not after it. Known: a few records     |
+|                                         |            |            |            | have a timestamp outside the admission period (the     |
+|                                         |            |            |            | offending rows are days before admit or after          |
+|                                         |            |            |            | discharge); they are kept and reported as a warning,   |
+|                                         |            |            |            | not rejected.                                          |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| LIM-no-primary-diagnosis                | LIMITATION | LIMITATION | 295        | Every discharged / deceased admission has at least one |
+|                                         |            |            |            | primary diagnosis. No primary ICD-9 diagnosis was      |
+|                                         |            |            |            | imported for this completed admission. Its diagnoses   |
+|                                         |            |            |            | may have been quarantined in Task 2 (duplicates,       |
+|                                         |            |            |            | chronology, invalid dates, unknown ICD-9 codes, orphan |
+|                                         |            |            |            | professionals, parent quarantined) or none was         |
+|                                         |            |            |            | recorded as primary. LIMITATION: it is never invented. |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| LIM-no-primary-none-at-all              | LIMITATION | LIMITATION | 178        | Completed admission with no Diagnosis row at all.      |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| LIM-no-primary-secondary-only           | LIMITATION | LIMITATION | 117        | Completed admission with Diagnosis rows, all of them   |
+|                                         |            |            |            | secondary.                                             |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| LIM-no-primary-source-A                 | LIMITATION | LIMITATION | 60         | Completed admission without a primary diagnosis, from  |
+|                                         |            |            |            | source A.                                              |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| LIM-no-primary-source-B                 | LIMITATION | LIMITATION | 79         | Completed admission without a primary diagnosis, from  |
+|                                         |            |            |            | source B.                                              |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| LIM-no-primary-source-C                 | LIMITATION | LIMITATION | 54         | Completed admission without a primary diagnosis, from  |
+|                                         |            |            |            | source C.                                              |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| LIM-no-primary-source-D                 | LIMITATION | LIMITATION | 102        | Completed admission without a primary diagnosis, from  |
+|                                         |            |            |            | source D.                                              |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+| LIM-null-admission-status               | LIMITATION | LIMITATION | 7          | admission_status is not NULL. LIMITATION: Task 2       |
+|                                         |            |            |            | flagged their status as inconsistent                   |
+|                                         |            |            |            | (status_inconsistent); Task 3 set it to unknown (flag  |
+|                                         |            |            |            | admission_status_set_unknown) because no discharge     |
+|                                         |            |            |            | time could be recovered; these admissions are kept,    |
+|                                         |            |            |            | excluded from the completed-admission checks (a        |
+|                                         |            |            |            | discharge record on one is still a FAIL), and never    |
+|                                         |            |            |            | guessed.                                               |
++-----------------------------------------+------------+------------+------------+--------------------------------------------------------+
+
+####################################################################################################
+# 5.3 Completed admissions without a primary diagnosis
+####################################################################################################
+
+Figure 44: Completed admissions with no primary ICD-9 diagnosis, by source system
++---------------+------------+
+| Source system | Admissions |
++===============+============+
+| Source A      | 60         |
++---------------+------------+
+| Source B      | 79         |
++---------------+------------+
+| Source C      | 54         |
++---------------+------------+
+| Source D      | 102        |
++---------------+------------+
+| Total         | 295        |
++---------------+------------+
+
+Figure 45: Same admissions by kind. Cause: the diagnoses of these stays were quarantined in Task 2 (see output/quarantine/diagnoses.csv), or none was recorded as primary. 7 further admissions have an unknown (NULL) status because Task 2 flagged their status as inconsistent and set it to unknown, so they are not counted as completed
++--------------------------+------------+
+| Kind                     | Admissions |
++==========================+============+
+| No diagnosis of any kind | 178        |
++--------------------------+------------+
+| Secondary diagnoses only | 117        |
++--------------------------+------------+
+| Total                    | 295        |
++--------------------------+------------+
+
+####################################################################################################
+# 5.4 Multiple admissions and diagnoses are preserved
+####################################################################################################
+
+Figure 46: Nothing was collapsed to one row per patient or per admission
++-----------------------------------------+-------+
+| Measure                                 | Count |
++=========================================+=======+
+| Patients                                | 2251  |
++-----------------------------------------+-------+
+| Admissions                              | 3007  |
++-----------------------------------------+-------+
+| Diagnoses                               | 4832  |
++-----------------------------------------+-------+
+| Patients with more than one admission   | 654   |
++-----------------------------------------+-------+
+| Admissions with more than one diagnosis | 1304  |
++-----------------------------------------+-------+
+
+####################################################################################################
+# 5.5 Negative tests
+####################################################################################################
+
+Figure 47: Invalid changes the database must refuse (the last test is a valid change that must be accepted)
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| Test                   | Rule                   | Mechanism              | Attempted change       | Rejected | Database error         |
++========================+========================+========================+========================+==========+========================+
+| NEG-pk-patient         | Patient id is unique   | PRIMARY KEY            | INSERT Patient with    | yes      | UNIQUE constraint      |
+|                        |                        |                        | existing patient_id=1  |          | failed:                |
+|                        |                        |                        |                        |          | Patient.patient_id     |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-fk-admission-patie | Admission needs an     | FOREIGN KEY            | INSERT Admission with  | yes      | FOREIGN KEY constraint |
+| nt                     | existing patient       |                        | patient_id=-1          |          | failed                 |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-fk-diagnosis-patie | Diagnosis patient must | FOREIGN KEY            | INSERT Diagnosis copy  | yes      | FOREIGN KEY constraint |
+| nt-mismatch            | equal its admission's  | (composite)            | of #1 with             |          | failed                 |
+|                        | patient                |                        | patient_id=2           |          |                        |
+|                        |                        |                        | (admission is of 1)    |          |                        |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-fk-diagnosis-icd9  | Diagnosis ICD-9 code   | FOREIGN KEY            | INSERT Diagnosis copy  | yes      | FOREIGN KEY constraint |
+|                        | must be in the         |                        | of #1 with             |          | failed                 |
+|                        | dictionary             |                        | icd9_code='NOT-A-CODE' |          |                        |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-check-admission-ti | Discharge must not be  | CHECK                  | INSERT Admission with  | yes      | CHECK constraint       |
+| mes                    | before admission       |                        | discharge_time         |          | failed: discharge_time |
+|                        |                        |                        | 2020-01-01 <           |          | IS NULL OR             |
+|                        |                        |                        | admit_time 2020-01-02  |          | discharge_time >=      |
+|                        |                        |                        |                        |          | admit_time             |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-check-unitstay-tim | Unit exit must not be  | CHECK                  | INSERT UnitStay copy   | yes      | CHECK constraint       |
+| es                     | before entry           |                        | of #1 with exit        |          | failed: exit_time IS   |
+|                        |                        |                        | 2020-01-01 < entry     |          | NULL OR exit_time >=   |
+|                        |                        |                        | 2020-01-02             |          | entry_time             |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-check-sex          | sex is female / male / | CHECK                  | UPDATE Patient #1 SET  | yes      | CHECK constraint       |
+|                        | unknown                |                        | sex='other'            |          | failed: sex IN         |
+|                        |                        |                        |                        |          | ('female', 'male',     |
+|                        |                        |                        |                        |          | 'unknown')             |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-notnull-patient-na | Patient full_name is   | NOT NULL               | INSERT Patient with    | yes      | NOT NULL constraint    |
+| me                     | required               |                        | full_name NULL         |          | failed:                |
+|                        |                        |                        |                        |          | Patient.full_name      |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-notnull-icd9-key   | ICD9Dictionary key is  | NOT NULL               | INSERT ICD9Dictionary  | yes      | NOT NULL constraint    |
+|                        | never NULL             |                        | with icd9_code NULL    |          | failed: ICD9Dictionary |
+|                        |                        |                        |                        |          | .icd9_code             |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-unique-professiona | One professional row   | UNIQUE                 | INSERT                 | yes      | UNIQUE constraint      |
+| l-source               | per source record      |                        | HealthcareProfessional |          | failed: HealthcareProf |
+|                        |                        |                        | with existing (A, 1)   |          | essional.source_system |
+|                        |                        |                        | and a new id           |          | , HealthcareProfession |
+|                        |                        |                        |                        |          | al.source_record_id    |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-unique-discharge-p | At most one discharge  | UNIQUE                 | INSERT DischargeRecord | yes      | UNIQUE constraint      |
+| er-admission           | record per admission   |                        | for admission 1 that   |          | failed: DischargeRecor |
+|                        |                        |                        | already has one        |          | d.admission_id         |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-trg-radiology-wind | Radiology exam inside  | trigger                | INSERT                 | yes      | exam_time must be      |
+| ow                     | its admission window   |                        | RadiologyExamination   |          | inside its admission   |
+|                        |                        |                        | copy of #1 (admission  |          | period (admit_time to  |
+|                        |                        |                        | 2) with exam_time      |          | discharge_time)        |
+|                        |                        |                        | 1900-01-01T00:00:00Z   |          |                        |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-trg-procedure-wind | Surgical procedure     | trigger                | INSERT                 | yes      | procedure_time must be |
+| ow                     | inside its admission   |                        | SurgicalProcedure copy |          | inside its admission   |
+|                        | window                 |                        | of #1 (admission 5)    |          | period (admit_time to  |
+|                        |                        |                        | with procedure_time    |          | discharge_time)        |
+|                        |                        |                        | 1900-01-01T00:00:00Z   |          |                        |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-trg-discharge-acti | Discharge record only  | trigger                | INSERT DischargeRecord | yes      | DischargeRecord        |
+| ve                     | for a                  |                        | for active admission   |          | requires an admission  |
+|                        | discharged/deceased    |                        | 617                    |          | with status discharged |
+|                        | admission              |                        |                        |          | or deceased            |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| NEG-trg-shrink-window  | Admission window       | trigger                | UPDATE Admission 2 SET | yes      | admission period       |
+|                        | cannot exclude its     |                        | admit_time = 1 day     |          | cannot exclude its     |
+|                        | radiology exams        |                        | after exam #1          |          | radiology exams or     |
+|                        |                        |                        |                        |          | procedures             |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+| POS-control-radiology- | Valid exam (exam_time  | none (positive         | INSERT                 | no       | (accepted)             |
+| valid                  | = admit_time) is       | control)               | RadiologyExamination   |          |                        |
+|                        | accepted               |                        | copy of #1 with        |          |                        |
+|                        |                        |                        | exam_time = its        |          |                        |
+|                        |                        |                        | admission's admit_time |          |                        |
++------------------------+------------------------+------------------------+------------------------+----------+------------------------+
+
+####################################################################################################
+# 5.6 Database enforcement inventory
+####################################################################################################
+
+Figure 48: Triggers in the database (keys, NOT NULL, UNIQUE and CHECK rules are in the table definitions)
++---------------------------------------+----------------------+---------------+
+| Trigger                               | Table                | Event         |
++=======================================+======================+===============+
+| trg_admission_keep_completed          | Admission            | BEFORE UPDATE |
++---------------------------------------+----------------------+---------------+
+| trg_admission_keep_window             | Admission            | BEFORE UPDATE |
++---------------------------------------+----------------------+---------------+
+| trg_discharge_record_completed_insert | DischargeRecord      | BEFORE INSERT |
++---------------------------------------+----------------------+---------------+
+| trg_discharge_record_completed_update | DischargeRecord      | BEFORE UPDATE |
++---------------------------------------+----------------------+---------------+
+| trg_radiology_in_admission_insert     | RadiologyExamination | BEFORE INSERT |
++---------------------------------------+----------------------+---------------+
+| trg_radiology_in_admission_update     | RadiologyExamination | BEFORE UPDATE |
++---------------------------------------+----------------------+---------------+
+| trg_procedure_in_admission_insert     | SurgicalProcedure    | BEFORE INSERT |
++---------------------------------------+----------------------+---------------+
+| trg_procedure_in_admission_update     | SurgicalProcedure    | BEFORE UPDATE |
++---------------------------------------+----------------------+---------------+
