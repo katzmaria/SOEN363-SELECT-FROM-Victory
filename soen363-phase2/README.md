@@ -9,7 +9,7 @@ Report (Google Doc): https://docs.google.com/document/d/1iXljZzHY5cRejdzYDqD--PL
 
 | Task | Who | Folder | Status |
 |---|---|---|---|
-| Synthetic source data (A–D) and data contract | Samuel Richard (B, D, contract), Maria-Christine Catiche (A, C) | `data/raw/`, `generator/`, `docs/` | Done |
+| Synthetic source data (A–D) and data contract | Samuel Richard (B, D, contract), Maria-Christine Catiche (A, C) | `data/raw/`, `docs/` | Done |
 | Task 1: Inspect and load the data | Maria-Christine Catiche | `task1_load_profile/` | Done |
 | Task 2: Clean and standardize the data | Maria-Christine Catiche | `task2_clean/` | Done |
 | Task 3a: Schema revisions (tables, keys, types, constraints, ER diagram) | Vanessa Cherbaka | `task3_integration/schema.sql` | Done |
@@ -95,8 +95,7 @@ soen363-phase2/
 │   ├── queries/                demo_1 to demo_6 (handout) and q01 to q20 (Phase 1, adapted)
 │   └── tables.py               the Task 6 result tables
 ├── data/raw/                   the four raw sources (A_txt, B_csv, C_xml, D_json)
-├── generator/                  the script that generated the synthetic data
-├── docs/                       data contract and generative AI disclosure
+├── docs/                       data contract, generative AI disclosure and the AI generator scripts and prompts (ai_prompts/)
 └── output/                     everything the pipeline writes (rebuilt on every run)
 ```
 
